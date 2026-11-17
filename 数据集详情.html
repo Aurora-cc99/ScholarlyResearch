@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>数据集详情 · 学者论文与开源资源库</title>
+<style>
+:root{--ink:#17313b;--muted:#60747c;--line:#d8e5e9;--accent:#0d7180;--bg:#f4f8f9;--card:#fff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.65 "Segoe UI","Microsoft YaHei",system-ui,-apple-system,sans-serif}
+main{max-width:1180px;margin:0 auto;padding:28px 20px 60px}
+header{background:linear-gradient(135deg,#133342,#0d5568);color:#fff;padding:26px max(20px,calc((100% - 1180px)/2))}
+header h1{margin:0;font-size:27px}
+header p{margin:5px 0 0;color:#d2e4eb;font-size:14px}
+.toolbar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 18px}
+.btn,.back{display:inline-block;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--accent);padding:7px 12px;text-decoration:none;font-size:14px}
+.btn:hover,.back:hover{border-color:var(--accent);background:#eff9fa}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:24px;box-shadow:0 5px 18px rgba(23,49,59,.05);overflow-wrap:anywhere}
+.muted{color:var(--muted);font-size:13px}
+.en{color:#60747c;margin:-4px 0 10px;font-size:15px}
+.stats{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
+.tag{display:inline-block;background:#edf7f8;color:#205762;border-radius:999px;padding:2px 10px;font-size:12px}
+.tag-warn{background:#fff6dc;color:#8a5a00}
+.urls{display:flex;gap:12px;flex-wrap:wrap;margin:14px 0}
+.urls a{display:inline-block;border:1px solid #b8d8df;background:#f4fbfc;color:var(--accent);padding:6px 12px;border-radius:6px;text-decoration:none;font-size:13px}
+.urls a:hover{background:#e2f4f7;border-color:var(--accent)}
+.info-box{padding:10px 14px;border-left:3px solid #6fa5b5;background:#f6fafb;margin:12px 0;font-size:13px;color:#3d535c}
+.paper-section{margin-top:24px;padding-top:16px;border-top:1px solid var(--line)}
+.paper-section h2{font-size:20px;margin:0}
+.sort{border:1px solid var(--line);border-radius:7px;padding:7px 10px;background:#fff;color:var(--ink);margin-left:auto}
+.paper-list{list-style:none;padding:0;margin:0;border-top:1px solid var(--line)}
+.paper-list li{padding:13px 0;border-bottom:1px solid var(--line);display:flex;gap:14px;align-items:flex-start}
+.paper-year{flex:0 0 56px;color:var(--muted);font-variant-numeric:tabular-nums;font-weight:600}
+.paper-list a{color:var(--accent);text-decoration:none;font-weight:500}
+.paper-list a:hover{text-decoration:underline}
+.paper-meta{display:block;color:var(--muted);font-size:12px;margin-top:3px}
+.empty{padding:30px;text-align:center;color:var(--muted)}
+</style>
+</head>
+<body>
+<header>
+  <h1>数据集详情</h1>
+  <p>数据集名称、下载/申请入口及使用该数据集的全部论文</p>
+</header>
+<main id="app"><div class="card"><div class="empty">正在加载数据集…</div></div></main>
+<script src="db.js"></script>
+<script src="app-common.js"></script>
+<script>
+(function () {
+  'use strict';
+  const db = window.SCHOLAR_DB;
+  const C = window.ScholarCommon;
+  const app = document.getElementById('app');
+  if (!db || !C) {
+    app.innerHTML = '<div class="card"><div class="empty">未能加载数据库文件 <code>db.js</code>。</div></div>';
+    return;
+  }
+
+  C.prepareDb(db);
+  const { el, joined, datasetDisplayName, genericDatasetName, buildDatasetIndex } = C;
+  const datasets = buildDatasetIndex(db);
+
+  function getRouteParams() {
+    const q = new URLSearchParams(location.search || '');
+    const hRaw = String(location.hash || '');
+    const h = new URLSearchParams(hRaw.startsWith('#') ? hRaw.slice(1) : hRaw);
+    return {
+      datasetId: h.get('dataset') || q.get('dataset') || '',
+      returnRaw: h.get('return') || q.get('return') || ''
+    };
+  }
+
+  function render() {
+    const { datasetId, returnRaw } = getRouteParams();
+    const selected = db._datasetById.get(datasetId) || datasets.find(d => d.id === datasetId);
+    const backHref = returnRaw
+      ? '学者论文资源检索.html?return=' + encodeURIComponent(returnRaw)
+      : '学者论文资源检索.html#datasets';
+
+    if (!selected) {
+      app.replaceChildren();
+      const card = el('section', 'card');
+      const emp = el('div', 'empty');
+      emp.append(el('p', '', '未找到该数据集记录，可能链接已过期或参数不完整。'));
+      const back = el('a', 'back', '← 返回数据集总览');
+      back.href = backHref;
+      emp.append(back);
+      card.append(emp);
+      app.append(card);
+      return;
+    }
+
+    const dispName = datasetDisplayName(selected);
+    document.title = dispName + ' · 数据集详情 · 学者论文与开源资源库';
+
+    const card = el('section', 'card');
+    const nav = el('div', 'toolbar');
+    const backBtn = el('a', 'back', '← 返回数据集总览');
+    backBtn.href = backHref;
+    const homeBtn = el('a', 'back', '⌂ 返回检索主页');
+    homeBtn.href = '学者论文资源检索.html';
+    nav.append(backBtn, homeBtn);
+    card.append(nav);
+
+    const h2 = el('h2', '', dispName);
+    h2.style.margin = '6px 0 8px';
+    h2.style.fontSize = '24px';
+    card.append(h2);
+    if (selected.name && selected.name !== dispName && !genericDatasetName(selected.name)) {
+      card.append(el('div', 'en', selected.name));
+    }
+
+    const stats = el('div', 'stats');
+    stats.append(
+      el('span', 'tag', `${selected.papers.length} 篇关联论文`),
+      el('span', 'tag', `${selected.scholar_names.length} 位涉及学者`)
+    );
+    if (selected.occurrences > 1) {
+      stats.append(el('span', 'tag tag-warn', `合并 ${selected.occurrences} 处重复引用`));
+    }
+    card.append(stats);
+
+    if (selected.scholar_names.length) {
+      card.append(el('p', 'muted', '涉及学者：' + selected.scholar_names.join('；')));
+    }
+
+    if (selected.descriptions.length || selected.access_notes.length) {
+      const info = el('div', 'info-box');
+      if (selected.descriptions.length) info.append(el('div', '', '说明：' + selected.descriptions.join('；')));
+      if (selected.access_notes.length) info.append(el('div', '', '访问/获取方式：' + selected.access_notes.join('；')));
+      card.append(info);
+    }
+
+    const urls = el('div', 'urls');
+    selected.urls.forEach((u, i) => {
+      if (!/^https?:\/\/\S+$/i.test(u)) return;
+      const a = el('a', '', selected.urls.length > 1 ? `数据集下载 / 主页入口 ${i + 1} ↗` : '数据集下载 / 主页入口 ↗');
+      a.href = u;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+      urls.append(a);
+    });
+    if (urls.children.length) card.append(urls);
+    else card.append(el('p', 'muted', '本条数据集为私有临床队列或需联系原作者申请，暂无直接公开下载链接。'));
+
+    const section = el('section', 'paper-section');
+    const row = el('div', 'toolbar');
+    row.append(el('h2', '', `使用该数据集的全部论文（${selected.papers.length}）`));
+    const select = el('select', 'sort');
+    [
+      ['year_desc', '按年份降序'],
+      ['year_asc', '按年份升序'],
+      ['title_asc', '按题名排序']
+    ].forEach(([val, txt]) => {
+      const o = el('option', '', txt);
+      o.value = val;
+      select.append(o);
+    });
+    row.append(select);
+    section.append(row);
+
+    const ol = el('ol', 'paper-list');
+    section.append(ol);
+    card.append(section);
+    app.replaceChildren(card);
+
+    const draw = () => {
+      const sorted = [...selected.papers].sort((a, b) => {
+        const ya = Number(a.year) || 0;
+        const yb = Number(b.year) || 0;
+        if (select.value === 'year_asc' && ya !== yb) return ya - yb;
+        if (select.value === 'title_asc') {
+          return String(a.title_zh || a.title || '').localeCompare(String(b.title_zh || b.title || ''), 'zh-CN');
+        }
+        if (yb !== ya) return yb - ya;
+        return String(a.title_zh || a.title || '').localeCompare(String(b.title_zh || b.title || ''), 'zh-CN');
+      });
+
+      if (!sorted.length) {
+        ol.replaceChildren(el('div', 'empty', '暂未反向匹配到具体论文条目。'));
+        return;
+      }
+
+      ol.replaceChildren(...sorted.map(p => {
+        const li = el('li', '');
+        const y = el('span', 'paper-year', String(p.year || '待核'));
+        const wrap = el('div', '');
+        const gid = p.global_record_id || p.record_id;
+        const a = el('a', '', p.title_zh || p.title);
+        a.href = '论文详情.html#paper=' + encodeURIComponent(gid)
+          + '&from_dataset=' + encodeURIComponent(selected.id)
+          + (returnRaw ? '&return=' + encodeURIComponent(returnRaw) : '');
+        wrap.append(a);
+        const metaParts = [];
+        if (p.title && p.title !== p.title_zh) metaParts.push(p.title);
+        if (p.venue) metaParts.push(p.venue);
+        if (p.scholar_names && p.scholar_names.length) metaParts.push('学者：' + joined(p.scholar_names));
+        wrap.append(el('span', 'paper-meta', metaParts.join(' · ')));
+        li.append(y, wrap);
+        return li;
+      }));
+    };
+
+    select.addEventListener('change', draw);
+    draw();
+  }
+
+  render();
+  window.addEventListener('hashchange', render);
+})();
+</script>
+</body>
+</html>

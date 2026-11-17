@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>论文完整信息 · 学者论文与开源资源库</title>
+<style>
+:root{--ink:#182d3a;--muted:#5c6d79;--line:#d7e0e5;--accent:#075c70;--wash:#f2f6f8}
+*{box-sizing:border-box}
+body{margin:0;background:var(--wash);color:var(--ink);font-family:"Segoe UI","Microsoft YaHei",system-ui,sans-serif;line-height:1.65}
+header{background:linear-gradient(135deg,#133342,#0d5568);color:#fff;padding:28px max(22px,calc((100vw - 1100px)/2))}
+header h1{margin:0 0 6px;font-size:27px}
+header p{margin:3px 0;color:#d2e4eb;font-size:13px}
+.wrap{max-width:1100px;margin:auto;padding:22px}
+.panel{background:#fff;border:1px solid var(--line);border-radius:10px;padding:24px;margin-top:18px;overflow-wrap:anywhere}
+.toolbar{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:8px}
+.back{display:inline-block;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--accent);padding:6px 12px;font-size:14px;text-decoration:none}
+.back:hover{border-color:var(--accent);background:#eff9fa;text-decoration:none}
+.detail h2{font-size:24px;line-height:1.45;margin:14px 0 8px}
+.en{color:#49616e;font-size:15px;margin-bottom:13px}
+.meta{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+.tag{padding:3px 9px;border-radius:4px;background:#eaf2f5;color:#315766;font-size:12px}
+.authors{color:var(--muted);font-size:13px}
+.section{border-top:1px solid var(--line);padding-top:14px;margin-top:18px}
+.section h3{font-size:16px;margin:0 0 8px}
+.links{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:14px}
+.resource{padding:10px 12px;border-left:3px solid #6fa5b5;background:#f5f8f9;margin:8px 0;font-size:13px;border-radius:0 6px 6px 0}
+.resource-title{font-weight:600;margin-right:12px;display:inline-block}
+.resource a{margin-right:12px;display:inline-block}
+.muted{color:var(--muted);font-size:13px;margin:6px 0}
+.empty{padding:30px;text-align:center;color:var(--muted)}
+a{color:#00657c;text-decoration:none}
+a:hover{text-decoration:underline}
+.note{padding:9px 11px;background:#f5f8f9;border-left:3px solid #a8bdc7;color:#53626d;font-size:13px;margin-top:12px}
+</style>
+</head>
+<body>
+<header>
+  <h1>论文完整信息</h1>
+  <p>学者论文与开源资源库 · 题目、年份、作者、分类、DOI 与关联开源资源</p>
+</header>
+<main class="wrap">
+  <section class="panel detail" id="detail">
+    <div class="empty">正在加载论文信息…</div>
+  </section>
+</main>
+<script src="db.js"></script>
+<script src="app-common.js"></script>
+<script>
+(function () {
+  'use strict';
+  const db = window.SCHOLAR_DB;
+  const C = window.ScholarCommon;
+  const d = document.getElementById('detail');
+  if (!db || !C) {
+    d.innerHTML = '<div class="empty">未能加载数据库文件 <code>db.js</code>。</div>';
+    return;
+  }
+
+  C.prepareDb(db);
+  const { list, joined, el, addLink, doiUrl, paperLinkUrl, evidenceLabel, linkedResourcesForPaper, buildDatasetIndex } = C;
+  const datasets = buildDatasetIndex(db);
+
+  function hashParams() {
+    const h = typeof location === 'undefined' ? '' : String(location.hash || '');
+    return new URLSearchParams(h.startsWith('#') ? h.slice(1) : h);
+  }
+
+  function paperFromHash() {
+    const params = hashParams();
+    const qParams = new URLSearchParams(location.search || '');
+    const id = params.get('paper') || qParams.get('paper');
+    if (!id) return null;
+    return db._paperByAnyId.get(String(id)) || null;
+  }
+
+  function buildNav(toolbar) {
+    const hp = hashParams();
+    const fromDataset = hp.get('from_dataset');
+    const rawReturn = hp.get('return');
+    if (fromDataset) {
+      const dsBack = el('a', 'back', '← 返回数据集详情');
+      dsBack.href = '数据集详情.html#dataset=' + encodeURIComponent(fromDataset) + (rawReturn ? '&return=' + encodeURIComponent(rawReturn) : '');
+      toolbar.append(dsBack);
+    }
+    const back = el('a', 'back', fromDataset ? '← 返回论文检索列表' : '← 返回论文检索');
+    back.href = rawReturn ? '学者论文资源检索.html?return=' + encodeURIComponent(rawReturn) : '学者论文资源检索.html';
+    toolbar.append(back);
+    if (rawReturn || fromDataset) {
+      const home = el('a', 'back', '⌂ 检索主页');
+      home.href = '学者论文资源检索.html';
+      toolbar.append(home);
+    }
+  }
+
+  function render(p) {
+    d.replaceChildren();
+    const toolbar = el('div', 'toolbar');
+    buildNav(toolbar);
+    d.append(toolbar);
+
+    if (!p) {
+      d.append(el('div', 'empty', '没有找到对应论文记录，请从检索面板点击论文标题进入。'));
+      return;
+    }
+
+    document.title = (p.title_zh || p.title || '论文详情') + ' · 学者论文与开源资源库';
+    const h = el('h2', '');
+    h.textContent = p.title_zh || p.title;
+    d.append(h);
+    if (p.title_zh && p.title_zh !== p.title) d.append(el('div', 'en', p.title));
+
+    const meta = el('div', 'meta');
+    meta.append(
+      el('span', 'tag', '年份：' + (p.year || '待核')),
+      el('span', 'tag', '来源：' + (p.venue || '待核')),
+      el('span', 'tag', '版本状态：' + (p.status || '待核'))
+    );
+    list(p.scholar_names).forEach(n => meta.append(el('span', 'tag', '学者：' + n)));
+    d.append(meta);
+    if (list(p.authors).length) d.append(el('p', 'authors', '作者：' + joined(p.authors)));
+
+    const info = el('div', 'section');
+    info.append(el('h3', '', '书目信息'));
+    [
+      ['DOI', p.doi],
+      ['DBLP 键', p.dblp_key],
+      ['全局记录 ID', p.global_record_id],
+      ['作者原始记录 ID', joined(p.source_record_ids)],
+      ['来源 URL', p.source_url],
+      ['译名来源', p.translation_source]
+    ].forEach(([k, v]) => {
+      if (!v) return;
+      const row = el('p', 'muted');
+      row.append(el('span', '', k + '：'));
+      if (k === 'DOI' && p.doi) {
+        const dHref = doiUrl(p.doi);
+        if (dHref) addLink(row, dHref, String(p.doi));
+        else row.append(el('span', '', String(p.doi)));
+      } else if (k === '来源 URL' && /^https?:\/\//i.test(String(v))) {
+        addLink(row, String(v), String(v));
+      } else {
+        row.append(el('span', '', Array.isArray(v) ? joined(v) : String(v)));
+      }
+      info.append(row);
+    });
+    d.append(info);
+
+    const links = el('div', 'section');
+    links.append(el('h3', '', '论文与公开入口'));
+    const ll = el('div', 'links');
+    const mainPaperUrl = paperLinkUrl(p);
+    addLink(ll, mainPaperUrl, '论文 / 出版页面');
+    addLink(ll, p.pdf_url, '全文 PDF');
+    if (p.source_url && p.source_url !== mainPaperUrl) addLink(ll, p.source_url, '书目来源');
+    list(p.document_urls).forEach((u, i) => {
+      if (u !== mainPaperUrl && u !== p.pdf_url) addLink(ll, u, '文档' + (i + 1));
+    });
+    if (!ll.children.length) {
+      links.append(el('p', 'muted', '当前记录暂无已核验的外部全文或 DOI 页面链接。'));
+    } else {
+      links.append(ll);
+    }
+    d.append(links);
+
+    const clsEntries = Object.entries(p.scholar_categories || {}).filter(([, v]) => v && v.category_id !== '__legacy_compat__');
+    if (clsEntries.length || p.classification_basis) {
+      const cls = el('div', 'section');
+      cls.append(el('h3', '', '学者内分类'));
+      clsEntries.forEach(([, v]) => {
+        let text = v.scholar_name + '：' + v.label;
+        if (v.secondary_tags && v.secondary_tags.length) text += '；辅助标签：' + joined(v.secondary_tags);
+        if (v.note) text += '；说明：' + v.note;
+        cls.append(el('p', 'muted', text));
+      });
+      if (p.classification_basis) cls.append(el('p', 'muted', '分类依据：' + p.classification_basis));
+      d.append(cls);
+    }
+
+    if (list(p.topics).length || p.date_note || p.verification) {
+      const topics = el('div', 'section');
+      topics.append(el('h3', '', '主题与核验说明'));
+      if (list(p.topics).length) topics.append(el('p', 'muted', '主题标签：' + joined(p.topics)));
+      if (p.date_note) topics.append(el('p', 'note', p.date_note));
+      if (p.verification) topics.append(el('p', 'muted', '核验说明：' + p.verification));
+      d.append(topics);
+    }
+
+    const resources = linkedResourcesForPaper(db, p);
+    const rs = el('div', 'section');
+    rs.append(el('h3', '', '关联代码、数据、模型与其他资源'));
+    if (!resources.length) {
+      rs.append(el('p', 'muted', '本轮没有匹配到独立资源条目。'));
+    } else {
+      resources.forEach(r => {
+        const row = el('div', 'resource');
+        row.append(el('span', 'resource-title', (r.name_zh || r.name) + '（' + (r.type || '资源') + '）'));
+        addLink(row, r.url, '资源主页');
+        if (r.download_url && r.download_url !== r.url) addLink(row, r.download_url, '下载 / 申请');
+        list(r.evidence_urls).slice(0, 5).forEach(u => {
+          if (u !== r.url && u !== r.download_url) addLink(row, u, evidenceLabel(u, r.type));
+        });
+        if (r.description) row.append(el('div', 'muted', r.description));
+        rs.append(row);
+      });
+    }
+    d.append(rs);
+
+    // Related datasets cross-navigation
+    const gid = String(p.global_record_id || p.record_id || '');
+    const relatedDatasets = datasets.filter(ds => ds.paper_ids.includes(gid));
+    if (relatedDatasets.length) {
+      const dsSec = el('div', 'section');
+      dsSec.append(el('h3', '', '关联规范化数据集（点击查看同数据集全部论文）'));
+      const dsLinks = el('div', 'links');
+      const rawReturn = hashParams().get('return');
+      relatedDatasets.forEach(ds => {
+        const a = el('a', '', ds._displayName + `（${ds.papers.length}篇）`);
+        a.href = '数据集详情.html#dataset=' + encodeURIComponent(ds.id) + (rawReturn ? '&return=' + encodeURIComponent(rawReturn) : '');
+        dsLinks.append(a);
+      });
+      dsSec.append(dsLinks);
+      d.append(dsSec);
+    }
+
+    const more = el('div', 'section');
+    more.append(el('h3', '', '论文资源字段汇总'));
+    const renderUrlRow = (label, urls) => {
+      const row = el('p', 'muted');
+      row.append(el('span', '', label + '：'));
+      const arr = list(urls);
+      if (!arr.length) {
+        row.append(el('span', '', '未定位'));
+      } else {
+        arr.forEach((u, idx) => {
+          if (idx > 0) row.append(el('span', '', ' ； '));
+          addLink(row, u, u);
+        });
+      }
+      more.append(row);
+    };
+    renderUrlRow('代码入口', p.code_urls);
+    renderUrlRow('数据入口', p.data_urls);
+    renderUrlRow('模型入口', p.model_urls);
+    more.append(el('p', 'muted', '资源状态：' + (p.resource_status || '未说明')));
+    d.append(more);
+  }
+
+  render(paperFromHash());
+  window.addEventListener('hashchange', () => render(paperFromHash()));
+})();
+</script>
+</body>
+</html>

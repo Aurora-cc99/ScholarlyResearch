@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>文档导航与说明 · 学者论文与开源资源库</title>
+<style>
+:root{--ink:#182d3a;--muted:#5c6d79;--line:#d7e0e5;--accent:#075c70;--wash:#f2f6f8}
+*{box-sizing:border-box}
+body{margin:0;background:var(--wash);color:var(--ink);font-family:"Segoe UI","Microsoft YaHei",system-ui,sans-serif;line-height:1.7}
+header{background:linear-gradient(135deg,#133342,#0d5568);color:#fff;padding:26px max(22px,calc((100vw - 1180px)/2))}
+header h1{margin:0 0 4px;font-size:25px}
+header p{margin:0;color:#d2e4eb;font-size:13px}
+.wrap{max-width:1180px;margin:auto;padding:22px}
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.btn{display:inline-block;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--accent);padding:6px 12px;font-size:13px;text-decoration:none}
+.btn:hover{border-color:var(--accent);background:#eff9fa;text-decoration:none}
+.btn.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.doc{background:#fff;border:1px solid var(--line);border-radius:10px;padding:28px 32px;overflow-x:auto}
+.doc h1{font-size:26px;border-bottom:1px solid var(--line);padding-bottom:10px;margin-top:0}
+.doc h2{font-size:20px;margin-top:26px;border-bottom:1px solid #edf2f5;padding-bottom:6px}
+.doc h3{font-size:17px;margin-top:20px}
+.doc p,.doc li{font-size:14px}
+.doc ul,.doc ol{padding-left:22px}
+.doc code{background:#eef4f6;padding:2px 5px;border-radius:4px;font-size:13px;font-family:Consolas,monospace}
+.doc pre{background:#182d3a;color:#eef6f9;padding:14px;border-radius:8px;overflow:auto}
+.doc pre code{background:none;color:inherit;padding:0}
+.doc blockquote{margin:14px 0;padding:8px 14px;border-left:4px solid #7ab0bf;background:#f5fafb;color:#425965}
+.doc table{width:100%;border-collapse:collapse;margin:16px 0;font-size:13px}
+.doc th,.doc td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+.doc th{background:#f1f7f9;font-weight:600;position:sticky;top:0}
+.doc tr:nth-child(even) td{background:#fafcfd}
+.doc a{color:#00657c;text-decoration:none}
+.doc a:hover{text-decoration:underline}
+.empty{padding:36px;text-align:center;color:var(--muted)}
+@media(max-width:720px){.wrap{padding:14px}.doc{padding:18px}}
+</style>
+</head>
+<body>
+<header>
+  <h1 id="pageTitle">文档导航与说明</h1>
+  <p id="pageSub">学者论文与开源资源库 · 在线文档阅读器</p>
+</header>
+<main class="wrap">
+  <nav class="toolbar" id="toolbar">
+    <a class="btn" href="学者论文资源检索.html">← 返回论文资源检索</a>
+    <a class="btn" data-doc="README_总导航.md" href="文档浏览.html?doc=README_%E6%80%BB%E5%AF%BC%E8%88%AA.md">总导航</a>
+    <a class="btn" data-doc="分类概览.md" href="文档浏览.html?doc=%E5%88%86%E7%B1%BB%E6%A6%82%E8%A7%88.md">分类概览</a>
+    <a class="btn" data-doc="检索与覆盖说明.md" href="文档浏览.html?doc=%E6%A3%80%E7%B4%A2%E4%B8%8E%E8%A6%86%E7%9B%96%E8%AF%B4%E6%98%8E.md">覆盖范围</a>
+    <a class="btn" data-doc="跨学者主题与资源关联.md" href="文档浏览.html?doc=%E8%B7%A8%E5%AD%A6%E8%80%85%E4%B8%BB%E9%A2%98%E4%B8%8E%E8%B5%84%E6%BA%90%E5%85%B3%E8%81%94.md">跨学者关联</a>
+    <a class="btn" data-doc="论文链接完整性审计.md" href="文档浏览.html?doc=%E8%AE%BA%E6%96%87%E9%93%BE%E6%8E%A5%E5%AE%8C%E6%95%B4%E6%80%A7%E5%AE%A1%E8%AE%A1.md">链接完整性审计</a>
+    <a class="btn" id="rawLink" href="#" target="_blank" style="margin-left:auto">查看原始 Markdown ↗</a>
+  </nav>
+  <article class="doc" id="docContent">
+    <div class="empty">正在加载文档…</div>
+  </article>
+</main>
+<script src="docs-bundle.js"></script>
+<script>
+(function () {
+  'use strict';
+  const bundle = window.SCHOLAR_DOCS || {};
+  const docEl = document.getElementById('docContent');
+  const rawLink = document.getElementById('rawLink');
+
+  function normalizeRelPath(baseDir, target) {
+    const joined = baseDir ? baseDir + '/' + target : target;
+    const parts = joined.replace(/\\/g, '/').split('/');
+    const out = [];
+    for (const part of parts) {
+      if (!part || part === '.') continue;
+      if (part === '..') out.pop();
+      else out.push(part);
+    }
+    return out.join('/');
+  }
+
+  function escapeHtml(s) {
+    return String(s || '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
+  function encodePathSegments(relPath) {
+    return relPath.split('/').map(encodeURIComponent).join('/');
+  }
+
+  function formatInline(text, baseDir) {
+    let s = escapeHtml(text);
+    // Inline code
+    const codes = [];
+    s = s.replace(/`([^`]+)`/g, (_, c) => {
+      codes.push('<code>' + c + '</code>');
+      return '\u0000CODE' + (codes.length - 1) + '\u0000';
+    });
+    // Links [label](url)
+    s = s.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_, label, rawHref) => {
+      const href = rawHref.trim();
+      if (/^(https?:|mailto:)/i.test(href)) {
+        return `<a href="${href}" target="_blank" rel="noopener noreferrer">${label}</a>`;
+      }
+      if (href.startsWith('#')) {
+        return `<a href="${href}">${label}</a>`;
+      }
+      const [pathPart, hashPart] = href.split('#');
+      let decodedPath = pathPart;
+      try { decodedPath = decodeURIComponent(pathPart); } catch (e) {}
+      const resolved = normalizeRelPath(baseDir, decodedPath);
+      if (/\.md$/i.test(resolved)) {
+        const viewerUrl = '文档浏览.html?doc=' + encodeURIComponent(resolved) + (hashPart ? '#' + hashPart : '');
+        return `<a href="${viewerUrl}">${label}</a>`;
+      }
+      const fileUrl = encodePathSegments(resolved) + (hashPart ? '#' + hashPart : '');
+      return `<a href="${fileUrl}">${label}</a>`;
+    });
+    // Bold & italic
+    s = s.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+    s = s.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+    s = s.replace(/\u0000CODE(\d+)\u0000/g, (_, i) => codes[Number(i)]);
+    return s;
+  }
+
+  function renderMarkdown(md, docPath) {
+    const slashIdx = docPath.lastIndexOf('/');
+    const baseDir = slashIdx >= 0 ? docPath.slice(0, slashIdx) : '';
+    const lines = String(md || '').replace(/\r\n/g, '\n').split('\n');
+    const html = [];
+    let i = 0;
+
+    while (i < lines.length) {
+      const line = lines[i];
+      if (!line.trim()) { i++; continue; }
+
+      // Fenced code block
+      if (line.trim().startsWith('```')) {
+        const codeLines = [];
+        i++;
+        while (i < lines.length && !lines[i].trim().startsWith('```')) {
+          codeLines.push(escapeHtml(lines[i]));
+          i++;
+        }
+        i++;
+        html.push('<pre><code>' + codeLines.join('\n') + '</code></pre>');
+        continue;
+      }
+
+      // Heading
+      const hm = line.match(/^(#{1,6})\s+(.+)$/);
+      if (hm) {
+        const level = hm[1].length;
+        html.push(`<h${level}>${formatInline(hm[2].trim(), baseDir)}</h${level}>`);
+        i++;
+        continue;
+      }
+
+      // Table
+      if (line.includes('|') && i + 1 < lines.length && /^\s*\|?\s*[-:]+[-|\s:]+\s*$/.test(lines[i + 1])) {
+        const parseCells = row => {
+          let r = row.trim();
+          if (r.startsWith('|')) r = r.slice(1);
+          if (r.endsWith('|')) r = r.slice(0, -1);
+          return r.split('|').map(c => c.trim());
+        };
+        const headers = parseCells(line);
+        i += 2;
+        const rows = [];
+        while (i < lines.length && lines[i].includes('|') && lines[i].trim()) {
+          rows.push(parseCells(lines[i]));
+          i++;
+        }
+        let tbl = '<table><thead><tr>' + headers.map(h => `<th>${formatInline(h, baseDir)}</th>`).join('') + '</tr></thead><tbody>';
+        rows.forEach(r => {
+          tbl += '<tr>' + headers.map((_, idx) => `<td>${formatInline(r[idx] || '', baseDir)}</td>`).join('') + '</tr>';
+        });
+        tbl += '</tbody></table>';
+        html.push(tbl);
+        continue;
+      }
+
+      // Blockquote
+      if (line.trim().startsWith('>')) {
+        const qLines = [];
+        while (i < lines.length && lines[i].trim().startsWith('>')) {
+          qLines.push(formatInline(lines[i].replace(/^\s*>\s?/, ''), baseDir));
+          i++;
+        }
+        html.push('<blockquote>' + qLines.join('<br>') + '</blockquote>');
+        continue;
+      }
+
+      // List
+      if (/^\s*([-*+]|\d+\.)\s+/.test(line)) {
+        const ordered = /^\s*\d+\.\s+/.test(line);
+        const tag = ordered ? 'ol' : 'ul';
+        const items = [];
+        while (i < lines.length && /^\s*([-*+]|\d+\.)\s+/.test(lines[i])) {
+          items.push('<li>' + formatInline(lines[i].replace(/^\s*([-*+]|\d+\.)\s+/, ''), baseDir) + '</li>');
+          i++;
+        }
+        html.push(`<${tag}>` + items.join('') + `</${tag}>`);
+        continue;
+      }
+
+      // Paragraph
+      const pLines = [];
+      while (
+        i < lines.length &&
+        lines[i].trim() &&
+        !lines[i].trim().startsWith('#') &&
+        !lines[i].trim().startsWith('```') &&
+        !lines[i].trim().startsWith('>') &&
+        !/^\s*([-*+]|\d+\.)\s+/.test(lines[i]) &&
+        !(lines[i].includes('|') && i + 1 < lines.length && /^\s*\|?\s*[-:]+[-|\s:]+\s*$/.test(lines[i + 1]))
+      ) {
+        pLines.push(formatInline(lines[i], baseDir));
+        i++;
+      }
+      html.push('<p>' + pLines.join(' ') + '</p>');
+    }
+    return html.join('\n');
+  }
+
+  async function loadDoc() {
+    const params = new URLSearchParams(location.search || '');
+    const rawDoc = params.get('doc') || 'README_总导航.md';
+    const docPath = normalizeRelPath('', rawDoc);
+
+    document.querySelectorAll('#toolbar [data-doc]').forEach(btn => {
+      btn.classList.toggle('active', btn.getAttribute('data-doc') === docPath);
+    });
+    rawLink.href = encodePathSegments(docPath);
+    document.getElementById('pageSub').textContent = '当前文档：' + docPath;
+
+    if (Object.prototype.hasOwnProperty.call(bundle, docPath)) {
+      docEl.innerHTML = renderMarkdown(bundle[docPath], docPath);
+      const h1 = docEl.querySelector('h1');
+      if (h1) document.title = h1.textContent + ' · 学者论文与开源资源库';
+      return;
+    }
+
+    try {
+      const resp = await fetch(encodePathSegments(docPath));
+      if (!resp.ok) throw new Error('HTTP ' + resp.status);
+      const text = await resp.text();
+      docEl.innerHTML = renderMarkdown(text, docPath);
+      const h1 = docEl.querySelector('h1');
+      if (h1) document.title = h1.textContent + ' · 学者论文与开源资源库';
+    } catch (e) {
+      docEl.innerHTML = `<div class="empty"><p>当前处于本地离线协议（<code>file://</code>）或无法读取子目录 Markdown：<code>${escapeHtml(docPath)}</code>。</p><p><a class="btn" href="${encodePathSegments(docPath)}">直接打开原始文档文件</a> <a class="btn" href="学者论文资源检索.html">返回论文资源检索</a></p></div>`;
+    }
+  }
+
+  loadDoc();
+})();
+</script>
+</body>
+</html>

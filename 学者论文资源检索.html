@@ -1,0 +1,1042 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>学者论文与开源资源库 · 论文、代码、数据集与模型检索</title>
+<style>
+:root{--ink:#182d3a;--muted:#5c6d79;--line:#d7e0e5;--accent:#075c70;--paper:#fff;--wash:#f2f6f8}
+*{box-sizing:border-box}
+body{margin:0;background:var(--wash);color:var(--ink);font-family:"Segoe UI","Microsoft YaHei",system-ui,sans-serif;line-height:1.6}
+header{background:linear-gradient(135deg,#133342,#0d5568);color:#fff;padding:32px max(24px,calc((100vw - 1320px)/2))}
+h1{font-size:29px;line-height:1.3;margin:0 0 8px}
+header p{margin:5px 0;color:#d2e4eb;font-size:14px}
+.wrap{max-width:1370px;margin:auto;padding:22px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.stat{background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px 18px}
+.stat b{display:block;font-size:25px;color:var(--accent)}
+.stat span{font-size:12px;color:var(--muted)}
+.panel{padding:20px;background:#fff;border:1px solid var(--line);border-radius:10px;margin-top:18px}
+.filters{display:grid;grid-template-columns:2.4fr 1fr 1fr 1fr;gap:12px}
+label{display:block;font-size:12px;color:var(--muted)}
+input,select,button{font:inherit}
+input,select{width:100%;border:1px solid #bacbd3;border-radius:6px;padding:9px;background:#fff;color:var(--ink)}
+input:disabled,select:disabled{background:#f4f7f8;color:#8fa0aa;cursor:not-allowed}
+.second{display:flex;align-items:end;gap:12px;margin-top:12px;flex-wrap:wrap}
+.second label.year-input{width:98px}
+.second label.sort-select{width:165px}
+.second .nav-links{display:flex;gap:12px;flex-wrap:wrap;align-items:center;padding-bottom:8px;margin-left:auto}
+.second a{font-size:13px;font-weight:500}
+.tabs{display:flex;gap:8px;margin:18px 0 14px;flex-wrap:wrap}
+button{border:1px solid #bacbd3;border-radius:6px;background:#fff;padding:8px 15px;cursor:pointer;color:var(--ink);transition:background .15s,border-color .15s}
+button:hover:not(:disabled){border-color:var(--accent);background:#f2f9fb}
+button.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+button:disabled{opacity:.4;cursor:default}
+a{color:#00657c;text-decoration:none}
+a:hover{text-decoration:underline}
+.search-box{position:relative;display:flex;align-items:stretch;gap:6px}
+.search-box input{flex:1;min-width:0}
+.keyword-toggle{padding:6px 11px;white-space:nowrap;background:#eef6f8;color:var(--accent);border-color:#9fc0ca;font-size:12px}
+.keyword-toggle:hover,.keyword-toggle:focus{background:#dceff3}
+.keyword-hints{position:absolute;z-index:30;left:0;right:0;top:calc(100% + 6px);max-height:320px;overflow:auto;padding:10px;background:#fff;border:1px solid #a9c4cc;border-radius:8px;box-shadow:0 12px 28px rgba(24,45,58,.16)}
+.keyword-hints[hidden]{display:none}
+.keyword-group{margin:4px 0 10px}
+.keyword-group-title{font-size:11px;color:var(--muted);font-weight:600;margin:2px 0 5px}
+.keyword-chip{display:inline-flex;align-items:center;gap:5px;margin:2px 4px 2px 0;padding:4px 9px;border:1px solid #c7dce2;border-radius:999px;background:#f5fafb;color:#14586a;font-size:12px;cursor:pointer}
+.keyword-chip:hover,.keyword-chip:focus{background:#dceff3;border-color:#6fa5b5;outline:none}
+.keyword-chip small{color:#6d858e;font-size:10px}
+.resulthead{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:12px}
+.muted{color:var(--muted);font-size:13px}
+.cards{display:grid;gap:12px}
+.card{border:1px solid var(--line);background:#fff;padding:20px;border-radius:9px;overflow-wrap:anywhere}
+.card.focus-card,.dataset-card.focus-card{border:2px solid var(--accent);box-shadow:0 0 0 3px #dceff3}
+.card h2{font-size:18px;line-height:1.55;margin:7px 0 6px}
+.en{color:#49616e;font-size:14px;margin:0 0 9px}
+.meta{font-size:12px;color:#536d7b;display:flex;flex-wrap:wrap;gap:7px;align-items:center}
+.tag{padding:2px 8px;border-radius:4px;background:#eaf2f5;display:inline-block;font-size:12px;margin:2px 4px 2px 0}
+.authors{font-size:12px;color:var(--muted);margin:8px 0}
+.links{display:flex;flex-wrap:wrap;gap:8px 16px;font-size:13px;margin-top:12px}
+.note{padding:7px 10px;border-left:3px solid #a8bdc7;background:#f5f8f9;font-size:12px;color:#53626d;margin-top:10px}
+.paper-links{font-size:13px;margin:10px 0 0;padding:8px 10px;border-left:3px solid #6fa5b5;background:#f5f8f9}
+.paper-links-label{color:var(--muted);margin-right:6px;display:block;margin-bottom:4px}
+.paper-links a{display:block;margin:3px 0}
+.detail-view{margin-top:18px}
+.detail-view h2{font-size:22px;line-height:1.5;margin:8px 0}
+.detail-view .detail-row{margin:8px 0}
+.pager{display:flex;justify-content:center;align-items:center;gap:15px;margin:23px 0}
+.source{font-size:12px;margin-top:8px}
+.empty{padding:38px;text-align:center;color:var(--muted);background:#fff;border:1px solid var(--line);border-radius:10px}
+.yearviz{display:flex;gap:3px;align-items:end;height:65px;margin-top:14px;border-bottom:1px solid var(--line)}
+.bar{flex:1;min-width:3px;background:#4c91a3;border-radius:2px 2px 0 0;cursor:pointer;transition:background .12s}
+.bar:hover{background:var(--accent)}
+.yearlabel{display:flex;justify-content:space-between;color:var(--muted);font-size:11px;margin-top:3px}
+.footer{font-size:12px;color:var(--muted);padding:12px 0 30px}
+details{font-size:12px;color:var(--muted);margin-top:12px}
+summary{cursor:pointer}
+.dataset-intro{background:linear-gradient(135deg,#f7fbfc,#eef6f8)}
+.dataset-toolbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.dataset-toolbar strong{color:var(--accent)}
+.dataset-grid{grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+.dataset-card{border:1px solid #cddfe5;background:#fff;padding:18px;border-radius:10px}
+.dataset-tile{position:relative;min-height:190px;display:flex;flex-direction:column;justify-content:space-between;cursor:pointer;transition:transform .16s ease,box-shadow .16s ease,border-color .16s ease}
+.dataset-hit-area{position:absolute;inset:0;z-index:4;border-radius:inherit;opacity:0;cursor:pointer}
+.dataset-tile:hover,.dataset-tile:focus-within{transform:translateY(-2px);border-color:#76aebb;box-shadow:0 8px 20px rgba(24,45,58,.12)}
+.dataset-card h2{margin:0 0 5px;font-size:17px;line-height:1.45}
+.dataset-name{color:var(--ink)}
+.dataset-name:hover{text-decoration:none;color:var(--accent)}
+.detail-nav{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:10px}
+.detail-nav .back{display:inline-block}
+.dataset-detail-title{margin-top:10px}
+.dataset-detail-papers{margin-top:18px;padding-top:14px;border-top:1px solid var(--line)}
+.dataset-urls{display:flex;gap:10px;flex-wrap:wrap;margin-top:8px}
+.dataset-duplicate{color:#8a5a00;background:#fff6dc;border-radius:999px;padding:2px 8px;font-size:11px}
+.dataset-stats{display:flex;gap:6px;flex-wrap:wrap;margin-top:7px;align-items:center}
+.dataset-stats .tag{background:#edf7f8;margin:0}
+@media(max-width:900px){.filters{grid-template-columns:1fr 1fr}.stats{grid-template-columns:1fr 1fr}.wrap{padding:14px}header{padding:25px 18px}h1{font-size:23px}.card{padding:15px}.second .nav-links{margin-left:0}}
+@media(max-width:520px){.filters{grid-template-columns:1fr}.resulthead{align-items:start;flex-direction:column}}
+</style>
+</head>
+<body>
+<header>
+  <h1>学者论文与开源资源库</h1>
+  <p>潘纲 · 黄铁军 · 陈云霁 · 吕宝粮 · 梁臻 及 150 位相关领域核验学者</p>
+  <p>全时间范围 · 截至 2026-11-14 · 中英文双语检索 · 论文 / 代码 / 数据集 / 模型权重</p>
+</header>
+<main class="wrap">
+  <section class="stats" id="stats"></section>
+  <section class="panel" id="filterPanel">
+    <div class="filters">
+      <label class="search-label">中英文搜索
+        <div id="searchBox" class="search-box">
+          <input id="q" placeholder="脑电、emotion、奖励、SEED、CBraMod、DianNao、黄铁军…" autocomplete="off" aria-controls="keywordHints" aria-expanded="false">
+          <button type="button" id="keywordToggle" class="keyword-toggle" aria-label="显示分类搜索关键词">关键词</button>
+          <div id="keywordHints" class="keyword-hints" role="listbox" aria-label="按类别显示常用搜索关键词" hidden></div>
+        </div>
+      </label>
+      <label>学者
+        <select id="scholar"><option value="">全部学者</option></select>
+      </label>
+      <label>学者内分类
+        <select id="category"><option value="">全部主类别</option></select>
+      </label>
+      <label>资源条件
+        <select id="availability">
+          <option value="">所有记录</option>
+          <option value="code">有代码入口</option>
+          <option value="data">有数据入口</option>
+          <option value="model">有模型入口</option>
+          <option value="linked">已关联任意资源</option>
+          <option value="unlinked">本轮尚未关联资源</option>
+        </select>
+      </label>
+    </div>
+    <div class="second">
+      <label style="width:210px">辅助主题标签
+        <select id="topic"><option value="">全部标签</option></select>
+      </label>
+      <label class="year-input">起始年份
+        <input type="number" id="from" placeholder="不限">
+      </label>
+      <label class="year-input">结束年份
+        <input type="number" id="to" placeholder="不限">
+      </label>
+      <label class="sort-select">排序方式
+        <select id="sort">
+          <option value="year_desc">按年份降序</option>
+          <option value="year_asc">按年份升序</option>
+          <option value="resource_first">有开源资源优先</option>
+          <option value="title_asc">按题名排序</option>
+        </select>
+      </label>
+      <button type="button" id="reset">重置筛选</button>
+      <div class="nav-links">
+        <a href="文档浏览.html?doc=%E5%88%86%E7%B1%BB%E6%A6%82%E8%A7%88.md">分类概览</a>
+        <a href="文档浏览.html?doc=README_%E6%80%BB%E5%AF%BC%E8%88%AA.md">总导航</a>
+        <a href="全部论文总表.csv" download>论文 CSV</a>
+        <a href="全部资源总表.csv" download>资源 CSV</a>
+        <a href="文档浏览.html?doc=%E6%A3%80%E7%B4%A2%E4%B8%8E%E8%A6%86%E7%9B%96%E8%AF%B4%E6%98%8E.md">覆盖范围</a>
+      </div>
+    </div>
+    <div class="yearviz" id="years" aria-label="筛选结果按年份分布"></div>
+    <div class="yearlabel" id="yearlabel"></div>
+    <p class="muted">各学者分别设置主类别，每条个人书目只归入一类；按题名及已核项目用途粗分，未逐篇审阅全文。中文译名供辅助阅读。点击论文标题、关联资源标题或数据集卡片可进入对应详情页；点击年份柱状图可快速筛选单一年份。</p>
+  </section>
+
+  <nav class="tabs" id="tabs">
+    <button type="button" id="papersTab" class="active">论文目录</button>
+    <button type="button" id="resourcesTab">代码 / 数据 / 模型</button>
+    <button type="button" id="datasetsTab">数据集总览</button>
+  </nav>
+
+  <section class="panel dataset-intro" id="datasetIntro" hidden>
+    <div class="dataset-toolbar">
+      <strong>数据集总览</strong>
+      <span class="muted" id="datasetSummary">按规范化名称和链接合并重复数据集；每条数据集列出使用它的论文。</span>
+    </div>
+  </section>
+
+  <div class="resulthead" id="resulthead">
+    <b id="count"></b>
+    <span class="muted" id="context"></span>
+  </div>
+  <section class="cards" id="cards">
+    <div class="empty">正在加载学者论文与开源资源数据库…</div>
+  </section>
+  <div class="pager" id="pager">
+    <button type="button" id="prev">上一页</button>
+    <span id="page"></span>
+    <button type="button" id="next">下一页</button>
+  </div>
+  <section class="panel detail-view" id="detailView" hidden></section>
+  <div class="footer">本页支持离线浏览与在线高速检索；外部论文出版页和数据集下载链接需要网络。许可申请、数据版本、私有队列与具体发布范围请查阅对应资源说明。</div>
+</main>
+<script src="db.js"></script>
+<script src="app-common.js"></script>
+<script>
+(function () {
+  'use strict';
+  const db = window.SCHOLAR_DB;
+  const C = window.ScholarCommon;
+  const $ = s => document.getElementById(s);
+  if (!db || !C) {
+    $('cards').innerHTML = '<div class="empty">未能加载数据库文件 <code>db.js</code>，请确认文件完整并与本网页位于同一目录。</div>';
+    return;
+  }
+
+  C.prepareDb(db);
+  const {
+    OTHER_SCHOLAR_ID,
+    list,
+    joined,
+    el,
+    addLink,
+    paperLinkUrl,
+    evidenceLabel,
+    datasetDisplayName,
+    scholarSelectionMatches,
+    linkedPapersForResource,
+    linkedResourcesForPaper,
+    buildDatasetIndex
+  } = C;
+
+  const activePapers = db._activePapers;
+  const datasets = buildDatasetIndex(db);
+  const pageSize = 25;
+  let mode = 'papers';
+  let page = 0;
+  let datasetPage = 0;
+  let filtered = [];
+  let datasetFiltered = [];
+  let datasetViewId = null;
+
+  // Render top KPI statistics
+  const st = $('stats');
+  [
+    [db.scholars.length, '分别核实身份的学者'],
+    [activePapers.length, '跨学者合并后的书目记录'],
+    [db.resources.length, '开源代码 / 数据 / 模型入口'],
+    [datasets.length, '规范化去重数据集']
+  ].forEach(([n, label]) => {
+    const d = el('div', 'stat');
+    d.append(el('b', '', String(n)), el('span', '', label));
+    st.append(d);
+  });
+
+  // Populate Scholar select (default: '' = 全部学者 so global search works immediately)
+  const lowScholars = db._lowScholars;
+  const lowScholarIds = db._lowScholarIds;
+  const lowScholarCount = lowScholars.reduce((n, s) => n + (Number(s.counts && s.counts.bibliographic_records) || 0), 0);
+  const baseIds = new Set(['pan_gang', 'huang_tiejun', 'chen_yunji', 'lu_baoliang', 'liang_zhen']);
+  const scholarOptions = db.scholars
+    .filter(s => !lowScholarIds.has(s.id))
+    .sort((a, b) => {
+      const ab = baseIds.has(a.id) ? 0 : 1;
+      const bb = baseIds.has(b.id) ? 0 : 1;
+      if (ab !== bb) return ab - bb;
+      return (Number(b.counts && b.counts.bibliographic_records) || 0) - (Number(a.counts && a.counts.bibliographic_records) || 0)
+        || String(a.name_zh || '').localeCompare(String(b.name_zh || ''), 'zh-CN');
+    });
+  $('scholar').firstElementChild.textContent = `全部学者 · ${db.scholars.length}位 · ${activePapers.length}条`;
+  scholarOptions.forEach(s => {
+    const prefix = baseIds.has(s.id) ? '★ ' : '';
+    const o = el('option', '', `${prefix}${s.name_zh} · ${s.counts.bibliographic_records}条`);
+    o.value = s.id;
+    $('scholar').append(o);
+  });
+  if (lowScholars.length) {
+    const o = el('option', '', `其他 · ${lowScholars.length}位学者 · ${lowScholarCount}条`);
+    o.value = OTHER_SCHOLAR_ID;
+    $('scholar').append(o);
+  }
+
+  // Populate Topics select
+  const topics = [...new Set(activePapers.flatMap(p => list(p.topics)))].sort((a, b) => a.localeCompare(b, 'zh-CN'));
+  topics.forEach(t => {
+    const o = el('option', '', t);
+    o.value = t;
+    $('topic').append(o);
+  });
+
+  // Stopwords for cleaner title keyword hints
+  const STOPWORDS = new Set([
+    'the', 'and', 'for', 'with', 'via', 'from', 'using', 'based', 'into', 'over', 'under', 'between',
+    'through', 'towards', 'toward', 'study', 'analysis', 'method', 'methods', 'approach', 'model', 'models',
+    'network', 'networks', 'system', 'systems', 'learning', 'deep', 'novel', 'new', 'data', 'application',
+    'applications', 'research', 'review', 'survey', 'on', 'in', 'of', 'to', 'an', 'by', 'at', 'as', 'is', 'are',
+    'its', 'can', 'how', 'when', 'what', 'multi', 'cross', 'high', 'low', 'large', 'fast', 'improved',
+    '用于', '基于', '通过', '面向', '研究', '方法', '模型', '系统', '分析', '网络', '应用', '一种', '及其', '以及', '中的'
+  ]);
+
+  const keywordCatalog = (() => {
+    const groups = { 学者: new Map(), 主题: new Map(), 作者: new Map(), '会议/期刊': new Map(), 资源与数据集: new Map(), 论文关键词: new Map() };
+    const add = (g, v) => {
+      if (v === undefined || v === null) return;
+      const z = String(v).trim();
+      if (!z) return;
+      const k = z.toLowerCase();
+      if (!groups[g].has(k)) groups[g].set(k, { label: z, count: 0 });
+      groups[g].get(k).count++;
+    };
+    activePapers.forEach(p => {
+      const seenScholar = new Set();
+      list(p.scholar_names).forEach(x => { if (!seenScholar.has(x)) { seenScholar.add(x); add('学者', x); } });
+      list(p.topics).forEach(x => add('主题', x));
+      list(p.authors).forEach(x => add('作者', x));
+      if (p.venue && p.venue !== '论文/预印本页面') add('会议/期刊', p.venue);
+
+      const seenTokens = new Set();
+      const uniqueTitles = [...new Set([p.title_en || p.title, p.title_zh].filter(Boolean))];
+      uniqueTitles.forEach(x => {
+        (String(x).match(/[A-Za-z][A-Za-z0-9_+.-]{2,}/g) || []).forEach(t => {
+          const kl = t.toLowerCase();
+          if (!STOPWORDS.has(kl) && !seenTokens.has(kl)) {
+            seenTokens.add(kl);
+            add('论文关键词', t);
+          }
+        });
+        (String(x).match(/[\u4e00-\u9fff]{2,6}/g) || []).forEach(t => {
+          if (!STOPWORDS.has(t) && !seenTokens.has(t)) {
+            seenTokens.add(t);
+            add('论文关键词', t);
+          }
+        });
+      });
+    });
+    db.scholars.forEach(s => {
+      if (s.name_en && !groups['学者'].has(s.name_en.toLowerCase())) {
+        groups['学者'].set(s.name_en.toLowerCase(), { label: s.name_en, count: Number(s.counts && s.counts.bibliographic_records) || 0 });
+      }
+      (s.classification && s.classification.categories || []).forEach(c => add('主题', c.label));
+    });
+    datasets.forEach(d => add('资源与数据集', d._displayName));
+    db.resources.forEach(r => {
+      if (r.type !== 'dataset') add('资源与数据集', r.name_zh || r.name);
+    });
+
+    const limits = { 学者: 60, 主题: 80, 资源与数据集: 100, 论文关键词: 100, '会议/期刊': 60, 作者: 80 };
+    const out = [];
+    Object.entries(limits).forEach(([group, limit]) => {
+      const map = groups[group];
+      if (!map) return;
+      [...map.values()]
+        .filter(x => x.count > 0)
+        .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label, 'zh-CN'))
+        .slice(0, limit)
+        .forEach(x => out.push({ group, ...x }));
+    });
+    return out;
+  })();
+
+  let keywordRenderToken = 0;
+  function renderKeywordHints() {
+    const box = $('keywordHints');
+    if (!box) return;
+    const q = String($('q').value || '').trim().toLowerCase();
+    const lastWord = q.split(/\s+/).pop() || '';
+    const rows = lastWord ? keywordCatalog.filter(x => x.label.toLowerCase().includes(lastWord)) : keywordCatalog;
+    const token = ++keywordRenderToken;
+    box.replaceChildren();
+    box.hidden = false;
+    $('q').setAttribute('aria-expanded', 'true');
+    if (!rows.length) {
+      box.append(el('div', 'muted', '没有匹配的提示词，可直接输入任意中英文词检索'));
+      return;
+    }
+    let index = 0, current = '', groupEl = null;
+    const appendBatch = () => {
+      if (token !== keywordRenderToken || box.hidden) return;
+      const end = Math.min(index + 160, rows.length);
+      for (; index < end; index++) {
+        const row = rows[index];
+        if (current !== row.group) {
+          current = row.group;
+          groupEl = el('div', 'keyword-group');
+          groupEl.append(el('div', 'keyword-group-title', row.group));
+          box.append(groupEl);
+        }
+        const chip = el('button', 'keyword-chip');
+        chip.type = 'button';
+        chip.setAttribute('role', 'option');
+        chip.title = '点击填入关键词：' + row.label;
+        chip.append(document.createTextNode(row.label), el('small', '', String(row.count)));
+        chip.addEventListener('mousedown', e => e.preventDefault());
+        chip.addEventListener('click', () => {
+          $('q').value = row.label;
+          $('q').focus();
+          apply();
+          hideKeywordHints();
+        });
+        groupEl.append(chip);
+      }
+      if (index < rows.length && typeof requestAnimationFrame === 'function') {
+        requestAnimationFrame(appendBatch);
+      }
+    };
+    appendBatch();
+  }
+
+  function hideKeywordHints() {
+    keywordRenderToken++;
+    const box = $('keywordHints');
+    if (!box) return;
+    box.hidden = true;
+    $('q').setAttribute('aria-expanded', 'false');
+  }
+
+  function updateCategories() {
+    const sid = $('scholar').value;
+    const old = $('category').value;
+    const options = [];
+    const categoryScholars = sid === OTHER_SCHOLAR_ID
+      ? lowScholars
+      : db.scholars.filter(s => !sid || s.id === sid);
+    const all = el('option', '', '全部主类别');
+    all.value = '';
+    $('category').replaceChildren(all);
+    categoryScholars.forEach(s => {
+      (s.classification && s.classification.categories || []).forEach(c => {
+        const value = s.id + '::' + c.id;
+        options.push(value);
+        const prefix = sid === OTHER_SCHOLAR_ID ? '其他 · ' + s.name_zh + ' · ' : sid ? '' : s.name_zh + ' · ';
+        const o = el('option', '', `${prefix}${c.label}（${c.count}）`);
+        o.value = value;
+        $('category').append(o);
+      });
+    });
+    $('category').value = options.includes(old) ? old : '';
+  }
+
+  function categoryOK(p) {
+    const selected = $('category').value;
+    if (!selected) return true;
+    const [sid, id] = selected.split('::');
+    return !!(p.scholar_categories && p.scholar_categories[sid] && p.scholar_categories[sid].category_id === id);
+  }
+
+  const searchAliases = {
+    '脑电情感计算与脑机接口': t => (/脑电|eeg|electroencephal/.test(t) && /情感|情绪|emotion|affect/.test(t) && /脑机接口|脑机|brain.?computer|bci/.test(t)),
+    '脑电情感计算': t => (/脑电|eeg|electroencephal/.test(t) && /情感|情绪|emotion|affect/.test(t)),
+    '脑电解码': t => (/脑电|eeg|electroencephal/.test(t) && /解码|decod|分类|classif/.test(t)),
+    '脑机接口': t => /脑机接口|脑机|brain.?computer|bci/.test(t),
+    '情感智能': t => /情感智能|共情|empat|affective intelligence|emotional intelligence/.test(t)
+  };
+
+  // Build clean content-only search index (never matching JSON property names or translation disclaimers)
+  const scholarEnMap = new Map(db.scholars.map(s => [s.id, s.name_en || '']));
+  function paperSearchText(p) {
+    if (p._search !== undefined) return p._search;
+    const cats = Object.values(p.scholar_categories || {})
+      .map(v => [v.label, v.scholar_name, ...list(v.secondary_tags)].join(' '))
+      .join(' ');
+    const scholarEns = list(p.scholar_ids).map(id => scholarEnMap.get(id) || '').join(' ');
+    p._search = [
+      p.title,
+      p.title_en,
+      p.title_zh,
+      p.venue,
+      p.year,
+      p.doi,
+      p.dblp_key,
+      joined(p.authors, ' '),
+      joined(p.scholar_names, ' '),
+      scholarEns,
+      joined(p.topics, ' '),
+      p.primary_category,
+      joined(p.secondary_tags, ' '),
+      cats,
+      p.paper_url,
+      joined(p.code_urls, ' '),
+      joined(p.data_urls, ' '),
+      joined(p.model_urls, ' ')
+    ].filter(Boolean).join(' ').toLowerCase();
+    return p._search;
+  }
+
+  function resourceSearchText(r) {
+    if (r._search !== undefined) return r._search;
+    r._search = [
+      r.name,
+      r.name_zh,
+      r.type,
+      r.scholar_name,
+      scholarEnMap.get(r.scholar_id) || '',
+      r.description,
+      r.access,
+      r.url,
+      r.download_url,
+      joined(r.related_paper_titles, ' '),
+      joined(r.related_paper_titles_zh, ' '),
+      joined(r.primary_categories, ' '),
+      joined(r.notes, ' ')
+    ].filter(Boolean).join(' ').toLowerCase();
+    return r._search;
+  }
+
+  function textMatchPaper(p, words) {
+    if (!words.length) return true;
+    const text = paperSearchText(p);
+    return words.every(w => text.includes(w) || (searchAliases[w] && searchAliases[w](text)));
+  }
+
+  function textMatchResource(r, words) {
+    if (!words.length) return true;
+    const text = resourceSearchText(r);
+    return words.every(w => text.includes(w) || (searchAliases[w] && searchAliases[w](text)));
+  }
+
+  function datasetMatch(d, words) {
+    const sid = $('scholar').value;
+    const category = $('category').value;
+    const av = $('availability').value;
+    if (sid && !d.scholar_ids.some(id => scholarSelectionMatches(db, id, sid))) return false;
+    if (category && !d.category_ids.includes(category)) return false;
+    if (av === 'code' && !d.resource_types.some(x => ['code', 'software', 'repository'].includes(x))) return false;
+    if (av === 'model' && !d.resource_types.some(x => ['model', 'weights'].includes(x))) return false;
+    if (av === 'data' && !d.urls.length) return false;
+    if (av === 'linked' && !d.papers.length) return false;
+    if (av === 'unlinked' && d.papers.length) return false;
+    if (!words.length) return true;
+    return words.every(w => d._search.includes(w) || (searchAliases[w] && searchAliases[w](d._search)));
+  }
+
+  function paperOK(p, words, respectPaperOnlyFilters) {
+    if (p.compatibility_only) return false;
+    const sid = $('scholar').value;
+    const av = $('availability').value;
+    if (sid && !list(p.scholar_ids).some(id => scholarSelectionMatches(db, id, sid))) return false;
+    if (!categoryOK(p)) return false;
+    if (respectPaperOnlyFilters) {
+      const topic = $('topic').value;
+      const lo = Number($('from').value) || 0;
+      const hi = Number($('to').value) || 9999;
+      const y = Number(p.year) || 0;
+      if (topic && !list(p.topics).includes(topic)) return false;
+      if ((lo || hi !== 9999) && (!y || y < lo || y > hi)) return false;
+    }
+    if (av === 'code' && !list(p.code_urls).length) return false;
+    if (av === 'data' && !list(p.data_urls).length) return false;
+    if (av === 'model' && !list(p.model_urls).length) return false;
+    if (av === 'linked' && !list(p.resource_ids).length && !list(p.code_urls).length && !list(p.data_urls).length && !list(p.model_urls).length) return false;
+    if (av === 'unlinked' && (list(p.resource_ids).length || list(p.code_urls).length || list(p.data_urls).length || list(p.model_urls).length)) return false;
+    return textMatchPaper(p, words);
+  }
+
+  function sortPapers(arr) {
+    const sortMode = $('sort').value;
+    return [...arr].sort((a, b) => {
+      const ya = Number(a.year) || 0;
+      const yb = Number(b.year) || 0;
+      if (sortMode === 'year_asc') {
+        if (!ya && yb) return 1;
+        if (ya && !yb) return -1;
+        if (ya !== yb) return ya - yb;
+      } else if (sortMode === 'resource_first') {
+        const ra = list(a.resource_ids).length + list(a.code_urls).length + list(a.data_urls).length + list(a.model_urls).length;
+        const rb = list(b.resource_ids).length + list(b.code_urls).length + list(b.data_urls).length + list(b.model_urls).length;
+        if ((rb > 0) !== (ra > 0)) return rb > 0 ? 1 : -1;
+        if (rb !== ra) return rb - ra;
+        if (yb !== ya) return yb - ya;
+      } else if (sortMode === 'title_asc') {
+        return String(a.title_zh || a.title || '').localeCompare(String(b.title_zh || b.title || ''), 'zh-CN');
+      } else {
+        if (yb !== ya) return yb - ya;
+      }
+      return String(a.title_zh || a.title || '').localeCompare(String(b.title_zh || b.title || ''), 'zh-CN');
+    });
+  }
+
+  function years(ps) {
+    const counts = {};
+    ps.forEach(p => {
+      const y = Number(p.year);
+      if (y >= 1900 && y <= 2030) counts[y] = (counts[y] || 0) + 1;
+    });
+    const ys = Object.keys(counts).map(Number).sort((a, b) => a - b);
+    $('years').replaceChildren();
+    $('yearlabel').replaceChildren();
+    if (!ys.length) return;
+    const max = Math.max(...Object.values(counts));
+    for (let y = ys[0]; y <= ys[ys.length - 1]; y++) {
+      const c = counts[y] || 0;
+      const b = el('div', 'bar');
+      b.style.height = (c ? Math.max(3, (c / max) * 60) : 1) + 'px';
+      b.title = `${y} 年：${c} 条（点击筛选该年份）`;
+      if (c > 0) {
+        b.addEventListener('click', () => {
+          if (mode !== 'papers') setMode('papers', false);
+          $('from').value = String(y);
+          $('to').value = String(y);
+          apply();
+        });
+      }
+      $('years').append(b);
+    }
+    $('yearlabel').append(
+      el('span', '', String(ys[0])),
+      el('span', '', '按发表/卷期年份统计（点击柱条可按年份筛选）'),
+      el('span', '', String(ys[ys.length - 1]))
+    );
+  }
+
+  function returnState(extra) {
+    const state = {
+      scholar: $('scholar').value,
+      category: $('category').value,
+      topic: $('topic').value,
+      q: $('q').value,
+      availability: $('availability').value,
+      from: $('from').value,
+      to: $('to').value,
+      sort: $('sort').value,
+      mode: mode,
+      page: mode === 'datasets' ? datasetPage : page
+    };
+    Object.assign(state, extra || {});
+    return encodeURIComponent(JSON.stringify(state));
+  }
+
+  function paperHash(p, extra) {
+    const gid = p.global_record_id || p.record_id;
+    return '论文详情.html#paper=' + encodeURIComponent(gid) + '&return=' + returnState(Object.assign({ record_id: gid }, extra || {}));
+  }
+
+  function paperLink(parent, p, label, extra) {
+    if (!p) return;
+    const a = el('a', '', label || ((p.title_zh || p.title) + '（' + (p.year || '年份待核') + '）'));
+    a.href = paperHash(p, extra);
+    parent.append(a);
+  }
+
+  function datasetDetailUrl(d) {
+    return '数据集详情.html#dataset=' + encodeURIComponent(d.id) + '&return=' + returnState({ dataset_id: d.id, mode: 'datasets' });
+  }
+
+  function renderDataset(d) {
+    const c = el('article', 'dataset-card dataset-tile');
+    c.id = d.id;
+    c.tabIndex = 0;
+    const name = datasetDisplayName(d);
+    c.setAttribute('role', 'button');
+    c.setAttribute('aria-label', '查看数据集：' + name);
+    const href = datasetDetailUrl(d);
+    c.addEventListener('click', e => {
+      if (e.target && e.target.closest && e.target.closest('a')) return;
+      location.href = href;
+    });
+    c.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        location.href = href;
+      }
+    });
+    const top = el('div', '');
+    const h = el('h2', '');
+    const nameLink = el('a', 'dataset-name', name);
+    nameLink.href = href;
+    h.append(nameLink);
+    top.append(h);
+    if (d.name && d.name !== name && !C.genericDatasetName(d.name)) {
+      top.append(el('div', 'en', d.name));
+    }
+    const stats = el('div', 'dataset-stats');
+    stats.append(
+      el('span', 'tag', `${d.papers.length}篇关联论文`),
+      el('span', 'tag', `${d.scholar_names.length}位学者`)
+    );
+    if (d.occurrences > 1) stats.append(el('span', 'dataset-duplicate', `合并 ${d.occurrences} 处引用`));
+    top.append(stats);
+    if (d.scholar_names.length) {
+      const namesPreview = d.scholar_names.slice(0, 6).join('；') + (d.scholar_names.length > 6 ? ` 等${d.scholar_names.length}位` : '');
+      top.append(el('p', 'muted', '涉及学者：' + namesPreview));
+    }
+    const bottom = el('div', 'muted', '点击查看下载入口与全部关联论文 →');
+    const hit = el('a', 'dataset-hit-area', '');
+    hit.href = href;
+    hit.setAttribute('aria-label', '查看数据集：' + name);
+    c.append(top, bottom, hit);
+    return c;
+  }
+
+  function renderPaper(p) {
+    const c = el('article', 'card');
+    const m = el('div', 'meta');
+    const title = el('h2', '');
+    const gid = p.global_record_id || p.record_id;
+    c.id = 'paper-' + gid;
+    m.append(
+      el('span', 'tag', String(p.year || '年份待核')),
+      el('span', 'tag', p.venue || '来源待核'),
+      el('span', '', joined(p.scholar_names))
+    );
+    paperLink(title, p, p.title_zh || p.title, { record_id: gid });
+    c.append(m, title);
+    if (p.title_zh && p.title_zh !== p.title) c.append(el('div', 'en', p.title));
+    if (list(p.authors).length) c.append(el('p', 'authors', joined(p.authors)));
+
+    const t = el('div');
+    const sid = $('scholar').value;
+    Object.entries(p.scholar_categories || {})
+      .filter(([id, v]) => v && v.category_id !== '__legacy_compat__' && (!sid || scholarSelectionMatches(db, id, sid)))
+      .forEach(([, v]) => t.append(el('span', 'tag', (sid && sid !== OTHER_SCHOLAR_ID ? '主类：' : v.scholar_name + '：') + v.label)));
+    if (t.children.length) c.append(t);
+
+    const l = el('div', 'links');
+    addLink(l, paperLinkUrl(p), '论文 / 出版页面');
+    addLink(l, p.pdf_url, '全文 PDF');
+    list(p.code_urls).forEach((u, i) => addLink(l, u, list(p.code_urls).length > 1 ? '代码' + (i + 1) : '代码仓库'));
+    list(p.data_urls).forEach((u, i) => addLink(l, u, list(p.data_urls).length > 1 ? '数据' + (i + 1) : '数据集'));
+    list(p.model_urls).forEach((u, i) => addLink(l, u, list(p.model_urls).length > 1 ? '权重' + (i + 1) : '模型权重'));
+    if (l.children.length) c.append(l);
+
+    if (p.date_note) c.append(el('div', 'note', p.date_note));
+    if (!list(p.resource_ids).length && !list(p.code_urls).length && !list(p.data_urls).length && !list(p.model_urls).length) {
+      c.append(el('div', 'note', '本轮未关联独立代码/数据资源；这不表示作者确定未开源。'));
+    }
+
+    const d = el('details');
+    d.append(el('summary', '', '分类、核验和译名来源'));
+    if (p.classification_basis) d.append(el('p', '', p.classification_basis));
+    if (list(p.topics).length) d.append(el('p', '', '辅助主题：' + joined(p.topics)));
+    if (p.verification) d.append(el('p', '', p.verification));
+    d.append(el('p', '', p.translation_source || '辅助译名'));
+    Object.entries(p.scholar_categories || {})
+      .filter(([id]) => !sid || scholarSelectionMatches(db, id, sid))
+      .forEach(([, v]) => { if (v && v.note) d.append(el('p', '', v.scholar_name + '分类说明：' + v.note)); });
+    const a = el('div', 'source');
+    addLink(a, p.source_url, '书目来源');
+    if (a.children.length) d.append(a);
+    c.append(d);
+    return c;
+  }
+
+  function renderResource(r) {
+    const c = el('article', 'card');
+    const m = el('div', 'meta');
+    const papers = linkedPapersForResource(db, r, true);
+    c.id = 'resource-' + r.id;
+    m.append(el('span', 'tag', r.type || 'resource'), el('span', 'tag', r.scholar_name || ''));
+    c.append(m);
+    const title = el('h2', '');
+    if (papers.length) {
+      paperLink(title, papers[0], r.name_zh || r.name, { resource_id: r.id, record_id: papers[0].global_record_id || papers[0].record_id });
+    } else {
+      title.textContent = r.name_zh || r.name;
+    }
+    c.append(title);
+    if (r.name_zh && r.name_zh !== r.name) c.append(el('div', 'en', r.name));
+
+    if (papers.length) {
+      const pl = el('div', 'paper-links');
+      pl.append(el('span', 'paper-links-label', `关联论文（${papers.length}）：`));
+      papers.forEach(p => paperLink(pl, p, undefined, { resource_id: r.id, record_id: p.global_record_id || p.record_id }));
+      c.append(pl);
+    } else {
+      c.append(el('div', 'note', '本条资源为课题组/通用基准资源或尚未精确匹配到单篇论文页面。'));
+    }
+
+    for (const [label, v] of [['内容', r.description], ['获取方式', r.access], ['作者关系', r.author_relation]]) {
+      if (v) c.append(el('p', 'muted', label + '：' + joined(v)));
+    }
+    const l = el('div', 'links');
+    addLink(l, r.url, '资源主页');
+    if (r.download_url && r.download_url !== r.url) addLink(l, r.download_url, '下载 / 申请');
+    list(r.evidence_urls).slice(0, 5).forEach(u => {
+      if (u !== r.url && u !== r.download_url) addLink(l, u, evidenceLabel(u, r.type));
+    });
+    if (l.children.length) c.append(l);
+    if (r.notes && list(r.notes).length) c.append(el('div', 'note', joined(r.notes)));
+    return c;
+  }
+
+  function setMode(m, triggerApply) {
+    datasetViewId = null;
+    $('detailView').hidden = true;
+    $('filterPanel').hidden = false;
+    $('tabs').hidden = false;
+    mode = m;
+    $('papersTab').classList.toggle('active', m === 'papers');
+    $('resourcesTab').classList.toggle('active', m === 'resources');
+    $('datasetsTab').classList.toggle('active', m === 'datasets');
+    $('datasetIntro').hidden = m !== 'datasets';
+    const isPapers = m === 'papers';
+    $('topic').disabled = !isPapers;
+    $('from').disabled = !isPapers;
+    $('to').disabled = !isPapers;
+    $('sort').disabled = !isPapers;
+    if (triggerApply !== false) apply();
+  }
+
+  function restoreReturnState() {
+    if (typeof location === 'undefined' || !location.search) return null;
+    const params = new URLSearchParams(location.search);
+    const raw = params.get('return');
+    if (!raw) return null;
+    try {
+      const st = JSON.parse(raw);
+      datasetViewId = st.dataset_view && st.dataset_id ? st.dataset_id : null;
+      if (st.scholar !== undefined) $('scholar').value = st.scholar;
+      updateCategories();
+      for (const id of ['category', 'topic', 'q', 'availability', 'from', 'to', 'sort']) {
+        if (st[id] !== undefined && $(id)) $(id).value = st[id];
+      }
+      if (![...$('category').options].some(o => o.value === $('category').value)) {
+        $('category').value = '';
+      }
+      setMode(st.mode === 'datasets' ? 'datasets' : st.mode === 'resources' ? 'resources' : 'papers', false);
+      // Clean ?return= from URL bar so manual browser reloads don't reset future interactions
+      if (typeof history !== 'undefined' && typeof history.replaceState === 'function') {
+        try {
+          params.delete('return');
+          const qs = params.toString();
+          history.replaceState(null, '', location.pathname + (qs ? '?' + qs : '') + (location.hash || ''));
+        } catch (e) {}
+      }
+      return st;
+    } catch (e) {
+      return null;
+    }
+  }
+
+  function focusReturnState(st) {
+    if (!st) return;
+    const target = st.dataset_id || (st.resource_id ? 'resource-' + st.resource_id : 'paper-' + (st.record_id || ''));
+    if (!target) return;
+    const node = document.getElementById(target);
+    if (node) {
+      node.classList.add('focus-card');
+      if (typeof node.scrollIntoView === 'function') node.scrollIntoView({ block: 'center' });
+    }
+  }
+
+  function showInlinePaperDetail(p) {
+    datasetViewId = null;
+    const d = $('detailView');
+    d.replaceChildren();
+    d.hidden = false;
+    for (const id of ['filterPanel', 'tabs', 'resulthead', 'cards', 'pager', 'datasetIntro']) $(id).hidden = true;
+    const back = el('a', '', '← 返回检索结果');
+    back.href = '#';
+    back.addEventListener('click', e => {
+      e.preventDefault();
+      if (typeof history !== 'undefined' && typeof history.pushState === 'function') {
+        history.pushState(null, '', location.pathname + location.search);
+      } else {
+        location.hash = '';
+      }
+      hideInlineDetail();
+    });
+    d.append(back);
+    const h = el('h2', '');
+    h.textContent = p.title_zh || p.title;
+    d.append(h);
+    if (p.title_zh && p.title_zh !== p.title) d.append(el('div', 'en', p.title));
+    const meta = el('div', 'meta');
+    meta.append(el('span', 'tag', String(p.year || '年份待核')), el('span', 'tag', p.venue || '来源待核'), el('span', '', joined(p.scholar_names)));
+    d.append(meta);
+    if (list(p.authors).length) d.append(el('p', 'authors', joined(p.authors)));
+    const cats = el('div', 'detail-row');
+    Object.entries(p.scholar_categories || {})
+      .filter(([, v]) => v && v.category_id !== '__legacy_compat__')
+      .forEach(([, v]) => cats.append(el('span', 'tag', v.scholar_name + '：' + v.label)));
+    if (cats.children.length) d.append(cats);
+    const links = el('div', 'links');
+    addLink(links, paperLinkUrl(p), '论文 / 出版页面');
+    addLink(links, p.pdf_url, '全文 PDF');
+    list(p.code_urls).forEach((u, i) => addLink(links, u, '代码' + (i + 1)));
+    list(p.data_urls).forEach((u, i) => addLink(links, u, '数据' + (i + 1)));
+    list(p.model_urls).forEach((u, i) => addLink(links, u, '权重' + (i + 1)));
+    if (links.children.length) d.append(links);
+    if (list(p.topics).length) d.append(el('p', 'detail-row', '辅助主题：' + joined(p.topics)));
+    const rs = linkedResourcesForPaper(db, p);
+    if (rs.length) {
+      const rd = el('div', 'detail-row');
+      rd.append(el('b', '', '关联资源：'));
+      rs.forEach(r => {
+        const row = el('div', '');
+        const u = r.url || r.download_url;
+        if (u) addLink(row, u, r.name_zh || r.name);
+        else row.textContent = r.name_zh || r.name;
+        rd.append(row);
+      });
+      d.append(rd);
+    }
+  }
+
+  function hideInlineDetail() {
+    $('detailView').hidden = true;
+    for (const id of ['filterPanel', 'tabs', 'resulthead', 'cards', 'pager']) $(id).hidden = false;
+    $('datasetIntro').hidden = mode !== 'datasets';
+  }
+
+  function route() {
+    const hash = typeof location === 'undefined' ? '' : String(location.hash || '');
+    if (hash === '#datasets') {
+      hideInlineDetail();
+      if (mode !== 'datasets') setMode('datasets', true);
+      return;
+    }
+    if (hash === '#resources') {
+      hideInlineDetail();
+      if (mode !== 'resources') setMode('resources', true);
+      return;
+    }
+    if (hash === '#papers') {
+      hideInlineDetail();
+      if (mode !== 'papers') setMode('papers', true);
+      return;
+    }
+    if (hash.startsWith('#paper=')) {
+      const id = decodeURIComponent(hash.slice(7).split('&')[0]);
+      const p = db._paperByAnyId.get(id);
+      if (p) { showInlinePaperDetail(p); return; }
+    }
+    if (hash.startsWith('#dataset=')) {
+      const id = decodeURIComponent(hash.slice(9).split('&')[0]);
+      const d = db._datasetById.get(id);
+      if (d) { location.replace('数据集详情.html#dataset=' + encodeURIComponent(d.id)); return; }
+    }
+    hideInlineDetail();
+  }
+
+  function render() {
+    $('cards').classList.toggle('dataset-grid', mode === 'datasets');
+    const source = mode === 'datasets' ? datasetFiltered : filtered;
+    const currentPage = mode === 'datasets' ? datasetPage : page;
+    const totalPages = Math.max(1, Math.ceil(source.length / pageSize));
+    const safePage = Math.max(0, Math.min(currentPage, totalPages - 1));
+    if (mode === 'datasets') datasetPage = safePage;
+    else page = safePage;
+
+    const cards = $('cards');
+    cards.replaceChildren();
+    source.slice(safePage * pageSize, (safePage + 1) * pageSize).forEach(x => {
+      cards.append(mode === 'papers' ? renderPaper(x) : mode === 'resources' ? renderResource(x) : renderDataset(x));
+    });
+    if (!source.length) {
+      cards.append(el('div', 'empty', '没有匹配结果，可清空搜索词或点击“重置筛选”放宽条件。'));
+    }
+    $('count').textContent = source.length + ' 条' + (mode === 'papers' ? '书目记录' : mode === 'resources' ? '资源记录' : '数据集');
+    $('page').textContent = (safePage + 1) + ' / ' + totalPages;
+    $('prev').disabled = safePage === 0;
+    $('next').disabled = safePage >= totalPages - 1;
+    $('context').textContent = mode === 'papers'
+      ? '每页 25 条 · 中文译名与英文原题并列 · 点击标题查看完整信息'
+      : mode === 'resources'
+        ? '代码、数据集、模型权重分别标注 · 点击关联论文可查看对应书目'
+        : '按规范化名称与链接合并重复数据集 · 点击卡片查看下载入口与全部论文';
+  }
+
+  function apply() {
+    page = 0;
+    datasetPage = 0;
+    const words = $('q').value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    const ps = activePapers.filter(p => paperOK(p, words, mode === 'papers'));
+    years(ps);
+
+    if (mode === 'papers') {
+      filtered = sortPapers(ps);
+    } else if (mode === 'datasets') {
+      datasetFiltered = datasets.filter(d => datasetMatch(d, words));
+    } else {
+      const sid = $('scholar').value;
+      const av = $('availability').value;
+      const category = $('category').value;
+      filtered = db.resources.filter(r => {
+        if (sid && !list(r.scholar_id).some(id => scholarSelectionMatches(db, id, sid))) return false;
+        if (category && !list(r.scholar_category_ids).includes(category)) return false;
+        if (av === 'code' && !['code', 'software', 'repository'].includes(r.type)) return false;
+        if (av === 'data' && !(r.type === 'dataset' || (r.type === 'collection' && /dataset|数据集|data|数据/i.test(String(r.name || '') + ' ' + String(r.name_zh || ''))))) return false;
+        if (av === 'model' && !['model', 'weights'].includes(r.type)) return false;
+        if (av === 'linked' && !linkedPapersForResource(db, r, true).length) return false;
+        if (av === 'unlinked' && linkedPapersForResource(db, r, true).length) return false;
+        return textMatchResource(r, words);
+      });
+    }
+    render();
+  }
+
+  // Event listeners (no annoying mouseenter/mouseleave auto-popup!)
+  $('q').addEventListener('focus', renderKeywordHints);
+  $('q').addEventListener('click', () => { if ($('keywordHints').hidden) renderKeywordHints(); });
+  $('q').addEventListener('input', () => { apply(); renderKeywordHints(); });
+  $('q').addEventListener('keydown', e => { if (e.key === 'Escape') hideKeywordHints(); });
+  $('keywordToggle').addEventListener('mousedown', e => e.preventDefault());
+  $('keywordToggle').addEventListener('click', () => {
+    if ($('keywordHints').hidden) { $('q').focus(); renderKeywordHints(); }
+    else hideKeywordHints();
+  });
+  document.addEventListener('mousedown', e => {
+    const box = $('searchBox');
+    if (box && !box.contains(e.target)) hideKeywordHints();
+  });
+
+  for (const id of ['category', 'topic', 'availability', 'from', 'to', 'sort']) {
+    $(id).addEventListener('input', apply);
+    $(id).addEventListener('change', apply);
+  }
+  $('scholar').addEventListener('change', () => { updateCategories(); apply(); });
+
+  $('reset').onclick = () => {
+    for (const id of ['q', 'scholar', 'category', 'topic', 'availability', 'from', 'to']) $(id).value = '';
+    $('sort').value = 'year_desc';
+    updateCategories();
+    apply();
+  };
+
+  $('papersTab').onclick = () => setMode('papers', true);
+  $('resourcesTab').onclick = () => setMode('resources', true);
+  $('datasetsTab').onclick = () => setMode('datasets', true);
+
+  $('prev').onclick = () => {
+    if (mode === 'datasets') datasetPage = Math.max(0, datasetPage - 1);
+    else page = Math.max(0, page - 1);
+    render();
+    window.scrollTo({ top: $('tabs').offsetTop - 12, behavior: 'smooth' });
+  };
+  $('next').onclick = () => {
+    if (mode === 'datasets') datasetPage++;
+    else page++;
+    render();
+    window.scrollTo({ top: $('tabs').offsetTop - 12, behavior: 'smooth' });
+  };
+
+  window.addEventListener('hashchange', route);
+
+  $('datasetSummary').textContent = `共 ${datasets.length} 个规范化去重数据集；重复引用已自动合并，点击卡片可查看下载入口与全部关联论文。`;
+  updateCategories();
+  const restored = restoreReturnState();
+  apply();
+  if (restored && restored.page !== undefined) {
+    const sourceLen = mode === 'datasets' ? datasetFiltered.length : filtered.length;
+    const maxP = Math.max(0, Math.ceil(sourceLen / pageSize) - 1);
+    const targetP = Math.max(0, Math.min(Number(restored.page) || 0, maxP));
+    if (mode === 'datasets') datasetPage = targetP;
+    else page = targetP;
+    render();
+  }
+  route();
+  if (restored) setTimeout(() => focusReturnState(restored), 30);
+})();
+</script>
+</body>
+</html>
