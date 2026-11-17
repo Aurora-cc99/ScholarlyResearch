@@ -1,0 +1,20 @@
+PREFIX dblp: <https://dblp.org/rdf/schema#>
+SELECT ?paper ?title ?year
+ (GROUP_CONCAT(DISTINCT ?venue; separator=" || ") AS ?venues)
+ (GROUP_CONCAT(DISTINCT STR(?doi); separator=" || ") AS ?dois)
+ (GROUP_CONCAT(DISTINCT STR(?doc); separator=" || ") AS ?documents)
+ (GROUP_CONCAT(DISTINCT STR(?primary); separator=" || ") AS ?primary_documents)
+ (GROUP_CONCAT(DISTINCT STR(?type); separator=" || ") AS ?types)
+ (GROUP_CONCAT(DISTINCT CONCAT(STR(?ord),"::",?author); separator=" || ") AS ?ordered_authors)
+WHERE {
+ ?paper dblp:authoredBy <https://dblp.org/pid/09/3116> ; dblp:title ?title .
+ OPTIONAL { ?paper dblp:yearOfPublication ?year }
+ OPTIONAL { ?paper dblp:publishedIn ?venue }
+ OPTIONAL { ?paper dblp:doi ?doi }
+ OPTIONAL { ?paper dblp:documentPage ?doc }
+ OPTIONAL { ?paper dblp:primaryDocumentPage ?primary }
+ OPTIONAL { ?paper a ?type }
+ OPTIONAL { ?paper dblp:hasSignature ?sig . ?sig dblp:signatureOrdinal ?ord ; dblp:signatureDblpName ?author }
+}
+GROUP BY ?paper ?title ?year
+ORDER BY DESC(?year) ?title

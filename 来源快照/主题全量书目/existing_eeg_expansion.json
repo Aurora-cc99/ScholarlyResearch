@@ -1,0 +1,281 @@
+{
+  "as_of": "2026-11-14",
+  "package": "existing_eeg_identity_and_hu_supplement",
+  "methodology": "官方院系/实验室页优先，IEEE/DOI/arXiv作书目交叉核验；同名记录注明风险，不把合作论文误写为个人独立成果。",
+  "scholars": [
+    {
+      "name_en": "Bao-Liang Lu",
+      "name_zh": "吕宝粮",
+      "affiliation": "上海交通大学计算机学院 / BCMI",
+      "identity_sources": [
+        "https://bcmi.sjtu.edu.cn/home/blu/",
+        "https://bcmi.sjtu.edu.cn/home/seed/",
+        "https://www.cs.sjtu.edu.cn/en/jiaoshiml/lyubaoliang.html"
+      ],
+      "scholar_id": "lu_baoliang",
+      "works": [],
+      "resources": []
+    },
+    {
+      "name_en": "C. L. Philip Chen",
+      "name_zh": "陈俊龙",
+      "affiliation": "华南理工大学计算机科学与工程学院",
+      "identity_sources": [
+        "https://www2.scut.edu.cn/cs/2026/0409/c46301a623249/page.psp",
+        "https://www2.scut.edu.cn/cs_en/2026/0324/c45160a621206/page.htm"
+      ],
+      "scholar_id": "junlong_chen",
+      "works": [],
+      "resources": []
+    },
+    {
+      "name_en": "Wei-Long Zheng",
+      "name_zh": "郑伟龙",
+      "affiliation": "上海交通大学 BCMI / 情感脑机接口",
+      "identity_sources": [
+        "https://bcmi.sjtu.edu.cn/home/zhengweilong/",
+        "https://bcmi.sjtu.edu.cn/member.cn.html"
+      ],
+      "scholar_id": "wei_long_zheng",
+      "works": [],
+      "resources": []
+    },
+    {
+      "name_en": "Yuanqing Li",
+      "name_zh": "李远清",
+      "affiliation": "华南理工大学自动化科学与工程学院 / 脑机接口与脑信息处理研究中心",
+      "identity_sources": [
+        "https://www2.scut.edu.cn/auto_en/2015/0716/c6242a94208/page.htm"
+      ],
+      "scholar_id": "yuanqing_li",
+      "works": [],
+      "resources": []
+    },
+    {
+      "name_en": "Bin Hu",
+      "name_zh": "胡斌",
+      "affiliation": "北京理工大学医学技术学院 / 脑健康智能评估与干预教育部重点实验室",
+      "identity_sources": [
+        "https://smt.bit.edu.cn/szdw/jsml/bssds/5df20d21793e4e408b23d94848d05836.htm",
+        "https://ai.bit.edu.cn/kxyj/kypt_1/e5749df7066d4ca58f43b28cabb90119.htm",
+        "https://xplorestaging.ieee.org/author/37307887900",
+        "https://modma.lzu.edu.cn/data/index/"
+      ],
+      "scholar_id": "bin_hu",
+      "works": [
+        {
+          "title_en": "A brain-inspired generative model for EEG-based cognitive state identification",
+          "title_zh": "一种用于脑电认知状态识别的脑启发生成模型",
+          "year": 2025,
+          "venue": "arXiv",
+          "authors": [
+            "Bin Hu",
+            "Zhi-Hong Guan"
+          ],
+          "doi": "",
+          "paper_url": "https://arxiv.org/abs/2505.01685",
+          "source_url": "https://arxiv.org/abs/2505.01685",
+          "source_kind": "arXiv author record",
+          "verification": "论文页作者与北京理工大学身份链可核验"
+        },
+        {
+          "title_en": "Exploring the Theory of Computational Psychophysiology Field",
+          "title_zh": "心理生理计算场理论探索",
+          "year": 2024,
+          "venue": "Journal of Beijing Institute of Technology",
+          "authors": [
+            "Bin Hu",
+            "Kun Qian",
+            "Qunxi Dong",
+            "Jian Shen",
+            "Shuting Sun",
+            "Naidi Sun",
+            "Ran Cai"
+          ],
+          "doi": "10.15918/j.tbit1001-0645.2023.194",
+          "paper_url": "https://doi.org/10.15918/j.tbit1001-0645.2023.194",
+          "source_url": "https://journal.bit.edu.cn/zr/article/doi/10.15918/j.tbit1001-0645.2023.194",
+          "source_kind": "BIT official journal page",
+          "verification": "北京理工大学期刊页列出胡斌及单位"
+        },
+        {
+          "title_en": "MODMA dataset: a Multi-modal Open Dataset for Mental-disorder Analysis",
+          "title_zh": "MODMA：精神障碍分析多模态开放数据集",
+          "year": 2020,
+          "venue": "arXiv dataset paper",
+          "authors": [
+            "Hanshu Cai",
+            "Yiwen Gao",
+            "Shuting Sun",
+            "Na Li",
+            "Fuze Tian",
+            "Han Xiao",
+            "Jianxiu Li",
+            "Zhengwu Yang",
+            "Xiaowei Li",
+            "Qinglin Zhao",
+            "Zhenyu Liu",
+            "Zhijun Yao",
+            "Minqiang Yang",
+            "Hong Peng",
+            "Fang Zheng",
+            "Rui Li",
+            "Zhihua Guo",
+            "Rong Ma",
+            "Jing Yang",
+            "Lan Zhang",
+            "Xiping Hu",
+            "Yumin Li",
+            "Bin Hu"
+          ],
+          "doi": "",
+          "paper_url": "https://arxiv.org/abs/2002.09283",
+          "source_url": "https://modma.lzu.edu.cn/data/index/",
+          "data_urls": [
+            "https://modma.lzu.edu.cn/data/index/"
+          ],
+          "source_kind": "MODMA official dataset/arXiv paper",
+          "verification": "论文与兰州大学数据页共同核验"
+        },
+        {
+          "title_en": "An On-Board Executable Multi-Feature Transfer-Enhanced Fusion Model for Three-Lead EEG Sensor-Assisted Depression Diagnosis",
+          "title_zh": "面向三导联脑电辅助抑郁诊断的板载可执行多特征迁移增强融合模型",
+          "year": 2025,
+          "venue": "IEEE Journal of Biomedical and Health Informatics",
+          "authors": [
+            "Fuze Tian",
+            "Haojie Zhang",
+            "Yang Tan",
+            "Lixian Zhu",
+            "Lin Shen",
+            "Kun Qian",
+            "Bin Hu",
+            "Björn W. Schuller",
+            "Yoshiharu Yamamoto"
+          ],
+          "doi": "",
+          "paper_url": "https://smt.bit.edu.cn/szdw/jsml/bssds/b0c50e34b3f34ed39405c7bbfaa93b5e.htm",
+          "source_url": "https://smt.bit.edu.cn/szdw/jsml/bssds/b0c50e34b3f34ed39405c7bbfaa93b5e.htm",
+          "source_kind": "BIT official selected publications",
+          "verification": "北京理工大学医学技术学院教师页列出论文"
+        },
+        {
+          "title_en": "Echoes of the Brain: Reconstructing Music from EEG via Latent Space Alignment and Guided Diffusion",
+          "title_zh": "脑回声：通过潜空间对齐与引导扩散从脑电重建音乐",
+          "year": 2026,
+          "venue": "IEEE Transactions on Multimedia",
+          "authors": [
+            "Lin Shen",
+            "Ruobing Li",
+            "Xiaoxi Liu",
+            "Haojie Zhang",
+            "Cuiping Zhu",
+            "Kun Qian",
+            "Fuze Tian",
+            "Bin Hu",
+            "Björn W. Schuller",
+            "Yoshiharu Yamamoto"
+          ],
+          "doi": "",
+          "paper_url": "https://smt.bit.edu.cn/szdw/jsml/bssds/b0c50e34b3f34ed39405c7bbfaa93b5e.htm",
+          "source_url": "https://smt.bit.edu.cn/szdw/jsml/bssds/b0c50e34b3f34ed39405c7bbfaa93b5e.htm",
+          "source_kind": "BIT official selected publications",
+          "verification": "北京理工大学医学技术学院教师页列出论文"
+        },
+        {
+          "title_en": "Multilevel brain functional heterogeneity in major depressive disorder based on normative modeling of multicenter resting-state EEG",
+          "title_zh": "基于多中心静息态脑电规范建模的抑郁障碍多层次脑功能异质性",
+          "year": 2026,
+          "venue": "Progress in Neuro-Psychopharmacology and Biological Psychiatry",
+          "authors": [
+            "Shuting Sun",
+            "Huiwen Guo",
+            "Weizhuang Kong",
+            "Ziyi Wang",
+            "Huayu Chen",
+            "Xiaowei Li",
+            "Bin Hu"
+          ],
+          "doi": "10.1016/j.pnpbp.2026.111909",
+          "paper_url": "https://doi.org/10.1016/j.pnpbp.2026.111909",
+          "source_url": "https://xplorestaging.ieee.org/author/37307887900",
+          "source_kind": "IEEE author profile / DOI",
+          "verification": "IEEE作者页与DOI记录列出Bin Hu；需注意同名交叉核验"
+        },
+        {
+          "title_en": "EEG based Emotion Recognition: A Tutorial and Review",
+          "title_zh": "基于脑电的情绪识别：教程与综述",
+          "year": 2022,
+          "venue": "arXiv",
+          "authors": [
+            "Xiang Li",
+            "Yazhou Zhang",
+            "Prayag Tiwari",
+            "Dawei Song",
+            "Bin Hu",
+            "Meihong Yang",
+            "Zhigang Zhao",
+            "Neeraj Kumar",
+            "Pekka Marttinen"
+          ],
+          "doi": "",
+          "paper_url": "https://arxiv.org/abs/2203.11279",
+          "source_url": "https://arxiv.org/abs/2203.11279",
+          "source_kind": "arXiv review",
+          "verification": "论文作者列表列出Bin Hu；非其个人独立成果，按合作论文保留"
+        }
+      ],
+      "resources": []
+    },
+    {
+      "name_en": "Ming Dong",
+      "name_zh": "明东",
+      "affiliation": "天津大学医学工程与转化医学研究院 / 脑机交互与人机共融海河实验室",
+      "identity_sources": [
+        "https://mstu.tju.edu.cn/info/1193/1324.htm",
+        "https://faculty.tju.edu.cn/060082/zh_CN/index.htm"
+      ],
+      "scholar_id": "ming_dong",
+      "works": [],
+      "resources": []
+    },
+    {
+      "name_en": "Gang Pan",
+      "name_zh": "潘纲",
+      "affiliation": "浙江大学脑机智能全国重点实验室",
+      "identity_sources": [
+        "https://person.zju.edu.cn/gpan/734061.html"
+      ],
+      "scholar_id": "pan_gang",
+      "works": [],
+      "resources": []
+    },
+    {
+      "name_en": "Wenming Zheng",
+      "name_zh": "郑文明",
+      "affiliation": "东南大学情感信息处理实验室",
+      "identity_sources": [
+        "https://oic.seu.edu.cn/oicenglish/2026/0522/c68505a568541/page.htm",
+        "https://aip.seu.edu.cn/zy1/"
+      ],
+      "scholar_id": "wenming_zheng",
+      "works": [],
+      "resources": []
+    },
+    {
+      "name_en": "Tong Zhang",
+      "name_zh": "张通",
+      "affiliation": "华南理工大学计算机科学与工程学院",
+      "identity_sources": [
+        "https://www2.scut.edu.cn/cs_en/2026/0324/c45160a621206/page.htm"
+      ],
+      "scholar_id": "tong_zhang",
+      "works": [],
+      "resources": []
+    }
+  ],
+  "stats": {
+    "identity_records": 9,
+    "bin_hu_supplemental_works": 7
+  }
+}

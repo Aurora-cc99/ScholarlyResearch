@@ -1,0 +1,108 @@
+# Wenming Zheng official supplement
+
+Count: 104. Source: https://aip.seu.edu.cn/wmzheng/main.htm
+
+- 2026 ChameleonVoice: A Contextual Prosody Perception Network for Emotional Voice Conversion — https://doi.org/10.1109/TAFFC.2026.3735290
+- 2026 AffectSpeech: A Large-Scale Emotional Speech Dataset with Fine-Grained Textual Descriptions for Speech Emotion Captioning — https://doi.org/10.1109/TASLPRO.2026.3724419
+- 2026 LLM-based Multimodal Personality Recognition via Facial Action Unit-Text Semantic Fusion — https://doi.org/10.1109/TAFFC.2026.3713475
+- 2026 UGPT: Uncertain Graph Prompt Tuning for Micro-expression Recognition — https://doi.org/10.1109/TAFFC.2026.3708854
+- 2026 STMH: Speech-Text Modality Harmonization for Controllable Emotional Speech Synthesis With Mel-Derivative Augmented Conditional Adversarial Training — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2026 Multimodal Functional Maximum Correlation for Emotion Recognition — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2026 Dual-Branch Cross-Temporal Graph Neural Network for EEG-based Depression Detection — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2026 PersonalityLLM: Fine-tuning Large Language Models for Personality Assessment from Asynchronous Video Interviews — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2026 Dual-Hypergraph Based Symmetrical Self-Representation Learning for Cross-Domain Facial Expression Recognition — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2026 Advancing Micro-Expression Recognition: A Task-Specific Framework Integrating Frequency Analysis and Structural Embedding — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2026 Two-dimensional geometric template diffusion for boosting single-sequence protein structure prediction — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2026 Trend-Aware Multiscale Spatial-Temporal Graph Convolution Network for P300 Detection — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2026 Mixture-of-Expert Large Language Models for text-based Personality Assessment from Asynchronous Video Interviews — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2026 Dynamic Graph Consistent Weighted Subspace Learning for Cross-Domain Speech Emotion Recognition — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2026 A Survey on Deep Learning for Group-Level Emotion Recognition — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2026 Coupled Sparse Subspace Alignment-Based Domain Adaptation for Speech Emotion Recognition — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2026 Feature Evaluation and Joint Interaction for Audio-Visual Emotion Recognition — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2026 Generalizable Dynamic Domain Adaptation for Speaker-Independent Speech Emotion Recognition — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2026 Towards Identity-Independent Facial Action Unit Detection: Integrating Decoupled 3D Geometry with Textural Features — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2026 Adaptive Key Role Guided Hierarchical Relation Inference for Enhanced Group-level Emotion Recognition — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2026 Robust Multimodal Sentiment Analysis Based on Adaptive Information Distillation and Adversarial Learning — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2025 Dynamical Causal Graph Neural Network for EEG Emotion Recognition — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2025 Learning to Rank Onset-Occurring-Offset Representations for Micro-Expression Recognition — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2025 An Empirical Study of Super-Resolution on Low-Resolution Micro-Expression Recognition — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2025 Decoupled Doubly Contrastive Learning for Cross-Domain Facial Action Unit Detection — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2025 Towards a Robust Group-Level Emotion Recognition via Uncertainty-Aware Learning — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2025 Decoupled Multi-Perspective Fusion for Speech Depression Detection — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2025 Decoding SSVEP Via Calibration-Free TFA-Net: A Novel Network Using Time-Frequency Features — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2025 Towards Domain-Specific Cross-Corpus Speech Emotion Recognition Approach — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2025 Common Discriminative Latent Space Learning for Cross-Domain Speech Emotion Recognition — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2025 Multimodal Sentimental Privileged Information Embedding for Improving Facial Expression Recognition — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2025 Controllable Multi-Speaker Emotional Speech Synthesis With an Emotion Representation of High Generalization Capability — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2024 Adaptive Cross Transformer With Contrastive Learning for Surface Defect Detection — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2024 Convolutional Transformer-based Cross Subject Model for SSVEP-based BCI Classification — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2024 MaskFusionNet: A Dual-Stream Fusion Model with Masked Pre-training Mechanism for rPPG Measurement — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2024 Adaptive Multi-scale Iterative Optimized Video Object Segmentation Based on Correlation Enhancement — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2024 Novel Sinusoidal Signal Assisted Multivariate Variational Mode Decomposition Combined With Task-Related Component Analysis for Enhancing SSVEP-Based BCI Performance — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2024 LightRoseTTA: High-efficient and Accurate Protein Structure Prediction Using a Light-weight Deep Graph Model, — https://doi.org/10.1002/advs.202309051
+- 2024 Adaptive Dual-Space Network With Multigraph Fusion for EEG-Based Emotion Recognition, — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2024 Wasserstein Discriminant Dictionary Learning for Graph Representation, — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2024 Controllable Multi-Speaker Emotional Speech Synthesis With Emotion Representation of High Generalization Capability — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2024 Layer-Adapted Implicit Distribution Alignment Networks for Cross-Corpus Speech Emotion Recognition — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2024 Graph-Diffusion-Based Domain-Invariant Representation Learning for Cross-Domain Facial Expression Recognition — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2024 CFEW: A Large-Scale Database for Understanding Child Facial Expression in Real World — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2024 Common Latent Embedding Space for Cross-Domain Facial Expression Recognition — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2023 Variational Instance-Adaptive Graph for EEG Emotion Recognition, — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2023 Effective Connectivity Analysis and Classification of Action Observation From Different Perspectives: An fMRI Study — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2023 Cross Domain Correlation Maximization for Enhancing the Target Recognition of SSVEP-Based Brain-Computer Interfaces — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2023 Unsupervised Cross-view Facial Expression Image Generation and Recognition, — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2023 Speech Emotion Recognition via an Attentive Time-Frequency Neural Network, — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2023 SparseDGCNN: Recognizing Emotion from Multichannel EEG Signals, — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2023 Multi-Source Discriminant Subspace Alignment for Cross-Domain Speech Emotion Recognition — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2023 Learning Transferable Sparse Representations for Cross-corpus Facial Expression Recognition — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2023 Joint Local-Global Discriminative Subspace Transfer Learning for Facial Expression Recognition, — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2023 GMSS: Graph-based multi-task self-supervised learning for EEG emotion recognition — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2023 FENP: A Database of Neonate Facial Expression for Pain Analysis, — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2022 From Regional Brain to Global Brain: A Novel Hierarchically Spatial-Temporal Neural Network Model for EEG Emotion Recognition, — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2022 Objective Class-based Micro-expression Recognition under Partial Occlusion via Region-inspired Relation Reasoning Network, — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2022 Graph Embeded Convolutional Neural Networks for Image-based EEG Emotion Recognition — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2022 Domain Invariant Feature Learning for Speaker-independent Speech Emotion Recognition — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2022 Cross-Database Micro-Expression Recognition: A Benchmark — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2021 A Bi-hemisphere domain adversarial neural network model for EEG emotion recognition, — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2021 Speech Emotion Recognition Based on Robust Discriminative Sparse Regression, — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2018 Domain Regeneration for Cross-Database Micro-Expression Recognition, — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2018 Action-Attending Graphic Neural Network — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2018 Learning from Hierarchical Spatiotemporal Descriptors for Micro-Expression Recognition, — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2016 Sparse Kernel Reduced-Rank Regression for Bimodal Emotion Recognition From Facial Expression and Speech, — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2014 Multi-view facial expression recognition based on group sparse reduced-rank regression, — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2014 L1-norm kernel discriminant analysis via Bayes error bound optimization for robust feature extraction, — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2014 Fisher discriminant analysis with L1-Norm, — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2012 L1-norm-based common spatial patterns — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2010 A rank-one update algorithm for fast solving kernel Foley-Sammon optimal discriminant Vectors — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2009 Fast algorithm for updating the discriminant vectors of dual-space LDA — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2008 Local temporal common spatial patterns for robust single-trial EEG classification — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2008 Locality preserved maximum information projection — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2006 Facial expression recognition using kernel canonical correlation analysis (KCCA) — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2005 Foley-Sammon optimal discriminant vectors using kernel approach — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2006 Class-incremental generalized discriminant analysis — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2004 A modified algorithm for generalized discriminant analysis — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2025 Multi-Level Segment Fusion Based on Adaptive Time-Window Selection for Multimodal Personality-Aware Elderly Depression Detection — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2025 Assessing Personality Traits and Interview Performance from Asynchronous Video Interviews — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2025 NaME: A Natural Micro-expression Dataset for Micro-expression Recognition in the Wild — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2025 Reliable Learning From LLM Features for Multimodal Emotion and Intent Joint Understanding — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2025 Enhancing Task-Specific Feature Learning with LLMs for Multimodal Emotion and Intent Joint Understanding — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2023 CMNet: Contrastive Magnification Network for Micro-Expression Recognition, — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2023 Multimodal Emotion Recognition in Noisy Environment Based on Progressive Label Revision, — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2021 Dynamic Probabilistic Graph Convolution for Facial Action Unit Intensity Estimation — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2021 Hybrid Message Passing with Performance-driven Structures for Facial Action Unit Detection — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2021 Uncertain Graph Neural Networks for Facial Action Unit Detection — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2020 DFEW: A Large-scale Database for Recognizing Dynamic Facial Expressions in the Wild, — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2020 Instance-Adaptive Graph for EEG Emotion Recognition — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2020 Variational Pathway Reasoning for EEG Emotion Recognition — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2019 Bi-modality Fusion for Emotion Recognition in the Wild, — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2018 Multiple Spatio-temporal Feature Learning for Video-based Emotion Recognition in the Wild, — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2018 A Novel Neural Network Model based on Cerebral Hemispheric Asymmetry for EEG Emotion Recognition, — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2018 Spatio-Temporal Graph Convolution for Skeleton Based Action Recognition, — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2018 Context-Dependent Diffusion Network for Visual Relationship Detection, — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2017 Learning a Target Sample Re-Generator for Cross-Database Micro-Expression Recognition, — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2017 View-independent Facial Action Detection, — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2016 Multi-clue Fusion for Emotion Recognition in the Wild, — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2010 Emotion recognition from arbitrary view facial images, — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2009 Optimizing multi-class spatio-spectral filters via Bayes error estimation for EEG classification — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2009 A novel approach to expression recognition from non-frontal face images — https://aip.seu.edu.cn/wmzheng/main.htm
+- 2007 Local and weighted maximum margin discriminant analysis — https://aip.seu.edu.cn/wmzheng/main.htm

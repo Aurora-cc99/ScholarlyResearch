@@ -1,0 +1,1003 @@
+{
+  "scholars": [
+    {
+      "scholar_id": "gao_xiaorong",
+      "name_zh": "高小榕",
+      "name_en": "Xiaorong Gao",
+      "status": "已核验：官方机构/个人主页与论文页",
+      "affiliation": "Tsinghua University School of Biomedical Engineering",
+      "themes": [
+        "脑电解码与脑机接口",
+        "脑电情感计算"
+      ],
+      "identity_sources": [
+        "https://bme.tsinghua.edu.cn/en/info/1073/1131.htm",
+        "https://bme.tsinghua.edu.cn/info/1118/1478.htm"
+      ],
+      "representative_papers": [
+        {
+          "title_en": "High-speed spelling with a noninvasive brain-computer interface",
+          "title_zh": "基于非侵入式脑机接口的高速拼写",
+          "year": 2015,
+          "venue": "PNAS",
+          "authors": [
+            "Xiaogang Chen",
+            "Yijun Wang",
+            "Xiaorong Gao"
+          ],
+          "doi": "10.1073/pnas.1508080112",
+          "paper_url": "https://doi.org/10.1073/pnas.1508080112",
+          "source_url": "https://doi.org/10.1073/pnas.1508080112",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "A high-speed BCI based on code modulation VEP",
+          "title_zh": "基于编码调制视觉诱发电位的高速脑机接口",
+          "year": 2011,
+          "venue": "Journal of Neural Engineering",
+          "authors": [
+            "Xiaorong Gao",
+            "Yijun Wang"
+          ],
+          "doi": "10.1088/1741-2560/8/2/025015",
+          "paper_url": "https://doi.org/10.1088/1741-2560/8/2/025015",
+          "source_url": "https://doi.org/10.1088/1741-2560/8/2/025015",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "Interface, interaction, and intelligence in generalized brain–computer interfaces",
+          "title_zh": "广义脑机接口中的接口、交互与智能",
+          "year": 2021,
+          "venue": "Trends in Cognitive Sciences",
+          "authors": [
+            "Xiaorong Gao",
+            "Yijun Wang"
+          ],
+          "doi": "10.1016/j.tics.2021.04.002",
+          "paper_url": "https://doi.org/10.1016/j.tics.2021.04.002",
+          "source_url": "https://doi.org/10.1016/j.tics.2021.04.002",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "EEG Conformer: Convolutional Transformer for EEG Decoding and Visualization",
+          "title_zh": "EEG Conformer：用于脑电解码与可视化的卷积Transformer",
+          "year": 2022,
+          "venue": "IEEE TNSRE",
+          "authors": [
+            "Yonghao Song",
+            "Xiaorong Gao"
+          ],
+          "doi": "10.1109/TNSRE.2022.3230250",
+          "paper_url": "https://doi.org/10.1109/TNSRE.2022.3230250",
+          "source_url": "https://doi.org/10.1109/TNSRE.2022.3230250",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "Lateral ventricular brain-computer interface system with lantern-inspired electrode for stable performance and memory-guided decoding",
+          "title_zh": "采用灯笼仿生电极和记忆引导解码的稳定侧脑室脑机接口系统",
+          "year": 2026,
+          "venue": "National Science Review",
+          "authors": [
+            "Xiaorong Gao",
+            "Yike Sun"
+          ],
+          "doi": "",
+          "paper_url": "https://doi.org/10.1093/nsr/nwag081",
+          "source_url": "https://doi.org/10.1093/nsr/nwag081",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "Brain–computer interface—a brain-in-the-loop communication system",
+          "title_zh": "脑机接口：脑在环通信系统",
+          "year": 2025,
+          "venue": "Proceedings of the IEEE",
+          "authors": [
+            "Xiaorong Gao",
+            "Yijun Wang"
+          ],
+          "doi": "",
+          "paper_url": "https://dblp.org/rec/journals/pieee/ChenWLG25",
+          "source_url": "https://dblp.org/rec/journals/pieee/ChenWLG25",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        }
+      ],
+      "resources": [],
+      "inclusion_reason": "官方机构主页、DBLP/ORCID或论文作者页可核验。",
+      "risk": "公开选定作品，不宣称终身全集；同名风险见审计。",
+      "source_files": [
+        "eeg_new_scholars_supplement_normalized.json",
+        "eeg_new_scholars_supplement_audit.md"
+      ],
+      "source_topic": "脑电解码、脑电情感计算与脑机接口"
+    },
+    {
+      "scholar_id": "wang_yijun",
+      "name_zh": "王毅军",
+      "name_en": "Yijun Wang",
+      "status": "已核验：官方机构/个人主页与论文页",
+      "affiliation": "Institute of Semiconductors, Chinese Academy of Sciences",
+      "themes": [
+        "脑电解码与脑机接口",
+        "脑电情感计算"
+      ],
+      "identity_sources": [
+        "https://dblp.org/pid/27/1332-1.html",
+        "https://sccn.ucsd.edu/download/yijun/",
+        "https://orcid.org/0000-0002-8161-2150"
+      ],
+      "representative_papers": [
+        {
+          "title_en": "BCI Competition 2003 Dataset IV: An Algorithm Based on CSSD and FDA for Classifying Single-Trial EEG",
+          "title_zh": "BCI竞赛2003数据集IV：基于CSSD和FDA的单次试次脑电分类算法",
+          "year": 2004,
+          "venue": "IEEE TBME",
+          "authors": [
+            "Yijun Wang"
+          ],
+          "doi": "10.1109/TBME.2004.827088",
+          "paper_url": "https://doi.org/10.1109/TBME.2004.827088",
+          "source_url": "https://doi.org/10.1109/TBME.2004.827088",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "A practical VEP-based brain-computer interface",
+          "title_zh": "实用型VEP脑机接口",
+          "year": 2006,
+          "venue": "IEEE TNSRE",
+          "authors": [
+            "Yijun Wang"
+          ],
+          "doi": "10.1109/TNSRE.2006.873637",
+          "paper_url": "https://doi.org/10.1109/TNSRE.2006.873637",
+          "source_url": "https://doi.org/10.1109/TNSRE.2006.873637",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "A high-speed brain speller using steady-state visual evoked potentials",
+          "title_zh": "基于稳态视觉诱发电位的高速脑拼写器",
+          "year": 2014,
+          "venue": "International Journal of Neural Systems",
+          "authors": [
+            "Yijun Wang"
+          ],
+          "doi": "10.1142/S0129065714500141",
+          "paper_url": "https://doi.org/10.1142/S0129065714500141",
+          "source_url": "https://doi.org/10.1142/S0129065714500141",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "Enhancing Detection of SSVEPs for a High-Speed Brain Speller Using Task-Related Component Analysis",
+          "title_zh": "使用任务相关成分分析增强高速脑拼写器中的SSVEP检测",
+          "year": 2018,
+          "venue": "IEEE TBME",
+          "authors": [
+            "Yijun Wang"
+          ],
+          "doi": "10.1109/TBME.2018.2810182",
+          "paper_url": "https://doi.org/10.1109/TBME.2018.2810182",
+          "source_url": "https://doi.org/10.1109/TBME.2018.2810182",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "Brain-Computer Interface - A Brain-in-the-Loop Communication System",
+          "title_zh": "脑机接口：脑在环通信系统",
+          "year": 2025,
+          "venue": "Proceedings of the IEEE",
+          "authors": [
+            "Yijun Wang"
+          ],
+          "doi": "",
+          "paper_url": "https://dblp.org/rec/journals/pieee/ChenWLG25",
+          "source_url": "https://dblp.org/rec/journals/pieee/ChenWLG25",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "Implementing a calibration-free BCI with a large instruction set of 504 targets",
+          "title_zh": "实现具有504个指令目标的大指令集免校准脑机接口",
+          "year": 2026,
+          "venue": "Biomedical Signal Processing and Control",
+          "authors": [
+            "Yijun Wang"
+          ],
+          "doi": "",
+          "paper_url": "https://dblp.org/pid/27/1332-1.html",
+          "source_url": "https://dblp.org/pid/27/1332-1.html",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        }
+      ],
+      "resources": [],
+      "inclusion_reason": "官方机构主页、DBLP/ORCID或论文作者页可核验。",
+      "risk": "公开选定作品，不宣称终身全集；同名风险见审计。",
+      "source_files": [
+        "eeg_new_scholars_supplement_normalized.json",
+        "eeg_new_scholars_supplement_audit.md"
+      ],
+      "source_topic": "脑电解码、脑电情感计算与脑机接口"
+    },
+    {
+      "scholar_id": "dongrui_wu",
+      "name_zh": "伍冬睿",
+      "name_en": "Dongrui Wu",
+      "status": "已核验：官方机构/个人主页与论文页",
+      "affiliation": "Huazhong University of Science and Technology School of AI and Automation",
+      "themes": [
+        "脑电解码与脑机接口",
+        "脑电情感计算"
+      ],
+      "identity_sources": [
+        "https://lab.bciml.cn/en/dongruiwu/",
+        "https://iirmas.hust.edu.cn/info/1023/1081.htm",
+        "https://orcid.org/0000-0002-7153-9703"
+      ],
+      "representative_papers": [
+        {
+          "title_en": "Transfer Learning for Brain-Computer Interfaces: A Euclidean Space Data Alignment Approach",
+          "title_zh": "脑机接口迁移学习：欧氏空间数据对齐方法",
+          "year": 2020,
+          "venue": "IEEE TBME",
+          "authors": [
+            "Dongrui Wu"
+          ],
+          "doi": "10.1109/TBME.2019.2913914",
+          "paper_url": "https://doi.org/10.1109/TBME.2019.2913914",
+          "source_url": "https://doi.org/10.1109/TBME.2019.2913914",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "Different Set Domain Adaptation for Brain-Computer Interfaces: A Label Alignment Approach",
+          "title_zh": "脑机接口的不同集合域适应：标签对齐方法",
+          "year": 2020,
+          "venue": "IEEE TNSRE",
+          "authors": [
+            "Dongrui Wu"
+          ],
+          "doi": "",
+          "paper_url": "https://lab.bciml.cn/en/dongruiwu/",
+          "source_url": "https://lab.bciml.cn/en/dongruiwu/",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "Manifold Embedded Knowledge Transfer for Brain-Computer Interfaces",
+          "title_zh": "脑机接口的流形嵌入知识迁移",
+          "year": 2020,
+          "venue": "IEEE TNSRE",
+          "authors": [
+            "Dongrui Wu"
+          ],
+          "doi": "",
+          "paper_url": "https://lab.bciml.cn/en/dongruiwu/",
+          "source_url": "https://lab.bciml.cn/en/dongruiwu/",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "Transfer Learning for EEG-Based Brain-Computer Interfaces: A Review of Progress Made Since 2016",
+          "title_zh": "基于脑电脑机接口的迁移学习：2016年以来研究进展综述",
+          "year": 2020,
+          "venue": "IEEE TCDS",
+          "authors": [
+            "Dongrui Wu"
+          ],
+          "doi": "",
+          "paper_url": "https://arxiv.org/abs/2004.06286",
+          "source_url": "https://arxiv.org/abs/2004.06286",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "Revisiting Euclidean Alignment for Transfer Learning in EEG-Based Brain-Computer Interfaces",
+          "title_zh": "重新审视脑电脑机接口迁移学习中的欧氏对齐",
+          "year": 2025,
+          "venue": "Journal of Neural Engineering",
+          "authors": [
+            "Dongrui Wu"
+          ],
+          "doi": "10.1088/1741-2552/addd49",
+          "paper_url": "https://doi.org/10.1088/1741-2552/addd49",
+          "source_url": "https://doi.org/10.1088/1741-2552/addd49",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "Online Adaptation via Dual-Stage Alignment and Self-Supervision for Fast-Calibration Brain-Computer Interfaces",
+          "title_zh": "通过双阶段对齐与自监督实现快速校准脑机接口的在线适应",
+          "year": 2025,
+          "venue": "arXiv",
+          "authors": [
+            "Dongrui Wu"
+          ],
+          "doi": "",
+          "paper_url": "https://arxiv.org/abs/2509.19403",
+          "source_url": "https://arxiv.org/abs/2509.19403",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        }
+      ],
+      "resources": [],
+      "inclusion_reason": "官方机构主页、DBLP/ORCID或论文作者页可核验。",
+      "risk": "公开选定作品，不宣称终身全集；同名风险见审计。",
+      "source_files": [
+        "eeg_new_scholars_supplement_normalized.json",
+        "eeg_new_scholars_supplement_audit.md"
+      ],
+      "source_topic": "脑电解码、脑电情感计算与脑机接口"
+    },
+    {
+      "scholar_id": "minpeng_xu",
+      "name_zh": "许敏鹏",
+      "name_en": "Minpeng Xu",
+      "status": "已核验：官方机构/个人主页与论文页",
+      "affiliation": "Tianjin University Academy of Medical Engineering and Translational Medicine",
+      "themes": [
+        "脑电解码与脑机接口",
+        "脑电情感计算"
+      ],
+      "identity_sources": [
+        "https://mstu.tju.edu.cn/info/1193/4237.htm",
+        "https://faculty.tju.edu.cn/XuMinpeng/en/index.htm",
+        "https://orcid.org/0009-0001-5013-845X"
+      ],
+      "representative_papers": [
+        {
+          "title_en": "A Brain–Computer Interface Based on Miniature-Event-Related Potentials Induced by Very Small Lateral Visual Stimuli",
+          "title_zh": "基于微小侧向视觉刺激诱发微小事件相关电位的脑机接口",
+          "year": 2018,
+          "venue": "IEEE TBME",
+          "authors": [
+            "Minpeng Xu"
+          ],
+          "doi": "",
+          "paper_url": "https://openalex.org/authors/A5082279530",
+          "source_url": "https://openalex.org/authors/A5082279530",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "Implementing Over 100 Command Codes for a High-Speed Hybrid Brain-Computer Interface Using Concurrent P300 and SSVEP Features",
+          "title_zh": "利用并发P300和SSVEP特征实现超过100个指令码的高速混合脑机接口",
+          "year": 2020,
+          "venue": "IEEE TBME",
+          "authors": [
+            "Minpeng Xu"
+          ],
+          "doi": "",
+          "paper_url": "https://openalex.org/authors/A5082279530",
+          "source_url": "https://openalex.org/authors/A5082279530",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "Enhance decoding of pre-movement EEG patterns for brain–computer interfaces",
+          "title_zh": "增强脑机接口运动前脑电模式的解码",
+          "year": 2019,
+          "venue": "Journal of Neural Engineering",
+          "authors": [
+            "Minpeng Xu"
+          ],
+          "doi": "",
+          "paper_url": "https://openalex.org/authors/A5082279530",
+          "source_url": "https://openalex.org/authors/A5082279530",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "A hybrid BCI speller paradigm combining P300 potential and the SSVEP blocking feature",
+          "title_zh": "结合P300电位与SSVEP阻断特征的混合脑机接口拼写范式",
+          "year": 2013,
+          "venue": "Journal of Neural Engineering",
+          "authors": [
+            "Minpeng Xu"
+          ],
+          "doi": "",
+          "paper_url": "https://openalex.org/authors/A5082279530",
+          "source_url": "https://openalex.org/authors/A5082279530",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "Cross-Dataset Variability Problem in EEG Decoding With Deep Learning",
+          "title_zh": "深度学习脑电解码中的跨数据集变异问题",
+          "year": 2020,
+          "venue": "Frontiers in Human Neuroscience",
+          "authors": [
+            "Minpeng Xu"
+          ],
+          "doi": "10.3389/fnhum.2020.591875",
+          "paper_url": "https://doi.org/10.3389/fnhum.2020.591875",
+          "source_url": "https://doi.org/10.3389/fnhum.2020.591875",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "Research on hybrid brain-computer interface based on imperceptible visual and auditory stimulation responses",
+          "title_zh": "基于不可感知视听刺激响应的混合脑机接口研究",
+          "year": 2025,
+          "venue": "Journal of Biomedical Engineering",
+          "authors": [
+            "Minpeng Xu"
+          ],
+          "doi": "10.7507/1001-5515.202504033",
+          "paper_url": "https://doi.org/10.7507/1001-5515.202504033",
+          "source_url": "https://doi.org/10.7507/1001-5515.202504033",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "MetaBCI: A comprehensive open-source software platform for brain-computer interfaces",
+          "title_zh": "MetaBCI：脑机接口综合开源软件平台",
+          "year": 2024,
+          "venue": "Open-source software",
+          "authors": [
+            "Minpeng Xu"
+          ],
+          "doi": "",
+          "paper_url": "https://github.com/TBC-TJU/MetaBCI",
+          "source_url": "https://github.com/TBC-TJU/MetaBCI",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        }
+      ],
+      "resources": [
+        {
+          "id": "MX-R01",
+          "type": "code",
+          "name": "MetaBCI",
+          "name_zh": "MetaBCI脑机接口开源软件",
+          "url": "https://github.com/TBC-TJU/MetaBCI",
+          "download_url": "https://github.com/TBC-TJU/MetaBCI",
+          "access": "公开代码",
+          "description": "脑机接口算法、数据处理与实验工具箱",
+          "author_relation": "团队开源项目",
+          "related_paper_titles": [],
+          "evidence_urls": [
+            "https://mstu.tju.edu.cn/info/1193/4237.htm"
+          ],
+          "verification": "天津大学主页与GitHub核验",
+          "notes": "",
+          "evidence_labels": [
+            "作者/机构主页"
+          ]
+        }
+      ],
+      "inclusion_reason": "官方机构主页、DBLP/ORCID或论文作者页可核验。",
+      "risk": "公开选定作品，不宣称终身全集；同名风险见审计。",
+      "source_files": [
+        "eeg_new_scholars_supplement_normalized.json",
+        "eeg_new_scholars_supplement_audit.md"
+      ],
+      "source_topic": "脑电解码、脑电情感计算与脑机接口"
+    },
+    {
+      "scholar_id": "xiaoli_li",
+      "name_zh": "李小俚",
+      "name_en": "Xiaoli Li",
+      "status": "已核验：官方机构/个人主页与论文页",
+      "affiliation": "Beijing Normal University State Key Laboratory of Cognitive Neuroscience and Learning",
+      "themes": [
+        "脑电解码与脑机接口",
+        "脑电情感计算"
+      ],
+      "identity_sources": [
+        "https://brain.bnu.edu.cn/kytd/jsyjy/Ljs/0f04a81f60614f47a5f2f5178d78e344.htm",
+        "https://jwb.bnu.edu.cn/docs/2022-10/c7a8193654e9dbe2cb1826c1b51df.pdf"
+      ],
+      "representative_papers": [
+        {
+          "title_en": "Using Permutation Entropy to Measure the Electroencephalographic Effects of Sevoflurane",
+          "title_zh": "使用排列熵测量七氟烷对脑电图的影响",
+          "year": 2008,
+          "venue": "Anesthesiology",
+          "authors": [
+            "Xiaoli Li"
+          ],
+          "doi": "",
+          "paper_url": "https://anesthesiology.pubs.asahq.org/article.aspx?articleid=1922285",
+          "source_url": "https://anesthesiology.pubs.asahq.org/article.aspx?articleid=1922285",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "Effects of Volatile Anesthetic Agents on Cerebral Cortical Synchronization in Sheep",
+          "title_zh": "挥发性麻醉药对绵羊大脑皮层同步性的影响",
+          "year": 2013,
+          "venue": "Anesthesiology",
+          "authors": [
+            "Xiaoli Li"
+          ],
+          "doi": "",
+          "paper_url": "https://anesthesiology.pubs.asahq.org/article.aspx?articleid=1918308",
+          "source_url": "https://anesthesiology.pubs.asahq.org/article.aspx?articleid=1918308",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "Evaluating the Effect of Repetitive Transcranial Magnetic Stimulation on Disorders of Consciousness by Using TMS-EEG",
+          "title_zh": "使用TMS-EEG评估重复经颅磁刺激对意识障碍的影响",
+          "year": 2016,
+          "venue": "Frontiers in Human Neuroscience",
+          "authors": [
+            "Xiaoli Li"
+          ],
+          "doi": "",
+          "paper_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5071327/",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5071327/",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "Human high-order thalamic nuclei gate conscious perception through the thalamofrontal loop",
+          "title_zh": "人类高级丘脑核团通过丘脑-额叶环路调控意识感知",
+          "year": 2024,
+          "venue": "Science",
+          "authors": [
+            "Xiaoli Li"
+          ],
+          "doi": "",
+          "paper_url": "https://brain.bnu.edu.cn/kyjz/f76949bc155445b59187dfeb06e205f5.htm",
+          "source_url": "https://brain.bnu.edu.cn/kyjz/f76949bc155445b59187dfeb06e205f5.htm",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "Evaluating the effect of spinal cord stimulation on patient with disorders of consciousness: A TMS-EEG study",
+          "title_zh": "利用TMS-EEG评估脊髓电刺激对意识障碍患者的影响",
+          "year": 2024,
+          "venue": "Computers in Biology and Medicine",
+          "authors": [
+            "Xiaoli Li"
+          ],
+          "doi": "",
+          "paper_url": "https://www.brainmed.com/info/detail?id=41584",
+          "source_url": "https://www.brainmed.com/info/detail?id=41584",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "Measurement of Excitation-Inhibition Imbalance in Autism Spectrum Disorder Using EEG Proxy Markers: A Pilot Study",
+          "title_zh": "利用脑电代理标志物测量孤独症谱系障碍中的兴奋-抑制失衡：初步研究",
+          "year": 2026,
+          "venue": "Clinical EEG and Neuroscience",
+          "authors": [
+            "Xiaoli Li"
+          ],
+          "doi": "",
+          "paper_url": "https://a.xueshu.baidu.com/scholarID/CN-BF75R55J",
+          "source_url": "https://a.xueshu.baidu.com/scholarID/CN-BF75R55J",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        }
+      ],
+      "resources": [],
+      "inclusion_reason": "官方机构主页、DBLP/ORCID或论文作者页可核验。",
+      "risk": "公开选定作品，不宣称终身全集；同名风险见审计。",
+      "source_files": [
+        "eeg_new_scholars_supplement_normalized.json",
+        "eeg_new_scholars_supplement_audit.md"
+      ],
+      "source_topic": "脑电解码、脑电情感计算与脑机接口"
+    },
+    {
+      "scholar_id": "huiguang_he",
+      "name_zh": "何晖光",
+      "name_en": "Huiguang He",
+      "status": "已核验：官方机构/个人主页与论文页",
+      "affiliation": "Institute of Automation, Chinese Academy of Sciences; NeuBCI",
+      "themes": [
+        "脑电解码与脑机接口",
+        "脑电情感计算"
+      ],
+      "identity_sources": [
+        "https://people.ucas.ac.cn/~hehuiguang?language=en",
+        "https://brain-ai.ia.ac.cn/xsyl/yjfx/202411/t20241125_251068.html",
+        "https://dblp.org/pid/84/5905.html",
+        "https://orcid.org/0000-0002-0684-1711"
+      ],
+      "representative_papers": [
+        {
+          "title_en": "PGCN: Pyramidal Graph Convolutional Network for EEG Emotion Recognition",
+          "title_zh": "PGCN：用于脑电情绪识别的金字塔图卷积网络",
+          "year": 2024,
+          "venue": "IEEE Transactions on Multimedia",
+          "authors": [
+            "Huiguang He"
+          ],
+          "doi": "",
+          "paper_url": "https://dblp.org/pid/84/5905.html",
+          "source_url": "https://dblp.org/pid/84/5905.html",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "Multi-View Multi-Label Fine-Grained Emotion Decoding From Human Brain Activity",
+          "title_zh": "基于多视角多标签的人脑活动细粒度情绪解码",
+          "year": 2024,
+          "venue": "IEEE TNNLS",
+          "authors": [
+            "Huiguang He"
+          ],
+          "doi": "",
+          "paper_url": "https://dblp.org/pid/84/5905.html",
+          "source_url": "https://dblp.org/pid/84/5905.html",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "Improved Video Emotion Recognition With Alignment of CNN and Human Brain Representations",
+          "title_zh": "通过CNN与人脑表征对齐改进视频情绪识别",
+          "year": 2024,
+          "venue": "IEEE TAFFC",
+          "authors": [
+            "Huiguang He"
+          ],
+          "doi": "",
+          "paper_url": "https://dblp.org/pid/84/5905.html",
+          "source_url": "https://dblp.org/pid/84/5905.html",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "CLIP-MUSED: CLIP-Guided Multi-Subject Visual Neural Information Semantic Decoding",
+          "title_zh": "CLIP-MUSED：CLIP引导的多被试视觉神经信息语义解码",
+          "year": 2024,
+          "venue": "ICLR 2024",
+          "authors": [
+            "Huiguang He"
+          ],
+          "doi": "",
+          "paper_url": "https://arxiv.org/abs/2402.08994",
+          "source_url": "https://arxiv.org/abs/2402.08994",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "Animate Your Thoughts: Decoupled Reconstruction of Dynamic Natural Vision from Slow Brain Activity",
+          "title_zh": "Animate Your Thoughts：从慢脑活动解耦重建动态自然视觉",
+          "year": 2024,
+          "venue": "arXiv",
+          "authors": [
+            "Huiguang He"
+          ],
+          "doi": "",
+          "paper_url": "https://arxiv.org/abs/2405.03280",
+          "source_url": "https://arxiv.org/abs/2405.03280",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "Open-vocabulary Auditory Neural Decoding Using fMRI-prompted LLM",
+          "title_zh": "利用fMRI提示大语言模型进行开放词汇听觉神经解码",
+          "year": 2024,
+          "venue": "arXiv",
+          "authors": [
+            "Huiguang He"
+          ],
+          "doi": "",
+          "paper_url": "https://arxiv.org/abs/2405.07840",
+          "source_url": "https://arxiv.org/abs/2405.07840",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "Reverse the auditory processing pathway: Coarse-to-fine audio reconstruction from fMRI",
+          "title_zh": "逆转听觉处理通路：从fMRI粗到细的音频重建",
+          "year": 2024,
+          "venue": "arXiv",
+          "authors": [
+            "Huiguang He"
+          ],
+          "doi": "",
+          "paper_url": "https://arxiv.org/abs/2405.18726",
+          "source_url": "https://arxiv.org/abs/2405.18726",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "Multi-label Class Incremental Emotion Decoding with Augmented Emotional Semantics Learning",
+          "title_zh": "基于增强情绪语义学习的多标签类增量情绪解码",
+          "year": 2024,
+          "venue": "arXiv",
+          "authors": [
+            "Huiguang He"
+          ],
+          "doi": "",
+          "paper_url": "https://arxiv.org/abs/2405.20600",
+          "source_url": "https://arxiv.org/abs/2405.20600",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        }
+      ],
+      "resources": [],
+      "inclusion_reason": "官方机构主页、DBLP/ORCID或论文作者页可核验。",
+      "risk": "公开选定作品，不宣称终身全集；同名风险见审计。",
+      "source_files": [
+        "eeg_new_scholars_supplement_normalized.json",
+        "eeg_new_scholars_supplement_audit.md"
+      ],
+      "source_topic": "脑电解码、脑电情感计算与脑机接口"
+    },
+    {
+      "scholar_id": "xia_wu",
+      "name_zh": "邬霞",
+      "name_en": "Xia Wu",
+      "status": "已核验：官方机构/个人主页与论文页",
+      "affiliation": "Beijing Institute of Technology School of Computer Science; BCI and Brain-inspired Intelligence Center",
+      "themes": [
+        "脑电解码与脑机接口",
+        "脑电情感计算"
+      ],
+      "identity_sources": [
+        "https://cs.bit.edu.cn/szdw/jsml/gjjgccrc/512fe47c8301487dba9d9d3e75898b73.htm",
+        "https://bit-brilliant-lab.github.io/team.html"
+      ],
+      "representative_papers": [
+        {
+          "title_en": "The Recognition of Multiple Anxiety Levels Based on Electroencephalograph",
+          "title_zh": "基于脑电图的多级焦虑识别",
+          "year": 2022,
+          "venue": "IEEE TAFFC",
+          "authors": [
+            "Xia Wu"
+          ],
+          "doi": "10.1109/TAFFC.2019.2936198",
+          "paper_url": "https://doi.org/10.1109/TAFFC.2019.2936198",
+          "source_url": "https://doi.org/10.1109/TAFFC.2019.2936198",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "Identifying Cortical Brain Directed Connectivity Networks From High-Density EEG for Emotion Recognition",
+          "title_zh": "从高密度脑电中识别用于情绪识别的皮层脑定向连接网络",
+          "year": 2022,
+          "venue": "IEEE TAFFC",
+          "authors": [
+            "Xia Wu"
+          ],
+          "doi": "",
+          "paper_url": "https://dblp.org/pid/29/4328-1.html",
+          "source_url": "https://dblp.org/pid/29/4328-1.html",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "Evolutional Neural Architecture Search for Optimization of Spatiotemporal Brain Network Decomposition",
+          "title_zh": "用于时空脑网络分解优化的进化神经架构搜索",
+          "year": 2022,
+          "venue": "IEEE TBME",
+          "authors": [
+            "Xia Wu"
+          ],
+          "doi": "",
+          "paper_url": "https://dblp.org/pid/29/4328-1.html",
+          "source_url": "https://dblp.org/pid/29/4328-1.html",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "CWEFS: Brain Volume Conduction Effects Inspired Channel-Wise EEG Feature Selection for Multi-Dimensional Emotion Recognition",
+          "title_zh": "CWEFS：受脑体积传导效应启发的多维情绪识别通道级脑电特征选择",
+          "year": 2026,
+          "venue": "IEEE TAFFC",
+          "authors": [
+            "Xia Wu"
+          ],
+          "doi": "10.1109/TAFFC.2026.3676563",
+          "paper_url": "https://doi.org/10.1109/TAFFC.2026.3676563",
+          "source_url": "https://doi.org/10.1109/TAFFC.2026.3676563",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "EEG based Emotion Recognition: A Tutorial and Review",
+          "title_zh": "基于脑电的情绪识别：教程与综述",
+          "year": 2023,
+          "venue": "ACM Computing Surveys",
+          "authors": [
+            "Xia Wu"
+          ],
+          "doi": "10.1145/3524499",
+          "paper_url": "https://doi.org/10.1145/3524499",
+          "source_url": "https://doi.org/10.1145/3524499",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "A novel neural network model based on cerebral hemispheric asymmetry for EEG emotion recognition",
+          "title_zh": "基于大脑半球不对称性的脑电情绪识别新型神经网络模型",
+          "year": 2018,
+          "venue": "IJCAI",
+          "authors": [
+            "Xia Wu"
+          ],
+          "doi": "",
+          "paper_url": "https://www.ijcai.org/Proceedings/2018/0444.pdf",
+          "source_url": "https://www.ijcai.org/Proceedings/2018/0444.pdf",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        }
+      ],
+      "resources": [],
+      "inclusion_reason": "官方机构主页、DBLP/ORCID或论文作者页可核验。",
+      "risk": "公开选定作品，不宣称终身全集；同名风险见审计。",
+      "source_files": [
+        "eeg_new_scholars_supplement_normalized.json",
+        "eeg_new_scholars_supplement_audit.md"
+      ],
+      "source_topic": "脑电解码、脑电情感计算与脑机接口"
+    },
+    {
+      "scholar_id": "dezhong_yao",
+      "name_zh": "尧德中",
+      "name_en": "Dezhong Yao",
+      "status": "已核验：官方机构/个人主页与论文页",
+      "affiliation": "University of Electronic Science and Technology of China; Sichuan Institute for Brain Science and Brain-inspired Intelligence",
+      "themes": [
+        "脑电解码与脑机接口",
+        "脑电情感计算"
+      ],
+      "identity_sources": [
+        "https://faculty.uestc.edu.cn/yaodezhong",
+        "https://www.neuro.uestc.edu.cn/bci/member/yao/yao.html",
+        "https://www.ccf.org.cn/Media_list/YEF/2026-05-02/888563.shtml"
+      ],
+      "representative_papers": [
+        {
+          "title_en": "基于脑电网络图特征的情绪识别研究",
+          "title_zh": "基于脑电网络图特征的情绪识别研究",
+          "year": 2023,
+          "venue": "数据采集与处理",
+          "authors": [
+            "尧德中"
+          ],
+          "doi": "10.16337/j.1004-9037.2023.04.006",
+          "paper_url": "https://doi.org/10.16337/j.1004-9037.2023.04.006",
+          "source_url": "https://doi.org/10.16337/j.1004-9037.2023.04.006",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "基于脑电网络的情绪识别研究进展",
+          "title_zh": "基于脑电网络的情绪识别研究进展",
+          "year": 2024,
+          "venue": "电子科技大学学报",
+          "authors": [
+            "尧德中"
+          ],
+          "doi": "",
+          "paper_url": "https://www.juestc.uestc.edu.cn/fileDZKJDX_ZKB/journal/article/dzkjdxxbzrkxb/2024/5/PDF/2024215.pdf",
+          "source_url": "https://www.juestc.uestc.edu.cn/fileDZKJDX_ZKB/journal/article/dzkjdxxbzrkxb/2024/5/PDF/2024215.pdf",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "从脑-机接口到脑-器交互",
+          "title_zh": "从脑-机接口到脑-器交互",
+          "year": 2024,
+          "venue": "重庆邮电大学学报（自然科学版）",
+          "authors": [
+            "尧德中"
+          ],
+          "doi": "10.3979/j.issn.1673-825X.202310270346",
+          "paper_url": "https://doi.org/10.3979/j.issn.1673-825X.202310270346",
+          "source_url": "https://doi.org/10.3979/j.issn.1673-825X.202310270346",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "Emotion Recognition by Learning the Manifold of Fused Multiscale Information of EEG Signals",
+          "title_zh": "通过学习脑电信号融合多尺度信息流形进行情绪识别",
+          "year": 2024,
+          "venue": "IEEE TAFFC",
+          "authors": [
+            "尧德中"
+          ],
+          "doi": "",
+          "paper_url": "https://www.10100.com/article/101397720",
+          "source_url": "https://www.10100.com/article/101397720",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "基于EEG-fMRI多模态协变网络的运动想象神经表征效能映射建模",
+          "title_zh": "基于EEG-fMRI多模态协变网络的运动想象神经表征效能映射建模",
+          "year": 2026,
+          "venue": "数据采集与处理",
+          "authors": [
+            "尧德中"
+          ],
+          "doi": "10.16337/j.1004-9037.2026.04.005",
+          "paper_url": "https://doi.org/10.16337/j.1004-9037.2026.04.005",
+          "source_url": "https://doi.org/10.16337/j.1004-9037.2026.04.005",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        },
+        {
+          "title_en": "基于脑电的脑-机接口：关键技术和应用前景",
+          "title_zh": "基于脑电的脑-机接口：关键技术和应用前景",
+          "year": 2009,
+          "venue": "电子科技大学学报",
+          "authors": [
+            "尧德中"
+          ],
+          "doi": "",
+          "paper_url": "https://neuro.uestc.edu.cn/neuro/html/Lab%20paper/%E7%A5%9E%E7%BB%8F%E4%BF%A1%E6%81%AF%E6%95%99%E8%82%B2%E9%83%A8%E9%87%8D%E7%82%B9%E5%AE%9E%E9%AA%8C%E5%AE%A42009%E5%B9%B4%E6%8A%A5.pdf",
+          "source_url": "https://neuro.uestc.edu.cn/neuro/html/Lab%20paper/%E7%A5%9E%E7%BB%8F%E4%BF%A1%E6%81%AF%E6%95%99%E8%82%B2%E9%83%A8%E9%87%8D%E7%82%B9%E5%AE%9E%E9%AA%8C%E5%AE%A42009%E5%B9%B4%E6%8A%A5.pdf",
+          "source_kind": "official/DBLP/ORCID selected",
+          "code_urls": [],
+          "data_urls": []
+        }
+      ],
+      "resources": [],
+      "inclusion_reason": "官方机构主页、DBLP/ORCID或论文作者页可核验。",
+      "risk": "公开选定作品，不宣称终身全集；同名风险见审计。",
+      "source_files": [
+        "eeg_new_scholars_supplement_normalized.json",
+        "eeg_new_scholars_supplement_audit.md"
+      ],
+      "source_topic": "脑电解码、脑电情感计算与脑机接口"
+    }
+  ]
+}
