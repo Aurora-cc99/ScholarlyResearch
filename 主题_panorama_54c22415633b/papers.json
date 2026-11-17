@@ -1,0 +1,248 @@
+{
+  "scholar": {
+    "name_zh": "卢青",
+    "name_en": "English name pending",
+    "affiliation": "东南大学",
+    "identity_sources": [
+      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    ],
+    "official_homepages": [
+      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    ],
+    "coverage": {
+      "scope": "2025–2026主题筛选与全量书目扩展",
+      "status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
+      "coverage_status": "仅有代表论文或项目级记录；个人全历史待补核",
+      "available_record_count": 4,
+      "bulk_source_record_count": 0,
+      "themes": [
+        "情感计算与脑电方向"
+      ]
+    },
+    "coverage_notes": "该目录与五位基线学者使用同一论文/资源/分类输出契约。‘可用记录数’表示本轮已取得并保留的书目，不等于未经消歧的个人终身全集；身份待核验、论文团队和同名风险见候选筛选证据。",
+    "id": "panorama_54c22415633b",
+    "folder": "主题_panorama_54c22415633b",
+    "classification": {
+      "method": "按题名及现有项目、资源说明进行主题粗分，用于阅读导航；未逐篇审阅全文，不代表学者官方分类。每条书目只设一个主类别，跨方向信息保留在辅助标签中。",
+      "categories": [
+        {
+          "id": "eeg_foundation",
+          "label": "脑电基础模型与通用解码",
+          "description": "EEG基础模型、跨任务/跨设备泛化、预训练与脑信号解码。",
+          "count": 0
+        },
+        {
+          "id": "eeg_affect",
+          "label": "情感脑电与多模态生理信号",
+          "description": "脑电情感识别、EEG-fNIRS/EEG-MEG及情感计算应用。",
+          "count": 4
+        },
+        {
+          "id": "eeg_benchmark",
+          "label": "脑电基准、数据与评测",
+          "description": "脑电基础模型基准、数据集、可复现评估与跨数据集比较。",
+          "count": 0
+        }
+      ],
+      "review": {
+        "status": "theme_candidate",
+        "source_status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
+        "primary_theme": "脑电情感计算与脑电大模型"
+      }
+    },
+    "counts": {
+      "bibliographic_records": 4,
+      "resource_entries": 0,
+      "papers_with_linked_resources": 0,
+      "types": {},
+      "years": [
+        2019,
+        2020,
+        2026
+      ],
+      "unknown_year": 0
+    }
+  },
+  "papers": [
+    {
+      "title": "Alterations of several types of metabolites related to microbiota-gut-brain axis in urine of children with autism spectrum disorder. Frontiers in Psychiatry",
+      "title_en": "Alterations of several types of metabolites related to microbiota-gut-brain axis in urine of children with autism spectrum disorder. Frontiers in Psychiatry",
+      "title_zh": "自闭症谱系障碍儿童尿液中与微生物群-肠-脑轴相关的几种代谢物的改变。精神病学前沿",
+      "year": 2026,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "卢青"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感计算与脑电方向",
+        "情感计算与脑电方向"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_54c22415633b_74b4541cb14f",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "情感计算与脑电方向"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_54c22415633b",
+      "scholar_name": "卢青",
+      "work_title_group": "6c829ed151ac",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Dual-pathway inhibitory dysfunction in schizophrenia: MEG and behavioral markers for risk stratification. Journal of Psychiatry and Neuroscience",
+      "title_en": "Dual-pathway inhibitory dysfunction in schizophrenia: MEG and behavioral markers for risk stratification. Journal of Psychiatry and Neuroscience",
+      "title_zh": "精神分裂症的双通路抑制功能障碍：MEG 和风险分层的行为标记。精神病学和神经科学杂志",
+      "year": 2026,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "卢青"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感计算与脑电方向",
+        "情感计算与脑电方向"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_54c22415633b_a70abdccf45f",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "情感计算与脑电方向"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_54c22415633b",
+      "scholar_name": "卢青",
+      "work_title_group": "518bbf0930f8",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Disturbed Resting-State Whole-Brain Functional Connectivity of Striatal Subregions in Bulimia Nervosa. International Journal of Neuropsychopharmacology",
+      "title_en": "Disturbed Resting-State Whole-Brain Functional Connectivity of Striatal Subregions in Bulimia Nervosa. International Journal of Neuropsychopharmacology",
+      "title_zh": "神经性贪食症纹状体亚区静息态全脑功能连接紊乱。国际神经精神药理学杂志",
+      "year": 2020,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "卢青"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感计算与脑电方向",
+        "情感计算与脑电方向"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_54c22415633b_2366e8610741",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "情感计算与脑电方向"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_54c22415633b",
+      "scholar_name": "卢青",
+      "work_title_group": "25e17094cff3",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Magnetoencephalography resting‐state spectral fingerprints distinguish bipolar depression and unipolar depression. Bipolar Disorders",
+      "title_en": "Magnetoencephalography resting‐state spectral fingerprints distinguish bipolar depression and unipolar depression. Bipolar Disorders",
+      "title_zh": "脑磁图静息态光谱指纹可区分双相抑郁症和单相抑郁症。双相情感障碍",
+      "year": 2019,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "卢青"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感计算与脑电方向",
+        "情感计算与脑电方向"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_54c22415633b_6cb2361a3bea",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "情感计算与脑电方向"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_54c22415633b",
+      "scholar_name": "卢青",
+      "work_title_group": "d14c246d5b6b",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    }
+  ]
+}

@@ -1,0 +1,796 @@
+{
+  "scholar": {
+    "name_zh": "肖仲喆",
+    "name_en": "English name pending",
+    "affiliation": "苏州大学",
+    "identity_sources": [
+      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    ],
+    "official_homepages": [
+      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    ],
+    "coverage": {
+      "scope": "2025–2026主题筛选与全量书目扩展",
+      "status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
+      "coverage_status": "仅有代表论文或项目级记录；个人全历史待补核",
+      "available_record_count": 16,
+      "bulk_source_record_count": 0,
+      "themes": [
+        "情感理解与情感智能"
+      ]
+    },
+    "coverage_notes": "该目录与五位基线学者使用同一论文/资源/分类输出契约。‘可用记录数’表示本轮已取得并保留的书目，不等于未经消歧的个人终身全集；身份待核验、论文团队和同名风险见候选筛选证据。",
+    "id": "panorama_c1879b974d29",
+    "folder": "主题_panorama_c1879b974d29",
+    "classification": {
+      "method": "按题名及现有项目、资源说明进行主题粗分，用于阅读导航；未逐篇审阅全文，不代表学者官方分类。每条书目只设一个主类别，跨方向信息保留在辅助标签中。",
+      "categories": [
+        {
+          "id": "emotion_understanding",
+          "label": "情感理解与多模态推理",
+          "description": "多模态情感识别、情绪原因解释、开放词汇与上下文推理。",
+          "count": 15
+        },
+        {
+          "id": "affective_intelligence",
+          "label": "情感智能、共情与生成",
+          "description": "情感智能、心智理论、共情响应和情感生成。",
+          "count": 0
+        },
+        {
+          "id": "emotion_benchmark",
+          "label": "情感数据集、基准与评测",
+          "description": "情感数据集、评测基准、情感幻觉与可靠性分析。",
+          "count": 1
+        }
+      ],
+      "review": {
+        "status": "theme_candidate",
+        "source_status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
+        "primary_theme": "情感智能与情感大模型"
+      }
+    },
+    "counts": {
+      "bibliographic_records": 16,
+      "resource_entries": 0,
+      "papers_with_linked_resources": 0,
+      "types": {},
+      "years": [
+        2007,
+        2008,
+        2009,
+        2011,
+        2012,
+        2016,
+        2018,
+        2019,
+        2021,
+        2022,
+        2023
+      ],
+      "unknown_year": 0
+    }
+  },
+  "papers": [
+    {
+      "title": "A study of correlation between physiological process of articulation and emotions on Mandarin Chinese. Speech Communication",
+      "title_en": "A study of correlation between physiological process of articulation and emotions on Mandarin Chinese. Speech Communication",
+      "title_zh": "普通话发音生理过程与情绪的相关性研究语音交流",
+      "year": 2023,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "肖仲喆"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_c1879b974d29_f1861811da43",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_c1879b974d29",
+      "scholar_name": "肖仲喆",
+      "work_title_group": "080677d48dff",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Effective acoustic parameters for automatic classification of performed and synthesized Guzheng music. EURASIP Journal on Audio, Speech, and Music Processing",
+      "title_en": "Effective acoustic parameters for automatic classification of performed and synthesized Guzheng music. EURASIP Journal on Audio, Speech, and Music Processing",
+      "title_zh": "用于自动分类演奏和合成的古筝音乐的有效声学参数。 EURASIP 音频、语音和音乐处理期刊",
+      "year": 2023,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "肖仲喆"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_c1879b974d29_d40dbed28ebb",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_c1879b974d29",
+      "scholar_name": "肖仲喆",
+      "work_title_group": "e48759f86466",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "MES-P: An Emotional Tonal Speech Dataset in Mandarin with Distal and Proximal Labels. IEEE Transactions on Affective Computing",
+      "title_en": "MES-P: An Emotional Tonal Speech Dataset in Mandarin with Distal and Proximal Labels. IEEE Transactions on Affective Computing",
+      "title_zh": "MES-P：带有远端和近端标签的普通话情感语调语音数据集。 IEEE 情感计算汇刊",
+      "year": 2022,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "肖仲喆"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_c1879b974d29_856ef401ec81",
+      "category_id": "emotion_benchmark",
+      "primary_category": "情感数据集、基准与评测",
+      "secondary_tags": [
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_c1879b974d29",
+      "scholar_name": "肖仲喆",
+      "work_title_group": "e5eae6bf2aa7",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Detection of Basic Emotions from Cats’ Meowing. Lecture Notes in Electrical Engineering",
+      "title_en": "Detection of Basic Emotions from Cats’ Meowing. Lecture Notes in Electrical Engineering",
+      "title_zh": "从猫的喵喵声中检测基本情绪。电气工程讲义",
+      "year": 2021,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "肖仲喆"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_c1879b974d29_3e36681f419e",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_c1879b974d29",
+      "scholar_name": "肖仲喆",
+      "work_title_group": "1e01e2b424d2",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "DSTL: Solution to Limitation of Small Corpus in Speech Emotion Recognition. Journal of Artificial Intelligence Research",
+      "title_en": "DSTL: Solution to Limitation of Small Corpus in Speech Emotion Recognition. Journal of Artificial Intelligence Research",
+      "title_zh": "DSTL：解决语音情感识别中小语料库的限制。人工智能研究杂志",
+      "year": 2019,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "肖仲喆"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_c1879b974d29_c94b845acfb5",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_c1879b974d29",
+      "scholar_name": "肖仲喆",
+      "work_title_group": "fa6c76a6f28d",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Contribution of Glottal Waveform in Speech Emotion: A Comparative Pairwise Investigation. 2018 IEEE International Conference on Progress in Informatics and Computing (PIC)",
+      "title_en": "Contribution of Glottal Waveform in Speech Emotion: A Comparative Pairwise Investigation. 2018 IEEE International Conference on Progress in Informatics and Computing (PIC)",
+      "title_zh": "声门波形在言语情感中的贡献：一项比较成对研究。 2018 IEEE 国际信息学与计算进展会议 (PIC)",
+      "year": 2018,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "肖仲喆"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_c1879b974d29_6cfe3df21105",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_c1879b974d29",
+      "scholar_name": "肖仲喆",
+      "work_title_group": "887fc2ccf6ad",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "A Cross-Corpus Recognition of Emotional Speech. 2016 9th International Symposium on Computational Intelligence and Design (ISCID)",
+      "title_en": "A Cross-Corpus Recognition of Emotional Speech. 2016 9th International Symposium on Computational Intelligence and Design (ISCID)",
+      "title_zh": "情感语音的跨语料库识别。 2016第九届计算智能与设计国际研讨会（ISCID）",
+      "year": 2016,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "肖仲喆"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_c1879b974d29_a9dea8d67947",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_c1879b974d29",
+      "scholar_name": "肖仲喆",
+      "work_title_group": "ab08c94665c6",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Speech emotion recognition cross language families: Mandarin vs. western languages. 2016 International Conference on Progress in Informatics and Computing (PIC)",
+      "title_en": "Speech emotion recognition cross language families: Mandarin vs. western languages. 2016 International Conference on Progress in Informatics and Computing (PIC)",
+      "title_zh": "跨语言家族的语音情感识别：普通话与西方语言。 2016年信息学与计算进展国际会议（PIC）",
+      "year": 2016,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "肖仲喆"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_c1879b974d29_8df2c10482eb",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_c1879b974d29",
+      "scholar_name": "肖仲喆",
+      "work_title_group": "202088553b05",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Speech endpoint detection in noisy environment using Spectrogram Boundary Factor. 2016 9th International Congress on Image and Signal Processing, BioMedical Engineering and Informatics (CISP-BMEI)",
+      "title_en": "Speech endpoint detection in noisy environment using Spectrogram Boundary Factor. 2016 9th International Congress on Image and Signal Processing, BioMedical Engineering and Informatics (CISP-BMEI)",
+      "title_zh": "使用频谱图边界因子在噪声环境中进行语音端点检测。 2016第九届国际图像与信号处理、生物医学工程与信息学大会（CISP-BMEI）",
+      "year": 2016,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "肖仲喆"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_c1879b974d29_e39eb3074186",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_c1879b974d29",
+      "scholar_name": "肖仲喆",
+      "work_title_group": "800e56e38a63",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Emotional speech conversion based on spectrum-prosody dual transformation. 2012 IEEE 11th International Conference on Signal Processing",
+      "title_en": "Emotional speech conversion based on spectrum-prosody dual transformation. 2012 IEEE 11th International Conference on Signal Processing",
+      "title_zh": "基于谱-韵律双重变换的情感语音转换。 2012年IEEE第11届信号处理国际会议",
+      "year": 2012,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "肖仲喆"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_c1879b974d29_c9e3381260a6",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_c1879b974d29",
+      "scholar_name": "肖仲喆",
+      "work_title_group": "ba11e2e361f7",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Music mood tracking based on HCS. 2012 IEEE 11th International Conference on Signal Processing",
+      "title_en": "Music mood tracking based on HCS. 2012 IEEE 11th International Conference on Signal Processing",
+      "title_zh": "基于HCS的音乐情绪跟踪。 2012年IEEE第11届信号处理国际会议",
+      "year": 2012,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "肖仲喆"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_c1879b974d29_fae05d6e7216",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_c1879b974d29",
+      "scholar_name": "肖仲喆",
+      "work_title_group": "9283dbd3b7f2",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Classification of Emotional Speech Based on an Automatically Elaborated Hierarchical Classifier. ISRN Signal Processing",
+      "title_en": "Classification of Emotional Speech Based on an Automatically Elaborated Hierarchical Classifier. ISRN Signal Processing",
+      "title_zh": "基于自动精细分层分类器的情感语音分类。 ISRN 信号处理",
+      "year": 2011,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "肖仲喆"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_c1879b974d29_119f573709f2",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_c1879b974d29",
+      "scholar_name": "肖仲喆",
+      "work_title_group": "18d478c48e6a",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Multi-stage classification of emotional speech motivated by a dimensional emotion model. Multimedia Tools and Applications",
+      "title_en": "Multi-stage classification of emotional speech motivated by a dimensional emotion model. Multimedia Tools and Applications",
+      "title_zh": "由维度情感模型驱动的情感言语的多阶段分类。多媒体工具和应用程序",
+      "year": 2009,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "肖仲喆"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_c1879b974d29_4f79157688ca",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_c1879b974d29",
+      "scholar_name": "肖仲喆",
+      "work_title_group": "cb2dde5cea6a",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Recognition of emotions in speech by a hierarchical approach. 2009 3rd International Conference on Affective Computing and Intelligent Interaction and Workshops",
+      "title_en": "Recognition of emotions in speech by a hierarchical approach. 2009 3rd International Conference on Affective Computing and Intelligent Interaction and Workshops",
+      "title_zh": "通过分层方法识别言语中的情绪。 2009第三届情感计算与智能交互国际会议暨研讨会",
+      "year": 2009,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "肖仲喆"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_c1879b974d29_ae5e2d3df682",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_c1879b974d29",
+      "scholar_name": "肖仲喆",
+      "work_title_group": "8cec07421d09",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "What is the best segment duration for music mood analysis ?. 2008 International Workshop on Content-Based Multimedia Indexing",
+      "title_en": "What is the best segment duration for music mood analysis ?. 2008 International Workshop on Content-Based Multimedia Indexing",
+      "title_zh": "音乐情绪分析的最佳片段持续时间是多少？ 2008年基于内容的多媒体索引国际研讨会",
+      "year": 2008,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "肖仲喆"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_c1879b974d29_395cc6d84dbf",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_c1879b974d29",
+      "scholar_name": "肖仲喆",
+      "work_title_group": "016efe19b0a8",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Automatic Hierarchical Classification of Emotional Speech. Ninth IEEE International Symposium on Multimedia Workshops (ISMW 2007)",
+      "title_en": "Automatic Hierarchical Classification of Emotional Speech. Ninth IEEE International Symposium on Multimedia Workshops (ISMW 2007)",
+      "title_zh": "情感语音的自动分层分类。第九届 IEEE 国际多媒体研讨会研讨会 (ISMW 2007)",
+      "year": 2007,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "肖仲喆"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_c1879b974d29_ba77249c30f1",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_c1879b974d29",
+      "scholar_name": "肖仲喆",
+      "work_title_group": "1a5ef5c0e12f",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    }
+  ]
+}

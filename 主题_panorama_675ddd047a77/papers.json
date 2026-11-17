@@ -1,0 +1,430 @@
+{
+  "scholar": {
+    "name_zh": "毕晓君",
+    "name_en": "English name pending",
+    "affiliation": "哈尔滨工程大学",
+    "identity_sources": [
+      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    ],
+    "official_homepages": [
+      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    ],
+    "coverage": {
+      "scope": "2025–2026主题筛选与全量书目扩展",
+      "status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
+      "coverage_status": "仅有代表论文或项目级记录；个人全历史待补核",
+      "available_record_count": 8,
+      "bulk_source_record_count": 0,
+      "themes": [
+        "脑电情感计算与脑机接口"
+      ]
+    },
+    "coverage_notes": "该目录与五位基线学者使用同一论文/资源/分类输出契约。‘可用记录数’表示本轮已取得并保留的书目，不等于未经消歧的个人终身全集；身份待核验、论文团队和同名风险见候选筛选证据。",
+    "id": "panorama_675ddd047a77",
+    "folder": "主题_panorama_675ddd047a77",
+    "classification": {
+      "method": "按题名及现有项目、资源说明进行主题粗分，用于阅读导航；未逐篇审阅全文，不代表学者官方分类。每条书目只设一个主类别，跨方向信息保留在辅助标签中。",
+      "categories": [
+        {
+          "id": "eeg_foundation",
+          "label": "脑电基础模型与通用解码",
+          "description": "EEG基础模型、跨任务/跨设备泛化、预训练与脑信号解码。",
+          "count": 0
+        },
+        {
+          "id": "eeg_affect",
+          "label": "情感脑电与多模态生理信号",
+          "description": "脑电情感识别、EEG-fNIRS/EEG-MEG及情感计算应用。",
+          "count": 8
+        },
+        {
+          "id": "eeg_benchmark",
+          "label": "脑电基准、数据与评测",
+          "description": "脑电基础模型基准、数据集、可复现评估与跨数据集比较。",
+          "count": 0
+        }
+      ],
+      "review": {
+        "status": "theme_candidate",
+        "source_status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
+        "primary_theme": "脑电情感计算与脑电大模型"
+      }
+    },
+    "counts": {
+      "bibliographic_records": 8,
+      "resource_entries": 0,
+      "papers_with_linked_resources": 0,
+      "types": {},
+      "years": [
+        2019,
+        2020,
+        2021,
+        2023,
+        2025
+      ],
+      "unknown_year": 0
+    }
+  },
+  "papers": [
+    {
+      "title": "LCFFNet: A Lightweight Cross-scale Feature Fusion Network for human pose estimation.. Neural Netw",
+      "title_en": "LCFFNet: A Lightweight Cross-scale Feature Fusion Network for human pose estimation.. Neural Netw",
+      "title_zh": "LCFFNet：用于人体姿势估计的轻量级跨尺度特征融合网络..神经网络",
+      "year": 2025,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "毕晓君"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "脑电情感计算与脑机接口"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_675ddd047a77_bb62cc609417",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_675ddd047a77",
+      "scholar_name": "毕晓君",
+      "work_title_group": "0353091fa3fe",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Lightweight image de-snowing: A better trade-off between network capacity and performance.. Neural Netw",
+      "title_en": "Lightweight image de-snowing: A better trade-off between network capacity and performance.. Neural Netw",
+      "title_zh": "轻量级图像除雪：网络容量和性能之间更好的权衡。神经网络",
+      "year": 2023,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "毕晓君"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "脑电情感计算与脑机接口"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_675ddd047a77_757dfd48f488",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_675ddd047a77",
+      "scholar_name": "毕晓君",
+      "work_title_group": "59ee2c3300a4",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Word self-update contrastive adversarial networks for text-to-image synthesis.. Neural Netw",
+      "title_en": "Word self-update contrastive adversarial networks for text-to-image synthesis.. Neural Netw",
+      "title_zh": "用于文本到图像合成的词自更新对比对抗网络.. 神经网络",
+      "year": 2023,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "毕晓君"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "脑电情感计算与脑机接口"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_675ddd047a77_3b880a74df6a",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_675ddd047a77",
+      "scholar_name": "毕晓君",
+      "work_title_group": "5873f3d49870",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Dual-task ultrasound spine transverse vertebrae segmentation network with contour regularization.. Comput Med Imaging Graph",
+      "title_en": "Dual-task ultrasound spine transverse vertebrae segmentation network with contour regularization.. Comput Med Imaging Graph",
+      "title_zh": "具有轮廓正则化的双任务超声脊柱横向椎骨分割网络。计算医学成像图",
+      "year": 2021,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "毕晓君"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "脑电情感计算与脑机接口"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_675ddd047a77_24f555343c04",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_675ddd047a77",
+      "scholar_name": "毕晓君",
+      "work_title_group": "f6c64647327b",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Learning Hierarchical Representations with Spike-and-Slab Inception Network.. Sensors (Basel)",
+      "title_en": "Learning Hierarchical Representations with Spike-and-Slab Inception Network.. Sensors (Basel)",
+      "title_zh": "使用 Spike-and-Slab 初始网络学习分层表示。传感器（巴塞尔）",
+      "year": 2021,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "毕晓君"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "脑电情感计算与脑机接口"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_675ddd047a77_1a954f73152b",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_675ddd047a77",
+      "scholar_name": "毕晓君",
+      "work_title_group": "04f0eb1e2c0c",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Ultrasound volume projection image quality selection by ranking from convolutional RankNet.. Comput Med Imaging Graph",
+      "title_en": "Ultrasound volume projection image quality selection by ranking from convolutional RankNet.. Comput Med Imaging Graph",
+      "title_zh": "通过卷积 RankNet 排名来选择超声体积投影图像质量。Comput Med Imaging Graph",
+      "year": 2021,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "毕晓君"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "脑电情感计算与脑机接口"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_675ddd047a77_4850c5086206",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_675ddd047a77",
+      "scholar_name": "毕晓君",
+      "work_title_group": "ef29e17cb541",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Multi-Level Cross Residual Network for Lung Nodule Classification.. Sensors (Basel)",
+      "title_en": "Multi-Level Cross Residual Network for Lung Nodule Classification.. Sensors (Basel)",
+      "title_zh": "用于肺结节分类的多级交叉残差网络..传感器（巴塞尔）",
+      "year": 2020,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "毕晓君"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "脑电情感计算与脑机接口"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_675ddd047a77_b68d854ab196",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_675ddd047a77",
+      "scholar_name": "毕晓君",
+      "work_title_group": "b29f72fa8a8f",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Early Alzheimer's disease diagnosis based on EEG spectral images using deep learning.. Neural Netw",
+      "title_en": "Early Alzheimer's disease diagnosis based on EEG spectral images using deep learning.. Neural Netw",
+      "title_zh": "使用深度学习基于脑电图光谱图像进行早期阿尔茨海默病诊断。神经网络",
+      "year": 2019,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "毕晓君"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "脑电情感计算与脑机接口"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_675ddd047a77_3215c381cefe",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_675ddd047a77",
+      "scholar_name": "毕晓君",
+      "work_title_group": "3f0cdccdcf5f",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    }
+  ]
+}

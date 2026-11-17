@@ -1,0 +1,328 @@
+{
+  "scholar": {
+    "name_zh": "蒲慕明",
+    "name_en": "Mu-ming Poo",
+    "affiliation": "Chinese Academy of Sciences Institute of Neuroscience; UC Berkeley Paul Licht Distinguished Professor Emeritus; Hong Kong Institute for Advanced Study Senior Fellow",
+    "identity_sources": [
+      "https://www.hkias.cityu.edu.hk/zh-cn/our-people/senior-fellows/professor-mu-ming-poo",
+      "https://www.ion.ac.cn/zt/fzs/kxjjs/pmm/",
+      "https://academicians.sinica.edu.tw/index.php?_lang=en&id=125&r=academician-n%2Fshow",
+      "https://www.mcb.berkeley.edu/faculty/NEU/poom.html"
+    ],
+    "official_homepages": [
+      "https://www.hkias.cityu.edu.hk/zh-cn/our-people/senior-fellows/professor-mu-ming-poo",
+      "https://www.ion.ac.cn/zt/fzs/kxjjs/pmm/",
+      "https://academicians.sinica.edu.tw/index.php?_lang=en&id=125&r=academician-n%2Fshow",
+      "https://www.mcb.berkeley.edu/faculty/NEU/poom.html"
+    ],
+    "coverage": {
+      "scope": "2025–2026主题筛选与全量书目扩展",
+      "status": "官方身份已核验；公开目录/代表作范围已接入，非全部生涯作品",
+      "coverage_status": "仅有代表论文或项目级记录；个人全历史待补核",
+      "available_record_count": 5,
+      "bulk_source_record_count": 0,
+      "themes": [
+        "脑科学与类脑智能",
+        "突触可塑性与神经发育"
+      ]
+    },
+    "coverage_notes": "该目录与五位基线学者使用同一论文/资源/分类输出契约。‘可用记录数’表示本轮已取得并保留的书目，不等于未经消歧的个人终身全集；身份待核验、论文团队和同名风险见候选筛选证据。",
+    "id": "mu_ming_poo",
+    "folder": "主题_mu_ming_poo",
+    "classification": {
+      "method": "按题名及现有项目、资源说明进行主题粗分，用于阅读导航；未逐篇审阅全文，不代表学者官方分类。每条书目只设一个主类别，跨方向信息保留在辅助标签中。",
+      "categories": [
+        {
+          "id": "eeg_foundation",
+          "label": "脑电基础模型与通用解码",
+          "description": "EEG基础模型、跨任务/跨设备泛化、预训练与脑信号解码。",
+          "count": 5
+        },
+        {
+          "id": "eeg_affect",
+          "label": "情感脑电与多模态生理信号",
+          "description": "脑电情感识别、EEG-fNIRS/EEG-MEG及情感计算应用。",
+          "count": 0
+        },
+        {
+          "id": "eeg_benchmark",
+          "label": "脑电基准、数据与评测",
+          "description": "脑电基础模型基准、数据集、可复现评估与跨数据集比较。",
+          "count": 0
+        }
+      ],
+      "review": {
+        "status": "theme_candidate",
+        "source_status": "官方身份已核验；公开目录/代表作范围已接入，非全部生涯作品",
+        "primary_theme": "脑电情感计算与脑电大模型"
+      }
+    },
+    "counts": {
+      "bibliographic_records": 5,
+      "resource_entries": 8,
+      "papers_with_linked_resources": 5,
+      "types": {
+        "project": 8
+      },
+      "years": [
+        1993,
+        1998,
+        2016,
+        2018
+      ],
+      "unknown_year": 0
+    }
+  },
+  "papers": [
+    {
+      "title": "Cloning of Macaque Monkeys by Somatic Cell Nuclear Transfer",
+      "title_en": "Cloning of Macaque Monkeys by Somatic Cell Nuclear Transfer",
+      "title_zh": "通过体细胞核移植克隆猕猴",
+      "year": 2018,
+      "venue": "Cell",
+      "authors": [
+        "Liu Z; Cai Y; Yan W; Nie Y; Zhang C; Xu Y; Zhang X; Lu Y; Wang Z; Poo M-m; Sun Q"
+      ],
+      "doi": "10.1016/j.cell.2018.01.020",
+      "paper_url": "https://doi.org/10.1016/j.cell.2018.01.020",
+      "source_url": "https://doi.org/10.1016/j.cell.2018.01.020",
+      "topics": [
+        "脑科学与类脑智能",
+        "突触可塑性与神经发育",
+        "脑科学与类脑智能",
+        "突触可塑性与神经发育"
+      ],
+      "verification": "主题筛选候选；官方身份已核验；公开目录/代表作范围已接入，非全部生涯作品",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [
+        "mu_ming_poo__R005"
+      ],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": false,
+      "source_kind": "official publication list",
+      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+      "record_id": "mu_ming_poo_96ddb5286b6c",
+      "category_id": "eeg_foundation",
+      "primary_category": "脑电基础模型与通用解码",
+      "secondary_tags": [
+        "脑科学与类脑智能",
+        "突触可塑性与神经发育"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "mu_ming_poo",
+      "scholar_name": "蒲慕明",
+      "work_title_group": "4b0a3cfda2ab",
+      "resource_status": "已关联公开入口；具体访问范围见资源说明"
+    },
+    {
+      "title": "Selective synaptic remodeling of amygdalocortical connections associated with fear memory",
+      "title_en": "Selective synaptic remodeling of amygdalocortical connections associated with fear memory",
+      "title_zh": "与恐惧记忆相关的杏仁皮质连接的选择性突触重塑",
+      "year": 2016,
+      "venue": "Nature Neuroscience",
+      "authors": [
+        "Yang Y; Liu D-q; Sun Y-g; Zuo Y; Poo M"
+      ],
+      "doi": "10.1038/nn.4342",
+      "paper_url": "https://doi.org/10.1038/nn.4342",
+      "source_url": "https://doi.org/10.1038/nn.4342",
+      "topics": [
+        "脑科学与类脑智能",
+        "突触可塑性与神经发育",
+        "脑科学与类脑智能",
+        "突触可塑性与神经发育"
+      ],
+      "verification": "主题筛选候选；官方身份已核验；公开目录/代表作范围已接入，非全部生涯作品",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [
+        "mu_ming_poo__R004"
+      ],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": false,
+      "source_kind": "official publication list",
+      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+      "record_id": "mu_ming_poo_06ae1a69c42d",
+      "category_id": "eeg_foundation",
+      "primary_category": "脑电基础模型与通用解码",
+      "secondary_tags": [
+        "脑科学与类脑智能",
+        "突触可塑性与神经发育"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "mu_ming_poo",
+      "scholar_name": "蒲慕明",
+      "work_title_group": "467daf750b47",
+      "resource_status": "已关联公开入口；具体访问范围见资源说明"
+    },
+    {
+      "title": "Conversion of neuronal growth cone responses from repulsion to attraction by cyclic nucleotides",
+      "title_en": "Conversion of neuronal growth cone responses from repulsion to attraction by cyclic nucleotides",
+      "title_zh": "神经元生长锥反应从环状核苷酸的排斥到吸引的转换",
+      "year": 1998,
+      "venue": "Science",
+      "authors": [
+        "Song H-j; Ming G-1; He Z; Lehmann M; McKerracher L; Tessier-Lavigne M; Poo M-m"
+      ],
+      "doi": "10.1126/science.281.5382.1515",
+      "paper_url": "https://doi.org/10.1126/science.281.5382.1515",
+      "source_url": "https://doi.org/10.1126/science.281.5382.1515",
+      "topics": [
+        "脑科学与类脑智能",
+        "突触可塑性与神经发育",
+        "脑科学与类脑智能",
+        "突触可塑性与神经发育"
+      ],
+      "verification": "主题筛选候选；官方身份已核验；公开目录/代表作范围已接入，非全部生涯作品",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [
+        "mu_ming_poo__R003"
+      ],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": false,
+      "source_kind": "official publication list",
+      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+      "record_id": "mu_ming_poo_a53ae3500ba0",
+      "category_id": "eeg_foundation",
+      "primary_category": "脑电基础模型与通用解码",
+      "secondary_tags": [
+        "脑科学与类脑智能",
+        "突触可塑性与神经发育"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "mu_ming_poo",
+      "scholar_name": "蒲慕明",
+      "work_title_group": "2cdcee62a06b",
+      "resource_status": "已关联公开入口；具体访问范围见资源说明"
+    },
+    {
+      "title": "Synaptic modifications in cultured hippocampal neurons: dependence on spike timing, synaptic strength, and postsynaptic cell type",
+      "title_en": "Synaptic modifications in cultured hippocampal neurons: dependence on spike timing, synaptic strength, and postsynaptic cell type",
+      "title_zh": "培养的海马神经元的突触修饰：依赖于尖峰时间、突触强度和突触后细胞类型",
+      "year": 1998,
+      "venue": "Journal of Neuroscience",
+      "authors": [
+        "Bi Q; Poo M-m"
+      ],
+      "doi": "10.1523/JNEUROSCI.18-23-10464.1998",
+      "paper_url": "https://doi.org/10.1523/JNEUROSCI.18-23-10464.1998",
+      "source_url": "https://doi.org/10.1523/JNEUROSCI.18-23-10464.1998",
+      "topics": [
+        "脑科学与类脑智能",
+        "突触可塑性与神经发育",
+        "脑科学与类脑智能",
+        "突触可塑性与神经发育"
+      ],
+      "verification": "主题筛选候选；官方身份已核验；公开目录/代表作范围已接入，非全部生涯作品",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [
+        "mu_ming_poo__R002"
+      ],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": false,
+      "source_kind": "official publication list",
+      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+      "record_id": "mu_ming_poo_1d9567667d3a",
+      "category_id": "eeg_foundation",
+      "primary_category": "脑电基础模型与通用解码",
+      "secondary_tags": [
+        "脑科学与类脑智能",
+        "突触可塑性与神经发育"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "mu_ming_poo",
+      "scholar_name": "蒲慕明",
+      "work_title_group": "5b014a33fe34",
+      "resource_status": "已关联公开入口；具体访问范围见资源说明"
+    },
+    {
+      "title": "Potentiation of developing neuromuscular synapses by the neurotrophins NT-3 and BDNF",
+      "title_en": "Potentiation of developing neuromuscular synapses by the neurotrophins NT-3 and BDNF",
+      "title_zh": "神经营养蛋白 NT-3 和 BDNF 增强神经肌肉突触的发育",
+      "year": 1993,
+      "venue": "Nature",
+      "authors": [
+        "Lohof A; Ip N; Poo M-m"
+      ],
+      "doi": "10.1038/363350a0",
+      "paper_url": "https://doi.org/10.1038/363350a0",
+      "source_url": "https://doi.org/10.1038/363350a0",
+      "topics": [
+        "脑科学与类脑智能",
+        "突触可塑性与神经发育",
+        "脑科学与类脑智能",
+        "突触可塑性与神经发育"
+      ],
+      "verification": "主题筛选候选；官方身份已核验；公开目录/代表作范围已接入，非全部生涯作品",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [
+        "mu_ming_poo__R001"
+      ],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": false,
+      "source_kind": "official publication list",
+      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+      "record_id": "mu_ming_poo_6b3d23009ea5",
+      "category_id": "eeg_foundation",
+      "primary_category": "脑电基础模型与通用解码",
+      "secondary_tags": [
+        "脑科学与类脑智能",
+        "突触可塑性与神经发育"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "mu_ming_poo",
+      "scholar_name": "蒲慕明",
+      "work_title_group": "9e7baefe3454",
+      "resource_status": "已关联公开入口；具体访问范围见资源说明"
+    }
+  ]
+}

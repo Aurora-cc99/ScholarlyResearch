@@ -1,0 +1,551 @@
+{
+  "scholar": {
+    "name_zh": "李勇",
+    "name_en": "English name pending",
+    "affiliation": "南京理工大学",
+    "identity_sources": [
+      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    ],
+    "official_homepages": [
+      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    ],
+    "coverage": {
+      "scope": "2025–2026主题筛选与全量书目扩展",
+      "status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
+      "coverage_status": "仅有代表论文或项目级记录；个人全历史待补核",
+      "available_record_count": 10,
+      "bulk_source_record_count": 0,
+      "themes": [
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型"
+      ]
+    },
+    "coverage_notes": "该目录与五位基线学者使用同一论文/资源/分类输出契约。‘可用记录数’表示本轮已取得并保留的书目，不等于未经消歧的个人终身全集；身份待核验、论文团队和同名风险见候选筛选证据。",
+    "id": "panorama_136f98ac7b91",
+    "folder": "主题_panorama_136f98ac7b91",
+    "classification": {
+      "method": "按题名及现有项目、资源说明进行主题粗分，用于阅读导航；未逐篇审阅全文，不代表学者官方分类。每条书目只设一个主类别，跨方向信息保留在辅助标签中。",
+      "categories": [
+        {
+          "id": "emotion_understanding",
+          "label": "情感理解与多模态推理",
+          "description": "多模态情感识别、情绪原因解释、开放词汇与上下文推理。",
+          "count": 10
+        },
+        {
+          "id": "affective_intelligence",
+          "label": "情感智能、共情与生成",
+          "description": "情感智能、心智理论、共情响应和情感生成。",
+          "count": 0
+        },
+        {
+          "id": "emotion_benchmark",
+          "label": "情感数据集、基准与评测",
+          "description": "情感数据集、评测基准、情感幻觉与可靠性分析。",
+          "count": 0
+        }
+      ],
+      "review": {
+        "status": "theme_candidate",
+        "source_status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
+        "primary_theme": "情感智能与情感大模型"
+      }
+    },
+    "counts": {
+      "bibliographic_records": 10,
+      "resource_entries": 0,
+      "papers_with_linked_resources": 0,
+      "types": {},
+      "years": [
+        2019,
+        2021,
+        2022,
+        2023,
+        2026
+      ],
+      "unknown_year": 0
+    }
+  },
+  "papers": [
+    {
+      "title": "Realistic Face Reconstruction from Facial Embeddings via Diffusion Models. AAAI",
+      "title_en": "Realistic Face Reconstruction from Facial Embeddings via Diffusion Models. AAAI",
+      "title_zh": "通过扩散模型从面部嵌入重建真实的面部。 AAAI",
+      "year": 2026,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "李勇"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型",
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_136f98ac7b91_be15ae579bce",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_136f98ac7b91",
+      "scholar_name": "李勇",
+      "work_title_group": "ab8765e47bba",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Compound Expression Recognition In-the-wild with AU-assisted Multi-task Learning. CVPR Workshops",
+      "title_en": "Compound Expression Recognition In-the-wild with AU-assisted Multi-task Learning. CVPR Workshops",
+      "title_zh": "通过 AU 辅助的多任务学习进行野外复合表达识别。 CVPR 研讨会",
+      "year": 2023,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "李勇"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型",
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_136f98ac7b91_82a56a3956fe",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_136f98ac7b91",
+      "scholar_name": "李勇",
+      "work_title_group": "445f7203e35a",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Contrastive Learning of Person-Independent Representations for Facial Expression Recognition. IEEE Transactions on Image Processing",
+      "title_en": "Contrastive Learning of Person-Independent Representations for Facial Expression Recognition. IEEE Transactions on Image Processing",
+      "title_zh": "用于面部表情识别的与人无关的表示的对比学习。 IEEE 图像处理汇刊",
+      "year": 2023,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "李勇"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型",
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_136f98ac7b91_4dc22be06305",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_136f98ac7b91",
+      "scholar_name": "李勇",
+      "work_title_group": "7fdec99474d9",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Decoupled Multimodal Distilling for Emotion Recognition. CVPR",
+      "title_en": "Decoupled Multimodal Distilling for Emotion Recognition. CVPR",
+      "title_zh": "用于情绪识别的解耦多模态蒸馏。 CVPR",
+      "year": 2023,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "李勇"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型",
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_136f98ac7b91_46cb7a9b2075",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_136f98ac7b91",
+      "scholar_name": "李勇",
+      "work_title_group": "df2a3b0eec40",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Incomplete Multimodality-Diffused Emotion Recognition. NeurIPS",
+      "title_en": "Incomplete Multimodality-Diffused Emotion Recognition. NeurIPS",
+      "title_zh": "不完整的多模态扩散情绪识别。神经IPS",
+      "year": 2023,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "李勇"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型",
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_136f98ac7b91_d42e2b064785",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_136f98ac7b91",
+      "scholar_name": "李勇",
+      "work_title_group": "99ef8e489285",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Electrocardiograph Based Emotion Recognition via WGAN-GP Data Augmentation. Lecture Notes in Computer Science (ICONIP)",
+      "title_en": "Electrocardiograph Based Emotion Recognition via WGAN-GP Data Augmentation. Lecture Notes in Computer Science (ICONIP)",
+      "title_zh": "通过 WGAN-GP 数据增强进行基于心电图的情绪识别。计算机科学讲义 (ICONIP)",
+      "year": 2022,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "李勇"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型",
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_136f98ac7b91_89ade2fcd95e",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_136f98ac7b91",
+      "scholar_name": "李勇",
+      "work_title_group": "d9a6547cc4af",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Learning Representations for Facial Actions From Unlabeled Videos. IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "title_en": "Learning Representations for Facial Actions From Unlabeled Videos. IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "title_zh": "从未标记的视频中学习面部动作的表示。 IEEE 模式分析和机器智能汇刊",
+      "year": 2021,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "李勇"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型",
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_136f98ac7b91_69cc0c247c2d",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_136f98ac7b91",
+      "scholar_name": "李勇",
+      "work_title_group": "58c5b55693a2",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Meta Auxiliary Learning for Facial Action Unit Detection. IEEE Transactions on Affective Computing",
+      "title_en": "Meta Auxiliary Learning for Facial Action Unit Detection. IEEE Transactions on Affective Computing",
+      "title_zh": "用于面部动作单元检测的元辅助学习。 IEEE 情感计算汇刊",
+      "year": 2021,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "李勇"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型",
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_136f98ac7b91_87c535d0c234",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_136f98ac7b91",
+      "scholar_name": "李勇",
+      "work_title_group": "314be6578dfa",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Occlusion aware facial expression recognition using CNN with attention mechanism. IEEE Transactions on Image Processing",
+      "title_en": "Occlusion aware facial expression recognition using CNN with attention mechanism. IEEE Transactions on Image Processing",
+      "title_zh": "使用带有注意力机制的 CNN 进行遮挡感知面部表情识别。 IEEE 图像处理汇刊",
+      "year": 2019,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "李勇"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型",
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_136f98ac7b91_36de13424a63",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_136f98ac7b91",
+      "scholar_name": "李勇",
+      "work_title_group": "d5d47903153d",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Self-supervised representation learning from videos for facial action unit detection. CVPR",
+      "title_en": "Self-supervised representation learning from videos for facial action unit detection. CVPR",
+      "title_zh": "从视频中进行自监督表示学习，用于面部动作单元检测。 CVPR",
+      "year": 2019,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "李勇"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型",
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_136f98ac7b91_6e4151986028",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_136f98ac7b91",
+      "scholar_name": "李勇",
+      "work_title_group": "bb507b7d3375",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    }
+  ]
+}

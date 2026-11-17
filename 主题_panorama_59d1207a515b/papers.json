@@ -1,0 +1,601 @@
+{
+  "scholar": {
+    "name_zh": "秦兵",
+    "name_en": "English name pending",
+    "affiliation": "哈尔滨工业大学",
+    "identity_sources": [
+      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    ],
+    "official_homepages": [
+      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    ],
+    "coverage": {
+      "scope": "2025–2026主题筛选与全量书目扩展",
+      "status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
+      "coverage_status": "仅有代表论文或项目级记录；个人全历史待补核",
+      "available_record_count": 11,
+      "bulk_source_record_count": 0,
+      "themes": [
+        "脑电情感计算与脑机接口",
+        "情感大模型与多模态基础模型"
+      ]
+    },
+    "coverage_notes": "该目录与五位基线学者使用同一论文/资源/分类输出契约。‘可用记录数’表示本轮已取得并保留的书目，不等于未经消歧的个人终身全集；身份待核验、论文团队和同名风险见候选筛选证据。",
+    "id": "panorama_59d1207a515b",
+    "folder": "主题_panorama_59d1207a515b",
+    "classification": {
+      "method": "按题名及现有项目、资源说明进行主题粗分，用于阅读导航；未逐篇审阅全文，不代表学者官方分类。每条书目只设一个主类别，跨方向信息保留在辅助标签中。",
+      "categories": [
+        {
+          "id": "eeg_foundation",
+          "label": "脑电基础模型与通用解码",
+          "description": "EEG基础模型、跨任务/跨设备泛化、预训练与脑信号解码。",
+          "count": 0
+        },
+        {
+          "id": "eeg_affect",
+          "label": "情感脑电与多模态生理信号",
+          "description": "脑电情感识别、EEG-fNIRS/EEG-MEG及情感计算应用。",
+          "count": 10
+        },
+        {
+          "id": "eeg_benchmark",
+          "label": "脑电基准、数据与评测",
+          "description": "脑电基础模型基准、数据集、可复现评估与跨数据集比较。",
+          "count": 1
+        }
+      ],
+      "review": {
+        "status": "theme_candidate",
+        "source_status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
+        "primary_theme": "脑电情感计算与脑电大模型"
+      }
+    },
+    "counts": {
+      "bibliographic_records": 11,
+      "resource_entries": 0,
+      "papers_with_linked_resources": 0,
+      "types": {},
+      "years": [
+        2015,
+        2016,
+        2020,
+        2022,
+        2024,
+        2025,
+        2026
+      ],
+      "unknown_year": 0
+    }
+  },
+  "papers": [
+    {
+      "title": "Necessary and sufficient knowledge enhanced collaborative logical reasoning in LLMs.. Neural Netw",
+      "title_en": "Necessary and sufficient knowledge enhanced collaborative logical reasoning in LLMs.. Neural Netw",
+      "title_zh": "必要和充分的知识增强了法学硕士的协作逻辑推理。神经网络",
+      "year": 2026,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "秦兵"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "情感大模型与多模态基础模型",
+        "脑电情感计算与脑机接口",
+        "情感大模型与多模态基础模型"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_59d1207a515b_583c780e8b25",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口",
+        "情感大模型与多模态基础模型"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_59d1207a515b",
+      "scholar_name": "秦兵",
+      "work_title_group": "3103855c2ed5",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Think straight or think again? Continual joint learning of deduction, abduction and induction.. Neural Netw",
+      "title_en": "Think straight or think again? Continual joint learning of deduction, abduction and induction.. Neural Netw",
+      "title_zh": "直接思考还是再思考？演绎、溯因、归纳的持续联合学习.. 神经网络",
+      "year": 2025,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "秦兵"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "情感大模型与多模态基础模型",
+        "脑电情感计算与脑机接口",
+        "情感大模型与多模态基础模型"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_59d1207a515b_d1b4fa53b56d",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口",
+        "情感大模型与多模态基础模型"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_59d1207a515b",
+      "scholar_name": "秦兵",
+      "work_title_group": "73e9799872b3",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Chisco: An EEG-based BCI dataset for decoding of imagined speech.. Sci Data",
+      "title_en": "Chisco: An EEG-based BCI dataset for decoding of imagined speech.. Sci Data",
+      "title_zh": "Chisco：基于 EEG 的 BCI 数据集，用于解码想象的语音。. Sci Data",
+      "year": 2024,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "秦兵"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "情感大模型与多模态基础模型",
+        "脑电情感计算与脑机接口",
+        "情感大模型与多模态基础模型"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_59d1207a515b_a0c7362b5f01",
+      "category_id": "eeg_benchmark",
+      "primary_category": "脑电基准、数据与评测",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口",
+        "情感大模型与多模态基础模型"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_59d1207a515b",
+      "scholar_name": "秦兵",
+      "work_title_group": "42bbfd7f6fbf",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Uncertainty-guided label correction with wavelet-transformed discriminative representation enhancement.. Neural Netw",
+      "title_en": "Uncertainty-guided label correction with wavelet-transformed discriminative representation enhancement.. Neural Netw",
+      "title_zh": "通过小波变换判别表示增强进行不确定性引导标签校正。神经网络",
+      "year": 2024,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "秦兵"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "情感大模型与多模态基础模型",
+        "脑电情感计算与脑机接口",
+        "情感大模型与多模态基础模型"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_59d1207a515b_8c1757dd307b",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口",
+        "情感大模型与多模态基础模型"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_59d1207a515b",
+      "scholar_name": "秦兵",
+      "work_title_group": "30b6527c1bbe",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "基于情感和认知协同的道德判断方法. 计算机研究与发展",
+      "title_en": "基于情感和认知协同的道德判断方法. 计算机研究与发展",
+      "title_zh": "基于情感和认知良好的道德判断方法。 计算机研究与发展",
+      "year": 2024,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "秦兵"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "情感大模型与多模态基础模型",
+        "脑电情感计算与脑机接口",
+        "情感大模型与多模态基础模型"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_59d1207a515b_beacbcbb3b20",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口",
+        "情感大模型与多模态基础模型"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_59d1207a515b",
+      "scholar_name": "秦兵",
+      "work_title_group": "8fb9d95ae37e",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "情感计算(教材,主编之一). 出版社待核实",
+      "title_en": "情感计算(教材,主编之一). 出版社待核实",
+      "title_zh": "情感计算（教材，主编之一）。 出版社待审核",
+      "year": 2024,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "秦兵"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "情感大模型与多模态基础模型",
+        "脑电情感计算与脑机接口",
+        "情感大模型与多模态基础模型"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_59d1207a515b_d00ad2245411",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口",
+        "情感大模型与多模态基础模型"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_59d1207a515b",
+      "scholar_name": "秦兵",
+      "work_title_group": "7d9748b8c65f",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Biomedical evidence engineering for data-driven discovery.. Bioinformatics",
+      "title_en": "Biomedical evidence engineering for data-driven discovery.. Bioinformatics",
+      "title_zh": "用于数据驱动发现的生物医学证据工程。生物信息学",
+      "year": 2022,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "秦兵"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "情感大模型与多模态基础模型",
+        "脑电情感计算与脑机接口",
+        "情感大模型与多模态基础模型"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_59d1207a515b_301114325989",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口",
+        "情感大模型与多模态基础模型"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_59d1207a515b",
+      "scholar_name": "秦兵",
+      "work_title_group": "2909ab0a04fe",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Cognitive distortion based explainable depression detection and analysis technologies for the adolescent internet users on social media.. Front Public Health",
+      "title_en": "Cognitive distortion based explainable depression detection and analysis technologies for the adolescent internet users on social media.. Front Public Health",
+      "title_zh": "基于认知扭曲的可解释抑郁症检测和分析技术，适用于社交媒体上的青少年互联网用户。. Front Public Health",
+      "year": 2022,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "秦兵"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "情感大模型与多模态基础模型",
+        "脑电情感计算与脑机接口",
+        "情感大模型与多模态基础模型"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_59d1207a515b_d188dd550706",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口",
+        "情感大模型与多模态基础模型"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_59d1207a515b",
+      "scholar_name": "秦兵",
+      "work_title_group": "b4e7f2b224c6",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Biomedical Knowledge Graph Refinement with Embedding and Logic Rules. preprint",
+      "title_en": "Biomedical Knowledge Graph Refinement with Embedding and Logic Rules. preprint",
+      "title_zh": "使用嵌入和逻辑规则细化生物医学知识图。预印本",
+      "year": 2020,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "秦兵"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "情感大模型与多模态基础模型",
+        "脑电情感计算与脑机接口",
+        "情感大模型与多模态基础模型"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_59d1207a515b_ba0a29f9c60d",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口",
+        "情感大模型与多模态基础模型"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_59d1207a515b",
+      "scholar_name": "秦兵",
+      "work_title_group": "3c8cf35dec21",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Product Aspect Clustering by Incorporating Background Knowledge for Opinion Mining.. PLoS One",
+      "title_en": "Product Aspect Clustering by Incorporating Background Knowledge for Opinion Mining.. PLoS One",
+      "title_zh": "通过结合意见挖掘的背景知识进行产品方面聚类.. PLoS One",
+      "year": 2016,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "秦兵"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "情感大模型与多模态基础模型",
+        "脑电情感计算与脑机接口",
+        "情感大模型与多模态基础模型"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_59d1207a515b_43bd7336ce7b",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口",
+        "情感大模型与多模态基础模型"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_59d1207a515b",
+      "scholar_name": "秦兵",
+      "work_title_group": "5d015e388eb4",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Aspect-object alignment with Integer Linear Programming in opinion mining.. PLoS One",
+      "title_en": "Aspect-object alignment with Integer Linear Programming in opinion mining.. PLoS One",
+      "title_zh": "意见挖掘中使用整数线性规划的方面对象对齐.. PLoS One",
+      "year": 2015,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "秦兵"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "情感大模型与多模态基础模型",
+        "脑电情感计算与脑机接口",
+        "情感大模型与多模态基础模型"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_59d1207a515b_68fbbb382edc",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口",
+        "情感大模型与多模态基础模型"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_59d1207a515b",
+      "scholar_name": "秦兵",
+      "work_title_group": "de9f3c72ff43",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "scholar": {
+    "name_zh": "郭丽丽",
+    "name_en": "English name pending",
+    "affiliation": "中国矿业大学",
+    "identity_sources": [
+      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    ],
+    "official_homepages": [
+      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    ],
+    "coverage": {
+      "scope": "2025–2026主题筛选与全量书目扩展",
+      "status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
+      "coverage_status": "仅有代表论文或项目级记录；个人全历史待补核",
+      "available_record_count": 4,
+      "bulk_source_record_count": 0,
+      "themes": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型"
+      ]
+    },
+    "coverage_notes": "该目录与五位基线学者使用同一论文/资源/分类输出契约。‘可用记录数’表示本轮已取得并保留的书目，不等于未经消歧的个人终身全集；身份待核验、论文团队和同名风险见候选筛选证据。",
+    "id": "panorama_2f5d281f71cb",
+    "folder": "主题_panorama_2f5d281f71cb",
+    "classification": {
+      "method": "按题名及现有项目、资源说明进行主题粗分，用于阅读导航；未逐篇审阅全文，不代表学者官方分类。每条书目只设一个主类别，跨方向信息保留在辅助标签中。",
+      "categories": [
+        {
+          "id": "eeg_foundation",
+          "label": "脑电基础模型与通用解码",
+          "description": "EEG基础模型、跨任务/跨设备泛化、预训练与脑信号解码。",
+          "count": 0
+        },
+        {
+          "id": "eeg_affect",
+          "label": "情感脑电与多模态生理信号",
+          "description": "脑电情感识别、EEG-fNIRS/EEG-MEG及情感计算应用。",
+          "count": 4
+        },
+        {
+          "id": "eeg_benchmark",
+          "label": "脑电基准、数据与评测",
+          "description": "脑电基础模型基准、数据集、可复现评估与跨数据集比较。",
+          "count": 0
+        }
+      ],
+      "review": {
+        "status": "theme_candidate",
+        "source_status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
+        "primary_theme": "脑电情感计算与脑电大模型"
+      }
+    },
+    "counts": {
+      "bibliographic_records": 4,
+      "resource_entries": 0,
+      "papers_with_linked_resources": 0,
+      "types": {},
+      "years": [
+        2022,
+        2025,
+        2026
+      ],
+      "unknown_year": 0
+    }
+  },
+  "papers": [
+    {
+      "title": "A Cross-Modal Shared Attention Fusion Framework for Emotion Recognition in Multi-Party Conversations. IEEE Transactions on Multimedia",
+      "title_en": "A Cross-Modal Shared Attention Fusion Framework for Emotion Recognition in Multi-Party Conversations. IEEE Transactions on Multimedia",
+      "title_zh": "用于多方对话中情绪识别的跨模态共享注意力融合框架。 IEEE 多媒体汇刊",
+      "year": 2026,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "郭丽丽"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型",
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_2f5d281f71cb_c0ae77cf22b7",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_2f5d281f71cb",
+      "scholar_name": "郭丽丽",
+      "work_title_group": "9d3709df9b07",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Graph Dynamic Fusion Network with Modality Mutual Information Maximization for Multimodal Emotion Recognition in Conversation. IEEE Transactions on Big Data",
+      "title_en": "Graph Dynamic Fusion Network with Modality Mutual Information Maximization for Multimodal Emotion Recognition in Conversation. IEEE Transactions on Big Data",
+      "title_zh": "具有模态互信息最大化的图动态融合网络，用于对话中的多模态情感识别。 IEEE 大数据汇刊",
+      "year": 2026,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "郭丽丽"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型",
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_2f5d281f71cb_15aacb7fc24d",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_2f5d281f71cb",
+      "scholar_name": "郭丽丽",
+      "work_title_group": "7aa1c7aed447",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "DSTCNet: Deep Spectro-Temporal-Channel Attention Network for Speech Emotion Recognition. IEEE Transactions on Neural Networks and Learning Systems",
+      "title_en": "DSTCNet: Deep Spectro-Temporal-Channel Attention Network for Speech Emotion Recognition. IEEE Transactions on Neural Networks and Learning Systems",
+      "title_zh": "DSTCNet：用于语音情感识别的深度光谱时间通道注意网络。 IEEE 神经网络和学习系统汇刊",
+      "year": 2025,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "郭丽丽"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型",
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_2f5d281f71cb_6f09daf20bee",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_2f5d281f71cb",
+      "scholar_name": "郭丽丽",
+      "work_title_group": "2f407e30b5b8",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Emotion Recognition With Multimodal Transformer Fusion Framework Based on Acoustic and Lexical Information. IEEE MultiMedia",
+      "title_en": "Emotion Recognition With Multimodal Transformer Fusion Framework Based on Acoustic and Lexical Information. IEEE MultiMedia",
+      "title_zh": "基于声学和词汇信息的多模态 Transformer 融合框架的情感识别。 IEEE多媒体",
+      "year": 2022,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "郭丽丽"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型",
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_2f5d281f71cb_82b6def9fb0f",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能",
+        "情感大模型与多模态基础模型"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_2f5d281f71cb",
+      "scholar_name": "郭丽丽",
+      "work_title_group": "591d7a17d69d",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    }
+  ]
+}

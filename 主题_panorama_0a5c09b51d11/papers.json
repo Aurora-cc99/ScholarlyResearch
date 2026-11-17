@@ -1,0 +1,212 @@
+{
+  "scholar": {
+    "name_zh": "冯林",
+    "name_en": "English name pending",
+    "affiliation": "大连理工大学",
+    "identity_sources": [
+      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    ],
+    "official_homepages": [
+      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    ],
+    "coverage": {
+      "scope": "2025–2026主题筛选与全量书目扩展",
+      "status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
+      "coverage_status": "仅有代表论文或项目级记录；个人全历史待补核",
+      "available_record_count": 3,
+      "bulk_source_record_count": 0,
+      "themes": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能"
+      ]
+    },
+    "coverage_notes": "该目录与五位基线学者使用同一论文/资源/分类输出契约。‘可用记录数’表示本轮已取得并保留的书目，不等于未经消歧的个人终身全集；身份待核验、论文团队和同名风险见候选筛选证据。",
+    "id": "panorama_0a5c09b51d11",
+    "folder": "主题_panorama_0a5c09b51d11",
+    "classification": {
+      "method": "按题名及现有项目、资源说明进行主题粗分，用于阅读导航；未逐篇审阅全文，不代表学者官方分类。每条书目只设一个主类别，跨方向信息保留在辅助标签中。",
+      "categories": [
+        {
+          "id": "eeg_foundation",
+          "label": "脑电基础模型与通用解码",
+          "description": "EEG基础模型、跨任务/跨设备泛化、预训练与脑信号解码。",
+          "count": 0
+        },
+        {
+          "id": "eeg_affect",
+          "label": "情感脑电与多模态生理信号",
+          "description": "脑电情感识别、EEG-fNIRS/EEG-MEG及情感计算应用。",
+          "count": 3
+        },
+        {
+          "id": "eeg_benchmark",
+          "label": "脑电基准、数据与评测",
+          "description": "脑电基础模型基准、数据集、可复现评估与跨数据集比较。",
+          "count": 0
+        }
+      ],
+      "review": {
+        "status": "theme_candidate",
+        "source_status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
+        "primary_theme": "脑电情感计算与脑电大模型"
+      }
+    },
+    "counts": {
+      "bibliographic_records": 3,
+      "resource_entries": 0,
+      "papers_with_linked_resources": 0,
+      "types": {},
+      "years": [
+        2021,
+        2024
+      ],
+      "unknown_year": 0
+    }
+  },
+  "papers": [
+    {
+      "title": "A novel transformer autoencoder for multi-modal emotion recognition with incomplete data.. Neural Netw",
+      "title_en": "A novel transformer autoencoder for multi-modal emotion recognition with incomplete data.. Neural Netw",
+      "title_zh": "一种新颖的变压器自动编码器，用于不完整数据的多模态情感识别。神经网络",
+      "year": 2024,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "冯林"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能",
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_0a5c09b51d11_d876ade80b65",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_0a5c09b51d11",
+      "scholar_name": "冯林",
+      "work_title_group": "7fa940475df6",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Emotion recognition using hierarchical spatial-temporal learning transformer from regional to global brain.. Neural Netw",
+      "title_en": "Emotion recognition using hierarchical spatial-temporal learning transformer from regional to global brain.. Neural Netw",
+      "title_zh": "使用从区域大脑到全局大脑的分层时空学习转换器进行情绪识别。神经网络",
+      "year": 2024,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "冯林"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能",
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_0a5c09b51d11_67d29d0886b2",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_0a5c09b51d11",
+      "scholar_name": "冯林",
+      "work_title_group": "d58ef8861012",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "An Ensemble Learning Method for Robot Electronic Nose with Active Perception.. Sensors (Basel)",
+      "title_en": "An Ensemble Learning Method for Robot Electronic Nose with Active Perception.. Sensors (Basel)",
+      "title_zh": "具有主动感知的机器人电子鼻的集成学习方法..传感器（巴塞尔）",
+      "year": 2021,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "冯林"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能",
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_0a5c09b51d11_7f3651e74737",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_0a5c09b51d11",
+      "scholar_name": "冯林",
+      "work_title_group": "4c99b47c9e08",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    }
+  ]
+}

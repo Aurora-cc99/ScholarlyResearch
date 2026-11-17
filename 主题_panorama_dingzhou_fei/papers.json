@@ -1,0 +1,553 @@
+{
+  "scholar": {
+    "name_zh": "费定舟",
+    "name_en": "Dingzhou Fei",
+    "affiliation": "武汉大学",
+    "identity_sources": [
+      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    ],
+    "official_homepages": [
+      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    ],
+    "coverage": {
+      "scope": "2025–2026主题筛选与全量书目扩展",
+      "status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
+      "coverage_status": "仅有代表论文或项目级记录；个人全历史待补核",
+      "available_record_count": 10,
+      "bulk_source_record_count": 0,
+      "themes": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能"
+      ]
+    },
+    "coverage_notes": "该目录与五位基线学者使用同一论文/资源/分类输出契约。‘可用记录数’表示本轮已取得并保留的书目，不等于未经消歧的个人终身全集；身份待核验、论文团队和同名风险见候选筛选证据。",
+    "id": "panorama_dingzhou_fei",
+    "folder": "主题_panorama_dingzhou_fei",
+    "classification": {
+      "method": "按题名及现有项目、资源说明进行主题粗分，用于阅读导航；未逐篇审阅全文，不代表学者官方分类。每条书目只设一个主类别，跨方向信息保留在辅助标签中。",
+      "categories": [
+        {
+          "id": "eeg_foundation",
+          "label": "脑电基础模型与通用解码",
+          "description": "EEG基础模型、跨任务/跨设备泛化、预训练与脑信号解码。",
+          "count": 0
+        },
+        {
+          "id": "eeg_affect",
+          "label": "情感脑电与多模态生理信号",
+          "description": "脑电情感识别、EEG-fNIRS/EEG-MEG及情感计算应用。",
+          "count": 9
+        },
+        {
+          "id": "eeg_benchmark",
+          "label": "脑电基准、数据与评测",
+          "description": "脑电基础模型基准、数据集、可复现评估与跨数据集比较。",
+          "count": 1
+        }
+      ],
+      "review": {
+        "status": "theme_candidate",
+        "source_status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
+        "primary_theme": "脑电情感计算与脑电大模型"
+      }
+    },
+    "counts": {
+      "bibliographic_records": 10,
+      "resource_entries": 0,
+      "papers_with_linked_resources": 0,
+      "types": {},
+      "years": [
+        2010,
+        2011,
+        2012,
+        2019,
+        2021,
+        2023,
+        2025
+      ],
+      "unknown_year": 0
+    }
+  },
+  "papers": [
+    {
+      "title": "The Paradox of Uncertainty: How Tolerance for Uncertainty Modulates Approach Motivation - Evidence from ERPs Experiments",
+      "title_en": "The Paradox of Uncertainty: How Tolerance for Uncertainty Modulates Approach Motivation - Evidence from ERPs Experiments",
+      "title_zh": "不确定性的悖论：对不确定性的容忍度如何调节接近动机 - 来自 ERP 实验的证据",
+      "year": 2025,
+      "venue": "Communications in Computer and Information Science",
+      "authors": [
+        "Dingzhou Fei"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能",
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_dingzhou_fei_4b224652f564",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_dingzhou_fei",
+      "scholar_name": "费定舟",
+      "work_title_group": "4eb08b3d4ce1",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Self-identity in emotion enhancement",
+      "title_en": "Self-identity in emotion enhancement",
+      "title_zh": "情绪增强中的自我认同",
+      "year": 2023,
+      "venue": "Asian Journal of Philosophy",
+      "authors": [
+        "Dingzhou Fei"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能",
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_dingzhou_fei_3f0076ce6487",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_dingzhou_fei",
+      "scholar_name": "费定舟",
+      "work_title_group": "ccbfea4f463f",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "An Exploration of One-Shot Learning Based on Cognitive Psychology",
+      "title_en": "An Exploration of One-Shot Learning Based on Cognitive Psychology",
+      "title_zh": "基于认知心理学的一次性学习探索",
+      "year": 2021,
+      "venue": "Advances in Intelligent Systems and Computing",
+      "authors": [
+        "Dingzhou Fei"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能",
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_dingzhou_fei_f7004d015d28",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_dingzhou_fei",
+      "scholar_name": "费定舟",
+      "work_title_group": "07c0eca96187",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Deep Neural Networks as Interpretable Cognitive Models for the Quine’s Uncertainty Thesis",
+      "title_en": "Deep Neural Networks as Interpretable Cognitive Models for the Quine’s Uncertainty Thesis",
+      "title_zh": "深度神经网络作为蒯因不确定性论文的可解释认知模型",
+      "year": 2021,
+      "venue": "Lecture Notes in Networks and Systems",
+      "authors": [
+        "Dingzhou Fei"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能",
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_dingzhou_fei_90eb92577767",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_dingzhou_fei",
+      "scholar_name": "费定舟",
+      "work_title_group": "b52da37c12f0",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Improve the interpretability by decision tree regression: exampled by an insurance dataset",
+      "title_en": "Improve the interpretability by decision tree regression: exampled by an insurance dataset",
+      "title_zh": "通过决策树回归提高可解释性：以保险数据集为例",
+      "year": 2021,
+      "venue": "2021 International Conference on Computer Engineering and Artificial Intelligence (ICCEAI)",
+      "authors": [
+        "Dingzhou Fei"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能",
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_dingzhou_fei_ddf18e4f55db",
+      "category_id": "eeg_benchmark",
+      "primary_category": "脑电基准、数据与评测",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_dingzhou_fei",
+      "scholar_name": "费定舟",
+      "work_title_group": "b5342b8da0a9",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Stochastic model for emotion contagion in social networks security based on machine learning",
+      "title_en": "Stochastic model for emotion contagion in social networks security based on machine learning",
+      "title_zh": "基于机器学习的社交网络安全中情绪传染的随机模型",
+      "year": 2019,
+      "venue": "Safety Science",
+      "authors": [
+        "Dingzhou Fei"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能",
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_dingzhou_fei_1e1611194b47",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_dingzhou_fei",
+      "scholar_name": "费定舟",
+      "work_title_group": "238ef44b12dd",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Electroencephalography (EEG)-Based Brain–Computer Interface (BCI): A 2-D Virtual Wheelchair Control Based on Event-Related Desynchronization/Synchronization and State Control",
+      "title_en": "Electroencephalography (EEG)-Based Brain–Computer Interface (BCI): A 2-D Virtual Wheelchair Control Based on Event-Related Desynchronization/Synchronization and State Control",
+      "title_zh": "基于脑电图 (EEG) 的脑机接口 (BCI)：基于事件相关去同步/同步和状态控制的二维虚拟轮椅控制",
+      "year": 2012,
+      "venue": "IEEE Transactions on Neural Systems and Rehabilitation Engineering",
+      "authors": [
+        "Dingzhou Fei"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能",
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_dingzhou_fei_33a71f0eb8c0",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_dingzhou_fei",
+      "scholar_name": "费定舟",
+      "work_title_group": "21829f0cc232",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "A Two Dimensional Brain-Computer Interface Associated with Human Natural Motor Control",
+      "title_en": "A Two Dimensional Brain-Computer Interface Associated with Human Natural Motor Control",
+      "title_zh": "与人类自然运动控制相关的二维脑机接口",
+      "year": 2011,
+      "venue": "Recent Advances in Brain-Computer Interface Systems",
+      "authors": [
+        "Dingzhou Fei"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能",
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_dingzhou_fei_dd79f0b8cee3",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_dingzhou_fei",
+      "scholar_name": "费定舟",
+      "work_title_group": "5b0f19a13ecf",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Event-related desynchronization/ synchronization-based brain-computer interface towards volitional cursor control in a 2D center-out paradigm",
+      "title_en": "Event-related desynchronization/ synchronization-based brain-computer interface towards volitional cursor control in a 2D center-out paradigm",
+      "title_zh": "与事件相关的去同步/基于同步的脑机接口，用于二维中心向外范式中的意志光标控制",
+      "year": 2011,
+      "venue": "2011 IEEE Symposium on Computational Intelligence, Cognitive Algorithms, Mind, and Brain (CCMB)",
+      "authors": [
+        "Dingzhou Fei"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能",
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_dingzhou_fei_28dc221fe113",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_dingzhou_fei",
+      "scholar_name": "费定舟",
+      "work_title_group": "ce89e8350a85",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Towards a user-friendly brain–computer interface: Initial tests in ALS and PLS patients",
+      "title_en": "Towards a user-friendly brain–computer interface: Initial tests in ALS and PLS patients",
+      "title_zh": "打造用户友好的脑机接口：在 ALS 和 PLS 患者中进行初步测试",
+      "year": 2010,
+      "venue": "Clinical Neurophysiology",
+      "authors": [
+        "Dingzhou Fei"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能",
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_dingzhou_fei_2003ab68d95a",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口",
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_dingzhou_fei",
+      "scholar_name": "费定舟",
+      "work_title_group": "d60d449c86a7",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    }
+  ]
+}
