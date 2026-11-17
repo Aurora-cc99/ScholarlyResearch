@@ -1,0 +1,473 @@
+{
+  "scholar": {
+    "name_zh": "杨猛",
+    "name_en": "Meng Yang",
+    "affiliation": "中山大学",
+    "identity_sources": [
+      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    ],
+    "official_homepages": [
+      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    ],
+    "coverage": {
+      "scope": "2025–2026主题筛选与全量书目扩展",
+      "status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
+      "coverage_status": "仅有代表论文或项目级记录；个人全历史待补核",
+      "available_record_count": 9,
+      "bulk_source_record_count": 0,
+      "themes": [
+        "情感理解与情感智能"
+      ]
+    },
+    "coverage_notes": "该目录与五位基线学者使用同一论文/资源/分类输出契约。‘可用记录数’表示本轮已取得并保留的书目，不等于未经消歧的个人终身全集；身份待核验、论文团队和同名风险见候选筛选证据。",
+    "id": "panorama_meng_yang",
+    "folder": "主题_panorama_meng_yang",
+    "classification": {
+      "method": "按题名及现有项目、资源说明进行主题粗分，用于阅读导航；未逐篇审阅全文，不代表学者官方分类。每条书目只设一个主类别，跨方向信息保留在辅助标签中。",
+      "categories": [
+        {
+          "id": "emotion_understanding",
+          "label": "情感理解与多模态推理",
+          "description": "多模态情感识别、情绪原因解释、开放词汇与上下文推理。",
+          "count": 9
+        },
+        {
+          "id": "affective_intelligence",
+          "label": "情感智能、共情与生成",
+          "description": "情感智能、心智理论、共情响应和情感生成。",
+          "count": 0
+        },
+        {
+          "id": "emotion_benchmark",
+          "label": "情感数据集、基准与评测",
+          "description": "情感数据集、评测基准、情感幻觉与可靠性分析。",
+          "count": 0
+        }
+      ],
+      "review": {
+        "status": "theme_candidate",
+        "source_status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
+        "primary_theme": "情感智能与情感大模型"
+      }
+    },
+    "counts": {
+      "bibliographic_records": 9,
+      "resource_entries": 0,
+      "papers_with_linked_resources": 0,
+      "types": {},
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "unknown_year": 0
+    }
+  },
+  "papers": [
+    {
+      "title": "Granular-ball Guided Masking: Structure-aware Data Augmentation. arXiv.org",
+      "title_en": "Granular-ball Guided Masking: Structure-aware Data Augmentation. arXiv.org",
+      "title_zh": "颗粒球引导掩蔽：结构感知数据增强。 arXiv.org",
+      "year": 2025,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "Meng Yang"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_meng_yang_b5d903cce8f1",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_meng_yang",
+      "scholar_name": "杨猛",
+      "work_title_group": "c59d6347e0d0",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "SEC-Prompt:SEmantic Complementary Prompting for Few-Shot Class-Incremental Learning. Computer Vision and Pattern Recognition",
+      "title_en": "SEC-Prompt:SEmantic Complementary Prompting for Few-Shot Class-Incremental Learning. Computer Vision and Pattern Recognition",
+      "title_zh": "SEC-Prompt：少镜头类增量学习的语义补充提示。计算机视觉和模式识别",
+      "year": 2025,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "Meng Yang"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_meng_yang_dd1d5fcc21ee",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_meng_yang",
+      "scholar_name": "杨猛",
+      "work_title_group": "b467e3ade40b",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "A Consistency and Integration Model with Adaptive Thresholds for Weakly Supervised Object Localization. International Joint Conference on Artificial Intelligence",
+      "title_en": "A Consistency and Integration Model with Adaptive Thresholds for Weakly Supervised Object Localization. International Joint Conference on Artificial Intelligence",
+      "title_zh": "弱监督对象定位的具有自适应阈值的一致性和集成模型。人工智能国际联合会议",
+      "year": 2024,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "Meng Yang"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_meng_yang_2baa7895e9bc",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_meng_yang",
+      "scholar_name": "杨猛",
+      "work_title_group": "a78cae7368f5",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Human Guided Cross-Modal Reasoning with Semantic Attention Learning for Visual Question Answering. IEEE International Conference on Acoustics, Speech, and Signal Processing",
+      "title_en": "Human Guided Cross-Modal Reasoning with Semantic Attention Learning for Visual Question Answering. IEEE International Conference on Acoustics, Speech, and Signal Processing",
+      "title_zh": "人类引导的跨模态推理和语义注意学习用于视觉问答。 IEEE 声学、语音和信号处理国际会议",
+      "year": 2024,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "Meng Yang"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_meng_yang_ee477d7f0d98",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_meng_yang",
+      "scholar_name": "杨猛",
+      "work_title_group": "9f35d510d561",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Implicit-Knowledge-Guided Align Before Understanding for KB-VQA. IEEE International Conference on Acoustics, Speech, and Signal Processing",
+      "title_en": "Implicit-Knowledge-Guided Align Before Understanding for KB-VQA. IEEE International Conference on Acoustics, Speech, and Signal Processing",
+      "title_zh": "KB-VQA 的隐式知识引导理解之前的对齐。 IEEE 声学、语音和信号处理国际会议",
+      "year": 2024,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "Meng Yang"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_meng_yang_dcd16fbba9bb",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_meng_yang",
+      "scholar_name": "杨猛",
+      "work_title_group": "b79f2678cc83",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Incomplete Observations Bias Suppression for Abductive Natural Language Inference. IEEE International Conference on Acoustics, Speech, and Signal Processing",
+      "title_en": "Incomplete Observations Bias Suppression for Abductive Natural Language Inference. IEEE International Conference on Acoustics, Speech, and Signal Processing",
+      "title_zh": "归纳自然语言推理的不完整观察偏差抑制。 IEEE 声学、语音和信号处理国际会议",
+      "year": 2024,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "Meng Yang"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_meng_yang_b1e827aa2a9d",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_meng_yang",
+      "scholar_name": "杨猛",
+      "work_title_group": "9b56e1732897",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "MCM-CSD: Multi-Granularity Context Modeling with Contrastive Speaker Detection for Emotion Recognition in Real-Time Conversation. IEEE International Conference on Acoustics, Speech, and Signal Processing",
+      "title_en": "MCM-CSD: Multi-Granularity Context Modeling with Contrastive Speaker Detection for Emotion Recognition in Real-Time Conversation. IEEE International Conference on Acoustics, Speech, and Signal Processing",
+      "title_zh": "MCM-CSD：具有对比说话人检测的多粒度上下文建模，用于实时对话中的情绪识别。 IEEE 声学、语音和信号处理国际会议",
+      "year": 2024,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "Meng Yang"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_meng_yang_26b9e8d6aecd",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_meng_yang",
+      "scholar_name": "杨猛",
+      "work_title_group": "ba323797cbf5",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Unicorn Adapter: Unifying Image and Text Condition Space for Enhanced Diffusion Models. 2024 8th Asian Conference on Artificial Intelligence Technology (ACAIT)",
+      "title_en": "Unicorn Adapter: Unifying Image and Text Condition Space for Enhanced Diffusion Models. 2024 8th Asian Conference on Artificial Intelligence Technology (ACAIT)",
+      "title_zh": "Unicorn 适配器：统一图像和文本条件空间以增强扩散模型。 2024年第八届亚洲人工智能技术会议（ACAIT）",
+      "year": 2024,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "Meng Yang"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_meng_yang_8f22f034d7c2",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_meng_yang",
+      "scholar_name": "杨猛",
+      "work_title_group": "4087da6771fa",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Confidence-Guided Open-World Semi-supervised Learning. Chinese Conference on Pattern Recognition and Computer Vision",
+      "title_en": "Confidence-Guided Open-World Semi-supervised Learning. Chinese Conference on Pattern Recognition and Computer Vision",
+      "title_zh": "置信引导的开放世界半监督学习。中国模式识别与计算机视觉学术会议",
+      "year": 2023,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "Meng Yang"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_meng_yang_4c27cda8c2be",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_meng_yang",
+      "scholar_name": "杨猛",
+      "work_title_group": "3bfdffbb24e5",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    }
+  ]
+}

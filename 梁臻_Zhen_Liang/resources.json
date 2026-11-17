@@ -1,0 +1,1389 @@
+[
+  {
+    "id": "liang_zhen__LIANG_CODE_EEGFuseNet",
+    "name": "EEGFuseNet",
+    "type": "code",
+    "url": "https://github.com/KAZABANA/EEGfusenet",
+    "download_url": null,
+    "access": "public_source",
+    "related_paper_titles": [
+      "EEGFuseNet: Hybrid Unsupervised Deep Feature Characterization and Fusion for High-Dimensional EEG With an Application to Emotion Recognition"
+    ],
+    "author_relation": "论文作者发布/合作维护",
+    "evidence_urls": [
+      "https://github.com/KAZABANA/EEGfusenet"
+    ],
+    "description": "",
+    "verification": "主来源已核验，未执行代码或下载大体积资源",
+    "notes": "含模型、demo和DEAP预训练权重；输入需按论文预处理。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [
+      "EEGFuseNet：高维脑电图的混合无监督深度特征表征和融合与情感识别的应用。"
+    ],
+    "name_zh": "EEGFuseNet",
+    "evidence_labels": [
+      "GitHub 代码仓库"
+    ],
+    "matched_paper_ids": [
+      "liang_zhen_4660e70ee854",
+      "liang_zhen_a80e79748855"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "liang_zhen::affective_eeg"
+    ],
+    "primary_categories": [
+      "情感识别、连续情绪与跨域建模"
+    ]
+  },
+  {
+    "id": "liang_zhen__LIANG_CODE_EEGMatch",
+    "name": "EEGMatch",
+    "type": "code",
+    "url": "https://github.com/KAZABANA/EEGMatch",
+    "download_url": null,
+    "access": "public_source",
+    "related_paper_titles": [
+      "EEGMatch: Learning With Incomplete Labels for Semisupervised EEG-Based Cross-Subject Emotion Recognition"
+    ],
+    "author_relation": "论文作者发布/合作维护",
+    "evidence_urls": [
+      "https://github.com/KAZABANA/EEGMatch"
+    ],
+    "description": "",
+    "verification": "主来源已核验，未执行代码或下载大体积资源",
+    "notes": "model_EEGMatch.py、implementation_EEGMatch.py、data_prepare_seed.m；SEED/IV。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [
+      "EEGMatch：使用不完整标签进行基于半监督脑电图的跨被试情绪识别的学习。"
+    ],
+    "name_zh": "EEGMatch",
+    "evidence_labels": [
+      "GitHub 代码仓库"
+    ],
+    "matched_paper_ids": [
+      "liang_zhen_a572a490d2be",
+      "liang_zhen_f7eaf49b4e9b"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "liang_zhen::affective_eeg"
+    ],
+    "primary_categories": [
+      "情感识别、连续情绪与跨域建模"
+    ]
+  },
+  {
+    "id": "liang_zhen__LIANG_CODE_PR-PL",
+    "name": "PR-PL",
+    "type": "code",
+    "url": "https://github.com/KAZABANA/PR-PL",
+    "download_url": null,
+    "access": "public_source",
+    "related_paper_titles": [
+      "PR-PL: A Novel Prototypical Representation Based Pairwise Learning Framework for Emotion Recognition Using EEG Signals",
+      "A Novel Transfer Learning Framework with Prototypical Representation based Pairwise Learning for Cross-Subject Cross-Session EEG-Based Emotion Recognition"
+    ],
+    "author_relation": "论文作者发布/合作维护",
+    "evidence_urls": [
+      "https://github.com/KAZABANA/PR-PL"
+    ],
+    "description": "",
+    "verification": "主来源已核验，未执行代码或下载大体积资源",
+    "notes": "原型表征+成对学习；不是强化学习。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [
+      "PR-PL：基于原型表征的脑电情绪识别成对学习新框架",
+      "基于原型表征成对学习的跨被试、跨会话脑电情绪识别迁移学习新框架"
+    ],
+    "name_zh": "PR-PL",
+    "evidence_labels": [
+      "GitHub 代码仓库"
+    ],
+    "matched_paper_ids": [
+      "liang_zhen_dbe4a40db98d"
+    ],
+    "unmatched_titles": [
+      "A Novel Transfer Learning Framework with Prototypical Representation based Pairwise Learning for Cross-Subject Cross-Session EEG-Based Emotion Recognition"
+    ],
+    "scholar_category_ids": [
+      "liang_zhen::affective_eeg"
+    ],
+    "primary_categories": [
+      "情感识别、连续情绪与跨域建模"
+    ]
+  },
+  {
+    "id": "liang_zhen__LIANG_CODE_NSSI-Net",
+    "name": "NSSI-Net",
+    "type": "code",
+    "url": "https://github.com/Vesan-yws/NSSINet",
+    "download_url": null,
+    "access": "public_source",
+    "related_paper_titles": [
+      "NSSI-Net: A Multi-Concept GAN for Non-Suicidal Self-Injury Detection Using High-Dimensional EEG in a Semi-Supervised Framework"
+    ],
+    "author_relation": "论文作者发布/合作维护",
+    "evidence_urls": [
+      "https://github.com/Vesan-yws/NSSINet"
+    ],
+    "description": "",
+    "verification": "主来源已核验，未执行代码或下载大体积资源",
+    "notes": "临床自采数据未发现公开原始下载；文件名包含deap不能证明论文实际使用DEAP。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [
+      "NSSI-Net：在半监督框架中使用高维脑电图进行非自杀性自伤检测的多概念 GAN。"
+    ],
+    "name_zh": "NSSI-Net",
+    "evidence_labels": [
+      "GitHub 代码仓库"
+    ],
+    "matched_paper_ids": [
+      "liang_zhen_ac4e388fd6c3"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "liang_zhen::mental_clinical"
+    ],
+    "primary_categories": [
+      "精神健康、心理行为与临床脑病"
+    ]
+  },
+  {
+    "id": "liang_zhen__LIANG_CODE_Emotion-Agent",
+    "name": "Emotion-Agent",
+    "type": "code",
+    "url": "https://github.com/ZhaoZ77/Emotion-Agent",
+    "download_url": null,
+    "access": "public_source",
+    "related_paper_titles": [
+      "Emotion agent: Unsupervised deep reinforcement learning with distribution-prototype reward for continuous emotional EEG analysis"
+    ],
+    "author_relation": "论文作者发布/合作维护",
+    "evidence_urls": [
+      "https://github.com/ZhaoZ77/Emotion-Agent"
+    ],
+    "description": "",
+    "verification": "主来源已核验，未执行代码或下载大体积资源",
+    "notes": "连续情绪无监督RL；src/Agent.py、rl_utils.py、train.py；SEED/IV/DEAP。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [
+      "Emotion-Agent：用于连续情感脑电图分析的具有分布原型奖励的无监督深度强化学习。"
+    ],
+    "name_zh": "Emotion-Agent",
+    "evidence_labels": [
+      "GitHub 代码仓库"
+    ],
+    "matched_paper_ids": [
+      "liang_zhen_a570b14150ee",
+      "liang_zhen_2cfca4c95262"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "liang_zhen::affective_eeg"
+    ],
+    "primary_categories": [
+      "情感识别、连续情绪与跨域建模"
+    ]
+  },
+  {
+    "id": "liang_zhen__LIANG_CODE_EEGDancer",
+    "name": "EEGDancer",
+    "type": "code",
+    "url": "https://github.com/ZhaoZ77/EEGDancer",
+    "download_url": null,
+    "access": "placeholder_only",
+    "related_paper_titles": [
+      "EEGDancer: Dynamic Emotion Latent Space Masked Modeling with Reinforcement Learning for EEG Continuous Emotion Prediction"
+    ],
+    "author_relation": "论文作者发布/合作维护",
+    "evidence_urls": [
+      "https://github.com/ZhaoZ77/EEGDancer"
+    ],
+    "description": "",
+    "verification": "主来源已核验，未执行代码或下载大体积资源",
+    "notes": "本轮README只有标题和一句说明，属于占位仓库，未发现可复现实现。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [
+      "EEGDancer：动态情绪潜在空间掩蔽建模与强化学习用于脑电图连续情绪预测。"
+    ],
+    "name_zh": "EEGDancer",
+    "evidence_labels": [
+      "GitHub 代码仓库"
+    ],
+    "matched_paper_ids": [
+      "liang_zhen_c388e88eb620"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "liang_zhen::affective_eeg"
+    ],
+    "primary_categories": [
+      "情感识别、连续情绪与跨域建模"
+    ]
+  },
+  {
+    "id": "liang_zhen__LIANG_CODE_EEG-SCMM",
+    "name": "EEG-SCMM",
+    "type": "code",
+    "url": "https://github.com/Kyler-RL/SCMM",
+    "download_url": null,
+    "access": "public_source",
+    "related_paper_titles": [
+      "EEG-SCMM: Soft Contrastive Masked Modeling for Cross-Corpus EEG-Based Emotion Recognition"
+    ],
+    "author_relation": "论文作者发布/合作维护",
+    "evidence_urls": [
+      "https://github.com/Kyler-RL/SCMM"
+    ],
+    "description": "",
+    "verification": "主来源已核验，未执行代码或下载大体积资源",
+    "notes": "soft contrastive masked modeling；仓库用户名含RL不意味着论文是RL。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [
+      "EEG-SCMM：用于跨语料库基于EEG的情绪识别的软对比掩模建模。"
+    ],
+    "name_zh": "EEG-SCMM",
+    "evidence_labels": [
+      "GitHub 代码仓库"
+    ],
+    "matched_paper_ids": [
+      "liang_zhen_3f92d2822b46",
+      "liang_zhen_8a012e7cc435"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "liang_zhen::affective_eeg"
+    ],
+    "primary_categories": [
+      "情感识别、连续情绪与跨域建模"
+    ]
+  },
+  {
+    "id": "liang_zhen__LIANG_CODE_GraSTI-ACL",
+    "name": "GraSTI-ACL",
+    "type": "code",
+    "url": "https://github.com/BiaoHe2025/GraSTIACL",
+    "download_url": null,
+    "access": "public_source",
+    "related_paper_titles": [
+      "GraSTI-ACL: Graph spatial-temporal infomax with adversarial contrastive learning for brain disorders diagnosis based on resting-state fMRI"
+    ],
+    "author_relation": "论文作者发布/合作维护",
+    "evidence_urls": [
+      "https://github.com/BiaoHe2025/GraSTIACL"
+    ],
+    "description": "",
+    "verification": "主来源已核验，未执行代码或下载大体积资源",
+    "notes": "GraSTIACL.py入口；ADNI/SRPBS公开申请数据，BD私有。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [
+      "GraSTI-ACL：基于静息态 fMRI 的脑部疾病诊断具有对抗性对比学习的时空信息最大值图。"
+    ],
+    "name_zh": "GraSTI-ACL",
+    "evidence_labels": [
+      "GitHub 代码仓库"
+    ],
+    "matched_paper_ids": [
+      "liang_zhen_8880242a53f3"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "liang_zhen::mental_clinical"
+    ],
+    "primary_categories": [
+      "精神健康、心理行为与临床脑病"
+    ]
+  },
+  {
+    "id": "liang_zhen__LIANG_CODE_PAA",
+    "name": "PAA",
+    "type": "code",
+    "url": "https://github.com/WuCB-BCI/PAA",
+    "download_url": null,
+    "access": "public_source",
+    "related_paper_titles": [
+      "Boundary-aware Prototype-driven Adversarial Alignment for Cross-Corpus EEG Emotion Recognition"
+    ],
+    "author_relation": "论文作者发布/合作维护",
+    "evidence_urls": [
+      "https://github.com/WuCB-BCI/PAA"
+    ],
+    "description": "",
+    "verification": "主来源已核验，未执行代码或下载大体积资源",
+    "notes": "作者明确code is not final；已有PAA_L/C/M源文件与.pth权重；SEED/IV/V、Figshare MDD。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [
+      "用于跨语料库脑电图情感识别的边界感知原型驱动的对抗性对齐。"
+    ],
+    "name_zh": "PAA",
+    "evidence_labels": [
+      "GitHub 代码仓库"
+    ],
+    "matched_paper_ids": [
+      "liang_zhen_deb9d772adb9"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "liang_zhen::affective_eeg"
+    ],
+    "primary_categories": [
+      "情感识别、连续情绪与跨域建模"
+    ]
+  },
+  {
+    "id": "liang_zhen__LIANG_CODE_MAT",
+    "name": "MAT",
+    "type": "code",
+    "url": "https://github.com/WuCB-BCI/MAT",
+    "download_url": null,
+    "access": "public_source",
+    "related_paper_titles": [
+      "Learning Domain- and Class-Disentangled Prototypes for Domain-Generalized EEG Emotion Recognition",
+      "MATL-DC: A Multi-domain Aggregation Transfer Learning Framework for EEG Emotion Recognition with Domain-Class Prototype under Unseen Targets"
+    ],
+    "author_relation": "论文作者发布/合作维护",
+    "evidence_urls": [
+      "https://github.com/WuCB-BCI/MAT"
+    ],
+    "description": "",
+    "verification": "主来源已核验，未执行代码或下载大体积资源",
+    "notes": "README列SEED/IV/V/VII；论文由预印本MATL-DC更新为MAT；最终作者表与旧版本不同。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [
+      "学习领域与类别解耦的原型以实现领域泛化脑电情绪识别",
+      "MATL-DC：用于在未见目标下使用域类原型进行脑电图情绪识别的多域聚合迁移学习框架。"
+    ],
+    "name_zh": "MAT",
+    "evidence_labels": [
+      "GitHub 代码仓库"
+    ],
+    "matched_paper_ids": [
+      "liang_zhen_a15e3cb0b010",
+      "liang_zhen_74f095e413ef"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "liang_zhen::affective_eeg"
+    ],
+    "primary_categories": [
+      "情感识别、连续情绪与跨域建模"
+    ]
+  },
+  {
+    "id": "liang_zhen__LIANG_CODE_McdPL",
+    "name": "McdPL",
+    "type": "code",
+    "url": "https://github.com/WuCB-BCI/Mcd_PL",
+    "download_url": null,
+    "access": "public_source",
+    "related_paper_titles": [
+      "Unsupervised Pairwise Learning Optimization Framework for Cross-Corpus EEG-Based Emotion Recognition Based on Prototype Representation"
+    ],
+    "author_relation": "论文作者发布/合作维护",
+    "evidence_urls": [
+      "https://github.com/WuCB-BCI/Mcd_PL"
+    ],
+    "description": "",
+    "verification": "主来源已核验，未执行代码或下载大体积资源",
+    "notes": "arXiv原作者代码链接；未运行训练。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [
+      "基于原型表示的跨语料库脑电图情感识别的无监督成对学习优化框架。"
+    ],
+    "name_zh": "McdPL",
+    "evidence_labels": [
+      "GitHub 代码仓库"
+    ],
+    "matched_paper_ids": [
+      "liang_zhen_76c650f41dbe"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "liang_zhen::affective_eeg"
+    ],
+    "primary_categories": [
+      "情感识别、连续情绪与跨域建模"
+    ]
+  },
+  {
+    "id": "liang_zhen__LIANG_CODE_PL-DCP",
+    "name": "PL-DCP",
+    "type": "code",
+    "url": "https://github.com/WuCB-BCI/PL_DCP",
+    "download_url": null,
+    "access": "public_source",
+    "related_paper_titles": [
+      "PL-DCP: A pairwise learning framework with domain and class prototypes for EEG emotion recognition under unseen target conditions",
+      "Dual Prototyping with Domain and Class Prototypes for Affective Brain-Computer Interface in Unseen Target Conditions"
+    ],
+    "author_relation": "论文作者发布/合作维护",
+    "evidence_urls": [
+      "https://github.com/WuCB-BCI/PL_DCP"
+    ],
+    "description": "",
+    "verification": "主来源已核验，未执行代码或下载大体积资源",
+    "notes": "预印本v1/v2改题；保留版本关系。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [
+      "PL-DCP：具有域和类原型的成对学习框架,用于在不可见的目标条件下进行脑电图情感识别。",
+      "在不可见的目标条件下使用域和类原型进行情感脑机接口的双重原型设计。"
+    ],
+    "name_zh": "PL-DCP",
+    "evidence_labels": [
+      "GitHub 代码仓库"
+    ],
+    "matched_paper_ids": [
+      "liang_zhen_113440dc96d5",
+      "liang_zhen_9583161468bf"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "liang_zhen::affective_eeg"
+    ],
+    "primary_categories": [
+      "情感识别、连续情绪与跨域建模"
+    ]
+  },
+  {
+    "id": "liang_zhen__LIANG_CODE_EEG-MACS",
+    "name": "EEG-MACS",
+    "type": "code",
+    "url": "https://github.com/ICI-BCI/EEG-MACS",
+    "download_url": null,
+    "access": "public_source",
+    "related_paper_titles": [
+      "EEG-MACS: Manifold Attention and Confidence Stratification for EEG-based Cross-Center Brain Disease Diagnosis under Unreliable Annotations"
+    ],
+    "author_relation": "论文作者发布/合作维护",
+    "evidence_urls": [
+      "https://github.com/ICI-BCI/EEG-MACS"
+    ],
+    "description": "",
+    "verification": "主来源已核验，未执行代码或下载大体积资源",
+    "notes": "README确认作者实现；PD处理子集公开，MCI/AD需医院IRB批准后申请。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [
+      "EEG-MACS：在不可靠注释下基于EEG的跨中心脑疾病诊断的多方面关注和置信度分层。"
+    ],
+    "name_zh": "EEG-MACS",
+    "evidence_labels": [
+      "GitHub 代码仓库"
+    ],
+    "matched_paper_ids": [
+      "liang_zhen_c777df5a37eb",
+      "liang_zhen_d44f88f95742"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "liang_zhen::mental_clinical"
+    ],
+    "primary_categories": [
+      "精神健康、心理行为与临床脑病"
+    ]
+  },
+  {
+    "id": "liang_zhen__LIANG_MODEL_EEGFuseNet",
+    "name": "EEGFuseNet DEAP pretrained models",
+    "type": "model",
+    "url": "https://github.com/KAZABANA/EEGfusenet",
+    "download_url": null,
+    "access": "public",
+    "related_paper_titles": [
+      "EEGFuseNet: Hybrid Unsupervised Deep Feature Characterization and Fusion for High-Dimensional EEG With an Application to Emotion Recognition"
+    ],
+    "author_relation": "论文作者发布/合作维护",
+    "evidence_urls": [
+      "https://github.com/KAZABANA/EEGfusenet/tree/main/Pretrained_model"
+    ],
+    "description": "",
+    "verification": "主来源已核验，未执行代码或下载大体积资源",
+    "notes": "README明确仓库含Pretrained_model目录的DEAP预训练模型；模型权重不是DEAP原始数据。以仓库当前文件树为准。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [
+      "EEGFuseNet：高维脑电图的混合无监督深度特征表征和融合与情感识别的应用。"
+    ],
+    "name_zh": "EEGFuseNet DEAP pretrained models",
+    "evidence_labels": [
+      "GitHub 训练脚本"
+    ],
+    "matched_paper_ids": [
+      "liang_zhen_4660e70ee854",
+      "liang_zhen_a80e79748855"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "liang_zhen::affective_eeg"
+    ],
+    "primary_categories": [
+      "情感识别、连续情绪与跨域建模"
+    ]
+  },
+  {
+    "id": "liang_zhen__LIANG_DATA_M3CV",
+    "name": "M3CV original competition data",
+    "type": "dataset",
+    "url": "https://www.kaggle.com/competitions/eeg-biometric-competition/",
+    "download_url": "https://www.kaggle.com/competitions/eeg-biometric-competition/data",
+    "access": "Kaggle_account_and_competition_rules",
+    "related_paper_titles": [
+      "M3CV: A multi-subject, multi-session, and multi-task database for EEG-based biometrics challenge"
+    ],
+    "author_relation": "论文作者发布/合作维护",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/eeg-biometric-competition/",
+      "https://pubmed.ncbi.nlm.nih.gov/36206939/"
+    ],
+    "description": "原作者竞赛页面列HUANG Gan、LIANG Zhen、ZHANG Zhiguo为数据提供者；106招募者、95重复会话，具体竞赛公开划分以数据页为准。",
+    "verification": "主来源已核验，未执行代码或下载大体积资源",
+    "notes": "",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [
+      "M3CV：用于基于脑电图的生物识别挑战的多受试者、多会话和多任务数据库。"
+    ],
+    "name_zh": "M3CV original competition data",
+    "evidence_labels": [
+      "数据集下载/申请",
+      "项目主页/资源说明"
+    ],
+    "matched_paper_ids": [
+      "liang_zhen_77c635d593d3"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "liang_zhen::brain_signal_methods"
+    ],
+    "primary_categories": [
+      "脑信号方法与脑机接口"
+    ]
+  },
+  {
+    "id": "liang_zhen__LIANG_DATA_M3CV_BIDS",
+    "name": "M3CV NEMAR derived BIDS edition",
+    "type": "dataset",
+    "url": "https://nemar.org/dataset/nm000166",
+    "download_url": "https://data.nemar.org/nm000166/v1.0.0/",
+    "access": "public",
+    "related_paper_titles": [
+      "M3CV: A multi-subject, multi-session, and multi-task database for EEG-based biometrics challenge"
+    ],
+    "author_relation": "第三方对作者数据的2026年BIDS转换版",
+    "evidence_urls": [
+      "https://nemar.org/dataset/nm000166"
+    ],
+    "description": "",
+    "verification": "主来源已核验，未执行代码或下载大体积资源",
+    "notes": "95受试者、250Hz、重建伪连续数据；与原始106招募者原版不等同，不能称作者原始完整数据。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [
+      "M3CV：用于基于脑电图的生物识别挑战的多受试者、多会话和多任务数据库。"
+    ],
+    "name_zh": "M3CV NEMAR derived BIDS edition",
+    "evidence_labels": [
+      "数据集下载/申请"
+    ],
+    "matched_paper_ids": [
+      "liang_zhen_77c635d593d3"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "liang_zhen::brain_signal_methods"
+    ],
+    "primary_categories": [
+      "脑信号方法与脑机接口"
+    ]
+  },
+  {
+    "id": "liang_zhen__LIANG_DATA_fMRIHappySad",
+    "name": "Naturalistic Happy/Sad fMRI data",
+    "type": "dataset",
+    "url": "https://sites.google.com/site/janezhenliang/fmriemo",
+    "download_url": "https://drive.google.com/file/d/1k2mdyNmtnJeIRFfijsmmSFNAGZSONC72/view?usp=sharing",
+    "access": "signed_license_and_email_application",
+    "related_paper_titles": [
+      "Functional connectivity profiles of the default mode and visual networks reflect temporal accumulative effects of sustained naturalistic emotional experience"
+    ],
+    "author_relation": "论文作者发布/合作维护",
+    "evidence_urls": [
+      "https://sites.google.com/site/janezhenliang/fmriemo"
+    ],
+    "description": "",
+    "verification": "主来源已核验，未执行代码或下载大体积资源",
+    "notes": "download_url为许可表，不是数据包；签名后以机构邮箱向janezliang@szu.edu.cn发送，主题fMRI Happy/Sad account request。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [
+      "默认模式和视觉网络的功能连接概况反映了持续的自然情感体验的时间累积效应。"
+    ],
+    "name_zh": "Naturalistic Happy/Sad fMRI data",
+    "evidence_labels": [
+      "项目主页/资源说明"
+    ],
+    "matched_paper_ids": [
+      "liang_zhen_5ab121a12ddf"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "liang_zhen::neural_mechanisms"
+    ],
+    "primary_categories": [
+      "情绪、知觉与疼痛神经研究"
+    ]
+  },
+  {
+    "id": "liang_zhen__LIANG_CODE_fMRIHappySad",
+    "name": "Naturalistic Happy/Sad fMRI analysis code",
+    "type": "code",
+    "url": "https://sites.google.com/site/janezhenliang/fmriemo",
+    "download_url": null,
+    "access": "signed_license_and_email_application",
+    "related_paper_titles": [
+      "Functional connectivity profiles of the default mode and visual networks reflect temporal accumulative effects of sustained naturalistic emotional experience"
+    ],
+    "author_relation": "论文作者发布/合作维护",
+    "evidence_urls": [
+      "https://sites.google.com/site/janezhenliang/fmriemo"
+    ],
+    "description": "",
+    "verification": "主来源已核验，未执行代码或下载大体积资源",
+    "notes": "主页明确data and code均需许可申请，未公布匿名GitHub实现。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [
+      "默认模式和视觉网络的功能连接概况反映了持续的自然情感体验的时间累积效应。"
+    ],
+    "name_zh": "Naturalistic Happy/Sad fMRI analysis code",
+    "evidence_labels": [
+      "项目主页/资源说明"
+    ],
+    "matched_paper_ids": [
+      "liang_zhen_5ab121a12ddf"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "liang_zhen::neural_mechanisms"
+    ],
+    "primary_categories": [
+      "情绪、知觉与疼痛神经研究"
+    ]
+  },
+  {
+    "id": "liang_zhen__LIANG_DATA_PD_derived",
+    "name": "EEG-MACS processed PD subset",
+    "type": "dataset",
+    "url": "https://github.com/ICI-BCI/EEG-MACS",
+    "download_url": "https://drive.google.com/drive/folders/1HD2lOxhpy3U9szeDI3hempHk9LTyG6AM?usp=sharing",
+    "access": "public",
+    "related_paper_titles": [
+      "EEG-MACS: Manifold Attention and Confidence Stratification for EEG-based Cross-Center Brain Disease Diagnosis under Unreliable Annotations"
+    ],
+    "author_relation": "论文作者发布/合作维护",
+    "evidence_urls": [
+      "https://github.com/ICI-BCI/EEG-MACS"
+    ],
+    "description": "",
+    "verification": "主来源已核验，未执行代码或下载大体积资源",
+    "notes": "仅作者处理后PD子集；不是原始PD+MCI+AD所有医院数据。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [
+      "EEG-MACS：在不可靠注释下基于EEG的跨中心脑疾病诊断的多方面关注和置信度分层。"
+    ],
+    "name_zh": "EEG-MACS processed PD subset",
+    "evidence_labels": [
+      "GitHub 代码仓库"
+    ],
+    "matched_paper_ids": [
+      "liang_zhen_c777df5a37eb",
+      "liang_zhen_d44f88f95742"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "liang_zhen::mental_clinical"
+    ],
+    "primary_categories": [
+      "精神健康、心理行为与临床脑病"
+    ]
+  },
+  {
+    "id": "liang_zhen__LIANG_DATA_PD_original",
+    "name": "PRED+CT / UNM Parkinson EEG",
+    "type": "dataset",
+    "url": "http://predict.cs.unm.edu/",
+    "download_url": "http://predict.cs.unm.edu/",
+    "access": "public_portal_requirements_apply",
+    "related_paper_titles": [
+      "EEG-MACS: Manifold Attention and Confidence Stratification for EEG-based Cross-Center Brain Disease Diagnosis under Unreliable Annotations"
+    ],
+    "author_relation": "作者论文使用的外部数据",
+    "evidence_urls": [
+      "http://predict.cs.unm.edu/"
+    ],
+    "description": "",
+    "verification": "主来源已核验，未执行代码或下载大体积资源",
+    "notes": "",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [
+      "EEG-MACS：在不可靠注释下基于EEG的跨中心脑疾病诊断的多方面关注和置信度分层。"
+    ],
+    "name_zh": "PRED+CT / UNM Parkinson EEG",
+    "evidence_labels": [
+      "项目主页/资源说明"
+    ],
+    "matched_paper_ids": [
+      "liang_zhen_c777df5a37eb",
+      "liang_zhen_d44f88f95742"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "liang_zhen::mental_clinical"
+    ],
+    "primary_categories": [
+      "精神健康、心理行为与临床脑病"
+    ]
+  },
+  {
+    "id": "liang_zhen__LIANG_DATA_MCI_AD",
+    "name": "EEG-MACS hospital MCI/AD EEG",
+    "type": "dataset",
+    "url": "https://github.com/ICI-BCI/EEG-MACS",
+    "download_url": null,
+    "access": "hospital_IRB_and_author_request",
+    "related_paper_titles": [
+      "EEG-MACS: Manifold Attention and Confidence Stratification for EEG-based Cross-Center Brain Disease Diagnosis under Unreliable Annotations"
+    ],
+    "author_relation": "论文作者发布/合作维护",
+    "evidence_urls": [
+      "https://github.com/ICI-BCI/EEG-MACS"
+    ],
+    "description": "",
+    "verification": "主来源已核验，未执行代码或下载大体积资源",
+    "notes": "无公共原始下载链接；按医院伦理批准后联系通信作者。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [
+      "EEG-MACS：在不可靠注释下基于EEG的跨中心脑疾病诊断的多方面关注和置信度分层。"
+    ],
+    "name_zh": "EEG-MACS hospital MCI/AD EEG",
+    "evidence_labels": [
+      "GitHub 代码仓库"
+    ],
+    "matched_paper_ids": [
+      "liang_zhen_c777df5a37eb",
+      "liang_zhen_d44f88f95742"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "liang_zhen::mental_clinical"
+    ],
+    "primary_categories": [
+      "精神健康、心理行为与临床脑病"
+    ]
+  },
+  {
+    "id": "liang_zhen__LIANG_DATA_MDD_PAA",
+    "name": "EEG Data New / MDD",
+    "type": "dataset",
+    "url": "https://figshare.com/articles/dataset/EEG_Data_New/4244171/1",
+    "download_url": "https://figshare.com/articles/dataset/EEG_Data_New/4244171/1",
+    "access": "public_repository_link",
+    "related_paper_titles": [
+      "Boundary-aware Prototype-driven Adversarial Alignment for Cross-Corpus EEG Emotion Recognition"
+    ],
+    "author_relation": "PAA README指定的外部临床EEG数据",
+    "evidence_urls": [
+      "https://github.com/WuCB-BCI/PAA"
+    ],
+    "description": "",
+    "verification": "主来源已核验，未执行代码或下载大体积资源",
+    "notes": "作者仓库明确链接；本轮Figshare页面访问403，未验证实际文件可下载状态。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [
+      "用于跨语料库脑电图情感识别的边界感知原型驱动的对抗性对齐。"
+    ],
+    "name_zh": "EEG Data New / MDD",
+    "evidence_labels": [
+      "GitHub 代码仓库"
+    ],
+    "matched_paper_ids": [
+      "liang_zhen_deb9d772adb9"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "liang_zhen::affective_eeg"
+    ],
+    "primary_categories": [
+      "情感识别、连续情绪与跨域建模"
+    ]
+  },
+  {
+    "id": "liang_zhen__LIANG_DATA_BD_private",
+    "name": "GraSTI-ACL BD cohort",
+    "type": "dataset",
+    "url": "https://github.com/BiaoHe2025/GraSTIACL",
+    "download_url": null,
+    "access": "private_no_public_download",
+    "related_paper_titles": [
+      "GraSTI-ACL: Graph spatial-temporal infomax with adversarial contrastive learning for brain disorders diagnosis based on resting-state fMRI"
+    ],
+    "author_relation": "论文作者发布/合作维护",
+    "evidence_urls": [
+      "https://github.com/BiaoHe2025/GraSTIACL"
+    ],
+    "description": "",
+    "verification": "主来源已核验，未执行代码或下载大体积资源",
+    "notes": "作者README明确private。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [
+      "GraSTI-ACL：基于静息态 fMRI 的脑部疾病诊断具有对抗性对比学习的时空信息最大值图。"
+    ],
+    "name_zh": "GraSTI-ACL BD cohort",
+    "evidence_labels": [
+      "GitHub 代码仓库"
+    ],
+    "matched_paper_ids": [
+      "liang_zhen_8880242a53f3"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "liang_zhen::mental_clinical"
+    ],
+    "primary_categories": [
+      "精神健康、心理行为与临床脑病"
+    ]
+  },
+  {
+    "id": "liang_zhen__LIANG_DATA_NeuroLong",
+    "name": "Brain-Token NeuroLong cohort",
+    "type": "dataset",
+    "url": "https://arxiv.org/html/2609.24324v1",
+    "download_url": null,
+    "access": "no_verified_public_release",
+    "related_paper_titles": [
+      "Brain-Token Learning: Microstate-Based Tokenization and Multi-Scale Interaction for Long-Horizon EEG Sequence Modeling"
+    ],
+    "author_relation": "论文作者发布/合作维护",
+    "evidence_urls": [
+      "https://arxiv.org/html/2609.24324v1"
+    ],
+    "description": "",
+    "verification": "主来源已核验，未执行代码或下载大体积资源",
+    "notes": "论文自采长时程数据；未找到官方数据下载。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [
+      "脑信号词元学习：面向长时程脑电序列建模的微状态词元化与多尺度交互"
+    ],
+    "name_zh": "Brain-Token NeuroLong cohort",
+    "evidence_labels": [
+      "论文主页/PDF"
+    ],
+    "matched_paper_ids": [
+      "liang_zhen_9843a8acc337"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "liang_zhen::brain_signal_methods"
+    ],
+    "primary_categories": [
+      "脑信号方法与脑机接口"
+    ]
+  },
+  {
+    "id": "liang_zhen__LIANG_PROJECT_EEGSAL",
+    "name": "EEGsal visual saliency experiment",
+    "type": "project",
+    "url": "https://sites.google.com/site/janezhenliang/eegsal",
+    "download_url": null,
+    "access": "public",
+    "related_paper_titles": [
+      "Characterization of electroencephalography signals for estimating saliency features in videos"
+    ],
+    "author_relation": "论文作者发布/合作维护",
+    "evidence_urls": [
+      "https://sites.google.com/site/janezhenliang/eegsal"
+    ],
+    "description": "",
+    "verification": "主来源已核验，未执行代码或下载大体积资源",
+    "notes": "官方页面含刺激视频和补充说明，不能把刺激视频当EEG信号下载。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [
+      "用于估计视频中的显着性特征的脑电图信号的表征。"
+    ],
+    "name_zh": "EEGsal visual saliency experiment",
+    "evidence_labels": [
+      "项目主页/资源说明"
+    ],
+    "matched_paper_ids": [
+      "liang_zhen_ab818bbaa53e"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "liang_zhen::brain_signal_methods"
+    ],
+    "primary_categories": [
+      "脑信号方法与脑机接口"
+    ]
+  },
+  {
+    "id": "liang_zhen__LIANG_PROJECT_Unsupervised",
+    "name": "Unsupervised EEG emotion supplementary project",
+    "type": "project",
+    "url": "https://sites.google.com/site/janezhenliang/eeg-emotion",
+    "download_url": null,
+    "access": "public",
+    "related_paper_titles": [
+      "An unsupervised EEG decoding system for human emotion recognition"
+    ],
+    "author_relation": "论文作者发布/合作维护",
+    "evidence_urls": [
+      "https://sites.google.com/site/janezhenliang/eeg-emotion"
+    ],
+    "description": "",
+    "verification": "主来源已核验，未执行代码或下载大体积资源",
+    "notes": "使用DEAP；该页为补充材料，并非新数据集。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [
+      "一种用于人类情感识别的无监督EEG解码系统。"
+    ],
+    "name_zh": "Unsupervised EEG emotion supplementary project",
+    "evidence_labels": [
+      "项目主页/资源说明"
+    ],
+    "matched_paper_ids": [
+      "liang_zhen_c4483d587603"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "liang_zhen::affective_eeg"
+    ],
+    "primary_categories": [
+      "情感识别、连续情绪与跨域建模"
+    ]
+  },
+  {
+    "id": "liang_zhen__LIANG_PROJECT_Saliency",
+    "name": "Hypergraph saliency supplementary material",
+    "type": "project",
+    "url": "https://sites.google.com/site/janezhenliang/saliencymap",
+    "download_url": null,
+    "access": "public",
+    "related_paper_titles": [
+      "Hypergraph-based saliency map generation with potential region-of-interest approximation and validation"
+    ],
+    "author_relation": "论文作者发布/合作维护",
+    "evidence_urls": [
+      "https://sites.google.com/site/janezhenliang/saliencymap"
+    ],
+    "description": "",
+    "verification": "主来源已核验，未执行代码或下载大体积资源",
+    "notes": "早期视觉研究官方补充页；旧Google Drive/Microsoft链接存活性未全部核验。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [
+      "具有潜在感兴趣区域近似和验证的基于超图的显着性图生成。"
+    ],
+    "name_zh": "Hypergraph saliency supplementary material",
+    "evidence_labels": [
+      "项目主页/资源说明"
+    ],
+    "matched_paper_ids": [
+      "liang_zhen_5690f11c5f01"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "liang_zhen::vision_eye"
+    ],
+    "primary_categories": [
+      "视觉注意、眼动与人机交互"
+    ]
+  },
+  {
+    "id": "liang_zhen__LIANG_PROJECT_ChineseTyping",
+    "name": "Eye typing of Chinese characters",
+    "type": "project",
+    "url": "https://sites.google.com/site/janezhenliang/chinesetyping",
+    "download_url": null,
+    "access": "public",
+    "related_paper_titles": [
+      "Eye typing of Chinese characters"
+    ],
+    "author_relation": "论文作者发布/合作维护",
+    "evidence_urls": [
+      "https://sites.google.com/site/janezhenliang/chinesetyping"
+    ],
+    "description": "",
+    "verification": "主来源已核验，未执行代码或下载大体积资源",
+    "notes": "2012眼动输入论文官方演示/补充页，非脑电数据。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [
+      "汉字的眼睛打字。"
+    ],
+    "name_zh": "汉字的眼睛打字。 — 项目",
+    "evidence_labels": [
+      "项目主页/资源说明"
+    ],
+    "matched_paper_ids": [
+      "liang_zhen_bd6e2b66460e"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "liang_zhen::vision_eye"
+    ],
+    "primary_categories": [
+      "视觉注意、眼动与人机交互"
+    ]
+  },
+  {
+    "id": "liang_zhen__LIANG_EXT_SEED",
+    "name": "SEED",
+    "type": "dataset",
+    "url": "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+    "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+    "access": "application_required",
+    "related_paper_titles": [],
+    "author_relation": "论文使用的外部数据，不归为梁臻创建",
+    "evidence_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    ],
+    "description": "",
+    "verification": "主来源已核验，未执行代码或下载大体积资源",
+    "notes": "统一申请入口，申请具体版本并遵守研究许可；不是匿名压缩包直链。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [],
+    "name_zh": "SEED",
+    "evidence_labels": [
+      "作者/机构主页",
+      "数据集下载/申请"
+    ],
+    "matched_paper_ids": [],
+    "unmatched_titles": [],
+    "scholar_category_ids": [],
+    "primary_categories": []
+  },
+  {
+    "id": "liang_zhen__LIANG_EXT_SEED-IV",
+    "name": "SEED-IV",
+    "type": "dataset",
+    "url": "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+    "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+    "access": "application_required",
+    "related_paper_titles": [],
+    "author_relation": "论文使用的外部数据，不归为梁臻创建",
+    "evidence_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    ],
+    "description": "",
+    "verification": "主来源已核验，未执行代码或下载大体积资源",
+    "notes": "统一申请入口，申请具体版本并遵守研究许可；不是匿名压缩包直链。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [],
+    "name_zh": "SEED-IV",
+    "evidence_labels": [
+      "作者/机构主页",
+      "数据集下载/申请"
+    ],
+    "matched_paper_ids": [],
+    "unmatched_titles": [],
+    "scholar_category_ids": [],
+    "primary_categories": []
+  },
+  {
+    "id": "liang_zhen__LIANG_EXT_SEED-V",
+    "name": "SEED-V",
+    "type": "dataset",
+    "url": "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html",
+    "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+    "access": "application_required",
+    "related_paper_titles": [],
+    "author_relation": "论文使用的外部数据，不归为梁臻创建",
+    "evidence_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    ],
+    "description": "",
+    "verification": "主来源已核验，未执行代码或下载大体积资源",
+    "notes": "统一申请入口，申请具体版本并遵守研究许可；不是匿名压缩包直链。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [],
+    "name_zh": "SEED-V",
+    "evidence_labels": [
+      "作者/机构主页",
+      "数据集下载/申请"
+    ],
+    "matched_paper_ids": [],
+    "unmatched_titles": [],
+    "scholar_category_ids": [],
+    "primary_categories": []
+  },
+  {
+    "id": "liang_zhen__LIANG_EXT_SEED-VII",
+    "name": "SEED-VII",
+    "type": "dataset",
+    "url": "https://bcmi.sjtu.edu.cn/home/seed/seed-vii.html",
+    "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+    "access": "application_required",
+    "related_paper_titles": [],
+    "author_relation": "论文使用的外部数据，不归为梁臻创建",
+    "evidence_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-vii.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    ],
+    "description": "",
+    "verification": "主来源已核验，未执行代码或下载大体积资源",
+    "notes": "统一申请入口，申请具体版本并遵守研究许可；不是匿名压缩包直链。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [],
+    "name_zh": "SEED-VII",
+    "evidence_labels": [
+      "作者/机构主页",
+      "数据集下载/申请"
+    ],
+    "matched_paper_ids": [],
+    "unmatched_titles": [],
+    "scholar_category_ids": [],
+    "primary_categories": []
+  },
+  {
+    "id": "liang_zhen__LIANG_EXT_DEAP",
+    "name": "DEAP",
+    "type": "dataset",
+    "url": "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/",
+    "download_url": "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/download.html",
+    "access": "application_required",
+    "related_paper_titles": [],
+    "author_relation": "论文使用的外部数据，不归为梁臻创建",
+    "evidence_urls": [
+      "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/"
+    ],
+    "description": "",
+    "verification": "主来源已核验，未执行代码或下载大体积资源",
+    "notes": "官方申请/下载页面；本轮web抓取超时或502，原始地址由作者代码/论文引用确认，不宣称已获得数据。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [],
+    "name_zh": "DEAP",
+    "evidence_labels": [
+      "数据集下载/申请"
+    ],
+    "matched_paper_ids": [],
+    "unmatched_titles": [],
+    "scholar_category_ids": [],
+    "primary_categories": []
+  },
+  {
+    "id": "liang_zhen__LIANG_EXT_MAHNOB-HCI",
+    "name": "MAHNOB-HCI",
+    "type": "dataset",
+    "url": "https://mahnob-db.eu/",
+    "download_url": "http://mahnob-db.eu/hci-tagging/accounts/register/",
+    "access": "registration_eula_site_unstable",
+    "related_paper_titles": [],
+    "author_relation": "论文使用的外部数据，不归为梁臻创建",
+    "evidence_urls": [
+      "https://mahnob-db.eu/",
+      "https://mahnob-db.eu/hci-tagging/media/doc/eula.pdf"
+    ],
+    "description": "",
+    "verification": "主来源已核验，未执行代码或下载大体积资源",
+    "notes": "根主页仍链接http hci-tagging；https子页本轮404。官方EULA要求签署上传申请，不能视为即刻下载。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [],
+    "name_zh": "MAHNOB-HCI",
+    "evidence_labels": [
+      "项目主页/资源说明",
+      "项目主页/资源说明"
+    ],
+    "matched_paper_ids": [],
+    "unmatched_titles": [],
+    "scholar_category_ids": [],
+    "primary_categories": []
+  },
+  {
+    "id": "liang_zhen__LIANG_DATA_LTNE",
+    "name": "EEGDancer / DuA LTNE long-term emotion EEG",
+    "type": "dataset",
+    "url": "https://arxiv.org/abs/2606.05855",
+    "download_url": null,
+    "access": "private_or_no_verified_public_release",
+    "related_paper_titles": [
+      "EEGDancer: Dynamic Emotion Latent Space Masked Modeling with Reinforcement Learning for EEG Continuous Emotion Prediction",
+      "DuA: Dual Attentive Transformer in Long-Term Continuous EEG Emotion Analysis"
+    ],
+    "author_relation": "作者论文自采数据或论文使用的外部数据；不因使用而视为作者创建",
+    "evidence_urls": [
+      "https://arxiv.org/abs/2606.05855"
+    ],
+    "description": "",
+    "verification": "论文/作者README数据声明；未下载数据",
+    "notes": "自采长时程情绪脑电；未核得官方公开原始数据入口，不能自动等同Brain-Token的NeuroLong。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [
+      "EEGDancer：动态情绪潜在空间掩蔽建模与强化学习用于脑电图连续情绪预测。",
+      "DuA：长期连续脑电图情绪分析中的双注意力Transformer。"
+    ],
+    "name_zh": "EEGDancer / DuA LTNE long-term emotion EEG",
+    "evidence_labels": [
+      "论文主页/PDF"
+    ],
+    "matched_paper_ids": [
+      "liang_zhen_c388e88eb620",
+      "liang_zhen_31d44d3c9450"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "liang_zhen::affective_eeg"
+    ],
+    "primary_categories": [
+      "情感识别、连续情绪与跨域建模"
+    ]
+  },
+  {
+    "id": "liang_zhen__LIANG_DATA_NSSI",
+    "name": "NSSI-Net clinical self-collected cohort",
+    "type": "dataset",
+    "url": "https://arxiv.org/abs/2410.12159",
+    "download_url": null,
+    "access": "private_or_author_request",
+    "related_paper_titles": [
+      "NSSI-Net: A Multi-Concept GAN for Non-Suicidal Self-Injury Detection Using High-Dimensional EEG in a Semi-Supervised Framework"
+    ],
+    "author_relation": "作者论文自采数据或论文使用的外部数据；不因使用而视为作者创建",
+    "evidence_urls": [
+      "https://arxiv.org/abs/2410.12159"
+    ],
+    "description": "",
+    "verification": "论文/作者README数据声明；未下载数据",
+    "notes": "114名临床研究受试者；代码仓库不等于临床原始EEG公开。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [
+      "NSSI-Net：在半监督框架中使用高维脑电图进行非自杀性自伤检测的多概念 GAN。"
+    ],
+    "name_zh": "NSSI-Net clinical self-collected cohort",
+    "evidence_labels": [
+      "论文主页/PDF"
+    ],
+    "matched_paper_ids": [
+      "liang_zhen_ac4e388fd6c3"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "liang_zhen::mental_clinical"
+    ],
+    "primary_categories": [
+      "精神健康、心理行为与临床脑病"
+    ]
+  },
+  {
+    "id": "liang_zhen__LIANG_DATA_ADNI",
+    "name": "ADNI",
+    "type": "dataset",
+    "url": "https://adni.loni.usc.edu/data-samples/adni-data/",
+    "download_url": "https://ida.loni.usc.edu/login.jsp?project=ADNI&page=HOME",
+    "access": "registration_and_data_use_approval",
+    "related_paper_titles": [
+      "GraSTI-ACL: Graph spatial-temporal infomax with adversarial contrastive learning for brain disorders diagnosis based on resting-state fMRI"
+    ],
+    "author_relation": "作者论文自采数据或论文使用的外部数据；不因使用而视为作者创建",
+    "evidence_urls": [
+      "https://adni.loni.usc.edu/data-samples/adni-data/",
+      "https://github.com/BiaoHe2025/GraSTIACL"
+    ],
+    "description": "",
+    "verification": "论文/作者README数据声明；未下载数据",
+    "notes": "ADNI当前官方数据申请页；接受DUA并提交机构/研究用途，批准后经LONI IDA下载。旧access-data路径404已替换。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [
+      "GraSTI-ACL：基于静息态 fMRI 的脑部疾病诊断具有对抗性对比学习的时空信息最大值图。"
+    ],
+    "name_zh": "ADNI",
+    "evidence_labels": [
+      "项目主页/资源说明",
+      "GitHub 代码仓库"
+    ],
+    "matched_paper_ids": [
+      "liang_zhen_8880242a53f3"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "liang_zhen::mental_clinical"
+    ],
+    "primary_categories": [
+      "精神健康、心理行为与临床脑病"
+    ]
+  },
+  {
+    "id": "liang_zhen__LIANG_DATA_SRPBS",
+    "name": "SRPBS Multi-disorder MRI Dataset",
+    "type": "dataset",
+    "url": "https://bicr-resource.atr.jp/srpbsopen/",
+    "download_url": "https://bicr-resource.atr.jp/srpbsopen/",
+    "access": "registration_required_noncommercial_no_redistribution",
+    "related_paper_titles": [
+      "GraSTI-ACL: Graph spatial-temporal infomax with adversarial contrastive learning for brain disorders diagnosis based on resting-state fMRI",
+      "Ecologically-Valid Emotion Signatures Enhance Mood Disorder Diagnostics"
+    ],
+    "author_relation": "作者论文自采数据或论文使用的外部数据；不因使用而视为作者创建",
+    "evidence_urls": [
+      "https://bicr-resource.atr.jp/srpbsopen/",
+      "https://github.com/BiaoHe2025/GraSTIACL"
+    ],
+    "description": "",
+    "verification": "论文/作者README数据声明；未下载数据",
+    "notes": "2026自然情绪临床验证论文明确使用unrestricted MRI版本MDD子集；不要自动替换为受限连接组版或其他SRPBS发布。 官方2026页面明确所有使用者需填表注册，邮件发账号；unrestricted不代表匿名下载或可再分发。",
+    "scholar_id": "liang_zhen",
+    "scholar_name": "梁臻",
+    "related_paper_titles_zh": [
+      "GraSTI-ACL：基于静息态 fMRI 的脑部疾病诊断具有对抗性对比学习的时空信息最大值图。",
+      "生态有效的情绪特征增强情绪障碍诊断。"
+    ],
+    "name_zh": "SRPBS Multi-disorder MRI Dataset",
+    "evidence_labels": [
+      "项目主页/资源说明",
+      "GitHub 代码仓库"
+    ],
+    "matched_paper_ids": [
+      "liang_zhen_8880242a53f3",
+      "liang_zhen_44602297edbb"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "liang_zhen::mental_clinical"
+    ],
+    "primary_categories": [
+      "精神健康、心理行为与临床脑病"
+    ]
+  }
+]

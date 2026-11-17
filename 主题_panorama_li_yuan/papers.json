@@ -1,0 +1,248 @@
+{
+  "scholar": {
+    "name_zh": "袁理",
+    "name_en": "Li Yuan",
+    "affiliation": "华南师范大学",
+    "identity_sources": [
+      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    ],
+    "official_homepages": [
+      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    ],
+    "coverage": {
+      "scope": "2025–2026主题筛选与全量书目扩展",
+      "status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
+      "coverage_status": "仅有代表论文或项目级记录；个人全历史待补核",
+      "available_record_count": 4,
+      "bulk_source_record_count": 0,
+      "themes": [
+        "情感理解与情感智能"
+      ]
+    },
+    "coverage_notes": "该目录与五位基线学者使用同一论文/资源/分类输出契约。‘可用记录数’表示本轮已取得并保留的书目，不等于未经消歧的个人终身全集；身份待核验、论文团队和同名风险见候选筛选证据。",
+    "id": "panorama_li_yuan",
+    "folder": "主题_panorama_li_yuan",
+    "classification": {
+      "method": "按题名及现有项目、资源说明进行主题粗分，用于阅读导航；未逐篇审阅全文，不代表学者官方分类。每条书目只设一个主类别，跨方向信息保留在辅助标签中。",
+      "categories": [
+        {
+          "id": "emotion_understanding",
+          "label": "情感理解与多模态推理",
+          "description": "多模态情感识别、情绪原因解释、开放词汇与上下文推理。",
+          "count": 3
+        },
+        {
+          "id": "affective_intelligence",
+          "label": "情感智能、共情与生成",
+          "description": "情感智能、心智理论、共情响应和情感生成。",
+          "count": 1
+        },
+        {
+          "id": "emotion_benchmark",
+          "label": "情感数据集、基准与评测",
+          "description": "情感数据集、评测基准、情感幻觉与可靠性分析。",
+          "count": 0
+        }
+      ],
+      "review": {
+        "status": "theme_candidate",
+        "source_status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
+        "primary_theme": "情感智能与情感大模型"
+      }
+    },
+    "counts": {
+      "bibliographic_records": 4,
+      "resource_entries": 0,
+      "papers_with_linked_resources": 0,
+      "types": {},
+      "years": [
+        2022,
+        2023,
+        2025
+      ],
+      "unknown_year": 0
+    }
+  },
+  "papers": [
+    {
+      "title": "Pruning Self-Attention with Local and Syntactic Dependencies for Aspect Sentiment Triplet Extraction. IEEE/ACM Transactions on Audio, Speech, and Language Processing",
+      "title_en": "Pruning Self-Attention with Local and Syntactic Dependencies for Aspect Sentiment Triplet Extraction. IEEE/ACM Transactions on Audio, Speech, and Language Processing",
+      "title_zh": "使用局部和句法依赖性修剪自注意力以进行方面情感三元组提取。 IEEE/ACM 音频、语音和语言处理汇刊",
+      "year": 2025,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "Li Yuan"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_li_yuan_8f31bdc0a1ce",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_li_yuan",
+      "scholar_name": "袁理",
+      "work_title_group": "655f36d3c3e1",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Encoding syntactic information into transformers for aspect-based sentiment triplet extraction. IEEE Transactions on Affective Computing",
+      "title_en": "Encoding syntactic information into transformers for aspect-based sentiment triplet extraction. IEEE Transactions on Affective Computing",
+      "title_zh": "将句法信息编码到转换器中，以进行基于方面的情感三元组提取。 IEEE 情感计算汇刊",
+      "year": 2023,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "Li Yuan"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_li_yuan_90c55cda99a5",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_li_yuan",
+      "scholar_name": "袁理",
+      "work_title_group": "d7442688af73",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Hierarchical template transformer for fine-grained sentiment controllable generation. Information Processing & Management",
+      "title_en": "Hierarchical template transformer for fine-grained sentiment controllable generation. Information Processing & Management",
+      "title_zh": "用于细粒度情感可控生成的分层模板转换器。信息处理与管理",
+      "year": 2022,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "Li Yuan"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_li_yuan_b140f1f928e5",
+      "category_id": "affective_intelligence",
+      "primary_category": "情感智能、共情与生成",
+      "secondary_tags": [
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_li_yuan",
+      "scholar_name": "袁理",
+      "work_title_group": "1d000c3a0deb",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Syntactic graph attention network for aspect-level sentiment analysis. IEEE Transactions on Artificial Intelligence",
+      "title_en": "Syntactic graph attention network for aspect-level sentiment analysis. IEEE Transactions on Artificial Intelligence",
+      "title_zh": "用于方面级情感分析的句法图注意网络。 IEEE 人工智能汇刊",
+      "year": 2022,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "Li Yuan"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "情感理解与情感智能",
+        "情感理解与情感智能"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_li_yuan_616c2ad0308b",
+      "category_id": "emotion_understanding",
+      "primary_category": "情感理解与多模态推理",
+      "secondary_tags": [
+        "情感理解与情感智能"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_li_yuan",
+      "scholar_name": "袁理",
+      "work_title_group": "43129d917304",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    }
+  ]
+}

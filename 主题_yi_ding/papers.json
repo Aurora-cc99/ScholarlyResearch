@@ -1,0 +1,338 @@
+{
+  "scholar": {
+    "name_zh": "Yi Ding（中文名待核验）",
+    "name_en": "Yi Ding",
+    "affiliation": "Brain & Affective AI研究团队；EEG基础模型与情感计算",
+    "identity_sources": [
+      "https://yi-ding-cs.github.io/publications/"
+    ],
+    "official_homepages": [
+      "https://yi-ding-cs.github.io/publications/"
+    ],
+    "coverage": {
+      "scope": "2025–2026主题筛选与全量书目扩展",
+      "status": "重点纳入",
+      "coverage_status": "仅有代表论文或项目级记录；个人全历史待补核",
+      "available_record_count": 5,
+      "bulk_source_record_count": 0,
+      "themes": [
+        "脑电基础大模型",
+        "脑电情感识别",
+        "脑电数据蒸馏",
+        "多模态脑电学习"
+      ]
+    },
+    "coverage_notes": "该目录与五位基线学者使用同一论文/资源/分类输出契约。‘可用记录数’表示本轮已取得并保留的书目，不等于未经消歧的个人终身全集；身份待核验、论文团队和同名风险见候选筛选证据。",
+    "id": "yi_ding",
+    "folder": "主题_yi_ding",
+    "classification": {
+      "method": "按题名及现有项目、资源说明进行主题粗分，用于阅读导航；未逐篇审阅全文，不代表学者官方分类。每条书目只设一个主类别，跨方向信息保留在辅助标签中。",
+      "categories": [
+        {
+          "id": "eeg_foundation",
+          "label": "脑电基础模型与通用解码",
+          "description": "EEG基础模型、跨任务/跨设备泛化、预训练与脑信号解码。",
+          "count": 0
+        },
+        {
+          "id": "eeg_affect",
+          "label": "情感脑电与多模态生理信号",
+          "description": "脑电情感识别、EEG-fNIRS/EEG-MEG及情感计算应用。",
+          "count": 4
+        },
+        {
+          "id": "eeg_benchmark",
+          "label": "脑电基准、数据与评测",
+          "description": "脑电基础模型基准、数据集、可复现评估与跨数据集比较。",
+          "count": 1
+        }
+      ],
+      "review": {
+        "status": "theme_candidate",
+        "source_status": "重点纳入",
+        "primary_theme": "脑电情感计算与脑电大模型"
+      }
+    },
+    "counts": {
+      "bibliographic_records": 5,
+      "resource_entries": 1,
+      "papers_with_linked_resources": 0,
+      "types": {
+        "project": 1
+      },
+      "years": [
+        2020,
+        2025,
+        2026
+      ],
+      "unknown_year": 0
+    }
+  },
+  "papers": [
+    {
+      "title": "EEG-DLite: Dataset Distillation for Efficient Large EEG Model Training",
+      "title_en": "EEG-DLite: Dataset Distillation for Efficient Large EEG Model Training",
+      "title_zh": "EEG-DLite：面向大脑电模型高效训练的数据集蒸馏",
+      "year": 2026,
+      "venue": "AAAI 2026",
+      "authors": [
+        "Yi Ding"
+      ],
+      "doi": "",
+      "paper_url": "https://yi-ding-cs.github.io/publications/",
+      "source_url": "https://yi-ding-cs.github.io/publications/",
+      "topics": [
+        "脑电基础大模型",
+        "脑电情感识别",
+        "脑电数据蒸馏",
+        "多模态脑电学习",
+        "脑电基础大模型",
+        "脑电情感识别",
+        "脑电数据蒸馏",
+        "多模态脑电学习"
+      ],
+      "verification": "主题筛选候选；重点纳入",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": false,
+      "source_kind": "代表论文/官方页面",
+      "record_id": "yi_ding_f0c148833336",
+      "category_id": "eeg_benchmark",
+      "primary_category": "脑电基准、数据与评测",
+      "secondary_tags": [
+        "脑电基础大模型",
+        "脑电情感识别",
+        "脑电数据蒸馏",
+        "多模态脑电学习"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "yi_ding",
+      "scholar_name": "Yi Ding（中文名待核验）",
+      "work_title_group": "40028af7cf38",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "LEAF: Language-EEG Aligned Foundation Model for Brain-Computer Interfaces",
+      "title_en": "LEAF: Language-EEG Aligned Foundation Model for Brain-Computer Interfaces",
+      "title_zh": "LEAF：面向脑机接口的语言—脑电对齐基础模型",
+      "year": 2026,
+      "venue": "NeurIPS 2026",
+      "authors": [
+        "Yi Ding"
+      ],
+      "doi": "",
+      "paper_url": "https://yi-ding-cs.github.io/publications/",
+      "source_url": "https://yi-ding-cs.github.io/publications/",
+      "topics": [
+        "脑电基础大模型",
+        "脑电情感识别",
+        "脑电数据蒸馏",
+        "多模态脑电学习",
+        "脑电基础大模型",
+        "脑电情感识别",
+        "脑电数据蒸馏",
+        "多模态脑电学习"
+      ],
+      "verification": "主题筛选候选；重点纳入",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": false,
+      "source_kind": "代表论文/官方页面",
+      "record_id": "yi_ding_e04add1b618f",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电基础大模型",
+        "脑电情感识别",
+        "脑电数据蒸馏",
+        "多模态脑电学习"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "yi_ding",
+      "scholar_name": "Yi Ding（中文名待核验）",
+      "work_title_group": "9502ab00ce6c",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Process-conditioned Pretraining with Topographic Spatial Retrieval for Large EEG Models",
+      "title_en": "Process-conditioned Pretraining with Topographic Spatial Retrieval for Large EEG Models",
+      "title_zh": "基于拓扑空间检索的过程条件预训练大脑电模型",
+      "year": 2026,
+      "venue": "NeurIPS 2026",
+      "authors": [
+        "Yi Ding"
+      ],
+      "doi": "",
+      "paper_url": "https://yi-ding-cs.github.io/publications/",
+      "source_url": "https://yi-ding-cs.github.io/publications/",
+      "topics": [
+        "脑电基础大模型",
+        "脑电情感识别",
+        "脑电数据蒸馏",
+        "多模态脑电学习",
+        "脑电基础大模型",
+        "脑电情感识别",
+        "脑电数据蒸馏",
+        "多模态脑电学习"
+      ],
+      "verification": "主题筛选候选；重点纳入",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": false,
+      "source_kind": "代表论文/官方页面",
+      "record_id": "yi_ding_f90cd4b19bd7",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电基础大模型",
+        "脑电情感识别",
+        "脑电数据蒸馏",
+        "多模态脑电学习"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "yi_ding",
+      "scholar_name": "Yi Ding（中文名待核验）",
+      "work_title_group": "dccaf2351bf2",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Sera: Separated Coarse-to-fine Representation Alignment for Cross-subject EEG-based Emotion Recognition",
+      "title_en": "Sera: Separated Coarse-to-fine Representation Alignment for Cross-subject EEG-based Emotion Recognition",
+      "title_zh": "Sera：面向跨被试脑电情感识别的分离式粗到细表征对齐",
+      "year": 2025,
+      "venue": "ACM Multimedia 2025",
+      "authors": [
+        "Yi Ding"
+      ],
+      "doi": "",
+      "paper_url": "https://yi-ding-cs.github.io/publications/",
+      "source_url": "https://yi-ding-cs.github.io/publications/",
+      "topics": [
+        "脑电基础大模型",
+        "脑电情感识别",
+        "脑电数据蒸馏",
+        "多模态脑电学习",
+        "脑电基础大模型",
+        "脑电情感识别",
+        "脑电数据蒸馏",
+        "多模态脑电学习"
+      ],
+      "verification": "主题筛选候选；重点纳入",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": false,
+      "source_kind": "代表论文/官方页面",
+      "record_id": "yi_ding_1a201ce4ccaa",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电基础大模型",
+        "脑电情感识别",
+        "脑电数据蒸馏",
+        "多模态脑电学习"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "yi_ding",
+      "scholar_name": "Yi Ding（中文名待核验）",
+      "work_title_group": "52edacfdf331",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "TSception: A Deep Learning Framework for Emotion Detection Using EEG",
+      "title_en": "TSception: A Deep Learning Framework for Emotion Detection Using EEG",
+      "title_zh": "TSception：使用脑电进行情感检测的深度学习框架",
+      "year": 2020,
+      "venue": "IJCNN 2020",
+      "authors": [
+        "Yi Ding"
+      ],
+      "doi": "",
+      "paper_url": "https://yi-ding-cs.github.io/publications/",
+      "source_url": "https://yi-ding-cs.github.io/publications/",
+      "topics": [
+        "脑电基础大模型",
+        "脑电情感识别",
+        "脑电数据蒸馏",
+        "多模态脑电学习",
+        "脑电基础大模型",
+        "脑电情感识别",
+        "脑电数据蒸馏",
+        "多模态脑电学习"
+      ],
+      "verification": "主题筛选候选；重点纳入",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": false,
+      "source_kind": "代表论文/官方页面",
+      "record_id": "yi_ding_d55bb5591ca6",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电基础大模型",
+        "脑电情感识别",
+        "脑电数据蒸馏",
+        "多模态脑电学习"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "yi_ding",
+      "scholar_name": "Yi Ding（中文名待核验）",
+      "work_title_group": "135df6d762e1",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    }
+  ]
+}

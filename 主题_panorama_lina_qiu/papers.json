@@ -1,0 +1,111 @@
+{
+  "scholar": {
+    "name_zh": "邱丽娜",
+    "name_en": "Lina Qiu",
+    "affiliation": "华南师范大学",
+    "identity_sources": [
+      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    ],
+    "official_homepages": [
+      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    ],
+    "coverage": {
+      "scope": "2025–2026主题筛选与全量书目扩展",
+      "status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
+      "coverage_status": "仅有代表论文或项目级记录；个人全历史待补核",
+      "available_record_count": 1,
+      "bulk_source_record_count": 0,
+      "themes": [
+        "脑电情感计算与脑机接口"
+      ]
+    },
+    "coverage_notes": "该目录与五位基线学者使用同一论文/资源/分类输出契约。‘可用记录数’表示本轮已取得并保留的书目，不等于未经消歧的个人终身全集；身份待核验、论文团队和同名风险见候选筛选证据。",
+    "id": "panorama_lina_qiu",
+    "folder": "主题_panorama_lina_qiu",
+    "classification": {
+      "method": "按题名及现有项目、资源说明进行主题粗分，用于阅读导航；未逐篇审阅全文，不代表学者官方分类。每条书目只设一个主类别，跨方向信息保留在辅助标签中。",
+      "categories": [
+        {
+          "id": "eeg_foundation",
+          "label": "脑电基础模型与通用解码",
+          "description": "EEG基础模型、跨任务/跨设备泛化、预训练与脑信号解码。",
+          "count": 0
+        },
+        {
+          "id": "eeg_affect",
+          "label": "情感脑电与多模态生理信号",
+          "description": "脑电情感识别、EEG-fNIRS/EEG-MEG及情感计算应用。",
+          "count": 1
+        },
+        {
+          "id": "eeg_benchmark",
+          "label": "脑电基准、数据与评测",
+          "description": "脑电基础模型基准、数据集、可复现评估与跨数据集比较。",
+          "count": 0
+        }
+      ],
+      "review": {
+        "status": "theme_candidate",
+        "source_status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
+        "primary_theme": "脑电情感计算与脑电大模型"
+      }
+    },
+    "counts": {
+      "bibliographic_records": 1,
+      "resource_entries": 0,
+      "papers_with_linked_resources": 0,
+      "types": {},
+      "years": [
+        2024
+      ],
+      "unknown_year": 0
+    }
+  },
+  "papers": [
+    {
+      "title": "SFT-SGAT: 半监督微调自监督图注意力网络,跨受试者EEG情绪识别(SEED 92.04%/SEED-IV 82.76%). Neural Networks",
+      "title_en": "SFT-SGAT: 半监督微调自监督图注意力网络,跨受试者EEG情绪识别(SEED 92.04%/SEED-IV 82.76%). Neural Networks",
+      "title_zh": "SFT-SGAT：半监督自监督图注意力网络，定制脑电图情绪识别（SEED 92.04%/SEED-IV 82.76%）。神经网络",
+      "year": 2024,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "Lina Qiu"
+      ],
+      "doi": "",
+      "paper_url": "",
+      "source_url": "",
+      "topics": [
+        "脑电情感计算与脑机接口",
+        "脑电情感计算与脑机接口"
+      ],
+      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": true,
+      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
+      "record_id": "panorama_lina_qiu_557a5b5d336a",
+      "category_id": "eeg_affect",
+      "primary_category": "情感脑电与多模态生理信号",
+      "secondary_tags": [
+        "脑电情感计算与脑机接口"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "panorama_lina_qiu",
+      "scholar_name": "邱丽娜",
+      "work_title_group": "7fa7d84ad9fd",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    }
+  ]
+}

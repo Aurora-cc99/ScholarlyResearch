@@ -1,0 +1,528 @@
+{
+  "scholar": {
+    "name_zh": "Sree Bhattacharyya（中文名待核验）",
+    "name_en": "Sree Bhattacharyya",
+    "affiliation": "Evaluating Vision-Language Models for Emotion Recognition第一作者",
+    "identity_sources": [
+      "https://aclanthology.org/2025.findings-naacl.97/",
+      "https://arxiv.org/abs/2502.05660"
+    ],
+    "official_homepages": [
+      "https://aclanthology.org/2025.findings-naacl.97/",
+      "https://arxiv.org/abs/2502.05660"
+    ],
+    "coverage": {
+      "scope": "2025–2026主题筛选与全量书目扩展",
+      "status": "论文团队候选（NAACL Findings 2025）",
+      "coverage_status": "作者作品集/论文包已扩展；仍需身份消歧与覆盖审计",
+      "available_record_count": 8,
+      "bulk_source_record_count": 8,
+      "themes": [
+        "视觉语言模型情感理解",
+        "情感基准评测",
+        "图像诱发情绪"
+      ]
+    },
+    "coverage_notes": "该目录与五位基线学者使用同一论文/资源/分类输出契约。‘可用记录数’表示本轮已取得并保留的书目，不等于未经消歧的个人终身全集；身份待核验、论文团队和同名风险见候选筛选证据。",
+    "id": "sree_bhattacharyya",
+    "folder": "主题_sree_bhattacharyya",
+    "classification": {
+      "method": "按题名及现有项目、资源说明进行主题粗分，用于阅读导航；未逐篇审阅全文，不代表学者官方分类。每条书目只设一个主类别，跨方向信息保留在辅助标签中。",
+      "categories": [
+        {
+          "id": "emotion_understanding",
+          "label": "情感理解与多模态推理",
+          "description": "多模态情感识别、情绪原因解释、开放词汇与上下文推理。",
+          "count": 0
+        },
+        {
+          "id": "affective_intelligence",
+          "label": "情感智能、共情与生成",
+          "description": "情感智能、心智理论、共情响应和情感生成。",
+          "count": 0
+        },
+        {
+          "id": "emotion_benchmark",
+          "label": "情感数据集、基准与评测",
+          "description": "情感数据集、评测基准、情感幻觉与可靠性分析。",
+          "count": 8
+        }
+      ],
+      "review": {
+        "status": "theme_candidate",
+        "source_status": "论文团队候选（NAACL Findings 2025）",
+        "primary_theme": "情感理解与多模态情感分析"
+      }
+    },
+    "counts": {
+      "bibliographic_records": 8,
+      "resource_entries": 1,
+      "papers_with_linked_resources": 0,
+      "types": {
+        "project": 1
+      },
+      "years": [
+        2022,
+        2024,
+        2025,
+        2026
+      ],
+      "unknown_year": 0
+    }
+  },
+  "papers": [
+    {
+      "title": "Beyond Confidence: Rethinking Self-Assessments for Performance Prediction in LLMs",
+      "title_en": "Beyond Confidence: Rethinking Self-Assessments for Performance Prediction in LLMs",
+      "title_zh": "超越信心：重新思考自我评估以进行绩效预测大语言模型",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "authors": [
+        "Sree Bhattacharyya",
+        "Samarth Khanna",
+        "L. Chen",
+        "Lucas Craig",
+        "Tharun Dilliraj",
+        "James Z. Wang"
+      ],
+      "doi": "10.48550/arXiv.2605.07806",
+      "paper_url": "https://www.semanticscholar.org/paper/d2cf0609a3549b73d226daa639da161d18605db2",
+      "source_url": "https://www.semanticscholar.org/paper/d2cf0609a3549b73d226daa639da161d18605db2",
+      "topics": [
+        "视觉语言模型情感理解",
+        "情感基准评测",
+        "图像诱发情绪",
+        "视觉语言模型情感理解",
+        "情感基准评测",
+        "图像诱发情绪"
+      ],
+      "verification": "主题筛选候选；论文团队候选（NAACL Findings 2025）；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "d2cf0609a3549b73d226daa639da161d18605db2",
+      "semantic_scholar_author_id": "2291068392",
+      "cited_by_count": 0,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "candidate_source": false,
+      "source_kind": "Semantic Scholar author works",
+      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+      "record_id": "sree_bhattacharyya_cac7939d83ec",
+      "category_id": "emotion_benchmark",
+      "primary_category": "情感数据集、基准与评测",
+      "secondary_tags": [
+        "视觉语言模型情感理解",
+        "情感基准评测",
+        "图像诱发情绪"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "sree_bhattacharyya",
+      "scholar_name": "Sree Bhattacharyya（中文名待核验）",
+      "work_title_group": "ba9edd078820",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Expressing Social Emotions: Misalignment Between LLMs and Human Cultural Emotion Norms",
+      "title_en": "Expressing Social Emotions: Misalignment Between LLMs and Human Cultural Emotion Norms",
+      "title_zh": "表达社交情绪：大语言模型与人类文化情绪规范之间的不一致",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "authors": [
+        "Sree Bhattacharyya",
+        "Manas Mehta",
+        "Leonard J. Chen",
+        "Cristina E. Salvador",
+        "Àgata Lapedriza",
+        "Shiran Dudy",
+        "James Z. Wang"
+      ],
+      "doi": "10.48550/arXiv.2604.16757",
+      "paper_url": "https://www.semanticscholar.org/paper/e3545ae8cdd01f184d3dfce1d9ff0afde1253582",
+      "source_url": "https://www.semanticscholar.org/paper/e3545ae8cdd01f184d3dfce1d9ff0afde1253582",
+      "topics": [
+        "视觉语言模型情感理解",
+        "情感基准评测",
+        "图像诱发情绪",
+        "视觉语言模型情感理解",
+        "情感基准评测",
+        "图像诱发情绪"
+      ],
+      "verification": "主题筛选候选；论文团队候选（NAACL Findings 2025）；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "e3545ae8cdd01f184d3dfce1d9ff0afde1253582",
+      "semantic_scholar_author_id": "2291068392",
+      "cited_by_count": 1,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "candidate_source": false,
+      "source_kind": "Semantic Scholar author works",
+      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+      "record_id": "sree_bhattacharyya_6407ed4edfb2",
+      "category_id": "emotion_benchmark",
+      "primary_category": "情感数据集、基准与评测",
+      "secondary_tags": [
+        "视觉语言模型情感理解",
+        "情感基准评测",
+        "图像诱发情绪"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "sree_bhattacharyya",
+      "scholar_name": "Sree Bhattacharyya（中文名待核验）",
+      "work_title_group": "4df3139fd2c6",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Evaluating Vision-Language Models for Emotion Recognition",
+      "title_en": "Evaluating Vision-Language Models for Emotion Recognition",
+      "title_zh": "视觉语言模型情感识别评测",
+      "year": 2025,
+      "venue": "North American Chapter of the Association for Computational Linguistics",
+      "authors": [
+        "Sree Bhattacharyya",
+        "James Z. Wang"
+      ],
+      "doi": "10.48550/arXiv.2502.05660",
+      "paper_url": "https://www.semanticscholar.org/paper/70ba573805ea2e4139cf261bd3094c2779f4d1e9",
+      "source_url": "https://www.semanticscholar.org/paper/70ba573805ea2e4139cf261bd3094c2779f4d1e9",
+      "topics": [
+        "视觉语言模型情感理解",
+        "情感基准评测",
+        "图像诱发情绪",
+        "视觉语言模型情感理解",
+        "情感基准评测",
+        "图像诱发情绪"
+      ],
+      "verification": "主题筛选候选；论文团队候选（NAACL Findings 2025）",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "70ba573805ea2e4139cf261bd3094c2779f4d1e9",
+      "semantic_scholar_author_id": "2291068392",
+      "cited_by_count": 33,
+      "publication_types": [
+        "JournalArticle",
+        "Conference"
+      ],
+      "candidate_source": false,
+      "source_kind": "Semantic Scholar author works",
+      "record_id": "sree_bhattacharyya_eaaa3f1d95b7",
+      "category_id": "emotion_benchmark",
+      "primary_category": "情感数据集、基准与评测",
+      "secondary_tags": [
+        "视觉语言模型情感理解",
+        "情感基准评测",
+        "图像诱发情绪"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "sree_bhattacharyya",
+      "scholar_name": "Sree Bhattacharyya（中文名待核验）",
+      "work_title_group": "2ad7734b7f16",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Too Categorical to be Human: Emotion Concepts in LLMs and Humans",
+      "title_en": "Too Categorical to be Human: Emotion Concepts in LLMs and Humans",
+      "title_zh": "太绝对了，不可能是人类：大语言模型和人类中的情感概念",
+      "year": 2025,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "Sree Bhattacharyya",
+        "Evgenii Kuriabov",
+        "Lucas Craig",
+        "Tharun Dilliraj",
+        "Reginald B. Adams",
+        "Jr.",
+        "Jia Li",
+        "James Z. Wang"
+      ],
+      "doi": "",
+      "paper_url": "https://www.semanticscholar.org/paper/2ca10637245f944fec64e27f4750854070c59b76",
+      "source_url": "https://www.semanticscholar.org/paper/2ca10637245f944fec64e27f4750854070c59b76",
+      "topics": [
+        "视觉语言模型情感理解",
+        "情感基准评测",
+        "图像诱发情绪",
+        "视觉语言模型情感理解",
+        "情感基准评测",
+        "图像诱发情绪"
+      ],
+      "verification": "主题筛选候选；论文团队候选（NAACL Findings 2025）；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "2ca10637245f944fec64e27f4750854070c59b76",
+      "semantic_scholar_author_id": "2291068392",
+      "cited_by_count": 1,
+      "publication_types": "",
+      "candidate_source": false,
+      "source_kind": "Semantic Scholar author works",
+      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+      "record_id": "sree_bhattacharyya_3656b6db8913",
+      "category_id": "emotion_benchmark",
+      "primary_category": "情感数据集、基准与评测",
+      "secondary_tags": [
+        "视觉语言模型情感理解",
+        "情感基准评测",
+        "图像诱发情绪"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "sree_bhattacharyya",
+      "scholar_name": "Sree Bhattacharyya（中文名待核验）",
+      "work_title_group": "6c0fe53328be",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Unsupervised Memorability Modeling from Tip-of-the-Tongue Retrieval Queries",
+      "title_en": "Unsupervised Memorability Modeling from Tip-of-the-Tongue Retrieval Queries",
+      "title_zh": "来自舌尖检索查询的无监督记忆建模",
+      "year": 2025,
+      "venue": "IEEE Workshop/Winter Conference on Applications of Computer Vision",
+      "authors": [
+        "Sree Bhattacharyya",
+        "Yaman Kumar Singla",
+        "Sudhir Yarram",
+        "Somesh Singh",
+        "Harini S.I.",
+        "James Z. Wang"
+      ],
+      "doi": "10.1109/WACV61042.2026.00412",
+      "paper_url": "https://www.semanticscholar.org/paper/a03d3715b761a8a35f8446c0b52a187bef83a09b",
+      "source_url": "https://www.semanticscholar.org/paper/a03d3715b761a8a35f8446c0b52a187bef83a09b",
+      "topics": [
+        "视觉语言模型情感理解",
+        "情感基准评测",
+        "图像诱发情绪",
+        "视觉语言模型情感理解",
+        "情感基准评测",
+        "图像诱发情绪"
+      ],
+      "verification": "主题筛选候选；论文团队候选（NAACL Findings 2025）；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "a03d3715b761a8a35f8446c0b52a187bef83a09b",
+      "semantic_scholar_author_id": "2291068392",
+      "cited_by_count": 1,
+      "publication_types": [
+        "JournalArticle",
+        "Conference"
+      ],
+      "candidate_source": false,
+      "source_kind": "Semantic Scholar author works",
+      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+      "record_id": "sree_bhattacharyya_7a19e379d52a",
+      "category_id": "emotion_benchmark",
+      "primary_category": "情感数据集、基准与评测",
+      "secondary_tags": [
+        "视觉语言模型情感理解",
+        "情感基准评测",
+        "图像诱发情绪"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "sree_bhattacharyya",
+      "scholar_name": "Sree Bhattacharyya（中文名待核验）",
+      "work_title_group": "055e512a63fa",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "A Heterogeneous Multimodal Graph Learning Framework for Recognizing User Emotions in Social Networks",
+      "title_en": "A Heterogeneous Multimodal Graph Learning Framework for Recognizing User Emotions in Social Networks",
+      "title_zh": "用于识别社交网络中用户情绪的异构多模态图学习框架",
+      "year": 2024,
+      "venue": "Affective Computing and Intelligent Interaction",
+      "authors": [
+        "Sree Bhattacharyya",
+        "Shuhua Yang",
+        "James Z. Wang"
+      ],
+      "doi": "10.1109/ACII63134.2024.00042",
+      "paper_url": "https://www.semanticscholar.org/paper/6ebb4556cfd263578dc9ae5cc28cc96904e7dd64",
+      "source_url": "https://www.semanticscholar.org/paper/6ebb4556cfd263578dc9ae5cc28cc96904e7dd64",
+      "topics": [
+        "视觉语言模型情感理解",
+        "情感基准评测",
+        "图像诱发情绪",
+        "视觉语言模型情感理解",
+        "情感基准评测",
+        "图像诱发情绪"
+      ],
+      "verification": "主题筛选候选；论文团队候选（NAACL Findings 2025）；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "6ebb4556cfd263578dc9ae5cc28cc96904e7dd64",
+      "semantic_scholar_author_id": "2291068392",
+      "cited_by_count": 5,
+      "publication_types": [
+        "JournalArticle",
+        "Conference"
+      ],
+      "candidate_source": false,
+      "source_kind": "Semantic Scholar author works",
+      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+      "record_id": "sree_bhattacharyya_3f180d254e81",
+      "category_id": "emotion_benchmark",
+      "primary_category": "情感数据集、基准与评测",
+      "secondary_tags": [
+        "视觉语言模型情感理解",
+        "情感基准评测",
+        "图像诱发情绪"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "sree_bhattacharyya",
+      "scholar_name": "Sree Bhattacharyya（中文名待核验）",
+      "work_title_group": "234619bb86e7",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Link Prediction for Social Networks using Representation Learning and Heuristic-based Features",
+      "title_en": "Link Prediction for Social Networks using Representation Learning and Heuristic-based Features",
+      "title_zh": "使用表示学习和启发式特征进行社交网络的链接预测",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "authors": [
+        "Samarth Khanna",
+        "Sree Bhattacharyya",
+        "Sudipto Ghosh",
+        "Kushagra Agarwal",
+        "A. K. Das"
+      ],
+      "doi": "10.48550/arXiv.2403.08613",
+      "paper_url": "https://www.semanticscholar.org/paper/bef1d9975f803e927cc9261ede93629c9df02856",
+      "source_url": "https://www.semanticscholar.org/paper/bef1d9975f803e927cc9261ede93629c9df02856",
+      "topics": [
+        "视觉语言模型情感理解",
+        "情感基准评测",
+        "图像诱发情绪",
+        "视觉语言模型情感理解",
+        "情感基准评测",
+        "图像诱发情绪"
+      ],
+      "verification": "主题筛选候选；论文团队候选（NAACL Findings 2025）；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "bef1d9975f803e927cc9261ede93629c9df02856",
+      "semantic_scholar_author_id": "2291068392",
+      "cited_by_count": 3,
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "candidate_source": false,
+      "source_kind": "Semantic Scholar author works",
+      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+      "record_id": "sree_bhattacharyya_1072da091d20",
+      "category_id": "emotion_benchmark",
+      "primary_category": "情感数据集、基准与评测",
+      "secondary_tags": [
+        "视觉语言模型情感理解",
+        "情感基准评测",
+        "图像诱发情绪"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "sree_bhattacharyya",
+      "scholar_name": "Sree Bhattacharyya（中文名待核验）",
+      "work_title_group": "ff05a342278b",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    },
+    {
+      "title": "Towards Bengali WordNet Enrichment using Knowledge Graph Completion Techniques",
+      "title_en": "Towards Bengali WordNet Enrichment using Knowledge Graph Completion Techniques",
+      "title_zh": "使用知识图补全技术实现孟加拉语WordNet丰富",
+      "year": 2022,
+      "venue": "EURALI",
+      "authors": [
+        "Sree Bhattacharyya",
+        "Abhik Jana"
+      ],
+      "doi": "",
+      "paper_url": "https://www.semanticscholar.org/paper/eeeb344d0658d4335f8b592fce35fb9b02bcf1e5",
+      "source_url": "https://www.semanticscholar.org/paper/eeeb344d0658d4335f8b592fce35fb9b02bcf1e5",
+      "topics": [
+        "视觉语言模型情感理解",
+        "情感基准评测",
+        "图像诱发情绪",
+        "视觉语言模型情感理解",
+        "情感基准评测",
+        "图像诱发情绪"
+      ],
+      "verification": "主题筛选候选；论文团队候选（NAACL Findings 2025）；批量作者作品扩展记录",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "eeeb344d0658d4335f8b592fce35fb9b02bcf1e5",
+      "semantic_scholar_author_id": "2291068392",
+      "cited_by_count": 1,
+      "publication_types": "",
+      "candidate_source": false,
+      "source_kind": "Semantic Scholar author works",
+      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+      "record_id": "sree_bhattacharyya_77de4a86ccc4",
+      "category_id": "emotion_benchmark",
+      "primary_category": "情感数据集、基准与评测",
+      "secondary_tags": [
+        "视觉语言模型情感理解",
+        "情感基准评测",
+        "图像诱发情绪"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "sree_bhattacharyya",
+      "scholar_name": "Sree Bhattacharyya（中文名待核验）",
+      "work_title_group": "897eb2afcba1",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "scholar": {
+    "name_zh": "刘鑫",
+    "name_en": "Xin Liu",
+    "affiliation": "Shanghai Jiao Tong University, School of Psychology (team evidence)",
+    "identity_sources": [
+      "https://psychology.sjtu.edu.cn/xsdt/555.html",
+      "https://arxiv.org/abs/2505.11405",
+      "https://psychology.sjtu.edu.cn/tsml/524.html",
+      "https://linuxsino.github.io/"
+    ],
+    "official_homepages": [
+      "https://psychology.sjtu.edu.cn/xsdt/555.html",
+      "https://arxiv.org/abs/2505.11405",
+      "https://psychology.sjtu.edu.cn/tsml/524.html",
+      "https://linuxsino.github.io/"
+    ],
+    "coverage": {
+      "scope": "2025–2026主题筛选与全量书目扩展",
+      "status": "核心纳入（情感大模型评测）",
+      "coverage_status": "仅有代表论文或项目级记录；个人全历史待补核",
+      "available_record_count": 2,
+      "bulk_source_record_count": 0,
+      "themes": [
+        "情绪幻觉",
+        "情感心理学知识注入",
+        "多模态大模型可信评测",
+        "可信情感智能",
+        "人机共情",
+        "情感多模态大模型",
+        "微姿态/微表情",
+        "远程生理信号"
+      ]
+    },
+    "coverage_notes": "该目录与五位基线学者使用同一论文/资源/分类输出契约。‘可用记录数’表示本轮已取得并保留的书目，不等于未经消歧的个人终身全集；身份待核验、论文团队和同名风险见候选筛选证据。",
+    "id": "xin_liu",
+    "folder": "主题_xin_liu",
+    "classification": {
+      "method": "按题名及现有项目、资源说明进行主题粗分，用于阅读导航；未逐篇审阅全文，不代表学者官方分类。每条书目只设一个主类别，跨方向信息保留在辅助标签中。",
+      "categories": [
+        {
+          "id": "emotion_understanding",
+          "label": "情感理解与多模态推理",
+          "description": "多模态情感识别、情绪原因解释、开放词汇与上下文推理。",
+          "count": 0
+        },
+        {
+          "id": "affective_intelligence",
+          "label": "情感智能、共情与生成",
+          "description": "情感智能、心智理论、共情响应和情感生成。",
+          "count": 0
+        },
+        {
+          "id": "emotion_benchmark",
+          "label": "情感数据集、基准与评测",
+          "description": "情感数据集、评测基准、情感幻觉与可靠性分析。",
+          "count": 2
+        }
+      ],
+      "review": {
+        "status": "theme_candidate",
+        "source_status": "核心纳入（情感大模型评测）",
+        "primary_theme": "情感智能与情感大模型"
+      }
+    },
+    "counts": {
+      "bibliographic_records": 2,
+      "resource_entries": 4,
+      "papers_with_linked_resources": 1,
+      "types": {
+        "project": 4
+      },
+      "years": [
+        2021,
+        2026
+      ],
+      "unknown_year": 0
+    }
+  },
+  "papers": [
+    {
+      "title": "EmotionHallucer: Evaluating Emotion Hallucinations in Multimodal Large Language Models",
+      "title_en": "EmotionHallucer: Evaluating Emotion Hallucinations in Multimodal Large Language Models",
+      "title_zh": "EmotionHallucer：多模态大语言模型情绪幻觉评测",
+      "year": 2026,
+      "venue": "ICLR 2026",
+      "authors": [
+        "Guoying Zhao"
+      ],
+      "doi": "",
+      "paper_url": "https://arxiv.org/abs/2505.11405",
+      "source_url": "https://arxiv.org/abs/2505.11405",
+      "topics": [
+        "情绪幻觉",
+        "情感心理学知识注入",
+        "多模态大模型可信评测",
+        "可信情感智能",
+        "人机共情",
+        "情感多模态大模型",
+        "微姿态/微表情",
+        "远程生理信号",
+        "情绪幻觉",
+        "情感心理学知识注入",
+        "多模态大模型可信评测",
+        "可信情感智能",
+        "人机共情",
+        "情感多模态大模型",
+        "微姿态/微表情",
+        "远程生理信号"
+      ],
+      "verification": "主题筛选候选；核心纳入（情感大模型评测）",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [
+        "xin_liu__R001"
+      ],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": false,
+      "source_kind": "代表论文/官方页面",
+      "record_id": "xin_liu_a728cfb009bd",
+      "category_id": "emotion_benchmark",
+      "primary_category": "情感数据集、基准与评测",
+      "secondary_tags": [
+        "情绪幻觉",
+        "情感心理学知识注入",
+        "多模态大模型可信评测",
+        "可信情感智能",
+        "人机共情",
+        "情感多模态大模型",
+        "微姿态/微表情",
+        "远程生理信号"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "xin_liu",
+      "scholar_name": "刘鑫",
+      "work_title_group": "687a4e71a4e2",
+      "resource_status": "已关联公开入口；具体访问范围见资源说明"
+    },
+    {
+      "title": "iMiGUE: An Identity-free Video Dataset for Micro-Gesture Understanding and Emotion Analysis",
+      "title_en": "iMiGUE: An Identity-free Video Dataset for Micro-Gesture Understanding and Emotion Analysis",
+      "title_zh": "iMiGUE：无身份视频微手势理解与情感分析数据集",
+      "year": 2021,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "Xin Liu"
+      ],
+      "doi": "",
+      "paper_url": "https://github.com/linuxsino/iMiGUE",
+      "source_url": "https://github.com/linuxsino/iMiGUE",
+      "topics": [
+        "情绪幻觉",
+        "情感心理学知识注入",
+        "多模态大模型可信评测",
+        "可信情感智能",
+        "人机共情",
+        "情感多模态大模型",
+        "微姿态/微表情",
+        "远程生理信号",
+        "情绪幻觉",
+        "情感心理学知识注入",
+        "多模态大模型可信评测",
+        "可信情感智能",
+        "人机共情",
+        "情感多模态大模型",
+        "微姿态/微表情",
+        "远程生理信号"
+      ],
+      "verification": "主题筛选候选；核心纳入（情感大模型评测）",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": false,
+      "source_kind": "代表论文/官方页面",
+      "record_id": "xin_liu_a94aba0ca2f6",
+      "category_id": "emotion_benchmark",
+      "primary_category": "情感数据集、基准与评测",
+      "secondary_tags": [
+        "情绪幻觉",
+        "情感心理学知识注入",
+        "多模态大模型可信评测",
+        "可信情感智能",
+        "人机共情",
+        "情感多模态大模型",
+        "微姿态/微表情",
+        "远程生理信号"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "xin_liu",
+      "scholar_name": "刘鑫",
+      "work_title_group": "f1bdf32fd7d9",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    }
+  ]
+}

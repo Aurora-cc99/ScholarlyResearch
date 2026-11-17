@@ -1,0 +1,123 @@
+{
+  "scholar": {
+    "name_zh": "Zhi-Qi Cheng",
+    "name_en": "Zhi-Qi Cheng",
+    "affiliation": "University of Washington Tacoma助理教授；Multimodal Intelligence Lab主任",
+    "identity_sources": [
+      "https://directory.tacoma.uw.edu/node/1433",
+      "https://faculty.washington.edu/zhiqics/"
+    ],
+    "official_homepages": [
+      "https://directory.tacoma.uw.edu/node/1433",
+      "https://faculty.washington.edu/zhiqics/"
+    ],
+    "coverage": {
+      "scope": "2025–2026主题筛选与全量书目扩展",
+      "status": "核心候选",
+      "coverage_status": "仅有代表论文或项目级记录；个人全历史待补核",
+      "available_record_count": 1,
+      "bulk_source_record_count": 0,
+      "themes": [
+        "情感原因解释",
+        "多模态情感推理",
+        "视觉语言模型评测"
+      ]
+    },
+    "coverage_notes": "该目录与五位基线学者使用同一论文/资源/分类输出契约。‘可用记录数’表示本轮已取得并保留的书目，不等于未经消歧的个人终身全集；身份待核验、论文团队和同名风险见候选筛选证据。",
+    "id": "zhi_qi_cheng",
+    "folder": "主题_zhi_qi_cheng",
+    "classification": {
+      "method": "按题名及现有项目、资源说明进行主题粗分，用于阅读导航；未逐篇审阅全文，不代表学者官方分类。每条书目只设一个主类别，跨方向信息保留在辅助标签中。",
+      "categories": [
+        {
+          "id": "emotion_understanding",
+          "label": "情感理解与多模态推理",
+          "description": "多模态情感识别、情绪原因解释、开放词汇与上下文推理。",
+          "count": 0
+        },
+        {
+          "id": "affective_intelligence",
+          "label": "情感智能、共情与生成",
+          "description": "情感智能、心智理论、共情响应和情感生成。",
+          "count": 0
+        },
+        {
+          "id": "emotion_benchmark",
+          "label": "情感数据集、基准与评测",
+          "description": "情感数据集、评测基准、情感幻觉与可靠性分析。",
+          "count": 1
+        }
+      ],
+      "review": {
+        "status": "theme_candidate",
+        "source_status": "核心候选",
+        "primary_theme": "情感理解与多模态情感分析"
+      }
+    },
+    "counts": {
+      "bibliographic_records": 1,
+      "resource_entries": 2,
+      "papers_with_linked_resources": 0,
+      "types": {
+        "dataset": 1,
+        "project": 1
+      },
+      "years": [
+        2025
+      ],
+      "unknown_year": 0
+    }
+  },
+  "papers": [
+    {
+      "title": "Why We Feel: Breaking Boundaries in Emotional Reasoning with Multimodal Large Language Models",
+      "title_en": "Why We Feel: Breaking Boundaries in Emotional Reasoning with Multimodal Large Language Models",
+      "title_zh": "我们为何感受：突破多模态大语言模型情感推理边界",
+      "year": 2025,
+      "venue": "论文/预印本页面",
+      "authors": [
+        "Zhi-Qi Cheng"
+      ],
+      "doi": "",
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2025W/NeXD/papers/Lin_Why_We_Feel_Breaking_Boundaries_in_Emotional_CVPRW_2025_paper.pdf",
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2025W/NeXD/papers/Lin_Why_We_Feel_Breaking_Boundaries_in_Emotional_CVPRW_2025_paper.pdf",
+      "topics": [
+        "情感原因解释",
+        "多模态情感推理",
+        "视觉语言模型评测",
+        "情感原因解释",
+        "多模态情感推理",
+        "视觉语言模型评测"
+      ],
+      "verification": "主题筛选候选；核心候选",
+      "status": "候选条目/需按作者主页继续核验",
+      "resource_ids": [],
+      "code_urls": [],
+      "data_urls": [],
+      "model_urls": [],
+      "openalex_id": "",
+      "openalex_author_id": "",
+      "semantic_scholar_id": "",
+      "semantic_scholar_author_id": "",
+      "cited_by_count": 0,
+      "publication_types": "",
+      "candidate_source": false,
+      "source_kind": "代表论文/官方页面",
+      "record_id": "zhi_qi_cheng_144ee7c340d1",
+      "category_id": "emotion_benchmark",
+      "primary_category": "情感数据集、基准与评测",
+      "secondary_tags": [
+        "情感原因解释",
+        "多模态情感推理",
+        "视觉语言模型评测"
+      ],
+      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+      "classification_confidence": "candidate",
+      "classification_note": "主题候选层；身份和完整书目需后续核验。",
+      "scholar_id": "zhi_qi_cheng",
+      "scholar_name": "Zhi-Qi Cheng",
+      "work_title_group": "2442c9d41af7",
+      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    }
+  ]
+}
