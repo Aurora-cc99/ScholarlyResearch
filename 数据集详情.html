@@ -43,20 +43,24 @@ header p{margin:5px 0 0;color:#d2e4eb;font-size:14px}
   <p>数据集名称、下载/申请入口及使用该数据集的全部论文</p>
 </header>
 <main id="app"><div class="card"><div class="empty">正在加载数据集…</div></div></main>
-<script src="db.js"></script>
+<script src="data/db-meta.js"></script>
 <script src="app-common.js"></script>
 <script>
-(function () {
+(async function () {
   'use strict';
   const db = window.SCHOLAR_DB;
   const C = window.ScholarCommon;
   const app = document.getElementById('app');
   if (!db || !C) {
-    app.innerHTML = '<div class="card"><div class="empty">未能加载数据库文件 <code>db.js</code>。</div></div>';
+    app.innerHTML = '<div class="card"><div class="empty">未能加载数据库元文件 <code>data/db-meta.js</code>。</div></div>';
     return;
   }
-
-  C.prepareDb(db);
+  try {
+    await C.loadAllPaperShards(db);
+  } catch (err) {
+    app.innerHTML = '<div class="card"><div class="empty">加载分片失败：' + String(err.message || err) + '</div></div>';
+    return;
+  }
   const { el, joined, datasetDisplayName, genericDatasetName, buildDatasetIndex } = C;
   const datasets = buildDatasetIndex(db);
 

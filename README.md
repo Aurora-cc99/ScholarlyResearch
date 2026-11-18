@@ -17,9 +17,10 @@
 
 ## 目录结构
 
-- `学者论文资源检索.html` / `index.html`：交互式主检索页面
-- `论文详情.html` / `数据集详情.html` / `文档浏览.html`：论文完整信息页、数据集详情页与文档阅读页
-- `db.js` / `app-common.js` / `docs-bundle.js`：前端共享数据库与公共检索索引模块
+- `学者论文资源检索.html` / `index.html`：交互式主检索页面（支持中英文题名与摘要检索、年份柱状图筛选与卡片内双语摘要展开）
+- `论文详情.html` / `数据集详情.html` / `文档浏览.html`：论文完整信息与双语摘要页、规范化数据集详情页与 Markdown 在线阅读页
+- `data/db-meta.js` / `data/papers-*.js` / `data/abstracts/bucket-*.js`：自动分片前端数据库（单文件均 `< 15 MB`，同时支持 GitHub Pages 在线高速并发加载与本地 `file://` 离线无服务运行）
+- `app-common.js` / `docs-bundle.js`：前端公共索引、分片按需加载器与文档离线包
 - `学者总库.json` / `收集统计.json`：结构化全量数据与统计快照
 - `全部论文总表.csv` / `全部资源总表.csv` / `论文资源关联总表.csv`：可直接用 Excel / Python 分析的总表（UTF-8 BOM）
-- `潘纲_Gang_Pan/`、`黄铁军_Tiejun_Huang/`、`陈云霁_Yunji_Chen/`、`吕宝粮_BaoLiang_Lu/`、`梁臻_Zhen_Liang/` 及 `主题_*/`：155 位学者的独立书目（Markdown / CSV / JSON / BibTeX）与开源资源档案
+- `潘纲_Gang_Pan/`、`黄铁军_Tiejun_Huang/`、`陈云霁_Yunji_Chen/`、`吕宝粮_BaoLiang_Lu/`、`梁臻_Zhen_Liang/` 及 `主题_*/`：全部 155 位学者的全历史书目（Markdown / CSV / JSON / BibTeX，含双语题名与摘要）与开源资源档案

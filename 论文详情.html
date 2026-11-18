@@ -44,20 +44,24 @@ a:hover{text-decoration:underline}
     <div class="empty">正在加载论文信息…</div>
   </section>
 </main>
-<script src="db.js"></script>
+<script src="data/db-meta.js"></script>
 <script src="app-common.js"></script>
 <script>
-(function () {
+(async function () {
   'use strict';
   const db = window.SCHOLAR_DB;
   const C = window.ScholarCommon;
   const d = document.getElementById('detail');
   if (!db || !C) {
-    d.innerHTML = '<div class="empty">未能加载数据库文件 <code>db.js</code>。</div>';
+    d.innerHTML = '<div class="empty">未能加载数据库元文件 <code>data/db-meta.js</code>。</div>';
     return;
   }
-
-  C.prepareDb(db);
+  try {
+    await C.loadAllPaperShards(db);
+  } catch (err) {
+    d.innerHTML = '<div class="empty">加载论文分片失败：' + String(err.message || err) + '</div>';
+    return;
+  }
   const { list, joined, el, addLink, doiUrl, paperLinkUrl, evidenceLabel, linkedResourcesForPaper, buildDatasetIndex } = C;
   const datasets = buildDatasetIndex(db);
 
@@ -119,6 +123,34 @@ a:hover{text-decoration:underline}
     list(p.scholar_names).forEach(n => meta.append(el('span', 'tag', '学者：' + n)));
     d.append(meta);
     if (list(p.authors).length) d.append(el('p', 'authors', '作者：' + joined(p.authors)));
+
+    // Bilingual Abstract Section (auto-loaded from abstract shard!)
+    const absSec = el('div', 'section');
+    absSec.append(el('h3', '', '论文内容摘要（Abstract）'));
+    const absContainer = el('div', '');
+    if (p.abs_preview) {
+      absContainer.append(el('p', 'muted', '正在加载完整中英文摘要…'));
+    } else {
+      absContainer.append(el('p', 'muted', '公开书目索引暂未收录该条目原始摘要正文（以出版页面原文为准）。'));
+    }
+    absSec.append(absContainer);
+    d.append(absSec);
+    if (p.has_abstract) {
+      C.loadAbstract(db, p.global_record_id || p.record_id).then(abs => {
+        if (!abs || (!abs.zh && !abs.en)) return;
+        absContainer.replaceChildren();
+        if (abs.zh) {
+          const zhBox = el('div', 'resource');
+          zhBox.append(el('div', 'resource-title', '中文辅助摘要：'), el('div', '', abs.zh));
+          absContainer.append(zhBox);
+        }
+        if (abs.en) {
+          const enBox = el('div', 'note');
+          enBox.append(el('b', '', 'English Abstract: '), el('span', '', abs.en));
+          absContainer.append(enBox);
+        }
+      });
+    }
 
     const info = el('div', 'section');
     info.append(el('h3', '', '书目信息'));

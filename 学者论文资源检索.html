@@ -60,6 +60,9 @@ a:hover{text-decoration:underline}
 .paper-links{font-size:13px;margin:10px 0 0;padding:8px 10px;border-left:3px solid #6fa5b5;background:#f5f8f9}
 .paper-links-label{color:var(--muted);margin-right:6px;display:block;margin-bottom:4px}
 .paper-links a{display:block;margin:3px 0}
+.abs-preview{font-size:13px;color:#3d535f;background:#f8fbfc;border-left:3px solid #9cc2ce;padding:7px 10px;margin:8px 0;border-radius:0 5px 5px 0}
+.abs-box{padding:10px 12px;background:#f6fafb;border:1px solid #d9e8ed;border-radius:6px;margin-top:8px;font-size:13px;line-height:1.65;color:#243b47}
+.abs-box .abs-en{margin-top:8px;padding-top:8px;border-top:1px dashed #cbdce2;color:#4a616d;font-size:12.5px}
 .detail-view{margin-top:18px}
 .detail-view h2{font-size:22px;line-height:1.5;margin:8px 0}
 .detail-view .detail-row{margin:8px 0}
@@ -100,7 +103,7 @@ summary{cursor:pointer}
 <header>
   <h1>学者论文与开源资源库</h1>
   <p>潘纲 · 黄铁军 · 陈云霁 · 吕宝粮 · 梁臻 及 150 位相关领域核验学者</p>
-  <p>全时间范围 · 截至 2026-11-14 · 中英文双语检索 · 论文 / 代码 / 数据集 / 模型权重</p>
+  <p>全时间范围 · 截至 2026-11-18 · 中英文双语题名与摘要检索 · 论文 / 代码 / 数据集 / 模型权重</p>
 </header>
 <main class="wrap">
   <section class="stats" id="stats"></section>
@@ -188,22 +191,26 @@ summary{cursor:pointer}
     <button type="button" id="next">下一页</button>
   </div>
   <section class="panel detail-view" id="detailView" hidden></section>
-  <div class="footer">本页支持离线浏览与在线高速检索；外部论文出版页和数据集下载链接需要网络。许可申请、数据版本、私有队列与具体发布范围请查阅对应资源说明。</div>
+  <div class="footer">本页采用自动分片技术，支持离线浏览与在线毫秒级检索（涵盖全部 155 位学者全历史论文、双语摘要与开源资源）；外部出版页和下载链接需联网访问。</div>
 </main>
-<script src="db.js"></script>
+<script src="data/db-meta.js"></script>
 <script src="app-common.js"></script>
 <script>
-(function () {
+(async function () {
   'use strict';
   const db = window.SCHOLAR_DB;
   const C = window.ScholarCommon;
   const $ = s => document.getElementById(s);
   if (!db || !C) {
-    $('cards').innerHTML = '<div class="empty">未能加载数据库文件 <code>db.js</code>，请确认文件完整并与本网页位于同一目录。</div>';
+    $('cards').innerHTML = '<div class="empty">未能加载数据库元文件 <code>data/db-meta.js</code>，请确认 <code>data/</code> 目录完整。</div>';
     return;
   }
-
-  C.prepareDb(db);
+  try {
+    await C.loadAllPaperShards(db);
+  } catch (err) {
+    $('cards').innerHTML = '<div class="empty">加载论文分片数据失败：' + String(err.message || err) + '</div>';
+    return;
+  }
   const {
     OTHER_SCHOLAR_ID,
     list,
@@ -465,6 +472,7 @@ summary{cursor:pointer}
       joined(p.secondary_tags, ' '),
       cats,
       p.paper_url,
+      p.abs_preview || '',
       joined(p.code_urls, ' '),
       joined(p.data_urls, ' '),
       joined(p.model_urls, ' ')
@@ -692,6 +700,7 @@ summary{cursor:pointer}
     c.append(m, title);
     if (p.title_zh && p.title_zh !== p.title) c.append(el('div', 'en', p.title));
     if (list(p.authors).length) c.append(el('p', 'authors', joined(p.authors)));
+    if (p.abs_preview) c.append(el('div', 'abs-preview', '内容摘要：' + p.abs_preview));
 
     const t = el('div');
     const sid = $('scholar').value;
@@ -711,6 +720,28 @@ summary{cursor:pointer}
     if (p.date_note) c.append(el('div', 'note', p.date_note));
     if (!list(p.resource_ids).length && !list(p.code_urls).length && !list(p.data_urls).length && !list(p.model_urls).length) {
       c.append(el('div', 'note', '本轮未关联独立代码/数据资源；这不表示作者确定未开源。'));
+    }
+
+    if (p.has_abstract) {
+      const absDet = el('details');
+      absDet.append(el('summary', '', '展开完整中英文论文摘要（Abstract）'));
+      const absBody = el('div', 'abs-box', '正在加载摘要分片…');
+      absDet.append(absBody);
+      let loaded = false;
+      absDet.addEventListener('toggle', () => {
+        if (!absDet.open || loaded) return;
+        loaded = true;
+        C.loadAbstract(db, gid).then(abs => {
+          absBody.replaceChildren();
+          if (!abs || (!abs.zh && !abs.en)) {
+            absBody.textContent = p.abs_preview || '暂无完整摘要文本。';
+            return;
+          }
+          if (abs.zh) absBody.append(el('div', '', '【中文摘要】' + abs.zh));
+          if (abs.en) absBody.append(el('div', 'abs-en', '【English Abstract】' + abs.en));
+        });
+      });
+      c.append(absDet);
     }
 
     const d = el('details');
@@ -854,6 +885,18 @@ summary{cursor:pointer}
     meta.append(el('span', 'tag', String(p.year || '年份待核')), el('span', 'tag', p.venue || '来源待核'), el('span', '', joined(p.scholar_names)));
     d.append(meta);
     if (list(p.authors).length) d.append(el('p', 'authors', joined(p.authors)));
+    if (p.has_abstract || p.abs_preview) {
+      const absBox = el('div', 'abs-box', p.abs_preview ? ('内容摘要：' + p.abs_preview) : '正在加载摘要分片…');
+      d.append(absBox);
+      if (p.has_abstract) {
+        C.loadAbstract(db, p.global_record_id || p.record_id).then(abs => {
+          if (!abs || (!abs.zh && !abs.en)) return;
+          absBox.replaceChildren();
+          if (abs.zh) absBox.append(el('div', '', '【中文摘要】' + abs.zh));
+          if (abs.en) absBox.append(el('div', 'abs-en', '【English Abstract】' + abs.en));
+        });
+      }
+    }
     const cats = el('div', 'detail-row');
     Object.entries(p.scholar_categories || {})
       .filter(([, v]) => v && v.category_id !== '__legacy_compat__')

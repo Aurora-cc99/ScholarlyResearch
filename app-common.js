@@ -455,6 +455,70 @@
     return '文档浏览.html?doc=' + encodeURIComponent(docPath);
   }
 
+  let _shardsLoadPromise = null;
+  function loadAllPaperShards(db) {
+    if (!db) return Promise.reject(new Error('Missing SCHOLAR_DB'));
+    if (db._shardsLoaded || !(db.shards && Array.isArray(db.shards.papers) && db.shards.papers.length)) {
+      db._shardsLoaded = true;
+      prepareDb(db);
+      return Promise.resolve(db);
+    }
+    if (_shardsLoadPromise) return _shardsLoadPromise;
+    if (typeof document === 'undefined' || !document.head) {
+      db._shardsLoaded = true;
+      prepareDb(db);
+      return Promise.resolve(db);
+    }
+    _shardsLoadPromise = Promise.all(db.shards.papers.map(src => new Promise((resolve, reject) => {
+      const s = document.createElement('script');
+      s.src = src;
+      s.async = true;
+      s.onload = () => resolve();
+      s.onerror = () => reject(new Error('Failed to load shard: ' + src));
+      document.head.appendChild(s);
+    }))).then(() => {
+      db._shardsLoaded = true;
+      db._prepared = false;
+      db._datasets = null;
+      prepareDb(db);
+      return db;
+    });
+    return _shardsLoadPromise;
+  }
+
+  const _loadedAbsBuckets = new Map();
+  function bucketIndexForId(gid, bucketCount) {
+    const s = String(gid || '');
+    let h = 0;
+    for (let i = 0; i < s.length; i++) h = ((h * 31) + s.charCodeAt(i)) >>> 0;
+    return h % (bucketCount || 16);
+  }
+
+  function loadAbstract(db, gid) {
+    const id = String(gid || '');
+    if (!id) return Promise.resolve(null);
+    if (global.SCHOLAR_ABSTRACTS && global.SCHOLAR_ABSTRACTS[id]) {
+      return Promise.resolve(global.SCHOLAR_ABSTRACTS[id]);
+    }
+    if (typeof document === 'undefined' || !document.head) return Promise.resolve(null);
+    const bucketCount = (db && db.shards && db.shards.abstractBucketCount) || 16;
+    const bIdx = bucketIndexForId(id, bucketCount);
+    const bKey = String(bIdx).padStart(2, '0');
+    if (!_loadedAbsBuckets.has(bKey)) {
+      _loadedAbsBuckets.set(bKey, new Promise(resolve => {
+        const s = document.createElement('script');
+        s.src = 'data/abstracts/bucket-' + bKey + '.js';
+        s.async = true;
+        s.onload = () => resolve();
+        s.onerror = () => resolve();
+        document.head.appendChild(s);
+      }));
+    }
+    return _loadedAbsBuckets.get(bKey).then(() => {
+      return (global.SCHOLAR_ABSTRACTS && global.SCHOLAR_ABSTRACTS[id]) || null;
+    });
+  }
+
   global.ScholarCommon = {
     OTHER_SCHOLAR_ID,
     OTHER_SCHOLAR_THRESHOLD,
@@ -474,6 +538,9 @@
     linkedPapersForResource,
     linkedResourcesForPaper,
     buildDatasetIndex,
-    docViewerHref
+    docViewerHref,
+    loadAllPaperShards,
+    loadAbstract,
+    bucketIndexForId
   };
 })(typeof window !== 'undefined' ? window : globalThis);

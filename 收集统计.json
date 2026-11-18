@@ -1,21 +1,22 @@
 {
-  "as_of": "2026-11-14",
+  "as_of": "2026-11-18",
   "scholars": 155,
   "base_scholars": 5,
   "theme_candidate_scholars": 150,
-  "scholar_paper_records": 11394,
-  "merged_records_by_bibliographic_key": 11133,
-  "resource_entries": 720,
-  "distinct_resource_urls": 576,
-  "paper_resource_edges": 1005,
+  "scholar_paper_records": 28834,
+  "merged_records_by_bibliographic_key": 26988,
+  "resource_entries": 1672,
+  "distinct_resource_urls": 1528,
+  "paper_resource_edges": 2043,
   "by_scholar": {
     "潘纲": {
-      "bibliographic_records": 482,
+      "bibliographic_records": 494,
+      "with_abstract": 359,
       "compatibility_alias_records": 3,
-      "resource_entries": 147,
-      "papers_with_linked_resources": 77,
+      "resource_entries": 158,
+      "papers_with_linked_resources": 87,
       "types": {
-        "code": 52,
+        "code": 63,
         "dataset": 79,
         "project": 7,
         "collection": 5,
@@ -53,15 +54,16 @@
       "unknown_year": 0
     },
     "黄铁军": {
-      "bibliographic_records": 617,
+      "bibliographic_records": 625,
+      "with_abstract": 499,
       "compatibility_alias_records": 0,
-      "resource_entries": 71,
-      "papers_with_linked_resources": 36,
+      "resource_entries": 129,
+      "papers_with_linked_resources": 104,
       "types": {
-        "code": 24,
+        "code": 81,
         "project": 4,
         "model": 21,
-        "dataset": 19,
+        "dataset": 20,
         "collection": 3
       },
       "years": [
@@ -96,12 +98,13 @@
     },
     "陈云霁": {
       "bibliographic_records": 214,
+      "with_abstract": 163,
       "compatibility_alias_records": 0,
-      "resource_entries": 44,
-      "papers_with_linked_resources": 31,
+      "resource_entries": 49,
+      "papers_with_linked_resources": 35,
       "types": {
         "project": 12,
-        "code": 17,
+        "code": 22,
         "model": 7,
         "collection": 4,
         "dataset": 4
@@ -131,19 +134,28 @@
       "unknown_year": 0
     },
     "吕宝粮": {
-      "bibliographic_records": 542,
-      "compatibility_alias_records": 423,
-      "resource_entries": 79,
-      "papers_with_linked_resources": 43,
+      "bibliographic_records": 746,
+      "with_abstract": 249,
+      "compatibility_alias_records": 243,
+      "resource_entries": 80,
+      "papers_with_linked_resources": 49,
       "types": {
         "project": 8,
-        "code": 14,
+        "code": 15,
         "dataset": 52,
         "model": 4,
         "collection": 1
       },
       "years": [
+        1991,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
         1998,
+        1999,
+        2000,
         2001,
         2002,
         2003,
@@ -174,21 +186,25 @@
       "unknown_year": 0
     },
     "梁臻": {
-      "bibliographic_records": 127,
+      "bibliographic_records": 145,
+      "with_abstract": 104,
       "compatibility_alias_records": 0,
-      "resource_entries": 38,
-      "papers_with_linked_resources": 29,
+      "resource_entries": 40,
+      "papers_with_linked_resources": 32,
       "types": {
-        "code": 14,
+        "code": 16,
         "model": 1,
         "dataset": 19,
         "project": 4
       },
       "years": [
+        2006,
+        2008,
         2009,
         2010,
         2011,
         2012,
+        2013,
         2014,
         2015,
         2016,
@@ -207,11 +223,12 @@
     },
     "Sahand Sabour": {
       "bibliographic_records": 21,
+      "with_abstract": 21,
       "compatibility_alias_records": 0,
-      "resource_entries": 2,
-      "papers_with_linked_resources": 0,
+      "resource_entries": 4,
+      "papers_with_linked_resources": 3,
       "types": {
-        "code": 1,
+        "code": 3,
         "dataset": 1
       },
       "years": [
@@ -225,26 +242,49 @@
       "unknown_year": 0
     },
     "刘鑫": {
-      "bibliographic_records": 2,
+      "bibliographic_records": 237,
+      "with_abstract": 196,
       "compatibility_alias_records": 0,
-      "resource_entries": 4,
-      "papers_with_linked_resources": 1,
+      "resource_entries": 36,
+      "papers_with_linked_resources": 36,
       "types": {
-        "project": 4
+        "project": 4,
+        "code": 32
       },
       "years": [
+        1999,
+        2005,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
         2021,
+        2022,
+        2023,
+        2024,
+        2025,
         2026
       ],
       "unknown_year": 0
     },
     "孙立才": {
-      "bibliographic_records": 33,
+      "bibliographic_records": 44,
+      "with_abstract": 41,
       "compatibility_alias_records": 0,
-      "resource_entries": 1,
-      "papers_with_linked_resources": 0,
+      "resource_entries": 7,
+      "papers_with_linked_resources": 12,
       "types": {
-        "project": 1
+        "project": 1,
+        "code": 6
       },
       "years": [
         2016,
@@ -260,12 +300,15 @@
       "unknown_year": 0
     },
     "连政": {
-      "bibliographic_records": 107,
+      "bibliographic_records": 144,
+      "with_abstract": 126,
       "compatibility_alias_records": 0,
-      "resource_entries": 4,
-      "papers_with_linked_resources": 1,
+      "resource_entries": 21,
+      "papers_with_linked_resources": 29,
       "types": {
-        "project": 4
+        "project": 4,
+        "code": 16,
+        "dataset": 1
       },
       "years": [
         2017,
@@ -282,17 +325,33 @@
       "unknown_year": 0
     },
     "郝飞": {
-      "bibliographic_records": 217,
+      "bibliographic_records": 278,
+      "with_abstract": 238,
       "compatibility_alias_records": 0,
-      "resource_entries": 126,
-      "papers_with_linked_resources": 110,
+      "resource_entries": 141,
+      "papers_with_linked_resources": 129,
       "types": {
-        "code": 121,
-        "dataset": 1,
+        "code": 135,
+        "dataset": 2,
         "project": 3,
         "model": 1
       },
       "years": [
+        1996,
+        1998,
+        1999,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2010,
+        2011,
+        2012,
+        2013,
+        2015,
+        2016,
+        2018,
         2019,
         2020,
         2021,
@@ -305,13 +364,15 @@
       "unknown_year": 0
     },
     "闵雄阔": {
-      "bibliographic_records": 202,
+      "bibliographic_records": 436,
+      "with_abstract": 370,
       "compatibility_alias_records": 0,
-      "resource_entries": 2,
-      "papers_with_linked_resources": 0,
+      "resource_entries": 95,
+      "papers_with_linked_resources": 99,
       "types": {
-        "dataset": 1,
-        "project": 1
+        "dataset": 2,
+        "project": 1,
+        "code": 92
       },
       "years": [
         2013,
@@ -332,14 +393,19 @@
       "unknown_year": 0
     },
     "陶建华": {
-      "bibliographic_records": 237,
+      "bibliographic_records": 552,
+      "with_abstract": 418,
       "compatibility_alias_records": 0,
-      "resource_entries": 2,
-      "papers_with_linked_resources": 1,
+      "resource_entries": 21,
+      "papers_with_linked_resources": 36,
       "types": {
-        "project": 2
+        "project": 2,
+        "code": 15,
+        "dataset": 4
       },
       "years": [
+        1998,
+        2000,
         2002,
         2003,
         2004,
@@ -350,6 +416,7 @@
         2009,
         2010,
         2011,
+        2012,
         2013,
         2014,
         2015,
@@ -367,8 +434,9 @@
       ],
       "unknown_year": 0
     },
-    "Sree Bhattacharyya（中文名待核验）": {
-      "bibliographic_records": 8,
+    "Sree Bhattacharyya": {
+      "bibliographic_records": 10,
+      "with_abstract": 8,
       "compatibility_alias_records": 0,
       "resource_entries": 1,
       "papers_with_linked_resources": 0,
@@ -384,12 +452,15 @@
       "unknown_year": 0
     },
     "Mang Ye": {
-      "bibliographic_records": 201,
+      "bibliographic_records": 291,
+      "with_abstract": 222,
       "compatibility_alias_records": 0,
-      "resource_entries": 2,
-      "papers_with_linked_resources": 0,
+      "resource_entries": 54,
+      "papers_with_linked_resources": 54,
       "types": {
-        "project": 2
+        "project": 2,
+        "code": 51,
+        "dataset": 1
       },
       "years": [
         2013,
@@ -405,32 +476,46 @@
         2023,
         2024,
         2025,
-        2026
+        2026,
+        2027
       ],
       "unknown_year": 0
     },
     "Zhi-Qi Cheng": {
-      "bibliographic_records": 1,
+      "bibliographic_records": 106,
+      "with_abstract": 100,
       "compatibility_alias_records": 0,
-      "resource_entries": 2,
-      "papers_with_linked_resources": 0,
+      "resource_entries": 26,
+      "papers_with_linked_resources": 28,
       "types": {
         "dataset": 1,
-        "project": 1
+        "project": 1,
+        "code": 24
       },
       "years": [
-        2025
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
       ],
       "unknown_year": 0
     },
     "赵国英": {
-      "bibliographic_records": 498,
+      "bibliographic_records": 636,
+      "with_abstract": 193,
       "compatibility_alias_records": 0,
-      "resource_entries": 16,
-      "papers_with_linked_resources": 9,
+      "resource_entries": 36,
+      "papers_with_linked_resources": 33,
       "types": {
         "project": 13,
-        "code": 1,
+        "code": 21,
         "dataset": 2
       },
       "years": [
@@ -463,31 +548,44 @@
       ],
       "unknown_year": 0
     },
-    "Yi Ding（中文名待核验）": {
-      "bibliographic_records": 5,
+    "Yi Ding": {
+      "bibliographic_records": 52,
+      "with_abstract": 45,
       "compatibility_alias_records": 0,
-      "resource_entries": 1,
-      "papers_with_linked_resources": 0,
+      "resource_entries": 14,
+      "papers_with_linked_resources": 14,
       "types": {
-        "project": 1
+        "project": 1,
+        "code": 13
       },
       "years": [
+        2019,
         2020,
+        2021,
+        2022,
+        2023,
+        2024,
         2025,
-        2026
+        2026,
+        2027
       ],
       "unknown_year": 0
     },
     "贾子瑜": {
-      "bibliographic_records": 26,
+      "bibliographic_records": 108,
+      "with_abstract": 74,
       "compatibility_alias_records": 0,
-      "resource_entries": 8,
-      "papers_with_linked_resources": 7,
+      "resource_entries": 20,
+      "papers_with_linked_resources": 21,
       "types": {
-        "code": 7,
+        "code": 19,
         "project": 1
       },
       "years": [
+        2012,
+        2013,
+        2016,
+        2019,
         2020,
         2021,
         2022,
@@ -499,11 +597,15 @@
       "unknown_year": 0
     },
     "卡里姆·杰尔比": {
-      "bibliographic_records": 200,
+      "bibliographic_records": 203,
+      "with_abstract": 136,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 3,
+      "papers_with_linked_resources": 3,
+      "types": {
+        "dataset": 1,
+        "code": 2
+      },
       "years": [
         2000,
         2001,
@@ -535,11 +637,14 @@
       "unknown_year": 3
     },
     "姜维邦": {
-      "bibliographic_records": 24,
+      "bibliographic_records": 28,
+      "with_abstract": 21,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 2,
-      "types": {},
+      "resource_entries": 1,
+      "papers_with_linked_resources": 6,
+      "types": {
+        "code": 1
+      },
       "years": [
         2021,
         2022,
@@ -551,18 +656,29 @@
       "unknown_year": 1
     },
     "张通": {
-      "bibliographic_records": 269,
+      "bibliographic_records": 457,
+      "with_abstract": 250,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 2,
-      "types": {},
+      "resource_entries": 9,
+      "papers_with_linked_resources": 11,
+      "types": {
+        "code": 9
+      },
       "years": [
+        1999,
+        2002,
+        2003,
+        2004,
+        2005,
+        2008,
+        2009,
         2010,
         2011,
         2012,
         2013,
         2014,
         2015,
+        2016,
         2017,
         2018,
         2019,
@@ -578,6 +694,7 @@
     },
     "朱莉娅·廖伊": {
       "bibliographic_records": 63,
+      "with_abstract": 48,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
@@ -599,11 +716,12 @@
     },
     "沈新科": {
       "bibliographic_records": 38,
+      "with_abstract": 25,
       "compatibility_alias_records": 0,
-      "resource_entries": 1,
-      "papers_with_linked_resources": 0,
+      "resource_entries": 4,
+      "papers_with_linked_resources": 3,
       "types": {
-        "code": 1
+        "code": 4
       },
       "years": [
         2016,
@@ -621,10 +739,11 @@
       "unknown_year": 0
     },
     "王继权": {
-      "bibliographic_records": 26,
+      "bibliographic_records": 29,
+      "with_abstract": 21,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
-      "papers_with_linked_resources": 3,
+      "papers_with_linked_resources": 6,
       "types": {},
       "years": [
         2020,
@@ -638,11 +757,14 @@
       "unknown_year": 0
     },
     "郑文明": {
-      "bibliographic_records": 281,
+      "bibliographic_records": 461,
+      "with_abstract": 229,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 5,
+      "papers_with_linked_resources": 6,
+      "types": {
+        "code": 5
+      },
       "years": [
         2004,
         2005,
@@ -651,6 +773,7 @@
         2008,
         2009,
         2010,
+        2011,
         2012,
         2013,
         2014,
@@ -670,17 +793,30 @@
       "unknown_year": 0
     },
     "陈俊龙": {
-      "bibliographic_records": 44,
+      "bibliographic_records": 250,
+      "with_abstract": 202,
       "compatibility_alias_records": 0,
-      "resource_entries": 5,
-      "papers_with_linked_resources": 5,
+      "resource_entries": 11,
+      "papers_with_linked_resources": 11,
       "types": {
-        "project": 5
+        "project": 5,
+        "code": 6
       },
       "years": [
+        1996,
+        1999,
         2009,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
         2018,
         2019,
+        2020,
+        2021,
         2022,
         2023,
         2024,
@@ -690,7 +826,8 @@
       "unknown_year": 0
     },
     "蒲慕明": {
-      "bibliographic_records": 5,
+      "bibliographic_records": 199,
+      "with_abstract": 107,
       "compatibility_alias_records": 0,
       "resource_entries": 8,
       "papers_with_linked_resources": 5,
@@ -698,34 +835,89 @@
         "project": 8
       },
       "years": [
+        1973,
+        1974,
+        1977,
+        1978,
+        1979,
+        1981,
+        1982,
+        1983,
+        1984,
+        1985,
+        1986,
+        1990,
+        1991,
+        1992,
         1993,
+        1994,
+        1995,
+        1996,
+        1997,
         1998,
-        2016,
-        2018
-      ],
-      "unknown_year": 0
-    },
-    "吴思": {
-      "bibliographic_records": 53,
-      "compatibility_alias_records": 0,
-      "resource_entries": 9,
-      "papers_with_linked_resources": 8,
-      "types": {
-        "project": 9
-      },
-      "years": [
         1999,
         2000,
+        2001,
         2002,
+        2003,
+        2004,
         2005,
+        2006,
+        2007,
         2008,
+        2009,
         2010,
+        2011,
         2012,
         2013,
         2014,
         2015,
         2016,
         2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "unknown_year": 0
+    },
+    "吴思": {
+      "bibliographic_records": 137,
+      "with_abstract": 59,
+      "compatibility_alias_records": 0,
+      "resource_entries": 12,
+      "papers_with_linked_resources": 10,
+      "types": {
+        "project": 9,
+        "code": 3
+      },
+      "years": [
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
         2019,
         2020,
         2021,
@@ -738,7 +930,8 @@
       "unknown_year": 0
     },
     "刘明": {
-      "bibliographic_records": 1,
+      "bibliographic_records": 294,
+      "with_abstract": 268,
       "compatibility_alias_records": 0,
       "resource_entries": 2,
       "papers_with_linked_resources": 1,
@@ -746,34 +939,66 @@
         "project": 2
       },
       "years": [
-        2020
-      ],
-      "unknown_year": 0
-    },
-    "杨玉超": {
-      "bibliographic_records": 21,
-      "compatibility_alias_records": 0,
-      "resource_entries": 10,
-      "papers_with_linked_resources": 8,
-      "types": {
-        "project": 10
-      },
-      "years": [
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
         2012,
         2013,
         2014,
         2015,
+        2016,
         2017,
         2018,
+        2019,
         2020,
         2021,
         2022,
-        2023
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "unknown_year": 0
+    },
+    "杨玉超": {
+      "bibliographic_records": 226,
+      "with_abstract": 183,
+      "compatibility_alias_records": 0,
+      "resource_entries": 16,
+      "papers_with_linked_resources": 14,
+      "types": {
+        "project": 10,
+        "code": 6
+      },
+      "years": [
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
       ],
       "unknown_year": 0
     },
     "缪向水": {
-      "bibliographic_records": 20,
+      "bibliographic_records": 213,
+      "with_abstract": 174,
       "compatibility_alias_records": 0,
       "resource_entries": 9,
       "papers_with_linked_resources": 8,
@@ -781,25 +1006,41 @@
         "project": 9
       },
       "years": [
+        2006,
+        2007,
+        2008,
+        2011,
+        2012,
+        2013,
+        2015,
+        2016,
+        2017,
         2018,
         2019,
         2020,
         2021,
+        2022,
+        2023,
         2024,
-        2025
+        2025,
+        2026
       ],
       "unknown_year": 0
     },
     "冯建峰": {
-      "bibliographic_records": 385,
+      "bibliographic_records": 555,
+      "with_abstract": 259,
       "compatibility_alias_records": 0,
-      "resource_entries": 3,
-      "papers_with_linked_resources": 0,
+      "resource_entries": 18,
+      "papers_with_linked_resources": 16,
       "types": {
-        "project": 3
+        "project": 3,
+        "code": 13,
+        "dataset": 2
       },
       "years": [
         1992,
+        1993,
         1995,
         1996,
         1997,
@@ -836,18 +1077,30 @@
       "unknown_year": 0
     },
     "傅小兰": {
-      "bibliographic_records": 76,
+      "bibliographic_records": 250,
+      "with_abstract": 132,
       "compatibility_alias_records": 0,
-      "resource_entries": 9,
-      "papers_with_linked_resources": 9,
+      "resource_entries": 11,
+      "papers_with_linked_resources": 11,
       "types": {
-        "project": 9
+        "project": 9,
+        "code": 2
       },
       "years": [
+        1995,
+        1999,
+        2001,
+        2002,
+        2003,
+        2004,
         2005,
+        2006,
+        2007,
+        2008,
         2009,
         2010,
         2011,
+        2012,
         2013,
         2014,
         2015,
@@ -866,17 +1119,19 @@
       "unknown_year": 0
     },
     "徐睿峰": {
-      "bibliographic_records": 429,
+      "bibliographic_records": 682,
+      "with_abstract": 272,
       "compatibility_alias_records": 0,
-      "resource_entries": 12,
-      "papers_with_linked_resources": 8,
+      "resource_entries": 39,
+      "papers_with_linked_resources": 36,
       "types": {
         "project": 10,
-        "dataset": 1,
-        "code": 1
+        "dataset": 2,
+        "code": 27
       },
       "years": [
         1998,
+        2001,
         2002,
         2003,
         2004,
@@ -906,15 +1161,27 @@
       "unknown_year": 0
     },
     "孙晓": {
-      "bibliographic_records": 77,
+      "bibliographic_records": 264,
+      "with_abstract": 177,
       "compatibility_alias_records": 0,
-      "resource_entries": 11,
-      "papers_with_linked_resources": 8,
+      "resource_entries": 21,
+      "papers_with_linked_resources": 19,
       "types": {
         "project": 10,
-        "code": 1
+        "code": 11
       },
       "years": [
+        2001,
+        2003,
+        2004,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
         2014,
         2015,
         2016,
@@ -932,16 +1199,25 @@
       "unknown_year": 0
     },
     "蒋冬梅": {
-      "bibliographic_records": 53,
+      "bibliographic_records": 239,
+      "with_abstract": 179,
       "compatibility_alias_records": 0,
-      "resource_entries": 12,
-      "papers_with_linked_resources": 8,
+      "resource_entries": 29,
+      "papers_with_linked_resources": 25,
       "types": {
         "project": 11,
-        "dataset": 1
+        "dataset": 1,
+        "code": 17
       },
       "years": [
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
         2009,
+        2010,
         2011,
         2012,
         2013,
@@ -963,16 +1239,19 @@
       "unknown_year": 0
     },
     "郑伟龙": {
-      "bibliographic_records": 72,
+      "bibliographic_records": 227,
+      "with_abstract": 154,
       "compatibility_alias_records": 0,
-      "resource_entries": 11,
-      "papers_with_linked_resources": 10,
+      "resource_entries": 13,
+      "papers_with_linked_resources": 33,
       "types": {
-        "code": 2,
+        "code": 4,
         "project": 5,
         "dataset": 4
       },
       "years": [
+        2012,
+        2014,
         2015,
         2016,
         2017,
@@ -989,14 +1268,22 @@
       "unknown_year": 0
     },
     "李远清": {
-      "bibliographic_records": 132,
+      "bibliographic_records": 402,
+      "with_abstract": 274,
       "compatibility_alias_records": 0,
-      "resource_entries": 8,
-      "papers_with_linked_resources": 8,
+      "resource_entries": 16,
+      "papers_with_linked_resources": 16,
       "types": {
-        "project": 8
+        "project": 8,
+        "code": 8
       },
       "years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
         2002,
         2003,
         2004,
@@ -1026,18 +1313,27 @@
       "unknown_year": 0
     },
     "胡斌": {
-      "bibliographic_records": 454,
+      "bibliographic_records": 846,
+      "with_abstract": 559,
       "compatibility_alias_records": 0,
-      "resource_entries": 4,
-      "papers_with_linked_resources": 2,
+      "resource_entries": 36,
+      "papers_with_linked_resources": 32,
       "types": {
-        "dataset": 2,
-        "project": 2
+        "dataset": 3,
+        "project": 2,
+        "code": 30,
+        "model": 1
       },
       "years": [
+        2006,
+        2007,
+        2008,
         2009,
         2010,
         2011,
+        2012,
+        2013,
+        2014,
         2015,
         2016,
         2017,
@@ -1055,15 +1351,17 @@
       "unknown_year": 0
     },
     "明东": {
-      "bibliographic_records": 317,
+      "bibliographic_records": 712,
+      "with_abstract": 634,
       "compatibility_alias_records": 0,
-      "resource_entries": 6,
-      "papers_with_linked_resources": 4,
+      "resource_entries": 10,
+      "papers_with_linked_resources": 11,
       "types": {
         "project": 4,
-        "code": 2
+        "code": 6
       },
       "years": [
+        2004,
         2006,
         2007,
         2008,
@@ -1090,18 +1388,20 @@
       "unknown_year": 0
     },
     "黄民烈": {
-      "bibliographic_records": 231,
+      "bibliographic_records": 447,
+      "with_abstract": 388,
       "compatibility_alias_records": 0,
-      "resource_entries": 49,
-      "papers_with_linked_resources": 45,
+      "resource_entries": 87,
+      "papers_with_linked_resources": 92,
       "types": {
-        "code": 44,
+        "code": 82,
         "dataset": 2,
         "project": 3
       },
       "years": [
         2004,
         2005,
+        2006,
         2007,
         2008,
         2009,
@@ -1126,23 +1426,31 @@
       "unknown_year": 0
     },
     "高小榕": {
-      "bibliographic_records": 117,
+      "bibliographic_records": 250,
+      "with_abstract": 194,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 2,
+      "papers_with_linked_resources": 2,
+      "types": {
+        "code": 2
+      },
       "years": [
         1999,
         2002,
+        2003,
         2004,
         2005,
         2006,
         2007,
         2008,
         2009,
+        2010,
         2011,
+        2012,
+        2013,
         2014,
         2015,
+        2016,
         2017,
         2018,
         2019,
@@ -1157,14 +1465,19 @@
       "unknown_year": 0
     },
     "王毅军": {
-      "bibliographic_records": 188,
+      "bibliographic_records": 313,
+      "with_abstract": 205,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 4,
+      "papers_with_linked_resources": 5,
+      "types": {
+        "code": 4
+      },
       "years": [
+        1996,
         2003,
         2004,
+        2005,
         2006,
         2007,
         2008,
@@ -1190,16 +1503,22 @@
       "unknown_year": 0
     },
     "伍冬睿": {
-      "bibliographic_records": 277,
+      "bibliographic_records": 367,
+      "with_abstract": 254,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 7,
+      "papers_with_linked_resources": 7,
+      "types": {
+        "code": 6,
+        "dataset": 1
+      },
       "years": [
         2004,
         2005,
         2006,
         2007,
+        2008,
+        2009,
         2010,
         2011,
         2012,
@@ -1222,17 +1541,20 @@
       "unknown_year": 0
     },
     "许敏鹏": {
-      "bibliographic_records": 133,
+      "bibliographic_records": 230,
+      "with_abstract": 202,
       "compatibility_alias_records": 0,
-      "resource_entries": 1,
-      "papers_with_linked_resources": 0,
+      "resource_entries": 2,
+      "papers_with_linked_resources": 3,
       "types": {
-        "code": 1
+        "code": 2
       },
       "years": [
         2010,
+        2011,
         2012,
         2013,
+        2014,
         2015,
         2016,
         2017,
@@ -1249,15 +1571,22 @@
       "unknown_year": 0
     },
     "李小俚": {
-      "bibliographic_records": 290,
+      "bibliographic_records": 404,
+      "with_abstract": 263,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 2,
+      "papers_with_linked_resources": 3,
+      "types": {
+        "code": 2
+      },
       "years": [
         1997,
+        1998,
         1999,
         2000,
+        2001,
+        2002,
+        2003,
         2004,
         2005,
         2006,
@@ -1285,12 +1614,17 @@
       "unknown_year": 0
     },
     "何晖光": {
-      "bibliographic_records": 215,
+      "bibliographic_records": 281,
+      "with_abstract": 191,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 11,
+      "papers_with_linked_resources": 12,
+      "types": {
+        "dataset": 1,
+        "code": 10
+      },
       "years": [
+        2001,
         2002,
         2003,
         2004,
@@ -1320,15 +1654,28 @@
       "unknown_year": 0
     },
     "邬霞": {
-      "bibliographic_records": 120,
+      "bibliographic_records": 283,
+      "with_abstract": 134,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 1,
+      "papers_with_linked_resources": 1,
+      "types": {
+        "code": 1
+      },
       "years": [
+        2004,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
         2013,
+        2014,
         2015,
         2016,
+        2017,
         2018,
         2019,
         2020,
@@ -1342,11 +1689,15 @@
       "unknown_year": 0
     },
     "尧德中": {
-      "bibliographic_records": 130,
+      "bibliographic_records": 437,
+      "with_abstract": 280,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 5,
+      "papers_with_linked_resources": 7,
+      "types": {
+        "dataset": 1,
+        "code": 4
+      },
       "years": [
         2000,
         2001,
@@ -1356,12 +1707,53 @@
         2005,
         2006,
         2007,
+        2008,
         2009,
         2010,
         2011,
         2012,
         2013,
         2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026,
+        2027
+      ],
+      "unknown_year": 0
+    },
+    "宋睿华": {
+      "bibliographic_records": 198,
+      "with_abstract": 157,
+      "compatibility_alias_records": 0,
+      "resource_entries": 12,
+      "papers_with_linked_resources": 12,
+      "types": {
+        "code": 12
+      },
+      "years": [
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
         2016,
         2017,
         2018,
@@ -1376,21 +1768,9 @@
       ],
       "unknown_year": 0
     },
-    "宋睿华": {
-      "bibliographic_records": 6,
-      "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [
-        2017,
-        2023,
-        2025
-      ],
-      "unknown_year": 0
-    },
     "王蕴红": {
-      "bibliographic_records": 38,
+      "bibliographic_records": 52,
+      "with_abstract": 10,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
@@ -1401,6 +1781,7 @@
         2016,
         2017,
         2019,
+        2020,
         2021,
         2022,
         2023,
@@ -1413,6 +1794,7 @@
     },
     "王晶": {
       "bibliographic_records": 34,
+      "with_abstract": 4,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 1,
@@ -1432,13 +1814,25 @@
       "unknown_year": 0
     },
     "李密": {
-      "bibliographic_records": 18,
+      "bibliographic_records": 122,
+      "with_abstract": 76,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
       "types": {},
       "years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
         2018,
+        2019,
+        2020,
         2021,
         2022,
         2023,
@@ -1449,13 +1843,21 @@
       "unknown_year": 0
     },
     "邹博超": {
-      "bibliographic_records": 16,
+      "bibliographic_records": 82,
+      "with_abstract": 66,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 9,
+      "papers_with_linked_resources": 11,
+      "types": {
+        "code": 9
+      },
       "years": [
+        2013,
+        2014,
         2015,
+        2016,
+        2017,
+        2018,
         2019,
         2020,
         2021,
@@ -1468,20 +1870,26 @@
       "unknown_year": 0
     },
     "李雅": {
-      "bibliographic_records": 63,
+      "bibliographic_records": 294,
+      "with_abstract": 193,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 1,
-      "types": {},
+      "resource_entries": 5,
+      "papers_with_linked_resources": 9,
+      "types": {
+        "dataset": 2,
+        "code": 3
+      },
       "years": [
         2008,
         2009,
+        2010,
         2011,
         2012,
         2013,
         2014,
         2015,
         2016,
+        2017,
         2018,
         2019,
         2020,
@@ -1495,12 +1903,25 @@
       "unknown_year": 0
     },
     "邓伟洪": {
-      "bibliographic_records": 31,
+      "bibliographic_records": 206,
+      "with_abstract": 149,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 12,
+      "papers_with_linked_resources": 12,
+      "types": {
+        "code": 12
+      },
       "years": [
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
         2015,
         2016,
         2017,
@@ -1511,12 +1932,14 @@
         2022,
         2023,
         2024,
-        2025
+        2025,
+        2026
       ],
       "unknown_year": 0
     },
     "高英明": {
-      "bibliographic_records": 43,
+      "bibliographic_records": 44,
+      "with_abstract": 12,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
@@ -1539,16 +1962,33 @@
       "unknown_year": 0
     },
     "苏菲": {
-      "bibliographic_records": 15,
+      "bibliographic_records": 97,
+      "with_abstract": 68,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
       "types": {},
       "years": [
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2008,
+        2009,
         2010,
+        2011,
         2012,
+        2013,
+        2014,
         2015,
         2016,
+        2017,
+        2018,
+        2020,
+        2021,
+        2022,
+        2023,
         2024,
         2025,
         2026
@@ -1556,59 +1996,21 @@
       "unknown_year": 0
     },
     "颜海彬": {
-      "bibliographic_records": 9,
+      "bibliographic_records": 66,
+      "with_abstract": 34,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 4,
+      "papers_with_linked_resources": 4,
+      "types": {
+        "code": 4
+      },
       "years": [
-        2016,
-        2018,
-        2020,
-        2022,
-        2023,
-        2024,
-        2026
-      ],
-      "unknown_year": 0
-    },
-    "张鹏洲": {
-      "bibliographic_records": 12,
-      "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [
-        2019,
-        2024,
-        2025,
-        2026
-      ],
-      "unknown_year": 0
-    },
-    "刘爽": {
-      "bibliographic_records": 11,
-      "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [
-        2019,
-        2022,
-        2024,
-        2025,
-        2026
-      ],
-      "unknown_year": 0
-    },
-    "张高燕": {
-      "bibliographic_records": 30,
-      "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [
+        2011,
+        2012,
+        2013,
+        2014,
         2015,
+        2016,
         2017,
         2018,
         2019,
@@ -1616,32 +2018,151 @@
         2021,
         2022,
         2023,
-        2025
+        2024,
+        2025,
+        2026
+      ],
+      "unknown_year": 0
+    },
+    "张鹏洲": {
+      "bibliographic_records": 80,
+      "with_abstract": 65,
+      "compatibility_alias_records": 0,
+      "resource_entries": 0,
+      "papers_with_linked_resources": 0,
+      "types": {},
+      "years": [
+        1995,
+        1996,
+        1997,
+        2006,
+        2007,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "unknown_year": 0
+    },
+    "刘爽": {
+      "bibliographic_records": 59,
+      "with_abstract": 36,
+      "compatibility_alias_records": 0,
+      "resource_entries": 1,
+      "papers_with_linked_resources": 1,
+      "types": {
+        "code": 1
+      },
+      "years": [
+        2003,
+        2004,
+        2006,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "unknown_year": 0
+    },
+    "张高燕": {
+      "bibliographic_records": 93,
+      "with_abstract": 51,
+      "compatibility_alias_records": 0,
+      "resource_entries": 1,
+      "papers_with_linked_resources": 1,
+      "types": {
+        "code": 1
+      },
+      "years": [
+        2010,
+        2012,
+        2013,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
       ],
       "unknown_year": 0
     },
     "秦勇": {
-      "bibliographic_records": 4,
+      "bibliographic_records": 25,
+      "with_abstract": 20,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 2,
+      "papers_with_linked_resources": 2,
+      "types": {
+        "code": 2
+      },
       "years": [
         2009,
         2016,
-        2017
+        2017,
+        2018,
+        2019,
+        2023,
+        2024,
+        2025
       ],
       "unknown_year": 1
     },
     "郭磊": {
-      "bibliographic_records": 27,
+      "bibliographic_records": 198,
+      "with_abstract": 139,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 1,
+      "papers_with_linked_resources": 6,
+      "types": {
+        "code": 1
+      },
       "years": [
+        2002,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
         2014,
+        2015,
         2016,
+        2017,
         2018,
         2019,
         2020,
@@ -1655,39 +2176,60 @@
       "unknown_year": 0
     },
     "李颖": {
-      "bibliographic_records": 18,
+      "bibliographic_records": 111,
+      "with_abstract": 42,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
       "types": {},
       "years": [
+        2002,
         2004,
+        2005,
         2006,
+        2007,
+        2008,
+        2011,
+        2012,
+        2013,
+        2015,
+        2016,
+        2017,
+        2018,
         2019,
         2020,
         2021,
         2022,
         2023,
         2024,
+        2025,
         2026
       ],
       "unknown_year": 0
     },
     "师硕": {
-      "bibliographic_records": 4,
+      "bibliographic_records": 13,
+      "with_abstract": 6,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
       "types": {},
       "years": [
+        2009,
+        2012,
+        2013,
+        2017,
         2018,
+        2021,
         2023,
-        2024
+        2024,
+        2025
       ],
       "unknown_year": 0
     },
     "徐桂芝": {
-      "bibliographic_records": 106,
+      "bibliographic_records": 158,
+      "with_abstract": 54,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
@@ -1699,7 +2241,12 @@
         2007,
         2008,
         2009,
+        2010,
+        2011,
+        2012,
         2013,
+        2015,
+        2016,
         2018,
         2019,
         2020,
@@ -1713,7 +2260,8 @@
       "unknown_year": 0
     },
     "曹锐": {
-      "bibliographic_records": 24,
+      "bibliographic_records": 67,
+      "with_abstract": 51,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
@@ -1722,11 +2270,13 @@
         2013,
         2014,
         2015,
+        2016,
         2017,
         2018,
         2019,
         2020,
         2021,
+        2022,
         2023,
         2024,
         2025,
@@ -1735,14 +2285,31 @@
       "unknown_year": 0
     },
     "张雪英": {
-      "bibliographic_records": 19,
+      "bibliographic_records": 224,
+      "with_abstract": 165,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
       "types": {},
       "years": [
+        2002,
+        2003,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
         2018,
         2019,
+        2020,
         2021,
         2022,
         2023,
@@ -1753,34 +2320,87 @@
       "unknown_year": 0
     },
     "孙颖": {
-      "bibliographic_records": 1,
+      "bibliographic_records": 58,
+      "with_abstract": 45,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
       "types": {},
       "years": [
-        2024
+        2007,
+        2008,
+        2009,
+        2010,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
       ],
       "unknown_year": 0
     },
     "刘瑞": {
-      "bibliographic_records": 2,
+      "bibliographic_records": 216,
+      "with_abstract": 159,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 24,
+      "papers_with_linked_resources": 36,
+      "types": {
+        "code": 24
+      },
       "years": [
-        2024
+        1984,
+        2002,
+        2003,
+        2004,
+        2006,
+        2007,
+        2008,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
       ],
       "unknown_year": 0
     },
     "李建秀": {
-      "bibliographic_records": 6,
+      "bibliographic_records": 34,
+      "with_abstract": 27,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
       "types": {},
       "years": [
+        2007,
+        2010,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
         2023,
         2024,
         2025,
@@ -1789,20 +2409,26 @@
       "unknown_year": 0
     },
     "王守岩": {
-      "bibliographic_records": 30,
+      "bibliographic_records": 85,
+      "with_abstract": 45,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
-      "papers_with_linked_resources": 0,
+      "papers_with_linked_resources": 2,
       "types": {},
       "years": [
+        1998,
+        2000,
+        2002,
         2005,
         2006,
         2012,
+        2013,
         2015,
         2016,
         2017,
         2018,
         2019,
+        2020,
         2021,
         2022,
         2023,
@@ -1813,13 +2439,17 @@
       "unknown_year": 0
     },
     "夏睿": {
-      "bibliographic_records": 75,
+      "bibliographic_records": 138,
+      "with_abstract": 53,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 5,
+      "papers_with_linked_resources": 5,
+      "types": {
+        "code": 5
+      },
       "years": [
         2009,
+        2010,
         2011,
         2012,
         2013,
@@ -1840,11 +2470,14 @@
       "unknown_year": 1
     },
     "薛柳萌": {
-      "bibliographic_records": 36,
+      "bibliographic_records": 90,
+      "with_abstract": 49,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 3,
+      "papers_with_linked_resources": 3,
+      "types": {
+        "code": 3
+      },
       "years": [
         2018,
         2019,
@@ -1859,13 +2492,19 @@
       "unknown_year": 0
     },
     "周仁来": {
-      "bibliographic_records": 105,
+      "bibliographic_records": 303,
+      "with_abstract": 103,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
       "types": {},
       "years": [
+        2004,
         2006,
+        2007,
+        2008,
+        2009,
+        2010,
         2011,
         2012,
         2013,
@@ -1886,19 +2525,36 @@
       "unknown_year": 1
     },
     "商琳": {
-      "bibliographic_records": 14,
+      "bibliographic_records": 209,
+      "with_abstract": 104,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
       "types": {},
       "years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
         2009,
+        2010,
+        2011,
+        2012,
         2013,
         2014,
         2015,
         2016,
+        2017,
+        2018,
+        2019,
+        2020,
         2021,
         2022,
+        2023,
         2024,
         2025,
         2026
@@ -1906,25 +2562,51 @@
       "unknown_year": 0
     },
     "卢青": {
-      "bibliographic_records": 4,
+      "bibliographic_records": 210,
+      "with_abstract": 107,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
       "types": {},
       "years": [
+        2008,
+        2010,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
         2019,
         2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
         2026
       ],
       "unknown_year": 0
     },
     "宗源": {
-      "bibliographic_records": 22,
+      "bibliographic_records": 163,
+      "with_abstract": 118,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 2,
+      "papers_with_linked_resources": 4,
+      "types": {
+        "code": 2
+      },
       "years": [
+        2013,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
         2022,
         2023,
         2024,
@@ -1934,15 +2616,18 @@
       "unknown_year": 0
     },
     "罗兆杰": {
-      "bibliographic_records": 28,
+      "bibliographic_records": 68,
+      "with_abstract": 35,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
       "types": {},
       "years": [
+        2011,
         2015,
         2016,
         2017,
+        2018,
         2019,
         2020,
         2021,
@@ -1955,28 +2640,44 @@
       "unknown_year": 0
     },
     "张天翼": {
-      "bibliographic_records": 3,
+      "bibliographic_records": 36,
+      "with_abstract": 29,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 1,
+      "papers_with_linked_resources": 3,
+      "types": {
+        "code": 1
+      },
       "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
         2024,
+        2025,
         2026
       ],
       "unknown_year": 0
     },
     "崔兴然": {
-      "bibliographic_records": 28,
+      "bibliographic_records": 68,
+      "with_abstract": 24,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
       "types": {},
       "years": [
+        2008,
+        2010,
+        2011,
+        2013,
         2014,
         2015,
         2016,
         2017,
+        2018,
         2019,
         2020,
         2021,
@@ -1989,7 +2690,8 @@
       "unknown_year": 0
     },
     "张道强": {
-      "bibliographic_records": 569,
+      "bibliographic_records": 570,
+      "with_abstract": 2,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
@@ -2024,59 +2726,139 @@
       "unknown_year": 4
     },
     "崔振": {
-      "bibliographic_records": 4,
+      "bibliographic_records": 221,
+      "with_abstract": 160,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 17,
+      "papers_with_linked_resources": 18,
+      "types": {
+        "code": 17
+      },
       "years": [
+        2008,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
         2022,
         2023,
+        2024,
+        2025,
         2026
       ],
       "unknown_year": 0
     },
     "张桐": {
-      "bibliographic_records": 3,
+      "bibliographic_records": 290,
+      "with_abstract": 220,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 10,
+      "papers_with_linked_resources": 14,
+      "types": {
+        "code": 10
+      },
       "years": [
+        1995,
+        1999,
+        2001,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
         2020,
-        2021
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
       ],
       "unknown_year": 0
     },
     "李勇": {
-      "bibliographic_records": 10,
+      "bibliographic_records": 114,
+      "with_abstract": 80,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 8,
+      "papers_with_linked_resources": 8,
+      "types": {
+        "code": 8
+      },
       "years": [
+        2002,
+        2005,
+        2006,
+        2007,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
         2019,
+        2020,
         2021,
         2022,
         2023,
+        2024,
+        2025,
         2026
       ],
       "unknown_year": 0
     },
     "章成志": {
-      "bibliographic_records": 27,
+      "bibliographic_records": 223,
+      "with_abstract": 146,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 6,
+      "papers_with_linked_resources": 5,
+      "types": {
+        "code": 6
+      },
       "years": [
+        1991,
+        2001,
+        2004,
+        2005,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
         2014,
+        2015,
         2016,
         2017,
+        2018,
         2019,
         2020,
         2021,
         2022,
+        2023,
         2024,
         2025,
         2026
@@ -2084,59 +2866,109 @@
       "unknown_year": 0
     },
     "张莉": {
-      "bibliographic_records": 2,
+      "bibliographic_records": 241,
+      "with_abstract": 96,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 4,
+      "papers_with_linked_resources": 4,
+      "types": {
+        "code": 4
+      },
       "years": [
+        2002,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
         2025,
         2026
       ],
       "unknown_year": 0
     },
     "张燕": {
-      "bibliographic_records": 2,
+      "bibliographic_records": 39,
+      "with_abstract": 23,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 1,
+      "papers_with_linked_resources": 2,
+      "types": {
+        "code": 1
+      },
       "years": [
-        2025
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2023,
+        2024,
+        2025,
+        2026,
+        2027
       ],
       "unknown_year": 0
     },
     "肖仲喆": {
-      "bibliographic_records": 16,
+      "bibliographic_records": 74,
+      "with_abstract": 33,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
       "types": {},
       "years": [
+        2003,
+        2006,
         2007,
         2008,
         2009,
         2011,
         2012,
         2016,
+        2017,
         2018,
         2019,
+        2020,
         2021,
         2022,
-        2023
+        2023,
+        2024,
+        2025,
+        2026
       ],
       "unknown_year": 0
     },
     "陈庭继": {
-      "bibliographic_records": 23,
+      "bibliographic_records": 50,
+      "with_abstract": 24,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
       "types": {},
       "years": [
+        2012,
         2015,
         2016,
         2017,
+        2018,
         2020,
         2021,
         2022,
@@ -2148,17 +2980,34 @@
       "unknown_year": 0
     },
     "刘小峰": {
-      "bibliographic_records": 20,
+      "bibliographic_records": 234,
+      "with_abstract": 165,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 5,
+      "papers_with_linked_resources": 5,
+      "types": {
+        "code": 5
+      },
       "years": [
+        2001,
+        2004,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
         2017,
         2018,
         2019,
         2020,
         2021,
+        2022,
         2023,
         2024,
         2025,
@@ -2167,55 +3016,137 @@
       "unknown_year": 0
     },
     "赵焱": {
-      "bibliographic_records": 5,
+      "bibliographic_records": 91,
+      "with_abstract": 53,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
       "types": {},
       "years": [
+        1988,
+        2003,
+        2004,
+        2008,
+        2009,
+        2011,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
         2022,
         2023,
-        2024
+        2024,
+        2025,
+        2026
       ],
       "unknown_year": 0
     },
     "吴小俊": {
-      "bibliographic_records": 1,
+      "bibliographic_records": 169,
+      "with_abstract": 62,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
       "types": {},
       "years": [
-        2008
+        2008,
+        2012,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
       ],
       "unknown_year": 0
     },
     "张景祥": {
-      "bibliographic_records": 3,
+      "bibliographic_records": 91,
+      "with_abstract": 70,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
       "types": {},
       "years": [
+        1996,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
         2023,
+        2024,
+        2025,
         2026
       ],
       "unknown_year": 0
     },
     "张卫": {
-      "bibliographic_records": 3,
+      "bibliographic_records": 87,
+      "with_abstract": 70,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
       "types": {},
       "years": [
+        1991,
+        1999,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
         2021,
-        2023
+        2023,
+        2024,
+        2026
       ],
       "unknown_year": 1
     },
     "高传吉": {
-      "bibliographic_records": 68,
+      "bibliographic_records": 128,
+      "with_abstract": 39,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
@@ -2239,42 +3170,66 @@
       "unknown_year": 0
     },
     "薛松": {
-      "bibliographic_records": 7,
+      "bibliographic_records": 36,
+      "with_abstract": 12,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
       "types": {},
       "years": [
         2013,
+        2014,
         2015,
         2016,
         2017,
-        2024
+        2018,
+        2019,
+        2021,
+        2023,
+        2024,
+        2025,
+        2026
       ],
       "unknown_year": 0
     },
     "杨小冬": {
-      "bibliographic_records": 8,
+      "bibliographic_records": 23,
+      "with_abstract": 9,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
       "types": {},
       "years": [
         2007,
+        2011,
+        2012,
+        2018,
+        2019,
+        2020,
         2022,
         2023,
         2024,
-        2025
+        2025,
+        2026
       ],
       "unknown_year": 0
     },
     "邵志文": {
-      "bibliographic_records": 28,
+      "bibliographic_records": 119,
+      "with_abstract": 68,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 19,
+      "papers_with_linked_resources": 20,
+      "types": {
+        "code": 19
+      },
       "years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
         2022,
         2023,
         2024,
@@ -2284,28 +3239,59 @@
       "unknown_year": 0
     },
     "郭丽丽": {
-      "bibliographic_records": 4,
+      "bibliographic_records": 246,
+      "with_abstract": 165,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 3,
+      "papers_with_linked_resources": 2,
+      "types": {
+        "code": 3
+      },
       "years": [
+        1996,
+        2002,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
         2022,
+        2023,
+        2024,
         2025,
         2026
       ],
       "unknown_year": 0
     },
     "杨洋": {
-      "bibliographic_records": 35,
+      "bibliographic_records": 54,
+      "with_abstract": 22,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 1,
+      "papers_with_linked_resources": 1,
+      "types": {
+        "code": 1
+      },
       "years": [
         2005,
         2009,
         2012,
+        2014,
+        2015,
+        2016,
         2017,
         2018,
         2019,
@@ -2318,13 +3304,25 @@
       "unknown_year": 0
     },
     "吕钊": {
-      "bibliographic_records": 36,
+      "bibliographic_records": 135,
+      "with_abstract": 87,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 4,
+      "papers_with_linked_resources": 4,
+      "types": {
+        "code": 4
+      },
       "years": [
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
         2016,
+        2017,
         2018,
         2019,
         2020,
@@ -2338,7 +3336,8 @@
       "unknown_year": 0
     },
     "费定舟": {
-      "bibliographic_records": 10,
+      "bibliographic_records": 22,
+      "with_abstract": 8,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
@@ -2347,15 +3346,20 @@
         2010,
         2011,
         2012,
+        2016,
+        2018,
         2019,
+        2020,
         2021,
+        2022,
         2023,
         2025
       ],
       "unknown_year": 0
     },
     "王天江": {
-      "bibliographic_records": 5,
+      "bibliographic_records": 6,
+      "with_abstract": 3,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
@@ -2370,17 +3374,32 @@
       "unknown_year": 0
     },
     "赵欢": {
-      "bibliographic_records": 28,
+      "bibliographic_records": 127,
+      "with_abstract": 88,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 10,
+      "papers_with_linked_resources": 10,
+      "types": {
+        "code": 10
+      },
       "years": [
+        1989,
+        1990,
         2008,
         2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
         2017,
+        2018,
         2019,
         2020,
+        2021,
+        2022,
         2023,
         2024,
         2025,
@@ -2389,17 +3408,22 @@
       "unknown_year": 0
     },
     "钟毅平": {
-      "bibliographic_records": 20,
+      "bibliographic_records": 38,
+      "with_abstract": 19,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
       "types": {},
       "years": [
         2009,
+        2010,
+        2012,
         2014,
         2015,
         2016,
         2017,
+        2019,
+        2020,
         2022,
         2023,
         2024,
@@ -2409,7 +3433,8 @@
       "unknown_year": 0
     },
     "代政嘉": {
-      "bibliographic_records": 62,
+      "bibliographic_records": 76,
+      "with_abstract": 47,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
@@ -2434,12 +3459,14 @@
       "unknown_year": 0
     },
     "库逸轩": {
-      "bibliographic_records": 91,
+      "bibliographic_records": 119,
+      "with_abstract": 73,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
       "types": {},
       "years": [
+        2005,
         2007,
         2008,
         2010,
@@ -2461,13 +3488,28 @@
       "unknown_year": 0
     },
     "张东": {
-      "bibliographic_records": 26,
+      "bibliographic_records": 110,
+      "with_abstract": 59,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
       "types": {},
       "years": [
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
         2019,
+        2020,
+        2021,
         2022,
         2023,
         2024,
@@ -2479,6 +3521,7 @@
     },
     "刘梦汀": {
       "bibliographic_records": 38,
+      "with_abstract": 3,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
@@ -2495,12 +3538,16 @@
       "unknown_year": 0
     },
     "权小军": {
-      "bibliographic_records": 20,
+      "bibliographic_records": 127,
+      "with_abstract": 100,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 17,
+      "papers_with_linked_resources": 18,
+      "types": {
+        "code": 17
+      },
       "years": [
+        2008,
         2009,
         2010,
         2011,
@@ -2508,46 +3555,109 @@
         2013,
         2014,
         2015,
+        2018,
+        2019,
+        2020,
         2021,
         2022,
-        2023
+        2023,
+        2024,
+        2025,
+        2026
       ],
       "unknown_year": 1
     },
     "郑慧诚": {
-      "bibliographic_records": 3,
+      "bibliographic_records": 106,
+      "with_abstract": 68,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 1,
+      "papers_with_linked_resources": 1,
+      "types": {
+        "code": 1
+      },
       "years": [
+        1995,
+        2001,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
         2014,
+        2015,
+        2016,
+        2017,
         2018,
-        2020
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
       ],
       "unknown_year": 0
     },
     "杨猛": {
-      "bibliographic_records": 9,
+      "bibliographic_records": 213,
+      "with_abstract": 117,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 5,
+      "papers_with_linked_resources": 5,
+      "types": {
+        "code": 5
+      },
       "years": [
+        2002,
+        2003,
+        2005,
+        2008,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
         2023,
         2024,
-        2025
+        2025,
+        2026
       ],
       "unknown_year": 0
     },
     "饶洋辉": {
-      "bibliographic_records": 26,
+      "bibliographic_records": 177,
+      "with_abstract": 94,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 3,
+      "papers_with_linked_resources": 3,
+      "types": {
+        "code": 3
+      },
       "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
         2017,
+        2018,
+        2019,
         2020,
         2021,
         2022,
@@ -2559,13 +3669,26 @@
       "unknown_year": 0
     },
     "吴万庆": {
-      "bibliographic_records": 12,
+      "bibliographic_records": 65,
+      "with_abstract": 39,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 1,
+      "papers_with_linked_resources": 1,
+      "types": {
+        "code": 1
+      },
       "years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2014,
+        2016,
+        2019,
         2020,
+        2021,
+        2022,
+        2023,
         2024,
         2025,
         2026
@@ -2573,13 +3696,30 @@
       "unknown_year": 1
     },
     "文贵华": {
-      "bibliographic_records": 29,
+      "bibliographic_records": 184,
+      "with_abstract": 83,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 1,
+      "papers_with_linked_resources": 1,
+      "types": {
+        "code": 1
+      },
       "years": [
+        2000,
+        2001,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2017,
         2018,
+        2019,
         2020,
         2021,
         2022,
@@ -2591,12 +3731,26 @@
       "unknown_year": 0
     },
     "邢晓芬": {
-      "bibliographic_records": 14,
+      "bibliographic_records": 190,
+      "with_abstract": 135,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 8,
+      "papers_with_linked_resources": 11,
+      "types": {
+        "code": 8
+      },
       "years": [
+        2011,
+        2012,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
         2023,
         2024,
         2025,
@@ -2605,14 +3759,17 @@
       "unknown_year": 0
     },
     "温珍福": {
-      "bibliographic_records": 35,
+      "bibliographic_records": 57,
+      "with_abstract": 26,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
       "types": {},
       "years": [
+        2013,
         2016,
         2017,
+        2018,
         2019,
         2020,
         2021,
@@ -2625,21 +3782,51 @@
       "unknown_year": 1
     },
     "舒琳": {
-      "bibliographic_records": 1,
+      "bibliographic_records": 82,
+      "with_abstract": 64,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [],
+      "resource_entries": 1,
+      "papers_with_linked_resources": 1,
+      "types": {
+        "code": 1
+      },
+      "years": [
+        2000,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "unknown_year": 1
     },
     "龙锦益": {
-      "bibliographic_records": 42,
+      "bibliographic_records": 138,
+      "with_abstract": 80,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
-      "papers_with_linked_resources": 0,
+      "papers_with_linked_resources": 2,
       "types": {},
       "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
         2017,
         2018,
         2019,
@@ -2654,170 +3841,23 @@
       "unknown_year": 0
     },
     "陈清亮": {
-      "bibliographic_records": 2,
+      "bibliographic_records": 105,
+      "with_abstract": 73,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 1,
+      "papers_with_linked_resources": 1,
+      "types": {
+        "code": 1
+      },
       "years": [
-        2022
-      ],
-      "unknown_year": 1
-    },
-    "郑嘉琪": {
-      "bibliographic_records": 16,
-      "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [
-        2024,
-        2025,
-        2026,
-        2027
-      ],
-      "unknown_year": 0
-    },
-    "潘家辉": {
-      "bibliographic_records": 59,
-      "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [
-        2013,
-        2015,
-        2017,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "unknown_year": 2
-    },
-    "黄海云": {
-      "bibliographic_records": 14,
-      "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [
-        2018,
-        2021,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "unknown_year": 0
-    },
-    "邱丽娜": {
-      "bibliographic_records": 1,
-      "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [
-        2024
-      ],
-      "unknown_year": 0
-    },
-    "梁艳": {
-      "bibliographic_records": 5,
-      "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [
-        2021,
-        2023,
-        2024
-      ],
-      "unknown_year": 0
-    },
-    "袁理": {
-      "bibliographic_records": 4,
-      "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [
-        2022,
-        2023,
-        2025
-      ],
-      "unknown_year": 0
-    },
-    "周成菊": {
-      "bibliographic_records": 2,
-      "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [
-        2025,
-        2026
-      ],
-      "unknown_year": 0
-    },
-    "黄清宝": {
-      "bibliographic_records": 31,
-      "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026,
-        2027
-      ],
-      "unknown_year": 0
-    },
-    "李兴风": {
-      "bibliographic_records": 7,
-      "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [
-        2016,
-        2018,
-        2019,
-        2023,
-        2024,
-        2025
-      ],
-      "unknown_year": 0
-    },
-    "靳婷": {
-      "bibliographic_records": 4,
-      "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [
-        2021,
-        2023
-      ],
-      "unknown_year": 0
-    },
-    "徐鹏": {
-      "bibliographic_records": 45,
-      "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [
+        1999,
+        2002,
+        2003,
+        2005,
         2006,
         2007,
+        2008,
+        2009,
         2010,
         2011,
         2012,
@@ -2830,6 +3870,315 @@
         2019,
         2020,
         2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "unknown_year": 1
+    },
+    "郑嘉琪": {
+      "bibliographic_records": 32,
+      "with_abstract": 11,
+      "compatibility_alias_records": 0,
+      "resource_entries": 0,
+      "papers_with_linked_resources": 0,
+      "types": {},
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026,
+        2027
+      ],
+      "unknown_year": 0
+    },
+    "潘家辉": {
+      "bibliographic_records": 265,
+      "with_abstract": 196,
+      "compatibility_alias_records": 0,
+      "resource_entries": 13,
+      "papers_with_linked_resources": 15,
+      "types": {
+        "code": 13
+      },
+      "years": [
+        2004,
+        2005,
+        2008,
+        2009,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026,
+        2027
+      ],
+      "unknown_year": 2
+    },
+    "黄海云": {
+      "bibliographic_records": 83,
+      "with_abstract": 64,
+      "compatibility_alias_records": 0,
+      "resource_entries": 0,
+      "papers_with_linked_resources": 0,
+      "types": {},
+      "years": [
+        2000,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2017,
+        2018,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "unknown_year": 0
+    },
+    "邱丽娜": {
+      "bibliographic_records": 48,
+      "with_abstract": 39,
+      "compatibility_alias_records": 0,
+      "resource_entries": 1,
+      "papers_with_linked_resources": 1,
+      "types": {
+        "code": 1
+      },
+      "years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025,
+        2026
+      ],
+      "unknown_year": 0
+    },
+    "梁艳": {
+      "bibliographic_records": 70,
+      "with_abstract": 48,
+      "compatibility_alias_records": 0,
+      "resource_entries": 0,
+      "papers_with_linked_resources": 0,
+      "types": {},
+      "years": [
+        2009,
+        2010,
+        2011,
+        2013,
+        2014,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "unknown_year": 0
+    },
+    "袁理": {
+      "bibliographic_records": 52,
+      "with_abstract": 42,
+      "compatibility_alias_records": 0,
+      "resource_entries": 1,
+      "papers_with_linked_resources": 1,
+      "types": {
+        "code": 1
+      },
+      "years": [
+        2002,
+        2008,
+        2011,
+        2012,
+        2013,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "unknown_year": 0
+    },
+    "周成菊": {
+      "bibliographic_records": 36,
+      "with_abstract": 26,
+      "compatibility_alias_records": 0,
+      "resource_entries": 0,
+      "papers_with_linked_resources": 0,
+      "types": {},
+      "years": [
+        1998,
+        1999,
+        2002,
+        2006,
+        2009,
+        2010,
+        2012,
+        2013,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "unknown_year": 0
+    },
+    "黄清宝": {
+      "bibliographic_records": 119,
+      "with_abstract": 70,
+      "compatibility_alias_records": 0,
+      "resource_entries": 17,
+      "papers_with_linked_resources": 17,
+      "types": {
+        "code": 17
+      },
+      "years": [
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026,
+        2027
+      ],
+      "unknown_year": 0
+    },
+    "李兴风": {
+      "bibliographic_records": 102,
+      "with_abstract": 67,
+      "compatibility_alias_records": 0,
+      "resource_entries": 1,
+      "papers_with_linked_resources": 1,
+      "types": {
+        "code": 1
+      },
+      "years": [
+        1992,
+        2003,
+        2005,
+        2007,
+        2008,
+        2011,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "unknown_year": 0
+    },
+    "靳婷": {
+      "bibliographic_records": 27,
+      "with_abstract": 17,
+      "compatibility_alias_records": 0,
+      "resource_entries": 0,
+      "papers_with_linked_resources": 0,
+      "types": {},
+      "years": [
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2013,
+        2014,
+        2017,
+        2021,
+        2023,
+        2026
+      ],
+      "unknown_year": 0
+    },
+    "徐鹏": {
+      "bibliographic_records": 279,
+      "with_abstract": 179,
+      "compatibility_alias_records": 0,
+      "resource_entries": 2,
+      "papers_with_linked_resources": 3,
+      "types": {
+        "code": 2
+      },
+      "years": [
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
         2023,
         2024,
         2025,
@@ -2838,14 +4187,28 @@
       "unknown_year": 0
     },
     "邱江": {
-      "bibliographic_records": 24,
+      "bibliographic_records": 222,
+      "with_abstract": 119,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 1,
+      "papers_with_linked_resources": 1,
+      "types": {
+        "code": 1
+      },
       "years": [
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
         2015,
         2016,
+        2017,
+        2018,
         2019,
         2020,
         2021,
@@ -2858,33 +4221,66 @@
       "unknown_year": 0
     },
     "彭宏": {
-      "bibliographic_records": 9,
+      "bibliographic_records": 138,
+      "with_abstract": 61,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
-      "papers_with_linked_resources": 0,
+      "papers_with_linked_resources": 1,
       "types": {},
       "years": [
+        1998,
+        2004,
+        2006,
+        2007,
+        2008,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
         2017,
         2018,
+        2019,
+        2020,
         2021,
         2022,
         2023,
         2024,
+        2025,
         2026
       ],
       "unknown_year": 0
     },
     "秦兵": {
-      "bibliographic_records": 11,
+      "bibliographic_records": 527,
+      "with_abstract": 428,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 38,
+      "papers_with_linked_resources": 43,
+      "types": {
+        "code": 37,
+        "dataset": 1
+      },
       "years": [
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
         2015,
         2016,
+        2017,
+        2018,
+        2019,
         2020,
+        2021,
         2022,
+        2023,
         2024,
         2025,
         2026
@@ -2892,13 +4288,21 @@
       "unknown_year": 0
     },
     "赵妍妍": {
-      "bibliographic_records": 56,
+      "bibliographic_records": 138,
+      "with_abstract": 57,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
-      "papers_with_linked_resources": 0,
+      "papers_with_linked_resources": 1,
       "types": {},
       "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2010,
         2011,
+        2012,
         2014,
         2015,
         2016,
@@ -2916,35 +4320,61 @@
       "unknown_year": 0
     },
     "李海峰": {
-      "bibliographic_records": 38,
+      "bibliographic_records": 181,
+      "with_abstract": 125,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 1,
+      "papers_with_linked_resources": 2,
+      "types": {
+        "code": 1
+      },
       "years": [
+        2000,
+        2002,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
         2010,
+        2011,
         2012,
         2013,
         2014,
         2015,
         2016,
         2017,
+        2018,
         2019,
+        2020,
         2021,
         2022,
         2023,
         2024,
-        2025
+        2025,
+        2026
       ],
       "unknown_year": 0
     },
     "王启松": {
-      "bibliographic_records": 58,
+      "bibliographic_records": 178,
+      "with_abstract": 101,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 1,
+      "papers_with_linked_resources": 1,
+      "types": {
+        "code": 1
+      },
       "years": [
+        1992,
+        1997,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
         2014,
         2016,
         2017,
@@ -2961,15 +4391,30 @@
       "unknown_year": 0
     },
     "张治国": {
-      "bibliographic_records": 59,
+      "bibliographic_records": 273,
+      "with_abstract": 208,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 6,
-      "types": {},
+      "resource_entries": 11,
+      "papers_with_linked_resources": 22,
+      "types": {
+        "code": 11
+      },
       "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
         2014,
         2015,
         2016,
+        2017,
+        2018,
         2019,
         2020,
         2021,
@@ -2977,18 +4422,21 @@
         2023,
         2024,
         2025,
-        2026
+        2026,
+        2027
       ],
       "unknown_year": 0
     },
     "黄天欢": {
-      "bibliographic_records": 9,
+      "bibliographic_records": 19,
+      "with_abstract": 7,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
       "types": {},
       "years": [
         2019,
+        2020,
         2022,
         2023,
         2024,
@@ -2998,39 +4446,70 @@
       "unknown_year": 0
     },
     "毕晓君": {
-      "bibliographic_records": 8,
+      "bibliographic_records": 138,
+      "with_abstract": 79,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 4,
+      "papers_with_linked_resources": 4,
+      "types": {
+        "code": 4
+      },
       "years": [
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2015,
+        2016,
+        2017,
+        2018,
         2019,
         2020,
         2021,
+        2022,
         2023,
-        2025
+        2024,
+        2025,
+        2026,
+        2027
       ],
       "unknown_year": 0
     },
     "冯国红": {
-      "bibliographic_records": 2,
+      "bibliographic_records": 6,
+      "with_abstract": 5,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
       "types": {},
       "years": [
+        2010,
+        2022,
+        2023,
         2024
       ],
       "unknown_year": 0
     },
     "陈万忠": {
-      "bibliographic_records": 50,
+      "bibliographic_records": 142,
+      "with_abstract": 48,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
       "types": {},
       "years": [
         2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
         2011,
         2012,
         2015,
@@ -3049,13 +4528,132 @@
       "unknown_year": 0
     },
     "周丰丰": {
-      "bibliographic_records": 104,
+      "bibliographic_records": 218,
+      "with_abstract": 150,
+      "compatibility_alias_records": 0,
+      "resource_entries": 13,
+      "papers_with_linked_resources": 15,
+      "types": {
+        "code": 12,
+        "dataset": 1
+      },
+      "years": [
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026,
+        2027
+      ],
+      "unknown_year": 0
+    },
+    "王晓丹": {
+      "bibliographic_records": 180,
+      "with_abstract": 121,
+      "compatibility_alias_records": 0,
+      "resource_entries": 2,
+      "papers_with_linked_resources": 2,
+      "types": {
+        "code": 2
+      },
+      "years": [
+        2001,
+        2002,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "unknown_year": 1
+    },
+    "刘淑华": {
+      "bibliographic_records": 64,
+      "with_abstract": 50,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
       "types": {},
       "years": [
+        1987,
+        2000,
+        2001,
+        2002,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
         2009,
+        2010,
+        2011,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "unknown_year": 0
+    },
+    "丛丰裕": {
+      "bibliographic_records": 230,
+      "with_abstract": 138,
+      "compatibility_alias_records": 0,
+      "resource_entries": 4,
+      "papers_with_linked_resources": 4,
+      "types": {
+        "code": 4
+      },
+      "years": [
+        2000,
+        2006,
+        2007,
+        2009,
+        2010,
+        2011,
         2012,
         2013,
         2014,
@@ -3074,39 +4672,29 @@
       ],
       "unknown_year": 0
     },
-    "王晓丹": {
-      "bibliographic_records": 2,
+    "冯林": {
+      "bibliographic_records": 206,
+      "with_abstract": 128,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 5,
+      "papers_with_linked_resources": 6,
+      "types": {
+        "code": 5
+      },
       "years": [
-        2021,
-        2024
-      ],
-      "unknown_year": 0
-    },
-    "刘淑华": {
-      "bibliographic_records": 3,
-      "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [
-        2019,
-        2021
-      ],
-      "unknown_year": 0
-    },
-    "丛丰裕": {
-      "bibliographic_records": 101,
-      "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [
+        2001,
+        2004,
+        2005,
+        2006,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
         2014,
         2015,
+        2016,
         2017,
         2018,
         2019,
@@ -3120,20 +4708,9 @@
       ],
       "unknown_year": 0
     },
-    "冯林": {
-      "bibliographic_records": 3,
-      "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [
-        2021,
-        2024
-      ],
-      "unknown_year": 0
-    },
     "王斐": {
       "bibliographic_records": 17,
+      "with_abstract": 1,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
@@ -3150,11 +4727,14 @@
       "unknown_year": 0
     },
     "傅昌锃": {
-      "bibliographic_records": 45,
+      "bibliographic_records": 106,
+      "with_abstract": 50,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 1,
+      "papers_with_linked_resources": 1,
+      "types": {
+        "code": 1
+      },
       "years": [
         2020,
         2021,
@@ -3168,23 +4748,29 @@
       "unknown_year": 4
     },
     "周星辰": {
-      "bibliographic_records": 15,
+      "bibliographic_records": 29,
+      "with_abstract": 7,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
       "types": {},
       "years": [
+        2012,
+        2018,
+        2019,
         2020,
         2021,
         2022,
         2023,
+        2024,
         2025,
         2026
       ],
       "unknown_year": 0
     },
     "王春立": {
-      "bibliographic_records": 32,
+      "bibliographic_records": 90,
+      "with_abstract": 42,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
@@ -3197,25 +4783,10 @@
         2006,
         2007,
         2009,
+        2010,
         2017,
         2018,
         2019,
-        2020,
-        2021,
-        2022,
-        2024
-      ],
-      "unknown_year": 5
-    },
-    "张效初": {
-      "bibliographic_records": 29,
-      "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [
-        2017,
-        2018,
         2020,
         2021,
         2022,
@@ -3226,23 +4797,79 @@
       ],
       "unknown_year": 0
     },
-    "龚勋": {
-      "bibliographic_records": 21,
+    "张效初": {
+      "bibliographic_records": 413,
+      "with_abstract": 252,
       "compatibility_alias_records": 0,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
+      "resource_entries": 13,
+      "papers_with_linked_resources": 13,
+      "types": {
+        "code": 13
+      },
       "years": [
+        1996,
+        1999,
+        2000,
+        2001,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
         2010,
         2011,
         2012,
+        2013,
+        2014,
+        2015,
         2016,
         2017,
         2018,
+        2019,
+        2020,
         2021,
         2022,
         2023,
         2024,
+        2025,
+        2026,
+        2027
+      ],
+      "unknown_year": 0
+    },
+    "龚勋": {
+      "bibliographic_records": 164,
+      "with_abstract": 94,
+      "compatibility_alias_records": 0,
+      "resource_entries": 9,
+      "papers_with_linked_resources": 10,
+      "types": {
+        "code": 9
+      },
+      "years": [
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
         2026,
         2027
       ],
@@ -3253,16 +4880,15 @@
   "large_data_downloaded": false,
   "training_executed": false,
   "paper_link_audit": {
-    "total": 11133,
-    "with_paper_url": 6676,
-    "with_doi": 4126,
-    "with_any_external_or_source": 6676,
-    "missing_external_or_source": 4457,
-    "zhiguo_orcid_records": 31,
-    "zhiguo_orcid_added": 11,
-    "zhiguo_records_merged": 18,
-    "total_with_aliases": 11559
+    "total": 26988,
+    "total_with_aliases": 27234,
+    "with_paper_url": 23888,
+    "with_doi": 21468,
+    "with_abstract": 16505,
+    "with_any_external_or_source": 23902,
+    "missing_external_or_source": 3086
   },
-  "total_records_including_aliases": 11559,
-  "compatibility_alias_records": 426
+  "total_records_including_aliases": 27234,
+  "compatibility_alias_records": 426,
+  "papers_with_abstract": 16505
 }
