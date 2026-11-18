@@ -8176,9 +8176,9 @@
     "paper_url": "https://doi.org/10.1007/s11571-019-09541-0",
     "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11571-019-09541-0.pdf",
     "source_url": "https://openalex.org/W2950801803",
-    "abstract_en": "",
-    "abstract_zh": "",
-    "abstract_source": "",
+    "abstract_en": "Many studies reported that ERP-based BCIs can provide communication for some people with amyotrophic lateral sclerosis (ALS). ERP-based BCIs often present characters within a matrix that occupies the center of the visual field. However, several studies have identified some concerns with the matrix-based approach. This approach may lead to fatigue and errors resulting from flashing adjacent stimuli, and is impractical for users who might want to use the BCI in tandem with other software or feedback in the center of the monitor. In this paper, we introduce and validate an alternate ERP-based BCI display approach. By presenting stimuli near the periphery of the display, we reduce the adjacency problem and leave the center of the display available for feedback or other applications. Two ERP-based display approaches were tested on 18 ALS patients to: (1) compare performance between a conventional matrix speller paradigm (Matrix-P, mean visual angle 6°) and a new speller paradigm with peripherally distributed stimuli (Peripheral-P, mean visual angle 8.8°); and (2) assess performance while spelling 42 characters online continuously, without a break. In the Peripheral-P condition, 12 subjects attained higher than 80% feedback accuracy during online performance, and 7 of these subjects obtained higher than 90% accuracy. The experimental results showed that the Peripheral-P condition yielded performance comparable to the conventional Matrix-P condition ( p > 0.05) in accuracy and information transfer rate. This paper introduces a new display approach that leaves the center of the monitor open for feedback and/or other display elements, such as movies, games, art, or displays from other AAC software or conventional software tools.",
+    "abstract_zh": "许多研究报告称，基于 ERP 的脑机接口可以为一些肌萎缩侧索硬化症 (ALS) 患者提供交流。基于 ERP 的脑机接口通常在占据视野中心的矩阵中呈现字符。然而，一些研究已经发现了基于矩阵的方法的一些问题。这种方法可能会因闪烁相邻刺激而导致疲劳和错误，并且对于可能想要将 BCI 与其他软件或显示器中心的反馈一起使用的用户来说是不切实际的。在本文中，我们介绍并验证了另一种基于 ERP 的 BCI 显示方法。通过在显示器外围附近呈现刺激，我们减少了邻接问题并让显示器的中心可用......",
+    "abstract_source": "pubmed_verified",
     "cited_by_count": 35,
     "topics": [
       "脑机接口与神经解码"
@@ -8191,10 +8191,12 @@
     "scholar_id": "jing_jin_ecust",
     "scholar_name": "金晶",
     "scholar_ids": [
-      "jing_jin_ecust"
+      "jing_jin_ecust",
+      "dewen_hu"
     ],
     "scholar_names": [
-      "金晶"
+      "金晶",
+      "胡德文"
     ],
     "source_record_ids": [
       "jing_jin_ecust_d7343f119e693f2f"
@@ -8213,10 +8215,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "dewen_hu": {
+        "category_id": "bci_eeg_decoding",
+        "label": "脑机接口、脑电信号处理与视觉神经解码",
+        "scholar_name": "胡德文",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "金晶：脑电情感识别与多模态生理计算"
+      "金晶：脑电情感识别与多模态生理计算",
+      "胡德文：脑机接口、脑电信号处理与视觉神经解码"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
@@ -8242,9 +8255,9 @@
     "paper_url": "https://doi.org/10.1016/J.NEUNET.2019.07.008",
     "pdf_url": "",
     "source_url": "https://dblp.org/rec/journals/nn/JinMDZHC19",
-    "abstract_en": "",
-    "abstract_zh": "",
-    "abstract_source": "",
+    "abstract_en": "Multi-channel EEG data are usually necessary for spatial pattern identification in motor imagery (MI)-based brain computer interfaces (BCIs). To some extent, signals from some channels containing redundant information and noise may degrade BCI performance. We assume that the channels related to MI should contain common information when participants are executing the MI tasks. Based on this hypothesis, a correlation-based channel selection (CCS) method is proposed to select the channels that contained more correlated information in this study. The aim is to improve the classification performance of MI-based BCIs. Furthermore, a novel regularized common spatial pattern (RCSP) method is used to extract effective features. Finally, a support vector machine (SVM) classifier with the Radial Basis Function (RBF) kernel is trained to accurately identify the MI tasks. An experimental study is implemented on three public EEG datasets (BCI competition IV dataset 1, BCI competition III dataset IVa and BCI competition III dataset IIIa) to validate the effectiveness of the proposed methods. The results show that the CCS algorithm obtained superior classification accuracy (78% versus 56.4% for dataset1, 86.6% versus 76.5% for dataset 2 and 91.3% versus 85.1% for dataset 3) compared to the algorithm using all channels (AC), when CSP is used to extract the features. Furthermore, RCSP could further improve the classification accuracy (81.6% for dataset1, 87.4% for dataset2 and 91.9% for dataset 3), when CCS is used to select the channels.",
+    "abstract_zh": "基于运动想象 (MI) 的脑机接口 (BCI) 中的空间模式识别通常需要多通道脑电图数据。在某种程度上，来自某些通道的信号包含冗余信息和噪声可能会降低 BCI 性能。我们假设参与者执行 MI 任务时与 MI 相关的通道应该包含公共信息。基于这一假设，本研究提出了一种基于相关性的信道选择（CCS）方法来选择包含更多相关信息的信道。目的是提高基于 MI 的 BCI 的分类性能。此外，使用一种新颖的正则化公共空间模式（RCSP）方法来提取有效特征。最后，还有一个支持...",
+    "abstract_source": "pubmed_verified",
     "cited_by_count": 365,
     "topics": [
       "脑机接口与神经解码"
@@ -8257,17 +8270,22 @@
     "scholar_id": "jing_jin_ecust",
     "scholar_name": "金晶",
     "scholar_ids": [
-      "jing_jin_ecust"
+      "jing_jin_ecust",
+      "dewen_hu"
     ],
     "scholar_names": [
-      "金晶"
+      "金晶",
+      "胡德文"
     ],
     "source_record_ids": [
       "jing_jin_ecust_2b09168dc059d268"
     ],
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://www.bbci.de/competition/iv/",
+      "https://www.bbci.de/competition/iii/"
+    ],
     "model_urls": [],
     "scholar_categories": {
       "jing_jin_ecust": {
@@ -8279,10 +8297,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "dewen_hu": {
+        "category_id": "bci_eeg_decoding",
+        "label": "脑机接口、脑电信号处理与视觉神经解码",
+        "scholar_name": "胡德文",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "金晶：脑电情感识别与多模态生理计算"
+      "金晶：脑电情感识别与多模态生理计算",
+      "胡德文：脑机接口、脑电信号处理与视觉神经解码"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
@@ -8443,9 +8472,9 @@
     "paper_url": "https://doi.org/10.1007/s11571-019-09560-x",
     "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7090135/",
     "source_url": "https://openalex.org/W2981977228",
-    "abstract_en": "",
-    "abstract_zh": "",
-    "abstract_source": "",
+    "abstract_en": "Motor imagery (MI) is a mental representation of motor behavior and has been widely used in electroencephalogram based brain-computer interfaces (BCIs). Several studies have demonstrated the efficacy of MI-based BCI-feedback training in post-stroke rehabilitation. However, in the earliest stage of the training, calibration data typically contain insufficient discriminability, resulting in unreliable feedback, which may decrease subjects' motivation and even hinder their training. To improve the performance in the early stages of MI training, a novel hybrid BCI paradigm based on MI and P300 is proposed in this study. In this paradigm, subjects are instructed to imagine writing the Chinese character following the flash order of the desired Chinese character displayed on the screen. The event-related desynchronization/synchronization (ERD/ERS) phenomenon is produced with writing based on one's imagination. Simultaneously, the P300 potential is evoked by the flash of each stroke. Moreover, a fusion method of P300 and MI classification is proposed, in which unreliable P300 classifications are corrected by reliable MI classifications. Twelve healthy naïve MI subjects participated in this study. Results demonstrated that the proposed hybrid BCI paradigm yielded significantly better performance than the single-modality BCI paradigm. The recognition accuracy of the fusion method is significantly higher than that of P300 ( p < 0.05) and MI ( p < 0.01). Moreover, the training data size can be reduced through fusion of these two modalities.",
+    "abstract_zh": "运动想象（MI）是运动行为的心理表征，已广泛应用于基于脑电图的脑机接口（BCI）。多项研究证明了基于 MI 的 BCI 反馈训练在中风后康复中的功效。然而，在训练的最初阶段，校准数据通常缺乏可区分性，导致反馈不可靠，这可能会降低受试者的积极性，甚至阻碍他们的训练。为了提高 MI 训练早期阶段的性能，本研究提出了一种基于 MI 和 P300 的新型混合 BCI 范式。在这个范式中，受试者被指示想象按照所需汉字的闪现顺序书写汉字......",
+    "abstract_source": "pubmed_verified",
     "cited_by_count": 51,
     "topics": [
       "脑机接口与神经解码"
@@ -8458,10 +8487,12 @@
     "scholar_id": "jing_jin_ecust",
     "scholar_name": "金晶",
     "scholar_ids": [
-      "jing_jin_ecust"
+      "jing_jin_ecust",
+      "dewen_hu"
     ],
     "scholar_names": [
-      "金晶"
+      "金晶",
+      "胡德文"
     ],
     "source_record_ids": [
       "jing_jin_ecust_79329af795a3568f"
@@ -8480,10 +8511,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "dewen_hu": {
+        "category_id": "bci_eeg_decoding",
+        "label": "脑机接口、脑电信号处理与视觉神经解码",
+        "scholar_name": "胡德文",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "金晶：脑电情感识别与多模态生理计算"
+      "金晶：脑电情感识别与多模态生理计算",
+      "胡德文：脑机接口、脑电信号处理与视觉神经解码"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
@@ -9381,9 +9423,9 @@
     "paper_url": "https://doi.org/10.1016/J.NEUNET.2018.02.011",
     "pdf_url": "",
     "source_url": "https://dblp.org/rec/journals/nn/FengYJSDWHC18",
-    "abstract_en": "",
-    "abstract_zh": "",
-    "abstract_source": "",
+    "abstract_en": "The start of the cue is often used to initiate the feature window used to control motor imagery (MI)-based brain-computer interface (BCI) systems. However, the time latency during an MI period varies between trials for each participant. Fixing the starting time point of MI features can lead to decreased system performance in MI-based BCI systems. To address this issue, we propose a novel correlation-based time window selection (CTWS) algorithm for MI-based BCIs. Specifically, the optimized reference signals for each class were selected based on correlation analysis and performance evaluation. Furthermore, the starting points of time windows for both training and testing samples were adjusted using correlation analysis. Finally, the feature extraction and classification algorithms were used to calculate the classification accuracy. With two datasets, the results demonstrate that the CTWS algorithm significantly improved the system performance when compared to directly using feature extraction approaches. Importantly, the average improvement in accuracy of the CTWS algorithm on the datasets of healthy participants and stroke patients was 16.72% and 5.24%, respectively when compared to traditional common spatial pattern (CSP) algorithm. In addition, the average accuracy increased 7.36% and 9.29%, respectively when the CTWS was used in conjunction with Sub-Alpha-Beta Log-Det Divergences (Sub-ABLD) algorithm. These findings suggest that the proposed CTWS algorithm holds promise as a general feature extraction approach for MI-based BCIs.",
+    "abstract_zh": "提示的开始通常用于启动用于控制基于运动想象 (MI) 的脑机接口 (BCI) 系统的功能窗口。然而，MI 期间的时间延迟因每个参与者的试验而异。固定 MI 功能的起始时间点可能会导致基于 MI 的 BCI 系统的系统性能下降。为了解决这个问题，我们为基于 MI 的 BCI 提出了一种新颖的基于相关性的时间窗口选择（CTWS）算法。具体来说，基于相关性分析和性能评估来选择每个类别的优化参考信号。此外，使用相关分析来调整训练和测试样本的时间窗口的起点。最后，该功能...",
+    "abstract_source": "pubmed_verified",
     "cited_by_count": 148,
     "topics": [
       "脑机接口与神经解码"
@@ -9396,10 +9438,12 @@
     "scholar_id": "jing_jin_ecust",
     "scholar_name": "金晶",
     "scholar_ids": [
-      "jing_jin_ecust"
+      "jing_jin_ecust",
+      "dewen_hu"
     ],
     "scholar_names": [
-      "金晶"
+      "金晶",
+      "胡德文"
     ],
     "source_record_ids": [
       "jing_jin_ecust_3b40d1d8cb699b2a"
@@ -9418,10 +9462,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "dewen_hu": {
+        "category_id": "bci_eeg_decoding",
+        "label": "脑机接口、脑电信号处理与视觉神经解码",
+        "scholar_name": "胡德文",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "金晶：脑电情感识别与多模态生理计算"
+      "金晶：脑电情感识别与多模态生理计算",
+      "胡德文：脑机接口、脑电信号处理与视觉神经解码"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
@@ -10026,9 +10081,9 @@
     "paper_url": "https://doi.org/10.1007/s11571-017-9456-y",
     "pdf_url": "http://europepmc.org/pmc/articles/PMC5801279",
     "source_url": "https://openalex.org/W2771006480",
-    "abstract_en": "",
-    "abstract_zh": "",
-    "abstract_source": "",
+    "abstract_en": "Recently, many auditory BCIs are using beeps as auditory stimuli, while beeps sound unnatural and unpleasant for some people. It is proved that natural sounds make people feel comfortable, decrease fatigue, and improve the performance of auditory BCI systems. Drip drop is a kind of natural sounds that makes humans feel relaxed and comfortable. In this work, three kinds of drip drops were used as stimuli in an auditory-based BCI system to improve the user-friendness of the system. This study explored whether drip drops could be used as stimuli in the auditory BCI system. The auditory BCI paradigm with drip-drop stimuli, which was called the drip-drop paradigm (DP), was compared with the auditory paradigm with beep stimuli, also known as the beep paradigm (BP), in items of event-related potential amplitudes, online accuracies and scores on the likability and difficulty to demonstrate the advantages of DP. DP obtained significantly higher online accuracy and information transfer rate than the BP ( p < 0.05, Wilcoxon signed test; p < 0.05, Wilcoxon signed test). Besides, DP obtained higher scores on the likability with no significant difference on the difficulty ( p < 0.05, Wilcoxon signed test). The results showed that the drip drops were reliable acoustic materials as stimuli in an auditory BCI system.",
+    "abstract_zh": "最近，许多听觉脑机接口使用嘟嘟声作为听觉刺激，而嘟嘟声对某些人来说听起来不自然且令人不快。事实证明，自然声音使人感觉舒适，减少疲劳，提高听觉脑机接口系统的性能。滴水声是一种使人感到轻松、舒适的自然声音。在这项工作中，在基于听觉的 BCI 系统中使用三种滴水作为刺激，以提高系统的用户友好性。这项研究探讨了滴水是否可以用作听觉 BCI 系统的刺激。将具有滴滴刺激的听觉 BCI 范式（称为滴滴范式 (DP)）与具有蜂鸣刺激的听觉范式（也称为...",
+    "abstract_source": "pubmed_verified",
     "cited_by_count": 32,
     "topics": [
       "脑机接口与神经解码"
@@ -10041,10 +10096,12 @@
     "scholar_id": "jing_jin_ecust",
     "scholar_name": "金晶",
     "scholar_ids": [
-      "jing_jin_ecust"
+      "jing_jin_ecust",
+      "dewen_hu"
     ],
     "scholar_names": [
-      "金晶"
+      "金晶",
+      "胡德文"
     ],
     "source_record_ids": [
       "jing_jin_ecust_8da8253eb215d39a"
@@ -10063,10 +10120,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "dewen_hu": {
+        "category_id": "bci_eeg_decoding",
+        "label": "脑机接口、脑电信号处理与视觉神经解码",
+        "scholar_name": "胡德文",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "金晶：脑电情感识别与多模态生理计算"
+      "金晶：脑电情感识别与多模态生理计算",
+      "胡德文：脑机接口、脑电信号处理与视觉神经解码"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",

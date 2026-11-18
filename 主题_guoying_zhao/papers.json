@@ -35874,10 +35874,12 @@
     "scholar_id": "guoying_zhao",
     "scholar_name": "赵国英",
     "scholar_ids": [
-      "guoying_zhao"
+      "guoying_zhao",
+      "dewen_hu"
     ],
     "scholar_names": [
-      "赵国英"
+      "赵国英",
+      "胡德文"
     ],
     "source_record_ids": [
       "guoying_zhao_d064e45c1f24c3f9"
@@ -35894,10 +35896,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "dewen_hu": {
+        "category_id": "vision_robotics_control",
+        "label": "视觉感知、仿生导航控制与智能系统",
+        "scholar_name": "胡德文",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "赵国英：情感理解与多模态推理"
+      "赵国英：情感理解与多模态推理",
+      "胡德文：视觉感知、仿生导航控制与智能系统"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "emotion_understanding",
