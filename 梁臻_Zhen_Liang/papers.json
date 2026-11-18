@@ -11991,11 +11991,13 @@
     "model_urls": [],
     "scholar_ids": [
       "liang_zhen",
-      "panorama_9a7afcd2f866"
+      "panorama_9a7afcd2f866",
+      "dewen_hu"
     ],
     "scholar_names": [
       "梁臻",
-      "张治国"
+      "张治国",
+      "胡德文"
     ],
     "source_record_ids": [
       "liang_zhen_aaa53e09b9cd"
@@ -12020,17 +12022,30 @@
         ],
         "confidence": "low",
         "note": ""
+      },
+      "dewen_hu": {
+        "category_id": "fmri_mental_biomarker",
+        "label": "功能脑影像、脑网络与精神疾病计算诊断",
+        "scholar_name": "胡德文",
+        "secondary_tags": [
+          "神经科学/fMRI",
+          "fMRI/neuroscience",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "f6acfa0e16f5cabb",
     "primary_categories_by_scholar": [
       "梁臻：情绪、知觉与疼痛神经研究",
-      "张治国：脑电基础模型与通用解码"
+      "张治国：脑电基础模型与通用解码",
+      "胡德文：功能脑影像、脑网络与精神疾病计算诊断"
     ],
     "openalex_id": "https://openalex.org/W3128401017",
     "openalex_author_id": "https://openalex.org/A5036446937",
-    "cited_by_count": 12,
-    "abstract_en": "Pain sensitivity is highly variable among individuals, and it is clinically important to predict an individual's pain sensitivity for individualized diagnosis and management of pain. Literature has shown that pain sensitivity is associated with regional structural features of the brain, but it remains unclear whether pain sensitivity is also related to structural brain connectivity. In the present study, we investigated the relationship between pain thresholds and morphological connectivity (MC) inferred from structural MRI based on data of 221 healthy participants. We found that MC was highly predictive of an individual's pain thresholds and, importantly, it had a better prediction performance than regional structural features. We also identified a number of most predictive MC features and confirmed the crucial role of the prefrontal cortex in the determination of pain sensitivity. These results suggest the potential of using structural MRI-based MC to predict an individual's pain sensitivity in clinical settings, and hence this study has important implications for diagnosis and treatment of pain.",
+    "cited_by_count": 297,
+    "abstract_en": "BACKGROUND: A lack of a sufficiently large sample at single sites causes poor generalizability in automatic diagnosis classification of heterogeneous psychiatric disorders such as schizophrenia based on brain imaging scans. Advanced deep learning methods may be capable of learning subtle hidden patterns from high dimensional imaging data, overcome potential site-related variation, and achieve reproducible cross-site classification. However, deep learning-based cross-site transfer classification, despite less imaging site-specificity and more generalizability of diagnostic models, has not been investigated in schizophrenia. METHODS: A large multi-site functional MRI sample (n = 734, including 357 schizophrenic patients from seven imaging resources) was collected, and a deep discriminant autoencoder network, aimed at learning imaging site-shared functional connectivity features, was developed to discriminate schizophrenic individuals from healthy controls. FINDINGS: Accuracies of approximately 85·0% and 81·0% were obtained in multi-site pooling classification and leave-site-out transfer classification, respectively. The learned functional connectivity features revealed dysregulation of the cortical-striatal-cerebellar circuit in schizophrenia, and the most discriminating functional connections were primarily located within and across the default, salience, and control networks. INTERPRETATION: The findings imply that dysfunctional integration of the cortical-striatal-cerebellar circuit across the default, salience, and control networks may play an important role in the \"disconnectivity\" model underlying the pathophysiology of schizophrenia. The proposed discriminant deep learning method may be capable of learning reliable connectome patterns and help in understanding the pathophysiology and achieving accurate prediction of schizophrenia across multiple independent imaging sites.",
     "abstract_source": "openalex_verified",
     "abstract_zh": "个体之间的疼痛敏感性差异很大，预测个体的疼痛敏感性对于个体化诊断和疼痛管理具有重要的临床意义。文献表明，疼痛敏感性与大脑的区域结构特征相关，但目前尚不清楚疼痛敏感性是否也与大脑结构连接相关。在本研究中，我们根据 221 名健康参与者的数据，通过结构 MRI 推断出疼痛阈值和形态连接 (MC) 之间的关系。我们发现 MC 可以高度预测个人的疼痛阈值，重要的是，它具有更好的预测性能..."
   },
