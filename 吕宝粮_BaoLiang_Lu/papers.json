@@ -483,7 +483,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 3,
     "publication_types": "",
     "candidate_source": false,
     "source_kind": "official institutional profile or publication list",
@@ -500,12 +500,14 @@
     "scholar_id": "lu_baoliang",
     "scholar_name": "吕宝粮",
     "work_title_group": "70f30b729151",
-    "resource_status": "已关联公开入口；具体访问范围见资源说明",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
-      "lu_baoliang"
+      "lu_baoliang",
+      "wanzeng_kong"
     ],
     "scholar_names": [
-      "吕宝粮"
+      "吕宝粮",
+      "孔万增"
     ],
     "source_record_ids": [
       "lu_baoliang_d00cd1240e4d"
@@ -520,11 +522,26 @@
         ],
         "confidence": "candidate",
         "note": "全景名单/DBLP补充条目，需在作者主页或出版商页面进一步核验。"
+      },
+      "wanzeng_kong": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "孔万增",
+        "secondary_tags": [
+          "脑电情感计算与脑电大模型",
+          "情感脑机接口",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "b2966d9a202ef524",
     "primary_categories_by_scholar": [
-      "吕宝粮：情感脑电与多模态生理信号"
+      "吕宝粮：情感脑电与多模态生理信号",
+      "孔万增：生理情感数据库、基准与综述"
     ],
     "dblp_key": "journals/titb/PengLLPLKLC26",
     "abstract_en": "Domainadaptation has proven effective for suppressing the inter-subject variability problem in cross-subject EEG classification tasks in which labeled data is available for source subjects while only unlabeled data is provided for target subjects. Existing domain adaptation methods typically reduced the distribution discrepancy between source and target domains by directly utilizing source domain samples or features. To safeguard the privacy of source domain data, we propose to construct a Proxy Domain by simultaneously considering the prediction Consistency and Confidence (PDCC) of locally trained source models on target EEG samples, serving as the substitute to the source domain. The framework commences with the augmentation and alignment of the source domain data to enhance feature generalizability, after which source models are trained independently on each source subject's data in a decentralized manner. Knowledge transfer from source to target domains is achieved exclusively through accessing to the source domain model, enabling the PDCC-based proxy domain construction that encapsulates the source knowledge. Finally, domain adaptation is performed using the proxy domain and target domain. As a result, PDCC eliminates the need to access source domain data while effectively leveraging source knowledge. Experimental results on four benchmark EEG datasets demonstrate that PDCC consistently outperforms eleven existing methods, including several advanced transfer learning and source-free methods. Especially, the effectiveness of the proxy domain is extensively investigated.",
@@ -716,7 +733,8 @@
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
       "多模态与大语言模型",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -816,7 +834,9 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "Crossref exact title match; DOI URL preserved",
     "status": "已核验作品（Crossref DOI）",
@@ -920,7 +940,9 @@
       "脑电情感识别",
       "脑机接口与神经解码",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "Crossref exact title match; DOI URL preserved",
     "status": "已核验作品（Crossref DOI）",
@@ -1018,7 +1040,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计",
     "status": "候选条目/需按作者主页继续核验",
@@ -1107,7 +1130,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1196,7 +1220,8 @@
       "情感计算与情绪理解",
       "多模态与大语言模型",
       "智能芯片与计算系统",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感智能"
     ],
     "verification": "Crossref exact/near-exact title and publication-year match; DOI URL preserved",
     "status": "已核验作品（Crossref DOI）",
@@ -1663,7 +1688,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2117,7 +2143,9 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2198,7 +2226,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计",
     "status": "候选条目/需按作者主页继续核验",
@@ -2285,7 +2314,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2403,7 +2433,9 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2501,7 +2533,9 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2607,7 +2641,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2800,7 +2835,8 @@
     "topics": [
       "未分类",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP作者索引快照；与官方作品集并行保留，待逐条身份核验",
     "status": "DBLP来源记录/待核验",
@@ -2897,7 +2933,9 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "脑电基础大模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3022,7 +3060,8 @@
       "脑电/脑机接口",
       "脑电情感识别",
       "脑电基础大模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -3150,7 +3189,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3238,7 +3278,8 @@
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
       "多模态与大语言模型",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3522,7 +3563,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3819,7 +3861,8 @@
       "脑电情感识别",
       "脑电基础大模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3927,7 +3970,8 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -4029,7 +4073,8 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -4128,7 +4173,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -4242,7 +4288,8 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -4277,12 +4324,14 @@
     "scholar_ids": [
       "lu_baoliang",
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "吕宝粮",
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "lu_baoliang_dbdd59bebb1f"
@@ -4328,13 +4377,29 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑电情感计算与脑电大模型",
+          "情感脑机接口",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑电情感识别"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "84be1430aab562a8",
     "primary_categories_by_scholar": [
       "吕宝粮：情感脑电与多模态生理信号",
       "尧德中：情感脑电与多模态生理信号",
-      "徐鹏：情感脑电与多模态生理信号"
+      "徐鹏：情感脑电与多模态生理信号",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "abstract_en": "Emotion recognition based on electroencephalogram (EEG) is fundamentally associated with human-like intelligence system. However, due to the noise-sensitive characteristics of EEGs and the individual variability of emotions, it is very challenging to extract inherent emotion dependent patterns from emotional EEG signals. In this work, we propose a L1-norm space defined discriminative brain network manifold learning model (L1-SGL), in which the EEG noise outliers can be effectively separated and the pseudolabeled samples caused by subjective feelings can be automatically corrected. Off-line experimental results consistently indicate that the L1-SGL can effectively suppress the influence of noise and achieve an incomparable superiority performance over other existing methods in EEG emotion recognition. Besides, benefiting from the time efficiency of the L1-SGL, an online emotion monitoring and regulation system is further implemented in this work. On-line emotion decoding experimental results (86.30%) of 25 participants prove that the L1-SGL can effectively satisfy the real-time requirements of on-line emotional monitoring applications, and the significant negative emotion regulation experimental results ( $p \\lt 0.001$ ) further confirm the feasibility and effectiveness of L1-SGL model in real-time emotion regulation and interactive applications. Overall, the L1-SGL provides a promising solution for the real-time online affective brain-computer interfaces (aBCIs) and the intelligent clinical closed-loop treatments.",
     "abstract_source": "openalex_verified",
@@ -4476,7 +4541,9 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -4578,7 +4645,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -4693,7 +4761,8 @@
     ],
     "topics": [
       "情感智能",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -4796,7 +4865,8 @@
       "脑电基础模型",
       "脑电到语言",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -5210,7 +5280,9 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -5312,7 +5384,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -5634,7 +5707,8 @@
       "脑电情感识别",
       "脑电基础大模型",
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -5777,10 +5851,12 @@
     "data_urls": [],
     "model_urls": [],
     "scholar_ids": [
-      "lu_baoliang"
+      "lu_baoliang",
+      "fabien_lotte"
     ],
     "scholar_names": [
-      "吕宝粮"
+      "吕宝粮",
+      "Fabien Lotte"
     ],
     "source_record_ids": [
       "lu_baoliang_11ad4271c0f2"
@@ -5797,10 +5873,22 @@
         ],
         "confidence": "low",
         "note": ""
+      },
+      "fabien_lotte": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "Fabien Lotte",
+        "secondary_tags": [
+          "神经科学/fMRI",
+          "fMRI/neuroscience"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "吕宝粮：脑电基础模型与通用解码"
+      "吕宝粮：脑电基础模型与通用解码",
+      "Fabien Lotte：生理情感数据库、基准与综述"
     ],
     "category_id": "eeg_foundation",
     "primary_category": "脑电基础模型与通用解码",
@@ -6035,7 +6123,9 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -6139,7 +6229,8 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -6246,7 +6337,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -6331,7 +6423,9 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -6415,7 +6509,9 @@
       "脑电到语言",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案",
     "status": "候选条目/需按作者主页继续核验",
@@ -6535,7 +6631,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -6610,7 +6707,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -6707,7 +6805,8 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -6805,7 +6904,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -6887,7 +6987,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -6981,7 +7082,8 @@
       "情感智能",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -7171,7 +7273,9 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -7245,7 +7349,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -7599,7 +7704,8 @@
     ],
     "topics": [
       "情感智能",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -7701,7 +7807,9 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -7887,7 +7995,8 @@
       "脑电/脑机接口",
       "脑电情感识别",
       "脑电基础大模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -8020,7 +8129,8 @@
       "情感智能",
       "脑电/脑机接口",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -8212,7 +8322,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -8377,7 +8488,8 @@
       "未分类",
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP作者索引快照；与官方作品集并行保留，待逐条身份核验",
     "status": "DBLP来源记录/待核验",
@@ -8412,12 +8524,14 @@
     "scholar_ids": [
       "lu_baoliang",
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "吕宝粮",
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "lu_baoliang_58185477c1f1"
@@ -8459,13 +8573,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "未分类",
+          "脑电情感识别",
+          "脑机接口与神经解码",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "b5e7650c34282d36",
     "primary_categories_by_scholar": [
       "吕宝粮：情感脑电与多模态生理信号",
       "尧德中：情感脑电与多模态生理信号",
-      "徐鹏：情感脑电与多模态生理信号"
+      "徐鹏：情感脑电与多模态生理信号",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "abstract_en": "Electroencephalogram (EEG) brain network embodies the brain’s coordination and interaction mechanism, and the transformations of emotional states are usually accompanied with changes in brain network spatial topologies. To effectively characterize emotions, in this work, we propose a cognition-inspired graph embedding model in the L1-norm space (L1-CGE) to learn an optimal low-dimensional embedded manifold for emotional brain networks. In the L1-CGE, the original brain networks are first encoded in the affinity space with the proposed cognition-inspired metric to construct the latent geometry manifold structure of emotional brain networks, and then the graph learning objective function is defined in the L1-norm space to obtain the optimal low-dimensional representations of brain networks. Essentially, the modularized community structures of emotional brain networks can be effectively emphasized by the L1-CGE to realize an effective depiction for emotions. Compared with existing methods, the L1-CGE model has achieved state-of-the-art performance on three public emotional EEG datasets in off-line conditions. Besides, the robust real-time experimental results have been achieved with the on-line emotion decoding system designed with L1-CGE. Both off- and on-line experimental results consistently demonstrate that the proposed L1-CGE is promising to provide a potential solution for the real-time affective brain-computer interface (aBCI) system.",
     "abstract_source": "openalex_verified",
@@ -8517,7 +8646,8 @@
       "脑电/脑机接口",
       "脑电情感识别",
       "脑电基础大模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -8890,7 +9020,8 @@
       "EEG/脑机接口",
       "脑电/脑机接口",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -9113,7 +9244,8 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -9194,7 +9326,8 @@
       "脑电情感识别",
       "脑电基础大模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案",
     "status": "候选条目/需按作者主页继续核验",
@@ -9335,7 +9468,8 @@
       "脑电/脑机接口",
       "脑电情感识别",
       "脑电基础大模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -9461,7 +9595,8 @@
       "多模态/大模型",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -9567,7 +9702,8 @@
       "脑电情感识别",
       "脑电基础大模型",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP作者索引快照；与官方作品集并行保留，待逐条身份核验",
     "status": "DBLP来源记录/待核验",
@@ -9691,7 +9827,8 @@
       "脑电情感识别",
       "脑电基础大模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -9804,7 +9941,8 @@
     "source_url": "https://doi.org/10.1109/ijcnn60899.2024.10650558",
     "topics": [
       "未分类",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "DBLP作者索引快照；与官方作品集并行保留，待逐条身份核验",
     "status": "DBLP来源记录/待核验",
@@ -9899,7 +10037,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -10234,7 +10373,8 @@
       "脑电到语言",
       "脑电情感识别",
       "脑电基础大模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -10372,7 +10512,8 @@
       "神经科学/fMRI",
       "脑电/脑机接口",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -10656,7 +10797,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -10809,7 +10951,8 @@
       "情感脑机接口",
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
-      "情感大模型与多模态基础模型"
+      "情感大模型与多模态基础模型",
+      "脑电基础大模型"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -10887,7 +11030,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -10967,7 +11111,8 @@
       "脑电到语言",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -11233,7 +11378,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -11310,7 +11456,8 @@
       "未分类",
       "脑电情感识别",
       "脑电基础大模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP作者索引快照；与官方作品集并行保留，待逐条身份核验",
     "status": "DBLP来源记录/待核验",
@@ -11408,7 +11555,8 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -11482,7 +11630,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -11821,7 +11970,8 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -12080,7 +12230,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 6,
     "publication_types": "",
     "candidate_source": false,
     "source_kind": "DBLP",
@@ -12101,10 +12251,12 @@
     "work_title_group": "a23e8d5cf97d",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "lu_baoliang"
+      "lu_baoliang",
+      "wanzeng_kong"
     ],
     "scholar_names": [
-      "吕宝粮"
+      "吕宝粮",
+      "孔万增"
     ],
     "source_record_ids": [
       "lu_baoliang_8ec0b6a972dc"
@@ -12120,11 +12272,22 @@
         ],
         "confidence": "candidate",
         "note": "全景名单/DBLP补充条目，需在作者主页或出版商页面进一步核验。"
+      },
+      "wanzeng_kong": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "孔万增",
+        "secondary_tags": [
+          "未分类"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "d29c7bd611dbee8b",
     "primary_categories_by_scholar": [
-      "吕宝粮：脑电基础模型与通用解码"
+      "吕宝粮：脑电基础模型与通用解码",
+      "孔万增：生理情感数据库、基准与综述"
     ],
     "abstract_en": "Fuzzy$k$-means (FKM) is a popular clustering method by assigning data points into respective clusters with uncertainty measured by the membership degree. Usually, FKM performs clustering according to the distance between data points in the original space, which might contain undesirable noises and redundant features; therefore, the underlying data semantic connections cannot be accurately captured. Moreover, the vectorized representation of the two-dimensional data such as image inevitably leads to the loss of structural information. In this paper, we propose a novel FKM method termed two-dimensional embedded fuzzy data clustering (2DEFC) which has two merits. First, 2DEFC directly takes 2D data as input without vectorizing them in order to retain more structural information of data. Second, the two subspace projection matrices are jointly optimized with the data membership degree for better collaborating with each other, which effectively avoids the sub-optimality limitation caused by the conventional mode of sequentially performing dimensionality reduction and clustering. An efficient algorithm is proposed to optimize the 2DEFC objective function. Besides, we provide comprehensive analysis on 2DEFC including its convergence behavior, computational complexity, and the fuzzy weighting exponent. Extensive comparative studies on benchmark 2D data sets demonstrate that the competitive performance of 2DEFC in 2D data clustering.",
     "abstract_source": "openalex_doi",
@@ -12316,7 +12479,8 @@
       "情感智能",
       "脑电/脑机接口",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -12430,7 +12594,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -12587,7 +12752,8 @@
       "脑电到语言",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -12714,7 +12880,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -12798,7 +12965,8 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -12898,7 +13066,8 @@
     "topics": [
       "未分类",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP作者索引快照；与官方作品集并行保留，待逐条身份核验",
     "status": "DBLP来源记录/待核验",
@@ -12934,10 +13103,12 @@
     "work_title_group": "dc8dbbb61199",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "lu_baoliang"
+      "lu_baoliang",
+      "wanzeng_kong"
     ],
     "scholar_names": [
-      "吕宝粮"
+      "吕宝粮",
+      "孔万增"
     ],
     "source_record_ids": [
       "lu_baoliang_1f2ee485c604"
@@ -12953,11 +13124,25 @@
         ],
         "confidence": "candidate",
         "note": "全景名单/DBLP补充条目，需在作者主页或出版商页面进一步核验。"
+      },
+      "wanzeng_kong": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "孔万增",
+        "secondary_tags": [
+          "未分类",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "162ee4ed7f8ffe99",
     "primary_categories_by_scholar": [
-      "吕宝粮：情感脑电与多模态生理信号"
+      "吕宝粮：情感脑电与多模态生理信号",
+      "孔万增：脑电情感识别与多模态生理计算"
     ],
     "abstract_en": "Due to the weak and nonstationary properties, electroencephalogram (EEG) data present significant individual differences. To align data distributions of different subjects, transfer learning showed promising performance in cross-subject EEG emotion recognition. However, most of the existing models sequentially learned the domain-invariant features and estimated the target domain label information. Such a two-stage strategy breaks the inner connections of both processes, inevitably causing the suboptimality. In this article, we propose a joint EEG feature transfer and semisupervised cross-subject emotion recognition model in which the shared subspace projection matrix and target label are jointly optimized toward the optimum. Extensive experiments are conducted on SEED-IV and SEED, and the results show that the emotion recognition performance is significantly enhanced by the joint learning mode and the spatial-frequency activation patterns of critical EEG frequency bands and brain regions in cross-subject emotion expression are quantitatively identified by analyzing the learned shared subspace.",
     "abstract_source": "openalex_verified",
@@ -13062,7 +13247,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -13269,7 +13455,8 @@
     "topics": [
       "未分类",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP作者索引快照；与官方作品集并行保留，待逐条身份核验",
     "status": "DBLP来源记录/待核验",
@@ -13484,7 +13671,8 @@
       "脑电基础模型",
       "脑电到语言",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -13712,7 +13900,9 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -14053,7 +14243,8 @@
       "脑电情感识别",
       "情感计算与情绪理解",
       "多模态与大语言模型",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -14327,7 +14518,9 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -14427,7 +14620,8 @@
       "脑电基础模型",
       "脑电到语言",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -14540,7 +14734,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -14620,7 +14815,8 @@
       "脑电到语言",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案",
     "status": "候选条目/需按作者主页继续核验",
@@ -14817,7 +15013,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -14895,7 +15092,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -14969,7 +15167,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -15198,10 +15397,12 @@
     "work_title_group": "e8ee1c7d2d94",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "lu_baoliang"
+      "lu_baoliang",
+      "wanzeng_kong"
     ],
     "scholar_names": [
-      "吕宝粮"
+      "吕宝粮",
+      "孔万增"
     ],
     "source_record_ids": [
       "lu_baoliang_6a37124fd7d5"
@@ -15217,11 +15418,22 @@
         ],
         "confidence": "candidate",
         "note": "全景名单/DBLP补充条目，需在作者主页或出版商页面进一步核验。"
+      },
+      "wanzeng_kong": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "孔万增",
+        "secondary_tags": [
+          "未分类"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "d9fb074526d32f8a",
     "primary_categories_by_scholar": [
-      "吕宝粮：脑电基础模型与通用解码"
+      "吕宝粮：脑电基础模型与通用解码",
+      "孔万增：生理情感数据库、基准与综述"
     ],
     "abstract_en": "Most of the existing graph-based clustering models performed clustering by adopting a two-stage strategy which first completes the spectral embedding from a given fixed graph and then resorts to other clustering methods such as$k$means to achieve discrete cluster results. On one hand, such a discretization operation easily causes that the obtained results deviate far from the true solution. On the other hand, clustering performance heavily relies on the quality of graph; therefore, the fixed graph is usually not optimal enough. In addition, clustering by separated steps inevitably breaks the underlying connections among the graph construction, spectral embedding and discretization. To address these drawbacks, in this paper, we propose a new spectral clustering model termed JGSED which integrates the graph construction, spectral embedding and spectral rotation together into a unified objective. JGSED is an end-to-end framework to directly take data as input and output the final binary cluster indicator matrix. An efficient algorithm is proposed to optimize the model variables in JGSED, which can be co-evolved towards the optimum. Extensive experiments are conducted on both synthetic and real data sets and the results demonstrate that JGSED outperforms the other state-of-the-art spectral clustering models, indicating the effectiveness of joint optimization.",
     "abstract_source": "openalex_verified",
@@ -15245,7 +15457,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -15396,7 +15609,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -15553,7 +15767,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -15631,7 +15846,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -15705,7 +15921,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -15780,7 +15997,8 @@
     "topics": [
       "未分类",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP作者索引快照；与官方作品集并行保留，待逐条身份核验",
     "status": "DBLP来源记录/待核验",
@@ -15815,10 +16033,12 @@
     "work_title_group": "a95c1dea5d50",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "lu_baoliang"
+      "lu_baoliang",
+      "wanzeng_kong"
     ],
     "scholar_names": [
-      "吕宝粮"
+      "吕宝粮",
+      "孔万增"
     ],
     "source_record_ids": [
       "lu_baoliang_229a6deaccdb"
@@ -15834,11 +16054,25 @@
         ],
         "confidence": "candidate",
         "note": "全景名单/DBLP补充条目，需在作者主页或出版商页面进一步核验。"
+      },
+      "wanzeng_kong": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "孔万增",
+        "secondary_tags": [
+          "未分类",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "16aa6e11d250ac10",
     "primary_categories_by_scholar": [
-      "吕宝粮：情感脑电与多模态生理信号"
+      "吕宝粮：情感脑电与多模态生理信号",
+      "孔万增：脑电情感识别与多模态生理计算"
     ],
     "abstract_en": "Recently, electroencephalogram (EEG)-based emotion recognition has attracted increasing interests in research community. The weak, non-stationary, multi-rhythm and multi-channel properties of EEG data easily cause the extracted EEG samples and features contribute differently in recognizing emotional states. However, existing studies either failed to consider both the issues of sample and feature importance or only considered one of them. In this brief, we propose a new model termed sJSFE (semi-supervised Joint Sample and Feature importance Evaluation) to quantitatively measure the sample and feature importance by self-paced learning and feature self-weighting respectively. Experimental results on the SEED-IV data set show that the emotion recognition performance is greatly improved by mining both the sample and feature importance. Specifically, the average accuracy obtained by sJSFE across the three cross-session recognition tasks is 82.45%, which is respectively 3.72% and 7.21% and 10.47% and 18.82% higher than the results of traditional models. Besides, the feature importance vector depicts that theGammafrequency band contributes the most, and the brain regions of prefrontal, left/right temporal and (central) parietal lobes correlate more to emotion recognition. The sample importance descriptor shows that continual transitions of video types in consecutive trials might weaken the feature-label consistency of the collected EEG data.",
     "abstract_source": "openalex_verified",
@@ -15865,7 +16099,8 @@
       "未分类",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "DBLP作者索引快照；与官方作品集并行保留，待逐条身份核验",
     "status": "DBLP来源记录/待核验",
@@ -15962,7 +16197,8 @@
       "未分类",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "DBLP作者索引快照；与官方作品集并行保留，待逐条身份核验",
     "status": "DBLP来源记录/待核验",
@@ -16256,7 +16492,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -16334,7 +16571,9 @@
       "脑电基础模型",
       "脑电到语言",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -16439,7 +16678,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -16514,7 +16754,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -16675,7 +16916,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -16863,7 +17105,8 @@
       "情感智能",
       "脑电/脑机接口",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -16965,7 +17208,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5040440605）",
     "status": "已索引出版/会议记录",
@@ -16976,10 +17220,12 @@
     "scholar_id": "lu_baoliang",
     "scholar_name": "吕宝粮",
     "scholar_ids": [
-      "lu_baoliang"
+      "lu_baoliang",
+      "wanzeng_kong"
     ],
     "scholar_names": [
-      "吕宝粮"
+      "吕宝粮",
+      "孔万增"
     ],
     "source_record_ids": [
       "lu_baoliang_80652cf57dc2cf87"
@@ -17002,10 +17248,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "wanzeng_kong": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "孔万增",
+        "secondary_tags": [
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "吕宝粮：情感脑电与多模态生理信号"
+      "吕宝粮：情感脑电与多模态生理信号",
+      "孔万增：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -17036,7 +17295,9 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份已核验；公开目录/代表作范围已接入，非全部生涯作品；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -17164,7 +17425,8 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -17777,10 +18039,12 @@
     "work_title_group": "dc17e8a0f65a",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "lu_baoliang"
+      "lu_baoliang",
+      "wanzeng_kong"
     ],
     "scholar_names": [
-      "吕宝粮"
+      "吕宝粮",
+      "孔万增"
     ],
     "source_record_ids": [
       "lu_baoliang_45d787c02fe0"
@@ -17796,11 +18060,23 @@
         ],
         "confidence": "candidate",
         "note": "全景名单/DBLP补充条目，需在作者主页或出版商页面进一步核验。"
+      },
+      "wanzeng_kong": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "孔万增",
+        "secondary_tags": [
+          "未分类",
+          "脑电情感识别"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "f8b6fabc6c55adfb",
     "primary_categories_by_scholar": [
-      "吕宝粮：情感脑电与多模态生理信号"
+      "吕宝粮：情感脑电与多模态生理信号",
+      "孔万增：脑电情感识别与多模态生理计算"
     ],
     "abstract_en": "Recently, Electroencephalogram (EEG) has been receiving increasing attention in driving fatigue attention because it is generated by the neural activities of central nervous system and has been regarded as the gold standard to measure fatigue. However, most existing studies for EEG-based driving fatigue detection have some common limitations such as 1) using the batch learning mode and no incremental updating ability, 2) converting continuous fatigue indices into discrete levels which deviates far from the essence of fatigue detection, and 3) neglecting considering the different contributions of EEG feature dimensions in fatigue expression. To handle these problems, we propose an Auto-Weighting Incremental Random Vector Functional Link network (AWIRVFL) model for EEG-based driving fatigue detection, which simultaneously implements online regression prediction and incremental learning. Moreover, an auto-weighting variable is introduced to adaptively and quantitatively explore the importance of different feature dimensions. A novel optimization algorithm is proposed to solve the AWIRVFL objective function. Experiments were conducted on the SEED-VIG and sustained-attention driving task (SADT) data sets to validate the performance of AWIRVFL and the results demonstrated that AWIRVFL greatly outperforms the state-of-the-arts in terms of the two regression evaluation metrics, RMSE and MAPE. Moreover, the quantitative feature importance values are obtained.",
     "abstract_source": "openalex_verified",
@@ -17842,7 +18118,8 @@
       "脑电情感识别",
       "脑电基础大模型",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -18032,7 +18309,8 @@
       "脑电基础大模型",
       "脑机接口与神经解码",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "DBLP作者索引快照；与官方作品集并行保留，待逐条身份核验",
     "status": "DBLP来源记录/待核验",
@@ -18138,7 +18416,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -18171,10 +18450,12 @@
     "work_title_group": "c56347ba7364",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "lu_baoliang"
+      "lu_baoliang",
+      "wanzeng_kong"
     ],
     "scholar_names": [
-      "吕宝粮"
+      "吕宝粮",
+      "孔万增"
     ],
     "source_record_ids": [
       "lu_baoliang_e80a60dd0b64"
@@ -18190,11 +18471,27 @@
         ],
         "confidence": "candidate",
         "note": "全景名单/DBLP补充条目，需在作者主页或出版商页面进一步核验。"
+      },
+      "wanzeng_kong": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "孔万增",
+        "secondary_tags": [
+          "脑电情感计算与脑电大模型",
+          "情感脑机接口",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑电情感识别"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "2f31e073cd076d08",
     "primary_categories_by_scholar": [
-      "吕宝粮：情感脑电与多模态生理信号"
+      "吕宝粮：情感脑电与多模态生理信号",
+      "孔万增：生理情感数据库、基准与综述"
     ],
     "pdf_url": "https://www.mdpi.com/2079-8954/10/2/47/pdf?version=1649752749",
     "abstract_en": "Distribution discrepancies between different sessions greatly degenerate the performance of video-evoked electroencephalogram (EEG) emotion recognition. There are discrepancies since the EEG signal is weak and non-stationary and these discrepancies are manifested in different trails in each session and even in some trails which belong to the same emotion. To this end, we propose a Coupled Projection Transfer Metric Learning (CPTML) model to jointly complete domain alignment and graph-based metric learning, which is a unified framework to simultaneously minimize cross-session and cross-trial divergences. By experimenting on the SEED_IV emotional dataset, we show that (1) CPTML exhibits a significantly better performance than several other approaches; (2) the cross-session distribution discrepancies are minimized and emotion metric graph across different trials are optimized in the CPTML-induced subspace, indicating the effectiveness of data alignment and metric exploration; and (3) critical EEG frequency bands and channels for emotion recognition are automatically identified from the learned projection matrices, providing more insights into the occurrence of the effect.",
@@ -18226,7 +18523,9 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -18259,10 +18558,12 @@
     "work_title_group": "1ab4ca5a1d56",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "lu_baoliang"
+      "lu_baoliang",
+      "wanzeng_kong"
     ],
     "scholar_names": [
-      "吕宝粮"
+      "吕宝粮",
+      "孔万增"
     ],
     "source_record_ids": [
       "lu_baoliang_0488e7a94aad"
@@ -18278,11 +18579,27 @@
         ],
         "confidence": "candidate",
         "note": "全景名单/DBLP补充条目，需在作者主页或出版商页面进一步核验。"
+      },
+      "wanzeng_kong": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "孔万增",
+        "secondary_tags": [
+          "脑电情感计算与脑电大模型",
+          "情感脑机接口",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑电情感识别"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "98c80a994e789a62",
     "primary_categories_by_scholar": [
-      "吕宝粮：情感脑电与多模态生理信号"
+      "吕宝粮：情感脑电与多模态生理信号",
+      "孔万增：生理情感数据库、基准与综述"
     ],
     "abstract_en": "Though Electroencephalogram (EEG) could objectively reflect emotional states of our human beings, its weak, non-stationary, and low signal-to-noise properties easily cause the individual differences. To enhance the universality of affective brain-computer interface systems, transfer learning has been widely used to alleviate the data distribution discrepancies among subjects. However, most of existing approaches focused mainly on the domain-invariant feature learning, which is not unified together with the recognition process. In this paper, we propose a joint feature adaptation and graph adaptive label propagation model (JAGP) for cross-subject emotion recognition from EEG signals, which seamlessly unifies the three components of domain-invariant feature learning, emotional state estimation and optimal graph learning together into a single objective. We conduct extensive experiments on two benchmark SEED_IV and SEED_V data sets and the results reveal that 1) the recognition performance is greatly improved, indicating the effectiveness of the triple unification mode; 2) the emotion metric of EEG samples are gradually optimized during model training, showing the necessity of optimal graph learning, and 3) the projection matrix-induced feature importance is obtained based on which the critical frequency bands and brain regions corresponding to subject-invariant features can be automatically identified, demonstrating the superiority of the learned shared subspace.",
     "abstract_source": "openalex_verified",
@@ -18391,7 +18708,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5040440605）",
     "status": "已索引出版/会议记录",
@@ -18402,10 +18720,12 @@
     "scholar_id": "lu_baoliang",
     "scholar_name": "吕宝粮",
     "scholar_ids": [
-      "lu_baoliang"
+      "lu_baoliang",
+      "wanzeng_kong"
     ],
     "scholar_names": [
-      "吕宝粮"
+      "吕宝粮",
+      "孔万增"
     ],
     "source_record_ids": [
       "lu_baoliang_cefb20e83470c44d"
@@ -18427,10 +18747,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "wanzeng_kong": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "孔万增",
+        "secondary_tags": [
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "吕宝粮：情感脑电与多模态生理信号"
+      "吕宝粮：情感脑电与多模态生理信号",
+      "孔万增：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -18609,7 +18942,8 @@
     "topics": [
       "未分类",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP作者索引快照；与官方作品集并行保留，待逐条身份核验",
     "status": "DBLP来源记录/待核验",
@@ -18642,10 +18976,12 @@
     "work_title_group": "41dd72a95933",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "lu_baoliang"
+      "lu_baoliang",
+      "wanzeng_kong"
     ],
     "scholar_names": [
-      "吕宝粮"
+      "吕宝粮",
+      "孔万增"
     ],
     "source_record_ids": [
       "lu_baoliang_014bde9a3ec6"
@@ -18661,11 +18997,25 @@
         ],
         "confidence": "candidate",
         "note": "全景名单/DBLP补充条目，需在作者主页或出版商页面进一步核验。"
+      },
+      "wanzeng_kong": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "孔万增",
+        "secondary_tags": [
+          "未分类",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "bb48fb7f0f6d8c50",
     "primary_categories_by_scholar": [
-      "吕宝粮：情感脑电与多模态生理信号"
+      "吕宝粮：情感脑电与多模态生理信号",
+      "孔万增：生理情感数据库、基准与综述"
     ],
     "abstract_en": "Emotion recognition from electroencephalogram (EEG) data has been a research spotlight in both academic and industrial communities, which lays a solid foundation to achieve harmonic human–machine interaction. However, most of the existing studies either directly performed classification on primary EEG features or employed a two-stage paradigm of “feature transformation plus classification” for emotion recognition. The former usually cannot obtain promising performance, while the latter inevitably breaks the connection between feature transformation and recognition. In this article, we propose a simple yet effective model named semisupervised sparse low-rank regression (S3LRR) to unify the discriminative subspace identification and semisupervised emotion recognition together. Specifically, S3LRR is formulated by decomposing the projection matrix in least square regression (LSR) into two factor matrices, which complete the discriminative subspace identification and connect the subspace EEG data representation with emotional states. Experimental studies on the benchmark SEED_V dataset show that the emotion recognition performance is greatly improved by the joint learning mechanism of S3LRR. Furthermore, S3LRR exhibits additional abilities in affective activation patterns exploration and EEG feature selection.",
     "abstract_source": "openalex_verified",
@@ -18690,7 +19040,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -18765,7 +19116,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -18841,7 +19193,8 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -18916,7 +19269,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -19298,7 +19652,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -19379,7 +19734,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -19539,7 +19895,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -19803,7 +20160,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -20089,7 +20447,8 @@
     ],
     "topics": [
       "情感智能",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -20195,7 +20554,8 @@
       "多模态/大模型",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -20449,7 +20809,9 @@
       "脑电情感识别",
       "情感计算与情绪理解",
       "多模态与大语言模型",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -20632,7 +20994,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -20726,7 +21089,8 @@
       "多模态/大模型",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -21135,7 +21499,8 @@
       "视觉/眼动",
       "脑电/脑机接口",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -21230,7 +21595,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -21393,7 +21759,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -21473,7 +21840,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -21552,7 +21920,8 @@
       "脑电基础模型",
       "脑电到语言",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -21753,7 +22122,8 @@
       "脑电/多模态大模型",
       "多模态/大模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -21846,7 +22216,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -21926,7 +22297,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -22033,7 +22405,8 @@
       "情感智能",
       "脑电/脑机接口",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -22063,10 +22436,12 @@
     "data_urls": [],
     "model_urls": [],
     "scholar_ids": [
-      "lu_baoliang"
+      "lu_baoliang",
+      "wanzeng_kong"
     ],
     "scholar_names": [
-      "吕宝粮"
+      "吕宝粮",
+      "孔万增"
     ],
     "source_record_ids": [
       "lu_baoliang_02228b63bdbd"
@@ -22086,10 +22461,26 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "wanzeng_kong": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "孔万增",
+        "secondary_tags": [
+          "EEG/脑机接口",
+          "情感智能",
+          "脑电/脑机接口",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "吕宝粮：情感脑电与多模态生理信号"
+      "吕宝粮：情感脑电与多模态生理信号",
+      "孔万增：生理情感数据库、基准与综述"
     ],
     "category_id": "eeg_affect",
     "primary_category": "情感脑电与多模态生理信号",
@@ -22125,7 +22516,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -22217,7 +22609,8 @@
     "topics": [
       "情感智能",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -22975,7 +23368,8 @@
       "脑电/多模态大模型",
       "多模态/大模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -23065,7 +23459,8 @@
       "未分类",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "DBLP作者索引快照；与官方作品集并行保留，待逐条身份核验",
     "status": "DBLP来源记录/待核验",
@@ -23310,7 +23705,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -23465,7 +23861,8 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -23841,10 +24238,12 @@
     "data_urls": [],
     "model_urls": [],
     "scholar_ids": [
-      "lu_baoliang"
+      "lu_baoliang",
+      "wanzeng_kong"
     ],
     "scholar_names": [
-      "吕宝粮"
+      "吕宝粮",
+      "孔万增"
     ],
     "source_record_ids": [
       "lu_baoliang_83f161987783"
@@ -23861,10 +24260,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "wanzeng_kong": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "孔万增",
+        "secondary_tags": [
+          "EEG/脑机接口",
+          "脑电/脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "吕宝粮：脑电基准、数据与评测"
+      "吕宝粮：脑电基准、数据与评测",
+      "孔万增：脑电情感识别与多模态生理计算"
     ],
     "category_id": "eeg_benchmark",
     "primary_category": "脑电基准、数据与评测",
@@ -23875,7 +24286,8 @@
     "openalex_id": "https://openalex.org/W3015830139",
     "abstract_en": "Measuring the sleep quality is important or even crucial for people who are engaged in dangerous jobs such as the high-speed train drivers. Since the scalp EEG data are generated by the neural activities of the brain cortex, it is collected from subjects with different hours of sleep time (4 hours, 6 hours and 8 hours) to conduct sleep quality evaluation. To suppress the cross-subject variances of EEG data, in this paper, we propose a joint feature auto-weighting and semi-supervised classification model, termed GRLSR, which is formulated by introducing an auto-weighting variable into the least square regression to adaptively and quantitatively measure the importance of each dimension of the feature. Once the model is solved, besides the measurement results, we can use the auto-weighting variable to 1) analyze the importance of each frequency band in sleep quality expression and 2) identify the capacity of different channels connecting to the sleep effect. Therefore, the proposed GRLSR is a pure data-driven computing model for EEG-based cross-subject sleep quality evaluation. Experimental results show its effectiveness.",
     "abstract_source": "openalex_doi",
-    "abstract_zh": "对于从事高铁司机等危险工作的人来说，测量睡眠质量非常重要甚至至关重要。由于头皮脑电图数据是由大脑皮层的神经活动产生的，因此采集不同睡眠时间（4小时、6小时和8小时）的受试者来进行睡眠质量评估。为了抑制脑电图数据的跨主题方差，本文提出了一种联合特征自动加权和半监督分类模型，称为GRLSR，该模型通过在最小二乘回归中引入自动加权变量来自适应地定量测量脑电图每个维度的重要性。"
+    "abstract_zh": "对于从事高铁司机等危险工作的人来说，测量睡眠质量非常重要甚至至关重要。由于头皮脑电图数据是由大脑皮层的神经活动产生的，因此采集不同睡眠时间（4小时、6小时和8小时）的受试者来进行睡眠质量评估。为了抑制脑电图数据的跨主题方差，本文提出了一种联合特征自动加权和半监督分类模型，称为GRLSR，该模型通过在最小二乘回归中引入自动加权变量来自适应地定量测量脑电图每个维度的重要性。",
+    "cited_by_count": 7
   },
   {
     "title": "Data Augmentation for Enhancing EEG-based Emotion Recognition with Deep Generative Models",
@@ -23898,7 +24310,8 @@
       "EEG/BCI",
       "emotion/affective",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "resource_ids": [],
     "status": "作者官方发表目录记录；年/状态按原目录保留",
@@ -24003,7 +24416,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -24224,11 +24638,13 @@
     "model_urls": [],
     "scholar_ids": [
       "lu_baoliang",
-      "wei_long_zheng"
+      "wei_long_zheng",
+      "guoxing_wang"
     ],
     "scholar_names": [
       "吕宝粮",
-      "郑伟龙"
+      "郑伟龙",
+      "王国兴"
     ],
     "source_record_ids": [
       "lu_baoliang_63005ac76880"
@@ -24256,11 +24672,23 @@
         ],
         "confidence": "low",
         "note": ""
+      },
+      "guoxing_wang": {
+        "category_id": "eeg_bci_decode",
+        "label": "脑机接口、神经解码与情感脑电",
+        "scholar_name": "王国兴",
+        "secondary_tags": [
+          "其他主题",
+          "其他/需人工细分"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "吕宝粮：脑电基础模型与通用解码",
-      "郑伟龙：脑电基础模型与通用解码"
+      "郑伟龙：脑电基础模型与通用解码",
+      "王国兴：脑机接口、神经解码与情感脑电"
     ],
     "category_id": "eeg_foundation",
     "primary_category": "脑电基础模型与通用解码",
@@ -24294,7 +24722,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -24452,7 +24881,9 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -24742,7 +25173,8 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -25672,7 +26104,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -25773,7 +26206,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -25866,7 +26300,8 @@
       "多模态/大模型",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -25980,7 +26415,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -26113,7 +26549,8 @@
       "视觉/视频",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -26204,7 +26641,8 @@
     "topics": [
       "未分类",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "DBLP作者索引快照；与官方作品集并行保留，待逐条身份核验",
     "status": "DBLP来源记录/待核验",
@@ -26475,7 +26913,9 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -26700,7 +27140,8 @@
     "topics": [
       "未分类",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "DBLP作者索引快照；与官方作品集并行保留，待逐条身份核验",
     "status": "DBLP来源记录/待核验",
@@ -26779,7 +27220,8 @@
       "未分类",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "DBLP作者索引快照；与官方作品集并行保留，待逐条身份核验",
     "status": "DBLP来源记录/待核验",
@@ -26954,7 +27396,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -27193,7 +27636,8 @@
       "脑电解码与脑机接口",
       "脑电情感计算",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -27396,7 +27840,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -27597,7 +28042,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -28175,7 +28621,8 @@
       "情感智能",
       "脑电/脑机接口",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -28387,7 +28834,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -28477,7 +28925,8 @@
     ],
     "topics": [
       "情感智能",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -28566,7 +29015,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -28662,7 +29112,8 @@
     ],
     "topics": [
       "情感智能",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -28762,7 +29213,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -28841,7 +29293,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -29017,7 +29470,8 @@
       "情感智能",
       "脑电/脑机接口",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -29302,7 +29756,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -29382,7 +29837,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -29705,7 +30161,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -30266,7 +30723,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -30356,7 +30814,8 @@
     "topics": [
       "情感智能",
       "神经科学/fMRI",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -30648,7 +31107,8 @@
       "神经科学/fMRI",
       "多模态/大模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -30771,7 +31231,8 @@
       "脑电/多模态大模型",
       "多模态/大模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -30878,7 +31339,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -30980,7 +31442,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -31246,7 +31709,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -31753,7 +32217,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -31912,7 +32377,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -32011,7 +32477,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -32256,7 +32723,8 @@
       "情感智能",
       "脑电/脑机接口",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -32519,7 +32987,8 @@
       "多模态/大模型",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -33509,7 +33978,8 @@
       "脑电/多模态大模型",
       "多模态/大模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -34575,7 +35045,8 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -34660,7 +35131,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -34816,7 +35288,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -35396,7 +35869,8 @@
       "EEG/BCI",
       "emotion/affective",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "resource_ids": [],
     "status": "作者官方发表目录记录；年/状态按原目录保留",
@@ -35490,7 +35964,8 @@
       "脑电/脑机接口",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -35811,7 +36286,8 @@
       "神经科学/fMRI",
       "脑电/脑机接口",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -35922,7 +36398,8 @@
       "emotion/affective",
       "fMRI/neuroscience",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "resource_ids": [],
     "status": "作者官方发表目录记录；年/状态按原目录保留",
@@ -36000,7 +36477,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -36879,7 +37357,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -37776,7 +38255,9 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -38098,7 +38579,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -38173,7 +38655,9 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -38248,7 +38732,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -38770,7 +39255,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -39464,7 +39950,8 @@
       "情感智能",
       "脑电/脑机接口",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -39876,7 +40363,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -40153,7 +40641,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -40396,7 +40885,8 @@
       "多模态/大模型",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -40899,7 +41389,8 @@
     "topics": [
       "未分类",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP作者索引快照；与官方作品集并行保留，待逐条身份核验",
     "status": "DBLP来源记录/待核验",
@@ -41442,7 +41933,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -41748,7 +42240,8 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -41981,7 +42474,8 @@
       "emotion/affective",
       "fMRI/neuroscience",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "resource_ids": [],
     "status": "作者官方发表目录记录；年/状态按原目录保留",
@@ -44117,7 +44611,8 @@
       "EEG/BCI",
       "emotion/affective",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "resource_ids": [],
     "status": "作者官方发表目录记录；年/状态按原目录保留",
@@ -44672,7 +45167,8 @@
     "topics": [
       "未分类",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP作者索引快照；与官方作品集并行保留，待逐条身份核验",
     "status": "DBLP来源记录/待核验",
@@ -46064,7 +46560,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -46215,7 +46712,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -47574,7 +48072,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -48581,7 +49080,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -50851,10 +51351,12 @@
     "data_urls": [],
     "model_urls": [],
     "scholar_ids": [
-      "lu_baoliang"
+      "lu_baoliang",
+      "guodong_zhou"
     ],
     "scholar_names": [
-      "吕宝粮"
+      "吕宝粮",
+      "周国栋"
     ],
     "source_record_ids": [
       "lu_baoliang_2c30131a985a"
@@ -50871,17 +51373,33 @@
         ],
         "confidence": "low",
         "note": ""
+      },
+      "guodong_zhou": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "周国栋",
+        "secondary_tags": [
+          "其他主题",
+          "其他/需人工细分"
+        ],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "吕宝粮：脑电基础模型与通用解码"
+      "吕宝粮：脑电基础模型与通用解码",
+      "周国栋：自然语言处理、多模态学习与通用方法"
     ],
     "category_id": "eeg_foundation",
     "primary_category": "脑电基础模型与通用解码",
     "secondary_tags": [],
     "classification_basis": "兼容保留旧分类记录；未因全景名单重复合并。",
     "classification_confidence": "compatibility",
-    "classification_note": "旧版本 global_record_id 兼容条目。"
+    "classification_note": "旧版本 global_record_id 兼容条目。",
+    "abstract_en": "This paper presents a system which adopts a standard sequence labeling technique for hedge detection and scope finding. For the first task, hedge detection, we formulate it as a hedge labeling problem, while for the second task, we use a two-step labeling strategy, one for hedge cue labeling and the other for scope finding. In particular, various kinds of syntactic features are systemically exploited and effectively integrated using a large-scale normalized feature selection method. Evaluation on the CoNLL-2010 shared task shows that our system achieves stable and competitive results for all the closed tasks. Furthermore, post-deadline experiments show that the performance can be much further improved using a sufficient feature selection.",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 7,
+    "abstract_zh": "本文提出了一种采用标准序列标记技术进行对冲检测和范围查找的系统。对于第一个任务，即对冲检测，我们将其表述为对冲标记问题，而对于第二个任务，我们使用两步标记策略，一个用于对冲线索标记，另一个用于范围查找。特别是，使用大规模归一化特征选择方法系统地利用和有效地集成了各种句法特征。对 CoNLL-2010 共享任务的评估表明，我们的系统在所有封闭任务中都取得了稳定且有竞争力的结果。此外，截止日期后的实验表明，使用足够的特征选择可以进一步提高性能。"
   },
   {
     "title": "Information Retrieval, Question Answering, and Cross-Lingual Information Access, Tokyo, Japan, June 15-18, 2010",

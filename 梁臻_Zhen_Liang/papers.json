@@ -404,7 +404,8 @@
       "脑机接口与神经解码",
       "情感计算与情绪理解",
       "智能芯片与计算系统",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -706,7 +707,8 @@
       "情感智能",
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "resource_ids": [
       "liang_zhen__LIANG_CODE_MAT",
@@ -1059,10 +1061,12 @@
     "data_urls": [],
     "model_urls": [],
     "scholar_ids": [
-      "liang_zhen"
+      "liang_zhen",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "梁臻"
+      "梁臻",
+      "俞祝良"
     ],
     "source_record_ids": [
       "liang_zhen_1bc310eae71d"
@@ -1077,11 +1081,27 @@
         ],
         "confidence": "high",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "EEG/脑机接口",
+          "神经科学/fMRI",
+          "脑电/脑机接口",
+          "视觉/视频",
+          "脑机接口与神经解码",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "87977aed5e3eb040",
     "primary_categories_by_scholar": [
-      "梁臻：脑信号方法与脑机接口"
+      "梁臻：脑信号方法与脑机接口",
+      "俞祝良：生理情感数据库、基准与综述"
     ],
     "openalex_id": "https://openalex.org/W4411863964",
     "openalex_author_id": "https://openalex.org/A5036446937",
@@ -1293,7 +1313,8 @@
       "脑电情感识别",
       "情感计算与情绪理解",
       "强化学习与决策优化",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -1537,7 +1558,8 @@
       "脑电/脑机接口",
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -2015,7 +2037,8 @@
       "脑电/脑机接口",
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -2195,12 +2218,14 @@
     "scholar_ids": [
       "liang_zhen",
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "梁臻",
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "liang_zhen_113abf116754"
@@ -2237,13 +2262,26 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "神经科学/fMRI",
+          "其他/需人工细分",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "dbd7827f681fdf28",
     "primary_categories_by_scholar": [
       "梁臻：情绪、知觉与疼痛神经研究",
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "openalex_id": "https://openalex.org/W4415299461",
     "abstract_en": "• Frontal ERPs reflect the distinct neural responses to partners’ behavioral cues during negotiation. • ERP-based causal modeling reveals directional neural interactions between partners in social exchange. • Prediction model incorporating interbrain causal links improves accuracy compared to single-brain models during asymmetric social interaction. • An ERP-based causal model offers a novel framework for understanding complex social behaviors. Uncovering the interbrain neural mechanisms underlying interpersonal negotiation offers insight into social decision-making dynamics in resource allocation. In this study, we used EEG hyperscanning alongside an iterated ultimatum game to investigate interbrain coupling and dyadic exchange behavior during negotiation. Frontal cortex event-related potentials (ERPs) revealed the distinct neural responses driven by partners’ behavioral cues: the proposer’s N200 differed significantly for fair versus unfair offers, and the responder’s feedback-related negativity (FRN) showed a trend toward significance for the same contrast, while the proposer’s N500 varied between acceptance and rejection feedback. Our analysis introduced a novel causal model based on directional phase transfer entropy (dPTE) and time-varying ERP amplitudes, illustrating directed neural processes driven by social exchange, where the proposer’s brain activity initially exerts a causal impact on the responder’s, whose feedback in turn influences the proposer, creating a closed-loop interaction that drives adaptive negotiation strategies. Additionally, our prediction model with autoregression with exogenous input, which incorporated these causal links between brains, demonstrated higher accuracy than single-brain or reverse causal models, underscoring the significance of dynamic interbrain coupling in interpersonal coordination. This causal model provides a mechanistic explanation of how proposer-responder pairs perceive and adapt to each other’s decisions, facilitating shared attention and behavioral coordination in reciprocal, asymmetric negotiations. These findings offer a novel theoretical framework for studying complex social behaviors through interbrain dynamics and may inspire future applications in enhancing cooperative decision-making processes.",
@@ -2350,12 +2388,14 @@
     ],
     "data_urls": [],
     "model_urls": [],
-    "resource_status": "已关联公开入口；具体访问范围见资源说明",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
-      "liang_zhen"
+      "liang_zhen",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "梁臻"
+      "梁臻",
+      "俞祝良"
     ],
     "source_record_ids": [
       "liang_zhen_a570b14150ee"
@@ -2372,11 +2412,27 @@
         ],
         "confidence": "high",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "EEG/脑机接口",
+          "情感智能",
+          "强化学习",
+          "脑电/脑机接口",
+          "强化学习/偏好优化",
+          "脑电情感识别"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "8f67e3e03ddd21bc",
     "primary_categories_by_scholar": [
-      "梁臻：情感识别、连续情绪与跨域建模"
+      "梁臻：情感识别、连续情绪与跨域建模",
+      "俞祝良：脑电情感识别与多模态生理计算"
     ]
   },
   {
@@ -2504,7 +2560,8 @@
       "脑电/脑机接口",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -2547,12 +2604,14 @@
     "scholar_ids": [
       "liang_zhen",
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "梁臻",
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "liang_zhen_2e011800db2c"
@@ -2597,13 +2656,29 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "EEG/脑机接口",
+          "情感智能",
+          "脑电/脑机接口",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "d1d8cf7d9df60514",
     "primary_categories_by_scholar": [
       "梁臻：情感识别、连续情绪与跨域建模",
       "尧德中：情感脑电与多模态生理信号",
-      "徐鹏：情感脑电与多模态生理信号"
+      "徐鹏：情感脑电与多模态生理信号",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "openalex_id": "https://openalex.org/W4408970812",
     "openalex_author_id": "https://openalex.org/A5036446937",
@@ -2999,7 +3074,8 @@
       "情感智能",
       "脑电/脑机接口",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -3068,12 +3144,14 @@
     "scholar_ids": [
       "liang_zhen",
       "panorama_9a7afcd2f866",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "梁臻",
       "张治国",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "liang_zhen_4adf3db66071",
@@ -3117,13 +3195,29 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "EEG/脑机接口",
+          "情感智能",
+          "脑电/脑机接口",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "163ee8b079e93eca",
     "primary_categories_by_scholar": [
       "梁臻：情感识别、连续情绪与跨域建模",
       "张治国：情感脑电与多模态生理信号",
-      "徐鹏：情感脑电与多模态生理信号"
+      "徐鹏：情感脑电与多模态生理信号",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "candidate_source": false,
     "source_kind": "；ORCID 0000-0001-7992-7965 works",
@@ -3643,7 +3737,9 @@
       "情感智能",
       "脑电/脑机接口",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "脑电基础大模型",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -3777,7 +3873,8 @@
       "情感智能",
       "脑电/脑机接口",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -3941,7 +4038,8 @@
       "视觉/视频",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -3983,10 +4081,12 @@
     "data_urls": [],
     "model_urls": [],
     "scholar_ids": [
-      "liang_zhen"
+      "liang_zhen",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "梁臻"
+      "梁臻",
+      "俞祝良"
     ],
     "source_record_ids": [
       "liang_zhen_cdfee7876295"
@@ -4002,11 +4102,27 @@
         ],
         "confidence": "high",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "EEG/脑机接口",
+          "情感智能",
+          "脑电/脑机接口",
+          "视觉/视频",
+          "脑电情感识别",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "1d284b9b559c22d4",
     "primary_categories_by_scholar": [
-      "梁臻：情感识别、连续情绪与跨域建模"
+      "梁臻：情感识别、连续情绪与跨域建模",
+      "俞祝良：生理情感数据库、基准与综述"
     ],
     "openalex_id": "https://openalex.org/W4411358937",
     "openalex_author_id": "https://openalex.org/A5036446937",
@@ -4054,7 +4170,8 @@
       "脑电/脑机接口",
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -4284,7 +4401,8 @@
     "topics": [
       "EEG/脑机接口",
       "脑电/脑机接口",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -4663,7 +4781,8 @@
       "脑电/脑机接口",
       "脑电情感识别",
       "脑电基础大模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -4782,7 +4901,8 @@
       "脑电情感识别",
       "脑机接口与神经解码",
       "情感计算与情绪理解",
-      "强化学习与决策优化"
+      "强化学习与决策优化",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -4927,7 +5047,8 @@
       "EEG/脑机接口",
       "情感智能",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "resource_ids": [],
     "status": "PubMed收录期刊论文；出版年份以PubDate为主",
@@ -5478,7 +5599,8 @@
       "脑电/脑机接口",
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -5932,7 +6054,8 @@
       "视觉/视频",
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -6145,7 +6268,8 @@
       "情感智能",
       "脑电/脑机接口",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -6182,11 +6306,13 @@
     "model_urls": [],
     "scholar_ids": [
       "liang_zhen",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "梁臻",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "liang_zhen_31d44d3c9450"
@@ -6215,12 +6341,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "EEG/脑机接口",
+          "情感智能",
+          "脑电/脑机接口",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "6de218291d31ba92",
     "primary_categories_by_scholar": [
       "梁臻：情感识别、连续情绪与跨域建模",
-      "徐鹏：脑电基准、数据与评测"
+      "徐鹏：脑电基准、数据与评测",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "openalex_id": "https://openalex.org/W7165519827",
     "openalex_author_id": "https://openalex.org/A5036446937",
@@ -6670,7 +6812,9 @@
       "情感智能",
       "脑电/脑机接口",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "脑电基础大模型",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -6785,7 +6929,8 @@
       "脑电/脑机接口",
       "情感智能",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -6918,7 +7063,8 @@
       "脑电/脑机接口",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -6951,10 +7097,12 @@
     "data_urls": [],
     "model_urls": [],
     "scholar_ids": [
-      "liang_zhen"
+      "liang_zhen",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "梁臻"
+      "梁臻",
+      "俞祝良"
     ],
     "source_record_ids": [
       "liang_zhen_1eb7684ca8de"
@@ -6970,11 +7118,27 @@
         ],
         "confidence": "high",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "EEG/脑机接口",
+          "情感智能",
+          "脑电/脑机接口",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "67defcf61df20221",
     "primary_categories_by_scholar": [
-      "梁臻：情感识别、连续情绪与跨域建模"
+      "梁臻：情感识别、连续情绪与跨域建模",
+      "俞祝良：生理情感数据库、基准与综述"
     ],
     "abstract_en": "Emotion decoding using Electroencephalography (EEG)-based affective brain-computer interfaces (aBCIs) plays a crucial role in affective computing but is limited by challenges such as EEG's non-stationarity, individual variability, and the high cost of large labeled datasets. While deep learning methods are effective, they require extensive computational resources and large data volumes, limiting their practical application. To overcome these issues, we propose Manifold-based Domain Adaptation with Dynamic Distribution (M3D), a lightweight, non-deep transfer learning framework. M3D consists of four key modules: manifold feature transformation, dynamic distribution alignment, classifier learning, and ensemble learning. The data is mapped to an optimal Grassmann manifold space, enabling dynamic alignment of source and target domains. This alignment is designed to prioritize both marginal and conditional distributions, improving adaptation efficiency across diverse datasets. In classifier learning, the principle of structural risk minimization is applied to build robust classification models. Additionally, dynamic distribution alignment iteratively refines the classifier. The ensemble learning module aggregates classifiers from different optimization stages to leverage diversity and enhance prediction accuracy. M3D is evaluated on two EEG emotion recognition datasets using two validation protocols (cross-subject single-session and cross-subject cross-session) and a clinical EEG dataset for Major Depressive Disorder (MDD). Experimental results show that M3D outperforms traditional non-deep learning methods with a 4.47% average improvement and achieves deep learning-level performance with reduced data and computational requirements, demonstrating its potential for real-world aBCI applications.",
     "abstract_source": "arxiv_api",
@@ -7018,7 +7182,8 @@
     "topics": [
       "EEG/脑机接口",
       "脑电/脑机接口",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -7137,7 +7302,8 @@
       "脑电/脑机接口",
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -7203,14 +7369,16 @@
       "https://bcmi.sjtu.edu.cn/home/seed/"
     ],
     "model_urls": [],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
       "liang_zhen",
-      "panorama_9a7afcd2f866"
+      "panorama_9a7afcd2f866",
+      "fali_li"
     ],
     "scholar_names": [
       "梁臻",
-      "张治国"
+      "张治国",
+      "李发礼"
     ],
     "source_record_ids": [
       "liang_zhen_dbe4a40db98d",
@@ -7238,12 +7406,28 @@
         ],
         "confidence": "verified",
         "note": "ORCID DOI作品记录已核验"
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "EEG/脑机接口",
+          "情感智能",
+          "脑电/脑机接口",
+          "脑电情感识别",
+          "脑机接口与神经解码",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "6c22b69e6e073a46",
     "primary_categories_by_scholar": [
       "梁臻：情感识别、连续情绪与跨域建模",
-      "张治国：情感脑电与多模态生理信号"
+      "张治国：情感脑电与多模态生理信号",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "candidate_source": false,
     "source_kind": "ORCID public works API + 机构主页",
@@ -8243,10 +8427,14 @@
     "data_urls": [],
     "model_urls": [],
     "scholar_ids": [
-      "liang_zhen"
+      "liang_zhen",
+      "dan_zhang_thu",
+      "xun_chen_ustc"
     ],
     "scholar_names": [
-      "梁臻"
+      "梁臻",
+      "张丹",
+      "陈勋"
     ],
     "source_record_ids": [
       "liang_zhen_7670cd9bee94"
@@ -8263,11 +8451,39 @@
         ],
         "confidence": "high",
         "note": ""
+      },
+      "dan_zhang_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "张丹",
+        "secondary_tags": [
+          "EEG/脑机接口",
+          "神经科学/fMRI",
+          "视觉/眼动",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "xun_chen_ustc": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "陈勋",
+        "secondary_tags": [
+          "EEG/脑机接口",
+          "神经科学/fMRI",
+          "视觉/眼动",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "3314db299abe7f3e",
     "primary_categories_by_scholar": [
-      "梁臻：脑信号方法与脑机接口"
+      "梁臻：脑信号方法与脑机接口",
+      "张丹：脑电基础大模型与自监督预训练",
+      "陈勋：脑电基础大模型与自监督预训练"
     ],
     "openalex_id": "https://openalex.org/W4318562309"
   },
@@ -8386,7 +8602,8 @@
       "情感智能",
       "脑电/脑机接口",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -8741,7 +8958,8 @@
       "情感智能",
       "脑电/脑机接口",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -9676,7 +9894,8 @@
       "脑电情感识别",
       "脑机接口与神经解码",
       "情感计算与情绪理解",
-      "强化学习与决策优化"
+      "强化学习与决策优化",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -11005,7 +11224,8 @@
       "EEG/BCI",
       "emotion/affective",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "resource_ids": [],
     "status": "作者官方发表目录记录；年/状态按原目录保留",
@@ -11225,7 +11445,8 @@
       "EEG/BCI",
       "emotion/affective",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "resource_ids": [],
     "status": "作者官方发表目录记录；年/状态按原目录保留",
@@ -12638,7 +12859,8 @@
       "情感智能",
       "脑电/脑机接口",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -12748,7 +12970,8 @@
       "EEG/BCI",
       "emotion/affective",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "resource_ids": [
       "liang_zhen__LIANG_CODE_EEGFuseNet",
@@ -12962,7 +13185,8 @@
       "EEG/BCI",
       "emotion/affective",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "resource_ids": [
       "liang_zhen__LIANG_EXT_SEED",
@@ -13752,7 +13976,8 @@
       "脑电/脑机接口",
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [

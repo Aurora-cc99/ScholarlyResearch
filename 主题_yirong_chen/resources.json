@@ -1,0 +1,37 @@
+[
+  {
+    "id": "res_gh_261f2e4a4602",
+    "name": "SoulChat & SoulChatCorpus",
+    "name_zh": "SoulChat 心理健康多轮共情倾听大模型与 SoulChatCorpus 语料库",
+    "type": "code",
+    "url": "https://github.com/scutcyr/SoulChat",
+    "download_url": "https://github.com/scutcyr/SoulChat",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "yirong_chen",
+    "scholar_name": "陈逸嵘",
+    "matched_paper_ids": [
+      "6f0fef3b14fa7fad"
+    ],
+    "related_paper_titles": [
+      "SoulChat: Improving LLMs' Empathy, Listening, and Comfort Abilities through Fine-tuning with Multi-turn Empathy Conversations"
+    ],
+    "related_paper_titles_zh": [
+      "SoulChat：通过多轮同理心对话进行微调，提高大语言模型的同理心、倾听和舒适能力"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.48550/ARXIV.2311.00273"
+    ],
+    "description": "EMNLP Findings 2023 华南理工大学多轮共情心理咨询大模型与双百万规模长对话语料库。",
+    "verification": "代表作与官方项目仓库人工交叉核验",
+    "is_dataset_benchmark": true,
+    "dataset_title": "SoulChat & SoulChatCorpus",
+    "scholar_category_ids": [
+      "panorama_xiaofen_xing::eeg_affect",
+      "yirong_chen::affective_llm_mllm"
+    ],
+    "primary_categories": [
+      "邢晓芬：情感脑电与多模态生理信号",
+      "陈逸嵘：情感大模型、多模态指令微调与共情生成"
+    ]
+  }
+]

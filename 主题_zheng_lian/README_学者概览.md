@@ -5,7 +5,7 @@
 - **身份/单位**：Tongji University (TAFFC special issue lead guest editor; affective computing researcher)
 - **英文姓名**：Zheng Lian · **ORCID**：[0000-0001-9477-0599](https://orcid.org/0000-0001-9477-0599) · **DBLP**：[213/7387-4](https://dblp.org/pid/213/7387-4.html)
 - **外部身份依据**：[身份源1](https://www.computer.org/digital-library/journals/ta/tac-multimodal-reasoning-language) · [身份源2](https://emo-gml.github.io/) · [身份源3](https://faculty.tongji.edu.cn/lianzheng/zh_CN/zhym/1011973/list/index.htm) · [身份源4](https://aclanthology.org/people/zheng-lian/) · [身份源5](https://orcid.org/0000-0001-9477-0599) · [身份源6](https://dblp.org/pid/213/7387-4.html) · [身份源7](https://openalex.org/A5001973434)
-- **本轮核验书目记录**：**144** 条（其中含中英文摘要 **126** 条）；**开源资源入口**：**21** 条；**已关联资源的论文**：**29** 篇。
+- **本轮核验书目记录**：**144** 条（其中含中英文摘要 **126** 条）；**开源资源入口**：**21** 条；**已关联资源的论文**：**31** 篇。
 
 [论文分类目录](论文分类目录.md) · [按年份查看全部论文](全部论文.md) · [论文CSV](papers.csv) · [BibTeX](papers.bib) · [代码与项目](代码与项目.md) · [数据集与模型](数据集与模型.md) · [资源CSV](resources.csv) · [核验与缺口](核验与缺口.md) · [返回总导航](../README_总导航.md)
 

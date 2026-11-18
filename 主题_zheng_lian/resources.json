@@ -173,14 +173,19 @@
     "scholar_id": "zheng_lian",
     "scholar_name": "连政",
     "matched_paper_ids": [
-      "zheng_lian_3a9a346851fd"
+      "zheng_lian_3a9a346851fd",
+      "450bb5e765a4fbb5"
     ],
     "unmatched_titles": [],
     "scholar_category_ids": [
-      "zheng_lian::eeg_benchmark"
+      "zheng_lian::eeg_benchmark",
+      "bjorn_schuller::affect_int_llm",
+      "zebang_cheng::llm_benchmark_data"
     ],
     "primary_categories": [
-      "连政：脑电基准、数据与评测"
+      "连政：脑电基准、数据与评测",
+      "Björn W. Schuller：情感大模型、知识推理与评测基准",
+      "程泽邦：情感与大模型评测基准、数据集及综述"
     ],
     "is_dataset_benchmark": true,
     "dataset_title": "EmoTrans — A Benchmark for Understanding, Reasoning, and Predicting Emotion "
@@ -286,14 +291,17 @@
     "scholar_id": "zheng_lian",
     "scholar_name": "连政",
     "matched_paper_ids": [
-      "zheng_lian_bb255a4b1270"
+      "zheng_lian_bb255a4b1270",
+      "adb92412f3de6533"
     ],
     "unmatched_titles": [],
     "scholar_category_ids": [
-      "zheng_lian::eeg_benchmark"
+      "zheng_lian::eeg_benchmark",
+      "bin_liu_casia::llm_benchmark_data"
     ],
     "primary_categories": [
-      "连政：脑电基准、数据与评测"
+      "连政：脑电基准、数据与评测",
+      "刘斌：情感与大模型评测基准、数据集及综述"
     ]
   },
   {
@@ -399,18 +407,21 @@
     "scholar_id": "zheng_lian",
     "scholar_name": "连政",
     "matched_paper_ids": [
-      "zheng_lian_aa890a9b1ecd"
+      "zheng_lian_aa890a9b1ecd",
+      "2c52f28a6d591421"
     ],
     "unmatched_titles": [],
     "scholar_category_ids": [
       "zheng_lian::eeg_benchmark",
       "panorama_e298ea16b5bc::emotion_understanding",
-      "panorama_xiaofen_xing::eeg_affect"
+      "panorama_xiaofen_xing::eeg_affect",
+      "bjorn_schuller::general_nlp_ai"
     ],
     "primary_categories": [
       "连政：脑电基准、数据与评测",
       "刘瑞：情感理解与多模态推理",
-      "邢晓芬：情感脑电与多模态生理信号"
+      "邢晓芬：情感脑电与多模态生理信号",
+      "Björn W. Schuller：自然语言处理、多模态学习与通用方法"
     ]
   },
   {
@@ -440,7 +451,9 @@
     "scholar_name": "连政",
     "matched_paper_ids": [
       "zheng_lian_83373cb06f4d",
-      "licai_sun_58677b9a0e82"
+      "licai_sun_58677b9a0e82",
+      "ecfe66c6cbdfb069",
+      "a3f1cbb3df31d82b"
     ],
     "unmatched_titles": [],
     "scholar_category_ids": [
@@ -450,7 +463,13 @@
       "xin_liu::emotion_benchmark",
       "panorama_ya_li::eeg_benchmark",
       "panorama_e298ea16b5bc::emotion_benchmark",
-      "licai_sun::emotion_understanding"
+      "bjorn_schuller::affect_int_llm",
+      "erik_cambria::affect_int_llm",
+      "bin_liu_casia::general_foundation",
+      "xiaojiang_peng::general_foundation",
+      "zebang_cheng::general_foundation",
+      "licai_sun::emotion_understanding",
+      "bin_liu_casia::llm_benchmark_data"
     ],
     "primary_categories": [
       "连政：脑电基准、数据与评测",
@@ -459,7 +478,13 @@
       "刘鑫：情感数据集、基准与评测",
       "李雅：脑电基准、数据与评测",
       "刘瑞：情感数据集、基准与评测",
-      "孙立才：情感理解与多模态推理"
+      "Björn W. Schuller：情感大模型、知识推理与评测基准",
+      "Erik Cambria：情感大模型、知识推理与评测基准",
+      "刘斌：通用预训练大模型、视听生成与基础方法",
+      "彭小江：通用预训练大模型、视听生成与基础方法",
+      "程泽邦：通用预训练大模型、视听生成与基础方法",
+      "孙立才：情感理解与多模态推理",
+      "刘斌：情感与大模型评测基准、数据集及综述"
     ]
   },
   {
@@ -487,7 +512,8 @@
     "scholar_id": "zheng_lian",
     "scholar_name": "连政",
     "matched_paper_ids": [
-      "zheng_lian_83373cb06f4d"
+      "zheng_lian_83373cb06f4d",
+      "ecfe66c6cbdfb069"
     ],
     "unmatched_titles": [],
     "scholar_category_ids": [
@@ -496,7 +522,12 @@
       "guoying_zhao::emotion_understanding",
       "xin_liu::emotion_benchmark",
       "panorama_ya_li::eeg_benchmark",
-      "panorama_e298ea16b5bc::emotion_benchmark"
+      "panorama_e298ea16b5bc::emotion_benchmark",
+      "bjorn_schuller::affect_int_llm",
+      "erik_cambria::affect_int_llm",
+      "bin_liu_casia::general_foundation",
+      "xiaojiang_peng::general_foundation",
+      "zebang_cheng::general_foundation"
     ],
     "primary_categories": [
       "连政：脑电基准、数据与评测",
@@ -504,7 +535,12 @@
       "赵国英：情感理解与多模态推理",
       "刘鑫：情感数据集、基准与评测",
       "李雅：脑电基准、数据与评测",
-      "刘瑞：情感数据集、基准与评测"
+      "刘瑞：情感数据集、基准与评测",
+      "Björn W. Schuller：情感大模型、知识推理与评测基准",
+      "Erik Cambria：情感大模型、知识推理与评测基准",
+      "刘斌：通用预训练大模型、视听生成与基础方法",
+      "彭小江：通用预训练大模型、视听生成与基础方法",
+      "程泽邦：通用预训练大模型、视听生成与基础方法"
     ]
   },
   {
@@ -532,7 +568,8 @@
     "scholar_id": "zheng_lian",
     "scholar_name": "连政",
     "matched_paper_ids": [
-      "zheng_lian_83373cb06f4d"
+      "zheng_lian_83373cb06f4d",
+      "ecfe66c6cbdfb069"
     ],
     "unmatched_titles": [],
     "scholar_category_ids": [
@@ -541,7 +578,12 @@
       "guoying_zhao::emotion_understanding",
       "xin_liu::emotion_benchmark",
       "panorama_ya_li::eeg_benchmark",
-      "panorama_e298ea16b5bc::emotion_benchmark"
+      "panorama_e298ea16b5bc::emotion_benchmark",
+      "bjorn_schuller::affect_int_llm",
+      "erik_cambria::affect_int_llm",
+      "bin_liu_casia::general_foundation",
+      "xiaojiang_peng::general_foundation",
+      "zebang_cheng::general_foundation"
     ],
     "primary_categories": [
       "连政：脑电基准、数据与评测",
@@ -549,7 +591,12 @@
       "赵国英：情感理解与多模态推理",
       "刘鑫：情感数据集、基准与评测",
       "李雅：脑电基准、数据与评测",
-      "刘瑞：情感数据集、基准与评测"
+      "刘瑞：情感数据集、基准与评测",
+      "Björn W. Schuller：情感大模型、知识推理与评测基准",
+      "Erik Cambria：情感大模型、知识推理与评测基准",
+      "刘斌：通用预训练大模型、视听生成与基础方法",
+      "彭小江：通用预训练大模型、视听生成与基础方法",
+      "程泽邦：通用预训练大模型、视听生成与基础方法"
     ]
   },
   {
@@ -578,18 +625,21 @@
     "scholar_id": "zheng_lian",
     "scholar_name": "连政",
     "matched_paper_ids": [
-      "zheng_lian_0ffda2a3303d"
+      "zheng_lian_0ffda2a3303d",
+      "83719a36eb4c010a"
     ],
     "unmatched_titles": [],
     "scholar_category_ids": [
       "zheng_lian::eeg_benchmark",
       "panorama_e298ea16b5bc::emotion_benchmark",
-      "panorama_xiaofen_xing::eeg_affect"
+      "panorama_xiaofen_xing::eeg_affect",
+      "bjorn_schuller::general_nlp_ai"
     ],
     "primary_categories": [
       "连政：脑电基准、数据与评测",
       "刘瑞：情感数据集、基准与评测",
-      "邢晓芬：情感脑电与多模态生理信号"
+      "邢晓芬：情感脑电与多模态生理信号",
+      "Björn W. Schuller：自然语言处理、多模态学习与通用方法"
     ],
     "is_dataset_benchmark": true,
     "dataset_title": "Emotion and Intent Joint Understanding in Multimodal Conversation: A Benchm"
@@ -619,16 +669,19 @@
     "scholar_id": "zheng_lian",
     "scholar_name": "连政",
     "matched_paper_ids": [
-      "zheng_lian_df51000baf6c"
+      "zheng_lian_df51000baf6c",
+      "57bebcd9f65d5b47"
     ],
     "unmatched_titles": [],
     "scholar_category_ids": [
       "zheng_lian::eeg_benchmark",
-      "panorama_e298ea16b5bc::emotion_benchmark"
+      "panorama_e298ea16b5bc::emotion_benchmark",
+      "bjorn_schuller::affect_int_llm"
     ],
     "primary_categories": [
       "连政：脑电基准、数据与评测",
-      "刘瑞：情感数据集、基准与评测"
+      "刘瑞：情感数据集、基准与评测",
+      "Björn W. Schuller：情感大模型、知识推理与评测基准"
     ]
   },
   {

@@ -1,0 +1,500 @@
+[
+  {
+    "id": "res_gh_57694a3f0daa",
+    "name": "haoyi-duan/DG-SCT",
+    "name_zh": "haoyi-duan/DG-SCT — 跨模式提示：针对视听下游任务调整大型预训练模型",
+    "type": "code",
+    "url": "https://github.com/haoyi-duan/DG-SCT",
+    "download_url": "https://github.com/haoyi-duan/DG-SCT",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "zhou_zhao",
+    "scholar_name": "赵洲",
+    "matched_paper_ids": [
+      "e4bbea656ef9f36b"
+    ],
+    "related_paper_titles": [
+      "Cross-modal Prompts: Adapting Large Pre-trained Models for Audio-Visual Downstream Tasks"
+    ],
+    "related_paper_titles_zh": [
+      "跨模式提示：针对视听下游任务调整大型预训练模型"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.52202/075280-2445"
+    ],
+    "description": "论文《跨模式提示：针对视听下游任务调整大型预训练模型》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "zhou_zhao::llm_benchmark_data"
+    ],
+    "primary_categories": [
+      "赵洲：情感与大模型评测基准、数据集及综述"
+    ]
+  },
+  {
+    "id": "res_gh_9bfcb5c25b51",
+    "name": "zrguo/CGGM",
+    "name_zh": "zrguo/CGGM — 用于增强多模态学习的分类器引导梯度调制",
+    "type": "code",
+    "url": "https://github.com/zrguo/CGGM",
+    "download_url": "https://github.com/zrguo/CGGM",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "zhou_zhao",
+    "scholar_name": "赵洲",
+    "matched_paper_ids": [
+      "e2b4e20de9f6f351"
+    ],
+    "related_paper_titles": [
+      "Classifier-guided Gradient Modulation for Enhanced Multimodal Learning"
+    ],
+    "related_paper_titles_zh": [
+      "用于增强多模态学习的分类器引导梯度调制"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.52202/079017-4238"
+    ],
+    "description": "论文《用于增强多模态学习的分类器引导梯度调制》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "zhou_zhao::llm_benchmark_data"
+    ],
+    "primary_categories": [
+      "赵洲：情感与大模型评测基准、数据集及综述"
+    ]
+  },
+  {
+    "id": "res_gh_ec7d0aeca510",
+    "name": "GTSinger (AaronZ345/GTSinger)",
+    "name_zh": "GTSinger (AaronZ345/GTSinger) — GTSinger：全球多技巧歌唱语料库，为所有歌唱任务提供逼真的乐谱",
+    "type": "code",
+    "url": "https://github.com/AaronZ345/GTSinger",
+    "download_url": "https://github.com/AaronZ345/GTSinger",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "zhou_zhao",
+    "scholar_name": "赵洲",
+    "matched_paper_ids": [
+      "8dd7c999224152d0"
+    ],
+    "related_paper_titles": [
+      "GTSinger: A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks"
+    ],
+    "related_paper_titles_zh": [
+      "GTSinger：全球多技巧歌唱语料库，为所有歌唱任务提供逼真的乐谱"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.52202/079017-0034"
+    ],
+    "description": "论文《GTSinger：全球多技巧歌唱语料库，为所有歌唱任务提供逼真的乐谱》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "is_dataset_benchmark": true,
+    "dataset_title": "GTSinger (AaronZ345/GTSinger)",
+    "scholar_category_ids": [
+      "zhou_zhao::general_foundation"
+    ],
+    "primary_categories": [
+      "赵洲：通用预训练大模型、视听生成与基础方法"
+    ]
+  },
+  {
+    "id": "res_ds_8caa5b469a28",
+    "name": "GTSinger (AaronZ345/GTSinger)",
+    "name_zh": "GTSinger 开源数据集（GTSinger：全球多技巧歌唱语料库，为所有歌唱任务提供逼真的乐谱）",
+    "type": "dataset",
+    "url": "https://huggingface.co/datasets/AaronZ345/GTSinger",
+    "download_url": "https://huggingface.co/datasets/AaronZ345/GTSinger",
+    "access": "公开数据集仓库",
+    "scholar_id": "zhou_zhao",
+    "scholar_name": "赵洲",
+    "matched_paper_ids": [
+      "8dd7c999224152d0"
+    ],
+    "related_paper_titles": [
+      "GTSinger: A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks"
+    ],
+    "related_paper_titles_zh": [
+      "GTSinger：全球多技巧歌唱语料库，为所有歌唱任务提供逼真的乐谱"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.52202/079017-0034"
+    ],
+    "description": "论文《GTSinger：全球多技巧歌唱语料库，为所有歌唱任务提供逼真的乐谱》公开数据集入口。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "zhou_zhao::general_foundation"
+    ],
+    "primary_categories": [
+      "赵洲：通用预训练大模型、视听生成与基础方法"
+    ]
+  },
+  {
+    "id": "res_gh_b140a7488d7c",
+    "name": "Wnet (asudahkzj/Wnet)",
+    "name_zh": "Wnet (asudahkzj/Wnet) — Wnet：通过基于小波的跨模态去噪网络进行音频引导视频对象分割",
+    "type": "code",
+    "url": "https://github.com/asudahkzj/Wnet",
+    "download_url": "https://github.com/asudahkzj/Wnet",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "zhou_zhao",
+    "scholar_name": "赵洲",
+    "matched_paper_ids": [
+      "1c41bf69b9afdbf0"
+    ],
+    "related_paper_titles": [
+      "Wnet: Audio-Guided Video Object Segmentation via Wavelet-Based Cross- Modal Denoising Networks"
+    ],
+    "related_paper_titles_zh": [
+      "Wnet：通过基于小波的跨模态去噪网络进行音频引导视频对象分割"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1109/CVPR52688.2022.00138"
+    ],
+    "description": "论文《Wnet：通过基于小波的跨模态去噪网络进行音频引导视频对象分割》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "zhou_zhao::llm_benchmark_data"
+    ],
+    "primary_categories": [
+      "赵洲：情感与大模型评测基准、数据集及综述"
+    ]
+  },
+  {
+    "id": "res_gh_1730a17a88a9",
+    "name": "XinyuLyu/FGPL",
+    "name_zh": "XinyuLyu/FGPL — 用于场景图生成的细粒度谓词学习",
+    "type": "code",
+    "url": "https://github.com/XinyuLyu/FGPL",
+    "download_url": "https://github.com/XinyuLyu/FGPL",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "zhou_zhao",
+    "scholar_name": "赵洲",
+    "matched_paper_ids": [
+      "08be476393d95bb2"
+    ],
+    "related_paper_titles": [
+      "Fine-Grained Predicates Learning for Scene Graph Generation"
+    ],
+    "related_paper_titles_zh": [
+      "用于场景图生成的细粒度谓词学习"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1109/CVPR52688.2022.01886"
+    ],
+    "description": "论文《用于场景图生成的细粒度谓词学习》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "zhou_zhao::llm_benchmark_data"
+    ],
+    "primary_categories": [
+      "赵洲：情感与大模型评测基准、数据集及综述"
+    ]
+  },
+  {
+    "id": "res_gh_4317251d6437",
+    "name": "marmot-xy/CMBS",
+    "name_zh": "marmot-xy/CMBS — 用于视听事件定位的跨模式背景抑制",
+    "type": "code",
+    "url": "https://github.com/marmot-xy/CMBS",
+    "download_url": "https://github.com/marmot-xy/CMBS",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "zhou_zhao",
+    "scholar_name": "赵洲",
+    "matched_paper_ids": [
+      "a3d6939383af182a"
+    ],
+    "related_paper_titles": [
+      "Cross-modal Background Suppression for Audio-Visual Event Localization"
+    ],
+    "related_paper_titles_zh": [
+      "用于视听事件定位的跨模式背景抑制"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1109/CVPR52688.2022.01936"
+    ],
+    "description": "论文《用于视听事件定位的跨模式背景抑制》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "zhou_zhao::general_foundation"
+    ],
+    "primary_categories": [
+      "赵洲：通用预训练大模型、视听生成与基础方法"
+    ]
+  },
+  {
+    "id": "res_gh_67d3d00a0268",
+    "name": "YinAoXiong/GASLT",
+    "name_zh": "YinAoXiong/GASLT — Gloss Attention 用于无光泽手语翻译",
+    "type": "code",
+    "url": "https://github.com/YinAoXiong/GASLT",
+    "download_url": "https://github.com/YinAoXiong/GASLT",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "zhou_zhao",
+    "scholar_name": "赵洲",
+    "matched_paper_ids": [
+      "0531f01760530e80"
+    ],
+    "related_paper_titles": [
+      "Gloss Attention for Gloss-free Sign Language Translation"
+    ],
+    "related_paper_titles_zh": [
+      "Gloss Attention 用于无光泽手语翻译"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1109/CVPR52729.2023.00251"
+    ],
+    "description": "论文《Gloss Attention 用于无光泽手语翻译》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "zhou_zhao::general_foundation"
+    ],
+    "primary_categories": [
+      "赵洲：通用预训练大模型、视听生成与基础方法"
+    ]
+  },
+  {
+    "id": "res_gh_3af03720aba3",
+    "name": "AgeGAN++ (Sherry-JQ/AgeGAN)",
+    "name_zh": "AgeGAN++ (Sherry-JQ/AgeGAN) — AgeGAN++：使用双条件 GAN 进行面部老化和年轻化",
+    "type": "code",
+    "url": "https://github.com/Sherry-JQ/AgeGAN",
+    "download_url": "https://github.com/Sherry-JQ/AgeGAN",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "zhou_zhao",
+    "scholar_name": "赵洲",
+    "matched_paper_ids": [
+      "77b572c893e6426b"
+    ],
+    "related_paper_titles": [
+      "AgeGAN++: Face Aging and Rejuvenation With Dual Conditional GANs"
+    ],
+    "related_paper_titles_zh": [
+      "AgeGAN++：使用双条件 GAN 进行面部老化和年轻化"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1109/TMM.2021.3059336"
+    ],
+    "description": "论文《AgeGAN++：使用双条件 GAN 进行面部老化和年轻化》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "zhou_zhao::llm_benchmark_data"
+    ],
+    "primary_categories": [
+      "赵洲：情感与大模型评测基准、数据集及综述"
+    ]
+  },
+  {
+    "id": "res_gh_aa82c4e5aa3f",
+    "name": "Kelvin-ywc/LPI",
+    "name_zh": "Kelvin-ywc/LPI — 用于持续视觉语言检索的低阶提示交互",
+    "type": "code",
+    "url": "https://github.com/Kelvin-ywc/LPI",
+    "download_url": "https://github.com/Kelvin-ywc/LPI",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "zhou_zhao",
+    "scholar_name": "赵洲",
+    "matched_paper_ids": [
+      "c87fb19cc0a5b53b"
+    ],
+    "related_paper_titles": [
+      "Low-rank Prompt Interaction for Continual Vision-Language Retrieval"
+    ],
+    "related_paper_titles_zh": [
+      "用于持续视觉语言检索的低阶提示交互"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1145/3664647.3681264"
+    ],
+    "description": "论文《用于持续视觉语言检索的低阶提示交互》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "zhou_zhao::general_foundation"
+    ],
+    "primary_categories": [
+      "赵洲：通用预训练大模型、视听生成与基础方法"
+    ]
+  },
+  {
+    "id": "res_gh_0129750ba2cd",
+    "name": "ballooncatt/PCD",
+    "name_zh": "ballooncatt/PCD — 通过对比度增强提示提高语音识别对模态失真的鲁棒性",
+    "type": "code",
+    "url": "https://github.com/ballooncatt/PCD",
+    "download_url": "https://github.com/ballooncatt/PCD",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "zhou_zhao",
+    "scholar_name": "赵洲",
+    "matched_paper_ids": [
+      "1a423c5451a01d8b"
+    ],
+    "related_paper_titles": [
+      "Boosting Speech Recognition Robustness to Modality-Distortion with Contrast-Augmented Prompts"
+    ],
+    "related_paper_titles_zh": [
+      "通过对比度增强提示提高语音识别对模态失真的鲁棒性"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1145/3664647.3681347"
+    ],
+    "description": "论文《通过对比度增强提示提高语音识别对模态失真的鲁棒性》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "zhou_zhao::general_foundation"
+    ],
+    "primary_categories": [
+      "赵洲：通用预训练大模型、视听生成与基础方法"
+    ]
+  },
+  {
+    "id": "res_gh_84aaea41f65f",
+    "name": "DiffSinger (MoonInTheRiver/DiffSinger)",
+    "name_zh": "DiffSinger (MoonInTheRiver/DiffSinger) — DiffSinger：通过浅扩散机制进行歌声合成",
+    "type": "code",
+    "url": "https://github.com/MoonInTheRiver/DiffSinger",
+    "download_url": "https://github.com/MoonInTheRiver/DiffSinger",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "zhou_zhao",
+    "scholar_name": "赵洲",
+    "matched_paper_ids": [
+      "7b13d034e2f81c63"
+    ],
+    "related_paper_titles": [
+      "DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism"
+    ],
+    "related_paper_titles_zh": [
+      "DiffSinger：通过浅扩散机制进行歌声合成"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1609/AAAI.V36I10.21350"
+    ],
+    "description": "论文《DiffSinger：通过浅扩散机制进行歌声合成》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "zhou_zhao::general_foundation"
+    ],
+    "primary_categories": [
+      "赵洲：通用预训练大模型、视听生成与基础方法"
+    ]
+  },
+  {
+    "id": "res_gh_826e1629e7e6",
+    "name": "AudioGPT (AIGC-Audio/AudioGPT)",
+    "name_zh": "AudioGPT (AIGC-Audio/AudioGPT) — AudioGPT：理解和生成语音、音乐、声音和头部说话",
+    "type": "code",
+    "url": "https://github.com/AIGC-Audio/AudioGPT",
+    "download_url": "https://github.com/AIGC-Audio/AudioGPT",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "zhou_zhao",
+    "scholar_name": "赵洲",
+    "matched_paper_ids": [
+      "f293f46a5a7d1390"
+    ],
+    "related_paper_titles": [
+      "AudioGPT: Understanding and Generating Speech, Music, Sound, and Talking Head"
+    ],
+    "related_paper_titles_zh": [
+      "AudioGPT：理解和生成语音、音乐、声音和头部说话"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1609/AAAI.V38I21.30570"
+    ],
+    "description": "论文《AudioGPT：理解和生成语音、音乐、声音和头部说话》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "zhou_zhao::general_foundation"
+    ],
+    "primary_categories": [
+      "赵洲：通用预训练大模型、视听生成与基础方法"
+    ]
+  },
+  {
+    "id": "res_gh_d2fb02f61c41",
+    "name": "OpenSR (Exgc/OpenSR)",
+    "name_zh": "OpenSR (Exgc/OpenSR) — OpenSR：通过保持多模态对齐进行开放模态语音识别",
+    "type": "code",
+    "url": "https://github.com/Exgc/OpenSR",
+    "download_url": "https://github.com/Exgc/OpenSR",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "zhou_zhao",
+    "scholar_name": "赵洲",
+    "matched_paper_ids": [
+      "ea8a5c79893b58fe"
+    ],
+    "related_paper_titles": [
+      "OpenSR: Open-Modality Speech Recognition via Maintaining Multi-Modality Alignment"
+    ],
+    "related_paper_titles_zh": [
+      "OpenSR：通过保持多模态对齐进行开放模态语音识别"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.18653/V1/2023.ACL-LONG.363"
+    ],
+    "description": "论文《OpenSR：通过保持多模态对齐进行开放模态语音识别》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "zhou_zhao::general_foundation"
+    ],
+    "primary_categories": [
+      "赵洲：通用预训练大模型、视听生成与基础方法"
+    ]
+  },
+  {
+    "id": "res_gh_d59cf03f5148",
+    "name": "zrguo/MPLMM",
+    "name_zh": "zrguo/MPLMM — 缺少情感分析和情绪识别模式的多模式即时学习",
+    "type": "code",
+    "url": "https://github.com/zrguo/MPLMM",
+    "download_url": "https://github.com/zrguo/MPLMM",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "zhou_zhao",
+    "scholar_name": "赵洲",
+    "matched_paper_ids": [
+      "869bda8ecd20f20e"
+    ],
+    "related_paper_titles": [
+      "Multimodal Prompt Learning with Missing Modalities for Sentiment Analysis and Emotion Recognition"
+    ],
+    "related_paper_titles_zh": [
+      "缺少情感分析和情绪识别模式的多模式即时学习"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.18653/V1/2024.ACL-LONG.94"
+    ],
+    "description": "论文《缺少情感分析和情绪识别模式的多模式即时学习》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "zhou_zhao::affective_llm_mllm"
+    ],
+    "primary_categories": [
+      "赵洲：情感大模型、多模态指令微调与共情生成"
+    ]
+  },
+  {
+    "id": "res_gh_06eb47b03bdb",
+    "name": "Structure-CLIP (zjukg/Structure-CLIP)",
+    "name_zh": "Structure-CLIP (zjukg/Structure-CLIP) — Structure-CLIP：利用场景图知识增强多模态结构化表示",
+    "type": "code",
+    "url": "https://github.com/zjukg/Structure-CLIP",
+    "download_url": "https://github.com/zjukg/Structure-CLIP",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "zhou_zhao",
+    "scholar_name": "赵洲",
+    "matched_paper_ids": [
+      "e6f09048f66dff18"
+    ],
+    "related_paper_titles": [
+      "Structure-CLIP: Towards Scene Graph Knowledge to Enhance Multi-Modal Structured Representations"
+    ],
+    "related_paper_titles_zh": [
+      "Structure-CLIP：利用场景图知识增强多模态结构化表示"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1609/aaai.v38i3.28017"
+    ],
+    "description": "论文《Structure-CLIP：利用场景图知识增强多模态结构化表示》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "zhou_zhao::general_foundation"
+    ],
+    "primary_categories": [
+      "赵洲：通用预训练大模型、视听生成与基础方法"
+    ]
+  }
+]

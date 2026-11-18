@@ -365,10 +365,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_8438340f18b204f2"
@@ -387,10 +389,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -578,7 +591,8 @@
     "topics": [
       "脑电情感识别",
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 51/2525-1）",
     "status": "已索引出版/会议记录",
@@ -664,7 +678,7 @@
     "source_url": "https://dblp.org/rec/journals/titb/YuHWZWYLXG26.html",
     "openalex_id": "https://openalex.org/W7143434770",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 1,
     "abstract_en": "Automated sleep staging is essential for large-scale and home-based sleep monitoring; however, in routine clinical practice, sleep annotation remains largely dependent on experienced experts performing time-consuming and labor-intensive manual scoring. Existing automatic systems often struggle to adapt reliably to new subjects, limiting their clinical adoption and reinforcing the reliance on expert review. This creates a strong demand for adaptive and efficient sleep staging systems that can substantially reduce annotation workload while preserving expert-level accuracy. We propose BayesSleepNet, a novel framework that integrates Bayesian uncertainty quantification with active learning for adaptive sleep staging. BayesSleepNet employs principled Bayesian modeling by placing distributions over network weights and performing Monte Carlo sampling at inference, enabling explicit quantification of model (epistemic) uncertainty. These uncertainty estimates drive a two-stage sample selection strategy that first fine-tunes the model using representative epochs and subsequently prioritizes persistently uncertain samples for expert review. Across four public sleep datasets, BayesSleepNet consistently improves performance-by 7.60% in accuracy, 8.27% in macro-F1, and 0.104 in Cohen's $\\kappa$-while requiring manual annotation of only 20% of data from new subjects. Despite its adaptive learning capability, BayesSleepNet remains computationally lightweight, using substantially fewer parameters than representative high-capacity state-of-the-art models. These results demonstrate the clinical promise of uncertainty-aware active learning as a practical and cost-efficient paradigm for semi-automated sleep staging.",
     "abstract_zh": "自动睡眠分期对于大规模和家庭睡眠监测至关重要；然而，在常规临床实践中，睡眠注释仍然在很大程度上依赖于经验丰富的专家进行耗时且费力的手动评分。现有的自动化系统往往难以可靠地适应新的主题，限制了它们的临床采用并加强了对专家评审的依赖。这就产生了对自适应且高效的睡眠分期系统的强烈需求，该系统可以显着减少注释工作量，同时保持专家级的准确性。我们提出了 BayesSleepNet，这是一种新颖的框架，它将贝叶斯不确定性量化与自适应睡眠分期的主动学习相结合。 BayesSleepNet 采用原理...",
     "abstract_source": "openalex_doi",
@@ -680,10 +694,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_6921708d2326c7e1"
@@ -702,10 +718,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基准、数据与评测"
+      "李远清：脑电基准、数据与评测",
+      "俞祝良：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -952,8 +979,8 @@
     "authors": [
       "Yuanqing Li"
     ],
-    "doi": "",
-    "paper_url": "",
+    "doi": "10.3389/fnhum.2026.1755549",
+    "paper_url": "https://doi.org/10.3389/fnhum.2026.1755549",
     "source_url": "",
     "topics": [
       "脑机接口与脑信息处理",
@@ -996,10 +1023,12 @@
     "work_title_group": "390f1aca930a",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_85d2f92a5da4"
@@ -1018,12 +1047,32 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与脑信息处理",
+          "情绪调控与意识障碍康复",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "ace26cc889a3ef81",
     "primary_categories_by_scholar": [
-      "李远清：情感脑电与多模态生理信号"
-    ]
+      "李远清：情感脑电与多模态生理信号",
+      "俞祝良：生理情感数据库、基准与综述"
+    ],
+    "pdf_url": "https://public-pages-files-2025.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2026.1755549/pdf",
+    "abstract_en": "Motor imagery-based brain computer interface (MI-BCI) have been increasingly adopted in neurorehabilitation and related fields. The performance of MI-electroencephalogram (MI-EEG) decoding algorithms is central to the advancement of MI-BCI. However, current studies often lack rigorous investigation into the brain's complex network organization. Moreover, most existing methods do not incorporate the cross-frequency coupling (CFC) phenomena that occur during MI into their algorithmic designs, nor do they adequately account for how temporal dynamics across different MI stages influence decoding outcomes. To address these limitations, we propose the Dynamic Spectral-Spatial Interaction Convolution Neural Network (DSSICNN), a parameter-efficient MI-EEG decoding framework that jointly extracts temporal-spectral-spatial features. DSSICNN adopts a dual-branch parallel architecture to concurrently learn spatial representations in both Euclidean and non-Euclidean domains. It further integrates a CFC-inspired attention module to model cross-spectral interactions, followed by an additional attention mechanism that quantifies the contributions of distinct MI stages to decoding performance. DSSICNN achieves decoding performance on two public datasets that surpasses the current state-of-the-art (SOTA) under both session-dependent and session-independent settings. Beyond its empirical advantages, DSSICNN offers design insights for developing Graph Neural Network (GNN)-based MI-EEG decoding algorithms and provides a network neuroscience-inspired perspective for understanding the neurophysiological mechanisms underlying MI.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "基于运动想象的脑机接口（MI-BCI）已越来越多地应用于神经康复及相关领域。 MI 脑电图 (MI-EEG) 解码算法的性能对于 MI-BCI 的进步至关重要。然而，目前的研究往往缺乏对大脑复杂网络组织的严格调查。此外，大多数现有方法没有将 MI 期间发生的跨频耦合 (CFC) 现象纳入其算法设计中，也没有充分考虑不同 MI 阶段的时间动态如何影响解码结果。为了解决这些限制，我们提出了动态谱空间交互卷积神经网络（DSSICNN），这是一种参数高效的......"
   },
   {
     "title": "VSSI2p-Net: Physics-guided deep unfolding with L2p-norm and variation sparsity for EEG source imaging",
@@ -1061,7 +1110,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 3,
     "publication_types": "",
     "candidate_source": true,
     "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
@@ -1084,10 +1133,12 @@
     "work_title_group": "97a8e4b8a948",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_05878b277a77"
@@ -1106,11 +1157,26 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与脑信息处理",
+          "情绪调控与意识障碍康复",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "d75421b9046f2ee3",
     "primary_categories_by_scholar": [
-      "李远清：情感脑电与多模态生理信号"
+      "李远清：情感脑电与多模态生理信号",
+      "俞祝良：生理情感数据库、基准与综述"
     ],
     "dblp_key": "journals/neuroimage/WangZGLWYYL26",
     "abstract_en": "Electroencephalogram (EEG) source imaging (ESI) is highly underdetermined, which poses a long-standing challenge in neuroimaging. Traditional methods typically rely on predefined priors to constrain the solution space; however, the need for manual parameter adjustments often makes it difficult to achieve optimal integration of prior information. Although recent deep learning methods can automatically update parameters in a data-driven manner, their black-box characteristics lead to a lack of interpretability and the need for extensive training sets. To integrate the advantages of these two types of methods, we propose a novel neural network model based on deep unfolding, called variation sparse source imaging network (VSSI 2 p -Net). Specifically, we introduce variation sparsity and ℓ 2 , p norm ( 0 < p < 1 ) regularization into the model of the ESI problem and utilize the Alternating Direction Method of Multipliers (ADMM) to iteratively solve this model. Furthermore, by mapping the iterative process into a neural network structure, the proposed VSSI 2 p -Net can optimize all parameters, including the critical p in ℓ 2 , p -norm and the variation sparsity operator, in an end-to-end manner with a reasonably sized training set. In this way, VSSI 2 p -Net achieves more flexible prior information integration while retaining the interpretability of traditional methods, so that a more accurate and efficient solution for ESI can be obtained. We compared the performance of VSSI 2 p -Net with several traditional baseline methods and state-of-the-art deep learning methods on synthetic and real datasets. The results show that VSSI 2 p -Net significantly outperforms existing methods in source localization accuracy, spatial range estimation, and imaging speed across various source configurations.",
@@ -1174,11 +1240,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "panorama_ya_li",
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
       "李雅",
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "panorama_ya_li_b24e807053f0"
@@ -1208,12 +1276,26 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "06d316b5c17e38d6",
     "primary_categories_by_scholar": [
       "李雅：情感脑电与多模态生理信号",
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：脑电情感识别与多模态生理计算"
     ],
     "pdf_url": "https://doi.org/10.2139/ssrn.5291128"
   },
@@ -1644,10 +1726,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_fa5b5ce72fe3d4f3"
@@ -1669,10 +1753,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑电基础大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基准、数据与评测"
+      "李远清：脑电基准、数据与评测",
+      "俞祝良：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -2616,7 +2711,8 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2726,7 +2822,9 @@
     "topics": [
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 51/2525-1）",
     "status": "已索引出版/会议记录",
@@ -2737,10 +2835,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_7f56f293585987e6"
@@ -2761,10 +2861,25 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑电情感识别",
+          "脑机接口与神经解码",
+          "情感计算与情绪理解",
+          "情感理解",
+          "情感智能"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：情感脑电与多模态生理信号"
+      "李远清：情感脑电与多模态生理信号",
+      "俞祝良：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -2924,7 +3039,8 @@
     "topics": [
       "脑电情感识别",
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "脑电基础大模型"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 51/2525-1）",
     "status": "已索引出版/会议记录",
@@ -3549,10 +3665,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_c8b4539a15376ac1"
@@ -3571,10 +3689,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基准、数据与评测"
+      "李远清：脑电基准、数据与评测",
+      "俞祝良：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -3879,7 +4008,9 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 51/2525-1）",
     "status": "已索引出版/会议记录",
@@ -3890,16 +4021,19 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_6531f80d85276678"
     ],
     "resource_ids": [
-      "yuanqing_li__auto_code_8fdbf59e43"
+      "yuanqing_li__auto_code_8fdbf59e43",
+      "lu_baoliang__LU_DATA_DREAMER"
     ],
     "code_urls": [
       "https://github.com/yuty2009/emotionmil"
@@ -3921,12 +4055,26 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "情感理解",
+          "情感智能"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：情感脑电与多模态生理信号"
+      "李远清：情感脑电与多模态生理信号",
+      "俞祝良：生理情感数据库、基准与综述"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "eeg_affect",
     "primary_category": "情感脑电与多模态生理信号"
   },
@@ -4442,7 +4590,8 @@
     "topics": [
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 51/2525-1）",
     "status": "已索引出版/会议记录",
@@ -4453,10 +4602,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_9d90c9f3da2fb412"
@@ -4477,10 +4628,24 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑电情感识别",
+          "脑机接口与神经解码",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：情感脑电与多模态生理信号"
+      "李远清：情感脑电与多模态生理信号",
+      "俞祝良：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -4513,7 +4678,8 @@
     "topics": [
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 51/2525-1）",
     "status": "已索引出版/会议记录",
@@ -5223,7 +5389,8 @@
     "abstract_zh": "尽管之前在抑郁症检测研究中做出了努力，但利用睡眠结构自动检测抑郁症的研究仍然很少，并且仍然存在一些挑战：1）如何应用睡眠分期来检测抑郁症并区分容易误判的类别；2）如何自适应地捕获注意力通道维度信息以增强睡眠分期方法的可解释性。为了解决这些挑战，提出了一种基于通道时间注意力机制的自动睡眠分期方法和基于睡眠结构特征的抑郁检测方法。在睡眠分期中，采用时间注意力机制来更新特征矩阵，估计每个睡眠阶段的置信度分数，权重......",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 51/2525-1）",
     "status": "已索引出版/会议记录",
@@ -5387,10 +5554,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_17f3084858cdcb1c"
@@ -5410,10 +5579,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基准、数据与评测"
+      "李远清：脑电基准、数据与评测",
+      "俞祝良：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -6160,7 +6341,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 51/2525-1）",
     "status": "已索引出版/会议记录",
@@ -6372,7 +6554,8 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -6661,10 +6844,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_4a97f6755d674195"
@@ -6683,10 +6868,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基准、数据与评测"
+      "李远清：脑电基准、数据与评测",
+      "俞祝良：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -6991,7 +7187,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 51/2525-1）",
     "status": "已索引出版/会议记录",
@@ -7761,7 +7958,8 @@
     "topics": [
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 51/2525-1）",
     "status": "已索引出版/会议记录",
@@ -7772,10 +7970,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_af57f429798c56f3"
@@ -7796,10 +7996,24 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑电情感识别",
+          "脑机接口与神经解码",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：情感脑电与多模态生理信号"
+      "李远清：情感脑电与多模态生理信号",
+      "俞祝良：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -8340,10 +8554,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_ca82635e5b77cef9"
@@ -8360,10 +8576,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "general_ml_biomed",
+        "label": "通用模式识别、临床脑科学与跨领域应用",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：通用模式识别、临床脑科学与跨领域应用"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -8469,10 +8694,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_c1a4ec059d931bdf"
@@ -8489,10 +8716,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -8684,11 +8920,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "panorama_jiahui_pan",
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
       "潘家辉",
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "panorama_jiahui_pan_76e5b1e35424"
@@ -8719,12 +8957,27 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "ab210cb9f7e6c00c",
     "primary_categories_by_scholar": [
       "潘家辉：情感脑电与多模态生理信号",
-      "李远清：脑电基准、数据与评测"
+      "李远清：脑电基准、数据与评测",
+      "俞祝良：生理情感数据库、基准与综述"
     ],
     "pdf_url": "https://ieeexplore.ieee.org/ielx7/7333/4359219/09777912.pdf",
     "abstract_en": "Behavioral assessment of sound localization in the Coma Recovery Scale-Revised (CRS-R) poses a significant challenge due to motor disability in patients with disorders of consciousness (DOC). Brain-computer interfaces (BCIs), which can directly detect brain activities related to external stimuli, may thus provide an approach to assess DOC patients without the need for any physical behavior. In this study, a novel audiovisual BCI system was developed to simulate sound localization evaluation in CRS-R. Specifically, there were two alternatively flashed buttons on the left and right sides of the graphical user interface, one of which was randomly chosen as the target. The auditory stimuli of bell sounds were simultaneously presented by the ipsilateral loudspeaker during the flashing of the target button, which prompted patients to selectively attend to the target button. The recorded electroencephalography data were analyzed in real time to detect event-related potentials evoked by the target and further to determine whether the target was attended to or not. A significant BCI accuracy for a patient implied that he/she had sound localization. Among eighteen patients, eleven and four showed sound localization in the BCI and CRS-R, respectively. Furthermore, all patients showing sound localization in the CRS-R were among those detected by our BCI. The other seven patients who had no sound localization behavior in CRS-R were identified by the BCI assessment, and three of them showed improvements in the second CRS-R assessment after the BCI experiment. Thus, the proposed BCI system is promising for assisting the assessment of sound localization and improving the clinical diagnosis of DOC patients.",
@@ -8844,10 +9097,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_225e0aa79f9a1b1d"
@@ -8864,10 +9119,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "general_ml_biomed",
+        "label": "通用模式识别、临床脑科学与跨领域应用",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：通用模式识别、临床脑科学与跨领域应用"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -9578,7 +9842,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 51/2525-1）",
     "status": "已索引出版/会议记录",
@@ -9855,7 +10120,8 @@
     "topics": [
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 51/2525-1）",
     "status": "已索引出版/会议记录",
@@ -10210,10 +10476,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_4e51dd8d9ad4fd4a"
@@ -10230,10 +10498,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "general_ml_biomed",
+        "label": "通用模式识别、临床脑科学与跨领域应用",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：通用模式识别、临床脑科学与跨领域应用"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -10444,11 +10721,13 @@
     "scholar_name": "李远清",
     "scholar_ids": [
       "yuanqing_li",
-      "panorama_zhenfu_wen"
+      "panorama_zhenfu_wen",
+      "zhuliang_yu"
     ],
     "scholar_names": [
       "李远清",
-      "温珍福"
+      "温珍福",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_56e911091dbe14ea"
@@ -10477,11 +10756,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "李远清：脑电基准、数据与评测",
-      "温珍福：脑电基准、数据与评测"
+      "温珍福：脑电基准、数据与评测",
+      "俞祝良：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -10885,10 +11175,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_b0f30187461e3c58"
@@ -10905,10 +11197,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：情感脑电与多模态生理信号"
+      "李远清：情感脑电与多模态生理信号",
+      "俞祝良：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -10951,10 +11252,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_a88ba29cad9d1000"
@@ -10974,10 +11277,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑电基础大模型",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -11021,10 +11336,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_fa94893f8a7d239b"
@@ -11043,10 +11360,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基准、数据与评测"
+      "李远清：脑电基准、数据与评测",
+      "俞祝良：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -11220,10 +11548,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_d562f9749e633c5c"
@@ -11244,10 +11574,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基准、数据与评测"
+      "李远清：脑电基准、数据与评测",
+      "俞祝良：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -11653,10 +11994,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_4402b9e19f8faaa7"
@@ -11675,10 +12018,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -11725,10 +12079,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_d3da748963cc3b12"
@@ -11749,10 +12105,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑电基础大模型",
+          "脑机接口与神经解码",
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -12282,11 +12651,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "yuanqing_li",
-      "panorama_zhenfu_wen"
+      "panorama_zhenfu_wen",
+      "zhuliang_yu"
     ],
     "scholar_names": [
       "李远清",
-      "温珍福"
+      "温珍福",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_c98e8a2976c6"
@@ -12320,12 +12691,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与脑信息处理",
+          "情绪调控与意识障碍康复",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "eab3faea14449126",
     "primary_categories_by_scholar": [
       "李远清：情感脑电与多模态生理信号",
-      "温珍福：脑电基础模型与通用解码"
+      "温珍福：脑电基础模型与通用解码",
+      "俞祝良：脑电情感识别与多模态生理计算"
     ],
     "dblp_key": "journals/neuroimage/WenYYL19"
   },
@@ -12534,10 +12921,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_dc65169a331389e0"
@@ -12554,10 +12943,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "general_ml_biomed",
+        "label": "通用模式识别、临床脑科学与跨领域应用",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：通用模式识别、临床脑科学与跨领域应用"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -12703,10 +13101,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_6db23a42dacc5535"
@@ -12725,10 +13125,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -12957,10 +13368,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_e3ee3a9994f25147"
@@ -12980,10 +13393,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基准、数据与评测"
+      "李远清：脑电基准、数据与评测",
+      "俞祝良：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -13022,10 +13447,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_6e96a2b243a76bf3"
@@ -13042,10 +13469,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "general_ml_biomed",
+        "label": "通用模式识别、临床脑科学与跨领域应用",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：通用模式识别、临床脑科学与跨领域应用"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -13087,10 +13523,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_434d834fbe1176e2"
@@ -13109,10 +13547,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基准、数据与评测"
+      "李远清：脑电基准、数据与评测",
+      "俞祝良：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -13416,10 +13865,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_c8037816275cb48a"
@@ -13438,10 +13889,21 @@
         ],
         "confidence": "low",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "general_ml_biomed",
+        "label": "通用模式识别、临床脑科学与跨领域应用",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "强化学习与决策优化"
+        ],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：通用模式识别、临床脑科学与跨领域应用"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -13486,10 +13948,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_1a3be9d724f7ebfb"
@@ -13508,10 +13972,21 @@
         ],
         "confidence": "low",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "general_ml_biomed",
+        "label": "通用模式识别、临床脑科学与跨领域应用",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "强化学习与决策优化"
+        ],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：通用模式识别、临床脑科学与跨领域应用"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -13691,10 +14166,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_c48f567e666b522a"
@@ -13714,10 +14191,22 @@
         ],
         "confidence": "low",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "general_ml_biomed",
+        "label": "通用模式识别、临床脑科学与跨领域应用",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "多模态与大语言模型",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：通用模式识别、临床脑科学与跨领域应用"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -13875,7 +14364,7 @@
     "source_url": "https://dblp.org/rec/journals/tcst/ZhangLLLYL18.html",
     "openalex_id": "https://openalex.org/W2626801459",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 77,
     "abstract_en": "To remedy the discontinuity phenomenon existing in the infinity-norm velocity minimization (INVM) scheme, prevent the occurrence of high joint velocity, and decrease the joint-angle drift of redundant robot manipulators, a new type of tricriteria optimization-coordination-motion (TCOCM) scheme is proposed and investigated for dual-redundant-robot manipulators to track complex end-effector paths. Besides, the proposed scheme considers joint physical constraints (i.e., joint-angle limits and joint-velocity limits) and guarantees the joint velocity to approach zero at the end of tasks. Such a new-type TCOCM scheme combines the minimum velocity norm (MVN), repetitive motion planning (RMP), and INVM solutions via two weighting factor, and thus is termed MVN-RMP-INVM-TCOCM scheme. The proposed scheme consists of two subschemes, i.e., subscheme for the left robot manipulator and subscheme for the right robot manipulator. To control the dual arms simultaneously and collaboratively, two subschemes are reformulated as two general quadratic programming (QP) problems and further unified into one QP formulation. The unified QP problem is then solved by a simplified linear-variational-inequalities-based primal-dual neural network solver. Computer simulation results based on dual PUMA560 robot manipulators are illustrated to substantiate the advantage, efficacy, and applicability of the proposed MVN-RMP-INVM-TCOCM scheme to resolve the redundancy of dual-robot manipulators.",
     "abstract_zh": "为了弥补无限范数速度最小化（INVM）方案中存在的不连续现象，防止高关节速度的出现，并减少冗余机器人机械臂的关节角度漂移，提出并研究了一种新型的三准则优化协调运动（TCOCM）方案，用于双冗余机器人机械臂跟踪复杂的末端执行器路径。此外，所提出的方案考虑了关节物理约束（即关节角度限制和关节速度限制）并保证关节速度在任务结束时接近于零。这种新型 TCOCM 方案通过两个权重因子结合了最小速度范数 (MVN)、重复运动规划 (RMP) 和 INVM 解决方案，因此...",
     "abstract_source": "openalex_doi",
@@ -13889,10 +14378,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_f08c1064e6581963"
@@ -13909,10 +14400,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -13955,10 +14455,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_b0fdc0566911a984"
@@ -13977,10 +14479,21 @@
         ],
         "confidence": "low",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -14088,10 +14601,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_68be9fd02fd1e71e"
@@ -14108,10 +14623,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "general_ml_biomed",
+        "label": "通用模式识别、临床脑科学与跨领域应用",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：通用模式识别、临床脑科学与跨领域应用"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -14156,10 +14680,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_fe99f749cd068a76"
@@ -14178,10 +14704,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -14625,10 +15162,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_9f0838c4baf9515e"
@@ -14647,10 +15186,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -14694,10 +15244,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_45a79b8842b0230a"
@@ -14716,10 +15268,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -14759,10 +15322,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_369075d4a2d554db"
@@ -14779,10 +15344,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "general_ml_biomed",
+        "label": "通用模式识别、临床脑科学与跨领域应用",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：通用模式识别、临床脑科学与跨领域应用"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -14807,7 +15381,7 @@
     "source_url": "https://dblp.org/rec/journals/corr/abs-1808-03002.html",
     "openalex_id": "",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 3,
     "abstract_en": "The interactive image segmentation algorithm can provide an intelligent ways to understand the intention of user input. Many interactive methods have the problem of that ask for large number of user input. To efficient produce intuitive segmentation under limited user input is important for industrial application. In this paper, we reveal a positive feedback system on image segmentation to show the pixels of self-learning. Two approaches, iterative random walks and boundary random walks, are proposed for segmentation potential, which is the key step in feedback system. Experiment results on image segmentation indicates that proposed algorithms can obtain more efficient input to random walks. And higher segmentation performance can be obtained by applying the iterative boundary random walks algorithm.",
     "abstract_zh": "交互式图像分割算法可以提供一种智能方式来理解用户输入的意图。许多交互方法都存在需要大量用户输入的问题。在有限的用户输入下高效地产生直观的分割对于工业应用非常重要。在本文中，我们揭示了图像分割的正反馈系统，以显示自学习的像素。针对分割潜力，提出了迭代随机游走和边界随机游走两种方法，这是反馈 系统的关键步骤。图像分割的实验结果表明，所提出的算法可以获得更有效的随机游走输入。并且可以获得更高的分割性能...",
     "abstract_source": "arxiv_api",
@@ -14823,10 +15397,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_e0d0bdc890c3ef60"
@@ -14845,10 +15421,21 @@
         ],
         "confidence": "low",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "general_ml_biomed",
+        "label": "通用模式识别、临床脑科学与跨领域应用",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：通用模式识别、临床脑科学与跨领域应用"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -14951,10 +15538,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_007cc4c1c7f63d58"
@@ -14971,10 +15560,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -15098,7 +15696,8 @@
       "脑电情感识别",
       "脑机接口与神经解码",
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -15236,10 +15835,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_e415f2728ef2ec7c"
@@ -15256,10 +15857,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基准、数据与评测"
+      "李远清：脑电基准、数据与评测",
+      "俞祝良：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -15300,10 +15910,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_80d601ae23222d55"
@@ -15320,10 +15932,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "general_ml_biomed",
+        "label": "通用模式识别、临床脑科学与跨领域应用",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：通用模式识别、临床脑科学与跨领域应用"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -15475,10 +16096,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_0565421c77d4bdc6"
@@ -15495,10 +16118,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "general_ml_biomed",
+        "label": "通用模式识别、临床脑科学与跨领域应用",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：通用模式识别、临床脑科学与跨领域应用"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -15714,10 +16346,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_43af9b875594dc28"
@@ -15736,10 +16370,21 @@
         ],
         "confidence": "low",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -16740,10 +17385,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_23809d7c15b8e485"
@@ -16762,10 +17409,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -16865,7 +17523,8 @@
     "topics": [
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 51/2525-1）",
     "status": "已索引出版/会议记录",
@@ -16981,10 +17640,12 @@
     "work_title_group": "f19630995b70",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_50e00ec9e773"
@@ -17003,11 +17664,26 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "zhuliang_yu": {
+        "category_id": "general_ml_biomed",
+        "label": "通用模式识别、临床脑科学与跨领域应用",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与脑信息处理",
+          "情绪调控与意识障碍康复",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "low",
+        "note": ""
       }
     },
     "global_record_id": "a8e55ece120b109f",
     "primary_categories_by_scholar": [
-      "李远清：情感脑电与多模态生理信号"
+      "李远清：情感脑电与多模态生理信号",
+      "俞祝良：通用模式识别、临床脑科学与跨领域应用"
     ],
     "dblp_key": "journals/neuroimage/LiuYWGLN16"
   },
@@ -17109,10 +17785,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_9913c62635e72081"
@@ -17129,10 +17807,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "general_ml_biomed",
+        "label": "通用模式识别、临床脑科学与跨领域应用",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：通用模式识别、临床脑科学与跨领域应用"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -17292,10 +17979,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "chin_teng_lin"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "林进灯"
     ],
     "source_record_ids": [
       "yuanqing_li_80163b599cdf9729"
@@ -17315,10 +18004,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "chin_teng_lin": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "林进灯",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "林进灯：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -17941,10 +18642,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_b5961c829929e8a7"
@@ -17964,10 +18667,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基准、数据与评测"
+      "李远清：脑电基准、数据与评测",
+      "俞祝良：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -17994,7 +18709,7 @@
     "source_url": "https://dblp.org/rec/journals/mssp/YuFGXLW15.html",
     "openalex_id": "https://openalex.org/W2010961962",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 1,
     "abstract_en": "",
     "abstract_zh": "",
     "abstract_source": "",
@@ -18011,10 +18726,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_2fd830979500ba02"
@@ -18034,10 +18751,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -18473,10 +19202,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_a8317b9dd2833fc8"
@@ -18495,10 +19226,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -19120,12 +19862,14 @@
     "scholar_ids": [
       "yuanqing_li",
       "panorama_jinyi_long",
-      "panorama_jiahui_pan"
+      "panorama_jiahui_pan",
+      "zhuliang_yu"
     ],
     "scholar_names": [
       "李远清",
       "龙锦益",
-      "潘家辉"
+      "潘家辉",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_f4af96fe0478"
@@ -19174,13 +19918,29 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与脑信息处理",
+          "情绪调控与意识障碍康复",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "b72f1d28fd721801",
     "primary_categories_by_scholar": [
       "李远清：情感脑电与多模态生理信号",
       "龙锦益：脑电基准、数据与评测",
-      "潘家辉：脑电基准、数据与评测"
+      "潘家辉：脑电基准、数据与评测",
+      "俞祝良：生理情感数据库、基准与综述"
     ],
     "dblp_key": "journals/pieee/LiPLYWYW16",
     "pdf_url": "https://doi.org/10.1109/jproc.2015.2469106",
@@ -19393,10 +20153,12 @@
     "work_title_group": "a2226982fff2",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_d90fdb8a2af0"
@@ -19415,11 +20177,26 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与脑信息处理",
+          "情绪调控与意识障碍康复",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "282337de3c8236e6",
     "primary_categories_by_scholar": [
-      "李远清：情感脑电与多模态生理信号"
+      "李远清：情感脑电与多模态生理信号",
+      "俞祝良：脑电情感识别与多模态生理计算"
     ],
     "dblp_key": "journals/ijns/LiuYWGL15",
     "abstract_en": "For M/EEG-based distributed source imaging, it has been established that the L2-norm-based methods are effective in imaging spatially extended sources, whereas the L1-norm-based methods are more suited for estimating focal and sparse sources. However, when the spatial extents of the sources are unknown a priori, the rationale for using either type of methods is not adequately supported. Bayesian inference by exploiting the spatio-temporal information of the patch sources holds great promise as a tool for adaptive source imaging, but both computational and methodological limitations remain to be overcome. In this paper, based on state-space modeling of the M/EEG data, we propose a fully data-driven and scalable algorithm, termed STRAPS, for M/EEG patch source imaging on high-resolution cortices. Unlike the existing algorithms, the recursive penalized least squares (RPLS) procedure is employed to efficiently estimate the source activities as opposed to the computationally demanding Kalman filtering/smoothing. Furthermore, the coefficients of the multivariate autoregressive (MVAR) model characterizing the spatial-temporal dynamics of the patch sources are estimated in a principled manner via empirical Bayes. Extensive numerical experiments demonstrate STRAPS's excellent performance in the estimation of locations, spatial extents and amplitudes of the patch sources with varying spatial extents.",
@@ -20173,10 +20950,12 @@
     "work_title_group": "4d5db26c0cdc",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_ea8305e4a6e4"
@@ -20195,11 +20974,26 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与脑信息处理",
+          "情绪调控与意识障碍康复",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "d200adc6010b77e1",
     "primary_categories_by_scholar": [
-      "李远清：情感脑电与多模态生理信号"
+      "李远清：情感脑电与多模态生理信号",
+      "俞祝良：生理情感数据库、基准与综述"
     ],
     "dblp_key": "journals/titb/ZhangGYL15",
     "abstract_en": "Low energy consumption is crucial for body area networks (BANs). In BAN-enabled ECG monitoring, the continuous monitoring entails the need of the sensor nodes to transmit a huge data to the sink node, which leads to excessive energy consumption. To reduce airtime over energy-hungry wireless links, this paper presents an energy-efficient compressed sensing (CS)-based approach for on-node ECG compression. At first, an algorithm called minimal mutual coherence pursuit is proposed to construct sparse binary measurement matrices, which can be used to encode the ECG signals with superior performance and extremely low complexity. Second, in order to minimize the data rate required for faithful reconstruction, a weighted ℓ1 minimization model is derived by exploring the multisource prior knowledge in wavelet domain. Experimental results on MIT-BIH arrhythmia database reveals that the proposed approach can obtain higher compression ratio than the state-of-the-art CS-based methods. Together with its low encoding complexity, our approach can achieve significant energy saving in both encoding process and wireless transmission.",
@@ -20458,10 +21252,12 @@
     "work_title_group": "110ddf3fd801",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_11ed452db3e9"
@@ -20480,11 +21276,26 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与脑信息处理",
+          "情绪调控与意识障碍康复",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "1d0e6027ce98f6d4",
     "primary_categories_by_scholar": [
-      "李远清：情感脑电与多模态生理信号"
+      "李远清：情感脑电与多模态生理信号",
+      "俞祝良：生理情感数据库、基准与综述"
     ],
     "dblp_key": "journals/corr/abs-1207-1855",
     "abstract_en": "The recently proposed modified-compressive sensing (modified-CS), which utilizes the partially known support as prior knowledge, significantly improves the performance of recovering sparse signals. However, modified-CS depends heavily on the reliability of the known support. An important problem, which must be studied further, is the recoverability of modified-CS when the known support contains a number of errors. In this letter, we analyze the recoverability of modified-CS in a stochastic framework. A sufficient and necessary condition is established for exact recovery of a sparse signal. Utilizing this condition, the recovery probability that reflects the recoverability of modified-CS can be computed explicitly for a sparse signal with \\ell nonzero entries, even though the known support exists some errors. Simulation experiments have been carried out to validate our theoretical results.",
@@ -20699,10 +21510,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_fd41fd4176315aaa"
@@ -20722,10 +21535,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑电基础大模型",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -21909,7 +22734,7 @@
     "source_url": "https://dblp.org/rec/journals/mssp/0001YGL13.html",
     "openalex_id": "https://openalex.org/W2026893975",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 3,
     "abstract_en": "",
     "abstract_zh": "",
     "abstract_source": "",
@@ -21923,10 +22748,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_6ddf85c591cb4eef"
@@ -21943,10 +22770,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "general_ml_biomed",
+        "label": "通用模式识别、临床脑科学与跨领域应用",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：通用模式识别、临床脑科学与跨领域应用"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -22087,11 +22923,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "panorama_jiahui_pan",
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
       "潘家辉",
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "panorama_jiahui_pan_9246866bddca"
@@ -22121,12 +22959,26 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "e69ea59c12089c6a",
     "primary_categories_by_scholar": [
       "潘家辉：情感脑电与多模态生理信号",
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：脑电情感识别与多模态生理计算"
     ],
     "dblp_key": "journals/tbe/LiPWY13",
     "abstract_en": "In this paper, a hybrid brain-computer interface (BCI) system combining P300 and steady-state visual evoked potential (SSVEP) is proposed to improve the performance of asynchronous control. The four groups of flickering buttons were set in the graphical user interface. Each group contained one large button in the center and eight small buttons around it, all of which flashed at a fixed frequency (e.g., 7.5 Hz) to evoke SSVEP. At the same time, the four large buttons of the four groups were intensified through shape and color changes in a random order to produce P300 potential. During the control state, the user focused on a desired group of buttons (target buttons) to evoke P300 potential and SSVEP, simultaneously. Discrimination between the control and idle states was based on the detection of both P300 and SSVEP on the same group of buttons. As an application, this method was used to produce a \"go/stop\" command in real-time wheelchair control. Several experiments were conducted, and data analysis results showed that combining P300 potential and SSVEP significantly improved the performance of the BCI system in terms of detection accuracy and response time.",
@@ -22190,11 +23042,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "yuanqing_li",
-      "panorama_jiahui_pan"
+      "panorama_jiahui_pan",
+      "zhuliang_yu"
     ],
     "scholar_names": [
       "李远清",
-      "潘家辉"
+      "潘家辉",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_48ea7d83844c"
@@ -22228,12 +23082,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与脑信息处理",
+          "情绪调控与意识障碍康复",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "ddb5023f5d930915",
     "primary_categories_by_scholar": [
       "李远清：情感脑电与多模态生理信号",
-      "潘家辉：脑电基础模型与通用解码"
+      "潘家辉：脑电基础模型与通用解码",
+      "俞祝良：脑电情感识别与多模态生理计算"
     ],
     "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11571-013-9253-1.pdf"
   },
@@ -22693,10 +23563,12 @@
     "work_title_group": "e62efaca8142",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_e09618616f50"
@@ -22715,11 +23587,27 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与脑信息处理",
+          "情绪调控与意识障碍康复",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "1307c564ff03cdb4",
     "primary_categories_by_scholar": [
-      "李远清：情感脑电与多模态生理信号"
+      "李远清：情感脑电与多模态生理信号",
+      "俞祝良：生理情感数据库、基准与综述"
     ],
     "dblp_key": "journals/tbe/GuYSL13",
     "abstract_en": "Practical brain-computer interface (BCI) systems should require only low training effort for the user, and the algorithms used to classify the intent of the user should be computationally efficient. However, due to inter- and intra-subject variations in EEG signal, intermittent training/calibration is often unavoidable. In this paper, we present an online semi-supervised P300 BCI speller system. After a short initial training (around or less than 1 min in our experiments), the system is switched to a mode where the user can input characters through selective attention. In this mode, a self-training least squares support vector machine (LS-SVM) classifier is gradually enhanced in back end with the unlabeled EEG data collected online after every character input. In this way, the classifier is gradually enhanced. Even though the user may experience some errors in input at the beginning due to the small initial training dataset, the accuracy approaches that of fully supervised method in a few minutes. The algorithm based on LS-SVM and its sequential update has low computational complexity; thus, it is suitable for online applications. The effectiveness of the algorithm has been validated through data analysis on BCI Competition III dataset II (P300 speller BCI data). The performance of the online system was evaluated through experimental results on eight healthy subjects, where all of them achieved the spelling accuracy of 85 % or above within an average online semi-supervised learning time of around 3 min.",
@@ -23072,7 +23960,7 @@
     "source_url": "https://dblp.org/rec/journals/ejasp/ZhangLGY12.html",
     "openalex_id": "https://openalex.org/W2129334939",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 5,
     "abstract_en": "The recently proposed modified compressive sensing (modified-CS), which utilizes the partially known support as prior knowledge, significantly improves the performance of compressive sensing. In practice, the known part will inevitably involve some errors, which may degrade the gain of modified-CS. Within the stochastic framework, this article discuss the effect of errors in known part on the recoverability of modified-CS. First, based on the probabilistic measure of recoverability, two probability inequalities on recoverability are established, which reflect the changing tendencies of the recoverability of modified-CS with respect to the addition of errors in the known support and sparsity of original sparse vector. A direct corollary reveals further the effect degree of recoverability as adding an error in known support. Second, the maximum number of errors that the modified-CS can bear is also analyzed. We prove a quantitative-bound of errors in known part that relates with the number of samples and the sparsity of original vector. This bound mirrors the fault-tolerance capability of modified-CS. Simulation experiments have been carried out to validate our theoretical results.",
     "abstract_zh": "最近提出的改进的压缩感知（modified-CS）利用部分已知的支持作为先验知识，显着提高了压缩感知的性能。在实践中，已知部分不可避免地会涉及一些误差，这可能会降低修改CS的增益。在随机框架内，本文讨论了已知部分的错误对改进CS的可恢复性的影响。首先，基于可恢复性的概率测度，建立了两个可恢复性的概率不等式，反映了修正CS的可恢复性相对于已知支持度误差的增加和原始稀疏向量的稀疏性的变化趋势。直接推论...",
     "abstract_source": "openalex_doi",
@@ -23086,10 +23974,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_cdc1bcc2d359f913"
@@ -23106,10 +23996,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -23337,10 +24236,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_0b4f3f3587f863d4"
@@ -23359,10 +24260,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -24388,10 +25300,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_0cf4a67c8d10ae7c"
@@ -24408,10 +25322,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "general_ml_biomed",
+        "label": "通用模式识别、临床脑科学与跨领域应用",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：通用模式识别、临床脑科学与跨领域应用"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -24436,7 +25359,7 @@
     "source_url": "https://dblp.org/rec/journals/ejasp/ZhangLYG11.html",
     "openalex_id": "https://openalex.org/W2059718006",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 2,
     "abstract_en": "Parameterized quadratic programming (Lasso) is a powerful tool for the recovery of sparse signals based on underdetermined observations contaminated by noise. In this paper, we study the problem of simultaneous sparsity pattern recovery and approximation recovery based on the Lasso. An extended Lasso method is proposed with the following main contributions: (1) we analyze the recovery accuracy of Lasso under the condition of guaranteeing the recovery of nonzero entries positions. Specifically, an upper bound of the tuning parameter h of Lasso is derived. If h exceeds this bound, the recovery error will increase with h ; (2) an extended Lasso algorithm is developed by choosing the tuning parameter according to the bound and at the same time deriving a threshold to recover zero entries from the output of the Lasso. The simulation results validate that our method produces higher probability of sparsity pattern recovery and better approximation recovery compared to two state-of-the-art Lasso methods.",
     "abstract_zh": "参数化二次规划 (Lasso) 是一种强大的工具，用于根据受噪声污染的不确定观测值恢复稀疏信号。在本文中，我们研究了基于Lasso的同时稀疏模式恢复和近似恢复问题。提出了一种扩展的Lasso方法，其主要贡献如下：（1）分析了Lasso在保证非零条目位置恢复的情况下的恢复精度。具体地，导出Lasso的调整参数h的上限。如果 h 超过这个界限，恢复误差将随着 h 的增加而增加； (2) 通过根据边界选择调整参数来开发扩展的Lasso算法，同时......",
     "abstract_source": "openalex_doi",
@@ -24450,10 +25373,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_df78e4c63ad26131"
@@ -24470,10 +25395,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "general_ml_biomed",
+        "label": "通用模式识别、临床脑科学与跨领域应用",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：通用模式识别、临床脑科学与跨领域应用"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -24513,10 +25447,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_4271890d3f950eee"
@@ -24535,10 +25471,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -24578,10 +25525,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_ec71a1388a9cef98"
@@ -24598,10 +25547,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "general_ml_biomed",
+        "label": "通用模式识别、临床脑科学与跨领域应用",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：通用模式识别、临床脑科学与跨领域应用"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -24671,11 +25629,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "yuanqing_li",
-      "panorama_jinyi_long"
+      "panorama_jinyi_long",
+      "zhuliang_yu"
     ],
     "scholar_names": [
       "李远清",
-      "龙锦益"
+      "龙锦益",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_c4148e6abbdc"
@@ -24709,12 +25669,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与脑信息处理",
+          "情绪调控与意识障碍康复",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "54b2dcbb2da3de81",
     "primary_categories_by_scholar": [
       "李远清：情感脑电与多模态生理信号",
-      "龙锦益：脑电基础模型与通用解码"
+      "龙锦益：脑电基础模型与通用解码",
+      "俞祝良：脑电情感识别与多模态生理计算"
     ],
     "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0020801&type=printable",
     "abstract_en": "One of the central questions in cognitive neuroscience is the precise neural representation, or brain pattern, associated with a semantic category. In this study, we explored the influence of audiovisual stimuli on the brain patterns of concepts or semantic categories through a functional magnetic resonance imaging (fMRI) experiment. We used a pattern search method to extract brain patterns corresponding to two semantic categories: \"old people\" and \"young people.\" These brain patterns were elicited by semantically congruent audiovisual, semantically incongruent audiovisual, unimodal visual, and unimodal auditory stimuli belonging to the two semantic categories. We calculated the reproducibility index, which measures the similarity of the patterns within the same category. We also decoded the semantic categories from these brain patterns. The decoding accuracy reflects the discriminability of the brain patterns between two categories. The results showed that both the reproducibility index of brain patterns and the decoding accuracy were significantly higher for semantically congruent audiovisual stimuli than for unimodal visual and unimodal auditory stimuli, while the semantically incongruent stimuli did not elicit brain patterns with significantly higher reproducibility index or decoding accuracy. Thus, the semantically congruent audiovisual stimuli enhanced the within-class reproducibility of brain patterns and the between-class discriminability of brain patterns, and facilitate neural representations of semantic categories or concepts. Furthermore, we analyzed the brain activity in superior temporal sulcus and middle temporal gyrus (STS/MTG). The strength of the fMRI signal and the reproducibility index were enhanced by the semantically congruent audiovisual stimuli. Our results support the use of the reproducibility index as a potential tool to supplement the fMRI signal amplitude for evaluating multimodal integration.",
@@ -24913,10 +25889,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "关存太"
     ],
     "source_record_ids": [
       "yuanqing_li_b2c7004fc8e8262a"
@@ -24933,10 +25911,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -25120,10 +26107,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_968cc736a6fad5a3"
@@ -25142,10 +26131,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -25292,11 +26292,15 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "yuanqing_li",
-      "panorama_jinyi_long"
+      "panorama_jinyi_long",
+      "cuntai_guan",
+      "zhuliang_yu"
     ],
     "scholar_names": [
       "李远清",
-      "龙锦益"
+      "龙锦益",
+      "关存太",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_4bdda2dba75f"
@@ -25330,12 +26334,44 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑机接口与脑信息处理",
+          "情绪调控与意识障碍康复",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与脑信息处理",
+          "情绪调控与意识障碍康复",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "08c5c0b675062b7f",
     "primary_categories_by_scholar": [
       "李远清：情感脑电与多模态生理信号",
-      "龙锦益：脑电基础模型与通用解码"
+      "龙锦益：脑电基础模型与通用解码",
+      "关存太：脑电基础大模型与自监督预训练",
+      "俞祝良：脑电情感识别与多模态生理计算"
     ],
     "dblp_key": "journals/tbe/LiLYYWZG10",
     "abstract_en": "Two-dimensional cursor control is an important and challenging issue in EEG-based brain-computer interfaces (BCIs). To address this issue, here we propose a new approach by combining two brain signals including Mu/Beta rhythm during motor imagery and P300 potential. In particular, a motor imagery detection mechanism and a P300 potential detection mechanism are devised and integrated such that the user is able to use the two signals to control, respectively, simultaneously, and independently, the horizontal and the vertical movements of the cursor in a specially designed graphic user interface. A real-time BCI system based on this approach is implemented and evaluated through an online experiment involving six subjects performing 2-D control tasks. The results attest to the efficacy of obtaining two independent control signals by the proposed approach. Furthermore, the results show that the system has merit compared with prior systems: it allows cursor movement between arbitrary positions.",
@@ -25377,10 +26413,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_b2ca21a9a6621124"
@@ -25397,10 +26435,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "general_ml_biomed",
+        "label": "通用模式识别、临床脑科学与跨领域应用",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：通用模式识别、临床脑科学与跨领域应用"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -25499,10 +26546,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_2e96689f7e8f8e5e"
@@ -25519,10 +26568,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "general_ml_biomed",
+        "label": "通用模式识别、临床脑科学与跨领域应用",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：通用模式识别、临床脑科学与跨领域应用"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -25753,11 +26811,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "yuanqing_li",
-      "panorama_jinyi_long"
+      "panorama_jinyi_long",
+      "zhuliang_yu"
     ],
     "scholar_names": [
       "李远清",
-      "龙锦益"
+      "龙锦益",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_1bb2644b429d"
@@ -25791,12 +26851,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与脑信息处理",
+          "情绪调控与意识障碍康复",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "d98534a7e92ac2fd",
     "primary_categories_by_scholar": [
       "李远清：情感脑电与多模态生理信号",
-      "龙锦益：脑电基础模型与通用解码"
+      "龙锦益：脑电基础模型与通用解码",
+      "俞祝良：脑电情感识别与多模态生理计算"
     ],
     "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11571-010-9114-0.pdf"
   },
@@ -25860,11 +26936,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "yuanqing_li",
-      "panorama_jinyi_long"
+      "panorama_jinyi_long",
+      "cuntai_guan"
     ],
     "scholar_names": [
       "李远清",
-      "龙锦益"
+      "龙锦益",
+      "关存太"
     ],
     "source_record_ids": [
       "yuanqing_li_63f4b3f142a3"
@@ -25898,12 +26976,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑机接口与脑信息处理",
+          "情绪调控与意识障碍康复",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "be52fe45d54c4589",
     "primary_categories_by_scholar": [
       "李远清：情感脑电与多模态生理信号",
-      "龙锦益：脑电基础模型与通用解码"
+      "龙锦益：脑电基础模型与通用解码",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "abstract_en": "In this paper, a hybrid EEG-based brain computer interface (BCI) is designed for two-dimensional cursor control. In our approach, two brain activity patterns, i.e., motor imagery and P300 potential, are used for controlling the horizontal and the vertical movements of the cursor respectively. A real-time BCI system based on this approach is implemented and evaluated through an online experiment. Six subjects attending this experiment can perform 2-D cursor control effectively. Our experimental results show that the system has the following merits compared with prior systems: 1) it does not rely on intensive user training; 2) it allows cursor movement between arbitrary positions.",
     "abstract_source": "openalex_verified",
@@ -26095,10 +27189,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_c0c9e9ad56498676"
@@ -26115,10 +27211,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "general_ml_biomed",
+        "label": "通用模式识别、临床脑科学与跨领域应用",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：通用模式识别、临床脑科学与跨领域应用"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -26143,7 +27248,7 @@
     "source_url": "https://dblp.org/rec/conf/icassp/HeGLY10.html",
     "openalex_id": "https://openalex.org/W2126644230",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 5,
     "abstract_en": "P300 is one of the most studied components of event related potentials which reflects the responses of brain to events in the external environment. In this paper, we present a new method that utilizes multiresolution autoregression of multichannel time series (MAMTS) for feature extraction of P300 wave. First, it adopts multiresolution autoregression on dyadic tree to depict the characteristic of electroencephalogram (EEG) signal. Then the corresponding autoregression noise of multichannel time series is extracted as the feature. The experiment results verified the effectiveness of this new feature for P300 speller brain compute interface (BCI).",
     "abstract_zh": "P300 是事件相关电位中研究最多的成分之一，反映了大脑对外部环境事件的反应。在本文中，我们提出了一种利用多通道时间序列的多分辨率自回归（MAMTS）来提取 P300 波特征的新方法。首先，它采用二元树上的多分辨率自回归来描述脑电图（EEG）信号的特征。然后提取多通道时间序列对应的自回归噪声作为特征。实验结果验证了P300拼写脑计算接口（BCI）这一新功能的有效性。",
     "abstract_source": "openalex_doi",
@@ -26159,10 +27264,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_c2242ecd3a512e4d"
@@ -26181,10 +27288,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -26225,10 +27343,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_21729a01d41697e2"
@@ -26247,10 +27367,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：情感脑电与多模态生理信号"
+      "李远清：情感脑电与多模态生理信号",
+      "俞祝良：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -26315,11 +27446,15 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "yuanqing_li",
-      "jianfeng_feng"
+      "jianfeng_feng",
+      "cuntai_guan",
+      "zhuliang_yu"
     ],
     "scholar_names": [
       "李远清",
-      "冯建峰"
+      "冯建峰",
+      "关存太",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_3f254d318ece"
@@ -26353,12 +27488,44 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑机接口与脑信息处理",
+          "情绪调控与意识障碍康复",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与脑信息处理",
+          "情绪调控与意识障碍康复",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "ddd7827422574b7c",
     "primary_categories_by_scholar": [
       "李远清：情感脑电与多模态生理信号",
-      "冯建峰：脑电基准、数据与评测"
+      "冯建峰：脑电基准、数据与评测",
+      "关存太：脑电基础大模型与自监督预训练",
+      "俞祝良：生理情感数据库、基准与综述"
     ],
     "dblp_key": "journals/tbe/LiNYGFG09",
     "abstract_en": "Multivariate pattern analysis approaches toward detection of brain regions from fMRI data have been gaining attention recently. In this study, we introduce an iterative sparse-representation-based algorithm for detection of voxels in functional MRI (fMRI) data with task relevant information. In each iteration of the algorithm, a linear programming problem is solved and a sparse weight vector is subsequently obtained. The final weight vector is the mean of those obtained in all iterations. The characteristics of our algorithm are as follows: 1) the weight vector (output) is sparse; 2) the magnitude of each entry of the weight vector represents the significance of its corresponding variable or feature in a classification or regression problem; and 3) due to the convergence of this algorithm, a stable weight vector is obtained. To demonstrate the validity of our algorithm and illustrate its application, we apply the algorithm to the Pittsburgh Brain Activity Interpretation Competition 2007 functional fMRI dataset for selecting the voxels, which are the most relevant to the tasks of the subjects. Based on this dataset, the aforementioned characteristics of our algorithm are analyzed, and a comparison between our method with the univariate general-linear-model-based statistical parametric mapping is performed. Using our method, a combination of voxels are selected based on the principle of effective/sparse representation of a task. Data analysis results in this paper show that this combination of voxels is suitable for decoding tasks and demonstrate the effectiveness of our method.",
@@ -26399,10 +27566,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_a3a06a01da1671b2"
@@ -26419,10 +27588,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "general_ml_biomed",
+        "label": "通用模式识别、临床脑科学与跨领域应用",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "俞祝良：通用模式识别、临床脑科学与跨领域应用"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -26460,10 +27638,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "关存太"
     ],
     "source_record_ids": [
       "yuanqing_li_ad808280d8ffeaff"
@@ -26480,10 +27660,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -26652,7 +27841,7 @@
     "source_url": "https://dblp.org/rec/conf/icassp/LiYNG09.html",
     "openalex_id": "https://openalex.org/W2153896334",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 1,
     "abstract_en": "This paper proposes an iterative sparse representation-based algorithmfor voxel selection in functionalmagnetic resonance imaging (fMRI) data. The output of the algorithm is a sparse weight vector, of which the magnitude of each entry represents the significance of its corresponding voxel with respect to mental tasks or stimulus. To demonstrate the validity of our algorithm and illustrate its application, we apply this algorithm to the Pittsburgh Brain Activity Interpretation Competition (PBAIC) 2007 fMRI data set for selecting the voxels which are the most relevant to the tasks of the subjects. Compared with three baseline methods, general linear model (GLM)-based statistical parametric mapping (SPM), correlation method and mutual information method, our method shows satisfactory performance for voxel selection.",
     "abstract_zh": "本文提出了一种基于迭代稀疏表示的算法，用于功能磁共振成像（fMRI）数据中的体素选择。该算法的输出是一个稀疏权重向量，其中每个条目的大小代表其相应体素相对于心理任务或刺激的重要性。为了证明我们算法的有效性并说明其应用，我们将该算法应用于匹兹堡大脑活动解释竞赛（PBAIC）2007 年 fMRI 数据集，以选择与受试者任务最相关的体素。与三种基线方法相比，基于一般线性模型（GLM）的统计参数映射（SPM）、相关方法和互信息...",
     "abstract_source": "openalex_doi",
@@ -26668,10 +27857,14 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "cuntai_guan",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "关存太",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_0824db91411f2240"
@@ -26690,10 +27883,32 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：情感脑电与多模态生理信号"
+      "李远清：情感脑电与多模态生理信号",
+      "关存太：脑电基础大模型与自监督预训练",
+      "俞祝良：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -27072,7 +28287,7 @@
     "source_url": "https://dblp.org/rec/journals/ml/LiG08.html",
     "openalex_id": "https://openalex.org/W1988296307",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 70,
     "abstract_en": "",
     "abstract_zh": "",
     "abstract_source": "",
@@ -27086,10 +28301,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "关存太"
     ],
     "source_record_ids": [
       "yuanqing_li_1a35d712cb76dedb"
@@ -27106,10 +28323,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -27149,10 +28375,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "关存太"
     ],
     "source_record_ids": [
       "yuanqing_li_b1e12946020408d8"
@@ -27169,10 +28397,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -27213,10 +28450,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "关存太"
     ],
     "source_record_ids": [
       "yuanqing_li_70dd115dfc42339e"
@@ -27235,10 +28474,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -27297,11 +28547,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "panorama_ya_li",
-      "yuanqing_li"
+      "yuanqing_li",
+      "cuntai_guan"
     ],
     "scholar_names": [
       "李雅",
-      "李远清"
+      "李远清",
+      "关存太"
     ],
     "source_record_ids": [
       "panorama_ya_li_fbcda0dea06a"
@@ -27331,12 +28583,26 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "d73f225430803b2e",
     "primary_categories_by_scholar": [
       "李雅：情感脑电与多模态生理信号",
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "dblp_key": "journals/prl/LiGLC08"
   },
@@ -27538,10 +28804,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "关存太"
     ],
     "source_record_ids": [
       "yuanqing_li_4369b57328cc4a6b"
@@ -27560,10 +28828,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -27756,10 +29035,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "关存太"
     ],
     "source_record_ids": [
       "yuanqing_li_065485c4e7a8d63b"
@@ -27776,10 +29057,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -27867,7 +29157,7 @@
     "source_url": "https://dblp.org/rec/conf/ica/LiCAG06.html",
     "openalex_id": "https://openalex.org/W1593566450",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 2,
     "abstract_en": "",
     "abstract_zh": "",
     "abstract_source": "",
@@ -27881,10 +29171,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "关存太"
     ],
     "source_record_ids": [
       "yuanqing_li_38ca80c32eb22c78"
@@ -27901,10 +29193,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -28026,10 +29327,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "关存太"
     ],
     "source_record_ids": [
       "yuanqing_li_1253a368f12ef724"
@@ -28048,10 +29351,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -28090,10 +29404,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "关存太"
     ],
     "source_record_ids": [
       "yuanqing_li_22e624399140e21a"
@@ -28112,10 +29428,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -28158,10 +29485,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "关存太"
     ],
     "source_record_ids": [
       "yuanqing_li_5bb0a95f661c9993"
@@ -28180,10 +29509,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_bci_decode",
+        "label": "脑机接口、神经解码与情感脑电",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：情感脑电与多模态生理信号"
+      "李远清：情感脑电与多模态生理信号",
+      "关存太：脑机接口、神经解码与情感脑电"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -28287,10 +29627,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "关存太"
     ],
     "source_record_ids": [
       "yuanqing_li_2cb9c5406ed93147"
@@ -28309,10 +29651,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -28351,10 +29704,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "关存太"
     ],
     "source_record_ids": [
       "yuanqing_li_60a7186d406f1910"
@@ -28373,10 +29728,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -29280,10 +30646,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "关存太"
     ],
     "source_record_ids": [
       "yuanqing_li_fe7da434cf214600"
@@ -29302,10 +30670,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -29345,10 +30724,12 @@
     "scholar_id": "yuanqing_li",
     "scholar_name": "李远清",
     "scholar_ids": [
-      "yuanqing_li"
+      "yuanqing_li",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "李远清"
+      "李远清",
+      "关存太"
     ],
     "source_record_ids": [
       "yuanqing_li_0ec656f4fa37e0e9"
@@ -29367,10 +30748,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李远清：脑电基础模型与通用解码"
+      "李远清：脑电基础模型与通用解码",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",

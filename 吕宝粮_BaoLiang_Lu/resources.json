@@ -179,10 +179,12 @@
     ],
     "unmatched_titles": [],
     "scholar_category_ids": [
-      "lu_baoliang::eeg_affect"
+      "lu_baoliang::eeg_affect",
+      "wanzeng_kong::eeg_affect_bench"
     ],
     "primary_categories": [
-      "吕宝粮：情感脑电与多模态生理信号"
+      "吕宝粮：情感脑电与多模态生理信号",
+      "孔万增：生理情感数据库、基准与综述"
     ]
   },
   {
@@ -853,14 +855,17 @@
     "name_zh": "Privacy-Proxy",
     "matched_paper_ids": [
       "lu_baoliang_38edcf629d3a",
-      "lu_baoliang_d00cd1240e4d"
+      "lu_baoliang_d00cd1240e4d",
+      "b2966d9a202ef524"
     ],
     "unmatched_titles": [],
     "scholar_category_ids": [
-      "lu_baoliang::eeg_affect"
+      "lu_baoliang::eeg_affect",
+      "wanzeng_kong::eeg_affect_bench"
     ],
     "primary_categories": [
-      "吕宝粮：情感脑电与多模态生理信号"
+      "吕宝粮：情感脑电与多模态生理信号",
+      "孔万增：生理情感数据库、基准与综述"
     ],
     "evidence_labels": [
       "作者/机构主页",
@@ -1548,18 +1553,50 @@
     "matched_paper_ids": [
       "lu_baoliang_e0fbdde881de",
       "lu_baoliang_a91e094d41b6",
-      "lu_baoliang_5247c09c17f1"
+      "lu_baoliang_5247c09c17f1",
+      "20aeb341bbd42bbd",
+      "469dc694767f1848",
+      "4f629b87ed21b4ac",
+      "000f662a4f7e309b",
+      "551a9128f7a9da7c",
+      "d25d9ef98a69e243",
+      "58309c4a0f9f4ff2",
+      "b6fd07849783a357",
+      "e729b15d8959da32",
+      "f9861fddab5ab25c"
     ],
     "unmatched_titles": [],
     "scholar_category_ids": [
       "lu_baoliang::eeg_benchmark",
       "lu_baoliang::eeg_affect",
-      "wei_long_zheng::eeg_affect"
+      "wei_long_zheng::eeg_affect",
+      "wenming_zheng::eeg_affect",
+      "panorama_6ea6272c5bf0::eeg_affect",
+      "panorama_ef5ed70a98c0::eeg_affect",
+      "tengfei_song::eeg_affect_bench",
+      "panorama_ruihua_song::eeg_affect",
+      "xun_chen_ustc::eeg_foundation",
+      "xun_chen_ustc::eeg_bci_decode",
+      "dan_zhang_thu::eeg_foundation",
+      "yuanqing_li::eeg_affect",
+      "zhuliang_yu::eeg_affect_bench",
+      "stamos_katsigiannis::eeg_affect_bench"
     ],
     "primary_categories": [
       "吕宝粮：脑电基准、数据与评测",
       "吕宝粮：情感脑电与多模态生理信号",
-      "郑伟龙：情感脑电与多模态生理信号"
+      "郑伟龙：情感脑电与多模态生理信号",
+      "郑文明：情感脑电与多模态生理信号",
+      "宗源：情感脑电与多模态生理信号",
+      "崔振：情感脑电与多模态生理信号",
+      "宋腾飞：生理情感数据库、基准与综述",
+      "宋睿华：情感脑电与多模态生理信号",
+      "陈勋：脑电基础大模型与自监督预训练",
+      "陈勋：脑机接口、神经解码与情感脑电",
+      "张丹：脑电基础大模型与自监督预训练",
+      "李远清：情感脑电与多模态生理信号",
+      "俞祝良：生理情感数据库、基准与综述",
+      "Stamos Katsigiannis：生理情感数据库、基准与综述"
     ],
     "evidence_labels": [
       "数据集下载/申请"
@@ -2205,11 +2242,13 @@
     "unmatched_titles": [],
     "scholar_category_ids": [
       "lu_baoliang::eeg_foundation",
-      "lu_baoliang::eeg_affect"
+      "lu_baoliang::eeg_affect",
+      "wanzeng_kong::eeg_affect_bench"
     ],
     "primary_categories": [
       "吕宝粮：脑电基础模型与通用解码",
-      "吕宝粮：情感脑电与多模态生理信号"
+      "吕宝粮：情感脑电与多模态生理信号",
+      "孔万增：生理情感数据库、基准与综述"
     ],
     "evidence_labels": [
       "项目主页/资源说明"
@@ -2244,10 +2283,12 @@
     ],
     "unmatched_titles": [],
     "scholar_category_ids": [
-      "lu_baoliang::eeg_affect"
+      "lu_baoliang::eeg_affect",
+      "wanzeng_kong::eeg_affect_bench"
     ],
     "primary_categories": [
-      "吕宝粮：情感脑电与多模态生理信号"
+      "吕宝粮：情感脑电与多模态生理信号",
+      "孔万增：生理情感数据库、基准与综述"
     ],
     "evidence_labels": [
       "项目主页/资源说明"
@@ -2282,10 +2323,12 @@
     ],
     "unmatched_titles": [],
     "scholar_category_ids": [
-      "lu_baoliang::eeg_affect"
+      "lu_baoliang::eeg_affect",
+      "wanzeng_kong::eeg_affect_bench"
     ],
     "primary_categories": [
-      "吕宝粮：情感脑电与多模态生理信号"
+      "吕宝粮：情感脑电与多模态生理信号",
+      "孔万增：生理情感数据库、基准与综述"
     ],
     "evidence_labels": [
       "项目主页/资源说明"
@@ -2990,18 +3033,22 @@
     ],
     "name_zh": "EEGdenoiseNet",
     "matched_paper_ids": [
-      "lu_baoliang_8fd0685e01a1"
+      "lu_baoliang_8fd0685e01a1",
+      "416a4710861ede54"
     ],
     "unmatched_titles": [],
     "scholar_category_ids": [
-      "lu_baoliang::eeg_foundation"
+      "lu_baoliang::eeg_foundation",
+      "quanying_liu::eeg_foundation"
     ],
     "primary_categories": [
-      "吕宝粮：脑电基础模型与通用解码"
+      "吕宝粮：脑电基础模型与通用解码",
+      "刘泉影：脑电基础大模型与自监督预训练"
     ],
     "evidence_labels": [
       "GitHub 代码仓库"
-    ]
+    ],
+    "is_dataset_benchmark": true
   },
   {
     "id": "lu_baoliang__LU_DATA_I-CARE",

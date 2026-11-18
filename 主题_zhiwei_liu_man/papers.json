@@ -1,0 +1,3413 @@
+[
+  {
+    "title": "A Survey of Simulation in Finance: Data, Methods, Applications, and Evaluation",
+    "title_en": "A Survey of Simulation in Finance: Data, Methods, Applications, and Evaluation",
+    "title_zh": "金融模拟综述：数据、方法、应用和评估",
+    "year": 2026,
+    "venue": "SSRN Electronic Journal",
+    "authors": [
+      "Zhiwei Liu",
+      "Qiqi Qiang",
+      "Jie Gong",
+      "Runteng Guo",
+      "Haoyang Liu",
+      "Ziyan Kuang",
+      "Sichen Hui",
+      "Jingchi Yang",
+      "Wanying He",
+      "Maowei Jiang",
+      "Zhuohan Xie",
+      "Yankai Chen",
+      "Xue Liu",
+      "Min Peng",
+      "Qianqian Xie",
+      "Sophia Ananiadou"
+    ],
+    "doi": "10.2139/ssrn.7289362",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.2139/ssrn.7289362",
+    "pdf_url": "https://doi.org/10.2139/ssrn.7289362",
+    "source_url": "https://openalex.org/W7203568057",
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "cited_by_count": 0,
+    "topics": [],
+    "verification": "OpenAlex作者实体与机构消歧核验（A5077976343）",
+    "status": "预印本",
+    "source_kind": "openalex_verified",
+    "record_id": "sophia_ananiadou_8eaec15aefa7f59f",
+    "global_record_id": "8eaec15aefa7f59f",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "scholar_ids": [
+      "sophia_ananiadou",
+      "zhiwei_liu_man"
+    ],
+    "scholar_names": [
+      "Sophia Ananiadou",
+      "刘志威"
+    ],
+    "source_record_ids": [
+      "sophia_ananiadou_8eaec15aefa7f59f"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "sophia_ananiadou": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "Sophia Ananiadou",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhiwei_liu_man": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘志威",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "Sophia Ananiadou：情感与大模型评测基准、数据集及综述",
+      "刘志威：情感与大模型评测基准、数据集及综述"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "llm_benchmark_data",
+    "primary_category": "情感与大模型评测基准、数据集及综述"
+  },
+  {
+    "title": "All That Glisters Is Not Gold: A Benchmark for Reference-Free Counterfactual Financial Misinformation Detection",
+    "title_en": "All That Glisters Is Not Gold: A Benchmark for Reference-Free Counterfactual Financial Misinformation Detection",
+    "title_zh": "闪闪发光的并非黄金：无参考反事实金融错误信息检测的基准",
+    "year": 2026,
+    "venue": "ACL (1)",
+    "authors": [
+      "Jimin Huang",
+      "Ziyang Xu",
+      "Xi Chen",
+      "Yupeng Cao",
+      "Prayag Tiwari",
+      "Yuechen Jiang",
+      "Zhiyang Deng",
+      "Sophia Ananiadou",
+      "Alejandro Lopez-Lira",
+      "Yueru He",
+      "Chen Xu",
+      "Jun'ichi Tsujii",
+      "Zhiwei Liu"
+    ],
+    "doi": "10.18653/V1/2026.ACL-LONG.492",
+    "dblp_key": "conf/acl/JiangLCHXXDTCLH26",
+    "paper_url": "https://doi.org/10.18653/V1/2026.ACL-LONG.492",
+    "pdf_url": "https://aclanthology.org/2026.acl-long.492.pdf",
+    "source_url": "https://dblp.org/rec/conf/acl/JiangLCHXXDTCLH26",
+    "abstract_en": "We introduce RFC-Bench, a benchmark for evaluating large language models on financial misinformation under realistic news. RFC-Bench operates at the paragraph level and captures the contextual complexity of financial news where meaning emerges from dispersed cues. The benchmark defines two complementary tasks: reference-free misinformation detection and comparison-based diagnosis using paired original–perturbed inputs. Experiments reveal a consistent pattern: performance is substantially stronger when comparative context is available, while reference-free settings expose significant weaknesses, including unstable predictions and elevated invalid outputs. These results indicate that current models struggle to maintain coherent belief states without external grounding. By highlighting this gap, RFC-Bench provides a structured testbed for studying reference-free reasoning and advancing more reliable financial misinformation detection in real-world settings.",
+    "abstract_zh": "我们引入了 RFC-Bench，这是一个评估现实新闻下的金融错误信息的大型语言模型的基准。 RFC-Bench 在段落级别运行，捕捉财经新闻的上下文复杂性，其中意义从分散的线索中显现出来。该基准定义了两个互补的任务：无参考错误信息检测和使用成对的原始扰动输入进行基于比较的诊断。实验揭示了一个一致的模式：当比较上下文可用时，性能要强得多，而无参考设置则暴露出明显的弱点，包括不稳定的预测和无效输出的增加。这些结果表明，当前的模型很难维持连贯的信念状态......",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 9,
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者PID核验（47/4142）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "sophia_ananiadou_f4131b1881e27946",
+    "global_record_id": "f4131b1881e27946",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "scholar_ids": [
+      "sophia_ananiadou",
+      "zhiwei_liu_man"
+    ],
+    "scholar_names": [
+      "Sophia Ananiadou",
+      "刘志威"
+    ],
+    "source_record_ids": [
+      "sophia_ananiadou_f4131b1881e27946"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "sophia_ananiadou": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "Sophia Ananiadou",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhiwei_liu_man": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘志威",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "Sophia Ananiadou：通用预训练大模型、视听生成与基础方法",
+      "刘志威：通用预训练大模型、视听生成与基础方法"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "general_foundation",
+    "primary_category": "通用预训练大模型、视听生成与基础方法"
+  },
+  {
+    "title": "Data Mixing Agent: Learning to Re-weight Domains for Continual Pre-training",
+    "title_en": "Data Mixing Agent: Learning to Re-weight Domains for Continual Pre-training",
+    "title_zh": "数据混合代理：学习重新加权域以进行持续预训练",
+    "year": 2026,
+    "venue": "ACL (1)",
+    "authors": [
+      "Zhiwei Liu",
+      "Peng Cheng",
+      "Kailai Yang",
+      "Hao Li",
+      "Lei Ji",
+      "Mao Yang",
+      "Yeyun Gong",
+      "Xiao Liang",
+      "Xiao Liu"
+    ],
+    "doi": "10.18653/V1/2026.ACL-LONG.427",
+    "dblp_key": "conf/acl/YangLJLLLGCY26",
+    "paper_url": "https://doi.org/10.18653/V1/2026.ACL-LONG.427",
+    "pdf_url": "https://doi.org/10.18653/v1/2026.acl-long.427",
+    "source_url": "https://dblp.org/rec/conf/acl/YangLJLLLGCY26",
+    "abstract_en": "Continual pre-training on small-scale task-specific data is an effective method for improving large language models in new target fields, yet it risks catastrophic forgetting of their original capabilities. A common solution is to re-weight training data mixtures from source and target fields on a domain space to achieve balanced performance. Previous domain reweighting strategies rely on manual designation with certain heuristics based on human intuition or empirical results. In this work, we prove that more general heuristics can be parameterized by proposing Data Mixing Agent, the first model-based, end-to-end framework that learns to re-weight domains. The agent learns generalizable heuristics through reinforcement learning on large quantities of data mixing trajectories with corresponding feedback from an evaluation environment. Experiments in continual pre-training on math reasoning show that Data Mixing Agent outperforms strong baselines in achieving balanced performance across source and target field benchmarks. Furthermore, it generalizes well across unseen source fields, target models, and domain spaces without retraining. Direct application to the code generation field also indicates its adaptability across target domains. Further analysis showcases the agents' well-aligned heuristics with human intuitions and their efficiency in achieving superior model performance with less source-field data.",
+    "abstract_zh": "对小规模特定任务数据的持续预训练是在新目标领域改进大型语言模型的有效方法，但它存在灾难性遗忘其原始能力的风险。常见的解决方案是在域空间上重新加权来自源字段和目标字段的训练数据混合物，以实现平衡的性能。以前的领域重新加权策略依赖于基于人类直觉或经验结果的某些启发式的手动指定。在这项工作中，我们证明可以通过提出数据混合智能体来参数化更通用的启发式方法，这是第一个基于模型的端到端框架，可以学习重新加权域。智能体通过对大量数据进行强化学习来学习可推广的启发式方法...",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 10,
+    "topics": [
+      "强化学习与决策优化"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（90/9499-3）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "zhiwei_liu_man_5461815d1b171570",
+    "global_record_id": "5461815d1b171570",
+    "scholar_id": "zhiwei_liu_man",
+    "scholar_name": "刘志威",
+    "scholar_ids": [
+      "zhiwei_liu_man",
+      "kailai_yang"
+    ],
+    "scholar_names": [
+      "刘志威",
+      "杨凯莱"
+    ],
+    "source_record_ids": [
+      "zhiwei_liu_man_5461815d1b171570"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "zhiwei_liu_man": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘志威",
+        "secondary_tags": [
+          "强化学习与决策优化"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "kailai_yang": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "杨凯莱",
+        "secondary_tags": [
+          "强化学习与决策优化"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘志威：情感与大模型评测基准、数据集及综述",
+      "杨凯莱：情感与大模型评测基准、数据集及综述"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "llm_benchmark_data",
+    "primary_category": "情感与大模型评测基准、数据集及综述"
+  },
+  {
+    "title": "Same Claim, Different Judgment: Benchmarking Scenario-Induced Bias in Multilingual Financial Misinformation Detection",
+    "title_en": "Same Claim, Different Judgment: Benchmarking Scenario-Induced Bias in Multilingual Financial Misinformation Detection",
+    "title_zh": "相同的主张，不同的判断：多语言金融错误信息检测中场景引起的偏差的基准测试",
+    "year": 2026,
+    "venue": "ACL (Findings)",
+    "authors": [
+      "Lingfei Qian",
+      "Zhuohan Xie",
+      "Jimin Huang",
+      "Yupeng Cao",
+      "Ziyang Xu",
+      "Prayag Tiwari",
+      "Tianlei Zhu",
+      "Triantafillos Papadopoulos",
+      "Mingbin Chen",
+      "Mohsinul Kabir",
+      "Saeed Almheiri",
+      "Xueqing Peng",
+      "Harry Stuart",
+      "Abdulrazzaq Alnajjar",
+      "Sophia Ananiadou",
+      "Ye Yuan",
+      "Alejandro Lopez-Lira",
+      "Yuechen Jiang",
+      "Polydoros Giannouris",
+      "Yan Wang",
+      "Md. Tariquzzaman",
+      "Chen Xu",
+      "Paul Thompson",
+      "Zhiwei Liu",
+      "Xue (Steve) Liu"
+    ],
+    "doi": "10.18653/V1/2026.FINDINGS-ACL.479",
+    "dblp_key": "conf/acl/LiuCJKGXXZTPWQP26",
+    "paper_url": "https://doi.org/10.18653/V1/2026.FINDINGS-ACL.479",
+    "pdf_url": "https://aclanthology.org/2026.findings-acl.479.pdf",
+    "source_url": "https://dblp.org/rec/conf/acl/LiuCJKGXXZTPWQP26",
+    "abstract_en": "Large language models (LLMs) have been widely applied across various domains of finance. Since their training data are largely derived from human-authored corpora, LLMs may inherit a range of human biases. Behavioral biases can lead to instability and uncertainty in decision-making, particularly when processing financial information. However, existing research on LLM bias has mainly focused on direct questioning or simplified, general-purpose settings, with limited consideration of the complex real-world financial environments and high-risk, context-sensitive, multilingual financial misinformation detection tasks MFMD. In this work, we propose MFMDScen, a comprehensive benchmark for evaluating behavioral biases of LLMs in MFMD across diverse economic scenarios. In collaboration with financial experts, we construct three types of complex financial scenarios: (i) role- and personality-based, (ii) role- and region-based, and (iii) role-based scenarios incorporating ethnicity and religious beliefs. We further develop a multilingual financial misinformation dataset covering English, Chinese, Greek, and Bengali. By integrating these scenarios with misinformation claims, MFMDScen enables a systematic evaluation of 22 mainstream LLMs. Our findings reveal that pronounced behavioral biases persist across both commercial and open-source models. This project is available at https://github.com/lzw108/FMD.",
+    "abstract_zh": "大型语言模型（LLM）已广泛应用于金融的各个领域。由于他们的训练数据主要来自人类编写的语料库，大语言模型可能继承了一系列人类偏见。行为偏差可能导致决策的不稳定和不确定性，特别是在处理财务信息时。然而，现有的LLM偏差研究主要集中在直接提问或简化的通用设置上，对复杂的现实世界金融环境和高风险、上下文敏感、多语言的金融错误信息检测任务MFMD的考虑有限。在这项工作中，我们提出了 MFMDScen，这是一个综合基准，用于评估 MFMD 中大语言模型跨不同领域的行为偏差……",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 6,
+    "topics": [
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（47/4142）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "sophia_ananiadou_b6830247ca5f9735",
+    "global_record_id": "b6830247ca5f9735",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "scholar_ids": [
+      "sophia_ananiadou",
+      "zhiwei_liu_man"
+    ],
+    "scholar_names": [
+      "Sophia Ananiadou",
+      "刘志威"
+    ],
+    "source_record_ids": [
+      "sophia_ananiadou_b6830247ca5f9735"
+    ],
+    "resource_ids": [
+      "res_gh_fddf5b31e51b"
+    ],
+    "code_urls": [
+      "https://github.com/lzw108/FMD"
+    ],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "sophia_ananiadou": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "Sophia Ananiadou",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhiwei_liu_man": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘志威",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "Sophia Ananiadou：通用预训练大模型、视听生成与基础方法",
+      "刘志威：通用预训练大模型、视听生成与基础方法"
+    ],
+    "resource_status": "已关联公开资源入口",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "general_foundation",
+    "primary_category": "通用预训练大模型、视听生成与基础方法"
+  },
+  {
+    "title": "One AI Signal, Many Human Judgments: A Bayesian Cascade Analysis of AI-based Credibility Indicators in Online Information Spread",
+    "title_en": "One AI Signal, Many Human Judgments: A Bayesian Cascade Analysis of AI-based Credibility Indicators in Online Information Spread",
+    "title_zh": "一个人工智能信号，多种人类判断：在线信息传播中基于人工智能的可信度指标的贝叶斯级联分析",
+    "year": 2026,
+    "venue": "CoRR",
+    "authors": [
+      "Xinru Wang",
+      "Weilong Wang",
+      "Zhuoran Lu",
+      "Zhuoyan Li",
+      "Yangyang Yu",
+      "Sophia Ananiadou",
+      "Zhiwei Liu"
+    ],
+    "doi": "10.48550/ARXIV.2608.30311",
+    "dblp_key": "journals/corr/abs-2608-30311",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2608.30311",
+    "pdf_url": "https://doi.org/10.1145/3834580.3838736",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2608-30311",
+    "abstract_en": "Social media platforms increasingly use AI-based credibility indicators to help users judge misinformation. Unlike individual human-AI decision-making, these indicators are embedded in information spread: users see both an AI prediction and earlier judgments shaped by the same AI, and their own judgments may then enter the public history. Yet how to analytically characterize this process remains under-explored. We therefore introduce a social-learning lens for this setting by extending the classical Bayesian cascade model with the AI indicator as a shared public signal. The resulting Gateway condition compares the evidence from the AI prediction with users’ private impressions. Through this view, we show that AI changes what public history means. Crowd agreement may reflect accumulated independent human evidence, or repeated dependence on the same AI prediction. This creates a preservation–correction trade-off: stronger reliance on AI can preserve correct predictions, but can also lock in incorrect ones by blocking corrective private impressions. We calibrate the model using human-subject data on news veracity judgments. Although the AI outperforms human users, the average user weights it below her own impression but above several peer judgments, while individual users vary from discounting the AI to relying on it enough to cascade. Simulations show that over-reliance on a weak AI is especially harmful, and that diversifying AI signals across users can better keep the crowd informative. We conclude with implications for understanding human-AI interaction in information spread and designing misinformation interventions.",
+    "abstract_zh": "社交媒体平台越来越多地使用基于人工智能的可信度指标来帮助用户判断错误信息。与个人的人类人工智能决策不同，这些指标嵌入在信息传播中：用户既看到人工智能的预测，也看到由同一人工智能形成的早期判断，然后他们自己的判断可能会进入公共历史。然而，如何分析表征这一过程仍有待探索。因此，我们通过扩展经典贝叶斯级联模型，将人工智能指标作为共享公共信号，为这种设置引入了社交学习镜头。生成的网关条件将人工智能预测的证据与用户的私人印象进行比较。通过这个观点，我们表明人工智能改变了公共历史......",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 1,
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者PID核验（47/4142）",
+    "status": "预印本（arXiv/CoRR）",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "sophia_ananiadou_eb5a96bc22ab1541",
+    "global_record_id": "eb5a96bc22ab1541",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "scholar_ids": [
+      "sophia_ananiadou",
+      "zhiwei_liu_man"
+    ],
+    "scholar_names": [
+      "Sophia Ananiadou",
+      "刘志威"
+    ],
+    "source_record_ids": [
+      "sophia_ananiadou_eb5a96bc22ab1541"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "sophia_ananiadou": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "Sophia Ananiadou",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhiwei_liu_man": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘志威",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "Sophia Ananiadou：情感与大模型评测基准、数据集及综述",
+      "刘志威：情感与大模型评测基准、数据集及综述"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "llm_benchmark_data",
+    "primary_category": "情感与大模型评测基准、数据集及综述"
+  },
+  {
+    "title": "Prediction-Market Seed Capital Recovery from Noise-Dominant Flow",
+    "title_en": "Prediction-Market Seed Capital Recovery from Noise-Dominant Flow",
+    "title_zh": "预测市场种子资本从噪声主导流中回收",
+    "year": 2026,
+    "venue": "CoRR",
+    "authors": [
+      "Fan Zhang",
+      "Bowei He",
+      "Zhiwei Liu",
+      "Xue (Steve) Liu",
+      "Yan Wang",
+      "Lingfei Qian",
+      "Xueqing Peng",
+      "Yankai Chen",
+      "Zhuohan Xie"
+    ],
+    "doi": "10.48550/ARXIV.2609.14038",
+    "dblp_key": "journals/corr/abs-2609-14038",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2609.14038",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2609-14038",
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "cited_by_count": 0,
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者PID核验（90/9499-3）",
+    "status": "预印本（arXiv/CoRR）",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "zhiwei_liu_man_6a3d7d18e577a171",
+    "global_record_id": "6a3d7d18e577a171",
+    "scholar_id": "zhiwei_liu_man",
+    "scholar_name": "刘志威",
+    "scholar_ids": [
+      "zhiwei_liu_man"
+    ],
+    "scholar_names": [
+      "刘志威"
+    ],
+    "source_record_ids": [
+      "zhiwei_liu_man_6a3d7d18e577a171"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "zhiwei_liu_man": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘志威",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘志威：通用预训练大模型、视听生成与基础方法"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "general_foundation",
+    "primary_category": "通用预训练大模型、视听生成与基础方法"
+  },
+  {
+    "title": "AuditFraudBench: Benchmarking Audit Judgment in Detecting Fraudulent Misstatements",
+    "title_en": "AuditFraudBench: Benchmarking Audit Judgment in Detecting Fraudulent Misstatements",
+    "title_zh": "AuditFraudBench：检测欺诈性错报的审计判断基准",
+    "year": 2026,
+    "venue": "CoRR",
+    "authors": [
+      "Qing Ou",
+      "Xiaorui Guo",
+      "Xueqing Peng",
+      "Tianlei Zhu",
+      "Yueru He",
+      "Zhiwei Liu",
+      "Sophia Ananiadou"
+    ],
+    "doi": "10.48550/ARXIV.2606.08345",
+    "dblp_key": "journals/corr/abs-2606-08345",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2606.08345",
+    "pdf_url": "https://arxiv.org/pdf/2606.08345",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2606-08345",
+    "abstract_en": "Large language models (LLMs) have shown strong performance in financial analysis and surface-level factual error detection, yet their ability to identify fraudulent financial misinformation in audited corporate reporting remains underexplored. Existing financial and audit benchmarks mainly focus on factual verification, numerical reasoning, rule compliance, or audit workflows, but rarely evaluate misleading disclosure narratives or management explanations that obscure the true drivers of reported performance. We introduce AuditFraudBench, an enforcement-grounded benchmark constructed from authentic company filings and regulatory materials, including original and restated 10-K and 10-Q filings, structured financial statements, MD&A disclosures, and SEC Accounting and Auditing Enforcement Releases (AAERs). AuditFraudBench contains three tasks: Profit Source Attribution, Misleading Narrative Detection, and Fraud Pattern Classification, which evaluate whether models can identify the true source of reported performance, detect misleading disclosure framing, and classify misconduct mechanisms into known manipulation patterns. We evaluate GPT, DeepSeek, and Qwen series LLMs on the benchmark. Results show that both proprietary and open models still struggle to jointly reason over financial figures, disclosure framing, restatement evidence, and enforcement-grounded fraud mechanisms. AuditFraudBench provides a challenging testbed for audit-relevant, evidence-grounded evaluation of LLMs in financial reporting.",
+    "abstract_zh": "大型语言模型（LLM）在财务分析和表面事实错误检测方面表现出强大的性能，但其识别经审计的公司报告中欺诈性财务错误信息的能力仍未得到充分探索。现有的财务和审计基准主要侧重于事实验证、数字推理、规则合规或审计工作流程，但很少评估误导性的披露叙述或掩盖报告绩效的真正驱动因素的管理层解释。我们推出 AuditFraudBench，这是一个基于执行的基准，由真实的公司备案和监管材料构建，包括原始和重述的 10-K 和 10-Q 备案、结构化财务报表、MD&A 披露...",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 4,
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者PID核验（47/4142）",
+    "status": "预印本（arXiv/CoRR）",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "sophia_ananiadou_c4b7e791db42f950",
+    "global_record_id": "c4b7e791db42f950",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "scholar_ids": [
+      "sophia_ananiadou",
+      "zhiwei_liu_man"
+    ],
+    "scholar_names": [
+      "Sophia Ananiadou",
+      "刘志威"
+    ],
+    "source_record_ids": [
+      "sophia_ananiadou_c4b7e791db42f950"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "sophia_ananiadou": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "Sophia Ananiadou",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhiwei_liu_man": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘志威",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "Sophia Ananiadou：通用预训练大模型、视听生成与基础方法",
+      "刘志威：通用预训练大模型、视听生成与基础方法"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "general_foundation",
+    "primary_category": "通用预训练大模型、视听生成与基础方法"
+  },
+  {
+    "title": "AutoRedTrader: Autonomous Red Teaming of Trading Agents through Synthetic Misinformation Injection",
+    "title_en": "AutoRedTrader: Autonomous Red Teaming of Trading Agents through Synthetic Misinformation Injection",
+    "title_zh": "AutoRedTrader：通过合成错误信息注入进行交易智能体的自主红队",
+    "year": 2026,
+    "venue": "CoRR",
+    "authors": [
+      "Yuyan Wang",
+      "Yupeng Cao",
+      "Xiaorui Guo",
+      "Calvin Yixiang Cheng",
+      "Yuechen Jiang",
+      "Yixiang Zheng",
+      "Zhuoran Lu",
+      "Haohang Li",
+      "Zhiwei Liu",
+      "Sophia Ananiadou",
+      "Yangyang Yu"
+    ],
+    "doi": "10.48550/ARXIV.2605.09185",
+    "dblp_key": "journals/corr/abs-2605-09185",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2605.09185",
+    "pdf_url": "https://arxiv.org/pdf/2605.09185",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2605-09185",
+    "abstract_en": "LLM-based financial agents increasingly rely on both numerical market data and textual signals for sequential trading and stock prediction. However, financial misinformation often appears as subtle textual perturbations rather than explicit falsehoods, making it difficult to detect while still capable of significantly altering agent reasoning and decisions. To study this risk, we propose AutoRedTrader, an autonomous red-teaming framework that generates finance-specific misinformation through behavioral bias manipulation, minor textual perturbations, and rewriting strategies, with agent feedback used to strengthen attacks over time. We evaluate AutoRedTrader in a POMDP-based financial agent simulation environment, and further examine a time-series-informed grounding setting for robustness analysis. The framework enables systematic evaluation of how subtle misinformation affects financial agents and whether historical market evidence can stabilize decisions under misleading textual signals. We evaluate the framework on Bitcoin transaction data. The results show that AutoRedTrader achieves the strongest attack performance with 69.00% misinformation exposure rate and 26.67% attack success rate, outperforming general-purpose misinformation and red-teaming baselines. Ablation studies further show that all modules contribute to generating retrievable and decision-effective financial misinformation.",
+    "abstract_zh": "基于大语言模型的金融智能体越来越依赖数字市场数据和文本信号进行顺序交易和股票预测。然而，财务错误信息通常表现为微妙的文本扰动，而不是明显的虚假信息，因此很难被发现，但仍然能够显着改变智能体人的推理和决策。为了研究这种风险，我们提出了 AutoRedTrader，这是一个自主的红队框架，它通过行为偏差操纵、微小的文本扰动和重写策略生成特定于金融的错误信息，并使用智能体反馈来随着时间的推移加强攻击。我们在基于 POMDP 的金融智能体模拟环境中评估 AutoRedTrader，并进一步检查时间...",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 6,
+    "topics": [
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（47/4142）",
+    "status": "预印本（arXiv/CoRR）",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "sophia_ananiadou_fd0b8ff268af81be",
+    "global_record_id": "fd0b8ff268af81be",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "scholar_ids": [
+      "sophia_ananiadou",
+      "zhiwei_liu_man"
+    ],
+    "scholar_names": [
+      "Sophia Ananiadou",
+      "刘志威"
+    ],
+    "source_record_ids": [
+      "sophia_ananiadou_fd0b8ff268af81be"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "sophia_ananiadou": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "Sophia Ananiadou",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhiwei_liu_man": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘志威",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "Sophia Ananiadou：情感与大模型评测基准、数据集及综述",
+      "刘志威：情感与大模型评测基准、数据集及综述"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "llm_benchmark_data",
+    "primary_category": "情感与大模型评测基准、数据集及综述"
+  },
+  {
+    "title": "EmCellLLM: Human Peri-Implantation Embryonic Cell Annotation Based on Large Language Models",
+    "title_en": "EmCellLLM: Human Peri-Implantation Embryonic Cell Annotation Based on Large Language Models",
+    "title_zh": "EmCellLLM：基于大型语言模型的人类植入周围胚胎细胞注释",
+    "year": 2026,
+    "venue": "BioNLP@ACL",
+    "authors": [
+      "Qianqian Xie",
+      "Xiaorui Guo",
+      "Sophia Ananiadou",
+      "Zhiwei Liu"
+    ],
+    "doi": "10.18653/V1/2026.BIONLP-1.30",
+    "dblp_key": "conf/bionlp/GuoLXA26",
+    "paper_url": "https://doi.org/10.18653/V1/2026.BIONLP-1.30",
+    "pdf_url": "https://aclanthology.org/2026.bionlp-1.30.pdf",
+    "source_url": "https://dblp.org/rec/conf/bionlp/GuoLXA26",
+    "abstract_en": "The advent of single-cell RNA sequencing has enabled unprecedented resolution of cell fate decisions and regulatory mechanisms during peri-implantation human embryogenesis, in which accurate cell type annotation is a fundamental prerequisite and the first step for subsequent fate and mechanism inference. Large language models (LLMs) have demonstrated outstanding performance in various fields. However, current studies mostly rely on traditional methods and have not explored the application of LLMs in the field of human embryonic cell annotation. The main reason is the lack of instruction tuning datasets and evaluation benchmarks. In this paper, we proposed EmCellLLM, the first open sourced LLMs that are specialized for human embryonic cell type prediction task based on fine-tuning Qwen3-8B with EmCell4Instruction, the first embryonic cell type prediction instruction dataset. To support LLM instruction tuning, we also build EmCellBench, the first benchmark for evaluating human embryonic cell type prediction ability of LLMs. We compare our models with a variety of LLMs on EmCellBench, where our model outperforms all other open-sourced LLMs as well as DeepSeek.",
+    "abstract_zh": "单细胞RNA测序的出现使得人类胚胎发生过程中的细胞命运决定和调控机制得到了前所未有的解决，其中准确的细胞类型注释是基本前提，也是后续命运和机制推断的第一步。大型语言模型（LLM）在各个领域都表现出了出色的表现。然而，目前的研究大多依赖于传统方法，并没有探索LLM在人类胚胎细胞注释领域的应用。主要原因是缺乏指令调优数据集和评估基准。在本文中，我们提出了 EmCellLLM，这是第一个专门针对人类胚胎细胞培养的开源大语言模型...",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 0,
+    "topics": [
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（47/4142）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "sophia_ananiadou_31a38f61e8a7fb66",
+    "global_record_id": "31a38f61e8a7fb66",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "scholar_ids": [
+      "sophia_ananiadou",
+      "zhiwei_liu_man"
+    ],
+    "scholar_names": [
+      "Sophia Ananiadou",
+      "刘志威"
+    ],
+    "source_record_ids": [
+      "sophia_ananiadou_31a38f61e8a7fb66"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "sophia_ananiadou": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "Sophia Ananiadou",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhiwei_liu_man": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘志威",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "Sophia Ananiadou：通用预训练大模型、视听生成与基础方法",
+      "刘志威：通用预训练大模型、视听生成与基础方法"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "general_foundation",
+    "primary_category": "通用预训练大模型、视听生成与基础方法"
+  },
+  {
+    "title": "Herculean: An Agentic Benchmark for Financial Intelligence",
+    "title_en": "Herculean: An Agentic Benchmark for Financial Intelligence",
+    "title_zh": "Herculean：金融情报的代理基准",
+    "year": 2026,
+    "venue": "CoRR",
+    "authors": [
+      "Yuehua Tang",
+      "Kaleb E. Smith",
+      "Arman Cohan",
+      "Zhuohan Xie",
+      "Xiao-Yang Liu",
+      "Yupeng Cao",
+      "Shuyao Wang",
+      "Linhai Ma",
+      "Xi Chen",
+      "Jimin Huang",
+      "Lingfei Qian",
+      "Wenbo Cao",
+      "Weijin Liu",
+      "Qiyuan Zhang",
+      "Prayag Tiwari",
+      "Fan Zhang",
+      "Yijia Zhao",
+      "Yuyan Wang",
+      "Jiahuan Pei",
+      "Mingquan Lin",
+      "Zichen Zhao",
+      "Nuo Chen",
+      "Mohsinul Kabir",
+      "Ayesha Gull",
+      "Yonghan Yang",
+      "Xuguang Ai",
+      "Yankai Chen",
+      "Yuechen Jiang",
+      "Anke Xu",
+      "Yilun Zhao",
+      "Víctor Gutiérrez-Basulto",
+      "Muhammad Usman Safder",
+      "Vincent Jim Zhang",
+      "Yi Han",
+      "Alejandro Lopez-Lira",
+      "Tianshi Cai",
+      "Fuyuan Lyu",
+      "Rania Elbadry",
+      "Yuyang Dai",
+      "Haolun Wu",
+      "Fengbin Zhu",
+      "Jerry Huang",
+      "Polydoros Giannouris",
+      "Xueqing Peng",
+      "Zimu Wang",
+      "Yueru He",
+      "Haohang Li",
+      "Ye Yuan",
+      "Ruoyu Xiang",
+      "Yixiang Zheng",
+      "Youzhong Dong",
+      "Yangyang Yu",
+      "Huan He",
+      "Jian-Yun Nie",
+      "Xue (Steve) Liu",
+      "Xiaoyu Wang",
+      "Jun'ichi Tsujii",
+      "Sophia Ananiadou",
+      "Zhiwei Liu",
+      "Mingyang Jiang",
+      "Yuqing Guo",
+      "Peng Lu",
+      "Yan Wang"
+    ],
+    "doi": "10.48550/ARXIV.2605.14355",
+    "dblp_key": "journals/corr/abs-2605-14355",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2605.14355",
+    "pdf_url": "https://arxiv.org/pdf/2605.14355",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2605-14355",
+    "abstract_en": "As AI agents advance, the central question is no longer whether they can solve isolated financial tasks, but whether their capabilities generalize across complete professional workflows. Existing benchmarks cannot answer this question because they evaluate either static competencies or agents within a single interaction structure. We introduce Herculean, a benchmark of end-to-end agentic financial intelligence that crosses agent architecture, backbone model, and four structurally distinct workflows: Trading, Hedging, Market Insights, and Auditing. Each workflow is implemented as an MCP skill that preserves its native state, actions, constraints, and outcome criteria, allowing intact agent systems to be evaluated under matched external conditions. Across 30 architecture--backbone configurations, we find that agent capability is not globally ordered. Workflow rankings are weakly aligned, changing the architecture frequently reverses performance under the same backbone, and each architecture concentrates failure in different forms of workflow control. These results establish that agent performance is an interaction between architecture and workflow demand, rather than an intrinsic property of the underlying model. Consequently, success on a single financial workflow provides little evidence of dependable, general financial intelligence.",
+    "abstract_zh": "随着人工智能代理的进步，核心问题不再是它们是否能够解决孤立的财务任务，而是它们的能力是否可以推广到完整的专业工作流程。现有的基准无法回答这个问题，因为它们评估静态能力或单个交互结构中的代理。我们引入 Herculean，这是端到端代理金融智能的基准，它跨越代理架构、骨干模型和四个结构不同的工作流程：交易、对冲、市场洞察和审计。每个工作流程都作为 MCP 技能实现，保留其本机状态、操作、约束和结果标准，从而允许在匹配的外部条件下评估完整的代理系统。",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 14,
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者PID核验（47/4142）",
+    "status": "预印本（arXiv/CoRR）",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "sophia_ananiadou_1534f32d708f6938",
+    "global_record_id": "1534f32d708f6938",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "scholar_ids": [
+      "sophia_ananiadou",
+      "zhiwei_liu_man"
+    ],
+    "scholar_names": [
+      "Sophia Ananiadou",
+      "刘志威"
+    ],
+    "source_record_ids": [
+      "sophia_ananiadou_1534f32d708f6938"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "sophia_ananiadou": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "Sophia Ananiadou",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhiwei_liu_man": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘志威",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "Sophia Ananiadou：情感与大模型评测基准、数据集及综述",
+      "刘志威：情感与大模型评测基准、数据集及综述"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "llm_benchmark_data",
+    "primary_category": "情感与大模型评测基准、数据集及综述"
+  },
+  {
+    "title": "MatPhaseBench: A Semantics-Guided Benchmark for Materials Phase Diagrams Understanding",
+    "title_en": "MatPhaseBench: A Semantics-Guided Benchmark for Materials Phase Diagrams Understanding",
+    "title_zh": "MatPhaseBench：用于理解材料相图的语义引导基准",
+    "year": 2026,
+    "venue": "arXiv (Cornell University)",
+    "authors": [
+      "Hanwen Wang",
+      "Sihan Liang",
+      "Zhiwei Liu",
+      "Yangang Wang",
+      "Wei Yan",
+      "Yuqin Liu",
+      "Zongguo Wang"
+    ],
+    "doi": "10.48550/arxiv.2607.02934",
+    "dblp_key": "",
+    "paper_url": "https://arxiv.org/abs/2607.02934",
+    "pdf_url": "https://arxiv.org/pdf/2607.02934",
+    "source_url": "https://openalex.org/W7167621624",
+    "abstract_en": "Materials phase diagrams are a core knowledge representation in materials science, encoding temperature,composition, phase stability, and phase transformation pathways, with their full understanding requiring thermodynamic mechanism analysis and scientific reasoning. Although VLMs have shown promise in scientific image understanding, their systematic evaluation on such logically complex images demanding deep mechanistic interpretation remains limited, and phase diagrams provide a challenging testbed for this purpose. We introduce MatPhaseBench, a high-quality, high-reliability benchmark for complex scientific image understanding, focused on materials phase diagrams. MatPhaseBench is constructed from 3681 papers in classical materials science journals, from which 200 high-quality diagram-text pairs were selected, covering 189 material systems and 70 elements. The benchmark has three key features: (1)targeting complex scientific image understanding-it moves beyond simple objective tests to open-ended tasks requiring deep comprehension; (2)comprehensive image-text alignment-semantic information associated with images is fully preserved during literature mining and matching; (3) high-quality human-supervised text acquisition-all descriptions undergo strict manual validation. Experimental results show that current VLMs remain substantially behind expert-level understanding: they are largely limited to surface visual perception, lack deep reasoning grounded in thermodynamic mechanisms, have limited domain awareness and expert analytical experience, and perform poorly in distinguishing fine-grained differences in composite or multi-diagram settings. Overall, MatPhaseBench constitutes a challenging research-grade benchmark, providing a foundational platform for complex scientific image understanding, phase diagram analysis, and trustworthy multi-modal AI in science.",
+    "abstract_zh": "材料相图是材料科学的核心知识表示，编码温度、成分、相稳定性和相变路径，对其的充分理解需要热力学机制分析和科学推理。尽管 VLM 在科学图像理解方面表现出了良好的前景，但它们对这种需要深入机械解释的逻辑复杂图像的系统评估仍然有限，而相图为此目的提供了一个具有挑战性的测试平台。我们推出 MatPhaseBench，这是一个用于复杂科学图像理解的高质量、高可靠性基准，专注于材料相图。 MatPhaseBench 由 3681 篇经典材料科学论文构建而成...",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 0,
+    "topics": [],
+    "verification": "OpenAlex作者实体与机构消歧核验（A5053521378）",
+    "status": "预印本",
+    "source_kind": "openalex_verified",
+    "record_id": "zhiwei_liu_man_a7279a11a54b036e",
+    "global_record_id": "a7279a11a54b036e",
+    "scholar_id": "zhiwei_liu_man",
+    "scholar_name": "刘志威",
+    "scholar_ids": [
+      "zhiwei_liu_man"
+    ],
+    "scholar_names": [
+      "刘志威"
+    ],
+    "source_record_ids": [
+      "zhiwei_liu_man_a7279a11a54b036e"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "zhiwei_liu_man": {
+        "category_id": "affective_llm_mllm",
+        "label": "情感大模型、多模态指令微调与共情生成",
+        "scholar_name": "刘志威",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘志威：情感大模型、多模态指令微调与共情生成"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "affective_llm_mllm",
+    "primary_category": "情感大模型、多模态指令微调与共情生成"
+  },
+  {
+    "title": "MFMDQwen: Multilingual Financial Misinformation Detection Based on Large Language Model",
+    "title_en": "MFMDQwen: Multilingual Financial Misinformation Detection Based on Large Language Model",
+    "title_zh": "MFMDQwen：基于大语言模型的多语言金融错误信息检测",
+    "year": 2026,
+    "venue": "CoRR",
+    "authors": [
+      "Yuyan Wang",
+      "Xiaorui Guo",
+      "Yupeng Cao",
+      "Jimin Huang",
+      "Zhiyuan Yao",
+      "Xiao-Yang Liu",
+      "Zhiyang Deng",
+      "Tianlei Zhu",
+      "Yuechen Jiang",
+      "Sophia Ananiadou",
+      "Zhiwei Liu"
+    ],
+    "doi": "10.48550/ARXIV.2604.18272",
+    "dblp_key": "journals/corr/abs-2604-18272",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2604.18272",
+    "pdf_url": "https://aclanthology.org/2026.mellm-1.7.pdf",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2604-18272",
+    "abstract_en": "Financial misinformation poses significant threats to financial market stability and individuals’ investment decisions. The multilingual environment and the inherent complexity of financial information present substantial challenges for Multilingual Financial Misinformation Detection (MFMD). Existing LLM-based approaches for financial misinformation detection primarily focus on English and a single financial misinformation detection task, which limits their ability to capture multilingual contexts and complex features. In this paper, we propose MFMDQwen, the first open-source LLM designed for MFMD tasks. Furthermore, we introduce MFMD4Instruction, the first instruction dataset supporting MFMD with LLMs, covering English, Chinese, Greek, and Bengali. We also construct MFMDBench, a benchmark dataset for evaluating the MFMD capabilities of LLMs. Experimental results on MFMDBench demonstrate that our model outperforms existing open-source LLMs.",
+    "abstract_zh": "金融错误信息对金融市场稳定和个人投资决策构成重大威胁。多语言环境和金融信息固有的复杂性给多语言金融错误信息检测（MFMD）带来了巨大的挑战。现有的基于大语言模型的金融错误信息检测方法主要集中于英语和单一的金融错误信息检测任务，这限制了它们捕获多语言上下文和复杂特征的能力。在本文中，我们提出了 MFMDQwen，这是第一个专为 MFMD 任务设计的开源 LLM。此外，我们还推出了 MFMD4Instruction，这是第一个支持 MFMD 和大语言模型的指令数据集，涵盖英语、中文、希腊语和……",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 1,
+    "topics": [
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（47/4142）",
+    "status": "预印本（arXiv/CoRR）",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "sophia_ananiadou_ed48a46d28bfb600",
+    "global_record_id": "ed48a46d28bfb600",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "scholar_ids": [
+      "sophia_ananiadou",
+      "zhiwei_liu_man"
+    ],
+    "scholar_names": [
+      "Sophia Ananiadou",
+      "刘志威"
+    ],
+    "source_record_ids": [
+      "sophia_ananiadou_ed48a46d28bfb600"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "sophia_ananiadou": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "Sophia Ananiadou",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhiwei_liu_man": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘志威",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "Sophia Ananiadou：通用预训练大模型、视听生成与基础方法",
+      "刘志威：通用预训练大模型、视听生成与基础方法"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "general_foundation",
+    "primary_category": "通用预训练大模型、视听生成与基础方法"
+  },
+  {
+    "title": "MisSpans: Fine-Grained False Span Identification in Cross-Domain Fake News",
+    "title_en": "MisSpans: Fine-Grained False Span Identification in Cross-Domain Fake News",
+    "title_zh": "MisSpans：跨域假新闻中的细粒度错误跨度识别",
+    "year": 2026,
+    "venue": "CoRR",
+    "authors": [
+      "Qianqian Xie",
+      "Runteng Guo",
+      "Baojie Qu",
+      "Jiaqi Rong",
+      "Sophia Ananiadou",
+      "Min Peng",
+      "Paul Thompson",
+      "Zhiwei Liu"
+    ],
+    "doi": "10.48550/ARXIV.2601.04857",
+    "dblp_key": "journals/corr/abs-2601-04857",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2601.04857",
+    "pdf_url": "https://arxiv.org/pdf/2601.04857",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2601-04857",
+    "abstract_en": "Online misinformation is increasingly pervasive, yet most existing benchmarks and methods evaluate veracity at the level of whole claims or paragraphs using coarse binary labels, obscuring how true and false details often co-exist within single sentences. These simplifications also limit interpretability: global explanations cannot identify which specific segments are misleading or differentiate how a detail is false (e.g., distorted vs. fabricated). To address these gaps, we introduce MisSpans, the first multi-domain, human-annotated benchmark for span-level misinformation detection and analysis, consisting of paired real and fake news stories. MisSpans defines three complementary tasks: MisSpansIdentity for pinpointing false spans within sentences, MisSpansType for categorising false spans by misinformation type, and MisSpansExplanation for providing rationales grounded in identified spans. Together, these tasks enable fine-grained localisation, nuanced characterisation beyond true/false and actionable explanations. Expert annotators were guided by standardised guidelines and consistency checks, leading to high inter-annotator agreement. We evaluate 15 representative LLMs, including reasoning-enhanced and non-reasoning variants, under zero-shot and one-shot settings. Results reveal the challenging nature of fine-grained misinformation identification and analysis, and highlight the need for a deeper understanding of how performance may be influenced by multiple interacting factors, including model size and reasoning capabilities, along with domain-specific textual features. This project will be available at https://github.com/lzw108/MisSpans.",
+    "abstract_zh": "在线错误信息越来越普遍，但大多数现有基准和方法使用粗略的二进制标签在整个声明或段落的水平上评估准确性，模糊了真实和虚假细节如何在单个句子中共存。这些简化也限制了可解释性：全局解释无法识别哪些特定部分具有误导性，也无法区分细节的错误程度（例如，扭曲与捏造）。为了解决这些差距，我们引入了 MisSpans，这是第一个多领域、人工注释的跨度错误信息检测和分析基准，由配对的真实和虚假新闻故事组成。 MisSpans 定义了三个补充任务： MisSpansIdentity 用于精确定位...中的错误跨度",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 1,
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者PID核验（47/4142）",
+    "status": "预印本（arXiv/CoRR）",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "sophia_ananiadou_da01a97e8baccf77",
+    "global_record_id": "da01a97e8baccf77",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "scholar_ids": [
+      "sophia_ananiadou",
+      "zhiwei_liu_man"
+    ],
+    "scholar_names": [
+      "Sophia Ananiadou",
+      "刘志威"
+    ],
+    "source_record_ids": [
+      "sophia_ananiadou_da01a97e8baccf77"
+    ],
+    "resource_ids": [
+      "res_gh_768f38a097c0"
+    ],
+    "code_urls": [
+      "https://github.com/lzw108/MisSpans"
+    ],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "sophia_ananiadou": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "Sophia Ananiadou",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhiwei_liu_man": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘志威",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "Sophia Ananiadou：情感与大模型评测基准、数据集及综述",
+      "刘志威：情感与大模型评测基准、数据集及综述"
+    ],
+    "resource_status": "已关联公开资源入口",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "llm_benchmark_data",
+    "primary_category": "情感与大模型评测基准、数据集及综述"
+  },
+  {
+    "title": "MultiFinBen: Benchmarking Large Language Models for Multilingual and Multimodal Financial Application",
+    "title_en": "MultiFinBen: Benchmarking Large Language Models for Multilingual and Multimodal Financial Application",
+    "title_zh": "MultiFinBen：多语言和多模式金融应用的大型语言模型基准测试",
+    "year": 2026,
+    "venue": "ACL (1)",
+    "authors": [
+      "Arman Cohan",
+      "Jimin Huang",
+      "Xiao-Yang Liu",
+      "Xi Chen",
+      "Kaleb E. Smith",
+      "Nuo Chen",
+      "Yijia Zhao",
+      "Mingquan Lin",
+      "Lingfei Qian",
+      "Efstathia Soufleri",
+      "Guojun Xiong",
+      "Yupeng Cao",
+      "Heming Fu",
+      "Qianqian Xie",
+      "Shanshan Yang",
+      "Jerry Huang",
+      "Triantafillos Papadopoulos",
+      "Xueqing Peng",
+      "Suyuchen Wang",
+      "Haohang Li",
+      "Penglei Gao",
+      "Zhiyang Deng",
+      "Vincent Jim Zhang",
+      "Sophia Ananiadou",
+      "Yi Han",
+      "Yilun Zhao",
+      "Alejandro Lopez-Lira",
+      "Jeff Zhao",
+      "Polydoros Giannouris",
+      "Yueru He",
+      "Yuechen Jiang",
+      "Ruoyu Xiang",
+      "Shengyuan Lin",
+      "Huan He",
+      "Yuqing Guo",
+      "Keyi Wang",
+      "Jun'ichi Tsujii",
+      "Jian-Yun Nie",
+      "Meikang Qiu",
+      "Zhiwei Liu",
+      "Yan Wang",
+      "Yang Ren",
+      "Xiaoyu Wang",
+      "Yun Feng",
+      "Peng Lu",
+      "Yangyang Yu",
+      "Mingyang Jiang"
+    ],
+    "doi": "10.18653/V1/2026.ACL-LONG.770",
+    "dblp_key": "conf/acl/PengQWXHRJZGZHH26",
+    "paper_url": "https://doi.org/10.18653/V1/2026.ACL-LONG.770",
+    "pdf_url": "https://doi.org/10.18653/v1/2026.acl-long.770",
+    "source_url": "https://dblp.org/rec/conf/acl/PengQWXHRJZGZHH26",
+    "abstract_en": "Xueqing Peng, Lingfei Qian, Yan Wang, Ruoyu Xiang, Yueru He, Yang Ren, Mingyang Jiang, Vincent Jim Zhang, Yuqing Guo, Jeff Zhao, Huan He, Yi Han, Yun Feng, Yuechen Jiang, Yupeng Cao, Haohang Li, Yangyang Yu, Xiaoyu Wang, Penglei Gao, Shengyuan Lin, Keyi Wang, Shanshan Yang, Yilun Zhao, Zhiwei Liu, Peng Lu, Jerry Huang, Suyuchen Wang, Triantafillos Papadopoulos, Polydoros Giannouris, Efstathia Soufleri, Nuo Chen, Zhiyang Deng, Heming Fu, Yijia Zhao, Mingquan Lin, Meikang Qiu, Kaleb E Smith, Arman Cohan, Xiao-Yang Liu, Jimin Huang, Guojun Xiong, Alejandro Lopez-Lira, Xi Chen, Junichi Tsujii, Jian-Yun Nie, Sophia Ananiadou, Qianqian Xie. Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2026.",
+    "abstract_zh": "彭学庆、钱令飞、王岩、向若宇、何月如、任洋、蒋明阳、张文森特、郭雨清、赵杰夫、何欢、韩一、冯云、蒋跃辰、曹宇鹏、李浩航、于阳阳、王晓宇、高蓬雷、林胜远、王科一、杨珊珊、赵逸伦、刘志伟、陆鹏、黄杰瑞、王苏宇辰、Triantafillos Papadopoulos、Polydoros Giannouris、Efstathia Soufleri、陈诺、邓志扬、傅鹤鸣、赵一佳、林明泉、邱美康、Kaleb E Smith、Arman Cohan、刘晓阳、黄济民、熊国军、Alejandro Lopez-Lira、陈曦、辻井淳一、聂建云、Sophia Ananiadou、倩倩谢。计算语言学协会第 64 届年会论文集（第一卷：长篇...",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 58,
+    "topics": [
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（47/4142）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "sophia_ananiadou_76d8ad4946ae4dee",
+    "global_record_id": "76d8ad4946ae4dee",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "scholar_ids": [
+      "sophia_ananiadou",
+      "zhiwei_liu_man"
+    ],
+    "scholar_names": [
+      "Sophia Ananiadou",
+      "刘志威"
+    ],
+    "source_record_ids": [
+      "sophia_ananiadou_76d8ad4946ae4dee"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "sophia_ananiadou": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "Sophia Ananiadou",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhiwei_liu_man": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘志威",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "Sophia Ananiadou：通用预训练大模型、视听生成与基础方法",
+      "刘志威：通用预训练大模型、视听生成与基础方法"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "general_foundation",
+    "primary_category": "通用预训练大模型、视听生成与基础方法"
+  },
+  {
+    "title": "NTDH: Complex Reasoning for Comprehensive Affective Analysis",
+    "title_en": "NTDH: Complex Reasoning for Comprehensive Affective Analysis",
+    "title_zh": "NTDH：综合情感分析的复杂推理",
+    "year": 2026,
+    "venue": "CoRR",
+    "authors": [
+      "Xiao-Yang Liu",
+      "Yuyan Wang",
+      "Tianlei Zhu",
+      "Zhiwei Liu",
+      "Sophia Ananiadou"
+    ],
+    "doi": "10.48550/ARXIV.2608.06425",
+    "dblp_key": "journals/corr/abs-2608-06425",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2608.06425",
+    "pdf_url": "https://arxiv.org/pdf/2608.06425",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2608-06425",
+    "abstract_en": "Comprehensive affective analysis is challenging for two reasons: it spans heterogeneous prediction tasks with continuous, ordinal, and multi-label outputs, and affective meaning is context-dependent, requiring conflicting cues to be reconciled rather than mapped directly to labels. Existing methods learn this mapping directly and do not model the reconciliation explicitly. We recast the task as a complex-reasoning problem, which yields one output interface across heterogeneous label spaces and a trajectory over which a verifiable reward can be optimised; to our knowledge, this is the first such treatment covering both sentiment and emotion. The obstacle is on the data side: affective reasoning traces must be synthesised, and generic synthesis is misaligned with the targets, tolerances, and phenomena of affect, and discards or leaks its failure cases. We propose NTDH, which addresses these four failures. Naturalisation sets the training answer to the gold label, so it is correct by construction. A Tolerance-aware gate checks each answer against the task's own scoring margin. Domain-aware strategies refine the reasoning using ideas from affective science. Directional Hints report only the type and direction of an error, without exposing the target. We train Qwen3-8B with SFT and then GRPO under the same tolerance used for verification (up to a more permissive construction gate on the multi-label subtask), and a component ablation quantifies the data-quality effect of each part. Using 16,302 training records, about 14x fewer than comparable instruction-tuned systems, the final policy improves over its SFT checkpoint on five of six official-test metrics and achieves the strongest EI-reg result among the compared systems, at a Pearson correlation of 0.862.",
+    "abstract_zh": "全面的情感分析具有挑战性，原因有两个：它跨越具有连续、有序和多标签输出的异构预测任务，并且情感含义依赖于上下文，需要协调冲突的线索而不是直接映射到标签。现有的方法直接学习这种映射，并且没有显式地对协调进行建模。我们将这一任务重新定义为一个复杂的推理问题，它产生一个跨异构标签空间的输出接口，以及一条可以优化可验证奖励的轨迹；据我们所知，这是第一次涉及情感和情感的此类治疗。障碍在于数据方面：必须综合情感推理痕迹，并且通用综合......",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 0,
+    "topics": [
+      "情感大模型",
+      "情感理解",
+      "多模态与大语言模型",
+      "强化学习与决策优化"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（47/4142）",
+    "status": "预印本（arXiv/CoRR）",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "sophia_ananiadou_a8f9887a66532eec",
+    "global_record_id": "a8f9887a66532eec",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "scholar_ids": [
+      "sophia_ananiadou",
+      "zhiwei_liu_man"
+    ],
+    "scholar_names": [
+      "Sophia Ananiadou",
+      "刘志威"
+    ],
+    "source_record_ids": [
+      "sophia_ananiadou_a8f9887a66532eec"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "sophia_ananiadou": {
+        "category_id": "affective_llm_mllm",
+        "label": "情感大模型、多模态指令微调与共情生成",
+        "scholar_name": "Sophia Ananiadou",
+        "secondary_tags": [
+          "情感大模型",
+          "情感理解",
+          "多模态与大语言模型",
+          "强化学习与决策优化"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhiwei_liu_man": {
+        "category_id": "affective_llm_mllm",
+        "label": "情感大模型、多模态指令微调与共情生成",
+        "scholar_name": "刘志威",
+        "secondary_tags": [
+          "情感大模型",
+          "情感理解",
+          "多模态与大语言模型",
+          "强化学习与决策优化"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "Sophia Ananiadou：情感大模型、多模态指令微调与共情生成",
+      "刘志威：情感大模型、多模态指令微调与共情生成"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "affective_llm_mllm",
+    "primary_category": "情感大模型、多模态指令微调与共情生成"
+  },
+  {
+    "title": "RAAR: Retrieval Augmented Agentic Reasoning for Cross-Domain Misinformation Detection",
+    "title_en": "RAAR: Retrieval Augmented Agentic Reasoning for Cross-Domain Misinformation Detection",
+    "title_zh": "RAAR：用于跨域错误信息检测的检索增强代理推理",
+    "year": 2026,
+    "venue": "CoRR",
+    "authors": [
+      "Qianqian Xie",
+      "Runteng Guo",
+      "Baojie Qu",
+      "Yuechen Jiang",
+      "Sophia Ananiadou",
+      "Min Peng",
+      "Zhiwei Liu"
+    ],
+    "doi": "10.48550/ARXIV.2601.04853",
+    "dblp_key": "journals/corr/abs-2601-04853",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2601.04853",
+    "pdf_url": "https://arxiv.org/pdf/2601.04853",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2601-04853",
+    "abstract_en": "Cross-domain misinformation detection is challenging, as misinformation arises across domains with substantial differences in knowledge and discourse. Existing methods often rely on single-perspective cues and struggle to generalize to challenging or underrepresented domains, while reasoning large language models (LLMs), though effective on complex tasks, are limited to same-distribution data. To address these gaps, we introduce RAAR, the first retrieval-augmented agentic reasoning framework for cross-domain misinformation detection. To enable cross-domain transfer beyond same-distribution assumptions, RAAR retrieves multi-perspective source-domain evidence aligned with each target sample's semantics, sentiment, and writing style. To overcome single-perspective modeling and missing systematic reasoning, RAAR constructs verifiable multi-step reasoning paths through specialized multi-agent collaboration, where perspective-specific agents produce complementary analyses and a summary agent integrates them under verifier guidance. RAAR further applies supervised fine-tuning and reinforcement learning to train a single multi-task verifier to enhance verification and reasoning capabilities. Based on RAAR, we trained the RAAR-8b and RAAR-14b models. Evaluation on three cross-domain misinformation detection tasks shows that RAAR substantially enhances the capabilities of the base models and outperforms other cross-domain methods, advanced LLMs, and LLM-based adaptation approaches. The project will be released at https://github.com/lzw108/RAAR.",
+    "abstract_zh": "跨领域错误信息检测具有挑战性，因为错误信息是在知识和话语存在巨大差异的领域中出现的。现有方法通常依赖于单视角线索，很难推广到具有挑战性或代表性不足的领域，而推理大型语言模型 (LLM) 虽然对复杂任务有效，但仅限于相同分布的数据。为了解决这些差距，我们引入了 RAAR，这是第一个用于跨域错误信息检测的检索增强智能体推理框架。为了实现超越相同分布假设的跨域传输，RAAR 检索与每个目标样本的语义、情感和写作风格一致的多视角源域证据。为了过度...",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 3,
+    "topics": [
+      "情感大模型",
+      "多模态与大语言模型",
+      "强化学习与决策优化"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（47/4142）",
+    "status": "预印本（arXiv/CoRR）",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "sophia_ananiadou_af54f5502abbd674",
+    "global_record_id": "af54f5502abbd674",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "scholar_ids": [
+      "sophia_ananiadou",
+      "zhiwei_liu_man"
+    ],
+    "scholar_names": [
+      "Sophia Ananiadou",
+      "刘志威"
+    ],
+    "source_record_ids": [
+      "sophia_ananiadou_af54f5502abbd674"
+    ],
+    "resource_ids": [
+      "res_gh_1a880a49bf10"
+    ],
+    "code_urls": [
+      "https://github.com/lzw108/RAAR"
+    ],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "sophia_ananiadou": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "Sophia Ananiadou",
+        "secondary_tags": [
+          "情感大模型",
+          "多模态与大语言模型",
+          "强化学习与决策优化"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhiwei_liu_man": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘志威",
+        "secondary_tags": [
+          "情感大模型",
+          "多模态与大语言模型",
+          "强化学习与决策优化"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "Sophia Ananiadou：情感与大模型评测基准、数据集及综述",
+      "刘志威：情感与大模型评测基准、数据集及综述"
+    ],
+    "resource_status": "已关联公开资源入口",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "llm_benchmark_data",
+    "primary_category": "情感与大模型评测基准、数据集及综述"
+  },
+  {
+    "title": "ShiJianBench: From Dialogue to Decision for Long-Horizon Evaluation of Investment Advisors",
+    "title_en": "ShiJianBench: From Dialogue to Decision for Long-Horizon Evaluation of Investment Advisors",
+    "title_zh": "ShiJianBench：投资顾问远景评估从对话到决策",
+    "year": 2026,
+    "venue": "CoRR",
+    "authors": [
+      "Jie Gong",
+      "Guojun Xiong",
+      "Qianqian Xie",
+      "Yang Qiao",
+      "Wenxi Wu",
+      "Mengxi Xiao",
+      "Ziyan Kuang",
+      "Enze Zhang",
+      "Maowei Jiang",
+      "Yankai Chen",
+      "Xiku Du",
+      "Meng Zhou",
+      "Caishuang Huang",
+      "Zhiwei Liu",
+      "Min Peng",
+      "Xue (Steve) Liu",
+      "Sophia Ananiadou"
+    ],
+    "doi": "10.48550/ARXIV.2608.01204",
+    "dblp_key": "journals/corr/abs-2608-01204",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2608.01204",
+    "pdf_url": "https://arxiv.org/pdf/2608.01204",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2608-01204",
+    "abstract_en": "Conversational investment advisors influence not only what users know, but also how they make subsequent decisions as market conditions evolve. Existing evaluations primarily assess response quality or observed outcomes, leaving the long-horizon pathway from advisor language to investor behavior difficult to audit. We introduce ShiJianBench, an offline framework for evaluating conversational investment advisors through matched investor trajectories under fixed historical market feedback. At its core is a multi-agent investor simulator with explicit evolving state variables, motive-driven deliberation, long-term memory, and dialogue-grounded updates. The simulator is calibrated against aggregate behavioral patterns from 7,199 real users, and advisor policies are evaluated using separate investor-side, service-side, and content-side metrics under a hard compliance gate. Experiments on Chinese fund-market traces from 2021 to 2026 identify a stable leading group of LLM advisors that combines substantially stronger personalized content with competitive investor-side trajectory outcomes. These results reveal a systematic distinction between producing a high-quality response and delivering an effective long-horizon intervention, motivating trajectory-aware evaluation of conversational advisors.",
+    "abstract_zh": "对话式投资顾问不仅影响用户的了解，还影响他们随着市场状况的变化做出后续决策的方式。现有的评估主要评估响应质量或观察到的结果，使得从顾问语言到投资者行为的长期路径难以审计。我们介绍了ShiJianBench，这是一个离线框架，用于通过固定历史市场反馈下匹配的投资者轨迹来评估对话式投资顾问。其核心是一个多主体投资者模拟器，具有明确的不断发展的状态变量、动机驱动的审议、长期记忆和基于对话的更新。该模拟器根据 7,199 名真实用户的聚合行为模式进行校准，并且...",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 6,
+    "topics": [
+      "多模态与大语言模型",
+      "强化学习与决策优化"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（47/4142）",
+    "status": "预印本（arXiv/CoRR）",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "sophia_ananiadou_04a9928780b7618a",
+    "global_record_id": "04a9928780b7618a",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "scholar_ids": [
+      "sophia_ananiadou",
+      "zhiwei_liu_man"
+    ],
+    "scholar_names": [
+      "Sophia Ananiadou",
+      "刘志威"
+    ],
+    "source_record_ids": [
+      "sophia_ananiadou_04a9928780b7618a"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "sophia_ananiadou": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "Sophia Ananiadou",
+        "secondary_tags": [
+          "多模态与大语言模型",
+          "强化学习与决策优化"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhiwei_liu_man": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘志威",
+        "secondary_tags": [
+          "多模态与大语言模型",
+          "强化学习与决策优化"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "Sophia Ananiadou：情感与大模型评测基准、数据集及综述",
+      "刘志威：情感与大模型评测基准、数据集及综述"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "llm_benchmark_data",
+    "primary_category": "情感与大模型评测基准、数据集及综述"
+  },
+  {
+    "title": "TimeLitmus: A Diagnostic Benchmark for Cross-Modal Understanding and Explanation Faithfulness in Event-Conditioned Time-Series Prediction",
+    "title_en": "TimeLitmus: A Diagnostic Benchmark for Cross-Modal Understanding and Explanation Faithfulness in Event-Conditioned Time-Series Prediction",
+    "title_zh": "TimeLitmus：事件条件时间序列预测中跨模态理解和解释可信度的诊断基准",
+    "year": 2026,
+    "venue": "CoRR",
+    "authors": [
+      "Jie Gong",
+      "Guojun Xiong",
+      "Qianqian Xie",
+      "Maowei Jiang",
+      "Yankai Chen",
+      "Min Peng",
+      "Sophia Ananiadou",
+      "Xue (Steve) Liu",
+      "Zhiwei Liu"
+    ],
+    "doi": "10.48550/ARXIV.2609.24677",
+    "dblp_key": "journals/corr/abs-2609-24677",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2609.24677",
+    "pdf_url": "https://arxiv.org/pdf/2609.24677",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2609-24677",
+    "abstract_en": "Large language models (LLMs) are increasingly used to make predictions from numerical time-series histories and textual events. Yet accuracy alone cannot reveal whether correct answers reflect effective integration of the two inputs or instead arise from event polarity, unimodal priors, or superficial cues. Likewise, plausible explanations may rationalize predictions without faithfully reflecting the evidence that drives model behavior. We introduce TimeLitmus, a diagnostic benchmark for cross-modal understanding and explanation faithfulness in event-conditioned time-series prediction. TimeLitmus contains 4,856 evaluation records across Finance and Traffic, combining natural prediction with controlled counterfactual and contrastive interventions, explanation-targeted faithfulness tests, and systematic shortcut controls. Across ten representative LLMs, standard prediction accuracy substantially overstates reliable cross-modal understanding: Hard Paired Contrast (HPC) pair correctness peaks at only 19.2% in Finance and 11.7% in Traffic, and all ten models show lower-than-expected consistency on Finance series-side controls. Models often recognize scenario relations explicitly yet fail to apply them during independent prediction. Explanation faithfulness shows a similar gap: in Traffic, most models cite the manipulated temporal factor in over 90% of cases, while behavioral support remains below 22%. Human annotators outperform LLMs on matched controlled and hard-pair diagnostics, confirming that these distinctions are recoverable from the inputs. Natural-only adaptation yields selective gains in evidence selection and input sensitivity, but not consistent gains in controlled or hard-pair behavior. The benchmark, evaluation suite, and supervised adaptation data will be released publicly.",
+    "abstract_zh": "大型语言模型 (LLM) 越来越多地用于根据数值时间序列历史和文本事件进行预测。然而，仅靠准确性并不能揭示正确答案是否反映了两个输入的有效整合，还是来自事件极性、单峰先验或表面线索。同样，看似合理的解释可能会使预测合理化，但无法忠实反映驱动模型行为的证据。我们引入了 TimeLitmus，它是事件条件时间序列预测中跨模式理解和解释忠实度的诊断基准。 TimeLitmus 包含金融和交通领域的 4,856 条评估记录，将自然预测与受控反事实和对比干预相结合...",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 0,
+    "topics": [
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（47/4142）",
+    "status": "预印本（arXiv/CoRR）",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "sophia_ananiadou_75593a479e1a47d3",
+    "global_record_id": "75593a479e1a47d3",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "scholar_ids": [
+      "sophia_ananiadou",
+      "zhiwei_liu_man"
+    ],
+    "scholar_names": [
+      "Sophia Ananiadou",
+      "刘志威"
+    ],
+    "source_record_ids": [
+      "sophia_ananiadou_75593a479e1a47d3"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "sophia_ananiadou": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "Sophia Ananiadou",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhiwei_liu_man": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘志威",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "Sophia Ananiadou：通用预训练大模型、视听生成与基础方法",
+      "刘志威：通用预训练大模型、视听生成与基础方法"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "general_foundation",
+    "primary_category": "通用预训练大模型、视听生成与基础方法"
+  },
+  {
+    "title": "Rumor Detection by Multi-task Suffix Learning based on Time-series Dual Sentiments",
+    "title_en": "Rumor Detection by Multi-task Suffix Learning based on Time-series Dual Sentiments",
+    "title_zh": "基于时序对偶情感的多任务后缀学习谣言检测",
+    "year": 2025,
+    "venue": "CoRR",
+    "authors": [
+      "Kailai Yang",
+      "Eduard H. Hovy",
+      "Sophia Ananiadou",
+      "Zhiwei Liu"
+    ],
+    "doi": "10.48550/ARXIV.2502.14383",
+    "dblp_key": "journals/corr/abs-2502-14383",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2502.14383",
+    "pdf_url": "https://arxiv.org/pdf/2502.14383",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2502-14383",
+    "abstract_en": "The widespread dissemination of rumors on social media has a significant impact on people's lives, potentially leading to public panic and fear. Rumors often evoke specific sentiments, resonating with readers and prompting sharing. To effectively detect and track rumors, it is essential to observe the fine-grained sentiments of both source and response message pairs as the rumor evolves over time. However, current rumor detection methods fail to account for this aspect. In this paper, we propose MSuf, the first multi-task suffix learning framework for rumor detection and tracking using time series dual (coupled) sentiments. MSuf includes three modules: (1) an LLM to extract sentiment intensity features and sort them chronologically; (2) a module that fuses the sorted sentiment features with their source text word embeddings to obtain an aligned embedding; (3) two hard prompts are combined with the aligned vector to perform rumor detection and sentiment analysis using one frozen LLM. MSuf effectively enhances the performance of LLMs for rumor detection with only minimal parameter fine-tuning. Evaluating MSuf on four rumor detection benchmarks, we find significant improvements compared to other emotion-based methods.",
+    "abstract_zh": "社交媒体上谣言的广泛传播对人们的生活产生了重大影响，可能导致公众恐慌和恐惧。谣言往往会引发特定的情绪，引起读者的共鸣并促使分享。为了有效地检测和跟踪谣言，随着谣言随着时间的推移而演变，观察源消息对和响应消息对的细粒度情绪至关重要。然而，当前的谣言检测方法未能考虑到这一点。在本文中，我们提出了 MSuf，这是第一个使用时间序列对偶（耦合）情感进行谣言检测和跟踪的多任务后缀学习框架。 MSuf包括三个模块：（1）LLM，提取情感强度特征并按时间顺序排序； (2) 一个米...",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 6,
+    "topics": [
+      "情感大模型",
+      "情感理解",
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（47/4142）",
+    "status": "预印本（arXiv/CoRR）",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "sophia_ananiadou_15be88112c026311",
+    "global_record_id": "15be88112c026311",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "scholar_ids": [
+      "sophia_ananiadou",
+      "zhiwei_liu_man",
+      "kailai_yang"
+    ],
+    "scholar_names": [
+      "Sophia Ananiadou",
+      "刘志威",
+      "杨凯莱"
+    ],
+    "source_record_ids": [
+      "sophia_ananiadou_15be88112c026311"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "sophia_ananiadou": {
+        "category_id": "affective_llm_mllm",
+        "label": "情感大模型、多模态指令微调与共情生成",
+        "scholar_name": "Sophia Ananiadou",
+        "secondary_tags": [
+          "情感大模型",
+          "情感理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhiwei_liu_man": {
+        "category_id": "affective_llm_mllm",
+        "label": "情感大模型、多模态指令微调与共情生成",
+        "scholar_name": "刘志威",
+        "secondary_tags": [
+          "情感大模型",
+          "情感理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "kailai_yang": {
+        "category_id": "affective_llm_mllm",
+        "label": "情感大模型、多模态指令微调与共情生成",
+        "scholar_name": "杨凯莱",
+        "secondary_tags": [
+          "情感大模型",
+          "情感理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "Sophia Ananiadou：情感大模型、多模态指令微调与共情生成",
+      "刘志威：情感大模型、多模态指令微调与共情生成",
+      "杨凯莱：情感大模型、多模态指令微调与共情生成"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "affective_llm_mllm",
+    "primary_category": "情感大模型、多模态指令微调与共情生成"
+  },
+  {
+    "title": "Disentangled VAD Representations via a Variational Framework for Political Stance Detection",
+    "title_en": "Disentangled VAD Representations via a Variational Framework for Political Stance Detection",
+    "title_zh": "通过政治立场检测的变分框架解开 VAD 表示",
+    "year": 2025,
+    "venue": "CoRR",
+    "authors": [
+      "Beiyu Xu",
+      "Zhiwei Liu",
+      "Sophia Ananiadou"
+    ],
+    "doi": "10.48550/ARXIV.2502.19276",
+    "dblp_key": "journals/corr/abs-2502-19276",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2502.19276",
+    "pdf_url": "https://arxiv.org/pdf/2502.19276",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2502-19276",
+    "abstract_en": "The stance detection task aims to categorise the stance regarding specified targets. Current methods face challenges in effectively integrating sentiment information for stance detection. Moreover, the role of highly granular sentiment labelling in stance detection has been largely overlooked. This study presents a novel stance detection framework utilizing a variational autoencoder (VAE) to disentangle latent emotional features-value, arousal, and dominance (VAD)-from political discourse on social media. This approach addresses limitations in current methods, particularly in in-target and cross-target stance detection scenarios. This research uses an advanced emotional annotation tool to annotate seven-class sentiment labels for P-STANCE. Evaluations on benchmark datasets, including P-STANCE and SemEval-2016, reveal that PoliStance-VAE achieves state-of-the-art performance, surpassing models like BERT, BERTweet, and GPT-4o. PoliStance-VAE offers a robust and interpretable solution for stance detection, demonstrating the effectiveness of integrating nuanced emotional representations. This framework paves the way for advancements in natural language processing tasks, particularly those requiring detailed emotional understanding.",
+    "abstract_zh": "姿态检测任务旨在对特定目标的姿态进行分类。当前的方法在有效整合情感信息以进行姿态检测方面面临挑战。此外，高度精细的情感标签在立场检测中的作用在很大程度上被忽视了。这项研究提出了一种新颖的立场检测框架，利用变分自动编码器（VAE）从社交媒体上的政治话语中分离出潜在的情感特征——价值、唤醒和主导（VAD）。这种方法解决了当前方法的局限性，特别是在目标内和跨目标姿态检测场景中。本研究使用先进的情感注释工具来注释 P-STANCE 的七类情感标签。 ...",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 5,
+    "topics": [
+      "情感大模型"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（47/4142）",
+    "status": "预印本（arXiv/CoRR）",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "sophia_ananiadou_86985b9ebe588856",
+    "global_record_id": "86985b9ebe588856",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "scholar_ids": [
+      "sophia_ananiadou",
+      "zhiwei_liu_man"
+    ],
+    "scholar_names": [
+      "Sophia Ananiadou",
+      "刘志威"
+    ],
+    "source_record_ids": [
+      "sophia_ananiadou_86985b9ebe588856"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [
+      "https://alt.qcri.org/semeval2018/"
+    ],
+    "model_urls": [],
+    "scholar_categories": {
+      "sophia_ananiadou": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "Sophia Ananiadou",
+        "secondary_tags": [
+          "情感大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhiwei_liu_man": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘志威",
+        "secondary_tags": [
+          "情感大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "Sophia Ananiadou：通用预训练大模型、视听生成与基础方法",
+      "刘志威：通用预训练大模型、视听生成与基础方法"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "general_foundation",
+    "primary_category": "通用预训练大模型、视听生成与基础方法"
+  },
+  {
+    "title": "Selective Preference Optimization via Token-Level Reward Function Estimation",
+    "title_en": "Selective Preference Optimization via Token-Level Reward Function Estimation",
+    "title_zh": "通过Token级奖励函数估计进行选择性偏好优化",
+    "year": 2025,
+    "venue": "EMNLP",
+    "authors": [
+      "Erxue Min",
+      "Qianqian Xie",
+      "Jimin Huang",
+      "Kailai Yang",
+      "Sophia Ananiadou",
+      "Zhiwei Liu"
+    ],
+    "doi": "10.18653/V1/2025.EMNLP-MAIN.359",
+    "dblp_key": "conf/emnlp/YangLXHMA25",
+    "paper_url": "https://doi.org/10.18653/V1/2025.EMNLP-MAIN.359",
+    "pdf_url": "https://aclanthology.org/2025.emnlp-main.359.pdf",
+    "source_url": "https://dblp.org/rec/conf/emnlp/YangLXHMA25",
+    "abstract_en": "Recent advancements in LLM alignment leverage token-level supervisions to perform finegrained preference optimization.However, existing token-level alignment methods either optimize on all available tokens, which can be noisy and inefficient, or perform selective training with complex and expensive key token selection strategies.In this work, we propose Selective Preference Optimization (SePO), a novel selective alignment strategy that centers on efficient key token selection without requiring strong, fine-grained supervision signals.We prove the feasibility of Direct Preference Optimization (DPO) as token-level reward function estimators, which applies to any existing alignment datasets and enables costefficient token selection with small-scale model sizes and training data.We then train an oracle model with DPO on the target data and utilize the estimated reward function to score all tokens within the target dataset, where only the key tokens are selected to supervise the target policy model with a contrastive objective function.Extensive experiments on three public evaluation benchmarks show that SePO significantly outperforms competitive baseline methods by only optimizing on 30% key tokens with up to 60% reduction in GPU training hours.We also explore SePO as a new paradigm for weakto-strong generalization, showing that weak oracle models effectively supervise strong policy models with up to 16.8× more parameters.SePO also selects useful supervision signals from out-of-distribution data, alleviating the over-optimization problem.The project is open-sourced here.",
+    "abstract_zh": "LLM对齐的最新进展利用令牌级监督来执行细粒度的偏好优化。然而，现有的令牌级对齐方法要么对所有可用令牌进行优化，这可能是嘈杂且低效的，要么使用复杂且昂贵的关键令牌选择策略进行选择性训练。在这项工作中，我们提出选择性偏好优化（SePO），这是一种新颖的选择性对齐策略，以高效的关键令牌选择为中心，而不需要强大的、细粒度的监督信号。我们证明了直接偏好优化（DPO）作为令牌级的可行性奖励函数估计器，适用于任何现有的对齐数据集，并能够以小...",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 27,
+    "topics": [
+      "多模态与大语言模型",
+      "强化学习与决策优化"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（47/4142）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "sophia_ananiadou_abfcf2e22125f01d",
+    "global_record_id": "abfcf2e22125f01d",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "scholar_ids": [
+      "sophia_ananiadou",
+      "zhiwei_liu_man",
+      "kailai_yang"
+    ],
+    "scholar_names": [
+      "Sophia Ananiadou",
+      "刘志威",
+      "杨凯莱"
+    ],
+    "source_record_ids": [
+      "sophia_ananiadou_abfcf2e22125f01d"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "sophia_ananiadou": {
+        "category_id": "affective_llm_mllm",
+        "label": "情感大模型、多模态指令微调与共情生成",
+        "scholar_name": "Sophia Ananiadou",
+        "secondary_tags": [
+          "多模态与大语言模型",
+          "强化学习与决策优化"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhiwei_liu_man": {
+        "category_id": "affective_llm_mllm",
+        "label": "情感大模型、多模态指令微调与共情生成",
+        "scholar_name": "刘志威",
+        "secondary_tags": [
+          "多模态与大语言模型",
+          "强化学习与决策优化"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "kailai_yang": {
+        "category_id": "affective_llm_mllm",
+        "label": "情感大模型、多模态指令微调与共情生成",
+        "scholar_name": "杨凯莱",
+        "secondary_tags": [
+          "多模态与大语言模型",
+          "强化学习与决策优化"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "Sophia Ananiadou：情感大模型、多模态指令微调与共情生成",
+      "刘志威：情感大模型、多模态指令微调与共情生成",
+      "杨凯莱：情感大模型、多模态指令微调与共情生成"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "affective_llm_mllm",
+    "primary_category": "情感大模型、多模态指令微调与共情生成"
+  },
+  {
+    "title": "ConspEmoLLM-v2: A Robust and Stable Model to Detect Sentiment-Transformed Conspiracy Theories",
+    "title_en": "ConspEmoLLM-v2: A Robust and Stable Model to Detect Sentiment-Transformed Conspiracy Theories",
+    "title_zh": "ConspEmoLLM-v2：一个强大且稳定的模型，用于检测情绪转变的阴谋论",
+    "year": 2025,
+    "venue": "ECAI",
+    "authors": [
+      "Jiaqi Rong",
+      "Sophia Ananiadou",
+      "Zhiwei Liu",
+      "Paul Thompson"
+    ],
+    "doi": "10.3233/FAIA251468",
+    "dblp_key": "conf/ecai/00030RA25",
+    "paper_url": "https://doi.org/10.3233/FAIA251468",
+    "pdf_url": "https://doi.org/10.3233/faia251468",
+    "source_url": "https://dblp.org/rec/conf/ecai/00030RA25",
+    "abstract_en": "Despite the many benefits of large language models (LLMs), they can also cause harm, e.g., through automatic generation of misinformation, including conspiracy theories. Moreover, LLMs can also “disguise” conspiracy theories by altering characteristic textual features, e.g., by transforming their typically strong negative emotions into a more positive tone. Although several studies have proposed automated conspiracy theory detection methods, they are usually trained using human-authored text, whose features can vary from LLM-generated text. Furthermore, several conspiracy detection models, including the previously proposed ConspEmoLLM, rely heavily on the typical emotional features of human-authored conspiracy content. As such, intentionally disguised content may evade detection. To combat such issues, we firstly developed an augmented version of the ConDID conspiracy detection dataset, ConDID-v2, which supplements human-authored conspiracy tweets with versions rewritten by an LLM to reduce the negativity of their original sentiment. The quality of the rewritten tweets was verified by combining human and LLM-based assessment. We subsequently used ConDID-v2 to train ConspEmoLLM-v2, an enhanced version of ConspEmoLLM. Experimental results demonstrate that ConspEmoLLM-v2 retains or exceeds the performance of ConspEmoLLM on the original human-authored content in ConDID, and considerably outperforms both ConspEmoLLM and several other baselines when applied to sentiment-transformed tweets in ConDID-v2. The work has been released at https://github.com/lzw108/ConspEmoLLM/.",
+    "abstract_zh": "尽管大型语言模型（LLM）有很多好处，但它们也可能造成伤害，例如通过自动生成错误信息，包括阴谋论。此外，大语言模型还可以通过改变典型的文本特征来“掩饰”阴谋论，例如将他们典型的强烈负面情绪转变为更积极的语气。尽管一些研究提出了自动阴谋论检测方法，但它们通常使用人类创作的文本进行训练，其特征可能与大语言模型生成的文本不同。此外，一些阴谋检测模型，包括之前提出的 ConspEmoLLM，严重依赖于人类创作的阴谋内容的典型情感特征。就这样，故意...",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 6,
+    "topics": [
+      "情感大模型",
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（47/4142）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "sophia_ananiadou_78fa62e9afc2def2",
+    "global_record_id": "78fa62e9afc2def2",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "scholar_ids": [
+      "sophia_ananiadou",
+      "zhiwei_liu_man"
+    ],
+    "scholar_names": [
+      "Sophia Ananiadou",
+      "刘志威"
+    ],
+    "source_record_ids": [
+      "sophia_ananiadou_78fa62e9afc2def2"
+    ],
+    "resource_ids": [
+      "res_gh_13579fc1b868"
+    ],
+    "code_urls": [
+      "https://github.com/lzw108/ConspEmoLLM"
+    ],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "sophia_ananiadou": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "Sophia Ananiadou",
+        "secondary_tags": [
+          "情感大模型",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhiwei_liu_man": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘志威",
+        "secondary_tags": [
+          "情感大模型",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "Sophia Ananiadou：通用预训练大模型、视听生成与基础方法",
+      "刘志威：通用预训练大模型、视听生成与基础方法"
+    ],
+    "resource_status": "已关联公开资源入口",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "general_foundation",
+    "primary_category": "通用预训练大模型、视听生成与基础方法"
+  },
+  {
+    "title": "FinNLP-FNP-LLMFinLegal-2025 Shared Task: Financial Misinformation Detection Challenge Task",
+    "title_en": "FinNLP-FNP-LLMFinLegal-2025 Shared Task: Financial Misinformation Detection Challenge Task",
+    "title_zh": "FinNLP-FNP-LLMFinLegal-2025 共享任务：金融错误信息检测挑战任务",
+    "year": 2025,
+    "venue": "COLING Workshops",
+    "authors": [
+      "Rui Xing",
+      "Qianqian Xie",
+      "Jiping Dong",
+      "Sophia Ananiadou",
+      "Seongchan Park",
+      "Kailai Yang",
+      "Zhuo Bao",
+      "Polydoros Giannouris",
+      "Mohsinul Kabir",
+      "Keyi Wang",
+      "Jaehong Kim",
+      "Zhiwei Liu",
+      "Xin Zhang",
+      "Dong Li"
+    ],
+    "doi": "",
+    "dblp_key": "conf/coling/0003WBZDYKGXPKL25",
+    "paper_url": "",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/conf/coling/0003WBZDYKGXPKL25",
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "cited_by_count": 0,
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者PID核验（47/4142）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "sophia_ananiadou_adebab23fe3092c7",
+    "global_record_id": "adebab23fe3092c7",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "scholar_ids": [
+      "sophia_ananiadou",
+      "zhiwei_liu_man",
+      "kailai_yang"
+    ],
+    "scholar_names": [
+      "Sophia Ananiadou",
+      "刘志威",
+      "杨凯莱"
+    ],
+    "source_record_ids": [
+      "sophia_ananiadou_adebab23fe3092c7"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "sophia_ananiadou": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "Sophia Ananiadou",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhiwei_liu_man": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘志威",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      },
+      "kailai_yang": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "杨凯莱",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "Sophia Ananiadou：情感与大模型评测基准、数据集及综述",
+      "刘志威：情感与大模型评测基准、数据集及综述",
+      "杨凯莱：情感与大模型评测基准、数据集及综述"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "llm_benchmark_data",
+    "primary_category": "情感与大模型评测基准、数据集及综述"
+  },
+  {
+    "title": "FMDLlama: Financial Misinformation Detection Based on Large Language Models",
+    "title_en": "FMDLlama: Financial Misinformation Detection Based on Large Language Models",
+    "title_zh": "FMDLLama：基于大语言模型的金融错误信息检测",
+    "year": 2025,
+    "venue": "WWW (Companion Volume)",
+    "authors": [
+      "Jimin Huang",
+      "Qianqian Xie",
+      "Kailai Yang",
+      "Sophia Ananiadou",
+      "Xin Zhang",
+      "Zhiwei Liu"
+    ],
+    "doi": "10.1145/3701716.3715599",
+    "dblp_key": "conf/www/LiuZYXHA25",
+    "paper_url": "https://doi.org/10.1145/3701716.3715599",
+    "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3701716.3715599",
+    "source_url": "https://dblp.org/rec/conf/www/LiuZYXHA25",
+    "abstract_en": "The emergence of social media has made the spread of misinformation easier. In the financial domain, the accuracy of information is crucial for various aspects of financial market, which has made financial misinformation detection (FMD) an urgent problem that needs to be addressed. Large language models (LLMs) have demonstrated outstanding performance in various fields. However, current studies mostly rely on traditional methods and have not explored the application of LLMs in the field of FMD. The main reason is the lack of FMD instruction tuning datasets and evaluation benchmarks. In this paper, we propose FMDLlama, the first open-sourced instruction-following LLMs for FMD task based on fine-tuning Llama3.1 with instruction data, the first multi-task FMD instruction dataset (FMDID) to support LLM instruction tuning, and a comprehensive FMD evaluation benchmark (FMD-B) with classification and explanation generation tasks to test the FMD ability of LLMs. We compare our models with a variety of LLMs on FMD-B, where our model outperforms other open-sourced LLMs as well as OpenAI's products. This project is available at https://github.com/lzw108/FMD.",
+    "abstract_zh": "社交媒体的出现使得错误信息更容易传播。在金融领域，信息的准确性对于金融市场的各个方面都至关重要，这使得金融错误信息检测（FMD）成为迫切需要解决的问题。大型语言模型（LLM）在各个领域都表现出了出色的表现。然而，目前的研究大多依赖于传统方法，并没有探索LLM在FMD领域的应用。主要原因是缺乏FMD指令调优数据集和评估基准。在本文中，我们提出了 FMDLama，这是第一个用于 FMD 任务的开源指令跟踪 LLM，基于指令数据微调 Llama3.1，第一个...",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 32,
+    "topics": [
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（47/4142）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "sophia_ananiadou_e5de4f4e387e3f8f",
+    "global_record_id": "e5de4f4e387e3f8f",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "scholar_ids": [
+      "sophia_ananiadou",
+      "zhiwei_liu_man",
+      "kailai_yang"
+    ],
+    "scholar_names": [
+      "Sophia Ananiadou",
+      "刘志威",
+      "杨凯莱"
+    ],
+    "source_record_ids": [
+      "sophia_ananiadou_e5de4f4e387e3f8f"
+    ],
+    "resource_ids": [
+      "res_gh_fddf5b31e51b"
+    ],
+    "code_urls": [
+      "https://github.com/lzw108/FMD"
+    ],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "sophia_ananiadou": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "Sophia Ananiadou",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhiwei_liu_man": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘志威",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "kailai_yang": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "杨凯莱",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "Sophia Ananiadou：通用预训练大模型、视听生成与基础方法",
+      "刘志威：通用预训练大模型、视听生成与基础方法",
+      "杨凯莱：通用预训练大模型、视听生成与基础方法"
+    ],
+    "resource_status": "已关联公开资源入口",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "general_foundation",
+    "primary_category": "通用预训练大模型、视听生成与基础方法"
+  },
+  {
+    "title": "MentraSuite: Post-Training Large Language Models for Mental Health Reasoning and Assessment",
+    "title_en": "MentraSuite: Post-Training Large Language Models for Mental Health Reasoning and Assessment",
+    "title_zh": "MentraSuite：用于心理健康推理和评估的训练后大型语言模型",
+    "year": 2025,
+    "venue": "CoRR",
+    "authors": [
+      "Weiguang Han",
+      "Qianqian Xie",
+      "Jinpeng Hu",
+      "Kailai Yang",
+      "Mengxi Xiao",
+      "Ziyan Kuang",
+      "Pengde Zhao",
+      "Enze Zhang",
+      "Lianting Huang",
+      "Zhiwei Liu",
+      "Shu Liao",
+      "Min Peng",
+      "Sophia Ananiadou"
+    ],
+    "doi": "10.48550/ARXIV.2512.09636",
+    "dblp_key": "journals/corr/abs-2512-09636",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2512.09636",
+    "pdf_url": "https://arxiv.org/pdf/2512.09636",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2512-09636",
+    "abstract_en": "Mental-health reasoning with large language models (LLMs) is an evidence-constrained judgment problem: models must transform limited, subjective, and often ambiguous evidence into interpretations, decisions, or claims whose specificity, certainty, severity, and actionability remain warranted. Existing benchmarks mainly evaluate specific clinical roles or final answers, leaving the reliability of explicit reasoning trajectories under-specified. We introduce MiraMind, a unified benchmark spanning six task families and 13 datasets across appraisal, diagnosis, intervention, abstraction, and verification. MiraMind evaluates both task outcomes and the trajectories connecting evidence to judgment through usability, logical structure, and informational contribution. Evaluating 20 LLMs reveals a restraint gap, in which the specificity or certainty of model judgments exceeds what limited evidence supports. We further train Mindora, an 8B model that targets evidence-to-judgment transitions through hard-case supervision, structured trajectory rewriting, and consistency-aware optimization. Mindora achieves the best average rank on MiraMind, improves over its backbone across all six task families, and produces more balanced reasoning trajectories. These results show that MiraMind can expose shared restraint failures and evaluate whether targeted post-training improves evidence-constrained mental-health reasoning.",
+    "abstract_zh": "使用大型语言模型 (LLM) 进行心理健康推理是一个证据受限的判断问题：模型必须将有限的、主观的且常常模糊的证据转化为解释、决策或主张，其特异性、确定性、严重性和可操作性仍然得到保证。现有的基准主要评估特定的临床作用或最终答案，而未明确明确推理轨迹的可靠性。我们推出了 MiraMind，这是一个涵盖 6 个任务系列和 13 个数据集的统一基准，涉及评估、诊断、干预、抽象和验证。 MiraMind 通过可用性、逻辑结构和信息来评估任务结果以及将证据与判断联系起来的轨迹。",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 10,
+    "topics": [
+      "情感智能",
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（47/4142）",
+    "status": "预印本（arXiv/CoRR）",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "sophia_ananiadou_23260a412ad82cdb",
+    "global_record_id": "23260a412ad82cdb",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "scholar_ids": [
+      "sophia_ananiadou",
+      "zhiwei_liu_man",
+      "kailai_yang"
+    ],
+    "scholar_names": [
+      "Sophia Ananiadou",
+      "刘志威",
+      "杨凯莱"
+    ],
+    "source_record_ids": [
+      "sophia_ananiadou_23260a412ad82cdb"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "sophia_ananiadou": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "Sophia Ananiadou",
+        "secondary_tags": [
+          "情感智能",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhiwei_liu_man": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘志威",
+        "secondary_tags": [
+          "情感智能",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "kailai_yang": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "杨凯莱",
+        "secondary_tags": [
+          "情感智能",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "Sophia Ananiadou：通用预训练大模型、视听生成与基础方法",
+      "刘志威：通用预训练大模型、视听生成与基础方法",
+      "杨凯莱：通用预训练大模型、视听生成与基础方法"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "general_foundation",
+    "primary_category": "通用预训练大模型、视听生成与基础方法"
+  },
+  {
+    "title": "MMAFFBen: A Multilingual and Multimodal Affective Analysis Benchmark for Evaluating LLMs and VLMs",
+    "title_en": "MMAFFBen: A Multilingual and Multimodal Affective Analysis Benchmark for Evaluating LLMs and VLMs",
+    "title_zh": "MMAFFBen：用于评估 LLM 和 VLM 的多语言和多模式情感分析基准",
+    "year": 2025,
+    "venue": "CoRR",
+    "authors": [
+      "Qianqian Xie",
+      "Jimin Huang",
+      "Lingfei Qian",
+      "Kailai Yang",
+      "Zhiwei Liu",
+      "Sophia Ananiadou"
+    ],
+    "doi": "10.48550/ARXIV.2505.24423",
+    "dblp_key": "journals/corr/abs-2505-24423",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2505.24423",
+    "pdf_url": "https://arxiv.org/pdf/2505.24423",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2505-24423",
+    "abstract_en": "Large language models and vision-language models (which we jointly call LMs) have transformed NLP and CV, demonstrating remarkable potential across various fields. However, their capabilities in affective analysis (i.e. sentiment analysis and emotion detection) remain underexplored. This gap is largely due to the absence of comprehensive evaluation benchmarks, and the inherent complexity of affective analysis tasks. In this paper, we introduce MMAFFBen, the first extensive open-source benchmark for multilingual multimodal affective analysis. MMAFFBen encompasses text, image, and video modalities across 35 languages, covering four key affective analysis tasks: sentiment polarity, sentiment intensity, emotion classification, and emotion intensity. Moreover, we construct the MMAFFIn dataset for fine-tuning LMs on affective analysis tasks, and further develop MMAFFLM-3b and MMAFFLM-7b based on it. We evaluate various representative LMs, including GPT-4o-mini, providing a systematic comparison of their affective understanding capabilities. This project is available at https://github.com/lzw108/MMAFFBen.",
+    "abstract_zh": "大型语言模型和视觉语言模型（我们统称为 LM）已经改变了 NLP 和 CV，在各个领域展示了巨大的潜力。然而，它们在情感分析（即情感分析和情绪检测）方面的能力仍未得到充分开发。这种差距很大程度上是由于缺乏全面的评估基准以及情感分析任务固有的复杂性造成的。在本文中，我们介绍了 MMAFFBen，这是第一个用于多语言多模态情感分析的广泛开源基准。 MMAFFBen 涵盖 35 种语言的文本、图像和视频模式，涵盖四个关键的情感分析任务：情感极性、情感强度、情感分类和情感意图……",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 6,
+    "topics": [
+      "情感大模型",
+      "情感理解",
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（47/4142）",
+    "status": "预印本（arXiv/CoRR）",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "sophia_ananiadou_1166b7b4e04e6bfd",
+    "global_record_id": "1166b7b4e04e6bfd",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "scholar_ids": [
+      "sophia_ananiadou",
+      "zhiwei_liu_man",
+      "kailai_yang"
+    ],
+    "scholar_names": [
+      "Sophia Ananiadou",
+      "刘志威",
+      "杨凯莱"
+    ],
+    "source_record_ids": [
+      "sophia_ananiadou_1166b7b4e04e6bfd"
+    ],
+    "resource_ids": [
+      "res_gh_dd78d71f5344"
+    ],
+    "code_urls": [
+      "https://github.com/lzw108/MMAFFBen"
+    ],
+    "data_urls": [
+      "https://github.com/lzw108/MMAFFBen"
+    ],
+    "model_urls": [],
+    "scholar_categories": {
+      "sophia_ananiadou": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "Sophia Ananiadou",
+        "secondary_tags": [
+          "情感大模型",
+          "情感理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhiwei_liu_man": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘志威",
+        "secondary_tags": [
+          "情感大模型",
+          "情感理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "kailai_yang": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "杨凯莱",
+        "secondary_tags": [
+          "情感大模型",
+          "情感理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "Sophia Ananiadou：通用预训练大模型、视听生成与基础方法",
+      "刘志威：通用预训练大模型、视听生成与基础方法",
+      "杨凯莱：通用预训练大模型、视听生成与基础方法"
+    ],
+    "resource_status": "已关联公开资源入口",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "general_foundation",
+    "primary_category": "通用预训练大模型、视听生成与基础方法"
+  },
+  {
+    "title": "MultiFinBen: A Multilingual, Multimodal, and Difficulty-Aware Benchmark for Financial LLM Evaluation",
+    "title_en": "MultiFinBen: A Multilingual, Multimodal, and Difficulty-Aware Benchmark for Financial LLM Evaluation",
+    "title_zh": "MultiFinBen：金融 LLM 评估的多语言、多模式和难度感知基准",
+    "year": 2025,
+    "venue": "CoRR",
+    "authors": [
+      "Qianqian Xie",
+      "Jimin Huang",
+      "Xiao-Yang Liu",
+      "Xi Chen",
+      "Kaleb E. Smith",
+      "Mingquan Lin",
+      "Arman Cohan",
+      "Efstathia Soufleri",
+      "Nuo Chen",
+      "Lingfei Qian",
+      "Guojun Xiong",
+      "Shanshan Yang",
+      "Yupeng Cao",
+      "Yijia Zhao",
+      "Yi Han",
+      "Polydoros Giannouris",
+      "Jerry Huang",
+      "Ruoyu Xiang",
+      "Penglei Gao",
+      "Xueqing Peng",
+      "Triantafillos Papadopoulos",
+      "Yuechen Jiang",
+      "Yueru He",
+      "Suyuchen Wang",
+      "Zhiyang Deng",
+      "Yilun Zhao",
+      "Alejandro Lopez-Lira",
+      "Shengyuan Lin",
+      "Haohang Li",
+      "Jeff Zhao",
+      "Jian-Yun Nie",
+      "Peng Lu",
+      "Meikang Qiu",
+      "Yang Ren",
+      "Zhiwei Liu",
+      "Jun'ichi Tsujii",
+      "Keyi Wang",
+      "Mingyang Jiang",
+      "Huan He",
+      "Yun Feng",
+      "Yangyang Yu",
+      "Yan Wang",
+      "Xiaoyu Wang",
+      "Sophia Ananiadou"
+    ],
+    "doi": "10.48550/ARXIV.2506.14028",
+    "dblp_key": "journals/corr/abs-2506-14028",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2506.14028",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2506-14028",
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "cited_by_count": 0,
+    "topics": [
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（47/4142）",
+    "status": "预印本（arXiv/CoRR）",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "sophia_ananiadou_0414b5947994b36c",
+    "global_record_id": "0414b5947994b36c",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "scholar_ids": [
+      "sophia_ananiadou",
+      "zhiwei_liu_man"
+    ],
+    "scholar_names": [
+      "Sophia Ananiadou",
+      "刘志威"
+    ],
+    "source_record_ids": [
+      "sophia_ananiadou_0414b5947994b36c"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "sophia_ananiadou": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "Sophia Ananiadou",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhiwei_liu_man": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘志威",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "Sophia Ananiadou：通用预训练大模型、视听生成与基础方法",
+      "刘志威：通用预训练大模型、视听生成与基础方法"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "general_foundation",
+    "primary_category": "通用预训练大模型、视听生成与基础方法"
+  },
+  {
+    "title": "RAEmoLLM: Retrieval Augmented LLMs for Cross-Domain Misinformation Detection Using In-Context Learning Based on Emotional Information",
+    "title_en": "RAEmoLLM: Retrieval Augmented LLMs for Cross-Domain Misinformation Detection Using In-Context Learning Based on Emotional Information",
+    "title_zh": "RAEmoLLM：使用基于情感信息的上下文学习进行跨域错误信息检测的检索增强大语言模型",
+    "year": 2025,
+    "venue": "ACL (1)",
+    "authors": [
+      "Qianqian Xie",
+      "Kailai Yang",
+      "Sophia Ananiadou",
+      "Eduard H. Hovy",
+      "Christine de Kock",
+      "Zhiwei Liu"
+    ],
+    "doi": "10.18653/V1/2025.ACL-LONG.806",
+    "dblp_key": "conf/acl/LiuYXKAH25",
+    "paper_url": "https://doi.org/10.18653/V1/2025.ACL-LONG.806",
+    "pdf_url": "https://aclanthology.org/2025.acl-long.806.pdf",
+    "source_url": "https://dblp.org/rec/conf/acl/LiuYXKAH25",
+    "abstract_en": "Misinformation is prevalent in various fields such as education, politics, health, etc., causing significant harm to society.However, current methods for cross-domain misinformation detection rely on effort-and resourceintensive fine-tuning and complex model structures.With the outstanding performance of LLMs, many studies have employed them for misinformation detection.Unfortunately, they focus on in-domain tasks and do not incorporate significant sentiment and emotion features (which we jointly call affect).In this paper, we propose RAEmoLLM, the first retrieval augmented (RAG) LLMs framework to address cross-domain misinformation detection using in-context learning based on affective information.RAEmoLLM includes three modules.(1) In the index construction module, we apply an emotional LLM to obtain affective embeddings from all domains to construct a retrieval database.(2) The retrieval module uses the database to recommend top K examples (text-label pairs) from source domain data for target domain contents.(3) These examples are adopted as few-shot demonstrations for the inference module to process the target domain content.The RAEmoLLM can effectively enhance the general performance of LLMs in cross-domain misinformation detection tasks through affect-based retrieval, without fine-tuning.We evaluate our framework on three misinformation benchmarks.Results show that RAEmoLLM achieves significant improvements compared to the other few-shot methods on three datasets, with the highest increases of 15.64%, 31.18%, and 15.73% respectively.This project is available at https://github.com/lzw108/RAEmoLLM.",
+    "abstract_zh": "错误信息普遍存在于教育、政治、健康等各个领域，对社会造成重大危害。然而，目前跨领域错误信息检测的方法依赖于大量精力和资源的微调以及复杂的模型结构。由于LLM的出色表现，许多研究都将其用于错误信息检测。不幸的是，它们专注于域内任务，没有纳入显着的情感和情感特征（我们统称为情感）。在本文中，我们提出了RAEmoLLM，第一个检索增强 (RAG) LLM 框架，使用基于情感信息的上下文学习来解决跨域错误信息检测。RAEmoLLM 包括三个模块。(1) 在...",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 37,
+    "topics": [
+      "情感大模型",
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（47/4142）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "sophia_ananiadou_ae01bbf7338b298b",
+    "global_record_id": "ae01bbf7338b298b",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "scholar_ids": [
+      "sophia_ananiadou",
+      "zhiwei_liu_man",
+      "kailai_yang"
+    ],
+    "scholar_names": [
+      "Sophia Ananiadou",
+      "刘志威",
+      "杨凯莱"
+    ],
+    "source_record_ids": [
+      "sophia_ananiadou_ae01bbf7338b298b"
+    ],
+    "resource_ids": [
+      "res_gh_d5212e213cde"
+    ],
+    "code_urls": [
+      "https://github.com/lzw108/RAEmoLLM"
+    ],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "sophia_ananiadou": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "Sophia Ananiadou",
+        "secondary_tags": [
+          "情感大模型",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhiwei_liu_man": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘志威",
+        "secondary_tags": [
+          "情感大模型",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "kailai_yang": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "杨凯莱",
+        "secondary_tags": [
+          "情感大模型",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "Sophia Ananiadou：通用预训练大模型、视听生成与基础方法",
+      "刘志威：通用预训练大模型、视听生成与基础方法",
+      "杨凯莱：通用预训练大模型、视听生成与基础方法"
+    ],
+    "resource_status": "已关联公开资源入口",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "general_foundation",
+    "primary_category": "通用预训练大模型、视听生成与基础方法"
+  },
+  {
+    "title": "Emotion detection for misinformation: A review",
+    "title_en": "Emotion detection for misinformation: A review",
+    "title_zh": "错误信息的情绪检测：综述",
+    "year": 2024,
+    "venue": "Inf. Fusion",
+    "authors": [
+      "Zeping Yu",
+      "Tianlin Zhang",
+      "Kailai Yang",
+      "Sophia Ananiadou",
+      "Zhiwei Liu",
+      "Paul Thompson"
+    ],
+    "doi": "10.1016/J.INFFUS.2024.102300",
+    "dblp_key": "journals/inffus/LiuZYTYA24",
+    "paper_url": "https://doi.org/10.1016/J.INFFUS.2024.102300",
+    "pdf_url": "https://doi.org/10.1016/j.inffus.2024.102300",
+    "source_url": "https://dblp.org/rec/journals/inffus/LiuZYTYA24",
+    "abstract_en": "With the advent of social media, an increasing number of netizens are sharing and reading posts and news online. However, the huge volumes of misinformation (e.g., fake news and rumors) that flood the internet can adversely affect people’s lives, and have resulted in the emergence of rumor and fake news detection as a hot research topic. The emotions and sentiments of netizens, as expressed in social media posts and news, constitute important factors that can help to distinguish fake news from genuine news and to understand the spread of rumors. This article comprehensively reviews emotion-based methods for misinformation detection, with a particular focus on advanced fusion methods. We begin by explaining the strong links between emotions and misinformation. We subsequently provide a detailed analysis of a range of misinformation detection methods that employ a variety of emotion, sentiment and stance-based features, and describe their strengths and weaknesses. Finally, we discuss a number of ongoing challenges in emotion-based misinformation detection based on large language models, and suggest future research directions, including data collection (multi-platform, multilingual), annotation, benchmark, multimodality, and interpretability.",
+    "abstract_zh": "随着社交媒体的出现，越来越多的网民在网上分享和阅读帖子和新闻。然而，互联网上充斥的大量错误信息（例如假新闻和谣言）会对人们的生活产生不利影响，并导致谣言和假新闻检测成为一个热门研究课题。社交媒体帖子和新闻中表达的网民情绪和情绪是有助于区分假新闻和真实新闻以及了解谣言传播的重要因素。本文全面回顾了基于情感的错误信息检测方法，特别关注先进的融合方法。我们首先解释情绪之间的紧密联系......",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 131,
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者PID核验（47/4142）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "sophia_ananiadou_2b341e90b3c07564",
+    "global_record_id": "2b341e90b3c07564",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "scholar_ids": [
+      "sophia_ananiadou",
+      "zhiwei_liu_man",
+      "kailai_yang"
+    ],
+    "scholar_names": [
+      "Sophia Ananiadou",
+      "刘志威",
+      "杨凯莱"
+    ],
+    "source_record_ids": [
+      "sophia_ananiadou_2b341e90b3c07564"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "sophia_ananiadou": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "Sophia Ananiadou",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhiwei_liu_man": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘志威",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      },
+      "kailai_yang": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "杨凯莱",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "Sophia Ananiadou：通用预训练大模型、视听生成与基础方法",
+      "刘志威：通用预训练大模型、视听生成与基础方法",
+      "杨凯莱：通用预训练大模型、视听生成与基础方法"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "general_foundation",
+    "primary_category": "通用预训练大模型、视听生成与基础方法"
+  },
+  {
+    "title": "ConspEmoLLM: Conspiracy Theory Detection Using an Emotion-Based Large Language Model",
+    "title_en": "ConspEmoLLM: Conspiracy Theory Detection Using an Emotion-Based Large Language Model",
+    "title_zh": "ConspEmoLLM：使用基于情感的大语言模型检测阴谋论",
+    "year": 2024,
+    "venue": "ECAI",
+    "authors": [
+      "Boyang Liu",
+      "Kailai Yang",
+      "Sophia Ananiadou",
+      "Paul Thompson",
+      "Zhiwei Liu"
+    ],
+    "doi": "10.3233/FAIA241060",
+    "dblp_key": "conf/ecai/LiuL0YA24",
+    "paper_url": "https://doi.org/10.3233/FAIA241060",
+    "pdf_url": "https://doi.org/10.3233/faia241060",
+    "source_url": "https://dblp.org/rec/conf/ecai/LiuL0YA24",
+    "abstract_en": "The internet has brought both benefits and harms to society. A prime example of the latter is misinformation, including conspiracy theories, which flood the web. Recent advances in natural language processing, particularly the emergence of large language models (LLMs), have improved the prospects of accurate misinformation detection. However, most LLM-based approaches to conspiracy theory detection focus only on binary classification and fail to account for the important relationship between misinformation and affective features (i.e., sentiment and emotions). Driven by a comprehensive analysis of conspiracy text that reveals its distinctive affective features, we propose ConspEmoLLM, the first open-source LLM that integrates affective information and is able to perform diverse tasks relating to conspiracy theories. These tasks include not only conspiracy theory detection, but also classification of theory type and detection of related discussion (e.g., opinions towards theories). ConspEmoLLM is fine-tuned based on an emotion-oriented LLM using our novel ConDID dataset, which includes five tasks to support LLM instruction tuning and evaluation. We demonstrate that when applied to these tasks, ConspEmoLLM largely outperforms several open-source general domain LLMs and ChatGPT, as well as an LLM that has been fine-tuned using ConDID, but which does not use affective features. ConspEmoLLM can be easily applied to identify and classify conspiracy-related text in the real world. The work has been released at https://github.com/lzw108/ConspEmoLLM/.",
+    "abstract_zh": "互联网给社会带来了好处，也带来了危害。后者的一个典型例子是错误信息，包括充斥网络的阴谋论。自然语言处理的最新进展，特别是大型语言模型（LLM）的出现，改善了准确错误信息检测的前景。然而，大多数基于大语言模型的阴谋论检测方法仅关注二元分类，而未能考虑错误信息和情感特征（即情绪和情绪）之间的重要关系。通过对阴谋文本进行全面分析，揭示其独特的情感特征，我们提出了 ConspEmoLLM，这是第一个集成情感信息的开源大语言模型...",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 24,
+    "topics": [
+      "情感大模型",
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（47/4142）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "sophia_ananiadou_13c815166136f084",
+    "global_record_id": "13c815166136f084",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "scholar_ids": [
+      "sophia_ananiadou",
+      "zhiwei_liu_man",
+      "kailai_yang"
+    ],
+    "scholar_names": [
+      "Sophia Ananiadou",
+      "刘志威",
+      "杨凯莱"
+    ],
+    "source_record_ids": [
+      "sophia_ananiadou_13c815166136f084"
+    ],
+    "resource_ids": [
+      "res_gh_13579fc1b868",
+      "res_gh_b352def53643"
+    ],
+    "code_urls": [
+      "https://github.com/lzw108/ConspEmoLLM",
+      "https://github.com/lzw108/EmoLLMs"
+    ],
+    "data_urls": [
+      "https://github.com/lzw108/EmoLLMs"
+    ],
+    "model_urls": [],
+    "scholar_categories": {
+      "sophia_ananiadou": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "Sophia Ananiadou",
+        "secondary_tags": [
+          "情感大模型",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhiwei_liu_man": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘志威",
+        "secondary_tags": [
+          "情感大模型",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "kailai_yang": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "杨凯莱",
+        "secondary_tags": [
+          "情感大模型",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "Sophia Ananiadou：通用预训练大模型、视听生成与基础方法",
+      "刘志威：通用预训练大模型、视听生成与基础方法",
+      "杨凯莱：通用预训练大模型、视听生成与基础方法"
+    ],
+    "resource_status": "已关联公开资源入口",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "general_foundation",
+    "primary_category": "通用预训练大模型、视听生成与基础方法"
+  },
+  {
+    "title": "EmoLLMs: A Series of Emotional Large Language Models and Annotation Tools for Comprehensive Affective Analysis",
+    "title_en": "EmoLLMs: A Series of Emotional Large Language Models and Annotation Tools for Comprehensive Affective Analysis",
+    "title_zh": "EmoLLMs：一系列用于综合情感分析的情感大语言模型和注释工具",
+    "year": 2024,
+    "venue": "KDD",
+    "authors": [
+      "Qianqian Xie",
+      "Tianlin Zhang",
+      "Kailai Yang",
+      "Sophia Ananiadou",
+      "Zhiwei Liu"
+    ],
+    "doi": "10.1145/3637528.3671552",
+    "dblp_key": "conf/kdd/LiuYXZA24",
+    "paper_url": "https://doi.org/10.1145/3637528.3671552",
+    "pdf_url": "https://doi.org/10.1145/3637528.3671552",
+    "source_url": "https://dblp.org/rec/conf/kdd/LiuYXZA24",
+    "abstract_en": "Sentiment analysis and emotion detection are important research topics in natural language processing (NLP) and benefit many downstream tasks. With the widespread application of large language models (LLMs), researchers have started exploring the application of LLMs based on instruction-tuning in the field of sentiment analysis. However, these models only focus on single aspects of affective classification tasks (e.g. sentimental polarity or categorical emotions), and overlook the regression tasks (e.g. sentiment strength or emotion intensity), which leads to poor performance in downstream tasks. The main reason is the lack of comprehensive affective instruction tuning datasets and evaluation benchmarks, which cover various affective classification and regression tasks. Moreover, although emotional information is useful for downstream tasks, existing downstream datasets lack high-quality and comprehensive affective annotations. In this paper, we propose EmoLLMs, the first series of open-sourced instruction-following LLMs for comprehensive affective analysis based on fine-tuning various LLMs with instruction data, the first multi-task affective analysis instruction dataset (AAID) with 234K data samples based on 3 classification tasks and 2 regression tasks to support LLM instruction tuning, and a comprehensive affective evaluation benchmark (AEB) with 8 regression tasks and 6 classification tasks from various sources and domains to test the generalization ability of LLMs. We propose a series of EmoLLMs by fine-tuning LLMs with AAID to solve various affective instruction tasks. We compare our models with a variety of LLMs and sentiment analysis tools on AEB, where our models outperform all other open-sourced LLMs and sentiment analysis tools, and surpass ChatGPT and GPT-4 in most tasks, which shows that the series of EmoLLMs achieve the ChatGPT-level and GPT-4-level generalization capabilities on affective analysis tasks, and demonstrates our models can be used as affective annotation tools. This project is available at https://github.com/lzw108/EmoLLMs/.",
+    "abstract_zh": "情感分析和情绪检测是自然语言处理（NLP）中的重要研究课题，并使许多下游任务受益。随着大语言模型（LLM）的广泛应用，研究人员开始探索基于指令调优的LLM在情感分析领域的应用。然而，这些模型只关注情感分类任务的单个方面（例如情感极性或分类情感），而忽略了回归任务（例如情感强度或情感强度），这导致下游任务的性能不佳。主要原因是缺乏全面的情感指令调优数据集和评估基准，涵盖各种情感类别...",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 206,
+    "topics": [
+      "情感大模型",
+      "情感理解",
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（47/4142）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "sophia_ananiadou_d84ad0e000955a02",
+    "global_record_id": "d84ad0e000955a02",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "scholar_ids": [
+      "sophia_ananiadou",
+      "zhiwei_liu_man",
+      "kailai_yang"
+    ],
+    "scholar_names": [
+      "Sophia Ananiadou",
+      "刘志威",
+      "杨凯莱"
+    ],
+    "source_record_ids": [
+      "sophia_ananiadou_d84ad0e000955a02"
+    ],
+    "resource_ids": [
+      "res_gh_b352def53643"
+    ],
+    "code_urls": [
+      "https://github.com/lzw108/EmoLLMs"
+    ],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "sophia_ananiadou": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "Sophia Ananiadou",
+        "secondary_tags": [
+          "情感大模型",
+          "情感理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhiwei_liu_man": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘志威",
+        "secondary_tags": [
+          "情感大模型",
+          "情感理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "kailai_yang": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "杨凯莱",
+        "secondary_tags": [
+          "情感大模型",
+          "情感理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "Sophia Ananiadou：通用预训练大模型、视听生成与基础方法",
+      "刘志威：通用预训练大模型、视听生成与基础方法",
+      "杨凯莱：通用预训练大模型、视听生成与基础方法"
+    ],
+    "resource_status": "已关联公开资源入口",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "general_foundation",
+    "primary_category": "通用预训练大模型、视听生成与基础方法"
+  },
+  {
+    "title": "FinBen: A Holistic Financial Benchmark for Large Language Models",
+    "title_en": "FinBen: A Holistic Financial Benchmark for Large Language Models",
+    "title_zh": "FinBen：大型语言模型的整体金融基准",
+    "year": 2024,
+    "venue": "NeurIPS",
+    "authors": [
+      "Yijing Xu",
+      "Xiao-Yang Liu",
+      "Gang Hu",
+      "Jimin Huang",
+      "Benyou Wang",
+      "Jiajia Huang",
+      "Guojun Xiong",
+      "Qianqian Xie",
+      "Hao Wang",
+      "Zheheng Luo",
+      "Zhiyuan Yao",
+      "Weiguang Han",
+      "Chenhan Yuan",
+      "Tianlin Zhang",
+      "Sophia Ananiadou",
+      "Alejandro Lopez-Lira",
+      "Yongfu Dai",
+      "Yueru He",
+      "Yanzhao Lai",
+      "Mengxi Xiao",
+      "Kailai Yang",
+      "Ziyan Kuang",
+      "Yuechen Jiang",
+      "Haoqiang Kang",
+      "Haohang Li",
+      "Ruoyu Xiang",
+      "Zhiyang Deng",
+      "Duanyu Feng",
+      "Xiao Zhang",
+      "Dong Li",
+      "Zhengyu Chen",
+      "Min Peng",
+      "Yangyang Yu",
+      "Zhiwei Liu"
+    ],
+    "doi": "10.52202/079017-3033",
+    "dblp_key": "conf/nips/XieHCXZHXLDFXKK24",
+    "paper_url": "https://doi.org/10.52202/079017-3033",
+    "pdf_url": "https://arxiv.org/pdf/2402.12659",
+    "source_url": "https://dblp.org/rec/conf/nips/XieHCXZHXLDFXKK24",
+    "abstract_en": "LLMs have transformed NLP and shown promise in various fields, yet their potential in finance is underexplored due to a lack of comprehensive evaluation benchmarks, the rapid development of LLMs, and the complexity of financial tasks. In this paper, we introduce FinBen, the first extensive open-source evaluation benchmark, including 36 datasets spanning 24 financial tasks, covering seven critical aspects: information extraction (IE), textual analysis, question answering (QA), text generation, risk management, forecasting, and decision-making. FinBen offers several key innovations: a broader range of tasks and datasets, the first evaluation of stock trading, novel agent and Retrieval-Augmented Generation (RAG) evaluation, and three novel open-source evaluation datasets for text summarization, question answering, and stock trading. Our evaluation of 15 representative LLMs, including GPT-4, ChatGPT, and the latest Gemini, reveals several key findings: While LLMs excel in IE and textual analysis, they struggle with advanced reasoning and complex tasks like text generation and forecasting. GPT-4 excels in IE and stock trading, while Gemini is better at text generation and forecasting. Instruction-tuned LLMs improve textual analysis but offer limited benefits for complex tasks such as QA. FinBen has been used to host the first financial LLMs shared task at the FinNLP-AgentScen workshop during IJCAI-2024, attracting 12 teams. Their novel solutions outperformed GPT-4, showcasing FinBen's potential to drive innovation in financial LLMs. All datasets, results, and codes are released for the research community: https://github.com/The-FinAI/PIXIU.",
+    "abstract_zh": "大语言模型改变了自然语言处理，并在各个领域展现了前景，但由于缺乏全面的评估基准、大语言模型的快速发展以及金融任务的复杂性，大语言模型在金融领域的潜力尚未得到充分开发。在本文中，我们介绍了FinBen，这是第一个广泛的开源评估基准，包括涵盖24个金融任务的36个数据集，涵盖七个关键方面：信息提取（IE）、文本分析、问答（QA）、文本生成、风险管理、预测和决策。 FinBen 提供了几项关键创新：更广泛的任务和数据集、股票交易的首次评估、新颖的智能体和检索增强生成 (RAG) 评估以及三个新颖的操作...",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 501,
+    "topics": [
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（47/4142）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "sophia_ananiadou_e08febde399632db",
+    "global_record_id": "e08febde399632db",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "scholar_ids": [
+      "sophia_ananiadou",
+      "zhiwei_liu_man",
+      "kailai_yang"
+    ],
+    "scholar_names": [
+      "Sophia Ananiadou",
+      "刘志威",
+      "杨凯莱"
+    ],
+    "source_record_ids": [
+      "sophia_ananiadou_e08febde399632db"
+    ],
+    "resource_ids": [
+      "res_gh_a0c4ad7f43a4"
+    ],
+    "code_urls": [
+      "https://github.com/The-FinAI/PIXIU"
+    ],
+    "data_urls": [
+      "https://github.com/The-FinAI/PIXIU"
+    ],
+    "model_urls": [],
+    "scholar_categories": {
+      "sophia_ananiadou": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "Sophia Ananiadou",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhiwei_liu_man": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘志威",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "kailai_yang": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "杨凯莱",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "Sophia Ananiadou：情感与大模型评测基准、数据集及综述",
+      "刘志威：情感与大模型评测基准、数据集及综述",
+      "杨凯莱：情感与大模型评测基准、数据集及综述"
+    ],
+    "resource_status": "已关联公开资源入口",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "llm_benchmark_data",
+    "primary_category": "情感与大模型评测基准、数据集及综述"
+  },
+  {
+    "title": "The FinBen: An Holistic Financial Benchmark for Large Language Models",
+    "title_en": "The FinBen: An Holistic Financial Benchmark for Large Language Models",
+    "title_zh": "FinBen：大型语言模型的整体金融基准",
+    "year": 2024,
+    "venue": "CoRR",
+    "authors": [
+      "Guojun Xiong",
+      "Chenhan Yuan",
+      "Weiguang Han",
+      "Jiajia Huang",
+      "Zhiyuan Yao",
+      "Hao Wang",
+      "Benyou Wang",
+      "Zheheng Luo",
+      "Jimin Huang",
+      "Xiao-Yang Liu",
+      "Gang Hu",
+      "Yijing Xu",
+      "Tianlin Zhang",
+      "Qianqian Xie",
+      "Yongfu Dai",
+      "Haohang Li",
+      "Kailai Yang",
+      "Alejandro Lopez-Lira",
+      "Ziyan Kuang",
+      "Ruoyu Xiang",
+      "Yuechen Jiang",
+      "Haoqiang Kang",
+      "Mengxi Xiao",
+      "Yanzhao Lai",
+      "Yueru He",
+      "Zhiyang Deng",
+      "Duanyu Feng",
+      "Sophia Ananiadou",
+      "Xiao Zhang",
+      "Zhiwei Liu",
+      "Yangyang Yu",
+      "Zhengyu Chen",
+      "Dong Li",
+      "Min Peng"
+    ],
+    "doi": "10.48550/ARXIV.2402.12659",
+    "dblp_key": "journals/corr/abs-2402-12659",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2402.12659",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2402-12659",
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "cited_by_count": 0,
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者PID核验（47/4142）",
+    "status": "预印本（arXiv/CoRR）",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "sophia_ananiadou_8d4e03cea3aa68b5",
+    "global_record_id": "8d4e03cea3aa68b5",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "scholar_ids": [
+      "sophia_ananiadou",
+      "zhiwei_liu_man",
+      "kailai_yang"
+    ],
+    "scholar_names": [
+      "Sophia Ananiadou",
+      "刘志威",
+      "杨凯莱"
+    ],
+    "source_record_ids": [
+      "sophia_ananiadou_8d4e03cea3aa68b5"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "sophia_ananiadou": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "Sophia Ananiadou",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhiwei_liu_man": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘志威",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      },
+      "kailai_yang": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "杨凯莱",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "Sophia Ananiadou：通用预训练大模型、视听生成与基础方法",
+      "刘志威：通用预训练大模型、视听生成与基础方法",
+      "杨凯莱：通用预训练大模型、视听生成与基础方法"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "general_foundation",
+    "primary_category": "通用预训练大模型、视听生成与基础方法"
+  },
+  {
+    "title": "MetaAligner: Towards Generalizable Multi-Objective Alignment of Language Models",
+    "title_en": "MetaAligner: Towards Generalizable Multi-Objective Alignment of Language Models",
+    "title_zh": "MetaAligner：迈向语言模型的可推广多目标对齐",
+    "year": 2024,
+    "venue": "NeurIPS",
+    "authors": [
+      "Jimin Huang",
+      "Tianlin Zhang",
+      "Qianqian Xie",
+      "Sophia Ananiadou",
+      "Kailai Yang",
+      "Zhiwei Liu"
+    ],
+    "doi": "10.52202/079017-1086",
+    "dblp_key": "conf/nips/YangLXHZA24",
+    "paper_url": "https://doi.org/10.52202/079017-1086",
+    "pdf_url": "https://arxiv.org/pdf/2403.17141",
+    "source_url": "https://dblp.org/rec/conf/nips/YangLXHZA24",
+    "abstract_en": "Recent advancements in large language models (LLMs) focus on aligning to heterogeneous human expectations and values via multi-objective preference alignment. However, existing methods are dependent on the policy model parameters, which require high-cost repetition of their alignment algorithms for each new policy model, and they cannot expand to unseen objectives due to their static alignment objectives. In this work, we propose Meta-Objective Aligner (MetaAligner), the first policy-agnostic and generalizable method for multi-objective preference alignment. MetaAligner models multi-objective alignment into three stages: (1) dynamic objectives reformulation algorithm reorganizes traditional alignment datasets to supervise the model on performing flexible alignment across different objectives; (2) conditional weak-to-strong correction paradigm aligns the weak outputs of fixed policy models to approach strong outputs with higher preferences in the corresponding alignment objectives, enabling plug-and-play inferences on any policy models, which significantly reduces training costs and facilitates alignment on close-source policy models; (3) generalizable inference method flexibly adjusts target objectives by updating their text descriptions in the prompts, facilitating generalizable alignment to unseen objectives. Experimental results show that MetaAligner achieves significant and balanced improvements in multi-objective alignments on 10 state-of-the-art policy models, and saves up to 93.63% of GPU training hours compared to previous alignment methods. The model also effectively aligns unseen objectives, marking the first step towards generalizable multi-objective preference alignment.",
+    "abstract_zh": "大型语言模型 (LLM) 的最新进展侧重于通过多目标偏好调整来适应不同的人类期望和价值观。然而，现有方法依赖于策略模型参数，这需要为每个新策略模型重复其对齐算法的高成本，并且由于其静态对齐目标而无法扩展到看不见的目标。在这项工作中，我们提出了元目标对齐器（MetaAligner），这是第一个与策略无关且可推广的多目标偏好对齐方法。 MetaAligner 将多目标对齐建模分为三个阶段：（1）动态目标重构算法重新组织传统对齐数据集以监督模型的性能...",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 62,
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者PID核验（47/4142）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "sophia_ananiadou_d8a797fe3d8fc4ac",
+    "global_record_id": "d8a797fe3d8fc4ac",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "scholar_ids": [
+      "sophia_ananiadou",
+      "zhiwei_liu_man",
+      "kailai_yang"
+    ],
+    "scholar_names": [
+      "Sophia Ananiadou",
+      "刘志威",
+      "杨凯莱"
+    ],
+    "source_record_ids": [
+      "sophia_ananiadou_d8a797fe3d8fc4ac"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "sophia_ananiadou": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "Sophia Ananiadou",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhiwei_liu_man": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘志威",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      },
+      "kailai_yang": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "杨凯莱",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "Sophia Ananiadou：通用预训练大模型、视听生成与基础方法",
+      "刘志威：通用预训练大模型、视听生成与基础方法",
+      "杨凯莱：通用预训练大模型、视听生成与基础方法"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "general_foundation",
+    "primary_category": "通用预训练大模型、视听生成与基础方法"
+  },
+  {
+    "title": "MetaAligner: Conditional Weak-to-Strong Correction for Generalizable Multi-Objective Alignment of Language Models",
+    "title_en": "MetaAligner: Conditional Weak-to-Strong Correction for Generalizable Multi-Objective Alignment of Language Models",
+    "title_zh": "MetaAligner：语言模型可泛化多目标对齐的条件弱到强校正",
+    "year": 2024,
+    "venue": "CoRR",
+    "authors": [
+      "Qianqian Xie",
+      "Jimin Huang",
+      "Tianlin Zhang",
+      "Kailai Yang",
+      "Ziyan Kuang",
+      "Nirui Song",
+      "Zhiwei Liu",
+      "Sophia Ananiadou"
+    ],
+    "doi": "10.48550/ARXIV.2403.17141",
+    "dblp_key": "journals/corr/abs-2403-17141",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2403.17141",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2403-17141",
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "cited_by_count": 0,
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者PID核验（47/4142）",
+    "status": "预印本（arXiv/CoRR）",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "sophia_ananiadou_ee5470720099c0a2",
+    "global_record_id": "ee5470720099c0a2",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "scholar_ids": [
+      "sophia_ananiadou",
+      "zhiwei_liu_man",
+      "kailai_yang"
+    ],
+    "scholar_names": [
+      "Sophia Ananiadou",
+      "刘志威",
+      "杨凯莱"
+    ],
+    "source_record_ids": [
+      "sophia_ananiadou_ee5470720099c0a2"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "sophia_ananiadou": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "Sophia Ananiadou",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhiwei_liu_man": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘志威",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      },
+      "kailai_yang": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "杨凯莱",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "Sophia Ananiadou：通用预训练大模型、视听生成与基础方法",
+      "刘志威：通用预训练大模型、视听生成与基础方法",
+      "杨凯莱：通用预训练大模型、视听生成与基础方法"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "general_foundation",
+    "primary_category": "通用预训练大模型、视听生成与基础方法"
+  },
+  {
+    "title": "Open-FinLLMs: Open Multimodal Large Language Models for Financial Applications",
+    "title_en": "Open-FinLLMs: Open Multimodal Large Language Models for Financial Applications",
+    "title_zh": "Open-FinLLM：用于金融应用的开放式多模式大型语言模型",
+    "year": 2024,
+    "venue": "CoRR",
+    "authors": [
+      "Zheheng Luo",
+      "Honghai Yu",
+      "Yupeng Cao",
+      "Qianqian Xie",
+      "Benyou Wang",
+      "Jimin Huang",
+      "Guojun Xiong",
+      "Daniel S. Kim",
+      "Xiao-Yang Liu",
+      "Zhiyuan Yao",
+      "Yuzhe Yang",
+      "Kaleb E. Smith",
+      "Weiguang Han",
+      "Lihang Shen",
+      "VijayaSai Somasundaram",
+      "Yanzhao Lai",
+      "Shunian Chen",
+      "Mengxi Xiao",
+      "Yilun Zhao",
+      "Haohang Li",
+      "Zhiyang Deng",
+      "Yueru He",
+      "Zihao Jiang",
+      "Yitao Long",
+      "Yongfu Dai",
+      "Alejandro Lopez-Lira",
+      "Duanyu Feng",
+      "Ruoyu Xiang",
+      "Jian-Yun Nie",
+      "Min Peng",
+      "Dong Li",
+      "Sophia Ananiadou",
+      "Xiao Zhang",
+      "Peng Lu",
+      "Yangyang Yu",
+      "Yifei Zhang",
+      "Zhiwei Liu",
+      "Zhengyu Chen",
+      "Jordan W. Suchow"
+    ],
+    "doi": "10.48550/ARXIV.2408.11878",
+    "dblp_key": "journals/corr/abs-2408-11878",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2408.11878",
+    "pdf_url": "https://arxiv.org/pdf/2408.11878",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2408-11878",
+    "abstract_en": "Financial LLMs hold promise for advancing financial tasks and domain-specific applications. However, they are limited by scarce corpora, weak multimodal capabilities, and narrow evaluations, making them less suited for real-world application. To address this, we introduce \\textit{Open-FinLLMs}, the first open-source multimodal financial LLMs designed to handle diverse tasks across text, tabular, time-series, and chart data, excelling in zero-shot, few-shot, and fine-tuning settings. The suite includes FinLLaMA, pre-trained on a comprehensive 52-billion-token corpus; FinLLaMA-Instruct, fine-tuned with 573K financial instructions; and FinLLaVA, enhanced with 1.43M multimodal tuning pairs for strong cross-modal reasoning. We comprehensively evaluate Open-FinLLMs across 14 financial tasks, 30 datasets, and 4 multimodal tasks in zero-shot, few-shot, and supervised fine-tuning settings, introducing two new multimodal evaluation datasets. Our results show that Open-FinLLMs outperforms afvanced financial and general LLMs such as GPT-4, across financial NLP, decision-making, and multi-modal tasks, highlighting their potential to tackle real-world challenges. To foster innovation and collaboration across academia and industry, we release all codes (https://anonymous.4open.science/r/PIXIU2-0D70/B1D7/LICENSE) and models under OSI-approved licenses.",
+    "abstract_zh": "金融大语言模型有望推进金融任务和特定领域的应用程序。然而，它们受到语料库稀缺、多模态能力弱和评估范围狭窄的限制，使得它们不太适合实际应用。为了解决这个问题，我们引入了 \\textit{Open-FinLLMs}，这是第一个开源多模式金融大语言模型，旨在处理跨文本、表格、时间序列和图表数据的各种任务，在零样本、少样本和微调设置方面表现出色。该套件包括 FinLLaMA，在包含 520 亿Token的综合语料库上进行了预训练； FinLLaMA-Instruct，根据 573K 财务指令进行微调；和 FinLLaVA，通过 1.43M 多模态调谐对进行增强，以实现强大的跨模态推理。我们全面评估...",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 117,
+    "topics": [
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（47/4142）",
+    "status": "预印本（arXiv/CoRR）",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "sophia_ananiadou_3d81974ef9e9a88c",
+    "global_record_id": "3d81974ef9e9a88c",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "scholar_ids": [
+      "sophia_ananiadou",
+      "zhiwei_liu_man"
+    ],
+    "scholar_names": [
+      "Sophia Ananiadou",
+      "刘志威"
+    ],
+    "source_record_ids": [
+      "sophia_ananiadou_3d81974ef9e9a88c"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "sophia_ananiadou": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "Sophia Ananiadou",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhiwei_liu_man": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘志威",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "Sophia Ananiadou：通用预训练大模型、视听生成与基础方法",
+      "刘志威：通用预训练大模型、视听生成与基础方法"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "general_foundation",
+    "primary_category": "通用预训练大模型、视听生成与基础方法"
+  },
+  {
+    "title": "Exploring the Residual Stream of Transformers",
+    "title_en": "Exploring the Residual Stream of Transformers",
+    "title_zh": "探索Transformer的残余流",
+    "year": 2023,
+    "venue": "CoRR",
+    "authors": [
+      "Zeping Yu",
+      "Kailai Yang",
+      "Zhiwei Liu",
+      "Sophia Ananiadou"
+    ],
+    "doi": "10.48550/ARXIV.2312.12141",
+    "dblp_key": "journals/corr/abs-2312-12141",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2312.12141",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2312-12141",
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "cited_by_count": 0,
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者PID核验（47/4142）",
+    "status": "预印本（arXiv/CoRR）",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "sophia_ananiadou_ef17174cb110262a",
+    "global_record_id": "ef17174cb110262a",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "scholar_ids": [
+      "sophia_ananiadou",
+      "zhiwei_liu_man",
+      "kailai_yang"
+    ],
+    "scholar_names": [
+      "Sophia Ananiadou",
+      "刘志威",
+      "杨凯莱"
+    ],
+    "source_record_ids": [
+      "sophia_ananiadou_ef17174cb110262a"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "sophia_ananiadou": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "Sophia Ananiadou",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      },
+      "zhiwei_liu_man": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘志威",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      },
+      "kailai_yang": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "杨凯莱",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "Sophia Ananiadou：通用预训练大模型、视听生成与基础方法",
+      "刘志威：通用预训练大模型、视听生成与基础方法",
+      "杨凯莱：通用预训练大模型、视听生成与基础方法"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "general_foundation",
+    "primary_category": "通用预训练大模型、视听生成与基础方法"
+  }
+]

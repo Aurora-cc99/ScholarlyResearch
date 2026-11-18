@@ -27,7 +27,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5065497921）",
     "status": "已索引出版/会议记录",
@@ -97,7 +98,8 @@
       "脑电情感识别",
       "脑电基础大模型",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "Crossref exact title match for arXiv-preprint EEG/fMRI/BCI record",
     "status": "已核验作品（Crossref DOI）",
@@ -285,7 +287,8 @@
     "abstract_source": "",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5065497921）",
     "status": "已索引出版/会议记录",
@@ -384,11 +387,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "gao_xiaorong",
-      "ziyu_jia"
+      "ziyu_jia",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "高小榕",
-      "贾子瑜"
+      "贾子瑜",
+      "钟子平"
     ],
     "source_record_ids": [
       "gao_xiaorong_f7c266b782ab"
@@ -416,16 +421,30 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "fd5a557a763e2ef4",
     "primary_categories_by_scholar": [
       "高小榕：情感脑电与多模态生理信号",
-      "贾子瑜：脑电基准、数据与评测"
+      "贾子瑜：脑电基准、数据与评测",
+      "钟子平：生理情感数据库、基准与综述"
     ],
     "abstract_en": "Steady-state visual evoked potential-based brain-computer interfaces (SSVEP-BCIs) hold significant promise for enabling high-speed human-computer interaction in real-world scenarios. However, existing frequency-domain decoding methods treat frequency spectrum features (the real and imaginary spectrum features) as a single feature without considering their unique spatial and spectral characteristics, resulting in insufficient generalizable features and limited classification accuracy in cross-subject scenarios. To address this issue, we propose a Dual-Branch Attention-Based Frequency Domain Network (DB-AFDNet) to independently decode real and imaginary spectral components, aiming to acquire more discriminative and generalizable features for cross-subject applications. Specifically, we construct inter-branch attention similarity constraints to encourage the two branches to have similar attention properties, promoting to learn the consensus characteristics in the dual branches. Furthermore, we propose intra-branch orthogonality constraints to explore branch-specific discriminative features to learn generalizable features. Experimental studies on two public datasets, the Benchmark and Beta datasets, demonstrate that DB-AFDNet outperforms state-of-the-art methods in cross-subject classification, achieving a relative improvement of 1.36$\\%$ and 1.45$\\%$, respectively.",
     "abstract_source": "openalex_verified",
-    "abstract_zh": "基于稳态视觉诱发电位的脑机接口（SSVEP-BCIs）对于在现实场景中实现高速人机交互具有重大前景。 However, existing frequency-domain decoding methods treat frequency spectrum features (the real and imaginary spectrum features) as a single feature without considering their unique spatial and spectral characteristics, resulting in insufficient generalizable features and limited classification accuracy in cross-subject scenarios. To address this issue, we propose a Dual-Branch Attention-Based Frequency Domain Network (DB-AFDNet) to independently decode real and imaginary spectral components, aiming to acquire m..."
+    "abstract_zh": "基于稳态视觉诱发电位的脑机接口（SSVEP-BCIs）对于在现实场景中实现高速人机交互具有重大前景。 However, existing frequency-domain decoding methods treat frequency spectrum features (the real and imaginary spectrum features) as a single feature without considering their unique spatial and spectral characteristics, resulting in insufficient generalizable features and limited classification accuracy in cross-subject scenarios. To address this issue, we propose a Dual-Branch Attention-Based Frequency Domain Network (DB-AFDNet) to independently decode real and imaginary spectral components, aiming to acquire m...",
+    "dblp_key": "journals/titb/YangWJWZWGJW26"
   },
   {
     "title": "Fast BCIs: Leveraging Dual-Scale Time Windows with Test-Time Adaptation to Enhance Accuracy",
@@ -467,10 +486,12 @@
     "scholar_id": "ziyu_jia",
     "scholar_name": "贾子瑜",
     "scholar_ids": [
-      "ziyu_jia"
+      "ziyu_jia",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
-      "贾子瑜"
+      "贾子瑜",
+      "钟子平"
     ],
     "source_record_ids": [
       "ziyu_jia_e1e8f63e85a69617"
@@ -489,10 +510,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "贾子瑜：脑电基准、数据与评测"
+      "贾子瑜：脑电基准、数据与评测",
+      "钟子平：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -524,7 +556,8 @@
     "abstract_source": "",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5065497921）",
     "status": "已索引出版/会议记录",
@@ -598,7 +631,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；核心纳入（情感智能评测与情感计算）；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -729,7 +763,8 @@
       "脑电情感识别",
       "脑电基础大模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5065497921）",
     "status": "已索引出版/会议记录",
@@ -865,7 +900,9 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5065497921）",
     "status": "已索引出版/会议记录",
@@ -1009,7 +1046,8 @@
     "abstract_zh": "基于视频的情感计算（VAC）是情感理解和新兴消费电子应用的核心，但在复杂、非平稳的情感动态下，它经常遭受不稳定的优化和表征退化。一个关键的挑战是，短期行为波动可以在不同的长期情感背景下传达不同的情感含义，而大多数现有的 VAC 模型将异质因素纠缠在单个潜在空间中，导致成分混合和跨尺度不一致。我们提出了低秩稀疏情感理解框架（LSEF），这是一个基于低秩稀疏原理的即插即用框架...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5065497921）",
     "status": "已索引出版/会议记录",
@@ -1224,7 +1262,7 @@
     "authors": [
       "Ziyu Jia"
     ],
-    "doi": "",
+    "doi": "10.48550/ARXIV.2610.14497",
     "paper_url": "https://yi-ding-cs.github.io/publications/",
     "source_url": "https://yi-ding-cs.github.io/publications/",
     "topics": [
@@ -1262,10 +1300,12 @@
     "work_title_group": "7b62d4dcf7f7",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "ziyu_jia"
+      "ziyu_jia",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "贾子瑜"
+      "贾子瑜",
+      "关存太"
     ],
     "source_record_ids": [
       "ziyu_jia_eece3f14cc1e"
@@ -1282,12 +1322,30 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑电基础大模型",
+          "EEG表征对齐",
+          "脑电微调"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "9e5504b59510997a",
     "primary_categories_by_scholar": [
-      "贾子瑜：脑电基础模型与通用解码"
-    ]
+      "贾子瑜：脑电基础模型与通用解码",
+      "关存太：脑电基础大模型与自监督预训练"
+    ],
+    "dblp_key": "journals/corr/abs-2610-14497",
+    "pdf_url": "https://arxiv.org/pdf/2610.14497",
+    "abstract_en": "EEG foundation models (EFMs) have improved EEG representation learning by transferring knowledge from large-scale multi-subject pretraining to downstream tasks. However, their pretrained embeddings often retain substantial subject-related variation, placing an additional burden on the downstream classifier, especially in cross-subject settings. To address this issue, we propose Disentangled EFM Fine-Tuning (DEFT), a plug-and-play adapter for EFM fine-tuning. DEFT encourages branch disentanglement of pretrained tokens into task-oriented content and subject-consistent style, then performs downstream prediction from the content branch. It instantiates this factorize-before-classify design with recursive Gaussian refinement, temporal-variance regularization, subject-aware contrastive learning, and reconstruction. Experiments across multiple EEG datasets and four EFM backbones show that DEFT improves matched fine-tuning baselines. Further ablations and analyses support the intended content/style branch organization.",
+    "abstract_source": "arxiv_api",
+    "abstract_zh": "脑电图基础模型（EFM）通过将知识从大规模多主体预训练转移到下游任务，改进了脑电图表征学习。然而，它们的预训练嵌入通常保留大量与主题相关的变化，给下游分类器带来额外的负担，特别是在跨主题设置中。为了解决这个问题，我们提出了 Disentangled EFM Fine-Tuning (DEFT)，这是一种用于 EFM 微调的即插即用适配器。 DEFT 鼓励将预训练标记的分支分解为面向任务的内容和主题一致的风格，然后从内容分支执行下游预测。它通过递归高斯细化、时间方差 r 实例化了这种先分解后分类的设计。"
   },
   {
     "title": "DLink: Distilling Layer-wise and Dominant Knowledge from EEG Foundation Models",
@@ -1402,7 +1460,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5065497921）",
     "status": "已索引出版/会议记录",
@@ -1732,7 +1791,8 @@
     "abstract_source": "",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5065497921）",
     "status": "已索引出版/会议记录",
@@ -1817,10 +1877,14 @@
     "scholar_id": "ziyu_jia",
     "scholar_name": "贾子瑜",
     "scholar_ids": [
-      "ziyu_jia"
+      "ziyu_jia",
+      "badong_chen",
+      "zebang_cheng"
     ],
     "scholar_names": [
-      "贾子瑜"
+      "贾子瑜",
+      "陈霸东",
+      "程泽邦"
     ],
     "source_record_ids": [
       "ziyu_jia_8ddcbd9d21a1103e"
@@ -1839,10 +1903,32 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "badong_chen": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "陈霸东",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zebang_cheng": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "程泽邦",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "贾子瑜：脑电基础模型与通用解码"
+      "贾子瑜：脑电基础模型与通用解码",
+      "陈霸东：脑电基础大模型与自监督预训练",
+      "程泽邦：通用预训练大模型、视听生成与基础方法"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -1874,7 +1960,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5065497921）",
     "status": "已索引出版/会议记录",
@@ -1946,7 +2033,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5065497921）",
     "status": "已索引出版/会议记录",
@@ -2021,7 +2109,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5065497921）",
     "status": "已索引出版/会议记录",
@@ -2278,7 +2367,8 @@
     "topics": [
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5065497921）",
     "status": "已索引出版/会议记录",
@@ -2344,7 +2434,8 @@
       "EEG表征对齐",
       "脑电微调",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；重点纳入；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2428,7 +2519,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5065497921）",
     "status": "已索引出版/会议记录",
@@ -2493,7 +2585,9 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2530,14 +2624,16 @@
     "scholar_id": "panorama_yang_yang",
     "scholar_name": "杨洋",
     "work_title_group": "5b9fc4e15d21",
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
       "panorama_yang_yang",
-      "ziyu_jia"
+      "ziyu_jia",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "杨洋",
-      "贾子瑜"
+      "贾子瑜",
+      "钟子平"
     ],
     "source_record_ids": [
       "panorama_yang_yang_9b5532015b19"
@@ -2568,16 +2664,33 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "6cf0aacf12e5a9aa",
     "primary_categories_by_scholar": [
       "杨洋：情感脑电与多模态生理信号",
-      "贾子瑜：情感脑电与多模态生理信号"
+      "贾子瑜：情感脑电与多模态生理信号",
+      "钟子平：生理情感数据库、基准与综述"
     ],
     "abstract_en": "Due to the inherent non-stationarity and individual differences present in electroencephalogram (EEG) signals, developing a generalizable model that performs well on new subjects is challenging in EEG-based emotion recognition. Most existing domain adaptation (DA) methods typically mitigate these discrepancies by aligning the marginal distributions of domain feature representations. However, when there is a significant difference in the class-conditional distribution between domain features and labels, the domain-invariant features learned by aligning marginal distributions may have limited discriminative ability for unlabeled target instances or even prove counterproductive. To address this issue, we propose a Neighborhood Semantic Aware Learning-based Dynamic Graph Attention Convolution (NSAL-DGAT) approach that learns target semantic information by considering the inter-domain semantic topological structure, thereby improving classifier adaptation for target instances. Specifically, the proposed NSAL framework is designed to capitalize on the insight that after domain feature alignment, some target samples and their neighboring source samples exhibit similar semantics. By leveraging the neighborhood topological structure, we extract and incorporate semantic target features to train a more transferable classifier. Besides, we implement an entropy weighting mechanism to emphasize representative target semantic information, encouraging target instances to prioritize high-confidence individuals within the source neighborhood. We have conducted extensive experiments on the public SEED dataset and our collected the Hearing-Impaired EEG Dataset (HIED). The experimental results underscore the efficacy of our proposed NSAL-DGAT approach, showcasing state-of-the-art accuracy in subject-dependent as well as subject-independent scenarios. The source code is available at https://github.com/YYingDL/NSAL-DGAT.",
     "abstract_source": "openalex_verified",
-    "abstract_zh": "由于脑电图 (EEG) 信号存在固有的非平稳性和个体差异，开发一种在新对象上表现良好的通用模型在基于脑电图的情绪识别中具有挑战性。大多数现有的域适应（DA）方法通常通过对齐域特征表示的边缘分布来减轻这些差异。然而，当域特征和标签之间的类条件分布存在显着差异时，通过对齐边缘分布学习到的域不变特征对于未标记的目标实例的区分能力可能有限，甚至适得其反。为了解决这个问题..."
+    "abstract_zh": "由于脑电图 (EEG) 信号存在固有的非平稳性和个体差异，开发一种在新对象上表现良好的通用模型在基于脑电图的情绪识别中具有挑战性。大多数现有的域适应（DA）方法通常通过对齐域特征表示的边缘分布来减轻这些差异。然而，当域特征和标签之间的类条件分布存在显着差异时，通过对齐边缘分布学习到的域不变特征对于未标记的目标实例的区分能力可能有限，甚至适得其反。为了解决这个问题...",
+    "dblp_key": "journals/taffco/YangWSJWJW25"
   },
   {
     "title": "Two-stream Dynamic Heterogeneous Graph Recurrent Neural Network for Multi-label Multi-modal Emotion Recognition",
@@ -2601,7 +2714,9 @@
       "EEG表征对齐",
       "脑电微调",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；重点纳入",
     "status": "候选条目/需按作者主页继续核验",
@@ -2635,11 +2750,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "ziyu_jia",
-      "panorama_jing_wang"
+      "panorama_jing_wang",
+      "badong_chen"
     ],
     "scholar_names": [
       "贾子瑜",
-      "王晶"
+      "王晶",
+      "陈霸东"
     ],
     "source_record_ids": [
       "ziyu_jia_f51bd86d8ebb",
@@ -2669,16 +2786,33 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "badong_chen": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "陈霸东",
+        "secondary_tags": [
+          "脑电基础大模型",
+          "EEG表征对齐",
+          "脑电微调",
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "2d165db5a405ee2c",
     "primary_categories_by_scholar": [
       "贾子瑜：情感脑电与多模态生理信号",
-      "王晶：情感脑电与多模态生理信号"
+      "王晶：情感脑电与多模态生理信号",
+      "陈霸东：脑电基础大模型与自监督预训练"
     ],
     "abstract_en": "The study of the relationship between emotions and physiological signals of subjects under multimedia stimulation is an emerging field, and many important advances are made. However, there are still some challenges: 1) How to effectively utilize the complementarity among spatial-spectral-temporal domain information. 2) How to employ the heterogeneity and the correlation among multi-modal physiological signals simultaneously. 3) How to improve the robustness of the model dealing with missing channels. 4) How to model the dependency among different emotions. In this paper, we propose a novel two-stream Dynamic Heterogeneous Graph Recurrent Neural Network called DHGRNN. Specifically, DHGRNN consists of a spatial-temporal stream, a spatial-spectral stream, a fusion layer, and a multi-label classifier. Each stream is composed of a graph transformer network, evolved graph convolutional neural network, and gated recurrent units. We propose a graph-based two-stream structure to fuse the information of the spatial-spectral-temporal domain simultaneously. Graph transformer network and evolved graph convolutional neural network are used to model the heterogeneity and correlation of multi-modal physiological signals, respectively. To deal with the problem of robustness in the face of missing channel data, we transform it into the problem of dynamic graphs and use a dynamic graph neural network to improve the robustness. In addition, we propose a multi-label classifier to model the dependency among different emotion dimensions. Experiments on three public datasets demonstrate that our proposed model outperforms existing state-of-the-art methods.",
     "abstract_source": "openalex_verified",
-    "abstract_zh": "多媒体刺激下受试者情绪与生理信号关系的研究是一个新兴领域，并取得了许多重要进展。然而，仍然存在一些挑战：1）如何有效利用空间-谱-时域信息之间的互补性。 2）如何同时利用多模态生理信号之间的异质性和相关性。 3）如何提高模型处理缺失通道的鲁棒性。 4）如何建模不同情绪之间的依赖关系。在本文中，我们提出了一种新颖的双流动态异构图循环神经网络，称为 DHGRNN。具体来说，DHGRNN..."
+    "abstract_zh": "多媒体刺激下受试者情绪与生理信号关系的研究是一个新兴领域，并取得了许多重要进展。然而，仍然存在一些挑战：1）如何有效利用空间-谱-时域信息之间的互补性。 2）如何同时利用多模态生理信号之间的异质性和相关性。 3）如何提高模型处理缺失通道的鲁棒性。 4）如何建模不同情绪之间的依赖关系。在本文中，我们提出了一种新颖的双流动态异构图循环神经网络，称为 DHGRNN。具体来说，DHGRNN...",
+    "dblp_key": "journals/taffco/WangFNLCJ25"
   },
   {
     "title": "Every Subtlety Counts: Fine-grained Person Independence Micro-Action Recognition via Distributionally Robust Optimization",
@@ -2835,7 +2969,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5065497921）",
     "status": "已索引出版/会议记录",
@@ -3183,7 +3318,9 @@
       "脑电微调",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；重点纳入；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3340,7 +3477,9 @@
       "EEG表征对齐",
       "脑电微调",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；重点纳入；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3589,7 +3728,8 @@
     "abstract_source": "",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5065497921）",
     "status": "已索引出版/会议记录",
@@ -3834,7 +3974,8 @@
       "脑电情感识别",
       "脑电数据蒸馏",
       "多模态脑电学习",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；重点纳入",
     "status": "候选条目/需按作者主页继续核验",
@@ -4089,7 +4230,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5065497921）",
     "status": "已索引出版/会议记录",
@@ -4162,7 +4304,9 @@
     "abstract_source": "arxiv_api",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 89/5503-12）",
     "status": "预印本记录",
@@ -4242,7 +4386,9 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -4343,7 +4489,8 @@
     "topics": [
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -4589,7 +4736,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -4774,7 +4922,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5065497921）",
     "status": "已索引出版/会议记录",
@@ -4924,7 +5073,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -5093,7 +5243,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5065497921）",
     "status": "已索引出版/会议记录",
@@ -5485,7 +5636,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5065497921）",
     "status": "已索引出版/会议记录",
@@ -5702,7 +5854,7 @@
       "Liu, Yang"
     ],
     "doi": "10.48550/arxiv.2304.10755",
-    "dblp_key": "",
+    "dblp_key": "journals/corr/abs-2304-10755",
     "paper_url": "http://arxiv.org/abs/2304.10755",
     "pdf_url": "https://arxiv.org/pdf/2304.10755",
     "source_url": "https://openalex.org/W4366850989",
@@ -5722,10 +5874,12 @@
     "scholar_id": "ziyu_jia",
     "scholar_name": "贾子瑜",
     "scholar_ids": [
-      "ziyu_jia"
+      "ziyu_jia",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "贾子瑜"
+      "贾子瑜",
+      "关存太"
     ],
     "source_record_ids": [
       "ziyu_jia_35cf14e180358415"
@@ -5742,10 +5896,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "贾子瑜：脑电基准、数据与评测"
+      "贾子瑜：脑电基准、数据与评测",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -5993,11 +6156,13 @@
     "scholar_name": "贾子瑜",
     "scholar_ids": [
       "ziyu_jia",
-      "junlong_chen"
+      "junlong_chen",
+      "xun_chen_ustc"
     ],
     "scholar_names": [
       "贾子瑜",
-      "陈俊龙"
+      "陈俊龙",
+      "陈勋"
     ],
     "source_record_ids": [
       "ziyu_jia_78073ac1c921c599"
@@ -6028,11 +6193,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "xun_chen_ustc": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "陈勋",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "贾子瑜：脑电基准、数据与评测",
-      "陈俊龙：脑电基准、数据与评测"
+      "陈俊龙：脑电基准、数据与评测",
+      "陈勋：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -6064,7 +6240,9 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5065497921）",
     "status": "已索引出版/会议记录",
@@ -6203,7 +6381,9 @@
       "脑电微调",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；重点纳入；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -6300,7 +6480,9 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5065497921）",
     "status": "已索引出版/会议记录",
@@ -6932,7 +7114,8 @@
       "EEG表征对齐",
       "脑电微调",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；重点纳入；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -7790,7 +7973,8 @@
       "EEG表征对齐",
       "脑电微调",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；重点纳入",
     "status": "候选条目/需按作者主页继续核验",

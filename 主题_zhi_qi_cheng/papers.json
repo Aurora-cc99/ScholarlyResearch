@@ -86,7 +86,7 @@
     "source_url": "https://dblp.org/rec/journals/ijon/PengLHZFLWCYP26.html",
     "openalex_id": "https://openalex.org/W7127104450",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 11,
     "abstract_en": "",
     "abstract_zh": "",
     "abstract_source": "",
@@ -102,10 +102,12 @@
     "scholar_id": "zhi_qi_cheng",
     "scholar_name": "Zhi-Qi Cheng",
     "scholar_ids": [
-      "zhi_qi_cheng"
+      "zhi_qi_cheng",
+      "xiaojiang_peng"
     ],
     "scholar_names": [
-      "Zhi-Qi Cheng"
+      "Zhi-Qi Cheng",
+      "彭小江"
     ],
     "source_record_ids": [
       "zhi_qi_cheng_5f1bab4be8fdd3af"
@@ -124,10 +126,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "xiaojiang_peng": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "彭小江",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Zhi-Qi Cheng：情感数据集、基准与评测"
+      "Zhi-Qi Cheng：情感数据集、基准与评测",
+      "彭小江：情感与大模型评测基准、数据集及综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "emotion_benchmark",
@@ -790,16 +803,22 @@
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
       "多模态与大语言模型",
-      "强化学习与决策优化"
+      "强化学习与决策优化",
+      "情感智能"
     ],
     "verification": "主题筛选候选；核心纳入（情感智能评测与情感计算）",
     "status": "候选条目/需按作者主页继续核验",
-    "resource_ids": [],
-    "code_urls": [],
+    "resource_ids": [
+      "zhi_qi_cheng__auto_code_62ab8c0eee"
+    ],
+    "code_urls": [
+      "https://github.com/ZebangCheng/Emotion-LLaMA"
+    ],
     "data_urls": [
       "https://sail.usc.edu/iemocap/",
       "https://affective-meld.github.io/",
-      "https://dfew-dataset.github.io/"
+      "https://dfew-dataset.github.io/",
+      "https://github.com/ZebangCheng/Emotion-LLaMA"
     ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W7125748999",
@@ -833,14 +852,18 @@
     "scholar_id": "zheng_lian",
     "scholar_name": "连政",
     "work_title_group": "ef811fb23759",
-    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
       "zheng_lian",
-      "zhi_qi_cheng"
+      "zhi_qi_cheng",
+      "xiaojiang_peng",
+      "zebang_cheng"
     ],
     "scholar_names": [
       "连政",
-      "Zhi-Qi Cheng"
+      "Zhi-Qi Cheng",
+      "彭小江",
+      "程泽邦"
     ],
     "source_record_ids": [
       "zheng_lian_6028e208c2ac"
@@ -880,12 +903,44 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "xiaojiang_peng": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "彭小江",
+        "secondary_tags": [
+          "情感智能评测",
+          "多模态情感理解",
+          "情感计算与LLM",
+          "多模态情感识别",
+          "情感理解",
+          "情感大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zebang_cheng": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "程泽邦",
+        "secondary_tags": [
+          "情感智能评测",
+          "多模态情感理解",
+          "情感计算与LLM",
+          "多模态情感识别",
+          "情感理解",
+          "情感大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "4d7429495bdf8b73",
     "primary_categories_by_scholar": [
       "连政：脑电基准、数据与评测",
-      "Zhi-Qi Cheng：情感数据集、基准与评测"
+      "Zhi-Qi Cheng：情感数据集、基准与评测",
+      "彭小江：情感与大模型评测基准、数据集及综述",
+      "程泽邦：情感与大模型评测基准、数据集及综述"
     ],
     "dblp_key": "journals/corr/abs-2601-16449",
     "pdf_url": "https://arxiv.org/pdf/2601.16449",
@@ -1886,7 +1941,9 @@
       "多模态情感推理",
       "视觉语言模型评测",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；核心候选",
     "status": "候选条目/需按作者主页继续核验",
@@ -1920,12 +1977,16 @@
     "scholar_id": "zhi_qi_cheng",
     "scholar_name": "Zhi-Qi Cheng",
     "work_title_group": "2442c9d41af7",
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
-      "zhi_qi_cheng"
+      "zhi_qi_cheng",
+      "xiaojiang_peng",
+      "zebang_cheng"
     ],
     "scholar_names": [
-      "Zhi-Qi Cheng"
+      "Zhi-Qi Cheng",
+      "彭小江",
+      "程泽邦"
     ],
     "source_record_ids": [
       "zhi_qi_cheng_144ee7c340d1"
@@ -1942,11 +2003,43 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "xiaojiang_peng": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "彭小江",
+        "secondary_tags": [
+          "情感原因解释",
+          "多模态情感推理",
+          "视觉语言模型评测",
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zebang_cheng": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "程泽邦",
+        "secondary_tags": [
+          "情感原因解释",
+          "多模态情感推理",
+          "视觉语言模型评测",
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "b51770df941c6498",
     "primary_categories_by_scholar": [
-      "Zhi-Qi Cheng：情感数据集、基准与评测"
+      "Zhi-Qi Cheng：情感数据集、基准与评测",
+      "彭小江：情感与大模型评测基准、数据集及综述",
+      "程泽邦：情感与大模型评测基准、数据集及综述"
     ],
     "dblp_key": "journals/corr/abs-2504-07521",
     "pdf_url": "https://arxiv.org/pdf/2504.07521",
@@ -2200,10 +2293,12 @@
     "scholar_id": "zhi_qi_cheng",
     "scholar_name": "Zhi-Qi Cheng",
     "scholar_ids": [
-      "zhi_qi_cheng"
+      "zhi_qi_cheng",
+      "xiaojiang_peng"
     ],
     "scholar_names": [
-      "Zhi-Qi Cheng"
+      "Zhi-Qi Cheng",
+      "彭小江"
     ],
     "source_record_ids": [
       "zhi_qi_cheng_bdfa25f1dcbbe7f0"
@@ -2222,10 +2317,21 @@
         ],
         "confidence": "low",
         "note": ""
+      },
+      "xiaojiang_peng": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "彭小江",
+        "secondary_tags": [
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Zhi-Qi Cheng：情感理解与多模态推理"
+      "Zhi-Qi Cheng：情感理解与多模态推理",
+      "彭小江：情感与大模型评测基准、数据集及综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "emotion_understanding",
@@ -2268,10 +2374,12 @@
     "scholar_id": "zhi_qi_cheng",
     "scholar_name": "Zhi-Qi Cheng",
     "scholar_ids": [
-      "zhi_qi_cheng"
+      "zhi_qi_cheng",
+      "xiaojiang_peng"
     ],
     "scholar_names": [
-      "Zhi-Qi Cheng"
+      "Zhi-Qi Cheng",
+      "彭小江"
     ],
     "source_record_ids": [
       "zhi_qi_cheng_3a875b8187373dfa"
@@ -2291,10 +2399,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "xiaojiang_peng": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "彭小江",
+        "secondary_tags": [
+          "多模态与大语言模型",
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Zhi-Qi Cheng：情感数据集、基准与评测"
+      "Zhi-Qi Cheng：情感数据集、基准与评测",
+      "彭小江：通用预训练大模型、视听生成与基础方法"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "emotion_benchmark",
@@ -2479,10 +2599,12 @@
     "scholar_id": "zhi_qi_cheng",
     "scholar_name": "Zhi-Qi Cheng",
     "scholar_ids": [
-      "zhi_qi_cheng"
+      "zhi_qi_cheng",
+      "zebang_cheng"
     ],
     "scholar_names": [
-      "Zhi-Qi Cheng"
+      "Zhi-Qi Cheng",
+      "程泽邦"
     ],
     "source_record_ids": [
       "zhi_qi_cheng_2959f5655015ef82"
@@ -2499,10 +2621,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "zebang_cheng": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "程泽邦",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Zhi-Qi Cheng：情感数据集、基准与评测"
+      "Zhi-Qi Cheng：情感数据集、基准与评测",
+      "程泽邦：情感与大模型评测基准、数据集及综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "emotion_benchmark",
@@ -2668,7 +2799,8 @@
     "abstract_zh": "半监督学习已成为解决面部表情识别（FER）任务中标签稀缺挑战的一种有前途的方法。然而，当前最先进的方法主要关注硬币的一方面，即生成高质量的伪标签，而忽视了另一面：增强与表达相关的表示。在本文中，我们提出了一个名为分层解耦和融合（LEAF）的统一框架来协调半监督 FER 的表达相关表示和伪标签，从而揭示了硬币的两面。 LEAF 引入了一种分层表达式感知聚合策略，该策略在三个级别上运行：语义、实例……",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 188/1193）",
     "status": "已索引出版/会议记录",
@@ -2679,10 +2811,12 @@
     "scholar_id": "zhi_qi_cheng",
     "scholar_name": "Zhi-Qi Cheng",
     "scholar_ids": [
-      "zhi_qi_cheng"
+      "zhi_qi_cheng",
+      "xiaojiang_peng"
     ],
     "scholar_names": [
-      "Zhi-Qi Cheng"
+      "Zhi-Qi Cheng",
+      "彭小江"
     ],
     "source_record_ids": [
       "zhi_qi_cheng_ed4971e4c13c1d2a"
@@ -2705,12 +2839,24 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "xiaojiang_peng": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "彭小江",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Zhi-Qi Cheng：情感数据集、基准与评测"
+      "Zhi-Qi Cheng：情感数据集、基准与评测",
+      "彭小江：情感与大模型评测基准、数据集及综述"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "emotion_benchmark",
     "primary_category": "情感数据集、基准与评测"
   },
@@ -3366,10 +3512,12 @@
     "scholar_id": "zhi_qi_cheng",
     "scholar_name": "Zhi-Qi Cheng",
     "scholar_ids": [
-      "zhi_qi_cheng"
+      "zhi_qi_cheng",
+      "xiaojiang_peng"
     ],
     "scholar_names": [
-      "Zhi-Qi Cheng"
+      "Zhi-Qi Cheng",
+      "彭小江"
     ],
     "source_record_ids": [
       "zhi_qi_cheng_035348d87a74d565"
@@ -3393,12 +3541,24 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "xiaojiang_peng": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "彭小江",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Zhi-Qi Cheng：情感理解与多模态推理"
+      "Zhi-Qi Cheng：情感理解与多模态推理",
+      "彭小江：情感与大模型评测基准、数据集及综述"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "emotion_understanding",
     "primary_category": "情感理解与多模态推理"
   },
@@ -4023,11 +4183,15 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "zheng_lian",
-      "zhi_qi_cheng"
+      "zhi_qi_cheng",
+      "xiaojiang_peng",
+      "zebang_cheng"
     ],
     "scholar_names": [
       "连政",
-      "Zhi-Qi Cheng"
+      "Zhi-Qi Cheng",
+      "彭小江",
+      "程泽邦"
     ],
     "source_record_ids": [
       "zheng_lian_e0bdca6f0cdf"
@@ -4067,12 +4231,44 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "xiaojiang_peng": {
+        "category_id": "affective_llm_mllm",
+        "label": "情感大模型、多模态指令微调与共情生成",
+        "scholar_name": "彭小江",
+        "secondary_tags": [
+          "情感智能评测",
+          "多模态情感理解",
+          "情感计算与LLM",
+          "多模态情感识别",
+          "情感理解",
+          "情感大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zebang_cheng": {
+        "category_id": "affective_llm_mllm",
+        "label": "情感大模型、多模态指令微调与共情生成",
+        "scholar_name": "程泽邦",
+        "secondary_tags": [
+          "情感智能评测",
+          "多模态情感理解",
+          "情感计算与LLM",
+          "多模态情感识别",
+          "情感理解",
+          "情感大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "120cc4c7524d8b60",
     "primary_categories_by_scholar": [
       "连政：脑电基准、数据与评测",
-      "Zhi-Qi Cheng：情感数据集、基准与评测"
+      "Zhi-Qi Cheng：情感数据集、基准与评测",
+      "彭小江：情感大模型、多模态指令微调与共情生成",
+      "程泽邦：情感大模型、多模态指令微调与共情生成"
     ],
     "dblp_key": "journals/corr/abs-2406-11161",
     "pdf_url": "https://arxiv.org/pdf/2406.11161",
@@ -4192,10 +4388,12 @@
     "scholar_id": "zhi_qi_cheng",
     "scholar_name": "Zhi-Qi Cheng",
     "scholar_ids": [
-      "zhi_qi_cheng"
+      "zhi_qi_cheng",
+      "xiaojiang_peng"
     ],
     "scholar_names": [
-      "Zhi-Qi Cheng"
+      "Zhi-Qi Cheng",
+      "彭小江"
     ],
     "source_record_ids": [
       "zhi_qi_cheng_2236404dfb73c778"
@@ -4218,12 +4416,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "xiaojiang_peng": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "彭小江",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Zhi-Qi Cheng：情感数据集、基准与评测"
+      "Zhi-Qi Cheng：情感数据集、基准与评测",
+      "彭小江：通用预训练大模型、视听生成与基础方法"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "emotion_benchmark",
     "primary_category": "情感数据集、基准与评测"
   },
@@ -4330,10 +4539,12 @@
     "scholar_id": "zhi_qi_cheng",
     "scholar_name": "Zhi-Qi Cheng",
     "scholar_ids": [
-      "zhi_qi_cheng"
+      "zhi_qi_cheng",
+      "xiaojiang_peng"
     ],
     "scholar_names": [
-      "Zhi-Qi Cheng"
+      "Zhi-Qi Cheng",
+      "彭小江"
     ],
     "source_record_ids": [
       "zhi_qi_cheng_2346f381c0a7ffde"
@@ -4357,12 +4568,24 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "xiaojiang_peng": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "彭小江",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Zhi-Qi Cheng：情感理解与多模态推理"
+      "Zhi-Qi Cheng：情感理解与多模态推理",
+      "彭小江：情感与大模型评测基准、数据集及综述"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "emotion_understanding",
     "primary_category": "情感理解与多模态推理"
   },
@@ -4665,7 +4888,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 188/1193）",
     "status": "已索引出版/会议记录",
@@ -4676,10 +4900,14 @@
     "scholar_id": "zhi_qi_cheng",
     "scholar_name": "Zhi-Qi Cheng",
     "scholar_ids": [
-      "zhi_qi_cheng"
+      "zhi_qi_cheng",
+      "xiaojiang_peng",
+      "zebang_cheng"
     ],
     "scholar_names": [
-      "Zhi-Qi Cheng"
+      "Zhi-Qi Cheng",
+      "彭小江",
+      "程泽邦"
     ],
     "source_record_ids": [
       "zhi_qi_cheng_c354c07b8d39a45c"
@@ -4701,10 +4929,36 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "xiaojiang_peng": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "彭小江",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zebang_cheng": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "程泽邦",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Zhi-Qi Cheng：情感数据集、基准与评测"
+      "Zhi-Qi Cheng：情感数据集、基准与评测",
+      "彭小江：情感与大模型评测基准、数据集及综述",
+      "程泽邦：情感与大模型评测基准、数据集及综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "emotion_benchmark",
@@ -4808,7 +5062,9 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感大模型",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 188/1193）",
     "status": "预印本记录",
@@ -4819,10 +5075,14 @@
     "scholar_id": "zhi_qi_cheng",
     "scholar_name": "Zhi-Qi Cheng",
     "scholar_ids": [
-      "zhi_qi_cheng"
+      "zhi_qi_cheng",
+      "xiaojiang_peng",
+      "zebang_cheng"
     ],
     "scholar_names": [
-      "Zhi-Qi Cheng"
+      "Zhi-Qi Cheng",
+      "彭小江",
+      "程泽邦"
     ],
     "source_record_ids": [
       "zhi_qi_cheng_6984b6e65f034888"
@@ -4846,12 +5106,40 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "xiaojiang_peng": {
+        "category_id": "affective_llm_mllm",
+        "label": "情感大模型、多模态指令微调与共情生成",
+        "scholar_name": "彭小江",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "情感大模型",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zebang_cheng": {
+        "category_id": "affective_llm_mllm",
+        "label": "情感大模型、多模态指令微调与共情生成",
+        "scholar_name": "程泽邦",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "情感大模型",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Zhi-Qi Cheng：情感理解与多模态推理"
+      "Zhi-Qi Cheng：情感理解与多模态推理",
+      "彭小江：情感大模型、多模态指令微调与共情生成",
+      "程泽邦：情感大模型、多模态指令微调与共情生成"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "emotion_understanding",
     "primary_category": "情感理解与多模态推理"
   },

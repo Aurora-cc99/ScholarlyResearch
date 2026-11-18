@@ -5,7 +5,7 @@
 - **身份/单位**：University of Washington Tacoma助理教授；Multimodal Intelligence Lab主任
 - **英文姓名**：Zhi-Qi Cheng · **ORCID**：[0000-0002-1720-2085](https://orcid.org/0000-0002-1720-2085) · **DBLP**：[188/1193](https://dblp.org/pid/188/1193.html)
 - **外部身份依据**：[身份源1](https://directory.tacoma.uw.edu/node/1433) · [身份源2](https://faculty.washington.edu/zhiqics/) · [身份源3](https://orcid.org/0000-0002-1720-2085) · [身份源4](https://dblp.org/pid/188/1193.html) · [身份源5](https://openalex.org/A5058898461) · [身份源6](https://openalex.org/A5053952600)
-- **本轮核验书目记录**：**106** 条（其中含中英文摘要 **100** 条）；**开源资源入口**：**26** 条；**已关联资源的论文**：**28** 篇。
+- **本轮核验书目记录**：**106** 条（其中含中英文摘要 **100** 条）；**开源资源入口**：**26** 条；**已关联资源的论文**：**29** 篇。
 
 [论文分类目录](论文分类目录.md) · [按年份查看全部论文](全部论文.md) · [论文CSV](papers.csv) · [BibTeX](papers.bib) · [代码与项目](代码与项目.md) · [数据集与模型](数据集与模型.md) · [资源CSV](resources.csv) · [核验与缺口](核验与缺口.md) · [返回总导航](../README_总导航.md)
 

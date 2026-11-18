@@ -28,14 +28,19 @@
       "作者/机构主页"
     ],
     "matched_paper_ids": [
-      "zhi_qi_cheng_144ee7c340d1"
+      "zhi_qi_cheng_144ee7c340d1",
+      "b51770df941c6498"
     ],
     "unmatched_titles": [],
     "scholar_category_ids": [
-      "zhi_qi_cheng::emotion_benchmark"
+      "zhi_qi_cheng::emotion_benchmark",
+      "xiaojiang_peng::llm_benchmark_data",
+      "zebang_cheng::llm_benchmark_data"
     ],
     "primary_categories": [
-      "Zhi-Qi Cheng：情感数据集、基准与评测"
+      "Zhi-Qi Cheng：情感数据集、基准与评测",
+      "彭小江：情感与大模型评测基准、数据集及综述",
+      "程泽邦：情感与大模型评测基准、数据集及综述"
     ]
   },
   {
@@ -357,14 +362,17 @@
     "scholar_id": "zhi_qi_cheng",
     "scholar_name": "Zhi-Qi Cheng",
     "matched_paper_ids": [
-      "zhi_qi_cheng_ed4971e4c13c1d2a"
+      "zhi_qi_cheng_ed4971e4c13c1d2a",
+      "a565020c3f416c24"
     ],
     "unmatched_titles": [],
     "scholar_category_ids": [
-      "zhi_qi_cheng::emotion_benchmark"
+      "zhi_qi_cheng::emotion_benchmark",
+      "xiaojiang_peng::llm_benchmark_data"
     ],
     "primary_categories": [
-      "Zhi-Qi Cheng：情感数据集、基准与评测"
+      "Zhi-Qi Cheng：情感数据集、基准与评测",
+      "彭小江：情感与大模型评测基准、数据集及综述"
     ]
   },
   {
@@ -459,14 +467,18 @@
     "scholar_name": "Zhi-Qi Cheng",
     "matched_paper_ids": [
       "zhi_qi_cheng_035348d87a74d565",
-      "zhi_qi_cheng_2346f381c0a7ffde"
+      "zhi_qi_cheng_2346f381c0a7ffde",
+      "5b2cb85c409f2765",
+      "8809c63c61c98312"
     ],
     "unmatched_titles": [],
     "scholar_category_ids": [
-      "zhi_qi_cheng::emotion_understanding"
+      "zhi_qi_cheng::emotion_understanding",
+      "xiaojiang_peng::llm_benchmark_data"
     ],
     "primary_categories": [
-      "Zhi-Qi Cheng：情感理解与多模态推理"
+      "Zhi-Qi Cheng：情感理解与多模态推理",
+      "彭小江：情感与大模型评测基准、数据集及综述"
     ]
   },
   {
@@ -525,14 +537,17 @@
     "scholar_id": "zhi_qi_cheng",
     "scholar_name": "Zhi-Qi Cheng",
     "matched_paper_ids": [
-      "zhi_qi_cheng_2236404dfb73c778"
+      "zhi_qi_cheng_2236404dfb73c778",
+      "4c216a89f1879118"
     ],
     "unmatched_titles": [],
     "scholar_category_ids": [
-      "zhi_qi_cheng::emotion_benchmark"
+      "zhi_qi_cheng::emotion_benchmark",
+      "xiaojiang_peng::general_foundation"
     ],
     "primary_categories": [
-      "Zhi-Qi Cheng：情感数据集、基准与评测"
+      "Zhi-Qi Cheng：情感数据集、基准与评测",
+      "彭小江：通用预训练大模型、视听生成与基础方法"
     ]
   },
   {
@@ -624,15 +639,30 @@
     "scholar_id": "zhi_qi_cheng",
     "scholar_name": "Zhi-Qi Cheng",
     "matched_paper_ids": [
-      "zhi_qi_cheng_6984b6e65f034888"
+      "zhi_qi_cheng_6984b6e65f034888",
+      "2b8184f5bbf89274",
+      "4d7429495bdf8b73"
     ],
     "unmatched_titles": [],
     "scholar_category_ids": [
-      "zhi_qi_cheng::emotion_understanding"
+      "zhi_qi_cheng::emotion_understanding",
+      "xiaojiang_peng::affective_llm_mllm",
+      "zebang_cheng::affective_llm_mllm",
+      "zheng_lian::eeg_benchmark",
+      "zhi_qi_cheng::emotion_benchmark",
+      "xiaojiang_peng::llm_benchmark_data",
+      "zebang_cheng::llm_benchmark_data"
     ],
     "primary_categories": [
-      "Zhi-Qi Cheng：情感理解与多模态推理"
-    ]
+      "Zhi-Qi Cheng：情感理解与多模态推理",
+      "彭小江：情感大模型、多模态指令微调与共情生成",
+      "程泽邦：情感大模型、多模态指令微调与共情生成",
+      "连政：脑电基准、数据与评测",
+      "Zhi-Qi Cheng：情感数据集、基准与评测",
+      "彭小江：情感与大模型评测基准、数据集及综述",
+      "程泽邦：情感与大模型评测基准、数据集及综述"
+    ],
+    "is_dataset_benchmark": true
   },
   {
     "id": "zhi_qi_cheng__auto_code_244d7dc3b9",

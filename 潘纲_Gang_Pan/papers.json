@@ -271,7 +271,8 @@
       "情感/心理/临床",
       "普适计算/可穿戴",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感智能"
     ],
     "resource_ids": [
       "pan_gang__pan_data_tuningmind_private"
@@ -585,7 +586,8 @@
       "EEG/脑电",
       "情感/心理/临床",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -1866,7 +1868,8 @@
       "情感/心理/临床",
       "情感计算与情绪理解",
       "脉冲神经网络与类脑计算",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -2097,10 +2100,12 @@
     "data_urls": [],
     "model_urls": [],
     "scholar_ids": [
-      "pan_gang"
+      "pan_gang",
+      "badong_chen"
     ],
     "scholar_names": [
-      "潘纲"
+      "潘纲",
+      "陈霸东"
     ],
     "source_record_ids": [
       "pan_gang_91e7b2fb76ce"
@@ -2116,11 +2121,23 @@
         ],
         "confidence": "high",
         "note": "按明确研究对象或任务归类；算法/模态交叉信息保留为辅助标签。"
+      },
+      "badong_chen": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "陈霸东",
+        "secondary_tags": [
+          "脑启发/脉冲神经网络",
+          "脉冲神经网络与类脑计算"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "939442496449f367",
     "primary_categories_by_scholar": [
-      "潘纲：类脑算法、脉冲网络与神经形态系统"
+      "潘纲：类脑算法、脉冲网络与神经形态系统",
+      "陈霸东：脑电基础大模型与自监督预训练"
     ]
   },
   {
@@ -2373,10 +2390,12 @@
     "data_urls": [],
     "model_urls": [],
     "scholar_ids": [
-      "pan_gang"
+      "pan_gang",
+      "xiaoqing_zheng"
     ],
     "scholar_names": [
-      "潘纲"
+      "潘纲",
+      "郑骁庆"
     ],
     "source_record_ids": [
       "pan_gang_3db2d1d67c4e"
@@ -2392,11 +2411,24 @@
         ],
         "confidence": "high",
         "note": "按明确研究对象或任务归类；算法/模态交叉信息保留为辅助标签。"
+      },
+      "xiaoqing_zheng": {
+        "category_id": "affect_int_llm",
+        "label": "情感大模型、知识推理与评测基准",
+        "scholar_name": "郑骁庆",
+        "secondary_tags": [
+          "脑启发/脉冲神经网络",
+          "脉冲神经网络与类脑计算",
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "cecc0653f9fc5ccb",
     "primary_categories_by_scholar": [
-      "潘纲：类脑算法、脉冲网络与神经形态系统"
+      "潘纲：类脑算法、脉冲网络与神经形态系统",
+      "郑骁庆：情感大模型、知识推理与评测基准"
     ],
     "abstract_en": "Edge computing systems need to support diverse sensing workloads under tight energy and memory constraints, thereby motivating deployment-aware model selection. Spiking neural networks (SNNs) are a promising alternative to conventional artificial neural networks (ANNs), yet systematic evidence for when and why they provide practical advantages remains limited. Here, we present a benchmark of SNNs across five sensing modalities and multiple edge devices, systematically evaluating spike encoding, neuron models, and network topologies under consistent training and deployment protocols. We find that SNN advantages are strongly modality-dependent: while SNNs achieve performance broadly comparable to ANNs across most workloads, wireless sensing emerges as a particularly favorable domain. Frequency-domain and feature-space analyses further explain this result by showing that spiking dynamics naturally align with the spectral-temporal structure of wireless signals. Our deployment analysis further shows that SNN advantages are not one-dimensional, with energy gains often accompanied by modality-dependent system costs. Finally, we provide an open-source framework for reproducible benchmarking and deployment profiling, offering a practical foundation for algorithm-software-hardware co-design on emerging edge and neuromorphic computing platforms.",
     "abstract_source": "arxiv_api",
@@ -4020,7 +4052,9 @@
       "情感/心理/临床",
       "脑电情感识别",
       "脑电基础大模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -5993,10 +6027,12 @@
     "data_urls": [],
     "model_urls": [],
     "scholar_ids": [
-      "pan_gang"
+      "pan_gang",
+      "badong_chen"
     ],
     "scholar_names": [
-      "潘纲"
+      "潘纲",
+      "陈霸东"
     ],
     "source_record_ids": [
       "pan_gang_38a6dab7377e"
@@ -6011,15 +6047,29 @@
         ],
         "confidence": "high",
         "note": "按明确研究对象或任务归类；算法/模态交叉信息保留为辅助标签。"
+      },
+      "badong_chen": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "陈霸东",
+        "secondary_tags": [
+          "脑启发/脉冲神经网络",
+          "脉冲神经网络与类脑计算",
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "539730e3b0d4066a",
     "primary_categories_by_scholar": [
-      "潘纲：类脑算法、脉冲网络与神经形态系统"
+      "潘纲：类脑算法、脉冲网络与神经形态系统",
+      "陈霸东：脑电基础大模型与自监督预训练"
     ],
     "abstract_en": "The human brain utilizes spikes for information transmission and dynamically reorganizes its network structure to boost energy efficiency and cognitive capabilities throughout its lifespan. Drawing inspiration from this spike-based computation, Spiking Neural Networks (SNNs) have been developed to construct event-driven models that emulate this efficiency. Despite these advances, deep SNNs continue to suffer from over-parameterization during training and inference, a stark contrast to the brain's ability to self-organize. Furthermore, existing sparse SNNs are challenged by maintaining optimal pruning levels due to a static pruning ratio, resulting in either under- or over-pruning. In this paper, we propose a novel two-stage dynamic structure learning approach for deep SNNs, aimed at maintaining effective sparse training from scratch while optimizing compression efficiency. The first stage evaluates the compressibility of existing sparse subnetworks within SNNs using the PQ index, which facilitates an adaptive determination of the rewiring ratio for synaptic connections based on data compression insights. In the second stage, this rewiring ratio critically informs the dynamic synaptic connection rewiring process, including both pruning and regrowth. This approach significantly improves the exploration of sparse structure training in deep SNNs, adapting sparsity dynamically from the point view of compression efficiency. Our experiments demonstrate that this sparse training approach not only aligns with the performance of current deep SNNs models but also significantly improves the efficiency of compressing sparse SNNs. Crucially, it preserves the advantages of initiating training with sparse models and offers a promising solution for implementing edge AI on neuromorphic hardware.",
     "abstract_source": "arxiv_api",
-    "abstract_zh": "人脑利用尖峰进行信息传输并动态重组其网络结构，以提高其整个生命周期的能量效率和认知能力。从这种基于尖峰的计算中汲取灵感，脉冲神经网络 (SNN) 已被开发用于构建模拟这种效率的事件驱动模型。尽管取得了这些进步，深度 SNN 在训练和推理过程中仍然面临过度参数化的问题，这与大脑的自组织能力形成鲜明对比。此外，由于静态剪枝比率，现有的稀疏 SNN 面临着维持最佳剪枝水平的挑战，导致剪枝不足或过度。在这..."
+    "abstract_zh": "人脑利用尖峰进行信息传输并动态重组其网络结构，以提高其整个生命周期的能量效率和认知能力。从这种基于尖峰的计算中汲取灵感，脉冲神经网络 (SNN) 已被开发用于构建模拟这种效率的事件驱动模型。尽管取得了这些进步，深度 SNN 在训练和推理过程中仍然面临过度参数化的问题，这与大脑的自组织能力形成鲜明对比。此外，由于静态剪枝比率，现有的稀疏 SNN 面临着维持最佳剪枝水平的挑战，导致剪枝不足或过度。在这...",
+    "cited_by_count": 16
   },
   {
     "title": "Flow Matching for Few-Trial Neural Adaptation with Stable Latent Dynamics",
@@ -6407,10 +6457,12 @@
     "data_urls": [],
     "model_urls": [],
     "scholar_ids": [
-      "pan_gang"
+      "pan_gang",
+      "xiaoqing_zheng"
     ],
     "scholar_names": [
-      "潘纲"
+      "潘纲",
+      "郑骁庆"
     ],
     "source_record_ids": [
       "pan_gang_211aed0acc8e"
@@ -6425,15 +6477,29 @@
         ],
         "confidence": "high",
         "note": "按明确研究对象或任务归类；算法/模态交叉信息保留为辅助标签。"
+      },
+      "xiaoqing_zheng": {
+        "category_id": "affect_int_llm",
+        "label": "情感大模型、知识推理与评测基准",
+        "scholar_name": "郑骁庆",
+        "secondary_tags": [
+          "脑启发/脉冲神经网络",
+          "脉冲神经网络与类脑计算",
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "ba621e8c0e5c9447",
     "primary_categories_by_scholar": [
-      "潘纲：类脑算法、脉冲网络与神经形态系统"
+      "潘纲：类脑算法、脉冲网络与神经形态系统",
+      "郑骁庆：情感大模型、知识推理与评测基准"
     ],
     "abstract_en": "The convergence of artificial intelligence and edge computing has spurred growing interest in enabling intelligent services directly on resource-constrained devices. While traditional deep learning models require significant computational resources and centralized data management, the resulting latency, bandwidth consumption, and privacy concerns have exposed critical limitations in cloud-centric paradigms. Brain-inspired computing, particularly Spiking Neural Networks (SNNs), offers a promising alternative by emulating biological neuronal dynamics to achieve low-power, event-driven computation. This survey provides a comprehensive overview of Edge Intelligence based on SNNs (EdgeSNNs), examining their potential to address the challenges of on-device learning, inference, and security in edge scenarios. We present a systematic taxonomy of EdgeSNN foundations, encompassing neuron models, learning algorithms, and supporting hardware platforms. Three representative practical considerations of EdgeSNN are discussed in depth: on-device inference using lightweight SNN models, resource-aware training and updating under non-stationary data conditions, and secure and privacy-preserving issues. Furthermore, we highlight the limitations of evaluating EdgeSNNs on conventional hardware and introduce a dual-track benchmarking strategy to support fair comparisons and hardware-aware optimization. Through this study, we aim to bridge the gap between brain-inspired learning and practical edge deployment, offering insights into current advancements, open challenges, and future research directions. To the best of our knowledge, this is the first dedicated and comprehensive survey on EdgeSNNs, providing an essential reference for researchers and practitioners working at the intersection of neuromorphic computing and edge intelligence.",
     "abstract_source": "arxiv_api",
-    "abstract_zh": "人工智能和边缘计算的融合激发了人们对直接在资源有限的设备上启用智能服务的兴趣日益浓厚。虽然传统的深度学习模型需要大量的计算资源和集中式数据管理，但由此产生的延迟、带宽消耗和隐私问题暴露了以云为中心的范例的严重局限性。类脑计算，特别是脉冲神经网络 (SNN)，通过模拟生物神经元动力学来实现低功耗、事件驱动的计算，提供了一种有前景的替代方案。该调查全面概述了基于 SNN (EdgeSNN) 的边缘智能、考试..."
+    "abstract_zh": "人工智能和边缘计算的融合激发了人们对直接在资源有限的设备上启用智能服务的兴趣日益浓厚。虽然传统的深度学习模型需要大量的计算资源和集中式数据管理，但由此产生的延迟、带宽消耗和隐私问题暴露了以云为中心的范例的严重局限性。类脑计算，特别是脉冲神经网络 (SNN)，通过模拟生物神经元动力学来实现低功耗、事件驱动的计算，提供了一种有前景的替代方案。该调查全面概述了基于 SNN (EdgeSNN) 的边缘智能、考试...",
+    "cited_by_count": 21
   },
   {
     "title": "Spiking Neural Networks with Temporal Attention-Guided Adaptive Fusion for imbalanced Multi-modal Learning",
@@ -6505,10 +6571,12 @@
     ],
     "model_urls": [],
     "scholar_ids": [
-      "pan_gang"
+      "pan_gang",
+      "badong_chen"
     ],
     "scholar_names": [
-      "潘纲"
+      "潘纲",
+      "陈霸东"
     ],
     "source_record_ids": [
       "pan_gang_e7140d452692"
@@ -6523,16 +6591,30 @@
         ],
         "confidence": "high",
         "note": "按明确研究对象或任务归类；算法/模态交叉信息保留为辅助标签。"
+      },
+      "badong_chen": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "陈霸东",
+        "secondary_tags": [
+          "脑启发/脉冲神经网络",
+          "脉冲神经网络与类脑计算",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "1b3c8fe2db82e84f",
     "primary_categories_by_scholar": [
-      "潘纲：类脑算法、脉冲网络与神经形态系统"
+      "潘纲：类脑算法、脉冲网络与神经形态系统",
+      "陈霸东：脑电基础大模型与自监督预训练"
     ],
     "openalex_id": "https://openalex.org/W4415540311",
     "abstract_en": "Multimodal spiking neural networks (SNNs) hold significant potential for energy-efficient sensory processing but face critical challenges in modality imbalance and temporal misalignment. Current approaches suffer from uncoordinated convergence speeds across modalities and static fusion mechanisms that ignore time-varying cross-modal interactions. We propose the temporal attention-guided adaptive fusion framework for multimodal SNNs with two synergistic innovations: 1) The Temporal Attention-guided Adaptive Fusion (TAAF) module that dynamically assigns importance scores to fused spiking features at each timestep, enabling hierarchical integration of temporally heterogeneous spike-based features; 2) The temporal adaptive balanced fusion loss that modulates learning rates per modality based on the above attention scores, preventing dominant modalities from monopolizing optimization. The proposed framework implements adaptive fusion, especially in the temporal dimension, and alleviates the modality imbalance during multimodal learning, mimicking cortical multisensory integration principles. Evaluations on CREMA-D, AVE, and EAD datasets demonstrate state-of-the-art performance (77.55\\%, 70.65\\% and 97.5\\%accuracy, respectively) with energy efficiency. The system resolves temporal misalignment through learnable time-warping operations and faster modality convergence coordination than baseline SNNs. This work establishes a new paradigm for temporally coherent multimodal learning in neuromorphic systems, bridging the gap between biological sensory processing and efficient machine intelligence.",
     "abstract_source": "openalex_doi",
-    "abstract_zh": "多模态脉冲神经网络 (SNN) 在节能传感处理方面具有巨大潜力，但在模态不平衡和时间错位方面面临着严峻挑战。当前的方法存在跨模态收敛速度不协调和忽略时变跨模态交互的静态融合机制的问题。我们提出了具有两个协同创新的多模态 SNN 时间注意力引导自适应融合框架：1）时间注意力引导自适应融合（TAAF）模块，该模块在每个时间步动态地为融合尖峰特征分配重要性分数，从而实现基于时间异构尖峰特征的分层集成。"
+    "abstract_zh": "多模态脉冲神经网络 (SNN) 在节能传感处理方面具有巨大潜力，但在模态不平衡和时间错位方面面临着严峻挑战。当前的方法存在跨模态收敛速度不协调和忽略时变跨模态交互的静态融合机制的问题。我们提出了具有两个协同创新的多模态 SNN 时间注意力引导自适应融合框架：1）时间注意力引导自适应融合（TAAF）模块，该模块在每个时间步动态地为融合尖峰特征分配重要性分数，从而实现基于时间异构尖峰特征的分层集成。",
+    "cited_by_count": 19
   },
   {
     "title": "Spiking Neural Networks with Temporal Attention-Guided Adaptive Fusion for imbalanced Multi-modal Learning",
@@ -7100,7 +7182,8 @@
       "脑电情感识别",
       "脑机接口与神经解码",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感智能"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -8996,7 +9079,8 @@
       "脑启发/脉冲神经网络",
       "情感计算与情绪理解",
       "脉冲神经网络与类脑计算",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -11693,7 +11777,9 @@
       "情感/心理/临床",
       "脑电情感识别",
       "脑电基础大模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -12905,7 +12991,8 @@
       "脑机接口/神经解码",
       "语言/大模型",
       "智能芯片与计算系统",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "脑电基础大模型"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -15912,7 +15999,8 @@
       "语言/大模型",
       "情感计算与情绪理解",
       "多模态与大语言模型",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感智能"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -24616,10 +24704,12 @@
     "data_urls": [],
     "model_urls": [],
     "scholar_ids": [
-      "pan_gang"
+      "pan_gang",
+      "shaomin_zhang"
     ],
     "scholar_names": [
-      "潘纲"
+      "潘纲",
+      "张韶岷"
     ],
     "source_record_ids": [
       "pan_gang_a1dc806557b7"
@@ -24635,16 +24725,29 @@
         ],
         "confidence": "high",
         "note": "按明确研究对象或任务归类；算法/模态交叉信息保留为辅助标签。"
+      },
+      "shaomin_zhang": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "张韶岷",
+        "secondary_tags": [
+          "其他/待细分",
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "effe32d223c6164d",
     "primary_categories_by_scholar": [
-      "潘纲：脑信号、脑机接口与情感健康"
+      "潘纲：脑信号、脑机接口与情感健康",
+      "张韶岷：脑电情感识别与多模态生理计算"
     ],
     "openalex_id": "https://openalex.org/W4286571760",
     "abstract_en": "We demonstrate an all-integrated battery-less crystal-less neural-recording SoC featuring an overall size of 0.4mm3. A dither-based 3rd-order intermodulation (IM3) technique is proposed to prevent the backscattering signal from the blocker of wireless power transfer (WPT), achieving a communication range of 1.6cm with a 2mm×2mm on-chip antenna. Meanwhile, a 2nd-order intermodulation (IM2) wireless-lock technique realizes low-power crystal-less clock generation. In-vivo testing shows that the neural signals recorded by our chip matches the wired testing waveforms including spikes, and the proposed techniques reduce the power consumption to 53.2μW.",
     "abstract_source": "openalex_doi",
-    "abstract_zh": "我们展示了一款全集成无电池无晶体神经记录SoC，整体尺寸为0.4mm3。提出了一种基于抖动的三阶互调（IM3）技术来防止无线电力传输（WPT）阻塞器的反向散射信号，利用2mm×2mm片上天线实现1.6cm的通信范围。同时，二阶互调（IM2）无线锁定技术实现了低功耗无晶体时钟生成。体内测试表明，我们的芯片记录的神经信号与包括尖峰在内的有线测试波形相匹配，并且所提出的技术将功耗降低至 53.2μW。"
+    "abstract_zh": "我们展示了一款全集成无电池无晶体神经记录SoC，整体尺寸为0.4mm3。提出了一种基于抖动的三阶互调（IM3）技术来防止无线电力传输（WPT）阻塞器的反向散射信号，利用2mm×2mm片上天线实现1.6cm的通信范围。同时，二阶互调（IM2）无线锁定技术实现了低功耗无晶体时钟生成。体内测试表明，我们的芯片记录的神经信号与包括尖峰在内的有线测试波形相匹配，并且所提出的技术将功耗降低至 53.2μW。",
+    "cited_by_count": 9
   },
   {
     "title": "Constrained Update Projection Approach to Safe Policy Optimization",
@@ -24917,10 +25020,12 @@
     "data_urls": [],
     "model_urls": [],
     "scholar_ids": [
-      "pan_gang"
+      "pan_gang",
+      "shaomin_zhang"
     ],
     "scholar_names": [
-      "潘纲"
+      "潘纲",
+      "张韶岷"
     ],
     "source_record_ids": [
       "pan_gang_50a0d8615655"
@@ -24936,16 +25041,29 @@
         ],
         "confidence": "high",
         "note": "按明确研究对象或任务归类；算法/模态交叉信息保留为辅助标签。"
+      },
+      "shaomin_zhang": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "张韶岷",
+        "secondary_tags": [
+          "其他/待细分",
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "99d051370b9e1fd2",
     "primary_categories_by_scholar": [
-      "潘纲：脑信号、脑机接口与情感健康"
+      "潘纲：脑信号、脑机接口与情感健康",
+      "张韶岷：脑电情感识别与多模态生理计算"
     ],
     "openalex_id": "https://openalex.org/W4280536204",
     "abstract_en": "Implantable biomedical devices (IMDs) capable of recording electrophysiological signals effectively facilitate medical treatment, but they also face strict volume requirements [1]–[6]. An effective way to miniaturize the IMDs is to eliminate the bulky components such as battery and crystal. Wireless power transfer (WPT) helps to remove the battery [1]–[5], while a bulky crystal is still required to provide a precise clock to ensure the performance of signal-acquisition and communication blocks (Fig. 1 left, top). To eliminate the crystal, prior work [1] uses an on-chip oscillator as the clock generator (Fig. 1 left, middle), while suffering from off-chip tuning and SNR degradation of analog front-end (AFE), ADC, and wireless transmission. Recently, clock recovering from power-harvesting tone has become a promising solution to further reduce the volume of battery-less systems (Fig. 1 left, bottom) [2]–[5]. However, it's difficult to deal with a trade-off: A high power-harvesting frequency leads to power-hungry clock-recovery circuits [4], while a low frequency requires a large-size antenna [5].",
     "abstract_source": "openalex_doi",
-    "abstract_zh": "能够记录电生理信号的植入式生物医学设备（IMD）可以有效促进医疗治疗，但它们也面临着严格的体积要求[1]-[6]。小型化 IMD 的一个有效方法是消除电池和晶体等笨重元件。无线功率传输 (WPT) 有助于去除电池 [1]–[5]，同时仍需要笨重的晶体来提供精确的时钟，以确保信号采集和通信模块的性能（图 1 左上）。为了消除晶体，先前的工作[1]使用片上振荡器作为时钟发生器（图1左中），同时遭受片外调谐和模拟信号的SNR下降......"
+    "abstract_zh": "能够记录电生理信号的植入式生物医学设备（IMD）可以有效促进医疗治疗，但它们也面临着严格的体积要求[1]-[6]。小型化 IMD 的一个有效方法是消除电池和晶体等笨重元件。无线功率传输 (WPT) 有助于去除电池 [1]–[5]，同时仍需要笨重的晶体来提供精确的时钟，以确保信号采集和通信模块的性能（图 1 左上）。为了消除晶体，先前的工作[1]使用片上振荡器作为时钟发生器（图1左中），同时遭受片外调谐和模拟信号的SNR下降......",
+    "cited_by_count": 14
   },
   {
     "title": "Event-Based Multimodal Spiking Neural Network with Attention Mechanism",
@@ -25534,7 +25652,8 @@
     ],
     "topics": [
       "其他/待细分",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -26595,10 +26714,12 @@
     "data_urls": [],
     "model_urls": [],
     "scholar_ids": [
-      "pan_gang"
+      "pan_gang",
+      "wanzeng_kong"
     ],
     "scholar_names": [
-      "潘纲"
+      "潘纲",
+      "孔万增"
     ],
     "source_record_ids": [
       "pan_gang_8d251752b3dd"
@@ -26613,16 +26734,28 @@
         ],
         "confidence": "high",
         "note": "按明确研究对象或任务归类；算法/模态交叉信息保留为辅助标签。"
+      },
+      "wanzeng_kong": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "孔万增",
+        "secondary_tags": [
+          "其他/待细分"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "e387a5cbfc8bfc23",
     "primary_categories_by_scholar": [
-      "潘纲：脑信号、脑机接口与情感健康"
+      "潘纲：脑信号、脑机接口与情感健康",
+      "孔万增：脑电情感识别与多模态生理计算"
     ],
     "openalex_id": "https://openalex.org/W4205219957",
     "abstract_en": "For the detection of electroencephalogram-based driving mental states, it is important to utilize transfer learning to overcome individual and period differences. However, there are two challenges in existing unsupervised domain adaptation methods: 1) they ignore the geometric divergence of the source and target domains with single subspace mapping and 2) they usually employ a fixed weight distribution to align the marginal and conditional probability distributions. In this article, we propose a dynamic distribution alignment with dual-subspace mapping (DDADSM) method for cross-subject driver mental state detection. Initially, DDADSM explores two optimally aligned subspaces for the source and target domains, which can significantly reduce the geometric shifting. Subsequently, the dynamic probability distribution alignment method is introduced to acquire the adaptive weight between the marginal and conditional distributions, which adapts to domains with wide variations. Through our experiments based on the driving mental state detection task, DDADSM demonstrated superior performance compared with state-of-the-art models.",
     "abstract_source": "openalex_doi",
-    "abstract_zh": "对于基于脑电图的驾驶心理状态检测，利用迁移学习克服个体和时期差异非常重要。然而，现有的无监督域适应方法存在两个挑战：1）它们忽略了具有单个子空间映射的源域和目标域的几何分歧；2）它们通常采用固定的权重分布来对齐边际概率分布和条件概率分布。在本文中，我们提出了一种用于跨主体驾驶员心理状态检测的双子空间映射动态分布对齐（DDADSM）方法。最初，DDADSM 为源和...探索两个最佳对齐的子空间。"
+    "abstract_zh": "对于基于脑电图的驾驶心理状态检测，利用迁移学习克服个体和时期差异非常重要。然而，现有的无监督域适应方法存在两个挑战：1）它们忽略了具有单个子空间映射的源域和目标域的几何分歧；2）它们通常采用固定的权重分布来对齐边际概率分布和条件概率分布。在本文中，我们提出了一种用于跨主体驾驶员心理状态检测的双子空间映射动态分布对齐（DDADSM）方法。最初，DDADSM 为源和...探索两个最佳对齐的子空间。",
+    "cited_by_count": 18
   },
   {
     "title": "Dynamic Ensemble Bayesian Filter for Robust Control of a Human Brain-machine Interface",
@@ -29749,10 +29882,12 @@
     "data_urls": [],
     "model_urls": [],
     "scholar_ids": [
-      "pan_gang"
+      "pan_gang",
+      "nenggan_zheng"
     ],
     "scholar_names": [
-      "潘纲"
+      "潘纲",
+      "郑能干"
     ],
     "source_record_ids": [
       "pan_gang_90ce838f4de5"
@@ -29767,16 +29902,29 @@
         ],
         "confidence": "high",
         "note": "按明确研究对象或任务归类；算法/模态交叉信息保留为辅助标签。"
+      },
+      "nenggan_zheng": {
+        "category_id": "bci_neural_eng",
+        "label": "脑机接口范式与神经信号解码",
+        "scholar_name": "郑能干",
+        "secondary_tags": [
+          "脑启发/脉冲神经网络",
+          "脉冲神经网络与类脑计算"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "3261254d3306deea",
     "primary_categories_by_scholar": [
-      "潘纲：类脑算法、脉冲网络与神经形态系统"
+      "潘纲：类脑算法、脉冲网络与神经形态系统",
+      "郑能干：脑机接口范式与神经信号解码"
     ],
     "openalex_id": "https://openalex.org/W3024338890",
     "abstract_en": "A Spiking Neural Network (SNN) can be trained indirectly by first training an Artificial Neural Network (ANN) with the conventional backpropagation algorithm, then converting it into an equivalent SNN. To reduce the computational cost of the resulting SNN as measured by the number of spikes, we present Logarithmic Temporal Coding (LTC), where the number of spikes used to encode an activation grows logarithmically with the activation value; and the accompanying Exponentiate-and-Fire (EF) neuron model, which only involves efficient bit-shift and addition operations. Moreover, we improve the training process of ANN to compensate for approximation errors due to LTC. Experimental results indicate that the resulting SNN achieves competitive performance in terms of classification accuracy at significantly lower computational cost than related work.",
     "abstract_source": "openalex_doi",
-    "abstract_zh": "脉冲神经网络 (SNN) 可以通过首先使用传统反向传播算法训练人工神经网络 (ANN)，然后将其转换为等效的 SNN 来间接训练。为了降低通过尖峰数量衡量的 SNN 的计算成本，我们提出了对数时间编码 (LTC)，其中用于编码激活的尖峰数量随激活值呈对数增长；以及随附的幂与火（EF）神经元模型，该模型仅涉及高效的位移和加法运算。此外，我们改进了 ANN 的训练过程，以补偿 LTC 引起的近似误差。实验结果表明..."
+    "abstract_zh": "脉冲神经网络 (SNN) 可以通过首先使用传统反向传播算法训练人工神经网络 (ANN)，然后将其转换为等效的 SNN 来间接训练。为了降低通过尖峰数量衡量的 SNN 的计算成本，我们提出了对数时间编码 (LTC)，其中用于编码激活的尖峰数量随激活值呈对数增长；以及随附的幂与火（EF）神经元模型，该模型仅涉及高效的位移和加法运算。此外，我们改进了 ANN 的训练过程，以补偿 LTC 引起的近似误差。实验结果表明...",
+    "cited_by_count": 31
   },
   {
     "title": "Forecasting Price Trend of Bulk Commodities Leveraging Cross-domain Open Data Fusion",
@@ -32277,10 +32425,12 @@
     "data_urls": [],
     "model_urls": [],
     "scholar_ids": [
-      "pan_gang"
+      "pan_gang",
+      "shaomin_zhang"
     ],
     "scholar_names": [
-      "潘纲"
+      "潘纲",
+      "张韶岷"
     ],
     "source_record_ids": [
       "pan_gang_3241f021f6fc"
@@ -32297,16 +32447,29 @@
         ],
         "confidence": "high",
         "note": "按明确研究对象或任务归类；算法/模态交叉信息保留为辅助标签。"
+      },
+      "shaomin_zhang": {
+        "category_id": "bci_neural_eng",
+        "label": "脑机接口范式与神经信号解码",
+        "scholar_name": "张韶岷",
+        "secondary_tags": [
+          "脑启发/脉冲神经网络",
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "9871312b463d84f1",
     "primary_categories_by_scholar": [
-      "潘纲：脑信号、脑机接口与情感健康"
+      "潘纲：脑信号、脑机接口与情感健康",
+      "张韶岷：脑机接口范式与神经信号解码"
     ],
     "openalex_id": "https://openalex.org/W2945780860",
     "abstract_en": "Motor brain-machine interfaces (BMIs) usually collect neuronal activity from the dorsal premotor cortex (PMd) and primary motor cortex (M1). As the pattern of interconnections between PMd and M1 is complex, current BMI decoders directly decode PMd and M1 neural signals without considering the interconnections between these cortical areas. In this paper, a new architecture of recurrent neural network (Double Recurrent Neural Network, DRNN) was proposed, which took the interconnection information between PMd and M1 into account. To evaluate the performance of DRNN, we recorded the spike data and the position of a robotic arm when a rhesus monkey performed one-dimensional robotic arm reach task. When DRNN decoder offline decoded the velocity of the robotic arm, it showed high decoding accuracy of 0.92 ± 0.04 (correlation coefficient) and strong robustness to noise and recording conditions change. The DRNN outperformed basic RNN and state-of-the-art velocity Kalman filter (VKF) in both decoding accuracy and robustness. It suggested that our proposed DRNN could be a promising BMI decoding algorithm.",
     "abstract_source": "openalex_doi",
-    "abstract_zh": "运动脑机接口 (BMI) 通常收集背侧前运动皮层 (PMd) 和初级运动皮层 (M1) 的神经元活动。由于 PMd 和 M1 之间的互连模式很复杂，当前的 BMI 解码器直接解码 PMd 和 M1 神经信号，而不考虑这些皮质区域之间的互连。本文提出了一种新的循环神经网络（Double Recurrent Neural Network，DRNN）架构，该架构考虑了PMd和M1之间的互连信息。为了评估 DRNN 的性能，我们记录了恒河猴执行一维机械臂伸展任务时的尖峰数据和机械臂的位置......"
+    "abstract_zh": "运动脑机接口 (BMI) 通常收集背侧前运动皮层 (PMd) 和初级运动皮层 (M1) 的神经元活动。由于 PMd 和 M1 之间的互连模式很复杂，当前的 BMI 解码器直接解码 PMd 和 M1 神经信号，而不考虑这些皮质区域之间的互连。本文提出了一种新的循环神经网络（Double Recurrent Neural Network，DRNN）架构，该架构考虑了PMd和M1之间的互连信息。为了评估 DRNN 的性能，我们记录了恒河猴执行一维机械臂伸展任务时的尖峰数据和机械臂的位置......",
+    "cited_by_count": 4
   },
   {
     "title": "A K-Medoids based Point-Process Modeling on Neural Spike Transformation using Binless Kernel",
@@ -33869,10 +34032,12 @@
     "data_urls": [],
     "model_urls": [],
     "scholar_ids": [
-      "pan_gang"
+      "pan_gang",
+      "shaomin_zhang"
     ],
     "scholar_names": [
-      "潘纲"
+      "潘纲",
+      "张韶岷"
     ],
     "source_record_ids": [
       "pan_gang_4f89b502f057"
@@ -33887,16 +34052,30 @@
         ],
         "confidence": "high",
         "note": "按明确研究对象或任务归类；算法/模态交叉信息保留为辅助标签。"
+      },
+      "shaomin_zhang": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "张韶岷",
+        "secondary_tags": [
+          "情感/心理/临床",
+          "脑机接口与神经解码",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "28d39ec1376e7f6b",
     "primary_categories_by_scholar": [
-      "潘纲：脑信号、脑机接口与情感健康"
+      "潘纲：脑信号、脑机接口与情感健康",
+      "张韶岷：生理情感数据库、基准与综述"
     ],
     "openalex_id": "https://openalex.org/W2909974678",
     "abstract_en": "Brain computer interface (BCI) provides effective communication between the brain and a machine. BCI-aided systems have been used for epilepsy control by performing seizure prediction and feedback treatment in a closed-loop approach, in which seizure prediction plays an important role. However, automatic seizure prediction still faces difficulties. Most existing seizure prediction approaches use empirical features which are effective and interpretable, however, they are hard to compose. Recent deep neural network-based methods can learn effective features in a data-driven way, but they are usually not sufficiently trained given limited training data. In this paper, we aim to construct effective seizure prediction methods by combining the strengths of both empirical features and deep models. We construct different deep architectures to incorporate empirical features to different layers in the deep neural networks. Experiments are carried out on nine patients of the Freiburg dataset and achieve a best average F1 score of 0.8622 which outperforms empirical features-based methods and deep neural networks. The results also indicate that incorporating the empirical features in the front layers of the networks can obtain better seizure prediction performance.",
     "abstract_source": "openalex_doi",
-    "abstract_zh": "脑机接口（BCI）提供大脑和机器之间的有效通信。 BCI 辅助系统已用于通过闭环方法进行癫痫发作预测和反馈治疗来控制癫痫，其中癫痫发作预测发挥着重要作用。然而，自动癫痫预测仍然面临困难。大多数现有的癫痫发作预测方法都使用有效且可解释的经验特征，但它们很难组合。最近基于深度神经网络的方法可以以数据驱动的方式学习有效的特征，但由于训练数据有限，它们通常没有得到充分的训练。在本文中，我们的目标是构建效果..."
+    "abstract_zh": "脑机接口（BCI）提供大脑和机器之间的有效通信。 BCI 辅助系统已用于通过闭环方法进行癫痫发作预测和反馈治疗来控制癫痫，其中癫痫发作预测发挥着重要作用。然而，自动癫痫预测仍然面临困难。大多数现有的癫痫发作预测方法都使用有效且可解释的经验特征，但它们很难组合。最近基于深度神经网络的方法可以以数据驱动的方式学习有效的特征，但由于训练数据有限，它们通常没有得到充分的训练。在本文中，我们的目标是构建效果...",
+    "cited_by_count": 3
   },
   {
     "title": "Efficient Spiking Neural Networks with Logarithmic Temporal Coding",
@@ -34630,10 +34809,12 @@
     "data_urls": [],
     "model_urls": [],
     "scholar_ids": [
-      "pan_gang"
+      "pan_gang",
+      "shaomin_zhang"
     ],
     "scholar_names": [
-      "潘纲"
+      "潘纲",
+      "张韶岷"
     ],
     "source_record_ids": [
       "pan_gang_0dd3dad21cf3"
@@ -34648,16 +34829,28 @@
         ],
         "confidence": "high",
         "note": "按明确研究对象或任务归类；算法/模态交叉信息保留为辅助标签。"
+      },
+      "shaomin_zhang": {
+        "category_id": "bci_neural_eng",
+        "label": "脑机接口范式与神经信号解码",
+        "scholar_name": "张韶岷",
+        "secondary_tags": [
+          "脑启发/脉冲神经网络"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "53a0b88467c51569",
     "primary_categories_by_scholar": [
-      "潘纲：脑信号、脑机接口与情感健康"
+      "潘纲：脑信号、脑机接口与情感健康",
+      "张韶岷：脑机接口范式与神经信号解码"
     ],
     "openalex_id": "https://openalex.org/W2897103715",
     "abstract_en": "Neurons communicate nonlinearly through spike activities. Generalized linear models (GLMs) describe spike activities with a cascade of a linear combination across inputs, a static nonlinear function, and an inhomogeneous Bernoulli or Poisson process, or Cox process if a self-history term is considered. This structure considers the output nonlinearity in spike generation but excludes the nonlinear interaction among input neurons. Recent studies extend GLMs by modeling the interaction among input neurons with a quadratic function, which considers the interaction between every pair of input spikes. However, quadratic effects may not fully capture the nonlinear nature of input interaction. We therefore propose a staged point-process model to describe the nonlinear interaction among inputs using a few hidden units, which follows the idea of artificial neural networks. The output firing probability conditioned on inputs is formed as a cascade of two linear-nonlinear (a linear combination plus a static nonlinear function) stages and an inhomogeneous Bernoulli process. Parameters of this model are estimated by maximizing the log likelihood on output spike trains. Unlike the iterative reweighted least squares algorithm used in GLMs, where the performance is guaranteed by the concave condition, we propose a modified Levenberg-Marquardt (L-M) algorithm, which directly calculates the Hessian matrix of the log likelihood, for the nonlinear optimization in our model. The proposed model is tested on both synthetic data and real spike train data recorded from the dorsal premotor cortex and primary motor cortex of a monkey performing a center-out task. Performances are evaluated by discrete-time rescaled Kolmogorov-Smirnov tests, where our model statistically outperforms a GLM and its quadratic extension, with a higher goodness-of-fit in the prediction results. In addition, the staged point-process model describes nonlinear interaction among input neurons with fewer parameters than quadratic models, and the modified L-M algorithm also demonstrates fast convergence.",
     "abstract_source": "openalex_doi",
-    "abstract_zh": "神经元通过尖峰活动进行非线性通信。广义线性模型 (GLM) 通过输入的线性组合级联、静态非线性函数以及非齐次伯努利或泊松过程或考克斯过程（如果考虑自历史项）来描述尖峰活动。该结构考虑了尖峰生成中的输出非线性，但排除了输入神经元之间的非线性相互作用。最近的研究通过使用二次函数对输入神经元之间的相互作用进行建模来扩展 GLM，该函数考虑了每对输入尖峰之间的相互作用。然而，二次效应可能无法完全捕捉输入交互的非线性本质。我们这..."
+    "abstract_zh": "神经元通过尖峰活动进行非线性通信。广义线性模型 (GLM) 通过输入的线性组合级联、静态非线性函数以及非齐次伯努利或泊松过程或考克斯过程（如果考虑自历史项）来描述尖峰活动。该结构考虑了尖峰生成中的输出非线性，但排除了输入神经元之间的非线性相互作用。最近的研究通过使用二次函数对输入神经元之间的相互作用进行建模来扩展 GLM，该函数考虑了每对输入尖峰之间的相互作用。然而，二次效应可能无法完全捕捉输入交互的非线性本质。我们这...",
+    "cited_by_count": 19
   },
   {
     "title": "Predicting Spike Trains from PMd to M1 Using Discrete Time Rescaling Targeted GLM",
@@ -34734,10 +34927,12 @@
     "data_urls": [],
     "model_urls": [],
     "scholar_ids": [
-      "pan_gang"
+      "pan_gang",
+      "shaomin_zhang"
     ],
     "scholar_names": [
-      "潘纲"
+      "潘纲",
+      "张韶岷"
     ],
     "source_record_ids": [
       "pan_gang_9b5ea4d6e3b7"
@@ -34753,16 +34948,28 @@
         ],
         "confidence": "high",
         "note": "按明确研究对象或任务归类；算法/模态交叉信息保留为辅助标签。"
+      },
+      "shaomin_zhang": {
+        "category_id": "bci_neural_eng",
+        "label": "脑机接口范式与神经信号解码",
+        "scholar_name": "张韶岷",
+        "secondary_tags": [
+          "脑启发/脉冲神经网络"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "8f3ba251924ade75",
     "primary_categories_by_scholar": [
-      "潘纲：脑信号、脑机接口与情感健康"
+      "潘纲：脑信号、脑机接口与情感健康",
+      "张韶岷：脑机接口范式与神经信号解码"
     ],
     "openalex_id": "https://openalex.org/W2619560872",
     "abstract_en": "The computational model for spike train prediction with inputs from other related cerebral cortices is important in revealing the underlying connection among different cortical areas. To evaluate goodness-of-fit of the model, the time rescaling Kolmogorov-Smirnov (KS) statistic is usually applied, of which the calculation is separated from optimization procedure of the model. If the KS statistic could be embedded into objective function of the optimization procedure, precision of the firing probability series generated by the model would be increased directly. This paper presents a linear-nonlinear-Poisson cascade framework for prediction of spike trains, whose objective function is changed from maximizing log-likelihood of the spike trains to minimizing the penalization of discrete time rescaling KS statistic to eliminate the separation between optimization and evaluation of the model. We apply our model on the task of predicting firing probability of neurons from primary motor cortex with spike trains from dorsal premotor cortex as input, which are two cerebral cortices associated with movements planning and executing. The experimental results show that by introducing the goodness-of-fit metric into the objective function, results of the model will gain a significant improvement, which outperforms the state of the art.",
     "abstract_source": "openalex_doi",
-    "abstract_zh": "利用其他相关大脑皮层的输入进行尖峰序列预测的计算模型对于揭示不同皮层区域之间的潜在联系非常重要。为了评估模型的拟合优度，通常采用时间重标柯尔莫哥洛夫-斯米尔诺夫（KS）统计量，其计算与模型的优化过程分开。如果KS统计量可以嵌入到优化过程的目标函数中，则模型生成的射击概率序列的精度将直接提高。本文提出了一种用于尖峰序列预测的线性-非线性-泊松级联框架，其目标函数改变......"
+    "abstract_zh": "利用其他相关大脑皮层的输入进行尖峰序列预测的计算模型对于揭示不同皮层区域之间的潜在联系非常重要。为了评估模型的拟合优度，通常采用时间重标柯尔莫哥洛夫-斯米尔诺夫（KS）统计量，其计算与模型的优化过程分开。如果KS统计量可以嵌入到优化过程的目标函数中，则模型生成的射击概率序列的精度将直接提高。本文提出了一种用于尖峰序列预测的线性-非线性-泊松级联框架，其目标函数改变......",
+    "cited_by_count": 7
   },
   {
     "title": "Estimating Brain Connectivity With Varying-Length Time Lags Using a Recurrent Neural Network",
@@ -36961,10 +37168,12 @@
     "data_urls": [],
     "model_urls": [],
     "scholar_ids": [
-      "pan_gang"
+      "pan_gang",
+      "nenggan_zheng"
     ],
     "scholar_names": [
-      "潘纲"
+      "潘纲",
+      "郑能干"
     ],
     "source_record_ids": [
       "pan_gang_691d3c3ff858"
@@ -36977,16 +37186,29 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": "脑机融合/生物神经研究，不能据此笼统称为 EEG 或脑电大模型。"
+      },
+      "nenggan_zheng": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "郑能干",
+        "secondary_tags": [
+          "其他/待细分",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "afb0cfa72d70e946",
     "primary_categories_by_scholar": [
-      "潘纲：脑信号、脑机接口与情感健康"
+      "潘纲：脑信号、脑机接口与情感健康",
+      "郑能干：生理情感数据库、基准与综述"
     ],
     "openalex_id": "https://openalex.org/W2555748718",
     "abstract_en": "The combination of biological and artificial intelligence is a promising methodology to construct a novel intelligent modality, proposed as cyborg intelligence. The hierarchical conceptual framework is based on the interaction and combination of comparable components of biological cognitive units and computing intelligent units. The authors extend the previous conceptual framework and focus on sensorimotor circuits to explore the representation and integration of sensation. They then present a cognitive computing model for brain-computer integration and design efficient machine-learning algorithms for neural signal decoding. They also propose biological reconstruction methods for sensorimotor circuits to not only restore but enhance functionalities with AI. They develop a series of demonstrating systems to validate the conceptual framework of cyborg intelligence and possibly herald bright prospects and high values in diversified aspects of theoretical research, engineering techniques, and clinical applications. Finally, the authors summarize the latest research trends and challenges, which they believe will further boost new scientific frontiers in cyborg intelligence.",
     "abstract_source": "openalex_doi",
-    "abstract_zh": "生物智能和人工智能的结合是构建新型智能模式（被称为赛博格智能）的一种有前途的方法。分层概念框架基于生物认知单元和计算智能单元的可比组件的相互作用和组合。作者扩展了之前的概念框架，重点关注感觉运动回路来探索感觉的表征和整合。然后，他们提出了脑机集成的认知计算模型，并设计了用于神经信号解码的高效机器学习算法。他们还提出了感觉运动的生物重建方法......"
+    "abstract_zh": "生物智能和人工智能的结合是构建新型智能模式（被称为赛博格智能）的一种有前途的方法。分层概念框架基于生物认知单元和计算智能单元的可比组件的相互作用和组合。作者扩展了之前的概念框架，重点关注感觉运动回路来探索感觉的表征和整合。然后，他们提出了脑机集成的认知计算模型，并设计了用于神经信号解码的高效机器学习算法。他们还提出了感觉运动的生物重建方法......",
+    "cited_by_count": 53
   },
   {
     "title": "Suspecting Less and Doing Better: New Insights on Palmprint Identification for Faster and More Accurate Matching",
@@ -37601,10 +37823,12 @@
     "data_urls": [],
     "model_urls": [],
     "scholar_ids": [
-      "pan_gang"
+      "pan_gang",
+      "nenggan_zheng"
     ],
     "scholar_names": [
-      "潘纲"
+      "潘纲",
+      "郑能干"
     ],
     "source_record_ids": [
       "pan_gang_5b4b0363d893"
@@ -37619,16 +37843,28 @@
         ],
         "confidence": "medium",
         "note": "脑机融合/生物神经研究，不能据此笼统称为 EEG 或脑电大模型。"
+      },
+      "nenggan_zheng": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "郑能干",
+        "secondary_tags": [
+          "强化学习/偏好优化"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "9074b0828874e3cc",
     "primary_categories_by_scholar": [
-      "潘纲：脑信号、脑机接口与情感健康"
+      "潘纲：脑信号、脑机接口与情感健康",
+      "郑能干：生理情感数据库、基准与综述"
     ],
     "openalex_id": "https://openalex.org/W2468125224",
     "abstract_en": "A rat cyborg system refers to a biological rat implanted with microelectrodes in its brain, via which the outer electrical stimuli can be delivered into the brain in vivo to control its behaviors. Rat cyborgs have various applications in emergency, such as search and rescue in disasters. Prior to a rat cyborg becoming controllable, a lot of effort is required to train it to adapt to the electrical stimuli. In this paper, we build a vision-based automatic training system for rat cyborgs to replace the time-consuming manual training procedure. A hierarchical framework is proposed to facilitate the colearning between rats and machines. In the framework, the behavioral states of a rat cyborg are visually sensed by a camera, a parameterized state machine is employed to model the training action transitions triggered by rat's behavioral states, and an adaptive adjustment policy is developed to adaptively adjust the stimulation intensity. The experimental results of three rat cyborgs prove the effectiveness of our system. To the best of our knowledge, this study is the first to tackle automatic training of animal cyborgs.",
     "abstract_source": "openalex_doi",
-    "abstract_zh": "大鼠机器人系统是指在大脑中植入微电极的生物大鼠，通过微电极可以将外界的电刺激传递到体内的大脑中以控制其行为。老鼠机器人在紧急情况下有多种应用，例如灾难中的搜索和救援。在老鼠机器人变得可控之前，需要付出很大的努力来训练它适应电刺激。在本文中，我们为大鼠机器人构建了一个基于视觉的自动训练系统，以取代耗时的手动训练过程。提出了一个分层框架来促进老鼠和机器之间的共同学习。在该框架中，老鼠机器人的行为状态是......"
+    "abstract_zh": "大鼠机器人系统是指在大脑中植入微电极的生物大鼠，通过微电极可以将外界的电刺激传递到体内的大脑中以控制其行为。老鼠机器人在紧急情况下有多种应用，例如灾难中的搜索和救援。在老鼠机器人变得可控之前，需要付出很大的努力来训练它适应电刺激。在本文中，我们为大鼠机器人构建了一个基于视觉的自动训练系统，以取代耗时的手动训练过程。提出了一个分层框架来促进老鼠和机器之间的共同学习。在该框架中，老鼠机器人的行为状态是......",
+    "cited_by_count": 29
   },
   {
     "title": "Dynamic cluster-based over-demand prediction in bike sharing systems",
@@ -39451,7 +39687,8 @@
     ],
     "topics": [
       "其他/待细分",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -41011,10 +41248,12 @@
     "data_urls": [],
     "model_urls": [],
     "scholar_ids": [
-      "pan_gang"
+      "pan_gang",
+      "nenggan_zheng"
     ],
     "scholar_names": [
-      "潘纲"
+      "潘纲",
+      "郑能干"
     ],
     "source_record_ids": [
       "pan_gang_10515dd7569b"
@@ -41027,16 +41266,30 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": "脑机融合/生物神经研究，不能据此笼统称为 EEG 或脑电大模型。"
+      },
+      "nenggan_zheng": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "郑能干",
+        "secondary_tags": [
+          "其他/待细分",
+          "脑机接口与神经解码",
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "4e9eebaa260f19ae",
     "primary_categories_by_scholar": [
-      "潘纲：脑信号、脑机接口与情感健康"
+      "潘纲：脑信号、脑机接口与情感健康",
+      "郑能干：脑电情感识别与多模态生理计算"
     ],
     "openalex_id": "https://openalex.org/W2016659709",
     "abstract_en": "To explore the exciting new domain of brain informatics, we invited several well-known experts to discuss the state of the art, the challenges, the opportunities, and the trends. In \"Creating Human-Level AI by Educating a Child Machine,\" Raj Reddy proposes an architecture for a \"child machine\" that can learn and is teachable. In \"Cyborg Intelligence,\" Zhaohui Wu, Gang Pan, and Nenggan Zheng describe a biological-machine system consisting of both an organic and a computing part. In \"Formal Minds and Biological Brains II: From the Mirage of Intelligence to a Science and Engineering of Consciousness,\" Paul F.M.J. Verschure discusses human-like cognitive architectures and describes the Distributed Adaptive Control (DAC) architecture for perception, cognition, and action. In \"The Challenges of Closed-Loop Invasive Brain-Machine Interfaces,\" Qiaosheng Zhang and Xiaoxiang Zheng discuss the challenges and trends in closed-loop brain-machine interfaces. In \"Neural Signal Processing in Brain-Machine Interfaces,\" Jose C. Principe takes a critical look at the challenges and opportunities of performing computation with pulses, as neurons do. In \"Neuroprosthesis Control via a Noninvasive Hybrid Brain-Computer Interface,\" Alex Kreilinger, Martin Rohm, Vera Kaiser, Robert Leeb, Rüdiger Rupp, and Gernot R. Müller-Putz describe an example of the convergence of biological intelligence and machine intelligence in a hand-elbow neuroprosthesis control unit.",
     "abstract_source": "openalex_doi",
-    "abstract_zh": "为了探索脑信息学这个令人兴奋的新领域，我们邀请了几位知名专家来讨论最新技术、挑战、机遇和趋势。 Raj Reddy 在《通过教育儿童机器创建人类级人工智能》一文中提出了一种可以学习和可教的“儿童机器”架构。在《赛博格智能》一书中，吴朝晖、潘刚和郑能干描述了一个由有机部分和计算部分组成的生物机器系统。在“形式思维和生物大脑 II：从智能的幻象到意识的科学与工程”中，Paul F.M.J. Verschure 讨论了类人认知架构并描述了分布式..."
+    "abstract_zh": "为了探索脑信息学这个令人兴奋的新领域，我们邀请了几位知名专家来讨论最新技术、挑战、机遇和趋势。 Raj Reddy 在《通过教育儿童机器创建人类级人工智能》一文中提出了一种可以学习和可教的“儿童机器”架构。在《赛博格智能》一书中，吴朝晖、潘刚和郑能干描述了一个由有机部分和计算部分组成的生物机器系统。在“形式思维和生物大脑 II：从智能的幻象到意识的科学与工程”中，Paul F.M.J. Verschure 讨论了类人认知架构并描述了分布式...",
+    "cited_by_count": 45
   },
   {
     "title": "Combining velocity and Location-Specific Spatial Clues in Trajectories for Counting Crowded Moving Objects",
@@ -43850,7 +44103,8 @@
     ],
     "topics": [
       "其他/待细分",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -43971,10 +44225,12 @@
     "data_urls": [],
     "model_urls": [],
     "scholar_ids": [
-      "pan_gang"
+      "pan_gang",
+      "nenggan_zheng"
     ],
     "scholar_names": [
-      "潘纲"
+      "潘纲",
+      "郑能干"
     ],
     "source_record_ids": [
       "pan_gang_09c0df0776ce"
@@ -43987,16 +44243,28 @@
         "secondary_tags": [],
         "confidence": "high",
         "note": "按明确研究对象或任务归类；算法/模态交叉信息保留为辅助标签。"
+      },
+      "nenggan_zheng": {
+        "category_id": "general_ml_biomed",
+        "label": "通用模式识别、临床脑科学与跨领域应用",
+        "scholar_name": "郑能干",
+        "secondary_tags": [
+          "语言/大模型"
+        ],
+        "confidence": "low",
+        "note": ""
       }
     },
     "global_record_id": "9cec61a3d6a33b1a",
     "primary_categories_by_scholar": [
-      "潘纲：普适感知、行为计算与城市数据"
+      "潘纲：普适感知、行为计算与城市数据",
+      "郑能干：通用模式识别、临床脑科学与跨领域应用"
     ],
     "openalex_id": "https://openalex.org/W2155681193",
     "abstract_en": "Electronic textiles (e-textiles), known as computational fabrics, offer an emerging platform for constructing ambient intelligent applications. Computational nodes in e-textiles are driven by batteries. Unlike wireless sensor networks, not each computational node in e-textiles has its own battery. Instead, many computational nodes in e-textiles share a battery. Existing e-textiles use one fixed battery to drive a fixed set of computation nodes (or power consuming electronic components). The fixed battery-component connection may result in electronic components stopping functioning and/or energy waste in batteries when link connection problems occur. In this paper, we propose a new infrastructure of the power networks for e-textiles: flexible power network (FPN). Under the FPN infrastructure, a power consuming node (PCN) is not just connected to one single fixed battery. Instead, it is connected to multiple batteries and can obtain power energy from one of the available battery nodes (BNs) with the help of a battery selector. The electrical features of battery selectors and overcurrent protectors that protect the batteries from wasting the charge when short-circuit faults occur are illustrated. Moreover, by modeling the number of fault occurrence at conductive wires and nodes stochastically, an evaluation algorithm is proposed to analyze the reliability of FPN and to compare the metrics of different design schemes under the perspective of both the BNs and the PCNs. Experimental results show that our FPN is more dependable than some common e-textile electric networks published before with the occurrence of short- and/or open-circuit faults.",
     "abstract_source": "openalex_doi",
-    "abstract_zh": "电子纺织品（e-textiles），被称为计算织物，为构建环境智能应用程序提供了一个新兴平台。电子纺织品中的计算节点由电池驱动。与无线传感器网络不同，电子纺织品中的每个计算节点并非都有自己的电池。相反，电子纺织品中的许多计算节点共享电池。现有的电子纺织品使用一个固定电池来驱动一组固定的计算节点（或耗电电子元件）。当发生链路连接问题时，固定的电池组件连接可能导致电子组件停止工作和/或电池中的能量浪费。在本文中，我们提出了一种新的基础设施..."
+    "abstract_zh": "电子纺织品（e-textiles），被称为计算织物，为构建环境智能应用程序提供了一个新兴平台。电子纺织品中的计算节点由电池驱动。与无线传感器网络不同，电子纺织品中的每个计算节点并非都有自己的电池。相反，电子纺织品中的许多计算节点共享电池。现有的电子纺织品使用一个固定电池来驱动一组固定的计算节点（或耗电电子元件）。当发生链路连接问题时，固定的电池组件连接可能导致电子组件停止工作和/或电池中的能量浪费。在本文中，我们提出了一种新的基础设施...",
+    "cited_by_count": 23
   },
   {
     "title": "Modeling Files with Context Streams",
@@ -45073,7 +45341,8 @@
     ],
     "topics": [
       "视觉/图像/三维",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -45616,7 +45885,8 @@
     ],
     "topics": [
       "视觉/图像/三维",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -45796,7 +46066,8 @@
     ],
     "topics": [
       "视觉/图像/三维",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],

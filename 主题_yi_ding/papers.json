@@ -33,7 +33,8 @@
     "abstract_source": "",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 89/5503-12）",
     "status": "已索引出版/会议记录",
@@ -97,13 +98,14 @@
     "source_url": "https://dblp.org/rec/journals/corr/abs-2602-04260.html",
     "openalex_id": "",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 6,
     "abstract_en": "Human multimodal emotion recognition (MER) seeks to infer human emotions by integrating information from language, visual, and acoustic modalities. Although existing MER approaches have achieved promising results, they still struggle with inherent multimodal heterogeneities and varying contributions from different modalities. To address these challenges, we propose a novel framework, Decoupled Hierarchical Multimodal Distillation (DHMD). DHMD decouples each modality's features into modality-irrelevant (homogeneous) and modality-exclusive (heterogeneous) components using a self-regression mechanism. The framework employs a two-stage knowledge distillation (KD) strategy: (1) coarse-grained KD via a Graph Distillation Unit (GD-Unit) in each decoupled feature space, where a dynamic graph facilitates adaptive distillation among modalities, and (2) fine-grained KD through a cross-modal dictionary matching mechanism, which aligns semantic granularities across modalities to produce more discriminative MER representations. This hierarchical distillation approach enables flexible knowledge transfer and effectively improves cross-modal feature alignment. Experimental results demonstrate that DHMD consistently outperforms state-of-the-art MER methods, achieving 1.3\\%/2.4\\% (ACC$_7$), 1.3\\%/1.9\\% (ACC$_2$) and 1.9\\%/1.8\\% (F1) relative improvement on CMU-MOSI/CMU-MOSEI dataset, respectively. Meanwhile, visualization results reveal that both the graph edges and dictionary activations in DHMD exhibit meaningful distribution patterns across modality-irrelevant/-exclusive feature spaces.",
     "abstract_zh": "人类多模态情感识别（MER）试图通过整合来自语言、视觉和听觉模态的信息来推断人类情感。尽管现有的 MER 方法已经取得了有希望的结果，但它们仍然面临固有的多模式异质性和不同模式的不同贡献。为了应对这些挑战，我们提出了一个新颖的框架：解耦分层多模态蒸馏（DHMD）。 DHMD 使用自回归机制将每种模态的特征解耦为模态无关（同质）和模态排除（异质）组件。该框架采用两阶段知识蒸馏（KD）策略：（1）粗粒度 KD ...",
     "abstract_source": "arxiv_api",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 89/5503-12）",
     "status": "预印本记录",
@@ -114,10 +116,12 @@
     "scholar_id": "yi_ding",
     "scholar_name": "Yi Ding",
     "scholar_ids": [
-      "yi_ding"
+      "yi_ding",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "Yi Ding"
+      "Yi Ding",
+      "关存太"
     ],
     "source_record_ids": [
       "yi_ding_2cfd3a42a94067bb"
@@ -140,10 +144,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Yi Ding：情感脑电与多模态生理信号"
+      "Yi Ding：情感脑电与多模态生理信号",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -258,7 +275,7 @@
     "source_url": "https://dblp.org/rec/journals/titb/JiangZDTFZGLBSFCPLLGG26.html",
     "openalex_id": "https://openalex.org/W7123349658",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 15,
     "abstract_en": "Covert speech involves imagining speaking without audible sound or any movements.Decoding covert speech from electroencephalogram (EEG) is challenging due to a limited understanding of neural pronunciation mapping and the low signal-to-noise ratio of the signal. In this study, we developed a large-scale multi-utterance speech EEG dataset from 57 right-handed native English-speaking subjects, each performing covert and overt speech tasks by repeating the same word in five utterances within a ten-second duration. Given the spatio-temporal nature of the neural activation process during speech pronunciation, we developed a Functional Areas Spatio-temporal Transformer (FAST), an effective framework for converting EEG signals into tokens and utilizing transformer architecture for sequence encoding. Our results reveal distinct and interpretable speech neural features by the visualization of FAST-generated activation maps across frontal and temporal brain regions, with each word being covertly spoken, providing new insights into the discriminative features of the neural representation of covert speech. This is the first report of such a study, which provides interpretable evidence for speech decoding from EEG.",
     "abstract_zh": "隐蔽语音涉及想象在没有可听声音或任何动作的情况下说话。由于对神经发音映射的理解有限以及信号的低信噪比，从脑电图 (EEG) 解码隐蔽语音具有挑战性。在这项研究中，我们开发了一个来自 57 个以右手为母语的英语受试者的大规模多话语语音脑电图数据集，每个受试者通过在 10 秒时间内重复 5 个话语中的同一个单词来执行隐蔽和公开的语音任务。鉴于语音发音期间神经激活过程的时空性质，我们开发了功能区域时空转换器（FAST），这是一个有效的框架...",
     "abstract_source": "openalex_doi",
@@ -274,10 +291,12 @@
     "scholar_id": "yi_ding",
     "scholar_name": "Yi Ding",
     "scholar_ids": [
-      "yi_ding"
+      "yi_ding",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "Yi Ding"
+      "Yi Ding",
+      "关存太"
     ],
     "source_record_ids": [
       "yi_ding_07a4b58cfc61a1ed"
@@ -296,10 +315,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Yi Ding：脑电基准、数据与评测"
+      "Yi Ding：脑电基准、数据与评测",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -328,7 +358,7 @@
     "source_url": "https://dblp.org/rec/journals/corr/abs-2604-12579.html",
     "openalex_id": "",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 4,
     "abstract_en": "Electroencephalography (EEG)-based multimodal learning integrates brain signals with complementary modalities to improve mental state assessment, providing great clinical potential. The effectiveness of such paradigms largely depends on the representation learning on heterogeneous modalities. For EEG-based paradigms, one promising approach is to leverage their hierarchical structures, as recent studies have shown that both EEG and associated modalities (e.g., facial expressions) exhibit hierarchical structures reflecting complex cognitive processes. However, Euclidean embeddings struggle to represent these hierarchical structures due to their flat geometry, while hyperbolic spaces, with their exponential growth property, are naturally suited for them. In this work, we propose EEG-MoCE, a novel hyperbolic mixture-of-curvature experts framework designed for multimodal neurotechnology. EEG-MoCE assigns each modality to an expert in a learnable-curvature hyperbolic space, enabling adaptive modeling of its intrinsic geometry. A curvature-aware fusion strategy then dynamically weights experts, emphasizing modalities with richer hierarchical information. Extensive experiments on benchmark datasets demonstrate that EEG-MoCE achieves state-of-the-art performance, including emotion recognition, sleep staging, and cognitive assessment. Code is available at https://github.com/zhourunhe/EEG-MoCE.",
     "abstract_zh": "基于脑电图（EEG）的多模式学习将大脑信号与补充模式相结合，以改善精神状态评估，提供巨大的临床潜力。这种范式的有效性很大程度上取决于异构模态的表示学习。对于基于脑电图的范例，一种有前途的方法是利用其层次结构，因为最近的研究表明脑电图和相关模态（例如面部表情）都表现出反映复杂认知过程的层次结构。然而，欧几里得嵌入由于其平坦的几何形状而难以表示这些层次结构，而双曲空间则......",
     "abstract_source": "arxiv_api",
@@ -336,7 +366,8 @@
       "脑电情感识别",
       "情感计算与情绪理解",
       "多模态与大语言模型",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 89/5503-12）",
     "status": "预印本记录",
@@ -347,10 +378,12 @@
     "scholar_id": "yi_ding",
     "scholar_name": "Yi Ding",
     "scholar_ids": [
-      "yi_ding"
+      "yi_ding",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "Yi Ding"
+      "Yi Ding",
+      "关存太"
     ],
     "source_record_ids": [
       "yi_ding_63bb175667516057"
@@ -376,12 +409,27 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "医学影像与脑疾病诊断",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Yi Ding：情感脑电与多模态生理信号"
+      "Yi Ding：情感脑电与多模态生理信号",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "eeg_affect",
     "primary_category": "情感脑电与多模态生理信号"
   },
@@ -420,7 +468,9 @@
       "脑电情感识别",
       "脑机接口与神经解码",
       "情感计算与情绪理解",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感大模型",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 89/5503-12）",
     "status": "预印本记录",
@@ -431,10 +481,12 @@
     "scholar_id": "yi_ding",
     "scholar_name": "Yi Ding",
     "scholar_ids": [
-      "yi_ding"
+      "yi_ding",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "Yi Ding"
+      "Yi Ding",
+      "关存太"
     ],
     "source_record_ids": [
       "yi_ding_dc625872a274c195"
@@ -460,12 +512,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑电情感识别",
+          "脑机接口与神经解码",
+          "情感计算与情绪理解",
+          "智能芯片与计算系统",
+          "情感大模型",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Yi Ding：情感脑电与多模态生理信号"
+      "Yi Ding：情感脑电与多模态生理信号",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "eeg_affect",
     "primary_category": "情感脑电与多模态生理信号"
   },
@@ -711,10 +779,12 @@
     "work_title_group": "40028af7cf38",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "yi_ding"
+      "yi_ding",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "Yi Ding（中文名待核验）"
+      "Yi Ding（中文名待核验）",
+      "关存太"
     ],
     "source_record_ids": [
       "yi_ding_f0c148833336"
@@ -732,11 +802,25 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑电基础大模型",
+          "脑电情感识别",
+          "脑电数据蒸馏",
+          "多模态脑电学习"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "4a3b7c7ae260a328",
     "primary_categories_by_scholar": [
-      "Yi Ding（中文名待核验）：脑电基准、数据与评测"
+      "Yi Ding（中文名待核验）：脑电基准、数据与评测",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "dblp_key": "conf/aaai/TangJLLLZDG26",
     "pdf_url": "https://doi.org/10.1609/aaai.v40i21.38830",
@@ -767,7 +851,7 @@
     "source_url": "https://dblp.org/rec/journals/corr/abs-2608-13072.html",
     "openalex_id": "",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 2,
     "abstract_en": "Electroencephalography (EEG) decoding models often generalize poorly across datasets and subjects due to domain shifts in acquisition protocols and individual neurophysiology. We propose EEG-PRIME, a two-stage EEG foundation model for cross-dataset multi-task decoding. EEG-PRIME combines masked pretraining with prototype-aligned instruction tuning to enable instruction-aware and subject-invariant decoding across diverse BCI paradigms. During pretraining, an EEG encoder learns transferable representations through masked reconstruction with frequency-cutoff spectral augmentation. During instruction tuning, EEG-PRIME incorporates task-semantic, dataset-specific, and subject-invariant conditioning. The resulting conditioning signal modulates the Q-Former through Layer-wise Query Modulation, while frozen text embeddings of class labels serve as prototypes for cosine-similarity-based prediction across heterogeneous label spaces. Experiments on sixteen datasets covering motor imagery, emotion recognition, ADHD detection, covert speech, and mental workload show consistent improvements over state-of-the-art baselines and prior EEG foundation models under cross-subject settings. On two additional held-out datasets, EEG-PRIME achieves balanced accuracy comparable to within-session calibration models without target-domain optimization, calibration, or linear probing, demonstrating promising zero-shot transfer capability.",
     "abstract_zh": "由于采集协议和个体神经生理学的领域变化，脑电图 (EEG) 解码模型在数据集和受试者之间的泛化能力通常很差。我们提出了 EEG-PRIME，这是一种用于跨数据集多任务解码的两阶段 EEG 基础模型。 EEG-PRIME 将屏蔽预训练与原型对齐指令调整相结合，以实现跨不同 BCI 范式的指令感知和主题不变解码。在预训练期间，脑电图编码器通过频率截止频谱增强的掩蔽重建来学习可转移的表示。在指令调整过程中，EEG-PRIME 结合了任务语义、数据集特定和主题不变条件...",
     "abstract_source": "arxiv_api",
@@ -776,7 +860,8 @@
       "脑电基础大模型",
       "脑机接口与神经解码",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 89/5503-12）",
     "status": "预印本记录",
@@ -787,10 +872,12 @@
     "scholar_id": "yi_ding",
     "scholar_name": "Yi Ding",
     "scholar_ids": [
-      "yi_ding"
+      "yi_ding",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "Yi Ding"
+      "Yi Ding",
+      "关存太"
     ],
     "source_record_ids": [
       "yi_ding_9e50a57a1cb2db3d"
@@ -813,10 +900,26 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑电情感识别",
+          "脑电基础大模型",
+          "脑机接口与神经解码",
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Yi Ding：脑电基准、数据与评测"
+      "Yi Ding：脑电基准、数据与评测",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -852,7 +955,8 @@
       "脑电情感识别",
       "脑机接口与神经解码",
       "情感计算与情绪理解",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 89/5503-12）",
     "status": "预印本记录",
@@ -1433,11 +1537,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "jiquan_wang",
-      "yi_ding"
+      "yi_ding",
+      "cuntai_guan"
     ],
     "scholar_names": [
       "王继权",
-      "Yi Ding"
+      "Yi Ding",
+      "关存太"
     ],
     "source_record_ids": [
       "jiquan_wang_2d39021171c8"
@@ -1468,12 +1574,27 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化",
+          "脑电基础大模型",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "fddbed0b8f8e1c4f",
     "primary_categories_by_scholar": [
       "王继权：脑电基础模型与通用解码",
-      "Yi Ding：脑电基准、数据与评测"
+      "Yi Ding：脑电基准、数据与评测",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "dblp_key": "journals/corr/abs-2610-03546",
     "pdf_url": "https://arxiv.org/pdf/2610.03546",
@@ -1502,7 +1623,7 @@
     "source_url": "https://dblp.org/rec/journals/taffco/LiRNDWG25.html",
     "openalex_id": "https://openalex.org/W4407949200",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 8,
     "abstract_en": "Facial Action Units (AUs) are essential for conveying psychological states and emotional expressions. While automatic AU detection systems leveraging deep learning have progressed, they often overfit to specific datasets and individual features, limiting their cross-domain applicability. To overcome these limitations, we propose a doubly adaptive dropout approach for cross-domain AU detection, which enhances the robustness of convolutional feature maps and spatial tokens against domain shifts. This approach includes a Channel Drop Unit (CD-Unit) and a Token Drop Unit (TD-Unit), which work together to reduce domain-specific noise at both the channel and token levels. The CD-Unit preserves domain-agnostic local patterns in feature maps, while the TD-Unit helps the model identify AU relationships generalizable across domains. An auxiliary domain classifier, integrated at each layer, guides the selective omission of domain-sensitive features. To prevent excessive feature dropout, a progressive training strategy is used, allowing for selective exclusion of sensitive features at any model layer. Our method consistently outperforms existing techniques in cross-domain AU detection, as demonstrated by extensive experimental evaluations. Visualizations of attention maps also highlight clear and meaningful patterns related to both individual and combined AUs, further validating the approach's effectiveness.",
     "abstract_zh": "面部动作单元 (AU) 对于传达心理状态和情绪表达至关重要。虽然利用深度学习的自动 AU 检测系统已经取得了进步，但它们经常过度拟合特定的数据集和单个特征，限制了它们的跨域适用性。为了克服这些限制，我们提出了一种用于跨域 AU 检测的双自适应 dropout 方法，该方法增强了卷积特征图和空间标记针对域移位的鲁棒性。此方法包括通道丢弃单元 (CD-Unit) 和令牌丢弃单元 (TD-Unit)，它们协同工作以减少通道和令牌级别的特定于域的噪声。 CD 单元保留了 dom...",
     "abstract_source": "openalex_doi",
@@ -1518,10 +1639,12 @@
     "scholar_id": "yi_ding",
     "scholar_name": "Yi Ding",
     "scholar_ids": [
-      "yi_ding"
+      "yi_ding",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "Yi Ding"
+      "Yi Ding",
+      "关存太"
     ],
     "source_record_ids": [
       "yi_ding_68abb29b0625b12e"
@@ -1540,10 +1663,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Yi Ding：情感脑电与多模态生理信号"
+      "Yi Ding：情感脑电与多模态生理信号",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -1674,7 +1808,8 @@
       "脑电情感识别",
       "脑电基础大模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1708,11 +1843,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "wei_bang_jiang",
-      "yi_ding"
+      "yi_ding",
+      "cuntai_guan"
     ],
     "scholar_names": [
       "姜维邦",
-      "Yi Ding"
+      "Yi Ding",
+      "关存太"
     ],
     "source_record_ids": [
       "wei_bang_jiang_543d76fa5cc6"
@@ -1744,12 +1881,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言",
+          "脑电情感识别",
+          "脑电基础大模型",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "962dcdf34cdc7e01",
     "primary_categories_by_scholar": [
       "姜维邦：脑电基础模型与通用解码",
-      "Yi Ding：脑电基准、数据与评测"
+      "Yi Ding：脑电基准、数据与评测",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "dblp_key": "journals/corr/abs-2504-19596",
     "pdf_url": "https://arxiv.org/pdf/2504.19596",
@@ -1779,7 +1932,7 @@
     "source_url": "https://dblp.org/rec/journals/nn/TongDWCWLG25.html",
     "openalex_id": "https://openalex.org/W4411869979",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 3,
     "abstract_en": "The human olfactory system's temporal dynamics are crucial for sensory perception. By learning the temporal dynamics of EEG and utilizing breathing signals, we aim to better understand the neural features of olfactory perception from EEG. To decode the olfactory response effectively, we introduce a new method: the Token Alignment and Cross-Attention Fusion network (TACAF), a multimodal deep learning framework that enhances olfactory EEG decoding using wavelet features for time window selection and spectral analysis for data representation. Spatial features are extracted using spatial learning modules, and temporal dynamics are captured through a multi-head self-attention mechanism. The Temporal Token Semantic Alignment (TTSA) module synchronizes breathing information with EEG data for effective fusion. We collected EEG recordings and breathing signals from 20 subjects to study the decoding responses to pleasant and unpleasant odors. Our evaluation shows that TACAF significantly outperforms existing methods. Further analysis indicates that prolonged odor exposure leads to olfactory adaptation, reducing recognition performance. The findings are visualized through spatial topology maps with saliency mappings, providing insights into the neural mechanisms of olfactory perception.",
     "abstract_zh": "人类嗅觉系统的时间动态对于感官知觉至关重要。通过学习脑电图的时间动态并利用呼吸信号，我们的目标是更好地理解脑电图嗅觉感知的神经特征。为了有效解码嗅觉反应，我们引入了一种新方法：令牌对齐和交叉注意融合网络（TACAF），这是一种多模态深度学习框架，可使用小波特征进行时间窗口选择和数据表示的频谱分析来增强嗅觉脑电图解码。使用空间学习模块提取空间特征，并通过多头自注意力机制捕获时间动态。节奏...",
     "abstract_source": "openalex_doi",
@@ -1796,10 +1949,12 @@
     "scholar_id": "yi_ding",
     "scholar_name": "Yi Ding",
     "scholar_ids": [
-      "yi_ding"
+      "yi_ding",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "Yi Ding"
+      "Yi Ding",
+      "关存太"
     ],
     "source_record_ids": [
       "yi_ding_d195030d33fe43ad"
@@ -1819,10 +1974,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Yi Ding：脑电基准、数据与评测"
+      "Yi Ding：脑电基准、数据与评测",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -1876,10 +2043,12 @@
     "scholar_id": "yi_ding",
     "scholar_name": "Yi Ding",
     "scholar_ids": [
-      "yi_ding"
+      "yi_ding",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "Yi Ding"
+      "Yi Ding",
+      "关存太"
     ],
     "source_record_ids": [
       "yi_ding_5f9d47529cedab69"
@@ -1902,12 +2071,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Yi Ding：脑电基准、数据与评测"
+      "Yi Ding：脑电基准、数据与评测",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "eeg_benchmark",
     "primary_category": "脑电基准、数据与评测"
   },
@@ -2069,13 +2249,17 @@
       "wenming_zheng",
       "yi_ding",
       "panorama_6ea6272c5bf0",
-      "panorama_ef5ed70a98c0"
+      "panorama_ef5ed70a98c0",
+      "cuntai_guan",
+      "shiguang_shan"
     ],
     "scholar_names": [
       "郑文明",
       "Yi Ding",
       "宗源",
-      "崔振"
+      "崔振",
+      "关存太",
+      "山世光"
     ],
     "source_record_ids": [
       "wenming_zheng_d5f33f8371ed"
@@ -2142,6 +2326,36 @@
         ],
         "confidence": "low",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "shiguang_shan": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "山世光",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "c2f544176674b9d7",
@@ -2149,12 +2363,14 @@
       "郑文明：情感脑电与多模态生理信号",
       "Yi Ding：脑电基础模型与通用解码",
       "宗源：脑电基础模型与通用解码",
-      "崔振：脑电基础模型与通用解码"
+      "崔振：脑电基础模型与通用解码",
+      "关存太：脑电基础大模型与自监督预训练",
+      "山世光：视觉感知、语音信号与通用人工智能"
     ],
     "dblp_key": "journals/corr/abs-2503-08977",
     "pdf_url": "https://arxiv.org/pdf/2503.08977",
-    "abstract_en": "Despite the impressive performance of current vision-based facial action unit (AU) detection approaches, they are heavily susceptible to the variations across different domains and the cross-domain AU detection methods are under-explored. In response to this challenge, we propose a decoupled doubly contrastive adaptation (D2CA) approach to learn a purified AU representation that is semantically aligned for the source and target domains. Specifically, we decompose latent representations into AU-relevant and AU-irrelevant components, with the objective of exclusively facilitating adaptation within the AU-relevant subspace. To achieve the feature decoupling, D2CA is trained to disentangle AU and domain factors by assessing the quality of synthesized faces in cross-domain scenarios when either AU or domain attributes are modified. To further strengthen feature decoupling, particularly in scenarios with limited AU data diversity, D2CA employs a doubly contrastive learning mechanism comprising image and feature-level contrastive learning to ensure the quality of synthesized faces and mitigate feature ambiguities. This new framework leads to an automatically learned, dedicated separation of AU-relevant and domain-relevant factors, and it enables intuitive, scale-specific control of the cross-domain facial image synthesis. Extensive experiments demonstrate the efficacy of D2CA in successfully decoupling AU and domain factors, yielding visually pleasing cross-domain synthesized facial images. Meanwhile, D2CA consistently outperforms state-of-the-art cross-domain AU detection approaches, achieving an average F1 score improvement of 6%-14% across various cross-domain scenarios.",
-    "abstract_source": "openalex_verified",
+    "abstract_en": "Despite the impressive performance of current vision-based facial action unit (AU) detection approaches, they are heavily susceptible to the variations across different domains and the cross-domain AU detection methods are under-explored. In response to this challenge, we propose a decoupled doubly contrastive adaptation (D$^2$CA) approach to learn a purified AU representation that is semantically aligned for the source and target domains. Specifically, we decompose latent representations into AU-relevant and AU-irrelevant components, with the objective of exclusively facilitating adaptation within the AU-relevant subspace. To achieve the feature decoupling, D$^2$CA is trained to disentangle AU and domain factors by assessing the quality of synthesized faces in cross-domain scenarios when either AU or domain attributes are modified. To further strengthen feature decoupling, particularly in scenarios with limited AU data diversity, D$^2$CA employs a doubly contrastive learning mechanism comprising image and feature-level contrastive learning to ensure the quality of synthesized faces and mitigate feature ambiguities. This new framework leads to an automatically learned, dedicated separation of AU-relevant and domain-relevant factors, and it enables intuitive, scale-specific control of the cross-domain facial image synthesis. Extensive experiments demonstrate the efficacy of D$^2$CA in successfully decoupling AU and domain factors, yielding visually pleasing cross-domain synthesized facial images. Meanwhile, D$^2$CA consistently outperforms state-of-the-art cross-domain AU detection approaches, achieving an average F1 score improvement of 6\\%-14\\% across various cross-domain scenarios.",
+    "abstract_source": "arxiv_api",
     "abstract_zh": "尽管当前基于视觉的面部动作单元（AU）检测方法具有令人印象深刻的性能，但它们很容易受到不同领域之间的变化的影响，并且跨领域的 AU 检测方法尚未得到充分探索。为了应对这一挑战，我们提出了一种解耦双重对比适应（D2CA）方法来学习源域和目标域在语义上对齐的纯化 AU 表示。具体来说，我们将潜在表示分解为 AU 相关和 AU 不相关的组件，目的是专门促进 AU 相关子空间内的适应。为了实现特征解耦，D2CA 被训练来解开 AU 和..."
   },
   {
@@ -2200,10 +2416,12 @@
     "scholar_id": "yi_ding",
     "scholar_name": "Yi Ding",
     "scholar_ids": [
-      "yi_ding"
+      "yi_ding",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "Yi Ding"
+      "Yi Ding",
+      "关存太"
     ],
     "source_record_ids": [
       "yi_ding_23920eddf2ef4401"
@@ -2229,12 +2447,26 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑电情感识别",
+          "脑电基础大模型",
+          "脑机接口与神经解码",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Yi Ding：脑电基准、数据与评测"
+      "Yi Ding：脑电基准、数据与评测",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "eeg_benchmark",
     "primary_category": "脑电基准、数据与评测"
   },
@@ -2260,7 +2492,7 @@
     "source_url": "https://dblp.org/rec/conf/icassp/Zhang0JTCAG25.html",
     "openalex_id": "https://openalex.org/W4408353222",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 1,
     "abstract_en": "Brain-computer interfaces (BCIs) hold great potential for motor recovery in post-stroke patients. However, the motor imagery decoding accuracy is limited by the non-stationarity of EEG signals across subjects and sessions. We propose CAT-Net: a Co-Adaptive Transfer learning network to simultaneously address the inter-subject variability and inter-session nonstationarity in EEG data. The proposed method selects a relevant subset of data from all the available subjects’ data to train an initial model, followed by subject-specific transfer learning from the initial model to the target subject to establish a pretrain model. Subsequently, online adaptive training is then applied to incrementally train the pretrain model using the data from previous sessions for the target subject. This proposed network using this unique co-adaptive training method is then evaluated on both upper and lower-limb neurorehabilitation EEG datasets comprising 358 sessions from 33 stroke patients. The results showed significant accuracy improvements, achieving averaged accuracies of 70.6% and 72.3% on the respective datasets, surpassing the state-of-the-art baselines.",
     "abstract_zh": "脑机接口（BCIs）对于中风后患者的运动恢复具有巨大的潜力。然而，运动想象解码的准确性受到受试者和会话之间脑电图信号的非平稳性的限制。我们提出 CAT-Net：一种协同自适应迁移学习网络，可同时解决脑电图数据中受试者间的变异性和会话间的非平稳性。该方法从所有可用受试者数据中选择相关数据子集来训练初始模型，然后从初始模型到目标受试者进行特定于受试者的迁移学习，以建立预训练模型。随后，在线自适应训练逐渐应用于......",
     "abstract_source": "openalex_doi",
@@ -2277,10 +2509,12 @@
     "scholar_id": "yi_ding",
     "scholar_name": "Yi Ding",
     "scholar_ids": [
-      "yi_ding"
+      "yi_ding",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "Yi Ding"
+      "Yi Ding",
+      "关存太"
     ],
     "source_record_ids": [
       "yi_ding_a5c199558dbac496"
@@ -2300,10 +2534,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑电基础大模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Yi Ding：脑电基准、数据与评测"
+      "Yi Ding：脑电基准、数据与评测",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -2332,7 +2578,7 @@
     "source_url": "https://dblp.org/rec/journals/titb/DingLSLTLZG25.html",
     "openalex_id": "https://openalex.org/W4404576998",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 195,
     "abstract_en": "Effectively learning the temporal dynamics in electroencephalogram (EEG) signals is challenging yet essential for decoding brain activities using brain-computer interfaces (BCIs). Although Transformers are popular for their long-term sequential learning ability in the BCI field, most methods combining Transformers with convolutional neural networks (CNNs) fail to capture the coarse-to-fine temporal dynamics of EEG signals. To overcome this limitation, we introduce EEG-Deformer, which incorporates two main novel components into a CNN-Transformer: (1) a Hierarchical Coarse-to-Fine Transformer (HCT) block that integrates a Fine-grained Temporal Learning (FTL) branch into Transformers, effectively discerning coarse-to-fine temporal patterns; and (2) a Dense Information Purification (DIP) module, which utilizes multi-level, purified temporal information to enhance decoding accuracy. Comprehensive experiments on three representative cognitive tasksâcognitive attention, driving fatigue, and mental workload detectionâconsistently confirm the generalizability of our proposed EEG-Deformer, demonstrating that it either outperforms or performs comparably to existing state-of-the-art methods. Visualization results show that EEG-Deformer learns from neurophysiologically meaningful brain regions for the corresponding cognitive tasks.",
     "abstract_zh": "有效学习脑电图 (EEG) 信号中的时间动态具有挑战性，但对于使用脑机接口 (BCI) 解码大脑活动至关重要。尽管 Transformer 因其长期顺序学习能力而在 BCI 领域广受欢迎，但大多数将 Transformer 与卷积神经网络 (CNN) 相结合的方法都无法捕获 EEG 信号从粗到细的时间动态。为了克服这一限制，我们引入了 EEG-Deformer，它将两个主要的新颖组件合并到 CNN-Transformer 中：(1) 分层粗到细 Transformer (HCT) 块，它将细粒度时间学习 (FTL) 分支集成到 Transformer 中，有效...",
     "abstract_source": "openalex_doi",
@@ -2348,10 +2594,12 @@
     "scholar_id": "yi_ding",
     "scholar_name": "Yi Ding",
     "scholar_ids": [
-      "yi_ding"
+      "yi_ding",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "Yi Ding"
+      "Yi Ding",
+      "关存太"
     ],
     "source_record_ids": [
       "yi_ding_067e1d18e3e9890e"
@@ -2370,10 +2618,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Yi Ding：脑电基础模型与通用解码"
+      "Yi Ding：脑电基础模型与通用解码",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -2414,7 +2673,8 @@
       "脑电情感识别",
       "脑电基础大模型",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 89/5503-12）",
     "status": "预印本记录",
@@ -2425,10 +2685,12 @@
     "scholar_id": "yi_ding",
     "scholar_name": "Yi Ding",
     "scholar_ids": [
-      "yi_ding"
+      "yi_ding",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "Yi Ding"
+      "Yi Ding",
+      "关存太"
     ],
     "source_record_ids": [
       "yi_ding_26a1ee50d18b4866"
@@ -2454,12 +2716,27 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑电情感识别",
+          "脑电基础大模型",
+          "脑机接口与神经解码",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Yi Ding：脑电基准、数据与评测"
+      "Yi Ding：脑电基准、数据与评测",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "eeg_benchmark",
     "primary_category": "脑电基准、数据与评测"
   },
@@ -2485,14 +2762,15 @@
     "source_url": "https://dblp.org/rec/journals/tnn/DingTZJLLG25.html",
     "openalex_id": "https://openalex.org/W4409327438",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 137,
     "abstract_en": "Integrating prior knowledge of neurophysiology into neural network architecture enhances the performance of emotion decoding. While numerous techniques emphasize learning spatial and short-term temporal patterns, there has been a limited emphasis on capturing the vital long-term contextual information associated with emotional cognitive processes. In order to address this discrepancy, we introduce a novel transformer model called emotion transformer (EmT). EmT is designed to excel in both generalized cross-subject electroencephalography (EEG) emotion classification and regression tasks. In EmT, EEG signals are transformed into a temporal graph format, creating a sequence of EEG feature graphs using a temporal graph construction (TGC) module. A novel residual multiview pyramid graph convolutional neural network (RMPG) module is then proposed to learn dynamic graph representations for each EEG feature graph within the series, and the learned representations of each graph are fused into one token. Furthermore, we design a temporal contextual transformer (TCT) module with two types of token mixers to learn the temporal contextual information. Finally, the task-specific output (TSO) module generates the desired outputs. Experiments on four publicly available datasets show that EmT achieves higher results than the baseline methods for both EEG emotion classification and regression tasks. The code is available at https://github.com/yi-ding-cs/EmT.",
     "abstract_zh": "将神经生理学的先验知识整合到神经网络架构中可以增强情感解码的性能。虽然许多技术强调学习空间和短期时间模式，但对捕获与情绪认知过程相关的重要长期上下文信息的重视有限。为了解决这种差异，我们引入了一种新颖的Transformer模型，称为情感Transformer（EmT）。 EmT 旨在在广义跨主题脑电图 (EEG) 情绪分类和回归任务中表现出色。在 EmT 中，脑电图信号被转换为时间图格式，创建一系列脑电图特征图……",
     "abstract_source": "openalex_doi",
     "topics": [
       "脑电情感识别",
       "情感计算与情绪理解",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 89/5503-12）",
     "status": "已索引出版/会议记录",
@@ -2503,10 +2781,12 @@
     "scholar_id": "yi_ding",
     "scholar_name": "Yi Ding",
     "scholar_ids": [
-      "yi_ding"
+      "yi_ding",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "Yi Ding"
+      "Yi Ding",
+      "关存太"
     ],
     "source_record_ids": [
       "yi_ding_9810291d990d2a33"
@@ -2531,12 +2811,26 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "智能芯片与计算系统",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Yi Ding：脑电基准、数据与评测"
+      "Yi Ding：脑电基准、数据与评测",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "eeg_benchmark",
     "primary_category": "脑电基准、数据与评测"
   },
@@ -2637,7 +2931,7 @@
     "source_url": "https://dblp.org/rec/journals/corr/abs-2504-15585.html",
     "openalex_id": "",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 196,
     "abstract_en": "The remarkable success of Large Language Models (LLMs) has illuminated a promising pathway toward achieving Artificial General Intelligence for both academic and industrial communities, owing to their unprecedented performance across various applications. As LLMs continue to gain prominence in both research and commercial domains, their security and safety implications have become a growing concern, not only for researchers and corporations but also for every nation. Currently, existing surveys on LLM safety primarily focus on specific stages of the LLM lifecycle, e.g., deployment phase or fine-tuning phase, lacking a comprehensive understanding of the entire \"lifechain\" of LLMs. To address this gap, this paper introduces, for the first time, the concept of \"full-stack\" safety to systematically consider safety issues throughout the entire process of LLM training, deployment, and eventual commercialization. Compared to the off-the-shelf LLM safety surveys, our work demonstrates several distinctive advantages: (I) Comprehensive Perspective. We define the complete LLM lifecycle as encompassing data preparation, pre-training, post-training, deployment and final commercialization. To our knowledge, this represents the first safety survey to encompass the entire lifecycle of LLMs. (II) Extensive Literature Support. Our research is grounded in an exhaustive review of over 800+ papers, ensuring comprehensive coverage and systematic organization of security issues within a more holistic understanding. (III) Unique Insights. Through systematic literature analysis, we have developed reliable roadmaps and perspectives for each chapter. Our work identifies promising research directions, including safety in data generation, alignment techniques, model editing, and LLM-based agent systems. These insights provide valuable guidance for researchers pursuing future work in this field.",
     "abstract_zh": "大型语言模型 (LLM) 的巨大成功，因其在各种应用中前所未有的表现，为学术界和工业界实现通用人工智能指明了一条充满希望的道路。随着大语言模型在研究和商业领域不断取得突出地位，其安全和安全影响已成为越来越多的关注点，不仅对研究人员和企业，而且对每个国家来说。目前，现有的LLM安全性调查主要集中在LLM生命周期的特定阶段，例如部署阶段或微调阶段，缺乏对LLM整个“生命链”的全面了解。为了解决...",
     "abstract_source": "arxiv_api",
@@ -2653,10 +2947,12 @@
     "scholar_id": "yi_ding",
     "scholar_name": "Yi Ding",
     "scholar_ids": [
-      "yi_ding"
+      "yi_ding",
+      "zitong_yu"
     ],
     "scholar_names": [
-      "Yi Ding"
+      "Yi Ding",
+      "于子桐"
     ],
     "source_record_ids": [
       "yi_ding_e45e23282991d4e3"
@@ -2675,10 +2971,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zitong_yu": {
+        "category_id": "affect_dataset_eval",
+        "label": "情感理解数据集、评测基准与综述",
+        "scholar_name": "于子桐",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Yi Ding：脑电基准、数据与评测"
+      "Yi Ding：脑电基准、数据与评测",
+      "于子桐：情感理解数据集、评测基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -2956,7 +3263,8 @@
       "脑电情感识别",
       "脑电数据蒸馏",
       "多模态脑电学习",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；重点纳入",
     "status": "候选条目/需按作者主页继续核验",
@@ -3074,7 +3382,9 @@
     "abstract_source": "arxiv_api",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 89/5503-12）",
     "status": "预印本记录",
@@ -3153,7 +3463,7 @@
     "source_url": "https://dblp.org/rec/journals/nn/SunDBQTJG24.html",
     "openalex_id": "https://openalex.org/W4399722086",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 14,
     "abstract_en": "",
     "abstract_zh": "",
     "abstract_source": "",
@@ -3169,10 +3479,14 @@
     "scholar_id": "yi_ding",
     "scholar_name": "Yi Ding",
     "scholar_ids": [
-      "yi_ding"
+      "yi_ding",
+      "cuntai_guan",
+      "jing_jin_ecust"
     ],
     "scholar_names": [
-      "Yi Ding"
+      "Yi Ding",
+      "关存太",
+      "金晶"
     ],
     "source_record_ids": [
       "yi_ding_24429a85211fb403"
@@ -3191,10 +3505,32 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "jing_jin_ecust": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "金晶",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Yi Ding：脑电基础模型与通用解码"
+      "Yi Ding：脑电基础模型与通用解码",
+      "关存太：脑电基础大模型与自监督预训练",
+      "金晶：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -3221,7 +3557,7 @@
     "source_url": "https://dblp.org/rec/journals/nn/LiuCLDYG24.html",
     "openalex_id": "https://openalex.org/W4390988847",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 38,
     "abstract_en": "Insufficient data is a long-standing challenge for Brain-Computer Interface (BCI) to build a high-performance deep learning model. Though numerous research groups and institutes collect a multitude of EEG datasets for the same BCI task, sharing EEG data from multiple sites is still challenging due to the heterogeneity of devices. The significance of this challenge cannot be overstated, given the critical role of data diversity in fostering model robustness. However, existing works rarely discuss this issue, predominantly centering their attention on model training within a single dataset, often in the context of inter-subject or inter-session settings. In this work, we propose a hierarchical personalized Federated Learning EEG decoding (FLEEG) framework to surmount this challenge. This innovative framework heralds a new learning paradigm for BCI, enabling datasets with disparate data formats to collaborate in the model training process. Each client is assigned a specific dataset and trains a hierarchical personalized model to manage diverse data formats and facilitate information exchange. Meanwhile, the server coordinates the training procedure to harness knowledge gleaned from all datasets, thus elevating overall performance. The framework has been evaluated in Motor Imagery (MI) classification with nine EEG datasets collected by different devices but implementing the same MI task. Results demonstrate that the proposed framework can boost classification performance up to 8.4% by enabling knowledge sharing between multiple datasets, especially for smaller datasets. Visualization results also indicate that the proposed framework can empower the local models to put a stable focus on task-related areas, yielding better performance. To the best of our knowledge, this is the first end-to-end solution to address this important challenge.",
     "abstract_zh": "数据不足是脑机接口（BCI）构建高性能深度学习模型的长期挑战。尽管许多研究小组和机构为同一 BCI 任务收集了大量脑电图数据集，但由于设备的异构性，从多个站点共享脑电图数据仍然具有挑战性。鉴于数据多样性在促进模型稳健性方面的关键作用，这一挑战的重要性怎么强调都不为过。然而，现有的工作很少讨论这个问题，主要将注意力集中在单个数据集中的模型训练上，通常是在主题间或会话间设置的背景下。在这项工作中，我们提出了一个分层的...",
     "abstract_source": "openalex_doi",
@@ -3237,10 +3573,12 @@
     "scholar_id": "yi_ding",
     "scholar_name": "Yi Ding",
     "scholar_ids": [
-      "yi_ding"
+      "yi_ding",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "Yi Ding"
+      "Yi Ding",
+      "关存太"
     ],
     "source_record_ids": [
       "yi_ding_ca848c78578fb520"
@@ -3259,10 +3597,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Yi Ding：脑电基准、数据与评测"
+      "Yi Ding：脑电基准、数据与评测",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -3370,7 +3719,7 @@
     "source_url": "https://dblp.org/rec/journals/tnn/DingRTZG24.html",
     "openalex_id": "https://openalex.org/W4319934143",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 303,
     "abstract_en": "Neuropsychological studies suggest that co-operative activities among different brain functional areas drive high-level cognitive processes. To learn the brain activities within and among different functional areas of the brain, we propose local-global-graph network (LGGNet), a novel neurologically inspired graph neural network (GNN), to learn local-global-graph (LGG) representations of electroencephalography (EEG) for brain-computer interface (BCI). The input layer of LGGNet comprises a series of temporal convolutions with multiscale 1-D convolutional kernels and kernel-level attentive fusion. It captures temporal dynamics of EEG which then serves as input to the proposed local- and global-graph-filtering layers. Using a defined neurophysiologically meaningful set of local and global graphs, LGGNet models the complex relations within and among functional areas of the brain. Under the robust nested cross-validation settings, the proposed method is evaluated on three publicly available datasets for four types of cognitive classification tasks, namely the attention, fatigue, emotion, and preference classification tasks. LGGNet is compared with state-of-the-art (SOTA) methods, such as DeepConvNet, EEGNet, R2G-STNN, TSception, regularized graph neural network (RGNN), attention-based multiscale convolutional neural network-dynamical graph convolutional network (AMCNN-DGCN), hierarchical recurrent neural network (HRNN), and GraphNet. The results show that LGGNet outperforms these methods, and the improvements are statistically significant ( ) in most cases. The results show that bringing neuroscience prior knowledge into neural network design yields an improvement of classification performance. The source code can be found at https://github.com/yi-ding-cs/LGG.",
     "abstract_zh": "神经心理学研究表明，不同大脑功能区域之间的合作活动驱动高级认知过程。为了了解大脑不同功能区域内部和之间的大脑活动，我们提出了局部全局图网络（LGGNet），这是一种受神经学启发的新型图神经网络（GNN），用于学习脑机接口（BCI）的脑电图（EEG）的局部全局图（LGG）表示。 LGGNet 的输入层包含一系列具有多尺度一维卷积核和核级注意融合的时间卷积。它捕获脑电图的时间动态，然后将其作为拟议的局部和全局的输入......",
     "abstract_source": "openalex_doi",
@@ -3388,19 +3737,23 @@
     "scholar_id": "yi_ding",
     "scholar_name": "Yi Ding",
     "scholar_ids": [
-      "yi_ding"
+      "yi_ding",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "Yi Ding"
+      "Yi Ding",
+      "关存太"
     ],
     "source_record_ids": [
       "yi_ding_33c1962a3d468d83"
     ],
     "resource_ids": [
-      "yi_ding__auto_code_23a6fb9ab5"
+      "yi_ding__auto_code_23a6fb9ab5",
+      "res_gh_f2d3d462485b"
     ],
     "code_urls": [
-      "https://github.com/yi-ding-cs/LGG"
+      "https://github.com/yi-ding-cs/LGG",
+      "https://github.com/yi-ding-cs/LGGNet"
     ],
     "data_urls": [],
     "model_urls": [],
@@ -3416,12 +3769,25 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑电情感识别",
+          "脑机接口与神经解码",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Yi Ding：情感脑电与多模态生理信号"
+      "Yi Ding：情感脑电与多模态生理信号",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "eeg_affect",
     "primary_category": "情感脑电与多模态生理信号"
   },
@@ -3444,13 +3810,14 @@
     "source_url": "https://dblp.org/rec/journals/titb/DingZTG24.html",
     "openalex_id": "https://openalex.org/W4395028532",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 80,
     "abstract_en": "Emotion recognition from electroencephalogram (EEG) signals is a critical domain in biomedical research with applications ranging from mental disorder regulation to human-computer interaction. In this paper, we address two fundamental aspects of EEG emotion recognition: continuous regression of emotional states and discrete classification of emotions. While classification methods have garnered significant attention, regression methods remain relatively under-explored. To bridge this gap, we introduce MASA-TCN, a novel unified model that leverages the spatial learning capabilities of Temporal Convolutional Networks (TCNs) for EEG emotion regression and classification tasks. The key innovation lies in the introduction of a space-aware temporal layer, which empowers TCN to capture spatial relationships among EEG electrodes, enhancing its ability to discern nuanced emotional states. Additionally, we design a multi-anchor block with attentive fusion, enabling the model to adaptively learn dynamic temporal dependencies within the EEG signals. Experiments on two publicly available datasets show that MASA-TCN achieves higher results than the state-of-the-art methods for both EEG emotion regression and classification tasks.",
     "abstract_zh": "脑电图（EEG）信号的情绪识别是生物医学研究的一个关键领域，其应用范围从精神障碍调节到人机交互。在本文中，我们讨论了脑电图情绪识别的两个基本方面：情绪状态的连续回归和情绪的离散分类。虽然分类方法已经引起了人们的广泛关注，但回归方法的探索仍然相对不足。为了弥补这一差距，我们引入了 MASA-TCN，这是一种新颖的统一模型，它利用时间卷积网络（TCN）的空间学习功能来执行脑电图情绪回归和分类任务。关键创新...",
     "abstract_source": "openalex_doi",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 89/5503-12）",
     "status": "已索引出版/会议记录",
@@ -3461,10 +3828,12 @@
     "scholar_id": "yi_ding",
     "scholar_name": "Yi Ding",
     "scholar_ids": [
-      "yi_ding"
+      "yi_ding",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "Yi Ding"
+      "Yi Ding",
+      "关存太"
     ],
     "source_record_ids": [
       "yi_ding_8f16655c95b99aef"
@@ -3484,10 +3853,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Yi Ding：情感脑电与多模态生理信号"
+      "Yi Ding：情感脑电与多模态生理信号",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -3510,13 +3892,14 @@
     "source_url": "https://dblp.org/rec/conf/embc/DingG23.html",
     "openalex_id": "https://openalex.org/W4389542722",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 8,
     "abstract_en": "Effectively learning the spatial topology information of EEG channels as well as the temporal contextual information underlying emotions is crucial for EEG emotion regression tasks. In this paper, we represent EEG signals as spatial graphs in a temporal graph (SGTG). A graph-in-graph neural network (GIGN) is proposed to learn the spatial-temporal information from the proposed SGTG for continuous EEG emotion recognition. A spatial graph neural network (GCN) with a learnable adjacency matrix is utilized to capture the dynamical relations among EEG channels. To learn the temporal contextual information, we propose to use GCN to combine the short-time emotional states of each spatial graph embeddings with the help of a learnable adjacency matrix. Experiments on a public dataset, MAHNOB-HCI, show the proposed GIGN achieves better regression results than recently published methods for the same task. The code of GIGN is available at: https://github.com/yi-ding-cs/GIGN.",
     "abstract_zh": "有效学习脑电通道的空间拓扑信息以及情绪背后的时间上下文信息对于脑电情绪回归任务至关重要。在本文中，我们将脑电图信号表示为时间图中的空间图（SGTG）。提出了图中图神经网络（GIGN）来从所提出的 SGTG 中学习时空信息，以进行连续脑电图情感识别。利用具有可学习邻接矩阵的空间图神经网络（GCN）来捕获脑电图通道之间的动态关系。为了学习时间上下文信息，我们建议使用 GCN 来组合每个空间图嵌入的短时情绪状态......",
     "abstract_source": "openalex_doi",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 89/5503-12）",
     "status": "已索引出版/会议记录",
@@ -3527,10 +3910,12 @@
     "scholar_id": "yi_ding",
     "scholar_name": "Yi Ding",
     "scholar_ids": [
-      "yi_ding"
+      "yi_ding",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "Yi Ding"
+      "Yi Ding",
+      "关存太"
     ],
     "source_record_ids": [
       "yi_ding_0e8414f93fcb0975"
@@ -3556,12 +3941,25 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Yi Ding：情感脑电与多模态生理信号"
+      "Yi Ding：情感脑电与多模态生理信号",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "eeg_affect",
     "primary_category": "情感脑电与多模态生理信号"
   },
@@ -3590,7 +3988,8 @@
     "abstract_source": "openalex_doi",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 89/5503-12）",
     "status": "已索引出版/会议记录",
@@ -3601,10 +4000,12 @@
     "scholar_id": "yi_ding",
     "scholar_name": "Yi Ding",
     "scholar_ids": [
-      "yi_ding"
+      "yi_ding",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "Yi Ding"
+      "Yi Ding",
+      "关存太"
     ],
     "source_record_ids": [
       "yi_ding_0fc788f8dc8f019b"
@@ -3626,10 +4027,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Yi Ding：情感脑电与多模态生理信号"
+      "Yi Ding：情感脑电与多模态生理信号",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -3655,13 +4069,14 @@
     "source_url": "https://dblp.org/rec/journals/taffco/DingRZZG23.html",
     "openalex_id": "https://openalex.org/W3140416091",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 553,
     "abstract_en": "The high temporal resolution and the asymmetric spatial activations are essential attributes of electroencephalogram (EEG) underlying emotional processes in the brain. To learn the temporal dynamics and spatial asymmetry of EEG towards accurate and generalized emotion recognition, we propose TSception, a multi-scale convolutional neural network that can classify emotions from EEG. TSception consists of dynamic temporal, asymmetric spatial, and high-level fusion layers, which learn discriminative representations in the time and channel dimensions simultaneously. The dynamic temporal layer consists of multi-scale 1D convolutional kernels whose lengths are related to the sampling rate of EEG, which learns the dynamic temporal and frequency representations of EEG. The asymmetric spatial layer takes advantage of the asymmetric EEG patterns for emotion, learning the discriminative global and hemisphere representations. The learned spatial representations will be fused by a high-level fusion layer. Using more generalized cross-validation settings, the proposed method is evaluated on two publicly available datasets DEAP and MAHNOB-HCI. The performance of the proposed network is compared with prior reported methods such as SVM, KNN, FBFgMDM, FBTSC, Unsupervised learning, DeepConvNet, ShallowConvNet, and EEGNet. TSception achieves higher classification accuracies and F1 scores than other methods in most of the experiments. The codes are available at: https://github.com/yi-ding-cs/TSception",
     "abstract_zh": "高时间分辨率和不对称空间激活是脑电图（EEG）的基本属性，是大脑情绪过程的基础。为了了解脑电图的时间动态和空间不对称性以实现准确和广义的情绪识别，我们提出了 TSception，一种可以对脑电图情绪进行分类的多尺度卷积神经网络。 TSception 由动态时间层、不对称空间层和高级融合层组成，它们同时学习时间和通道维度上的判别表示。 The dynamic temporal layer consists of multi-scale 1D convolutional kernels whose lengths are related to the sampling rate of EEG, w...",
     "abstract_source": "openalex_doi",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 89/5503-12）",
     "status": "已索引出版/会议记录",
@@ -3672,10 +4087,12 @@
     "scholar_id": "yi_ding",
     "scholar_name": "Yi Ding",
     "scholar_ids": [
-      "yi_ding"
+      "yi_ding",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "Yi Ding"
+      "Yi Ding",
+      "关存太"
     ],
     "source_record_ids": [
       "yi_ding_80572b42c604a5f9"
@@ -3702,12 +4119,25 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Yi Ding：情感脑电与多模态生理信号"
+      "Yi Ding：情感脑电与多模态生理信号",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "eeg_affect",
     "primary_category": "情感脑电与多模态生理信号"
   },
@@ -3730,13 +4160,14 @@
     "source_url": "https://dblp.org/rec/journals/corr/abs-2203-13031.html",
     "openalex_id": "",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 42,
     "abstract_en": "We propose a cross-modal co-attention model for continuous emotion recognition using visual-audio-linguistic information. The model consists of four blocks. The visual, audio, and linguistic blocks are used to learn the spatial-temporal features of the multi-modal input. A co-attention block is designed to fuse the learned features with the multi-head co-attention mechanism. The visual encoding from the visual block is concatenated with the attention feature to emphasize the visual information. To make full use of the data and alleviate over-fitting, cross-validation is carried out on the training and validation set. The concordance correlation coefficient (CCC) centering is used to merge the results from each fold. The achieved CCC on the test set is $0.520$ for valence and $0.602$ for arousal, which significantly outperforms the baseline method with the corresponding CCC of 0.180 and 0.170 for valence and arousal, respectively. The code is available at https://github.com/sucv/ABAW3.",
     "abstract_zh": "We propose a cross-modal co-attention model for continuous emotion recognition using visual-audio-linguistic information.该模型由四个块组成。 The visual, audio, and linguistic blocks are used to learn the spatial-temporal features of the multi-modal input. A co-attention block is designed to fuse the learned features with the multi-head co-attention mechanism. The visual encoding from the visual block is concatenated with the attention feature to emphasize the visual information. To make full use of the data and alleviate over-fitting, cross-validation is carried out on the training and validation set. The concordance correlation coefficient (CCC) centering is used to merge th...",
     "abstract_source": "arxiv_api",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 89/5503-12）",
     "status": "预印本记录",
@@ -3747,10 +4178,12 @@
     "scholar_id": "yi_ding",
     "scholar_name": "Yi Ding",
     "scholar_ids": [
-      "yi_ding"
+      "yi_ding",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "Yi Ding"
+      "Yi Ding",
+      "关存太"
     ],
     "source_record_ids": [
       "yi_ding_7a5994f2d8873e3b"
@@ -3774,12 +4207,25 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_bci_decode",
+        "label": "脑机接口、神经解码与情感脑电",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Yi Ding：情感脑电与多模态生理信号"
+      "Yi Ding：情感脑电与多模态生理信号",
+      "关存太：脑机接口、神经解码与情感脑电"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "eeg_affect",
     "primary_category": "情感脑电与多模态生理信号"
   },
@@ -3804,7 +4250,7 @@
     "source_url": "https://dblp.org/rec/conf/ijcnn/TongDLZZG22.html",
     "openalex_id": "https://openalex.org/W4312232654",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 13,
     "abstract_en": "The olfactory system is known to be associated with emotion during odor stimulation. A well-designed computational model that can correctly recognize preference induced by odor stimulation can be vital in the food and perfume industries. Electroencephalogram (EEG) can be used to study the brain's response to odor stimulation due to its good temporal resolution and low acquisition cost. In this study, we proposed a novel self-attention deep learning framework: Temporal Segment Attention Network (TESANet) to classify the brain state of subjects when they are exposed to pleasant and unpleasant odors. Odor stimulation is a continuous process, the temporal dynamics of the EEG signal should reflect the continuous changes of the brain responses to the given odor, thus we design the model to capture the intercorrelation between time segments of the EEG by utilizing the self-attention mechanism. TESANet consists of a filter-bank layer to extract spectral features, a spatial convolution layer to extract spatial features, a temporal segmentation layer to split the data into overlapping time windows, a Long Short-Term Memory (LSTM) layer to encode the temporal segments, a self-attention layer to decode the temporal dynamics by learning the intercorrelation between time segments, and finally a fully connected layer for classification. Experiments on an olfactory EEG dataset demonstrated that the proposed method outperforms other competing deep learning methods for odor pleasantness classification.",
     "abstract_zh": "The olfactory system is known to be associated with emotion during odor stimulation.一个精心设计的计算模型可以正确识别气味刺激引起的偏好，这对于食品和香水行业至关重要。脑电图（EEG）由于其良好的时间分辨率和较低的采集成本，可用于研究大脑对气味刺激的反应。在这项研究中，我们提出了一种新颖的自注意力深度学习框架：时间段注意力网络（TESANet），用于对受试者暴露于令人愉快和不愉快的气味时的大脑状态进行分类。 Odor stimulation is a continuous process, the temporal dynamics of the EEG signal should reflec...",
     "abstract_source": "openalex_doi",
@@ -3822,10 +4268,12 @@
     "scholar_id": "yi_ding",
     "scholar_name": "Yi Ding",
     "scholar_ids": [
-      "yi_ding"
+      "yi_ding",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "Yi Ding"
+      "Yi Ding",
+      "关存太"
     ],
     "source_record_ids": [
       "yi_ding_966fa09d1e4a66f2"
@@ -3846,10 +4294,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Yi Ding：情感脑电与多模态生理信号"
+      "Yi Ding：情感脑电与多模态生理信号",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -3874,13 +4335,14 @@
     "source_url": "https://dblp.org/rec/conf/iccvw/ZhangDWG21.html",
     "openalex_id": "https://openalex.org/W3209279902",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 46,
     "abstract_en": "We propose an audio-visual spatial-temporal deep neural network with: (1) a visual block containing a pre-trained 2D-CNN followed by a temporal convolutional network (TCN); (2) an aural block containing several parallel TCNs; and (3) a leader-follower attentive fusion block combining the audio-visual information. The TCN with large history coverage enables our model to exploit spatial-temporal information within a much larger window length (i.e., 300) than that from the baseline and state-of-the-art methods (i.e., 36 or 48). The fusion block emphasizes the visual modality while exploits the noisy aural modality using the inter-modality attention mechanism. To make full use of the data and alleviate over-fitting, the cross-validation is carried out on the training and validation set. The concordance correlation coefficient (CCC) centering is used to merge the results from each fold. On the test (validation) set of the Aff-Wild2 database, the achieved CCC is 0.463(0.469) for valence and 0.492(0.649) for arousal, which significantly outperforms the baseline method with the corresponding CCC of 0.200(0.210) and 0.190(0.230) for valence and arousal, respectively. The code is available at https://github.com/sucv/ABAW2.",
     "abstract_zh": "我们提出了一种视听时空深度神经网络，其中：（1）一个视觉块，包含一个预训练的 2D-CNN，后跟一个时间卷积网络（TCN）； (2) an aural block containing several parallel TCNs; and (3) a leader-follower attentive fusion block combining the audio-visual information.具有大历史覆盖范围的 TCN 使我们的模型能够在比基线和最先进方法（即 36 或 48）大得多的窗口长度（即 300）内利用时空信息。 The fusion block emphasizes the visual modality while exploits the noisy aural modality using the inter-modality attention mechanism.为充分利用数据和...",
     "abstract_source": "openalex_doi",
     "topics": [
       "脑电基础大模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 89/5503-12）",
     "status": "已索引出版/会议记录",
@@ -3891,10 +4353,12 @@
     "scholar_id": "yi_ding",
     "scholar_name": "Yi Ding",
     "scholar_ids": [
-      "yi_ding"
+      "yi_ding",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "Yi Ding"
+      "Yi Ding",
+      "关存太"
     ],
     "source_record_ids": [
       "yi_ding_d9cf36a9f0470716"
@@ -3920,12 +4384,25 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑电基础大模型",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Yi Ding：脑电基准、数据与评测"
+      "Yi Ding：脑电基准、数据与评测",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "eeg_benchmark",
     "primary_category": "脑电基准、数据与评测"
   },
@@ -3948,13 +4425,14 @@
     "source_url": "https://dblp.org/rec/journals/corr/abs-2107-01175.html",
     "openalex_id": "",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 7,
     "abstract_en": "We propose an audio-visual spatial-temporal deep neural network with: (1) a visual block containing a pretrained 2D-CNN followed by a temporal convolutional network (TCN); (2) an aural block containing several parallel TCNs; and (3) a leader-follower attentive fusion block combining the audio-visual information. The TCN with large history coverage enables our model to exploit spatial-temporal information within a much larger window length (i.e., 300) than that from the baseline and state-of-the-art methods (i.e., 36 or 48). The fusion block emphasizes the visual modality while exploits the noisy aural modality using the inter-modality attention mechanism. To make full use of the data and alleviate over-fitting, cross-validation is carried out on the training and validation set. The concordance correlation coefficient (CCC) centering is used to merge the results from each fold. On the test (validation) set of the Aff-Wild2 database, the achieved CCC is 0.463 (0.469) for valence and 0.492 (0.649) for arousal, which significantly outperforms the baseline method with the corresponding CCC of 0.200 (0.210) and 0.190 (0.230) for valence and arousal, respectively. The code is available at https://github.com/sucv/ABAW2.",
     "abstract_zh": "我们提出了一种视听时空深度神经网络，其中：（1）一个视觉块，包含一个预训练的 2D-CNN，后跟一个时间卷积网络（TCN）； (2) an aural block containing several parallel TCNs; and (3) a leader-follower attentive fusion block combining the audio-visual information.具有大历史覆盖范围的 TCN 使我们的模型能够在比基线和最先进方法（即 36 或 48）大得多的窗口长度（即 300）内利用时空信息。 The fusion block emphasizes the visual modality while exploits the noisy aural modality using the inter-modality attention mechanism.为了充分利用数据和所有...",
     "abstract_source": "arxiv_api",
     "topics": [
       "脑电基础大模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 89/5503-12）",
     "status": "预印本记录",
@@ -3965,10 +4443,12 @@
     "scholar_id": "yi_ding",
     "scholar_name": "Yi Ding",
     "scholar_ids": [
-      "yi_ding"
+      "yi_ding",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "Yi Ding"
+      "Yi Ding",
+      "关存太"
     ],
     "source_record_ids": [
       "yi_ding_6be06834c8798b26"
@@ -3994,12 +4474,25 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑电基础大模型",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Yi Ding：脑电基准、数据与评测"
+      "Yi Ding：脑电基准、数据与评测",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "eeg_benchmark",
     "primary_category": "脑电基准、数据与评测"
   },
@@ -4036,10 +4529,12 @@
     "scholar_id": "yi_ding",
     "scholar_name": "Yi Ding",
     "scholar_ids": [
-      "yi_ding"
+      "yi_ding",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "Yi Ding"
+      "Yi Ding",
+      "关存太"
     ],
     "source_record_ids": [
       "yi_ding_756c78e312424635"
@@ -4056,10 +4551,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_bci_decode",
+        "label": "脑机接口、神经解码与情感脑电",
+        "scholar_name": "关存太",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Yi Ding：脑电基础模型与通用解码"
+      "Yi Ding：脑电基础模型与通用解码",
+      "关存太：脑机接口、神经解码与情感脑电"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -4092,15 +4596,19 @@
     ],
     "verification": "主题筛选候选；重点纳入",
     "status": "候选条目/需按作者主页继续核验",
-    "resource_ids": [],
-    "code_urls": [],
+    "resource_ids": [
+      "res_gh_6f672a1c4685"
+    ],
+    "code_urls": [
+      "https://github.com/deepBrains/TSception"
+    ],
     "data_urls": [],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W3091553737",
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 170,
     "publication_types": "",
     "candidate_source": false,
     "source_kind": "代表论文/官方页面",
@@ -4119,12 +4627,14 @@
     "scholar_id": "yi_ding",
     "scholar_name": "Yi Ding（中文名待核验）",
     "work_title_group": "135df6d762e1",
-    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
-      "yi_ding"
+      "yi_ding",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "Yi Ding（中文名待核验）"
+      "Yi Ding（中文名待核验）",
+      "关存太"
     ],
     "source_record_ids": [
       "yi_ding_d55bb5591ca6"
@@ -4142,15 +4652,30 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑电基础大模型",
+          "脑电情感识别",
+          "脑电数据蒸馏",
+          "多模态脑电学习",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "cc2c8c83fbc43794",
     "primary_categories_by_scholar": [
-      "Yi Ding（中文名待核验）：情感脑电与多模态生理信号"
+      "Yi Ding（中文名待核验）：情感脑电与多模态生理信号",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "dblp_key": "conf/ijcnn/DingRZCWLG20",
-    "abstract_en": "In this paper, we propose a deep learning framework, TSception, for emotion detection from electroencephalogram (EEG). TSception consists of temporal and spatial convolutional layers, which learn discriminative representations in the time and channel domains simultaneously. The temporal learner consists of multi-scale 1D convolutional kernels whose lengths are related to the sampling rate of the EEG signal, which learns multiple temporal and frequency representations. The spatial learner takes advantage of the asymmetry property of emotion responses at the frontal brain area to learn the discriminative representations from the left and right hemispheres of the brain. In our study, a system is designed to study the emotional arousal in an immersive virtual reality (VR) environment. EEG data were collected from 18 healthy subjects using this system to evaluate the performance of the proposed deep learning network for the classification of low and high emotional arousal states. The proposed method is compared with SVM, EEGNet, and LSTM. TSception achieves a high classification accuracy of 86.03%, which outperforms the prior methods significantly (p<; 0.05).",
-    "abstract_source": "openalex_doi",
+    "abstract_en": "In this paper, we propose a deep learning framework, TSception, for emotion detection from electroencephalogram (EEG). TSception consists of temporal and spatial convolutional layers, which learn discriminative representations in the time and channel domains simultaneously. The temporal learner consists of multi-scale 1D convolutional kernels whose lengths are related to the sampling rate of the EEG signal, which learns multiple temporal and frequency representations. The spatial learner takes advantage of the asymmetry property of emotion responses at the frontal brain area to learn the discriminative representations from the left and right hemispheres of the brain. In our study, a system is designed to study the emotional arousal in an immersive virtual reality (VR) environment. EEG data were collected from 18 healthy subjects using this system to evaluate the performance of the proposed deep learning network for the classification of low and high emotional arousal states. The proposed method is compared with SVM, EEGNet, and LSTM. TSception achieves a high classification accuracy of 86.03%, which outperforms the prior methods significantly (p<0.05). The code is available at https://github.com/deepBrains/TSception",
+    "abstract_source": "arxiv_api",
     "pdf_url": "https://arxiv.org/pdf/2004.02965",
     "abstract_zh": "在本文中，我们提出了一种深度学习框架 TSception，用于脑电图 (EEG) 中的情绪检测。 TSception 由时间和空间卷积层组成，它们同时学习时间域和通道域中的判别表示。时间学习器由多尺度一维卷积核组成，其长度与脑电图信号的采样率相关，它学习多个时间和频率表示。空间学习者利用大脑额叶区域情绪反应的不对称特性来学习大脑左半球和右半球的辨别性表征。在我们的研究中，一个系统..."
   },
@@ -4189,10 +4714,12 @@
     "scholar_id": "yi_ding",
     "scholar_name": "Yi Ding",
     "scholar_ids": [
-      "yi_ding"
+      "yi_ding",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "Yi Ding"
+      "Yi Ding",
+      "关存太"
     ],
     "source_record_ids": [
       "yi_ding_aa0772444c02b5e6"
@@ -4211,10 +4738,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Yi Ding：脑电基础模型与通用解码"
+      "Yi Ding：脑电基础模型与通用解码",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -4256,10 +4794,12 @@
     "scholar_id": "yi_ding",
     "scholar_name": "Yi Ding",
     "scholar_ids": [
-      "yi_ding"
+      "yi_ding",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "Yi Ding"
+      "Yi Ding",
+      "关存太"
     ],
     "source_record_ids": [
       "yi_ding_91be88db36f3d5bd"
@@ -4279,10 +4819,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "Yi Ding：情感脑电与多模态生理信号"
+      "Yi Ding：情感脑电与多模态生理信号",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",

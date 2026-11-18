@@ -2114,10 +2114,12 @@
     "model_urls": [],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "chen_yunji"
+      "chen_yunji",
+      "xuanjing_huang"
     ],
     "scholar_names": [
-      "陈云霁"
+      "陈云霁",
+      "黄萱菁"
     ],
     "source_record_ids": [
       "chen_yunji_464aca861bae"
@@ -2132,11 +2134,24 @@
         ],
         "confidence": "high",
         "note": ""
+      },
+      "xuanjing_huang": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "黄萱菁",
+        "secondary_tags": [
+          "硬件/体系结构/编译",
+          "多模态与大语言模型",
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "63b52522737c0302",
     "primary_categories_by_scholar": [
-      "陈云霁：AI编程与软硬件自动设计"
+      "陈云霁：AI编程与软硬件自动设计",
+      "黄萱菁：情感与大模型评测基准、数据集及综述"
     ],
     "abstract_en": "Computer System Architecture serves as a crucial bridge between software applications and the underlying hardware, encompassing components like compilers, CPUs, coprocessors, and RTL designs. Its development, from early mainframes to modern domain-specific architectures, has been driven by rising computational demands and advancements in semiconductor technology. However, traditional paradigms in computer system architecture design are confronting significant challenges, including a reliance on manual expertise, fragmented optimization across software and hardware layers, and high costs associated with exploring expansive design spaces. While automated methods leveraging optimization algorithms and machine learning have improved efficiency, they remain constrained by a single-stage focus, limited data availability, and a lack of comprehensive human domain knowledge. The emergence of large language models offers transformative opportunities for the design of computer system architecture. By leveraging the capabilities of LLMs in areas such as code generation, data analysis, and performance modeling, the traditional manual design process can be transitioned to a machine-based automated design approach. To harness this potential, we present the Large Processor Chip Model (LPCM), an LLM-driven framework aimed at achieving end-to-end automated computer architecture design. The LPCM is structured into three levels: Human-Centric; Agent-Orchestrated; and Model-Governed. This paper utilizes 3D Gaussian Splatting as a representative workload and employs the concept of software-hardware collaborative design to examine the implementation of the LPCM at Level 1, demonstrating the effectiveness of the proposed approach. Furthermore, this paper provides an in-depth discussion on the pathway to implementing Level 2 and Level 3 of the LPCM, along with an analysis of the existing challenges.",
     "abstract_source": "arxiv_api",

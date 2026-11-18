@@ -1,0 +1,260 @@
+[
+  {
+    "id": "res_gh_ff4627eb35ca",
+    "name": "MOSS (OpenMOSS/MOSS)",
+    "name_zh": "MOSS (OpenMOSS/MOSS) — MOSS：开放式会话大语言模型",
+    "type": "code",
+    "url": "https://github.com/OpenMOSS/MOSS",
+    "download_url": "https://github.com/OpenMOSS/MOSS",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "xuanjing_huang",
+    "scholar_name": "黄萱菁",
+    "matched_paper_ids": [
+      "e22b267f49f6fa48"
+    ],
+    "related_paper_titles": [
+      "MOSS: An Open Conversational Large Language Model"
+    ],
+    "related_paper_titles_zh": [
+      "MOSS：开放式会话大语言模型"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1007/S11633-024-1502-8"
+    ],
+    "description": "论文《MOSS：开放式会话大语言模型》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "xuanjing_huang::llm_benchmark_data",
+      "xipeng_qiu::llm_benchmark_data"
+    ],
+    "primary_categories": [
+      "黄萱菁：情感与大模型评测基准、数据集及综述",
+      "邱锡鹏：情感与大模型评测基准、数据集及综述"
+    ]
+  },
+  {
+    "id": "res_gh_53e37e2e62e3",
+    "name": "lemuria-wchen/imcs21",
+    "name_zh": "lemuria-wchen/imcs21 — 自动医疗咨询系统的基准：框架、任务和数据集",
+    "type": "code",
+    "url": "https://github.com/lemuria-wchen/imcs21",
+    "download_url": "https://github.com/lemuria-wchen/imcs21",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "xuanjing_huang",
+    "scholar_name": "黄萱菁",
+    "matched_paper_ids": [
+      "b4a68559da6a4b9c"
+    ],
+    "related_paper_titles": [
+      "A benchmark for automatic medical consultation system: frameworks, tasks and datasets"
+    ],
+    "related_paper_titles_zh": [
+      "自动医疗咨询系统的基准：框架、任务和数据集"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1093/BIOINFORMATICS/BTAC817"
+    ],
+    "description": "论文《自动医疗咨询系统的基准：框架、任务和数据集》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "is_dataset_benchmark": true,
+    "dataset_title": "lemuria-wchen/imcs21",
+    "scholar_category_ids": [
+      "xuanjing_huang::llm_benchmark_data"
+    ],
+    "primary_categories": [
+      "黄萱菁：情感与大模型评测基准、数据集及综述"
+    ]
+  },
+  {
+    "id": "res_gh_bfddd9d89446",
+    "name": "ReForm-Eval (FudanDISC/ReForm-Eval)",
+    "name_zh": "ReForm-Eval (FudanDISC/ReForm-Eval) — ReForm-Eval：通过面向任务的基准的统一重新制定来评估大视觉语言模型",
+    "type": "code",
+    "url": "https://github.com/FudanDISC/ReForm-Eval",
+    "download_url": "https://github.com/FudanDISC/ReForm-Eval",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "xuanjing_huang",
+    "scholar_name": "黄萱菁",
+    "matched_paper_ids": [
+      "b0573b6ae88b5411"
+    ],
+    "related_paper_titles": [
+      "ReForm-Eval: Evaluating Large Vision Language Models via Unified Re-Formulation of Task-Oriented Benchmarks"
+    ],
+    "related_paper_titles_zh": [
+      "ReForm-Eval：通过面向任务的基准的统一重新制定来评估大视觉语言模型"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1145/3664647.3681529"
+    ],
+    "description": "论文《ReForm-Eval：通过面向任务的基准的统一重新制定来评估大视觉语言模型》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "xuanjing_huang::general_foundation"
+    ],
+    "primary_categories": [
+      "黄萱菁：通用预训练大模型、视听生成与基础方法"
+    ]
+  },
+  {
+    "id": "res_gh_ed3bf9327121",
+    "name": "FudanDISC/SocialAgent",
+    "name_zh": "FudanDISC/SocialAgent — 从个人到社会：基于大型语言模型的智能体驱动的社会模拟调查",
+    "type": "code",
+    "url": "https://github.com/FudanDISC/SocialAgent",
+    "download_url": "https://github.com/FudanDISC/SocialAgent",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "xuanjing_huang",
+    "scholar_name": "黄萱菁",
+    "matched_paper_ids": [
+      "1cf2e06f8ed5cf8e"
+    ],
+    "related_paper_titles": [
+      "From Individual to Society: A Survey on Social Simulation Driven by Large Language Model-based Agents"
+    ],
+    "related_paper_titles_zh": [
+      "从个人到社会：基于大型语言模型的智能体驱动的社会模拟调查"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1145/3800683"
+    ],
+    "description": "论文《从个人到社会：基于大型语言模型的智能体驱动的社会模拟调查》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "xuanjing_huang::llm_benchmark_data"
+    ],
+    "primary_categories": [
+      "黄萱菁：情感与大模型评测基准、数据集及综述"
+    ]
+  },
+  {
+    "id": "res_gh_650207f4c16d",
+    "name": "fastnlp/JointCwsParser",
+    "name_zh": "fastnlp/JointCwsParser — 基于图的中文分词与依存句法联合分析模型",
+    "type": "code",
+    "url": "https://github.com/fastnlp/JointCwsParser",
+    "download_url": "https://github.com/fastnlp/JointCwsParser",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "xuanjing_huang",
+    "scholar_name": "黄萱菁",
+    "matched_paper_ids": [
+      "ac0752c729a74706"
+    ],
+    "related_paper_titles": [
+      "A Graph-based Model for Joint Chinese Word Segmentation and Dependency Parsing"
+    ],
+    "related_paper_titles_zh": [
+      "基于图的中文分词与依存句法联合分析模型"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1162/TACL_A_00301"
+    ],
+    "description": "论文《基于图的中文分词与依存句法联合分析模型》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "xuanjing_huang::general_foundation",
+      "xipeng_qiu::general_foundation"
+    ],
+    "primary_categories": [
+      "黄萱菁：通用预训练大模型、视听生成与基础方法",
+      "邱锡鹏：通用预训练大模型、视听生成与基础方法"
+    ]
+  },
+  {
+    "id": "res_gh_d05b2526601a",
+    "name": "zide05/CDEvalSumm",
+    "name_zh": "zide05/CDEvalSumm — 神经摘要系统跨数据集评估的实证研究",
+    "type": "code",
+    "url": "https://github.com/zide05/CDEvalSumm",
+    "download_url": "https://github.com/zide05/CDEvalSumm",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "xuanjing_huang",
+    "scholar_name": "黄萱菁",
+    "matched_paper_ids": [
+      "e865a588de1756a0"
+    ],
+    "related_paper_titles": [
+      "An Empirical Study of Cross-Dataset Evaluation for Neural Summarization Systems"
+    ],
+    "related_paper_titles_zh": [
+      "神经摘要系统跨数据集评估的实证研究"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.18653/V1/2020.FINDINGS-EMNLP.329"
+    ],
+    "description": "论文《神经摘要系统跨数据集评估的实证研究》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "is_dataset_benchmark": true,
+    "dataset_title": "zide05/CDEvalSumm",
+    "scholar_category_ids": [
+      "xuanjing_huang::general_foundation",
+      "xipeng_qiu::general_foundation"
+    ],
+    "primary_categories": [
+      "黄萱菁：通用预训练大模型、视听生成与基础方法",
+      "邱锡鹏：通用预训练大模型、视听生成与基础方法"
+    ]
+  },
+  {
+    "id": "res_gh_f1ffd601edd0",
+    "name": "Self-Polish (WooooDyy/Self-Polish)",
+    "name_zh": "Self-Polish (WooooDyy/Self-Polish) — 自我完善：通过问题细化增强大型语言模型的推理能力",
+    "type": "code",
+    "url": "https://github.com/WooooDyy/Self-Polish",
+    "download_url": "https://github.com/WooooDyy/Self-Polish",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "xuanjing_huang",
+    "scholar_name": "黄萱菁",
+    "matched_paper_ids": [
+      "aff23d3801857480"
+    ],
+    "related_paper_titles": [
+      "Self-Polish: Enhance Reasoning in Large Language Models via Problem Refinement"
+    ],
+    "related_paper_titles_zh": [
+      "自我完善：通过问题细化增强大型语言模型的推理能力"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.18653/V1/2023.FINDINGS-EMNLP.762"
+    ],
+    "description": "论文《自我完善：通过问题细化增强大型语言模型的推理能力》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "xuanjing_huang::general_foundation"
+    ],
+    "primary_categories": [
+      "黄萱菁：通用预训练大模型、视听生成与基础方法"
+    ]
+  },
+  {
+    "id": "res_gh_2f37e1437761",
+    "name": "LongHeads (LuLuLuyi/LongHeads)",
+    "name_zh": "LongHeads (LuLuLuyi/LongHeads) — LongHeads：多头注意力实际上是一个长上下文处理器",
+    "type": "code",
+    "url": "https://github.com/LuLuLuyi/LongHeads",
+    "download_url": "https://github.com/LuLuLuyi/LongHeads",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "xuanjing_huang",
+    "scholar_name": "黄萱菁",
+    "matched_paper_ids": [
+      "310c9fa281a29453"
+    ],
+    "related_paper_titles": [
+      "LongHeads: Multi-Head Attention is Secretly a Long Context Processor"
+    ],
+    "related_paper_titles_zh": [
+      "LongHeads：多头注意力实际上是一个长上下文处理器"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.18653/V1/2024.FINDINGS-EMNLP.417"
+    ],
+    "description": "论文《LongHeads：多头注意力实际上是一个长上下文处理器》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "xuanjing_huang::general_foundation"
+    ],
+    "primary_categories": [
+      "黄萱菁：通用预训练大模型、视听生成与基础方法"
+    ]
+  }
+]
