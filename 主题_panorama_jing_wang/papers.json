@@ -18,7 +18,9 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感大模型",
+      "情感智能"
     ],
     "verification": "Crossref exact title match; DOI URL preserved",
     "status": "已核验作品（Crossref DOI）",
@@ -51,10 +53,12 @@
     "work_title_group": "e860ab8faa6b",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "panorama_jing_wang"
+      "panorama_jing_wang",
+      "hatice_gunes"
     ],
     "scholar_names": [
-      "王晶"
+      "王晶",
+      "Hatice Gunes"
     ],
     "source_record_ids": [
       "panorama_jing_wang_1af8261ac5c5"
@@ -71,15 +75,33 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "hatice_gunes": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Hatice Gunes",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "情感大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "717767a8925f27fd",
     "primary_categories_by_scholar": [
-      "王晶：情感脑电与多模态生理信号"
+      "王晶：情感脑电与多模态生理信号",
+      "Hatice Gunes：自然语言处理、多模态学习与通用方法"
     ],
     "abstract_en": "Emotion regulation (ER) is a crucial skill for managing emotions in everyday life, yet finding a constructive and accessible method to practice ER remains challenging due to cognitive demands. In this study, we explore how regular interactions with a social robot, conducted in a structured yet familiar environment within university halls and departments, can provide effective support for practising ER via cognitive reappraisal. Twenty-one students participated in a five-session study at a university hall or department in the U.K., where the robot (QTrobot, LuxAI), powered by a large language model (GPT 3.5) facilitated structured conversations, encouraging the students to reinterpret emotionally charged situations that they shared with the robot. Quantitative and qualitative results indicate significant improvements in ER, with participants reporting better understanding and control of their emotions, significant changes in constructive ER tendencies and positive effects on mood and sentiment after each session. The findings also demonstrate that repeated interactions with the robot encouraged greater emotional expression, including longer speech disclosures, increased use of affective language, and heightened facial arousal. Notably, expression peaked during key reappraisal moments, particularly when participants were prompted to reinterpret negative experiences. The qualitative feedback further highlighted how the robot fostered introspection and provided a supportive space for discussing emotions, enabling participants to confront long-avoided emotional challenges. These findings demonstrate the potential of robots to effectively assist in ER in familiar environments, offering both emotional support and cognitive guidance",
     "abstract_source": "openalex_verified",
-    "abstract_zh": "情绪调节（ER）是日常生活中管理情绪的一项关键技能，但由于认知需求，寻找一种建设性且易于理解的方法来练习 ER 仍然具有挑战性。在这项研究中，我们探讨了如何在大学礼堂和院系内结构化且熟悉的环境中与社交机器人进行定期互动，如何通过认知重新评估为实践 ER 提供有效支持。 21 名学生参加了在英国大学礼堂或系进行的为期五节的研究，其中由大型语言模型 (GPT 3.5) 驱动的机器人（QTrobot、LuxAI）促进了结构化对话，鼓励学生重新解释情感......"
+    "abstract_zh": "情绪调节（ER）是日常生活中管理情绪的一项关键技能，但由于认知需求，寻找一种建设性且易于理解的方法来练习 ER 仍然具有挑战性。在这项研究中，我们探讨了如何在大学礼堂和院系内结构化且熟悉的环境中与社交机器人进行定期互动，如何通过认知重新评估为实践 ER 提供有效支持。 21 名学生参加了在英国大学礼堂或系进行的为期五节的研究，其中由大型语言模型 (GPT 3.5) 驱动的机器人（QTrobot、LuxAI）促进了结构化对话，鼓励学生重新解释情感......",
+    "dblp_key": "journals/corr/abs-2503-18243",
+    "pdf_url": "https://www.repository.cam.ac.uk/handle/1810/395649"
   },
   {
     "title": "Hierarchical fusion based quality-aware multimodal sentiment analysis for missing modalities",
@@ -98,7 +120,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -174,7 +197,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -257,7 +281,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -294,11 +320,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "panorama_jing_wang",
-      "panorama_6ea6272c5bf0"
+      "panorama_6ea6272c5bf0",
+      "bjorn_schuller"
     ],
     "scholar_names": [
       "王晶",
-      "宗源"
+      "宗源",
+      "Björn W. Schuller"
     ],
     "source_record_ids": [
       "panorama_jing_wang_c9c7620437f0"
@@ -328,12 +356,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bjorn_schuller": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "情感计算与情绪理解",
+          "情感理解",
+          "情感智能"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "c3db135185d5bfaa",
     "primary_categories_by_scholar": [
       "王晶：情感脑电与多模态生理信号",
-      "宗源：脑电基准、数据与评测"
+      "宗源：脑电基准、数据与评测",
+      "Björn W. Schuller：自然语言处理、多模态学习与通用方法"
     ],
     "pdf_url": "https://doi.org/10.1109/taffc.2026.3746232",
     "abstract_en": "Speech emotion recognition (SER) remains challenging when the training (source) and testing (target) data are drawn from different speech corpora, a setting commonly referred to as cross-corpus SER. Although domain adaptation (DA) methods show promise for mitigating this domain shift, many conventional unsupervised DA methods require access to labeled source speech data, limiting their applicability in privacy-sensitive scenarios, e.g., patient recordings from different hospitals. To address this limitation, we investigate a stricter setting of cross-corpus SER, i.e., source-free cross-corpus SER, aligned with the source-free DA (SFDA) paradigm. In this setting, no source speech data are accessible and only a pre-trained source SER model is available. Building on our prior ECAN (emotion-aware contrastive adaptation network), we propose E$^{2}$CAN, an enhanced emotion-aware contrastive adaptation network tailored to source-free cross-corpus SER. To evaluate E$^{2}$CAN, we establish an evaluation protocol on five widely-used speech corpora: CASIA, EmoDB, EMOVO, eNTERFACE, and IEMOCAP, and compare against seven recent state-of-the-art SFDA methods. Experiments demonstrate the effectiveness and superiority of E$^{2}$CAN in addressing source-free cross-corpus SER.",
@@ -433,7 +477,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -515,7 +560,9 @@
       "EEG表征对齐",
       "脑电微调",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；重点纳入",
     "status": "候选条目/需按作者主页继续核验",
@@ -549,11 +596,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "ziyu_jia",
-      "panorama_jing_wang"
+      "panorama_jing_wang",
+      "badong_chen"
     ],
     "scholar_names": [
       "贾子瑜",
-      "王晶"
+      "王晶",
+      "陈霸东"
     ],
     "source_record_ids": [
       "ziyu_jia_f51bd86d8ebb",
@@ -583,16 +632,33 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "badong_chen": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "陈霸东",
+        "secondary_tags": [
+          "脑电基础大模型",
+          "EEG表征对齐",
+          "脑电微调",
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "2d165db5a405ee2c",
     "primary_categories_by_scholar": [
       "贾子瑜：情感脑电与多模态生理信号",
-      "王晶：情感脑电与多模态生理信号"
+      "王晶：情感脑电与多模态生理信号",
+      "陈霸东：脑电基础大模型与自监督预训练"
     ],
     "abstract_en": "The study of the relationship between emotions and physiological signals of subjects under multimedia stimulation is an emerging field, and many important advances are made. However, there are still some challenges: 1) How to effectively utilize the complementarity among spatial-spectral-temporal domain information. 2) How to employ the heterogeneity and the correlation among multi-modal physiological signals simultaneously. 3) How to improve the robustness of the model dealing with missing channels. 4) How to model the dependency among different emotions. In this paper, we propose a novel two-stream Dynamic Heterogeneous Graph Recurrent Neural Network called DHGRNN. Specifically, DHGRNN consists of a spatial-temporal stream, a spatial-spectral stream, a fusion layer, and a multi-label classifier. Each stream is composed of a graph transformer network, evolved graph convolutional neural network, and gated recurrent units. We propose a graph-based two-stream structure to fuse the information of the spatial-spectral-temporal domain simultaneously. Graph transformer network and evolved graph convolutional neural network are used to model the heterogeneity and correlation of multi-modal physiological signals, respectively. To deal with the problem of robustness in the face of missing channel data, we transform it into the problem of dynamic graphs and use a dynamic graph neural network to improve the robustness. In addition, we propose a multi-label classifier to model the dependency among different emotion dimensions. Experiments on three public datasets demonstrate that our proposed model outperforms existing state-of-the-art methods.",
     "abstract_source": "openalex_verified",
-    "abstract_zh": "多媒体刺激下受试者情绪与生理信号关系的研究是一个新兴领域，并取得了许多重要进展。然而，仍然存在一些挑战：1）如何有效利用空间-谱-时域信息之间的互补性。 2）如何同时利用多模态生理信号之间的异质性和相关性。 3）如何提高模型处理缺失通道的鲁棒性。 4）如何建模不同情绪之间的依赖关系。在本文中，我们提出了一种新颖的双流动态异构图循环神经网络，称为 DHGRNN。具体来说，DHGRNN..."
+    "abstract_zh": "多媒体刺激下受试者情绪与生理信号关系的研究是一个新兴领域，并取得了许多重要进展。然而，仍然存在一些挑战：1）如何有效利用空间-谱-时域信息之间的互补性。 2）如何同时利用多模态生理信号之间的异质性和相关性。 3）如何提高模型处理缺失通道的鲁棒性。 4）如何建模不同情绪之间的依赖关系。在本文中，我们提出了一种新颖的双流动态异构图循环神经网络，称为 DHGRNN。具体来说，DHGRNN...",
+    "dblp_key": "journals/taffco/WangFNLCJ25"
   },
   {
     "title": "Cross-modality fusion with EEG and text for enhanced emotion detection in English writing",
@@ -762,7 +828,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -839,7 +906,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -916,7 +984,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -993,7 +1062,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1069,7 +1139,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1226,7 +1297,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1320,7 +1392,9 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "强化学习与决策优化"
+      "强化学习与决策优化",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1548,7 +1622,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1701,7 +1776,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验",
     "status": "候选条目/需按作者主页继续核验",
@@ -1930,7 +2006,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2006,7 +2083,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2082,7 +2160,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2316,7 +2395,8 @@
       "EEG表征对齐",
       "脑电微调",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；重点纳入",
     "status": "候选条目/需按作者主页继续核验",
@@ -2565,7 +2645,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",

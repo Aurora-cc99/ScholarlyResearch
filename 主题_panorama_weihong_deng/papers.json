@@ -217,7 +217,9 @@
     "abstract_en": "Transitive inference (TI) is a critical form of deductive reasoning, essential to both human and animal cognition. This study explores whether state-of-the-art large language models (LLMs) possess TI capabilities and examines the impact of two emerging prompting methods on model performance. Four LLMs—GPT-3.5-Turbo, GPT-4, Llama3-8B, and Qwen—are evaluated using a TI task involving a 10-item hierarchy. Results indicate that these models demonstrate solid performance, along with human-like behavioral effects such as the symbolic distance effect, terminal item effect, and context effect. The sequence of input premises significantly affects model accuracy, with all models showing a preference for the chain condition over the jump condition. Two prompting methods — Model Confidence prompts (likelihood tests) and Chain-of-Thought prompts—are applied in order to further enhance TI performance. While GPT-4 benefits the most from these prompts, other models experience a decline in performance. Additionally, behavioral biases like the terminal item effect persist and are even amplified following prompt adjustments. Therefore, specific prompting methods may not be universally effective across different models, and in some cases, may cause adverse effects. Further research is needed to better understand the nature of TI in LLMs.",
     "abstract_zh": "传递推理 (TI) 是演绎推理的一种重要形式，对于人类和动物认知都至关重要。本研究探讨了最先进的大语言模型 (LLM) 是否具有 TI 功能，并检验了两种新兴提示方法对模型性能的影响。四个 LLM（GPT-3.5-Turbo、GPT-4、Llama3-8B 和 Qwen）使用涉及 10 项层次结构的 TI 任务进行评估。结果表明，这些模型表现出可靠的性能，以及类似人类的行为效应，例如符号距离效应、终端项目效应和情境效应。输入前提的顺序显着影响模型的准确性，所有模型都显示出对链条件优于跳跃条件的偏好。特...",
     "abstract_source": "openalex_verified",
-    "topics": [],
+    "topics": [
+      "情感大模型"
+    ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5025452586）",
     "status": "已索引出版/会议记录",
     "source_kind": "openalex_verified",
@@ -410,7 +412,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -846,7 +849,8 @@
     "topics": [
       "情感计算与情绪理解",
       "强化学习与决策优化",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5025452586）",
     "status": "已索引出版/会议记录",
@@ -911,7 +915,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1261,7 +1267,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1473,7 +1480,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1556,7 +1565,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2043,7 +2053,7 @@
       "Guoqing Zhao"
     ],
     "doi": "10.21437/interspeech.2024-243",
-    "dblp_key": "",
+    "dblp_key": "conf/interspeech/MengLHWXQDLJZ24",
     "paper_url": "https://doi.org/10.21437/interspeech.2024-243",
     "pdf_url": "",
     "source_url": "https://openalex.org/W4402112341",
@@ -2063,10 +2073,12 @@
     "scholar_id": "panorama_weihong_deng",
     "scholar_name": "邓伟洪",
     "scholar_ids": [
-      "panorama_weihong_deng"
+      "panorama_weihong_deng",
+      "lei_xie_nwpu"
     ],
     "scholar_names": [
-      "邓伟洪"
+      "邓伟洪",
+      "谢磊"
     ],
     "source_record_ids": [
       "panorama_weihong_deng_5cb982bbc3a7112d"
@@ -2083,10 +2095,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "lei_xie_nwpu": {
+        "category_id": "affect_dataset_eval",
+        "label": "情感理解数据集、评测基准与综述",
+        "scholar_name": "谢磊",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "邓伟洪：脑电基础模型与通用解码"
+      "邓伟洪：脑电基础模型与通用解码",
+      "谢磊：情感理解数据集、评测基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -2259,7 +2280,9 @@
     "abstract_zh": "面部表情识别（FER）作为情感计算的重要组成部分受到了广泛的关注。考虑到其歧义性和多样性，复合表达识别受到了更多的关注。由于情绪是由肌肉群的收缩产生的，因此动作单位 (AU) 分析在 FER 中起着至关重要的作用。然而，化合物表达的AU分析仅在实验室进行，缺乏手动注释化合物表达和AU的真实数据库。我们构建了一个真实世界的复合情感情感面孔数据库（RAF-CE），其中包含复合表情标签和 AU 标签。我们在 RAF-CE 上进行的复合面部表情的 AU 分析表明，AU 模式和 AU 频率......",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5025452586）",
     "status": "已索引出版/会议记录",
@@ -2321,7 +2344,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2990,7 +3014,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3139,7 +3165,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3288,7 +3315,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3365,7 +3393,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3457,7 +3487,9 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5025452586）",
     "status": "已索引出版/会议记录",
@@ -3468,10 +3500,12 @@
     "scholar_id": "panorama_weihong_deng",
     "scholar_name": "邓伟洪",
     "scholar_ids": [
-      "panorama_weihong_deng"
+      "panorama_weihong_deng",
+      "jufeng_yang"
     ],
     "scholar_names": [
-      "邓伟洪"
+      "邓伟洪",
+      "杨巨峰"
     ],
     "source_record_ids": [
       "panorama_weihong_deng_2e7138a03e136e08"
@@ -3491,10 +3525,24 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "jufeng_yang": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "杨巨峰",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "情感理解",
+          "情感智能"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "邓伟洪：情感脑电与多模态生理信号"
+      "邓伟洪：情感脑电与多模态生理信号",
+      "杨巨峰：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -3517,7 +3565,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3658,7 +3708,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -4254,7 +4306,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -4952,7 +5005,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5025452586）",
     "status": "已索引出版/会议记录",
@@ -5541,7 +5595,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -5992,7 +6047,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -6641,7 +6697,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -6913,7 +6970,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -8198,7 +8256,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -8276,7 +8335,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -8357,7 +8417,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -9693,7 +9754,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -10226,7 +10288,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -10634,7 +10697,8 @@
     "abstract_zh": "最先进的方法在面部表情检测方面具有非常高的性能。然而，以往的这些工作几乎都是在严格控制的环境下进行的，而且忽略了数据不平衡的影响。构建了一个新的数据库 RAF-DB，以提供丰富的图像，这些图像带有不同人在不同现实条件下的表情标签。注释结果表明，现实世界中的情感呈现出强烈的不平衡分布。为了解决这个问题，我们使用几种提出的不平衡学习方法在 RAF-DB 上进行了实验。还提出了一种新的面部瞄准方法 VFSG，它在过采样方法中表现良好。此外，我们还探讨了...的其他一些并发症。",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5025452586）",
     "status": "已索引出版/会议记录",
@@ -10884,7 +10948,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -11774,7 +11839,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",

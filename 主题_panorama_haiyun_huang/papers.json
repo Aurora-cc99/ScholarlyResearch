@@ -1062,7 +1062,8 @@
     "abstract_source": "",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5065911421）",
     "status": "已索引出版/会议记录",
@@ -1429,7 +1430,8 @@
     "abstract_zh": "背景：分娩恐惧（FOC）已被证明会对孕妇的身心健康产生不利影响。然而，之前的大多数研究仅探讨了影响 FOC 的某些因素，并没有始终如一地跟踪出生结局和哺乳开始。本研究旨在了解孕妇产前FOC的发生情况，分析影响这种恐惧的因素，探讨广泛性焦虑症（GAD）与FOC的关系，并探讨这种恐惧对分娩结局和哺乳开始的影响。方法：选取2018年8月至11月期间在武汉市住院分娩的237名孕妇。中文版生育态度问卷...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5065911421）",
     "status": "已索引出版/会议记录",
@@ -2090,7 +2092,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 51/2525-1）",
     "status": "已索引出版/会议记录",
@@ -2581,7 +2584,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2686,7 +2690,9 @@
     "abstract_en": "Amidst the swift progression of neural networks, numerous strategies have been put forward to address the issue of image denoising under the strong supervision of large-scale datasets. Leveraging self-supervised blind-spot networks to tackle spatially correlated noise in real-world scenarios presents a significant and daunting obstacle. In this paper, we introduce an innovative method for denoising based on multi-branch blind-spot network with PD-random replace refinement (MBPDR3) to overcome information loss. Extensive research has shown that the proposed method is substantially superior to other self-supervised methods, and the efficacy of the proposed approach is demonstrated through extensive experimentation, yielding superior performance on both synthetic and real datasets.",
     "abstract_zh": "随着神经网络的快速发展，人们提出了许多策略来解决大规模数据集的强监督下的图像去噪问题。利用自监督盲点网络来解决现实场景中的空间相关噪声是一个重大而艰巨的障碍。在本文中，我们介绍了一种基于多分支盲点网络和 PD 随机替换细化（MBPDR3）的创新去噪方法，以克服信息丢失。广泛的研究表明，所提出的方法大大优于其他自监督方法，并且所提出方法的有效性通过广泛的实验得到证明，产生了优越的性能...",
     "abstract_source": "openalex_verified",
-    "topics": [],
+    "topics": [
+      "脑电基础大模型"
+    ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5065911421）",
     "status": "已索引出版/会议记录",
     "source_kind": "openalex_verified",
@@ -2746,7 +2752,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2956,7 +2963,8 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3448,7 +3456,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 51/2525-1）",
     "status": "已索引出版/会议记录",
@@ -3655,7 +3664,8 @@
     "topics": [
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 51/2525-1）",
     "status": "已索引出版/会议记录",
@@ -3762,7 +3772,9 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3902,7 +3914,8 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -4861,7 +4874,8 @@
       "脑电情感识别",
       "脑机接口与神经解码",
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",

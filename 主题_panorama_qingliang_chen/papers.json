@@ -1529,7 +1529,8 @@
     "abstract_zh": "基于方面的情感分类（ABSC）是情感分析（SA）的一个非常具有挑战性的子任务，并且受到类别不平衡的严重影响。现有方法仅独立处理句子，没有考虑句子之间的领域级关系，无法为类不平衡问题提供有效的解决方案。从直观的角度来看，同一领域的句子往往具有高层语义联系。它们的高级语义特征的交互可以迫使模型产生更好的语义表示，并更好地发现句子之间的相似性和细微差别。在这个想法的驱动下，我们提出了一个即插即用的成对语义交互（PSI）模块，它采用成对发送的...",
     "abstract_source": "arxiv_api",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5016292021）",
     "status": "已索引出版/会议记录",
@@ -1585,7 +1586,8 @@
     "source_url": "",
     "topics": [
       "情感理解与情感智能",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1996,7 +1998,8 @@
     "abstract_zh": "基于图的基于方面的情感分类（ABSC）方法已经取得了最先进的结果，特别是在配备了来自预训练语言模型（PLM）的上下文词嵌入时。然而，它们忽略了上下文的顺序特征并且尚未充分利用 PLM。在本文中，我们提出了一种新颖的模型 BERT4GCN，它集成了来自 BERT PLM 的语法顺序特征和来自 BERT 的句法知识依赖图。BERT4GCN 利用 BERT 中间层的输出和单词之间的位置信息来增强 GCN（图卷积网络），以更好地编码下游分类的依赖图。实验结果表明，所提出的 BERT4GC...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5016292021）",
     "status": "已索引出版/会议记录",
@@ -4713,11 +4716,15 @@
     "scholar_name": "陶建华",
     "scholar_ids": [
       "jianhua_tao",
-      "panorama_qingliang_chen"
+      "panorama_qingliang_chen",
+      "chengqing_zong",
+      "elisabeth_andre"
     ],
     "scholar_names": [
       "陶建华",
-      "陈清亮"
+      "陈清亮",
+      "宗成庆",
+      "Elisabeth André"
     ],
     "source_record_ids": [
       "jianhua_tao_271e0313092064b3"
@@ -4746,11 +4753,33 @@
         ],
         "confidence": "low",
         "note": ""
+      },
+      "chengqing_zong": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "宗成庆",
+        "secondary_tags": [
+          "强化学习与决策优化"
+        ],
+        "confidence": "low",
+        "note": ""
+      },
+      "elisabeth_andre": {
+        "category_id": "affective_hci_emp",
+        "label": "情感智能交互、共情对话与社会信号",
+        "scholar_name": "Elisabeth André",
+        "secondary_tags": [
+          "强化学习与决策优化"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "陶建华：脑电基础模型与通用解码",
-      "陈清亮：情感理解与多模态推理"
+      "陈清亮：情感理解与多模态推理",
+      "宗成庆：视觉感知、语音信号与通用人工智能",
+      "Elisabeth André：情感智能交互、共情对话与社会信号"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -6517,7 +6546,9 @@
     "abstract_en": "Phychological healthy is one of the most important parts of health. In morden society phy-choloical healthy has been regarded as the important problem to which the people pay more attention. However,in some enterprises, especially in some heavy industries, the workers phychological health is neglected. In order to know more about the standards of phychological health in steel industry ,we have done some investigations in Guizhou steel enterprises and discovered that the workers of steel industry in Guizhou is much lower than the standards of normal adult on national average.",
     "abstract_zh": "心理健康是健康最重要的部分之一。现代社会心理健康已成为人们普遍关注的重要问题。然而，在一些企业，特别是一些重工业，职工的心理健康却被忽视。为了进一步了解钢铁行业的心理健康标准，我们对贵州钢铁企业进行了调查，发现贵州钢铁行业职工的心理健康水平远低于全国平均正常成年人的标准。",
     "abstract_source": "openalex_verified",
-    "topics": [],
+    "topics": [
+      "情感智能"
+    ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5016292021）",
     "status": "已索引出版/会议记录",
     "source_kind": "openalex_verified",
@@ -6577,7 +6608,8 @@
     "abstract_zh": "本文对贵州、湖南、四川等省部分贫困山区82名农村劳动力的焦虑状况进行了研究分析。结果表明，农村劳动力处于高度焦虑状态，大多数人经常感到紧张、焦虑、不安、不快乐，这种情况正在成为影响农村劳动力心理健康的主要因素。",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5016292021）",
     "status": "已索引出版/会议记录",
@@ -6692,7 +6724,8 @@
     "source_url": "",
     "topics": [
       "情感理解与情感智能",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",

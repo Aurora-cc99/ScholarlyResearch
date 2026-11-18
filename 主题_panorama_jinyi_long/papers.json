@@ -1826,7 +1826,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 33/10653）",
     "status": "已索引出版/会议记录",
@@ -1885,7 +1886,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2587,7 +2589,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5042542454）",
     "status": "已索引出版/会议记录",
@@ -3899,10 +3902,12 @@
     "scholar_id": "panorama_jinyi_long",
     "scholar_name": "龙锦益",
     "scholar_ids": [
-      "panorama_jinyi_long"
+      "panorama_jinyi_long",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "龙锦益"
+      "龙锦益",
+      "俞祝良"
     ],
     "source_record_ids": [
       "panorama_jinyi_long_a62b413ea2126b4c"
@@ -3919,10 +3924,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "龙锦益：脑电基准、数据与评测"
+      "龙锦益：脑电基准、数据与评测",
+      "俞祝良：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -8212,12 +8226,14 @@
     "scholar_ids": [
       "yuanqing_li",
       "panorama_jinyi_long",
-      "panorama_jiahui_pan"
+      "panorama_jiahui_pan",
+      "zhuliang_yu"
     ],
     "scholar_names": [
       "李远清",
       "龙锦益",
-      "潘家辉"
+      "潘家辉",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_f4af96fe0478"
@@ -8266,13 +8282,29 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与脑信息处理",
+          "情绪调控与意识障碍康复",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "b72f1d28fd721801",
     "primary_categories_by_scholar": [
       "李远清：情感脑电与多模态生理信号",
       "龙锦益：脑电基准、数据与评测",
-      "潘家辉：脑电基准、数据与评测"
+      "潘家辉：脑电基准、数据与评测",
+      "俞祝良：生理情感数据库、基准与综述"
     ],
     "dblp_key": "journals/pieee/LiPLYWYW16",
     "pdf_url": "https://doi.org/10.1109/jproc.2015.2469106",
@@ -9671,11 +9703,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "yuanqing_li",
-      "panorama_jinyi_long"
+      "panorama_jinyi_long",
+      "zhuliang_yu"
     ],
     "scholar_names": [
       "李远清",
-      "龙锦益"
+      "龙锦益",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_c4148e6abbdc"
@@ -9709,12 +9743,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与脑信息处理",
+          "情绪调控与意识障碍康复",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "54b2dcbb2da3de81",
     "primary_categories_by_scholar": [
       "李远清：情感脑电与多模态生理信号",
-      "龙锦益：脑电基础模型与通用解码"
+      "龙锦益：脑电基础模型与通用解码",
+      "俞祝良：脑电情感识别与多模态生理计算"
     ],
     "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0020801&type=printable",
     "abstract_en": "One of the central questions in cognitive neuroscience is the precise neural representation, or brain pattern, associated with a semantic category. In this study, we explored the influence of audiovisual stimuli on the brain patterns of concepts or semantic categories through a functional magnetic resonance imaging (fMRI) experiment. We used a pattern search method to extract brain patterns corresponding to two semantic categories: \"old people\" and \"young people.\" These brain patterns were elicited by semantically congruent audiovisual, semantically incongruent audiovisual, unimodal visual, and unimodal auditory stimuli belonging to the two semantic categories. We calculated the reproducibility index, which measures the similarity of the patterns within the same category. We also decoded the semantic categories from these brain patterns. The decoding accuracy reflects the discriminability of the brain patterns between two categories. The results showed that both the reproducibility index of brain patterns and the decoding accuracy were significantly higher for semantically congruent audiovisual stimuli than for unimodal visual and unimodal auditory stimuli, while the semantically incongruent stimuli did not elicit brain patterns with significantly higher reproducibility index or decoding accuracy. Thus, the semantically congruent audiovisual stimuli enhanced the within-class reproducibility of brain patterns and the between-class discriminability of brain patterns, and facilitate neural representations of semantic categories or concepts. Furthermore, we analyzed the brain activity in superior temporal sulcus and middle temporal gyrus (STS/MTG). The strength of the fMRI signal and the reproducibility index were enhanced by the semantically congruent audiovisual stimuli. Our results support the use of the reproducibility index as a potential tool to supplement the fMRI signal amplitude for evaluating multimodal integration.",
@@ -9781,11 +9831,15 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "yuanqing_li",
-      "panorama_jinyi_long"
+      "panorama_jinyi_long",
+      "cuntai_guan",
+      "zhuliang_yu"
     ],
     "scholar_names": [
       "李远清",
-      "龙锦益"
+      "龙锦益",
+      "关存太",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_4bdda2dba75f"
@@ -9819,12 +9873,44 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑机接口与脑信息处理",
+          "情绪调控与意识障碍康复",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与脑信息处理",
+          "情绪调控与意识障碍康复",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "08c5c0b675062b7f",
     "primary_categories_by_scholar": [
       "李远清：情感脑电与多模态生理信号",
-      "龙锦益：脑电基础模型与通用解码"
+      "龙锦益：脑电基础模型与通用解码",
+      "关存太：脑电基础大模型与自监督预训练",
+      "俞祝良：脑电情感识别与多模态生理计算"
     ],
     "dblp_key": "journals/tbe/LiLYYWZG10",
     "abstract_en": "Two-dimensional cursor control is an important and challenging issue in EEG-based brain-computer interfaces (BCIs). To address this issue, here we propose a new approach by combining two brain signals including Mu/Beta rhythm during motor imagery and P300 potential. In particular, a motor imagery detection mechanism and a P300 potential detection mechanism are devised and integrated such that the user is able to use the two signals to control, respectively, simultaneously, and independently, the horizontal and the vertical movements of the cursor in a specially designed graphic user interface. A real-time BCI system based on this approach is implemented and evaluated through an online experiment involving six subjects performing 2-D control tasks. The results attest to the efficacy of obtaining two independent control signals by the proposed approach. Furthermore, the results show that the system has merit compared with prior systems: it allows cursor movement between arbitrary positions.",
@@ -10016,11 +10102,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "yuanqing_li",
-      "panorama_jinyi_long"
+      "panorama_jinyi_long",
+      "zhuliang_yu"
     ],
     "scholar_names": [
       "李远清",
-      "龙锦益"
+      "龙锦益",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_1bb2644b429d"
@@ -10054,12 +10142,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与脑信息处理",
+          "情绪调控与意识障碍康复",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "d98534a7e92ac2fd",
     "primary_categories_by_scholar": [
       "李远清：情感脑电与多模态生理信号",
-      "龙锦益：脑电基础模型与通用解码"
+      "龙锦益：脑电基础模型与通用解码",
+      "俞祝良：脑电情感识别与多模态生理计算"
     ],
     "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11571-010-9114-0.pdf"
   },
@@ -10123,11 +10227,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "yuanqing_li",
-      "panorama_jinyi_long"
+      "panorama_jinyi_long",
+      "cuntai_guan"
     ],
     "scholar_names": [
       "李远清",
-      "龙锦益"
+      "龙锦益",
+      "关存太"
     ],
     "source_record_ids": [
       "yuanqing_li_63f4b3f142a3"
@@ -10161,12 +10267,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑机接口与脑信息处理",
+          "情绪调控与意识障碍康复",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "be52fe45d54c4589",
     "primary_categories_by_scholar": [
       "李远清：情感脑电与多模态生理信号",
-      "龙锦益：脑电基础模型与通用解码"
+      "龙锦益：脑电基础模型与通用解码",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "abstract_en": "In this paper, a hybrid EEG-based brain computer interface (BCI) is designed for two-dimensional cursor control. In our approach, two brain activity patterns, i.e., motor imagery and P300 potential, are used for controlling the horizontal and the vertical movements of the cursor respectively. A real-time BCI system based on this approach is implemented and evaluated through an online experiment. Six subjects attending this experiment can perform 2-D cursor control effectively. Our experimental results show that the system has the following merits compared with prior systems: 1) it does not rely on intensive user training; 2) it allows cursor movement between arbitrary positions.",
     "abstract_source": "openalex_verified",

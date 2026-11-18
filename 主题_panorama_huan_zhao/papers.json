@@ -26,7 +26,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感大模型"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5004305313）",
     "status": "已索引出版/会议记录",
@@ -91,7 +92,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -239,7 +242,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -482,7 +486,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感大模型"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 15/3548-3）",
     "status": "已索引出版/会议记录",
@@ -812,7 +817,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -967,7 +973,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5004305313）",
     "status": "已索引出版/会议记录",
@@ -1036,7 +1043,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1279,7 +1287,9 @@
     "abstract_source": "openalex_doi",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感大模型",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 15/3548-3）",
     "status": "已索引出版/会议记录",
@@ -1489,7 +1499,8 @@
     "abstract_zh": "预训练语音模型 (PSM) 使用来自大规模数据集的自监督或弱监督学习来生成通用语音表示。当针对语音情感识别 (SER) 等特定任务进行微调时，它可以实现令人鼓舞的性能。然而，对各种数据集的微调需要存储整个模型的权重参数，这使得实际部署变得复杂。此外，集中式微调依赖于用户数据，带来重大隐私风险。为了应对这些挑战，我们建议采用联邦学习（FL）通过参数高效微调（PEFT）方法来微调 PSM。通过在预训练模型的前馈层中嵌入可训练层，我们保持主干模型......",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 15/3548-3）",
     "status": "已索引出版/会议记录",
@@ -1632,7 +1643,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 15/3548-3）",
     "status": "预印本记录",
@@ -1763,7 +1775,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 15/3548-3）",
     "status": "已索引出版/会议记录",
@@ -1832,7 +1845,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1986,7 +2000,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 15/3548-3）",
     "status": "已索引出版/会议记录",
@@ -2601,10 +2616,12 @@
     "scholar_id": "panorama_huan_zhao",
     "scholar_name": "赵欢",
     "scholar_ids": [
-      "panorama_huan_zhao"
+      "panorama_huan_zhao",
+      "bjorn_schuller"
     ],
     "scholar_names": [
-      "赵欢"
+      "赵欢",
+      "Björn W. Schuller"
     ],
     "source_record_ids": [
       "panorama_huan_zhao_e2050c2401b5e329"
@@ -2623,10 +2640,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bjorn_schuller": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "赵欢：脑电基准、数据与评测"
+      "赵欢：脑电基准、数据与评测",
+      "Björn W. Schuller：自然语言处理、多模态学习与通用方法"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -2656,7 +2684,10 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感大模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2738,7 +2769,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2830,7 +2862,8 @@
     "abstract_zh": "得益于云和边缘计算的优势，基于联邦学习（FL）的语音情感识别（SER）任务可以很好地扩展到云-边-端生态系统。它旨在描述情绪，同时保护数据隐私。然而，数据异构性导致的灾难性遗忘、潜在的系统攻击以及可能的隐私泄露和参数共享带来的通信开销限制了其突破。 Some schemes that attempt to tackle the FL bottleneck do not consider these issues comprehensively.我们提出了一种基于联合蒸馏的多重防御方法（FedMud），该方法同时考虑如何平衡系统性能、隐私安全和通信开销。首先，它采用...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 15/3548-3）",
     "status": "已索引出版/会议记录",
@@ -2891,7 +2924,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3110,7 +3144,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3324,7 +3359,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3414,7 +3450,9 @@
     "abstract_zh": "After its inception, emotion recognition or affective computing has increasingly become an active research topic due to its broad applications.相应的计算模型已逐渐从统计上的浅层模型迁移到基于神经网络的深层模型，可以显着提高情感识别的性能，并在不同的基准上持续取得最佳结果，因此被认为是情感识别的首选。然而，诸如ChatGPT和GPT4之类的大型语言模型（LLM）的出现，因其所出现的零/少样本学习、上下文学习（ICL）、思维链以及其他以前从未展示过的能力而震惊了世界。",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 15/3548-3）",
     "status": "已索引出版/会议记录",
@@ -3425,10 +3463,12 @@
     "scholar_id": "panorama_huan_zhao",
     "scholar_name": "赵欢",
     "scholar_ids": [
-      "panorama_huan_zhao"
+      "panorama_huan_zhao",
+      "bjorn_schuller"
     ],
     "scholar_names": [
-      "赵欢"
+      "赵欢",
+      "Björn W. Schuller"
     ],
     "source_record_ids": [
       "panorama_huan_zhao_f2f944757b78e59f"
@@ -3447,10 +3487,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bjorn_schuller": {
+        "category_id": "affect_int_llm",
+        "label": "情感大模型、知识推理与评测基准",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解",
+          "情感智能"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "赵欢：情感脑电与多模态生理信号"
+      "赵欢：情感脑电与多模态生理信号",
+      "Björn W. Schuller：情感大模型、知识推理与评测基准"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -3541,7 +3594,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3628,7 +3682,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3779,7 +3834,7 @@
       "Lei Xie"
     ],
     "doi": "10.21437/interspeech.2024-2343",
-    "dblp_key": "",
+    "dblp_key": "conf/interspeech/MaGSJWXXZZX24",
     "paper_url": "https://doi.org/10.21437/interspeech.2024-2343",
     "pdf_url": "https://arxiv.org/pdf/2406.05763",
     "source_url": "https://openalex.org/W4402111455",
@@ -3800,11 +3855,13 @@
     "scholar_name": "薛柳萌",
     "scholar_ids": [
       "panorama_117e02335c9b",
-      "panorama_huan_zhao"
+      "panorama_huan_zhao",
+      "lei_xie_nwpu"
     ],
     "scholar_names": [
       "薛柳萌",
-      "赵欢"
+      "赵欢",
+      "谢磊"
     ],
     "source_record_ids": [
       "panorama_117e02335c9b_d51fa3907661a5df"
@@ -3829,11 +3886,20 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "lei_xie_nwpu": {
+        "category_id": "sentiment_nlp",
+        "label": "文本情感分析、情绪原因与认知语义",
+        "scholar_name": "谢磊",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "薛柳萌：脑电基准、数据与评测",
-      "赵欢：脑电基准、数据与评测"
+      "赵欢：脑电基准、数据与评测",
+      "谢磊：文本情感分析、情绪原因与认知语义"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -4131,7 +4197,9 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感大模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -4164,10 +4232,12 @@
     "work_title_group": "45b0aa161fcb",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "panorama_huan_zhao"
+      "panorama_huan_zhao",
+      "bjorn_schuller"
     ],
     "scholar_names": [
-      "赵欢"
+      "赵欢",
+      "Björn W. Schuller"
     ],
     "source_record_ids": [
       "panorama_huan_zhao_58e4677f42b9"
@@ -4184,11 +4254,27 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "bjorn_schuller": {
+        "category_id": "affect_int_llm",
+        "label": "情感大模型、知识推理与评测基准",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "情感大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "64cecad79550386d",
     "primary_categories_by_scholar": [
-      "赵欢：情感脑电与多模态生理信号"
+      "赵欢：情感脑电与多模态生理信号",
+      "Björn W. Schuller：情感大模型、知识推理与评测基准"
     ],
     "dblp_key": "conf/icassp/Peng0PHZCS24",
     "pdf_url": "https://arxiv.org/pdf/2310.14225",
@@ -4216,7 +4302,8 @@
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
       "多模态与大语言模型",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -4377,7 +4464,8 @@
     "abstract_zh": "基于联邦学习 (FL) 的语音情绪识别 (SER) 框架旨在在描述情绪时保护数据隐私。然而，之前的研究表明该框架很容易受到攻击，因为好奇的服务器可以间接推断出用户的私人信息。为了应对这一挑战，我们提出了一种新颖的隐私增强 SER 方法来抵御属性推断攻击。在 FL 下上传共享模型更新之前，它有助于过滤敏感信息并注意突出情感特征。首先，双向循环神经网络捕获序列中的潜在表示以丢弃部分冗余特征。然后，应用特征注意机制来关注后期的显着区域......",
     "abstract_source": "openalex_doi",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 15/3548-3）",
     "status": "已索引出版/会议记录",
@@ -4440,7 +4528,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -4473,10 +4563,12 @@
     "work_title_group": "75f7517d0554",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "panorama_huan_zhao"
+      "panorama_huan_zhao",
+      "bjorn_schuller"
     ],
     "scholar_names": [
-      "赵欢"
+      "赵欢",
+      "Björn W. Schuller"
     ],
     "source_record_ids": [
       "panorama_huan_zhao_90456e807190"
@@ -4493,11 +4585,27 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "bjorn_schuller": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "情感计算与情绪理解",
+          "情感理解",
+          "情感智能"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "6d3c1a69e81bbdc3",
     "primary_categories_by_scholar": [
-      "赵欢：情感脑电与多模态生理信号"
+      "赵欢：情感脑电与多模态生理信号",
+      "Björn W. Schuller：自然语言处理、多模态学习与通用方法"
     ],
     "dblp_key": "journals/corr/abs-2308-11578",
     "abstract_en": "After the inception of emotion recognition or affective computing, it has increasingly become an active research topic due to its broad applications. Over the past couple of decades, emotion recognition models have gradually migrated from statistically shallow models to neural network-based deep models, which can significantly boost the performance of emotion recognition models and consistently achieve the best results on different benchmarks. Therefore, in recent years, deep models have always been considered the first option for emotion recognition. However, the debut of large language models (LLMs), such as ChatGPT, has remarkably astonished the world due to their emerged capabilities of zero/few-shot learning, in-context learning, chain-of-thought, and others that are never shown in previous deep models. In the present paper, we comprehensively investigate how the LLMs perform in emotion recognition in terms of diverse aspects, including in-context learning, few-short learning, accuracy, generalisation, and explanation. Moreover, we offer some insights and pose other potential challenges, hoping to ignite broader discussions about enhancing emotion recognition in the new era of advanced and generalised large models.",
@@ -4531,7 +4639,8 @@
     "abstract_zh": "语音情感识别（SER）是一项在语音特征和情感标签之间定制匹配函数的任务。 Speech data have higher information saturation than images and stronger temporal coherence than text.当使用为图像或文本设计的特征提取器时，这使得完全有效地学习语音特征变得具有挑战性。 In this paper, we propose a novel semi-supervised framework for extracting spatial and temporal features from speech, called the ACG-EmoCluster.该框架配备了一个特征提取器，用于同时提取空间和时间特征，以及一个聚类分类器，用于通过无监督学习增强语音表示。具体来说，...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 15/3548-3）",
     "status": "已索引出版/会议记录",
@@ -4595,7 +4704,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -4943,7 +5053,8 @@
     "abstract_zh": "流行的聊天机器人可以产生自然且类似人类的响应，其关键技术是能够理解和欣赏从用户的角度表达的情感和需求。然而，一些共情对话生成模型只专注于常识而忽视情感，这只能得到对用户情境的片面了解，使得模型无法更好地表达情感。在本文中，我们提出了一种名为 AFKI 的新型情感特征知识交互模型，以增强响应生成性能，通过利用细粒度的情感特征和常识知识来丰富对话历史以获得情感交互上下文。此外，我们利用情感...",
     "abstract_source": "openalex_doi",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 15/3548-3）",
     "status": "已索引出版/会议记录",
@@ -5523,7 +5634,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 15/3548-3）",
     "status": "已索引出版/会议记录",
@@ -5840,7 +5952,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -5928,7 +6041,8 @@
     "abstract_zh": "尽管最近关于语音情感识别的研究表明，学习领域不变特征为领域不匹配提供了一种优雅的解决方案，但现有方法学习的特征缺乏从数据集中捕获潜在信息的泛化能力。我们提出了两种新颖的域适应方法，即广义域对抗神经网络（GDANN）和类对齐 GDANN（CGDANN），以学习情感识别的广义域不变表示。 GDANN 和 CGDANN 源自多任务学习（MTL），由三个任务组成。主要任务是识别输入所属的情感类别。其余两个任务是辅助任务。一种是使用变分...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 15/3548-3）",
     "status": "已索引出版/会议记录",
@@ -6186,7 +6300,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 15/3548-3）",
     "status": "已索引出版/会议记录",
@@ -6645,7 +6760,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "脑电基础大模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 15/3548-3）",
     "status": "已索引出版/会议记录",
@@ -6951,7 +7067,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -7089,7 +7206,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",

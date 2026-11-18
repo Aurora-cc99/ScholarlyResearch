@@ -22,7 +22,7 @@
     "source_url": "https://dblp.org/rec/journals/ijns/HeZYYXLJL26.html",
     "openalex_id": "https://openalex.org/W4412925819",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 5,
     "abstract_en": "The behavioral inhibition system (BIS), mediating responses to punishment cues and avoidance behaviors, is implicated in anxiety. However, the neural dynamics underpinning BIS, particularly regarding the temporal variability of brain network interactions, remain less explored. Using resting-state functional magnetic resonance imaging (rs-fMRI) of 181 healthy adults, this study investigated the association between BIS sensitivity and the temporal variability of functional connectivity within and between functional brain networks. This finding revealed a significant positive correlation between BIS scores and temporal variability, specifically in the connectivity involving subnetworks' sensory somatomotor hand network (SSHN)-ventral attention network (VAN), and sensory somatomotor mouth network (SSMN)-VAN. Notably, the high-BIS sensitivity group exhibited significantly greater temporal variability between VAN and SSMN/SSHN compared to the low-BIS sensitivity group. Furthermore, predicted BIS scores based on network variability showed a strong correlation with actual BIS scores (Pearson's [Formula: see text]). Moreover, significant mediation effects highlighted the bridging role of BIS scores between brain network variability and anxiety scale scores. This enhances the comprehension of the relationship between BIS, anxiety, and brain function, while also offering new insights into the pathogenesis of anxiety.",
     "abstract_zh": "行为抑制系统（BIS）负责调节对惩罚线索和回避行为的反应，与焦虑有关。然而，支撑 BIS 的神经动力学，特别是关于大脑网络交互的时间变异性，仍然很少被探索。本研究利用 181 名健康成年人的静息态功能磁共振成像 (rs-fMRI)，研究了 BIS 敏感性与功能性大脑网络内部和之间功能连接的时间变异性之间的关联。这一发现揭示了 BIS 分数和时间变异性之间存在显着的正相关性，特别是在涉及子网络的感觉躯体运动手网络 (SSHN) 腹侧注意力的连接方面……",
     "abstract_source": "openalex_doi",
@@ -40,11 +40,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_f74dbd5bfe0eff39"
@@ -75,11 +77,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：情感脑电与多模态生理信号",
-      "徐鹏：情感脑电与多模态生理信号"
+      "徐鹏：情感脑电与多模态生理信号",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -144,11 +158,13 @@
     "resource_status": "本轮未关联独立资源；不等于作者未开源",
     "scholar_ids": [
       "panorama_9a7afcd2f866",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "张治国",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_9a7afcd2f866_orcid_123e3e927519f790"
@@ -178,12 +194,26 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "123e3e927519f790",
     "primary_categories_by_scholar": [
       "张治国：情感脑电与多模态生理信号",
-      "徐鹏：情感脑电与多模态生理信号"
+      "徐鹏：情感脑电与多模态生理信号",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "dblp_key": "journals/tcss/ShenWLLZXZNW26",
     "abstract_en": "Effective regulation of social decision-making is crucial for achieving equitable outcomes in human interactions. This study explores the impact of endogenous regulation on social decision-making and associated neural changes through a neurofeedback (NF) training framework. Given the relationship between social decision making, emotions, and frontal alpha asymmetry (FAA), this NF training enables individuals to self-regulate their FAA, thereby influencing their decision-making behavior. Eighty-one participants were randomly divided into the up-FAA group aiming at up-regulating FAA, the down-FAA group aiming at down-regulating FAA, and the sham-NF group. First, our results validated the specific NF training effect on selfregulating FAA. Notably, not all participants in the up-FAA and down-FAA groups successfully learned to regulate their FAA, leading to further subdivision into up-learner, down-learner, up-nonlearner, and down-nonlearner categories based on learning efficacy. Participants who effectively learned to reduce their FAA (down-learners) showed significant changes in decision behavior under moderately unfair conditions, characterized by increased rejection rates during the ultimatum game (UG) task. They also exhibited larger N200 amplitudes while balancing the decisionmaking period. In contrast, up learners demonstrated minimal behavioral changes despite increases in FAA. We conclude that decreases in FAA have a more pronounced impact on social decision-making than increases during NF training. This study highlights the effects of FAA self-regulation on fairness-related decision-making, revealing the neurobiological factors that shape decisions influenced by fairness perceptions. These findings offer valuable insights for enhancing social cooperation and justice.",
@@ -229,11 +259,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_b07162a4a4d05b51"
@@ -258,11 +290,20 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "general_ml_biomed",
+        "label": "通用模式识别、临床脑科学与跨领域应用",
+        "scholar_name": "李发礼",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：通用模式识别、临床脑科学与跨领域应用"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -288,7 +329,7 @@
     "source_url": "https://dblp.org/rec/journals/titb/LuoCLXZ26.html",
     "openalex_id": "https://openalex.org/W4412404004",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 6,
     "abstract_en": "Increasing the volume of training data can enable the auxiliary diagnostic algorithms for Autism Spectrum Disorder (ASD) to learn more accurate and stable models. However, due to the significant heterogeneity and domain shift in rs-fMRI data across different sites, the accuracy of auxiliary diagnosis remains unsatisfactory. Moreover, there has been limited exploration of multi-source domain adaptation models on ASD recognition, and many existing models lack inherent interpretability, as they do not explicitly incorporate prior neurobiological knowledge such as the hierarchical structure of functional brain networks. To address these challenges, we proposed a domain-adaptive algorithm based on hyperbolic space embedding. Hyperbolic space is naturally suited for representing the topology of complex networks such as brain functional networks. Therefore, we embedded the brain functional network into hyperbolic space and constructed the corresponding hyperbolic space community network to effectively extract latent representations. To address the heterogeneity of data across different sites and the issue of domain shift, we introduce a constraint loss function, Hyperbolic Maximum Mean Discrepancy (HMMD), to align the marginal distributions in the hyperbolic space. Additionally, we employ class prototype alignment to mitigate discrepancies in conditional distributions across domains. Experimental results indicate that the proposed algorithm achieves superior classification performance for ASD compared to baseline models, with improved robustness to multi-site heterogeneity. Specifically, our method achieves an average accuracy improvement of 4.03% . Moreover, its generalization capability is further validated through experiments conducted on extra Major Depressive Disorder (MDD) datasets.",
     "abstract_zh": "增加训练数据量可以使自闭症谱系障碍（ASD）的辅助诊断算法学习到更准确、更稳定的模型。然而，由于不同站点的rs-fMRI数据存在显着的异质性和域转移，辅助诊断的准确性仍然不能令人满意。此外，对 ASD 识别的多源域适应模型的探索有限，并且许多现有模型缺乏固有的可解释性，因为它们没有明确纳入先前的神经生物学知识，例如功能性大脑网络的层次结构。为了解决这些挑战，我们提出了一种基于双曲空间嵌入的域自适应算法。双曲空间是...",
     "abstract_source": "openalex_doi",
@@ -304,10 +345,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_2bda2db32942c6c1"
@@ -326,10 +369,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：情感脑电与多模态生理信号"
+      "徐鹏：情感脑电与多模态生理信号",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -359,7 +413,7 @@
     "source_url": "https://dblp.org/rec/journals/titb/LiuSWTLLXJW26.html",
     "openalex_id": "https://openalex.org/W4413755022",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 2,
     "abstract_en": "The interaction of the brain's decision-making and feedback stages is crucial for guiding human behavior. Previous studies mainly focused on the interaction immediately after the feedback, resulting in a limited understanding of brain communication dynamics during the interaction process. This study examined the communication dynamics of the brain network during decision-feedback interaction under various feedback conditions by employing a newly developed activation network approach to reveal its underlying neural mechanism. Thirty participants completed a decision-feedback task that involved a sequence of cue-induced predictions with highly predictable, somewhat predictable, and unpredictable feedback conditions. We constructed the activation network for all experimental stages using source-level EEG data in the alpha band. Notably, the brain exhibited the highest communication efficiency ($p < 0.05$) in receiving and integrating feedback with decision-making information during the feedback stage. Furthermore, the network-behavior correlations indicated that the brain tends to evaluate unexpected feedback under highly predictable conditions and expected feedback under unpredictable conditions, suggesting distinct neural strategies of the decision-feedback interaction process. Finally, we decoded the optimization process of decision-feedback interaction across the entire task. Although network correlations between the decision and feedback stages decreased over time (high predictable: $r = -0.447$, $p = 0.001$; unpredictable: $r = -0.305$, $p = 0.032$), classification accuracy significantly improved (${r = -0.448}$, $p = 0.010$, best accuracy: 86.667% ) under the highly predictable condition, corresponding with enhanced prediction behavior. These results indicate the optimization process of the cognitive resources allocation that supports more efficient interaction and improved predictive performance. Our findings advance the understanding of the mechanisms of decision-feedback interaction.",
     "abstract_zh": "大脑决策和反馈阶段的相互作用对于指导人类行为至关重要。以往的研究主要集中在反馈后立即进行的交互，导致对交互过程中大脑通讯动态的了解有限。这项研究通过采用新开发的激活网络方法来揭示其潜在的神经机制，研究了各种反馈条件下决策反馈交互过程中大脑网络的通信动态。三十名参与者完成了一项决策反馈任务，该任务涉及一系列由线索引发的预测，这些预测具有高度可预测、部分可预测和不可预测的反馈条件。我们构建了激活...",
     "abstract_source": "openalex_doi",
@@ -373,10 +427,14 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "tzyy_ping_jung",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "钟子平",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_424a3ba7e2907397"
@@ -393,10 +451,28 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "钟子平",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "钟子平：脑电情感识别与多模态生理计算",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -440,11 +516,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_dfd84903cf36f6fe"
@@ -469,11 +547,20 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -520,11 +607,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_bd2c9dcc60813ec5"
@@ -549,11 +638,20 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -669,11 +767,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_eb26e4e41c1fb6aa"
@@ -698,11 +798,20 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -731,7 +840,7 @@
     "source_url": "https://dblp.org/rec/journals/ijns/WangSJZYLXL26.html",
     "openalex_id": "https://openalex.org/W7130655928",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 2,
     "abstract_en": "Motor imagery-based brain-computer interface (MI-BCI) faces a critical challenge in achieving effective spatial-temporal feature modeling while maintaining a compact model parameterization. Herein, a lightweight model was proposed, termed as Dual-Attention-EEGNet (DA-EEGNet), which extends the EEGNet backbone by integrating a channel attention module and a depth attention module to selectively emphasize informative electrodes and temporally discriminative features. Two widely used MI benchmark datasets and three evaluation strategies, i.e. subject-dependent scenario, subject-independent scenario, and dataset-independent classification scenario, were utilized to verify the model's performance. Despite its compact design, DA-EEGNet contains merely 3.97[Formula: see text]k trainable parameters and achieves average classification accuracies of [Formula: see text] and [Formula: see text], outperforming or matching existing deep learning approaches that rely on substantially larger parameter counts. Ablation studies further confirm the complementary contributions of the channel and depth attention modules. In addition, visualization analyses, including temporal attention heatmaps and motor-area topographies, demonstrate that DA-EEGNet captures neurophysiologically meaningful spatial-temporal patterns consistent with MI-related brain activity. These results indicate that DA-EEGNet provides a favorable parameter-accuracy trade-off and serves as an efficient and interpretable baseline for MI-BCI applications.",
     "abstract_zh": "基于运动想象的脑机接口（MI-BCI）在实现有效的时空特征建模同时保持紧凑的模型参数化方面面临着严峻的挑战。在此，提出了一种轻量级模型，称为双注意力脑电图网络（DA-EEGNet），它通过集成通道注意模块和深度注意模块来扩展 EEGNet 主干，以选择性地强调信息电极和时间判别特征。利用两个广泛使用的 MI 基准数据集和三种评估策略（即主题相关场景、主题无关场景和数据集无关分类场景）来验证模型的性能。尽管设计紧凑，DA-EEGNet 仍包含...",
     "abstract_source": "openalex_doi",
@@ -748,11 +857,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_ae514e8092f128eb"
@@ -781,11 +892,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基准、数据与评测",
-      "徐鹏：脑电基准、数据与评测"
+      "徐鹏：脑电基准、数据与评测",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -962,7 +1084,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "ORCID 0000-0001-7992-7965 作品记录；精确题名/DOI保留",
     "status": "候选条目/需按作者主页继续核验",
@@ -1188,7 +1312,9 @@
       "情感理解与情感智能",
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1204,7 +1330,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 2,
     "publication_types": "",
     "candidate_source": true,
     "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
@@ -1222,14 +1348,16 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "work_title_group": "ebab7b5c410e",
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
       "panorama_peng_xu",
-      "dezhong_yao"
+      "dezhong_yao",
+      "fali_li"
     ],
     "scholar_names": [
       "徐鹏",
-      "尧德中"
+      "尧德中",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_77e078a8a2fe"
@@ -1259,12 +1387,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "脑电情感识别",
+          "脑机接口与神经解码",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "a96f46af7849daa0",
     "primary_categories_by_scholar": [
       "徐鹏：情感脑电与多模态生理信号",
-      "尧德中：情感脑电与多模态生理信号"
+      "尧德中：情感脑电与多模态生理信号",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "dblp_key": "conf/mm/PanLLL00C025",
     "abstract_en": "Real-time emotion recognition provides promising applications for mental healthcare monitoring and human-computer interaction design. Electroencephalography (EEG) emotion recognition has become a hot topic in the field of affective computing and intelligent brain-computer interface (BCI), and it is a feasible solution for achieving real-time emotion recognition. However, due to the uncertainty and individual specificity of emotional cognition, there are still some challenges in achieving efficient online emotion decoding applications. To address this, in this work, we propose an online emotion decoding method named DMSGL (Real-Time EEG Emotion Recognition from Dynamic Mixed Spatiotemporal Graph Learning). Specifically, in the DMSGL, we propose to explore the latent emotion-related graph features from EEG with cognition-inspired and data-driven learning strategies, and the temporal analysis with attention learning is utilized to further extract the robust spatiotemporal graph patterns for efficient EEG emotion decoding. Both simulated online emotion decoding and real-time emotion monitoring experimental results have consistently indicated that the proposed DMSGL can effectively satisfy the application requirements of real-time emotion decoding and achieves an accuracy of 68.35% in real-world online scenarios. Compared with other baseline methods, the proposed DMSGL has improved by 2-5% in the scenario of real-time emotion recognition. In conclusion, the proposed DMSGL provides a promising solution for realizing real-time emotion recognition and further exploring related applications. Our code is released on https://github.com/UESTC-BAC/DMSGL.",
@@ -1292,7 +1436,7 @@
     "source_url": "https://dblp.org/rec/journals/nn/LuoCLYXZ25.html",
     "openalex_id": "https://openalex.org/W4409382615",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 22,
     "abstract_en": "",
     "abstract_zh": "",
     "abstract_source": "",
@@ -1308,10 +1452,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_25828dbc2703f5d9"
@@ -1330,10 +1476,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -1360,7 +1517,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1372,7 +1530,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 1,
     "publication_types": "",
     "candidate_source": true,
     "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
@@ -1393,11 +1551,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "panorama_peng_xu",
-      "dezhong_yao"
+      "dezhong_yao",
+      "fali_li"
     ],
     "scholar_names": [
       "徐鹏",
-      "尧德中"
+      "尧德中",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_668bc79b56e5"
@@ -1426,12 +1586,27 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "239bfaf51cd6cc2c",
     "primary_categories_by_scholar": [
       "徐鹏：情感脑电与多模态生理信号",
-      "尧德中：情感脑电与多模态生理信号"
+      "尧德中：情感脑电与多模态生理信号",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "dblp_key": "conf/icassp/ZhuLLL0025",
     "abstract_en": "Emotion recognition based on brain networks has attracted increasing research attention due to its ability to reveal the information interactions between brain regions under different emotional states. However, there are still two challenges in practical applications: 1) The high dimensionality of brain networks can lead to issues of feature redundancy, overfitting, and high computational costs; 2) Electroencephalography (EEG) signals are susceptible to outlier noise, and label noise caused by mismatches between the stimuli labels used to induce emotions and the individuals’ actual emotional responses can significantly impact emotion recognition. To address these challenges, we propose a supervised graph embedding algorithm based on the L1-norm space (L1-SGE). This method leverages the local structure and class information of the original data for discriminative subspace learning, achieving a low-dimensional representation of high-dimensional networks. Additionally, the constraints of the L1-norm space enable the method to effectively suppress outliers and label noise. The performance on publicly available emotional EEG databases has successfully validated the effectiveness of the proposed method in low-dimensional feature representation and noise suppression. Furthermore, this method not only offers a powerful tool for research in affective brain-computer interfaces but also provides a potential solution for pattern recognition tasks facing similar challenges in the field of artificial intelligence.",
@@ -1480,10 +1655,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_6acd0723f791b63a"
@@ -1502,10 +1679,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -1548,10 +1736,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_8b59ab4f1e15375e"
@@ -1568,10 +1758,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基准、数据与评测"
+      "徐鹏：脑电基准、数据与评测",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -1678,12 +1877,14 @@
     "scholar_ids": [
       "liang_zhen",
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "梁臻",
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "liang_zhen_113abf116754"
@@ -1720,13 +1921,26 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "神经科学/fMRI",
+          "其他/需人工细分",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "dbd7827f681fdf28",
     "primary_categories_by_scholar": [
       "梁臻：情绪、知觉与疼痛神经研究",
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "openalex_id": "https://openalex.org/W4415299461",
     "abstract_en": "• Frontal ERPs reflect the distinct neural responses to partners’ behavioral cues during negotiation. • ERP-based causal modeling reveals directional neural interactions between partners in social exchange. • Prediction model incorporating interbrain causal links improves accuracy compared to single-brain models during asymmetric social interaction. • An ERP-based causal model offers a novel framework for understanding complex social behaviors. Uncovering the interbrain neural mechanisms underlying interpersonal negotiation offers insight into social decision-making dynamics in resource allocation. In this study, we used EEG hyperscanning alongside an iterated ultimatum game to investigate interbrain coupling and dyadic exchange behavior during negotiation. Frontal cortex event-related potentials (ERPs) revealed the distinct neural responses driven by partners’ behavioral cues: the proposer’s N200 differed significantly for fair versus unfair offers, and the responder’s feedback-related negativity (FRN) showed a trend toward significance for the same contrast, while the proposer’s N500 varied between acceptance and rejection feedback. Our analysis introduced a novel causal model based on directional phase transfer entropy (dPTE) and time-varying ERP amplitudes, illustrating directed neural processes driven by social exchange, where the proposer’s brain activity initially exerts a causal impact on the responder’s, whose feedback in turn influences the proposer, creating a closed-loop interaction that drives adaptive negotiation strategies. Additionally, our prediction model with autoregression with exogenous input, which incorporated these causal links between brains, demonstrated higher accuracy than single-brain or reverse causal models, underscoring the significance of dynamic interbrain coupling in interpersonal coordination. This causal model provides a mechanistic explanation of how proposer-responder pairs perceive and adapt to each other’s decisions, facilitating shared attention and behavioral coordination in reciprocal, asymmetric negotiations. These findings offer a novel theoretical framework for studying complex social behaviors through interbrain dynamics and may inspire future applications in enhancing cooperative decision-making processes.",
@@ -1757,7 +1971,7 @@
     "source_url": "https://dblp.org/rec/journals/neuroimage/ChenXZYYYZLX25.html",
     "openalex_id": "https://openalex.org/W4408160246",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 13,
     "abstract_en": "• An EEG-based protocol combined with fuzzy entropy effectively captures the temporal variability within dynamic resting-state networks. • Connectivity within the right hemisphere predominantly drives the relationship between resting-state network variability and working memory performance. • The temporal variability of dynamic resting-state networks serves as a robust predictor of individual working memory performance. • Variability patterns in resting-state networks may account for the neural heterogeneity underling individual differences in working memory. Even during periods of rest, the brain exhibits spontaneous activity that dynamically fluctuates across spatially distributed regions in a globally coordinated manner, which has significant cognitive implications. However, the relationship between temporal variability of resting-state networks and working memory (WM) remains largely unexplored. This study aims to address this gap by employing an EEG-based protocol combined with fuzzy entropy. First, we identified both flexible and robust patterns of dynamic resting-state networks. Subsequently, we observed a significant positive correlation between WM performance and network topology, particularly in the frontal, right central, and right parietal lobes. Moreover, we found that the temporal variability of network properties was positively and significantly associated with WM performance. Additionally, distinct patterns of network variability were delineated, contributing to inter-individual differences in WM abilities, with these distinctions becoming more pronounced as task demands increased. Finally, using a multivariable predictive model based on these variability metrics, we effectively predicted individual WM performances. Notably, analogous analyses conducted in the source space validated the reproducibility of the temporal variability of resting-state networks in predicting individual WM behavior at higher spatial resolution. The findings in the source space not only corroborated those from the sensor space but also provided more precise anatomical localization of key brain regions. These results suggest that the temporal variability of resting-state networks reflects intrinsic dynamic changes in brain organization supporting WM and can serve as an objective predictor for individual WM behaviors.",
     "abstract_zh": "• 基于脑电图的协议与模糊熵相结合，有效捕获动态静息状态网络内的时间变化。 • 右半球内的连接性主要驱动静息态网络变异性和工作记忆性能之间的关系。 • 动态静息状态网络的时间变异性可作为个体工作记忆表现的稳健预测因子。 • 静息状态网络的变异模式可以解释工作记忆个体差异背后的神经异质性。即使在休息期间，大脑也会表现出自发活动，以全局协调的方式在空间分布的区域之间动态波动，这具有显着的意义。",
     "abstract_source": "openalex_doi",
@@ -1774,11 +1988,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_dfd792cf86b8a358"
@@ -1807,11 +2023,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑电基础大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -1851,7 +2078,9 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 93/5633）",
     "status": "已索引出版/会议记录",
@@ -1863,11 +2092,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_2062b35eb4c1d885"
@@ -1901,11 +2132,25 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "情感理解",
+          "情感智能"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：情感脑电与多模态生理信号",
-      "徐鹏：情感脑电与多模态生理信号"
+      "徐鹏：情感脑电与多模态生理信号",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -1939,7 +2184,7 @@
     "source_url": "https://dblp.org/rec/journals/nn/WengXLYBMYLLYHZX25.html",
     "openalex_id": "https://openalex.org/W4410790608",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 8,
     "abstract_en": "",
     "abstract_zh": "",
     "abstract_source": "",
@@ -1954,11 +2199,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_ade48168ea5ba3db"
@@ -1983,11 +2230,20 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -2023,7 +2279,8 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2058,12 +2315,14 @@
     "scholar_ids": [
       "lu_baoliang",
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "吕宝粮",
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "lu_baoliang_dbdd59bebb1f"
@@ -2109,13 +2368,29 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑电情感计算与脑电大模型",
+          "情感脑机接口",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑电情感识别"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "84be1430aab562a8",
     "primary_categories_by_scholar": [
       "吕宝粮：情感脑电与多模态生理信号",
       "尧德中：情感脑电与多模态生理信号",
-      "徐鹏：情感脑电与多模态生理信号"
+      "徐鹏：情感脑电与多模态生理信号",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "abstract_en": "Emotion recognition based on electroencephalogram (EEG) is fundamentally associated with human-like intelligence system. However, due to the noise-sensitive characteristics of EEGs and the individual variability of emotions, it is very challenging to extract inherent emotion dependent patterns from emotional EEG signals. In this work, we propose a L1-norm space defined discriminative brain network manifold learning model (L1-SGL), in which the EEG noise outliers can be effectively separated and the pseudolabeled samples caused by subjective feelings can be automatically corrected. Off-line experimental results consistently indicate that the L1-SGL can effectively suppress the influence of noise and achieve an incomparable superiority performance over other existing methods in EEG emotion recognition. Besides, benefiting from the time efficiency of the L1-SGL, an online emotion monitoring and regulation system is further implemented in this work. On-line emotion decoding experimental results (86.30%) of 25 participants prove that the L1-SGL can effectively satisfy the real-time requirements of on-line emotional monitoring applications, and the significant negative emotion regulation experimental results ( $p \\lt 0.001$ ) further confirm the feasibility and effectiveness of L1-SGL model in real-time emotion regulation and interactive applications. Overall, the L1-SGL provides a promising solution for the real-time online affective brain-computer interfaces (aBCIs) and the intelligent clinical closed-loop treatments.",
     "abstract_source": "openalex_verified",
@@ -2176,7 +2451,8 @@
       "脑电/脑机接口",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [],
@@ -2219,12 +2495,14 @@
     "scholar_ids": [
       "liang_zhen",
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "梁臻",
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "liang_zhen_2e011800db2c"
@@ -2269,13 +2547,29 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "EEG/脑机接口",
+          "情感智能",
+          "脑电/脑机接口",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "d1d8cf7d9df60514",
     "primary_categories_by_scholar": [
       "梁臻：情感识别、连续情绪与跨域建模",
       "尧德中：情感脑电与多模态生理信号",
-      "徐鹏：情感脑电与多模态生理信号"
+      "徐鹏：情感脑电与多模态生理信号",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "openalex_id": "https://openalex.org/W4408970812",
     "openalex_author_id": "https://openalex.org/A5036446937",
@@ -2396,7 +2690,8 @@
       "情感智能",
       "脑电/脑机接口",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -2465,12 +2760,14 @@
     "scholar_ids": [
       "liang_zhen",
       "panorama_9a7afcd2f866",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "梁臻",
       "张治国",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "liang_zhen_4adf3db66071",
@@ -2514,13 +2811,29 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "EEG/脑机接口",
+          "情感智能",
+          "脑电/脑机接口",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "163ee8b079e93eca",
     "primary_categories_by_scholar": [
       "梁臻：情感识别、连续情绪与跨域建模",
       "张治国：情感脑电与多模态生理信号",
-      "徐鹏：情感脑电与多模态生理信号"
+      "徐鹏：情感脑电与多模态生理信号",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "candidate_source": false,
     "source_kind": "；ORCID 0000-0001-7992-7965 works",
@@ -2848,11 +3161,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_c9111f73cebb904c"
@@ -2877,11 +3192,20 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基准、数据与评测",
-      "徐鹏：脑电基准、数据与评测"
+      "徐鹏：脑电基准、数据与评测",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -3072,11 +3396,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_9fce7bcec92b4301"
@@ -3107,11 +3433,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑电情感识别",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：情感脑电与多模态生理信号",
-      "徐鹏：情感脑电与多模态生理信号"
+      "徐鹏：情感脑电与多模态生理信号",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -3143,7 +3481,7 @@
     "source_url": "https://dblp.org/rec/journals/ijns/JiangEGWYHHYDLX24.html",
     "openalex_id": "https://openalex.org/W4391053057",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 20,
     "abstract_en": "Cognitive flexibility refers to the capacity to shift between patterns of mental function and relies on functional activity supported by anatomical structures. However, how the brain's structural-functional covarying is preconfigured in the resting state to facilitate cognitive flexibility under tasks remains unrevealed. Herein, we investigated the potential relationship between individual cognitive flexibility performance during the trail-making test (TMT) and structural-functional covariation of the large-scale multimodal covariance network (MCN) using magnetic resonance imaging (MRI) and electroencephalograph (EEG) datasets of 182 healthy participants. Results show that cognitive flexibility correlated significantly with the intra-subnetwork covariation of the visual network (VN) and somatomotor network (SMN) of MCN. Meanwhile, inter-subnetwork interactions across SMN and VN/default mode network/frontoparietal network (FPN), as well as across VN and ventral attention network (VAN)/dorsal attention network (DAN) were also found to be closely related to individual cognitive flexibility. After using resting-state MCN connectivity as representative features to train a multi-layer perceptron prediction model, we achieved a reliable prediction of individual cognitive flexibility performance. Collectively, this work offers new perspectives on the structural-functional coordination of cognitive flexibility and also provides neurobiological markers to predict individual cognitive flexibility.",
     "abstract_zh": "认知灵活性是指在心理功能模式之间转换的能力，并依赖于解剖结构支持的功能活动。然而，大脑的结构-功能共变如何在静息状态下预先配置以促进任务下的认知灵活性仍然未知。在此，我们使用 182 名健康参与者的磁共振成像 (MRI) 和脑电图 (EEG) 数据集研究了路径制定测试 (TMT) 期间个体认知灵活性表现与大规模多模态协方差网络 (MCN) 的结构功能协变之间的潜在关系。结果表明，认知灵活性与子网内显着相关......",
     "abstract_source": "openalex_doi",
@@ -3162,11 +3500,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_9bba6ea68655cb8e"
@@ -3199,11 +3539,24 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑电基础大模型",
+          "多模态与大语言模型",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基准、数据与评测",
-      "徐鹏：脑电基准、数据与评测"
+      "徐鹏：脑电基准、数据与评测",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -3252,10 +3605,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_2196c49df95f0022"
@@ -3276,10 +3631,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑电基础大模型",
+          "脑机接口与神经解码",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -3326,10 +3694,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_d4eeb806aff4ac68"
@@ -3348,10 +3718,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -3453,7 +3834,7 @@
     "source_url": "https://dblp.org/rec/conf/civemsa/Wang0Z00L24.html",
     "openalex_id": "https://openalex.org/W4400490250",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 3,
     "abstract_en": "Psychiatric disorders exhibit significant heterogeneity. The systematic identification of individual differences in neurofunctional deficits can inform both diagnosis and individual intervention strategies. In this study, we investigated whether individual brain functional connectivity (FC) of electroencephalogram (EEG) could define more predictable features of clinical indicators of psychiatric disorders. Specifically, the common orthogonal basis extraction (COBE) algorithm was employed to isolate individual-specific components by eliminating common components, and then a prediction model was constructed using connectome-based predictive modeling (CPM) and Lasso regression. Our findings indicate that the definition of individual-specific FC significantly improves the prediction performance compared to original FC-based models. Furthermore, the relationship between functional subnetworks and the Positive and Negative Syndrome Scale (PANSS) score was investigated, which revealed different interaction patterns among schizophrenia, bipolar disorder, and schizoaffective disorder. Our results suggest that individual-specific FC enhances the predictive performance compared to the original FC by removing common components. These findings may shed more light on disease heterogeneity and provide enhanced methods for leveraging EEG FC for individual treatment selection, thereby advancing precision medicine in psychiatric disorders.",
     "abstract_zh": "精神疾病表现出显着的异质性。系统地识别神经功能缺陷的个体差异可以为诊断和个体干预策略提供信息。在这项研究中，我们研究了脑电图（EEG）的个体大脑功能连接（FC）是否可以定义精神疾病临床指标的更可预测的特征。具体来说，采用公共正交基提取（COBE）算法通过消除公共成分来分离个体特定成分，然后使用基于连接组的预测建模（CPM）和Lasso回归构建预测模型。我们的研究结果表明，个体特异性 F 的定义...",
     "abstract_source": "openalex_doi",
@@ -3470,11 +3851,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_ad516dc4446fa407"
@@ -3503,11 +3886,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -3596,7 +3990,7 @@
     "source_url": "https://dblp.org/rec/conf/civemsa/ZhangJW00L24.html",
     "openalex_id": "https://openalex.org/W4400490337",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 1,
     "abstract_en": "Brain network disconnectivity, resulting in aberrant functional integration, underlies cognitive deficits and clinical symptoms in schizophrenia (SCZ). In a P300 experiment, we investigate the intrinsic (self-)connectivity of the frontoparietal cortical hierarchy by employing dynamic causal models (DCM) to estimate how evoked activity arises from the dynamic outcomes of coupled neural populations. EEG recordings were performed in 147 SCZ patients, 181 unaffected relatives (SCZRs), and 200 health controls (HCs). Of the eight network models, an optimal neural coupling model was identified separately on the individual model and the grand average model. Notably, the winning model included changes in connectivity at all three levels and self-inhibitory changes. In the individual model, information flow transmitted between the left frontal to left parietal lobes of SCZ patients was significantly attenuated in contrast to their relatives and HCs. While no significant difference was found between the control group and relatives. As for the grand-average model, patients showed increased voluntary inhibition across the left and right superior frontal gyrus, i.e., a decrease in cortical excitability, in different task conditions, when compared to controls. Relatives showed a state consistent with controls in the right upper frontal, a patient-like reduction in excitability in the left frontal, and a reversal of normal synaptic gain changes in the target tone relative to the standard tone. Overall, these findings shed light on the pathophysiological mechanisms of schizophrenia from a dynamic causal model perspective.",
     "abstract_zh": "大脑网络断开导致功能整合异常，是精神分裂症 (SCZ) 认知缺陷和临床症状的基础。在 P300 实验中，我们通过采用动态因果模型 (DCM) 来估计耦合神经群体的动态结果如何产生诱发活动，从而研究额顶叶皮层层次结构的内在（自）连接性。对 147 名 SCZ 患者、181 名未受影响的亲属 (SCZR) 和 200 名健康对照者 (HC) 进行了脑电图记录。在八个网络模型中，分别在个体模型和总平均模型上确定了最佳神经耦合模型。值得注意的是，获胜模型包括所有三个级别的连接性变化以及自我增强......",
     "abstract_source": "openalex_doi",
@@ -3615,11 +4009,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_69f05ccc68f4b02c"
@@ -3652,11 +4048,24 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "bci_neural_eng",
+        "label": "脑机接口范式与神经信号解码",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "脉冲神经网络与类脑计算",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑机接口范式与神经信号解码"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -3688,7 +4097,7 @@
     "source_url": "https://dblp.org/rec/journals/mbec/YiLWLZCJYXHD24.html",
     "openalex_id": "https://openalex.org/W4399353762",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 5,
     "abstract_en": "",
     "abstract_zh": "",
     "abstract_source": "",
@@ -3706,11 +4115,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_b918004ce039c8ac"
@@ -3741,11 +4152,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -3937,10 +4360,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_003cbc45160cca56"
@@ -3957,10 +4382,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基准、数据与评测"
+      "徐鹏：脑电基准、数据与评测",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -4057,7 +4491,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -4093,11 +4528,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_60ed9fff8270"
@@ -4131,12 +4568,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑电情感识别"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "ee1fa432fb648019",
     "primary_categories_by_scholar": [
       "尧德中：情感脑电与多模态生理信号",
-      "徐鹏：情感脑电与多模态生理信号"
+      "徐鹏：情感脑电与多模态生理信号",
+      "李发礼：生理情感数据库、基准与综述"
     ]
   },
   {
@@ -4179,10 +4632,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_7667087b3271f38e"
@@ -4204,10 +4659,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "多模态与大语言模型",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基准、数据与评测"
+      "徐鹏：脑电基准、数据与评测",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -4316,7 +4783,8 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -4355,11 +4823,15 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "badong_chen",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "陈霸东",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_aa8404255f12"
@@ -4393,12 +4865,44 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "badong_chen": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "陈霸东",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑电情感识别"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑电情感识别"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "d1bc3a0aec5a5b80",
     "primary_categories_by_scholar": [
       "尧德中：情感脑电与多模态生理信号",
-      "徐鹏：情感脑电与多模态生理信号"
+      "徐鹏：情感脑电与多模态生理信号",
+      "陈霸东：脑电基础大模型与自监督预训练",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "dblp_key": "journals/tnn/LiLZLSLCCCYX24",
     "abstract_en": "Multichannel electroencephalogram (EEG) is an array signal that represents brain neural networks and can be applied to characterize information propagation patterns for different emotional states. To reveal these inherent spatial graph features and increase the stability of emotion recognition, we propose an effective emotion recognition model that performs multicategory emotion recognition with multiple emotion-related spatial network topology patterns (MESNPs) by learning discriminative graph topologies in EEG brain networks. To evaluate the performance of our proposed MESNP model, we conducted single-subject and multisubject four-class classification experiments on two public datasets, MAHNOB-HCI and DEAP. Compared with existing feature extraction methods, the MESNP model significantly enhances the multiclass emotional classification performance in the single-subject and multisubject conditions. To evaluate the online version of the proposed MESNP model, we designed an online emotion monitoring system. We recruited 14 participants to conduct the online emotion decoding experiments. The average online experimental accuracy of the 14 participants was 84.56%, indicating that our model can be applied in affective brain-computer interface (aBCI) systems. The offline and online experimental results demonstrate that the proposed MESNP model effectively captures discriminative graph topology patterns and significantly improves emotion classification performance. Moreover, the proposed MESNP model provides a new scheme for extracting features from strongly coupled array signals.",
@@ -4424,7 +4928,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页",
     "status": "候选条目/需按作者主页继续核验",
@@ -4527,7 +5032,8 @@
       "未分类",
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP作者索引快照；与官方作品集并行保留，待逐条身份核验",
     "status": "DBLP来源记录/待核验",
@@ -4562,12 +5068,14 @@
     "scholar_ids": [
       "lu_baoliang",
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "吕宝粮",
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "lu_baoliang_58185477c1f1"
@@ -4609,13 +5117,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "未分类",
+          "脑电情感识别",
+          "脑机接口与神经解码",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "b5e7650c34282d36",
     "primary_categories_by_scholar": [
       "吕宝粮：情感脑电与多模态生理信号",
       "尧德中：情感脑电与多模态生理信号",
-      "徐鹏：情感脑电与多模态生理信号"
+      "徐鹏：情感脑电与多模态生理信号",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "abstract_en": "Electroencephalogram (EEG) brain network embodies the brain’s coordination and interaction mechanism, and the transformations of emotional states are usually accompanied with changes in brain network spatial topologies. To effectively characterize emotions, in this work, we propose a cognition-inspired graph embedding model in the L1-norm space (L1-CGE) to learn an optimal low-dimensional embedded manifold for emotional brain networks. In the L1-CGE, the original brain networks are first encoded in the affinity space with the proposed cognition-inspired metric to construct the latent geometry manifold structure of emotional brain networks, and then the graph learning objective function is defined in the L1-norm space to obtain the optimal low-dimensional representations of brain networks. Essentially, the modularized community structures of emotional brain networks can be effectively emphasized by the L1-CGE to realize an effective depiction for emotions. Compared with existing methods, the L1-CGE model has achieved state-of-the-art performance on three public emotional EEG datasets in off-line conditions. Besides, the robust real-time experimental results have been achieved with the on-line emotion decoding system designed with L1-CGE. Both off- and on-line experimental results consistently demonstrate that the proposed L1-CGE is promising to provide a potential solution for the real-time affective brain-computer interface (aBCI) system.",
     "abstract_source": "openalex_verified",
@@ -4730,10 +5253,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_d22b10cfb618b0a7"
@@ -4753,10 +5278,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：情感脑电与多模态生理信号"
+      "徐鹏：情感脑电与多模态生理信号",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -4783,7 +5320,7 @@
     "source_url": "https://dblp.org/rec/conf/civemsa/ZhuLLLY024.html",
     "openalex_id": "https://openalex.org/W4400490330",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 1,
     "abstract_en": "In the cognitive neuroscience research, Granger causality-based directed brain network estimation has emerged as a powerful tool for exploring the potential cognitive information flow and the underlying brain neural mechanisms. However, the traditional approaches are sensitive to outliers, which may result the spurious network connections and hinder the wide application in the neural mechanism explorations. In this work, inspired by the outlier noise immunity characteristics of the Student’s t-distribution, we propose a robust causal network estimation method based on the hypothesis of dual Student’s t-distribution (DStu-GCA). Specifically, we employ the Student’s t-distribution to constrain the coefficients and residuals of the multivariate autoregressive (MVAR) model respectively, enabling robust outlier suppression while obtaining a sparse network structure. To evaluate the effectiveness of the proposed DStu-GCA, we have conducted both the simulation and real motor imagery (MI) electroencephalogram (EEG) application experiments. The experimental results have consistently indicated that the DStu-GCA can effectively suppress noise and realize an efficient estimation of directed EEG brain network, which may provide a promising tool for the cognitive neuroscience research.",
     "abstract_zh": "在认知神经科学研究中，基于格兰杰因果关系的定向脑网络估计已成为探索潜在认知信息流和潜在脑神经机制的有力工具。然而，传统方法对异常值敏感，这可能会导致虚假网络连接并阻碍神经机制探索的广泛应用。在这项工作中，受学生 t 分布的异常噪声免疫特性的启发，我们提出了一种基于对偶学生 t 分布（DStu-GCA）假设的鲁棒因果网络估计方法。具体来说，我们使用学生 t 分布来约束多元变量的系数和残差...",
     "abstract_source": "openalex_doi",
@@ -4800,11 +5337,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_e7e4332fd29efe3f"
@@ -4833,11 +5372,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -4877,10 +5427,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_6b3e229e8af39ac4"
@@ -4897,10 +5449,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -4944,10 +5505,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_4b368c4ba2399d2c"
@@ -4966,10 +5529,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -5084,7 +5658,8 @@
       "情感智能",
       "脑电/脑机接口",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -5121,11 +5696,13 @@
     "model_urls": [],
     "scholar_ids": [
       "liang_zhen",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "梁臻",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "liang_zhen_31d44d3c9450"
@@ -5154,12 +5731,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "EEG/脑机接口",
+          "情感智能",
+          "脑电/脑机接口",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "6de218291d31ba92",
     "primary_categories_by_scholar": [
       "梁臻：情感识别、连续情绪与跨域建模",
-      "徐鹏：脑电基准、数据与评测"
+      "徐鹏：脑电基准、数据与评测",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "openalex_id": "https://openalex.org/W7165519827",
     "openalex_author_id": "https://openalex.org/A5036446937",
@@ -5279,10 +5872,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_3b98e82adc0f766e"
@@ -5302,10 +5897,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑电基础大模型",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基准、数据与评测"
+      "徐鹏：脑电基准、数据与评测",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -5407,7 +6014,7 @@
     "source_url": "https://dblp.org/rec/journals/bspc/ZhangLWWHQYLX23.html",
     "openalex_id": "https://openalex.org/W4383901000",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 3,
     "abstract_en": "",
     "abstract_zh": "",
     "abstract_source": "",
@@ -5422,11 +6029,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_6059fb25526b8133"
@@ -5451,11 +6060,20 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -5573,10 +6191,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_8c93768f17c476d4"
@@ -5593,10 +6213,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -5641,10 +6270,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_c9ea56a2e234f1dc"
@@ -5663,10 +6294,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -5719,10 +6361,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_8cebee7ebfccb05b"
@@ -5743,10 +6387,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "bci_neural_eng",
+        "label": "脑机接口范式与神经信号解码",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "脉冲神经网络与类脑计算",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：情感脑电与多模态生理信号"
+      "徐鹏：情感脑电与多模态生理信号",
+      "李发礼：脑机接口范式与神经信号解码"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -5794,10 +6451,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_84080670db9f2847"
@@ -5814,10 +6473,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基准、数据与评测"
+      "徐鹏：脑电基准、数据与评测",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -5863,11 +6531,15 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "jing_jin_ecust",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "金晶",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_aeaa8c2d741f4069"
@@ -5892,11 +6564,29 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "jing_jin_ecust": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "金晶",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "金晶：脑电情感识别与多模态生理计算",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -5943,11 +6633,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_e435289cfe079cab"
@@ -5976,11 +6668,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：情感脑电与多模态生理信号",
-      "徐鹏：情感脑电与多模态生理信号"
+      "徐鹏：情感脑电与多模态生理信号",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -6029,10 +6732,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_bf0fdc2cc3aac859"
@@ -6051,10 +6756,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基准、数据与评测"
+      "徐鹏：脑电基准、数据与评测",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -6104,10 +6820,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_5467deccebadc06b"
@@ -6126,10 +6844,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -6151,7 +6880,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -6238,7 +6968,7 @@
     "source_url": "https://dblp.org/rec/journals/neuroimage/JiangLCZYLZPSCCYCX23.html",
     "openalex_id": "https://openalex.org/W4322754064",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 18,
     "abstract_en": "The brain functions as an accurate circuit that regulates information to be sequentially propagated and processed in a hierarchical manner. However, it is still unknown how the brain is hierarchically organized and how information is dynamically propagated during high-level cognition. In this study, we developed a new scheme for quantifying the information transmission velocity (ITV) by combining electroencephalogram (EEG) and diffusion tensor imaging (DTI), and then mapped the cortical ITV network (ITVN) to explore the information transmission mechanism of the human brain. The application in MRI-EEG data of P300 revealed bottom-up and top-down ITVN interactions subserving P300 generation, which was comprised of four hierarchical modules. Among these four modules, information exchange between visual- and attention-activated regions occurred at a high velocity, related cognitive processes could thus be efficiently accomplished due to the heavy myelination of these regions. Moreover, inter-individual variability in P300 was probed to be attributed to the difference in information transmission efficiency of the brain, which may provide new insight into the cognitive degenerations in clinical neurodegenerative disorders, such as Alzheimer's disease, from the transmission velocity perspective. Together, these findings confirm the capacity of ITV to effectively determine the efficiency of information propagation in the brain.",
     "abstract_zh": "大脑作为一个精确的电路发挥作用，调节信息以分层方式顺序传播和处理。然而，大脑是如何分层组织的以及信息在高级认知过程中如何动态传播仍然未知。在本研究中，我们结合脑电图（EEG）和扩散张量成像（DTI）开发了一种量化信息传输速度（ITV）的新方案，然后绘制皮质ITV网络（ITVN）以探索人脑的信息传输机制。 P300 MRI-EEG 数据中的应用揭示了支持 P300 一代的自下而上和自上而下的 ITVN 交互，P300 一代由四个分层模块组成。一个...",
     "abstract_source": "openalex_doi",
@@ -6256,11 +6986,15 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "xun_chen_ustc",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "陈勋",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_838b6bb184530c14"
@@ -6291,11 +7025,35 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "xun_chen_ustc": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "陈勋",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "陈勋：脑电基础大模型与自监督预训练",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -6343,10 +7101,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_d1c1d7d74f348a0b"
@@ -6366,10 +7126,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -6420,10 +7192,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_fda2df76d8631e99"
@@ -6440,10 +7214,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -6492,10 +7275,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_0c7dfedd7b817dfe"
@@ -6515,10 +7300,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑电情感识别",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：情感脑电与多模态生理信号"
+      "徐鹏：情感脑电与多模态生理信号",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -6640,11 +7437,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_70fc9c94ae66e591"
@@ -6673,11 +7472,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：情感脑电与多模态生理信号",
-      "徐鹏：情感脑电与多模态生理信号"
+      "徐鹏：情感脑电与多模态生理信号",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -6692,8 +7502,8 @@
     "authors": [
       "Peng Xu"
     ],
-    "doi": "",
-    "paper_url": "",
+    "doi": "10.3389/978-2-8325-3902-6",
+    "paper_url": "http://dx.doi.org/10.3389/978-2-8325-3902-6",
     "source_url": "",
     "topics": [
       "脑电情感计算与脑机接口",
@@ -6730,10 +7540,12 @@
     "work_title_group": "2003cf9b5ed6",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "钟子平"
     ],
     "source_record_ids": [
       "panorama_peng_xu_537a978fbe67"
@@ -6749,12 +7561,26 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "3961fd5b7a0d7ddc",
     "primary_categories_by_scholar": [
-      "徐鹏：情感脑电与多模态生理信号"
-    ]
+      "徐鹏：情感脑电与多模态生理信号",
+      "钟子平：脑电情感识别与多模态生理计算"
+    ],
+    "pdf_url": "http://dx.doi.org/10.3389/978-2-8325-3902-6"
   },
   {
     "title": "The correlation between upper body grip strength and resting-state EEG network",
@@ -6781,7 +7607,7 @@
     "source_url": "https://dblp.org/rec/journals/mbec/ZhangLCYCYHQLX23.html",
     "openalex_id": "https://openalex.org/W4381309837",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 2,
     "abstract_en": "",
     "abstract_zh": "",
     "abstract_source": "",
@@ -6796,11 +7622,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_2fc9ef749db814f6"
@@ -6825,11 +7653,20 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -6948,10 +7785,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_b898623c9884afc9"
@@ -6970,10 +7809,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -7159,10 +8009,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_1751c0020ee297dc"
@@ -7181,10 +8033,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -7210,10 +8073,10 @@
     "source_url": "https://dblp.org/rec/journals/nn/ChenZPXG23.html",
     "openalex_id": "https://openalex.org/W4368341067",
     "openalex_author_id": "",
-    "cited_by_count": 0,
-    "abstract_en": "",
-    "abstract_zh": "",
-    "abstract_source": "",
+    "cited_by_count": 170,
+    "abstract_en": "Steady-state visual evoked potential (SSVEP) is one of the most commonly used control signal in the brain-computer interface (BCI) systems. However, the conventional spatial filtering methods for SSVEP classification highly depend on the subject-specific calibration data. The need for the methods that can alleviate the demand for the calibration data become urgent. In recent years, developing the methods that can work in inter-subject classification scenario has become a promising new direction. As the popular deep learning model nowadays, Transformer has excellent performance and has been used in EEG signal classification tasks. Therefore, in this study, we propose a deep learning model for SSVEP classification based on Transformer structure in inter-subject classification scenario, termed as SSVEPformer, which is the first application of the transformer to the classification of SSVEP. Inspired by previous studies, the model adopts the frequency spectrum of SSVEP data as input, and explores the spectral and spatial domain information for classification. Furthermore, to fully utilize the harmonic information, an extended SSVEPformer based on the filter bank technology (FB-SSVEPformer) is proposed to further improve the classification performance. Experiments were conducted using two open datasets (Dataset 1: 10 subjects, 12-class task; Dataset 2: 35 subjects, 40-class task) in the inter-subject classification scenario. The experimental results show that the proposed models could achieve better results in terms of classification accuracy and information transfer rate, compared with other baseline methods. The proposed model validates the feasibility of deep learning models based on Transformer structure for SSVEP classification task, and could serve as a potential model to alleviate the calibration procedure in the practical application of SSVEP-based BCI systems.",
+    "abstract_zh": "稳态视觉诱发电位（SSVEP）是脑机接口（BCI）系统中最常用的控制信号之一。然而，用于 SSVEP 分类的传统空间滤波方法高度依赖于特定于主题的校准数据。迫切需要能够减轻对校准数据需求的方法。近年来，开发适用于跨主题分类场景的方法已成为一个有前途的新方向。 Transformer作为时下流行的深度学习模型，具有优异的性能，已应用于脑电信号分类任务中。因此，在本研究中，我们提出了一种基于 Transformer 结构的 SSVEP 分类深度学习模型...",
+    "abstract_source": "arxiv_api",
     "topics": [
       "脑机接口与神经解码"
     ],
@@ -7226,10 +8089,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "关存太"
     ],
     "source_record_ids": [
       "panorama_peng_xu_fa4b58c6c010dbfe"
@@ -7248,10 +8113,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -7292,10 +8168,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_7ce7ef4c03fc7230"
@@ -7312,10 +8190,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基准、数据与评测"
+      "徐鹏：脑电基准、数据与评测",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -7508,10 +8395,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_309afcb171a90395"
@@ -7528,10 +8417,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -7644,11 +8542,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_3c6f1c4c956a78cc"
@@ -7677,11 +8577,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -7727,11 +8638,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_c510800521529729"
@@ -7760,11 +8673,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基准、数据与评测",
-      "徐鹏：脑电基准、数据与评测"
+      "徐鹏：脑电基准、数据与评测",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -7813,11 +8737,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_ec18a8de61e8618a"
@@ -7848,11 +8774,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -7902,10 +8840,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_9890c7cdea4645d0"
@@ -7924,10 +8864,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -7974,10 +8925,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_fd67726eee5fb088"
@@ -7996,10 +8949,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -8047,11 +9011,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_c3a850ca0ad95c1f"
@@ -8080,11 +9046,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基准、数据与评测",
-      "徐鹏：脑电基准、数据与评测"
+      "徐鹏：脑电基准、数据与评测",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -8132,10 +9109,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_4eaabbee8a76425e"
@@ -8154,10 +9133,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基准、数据与评测"
+      "徐鹏：脑电基准、数据与评测",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -8207,10 +9197,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_123de94a80154063"
@@ -8230,10 +9222,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑电基础大模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -8280,10 +9284,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_ca411c580c3c4afe"
@@ -8302,10 +9308,21 @@
         ],
         "confidence": "low",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "general_ml_biomed",
+        "label": "通用模式识别、临床脑科学与跨领域应用",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：通用模式识别、临床脑科学与跨领域应用"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -8358,10 +9375,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_195cfacf1de9b8af"
@@ -8380,10 +9399,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：情感脑电与多模态生理信号"
+      "徐鹏：情感脑电与多模态生理信号",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -8429,10 +9459,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_6ddc1feec902cc3e"
@@ -8449,10 +9481,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -8499,10 +9540,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_b3373b0dfd1a9fe8"
@@ -8521,10 +9564,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -8573,10 +9627,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_57aa74cbe8b24319"
@@ -8595,10 +9651,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -8932,10 +9999,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_8fdeec80885308eb"
@@ -8954,10 +10023,21 @@
         ],
         "confidence": "low",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -9091,10 +10171,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_16ebbd617f6981ea"
@@ -9113,10 +10195,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：情感脑电与多模态生理信号"
+      "徐鹏：情感脑电与多模态生理信号",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -9165,11 +10258,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_e5e579a0d7dfa1c1"
@@ -9198,11 +10293,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -9247,10 +10353,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_bc60f928a1325ee3"
@@ -9267,10 +10375,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -9318,10 +10435,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_bf2ed2190cd92725"
@@ -9338,10 +10457,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -9407,11 +10535,15 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "dongrui_wu",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "chin_teng_lin",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "伍冬睿",
-      "徐鹏"
+      "徐鹏",
+      "林进灯",
+      "钟子平"
     ],
     "source_record_ids": [
       "dongrui_wu_cab2787e67f0",
@@ -9446,17 +10578,49 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "chin_teng_lin": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "林进灯",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "ccd7eff4e6e90af6",
     "primary_categories_by_scholar": [
       "伍冬睿：情感脑电与多模态生理信号",
-      "徐鹏：脑电基准、数据与评测"
+      "徐鹏：脑电基准、数据与评测",
+      "林进灯：生理情感数据库、基准与综述",
+      "钟子平：生理情感数据库、基准与综述"
     ],
     "dblp_key": "journals/tcbb/GuCJXWJL21",
     "pdf_url": "https://hdl.handle.net/11541.2/27208",
-    "abstract_en": "Brain-Computer interfaces (BCIs) enhance the capability of human brain activities to interact with the environment.Recent advancements in technology and machine learning algorithms have increased interest in electroencephalographic (EEG)-based BCI applications.EEG-based intelligent BCI systems can facilitate continuous monitoring of fluctuations in human cognitive states under monotonous tasks, which is both beneficial for people in need of healthcare support and general researchers in different domain areas.In this review, we survey the recent literature on EEG signal sensing technologies and computational intelligence approaches in BCI applications, compensating for the gaps in the systematic summary of the past five years.Specifically, we first review the current status of BCI and signal sensing technologies for collecting reliable EEG signals.Then, we demonstrate state-of-the-art computational intelligence techniques, including fuzzy models and transfer learning in machine learning and deep learning algorithms, to detect, monitor, and maintain human cognitive states and task performance in prevalent applications.Finally, we present a couple of innovative BCI-inspired healthcare applications and discuss future research directions in EEG-based BCI research.!",
-    "abstract_source": "openalex_verified",
+    "abstract_en": "Brain-Computer Interface (BCI) is a powerful communication tool between users and systems, which enhances the capability of the human brain in communicating and interacting with the environment directly. Advances in neuroscience and computer science in the past decades have led to exciting developments in BCI, thereby making BCI a top interdisciplinary research area in computational neuroscience and intelligence. Recent technological advances such as wearable sensing devices, real-time data streaming, machine learning, and deep learning approaches have increased interest in electroencephalographic (EEG) based BCI for translational and healthcare applications. Many people benefit from EEG-based BCIs, which facilitate continuous monitoring of fluctuations in cognitive states under monotonous tasks in the workplace or at home. In this study, we survey the recent literature of EEG signal sensing technologies and computational intelligence approaches in BCI applications, compensated for the gaps in the systematic summary of the past five years (2015-2019). In specific, we first review the current status of BCI and its significant obstacles. Then, we present advanced signal sensing and enhancement technologies to collect and clean EEG signals, respectively. Furthermore, we demonstrate state-of-art computational intelligence techniques, including interpretable fuzzy models, transfer learning, deep learning, and combinations, to monitor, maintain, or track human cognitive states and operating performance in prevalent applications. Finally, we deliver a couple of innovative BCI-inspired healthcare applications and discuss some future research directions in EEG-based BCIs.",
+    "abstract_source": "arxiv_api",
     "abstract_zh": "脑机接口（BCI）增强了人脑活动与环境交互的能力。最近技术和机器学习算法的进步增加了人们对基于脑电图（EEG）的BCI应用的兴趣。基于脑电图（EEG）的智能BCI系统可以促进在单调任务下连续监测人类认知状态的波动，这对于需要医疗保健支持的人们和不同领域的一般研究人员来说都是有益的。在这篇综述中，我们综述了脑电图信号传感技术和计算智能方法的最新文献。 BCI应用，弥补了系统中的空白..."
   },
   {
@@ -9504,11 +10668,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_570a9a2ff51c2f08"
@@ -9537,11 +10703,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -9757,11 +10934,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_6b2365eba20177c0"
@@ -9792,11 +10971,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -9910,11 +11101,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_22cde8970563857c"
@@ -9943,11 +11136,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -9989,10 +11193,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_f2baabf3c2ccc1d1"
@@ -10009,10 +11215,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -10061,11 +11276,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_2d39a6d4e4cdf3bb"
@@ -10090,11 +11307,20 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基准、数据与评测",
-      "徐鹏：脑电基准、数据与评测"
+      "徐鹏：脑电基准、数据与评测",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -10139,11 +11365,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_bcefe1ff53a0bf91"
@@ -10168,11 +11396,20 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -10292,11 +11529,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_4ed2f569e6107118"
@@ -10325,11 +11564,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基准、数据与评测",
-      "徐鹏：脑电基准、数据与评测"
+      "徐鹏：脑电基准、数据与评测",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -10376,10 +11626,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_607a9f55f703698f"
@@ -10398,10 +11650,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -10665,10 +11928,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "关存太"
     ],
     "source_record_ids": [
       "panorama_peng_xu_cb4f91c52b73f8f1"
@@ -10685,10 +11950,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：情感脑电与多模态生理信号"
+      "徐鹏：情感脑电与多模态生理信号",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -10733,10 +12007,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_8c2da89a5206b32f"
@@ -10753,10 +12029,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基准、数据与评测"
+      "徐鹏：脑电基准、数据与评测",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -10873,10 +12158,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "钟子平"
     ],
     "source_record_ids": [
       "panorama_peng_xu_1e1341a8c334afc8"
@@ -10895,10 +12182,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基准、数据与评测"
+      "徐鹏：脑电基准、数据与评测",
+      "钟子平：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -10947,11 +12245,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_8aba8a9847870274"
@@ -10980,11 +12280,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基准、数据与评测",
-      "徐鹏：脑电基准、数据与评测"
+      "徐鹏：脑电基准、数据与评测",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -11029,10 +12340,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_ccfc851b90e8f233"
@@ -11052,10 +12365,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑电情感识别",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：情感脑电与多模态生理信号"
+      "徐鹏：情感脑电与多模态生理信号",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -11182,11 +12507,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_a3dc29812e45957e"
@@ -11211,11 +12538,20 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基准、数据与评测",
-      "徐鹏：脑电基准、数据与评测"
+      "徐鹏：脑电基准、数据与评测",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -11265,10 +12601,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_992ca7b3e19a60d0"
@@ -11285,10 +12623,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -11404,10 +12751,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_705e3e216d136c23"
@@ -11426,10 +12775,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基准、数据与评测"
+      "徐鹏：脑电基准、数据与评测",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -11546,11 +12906,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_60a1ef6e412ecf11"
@@ -11575,11 +12937,20 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -11712,11 +13083,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_6effa40a8b199971"
@@ -11749,11 +13122,24 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "智能芯片与计算系统",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -11795,11 +13181,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_d022a4b396bcaecf"
@@ -11824,11 +13212,20 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -12015,10 +13412,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_282a7b9441f395c4"
@@ -12037,10 +13436,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -12081,10 +13491,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_d42d30fd33ff0f95"
@@ -12101,10 +13513,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "general_ml_biomed",
+        "label": "通用模式识别、临床脑科学与跨领域应用",
+        "scholar_name": "李发礼",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：通用模式识别、临床脑科学与跨领域应用"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -12162,11 +13583,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "panorama_peng_xu",
-      "dezhong_yao"
+      "dezhong_yao",
+      "fali_li"
     ],
     "scholar_names": [
       "徐鹏",
-      "尧德中"
+      "尧德中",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_25d9ff4b6984"
@@ -12194,12 +13617,25 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "130b9a8ee3616cae",
     "primary_categories_by_scholar": [
       "徐鹏：情感脑电与多模态生理信号",
-      "尧德中：脑电基准、数据与评测"
+      "尧德中：脑电基准、数据与评测",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "pdf_url": "https://journals.sagepub.com/doi/pdf/10.26599/BSA.2020.9050021",
     "abstract_en": "Motor imagery brain–computer interfaces (MI‐BCIs) have great potential value in prosthetics control, neurorehabilitation, and gaming; however, currently, most such systems only operate in controlled laboratory environments. One of the most important obstacles is the MI‐BCI inefficiency phenomenon. The accuracy of MI‐BCI control varies significantly (from chance level to 100% accuracy) across subjects due to the not easily induced and unstable MI‐related EEG features. An MI‐BCI inefficient subject is defined as a subject who cannot achieve greater than 70% accuracy after sufficient training time, and multiple survey results indicate that inefficient subjects account for 10%–50% of the experimental population. The widespread use of MI‐BCI has been seriously limited due to these large percentages of inefficient subjects. In this review, we summarize recent findings of the cause of MI‐BCI inefficiency from resting‐state brain function, task‐related brain activity, brain structure, and psychological perspectives. These factors help understand the reasons for inter‐subject MI‐BCI control performance variability, and it can be concluded that the lower resting‐state sensorimotor rhythm (SMR) is the key factor in MI‐BCI inefficiency, which has been confirmed by multiple independent laboratories. We then propose to divide MI‐BCI inefficient subjects into three categories according to the resting‐state SMR and offline/online accuracy to apply more accurate approaches to solve the inefficiency problem. The potential solutions include developing transfer learning algorithms, new experimental paradigms, mindfulness meditation practice, novel training strategies, and identifying new motor imagery‐related EEG features. To date, few studies have focused on improving the control accuracy of MI‐BCI inefficient subjects; thus, we appeal to the BCI community to focus more on this research area. Only by reducing the percentage of inefficient subjects can we create the opportunity to expand the value and influence of MI‐BCI.",
@@ -12621,11 +14057,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_fa85db73dc7322d4"
@@ -12654,11 +14092,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑电基础大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -12864,11 +14313,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_951f6ee692df644b"
@@ -12897,11 +14348,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑电情感识别"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -12936,7 +14398,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -12972,11 +14435,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_55e901228bcf"
@@ -13010,12 +14475,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑电情感识别"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "3a8b7937e393f364",
     "primary_categories_by_scholar": [
       "尧德中：情感脑电与多模态生理信号",
-      "徐鹏：情感脑电与多模态生理信号"
+      "徐鹏：情感脑电与多模态生理信号",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "dblp_key": "journals/tbe/LiLSLLZHZYZ019",
     "abstract_en": "OBJECTIVE: Spectral power analysis plays a predominant role in electroencephalogram-based emotional recognition. It can reflect activity differences among multiple brain regions. In addition to activation difference, different emotions also involve different large-scale network during related information processing. In this paper, both information propagation patterns and activation difference in the brain were fused to improve the performance of emotional recognition. METHODS: We constructed emotion-related brain networks with phase locking value and adopted a multiple feature fusion approach to combine the compensative activation and connection information for emotion recognition. RESULTS: Recognition results on three public emotional databases demonstrated that the combined features are superior to either single feature based on power distribution or network character. Furthermore, the conducted feature fusion analysis revealed the common characters between activation and connection patterns involved in the positive, neutral, and negative emotions for information processing. SIGNIFICANCE: The proposed feasible combination of both information propagation patterns and activation difference in the brain is meaningful for developing the effective human-computer interaction systems by adapting to human emotions in the real world applications.",
@@ -13066,11 +14547,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_f07a5db39462279a"
@@ -13101,11 +14584,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -13137,7 +14632,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -13267,11 +14763,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_b47db1532c868e40"
@@ -13302,11 +14800,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -13354,11 +14864,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_99170a909797592e"
@@ -13387,11 +14899,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -13440,11 +14963,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_52a4a67a910058e2"
@@ -13475,11 +15000,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -13608,11 +15145,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_846aafdbc8331dec"
@@ -13641,11 +15180,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -13783,11 +15333,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_72aade10643a2036"
@@ -13816,11 +15368,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -14154,11 +15717,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_cefd0835b83e6feb"
@@ -14187,11 +15752,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑电基础大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -14237,11 +15813,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_95ad677f1a7c40ff"
@@ -14270,11 +15848,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -14454,7 +16043,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 5,
     "publication_types": "",
     "candidate_source": true,
     "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
@@ -14478,11 +16067,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_16b5446dea87"
@@ -14516,12 +16107,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "228d501457c19820",
     "primary_categories_by_scholar": [
       "尧德中：情感脑电与多模态生理信号",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "dblp_key": "journals/cmmm/MaLLYZX18",
     "abstract_en": "Electroencephalogram signals and the states of subjects are nonstationary. To track changing states effectively, an adaptive calibration framework is proposed for the brain-computer interface (BCI) with the motion-onset visual evoked potential (mVEP) as the control signal. The core of this framework is to update the training set adaptively for classifier training. The updating procedure consists of two operations, that is, adding new samples to the training set and removing old samples from the training set. In the proposed framework, a support vector machine (SVM) and fuzzy C-mean clustering (fCM) are combined to select the reliable samples for the training set from the blocks close to the current blocks to be classified. Because of the complementary information provided by SVM and fCM, they can guarantee the reliability of information fed into classifier training. The removing procedure will aim to remove those old samples recorded a relatively long time before current new blocks. These two operations could yield a new training set, which could be used to calibrate the classifier to track the changing state of the subjects. Experimental results demonstrate that the adaptive calibration framework is effective and efficient and it could improve the performance of online BCI systems.",
@@ -14589,11 +16196,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_92ae0a523c01"
@@ -14627,12 +16236,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "77ddd4bd4a2fea2f",
     "primary_categories_by_scholar": [
       "尧德中：情感脑电与多模态生理信号",
-      "徐鹏：脑电基准、数据与评测"
+      "徐鹏：脑电基准、数据与评测",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "dblp_key": "journals/nn/ZhangYLZGYX19",
     "pdf_url": "https://arxiv.org/pdf/1812.10227",
@@ -14703,11 +16328,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_8b27b6205526"
@@ -14741,12 +16368,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "adab34e779c83702",
     "primary_categories_by_scholar": [
       "尧德中：情感脑电与多模态生理信号",
-      "徐鹏：脑电基准、数据与评测"
+      "徐鹏：脑电基准、数据与评测",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "pdf_url": "https://arxiv.org/pdf/1805.02809",
     "abstract_en": "A canonical correlation analysis (CCA) is a state-of-the-art method for frequency recognition in steady-state visual evoked potential (SSVEP)-based brain-computer interface (BCI) systems. Various extended methods have been developed, and among such methods, a combination method of CCA and individual-template-based CCA has achieved the best performance. However, the CCA requires the canonical vectors to be orthogonal, which may not be a reasonable assumption for the EEG analysis. In this paper, we propose using the correlated component analysis (CORRCA) rather than CCA to implement frequency recognition. CORRCA can relax the constraint of canonical vectors in CCA and generate the same projection vector for two multichannel EEG signals. Furthermore, we propose a two-stage method based on the basic CORRCA method (termed TSCORRCA). Evaluated on a benchmark data set of 35 subjects, the experimental results demonstrate that CORRCA significantly outperformed CCA, and TSCORRCA obtained the best performance among the compared methods. This paper demonstrates that CORRCA-based methods have a great potential for implementing high-performance SSVEP-based BCI systems.",
@@ -14878,11 +16521,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_ea3948dc0caf7556"
@@ -14911,11 +16556,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -14963,11 +16619,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_c66db158ff8518b3"
@@ -14996,11 +16654,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基准、数据与评测",
-      "徐鹏：脑电基准、数据与评测"
+      "徐鹏：脑电基准、数据与评测",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -15047,10 +16716,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_93ed3a2619024338"
@@ -15069,10 +16740,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -15117,11 +16799,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_19aca5f56baaf518"
@@ -15150,11 +16834,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -15362,11 +17057,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_6cbe39cf4fb8ad46"
@@ -15399,11 +17096,24 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "智能芯片与计算系统",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基准、数据与评测",
-      "徐鹏：脑电基准、数据与评测"
+      "徐鹏：脑电基准、数据与评测",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -15599,10 +17309,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_ed0ebed1ab294a84"
@@ -15621,10 +17333,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -15974,11 +17697,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_a30619d7bcdf9ec6"
@@ -16007,11 +17732,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -16121,11 +17857,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_93a30fa48ce8dce4"
@@ -16150,11 +17888,20 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -16517,11 +18264,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_7b8a49137d61a4f4"
@@ -16550,11 +18299,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -16606,11 +18366,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_737fa880f95ced86"
@@ -16639,11 +18401,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -16692,10 +18465,12 @@
     "scholar_id": "panorama_peng_xu",
     "scholar_name": "徐鹏",
     "scholar_ids": [
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_4747a26b173300ae"
@@ -16715,10 +18490,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "徐鹏：脑电基准、数据与评测"
+      "徐鹏：脑电基准、数据与评测",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -16837,11 +18624,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_bb09af0e66c8adca"
@@ -16870,11 +18659,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -16995,11 +18795,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_f4774fad53e23b55"
@@ -17028,11 +18830,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基准、数据与评测",
-      "徐鹏：脑电基准、数据与评测"
+      "徐鹏：脑电基准、数据与评测",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -17082,11 +18895,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_66ea72b49c442261"
@@ -17117,11 +18932,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -17182,11 +19009,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "panorama_peng_xu",
-      "dezhong_yao"
+      "dezhong_yao",
+      "fali_li"
     ],
     "scholar_names": [
       "徐鹏",
-      "尧德中"
+      "尧德中",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_peng_xu_171c35f84fa8"
@@ -17214,12 +19043,25 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "ed10e372c5502ee2",
     "primary_categories_by_scholar": [
       "徐鹏：情感脑电与多模态生理信号",
-      "尧德中：脑电基础模型与通用解码"
+      "尧德中：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ]
   },
   {
@@ -17396,7 +19238,7 @@
     "source_url": "https://dblp.org/rec/journals/cmmm/GaoZLLMLLYX15.html",
     "openalex_id": "https://openalex.org/W2164971576",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 1,
     "abstract_en": "BACKGROUND: Usually the training set of online brain-computer interface (BCI) experiment is small. For the small training set, it lacks enough information to deeply train the classifier, resulting in the poor classification performance during online testing. METHODS: In this paper, on the basis of Z-LDA, we further calculate the classification probability of Z-LDA and then use it to select the reliable samples from the testing set to enlarge the training set, aiming to mine the additional information from testing set to adjust the biased classification boundary obtained from the small training set. The proposed approach is an extension of previous Z-LDA and is named enhanced Z-LDA (EZ-LDA). RESULTS: We evaluated the classification performance of LDA, Z-LDA, and EZ-LDA on simulation and real BCI datasets with different sizes of training samples, and classification results showed EZ-LDA achieved the best classification performance. CONCLUSIONS: EZ-LDA is promising to deal with the small sample size training problem usually existing in online BCI system.",
     "abstract_zh": "背景：在线脑机接口（BCI）实验的训练集通常较小。对于较小的训练集，缺乏足够的信息来深度训练分类器，导致在线测试时分类性能较差。方法：本文在Z-LDA的基础上，进一步计算Z-LDA的分类概率，然后利用它从测试集中选择可靠样本来扩大训练集，旨在挖掘测试集中的附加信息来调整小训练集中获得的有偏差的分类边界。所提出的方法是先前 Z-LDA 的扩展，称为增强型 Z-LDA (EZ-LDA)。结果：我们评估了分类性能...",
     "abstract_source": "openalex_doi",
@@ -17413,11 +19255,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_d6a030e10f2af59f"
@@ -17446,11 +19290,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基准、数据与评测",
-      "徐鹏：脑电基准、数据与评测"
+      "徐鹏：脑电基准、数据与评测",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -17546,7 +19401,7 @@
     "source_url": "https://dblp.org/rec/conf/icdsp/ZhouLWLLZMLGYX15.html",
     "openalex_id": "https://openalex.org/W1501378864",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 6,
     "abstract_en": "Spectral regression is a newly proposed method which is widely used in signal processing and feature extraction. However, like most methods based on regression analysis, it is prone to outlier artifacts with large norm. In this paper, a novel regression function for SR is constructed in the Lp (p ≤ 1) norm space with the aim at compressing the outlier effects on pattern recognition. The quantitative evaluation using simulated outliers demonstrates the proposed method can effectively deal with the outliers introduced in the features.",
     "abstract_zh": "谱回归是一种新提出的方法，广泛应用于信号处理和特征提取中。然而，与大多数基于回归分析的方法一样，它很容易出现具有大范数的异常值伪影。本文在 Lp (p ≤ 1) 范数空间中构造了一种新颖的 SR 回归函数，旨在压缩异常值对模式识别的影响。使用模拟异常值的定量评估表明，该方法可以有效处理特征中引入的异常值。",
     "abstract_source": "openalex_doi",
@@ -17561,11 +19416,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_05020cac8d81a9bb"
@@ -17590,11 +19447,20 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "general_ml_biomed",
+        "label": "通用模式识别、临床脑科学与跨领域应用",
+        "scholar_name": "李发礼",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基准、数据与评测",
-      "徐鹏：脑电基准、数据与评测"
+      "徐鹏：脑电基准、数据与评测",
+      "李发礼：通用模式识别、临床脑科学与跨领域应用"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -18649,11 +20515,13 @@
     "scholar_name": "尧德中",
     "scholar_ids": [
       "dezhong_yao",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "尧德中",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "dezhong_yao_e4637610399b8b18"
@@ -18678,11 +20546,20 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "尧德中：脑电基础模型与通用解码",
-      "徐鹏：脑电基础模型与通用解码"
+      "徐鹏：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
