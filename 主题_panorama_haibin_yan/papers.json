@@ -1229,7 +1229,11 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "https://zenodo.org/records/546113"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W4396523306",
     "openalex_author_id": "https://openalex.org/A5036301580",
@@ -1406,7 +1410,9 @@
     ],
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://www.cvlibs.net/datasets/kitti/"
+    ],
     "model_urls": [],
     "scholar_categories": {
       "panorama_haibin_yan": {

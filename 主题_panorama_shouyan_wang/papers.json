@@ -305,7 +305,10 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://physionet.org/content/sleep-edfx/1.0.0/",
+      "https://sleepdata.org/datasets/shhs"
+    ],
     "model_urls": [],
     "openalex_id": "",
     "openalex_author_id": "",

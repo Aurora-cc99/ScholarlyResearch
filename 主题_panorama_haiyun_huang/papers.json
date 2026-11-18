@@ -2752,7 +2752,11 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "https://zenodo.org/records/546113"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W4365448982",
     "openalex_author_id": "https://openalex.org/A5023225646",
@@ -3469,7 +3473,9 @@
     ],
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://physionet.org/content/sleep-edfx/1.0.0/"
+    ],
     "model_urls": [],
     "scholar_categories": {
       "yuanqing_li": {
@@ -4589,7 +4595,9 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://physionet.org/content/sleep-edfx/1.0.0/"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W2810453816",
     "openalex_author_id": "https://openalex.org/A5100672536",
