@@ -1,13 +1,13 @@
 {
   "as_of": "2026-11-18",
-  "scholars": 241,
+  "scholars": 242,
   "base_scholars": 5,
   "theme_candidate_scholars": 150,
-  "scholar_paper_records": 57541,
-  "merged_records_by_bibliographic_key": 52632,
-  "resource_entries": 2134,
-  "distinct_resource_urls": 1990,
-  "paper_resource_edges": 2598,
+  "scholar_paper_records": 58101,
+  "merged_records_by_bibliographic_key": 53181,
+  "resource_entries": 2150,
+  "distinct_resource_urls": 2006,
+  "paper_resource_edges": 2614,
   "by_scholar": {
     "潘纲": {
       "bibliographic_records": 494,
@@ -5791,7 +5791,7 @@
     },
     "金晶": {
       "bibliographic_records": 214,
-      "with_abstract": 137,
+      "with_abstract": 142,
       "compatibility_alias_records": 0,
       "resource_entries": 0,
       "papers_with_linked_resources": 0,
@@ -7815,21 +7815,63 @@
         2027
       ],
       "unknown_year": 0
+    },
+    "胡德文": {
+      "bibliographic_records": 560,
+      "with_abstract": 398,
+      "compatibility_alias_records": 0,
+      "resource_entries": 16,
+      "papers_with_linked_resources": 16,
+      "types": {
+        "code": 16
+      },
+      "years": [
+        1988,
+        1993,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "unknown_year": 0
     }
   },
   "scope": "all_years; bibliography versions retained; theme candidates are representative-resource layer, not absolute lifetime completeness",
   "large_data_downloaded": false,
   "training_executed": false,
   "paper_link_audit": {
-    "total": 52632,
-    "total_with_aliases": 52878,
-    "with_paper_url": 49004,
-    "with_doi": 44577,
-    "with_abstract": 33848,
-    "with_any_external_or_source": 49575,
+    "total": 53181,
+    "total_with_aliases": 53427,
+    "with_paper_url": 49550,
+    "with_doi": 45118,
+    "with_abstract": 34242,
+    "with_any_external_or_source": 50124,
     "missing_external_or_source": 3057
   },
-  "total_records_including_aliases": 52878,
+  "total_records_including_aliases": 53427,
   "compatibility_alias_records": 426,
-  "papers_with_abstract": 33848
+  "papers_with_abstract": 34242
 }

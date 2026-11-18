@@ -908,7 +908,7 @@
     return '文档浏览.html?doc=' + encodeURIComponent(docPath);
   }
 
-  const CACHE_VER = '20261118v5';
+  const CACHE_VER = '20261118v6';
   function withCacheVer(src) {
     const s = String(src || '');
     if (!s || (typeof location !== 'undefined' && location.protocol === 'file:')) return s;
