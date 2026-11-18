@@ -180,7 +180,17 @@
     'http://vgl.ict.usc.edu/data/lightstage/': 'USC ICT LightStage Data',
     'https://www.enterface.net/enterface06/': 'eNTERFACE 2006 Emotion Database',
     'https://roboimagedata.compute.dtu.dk/?page_id=36': 'DTU Robot Image Data Set',
-    'https://raw.githubusercontent.com/albertmentat/labram-at-scale/main/data_manifests/pretraining/datasets.csv': 'LaBraM-at-Scale 预训练数据集清单'
+    'https://raw.githubusercontent.com/albertmentat/labram-at-scale/main/data_manifests/pretraining/datasets.csv': 'LaBraM-at-Scale 预训练数据集清单',
+    'https://github.com/benxianye/mmew-dataset': 'MMEW 微表情与宏表情多模态数据集 (山东大学)',
+    'https://dcapswoz.ict.usc.edu/': 'DAIC-WOZ 临床抑郁访谈多模态语料库 (USC ICT)',
+    'https://sentic.net/downloads/': 'SenticNet 常识情感知识库与词典',
+    'https://saifmohammad.com/webpages/nrc-emotion-lexicon.htm': 'NRC Word-Emotion Association Lexicon (EmoLex)',
+    'https://github.com/declare-lab/meld': 'MELD 多方对话多模态情感数据集',
+    'https://github.com/zeroqiaoba/merbench': 'MER 系列多模态情感识别与大模型基准 (CASIA)',
+    'https://github.com/zebangcheng/emotion-llama': 'MERR 多模态情感识别与推理指令数据集 (Emotion-LLaMA)',
+    'https://github.com/stevekgyang/mentalllama': 'IMHI 可解释社交媒体心理健康评测集 (MentaLLaMA)',
+    'https://github.com/lzw108/emollms': 'AAID 综合情感分析与情绪强度指令评测集 (EmoLLMs)',
+    'https://github.com/scutcyr/soulchat': 'SoulChatCorpus 多轮心理健康共情对话语料库 (SCUT)'
   };
 
   function cleanUrlForKey(rawUrl) {
@@ -359,7 +369,14 @@
       { key: 'family:gpt4v_emotion', re: /zeroQiaoba\/gpt4v-emotion/i, zh: 'GPT-4V-Emotion 通用多模态情感识别评测基准', en: 'GPT-4V with Emotion Benchmark', url: 'https://github.com/zeroQiaoba/gpt4v-emotion' },
       { key: 'family:moralstory', re: /thu-coai\/MoralStory/i, zh: 'MoralStory 中文道德故事理解与生成语料库 (THU CoAI)', en: 'MoralStory Corpus', url: 'https://github.com/thu-coai/MoralStory' },
       { key: 'family:cdial_gpt', re: /thu-coai\/CDial-GPT/i, zh: 'LCCC / CDial-GPT 大规模中文短文本对话数据集 (THU CoAI)', en: 'LCCC Large-Scale Chinese Short-Text Conversation Dataset', url: 'https://github.com/thu-coai/CDial-GPT' },
-      { key: 'family:mer2025', re: /MERChallenge\/MER2025/i, zh: 'MER 2025 多模态情感识别挑战赛数据集', en: 'MER 2025 Affective Computing & LLM Dataset', url: 'https://huggingface.co/datasets/MERChallenge/MER2025' },
+      { key: 'family:mer_series', re: /MERChallenge\/MER202\d|ZeroQiaoba\/MERBench|\bMER\s*202[345]\b|\bMERBench\b/i, zh: 'MER 系列多模态情感识别挑战赛与基准集 (MER2023/2024/2025/MERBench)', en: 'MER Challenge & MERBench Multimodal Emotion Datasets (CASIA)', url: 'https://huggingface.co/datasets/MERChallenge/MER2025' },
+      { key: 'family:meld', re: /affective-meld\.github\.io|declare-lab\/MELD|\bMELD\b.*Emotion/i, zh: 'MELD 多方对话多模态情感数据集 (Declare Lab)', en: 'MELD Multimodal EmotionLines Dataset', url: 'https://affective-meld.github.io/' },
+      { key: 'family:casme_series', re: /\bCASME\s*II?\b|\bCAS\(ME\)\^?[23]\b|casme\.psych\.ac\.cn/i, zh: 'CASME 系列自发面部微表情数据集 (CASME / CASME II / CAS(ME)² / CAS(ME)³)', en: 'CASME Spontaneous Micro-Expression Series (CAS Institute of Psychology)', url: 'http://casme.psych.ac.cn/casme/e2' },
+      { key: 'family:mmew', re: /\bMMEW\b|benxianye\/MMEW/i, zh: 'MMEW 微表情与宏表情多模态数据集 (山东大学)', en: 'MMEW Micro-and-Macro Expression Warehouse', url: 'https://github.com/benxianye/MMEW-Dataset' },
+      { key: 'family:daic_woz', re: /\bDAIC[- ]WOZ\b|\bE[- ]DAIC\b|dcapswoz\.ict\.usc\.edu/i, zh: 'DAIC-WOZ / E-DAIC 临床抑郁访谈多模态语料库 (USC ICT)', en: 'DAIC-WOZ Distress Analysis Interview Corpus', url: 'https://dcapswoz.ict.usc.edu/' },
+      { key: 'family:senticnet', re: /\bSenticNet\b|sentic\.net\/downloads/i, zh: 'SenticNet 常识情感极性与细粒度情绪知识库 (NTU)', en: 'SenticNet Commonsense Affective Knowledge Base', url: 'https://sentic.net/downloads/' },
+      { key: 'family:nrc_emolex', re: /NRC[- ]Emotion[- ]Lexicon|\bEmoLex\b|Word[-–]Emotion Association Lexicon/i, zh: 'NRC 词语-情绪关联词典 (EmoLex 多语种情绪词典)', en: 'NRC Word-Emotion Association Lexicon (EmoLex)', url: 'https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm' },
+      { key: 'family:aishell_series', re: /\bAISHELL(?:[- ][12345])?\b|openslr\.org\/33/i, zh: 'AISHELL 系列中文开源语音识别与合成语料库 (AISHELL-1/2/3/4/5)', en: 'AISHELL Open-Source Mandarin Speech Corpus Series', url: 'https://www.openslr.org/33/' },
       { key: 'family:vwg_bench', re: /KlingTeam\/VWG-Bench/i, zh: 'VWG-Bench 视频生成世界规律与推理评测基准', en: 'VWG-Bench (KlingTeam)', url: 'https://huggingface.co/datasets/KlingTeam/VWG-Bench' },
       { key: 'family:objaverse_mix', re: /BAAI\/Objaverse-MIX/i, zh: 'Objaverse-MIX 三维形状自回归生成数据集 (BAAI)', en: 'BAAI/Objaverse-MIX 3D Dataset', url: 'https://huggingface.co/datasets/BAAI/Objaverse-MIX' },
       { key: 'family:mulocbench', re: /somethingone\/MULocBench/i, zh: 'MULocBench 软件工程代码与非代码缺陷定位基准集', en: 'MULocBench Dataset', url: 'https://huggingface.co/datasets/somethingone/MULocBench' },
@@ -891,7 +908,7 @@
     return '文档浏览.html?doc=' + encodeURIComponent(docPath);
   }
 
-  const CACHE_VER = '20261118v4';
+  const CACHE_VER = '20261118v5';
   function withCacheVer(src) {
     const s = String(src || '');
     if (!s || (typeof location !== 'undefined' && location.protocol === 'file:')) return s;

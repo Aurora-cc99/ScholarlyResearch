@@ -107,7 +107,7 @@ summary{cursor:pointer}
 <body>
 <header>
   <h1>学者论文与开源资源库</h1>
-  <p>潘纲 · 黄铁军 · 陈云霁 · 吕宝粮 · 梁臻 及 150 位相关领域核验学者</p>
+  <p>潘纲 · 黄铁军 · 陈云霁 · 吕宝粮 · 梁臻 及 236 位相关领域核验学者（含五大情感与脑电大模型专题）</p>
   <p>全时间范围 · 截至 2026-11-18 · 中英文双语题名与摘要检索 · 论文 / 代码 / 数据集 / 模型权重</p>
 </header>
 <main class="wrap">
@@ -158,6 +158,7 @@ summary{cursor:pointer}
       </label>
       <button type="button" id="reset">重置筛选</button>
       <div class="nav-links">
+        <a href="文档浏览.html?doc=%E6%96%B0%E5%A2%9E%E4%B8%BB%E9%A2%98%E5%AD%A6%E8%80%85%E7%AD%9B%E9%80%89%E4%B8%8E%E6%A0%B8%E9%AA%8C%E8%AF%B4%E6%98%8E.md">五大主题学者</a>
         <a href="文档浏览.html?doc=%E5%88%86%E7%B1%BB%E6%A6%82%E8%A7%88.md">分类概览</a>
         <a href="文档浏览.html?doc=README_%E6%80%BB%E5%AF%BC%E8%88%AA.md">总导航</a>
         <a href="全部论文总表.csv" download>论文 CSV</a>
@@ -196,10 +197,10 @@ summary{cursor:pointer}
     <button type="button" id="next">下一页</button>
   </div>
   <section class="panel detail-view" id="detailView" hidden></section>
-  <div class="footer">本页采用自动分片技术，支持离线浏览与在线毫秒级检索（涵盖全部 155 位学者全历史论文、双语摘要与开源资源）；外部出版页和下载链接需联网访问。</div>
+  <div class="footer">本页采用自动分片技术，支持离线浏览与在线毫秒级检索（涵盖全部 241 位学者全历史论文、双语摘要与开源资源）；外部出版页和下载链接需联网访问。</div>
 </main>
-<script src="data/db-meta.js?v=20261118v4"></script>
-<script src="app-common.js?v=20261118v4"></script>
+<script src="data/db-meta.js?v=20261118v5"></script>
+<script src="app-common.js?v=20261118v5"></script>
 <script>
 (async function () {
   'use strict';
@@ -227,7 +228,7 @@ summary{cursor:pointer}
   $('datasetsTab').onclick = () => syncPreloadTabs('datasets');
 
   if (typeof C.loadAllPaperShards !== 'function' || typeof C.loadAbstract !== 'function') {
-    const verSuffix = (typeof location !== 'undefined' && location.protocol === 'file:') ? '' : '?v=20261118v4';
+    const verSuffix = (typeof location !== 'undefined' && location.protocol === 'file:') ? '' : '?v=20261118v5';
     let _p = null;
     C.loadAllPaperShards = function (targetDb, onProg) {
       if (!targetDb || targetDb._shardsLoaded || !(targetDb.shards && Array.isArray(targetDb.shards.papers) && targetDb.shards.papers.length)) {
