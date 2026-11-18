@@ -891,7 +891,8 @@
     "cited_by_count": 2,
     "topics": [
       "情感智能",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "多模态与大语言模型"
     ],
     "verification": "OpenAlex作者实体与机构消歧核验（A5077852542）",
     "status": "已索引出版记录",
@@ -901,17 +902,21 @@
     "scholar_id": "badong_chen",
     "scholar_name": "陈霸东",
     "scholar_ids": [
-      "badong_chen"
+      "badong_chen",
+      "dewen_hu"
     ],
     "scholar_names": [
-      "陈霸东"
+      "陈霸东",
+      "胡德文"
     ],
     "source_record_ids": [
       "badong_chen_e12765a4c813bcce"
     ],
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bicr-resource.atr.jp/srpbsopen/"
+    ],
     "model_urls": [],
     "scholar_categories": {
       "badong_chen": {
@@ -924,10 +929,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "dewen_hu": {
+        "category_id": "fmri_mental_biomarker",
+        "label": "功能脑影像、脑网络与精神疾病计算诊断",
+        "scholar_name": "胡德文",
+        "secondary_tags": [
+          "情感智能",
+          "医学影像与脑疾病诊断",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "陈霸东：脑电基础大模型与自监督预训练"
+      "陈霸东：脑电基础大模型与自监督预训练",
+      "胡德文：功能脑影像、脑网络与精神疾病计算诊断"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
@@ -20183,7 +20201,10 @@
     "abstract_zh": "",
     "abstract_source": "",
     "cited_by_count": 1,
-    "topics": [],
+    "topics": [
+      "医学影像与脑疾病诊断",
+      "脑电情感识别"
+    ],
     "verification": "OpenAlex作者实体与机构消歧核验（A5077852542）",
     "status": "预印本",
     "source_kind": "openalex_verified",
@@ -20192,10 +20213,12 @@
     "scholar_id": "badong_chen",
     "scholar_name": "陈霸东",
     "scholar_ids": [
-      "badong_chen"
+      "badong_chen",
+      "dewen_hu"
     ],
     "scholar_names": [
-      "陈霸东"
+      "陈霸东",
+      "胡德文"
     ],
     "source_record_ids": [
       "badong_chen_4d46e16aac275254"
@@ -20212,10 +20235,22 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "dewen_hu": {
+        "category_id": "fmri_mental_biomarker",
+        "label": "功能脑影像、脑网络与精神疾病计算诊断",
+        "scholar_name": "胡德文",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断",
+          "脑电情感识别"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "陈霸东：脑电基础大模型与自监督预训练"
+      "陈霸东：脑电基础大模型与自监督预训练",
+      "胡德文：功能脑影像、脑网络与精神疾病计算诊断"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
@@ -22672,10 +22707,12 @@
     "scholar_id": "badong_chen",
     "scholar_name": "陈霸东",
     "scholar_ids": [
-      "badong_chen"
+      "badong_chen",
+      "dewen_hu"
     ],
     "scholar_names": [
-      "陈霸东"
+      "陈霸东",
+      "胡德文"
     ],
     "source_record_ids": [
       "badong_chen_675946f29a8e824b"
@@ -22694,10 +22731,21 @@
         ],
         "confidence": "low",
         "note": ""
+      },
+      "dewen_hu": {
+        "category_id": "fmri_mental_biomarker",
+        "label": "功能脑影像、脑网络与精神疾病计算诊断",
+        "scholar_name": "胡德文",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "陈霸东：脑电基础大模型与自监督预训练"
+      "陈霸东：脑电基础大模型与自监督预训练",
+      "胡德文：功能脑影像、脑网络与精神疾病计算诊断"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
