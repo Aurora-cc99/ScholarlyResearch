@@ -9,7 +9,7 @@
     "merged_records_by_bibliographic_key": 26988,
     "resource_entries": 1672,
     "distinct_resource_urls": 1528,
-    "paper_resource_edges": 2043,
+    "paper_resource_edges": 2108,
     "by_scholar": {
       "潘纲": {
         "bibliographic_records": 494,
@@ -192,7 +192,7 @@
         "with_abstract": 104,
         "compatibility_alias_records": 0,
         "resource_entries": 40,
-        "papers_with_linked_resources": 32,
+        "papers_with_linked_resources": 37,
         "types": {
           "code": 16,
           "model": 1,
@@ -228,7 +228,7 @@
         "with_abstract": 21,
         "compatibility_alias_records": 0,
         "resource_entries": 4,
-        "papers_with_linked_resources": 3,
+        "papers_with_linked_resources": 4,
         "types": {
           "code": 3,
           "dataset": 1
@@ -514,7 +514,7 @@
         "with_abstract": 193,
         "compatibility_alias_records": 0,
         "resource_entries": 36,
-        "papers_with_linked_resources": 33,
+        "papers_with_linked_resources": 36,
         "types": {
           "project": 13,
           "code": 21,
@@ -1125,7 +1125,7 @@
         "with_abstract": 272,
         "compatibility_alias_records": 0,
         "resource_entries": 39,
-        "papers_with_linked_resources": 36,
+        "papers_with_linked_resources": 38,
         "types": {
           "project": 10,
           "dataset": 2,
@@ -1394,7 +1394,7 @@
         "with_abstract": 388,
         "compatibility_alias_records": 0,
         "resource_entries": 87,
-        "papers_with_linked_resources": 92,
+        "papers_with_linked_resources": 93,
         "types": {
           "code": 82,
           "dataset": 2,
@@ -4159,7 +4159,7 @@
         "with_abstract": 179,
         "compatibility_alias_records": 0,
         "resource_entries": 2,
-        "papers_with_linked_resources": 3,
+        "papers_with_linked_resources": 4,
         "types": {
           "code": 2
         },
@@ -4397,7 +4397,7 @@
         "with_abstract": 208,
         "compatibility_alias_records": 0,
         "resource_entries": 11,
-        "papers_with_linked_resources": 22,
+        "papers_with_linked_resources": 26,
         "types": {
           "code": 11
         },
@@ -5732,7 +5732,7 @@
         "with_abstract": 104,
         "compatibility_alias_records": 0,
         "resource_entries": 40,
-        "papers_with_linked_resources": 32,
+        "papers_with_linked_resources": 37,
         "types": {
           "code": 16,
           "model": 1,
@@ -5826,7 +5826,7 @@
         "with_abstract": 21,
         "compatibility_alias_records": 0,
         "resource_entries": 4,
-        "papers_with_linked_resources": 3,
+        "papers_with_linked_resources": 4,
         "types": {
           "code": 3,
           "dataset": 1
@@ -6745,7 +6745,7 @@
         "with_abstract": 193,
         "compatibility_alias_records": 0,
         "resource_entries": 36,
-        "papers_with_linked_resources": 33,
+        "papers_with_linked_resources": 36,
         "types": {
           "project": 13,
           "code": 21,
@@ -8464,7 +8464,7 @@
         "with_abstract": 272,
         "compatibility_alias_records": 0,
         "resource_entries": 39,
-        "papers_with_linked_resources": 36,
+        "papers_with_linked_resources": 38,
         "types": {
           "project": 10,
           "dataset": 2,
@@ -9196,7 +9196,7 @@
         "with_abstract": 388,
         "compatibility_alias_records": 0,
         "resource_entries": 87,
-        "papers_with_linked_resources": 92,
+        "papers_with_linked_resources": 93,
         "types": {
           "code": 82,
           "dataset": 2,
@@ -17290,7 +17290,7 @@
         "with_abstract": 179,
         "compatibility_alias_records": 0,
         "resource_entries": 2,
-        "papers_with_linked_resources": 3,
+        "papers_with_linked_resources": 4,
         "types": {
           "code": 2
         },
@@ -17945,7 +17945,7 @@
         "with_abstract": 208,
         "compatibility_alias_records": 0,
         "resource_entries": 11,
-        "papers_with_linked_resources": 22,
+        "papers_with_linked_resources": 26,
         "types": {
           "code": 11
         },
@@ -31520,7 +31520,9 @@
         "吕宝粮：脑电基准、数据与评测",
         "姜维邦：脑电基准、数据与评测",
         "郑伟龙：脑电基准、数据与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "SEED-OLF — A Novel EEG Dataset With Olfactory Stimulation for Emotion Recogn"
     },
     {
       "id": "lu_baoliang__R004",
@@ -32867,10 +32869,43 @@
         "作者/机构主页",
         "数据集下载/申请"
       ],
-      "matched_paper_ids": [],
+      "matched_paper_ids": [
+        "6f16e717b51df3bc",
+        "9375debc36bff828",
+        "5f39d5f31923a1b1",
+        "42679130b1a183b8",
+        "9baeefcf56f06d76",
+        "fc8f8b27571e39b0",
+        "163ee8b079e93eca",
+        "324e84e9292dd888",
+        "29e605fd720eb966",
+        "de82f2ae717c5200",
+        "60753a43a8d7216e",
+        "5a742e5208edf68d",
+        "d27a3cd968dec6a5",
+        "2acf69f7b0df4830",
+        "4b914cc91db862c8",
+        "6c22b69e6e073a46",
+        "43eae5d1ea1364b6",
+        "9b528f76fb12710c",
+        "f45f3841329c251e",
+        "405ced0dd4d121aa"
+      ],
       "unmatched_titles": [],
-      "scholar_category_ids": [],
-      "primary_categories": []
+      "scholar_category_ids": [
+        "liang_zhen::affective_eeg",
+        "liang_zhen::brain_signal_methods",
+        "panorama_9a7afcd2f866::eeg_affect",
+        "panorama_peng_xu::eeg_affect",
+        "ming_dong::eeg_benchmark"
+      ],
+      "primary_categories": [
+        "梁臻：情感识别、连续情绪与跨域建模",
+        "梁臻：脑信号方法与脑机接口",
+        "张治国：情感脑电与多模态生理信号",
+        "徐鹏：情感脑电与多模态生理信号",
+        "明东：脑电基准、数据与评测"
+      ]
     },
     {
       "id": "liang_zhen__LIANG_EXT_SEED-IV",
@@ -32896,10 +32931,33 @@
         "作者/机构主页",
         "数据集下载/申请"
       ],
-      "matched_paper_ids": [],
+      "matched_paper_ids": [
+        "6f16e717b51df3bc",
+        "5f39d5f31923a1b1",
+        "42679130b1a183b8",
+        "9baeefcf56f06d76",
+        "fc8f8b27571e39b0",
+        "163ee8b079e93eca",
+        "324e84e9292dd888",
+        "29e605fd720eb966",
+        "de82f2ae717c5200",
+        "d27a3cd968dec6a5",
+        "2acf69f7b0df4830",
+        "6c22b69e6e073a46",
+        "43eae5d1ea1364b6",
+        "9b528f76fb12710c"
+      ],
       "unmatched_titles": [],
-      "scholar_category_ids": [],
-      "primary_categories": []
+      "scholar_category_ids": [
+        "liang_zhen::affective_eeg",
+        "panorama_9a7afcd2f866::eeg_affect",
+        "panorama_peng_xu::eeg_affect"
+      ],
+      "primary_categories": [
+        "梁臻：情感识别、连续情绪与跨域建模",
+        "张治国：情感脑电与多模态生理信号",
+        "徐鹏：情感脑电与多模态生理信号"
+      ]
     },
     {
       "id": "liang_zhen__LIANG_EXT_SEED-V",
@@ -32925,10 +32983,27 @@
         "作者/机构主页",
         "数据集下载/申请"
       ],
-      "matched_paper_ids": [],
+      "matched_paper_ids": [
+        "6f16e717b51df3bc",
+        "5f39d5f31923a1b1",
+        "9baeefcf56f06d76",
+        "fc8f8b27571e39b0",
+        "163ee8b079e93eca",
+        "29e605fd720eb966",
+        "de82f2ae717c5200",
+        "d27a3cd968dec6a5"
+      ],
       "unmatched_titles": [],
-      "scholar_category_ids": [],
-      "primary_categories": []
+      "scholar_category_ids": [
+        "liang_zhen::affective_eeg",
+        "panorama_9a7afcd2f866::eeg_affect",
+        "panorama_peng_xu::eeg_affect"
+      ],
+      "primary_categories": [
+        "梁臻：情感识别、连续情绪与跨域建模",
+        "张治国：情感脑电与多模态生理信号",
+        "徐鹏：情感脑电与多模态生理信号"
+      ]
     },
     {
       "id": "liang_zhen__LIANG_EXT_SEED-VII",
@@ -32981,10 +33056,28 @@
       "evidence_labels": [
         "数据集下载/申请"
       ],
-      "matched_paper_ids": [],
+      "matched_paper_ids": [
+        "9375debc36bff828",
+        "324e84e9292dd888",
+        "60753a43a8d7216e",
+        "5a742e5208edf68d",
+        "2acf69f7b0df4830",
+        "f45f3841329c251e",
+        "405ced0dd4d121aa"
+      ],
       "unmatched_titles": [],
-      "scholar_category_ids": [],
-      "primary_categories": []
+      "scholar_category_ids": [
+        "liang_zhen::brain_signal_methods",
+        "liang_zhen::affective_eeg",
+        "panorama_9a7afcd2f866::eeg_affect",
+        "ming_dong::eeg_benchmark"
+      ],
+      "primary_categories": [
+        "梁臻：脑信号方法与脑机接口",
+        "梁臻：情感识别、连续情绪与跨域建模",
+        "张治国：情感脑电与多模态生理信号",
+        "明东：脑电基准、数据与评测"
+      ]
     },
     {
       "id": "liang_zhen__LIANG_EXT_MAHNOB-HCI",
@@ -33010,10 +33103,20 @@
         "项目主页/资源说明",
         "项目主页/资源说明"
       ],
-      "matched_paper_ids": [],
+      "matched_paper_ids": [
+        "60753a43a8d7216e",
+        "f45f3841329c251e",
+        "405ced0dd4d121aa"
+      ],
       "unmatched_titles": [],
-      "scholar_category_ids": [],
-      "primary_categories": []
+      "scholar_category_ids": [
+        "liang_zhen::affective_eeg",
+        "panorama_9a7afcd2f866::eeg_affect"
+      ],
+      "primary_categories": [
+        "梁臻：情感识别、连续情绪与跨域建模",
+        "张治国：情感脑电与多模态生理信号"
+      ]
     },
     {
       "id": "liang_zhen__LIANG_DATA_LTNE",
@@ -33231,10 +33334,18 @@
         "论文主页/PDF",
         "GitHub 代码仓库"
       ],
-      "matched_paper_ids": [],
+      "matched_paper_ids": [
+        "f8ae588926f715f2"
+      ],
       "unmatched_titles": [],
-      "scholar_category_ids": [],
-      "primary_categories": []
+      "scholar_category_ids": [
+        "sahand_sabour::emotion_benchmark",
+        "minlie_huang::eeg_benchmark"
+      ],
+      "primary_categories": [
+        "Sahand Sabour：情感数据集、基准与评测",
+        "黄民烈：脑电基准、数据与评测"
+      ]
     },
     {
       "id": "xin_liu__R001",
@@ -33458,7 +33569,9 @@
       ],
       "primary_categories": [
         "连政：脑电基准、数据与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "EmoBench-M — Benchmarking Emotional Intelligence for Multimodal Large Language"
     },
     {
       "id": "zheng_lian__R002",
@@ -33733,7 +33846,9 @@
       ],
       "primary_categories": [
         "郝飞：情感数据集、基准与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "Towards Multimodal Empathetic Response Generation: A Rich Text-Speech-Visio"
     },
     {
       "id": "hao_fei__R005",
@@ -33776,7 +33891,9 @@
       ],
       "primary_categories": [
         "郝飞：情感数据集、基准与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "Towards Multimodal Empathetic Response Generation: A Rich Text-Speech-Visio"
     },
     {
       "id": "hao_fei__R006",
@@ -35113,7 +35230,9 @@
       ],
       "primary_categories": [
         "郝飞：情感数据集、基准与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "UniM — A Unified Any-to-Any Interleaved Multimodal Benchmark"
     },
     {
       "id": "hao_fei__R037",
@@ -35719,7 +35838,9 @@
       ],
       "primary_categories": [
         "郝飞：情感数据集、基准与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "Derm1M — A Million-scale Vision-Language Dataset Aligned with Clinical Ont"
     },
     {
       "id": "hao_fei__R051",
@@ -35805,7 +35926,9 @@
       ],
       "primary_categories": [
         "郝飞：情感数据集、基准与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "CCHall — A Novel Benchmark for Joint Cross-Lingual and Cross-Modal Halluci"
     },
     {
       "id": "hao_fei__R053",
@@ -36452,7 +36575,9 @@
       ],
       "primary_categories": [
         "郝飞：情感数据集、基准与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "PanoSent — A Panoptic Sextuple Extraction Benchmark for Multimodal Conversat"
     },
     {
       "id": "hao_fei__R068",
@@ -36495,7 +36620,9 @@
       ],
       "primary_categories": [
         "郝飞：情感数据集、基准与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "SpeechEE — A Novel Benchmark for Speech Event Extraction"
     },
     {
       "id": "hao_fei__R069",
@@ -37570,7 +37697,9 @@
       ],
       "primary_categories": [
         "郝飞：情感数据集、基准与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "DiaASQ — A Benchmark of Conversational Aspect-based Sentiment Quadruple An"
     },
     {
       "id": "hao_fei__R094",
@@ -38776,7 +38905,9 @@
       ],
       "primary_categories": [
         "郝飞：情感数据集、基准与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "Towards Complex-query Referring Image Segmentation: A Novel Benchmark"
     },
     {
       "id": "hao_fei__R122",
@@ -39388,7 +39519,9 @@
       ],
       "primary_categories": [
         "赵国英：情感理解与多模态推理"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "Mark o Savic, Guoying Zhao . Oulu Remote-photoplethysmography Presentation "
     },
     {
       "id": "guoying_zhao__R004",
@@ -39833,10 +39966,21 @@
         "项目主页/资源说明",
         "项目主页/资源说明"
       ],
-      "matched_paper_ids": [],
+      "matched_paper_ids": [
+        "89388900fd8514e5",
+        "d9db8386df8308ba",
+        "6c3de275b755d183",
+        "eea68b42e3a0de94"
+      ],
       "unmatched_titles": [],
-      "scholar_category_ids": [],
-      "primary_categories": []
+      "scholar_category_ids": [
+        "guoying_zhao::emotion_understanding",
+        "guoying_zhao::emotion_benchmark"
+      ],
+      "primary_categories": [
+        "赵国英：情感理解与多模态推理",
+        "赵国英：情感数据集、基准与评测"
+      ]
     },
     {
       "id": "guoying_zhao__R016",
@@ -39866,10 +40010,21 @@
         "项目主页/资源说明",
         "项目主页/资源说明"
       ],
-      "matched_paper_ids": [],
+      "matched_paper_ids": [
+        "89388900fd8514e5",
+        "d9db8386df8308ba",
+        "6c3de275b755d183",
+        "eea68b42e3a0de94"
+      ],
       "unmatched_titles": [],
-      "scholar_category_ids": [],
-      "primary_categories": []
+      "scholar_category_ids": [
+        "guoying_zhao::emotion_understanding",
+        "guoying_zhao::emotion_benchmark"
+      ],
+      "primary_categories": [
+        "赵国英：情感理解与多模态推理",
+        "赵国英：情感数据集、基准与评测"
+      ]
     },
     {
       "id": "yi_ding__R001",
@@ -42816,10 +42971,17 @@
         "论文主页/PDF",
         "项目主页/资源说明"
       ],
-      "matched_paper_ids": [],
+      "matched_paper_ids": [
+        "844a22b825a9a509",
+        "a1f9880b694ab1ca"
+      ],
       "unmatched_titles": [],
-      "scholar_category_ids": [],
-      "primary_categories": []
+      "scholar_category_ids": [
+        "xu_ruifeng::eeg_affect"
+      ],
+      "primary_categories": [
+        "徐睿峰：情感脑电与多模态生理信号"
+      ]
     },
     {
       "id": "xu_ruifeng__R012",
@@ -43547,7 +43709,9 @@
       "primary_categories": [
         "蒋冬梅：脑电基准、数据与评测",
         "李雅：脑电基准、数据与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "AVES — An Audio-Visual Emotion Stream Dataset for Temporal Emotion Detec"
     },
     {
       "id": "jiang_dongmei__R007",
@@ -43725,10 +43889,18 @@
         "项目主页/资源说明",
         "项目主页/资源说明"
       ],
-      "matched_paper_ids": [],
+      "matched_paper_ids": [
+        "835af14096975c3c"
+      ],
       "unmatched_titles": [],
-      "scholar_category_ids": [],
-      "primary_categories": []
+      "scholar_category_ids": [
+        "jiang_dongmei::eeg_benchmark",
+        "panorama_ya_li::eeg_benchmark"
+      ],
+      "primary_categories": [
+        "蒋冬梅：脑电基准、数据与评测",
+        "李雅：脑电基准、数据与评测"
+      ]
     },
     {
       "id": "jiang_dongmei__R012",
@@ -44090,7 +44262,9 @@
       ],
       "primary_categories": [
         "郑伟龙：脑电基准、数据与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "SEED-SD — A Multimodal Dataset for Emotion and Depression Research"
     },
     {
       "id": "wei_long_zheng__R009",
@@ -44213,7 +44387,9 @@
       ],
       "primary_categories": [
         "郑伟龙：脑电基准、数据与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "SEED-DV — EEG Dataset for Dynamic Visual Perception Decoding"
     },
     {
       "id": "yuanqing_li__R001",
@@ -44664,7 +44840,9 @@
       ],
       "primary_categories": [
         "胡斌：脑电基准、数据与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "MODMA dataset: a Multi-modal Open Dataset for Mental-disorder Analysis"
     },
     {
       "id": "bin_hu__R004",
@@ -45063,7 +45241,9 @@
       ],
       "primary_categories": [
         "黄民烈：脑电基准、数据与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "LOT — A Story-Centric Benchmark for Evaluating Chinese Long Text Unders"
     },
     {
       "id": "minlie_huang__R003",
@@ -45106,7 +45286,9 @@
       ],
       "primary_categories": [
         "黄民烈：脑电基准、数据与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "A Corpus for Understanding and Generating Moral Stories"
     },
     {
       "id": "minlie_huang__R004",
@@ -45450,7 +45632,9 @@
       ],
       "primary_categories": [
         "黄民烈：脑电基准、数据与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "CDConv — A Benchmark for Contradiction Detection in Chinese Conversations"
     },
     {
       "id": "minlie_huang__R012",
@@ -45579,7 +45763,9 @@
       ],
       "primary_categories": [
         "黄民烈：脑电基准、数据与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "OpenMEVA — A Benchmark for Evaluating Open-ended Story Generation Metrics"
     },
     {
       "id": "minlie_huang__R015",
@@ -45966,7 +46152,9 @@
       ],
       "primary_categories": [
         "黄民烈：脑电基准、数据与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "A Large-Scale Chinese Short-Text Conversation Dataset"
     },
     {
       "id": "minlie_huang__R024",
@@ -46009,7 +46197,9 @@
       ],
       "primary_categories": [
         "黄民烈：脑电基准、数据与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "KdConv — A Chinese Multi-domain Dialogue Dataset Towards Multi-turn Knowle"
     },
     {
       "id": "minlie_huang__R025",
@@ -50232,10 +50422,16 @@
       "scholar_name": "吕宝粮",
       "related_paper_titles_zh": [],
       "name_zh": "LaBraM at Scale 523-dataset metadata",
-      "matched_paper_ids": [],
+      "matched_paper_ids": [
+        "90c97dd02a2947b3"
+      ],
       "unmatched_titles": [],
-      "scholar_category_ids": [],
-      "primary_categories": [],
+      "scholar_category_ids": [
+        "lu_baoliang::eeg_foundation"
+      ],
+      "primary_categories": [
+        "吕宝粮：脑电基础模型与通用解码"
+      ],
       "evidence_labels": [
         "GitHub 代码仓库"
       ]
@@ -50313,8 +50509,8 @@
     },
     {
       "id": "hao_fei__auto_dataset_1c4e548393",
-      "name": "From Evaluation to Enhancement: Benchmarking and Improving Think-with-Video Reasoning for Video Generative Models — 开源数据集 (KlingTeam/VWG-Bench)",
-      "name_zh": "从评估到增强：视频生成模型的基准测试和改进视频思考推理 — 开源数据集",
+      "name": "Hugging Face / KlingTeam/VWG-Bench",
+      "name_zh": "Hugging Face / KlingTeam/VWG-Bench",
       "type": "dataset",
       "url": "https://huggingface.co/datasets/KlingTeam/VWG-Bench",
       "download_url": "https://huggingface.co/datasets/KlingTeam/VWG-Bench",
@@ -51369,7 +51565,9 @@
       ],
       "primary_categories": [
         "连政：脑电基准、数据与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "EmoTrans — A Benchmark for Understanding, Reasoning, and Predicting Emotion "
     },
     {
       "id": "pan_gang__auto_code_507fee72d3",
@@ -51625,8 +51823,8 @@
     },
     {
       "id": "dongrui_wu__auto_dataset_5c05b1ac71",
-      "name": "LMID: A Comprehensive Multimodal Dataset for Failure Prediction in Cloud Computing Systems — 开源数据集 (AliyunECSAlgos/LMID)",
-      "name_zh": "LMID：云计算系统中用于故障预测的综合多模态数据集 — 开源数据集",
+      "name": "LMID (AliyunECSAlgos/LMID)",
+      "name_zh": "LMID (AliyunECSAlgos/LMID)",
       "type": "dataset",
       "url": "https://huggingface.co/datasets/AliyunECSAlgos/LMID",
       "download_url": "https://huggingface.co/datasets/AliyunECSAlgos/LMID",
@@ -51763,7 +51961,9 @@
       ],
       "primary_categories": [
         "沈新科：脑电基准、数据与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "OmniEEG-Bench — A Standardized Evaluation Benchmark for EEG Foundation Models"
     },
     {
       "id": "panorama_a1b824acf8ea__auto_code_24ddf3306b",
@@ -52155,7 +52355,9 @@
       ],
       "primary_categories": [
         "闵雄阔：情感数据集、基准与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "3DGCQA — A Quality Assessment Database for 3D AI-Generated Contents"
     },
     {
       "id": "huang_tiejun__auto_code_7d0e102cd3",
@@ -52551,7 +52753,9 @@
       ],
       "primary_categories": [
         "闵雄阔：情感数据集、基准与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "Benchmarking Multi-dimensional AIGC Video Quality Assessment: A Dataset and"
     },
     {
       "id": "huang_tiejun__auto_code_60be823a24",
@@ -52662,8 +52866,8 @@
     },
     {
       "id": "karim_jerbi__auto_dataset_240c7c68cc",
-      "name": "Combining virtual reality and hypnosis to alleviate chronic pain in elderly with hand arthritis: protocol for a randomised phase II clinical trial — 开源数据集 (osf.io/vbh72)",
-      "name_zh": "结合虚拟现实和催眠来减轻患有手关节炎的老年人的慢性疼痛：随机II期临床试验方案 — 开源数据集",
+      "name": "Combining virtual reality and hypnosis to … (OSF vbh72)",
+      "name_zh": "Combining virtual reality and hypnosis to … (OSF vbh72)",
       "type": "dataset",
       "url": "https://osf.io/vbh72",
       "download_url": "https://osf.io/vbh72",
@@ -52871,7 +53075,9 @@
       ],
       "primary_categories": [
         "闵雄阔：情感数据集、基准与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "Human-Activity AGV Quality Assessment: A Benchmark Dataset and an Objective"
     },
     {
       "id": "lu_baoliang__auto_code_acecdcd39e",
@@ -53661,7 +53867,9 @@
       ],
       "primary_categories": [
         "郝飞：情感数据集、基准与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "CoMT — A Novel Benchmark for Chain of Multi-modal Thought on Large Visio"
     },
     {
       "id": "jianhua_tao__auto_code_1018456d40",
@@ -53944,7 +54152,9 @@
       ],
       "primary_categories": [
         "赵国英：情感数据集、基准与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "FingerVeinSyn-5M — A Million-Scale Dataset and Benchmark for Finger Vein Recognition"
     },
     {
       "id": "xiongkuo_min__auto_code_6351c59358",
@@ -54318,8 +54528,8 @@
     },
     {
       "id": "zheng_lian__auto_dataset_e3237f0244",
-      "name": "MER 2025: When Affective Computing Meets Large Language Models — 开源数据集 (MERChallenge/MER2025)",
-      "name_zh": "MER 2025：当情感计算遇到大型语言模型时 — 开源数据集",
+      "name": "Hugging Face / MERChallenge/MER2025",
+      "name_zh": "Hugging Face / MERChallenge/MER2025",
       "type": "dataset",
       "url": "https://huggingface.co/datasets/MERChallenge/MER2025",
       "download_url": "https://huggingface.co/datasets/MERChallenge/MER2025",
@@ -55233,7 +55443,9 @@
         "陶建华：脑电基准、数据与评测",
         "连政：情感脑电与多模态生理信号",
         "陶建华：情感脑电与多模态生理信号"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "GPT-4V with emotion: A zero-shot benchmark for Generalized Emotion Recognit"
     },
     {
       "id": "jianfeng_feng__auto_code_5c4ce9d09f",
@@ -55343,7 +55555,9 @@
         "连政：脑电基准、数据与评测",
         "刘瑞：情感数据集、基准与评测",
         "邢晓芬：情感脑电与多模态生理信号"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "Emotion and Intent Joint Understanding in Multimodal Conversation: A Benchm"
     },
     {
       "id": "hao_fei__auto_code_12ee305540",
@@ -56342,8 +56556,8 @@
     },
     {
       "id": "huiguang_he__auto_dataset_84f29cccb4",
-      "name": "Improved Video Emotion Recognition With Alignment of CNN and Human Brain Representations — 开源数据集 (osf.io/ucx57)",
-      "name_zh": "通过CNN与人脑表征对齐改进视频情绪识别 — 开源数据集",
+      "name": "Improved Video Emotion Recognition With Al… (OSF ucx57)",
+      "name_zh": "Improved Video Emotion Recognition With Al… (OSF ucx57)",
       "type": "dataset",
       "url": "https://osf.io/ucx57",
       "download_url": "https://osf.io/ucx57",
@@ -56632,8 +56846,8 @@
     },
     {
       "id": "huang_tiejun__auto_dataset_f91f9247d6",
-      "name": "Pushing Auto-regressive Models for 3D Shape Generation at Capacity and Scalability — 开源数据集 (BAAI/Objaverse-MIX)",
-      "name_zh": "以容量和可扩展性推动用于 3D 形状生成的自回归模型。 — 开源数据集",
+      "name": "Hugging Face / BAAI/Objaverse-MIX",
+      "name_zh": "Hugging Face / BAAI/Objaverse-MIX",
       "type": "dataset",
       "url": "https://huggingface.co/datasets/BAAI/Objaverse-MIX",
       "download_url": "https://huggingface.co/datasets/BAAI/Objaverse-MIX",
@@ -57383,8 +57597,8 @@
     },
     {
       "id": "dezhong_yao__auto_dataset_4f6f64bca5",
-      "name": "DECAN: A Denoising Encoder via Contrastive Alignment Network for Dry Electrode EEG Emotion Recognition — 开源数据集 (peiyu999/PaDWEED)",
-      "name_zh": "DECAN：通过对比对齐网络进行干电极脑电图情绪识别的去噪编码器 — 开源数据集",
+      "name": "DECAN (peiyu999/PaDWEED)",
+      "name_zh": "DECAN (peiyu999/PaDWEED)",
       "type": "dataset",
       "url": "https://huggingface.co/datasets/peiyu999/PaDWEED",
       "download_url": "https://huggingface.co/datasets/peiyu999/PaDWEED",
@@ -57702,8 +57916,8 @@
     },
     {
       "id": "jianfeng_feng__auto_dataset_5f72c4538d",
-      "name": "MinD-3D++: Advancing fMRI-Based 3D Reconstruction with High-Quality Textured Mesh Generation and a Comprehensive Dataset — 开源数据集 (Fudan-fMRI/fMRI-Shape)",
-      "name_zh": "MinD-3D++：通过高质量纹理网格生成和全面的数据集推进基于 fMRI 的 3D 重建 — 开源数据集",
+      "name": "MinD-3D++ (Fudan-fMRI/fMRI-Shape)",
+      "name_zh": "MinD-3D++ (Fudan-fMRI/fMRI-Shape)",
       "type": "dataset",
       "url": "https://huggingface.co/datasets/Fudan-fMRI/fMRI-Shape",
       "download_url": "https://huggingface.co/datasets/Fudan-fMRI/fMRI-Shape",
@@ -57739,8 +57953,8 @@
     },
     {
       "id": "jianfeng_feng__auto_dataset_258d3ddb23",
-      "name": "MinD-3D++: Advancing fMRI-Based 3D Reconstruction with High-Quality Textured Mesh Generation and a Comprehensive Dataset — 开源数据集 (Fudan-fMRI/fMRI-Objaverse)",
-      "name_zh": "MinD-3D++：通过高质量纹理网格生成和全面的数据集推进基于 fMRI 的 3D 重建 — 开源数据集",
+      "name": "MinD-3D++ (Fudan-fMRI/fMRI-Objaverse)",
+      "name_zh": "MinD-3D++ (Fudan-fMRI/fMRI-Objaverse)",
       "type": "dataset",
       "url": "https://huggingface.co/datasets/Fudan-fMRI/fMRI-Objaverse",
       "download_url": "https://huggingface.co/datasets/Fudan-fMRI/fMRI-Objaverse",
@@ -57882,7 +58096,9 @@
       ],
       "primary_categories": [
         "徐睿峰：脑电基准、数据与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "MoZIP — A Multilingual Benchmark to Evaluate Large Language Models in Int"
     },
     {
       "id": "karim_jerbi__auto_code_aa9059e134",
@@ -58063,8 +58279,8 @@
     },
     {
       "id": "jianhua_tao__auto_dataset_b1a3c93af8",
-      "name": "SceneFake: An initial dataset and benchmarks for scene fake audio detection — 开源数据集 (record/7663324)",
-      "name_zh": "SceneFake：场景假音频检测的初始数据集和基准 — 开源数据集",
+      "name": "SceneFake 数据集",
+      "name_zh": "SceneFake 数据集",
       "type": "dataset",
       "url": "https://zenodo.org/record/7663324",
       "download_url": "https://zenodo.org/record/7663324",
@@ -58410,7 +58626,9 @@
       ],
       "primary_categories": [
         "闵雄阔：情感数据集、基准与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "Thqa — A Perceptual Quality Assessment Database for Talking Heads"
     },
     {
       "id": "jianhua_tao__auto_code_6f9535a199",
@@ -61143,8 +61361,8 @@
     },
     {
       "id": "jianhua_tao__auto_dataset_ad113fd9fb",
-      "name": "Half-Truth: A Partially Fake Audio Detection Dataset — 开源数据集 (records/10377492)",
-      "name_zh": "半真半假：部分虚假的音频检测数据集 — 开源数据集",
+      "name": "Half-Truth 数据集",
+      "name_zh": "Half-Truth 数据集",
       "type": "dataset",
       "url": "https://zenodo.org/records/10377492",
       "download_url": "https://zenodo.org/records/10377492",
@@ -62804,7 +63022,9 @@
       ],
       "primary_categories": [
         "刘鑫：情感数据集、基准与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "FSBench — A Figure Skating Benchmark for Advancing Artistic Sports Understa"
     },
     {
       "id": "xin_liu__auto_code_3b9f143cfc",
@@ -63173,7 +63393,9 @@
       "primary_categories": [
         "刘鑫：情感数据集、基准与评测",
         "赵国英：情感数据集、基准与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "SMG — A Micro-gesture Dataset Towards Spontaneous Body Gestures for Emo"
     },
     {
       "id": "xin_liu__auto_code_bbaf903e22",
@@ -63547,7 +63769,9 @@
       ],
       "primary_categories": [
         "连政：脑电基准、数据与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "MMAR — A Challenging Benchmark for Deep Reasoning in Speech, Audio, Musi"
     },
     {
       "id": "hao_fei__auto_code_1db84c29b8",
@@ -63779,7 +64003,9 @@
       ],
       "primary_categories": [
         "闵雄阔：情感数据集、基准与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "EEmo-Logic — A Unified Dataset and Multi-Stage Framework for Comprehensive Ima"
     },
     {
       "id": "xiongkuo_min__auto_code_845f62a8dc",
@@ -64050,8 +64276,8 @@
     },
     {
       "id": "xiongkuo_min__auto_dataset_36a3e06cae",
-      "name": "VTONQA: A Multi-Dimensional Quality Assessment Dataset for Virtual Try-on — 开源数据集 (weixiny0408/vtonqa)",
-      "name_zh": "VTONQA: A Multi-Dimensional Quality Assessment Dataset for Virtual Try-on — 开源数据集",
+      "name": "VTONQA (weixiny0408/vtonqa)",
+      "name_zh": "VTONQA (weixiny0408/vtonqa)",
       "type": "dataset",
       "url": "https://huggingface.co/datasets/weixiny0408/vtonqa",
       "download_url": "https://huggingface.co/datasets/weixiny0408/vtonqa",
@@ -65007,7 +65233,9 @@
       ],
       "primary_categories": [
         "闵雄阔：情感数据集、基准与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "ReLI-QA — A Multidimensional Quality Assessment Dataset for Relighted Human"
     },
     {
       "id": "xiongkuo_min__auto_code_099d990f86",
@@ -65304,7 +65532,9 @@
       ],
       "primary_categories": [
         "陶建华：脑电基准、数据与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "MINT — a Multi-modal Image and Narrative Text Dubbing Dataset for Foley "
     },
     {
       "id": "jianhua_tao__auto_code_71fcedfb58",
@@ -65341,8 +65571,8 @@
     },
     {
       "id": "jianhua_tao__auto_dataset_44b3267516",
-      "name": "System Fingerprints Detection for DeepFake Audio: An Initial Dataset and Investigation — 开源数据集 (records/13318702)",
-      "name_zh": "System Fingerprints Detection for DeepFake Audio: An Initial Dataset and Investigation — 开源数据集",
+      "name": "System Fingerprints Detection for DeepFake… (Zenodo 13318702)",
+      "name_zh": "System Fingerprints Detection for DeepFake… (Zenodo 13318702)",
       "type": "dataset",
       "url": "https://zenodo.org/records/13318702",
       "download_url": "https://zenodo.org/records/13318702",
@@ -65374,8 +65604,8 @@
     },
     {
       "id": "jianhua_tao__auto_dataset_44319ab269",
-      "name": "System Fingerprints Detection for DeepFake Audio: An Initial Dataset and Investigation — 开源数据集 (records/13340666)",
-      "name_zh": "System Fingerprints Detection for DeepFake Audio: An Initial Dataset and Investigation — 开源数据集",
+      "name": "System Fingerprints Detection for DeepFake… (Zenodo 13340666)",
+      "name_zh": "System Fingerprints Detection for DeepFake… (Zenodo 13340666)",
       "type": "dataset",
       "url": "https://zenodo.org/records/13340666",
       "download_url": "https://zenodo.org/records/13340666",
@@ -65671,8 +65901,8 @@
     },
     {
       "id": "mang_ye__auto_dataset_397849f1c1",
-      "name": "Mining Multi-Modality Spatio-Temporal Cues for Video Important Person Identification — 开源数据集 (yml2002/Temporal-VIP)",
-      "name_zh": "Mining Multi-Modality Spatio-Temporal Cues for Video Important Person Identification — 开源数据集",
+      "name": "Hugging Face / yml2002/Temporal-VIP",
+      "name_zh": "Hugging Face / yml2002/Temporal-VIP",
       "type": "dataset",
       "url": "https://huggingface.co/datasets/yml2002/Temporal-VIP",
       "download_url": "https://huggingface.co/datasets/yml2002/Temporal-VIP",
@@ -66932,7 +67162,9 @@
       ],
       "primary_categories": [
         "赵国英：情感数据集、基准与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "Flexible-Modal Face Anti-Spoofing: A Benchmark"
     },
     {
       "id": "guoying_zhao__auto_code_e249a36e15",
@@ -67462,7 +67694,9 @@
       ],
       "primary_categories": [
         "贾子瑜：情感脑电与多模态生理信号"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "PersoMoni — A Comprehensive Video-Based Benchmark Dataset for Fine-Grained Pe"
     },
     {
       "id": "ziyu_jia__auto_code_6c40d0cff1",
@@ -67861,7 +68095,9 @@
       "primary_categories": [
         "郑文明：脑电基准、数据与评测",
         "张天翼：情感数据集、基准与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "AVI-Personality — A Trait-Activated Multimodal Dataset for Personality and Competen"
     },
     {
       "id": "wenming_zheng__auto_code_acb50539b0",
@@ -68923,8 +69159,8 @@
     },
     {
       "id": "xu_ruifeng__auto_dataset_51db2dc5a4",
-      "name": "II-Bench: An Image Implication Understanding Benchmark for Multimodal Large Language Models — 开源数据集 (m-a-p/II-Bench)",
-      "name_zh": "II-Bench: An Image Implication Understanding Benchmark for Multimodal Large Language Models — 开源数据集",
+      "name": "II-Bench (m-a-p/II-Bench)",
+      "name_zh": "II-Bench (m-a-p/II-Bench)",
       "type": "dataset",
       "url": "https://huggingface.co/datasets/m-a-p/II-Bench",
       "download_url": "https://huggingface.co/datasets/m-a-p/II-Bench",
@@ -70578,8 +70814,8 @@
     },
     {
       "id": "bin_hu__auto_dataset_58a4eb5cc0",
-      "name": "MODF-SIR: A Multi-agent Omni-modal Distilled Framework for Social Intelligence Reasoning — 开源数据集 (Harry-1234/IntentRouterTrain)",
-      "name_zh": "MODF-SIR: A Multi-agent Omni-modal Distilled Framework for Social Intelligence Reasoning — 开源数据集",
+      "name": "MODF-SIR (Harry-1234/IntentRouterTrain)",
+      "name_zh": "MODF-SIR (Harry-1234/IntentRouterTrain)",
       "type": "dataset",
       "url": "https://huggingface.co/datasets/Harry-1234/IntentRouterTrain",
       "download_url": "https://huggingface.co/datasets/Harry-1234/IntentRouterTrain",
@@ -71740,7 +71976,9 @@
       "primary_categories": [
         "黄民烈：脑电基准、数据与评测",
         "邢晓芬：脑电基准、数据与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "CPED — A Large-Scale Chinese Personalized and Emotional Dialogue Dataset"
     },
     {
       "id": "minlie_huang__auto_code_fad4a2a3e3",
@@ -72772,7 +73010,9 @@
       ],
       "primary_categories": [
         "邹博超：脑电基准、数据与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "AGC-Drive — A Large-Scale Dataset for Real-World Aerial-Ground Collaboration "
     },
     {
       "id": "panorama_bochao_zou__auto_code_faed8c5f6b",
@@ -72910,8 +73150,8 @@
     },
     {
       "id": "panorama_ya_li__auto_dataset_b650881c93",
-      "name": "A Benchmark for Localizing Code and Non-Code Issues in Software Projects — 开源数据集 (somethingone/MULocBench)",
-      "name_zh": "A Benchmark for Localizing Code and Non-Code Issues in Software Projects — 开源数据集",
+      "name": "Hugging Face / somethingone/MULocBench",
+      "name_zh": "Hugging Face / somethingone/MULocBench",
       "type": "dataset",
       "url": "https://huggingface.co/datasets/somethingone/MULocBench",
       "download_url": "https://huggingface.co/datasets/somethingone/MULocBench",
@@ -73009,8 +73249,8 @@
     },
     {
       "id": "panorama_ya_li__auto_dataset_dc33b68fda",
-      "name": "EqBench: A Dataset of Equivalent and Non-equivalent Program Pairs — 开源数据集 (osf.io/93s5b)",
-      "name_zh": "EqBench: A Dataset of Equivalent and Non-equivalent Program Pairs — 开源数据集",
+      "name": "EqBench 数据集",
+      "name_zh": "EqBench 数据集",
       "type": "dataset",
       "url": "https://osf.io/93s5b",
       "download_url": "https://osf.io/93s5b",
@@ -74605,7 +74845,9 @@
       ],
       "primary_categories": [
         "夏睿：脑电基准、数据与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "ECDaily — A Large-scale Benchmark for Emotion Cause Extraction in Conversat"
     },
     {
       "id": "panorama_117e02335c9b__auto_code_bb0b05b747",
@@ -74807,7 +75049,9 @@
       ],
       "primary_categories": [
         "张天翼：情感数据集、基准与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "CEAP-360VR — A Continuous Physiological and Behavioral Emotion Annotation Data"
     },
     {
       "id": "panorama_ef5ed70a98c0__auto_code_a1704b3919",
@@ -75108,7 +75352,9 @@
       ],
       "primary_categories": [
         "崔振：脑电基准、数据与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "MMM-RS — A Multi-modal, Multi-GSD, Multi-scene Remote Sensing Dataset and "
     },
     {
       "id": "panorama_ef5ed70a98c0__auto_code_72400d664a",
@@ -75244,7 +75490,9 @@
       "primary_categories": [
         "崔振：脑电基准、数据与评测",
         "张桐：脑电基准、数据与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "UniKG — A Benchmark and Universal Embedding for Large-Scale Knowledge Gra"
     },
     {
       "id": "panorama_ef5ed70a98c0__auto_code_493456af64",
@@ -77462,7 +77710,9 @@
       ],
       "primary_categories": [
         "赵欢：脑电基准、数据与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "Beyond Surface Cues: Multimodal Implicit Emotion Understanding with a New D"
     },
     {
       "id": "panorama_xiaojun_quan__auto_code_66bcf264bf",
@@ -78561,7 +78811,9 @@
       ],
       "primary_categories": [
         "邢晓芬：脑电基准、数据与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "S2SBench — A Benchmark for Quantifying Intelligence Degradation in Speech-to"
     },
     {
       "id": "panorama_xiaofen_xing__auto_code_946f6cbc2d",
@@ -78627,7 +78879,9 @@
       ],
       "primary_categories": [
         "邢晓芬：脑电基准、数据与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "LSSED — a large-scale dataset and benchmark for speech emotion recognitio"
     },
     {
       "id": "panorama_xiaofen_xing__auto_code_f3bc8e342d",
@@ -78727,7 +78981,9 @@
       ],
       "primary_categories": [
         "陈清亮：情感数据集、基准与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "EPBench — A Benchmark for Short-term Earthquake Prediction with Neural Netw"
     },
     {
       "id": "panorama_jiahui_pan__auto_code_9df8c2a8f1",
@@ -78859,7 +79115,9 @@
       ],
       "primary_categories": [
         "潘家辉：脑电基准、数据与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "NatureGAIA — Pushing the Frontiers of GUI Agents with a Challenging Benchmark "
     },
     {
       "id": "panorama_jiahui_pan__auto_code_d2b40a33af",
@@ -79685,7 +79943,9 @@
       ],
       "primary_categories": [
         "李兴风：情感数据集、基准与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "EM2LDL — A Multilingual Speech Corpus for Mixed Emotion Recognition throug"
     },
     {
       "id": "panorama_peng_xu__auto_code_ffa29006ed",
@@ -79718,7 +79978,9 @@
       ],
       "primary_categories": [
         "徐鹏：脑电基准、数据与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "DeepChange — A Long-Term Person Re-Identification Benchmark with Clothes Chang"
     },
     {
       "id": "panorama_jiang_qiu__auto_code_69a6ca14e3",
@@ -79960,8 +80222,8 @@
     },
     {
       "id": "panorama_59d1207a515b__auto_dataset_b5c42bb280",
-      "name": "LiveBrowseComp: Are Search Agents Searching, or Just Verifying What They Already Know? — 开源数据集 (Forival/LiveBrowseComp)",
-      "name_zh": "LiveBrowseComp: Are Search Agents Searching, or Just Verifying What They Already Know? — 开源数据集",
+      "name": "LiveBrowseComp (Forival/LiveBrowseComp)",
+      "name_zh": "LiveBrowseComp (Forival/LiveBrowseComp)",
       "type": "dataset",
       "url": "https://huggingface.co/datasets/Forival/LiveBrowseComp",
       "download_url": "https://huggingface.co/datasets/Forival/LiveBrowseComp",
@@ -80255,7 +80517,9 @@
       ],
       "primary_categories": [
         "秦兵：情感脑电与多模态生理信号"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "Beyond Snapshots: A Multimodal User-Level Dataset for Depression Detection "
     },
     {
       "id": "panorama_59d1207a515b__auto_code_6ed4377a80",
@@ -80322,7 +80586,9 @@
       ],
       "primary_categories": [
         "秦兵：脑电基准、数据与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "Com2 — A Causal-Guided Benchmark for Exploring Complex Commonsense Reaso"
     },
     {
       "id": "panorama_59d1207a515b__auto_code_37dd1e191f",
@@ -81490,8 +81756,8 @@
     },
     {
       "id": "panorama_a1b824acf8ea__auto_dataset_d45b33f277",
-      "name": "DISTAL: Distillation and Self-Supervised Pretraining for Structure-Agnostic Materials Property Prediction — 开源数据集 (osf.io/eq96d)",
-      "name_zh": "DISTAL: Distillation and Self-Supervised Pretraining for Structure-Agnostic Materials Property Prediction — 开源数据集",
+      "name": "DISTAL 数据集",
+      "name_zh": "DISTAL 数据集",
       "type": "dataset",
       "url": "https://osf.io/eq96d",
       "download_url": "https://osf.io/eq96d",
@@ -82117,7 +82383,9 @@
       ],
       "primary_categories": [
         "张效初：脑电基准、数据与评测"
-      ]
+      ],
+      "is_dataset_benchmark": true,
+      "dataset_title": "Cultural Bias Matters: A Cross-Cultural Benchmark Dataset and Sentiment-Enr"
     },
     {
       "id": "panorama_xiaochu_zhang__auto_code_af49e0541e",
@@ -82897,7 +83165,7 @@
       "paper_year": 2026,
       "paper_url": "https://haofei.vip/publications",
       "resource_id": "hao_fei__auto_dataset_1c4e548393",
-      "resource_name": "From Evaluation to Enhancement: Benchmarking and Improving Think-with-Video Reasoning for Video Generative Models — 开源数据集 (KlingTeam/VWG-Bench)",
+      "resource_name": "Hugging Face / KlingTeam/VWG-Bench",
       "resource_type": "dataset",
       "url": "https://huggingface.co/datasets/KlingTeam/VWG-Bench",
       "download_url": "https://huggingface.co/datasets/KlingTeam/VWG-Bench",
@@ -83653,6 +83921,23 @@
       "relation_evidence": "https://github.com/AlbertMentat/LaBraM-at-Scale/tree/main/data_manifests/pretraining"
     },
     {
+      "scholar_id": "lu_baoliang",
+      "scholar_name": "吕宝粮",
+      "global_record_id": "90c97dd02a2947b3",
+      "paper_id": "lu_baoliang_8fd0685e01a1",
+      "paper_title": "LaBraM at Scale: Scaling Data and Models for EEG Pretraining",
+      "paper_title_zh": "规模化LaBraM：扩展脑电预训练的数据与模型规模",
+      "paper_year": 2026,
+      "paper_url": "https://arxiv.org/abs/2611.03165",
+      "resource_id": "lu_baoliang__LU_COLLECTION_523",
+      "resource_name": "LaBraM at Scale 523-dataset metadata",
+      "resource_type": "collection",
+      "url": "https://github.com/AlbertMentat/LaBraM-at-Scale",
+      "download_url": "",
+      "access": "public",
+      "relation_evidence": "https://github.com/AlbertMentat/LaBraM-at-Scale"
+    },
+    {
       "scholar_id": "ziyu_jia",
       "scholar_name": "贾子瑜",
       "global_record_id": "3d7cb0306e2c86f7",
@@ -84265,6 +84550,57 @@
       "relation_evidence": "https://github.com/WuCB-BCI/PAA"
     },
     {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "6f16e717b51df3bc",
+      "paper_id": "liang_zhen_deb9d772adb9",
+      "paper_title": "Boundary-aware Prototype-driven Adversarial Alignment for Cross-Corpus EEG Emotion Recognition",
+      "paper_title_zh": "面向跨数据集脑电情绪识别的边界感知原型驱动对抗对齐",
+      "paper_year": 2026,
+      "paper_url": "https://doi.org/10.48550/ARXIV.2603.26713",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED",
+      "resource_name": "SEED",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "6f16e717b51df3bc",
+      "paper_id": "liang_zhen_deb9d772adb9",
+      "paper_title": "Boundary-aware Prototype-driven Adversarial Alignment for Cross-Corpus EEG Emotion Recognition",
+      "paper_title_zh": "面向跨数据集脑电情绪识别的边界感知原型驱动对抗对齐",
+      "paper_year": 2026,
+      "paper_url": "https://doi.org/10.48550/ARXIV.2603.26713",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED-IV",
+      "resource_name": "SEED-IV",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "6f16e717b51df3bc",
+      "paper_id": "liang_zhen_deb9d772adb9",
+      "paper_title": "Boundary-aware Prototype-driven Adversarial Alignment for Cross-Corpus EEG Emotion Recognition",
+      "paper_title_zh": "面向跨数据集脑电情绪识别的边界感知原型驱动对抗对齐",
+      "paper_year": 2026,
+      "paper_url": "https://doi.org/10.48550/ARXIV.2603.26713",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED-V",
+      "resource_name": "SEED-V",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    },
+    {
       "scholar_id": "dongrui_wu",
       "scholar_name": "伍冬睿",
       "global_record_id": "b0e1a0ef7d585434",
@@ -84297,6 +84633,40 @@
       "download_url": "",
       "access": "no_verified_public_release",
       "relation_evidence": "https://arxiv.org/html/2609.24324v1"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "9375debc36bff828",
+      "paper_id": "liang_zhen_9843a8acc337",
+      "paper_title": "Brain-Token Learning: Microstate-Based Tokenization and Multi-Scale Interaction for Long-Horizon EEG Sequence Modeling",
+      "paper_title_zh": "脑信号词元学习：面向长时程脑电序列建模的微状态词元化与多尺度交互",
+      "paper_year": 2026,
+      "paper_url": "https://doi.org/10.48550/ARXIV.2609.24324",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED",
+      "resource_name": "SEED",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "9375debc36bff828",
+      "paper_id": "liang_zhen_9843a8acc337",
+      "paper_title": "Brain-Token Learning: Microstate-Based Tokenization and Multi-Scale Interaction for Long-Horizon EEG Sequence Modeling",
+      "paper_title_zh": "脑信号词元学习：面向长时程脑电序列建模的微状态词元化与多尺度交互",
+      "paper_year": 2026,
+      "paper_url": "https://doi.org/10.48550/ARXIV.2609.24324",
+      "resource_id": "liang_zhen__LIANG_EXT_DEAP",
+      "resource_name": "DEAP",
+      "resource_type": "dataset",
+      "url": "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/",
+      "download_url": "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/download.html",
+      "access": "application_required",
+      "relation_evidence": "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/"
     },
     {
       "scholar_id": "fu_xiaolan",
@@ -84937,7 +85307,7 @@
       "paper_year": 2026,
       "paper_url": "https://doi.org/10.48550/ARXIV.2605.28604",
       "resource_id": "mang_ye__auto_dataset_397849f1c1",
-      "resource_name": "Mining Multi-Modality Spatio-Temporal Cues for Video Important Person Identification — 开源数据集 (yml2002/Temporal-VIP)",
+      "resource_name": "Hugging Face / yml2002/Temporal-VIP",
       "resource_type": "dataset",
       "url": "https://huggingface.co/datasets/yml2002/Temporal-VIP",
       "download_url": "https://huggingface.co/datasets/yml2002/Temporal-VIP",
@@ -85149,6 +85519,57 @@
       "relation_evidence": "https://github.com/WuCB-BCI/MAT"
     },
     {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "5f39d5f31923a1b1",
+      "paper_id": "liang_zhen_a15e3cb0b010",
+      "paper_title": "Learning Domain- and Class-Disentangled Prototypes for Domain-Generalized EEG Emotion Recognition",
+      "paper_title_zh": "学习领域与类别解耦的原型以实现领域泛化脑电情绪识别",
+      "paper_year": 2026,
+      "paper_url": "https://doi.org/10.1109/TAFFC.2026.3738597",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED",
+      "resource_name": "SEED",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "5f39d5f31923a1b1",
+      "paper_id": "liang_zhen_a15e3cb0b010",
+      "paper_title": "Learning Domain- and Class-Disentangled Prototypes for Domain-Generalized EEG Emotion Recognition",
+      "paper_title_zh": "学习领域与类别解耦的原型以实现领域泛化脑电情绪识别",
+      "paper_year": 2026,
+      "paper_url": "https://doi.org/10.1109/TAFFC.2026.3738597",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED-IV",
+      "resource_name": "SEED-IV",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "5f39d5f31923a1b1",
+      "paper_id": "liang_zhen_a15e3cb0b010",
+      "paper_title": "Learning Domain- and Class-Disentangled Prototypes for Domain-Generalized EEG Emotion Recognition",
+      "paper_title_zh": "学习领域与类别解耦的原型以实现领域泛化脑电情绪识别",
+      "paper_year": 2026,
+      "paper_url": "https://doi.org/10.1109/TAFFC.2026.3738597",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED-V",
+      "resource_name": "SEED-V",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    },
+    {
       "scholar_id": "dezhong_yao",
       "scholar_name": "尧德中",
       "global_record_id": "0adf1267b8f0738c",
@@ -85181,6 +85602,40 @@
       "download_url": "https://github.com/VILAN-Lab/METAVQA",
       "access": "public",
       "relation_evidence": "https://github.com/VILAN-Lab/METAVQA；https://doi.org/10.1109/TMM.2026.3664916"
+    },
+    {
+      "scholar_id": "guoying_zhao",
+      "scholar_name": "赵国英",
+      "global_record_id": "89388900fd8514e5",
+      "paper_id": "guoying_zhao_aae359b3a8a5",
+      "paper_title": "Point Cloud based Low-Rank Micro-Dynamic Modeling for 4D Micro-Expression Recognition",
+      "paper_title_zh": "用于 4D 微表情识别的基于点云的低秩微动态建模",
+      "paper_year": 2026,
+      "paper_url": "https://doi.org/10.1145/3767308.3836029",
+      "resource_id": "guoying_zhao__R015",
+      "resource_name": "4DMEplus代码与数据申请",
+      "resource_type": "dataset",
+      "url": "https://github.com/1nO1SB/4DMEplus",
+      "download_url": "https://github.com/1nO1SB/4DMEplus",
+      "access": "以原始项目页面为准",
+      "relation_evidence": "https://github.com/1nO1SB/4DMEplus；https://gyzhao-nm.github.io/Guoying/publications.htm；https://www.oulu.fi/en/researchers/guoying-zhao；https://orcid.org/0000-0002-0673-4767"
+    },
+    {
+      "scholar_id": "guoying_zhao",
+      "scholar_name": "赵国英",
+      "global_record_id": "89388900fd8514e5",
+      "paper_id": "guoying_zhao_aae359b3a8a5",
+      "paper_title": "Point Cloud based Low-Rank Micro-Dynamic Modeling for 4D Micro-Expression Recognition",
+      "paper_title_zh": "用于 4D 微表情识别的基于点云的低秩微动态建模",
+      "paper_year": 2026,
+      "paper_url": "https://doi.org/10.1145/3767308.3836029",
+      "resource_id": "guoying_zhao__R016",
+      "resource_name": "4DME挑战赛数据申请",
+      "resource_type": "dataset",
+      "url": "https://4dmr-ijcai-ecai2026.github.io/",
+      "download_url": "https://4dmr-ijcai-ecai2026.github.io/",
+      "access": "以原始项目页面为准",
+      "relation_evidence": "https://4dmr-ijcai-ecai2026.github.io/；https://gyzhao-nm.github.io/Guoying/publications.htm；https://www.oulu.fi/en/researchers/guoying-zhao；https://orcid.org/0000-0002-0673-4767"
     },
     {
       "scholar_id": "ziyu_jia",
@@ -87062,7 +87517,7 @@
       "paper_year": 2026,
       "paper_url": "https://doi.org/10.48550/ARXIV.2609.00059",
       "resource_id": "panorama_a1b824acf8ea__auto_dataset_d45b33f277",
-      "resource_name": "DISTAL: Distillation and Self-Supervised Pretraining for Structure-Agnostic Materials Property Prediction — 开源数据集 (osf.io/eq96d)",
+      "resource_name": "DISTAL 数据集",
       "resource_type": "dataset",
       "url": "https://osf.io/eq96d",
       "download_url": "https://osf.io/eq96d",
@@ -87255,6 +87710,40 @@
       "download_url": "",
       "access": "private_or_no_verified_public_release",
       "relation_evidence": "https://arxiv.org/abs/2606.05855"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "42679130b1a183b8",
+      "paper_id": "liang_zhen_c388e88eb620",
+      "paper_title": "EEGDancer: Dynamic Emotion Latent Space Masked Modeling with Reinforcement Learning for EEG Continuous Emotion Prediction",
+      "paper_title_zh": "EEGDancer：结合强化学习与动态情绪潜空间掩码建模的脑电连续情绪预测",
+      "paper_year": 2026,
+      "paper_url": "https://doi.org/10.48550/ARXIV.2606.05855",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED",
+      "resource_name": "SEED",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "42679130b1a183b8",
+      "paper_id": "liang_zhen_c388e88eb620",
+      "paper_title": "EEGDancer: Dynamic Emotion Latent Space Masked Modeling with Reinforcement Learning for EEG Continuous Emotion Prediction",
+      "paper_title_zh": "EEGDancer：结合强化学习与动态情绪潜空间掩码建模的脑电连续情绪预测",
+      "paper_year": 2026,
+      "paper_url": "https://doi.org/10.48550/ARXIV.2606.05855",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED-IV",
+      "resource_name": "SEED-IV",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
     },
     {
       "scholar_id": "pan_gang",
@@ -89595,7 +90084,7 @@
       "paper_year": 2026,
       "paper_url": "https://doi.org/10.48550/ARXIV.2605.28721",
       "resource_id": "panorama_59d1207a515b__auto_dataset_b5c42bb280",
-      "resource_name": "LiveBrowseComp: Are Search Agents Searching, or Just Verifying What They Already Know? — 开源数据集 (Forival/LiveBrowseComp)",
+      "resource_name": "LiveBrowseComp (Forival/LiveBrowseComp)",
       "resource_type": "dataset",
       "url": "https://huggingface.co/datasets/Forival/LiveBrowseComp",
       "download_url": "https://huggingface.co/datasets/Forival/LiveBrowseComp",
@@ -89646,7 +90135,7 @@
       "paper_year": 2026,
       "paper_url": "https://doi.org/10.1145/3770854.3785684",
       "resource_id": "dongrui_wu__auto_dataset_5c05b1ac71",
-      "resource_name": "LMID: A Comprehensive Multimodal Dataset for Failure Prediction in Cloud Computing Systems — 开源数据集 (AliyunECSAlgos/LMID)",
+      "resource_name": "LMID (AliyunECSAlgos/LMID)",
       "resource_type": "dataset",
       "url": "https://huggingface.co/datasets/AliyunECSAlgos/LMID",
       "download_url": "https://huggingface.co/datasets/AliyunECSAlgos/LMID",
@@ -90139,7 +90628,7 @@
       "paper_year": 2026,
       "paper_url": "https://doi.org/10.48550/ARXIV.2606.12018",
       "resource_id": "bin_hu__auto_dataset_58a4eb5cc0",
-      "resource_name": "MODF-SIR: A Multi-agent Omni-modal Distilled Framework for Social Intelligence Reasoning — 开源数据集 (Harry-1234/IntentRouterTrain)",
+      "resource_name": "MODF-SIR (Harry-1234/IntentRouterTrain)",
       "resource_type": "dataset",
       "url": "https://huggingface.co/datasets/Harry-1234/IntentRouterTrain",
       "download_url": "https://huggingface.co/datasets/Harry-1234/IntentRouterTrain",
@@ -90451,6 +90940,57 @@
       "download_url": "",
       "access": "public_source",
       "relation_evidence": "https://github.com/WuCB-BCI/PL_DCP"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "9baeefcf56f06d76",
+      "paper_id": "liang_zhen_113440dc96d5",
+      "paper_title": "PL-DCP: A pairwise learning framework with domain and class prototypes for EEG emotion recognition under unseen target conditions",
+      "paper_title_zh": "PL-DCP：具有域和类原型的成对学习框架,用于在不可见的目标条件下进行脑电图情感识别。",
+      "paper_year": 2026,
+      "paper_url": "https://doi.org/10.1016/J.NEUCOM.2026.132881",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED",
+      "resource_name": "SEED",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "9baeefcf56f06d76",
+      "paper_id": "liang_zhen_113440dc96d5",
+      "paper_title": "PL-DCP: A pairwise learning framework with domain and class prototypes for EEG emotion recognition under unseen target conditions",
+      "paper_title_zh": "PL-DCP：具有域和类原型的成对学习框架,用于在不可见的目标条件下进行脑电图情感识别。",
+      "paper_year": 2026,
+      "paper_url": "https://doi.org/10.1016/J.NEUCOM.2026.132881",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED-IV",
+      "resource_name": "SEED-IV",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "9baeefcf56f06d76",
+      "paper_id": "liang_zhen_113440dc96d5",
+      "paper_title": "PL-DCP: A pairwise learning framework with domain and class prototypes for EEG emotion recognition under unseen target conditions",
+      "paper_title_zh": "PL-DCP：具有域和类原型的成对学习框架,用于在不可见的目标条件下进行脑电图情感识别。",
+      "paper_year": 2026,
+      "paper_url": "https://doi.org/10.1016/J.NEUCOM.2026.132881",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED-V",
+      "resource_name": "SEED-V",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
     },
     {
       "scholar_id": "panorama_117e02335c9b",
@@ -90995,6 +91535,40 @@
       "download_url": "",
       "access": "以项目/仓库说明为准",
       "relation_evidence": "https://gyzhao-nm.github.io/Guoying/publications.htm；https://www.oulu.fi/en/researchers/guoying-zhao；https://orcid.org/0000-0002-0673-4767"
+    },
+    {
+      "scholar_id": "guoying_zhao",
+      "scholar_name": "赵国英",
+      "global_record_id": "d9db8386df8308ba",
+      "paper_id": "guoying_zhao_865bc4455649",
+      "paper_title": "Samuel Boccara, Amar Tious, Guoying Zhao , Yante Li, Toinon Vigier, Vincent Ricordel. Revisiting the Volumetric Data of 4DME: Compression, Extension and Benchmarking for Micro-Expression Analysis. ECCV 2026",
+      "paper_title_zh": "Samuel Boccara、Amar Tious、Guoying Zhao、Yante Li、Toinon Vigier、Vincent Ricordel。重新审视 4DME 的体积数据：微表情分析的压缩、扩展和基准测试。 ECCV 2026。",
+      "paper_year": 2026,
+      "paper_url": "https://gyzhao-nm.github.io/Guoying/publications.htm",
+      "resource_id": "guoying_zhao__R015",
+      "resource_name": "4DMEplus代码与数据申请",
+      "resource_type": "dataset",
+      "url": "https://github.com/1nO1SB/4DMEplus",
+      "download_url": "https://github.com/1nO1SB/4DMEplus",
+      "access": "以原始项目页面为准",
+      "relation_evidence": "https://github.com/1nO1SB/4DMEplus；https://gyzhao-nm.github.io/Guoying/publications.htm；https://www.oulu.fi/en/researchers/guoying-zhao；https://orcid.org/0000-0002-0673-4767"
+    },
+    {
+      "scholar_id": "guoying_zhao",
+      "scholar_name": "赵国英",
+      "global_record_id": "d9db8386df8308ba",
+      "paper_id": "guoying_zhao_865bc4455649",
+      "paper_title": "Samuel Boccara, Amar Tious, Guoying Zhao , Yante Li, Toinon Vigier, Vincent Ricordel. Revisiting the Volumetric Data of 4DME: Compression, Extension and Benchmarking for Micro-Expression Analysis. ECCV 2026",
+      "paper_title_zh": "Samuel Boccara、Amar Tious、Guoying Zhao、Yante Li、Toinon Vigier、Vincent Ricordel。重新审视 4DME 的体积数据：微表情分析的压缩、扩展和基准测试。 ECCV 2026。",
+      "paper_year": 2026,
+      "paper_url": "https://gyzhao-nm.github.io/Guoying/publications.htm",
+      "resource_id": "guoying_zhao__R016",
+      "resource_name": "4DME挑战赛数据申请",
+      "resource_type": "dataset",
+      "url": "https://4dmr-ijcai-ecai2026.github.io/",
+      "download_url": "https://4dmr-ijcai-ecai2026.github.io/",
+      "access": "以原始项目页面为准",
+      "relation_evidence": "https://4dmr-ijcai-ecai2026.github.io/；https://gyzhao-nm.github.io/Guoying/publications.htm；https://www.oulu.fi/en/researchers/guoying-zhao；https://orcid.org/0000-0002-0673-4767"
     },
     {
       "scholar_id": "guoying_zhao",
@@ -91873,7 +92447,7 @@
       "paper_year": 2026,
       "paper_url": "https://doi.org/10.48550/ARXIV.2601.02945",
       "resource_id": "xiongkuo_min__auto_dataset_36a3e06cae",
-      "resource_name": "VTONQA: A Multi-Dimensional Quality Assessment Dataset for Virtual Try-on — 开源数据集 (weixiny0408/vtonqa)",
+      "resource_name": "VTONQA (weixiny0408/vtonqa)",
       "resource_type": "dataset",
       "url": "https://huggingface.co/datasets/weixiny0408/vtonqa",
       "download_url": "https://huggingface.co/datasets/weixiny0408/vtonqa",
@@ -92867,6 +93441,57 @@
       "relation_evidence": "https://github.com/WuCB-BCI/Mcd_PL"
     },
     {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "fc8f8b27571e39b0",
+      "paper_id": "liang_zhen_76c650f41dbe",
+      "paper_title": "Unsupervised Pairwise Learning Optimization Framework for Cross-Corpus EEG-Based Emotion Recognition Based on Prototype Representation",
+      "paper_title_zh": "基于原型表示的跨语料库脑电图情感识别的无监督成对学习优化框架。",
+      "paper_year": 2025,
+      "paper_url": "https://doi.org/10.48550/ARXIV.2508.11663",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED",
+      "resource_name": "SEED",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "fc8f8b27571e39b0",
+      "paper_id": "liang_zhen_76c650f41dbe",
+      "paper_title": "Unsupervised Pairwise Learning Optimization Framework for Cross-Corpus EEG-Based Emotion Recognition Based on Prototype Representation",
+      "paper_title_zh": "基于原型表示的跨语料库脑电图情感识别的无监督成对学习优化框架。",
+      "paper_year": 2025,
+      "paper_url": "https://doi.org/10.48550/ARXIV.2508.11663",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED-IV",
+      "resource_name": "SEED-IV",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "fc8f8b27571e39b0",
+      "paper_id": "liang_zhen_76c650f41dbe",
+      "paper_title": "Unsupervised Pairwise Learning Optimization Framework for Cross-Corpus EEG-Based Emotion Recognition Based on Prototype Representation",
+      "paper_title_zh": "基于原型表示的跨语料库脑电图情感识别的无监督成对学习优化框架。",
+      "paper_year": 2025,
+      "paper_url": "https://doi.org/10.48550/ARXIV.2508.11663",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED-V",
+      "resource_name": "SEED-V",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    },
+    {
       "scholar_id": "panorama_1d59543d7eba",
       "scholar_name": "刘小峰",
       "global_record_id": "30b297af73fb02b9",
@@ -92944,7 +93569,7 @@
       "paper_year": 2025,
       "paper_url": "https://doi.org/10.1136/bmjopen-2025-103841",
       "resource_id": "karim_jerbi__auto_dataset_240c7c68cc",
-      "resource_name": "Combining virtual reality and hypnosis to alleviate chronic pain in elderly with hand arthritis: protocol for a randomised phase II clinical trial — 开源数据集 (osf.io/vbh72)",
+      "resource_name": "Combining virtual reality and hypnosis to … (OSF vbh72)",
       "resource_type": "dataset",
       "url": "https://osf.io/vbh72",
       "download_url": "https://osf.io/vbh72",
@@ -93981,7 +94606,7 @@
       "paper_year": 2025,
       "paper_url": "https://doi.org/10.48550/ARXIV.2509.25242",
       "resource_id": "panorama_ya_li__auto_dataset_b650881c93",
-      "resource_name": "A Benchmark for Localizing Code and Non-Code Issues in Software Projects — 开源数据集 (somethingone/MULocBench)",
+      "resource_name": "Hugging Face / somethingone/MULocBench",
       "resource_type": "dataset",
       "url": "https://huggingface.co/datasets/somethingone/MULocBench",
       "download_url": "https://huggingface.co/datasets/somethingone/MULocBench",
@@ -95330,6 +95955,57 @@
       "download_url": "https://github.com/AI-S2-Lab/I3CSS",
       "access": "public",
       "relation_evidence": "https://github.com/AI-S2-Lab/I3CSS；https://doi.org/10.1109/ICASSP49660.2025.10890216"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "163ee8b079e93eca",
+      "paper_id": "liang_zhen_4adf3db66071",
+      "paper_title": "Semi-Supervised Dual-Stream Self-Attentive Adversarial Graph Contrastive Learning for Cross-Subject EEG-Based Emotion Recognition",
+      "paper_title_zh": "用于基于跨对象脑电图的情绪识别的半监督双流自注意对抗性图对比学习。",
+      "paper_year": 2025,
+      "paper_url": "https://doi.org/10.1109/TAFFC.2024.3433470",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED",
+      "resource_name": "SEED",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "163ee8b079e93eca",
+      "paper_id": "liang_zhen_4adf3db66071",
+      "paper_title": "Semi-Supervised Dual-Stream Self-Attentive Adversarial Graph Contrastive Learning for Cross-Subject EEG-Based Emotion Recognition",
+      "paper_title_zh": "用于基于跨对象脑电图的情绪识别的半监督双流自注意对抗性图对比学习。",
+      "paper_year": 2025,
+      "paper_url": "https://doi.org/10.1109/TAFFC.2024.3433470",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED-IV",
+      "resource_name": "SEED-IV",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "163ee8b079e93eca",
+      "paper_id": "liang_zhen_4adf3db66071",
+      "paper_title": "Semi-Supervised Dual-Stream Self-Attentive Adversarial Graph Contrastive Learning for Cross-Subject EEG-Based Emotion Recognition",
+      "paper_title_zh": "用于基于跨对象脑电图的情绪识别的半监督双流自注意对抗性图对比学习。",
+      "paper_year": 2025,
+      "paper_url": "https://doi.org/10.1109/TAFFC.2024.3433470",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED-V",
+      "resource_name": "SEED-V",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
     },
     {
       "scholar_id": "lu_baoliang",
@@ -97032,6 +97708,57 @@
       "relation_evidence": "https://github.com/Kyler-RL/SCMM"
     },
     {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "324e84e9292dd888",
+      "paper_id": "liang_zhen_3f92d2822b46",
+      "paper_title": "EEG-SCMM: Soft Contrastive Masked Modeling for Cross-Corpus EEG-Based Emotion Recognition",
+      "paper_title_zh": "EEG-SCMM：用于跨数据集脑电情绪识别的软对比掩码建模",
+      "paper_year": 2025,
+      "paper_url": "https://doi.org/10.1145/3746027.3755798",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED",
+      "resource_name": "SEED",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "324e84e9292dd888",
+      "paper_id": "liang_zhen_3f92d2822b46",
+      "paper_title": "EEG-SCMM: Soft Contrastive Masked Modeling for Cross-Corpus EEG-Based Emotion Recognition",
+      "paper_title_zh": "EEG-SCMM：用于跨数据集脑电情绪识别的软对比掩码建模",
+      "paper_year": 2025,
+      "paper_url": "https://doi.org/10.1145/3746027.3755798",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED-IV",
+      "resource_name": "SEED-IV",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "324e84e9292dd888",
+      "paper_id": "liang_zhen_3f92d2822b46",
+      "paper_title": "EEG-SCMM: Soft Contrastive Masked Modeling for Cross-Corpus EEG-Based Emotion Recognition",
+      "paper_title_zh": "EEG-SCMM：用于跨数据集脑电情绪识别的软对比掩码建模",
+      "paper_year": 2025,
+      "paper_url": "https://doi.org/10.1145/3746027.3755798",
+      "resource_id": "liang_zhen__LIANG_EXT_DEAP",
+      "resource_name": "DEAP",
+      "resource_type": "dataset",
+      "url": "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/",
+      "download_url": "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/download.html",
+      "access": "application_required",
+      "relation_evidence": "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/"
+    },
+    {
       "scholar_id": "pan_gang",
       "scholar_name": "潘纲",
       "global_record_id": "4e1dbd329ec9bff2",
@@ -97404,6 +98131,57 @@
       "download_url": "",
       "access": "public_source",
       "relation_evidence": "https://github.com/KAZABANA/EEGMatch"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "29e605fd720eb966",
+      "paper_id": "liang_zhen_a572a490d2be",
+      "paper_title": "EEGMatch: Learning With Incomplete Labels for Semisupervised EEG-Based Cross-Subject Emotion Recognition",
+      "paper_title_zh": "EEGMatch：利用不完整标签进行半监督脑电跨被试情绪识别",
+      "paper_year": 2025,
+      "paper_url": "https://doi.org/10.1109/TNNLS.2024.3493425",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED",
+      "resource_name": "SEED",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "29e605fd720eb966",
+      "paper_id": "liang_zhen_a572a490d2be",
+      "paper_title": "EEGMatch: Learning With Incomplete Labels for Semisupervised EEG-Based Cross-Subject Emotion Recognition",
+      "paper_title_zh": "EEGMatch：利用不完整标签进行半监督脑电跨被试情绪识别",
+      "paper_year": 2025,
+      "paper_url": "https://doi.org/10.1109/TNNLS.2024.3493425",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED-IV",
+      "resource_name": "SEED-IV",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "29e605fd720eb966",
+      "paper_id": "liang_zhen_a572a490d2be",
+      "paper_title": "EEGMatch: Learning With Incomplete Labels for Semisupervised EEG-Based Cross-Subject Emotion Recognition",
+      "paper_title_zh": "EEGMatch：利用不完整标签进行半监督脑电跨被试情绪识别",
+      "paper_year": 2025,
+      "paper_url": "https://doi.org/10.1109/TNNLS.2024.3493425",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED-V",
+      "resource_name": "SEED-V",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
     },
     {
       "scholar_id": "lu_baoliang",
@@ -98817,6 +99595,57 @@
       "relation_evidence": "https://github.com/WuCB-BCI/MAT"
     },
     {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "de82f2ae717c5200",
+      "paper_id": "liang_zhen_74f095e413ef",
+      "paper_title": "MATL-DC: A Multi-domain Aggregation Transfer Learning Framework for EEG Emotion Recognition with Domain-Class Prototype under Unseen Targets",
+      "paper_title_zh": "MATL-DC：用于在未见目标下使用域类原型进行脑电图情绪识别的多域聚合迁移学习框架。",
+      "paper_year": 2025,
+      "paper_url": "https://doi.org/10.48550/ARXIV.2509.01135",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED",
+      "resource_name": "SEED",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "de82f2ae717c5200",
+      "paper_id": "liang_zhen_74f095e413ef",
+      "paper_title": "MATL-DC: A Multi-domain Aggregation Transfer Learning Framework for EEG Emotion Recognition with Domain-Class Prototype under Unseen Targets",
+      "paper_title_zh": "MATL-DC：用于在未见目标下使用域类原型进行脑电图情绪识别的多域聚合迁移学习框架。",
+      "paper_year": 2025,
+      "paper_url": "https://doi.org/10.48550/ARXIV.2509.01135",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED-IV",
+      "resource_name": "SEED-IV",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "de82f2ae717c5200",
+      "paper_id": "liang_zhen_74f095e413ef",
+      "paper_title": "MATL-DC: A Multi-domain Aggregation Transfer Learning Framework for EEG Emotion Recognition with Domain-Class Prototype under Unseen Targets",
+      "paper_title_zh": "MATL-DC：用于在未见目标下使用域类原型进行脑电图情绪识别的多域聚合迁移学习框架。",
+      "paper_year": 2025,
+      "paper_url": "https://doi.org/10.48550/ARXIV.2509.01135",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED-V",
+      "resource_name": "SEED-V",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    },
+    {
       "scholar_id": "zhi_qi_cheng",
       "scholar_name": "Zhi-Qi Cheng",
       "global_record_id": "b8527cd6a3a14ec0",
@@ -98928,7 +99757,7 @@
       "paper_year": 2025,
       "paper_url": "https://doi.org/10.1145/3746027.3762007",
       "resource_id": "zheng_lian__auto_dataset_e3237f0244",
-      "resource_name": "MER 2025: When Affective Computing Meets Large Language Models — 开源数据集 (MERChallenge/MER2025)",
+      "resource_name": "Hugging Face / MERChallenge/MER2025",
       "resource_type": "dataset",
       "url": "https://huggingface.co/datasets/MERChallenge/MER2025",
       "download_url": "https://huggingface.co/datasets/MERChallenge/MER2025",
@@ -101775,6 +102604,57 @@
       "relation_evidence": "https://github.com/infinite-tao/TAS-Net；https://doi.org/10.1109/TAFFC.2023.3319397"
     },
     {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "60753a43a8d7216e",
+      "paper_id": "liang_zhen_5a62286c72b6",
+      "paper_title": "Unsupervised Time-Aware Sampling Network with Deep Reinforcement Learning for EEG-Based Emotion Recognition",
+      "paper_title_zh": "基于深度强化学习的无监督时间感知采样网络用于脑电情绪识别",
+      "paper_year": 2024,
+      "paper_url": "https://doi.org/10.1109/TAFFC.2023.3319397",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED",
+      "resource_name": "SEED",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "60753a43a8d7216e",
+      "paper_id": "liang_zhen_5a62286c72b6",
+      "paper_title": "Unsupervised Time-Aware Sampling Network with Deep Reinforcement Learning for EEG-Based Emotion Recognition",
+      "paper_title_zh": "基于深度强化学习的无监督时间感知采样网络用于脑电情绪识别",
+      "paper_year": 2024,
+      "paper_url": "https://doi.org/10.1109/TAFFC.2023.3319397",
+      "resource_id": "liang_zhen__LIANG_EXT_DEAP",
+      "resource_name": "DEAP",
+      "resource_type": "dataset",
+      "url": "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/",
+      "download_url": "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/download.html",
+      "access": "application_required",
+      "relation_evidence": "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "60753a43a8d7216e",
+      "paper_id": "liang_zhen_5a62286c72b6",
+      "paper_title": "Unsupervised Time-Aware Sampling Network with Deep Reinforcement Learning for EEG-Based Emotion Recognition",
+      "paper_title_zh": "基于深度强化学习的无监督时间感知采样网络用于脑电情绪识别",
+      "paper_year": 2024,
+      "paper_url": "https://doi.org/10.1109/TAFFC.2023.3319397",
+      "resource_id": "liang_zhen__LIANG_EXT_MAHNOB-HCI",
+      "resource_name": "MAHNOB-HCI",
+      "resource_type": "dataset",
+      "url": "https://mahnob-db.eu/",
+      "download_url": "http://mahnob-db.eu/hci-tagging/accounts/register/",
+      "access": "registration_eula_site_unstable",
+      "relation_evidence": "https://mahnob-db.eu/；https://mahnob-db.eu/hci-tagging/media/doc/eula.pdf"
+    },
+    {
       "scholar_id": "panorama_huan_zhao",
       "scholar_name": "赵欢",
       "global_record_id": "6aecc64f5873f8aa",
@@ -103178,7 +104058,7 @@
       "paper_year": 2024,
       "paper_url": "https://doi.org/10.1109/taffc.2023.3316173",
       "resource_id": "huiguang_he__auto_dataset_84f29cccb4",
-      "resource_name": "Improved Video Emotion Recognition With Alignment of CNN and Human Brain Representations — 开源数据集 (osf.io/ucx57)",
+      "resource_name": "Improved Video Emotion Recognition With Al… (OSF ucx57)",
       "resource_type": "dataset",
       "url": "https://osf.io/ucx57",
       "download_url": "https://osf.io/ucx57",
@@ -103467,7 +104347,7 @@
       "paper_year": 2024,
       "paper_url": "https://doi.org/10.48550/ARXIV.2402.12225",
       "resource_id": "huang_tiejun__auto_dataset_f91f9247d6",
-      "resource_name": "Pushing Auto-regressive Models for 3D Shape Generation at Capacity and Scalability — 开源数据集 (BAAI/Objaverse-MIX)",
+      "resource_name": "Hugging Face / BAAI/Objaverse-MIX",
       "resource_type": "dataset",
       "url": "https://huggingface.co/datasets/BAAI/Objaverse-MIX",
       "download_url": "https://huggingface.co/datasets/BAAI/Objaverse-MIX",
@@ -103694,6 +104574,40 @@
       "download_url": "https://github.com/ThreePoundUniverse/MACTN",
       "access": "public",
       "relation_evidence": "https://github.com/ThreePoundUniverse/MACTN；https://doi.org/10.1016/J.COMPBIOMED.2024.108973"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "5a742e5208edf68d",
+      "paper_id": "liang_zhen_0fd81aeb91f0",
+      "paper_title": "Temporal aware Mixed Attention-based Convolution and Transformer Network for cross-subject EEG emotion recognition",
+      "paper_title_zh": "用于跨被试脑电情绪识别的时间感知混合注意力卷积与Transformer网络",
+      "paper_year": 2024,
+      "paper_url": "https://doi.org/10.1016/J.COMPBIOMED.2024.108973",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED",
+      "resource_name": "SEED",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "5a742e5208edf68d",
+      "paper_id": "liang_zhen_0fd81aeb91f0",
+      "paper_title": "Temporal aware Mixed Attention-based Convolution and Transformer Network for cross-subject EEG emotion recognition",
+      "paper_title_zh": "用于跨被试脑电情绪识别的时间感知混合注意力卷积与Transformer网络",
+      "paper_year": 2024,
+      "paper_url": "https://doi.org/10.1016/J.COMPBIOMED.2024.108973",
+      "resource_id": "liang_zhen__LIANG_EXT_DEAP",
+      "resource_name": "DEAP",
+      "resource_type": "dataset",
+      "url": "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/",
+      "download_url": "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/download.html",
+      "access": "application_required",
+      "relation_evidence": "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/"
     },
     {
       "scholar_id": "panorama_qingbao_huang",
@@ -103966,6 +104880,57 @@
       "download_url": "",
       "access": "public_source",
       "relation_evidence": "https://github.com/WuCB-BCI/PL_DCP"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "d27a3cd968dec6a5",
+      "paper_id": "liang_zhen_9583161468bf",
+      "paper_title": "Dual Prototyping with Domain and Class Prototypes for Affective Brain-Computer Interface in Unseen Target Conditions",
+      "paper_title_zh": "在不可见的目标条件下使用域和类原型进行情感脑机接口的双重原型设计。",
+      "paper_year": 2024,
+      "paper_url": "https://doi.org/10.48550/ARXIV.2412.00082",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED",
+      "resource_name": "SEED",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "d27a3cd968dec6a5",
+      "paper_id": "liang_zhen_9583161468bf",
+      "paper_title": "Dual Prototyping with Domain and Class Prototypes for Affective Brain-Computer Interface in Unseen Target Conditions",
+      "paper_title_zh": "在不可见的目标条件下使用域和类原型进行情感脑机接口的双重原型设计。",
+      "paper_year": 2024,
+      "paper_url": "https://doi.org/10.48550/ARXIV.2412.00082",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED-IV",
+      "resource_name": "SEED-IV",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "d27a3cd968dec6a5",
+      "paper_id": "liang_zhen_9583161468bf",
+      "paper_title": "Dual Prototyping with Domain and Class Prototypes for Affective Brain-Computer Interface in Unseen Target Conditions",
+      "paper_title_zh": "在不可见的目标条件下使用域和类原型进行情感脑机接口的双重原型设计。",
+      "paper_year": 2024,
+      "paper_url": "https://doi.org/10.48550/ARXIV.2412.00082",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED-V",
+      "resource_name": "SEED-V",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
     },
     {
       "scholar_id": "mang_ye",
@@ -104323,6 +105288,23 @@
       "download_url": "",
       "access": "以项目/仓库说明为准",
       "relation_evidence": "https://jsj.nwpu.edu.cn/enweb/FACULTY/Department_of_Computer_Information_Engineering.htm；https://dblp.org/pid/47/1926.html；https://www.ais.cn/mentor/mentorDetail/1c553246-50cd-11eb-94db-a85e45a23623"
+    },
+    {
+      "scholar_id": "jiang_dongmei",
+      "scholar_name": "蒋冬梅",
+      "global_record_id": "835af14096975c3c",
+      "paper_id": "jiang_dongmei_64a2e59f5c12",
+      "paper_title": "AVES: An Audio-Visual Emotion Stream Dataset for Temporal Emotion Detection",
+      "paper_title_zh": "AVES：用于时间情绪检测的视听情绪流数据集",
+      "paper_year": 2024,
+      "paper_url": "https://doi.org/10.1109/TAFFC.2024.3440924",
+      "resource_id": "jiang_dongmei__R011",
+      "resource_name": "AVES音视频情绪流数据集",
+      "resource_type": "dataset",
+      "url": "https://liyan4ai.github.io/aves-dataset/",
+      "download_url": "https://liyan4ai.github.io/aves-dataset/",
+      "access": "以原始项目页面为准",
+      "relation_evidence": "https://liyan4ai.github.io/aves-dataset/；https://jsj.nwpu.edu.cn/enweb/FACULTY/Department_of_Computer_Information_Engineering.htm；https://dblp.org/pid/47/1926.html；https://www.ais.cn/mentor/mentorDetail/1c553246-50cd-11eb-94db-a85e45a23623"
     },
     {
       "scholar_id": "xiongkuo_min",
@@ -104861,7 +105843,7 @@
       "paper_year": 2024,
       "paper_url": "https://doi.org/10.48550/ARXIV.2409.03976",
       "resource_id": "dezhong_yao__auto_dataset_4f6f64bca5",
-      "resource_name": "DECAN: A Denoising Encoder via Contrastive Alignment Network for Dry Electrode EEG Emotion Recognition — 开源数据集 (peiyu999/PaDWEED)",
+      "resource_name": "DECAN (peiyu999/PaDWEED)",
       "resource_type": "dataset",
       "url": "https://huggingface.co/datasets/peiyu999/PaDWEED",
       "download_url": "https://huggingface.co/datasets/peiyu999/PaDWEED",
@@ -105090,6 +106072,74 @@
       "relation_evidence": "https://github.com/Kyler-RL/SCMM"
     },
     {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "2acf69f7b0df4830",
+      "paper_id": "liang_zhen_8a012e7cc435",
+      "paper_title": "EEG-SCMM: Soft Contrastive Masked Modeling for Cross-Corpus EEG-Based Emotion Recognition",
+      "paper_title_zh": "EEG-SCMM：用于跨数据集脑电情绪识别的软对比掩码建模",
+      "paper_year": 2024,
+      "paper_url": "https://doi.org/10.48550/ARXIV.2408.09186",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED",
+      "resource_name": "SEED",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "2acf69f7b0df4830",
+      "paper_id": "liang_zhen_8a012e7cc435",
+      "paper_title": "EEG-SCMM: Soft Contrastive Masked Modeling for Cross-Corpus EEG-Based Emotion Recognition",
+      "paper_title_zh": "EEG-SCMM：用于跨数据集脑电情绪识别的软对比掩码建模",
+      "paper_year": 2024,
+      "paper_url": "https://doi.org/10.48550/ARXIV.2408.09186",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED-IV",
+      "resource_name": "SEED-IV",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "2acf69f7b0df4830",
+      "paper_id": "liang_zhen_8a012e7cc435",
+      "paper_title": "EEG-SCMM: Soft Contrastive Masked Modeling for Cross-Corpus EEG-Based Emotion Recognition",
+      "paper_title_zh": "EEG-SCMM：用于跨数据集脑电情绪识别的软对比掩码建模",
+      "paper_year": 2024,
+      "paper_url": "https://doi.org/10.48550/ARXIV.2408.09186",
+      "resource_id": "liang_zhen__LIANG_EXT_DEAP",
+      "resource_name": "DEAP",
+      "resource_type": "dataset",
+      "url": "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/",
+      "download_url": "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/download.html",
+      "access": "application_required",
+      "relation_evidence": "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/"
+    },
+    {
+      "scholar_id": "sahand_sabour",
+      "scholar_name": "Sahand Sabour",
+      "global_record_id": "f8ae588926f715f2",
+      "paper_id": "sahand_sabour_1c93c9e92033",
+      "paper_title": "EmoBench: Evaluating the Emotional Intelligence of Large Language Models",
+      "paper_title_zh": "EmoBench：大语言模型情感智能评估",
+      "paper_year": 2024,
+      "paper_url": "https://doi.org/10.18653/v1/2024.acl-long.326",
+      "resource_id": "sahand_sabour__R002",
+      "resource_name": "EmoBench数据集",
+      "resource_type": "dataset",
+      "url": "https://huggingface.co/datasets/SahandSab/EmoBench",
+      "download_url": "https://huggingface.co/datasets/SahandSab/EmoBench",
+      "access": "以原始项目页面为准",
+      "relation_evidence": "https://huggingface.co/datasets/SahandSab/EmoBench；https://arxiv.org/abs/2402.12071；https://github.com/Sahandfer/EmoBench"
+    },
+    {
       "scholar_id": "panorama_huan_zhao",
       "scholar_name": "赵欢",
       "global_record_id": "a294f4fffd2739e2",
@@ -105105,6 +106155,23 @@
       "download_url": "https://github.com/XP-ZHA/EmoTransKG",
       "access": "public",
       "relation_evidence": "https://github.com/XP-ZHA/EmoTransKG；https://doi.org/10.18653/V1/2024.FINDINGS-ACL.720"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "4b914cc91db862c8",
+      "paper_id": "liang_zhen_0da115becc1c",
+      "paper_title": "EmoTVR: A Hybrid Model to Estimate Continuous-Time and Continuous-Level Emotion from Electroencephalography",
+      "paper_title_zh": "EmoTVR：根据脑电图估计连续时间和连续水平情绪的混合模型。",
+      "paper_year": 2024,
+      "paper_url": "https://doi.org/10.1109/ICASSP48485.2024.10447615",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED",
+      "resource_name": "SEED",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
     },
     {
       "scholar_id": "huang_tiejun",
@@ -105524,7 +106591,7 @@
       "paper_year": 2024,
       "paper_url": "https://doi.org/10.48550/ARXIV.2409.11315",
       "resource_id": "jianfeng_feng__auto_dataset_5f72c4538d",
-      "resource_name": "MinD-3D++: Advancing fMRI-Based 3D Reconstruction with High-Quality Textured Mesh Generation and a Comprehensive Dataset — 开源数据集 (Fudan-fMRI/fMRI-Shape)",
+      "resource_name": "MinD-3D++ (Fudan-fMRI/fMRI-Shape)",
       "resource_type": "dataset",
       "url": "https://huggingface.co/datasets/Fudan-fMRI/fMRI-Shape",
       "download_url": "https://huggingface.co/datasets/Fudan-fMRI/fMRI-Shape",
@@ -105541,7 +106608,7 @@
       "paper_year": 2024,
       "paper_url": "https://doi.org/10.48550/ARXIV.2409.11315",
       "resource_id": "jianfeng_feng__auto_dataset_258d3ddb23",
-      "resource_name": "MinD-3D++: Advancing fMRI-Based 3D Reconstruction with High-Quality Textured Mesh Generation and a Comprehensive Dataset — 开源数据集 (Fudan-fMRI/fMRI-Objaverse)",
+      "resource_name": "MinD-3D++ (Fudan-fMRI/fMRI-Objaverse)",
       "resource_type": "dataset",
       "url": "https://huggingface.co/datasets/Fudan-fMRI/fMRI-Objaverse",
       "download_url": "https://huggingface.co/datasets/Fudan-fMRI/fMRI-Objaverse",
@@ -105728,7 +106795,7 @@
       "paper_year": 2024,
       "paper_url": "https://doi.org/10.48550/ARXIV.2406.05862",
       "resource_id": "xu_ruifeng__auto_dataset_51db2dc5a4",
-      "resource_name": "II-Bench: An Image Implication Understanding Benchmark for Multimodal Large Language Models — 开源数据集 (m-a-p/II-Bench)",
+      "resource_name": "II-Bench (m-a-p/II-Bench)",
       "resource_type": "dataset",
       "url": "https://huggingface.co/datasets/m-a-p/II-Bench",
       "download_url": "https://huggingface.co/datasets/m-a-p/II-Bench",
@@ -106272,7 +107339,7 @@
       "paper_year": 2024,
       "paper_url": "https://doi.org/10.1109/TPAMI.2025.3599860",
       "resource_id": "jianfeng_feng__auto_dataset_5f72c4538d",
-      "resource_name": "MinD-3D++: Advancing fMRI-Based 3D Reconstruction with High-Quality Textured Mesh Generation and a Comprehensive Dataset — 开源数据集 (Fudan-fMRI/fMRI-Shape)",
+      "resource_name": "MinD-3D++ (Fudan-fMRI/fMRI-Shape)",
       "resource_type": "dataset",
       "url": "https://huggingface.co/datasets/Fudan-fMRI/fMRI-Shape",
       "download_url": "https://huggingface.co/datasets/Fudan-fMRI/fMRI-Shape",
@@ -106289,7 +107356,7 @@
       "paper_year": 2024,
       "paper_url": "https://doi.org/10.1109/TPAMI.2025.3599860",
       "resource_id": "jianfeng_feng__auto_dataset_258d3ddb23",
-      "resource_name": "MinD-3D++: Advancing fMRI-Based 3D Reconstruction with High-Quality Textured Mesh Generation and a Comprehensive Dataset — 开源数据集 (Fudan-fMRI/fMRI-Objaverse)",
+      "resource_name": "MinD-3D++ (Fudan-fMRI/fMRI-Objaverse)",
       "resource_type": "dataset",
       "url": "https://huggingface.co/datasets/Fudan-fMRI/fMRI-Objaverse",
       "download_url": "https://huggingface.co/datasets/Fudan-fMRI/fMRI-Objaverse",
@@ -107147,6 +108214,40 @@
       "relation_evidence": "https://github.com/KAZABANA/PR-PL"
     },
     {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "6c22b69e6e073a46",
+      "paper_id": "liang_zhen_dbe4a40db98d",
+      "paper_title": "PR-PL: A Novel Prototypical Representation Based Pairwise Learning Framework for Emotion Recognition Using EEG Signals",
+      "paper_title_zh": "PR-PL：用于脑电情绪识别的原型表示配对学习框架",
+      "paper_year": 2024,
+      "paper_url": "https://doi.org/10.1109/TAFFC.2023.3288118",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED",
+      "resource_name": "SEED",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "6c22b69e6e073a46",
+      "paper_id": "liang_zhen_dbe4a40db98d",
+      "paper_title": "PR-PL: A Novel Prototypical Representation Based Pairwise Learning Framework for Emotion Recognition Using EEG Signals",
+      "paper_title_zh": "PR-PL：用于脑电情绪识别的原型表示配对学习框架",
+      "paper_year": 2024,
+      "paper_url": "https://doi.org/10.1109/TAFFC.2023.3288118",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED-IV",
+      "resource_name": "SEED-IV",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    },
+    {
       "scholar_id": "zhi_qi_cheng",
       "scholar_name": "Zhi-Qi Cheng",
       "global_record_id": "834f738341069e6c",
@@ -107377,7 +108478,7 @@
       "paper_year": 2024,
       "paper_url": "https://doi.org/10.1016/j.patcog.2024.110468",
       "resource_id": "jianhua_tao__auto_dataset_b1a3c93af8",
-      "resource_name": "SceneFake: An initial dataset and benchmarks for scene fake audio detection — 开源数据集 (record/7663324)",
+      "resource_name": "SceneFake 数据集",
       "resource_type": "dataset",
       "url": "https://zenodo.org/record/7663324",
       "download_url": "https://zenodo.org/record/7663324",
@@ -108099,6 +109200,40 @@
       "relation_evidence": "https://github.com/RUC-GSAI/YuLan-Chat；http://arxiv.org/abs/2406.19853；https://doi.org/10.48550/arxiv.2406.19853"
     },
     {
+      "scholar_id": "guoying_zhao",
+      "scholar_name": "赵国英",
+      "global_record_id": "6c3de275b755d183",
+      "paper_id": "guoying_zhao_65661d87b78d",
+      "paper_title": "4DME: A Spontaneous 4D Micro-Expression Dataset With Multimodalities",
+      "paper_title_zh": "4DME：具有多模态的自发 4D 微表达数据集",
+      "paper_year": 2023,
+      "paper_url": "https://doi.org/10.1109/taffc.2022.3182342",
+      "resource_id": "guoying_zhao__R015",
+      "resource_name": "4DMEplus代码与数据申请",
+      "resource_type": "dataset",
+      "url": "https://github.com/1nO1SB/4DMEplus",
+      "download_url": "https://github.com/1nO1SB/4DMEplus",
+      "access": "以原始项目页面为准",
+      "relation_evidence": "https://github.com/1nO1SB/4DMEplus；https://gyzhao-nm.github.io/Guoying/publications.htm；https://www.oulu.fi/en/researchers/guoying-zhao；https://orcid.org/0000-0002-0673-4767"
+    },
+    {
+      "scholar_id": "guoying_zhao",
+      "scholar_name": "赵国英",
+      "global_record_id": "6c3de275b755d183",
+      "paper_id": "guoying_zhao_65661d87b78d",
+      "paper_title": "4DME: A Spontaneous 4D Micro-Expression Dataset With Multimodalities",
+      "paper_title_zh": "4DME：具有多模态的自发 4D 微表达数据集",
+      "paper_year": 2023,
+      "paper_url": "https://doi.org/10.1109/taffc.2022.3182342",
+      "resource_id": "guoying_zhao__R016",
+      "resource_name": "4DME挑战赛数据申请",
+      "resource_type": "dataset",
+      "url": "https://4dmr-ijcai-ecai2026.github.io/",
+      "download_url": "https://4dmr-ijcai-ecai2026.github.io/",
+      "access": "以原始项目页面为准",
+      "relation_evidence": "https://4dmr-ijcai-ecai2026.github.io/；https://gyzhao-nm.github.io/Guoying/publications.htm；https://www.oulu.fi/en/researchers/guoying-zhao；https://orcid.org/0000-0002-0673-4767"
+    },
+    {
       "scholar_id": "panorama_xiaochu_zhang",
       "scholar_name": "张效初",
       "global_record_id": "3ce45903422d3163",
@@ -108641,6 +109776,40 @@
       "download_url": "https://github.com/VPGTrans/VPGTrans",
       "access": "public",
       "relation_evidence": "https://github.com/VPGTrans/VPGTrans；https://arxiv.org/pdf/2305.01278.pdf"
+    },
+    {
+      "scholar_id": "guoying_zhao",
+      "scholar_name": "赵国英",
+      "global_record_id": "eea68b42e3a0de94",
+      "paper_id": "guoying_zhao_5b51a42107d9",
+      "paper_title": "Xiaobai Li, Shiyang Cheng, Yante Li, Muzammil Behzad, Jie Shen, Stefanos Zafeiriou, Maja Pantic, Guoying Zhao . 4DME: A spontaneous 4D micro-expression dataset with multimodalities . IEEE Transactions on Affective Computing,",
+      "paper_title_zh": "李小白，程石阳，李彦特，Muzammil Behzad，沉杰，Stefanos Zafeiriou，Maja Pantic，赵国英。 4DME：具有多模态的自发 4D 微表情数据集。 IEEE 情感计算汇刊，",
+      "paper_year": 2023,
+      "paper_url": "https://gyzhao-nm.github.io/Guoying/publications.htm",
+      "resource_id": "guoying_zhao__R015",
+      "resource_name": "4DMEplus代码与数据申请",
+      "resource_type": "dataset",
+      "url": "https://github.com/1nO1SB/4DMEplus",
+      "download_url": "https://github.com/1nO1SB/4DMEplus",
+      "access": "以原始项目页面为准",
+      "relation_evidence": "https://github.com/1nO1SB/4DMEplus；https://gyzhao-nm.github.io/Guoying/publications.htm；https://www.oulu.fi/en/researchers/guoying-zhao；https://orcid.org/0000-0002-0673-4767"
+    },
+    {
+      "scholar_id": "guoying_zhao",
+      "scholar_name": "赵国英",
+      "global_record_id": "eea68b42e3a0de94",
+      "paper_id": "guoying_zhao_5b51a42107d9",
+      "paper_title": "Xiaobai Li, Shiyang Cheng, Yante Li, Muzammil Behzad, Jie Shen, Stefanos Zafeiriou, Maja Pantic, Guoying Zhao . 4DME: A spontaneous 4D micro-expression dataset with multimodalities . IEEE Transactions on Affective Computing,",
+      "paper_title_zh": "李小白，程石阳，李彦特，Muzammil Behzad，沉杰，Stefanos Zafeiriou，Maja Pantic，赵国英。 4DME：具有多模态的自发 4D 微表情数据集。 IEEE 情感计算汇刊，",
+      "paper_year": 2023,
+      "paper_url": "https://gyzhao-nm.github.io/Guoying/publications.htm",
+      "resource_id": "guoying_zhao__R016",
+      "resource_name": "4DME挑战赛数据申请",
+      "resource_type": "dataset",
+      "url": "https://4dmr-ijcai-ecai2026.github.io/",
+      "download_url": "https://4dmr-ijcai-ecai2026.github.io/",
+      "access": "以原始项目页面为准",
+      "relation_evidence": "https://4dmr-ijcai-ecai2026.github.io/；https://gyzhao-nm.github.io/Guoying/publications.htm；https://www.oulu.fi/en/researchers/guoying-zhao；https://orcid.org/0000-0002-0673-4767"
     },
     {
       "scholar_id": "chen_yunji",
@@ -109612,6 +110781,40 @@
       "relation_evidence": "https://github.com/thy960112/MDBN/blob/main/README.md；https://dblp.org/rec/journals/corr/abs-2309-17334"
     },
     {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "43eae5d1ea1364b6",
+      "paper_id": "liang_zhen_cc0300c5038e",
+      "paper_title": "Semi-Supervised Dual-Stream Self-Attentive Adversarial Graph Contrastive Learning for Cross-Subject EEG-based Emotion Recognition",
+      "paper_title_zh": "用于基于跨对象脑电图的情绪识别的半监督双流自注意对抗性图对比学习。",
+      "paper_year": 2023,
+      "paper_url": "https://doi.org/10.48550/ARXIV.2308.11635",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED",
+      "resource_name": "SEED",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "43eae5d1ea1364b6",
+      "paper_id": "liang_zhen_cc0300c5038e",
+      "paper_title": "Semi-Supervised Dual-Stream Self-Attentive Adversarial Graph Contrastive Learning for Cross-Subject EEG-based Emotion Recognition",
+      "paper_title_zh": "用于基于跨对象脑电图的情绪识别的半监督双流自注意对抗性图对比学习。",
+      "paper_year": 2023,
+      "paper_url": "https://doi.org/10.48550/ARXIV.2308.11635",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED-IV",
+      "resource_name": "SEED-IV",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    },
+    {
       "scholar_id": "dezhong_yao",
       "scholar_name": "尧德中",
       "global_record_id": "87740aec8dcbb6d4",
@@ -110307,6 +111510,40 @@
       "download_url": "",
       "access": "public_source",
       "relation_evidence": "https://github.com/KAZABANA/EEGMatch"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "9b528f76fb12710c",
+      "paper_id": "liang_zhen_f7eaf49b4e9b",
+      "paper_title": "EEGMatch: Learning with Incomplete Labels for Semi-Supervised EEG-based Cross-Subject Emotion Recognition",
+      "paper_title_zh": "EEGMatch：利用不完整标签进行半监督跨被试脑电情绪识别",
+      "paper_year": 2023,
+      "paper_url": "https://doi.org/10.48550/ARXIV.2304.06496",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED",
+      "resource_name": "SEED",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "9b528f76fb12710c",
+      "paper_id": "liang_zhen_f7eaf49b4e9b",
+      "paper_title": "EEGMatch: Learning with Incomplete Labels for Semi-Supervised EEG-based Cross-Subject Emotion Recognition",
+      "paper_title_zh": "EEGMatch：利用不完整标签进行半监督跨被试脑电情绪识别",
+      "paper_year": 2023,
+      "paper_url": "https://doi.org/10.48550/ARXIV.2304.06496",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED-IV",
+      "resource_name": "SEED-IV",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
     },
     {
       "scholar_id": "xu_ruifeng",
@@ -112009,6 +113246,57 @@
       "relation_evidence": "https://github.com/Acnext/Optical-Flow-For-Spiking-Camera"
     },
     {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "f45f3841329c251e",
+      "paper_id": "liang_zhen_296e0a1a2bff",
+      "paper_title": "Unsupervised Time-Aware Sampling Network with Deep Reinforcement Learning for EEG-Based Emotion Recognition",
+      "paper_title_zh": "面向脑电情绪识别的深度强化学习无监督时间感知采样网络",
+      "paper_year": 2022,
+      "paper_url": "https://doi.org/10.48550/ARXIV.2212.07088",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED",
+      "resource_name": "SEED",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "f45f3841329c251e",
+      "paper_id": "liang_zhen_296e0a1a2bff",
+      "paper_title": "Unsupervised Time-Aware Sampling Network with Deep Reinforcement Learning for EEG-Based Emotion Recognition",
+      "paper_title_zh": "面向脑电情绪识别的深度强化学习无监督时间感知采样网络",
+      "paper_year": 2022,
+      "paper_url": "https://doi.org/10.48550/ARXIV.2212.07088",
+      "resource_id": "liang_zhen__LIANG_EXT_DEAP",
+      "resource_name": "DEAP",
+      "resource_type": "dataset",
+      "url": "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/",
+      "download_url": "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/download.html",
+      "access": "application_required",
+      "relation_evidence": "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "f45f3841329c251e",
+      "paper_id": "liang_zhen_296e0a1a2bff",
+      "paper_title": "Unsupervised Time-Aware Sampling Network with Deep Reinforcement Learning for EEG-Based Emotion Recognition",
+      "paper_title_zh": "面向脑电情绪识别的深度强化学习无监督时间感知采样网络",
+      "paper_year": 2022,
+      "paper_url": "https://doi.org/10.48550/ARXIV.2212.07088",
+      "resource_id": "liang_zhen__LIANG_EXT_MAHNOB-HCI",
+      "resource_name": "MAHNOB-HCI",
+      "resource_type": "dataset",
+      "url": "https://mahnob-db.eu/",
+      "download_url": "http://mahnob-db.eu/hci-tagging/accounts/register/",
+      "access": "registration_eula_site_unstable",
+      "relation_evidence": "https://mahnob-db.eu/；https://mahnob-db.eu/hci-tagging/media/doc/eula.pdf"
+    },
+    {
       "scholar_id": "panorama_e8981be47f6c",
       "scholar_name": "张莉",
       "global_record_id": "4d04bc34ca7150c9",
@@ -113191,7 +114479,7 @@
       "paper_year": 2022,
       "paper_url": "https://doi.org/10.48550/ARXIV.2208.10489",
       "resource_id": "jianhua_tao__auto_dataset_44b3267516",
-      "resource_name": "System Fingerprints Detection for DeepFake Audio: An Initial Dataset and Investigation — 开源数据集 (records/13318702)",
+      "resource_name": "System Fingerprints Detection for DeepFake… (Zenodo 13318702)",
       "resource_type": "dataset",
       "url": "https://zenodo.org/records/13318702",
       "download_url": "https://zenodo.org/records/13318702",
@@ -113208,7 +114496,7 @@
       "paper_year": 2022,
       "paper_url": "https://doi.org/10.48550/ARXIV.2208.10489",
       "resource_id": "jianhua_tao__auto_dataset_44319ab269",
-      "resource_name": "System Fingerprints Detection for DeepFake Audio: An Initial Dataset and Investigation — 开源数据集 (records/13340666)",
+      "resource_name": "System Fingerprints Detection for DeepFake… (Zenodo 13340666)",
       "resource_type": "dataset",
       "url": "https://zenodo.org/records/13340666",
       "download_url": "https://zenodo.org/records/13340666",
@@ -113786,7 +115074,7 @@
       "paper_year": 2021,
       "paper_url": "https://doi.org/10.21437/interspeech.2021-930",
       "resource_id": "jianhua_tao__auto_dataset_ad113fd9fb",
-      "resource_name": "Half-Truth: A Partially Fake Audio Detection Dataset — 开源数据集 (records/10377492)",
+      "resource_name": "Half-Truth 数据集",
       "resource_type": "dataset",
       "url": "https://zenodo.org/records/10377492",
       "download_url": "https://zenodo.org/records/10377492",
@@ -114387,6 +115675,40 @@
       "download_url": "",
       "access": "以项目/仓库说明为准",
       "relation_evidence": "https://github.com/thu-coai/grounded-minimal-edit；https://coai.cs.tsinghua.edu.cn/hml；https://www.cs.tsinghua.edu.cn/csen/info/1312/4387.htm；https://coai.cs.tsinghua.edu.cn/hw-ai/publications.html"
+    },
+    {
+      "scholar_id": "xu_ruifeng",
+      "scholar_name": "徐睿峰",
+      "global_record_id": "844a22b825a9a509",
+      "paper_id": "xu_ruifeng_1f82eb781266",
+      "paper_title": "Improving Empathetic Response Generation by Recognizing Emotion Cause in Conversations. Conference on Empirical Methods in Natural Language Processing",
+      "paper_title_zh": "通过识别对话中的情绪原因来改善同理心反应的产生。自然语言处理经验方法会议",
+      "paper_year": 2021,
+      "paper_url": "",
+      "resource_id": "xu_ruifeng__R011",
+      "resource_name": "RECCON情绪原因对话数据集代码",
+      "resource_type": "dataset",
+      "url": "https://github.com/declare-lab/RECCON",
+      "download_url": "https://github.com/declare-lab/RECCON",
+      "access": "以原始项目页面为准",
+      "relation_evidence": "https://github.com/declare-lab/RECCON；https://homepage.hit.edu.cn/xuruifeng；https://aclanthology.org/people/ruifeng-xu/；https://orcid.org/0000-0002-4009-5679"
+    },
+    {
+      "scholar_id": "xu_ruifeng",
+      "scholar_name": "徐睿峰",
+      "global_record_id": "a1f9880b694ab1ca",
+      "paper_id": "xu_ruifeng_cdcb882ee14b",
+      "paper_title": "Improving Empathetic Response Generation by Recognizing Emotion Cause in Conversations",
+      "paper_title_zh": "通过识别对话中的情绪原因来改善移情反应的产生",
+      "paper_year": 2021,
+      "paper_url": "https://aclanthology.org/2021.findings-emnlp.70/",
+      "resource_id": "xu_ruifeng__R011",
+      "resource_name": "RECCON情绪原因对话数据集代码",
+      "resource_type": "dataset",
+      "url": "https://github.com/declare-lab/RECCON",
+      "download_url": "https://github.com/declare-lab/RECCON",
+      "access": "以原始项目页面为准",
+      "relation_evidence": "https://github.com/declare-lab/RECCON；https://homepage.hit.edu.cn/xuruifeng；https://aclanthology.org/people/ruifeng-xu/；https://orcid.org/0000-0002-4009-5679"
     },
     {
       "scholar_id": "huang_tiejun",
@@ -114993,7 +116315,7 @@
       "paper_year": 2021,
       "paper_url": "https://doi.org/10.1109/MSR52588.2021.00084",
       "resource_id": "panorama_ya_li__auto_dataset_dc33b68fda",
-      "resource_name": "EqBench: A Dataset of Equivalent and Non-equivalent Program Pairs — 开源数据集 (osf.io/93s5b)",
+      "resource_name": "EqBench 数据集",
       "resource_type": "dataset",
       "url": "https://osf.io/93s5b",
       "download_url": "https://osf.io/93s5b",
@@ -115543,6 +116865,57 @@
       "download_url": "",
       "access": "以项目/仓库说明为准",
       "relation_evidence": "https://mp.weixin.qq.com/s/T-FBWJMPZWo03SxUrTvJUw；https://haofei.vip/；https://oatml.cs.ox.ac.uk/members/hao_fei/；https://dblp.org/pid/81/3569-1.html"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "405ced0dd4d121aa",
+      "paper_id": "liang_zhen_4b0325da813e",
+      "paper_title": "Video‐triggered EEG‐emotion public databases and current methods: A survey",
+      "paper_title_zh": "视频触发的脑电图情感公共数据库和当前方法:一项调查",
+      "paper_year": 2020,
+      "paper_url": "https://sites.google.com/site/janezhenliang/publications",
+      "resource_id": "liang_zhen__LIANG_EXT_SEED",
+      "resource_name": "SEED",
+      "resource_type": "dataset",
+      "url": "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "download_url": "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "access": "application_required",
+      "relation_evidence": "https://bcmi.sjtu.edu.cn/home/seed/seed.html；https://bcmi.sjtu.edu.cn/home/seed/downloads.html"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "405ced0dd4d121aa",
+      "paper_id": "liang_zhen_4b0325da813e",
+      "paper_title": "Video‐triggered EEG‐emotion public databases and current methods: A survey",
+      "paper_title_zh": "视频触发的脑电图情感公共数据库和当前方法:一项调查",
+      "paper_year": 2020,
+      "paper_url": "https://sites.google.com/site/janezhenliang/publications",
+      "resource_id": "liang_zhen__LIANG_EXT_DEAP",
+      "resource_name": "DEAP",
+      "resource_type": "dataset",
+      "url": "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/",
+      "download_url": "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/download.html",
+      "access": "application_required",
+      "relation_evidence": "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/"
+    },
+    {
+      "scholar_id": "liang_zhen",
+      "scholar_name": "梁臻",
+      "global_record_id": "405ced0dd4d121aa",
+      "paper_id": "liang_zhen_4b0325da813e",
+      "paper_title": "Video‐triggered EEG‐emotion public databases and current methods: A survey",
+      "paper_title_zh": "视频触发的脑电图情感公共数据库和当前方法:一项调查",
+      "paper_year": 2020,
+      "paper_url": "https://sites.google.com/site/janezhenliang/publications",
+      "resource_id": "liang_zhen__LIANG_EXT_MAHNOB-HCI",
+      "resource_name": "MAHNOB-HCI",
+      "resource_type": "dataset",
+      "url": "https://mahnob-db.eu/",
+      "download_url": "http://mahnob-db.eu/hci-tagging/accounts/register/",
+      "access": "registration_eula_site_unstable",
+      "relation_evidence": "https://mahnob-db.eu/；https://mahnob-db.eu/hci-tagging/media/doc/eula.pdf"
     },
     {
       "scholar_id": "guoying_zhao",
