@@ -1,163 +1,2797 @@
-{
-  "scholar": {
-    "name_zh": "张燕",
-    "name_en": "English name pending",
-    "affiliation": "苏州大学",
-    "identity_sources": [
-      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+[
+  {
+    "title": "Global-regional anti-noise network for cross-subject EEG emotion recognition",
+    "title_en": "Global-regional anti-noise network for cross-subject EEG emotion recognition",
+    "title_zh": "用于跨主体脑电情感识别的全球区域抗噪声网络",
+    "year": 2027,
+    "venue": "Neural Networks",
+    "authors": [
+      "Yilin Wang",
+      "Li Zhang",
+      "Yan Zhang"
     ],
-    "official_homepages": [
-      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    "doi": "10.1016/j.neunet.2026.109444",
+    "paper_url": "https://doi.org/10.1016/j.neunet.2026.109444",
+    "source_url": "https://doi.org/10.1016/j.neunet.2026.109444",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "脑电情感识别",
+      "情感计算与情绪理解"
     ],
-    "coverage": {
-      "scope": "2025–2026主题筛选与全量书目扩展",
-      "status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
-      "coverage_status": "仅有代表论文或项目级记录；个人全历史待补核",
-      "available_record_count": 2,
-      "bulk_source_record_count": 0,
-      "themes": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ]
-    },
-    "coverage_notes": "该目录与五位基线学者使用同一论文/资源/分类输出契约。‘可用记录数’表示本轮已取得并保留的书目，不等于未经消歧的个人终身全集；身份待核验、论文团队和同名风险见候选筛选证据。",
-    "id": "panorama_e293384ac5ff",
-    "folder": "主题_panorama_e293384ac5ff",
-    "classification": {
-      "method": "按题名及现有项目、资源说明进行主题粗分，用于阅读导航；未逐篇审阅全文，不代表学者官方分类。每条书目只设一个主类别，跨方向信息保留在辅助标签中。",
-      "categories": [
-        {
-          "id": "eeg_foundation",
-          "label": "脑电基础模型与通用解码",
-          "description": "EEG基础模型、跨任务/跨设备泛化、预训练与脑信号解码。",
-          "count": 0
-        },
-        {
-          "id": "eeg_affect",
-          "label": "情感脑电与多模态生理信号",
-          "description": "脑电情感识别、EEG-fNIRS/EEG-MEG及情感计算应用。",
-          "count": 2
-        },
-        {
-          "id": "eeg_benchmark",
-          "label": "脑电基准、数据与评测",
-          "description": "脑电基础模型基准、数据集、可复现评估与跨数据集比较。",
-          "count": 0
-        }
-      ],
-      "review": {
-        "status": "theme_candidate",
-        "source_status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
-        "primary_theme": "脑电情感计算与脑电大模型"
+    "verification": "Crossref exact/near-exact title and publication-year match; DOI URL preserved",
+    "status": "已核验作品（Crossref DOI）",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W7172217905",
+    "openalex_author_id": "https://openalex.org/A5052244863",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）；Crossref exact title/year",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_yunhong_wang_99d6b62e2072",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_yunhong_wang",
+    "scholar_name": "王蕴红",
+    "work_title_group": "ec763119bc36",
+    "date_note": "书目卷年晚于检索年；保留预先登记/在线发表记录，勿计为已核实2026正式卷年",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_yunhong_wang",
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "王蕴红",
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_yunhong_wang_99d6b62e2072"
+    ],
+    "scholar_categories": {
+      "panorama_yunhong_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王蕴红",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "张燕",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑电情感识别",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
-    "counts": {
-      "bibliographic_records": 2,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [
-        2025
-      ],
-      "unknown_year": 0
-    }
+    "global_record_id": "3042bc4679a0dd74",
+    "primary_categories_by_scholar": [
+      "王蕴红：情感脑电与多模态生理信号",
+      "张燕：情感脑电与多模态生理信号"
+    ]
   },
-  "papers": [
-    {
-      "title": "Band-Level Adaptive Fusion Network for Cross-Subject EEG Emotion Recognition. IEEE Transactions on Instrumentation and Measurement",
-      "title_en": "Band-Level Adaptive Fusion Network for Cross-Subject EEG Emotion Recognition. IEEE Transactions on Instrumentation and Measurement",
-      "title_zh": "用于跨主体脑电图情绪识别的带级自适应融合网络。 IEEE 仪器与测量学报",
-      "year": 2025,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "张燕"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_e293384ac5ff_753169e0962b",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_e293384ac5ff",
-      "scholar_name": "张燕",
-      "work_title_group": "76ba6c90a297",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+  {
+    "title": "Amplify, Aggregate, and Adjust: VideoMAE-Based Holistic-Subtle Aggregation for Micro-action Recognition",
+    "title_en": "Amplify, Aggregate, and Adjust: VideoMAE-Based Holistic-Subtle Aggregation for Micro-action Recognition",
+    "title_zh": "放大、聚合和调整：基于 VideoMAE 的微动作识别的整体微妙聚合",
+    "year": 2026,
+    "venue": "ECCV (28)",
+    "authors": [
+      "Yan Zhang",
+      "Nan Pu",
+      "Wenjing Li",
+      "Zhun Zhong",
+      "Meng Wang"
+    ],
+    "doi": "10.1007/978-3-032-37624-4_33",
+    "dblp_key": "conf/eccv/ZhangPLZW26",
+    "paper_url": "https://doi.org/10.1007/978-3-032-37624-4_33",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/conf/eccv/ZhangPLZW26.html",
+    "openalex_id": "https://openalex.org/W7213293457",
+    "openalex_author_id": "",
+    "cited_by_count": 0,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 04/3348-53）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_e293384ac5ff_87e2f73b35788011",
+    "global_record_id": "0563992b225e5cf7",
+    "scholar_id": "panorama_e293384ac5ff",
+    "scholar_name": "张燕",
+    "scholar_ids": [
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_e293384ac5ff_87e2f73b35788011"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "张燕",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
     },
-    {
-      "title": "Discrimination-Enhanced Hierarchical Network with Structure Optimization for Cross-Subject EEG Emotion Recognition. IEEE International Conference on Bioinformatics and Biomedicine (BIBM)",
-      "title_en": "Discrimination-Enhanced Hierarchical Network with Structure Optimization for Cross-Subject EEG Emotion Recognition. IEEE International Conference on Bioinformatics and Biomedicine (BIBM)",
-      "title_zh": "用于跨主题脑电图情绪识别的具有结构优化的辨别增强分层网络。 IEEE 国际生物信息学和生物医学会议 (BIBM)",
-      "year": 2025,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "张燕"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_e293384ac5ff_4e8f6d84f20b",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_e293384ac5ff",
-      "scholar_name": "张燕",
-      "work_title_group": "4d5eb7706e18",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
-    }
-  ]
-}
+    "primary_categories_by_scholar": [
+      "张燕：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Multi-Class Object Counting Network With Adaptive Class Alignment Loss for Remote Sensing Images",
+    "title_en": "Multi-Class Object Counting Network With Adaptive Class Alignment Loss for Remote Sensing Images",
+    "title_zh": "遥感图像具有自适应类对齐损失的多类对象计数网络",
+    "year": 2026,
+    "venue": "IEEE Signal Process. Lett.",
+    "authors": [
+      "Zhiwei Zhu",
+      "Li Zhang",
+      "Hao-Yuan Ma",
+      "Xiang-Yi Wei",
+      "Yan Zhang"
+    ],
+    "doi": "10.1109/LSP.2025.3630090",
+    "dblp_key": "journals/spl/ZhuZMWZ26",
+    "paper_url": "https://doi.org/10.1109/LSP.2025.3630090",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/journals/spl/ZhuZMWZ26.html",
+    "openalex_id": "https://openalex.org/W4415971121",
+    "openalex_author_id": "https://openalex.org/A5100425448",
+    "cited_by_count": 1,
+    "abstract_en": "Accurately estimating the number of objects across different categories is crucial in remote sensing images for applications ranging from urban planning and environmental monitoring to disaster management. Although there are a few studies about multi-class object counting for remote sensing images, these methods may suffer from the issues of class imbalance, inter-class interference, or inability to capture fine-grained features. Thus, we propose a novel network called Multi-class Object Counting Network with Adaptive Class Alignment loss (ACA-MOCN) for multi-class object counting in remote sensing images. ACA-MOCN newly designs a Adaptive Class Alignment (ACA) loss function that can effectively balance the losses across multi-class objects and reduce interference between classes. In addition, ACA-MOCN also designs a Filtering Feature Pyramid Network (FFPN) structure to facilitate an effective feature fusion mechanism, enabling the integration of granular and detailed information. Experimental results on the two public datasets demonstrate that ACA-MOCN is superior when handling large-scale multi-class object counting tasks in remote sensing images.",
+    "abstract_zh": "准确估计不同类别的物体数量对于遥感图像的城市规划、环境监测和灾害管理等应用至关重要。尽管有一些关于遥感图像多类目标计数的研究，但这些方法可能会遇到类不平衡、类间干扰或无法捕获细粒度特征的问题。因此，我们提出了一种称为具有自适应类对齐损失的多类对象计数网络（ACA-MOCN）的新颖网络，用于遥感图像中的多类对象计数。 ACA-MOCN新设计了自适应类对齐（ACA）损失函数，可以有效平衡多类对象之间的损失......",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 89/5992-4）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_e8981be47f6c_27596d5a814e5c54",
+    "global_record_id": "1099c914ac149887",
+    "scholar_id": "panorama_e8981be47f6c",
+    "scholar_name": "张莉",
+    "scholar_ids": [
+      "panorama_e8981be47f6c",
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "张莉",
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_e8981be47f6c_27596d5a814e5c54"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_e8981be47f6c": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "张莉",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "张燕",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张莉：脑电基准、数据与评测",
+      "张燕：脑电基准、数据与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "Benchmarking Large Language Models for Video Quality Assessment: Structured Perceptual Prompting and Refinement",
+    "title_en": "Benchmarking Large Language Models for Video Quality Assessment: Structured Perceptual Prompting and Refinement",
+    "title_zh": "用于视频质量评估的大型语言模型的基准测试：结构化感知提示和细化",
+    "year": 2026,
+    "venue": "International Journal of Computer Vision",
+    "authors": [
+      "Runze Hu",
+      "Mingxuan Li",
+      "Yutao Liu",
+      "Haoran Duan",
+      "Yan Zhang"
+    ],
+    "doi": "10.1007/s11263-026-03068-8",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1007/s11263-026-03068-8",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W7222872640",
+    "openalex_id": "https://openalex.org/W7222872640",
+    "openalex_author_id": "https://openalex.org/A5100617807",
+    "cited_by_count": 0,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100617807）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_e293384ac5ff_abde021e7358a661",
+    "global_record_id": "24a6e2883cd908cf",
+    "scholar_id": "panorama_e293384ac5ff",
+    "scholar_name": "张燕",
+    "scholar_ids": [
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_e293384ac5ff_abde021e7358a661"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "张燕",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张燕：脑电基准、数据与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "Cross3DReg: A Real-world Cross-source Point Cloud Registration Benchmark",
+    "title_en": "Cross3DReg: A Real-world Cross-source Point Cloud Registration Benchmark",
+    "title_zh": "Cross3DReg：真实的跨源点云配准基准",
+    "year": 2026,
+    "venue": "International Journal of Computer Vision",
+    "authors": [
+      "Zongyi Xu",
+      "Z. Lang",
+      "Yilong Chen",
+      "Shanshan Zhao",
+      "Xiaoshui Huang",
+      "Sean Bin Yang",
+      "Yan Zhang",
+      "Qianni Zhang",
+      "Xinbo Gao"
+    ],
+    "doi": "10.1007/s11263-026-03095-5",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1007/s11263-026-03095-5",
+    "pdf_url": "https://arxiv.org/pdf/2509.06456",
+    "source_url": "https://openalex.org/W7223382679",
+    "openalex_id": "https://openalex.org/W7223382679",
+    "openalex_author_id": "https://openalex.org/A5100617807",
+    "cited_by_count": 0,
+    "abstract_en": "Cross-source point cloud registration, which aims to align point cloud data from different sensors, is a fundamental task in 3D vision. However, compared to the same-source point cloud registration, cross-source registration faces two core challenges: the lack of publicly available large-scale real-world datasets for training the deep registration models, and the inherent differences in point clouds captured by multiple sensors. The diverse patterns induced by the sensors pose great challenges in robust and accurate point cloud feature extraction and matching, which negatively influence the registration accuracy. To advance research in this field, we construct Cross3DReg, the currently largest and real-world multi-modal cross-source point cloud registration dataset, which is collected by a rotating mechanical lidar and a hybrid semi-solid-state lidar, respectively. Moreover, we design an overlap-based cross-source registration framework, which utilizes unaligned images to predict the overlapping region between source and target point clouds, effectively filtering out redundant points in the irrelevant regions and significantly mitigating the interference caused by noise in non-overlapping areas. Then, a visual-geometric attention guided matching module is proposed to enhance the consistency of cross-source point cloud features by fusing image and geometric information to establish reliable correspondences and ultimately achieve accurate and robust registration. Extensive experiments show that our method achieves state-of-the-art registration performance. Our framework reduces the relative rotation error (RRE) and relative translation error (RTE) by $63.2\\%$ and $40.2\\%$, respectively, and improves the registration recall (RR) by $5.4\\%$, which validates its effectiveness in achieving accurate cross-source registration.",
+    "abstract_zh": "跨源点云配准旨在对齐来自不同传感器的点云数据，是 3D 视觉中的一项基本任务。然而，与同源点云配准相比，跨源配准面临两个核心挑战：缺乏用于训练深度配准模型的公开可用的大规模现实数据集，以及多个传感器捕获的点云的固有差异。传感器引起的多样化模式对稳健且准确的点云特征提取和匹配提出了巨大的挑战，这对配准精度产生了负面影响。为了推进这一领域的研究，我们构建了 Cross3DReg，这是目前最大的、真实世界的多模态跨源点c...",
+    "abstract_source": "arxiv_api",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100617807）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_e293384ac5ff_6773fb00d80ec495",
+    "global_record_id": "e343671ac9b8c471",
+    "scholar_id": "panorama_e293384ac5ff",
+    "scholar_name": "张燕",
+    "scholar_ids": [
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_e293384ac5ff_6773fb00d80ec495"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "张燕",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张燕：脑电基准、数据与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "MAPLE: Mamba-Based Adaptive Prototype Learning for Intent Disentanglement in Sequential Recommendation",
+    "title_en": "MAPLE: Mamba-Based Adaptive Prototype Learning for Intent Disentanglement in Sequential Recommendation",
+    "title_zh": "MAPLE：基于 Mamba 的自适应原型学习，用于顺序推荐中的意图解开",
+    "year": 2026,
+    "venue": "ACM International Conference on Information and Knowledge Management (CIKM)",
+    "authors": [
+      "Yue Xie",
+      "Yan Zhang",
+      "Guo Chen",
+      "Li Zhang",
+      "Lei Zhao"
+    ],
+    "doi": "10.1145/3799682.3841166",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1145/3799682.3841166",
+    "pdf_url": "https://doi.org/10.1145/3799682.3841166",
+    "source_url": "https://openalex.org/W7225105751",
+    "openalex_id": "https://openalex.org/W7225105751",
+    "openalex_author_id": "https://openalex.org/A5100617807",
+    "cited_by_count": 0,
+    "abstract_en": "Sequential recommender systems struggle to simultaneously capture persistent long-term preferences and volatile short-term intentions, while existing dual-stream architectures are computationally inefficient when handling long sequences and suffer from feature entanglement between the two interest streams. To address these issues, we propose a Mamba-based Adaptive Prototype LEarning and cross-intent contrastive alignment framework (MAPLE). MAPLE employs Mamba as the long-term encoder; its selective state space mechanism selectively retains important historical signals across the entire interaction sequence, making it well-suited for capturing stable long-term interest features with linear computational complexity. Meanwhile, the GRU-based short-term encoder focuses on a local tail window to model recent preference shifts. To decouple these two interest streams, we maintain a set of global semantic prototypes for each interest type and extract soft proxies as personalized semantic anchors through attention-weighted aggregation, thereby leveraging global intent consensus to enrich individual user representations. These proxies are further applied as contrastive anchors in a novel cross-intent InfoNCE loss, which treats proxies of the complementary intent stream as cross-intent contrastive anchors to promote semantic differentiation between long and short-term representations. Finally, we introduce an asymmetric dynamic gated fusion module that prioritizes long-term features as the main component and incorporates short-term features as the auxiliary component for next-item prediction. Experiments on four real-world benchmark datasets demonstrate that MAPLE achieves highly competitive performance, significantly outperforming state-of-the-art models on rank-aware metrics.",
+    "abstract_zh": "顺序推荐系统很难同时捕获持久的长期偏好和不稳定的短期意图，而现有的双流架构在处理长序列时计算效率低下，并且会受到两个兴趣流之间特征纠缠的影响。为了解决这些问题，我们提出了基于 Mamba 的自适应原型学习和跨意图对比对齐框架（MAPLE）。 MAPLE 采用 Mamba 作为长期编码器；其选择性状态空间机制选择性地保留整个交互序列中的重要历史信号，使其非常适合以线性计算复杂度捕获稳定的长期兴趣特征。与此同时，基于 GRU 的...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100617807）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_e293384ac5ff_812b6cf22169ace7",
+    "global_record_id": "d75469ffcca25625",
+    "scholar_id": "panorama_e293384ac5ff",
+    "scholar_name": "张燕",
+    "scholar_ids": [
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_e293384ac5ff_812b6cf22169ace7"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "张燕",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张燕：脑电基准、数据与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "SIAM: Towards Generalizable Articulated Object Modeling via Single Robot-Object Interaction",
+    "title_en": "SIAM: Towards Generalizable Articulated Object Modeling via Single Robot-Object Interaction",
+    "title_zh": "SIAM：通过单个机器人与对象交互实现通用铰接对象建模",
+    "year": 2026,
+    "venue": "AAAI",
+    "authors": [
+      "Yuyan Liu",
+      "Li Zhang",
+      "Di Wu",
+      "Yan Zhang",
+      "Anran Huang",
+      "Zhi Wang",
+      "Liu Liu",
+      "Dan Guo"
+    ],
+    "doi": "10.1609/AAAI.V40I22.38913",
+    "dblp_key": "conf/aaai/LiuZWZHWLG26",
+    "paper_url": "https://doi.org/10.1609/AAAI.V40I22.38913",
+    "pdf_url": "https://doi.org/10.1609/aaai.v40i22.38913",
+    "source_url": "https://dblp.org/rec/conf/aaai/LiuZWZHWLG26.html",
+    "openalex_id": "https://openalex.org/W7138293545",
+    "openalex_author_id": "",
+    "cited_by_count": 0,
+    "abstract_en": "Articulated object modeling, which represents interconnected rigid bodies with their geometry, part segmentation, articulation tree, and physical properties, is crucial for robotic perception and manipulation. Recently existing methods like SAGCI leverage Interactive Perception (IP) to refine models through robot interaction. However, SAGCI suffers from prior-dependency (requiring initialization), neglects kinematic/dynamic constraints, and generates non-watertight meshes. To overcome these limitations, we propose SIAM, a novel framework for efficient and generalizable Single-Interaction Articulated Modeling. Given an initial point cloud, SIAM first enables minimal robot interaction to trigger object motion. It then precisely segments parts by analyzing point cloud differences pre- and post-interaction. For joint parameter estimation, we introduce an optimization incorporating novel kinematic energy constraints, enhancing physical consistency. Finally, we reconstruct a high-quality, topologically watertight mesh by learning 3D Gaussian Primitives from multi-view RGB-D observations under deformation. Extensive experiments on the PartNet-Mobility benchmark demonstrate state-of-the-art articulation modeling performance. Successful real-world deployment with an xArm robot further validates the framework's practicality and transferability. SIAM achieves accurate, prior-free modeling with significantly reduced interaction cost.",
+    "abstract_zh": "关节对象建模代表互连的刚体及其几何形状、零件分割、关节树和物理属性，对于机器人感知和操作至关重要。最近存在的方法（例如 SAGCI）利用交互式感知（IP）通过机器人交互来完善模型。然而，SAGCI 存在先验依赖性（需要初始化），忽略运动学/动态约束，并生成非防水网格。为了克服这些限制，我们提出了 SIAM，这是一种用于高效且可泛化的单交互铰接建模的新颖框架。给定初始点云，SIAM 首先启用最少的机器人交互来触发对象运动。然后它精确地分割零件......",
+    "abstract_source": "openalex_doi",
+    "topics": [
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 04/3348-53）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_e293384ac5ff_b3b7bb0c09330a5c",
+    "global_record_id": "222ab0b3fb06d81e",
+    "scholar_id": "panorama_e293384ac5ff",
+    "scholar_name": "张燕",
+    "scholar_ids": [
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_e293384ac5ff_b3b7bb0c09330a5c"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "张燕",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张燕：脑电基准、数据与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "Towards Micro-Action Recognition with Limited Annotations: An Asynchronous Pseudo Labeling and Training Approach",
+    "title_en": "Towards Micro-Action Recognition with Limited Annotations: An Asynchronous Pseudo Labeling and Training Approach",
+    "title_zh": "使用有限注释实现微动作识别：一种异步伪标记和训练方法",
+    "year": 2025,
+    "venue": "IJCAI",
+    "authors": [
+      "Yan Zhang",
+      "Lechao Cheng",
+      "Yaxiong Wang",
+      "Zhun Zhong",
+      "Meng Wang"
+    ],
+    "doi": "10.24963/IJCAI.2025/268",
+    "dblp_key": "conf/ijcai/ZhangCWZ025",
+    "paper_url": "https://doi.org/10.24963/IJCAI.2025/268",
+    "pdf_url": "https://www.ijcai.org/proceedings/2025/0268.pdf",
+    "source_url": "https://dblp.org/rec/conf/ijcai/ZhangCWZ025.html",
+    "openalex_id": "https://openalex.org/W4414359984",
+    "openalex_author_id": "",
+    "cited_by_count": 0,
+    "abstract_en": "Micro-Action Recognition (MAR) aims to classify subtle human actions in video. However, annotating MAR datasets is particularly challenging due to the subtlety of actions. To this end, we introduce the setting of Semi-Supervised MAR (SSMAR), where only a part of samples are labeled. We first evaluate traditional Semi-Supervised Learning (SSL) methods to SSMAR and find that these methods tend to overfit on inaccurate pseudo-labels, leading to error accumulation and degraded performance. This issue primarily arises from the common practice of directly using the predictions of classifier as pseudo-labels to train the model. To solve this issue, we propose a novel framework, called Asynchronous Pseudo Labeling and Training (APLT), which explicitly separates the pseudo-labeling process from model training. Specifically, we introduce a semi-supervised clustering method during the offline pseudo-labeling phase to generate more accurate pseudo-labels. Moreover, a self-adaptive thresholding strategy is proposed to dynamically filter noisy labels of different classes. We then build a memory-based prototype classifier based on the filtered pseudo-labels, which is fixed and used to guide the subsequent model training phase. By alternating the two pseudo-labeling and model training phases in an asynchronous manner, the model can not only be learned with more accurate pseudo-labels but also avoid the overfitting issue. Experiments on three MAR datasets show that our APLT largely outperforms state-of-the-art SSL methods. For instance, APLT improves accuracy by 14.5% over FixMatch on the MA-12 dataset when using only 50% labeled data. Code is available at https://github.com/zy-hfut/APLT",
+    "abstract_zh": "微动作识别（MAR）旨在对视频中细微的人类动作进行分类。然而，由于操作的微妙性，注释 MAR 数据集特别具有挑战性。为此，我们引入了半监督MAR（SSMAR）的设置，其中仅标记了一部分样本。我们首先对 SSMAR 评估传统的半监督学习 (SSL) 方法，发现这些方法往往会过度拟合不准确的伪标签，导致错误累积和性能下降。这个问题主要源于直接使用分类器的预测作为伪标签来训练模型的常见做法。为了解决这个问题，我们提出了一种新颖的框架，称为异步伪标签和训练（APLT），它解释了...",
+    "abstract_source": "openalex_doi",
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 04/3348-53）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_e293384ac5ff_9d90871b0d45cd84",
+    "global_record_id": "0011ab31f69a0817",
+    "scholar_id": "panorama_e293384ac5ff",
+    "scholar_name": "张燕",
+    "scholar_ids": [
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_e293384ac5ff_9d90871b0d45cd84"
+    ],
+    "resource_ids": [
+      "panorama_e293384ac5ff__auto_code_43637b9f25"
+    ],
+    "code_urls": [
+      "https://github.com/zy-hfut/APLT"
+    ],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "张燕",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张燕：脑电基准、数据与评测"
+    ],
+    "resource_status": "已关联公开代码/数据/模型资源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "Study on the preparation and performance of synchronous setting integration in hydrophobic-ordinary concrete",
+    "title_en": "Study on the preparation and performance of synchronous setting integration in hydrophobic-ordinary concrete",
+    "title_zh": "疏水-普通混凝土同步凝结一体化制备及性能研究",
+    "year": 2025,
+    "venue": "Construction and Building Materials",
+    "authors": [
+      "Wenye Gong",
+      "Yan Zhang",
+      "Lu Yuan",
+      "Bosong Zhu",
+      "Huabin Yang",
+      "Yonghui Hou",
+      "Hao Li",
+      "Yajun Lv",
+      "Weizhun Jin"
+    ],
+    "doi": "10.1016/j.conbuildmat.2025.144673",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.conbuildmat.2025.144673",
+    "pdf_url": "https://doi.org/10.2139/ssrn.5427636",
+    "source_url": "https://openalex.org/W4416760292",
+    "openalex_id": "https://openalex.org/W4416760292",
+    "openalex_author_id": "https://openalex.org/A5100617807",
+    "cited_by_count": 7,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100617807）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_e293384ac5ff_e807e5d7223bcc41",
+    "global_record_id": "b63e250606b311b8",
+    "scholar_id": "panorama_e293384ac5ff",
+    "scholar_name": "张燕",
+    "scholar_ids": [
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_e293384ac5ff_e807e5d7223bcc41"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "张燕",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张燕：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Band-Level Adaptive Fusion Network for Cross-Subject EEG Emotion Recognition",
+    "title_en": "Band-Level Adaptive Fusion Network for Cross-Subject EEG Emotion Recognition",
+    "title_zh": "用于跨受试者脑电图情绪识别的带级自适应融合网络",
+    "year": 2025,
+    "venue": "IEEE Trans. Instrum. Meas.",
+    "authors": [
+      "Yilin Wang",
+      "Li Zhang",
+      "Yan Zhang"
+    ],
+    "doi": "10.1109/TIM.2025.3544334",
+    "dblp_key": "journals/tim/WangZZ25",
+    "paper_url": "https://doi.org/10.1109/TIM.2025.3544334",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/journals/tim/WangZZ25.html",
+    "openalex_id": "https://openalex.org/W4407937931",
+    "openalex_author_id": "https://openalex.org/A5052244863",
+    "cited_by_count": 16,
+    "abstract_en": "Electroencephalogram (EEG)-based emotion recognition has been studied extensively. However, existing approaches struggle with cross-subject EEG emotion recognition due to the individual differences (individuality) of subjects and insufficient relationship information between frequency bands in EEG signals. This article proposes a novel band-level adaptive fusion network (BAFNet) for cross-subject EEG emotion recognition. BAFNet consists of five feature-extraction modules, one feature-fusion module, and one classification module. All of these modules except classification contain a modified Transformer, called a long short-term memory Transformer (LSTMTrans), and a modified adaptive graph convolutional network (MAGCN). First, BAFNet utilizes five feature-extraction modules to handle five frequency bands separately and constructs adaptive graphs to represent the time-varying electrical channel relationship, which can reflect the individuality of subjects. Next, BAFNet uses the feature-fusion module to combine the outputs of five feature-extraction modules. Thus, an adaptive graph is constructed to represent the relationship between frequency bands. Moreover, all six adaptive graphs contain general information that can be shared and individual information that represents the differences between subjects. To verify the superiority of BAFNet, experiments are conducted on two public emotion recognition datasets, SEED and SEED-IV. In these experiments, we compare BAFNet with several state-of-the-art (SOTA) cross-subject emotion recognition methods. The average accuracy of BAFNet is 1.34% and 5.09% higher than that of the best baseline on the SEED and SEED-IV datasets, respectively. The experimental results indicate that BAFNet has promising performance for cross-subject EEG emotion recognition.",
+    "abstract_zh": "基于脑电图（EEG）的情绪识别已被广泛研究。然而，由于受试者的个体差异（个体性）以及脑电图信号中频带之间的关系信息不足，现有方法难以实现跨受试者脑电图情感识别。本文提出了一种用于跨主题脑电图情感识别的新型带级自适应融合网络（BAFNet）。 BAFNet 由 5 个特征提取模块、1 个特征融合模块和 1 个分类模块组成。除了分类之外，所有这些模块都包含一个修改后的 Transformer，称为长短期记忆 Transformer (LSTMTrans)，以及一个修改后的自适应图卷积网络 (MAGCN)。首先，BAFNet 利用...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "脑电情感识别",
+      "情感计算与情绪理解"
+    ],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 47/3464-3）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_yunhong_wang_472cc84d781ea049",
+    "global_record_id": "62e18a42a4d19a57",
+    "scholar_id": "panorama_yunhong_wang",
+    "scholar_name": "王蕴红",
+    "scholar_ids": [
+      "panorama_yunhong_wang",
+      "panorama_e8981be47f6c",
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "王蕴红",
+      "张莉",
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_yunhong_wang_472cc84d781ea049"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_yunhong_wang": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "王蕴红",
+        "secondary_tags": [
+          "脑电情感识别",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_e8981be47f6c": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "张莉",
+        "secondary_tags": [
+          "脑电情感识别",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "张燕",
+        "secondary_tags": [
+          "脑电情感识别",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "王蕴红：脑电基准、数据与评测",
+      "张莉：脑电基准、数据与评测",
+      "张燕：脑电基准、数据与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "Discrimination-Enhanced Hierarchical Network with Structure Optimization for Cross-Subject EEG Emotion Recognition. IEEE International Conference on Bioinformatics and Biomedicine (BIBM)",
+    "title_en": "Discrimination-Enhanced Hierarchical Network with Structure Optimization for Cross-Subject EEG Emotion Recognition. IEEE International Conference on Bioinformatics and Biomedicine (BIBM)",
+    "title_zh": "用于跨主题脑电图情绪识别的具有结构优化的辨别增强分层网络。 IEEE 国际生物信息学和生物医学会议 (BIBM)",
+    "year": 2025,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "张燕"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "脑电情感识别",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_e293384ac5ff_4e8f6d84f20b",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_e293384ac5ff",
+    "scholar_name": "张燕",
+    "work_title_group": "4d5eb7706e18",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_e293384ac5ff_4e8f6d84f20b"
+    ],
+    "scholar_categories": {
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "张燕",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "ff147e2f1c783fd0",
+    "primary_categories_by_scholar": [
+      "张燕：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Discrimination-Enhanced Hierarchical Network with Structure Optimization for Cross-Subject EEG Emotion Recognition",
+    "title_en": "Discrimination-Enhanced Hierarchical Network with Structure Optimization for Cross-Subject EEG Emotion Recognition",
+    "title_zh": "用于跨主体脑电情感识别的具有结构优化的判别增强分层网络",
+    "year": 2025,
+    "venue": "BIBM",
+    "authors": [
+      "Yilin Wang",
+      "Li Zhang",
+      "Yan Zhang"
+    ],
+    "doi": "10.1109/BIBM66473.2025.11356438",
+    "dblp_key": "conf/bibm/WangZZ25",
+    "paper_url": "https://doi.org/10.1109/BIBM66473.2025.11356438",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/conf/bibm/WangZZ25.html",
+    "openalex_id": "https://openalex.org/W7126107280",
+    "openalex_author_id": "https://openalex.org/A5052244863",
+    "cited_by_count": 0,
+    "abstract_en": "At present, EEG-based emotion recognition has advanced significantly. However, models' discrimination ability across subjects remains limited because of ignoring the electrode structure and the cross-subject differences in EEG signals. To address this, we propose a discrimination-enhanced hierarchical network with structure optimization (SO-DHNet), a discrimination-enhanced hierarchical network with structure optimization for cross-subject EEG emotion recognition. It includes a hierarchical data generation (HDG) module that organizes EEG electrodes into five neuroanatomical regions, optimizes their structure, and generates 4D hierarchical data. Additionally, we introduce a random pairing training (RPT) strategy with a pairwise-similarity binary cross-entropy (PS-BCE) loss to maximize inter-class diversity and minimize intra-class variability. Experiments on SEED confirm SO-DHNet's effectiveness in cross-subject emotion recognition.",
+    "abstract_zh": "目前，基于脑电图的情绪识别已经取得了显着进展。然而，由于忽略了电极结构和脑电图信号的跨受试者差异，模型跨受试者的辨别能力仍然有限。为了解决这个问题，我们提出了一种具有结构优化的辨别增强分层网络（SO-DHNet），这是一种用于跨主体脑电图情感识别的具有结构优化的辨别增强分层网络。它包括一个分层数据生成 (HDG) 模块，该模块将 EEG 电极组织为五个神经解剖区域、优化其结构并生成 4D 分层数据。此外，我们引入了一种随机配对训练（RPT）策略，具有成对相似性双...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "脑电情感识别",
+      "情感计算与情绪理解"
+    ],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 47/3464-3）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_yunhong_wang_2bb977d0d4080078",
+    "global_record_id": "77900434681000e6",
+    "scholar_id": "panorama_yunhong_wang",
+    "scholar_name": "王蕴红",
+    "scholar_ids": [
+      "panorama_yunhong_wang",
+      "panorama_e8981be47f6c",
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "王蕴红",
+      "张莉",
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_yunhong_wang_2bb977d0d4080078"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_yunhong_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王蕴红",
+        "secondary_tags": [
+          "脑电情感识别",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_e8981be47f6c": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "张莉",
+        "secondary_tags": [
+          "脑电情感识别",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "张燕",
+        "secondary_tags": [
+          "脑电情感识别",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "王蕴红：情感脑电与多模态生理信号",
+      "张莉：情感脑电与多模态生理信号",
+      "张燕：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Band-Level Adaptive Fusion Network for Cross-Subject EEG Emotion Recognition. IEEE Transactions on Instrumentation and Measurement",
+    "title_en": "Band-Level Adaptive Fusion Network for Cross-Subject EEG Emotion Recognition. IEEE Transactions on Instrumentation and Measurement",
+    "title_zh": "用于跨主体脑电图情绪识别的带级自适应融合网络。 IEEE 仪器与测量学报",
+    "year": 2025,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "张燕"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "脑电情感识别",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_e293384ac5ff_753169e0962b",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_e293384ac5ff",
+    "scholar_name": "张燕",
+    "work_title_group": "76ba6c90a297",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_e293384ac5ff_753169e0962b"
+    ],
+    "scholar_categories": {
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "张燕",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "791171980a47d8c5",
+    "primary_categories_by_scholar": [
+      "张燕：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "ADSO-TCNet: A three-dimensional convolutional network with adaptive data structure optimization for EEG emotion recognition",
+    "title_en": "ADSO-TCNet: A three-dimensional convolutional network with adaptive data structure optimization for EEG emotion recognition",
+    "title_zh": "ADSO-TCNet：用于脑电情感识别的自适应数据结构优化的三维卷积网络",
+    "year": 2025,
+    "venue": "Information Sciences",
+    "authors": [
+      "Yilin Wang",
+      "Li Zhang",
+      "Yan Zhang"
+    ],
+    "doi": "10.1016/j.ins.2025.122835",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.ins.2025.122835",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4415546117",
+    "openalex_id": "https://openalex.org/W4415546117",
+    "openalex_author_id": "https://openalex.org/A5052244863",
+    "cited_by_count": 0,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [
+      "脑电情感识别",
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5052244863）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_yunhong_wang_ab433bf07dd3fcbf",
+    "global_record_id": "346a4134a48f37a2",
+    "scholar_id": "panorama_yunhong_wang",
+    "scholar_name": "王蕴红",
+    "scholar_ids": [
+      "panorama_yunhong_wang",
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "王蕴红",
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_yunhong_wang_ab433bf07dd3fcbf"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_yunhong_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王蕴红",
+        "secondary_tags": [
+          "脑电情感识别",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "张燕",
+        "secondary_tags": [
+          "脑电情感识别",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "王蕴红：情感脑电与多模态生理信号",
+      "张燕：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "MAGIC: Noise Mitigation and Knowledge Alignment for Knowledge Graph-Based Multi-modal Recommendation",
+    "title_en": "MAGIC: Noise Mitigation and Knowledge Alignment for Knowledge Graph-Based Multi-modal Recommendation",
+    "title_zh": "MAGIC：基于知识图的多模态推荐的噪声抑制和知识对齐",
+    "year": 2025,
+    "venue": "ICMR",
+    "authors": [
+      "Shijie Zhu",
+      "Yan Zhang",
+      "Li Zhang",
+      "Xi Chen",
+      "Lei Zhao"
+    ],
+    "doi": "10.1145/3731715.3733378",
+    "dblp_key": "conf/mir/ZhuZZCZ25",
+    "paper_url": "https://doi.org/10.1145/3731715.3733378",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/conf/mir/ZhuZZCZ25.html",
+    "openalex_id": "https://openalex.org/W4411635669",
+    "openalex_author_id": "https://openalex.org/A5100425448",
+    "cited_by_count": 7,
+    "abstract_en": "Multi-modal recommender systems (MMRSs) have demonstrated significant potential in mitigating data sparsity and cold start problems by leveraging diverse multi-modal data, such as text and images. To further improve the recommendation accuracy, some MMRSs have integrated knowledge graphs (KGs) to enrich the graph structure with meaningful relationships between entities, giving rise to the task of KG-based MMRSs. Despite the promising results achieved by existing studies on this task, (i) they overlook the substantial noise introduced within the auxiliary information (i.e., both KGs and multi-modal data), and (ii) most of them struggle to effectively align the knowledge from history user-item interactions and auxiliary information. To tackle these limitations, we propose a novel model entitled MAGIC (noise Mitigation and knowledge Aignment for knowledge Graph-based multI-modal reCommendation). Specifically, to tackle the limitation (i), we design a noise-aware heterogeneous aggregation layer in the KG-based modal enhancement module. To address the limitation (ii), MAGIC introduces adversarial learning in the CF-based adversarial learning module, and exploits contrastive learning in the fusion and prediction module. The experiments conducted on two extended real-world datasets from different domains demonstrate the superiority of MAGIC over state-of-the-art baselines.",
+    "abstract_zh": "多模态推荐系统 (MMRS) 通过利用文本和图像等多种多模态数据，在缓解数据稀疏和冷启动问题方面展现出了巨大的潜力。为了进一步提高推荐精度，一些 MMRS 集成了知识图（KG），以通过实体之间有意义的关系来丰富图结构，从而产生了基于 KG 的 MMRS 的任务。尽管现有研究在这项任务上取得了有希望的结果，但（i）他们忽视了辅助信息（即知识图谱和多模态数据）中引入的大量噪音，以及（ii）大多数研究都在努力有效地协调来自历史用户项目交互和辅助信息的知识。为了解决...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 89/5992-4）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_e8981be47f6c_80fdace215109fb6",
+    "global_record_id": "72d78d6ff9b67217",
+    "scholar_id": "panorama_e8981be47f6c",
+    "scholar_name": "张莉",
+    "scholar_ids": [
+      "panorama_e8981be47f6c",
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "张莉",
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_e8981be47f6c_80fdace215109fb6"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_e8981be47f6c": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "张莉",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "张燕",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张莉：脑电基准、数据与评测",
+      "张燕：脑电基准、数据与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "Continual Fault Diagnosis for Rotating Machinery with Fault-Type Increments Based on Adaptive Feature Consolidation Residual Network",
+    "title_en": "Continual Fault Diagnosis for Rotating Machinery with Fault-Type Increments Based on Adaptive Feature Consolidation Residual Network",
+    "title_zh": "基于自适应特征合并残差网络的故障类型增量旋转机械连续故障诊断",
+    "year": 2024,
+    "venue": "Asia Conference Mechanical and Aerospace Engineering",
+    "authors": [
+      "Yan Zhang",
+      "Junsong Cai",
+      "Lei Liu",
+      "Changqing Shen"
+    ],
+    "doi": "10.1109/meae62008.2024.11026428",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/meae62008.2024.11026428",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4411409444",
+    "openalex_id": "https://openalex.org/W4411409444",
+    "openalex_author_id": "https://openalex.org/A5100617807",
+    "cited_by_count": 0,
+    "abstract_en": "To overcome the problem of continuous and adaptive learning in fault-type increments, a novel adaptive feature consolidation residual network (AFCRN) is proposed for continual fault diagnosis for rotating machinery with fault-type increments. Specifically, pseudo-metrics induced by the empirical feature matrix in the feature space consolidate the feature representation by regularizing the drift, which is highly correlated with the previous diagnostic task. Gaussian prototypes are employed to mitigate bias induced by similar diagnostic tasks. Moreover, a new asymmetric cross-entropy loss function is utilized to enable the model classifier to adapt to a continuously updated backbone network, thereby balancing new data with prototypes. Finally, the effectiveness of the proposed method is evaluated through the case study of continuous fault diagnosis. The experimental analysis demonstrates that the designed AFCRN offers significant advantages in fault diagnosis of fault-type increment scenarios.",
+    "abstract_zh": "为了克服故障类型增量的连续自适应学习问题，提出了一种新颖的自适应特征合并残差网络（AFCRN），用于具有故障类型增量的旋转机械的连续故障诊断。具体来说，特征空间中的经验特征矩阵引起的伪度量通过正则化漂移来巩固特征表示，这与之前的诊断任务高度相关。高斯原型用于减轻由类似诊断任务引起的偏差。此外，利用新的非对称交叉熵损失函数使模型分类器能够适应不断更新的骨干网络，从而平衡新数据与原型。最后...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100617807）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_e293384ac5ff_e9851d7b74974922",
+    "global_record_id": "1b42d37662975ffc",
+    "scholar_id": "panorama_e293384ac5ff",
+    "scholar_name": "张燕",
+    "scholar_ids": [
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_e293384ac5ff_e9851d7b74974922"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "张燕",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张燕：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Benchmarking Micro-Action Recognition: Dataset, Methods, and Applications",
+    "title_en": "Benchmarking Micro-Action Recognition: Dataset, Methods, and Applications",
+    "title_zh": "微动作识别基准测试：数据集、方法和应用",
+    "year": 2024,
+    "venue": "IEEE Transactions on Circuits and Systems for Video Technology",
+    "authors": [
+      "Dan Guo",
+      "Kun Li",
+      "Bin Hu",
+      "Yan Zhang",
+      "Meng Wang"
+    ],
+    "doi": "10.1109/tcsvt.2024.3358415",
+    "paper_url": "https://doi.org/10.1109/tcsvt.2024.3358415",
+    "source_url": "https://doi.org/10.1109/tcsvt.2024.3358415",
+    "topics": [
+      "心理生理计算",
+      "多模态脑电抑郁识别",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "情感计算与情绪理解",
+      "智能芯片与计算系统"
+    ],
+    "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [
+      "bin_hu__auto_code_373ab69d37"
+    ],
+    "code_urls": [
+      "https://github.com/VUT-HFUT/Micro-Action"
+    ],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4391216149",
+    "openalex_author_id": "https://openalex.org/A5100380066",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 255,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "Crossref ORCID-indexed author record",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "bin_hu_ee328ad7a52f",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测",
+    "secondary_tags": [
+      "心理生理计算",
+      "多模态脑电抑郁识别",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "bin_hu",
+    "scholar_name": "胡斌",
+    "work_title_group": "624355275bb1",
+    "resource_status": "已关联公开代码/数据/模型资源",
+    "scholar_ids": [
+      "bin_hu",
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "胡斌",
+      "张燕"
+    ],
+    "source_record_ids": [
+      "bin_hu_ee328ad7a52f"
+    ],
+    "scholar_categories": {
+      "bin_hu": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "胡斌",
+        "secondary_tags": [
+          "心理生理计算",
+          "多模态脑电抑郁识别",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "张燕",
+        "secondary_tags": [
+          "心理生理计算",
+          "多模态脑电抑郁识别",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "global_record_id": "6565b59c7e81333a",
+    "primary_categories_by_scholar": [
+      "胡斌：脑电基准、数据与评测",
+      "张燕：情感脑电与多模态生理信号"
+    ],
+    "dblp_key": "journals/corr/abs-2403-05234",
+    "pdf_url": "https://arxiv.org/pdf/2403.05234",
+    "abstract_en": "Micro-action is an imperceptible non-verbal behaviour characterised by low-intensity movement. It offers insights into the feelings and intentions of individuals and is important for human-oriented applications such as emotion recognition and psychological assessment. However, the identification, differentiation, and understanding of micro-actions pose challenges due to the imperceptible and inaccessible nature of these subtle human behaviors in everyday life. In this study, we innovatively collect a new micro-action dataset designated as Micro-action-52 (MA-52), and propose a benchmark named micro-action network (MANet) for micro-action recognition (MAR) task. Uniquely, MA-52 provides the whole-body perspective including gestures, upper- and lower-limb movements, attempting to reveal comprehensive micro-action cues. In detail, MA-52 contains 52 micro-action categories along with seven body part labels, and encompasses a full array of realistic and natural micro-actions, accounting for 205 participants and 22,422 video instances collated from the psychological interviews. Based on the proposed dataset, we assess MANet and other nine prevalent action recognition methods. MANet incorporates squeeze-and-excitation (SE) and temporal shift module (TSM) into the ResNet architecture for modeling the spatiotemporal characteristics of micro-actions. Then a joint-embedding loss is designed for semantic matching between video and action labels; the loss is used to better distinguish between visually similar yet distinct micro-action categories. The extended application in emotion recognition has demonstrated one of the important values of our proposed dataset and method. In the future, further exploration of human behaviour, emotion, and psychological assessment will be conducted in depth. The dataset and source code are released at https://github.com/VUT-HFUT/Micro-Action.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "微动作是一种以低强度运动为特征的难以察觉的非语言行为。它提供了对个人感受和意图的洞察，对于情感识别和心理评估等以人为本的应用非常重要。然而，由于日常生活中这些微妙的人类行为难以察觉和难以接近，对微动作的识别、区分和理解提出了挑战。在这项研究中，我们创新性地收集了一个新的微动作数据集，命名为Micro-action-52（MA-52），并提出了一个名为微动作网络（MANet）的基准，用于微动作识别（MAR）任务。独特的是，MA-52 提供了..."
+  },
+  {
+    "title": "Preparation of a TPU-Based Flexible Stab-Resistant Composite Membrane Filled with SiO2 and SBR Nanoparticles",
+    "title_en": "Preparation of a TPU-Based Flexible Stab-Resistant Composite Membrane Filled with SiO2 and SBR Nanoparticles",
+    "title_zh": "SiO2和SBR纳米粒子填充TPU基柔性防刺复合膜的制备",
+    "year": 2024,
+    "venue": "ACS Applied Polymer Materials",
+    "authors": [
+      "Xuelin Sun",
+      "Ruyi Ji",
+      "Yan Zhang",
+      "Yuanyuan Li",
+      "Ping Wang"
+    ],
+    "doi": "10.1021/acsapm.3c02618",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1021/acsapm.3c02618",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4391030205",
+    "openalex_id": "https://openalex.org/W4391030205",
+    "openalex_author_id": "https://openalex.org/A5100617807",
+    "cited_by_count": 14,
+    "abstract_en": "Thermoplastic polyurethanes (TPUs), which are flexible and elastic, have a great application space in the field of flexible stab-resistant material. Although the performance of a pure TPU film is limited, it can be improved by incorporating particles and stacking with fabrics. In this paper, rigid particle SiO 2 and flexible particle SBR, which were modified by the silane coupling agent, were selected as fillers to reinforce the TPU membrane together to enhance stab-resistance. Then, the TPU membrane was stacked with polyester filament nonwovens in several different ways to achieve a better stab-proof effect. The effect of the mixing ratio of the two particles, stack layer and stack method on the performance of the composite material were analyzed systematically by tensile testing, needle puncture testing, and SEM. The results imply that blending of 0.3 wt % modified SiO 2 particles and 1 wt % modified SBR particles achieves a synergistic effect and the hot-press method is more effective than the direct method in improving the puncture resistance of materials. This study provides a simple and convenient preparation method of flexible antistabbing membranes with extremely thin thickness.",
+    "abstract_zh": "热塑性聚氨酯（TPU）具有柔韧性和弹性，在柔性防刺材料领域具有巨大的应用空间。虽然纯TPU薄膜的性能有限，但可以通过掺入颗粒以及与织物堆叠来改善。本文选择经硅烷偶联剂改性的刚性颗粒SiO 2 和柔性颗粒SBR作为填料，共同增强TPU膜，以增强防刺性能。然后，将TPU膜与聚酯长丝非织造布通过多种不同方式进行堆叠，以达到更好的防刺效果。两种颗粒的混合比例、堆叠层数和堆叠方式对复合材料性能的影响...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100617807）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_e293384ac5ff_1b0d8e64e4ae6675",
+    "global_record_id": "dec94c9bd10195e9",
+    "scholar_id": "panorama_e293384ac5ff",
+    "scholar_name": "张燕",
+    "scholar_ids": [
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_e293384ac5ff_1b0d8e64e4ae6675"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "张燕",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张燕：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Multimodal Feature Extraction and Fusion for Emotional Reaction Intensity Estimation and Expression Classification in Videos with Transformers",
+    "title_en": "Multimodal Feature Extraction and Fusion for Emotional Reaction Intensity Estimation and Expression Classification in Videos with Transformers",
+    "title_zh": "多模态特征提取和融合，用于Transformer视频中的情绪反应强度估计和表情分类",
+    "year": 2023,
+    "venue": "CVPR Workshops",
+    "authors": [
+      "Jia Li",
+      "Yin Chen",
+      "Xuesong Zhang",
+      "Jiantao Nie",
+      "Ziqiang Li",
+      "Yangchen Yu",
+      "Yan Zhang",
+      "Richang Hong",
+      "Meng Wang"
+    ],
+    "doi": "10.1109/CVPRW59228.2023.00620",
+    "dblp_key": "conf/cvpr/LiCZNLYZHW23",
+    "paper_url": "https://doi.org/10.1109/CVPRW59228.2023.00620",
+    "pdf_url": "https://arxiv.org/pdf/2303.09164",
+    "source_url": "https://dblp.org/rec/conf/cvpr/LiCZNLYZHW23.html",
+    "openalex_id": "https://openalex.org/W4385805042",
+    "openalex_author_id": "",
+    "cited_by_count": 0,
+    "abstract_en": "In this paper, we present our advanced solutions to the two sub-challenges of Affective Behavior Analysis in the wild (ABAW) 2023: the Emotional Reaction Intensity (ERI) Estimation Challenge and Expression (Expr) Classification Challenge. ABAW 2023 aims to tackle the challenge of affective behavior analysis in natural contexts, with the ultimate goal of creating intelligent machines and robots that possess the ability to comprehend human emotions, feelings, and behaviors. For the Expression Classification Challenge, we propose a streamlined approach that handles the challenges of classification effectively. However, our main contribution lies in our use of diverse models and tools to extract multimodal features such as audio and video cues from the Hume-Reaction dataset. By studying, analyzing, and combining these features, we significantly enhance the model’s accuracy for sentiment prediction in a multimodal context. Furthermore, our method achieves outstanding results on the Emotional Reaction Intensity (ERI) Estimation Challenge, surpassing the baseline method by an impressive 84% increase, as measured by the Pearson Coefficient, on the validation dataset.",
+    "abstract_zh": "在本文中，我们针对 2023 年野外情感行为分析 (ABAW) 的两个子挑战提出了先进的解决方案：情绪反应强度 (ERI) 估计挑战和表达 (Expr) 分类挑战。 ABAW 2023 旨在应对自然环境中情感行为分析的挑战，最终目标是创造能够理解人类情感、感受和行为的智能机器和机器人。对于表达分类挑战，我们提出了一种简化的方法，可以有效地应对分类挑战。然而，我们的主要贡献在于我们使用不同的模型和工具来提取多模态特征，例如音频和视频提示......",
+    "abstract_source": "openalex_doi",
+    "topics": [
+      "情感计算与情绪理解",
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 04/3348-53）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_e293384ac5ff_665d8948771b4b9f",
+    "global_record_id": "fdeef82f5a894dd2",
+    "scholar_id": "panorama_e293384ac5ff",
+    "scholar_name": "张燕",
+    "scholar_ids": [
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_e293384ac5ff_665d8948771b4b9f"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "张燕",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张燕：脑电基准、数据与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "Spatiotemporal contrastive modeling for video moment retrieval",
+    "title_en": "Spatiotemporal contrastive modeling for video moment retrieval",
+    "title_zh": "视频时刻检索的时空对比建模",
+    "year": 2023,
+    "venue": "World Wide Web (WWW)",
+    "authors": [
+      "Yi Wang",
+      "Kun Li",
+      "Guoliang Chen",
+      "Yan Zhang",
+      "Dan Guo",
+      "Meng Wang"
+    ],
+    "doi": "10.1007/S11280-022-01105-3",
+    "dblp_key": "journals/www/WangLCZGW23",
+    "paper_url": "https://doi.org/10.1007/S11280-022-01105-3",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/journals/www/WangLCZGW23.html",
+    "openalex_id": "https://openalex.org/W4297226993",
+    "openalex_author_id": "",
+    "cited_by_count": 0,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 04/3348-53）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_e293384ac5ff_46257cfdbcee5d97",
+    "global_record_id": "db37f2bb6a9de147",
+    "scholar_id": "panorama_e293384ac5ff",
+    "scholar_name": "张燕",
+    "scholar_ids": [
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_e293384ac5ff_46257cfdbcee5d97"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "张燕",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张燕：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Partial-Label and Structure-constrained Deep Coupled Factorization Network",
+    "title_en": "Partial-Label and Structure-constrained Deep Coupled Factorization Network",
+    "title_zh": "部分标签和结构约束的深度耦合分解网络",
+    "year": 2021,
+    "venue": "AAAI",
+    "authors": [
+      "Yan Zhang",
+      "Zhao Zhang",
+      "Yang Wang",
+      "Zheng Zhang",
+      "Li Zhang",
+      "Shuicheng Yan",
+      "Meng Wang"
+    ],
+    "doi": "10.1609/AAAI.V35I12.17307",
+    "dblp_key": "conf/aaai/ZhangZWZZYW21",
+    "paper_url": "https://doi.org/10.1609/AAAI.V35I12.17307",
+    "pdf_url": "https://doi.org/10.1609/aaai.v35i12.17307",
+    "source_url": "https://dblp.org/rec/conf/aaai/ZhangZWZZYW21.html",
+    "openalex_id": "https://openalex.org/W3174586406",
+    "openalex_author_id": "https://openalex.org/A5100425448",
+    "cited_by_count": 7,
+    "abstract_en": "In this paper, we technically propose an enriched prior guided framework, called Dual-constrained Deep Semi-Supervised Coupled Factorization Network (DS2CF-Net), for discovering hierarchical coupled data representation. To extract hidden deep features, DS2CF-Net is formulated as a partial-label and geometrical structure-constrained framework. Specifically, DS2CF-Net designs a deep factorization architecture using multilayers of linear transformations, which can coupled update both the basis vectors and new representations in each layer. To enable learned deep representations and coefficients to be discriminative, we also consider enriching the supervised prior by joint deep coefficients-based label prediction and then incorporate the enriched prior information as additional label and structure constraints. The label constraint can enable the intra-class samples to have same coordinate in feature space, and the structure constraint forces the coefficients in each layer to be block-diagonal so that the enriched prior using the self-expressive label propagation are more accurate. Our network also integrates the adaptive dual-graph learning to retain the local structures of both data and feature manifolds in each layer. Extensive experiments on image datasets demonstrate the effectiveness of DS2CF-Net for representation learning and clustering.",
+    "abstract_zh": "在本文中，我们在技术上提出了一种丰富的先验引导框架，称为双约束深度半监督耦合分解网络（DS2CF-Net），用于发现分层耦合数据表示。为了提取隐藏的深层特征，DS2CF-Net 被制定为部分标签和几何结构约束的框架。具体来说，DS2CF-Net 使用多层线性变换设计了深度分解架构，它可以耦合更新每层中的基向量和新表示。为了使学习到的深度表示和系数具有辨别力，我们还考虑通过基于联合深度系数的标签预测来丰富监督先验，然后合并丰富的...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "智能芯片与计算系统"
+    ],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 89/5992-4）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_e8981be47f6c_42a4bbed81ec27bd",
+    "global_record_id": "7e717bad711f6eab",
+    "scholar_id": "panorama_e8981be47f6c",
+    "scholar_name": "张莉",
+    "scholar_ids": [
+      "panorama_e8981be47f6c",
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "张莉",
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_e8981be47f6c_42a4bbed81ec27bd"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_e8981be47f6c": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "张莉",
+        "secondary_tags": [
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "张燕",
+        "secondary_tags": [
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张莉：脑电基准、数据与评测",
+      "张燕：脑电基准、数据与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "A Survey on Concept Factorization: From Shallow to Deep Representation Learning",
+    "title_en": "A Survey on Concept Factorization: From Shallow to Deep Representation Learning",
+    "title_zh": "概念分解综述：从浅层表示学习到深层表示学习",
+    "year": 2021,
+    "venue": "Inf. Process. Manag.",
+    "authors": [
+      "Zhao Zhang",
+      "Yan Zhang",
+      "Mingliang Xu",
+      "Li Zhang",
+      "Yi Yang",
+      "Shuicheng Yan"
+    ],
+    "doi": "10.1016/J.IPM.2021.102534",
+    "dblp_key": "journals/ipm/00010XZ0Y21",
+    "paper_url": "https://doi.org/10.1016/J.IPM.2021.102534",
+    "pdf_url": "https://arxiv.org/pdf/2007.15840",
+    "source_url": "https://dblp.org/rec/journals/ipm/00010XZ0Y21.html",
+    "openalex_id": "https://openalex.org/W3046439817",
+    "openalex_author_id": "https://openalex.org/A5100425448",
+    "cited_by_count": 43,
+    "abstract_en": "The quality of learned features by representation learning determines the performance of learning algorithms and the related application tasks (such as high-dimensional data clustering). As a relatively new paradigm for representation learning, Concept Factorization (CF) has attracted a great deal of interests in the areas of machine learning and data mining for over a decade. Lots of effective CF based methods have been proposed based on different perspectives and properties, but note that it still remains not easy to grasp the essential connections and figure out the underlying explanatory factors from exiting studies. In this paper, we therefore survey the recent advances on CF methodologies and the potential benchmarks by categorizing and summarizing the current methods. Specifically, we first re-view the root CF method, and then explore the advancement of CF-based representation learning ranging from shallow to deep/multilayer cases. We also introduce the potential application areas of CF-based methods. Finally, we point out some future directions for studying the CF-based representation learning. Overall, this survey provides an insightful overview of both theoretical basis and current developments in the field of CF, which can also help the interested researchers to understand the current trends of CF and find the most appropriate CF techniques to deal with particular applications.",
+    "abstract_zh": "表示学习学习到的特征的质量决定了学习算法和相关应用任务（例如高维数据聚类）的性能。作为一种相对较新的表示学习范式，概念分解（CF）十多年来吸引了机器学习和数据挖掘领域的广泛兴趣。基于不同的视角和性质，人们提出了许多有效的基于 CF 的方法，但请注意，从现有研究中掌握本质联系并找出潜在的解释因素仍然不容易。因此，在本文中，我们通过对 CF 方法进行分类来调查最新进展以及潜在的基准......",
+    "abstract_source": "arxiv_api",
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 89/5992-4）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_e8981be47f6c_232420a6a2b57464",
+    "global_record_id": "e7c1b59a7234e34f",
+    "scholar_id": "panorama_e8981be47f6c",
+    "scholar_name": "张莉",
+    "scholar_ids": [
+      "panorama_e8981be47f6c",
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "张莉",
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_e8981be47f6c_232420a6a2b57464"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_e8981be47f6c": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "张莉",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "张燕",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张莉：脑电基准、数据与评测",
+      "张燕：脑电基准、数据与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "Failure mechanism of thermo-mechanical coupling of 3D braided composites with different thickness under high strain-rate punch shear loading",
+    "title_en": "Failure mechanism of thermo-mechanical coupling of 3D braided composites with different thickness under high strain-rate punch shear loading",
+    "title_zh": "高应变率冲剪载荷下不同厚度3D编织复合材料热力耦合失效机理",
+    "year": 2021,
+    "venue": "Composite Structures",
+    "authors": [
+      "Zhimei Chen",
+      "Qiuyan Wang",
+      "Yan Zhang",
+      "Ping Wang",
+      "Yuanyuan Li",
+      "Yukang Xu"
+    ],
+    "doi": "10.1016/j.compstruct.2021.114826",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.compstruct.2021.114826",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W3208474152",
+    "openalex_id": "https://openalex.org/W3208474152",
+    "openalex_author_id": "https://openalex.org/A5100617807",
+    "cited_by_count": 27,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100617807）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_e293384ac5ff_efdc05caabff1521",
+    "global_record_id": "f78371baebd4f1d6",
+    "scholar_id": "panorama_e293384ac5ff",
+    "scholar_name": "张燕",
+    "scholar_ids": [
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_e293384ac5ff_efdc05caabff1521"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "张燕",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张燕：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Dual-Constrained Deep Semi-Supervised Coupled Factorization Network with Enriched Prior",
+    "title_en": "Dual-Constrained Deep Semi-Supervised Coupled Factorization Network with Enriched Prior",
+    "title_zh": "具有丰富先验的双约束深度半监督耦合分解网络",
+    "year": 2021,
+    "venue": "Int. J. Comput. Vis.",
+    "authors": [
+      "Yan Zhang",
+      "Zhao Zhang",
+      "Yang Wang",
+      "Zheng Zhang",
+      "Li Zhang",
+      "Shuicheng Yan",
+      "Meng Wang"
+    ],
+    "doi": "10.1007/S11263-021-01524-1",
+    "dblp_key": "journals/ijcv/ZhangZWZZYW21",
+    "paper_url": "https://doi.org/10.1007/S11263-021-01524-1",
+    "pdf_url": "https://arxiv.org/pdf/2009.03714",
+    "source_url": "https://dblp.org/rec/journals/ijcv/ZhangZWZZYW21.html",
+    "openalex_id": "https://openalex.org/W3207119656",
+    "openalex_author_id": "https://openalex.org/A5100425448",
+    "cited_by_count": 26,
+    "abstract_en": "Nonnegative matrix factorization is usually powerful for learning the \"shallow\" parts-based representation, but it clearly fails to discover deep hierarchical information within both the basis and representation spaces. In this paper, we technically propose a new enriched prior based Dual-constrained Deep Semi-Supervised Coupled Factorization Network, called DS2CF-Net, for learning the hierarchical coupled representations. To ex-tract hidden deep features, DS2CF-Net is modeled as a deep-structure and geometrical structure-constrained neural network. Specifically, DS2CF-Net designs a deep coupled factorization architecture using multi-layers of linear transformations, which coupled updates the bases and new representations in each layer. To improve the discriminating ability of learned deep representations and deep coefficients, our network clearly considers enriching the supervised prior by the joint deep coefficients-regularized label prediction, and incorporates enriched prior information as additional label and structure constraints. The label constraint can enable the samples of the same label to have the same coordinate in the new feature space, while the structure constraint forces the coefficient matrices in each layer to be block-diagonal so that the enhanced prior using the self-expressive label propagation are more accurate. Our network also integrates the adaptive dual-graph learning to retain the local manifold structures of both the data manifold and feature manifold by minimizing the reconstruction errors in each layer. Extensive experiments on several real databases demonstrate that our DS2CF-Net can obtain state-of-the-art performance for representation learning and clustering.",
+    "abstract_zh": "非负矩阵分解通常对于学习基于部分的“浅层”表示非常有效，但它显然无法发现基础空间和表示空间内的深层层次信息。在本文中，我们在技术上提出了一种新的基于丰富先验的双约束深度半监督耦合分解网络，称为 DS2CF-Net，用于学习分层耦合表示。为了提取隐藏的深层特征，DS2CF-Net 被建模为深层结构和几何结构约束的神经网络。具体来说，DS2CF-Net 使用多层线性变换设计了一种深度耦合分解架构，该架构耦合更新每层中的基础和新表示。为了...",
+    "abstract_source": "arxiv_api",
+    "topics": [
+      "智能芯片与计算系统"
+    ],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 89/5992-4）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_e8981be47f6c_cef221252bba96e4",
+    "global_record_id": "406da94a6c006885",
+    "scholar_id": "panorama_e8981be47f6c",
+    "scholar_name": "张莉",
+    "scholar_ids": [
+      "panorama_e8981be47f6c",
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "张莉",
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_e8981be47f6c_cef221252bba96e4"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_e8981be47f6c": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "张莉",
+        "secondary_tags": [
+          "智能芯片与计算系统"
+        ],
+        "confidence": "low",
+        "note": ""
+      },
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "张燕",
+        "secondary_tags": [
+          "智能芯片与计算系统"
+        ],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张莉：脑电基础模型与通用解码",
+      "张燕：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Flexible Auto-Weighted Local-Coordinate Concept Factorization: A Robust Framework for Unsupervised Clustering",
+    "title_en": "Flexible Auto-Weighted Local-Coordinate Concept Factorization: A Robust Framework for Unsupervised Clustering",
+    "title_zh": "灵活的自动加权局部坐标概念分解：无监督聚类的鲁棒框架",
+    "year": 2021,
+    "venue": "IEEE Trans. Knowl. Data Eng.",
+    "authors": [
+      "Zhao Zhang",
+      "Yan Zhang",
+      "Sheng Li",
+      "Guangcan Liu",
+      "Dan Zeng",
+      "Shuicheng Yan",
+      "Meng Wang"
+    ],
+    "doi": "10.1109/TKDE.2019.2940576",
+    "dblp_key": "journals/tkde/ZhangZLLZYW21",
+    "paper_url": "https://doi.org/10.1109/TKDE.2019.2940576",
+    "pdf_url": "https://arxiv.org/pdf/1909.00523",
+    "source_url": "https://dblp.org/rec/journals/tkde/ZhangZLLZYW21.html",
+    "openalex_id": "https://openalex.org/W2972877421",
+    "openalex_author_id": "https://openalex.org/A5100617807",
+    "cited_by_count": 41,
+    "abstract_en": "Concept Factorization (CF) and its variants may produce inaccurate representation and clustering results due to the sensitivity to noise, hard constraint on the reconstruction error, and pre-obtained approximate similarities. To improve the representation ability, a novel unsupervised Robust Flexible Auto-weighted Local-coordinate Concept Factorization (RFA-LCF) framework is proposed for clustering high-dimensional data. Specifically, RFA-LCF integrates the robust flexible CF by clean data space recovery, robust sparse local-coordinate coding, and adaptive weighting into a unified model. RFA-LCF improves the representations by enhancing the robustness of CF to noise and errors, providing a flexible constraint on the reconstruction error and optimizing the locality jointly. For robust learning, RFA-LCF clearly learns a sparse projection to recover the underlying clean data space, and then the flexible CF is performed in the projected feature space. RFA-LCF also uses a L2,1-norm based flexible residue to encode the mismatch between the recovered data and its reconstruction, and uses the robust sparse local-coordinate coding to represent data using a few nearby basis concepts. For auto-weighting, RFA-LCF jointly preserves the manifold structures in the basis concept space and new coordinate space in an adaptive manner by minimizing the reconstruction errors on clean data, anchor points and coordinates. By updating the local-coordinate preserving data, basis concepts and new coordinates alternately, the representation abilities can be potentially improved. Extensive results on public databases show that RFA-LCF delivers the state-of-the-art clustering results compared with other related methods.",
+    "abstract_zh": "由于对噪声的敏感性、对重建误差的硬约束以及预先获得的近似相似性，概念分解（CF）及其变体可能会产生不准确的表示和聚类结果。为了提高表示能力，提出了一种新的无监督鲁棒灵活自动加权局部坐标概念分解（RFA-LCF）框架来聚类高维数据。具体来说，RFA-LCF 通过干净的数据空间恢复、鲁棒稀疏局部坐标编码和自适应加权将鲁棒灵活 CF 集成到统一模型中。 RFA-LCF 通过增强 CF 对噪声和误差的鲁棒性来改进表示，为重建误差提供灵活的约束......",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 04/3348-53）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_e293384ac5ff_2fd8eab011bc63dd",
+    "global_record_id": "1693332a6e006311",
+    "scholar_id": "panorama_e293384ac5ff",
+    "scholar_name": "张燕",
+    "scholar_ids": [
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_e293384ac5ff_2fd8eab011bc63dd"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "张燕",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张燕：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Joint Label Prediction Based Semi-Supervised Adaptive Concept Factorization for Robust Data Representation",
+    "title_en": "Joint Label Prediction Based Semi-Supervised Adaptive Concept Factorization for Robust Data Representation",
+    "title_zh": "基于联合标签预测的鲁棒数据表示的半监督自适应概念分解",
+    "year": 2020,
+    "venue": "IEEE Trans. Knowl. Data Eng.",
+    "authors": [
+      "Zhao Zhang",
+      "Yan Zhang",
+      "Guangcan Liu",
+      "Jinhui Tang",
+      "Shuicheng Yan",
+      "Meng Wang"
+    ],
+    "doi": "10.1109/TKDE.2019.2893956",
+    "dblp_key": "journals/tkde/ZhangZLTYW20",
+    "paper_url": "https://doi.org/10.1109/TKDE.2019.2893956",
+    "pdf_url": "https://arxiv.org/pdf/1905.10572",
+    "source_url": "https://dblp.org/rec/journals/tkde/ZhangZLTYW20.html",
+    "openalex_id": "https://openalex.org/W2913039755",
+    "openalex_author_id": "https://openalex.org/A5100617807",
+    "cited_by_count": 85,
+    "abstract_en": "Constrained Concept Factorization (CCF) yields the enhanced representation ability over CF by incorporating label information as additional constraints, but it cannot classify and group unlabeled data appropriately. Minimizing the difference between the original data and its reconstruction directly can enable CCF to model a small noisy perturbation, but is not robust to gross sparse errors. Besides, CCF cannot preserve the manifold structures in new representation space explicitly, especially in an adaptive manner. In this paper, we propose a joint label prediction based Robust Semi-Supervised Adaptive Concept Factorization (RS2ACF) framework. To obtain robust representation, RS2ACF relaxes the factorization to make it simultaneously stable to small entrywise noise and robust to sparse errors. To enrich prior knowledge to enhance the discrimination, RS2ACF clearly uses class information of labeled data and more importantly propagates it to unlabeled data by jointly learning an explicit label indicator for unlabeled data. By the label indicator, RS2ACF can ensure the unlabeled data of the same predicted label to be mapped into the same class in feature space. Besides, RS2ACF incorporates the joint neighborhood reconstruction error over the new representations and predicted labels of both labeled and unlabeled data, so the manifold structures can be preserved explicitly and adaptively in the representation space and label space at the same time. Owing to the adaptive manner, the tricky process of determining the neighborhood size or kernel width can be avoided. Extensive results on public databases verify that our RS2ACF can deliver state-of-the-art data representation, compared with other related methods.",
+    "abstract_zh": "约束概念分解 (CCF) 通过将标签信息作为附加约束，比 CF 增强了表示能力，但它无法对未标签数据进行适当的分类和分组。直接最小化原始数据与其重建之间的差异可以使 CCF 能够对小的噪声扰动进行建模，但对粗稀疏误差不具有鲁棒性。此外，CCF 无法显式地保留新表示空间中的流形结构，尤其是以自适应方式。在本文中，我们提出了一种基于鲁棒半监督自适应概念分解（RS2ACF）框架的联合标签预测。为了获得稳健的表示，RS2ACF 放宽了因式分解，使其同时稳定......",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 04/3348-53）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_e293384ac5ff_65b840d44d823418",
+    "global_record_id": "3ecdd3560c5dc66a",
+    "scholar_id": "panorama_e293384ac5ff",
+    "scholar_name": "张燕",
+    "scholar_ids": [
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_e293384ac5ff_65b840d44d823418"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "张燕",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张燕：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Influence of structural design on mechanical and thermal properties of jute reinforced polylactic acid (PLA) laminated composites",
+    "title_en": "Influence of structural design on mechanical and thermal properties of jute reinforced polylactic acid (PLA) laminated composites",
+    "title_zh": "结构设计对黄麻增强聚乳酸（PLA）层压复合材料力学和热性能的影响",
+    "year": 2020,
+    "venue": "Cellulose",
+    "authors": [
+      "Cui-cui Fang",
+      "Yan Zhang",
+      "Shu-yuan Qi",
+      "Yinchang Liao",
+      "Yuanyuan Li",
+      "Ping Wang"
+    ],
+    "doi": "10.1007/s10570-020-03436-8",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1007/s10570-020-03436-8",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W3086088413",
+    "openalex_id": "https://openalex.org/W3086088413",
+    "openalex_author_id": "https://openalex.org/A5100617807",
+    "cited_by_count": 39,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100617807）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_e293384ac5ff_3294e300c615156d",
+    "global_record_id": "c1346d0810e76858",
+    "scholar_id": "panorama_e293384ac5ff",
+    "scholar_name": "张燕",
+    "scholar_ids": [
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_e293384ac5ff_3294e300c615156d"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "张燕",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张燕：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Deep Self-representative Concept Factorization Network for Representation Learning",
+    "title_en": "Deep Self-representative Concept Factorization Network for Representation Learning",
+    "title_zh": "用于表示学习的深度自我表示概念分解网络",
+    "year": 2020,
+    "venue": "SDM",
+    "authors": [
+      "Yan Zhang",
+      "Zhao Zhang",
+      "Zheng Zhang",
+      "Mingbo Zhao",
+      "Li Zhang",
+      "Zhengjun Zha",
+      "Meng Wang"
+    ],
+    "doi": "10.1137/1.9781611976236.41",
+    "dblp_key": "conf/sdm/ZhangZZZZZW20",
+    "paper_url": "https://doi.org/10.1137/1.9781611976236.41",
+    "pdf_url": "https://arxiv.org/pdf/1912.06444",
+    "source_url": "https://dblp.org/rec/conf/sdm/ZhangZZZZZW20.html",
+    "openalex_id": "https://openalex.org/W2995494709",
+    "openalex_author_id": "https://openalex.org/A5100425448",
+    "cited_by_count": 20,
+    "abstract_en": "In this paper, we technically propose a novel framework called Deep Self-representative Concept Factorization Network (DSCF-Net), for clustering deep features. To improve the representation and clustering abilities, DSCF-Net explicitly considers discovering hidden deep semantic features, enhancing the robustness properties of the deep factorization to noise and preserving the local manifold structures of deep features. Specifically, DSCF-Net integrates the robust deep concept factorization, deep self-expressive representation and adaptive locality preserving feature learning into a unified framework. To discover hidden deep representations, DSCF-Net designs a hierarchical factorization architecture using multiple layers of linear transformations, where the hierarchical representation is performed by formulating the problem as optimizing the basis concepts in each layer to improve the representation indirectly. DSCF-Net also improves robustness by subspace recovery for sparse error correction firstly and then performs deep factorization in the recovered visual subspace. To obtain localitypreserving representations, we also present an adaptive deep self-representative weighting strategy by using the coefficient matrix as adaptive weights to keep the locality of representations. Extensive results show that DSCF-Net delivers state-of-the-art performance on several public databases.",
+    "abstract_zh": "在本文中，我们在技术上提出了一种称为深度自代表概念分解网络（DSCF-Net）的新颖框架，用于聚类深层特征。为了提高表示和聚类能力，DSCF-Net明确考虑发现隐藏的深层语义特征，增强深度分解对噪声的鲁棒性，并保留深层特征的局部流形结构。具体来说，DSCF-Net 将鲁棒的深度概念分解、深度自我表达表示和自适应局部性保留特征学习集成到一个统一的框架中。为了发现隐藏的深度表示，DSCF-Net 使用多层线性变换设计了分层分解架构...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "智能芯片与计算系统"
+    ],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 89/5992-4）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_e8981be47f6c_c2cb83162ef54c99",
+    "global_record_id": "8b7fe1039ceb302a",
+    "scholar_id": "panorama_e8981be47f6c",
+    "scholar_name": "张莉",
+    "scholar_ids": [
+      "panorama_e8981be47f6c",
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "张莉",
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_e8981be47f6c_c2cb83162ef54c99"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_e8981be47f6c": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "张莉",
+        "secondary_tags": [
+          "智能芯片与计算系统"
+        ],
+        "confidence": "low",
+        "note": ""
+      },
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "张燕",
+        "secondary_tags": [
+          "智能芯片与计算系统"
+        ],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张莉：脑电基础模型与通用解码",
+      "张燕：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Unsupervised Nonnegative Adaptive Feature Extraction for Data Representation",
+    "title_en": "Unsupervised Nonnegative Adaptive Feature Extraction for Data Representation",
+    "title_zh": "用于数据表示的无监督非负自适应特征提取",
+    "year": 2019,
+    "venue": "IEEE Trans. Knowl. Data Eng.",
+    "authors": [
+      "Yan Zhang",
+      "Zhao Zhang",
+      "Sheng Li",
+      "Jie Qin",
+      "Guangcan Liu",
+      "Meng Wang",
+      "Shuicheng Yan"
+    ],
+    "doi": "10.1109/TKDE.2018.2877746",
+    "dblp_key": "journals/tkde/ZhangZLQLWY19",
+    "paper_url": "https://doi.org/10.1109/TKDE.2018.2877746",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/journals/tkde/ZhangZLQLWY19.html",
+    "openalex_id": "https://openalex.org/W2898230917",
+    "openalex_author_id": "",
+    "cited_by_count": 0,
+    "abstract_en": "In this paper, we propose a novel unsupervised Nonnegative Adaptive Feature Extraction (NAFE) algorithm for data representation and classification. The formulation of NAFE integrates the sparsity constrained nonnegative matrix factorization (NMF), representation learning, and adaptive reconstruction weight learning into a unified model. Specifically, NAFE performs feature and weight learning over the new robust representations of NMF for more accurate measure and representation. For nonnegative adaptive feature extraction, our NAFE first utilizes the sparsity constrained NMF to obtain the new and robust representations of the original data. To preserve the manifold structures of the learnt new representations, we also incorporate a neighborhood reconstruction error over the weight matrix for joint minimization. Note that to further improve the representation power, the weights are jointly shared in the new low-dimensional nonnegative representation space, low-dimensional nonlinear manifold space, and low-dimensional projective subspace, i.e., local neighborhood information is clearly preserved in different feature spaces so that informative representations and features can be jointly obtained. To enable NAFE to extract features from new data, we also include a feature approximation error by a linear projection so that the learnt extractor can obtain features from new data efficiently. Extensive simulations show that our formulation can deliver state-of-the-art results on several public databases for feature extraction and classification, compared with several related methods.",
+    "abstract_zh": "在本文中，我们提出了一种用于数据表示和分类的新型无监督非负自适应特征提取（NAFE）算法。 NAFE 的制定将稀疏约束非负矩阵分解（NMF）、表示学习和自适应重建权重学习集成到一个统一的模型中。具体来说，NAFE 对 NMF 的新稳健表示进行特征和权重学习，以实现更准确的测量和表示。对于非负自适应特征提取，我们的 NAFE 首先利用稀疏约束 NMF 来获取原始数据的新的、鲁棒的表示。为了保留学到的新表示的流形结构，我们还合并了一个邻居......",
+    "abstract_source": "openalex_doi",
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 04/3348-53）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_e293384ac5ff_d4fd03731507a54f",
+    "global_record_id": "a900b1ff749d3179",
+    "scholar_id": "panorama_e293384ac5ff",
+    "scholar_name": "张燕",
+    "scholar_ids": [
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_e293384ac5ff_d4fd03731507a54f"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "张燕",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张燕：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Robust Unsupervised Flexible Auto-weighted Local-coordinate Concept Factorization for Image Clustering",
+    "title_en": "Robust Unsupervised Flexible Auto-weighted Local-coordinate Concept Factorization for Image Clustering",
+    "title_zh": "用于图像聚类的鲁棒无监督灵活自动加权局部坐标概念分解",
+    "year": 2019,
+    "venue": "ICASSP",
+    "authors": [
+      "Zhao Zhang",
+      "Yan Zhang",
+      "Sheng Li",
+      "Guangcan Liu",
+      "Meng Wang",
+      "Shuicheng Yan"
+    ],
+    "doi": "10.1109/ICASSP.2019.8683263",
+    "dblp_key": "conf/icassp/ZhangZ0LWY19",
+    "paper_url": "https://doi.org/10.1109/ICASSP.2019.8683263",
+    "pdf_url": "https://arxiv.org/pdf/1905.10564",
+    "source_url": "https://dblp.org/rec/conf/icassp/ZhangZ0LWY19.html",
+    "openalex_id": "https://openalex.org/W2950796582",
+    "openalex_author_id": "",
+    "cited_by_count": 0,
+    "abstract_en": "We investigate the high-dimensional data clustering problem by proposing a novel and unsupervised representation learning model called Robust Flexible Auto-weighted Local-coordinate Concept Factorization (RFA-LCF). RFA-LCF integrates the robust flexible CF, robust sparse local-coordinate coding and the adaptive reconstruction weighting learning into a unified model. The adaptive weighting is driven by including thejoint manifold preserving constraints on the recovered clean data, basis concepts and new representation. Specifically, our RFA-LCF uses a L2,1-norm based flexible residue to encode the mismatch between clean data and its reconstruction, and also applies the robust adaptive sparse local-coordinate coding to represent the data using a few nearby basis concepts, which can make the factorization more accurate and robust to noise. The robust flexible factorization is also performed in the recovered clean data space for enhancing representations. RFA-LCF also considers preserving the local manifold structures of clean data space, basis concept space and the new coordinate space jointly in an adaptive manner way. Extensive comparisons show that RFA-LCF can deliver enhanced clustering results.",
+    "abstract_zh": "我们通过提出一种新颖的无监督表示学习模型来研究高维数据聚类问题，称为鲁棒灵活自动加权局部坐标概念分解（RFA-LCF）。 RFA-LCF将鲁棒灵活CF、鲁棒稀疏局部坐标编码和自适应重建加权学习集成到统一模型中。自适应加权是通过包括联合流形来驱动的，保留对恢复的干净数据、基本概念和新表示的约束。具体来说，我们的 RFA-LCF 使用基于 L2,1-范数的灵活残差对干净数据及其重建之间的不匹配进行编码，并且还应用鲁棒自适应稀疏局部坐标编码来表示使用......",
+    "abstract_source": "openalex_doi",
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 04/3348-53）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_e293384ac5ff_86022a8fc7690a8d",
+    "global_record_id": "4f7e94da418e5efa",
+    "scholar_id": "panorama_e293384ac5ff",
+    "scholar_name": "张燕",
+    "scholar_ids": [
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_e293384ac5ff_86022a8fc7690a8d"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "张燕",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张燕：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Numerical Simulation of Semi-blunt Puncture Behaviors of Woven Fabrics Based on the Finite Element Method",
+    "title_en": "Numerical Simulation of Semi-blunt Puncture Behaviors of Woven Fabrics Based on the Finite Element Method",
+    "title_zh": "基于有限元法的机织物半钝刺穿行为数值模拟",
+    "year": 2018,
+    "venue": "Fibers and Polymers",
+    "authors": [
+      "Feifei Wang",
+      "Yanli Ma",
+      "Lan ping Xu",
+      "Ping Wang",
+      "Yan Zhang"
+    ],
+    "doi": "10.1007/s12221-018-8405-7",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1007/s12221-018-8405-7",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2902463973",
+    "openalex_id": "https://openalex.org/W2902463973",
+    "openalex_author_id": "https://openalex.org/A5100617807",
+    "cited_by_count": 14,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100617807）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_e293384ac5ff_552a92442ac32d04",
+    "global_record_id": "7335eaaaca73005b",
+    "scholar_id": "panorama_e293384ac5ff",
+    "scholar_name": "张燕",
+    "scholar_ids": [
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_e293384ac5ff_552a92442ac32d04"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "张燕",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张燕：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Semi-supervised local multi-manifold Isomap by linear embedding for feature extraction",
+    "title_en": "Semi-supervised local multi-manifold Isomap by linear embedding for feature extraction",
+    "title_zh": "通过线性嵌入进行特征提取的半监督局部多流形 Isomap",
+    "year": 2018,
+    "venue": "Pattern Recognit.",
+    "authors": [
+      "Yan Zhang",
+      "Zhao Zhang",
+      "Jie Qin",
+      "Li Zhang",
+      "Bing Li",
+      "Fanzhang Li"
+    ],
+    "doi": "10.1016/J.PATCOG.2017.09.043",
+    "dblp_key": "journals/pr/ZhangZQZLL18",
+    "paper_url": "https://doi.org/10.1016/J.PATCOG.2017.09.043",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/journals/pr/ZhangZQZLL18.html",
+    "openalex_id": "https://openalex.org/W2763633631",
+    "openalex_author_id": "https://openalex.org/A5100425448",
+    "cited_by_count": 112,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 89/5992-4）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_e8981be47f6c_6d0324e3ee484bd3",
+    "global_record_id": "81353845bc2544b3",
+    "scholar_id": "panorama_e8981be47f6c",
+    "scholar_name": "张莉",
+    "scholar_ids": [
+      "panorama_e8981be47f6c",
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "张莉",
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_e8981be47f6c_6d0324e3ee484bd3"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_e8981be47f6c": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "张莉",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      },
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "张燕",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张莉：脑电基础模型与通用解码",
+      "张燕：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Discriminative sparse flexible manifold embedding with novel graph for robust visual representation and label propagation",
+    "title_en": "Discriminative sparse flexible manifold embedding with novel graph for robust visual representation and label propagation",
+    "title_zh": "具有新颖图的判别性稀疏灵活流形嵌入，用于鲁棒的视觉表示和标签传播",
+    "year": 2017,
+    "venue": "Pattern Recognit.",
+    "authors": [
+      "Zhao Zhang",
+      "Yan Zhang",
+      "Fanzhang Li",
+      "Ming-Bo Zhao",
+      "Li Zhang",
+      "Shuicheng Yan"
+    ],
+    "doi": "10.1016/J.PATCOG.2016.07.042",
+    "dblp_key": "journals/pr/ZhangZLZZY17",
+    "paper_url": "https://doi.org/10.1016/J.PATCOG.2016.07.042",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/journals/pr/ZhangZLZZY17.html",
+    "openalex_id": "https://openalex.org/W2480248159",
+    "openalex_author_id": "https://openalex.org/A5100425448",
+    "cited_by_count": 52,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 89/5992-4）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_e8981be47f6c_c718b1b90311b68c",
+    "global_record_id": "1c02b9061f17f97c",
+    "scholar_id": "panorama_e8981be47f6c",
+    "scholar_name": "张莉",
+    "scholar_ids": [
+      "panorama_e8981be47f6c",
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "张莉",
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_e8981be47f6c_c718b1b90311b68c"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_e8981be47f6c": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "张莉",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      },
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "张燕",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张莉：脑电基础模型与通用解码",
+      "张燕：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Semi-supervised Classification by Nuclear-Norm Based Transductive Label Propagation",
+    "title_en": "Semi-supervised Classification by Nuclear-Norm Based Transductive Label Propagation",
+    "title_zh": "基于核范数的转导标签传播的半监督分类",
+    "year": 2016,
+    "venue": "ICONIP (3)",
+    "authors": [
+      "Lei Jia",
+      "Zhao Zhang",
+      "Yan Zhang"
+    ],
+    "doi": "10.1007/978-3-319-46675-0_41",
+    "dblp_key": "conf/iconip/JiaZZ16",
+    "paper_url": "https://doi.org/10.1007/978-3-319-46675-0_41",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/conf/iconip/JiaZZ16.html",
+    "openalex_id": "https://openalex.org/W2525664689",
+    "openalex_author_id": "",
+    "cited_by_count": 0,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 04/3348-53）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_e293384ac5ff_c1a7079fc4d346fc",
+    "global_record_id": "43e7e4d4416f3996",
+    "scholar_id": "panorama_e293384ac5ff",
+    "scholar_name": "张燕",
+    "scholar_ids": [
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_e293384ac5ff_c1a7079fc4d346fc"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "张燕",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张燕：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Discriminative Sparse Coding by Nuclear Norm-Driven Semi-Supervised Dictionary Learning",
+    "title_en": "Discriminative Sparse Coding by Nuclear Norm-Driven Semi-Supervised Dictionary Learning",
+    "title_zh": "通过核规范驱动的半监督字典学习进行判别式稀疏编码",
+    "year": 2016,
+    "venue": "PCM (1)",
+    "authors": [
+      "Weiming Jiang",
+      "Zhao Zhang",
+      "Yan Zhang",
+      "Fanzhang Li"
+    ],
+    "doi": "10.1007/978-3-319-48890-5_30",
+    "dblp_key": "conf/pcm/JiangZZL16",
+    "paper_url": "https://doi.org/10.1007/978-3-319-48890-5_30",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/conf/pcm/JiangZZL16.html",
+    "openalex_id": "https://openalex.org/W2549229165",
+    "openalex_author_id": "",
+    "cited_by_count": 0,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 04/3348-53）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_e293384ac5ff_84165f42d1b1f0c7",
+    "global_record_id": "b30240433c00c407",
+    "scholar_id": "panorama_e293384ac5ff",
+    "scholar_name": "张燕",
+    "scholar_ids": [
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_e293384ac5ff_84165f42d1b1f0c7"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "张燕",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张燕：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Joint nuclear-norm nonlinear Manifold Learning and robust Classification by linear embedding",
+    "title_en": "Joint nuclear-norm nonlinear Manifold Learning and robust Classification by linear embedding",
+    "title_zh": "通过线性嵌入进行联合核范数非线性流形学习和鲁棒分类",
+    "year": 2016,
+    "venue": "IJCNN",
+    "authors": [
+      "Yan Zhang",
+      "Zhao Zhang",
+      "Lei Jia",
+      "Fanzhang Li"
+    ],
+    "doi": "10.1109/IJCNN.2016.7727684",
+    "dblp_key": "conf/ijcnn/ZhangZJL16",
+    "paper_url": "https://doi.org/10.1109/IJCNN.2016.7727684",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/conf/ijcnn/ZhangZJL16.html",
+    "openalex_id": "https://openalex.org/W2553017594",
+    "openalex_author_id": "",
+    "cited_by_count": 0,
+    "abstract_en": "We propose a Joint nuclear norm based nonlinear Manifold Learning through linear embedding with Classification, called JMLC. By including a feature approximation error into the existing nonlinear manifold learning framework to correlate manifold features with embedded features by a linear projection, the learnt projection can handle the outside points efficiently by embedding. Besides, to encode the neighborhood reconstruction error in manifold learning part, we apply a more reliable nuclear norm based distance metric, since nuclear norm is proved to be more reliable than both L1-norm and Frobenius norm. To make learnt nonlinear features be optimal for classification so that the accuracy can be enhanced, we also minimize a robust L2,1-norm based regressive classification error over the embedded manifold features, which ensures the classification process to be robust to noise and outliers in data. Based on performing joint manifold learning and classification alternately, our JMLC can obtain a low-dimensional embedding, a linear projection and a multi-class classifier simultaneously. Extensive results demonstrate the validity of our proposed algorithm for feature extraction and robust classification, compared with other related models.",
+    "abstract_zh": "我们通过线性嵌入和分类提出了一种基于联合核范数的非线性流形学习，称为 JMLC。通过将特征近似误差包含到现有的非线性流形学习框架中，以通过线性投影将流形特征与嵌入特征相关联，学习的投影可以通过嵌入有效地处理外部点。此外，为了对流形学习部分中的邻域重建误差进行编码，我们应用了更可靠的基于核范数的距离度量，因为核范数被证明比L1范数和Frobenius范数更可靠。为了使学习到的非线性特征最适合分类，从而提高准确性，我们还最小化了鲁棒的 L2,1-norm ...",
+    "abstract_source": "openalex_doi",
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 04/3348-53）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_e293384ac5ff_232acae9782bb2d2",
+    "global_record_id": "2d7bec9558ac2952",
+    "scholar_id": "panorama_e293384ac5ff",
+    "scholar_name": "张燕",
+    "scholar_ids": [
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_e293384ac5ff_232acae9782bb2d2"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "张燕",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张燕：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Robust L1-norm matrixed locality preserving projection for discriminative subspace learning",
+    "title_en": "Robust L1-norm matrixed locality preserving projection for discriminative subspace learning",
+    "title_zh": "用于判别子空间学习的鲁棒 L1 范数矩阵局部保留投影",
+    "year": 2016,
+    "venue": "IJCNN",
+    "authors": [
+      "Yu Tang",
+      "Zhao Zhang",
+      "Yan Zhang",
+      "Fanzhang Li"
+    ],
+    "doi": "10.1109/IJCNN.2016.7727747",
+    "dblp_key": "conf/ijcnn/TangZZL16",
+    "paper_url": "https://doi.org/10.1109/IJCNN.2016.7727747",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/conf/ijcnn/TangZZL16.html",
+    "openalex_id": "https://openalex.org/W2556545949",
+    "openalex_author_id": "",
+    "cited_by_count": 0,
+    "abstract_en": "L1-norm maximization based Discriminant Locality Preserving Projection (DLPP-L1) is shown to be effective and robust to the outliers in given data, but DLPP-L1 is based on the vector space, so it has to convert those 2D matrices into high-dimensional 1D vectorized representations when handing images. But such transformation usually destroys the topology structures of images pixels, which can decrease performance. We therefore propose to extend DLPP-L1 to the 2D matrix space. A two-dimensional DLPP-L1, termed 2D-DLPP-L1, is technically proposed for image feature extraction. Compared with DLPP-L1 for representation, our proposed 2D-DLPP-L1 can effectively preserve the topology structures among image pixels in addition to inheriting the robustness property against noise and outliers. Extensive simulations on real-world image datasets show that our 2D-DLPP-L1 can deliver enhanced performance over other state-of-the-arts for recognition.",
+    "abstract_zh": "基于 L1 范数最大化的判别局部保持投影（DLPP-L1）被证明对给定数据中的异常值是有效且鲁棒的，但 DLPP-L1 是基于向量空间的，因此在处理图像时必须将这些 2D 矩阵转换为高维 1D 矢量化表示。但这种变换通常会破坏图像像素的拓扑结构，从而降低性能。因此，我们建议将 DLPP-L1 扩展到 2D 矩阵空间。二维 DLPP-L1，称为 2D-DLPP-L1，在技术上提出用于图像特征提取。与用于表示的 DLPP-L1 相比，我们提出的 2D-DLPP-L1 除了继承鲁棒性之外，还可以有效保留图像像素之间的拓扑结构。",
+    "abstract_source": "openalex_doi",
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 04/3348-53）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_e293384ac5ff_f45b2de0c8e31174",
+    "global_record_id": "1d8bb0300d40c71d",
+    "scholar_id": "panorama_e293384ac5ff",
+    "scholar_name": "张燕",
+    "scholar_ids": [
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_e293384ac5ff_f45b2de0c8e31174"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "张燕",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张燕：脑电基准、数据与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "Robust Soft Semi-supervised Discriminant Projection for Feature Learning",
+    "title_en": "Robust Soft Semi-supervised Discriminant Projection for Feature Learning",
+    "title_zh": "用于特征学习的鲁棒软半监督判别投影",
+    "year": 2016,
+    "venue": "ICONIP (2)",
+    "authors": [
+      "Xiaoyu Wang",
+      "Zhao Zhang",
+      "Yan Zhang"
+    ],
+    "doi": "10.1007/978-3-319-46672-9_50",
+    "dblp_key": "conf/iconip/WangZZ16",
+    "paper_url": "https://doi.org/10.1007/978-3-319-46672-9_50",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/conf/iconip/WangZZ16.html",
+    "openalex_id": "https://openalex.org/W2524126646",
+    "openalex_author_id": "https://openalex.org/A5100617807",
+    "cited_by_count": 0,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 04/3348-53）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_e293384ac5ff_4941a7643baf6dba",
+    "global_record_id": "024e702f8fa59a47",
+    "scholar_id": "panorama_e293384ac5ff",
+    "scholar_name": "张燕",
+    "scholar_ids": [
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_e293384ac5ff_4941a7643baf6dba"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "张燕",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张燕：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Low-velocity impact failure mechanism analysis of 3-D braided composites with Hilbert–Huang transform",
+    "title_en": "Low-velocity impact failure mechanism analysis of 3-D braided composites with Hilbert–Huang transform",
+    "title_zh": "利用 Hilbert-Huang 变换进行 3D 编织复合材料低速冲击失效机理分析",
+    "year": 2015,
+    "venue": "Journal of Industrial Textiles",
+    "authors": [
+      "Yan Zhang",
+      "Ping Wang",
+      "Chongbin Guo"
+    ],
+    "doi": "10.1177/1528083715619955",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1177/1528083715619955",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2290628627",
+    "openalex_id": "https://openalex.org/W2290628627",
+    "openalex_author_id": "https://openalex.org/A5100617807",
+    "cited_by_count": 8,
+    "abstract_en": "This paper aimed to reveal the low-velocity impact responses characteristics and failure mechanism of 3-D braided composites with experimental and frequency domain analysis method, respectively. The low-velocity impact tests were carried out by Instron® 9250 drop-weight instrument with five different impact velocities from 1 m/s to 6 m/s. The results showed that the peak load and absorbed energy increased with the increase of impact velocity. The load–time curves which were in time domain were transformed into frequency domain with Hilbert–Huang Transform (HHT) method. Combined the failure morphologies of 3-D braided composites with frequency domain analysis results, it could be precisely found out the failure mechanism of 3-D braided composites. At the impact velocity of 1 m/s, the 3-D braided composites only had elastic deformations. With the increase of impact velocity, resin crack was the main failure mode of 3-D braided composites. The frequency of impact stress waves which caused the elastic deformation and resin crack mainly located at 0–10 kHz and 60 kHz. When the impact velocity increased to 6 m/s, fiber tows breakage was the main failure mode, and the frequency of impact stress wave located at 15–20 kHz.",
+    "abstract_zh": "本文旨在分别通过实验和频域分析方法揭示3D编织复合材料的低速冲击响应特性和失效机制。低速冲击试验采用Instron® 9250落锤仪进行，具有1 m/s至6 m/s的五种不同冲击速度。结果表明，峰值载荷和吸收能量随着冲击速度的增加而增加。采用希尔伯特-黄变换（HHT）方法将时域的载荷-时间曲线变换到频域。结合3-D编织复合材料的失效形貌与频域分析结果，可以精确找出3-D编织复合材料的失效机理。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100617807）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_e293384ac5ff_46e8c92c90b4c0eb",
+    "global_record_id": "2f3b6e5e5ef3b6ef",
+    "scholar_id": "panorama_e293384ac5ff",
+    "scholar_name": "张燕",
+    "scholar_ids": [
+      "panorama_e293384ac5ff"
+    ],
+    "scholar_names": [
+      "张燕"
+    ],
+    "source_record_ids": [
+      "panorama_e293384ac5ff_46e8c92c90b4c0eb"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_e293384ac5ff": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "张燕",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张燕：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  }
+]

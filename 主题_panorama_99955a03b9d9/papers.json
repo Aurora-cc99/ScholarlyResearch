@@ -1,407 +1,2518 @@
-{
-  "scholar": {
-    "name_zh": "薛松",
-    "name_en": "English name pending",
-    "affiliation": "南京师范大学",
-    "identity_sources": [
-      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+[
+  {
+    "title": "Differential modulation of cognitive control by approach and avoidance motivation",
+    "title_en": "Differential modulation of cognitive control by approach and avoidance motivation",
+    "title_zh": "通过接近和回避动机对认知控制进行差异调节",
+    "year": 2026,
+    "venue": "Neuroscience",
+    "authors": [
+      "Yan Fei Ma",
+      "Rong Cao",
+      "Jian Wang",
+      "Song Xue"
     ],
-    "official_homepages": [
-      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    "doi": "10.1016/j.neuroscience.2026.01.006",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.neuroscience.2026.01.006",
+    "pdf_url": "https://doi.org/10.2139/ssrn.5291147",
+    "source_url": "https://openalex.org/W7123441307",
+    "openalex_id": "https://openalex.org/W7123441307",
+    "openalex_author_id": "https://openalex.org/A5101422761",
+    "cited_by_count": 0,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101422761）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_55e52249dbf7486e",
+    "global_record_id": "53dec05e4f061e81",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "scholar_ids": [
+      "panorama_99955a03b9d9"
     ],
-    "coverage": {
-      "scope": "2025–2026主题筛选与全量书目扩展",
-      "status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
-      "coverage_status": "仅有代表论文或项目级记录；个人全历史待补核",
-      "available_record_count": 7,
-      "bulk_source_record_count": 0,
-      "themes": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ]
-    },
-    "coverage_notes": "该目录与五位基线学者使用同一论文/资源/分类输出契约。‘可用记录数’表示本轮已取得并保留的书目，不等于未经消歧的个人终身全集；身份待核验、论文团队和同名风险见候选筛选证据。",
-    "id": "panorama_99955a03b9d9",
-    "folder": "主题_panorama_99955a03b9d9",
-    "classification": {
-      "method": "按题名及现有项目、资源说明进行主题粗分，用于阅读导航；未逐篇审阅全文，不代表学者官方分类。每条书目只设一个主类别，跨方向信息保留在辅助标签中。",
-      "categories": [
-        {
-          "id": "eeg_foundation",
-          "label": "脑电基础模型与通用解码",
-          "description": "EEG基础模型、跨任务/跨设备泛化、预训练与脑信号解码。",
-          "count": 0
-        },
-        {
-          "id": "eeg_affect",
-          "label": "情感脑电与多模态生理信号",
-          "description": "脑电情感识别、EEG-fNIRS/EEG-MEG及情感计算应用。",
-          "count": 7
-        },
-        {
-          "id": "eeg_benchmark",
-          "label": "脑电基准、数据与评测",
-          "description": "脑电基础模型基准、数据集、可复现评估与跨数据集比较。",
-          "count": 0
-        }
-      ],
-      "review": {
-        "status": "theme_candidate",
-        "source_status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
-        "primary_theme": "脑电情感计算与脑电大模型"
+    "scholar_names": [
+      "薛松"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_55e52249dbf7486e"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "薛松",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
-    "counts": {
-      "bibliographic_records": 7,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [
-        2013,
-        2015,
-        2016,
-        2017,
-        2024
-      ],
-      "unknown_year": 0
-    }
+    "primary_categories_by_scholar": [
+      "薛松：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
   },
-  "papers": [
-    {
-      "title": "Face emojis vs. Non-face emojis: Exploring neural mechanisms in text processing. Biological Psychology",
-      "title_en": "Face emojis vs. Non-face emojis: Exploring neural mechanisms in text processing. Biological Psychology",
-      "title_zh": "面部表情符号与非面部表情符号：探索文本处理中的神经机制。生物心理学",
-      "year": 2024,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "薛松"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_99955a03b9d9_d26305ae5f70",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_99955a03b9d9",
-      "scholar_name": "薛松",
-      "work_title_group": "b2e7d50091cc",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+  {
+    "title": "Temporal dynamics and task-dependent neural mechanisms in facial symmetry processing",
+    "title_en": "Temporal dynamics and task-dependent neural mechanisms in facial symmetry processing",
+    "title_zh": "面部对称处理中的时间动力学和任务依赖的神经机制",
+    "year": 2025,
+    "venue": "Experimental Brain Research",
+    "authors": [
+      "Jian Wang",
+      "Rong Cao",
+      "Song Xue"
+    ],
+    "doi": "10.1007/s00221-025-07059-y",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1007/s00221-025-07059-y",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4409119283",
+    "openalex_id": "https://openalex.org/W4409119283",
+    "openalex_author_id": "https://openalex.org/A5101422761",
+    "cited_by_count": 1,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101422761）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_d9e3139d5bdc8cb6",
+    "global_record_id": "1768f9fc0743408e",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "scholar_ids": [
+      "panorama_99955a03b9d9"
+    ],
+    "scholar_names": [
+      "薛松"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_d9e3139d5bdc8cb6"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "薛松",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
     },
-    {
-      "title": "The neural mechanisms of the impact of emoji spatial metaphors on emotional perception. Neuroscience",
-      "title_en": "The neural mechanisms of the impact of emoji spatial metaphors on emotional perception. Neuroscience",
-      "title_zh": "表情符号空间隐喻对情绪感知影响的神经机制。神经科学",
-      "year": 2024,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "薛松"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_99955a03b9d9_98ddb858faf5",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_99955a03b9d9",
-      "scholar_name": "薛松",
-      "work_title_group": "cedec0a93b50",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "primary_categories_by_scholar": [
+      "薛松：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "The neural mechanisms of the impact of emoji spatial metaphors on emotional perception. Neuroscience",
+    "title_en": "The neural mechanisms of the impact of emoji spatial metaphors on emotional perception. Neuroscience",
+    "title_zh": "表情符号空间隐喻对情绪感知影响的神经机制。神经科学",
+    "year": 2024,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "薛松"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_98ddb858faf5",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "work_title_group": "cedec0a93b50",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_99955a03b9d9"
+    ],
+    "scholar_names": [
+      "薛松"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_98ddb858faf5"
+    ],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "薛松",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Abnormal neural basis of emotional conflict control in treatment-resistant depression: An ERP study. Clinical EEG and Neuroscience",
-      "title_en": "Abnormal neural basis of emotional conflict control in treatment-resistant depression: An ERP study. Clinical EEG and Neuroscience",
-      "title_zh": "难治性抑郁症情绪冲突控制的异常神经基础：一项 ERP 研究。临床脑电图和神经科学",
-      "year": 2017,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "薛松"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_99955a03b9d9_cd157013c6cc",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_99955a03b9d9",
-      "scholar_name": "薛松",
-      "work_title_group": "8dc8173523a6",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "2a803e8ff160bb8c",
+    "primary_categories_by_scholar": [
+      "薛松：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "The neural mechanisms of the impact of emoji spatial metaphors on emotional perception",
+    "title_en": "The neural mechanisms of the impact of emoji spatial metaphors on emotional perception",
+    "title_zh": "表情符号空间隐喻影响情绪感知的神经机制",
+    "year": 2024,
+    "venue": "Neuroscience",
+    "authors": [
+      "Rong Cao",
+      "Jindai Liu",
+      "Jian Wang",
+      "Song Xue"
+    ],
+    "doi": "10.1016/j.neuroscience.2024.09.035",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.neuroscience.2024.09.035",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4402898791",
+    "openalex_id": "https://openalex.org/W4402898791",
+    "openalex_author_id": "https://openalex.org/A5101422761",
+    "cited_by_count": 3,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101422761）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_e8152ce209e0867b",
+    "global_record_id": "48e74a5aae2fa4db",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "scholar_ids": [
+      "panorama_99955a03b9d9"
+    ],
+    "scholar_names": [
+      "薛松"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_e8152ce209e0867b"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "薛松",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "The dissociable neural dynamics of cognitive conflict and emotional conflict control: An ERP study. Neuroscience Letters",
-      "title_en": "The dissociable neural dynamics of cognitive conflict and emotional conflict control: An ERP study. Neuroscience Letters",
-      "title_zh": "认知冲突和情绪冲突控制的可分离神经动力学：一项 ERP 研究。神经科学快报",
-      "year": 2016,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "薛松"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_99955a03b9d9_79c9572e1c1d",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_99955a03b9d9",
-      "scholar_name": "薛松",
-      "work_title_group": "0bf00cb7c6c1",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "primary_categories_by_scholar": [
+      "薛松：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Face emojis vs. Non-face emojis: Exploring neural mechanisms in text processing",
+    "title_en": "Face emojis vs. Non-face emojis: Exploring neural mechanisms in text processing",
+    "title_zh": "面部表情符号与非面部表情符号：探索文本处理中的神经机制",
+    "year": 2024,
+    "venue": "Biological Psychology",
+    "authors": [
+      "Rong Cao",
+      "Jian Wang",
+      "Song Xue"
+    ],
+    "doi": "10.1016/j.biopsycho.2024.108898",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.biopsycho.2024.108898",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4403997394",
+    "openalex_id": "https://openalex.org/W4403997394",
+    "openalex_author_id": "https://openalex.org/A5101422761",
+    "cited_by_count": 10,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101422761）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_89e954da9ea0b141",
+    "global_record_id": "661c3bc49a0431b2",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "scholar_ids": [
+      "panorama_99955a03b9d9"
+    ],
+    "scholar_names": [
+      "薛松"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_89e954da9ea0b141"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "薛松",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
     },
-    {
-      "title": "Electrophysiological correlates related to the conflict adaptation effect in an emotional conflict task. Neuroscience Letters",
-      "title_en": "Electrophysiological correlates related to the conflict adaptation effect in an emotional conflict task. Neuroscience Letters",
-      "title_zh": "电生理学相关性与情绪冲突任务中的冲突适应效应有关。神经科学快报",
-      "year": 2015,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "薛松"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_99955a03b9d9_6b91e9f9fd14",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_99955a03b9d9",
-      "scholar_name": "薛松",
-      "work_title_group": "526b72083fbc",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "primary_categories_by_scholar": [
+      "薛松：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Face emojis vs. Non-face emojis: Exploring neural mechanisms in text processing. Biological Psychology",
+    "title_en": "Face emojis vs. Non-face emojis: Exploring neural mechanisms in text processing. Biological Psychology",
+    "title_zh": "面部表情符号与非面部表情符号：探索文本处理中的神经机制。生物心理学",
+    "year": 2024,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "薛松"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_d26305ae5f70",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "work_title_group": "b2e7d50091cc",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_99955a03b9d9"
+    ],
+    "scholar_names": [
+      "薛松"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_d26305ae5f70"
+    ],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "薛松",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Neural time course of emotional conflict control: An ERP study. Neuroscience Letters",
-      "title_en": "Neural time course of emotional conflict control: An ERP study. Neuroscience Letters",
-      "title_zh": "情绪冲突控制的神经时间过程：一项 ERP 研究。神经科学快报",
-      "year": 2013,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "薛松"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_99955a03b9d9_c608fb5fb664",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_99955a03b9d9",
-      "scholar_name": "薛松",
-      "work_title_group": "7d66cfcc3eb5",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "f26849c949c2365f",
+    "primary_categories_by_scholar": [
+      "薛松：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Dissociable neural correlates of trait and ability emotional intelligence: a resting-state fMRI study",
+    "title_en": "Dissociable neural correlates of trait and ability emotional intelligence: a resting-state fMRI study",
+    "title_zh": "特质和能力情商的可分离神经相关性：静息态功能磁共振成像研究",
+    "year": 2024,
+    "venue": "Experimental Brain Research",
+    "authors": [
+      "Song Xue",
+      "Alain De Beuckelaer",
+      "Feng Kong",
+      "Jia Liu"
+    ],
+    "doi": "10.1007/s00221-024-06809-8",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1007/s00221-024-06809-8",
+    "pdf_url": "https://repository.ubn.ru.nl//bitstream/handle/2066/306858/306858.pdf",
+    "source_url": "https://openalex.org/W4392682880",
+    "openalex_id": "https://openalex.org/W4392682880",
+    "openalex_author_id": "https://openalex.org/A5101422761",
+    "cited_by_count": 2,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [
+      "情感计算与情绪理解",
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101422761）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_ce08b8e8c7023612",
+    "global_record_id": "ed95b6c470986712",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "scholar_ids": [
+      "panorama_99955a03b9d9"
+    ],
+    "scholar_names": [
+      "薛松"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_ce08b8e8c7023612"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "薛松",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "Positive emotion modulates cognitive control: An event-related potentials study. Scandinavian Journal of Psychology",
-      "title_en": "Positive emotion modulates cognitive control: An event-related potentials study. Scandinavian Journal of Psychology",
-      "title_zh": "积极情绪调节认知控制：事件相关电位研究。斯堪的纳维亚心理学杂志",
-      "year": 2013,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "薛松"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_99955a03b9d9_d93f493c2c02",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_99955a03b9d9",
-      "scholar_name": "薛松",
-      "work_title_group": "a382a46ee806",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
-    }
-  ]
-}
+    "primary_categories_by_scholar": [
+      "薛松：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Neural correlates of social interaction anxiety and their relation to emotional intelligence: A resting-state fMRI study",
+    "title_en": "Neural correlates of social interaction anxiety and their relation to emotional intelligence: A resting-state fMRI study",
+    "title_zh": "社交互动焦虑的神经相关性及其与情商的关系：静息态功能磁共振成像研究",
+    "year": 2023,
+    "venue": "Neuroscience Letters",
+    "authors": [
+      "Song Xue",
+      "Feng Kong",
+      "Yiying Song",
+      "Jia Liu"
+    ],
+    "doi": "10.1016/j.neulet.2023.137475",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.neulet.2023.137475",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4386759866",
+    "openalex_id": "https://openalex.org/W4386759866",
+    "openalex_author_id": "https://openalex.org/A5101422761",
+    "cited_by_count": 14,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [
+      "情感计算与情绪理解",
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101422761）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_766e211d25c400ce",
+    "global_record_id": "13148158e25b3fa2",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "scholar_ids": [
+      "panorama_99955a03b9d9"
+    ],
+    "scholar_names": [
+      "薛松"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_766e211d25c400ce"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "薛松",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "薛松：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "An amygdala-centered effective connectivity network in trait anxiety",
+    "title_en": "An amygdala-centered effective connectivity network in trait anxiety",
+    "title_zh": "特质焦虑中以杏仁核为中心的有效连接网络",
+    "year": 2023,
+    "venue": "Brain Imaging and Behavior",
+    "authors": [
+      "Jingjing Chang",
+      "Xin Liu",
+      "Song Xue",
+      "Jiang Qiu"
+    ],
+    "doi": "10.1007/s11682-023-00837-8",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1007/s11682-023-00837-8",
+    "pdf_url": "https://www.researchsquare.com/article/rs-3122692/latest.pdf",
+    "source_url": "https://openalex.org/W4389571187",
+    "openalex_id": "https://openalex.org/W4389571187",
+    "openalex_author_id": "https://openalex.org/A5101422761",
+    "cited_by_count": 5,
+    "abstract_en": "Abstract Previous studies have established that the amygdala plays an important role in trait anxiety. However, there remains limited knowledge regarding the changes in amygdala-centered effective connectivity network associated with this trait. The current study employed the Granger Causal analysis to investigate the directional connectivity patterns involving the amygdala in relation to trait anxiety in a large cohort of young adults. The results revealed a negative association between trait anxiety scores and the Granger causality from the left middle frontal gyrus and right superior frontal gyrus to the right amygdala. Conversely, higher trait anxiety levels were found to be associated with increased effective connectivity from the left amygdala to the left hippocampus. Moreover, the right superior frontal cortex-to-right amygdala Granger causality partly and negatively mediated the positive correlation between the left amygdala-to-left hippocampus Granger causality and trait anxiety. These results demonstrated the significance of the prefrontal cortex-amygdala-hippocampus neural circuitry in the neurobiological mechanisms underlying trait anxiety. Our findings might contribute to the supervision and mitigation of the potential transition from high trait anxiety to pathological states.",
+    "abstract_zh": "摘要 先前的研究已经证实杏仁核在特质焦虑中发挥着重要作用。然而，关于与此特征相关的以杏仁核为中心的有效连接网络的变化的知识仍然有限。目前的研究采用格兰杰因果分析来调查涉及一大群年轻人的特质焦虑与杏仁核的方向连接模式。结果显示，特质焦虑评分与从左侧额中回和右侧额上回到右侧杏仁核的格兰杰因果关系之间存在负相关。相反，较高的特质焦虑水平被发现与左侧有效连接的增加有关......",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101422761）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_6c29524c7782421a",
+    "global_record_id": "22c3f8ab6fa23b97",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "scholar_ids": [
+      "panorama_99955a03b9d9"
+    ],
+    "scholar_names": [
+      "薛松"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_6c29524c7782421a"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "薛松",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "薛松：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "The Effect of Short-Term Mindfulness Training on the Emotional State of College Students with Different Levels of Mindfulness: Evidence from Neurophysiological Signals",
+    "title_en": "The Effect of Short-Term Mindfulness Training on the Emotional State of College Students with Different Levels of Mindfulness: Evidence from Neurophysiological Signals",
+    "title_zh": "短期正念训练对不同正念水平大学生情绪状态的影响：来自神经生理信号的证据",
+    "year": 2021,
+    "venue": "Open Journal of Social Sciences",
+    "authors": [
+      "Ruonan Li",
+      "Letong Li",
+      "Song Xue"
+    ],
+    "doi": "10.4236/jss.2021.95032",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.4236/jss.2021.95032",
+    "pdf_url": "http://www.scirp.org/journal/PaperDownload.aspx?paperID=109301",
+    "source_url": "https://openalex.org/W3165802634",
+    "openalex_id": "https://openalex.org/W3165802634",
+    "openalex_author_id": "https://openalex.org/A5101422761",
+    "cited_by_count": 9,
+    "abstract_en": "Objectives: The objective of this study was to explore the effects of short-term mindfulness training on the emotional state of individuals with different levels of mindfulness, especially from the perspective of autonomic neurophysiological mechanism. Methods: 52 college students were divided into higher or lower dispositional mindfulness groups. Then they underwent the measurement periods of baseline, short-term mindfulness training and recovery. During these periods, wrist-worn wearable devices were used for recording their autonomic nervous system activities, including heart rate (HR), galvanic skin response (GSR) and pulse rate variability (PRV). The Positive and Negative affect Scale (PANAS) and the State Anxiety Inventory (S-AI) were used before and after the experiment. Results: The results showed that in both groups, instead of positive emotion, negative emotions and state anxiety reduced significantly after the training. In terms of physiological signals, in lower-dispositional group, the HR of the recovery period were significantly lower than that of the other two periods, and the PRV of the recovery period were significantly higher. In higher-dispositional group, the GSR of recovery period was significantly higher than that of the other two periods. Conclusions: The results suggest that short-term mindfulness training works mainly by reducing negative emotions rather than increasing positive ones. Our findings also provide neurophysiological evidence for a better emotional intervention effect of short-term mindfulness training on individuals with lower dispositional mindfulness.",
+    "abstract_zh": "目的：本研究的目的是探讨短期正念训练对不同正念水平个体情绪状态的影响，特别是从自主神经生理机制的角度。方法：52 名大学生被分为较高或较低性格正念组。然后他们经历了基线、短期正念训练和恢复的测量期。在此期间，腕戴式可穿戴设备被用来记录他们的自主神经系统活动，包括心率（HR）、皮肤电反应（GSR）和脉搏率变异性（PRV）。积极和消极情绪量表（PANAS）和状态焦虑量表（S-AI）是......",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101422761）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_2297c00aa2b818dc",
+    "global_record_id": "671889a45ab22cab",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "scholar_ids": [
+      "panorama_99955a03b9d9"
+    ],
+    "scholar_names": [
+      "薛松"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_2297c00aa2b818dc"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "薛松",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "薛松：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Resting-State Functional Connectivity Predicts Emotional Conflict Control",
+    "title_en": "Resting-State Functional Connectivity Predicts Emotional Conflict Control",
+    "title_zh": "静息态功能连接预测情绪冲突控制",
+    "year": 2019,
+    "venue": "International Journal of Psychotherapy Practice and Research",
+    "authors": [
+      "Song Xue",
+      "Wei Xu"
+    ],
+    "doi": "10.14302/issn.2574-612x.ijpr-19-3045",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.14302/issn.2574-612x.ijpr-19-3045",
+    "pdf_url": "https://openaccesspub.org/article/1190/pdf",
+    "source_url": "https://openalex.org/W2980730164",
+    "openalex_id": "https://openalex.org/W2980730164",
+    "openalex_author_id": "https://openalex.org/A5101422761",
+    "cited_by_count": 1,
+    "abstract_en": "Emotional conflict control refers to the ability to select task-relevant emotional information and ignore task-irrelevant emotional distractors.Previous fMRI studies provide some evidence about brain structure and function related to emotional conflict control.Yet, the underlying resting-state functional connectivity was largely unknown.Here, this is the first study to explore the resting-state functional connectivity related to emotional conflict.According to the literature which used the whole-brain analysis to investigate the key brain area associated with emotional conflict, we select the amygdala (AMY) as the seed region.We then investigated the association between emotional conflict and functional connectivity between amygdala (AMY) and another brain region in a large sample.We found the emotional conflict effect was positively correlated with functional connectivity strength between AMY (the seed ROI) and right supplementary motor area (SMA).This finding implied that the functional connectivity between AMY and SMA was linked to emotional conflict and that AMY was the key region which plays a crucial role in emotional conflict.",
+    "abstract_zh": "情绪冲突控制是指选择与任务相关的情绪信息并忽略与任务无关的情绪干扰因素的能力。之前的fMRI研究提供了与情绪冲突控制相关的大脑结构和功能的一些证据。然而，其潜在的静息态功能连接在很大程度上是未知的。这里，这是第一个探讨与情绪冲突相关的静息态功能连接的研究。根据利用全脑分析研究与情绪冲突相关的关键大脑区域的文献，我们选择杏仁核（AMY）作为种子区域。然后我们研究了杏仁核（AMY）和...之间的情感冲突和功能连接之间的关联。",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解",
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101422761）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_579d269b41d48ab3",
+    "global_record_id": "280459da99a6362d",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "scholar_ids": [
+      "panorama_99955a03b9d9"
+    ],
+    "scholar_names": [
+      "薛松"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_579d269b41d48ab3"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "薛松",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "薛松：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Enhanced functional connectivity of the default mode network (DMN) in patients with spleen deficiency syndrome: A resting-state fMRI study",
+    "title_en": "Enhanced functional connectivity of the default mode network (DMN) in patients with spleen deficiency syndrome: A resting-state fMRI study",
+    "title_zh": "脾虚证患者默认模式网络（DMN）功能连接的增强：静息态功能磁共振成像研究",
+    "year": 2019,
+    "venue": "Medicine",
+    "authors": [
+      "Yanzhe Ning",
+      "Feng-zhi Wu",
+      "Song Xue",
+      "Dongqing Yin",
+      "Hong Zhu",
+      "Jia Liu",
+      "Hong-xiao Jia"
+    ],
+    "doi": "10.1097/md.0000000000014372",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1097/md.0000000000014372",
+    "pdf_url": "https://doi.org/10.1097/md.0000000000014372",
+    "source_url": "https://openalex.org/W2911461343",
+    "openalex_id": "https://openalex.org/W2911461343",
+    "openalex_author_id": "https://openalex.org/A5101422761",
+    "cited_by_count": 6,
+    "abstract_en": "Numerous studies had investigated the biological basis of spleen deficiency syndrome on gastrointestinal dysfunctions. However, little was known about neuropsychological mechanism of spleen deficiency syndrome. The default model network (DMN) plays an important role in cognitive processing. Our aim is to investigate the change of neuropsychological tests and DMN in patients with spleen deficiency syndrome.Sixteen patients and 12 healthy subjects underwent functional magnetic resonance imaging examination, and 15 patients with spleen deficiency syndrome and 6 healthy subjects take part in the two neuropsychological tests.Compared with healthy subjects, patients with spleen deficiency syndrome revealed significantly increased functional connectivity within DMN, and significantly higher in the scores of 2-FT (P = .002) and 3-FT (P = .014).Our findings suggest that patients with spleen deficiency syndrome are associated with abnormal functional connectivity of DMN and part of neuropsychological tests, which provide new evidence in neuroimaging to support the notion of TCM that the spleen stores Yi and domains thoughts.",
+    "abstract_zh": "许多研究探讨了脾虚证胃肠功能障碍的生物学基础。然而，人们对脾虚证的神经心理学机制知之甚少。默认模型网络（DMN）在认知处理中发挥着重要作用。我们的目的是探讨脾虚证患者神经心理测试和DMN的变化。对16名患者和12名健康受试者进行了功能磁共振检查，其中15名脾虚证患者和6名健康受试者参加了两项神经心理测试。与健康受试者相比，脾虚证患者的功能连接明显增强。",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101422761）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_ea797f76a44a4937",
+    "global_record_id": "6f5ee0a8e8a0cdbe",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "scholar_ids": [
+      "panorama_99955a03b9d9"
+    ],
+    "scholar_names": [
+      "薛松"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_ea797f76a44a4937"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "薛松",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "薛松：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Cognitive Mechanism of Emotional Validity Influencing Conflict Control",
+    "title_en": "Cognitive Mechanism of Emotional Validity Influencing Conflict Control",
+    "title_zh": "情绪有效性影响冲突控制的认知机制",
+    "year": 2019,
+    "venue": "International Journal of Psychotherapy Practice and Research",
+    "authors": [
+      "Zhi Zhu",
+      "Wei Qiang Xu",
+      "Song Xue"
+    ],
+    "doi": "10.14302/issn.2574-612x.ijpr-18-2460",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.14302/issn.2574-612x.ijpr-18-2460",
+    "pdf_url": "http://openaccesspub.org/article/1028/pdf",
+    "source_url": "https://openalex.org/W2920983719",
+    "openalex_id": "https://openalex.org/W2920983719",
+    "openalex_author_id": "https://openalex.org/A5101422761",
+    "cited_by_count": 7,
+    "abstract_en": "Conflict control is the ability to choose relevant information and ignore disturbing information in task processing. Previous studies have found that emotions have a certain influence on conflict control, and the research results of positive emotions and negative emotions affect conflict control are inconsistent. This study attempted to explore the effects of different emotional valorization on conflict control, using images of happy, fearful and sad emotional faces to investigate the effects of different emotional valorization and different emotional types on conflict control. The experiment selected 40 participants and used the variable-face Stroop paradigm. The study found that no matter what emotional task, there is a significant conflict effect. The effects of different valency on conflict control are different. All three emotions have a significant effect on conflict control, and positive emotions play a role in promoting conflict control.",
+    "abstract_zh": "冲突控制是在任务处理中选择相关信息并忽略干扰信息的能力。以往的研究发现情绪对冲突控制有一定的影响，而积极情绪和消极情绪影响冲突控制的研究结果并不一致。本研究试图探讨不同情绪价值对冲突控制的影响，利用快乐、恐惧和悲伤情绪面孔的图像来研究不同情绪价值和不同情绪类型对冲突控制的影响。该实验选择了 40 名参与者并使用可变脸 Stroop 范式。研究发现，无论什么情感任务，都会存在显着的冲突...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101422761）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_6f354673f2f21352",
+    "global_record_id": "4594c5de19cc2487",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "scholar_ids": [
+      "panorama_99955a03b9d9"
+    ],
+    "scholar_names": [
+      "薛松"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_6f354673f2f21352"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "薛松",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "薛松：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Cognitive impairment in patients with kidney deficiency syndrome: A resting-state fMRI study",
+    "title_en": "Cognitive impairment in patients with kidney deficiency syndrome: A resting-state fMRI study",
+    "title_zh": "肾虚综合征患者的认知障碍：静息态功能磁共振成像研究",
+    "year": 2018,
+    "venue": "European Journal of Integrative Medicine",
+    "authors": [
+      "Yanzhe Ning",
+      "Dongqing Yin",
+      "Wenbin Jia",
+      "Hong Zhu",
+      "Song Xue",
+      "Jia Liu",
+      "Hongxiao Jia"
+    ],
+    "doi": "10.1016/j.eujim.2018.10.018",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.eujim.2018.10.018",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2898707692",
+    "openalex_id": "https://openalex.org/W2898707692",
+    "openalex_author_id": "https://openalex.org/A5101422761",
+    "cited_by_count": 4,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101422761）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_38672d738121b3ce",
+    "global_record_id": "5e9246fb253fb091",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "scholar_ids": [
+      "panorama_99955a03b9d9"
+    ],
+    "scholar_names": [
+      "薛松"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_38672d738121b3ce"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "薛松",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "薛松：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Abnormal neural basis of emotional conflict control in treatment-resistant depression: An ERP study. Clinical EEG and Neuroscience",
+    "title_en": "Abnormal neural basis of emotional conflict control in treatment-resistant depression: An ERP study. Clinical EEG and Neuroscience",
+    "title_zh": "难治性抑郁症情绪冲突控制的异常神经基础：一项 ERP 研究。临床脑电图和神经科学",
+    "year": 2017,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "薛松"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "脑电情感识别",
+      "脑机接口与神经解码",
+      "情感计算与情绪理解",
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_cd157013c6cc",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "work_title_group": "8dc8173523a6",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_99955a03b9d9"
+    ],
+    "scholar_names": [
+      "薛松"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_cd157013c6cc"
+    ],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "薛松",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "0f083eead9e75670",
+    "primary_categories_by_scholar": [
+      "薛松：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Different Stages, Different Signals: The Modulating Effect of Cognitive Conflict on Subsequent Processing",
+    "title_en": "Different Stages, Different Signals: The Modulating Effect of Cognitive Conflict on Subsequent Processing",
+    "title_zh": "不同阶段，不同信号：认知冲突对后续处理的调节作用",
+    "year": 2016,
+    "venue": "PLoS ONE",
+    "authors": [
+      "Fada Pan",
+      "Liang Shi",
+      "Li Zhang",
+      "Qingyun Lu",
+      "Song Xue"
+    ],
+    "doi": "10.1371/journal.pone.0163263",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1371/journal.pone.0163263",
+    "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0163263&type=printable",
+    "source_url": "https://openalex.org/W2520607009",
+    "openalex_id": "https://openalex.org/W2520607009",
+    "openalex_author_id": "https://openalex.org/A5101422761",
+    "cited_by_count": 7,
+    "abstract_en": "The present study used event-related potentials (ERPs) to investigate the function of signals induced by cognitive conflict during the detection stage and the resolution stage of perceptual processing. The study used a combination of the Stroop task and an affective priming task to examine the conflict priming effect when the stimulus onset asynchrony (SOA) was 200 ms or 800 ms. Behavioral results showed that the RTs were shorter for positive targets following congruent primes relative to incongruent primes, and for negative targets following incongruent primes relative to congruent primes when the SOA was 200 ms. ERP results showed that the N2 amplitudes (200-300 ms) for incongruent stimuli were significantly larger than for congruent stimuli in the Stroop task, which indicated a significant conflict effect. Moreover, the N400 amplitudes (500-700 ms) for positive targets after congruent primes were significantly lower than those after incongruent primes when the SOA was 200 ms, which showed a significant negative priming effect. While the SOA was 800 ms, behavioral results showed that the RTs were shorter for positive targets following incongruent primes relative to congruent primes. ERP results showed that the N2 amplitudes (200-300 ms) for incongruent stimuli were significantly larger than for congruent stimuli in the Stroop task, which indicated a significant conflict effect. The N400 amplitudes (1100-1300 ms) for the negative targets after congruent primes were significantly lower than those after incongruent primes when the SOA was 800 ms, which showed a significant positive priming effect. The results demonstrated that the functions of signals induced by cognitive conflict were reversed in two different cognitive processing stages.",
+    "abstract_zh": "本研究利用事件相关电位（ERP）来研究感知处理的检测阶段和解决阶段认知冲突诱发的信号的功能。该研究结合使用 Stroop 任务和情感启动任务来检验刺激起始异步 (SOA) 为 200 毫秒或 800 毫秒时的冲突启动效应。行为结果表明，当 SOA 为 200 ms 时，一致素数后的正目标相对于不一致素数而言，以及不一致素数后的负目标的 RT 更短。 ERP 结果表明，不一致刺激的 N2 幅度（200-300 ms）显着大于一致刺激...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "脑机接口与神经解码",
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101422761）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_4bc6ffb80db615e6",
+    "global_record_id": "0349203b50abd6be",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "scholar_ids": [
+      "panorama_99955a03b9d9"
+    ],
+    "scholar_names": [
+      "薛松"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_4bc6ffb80db615e6"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "薛松",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "薛松：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Electrophysiological Correlates of Successful Visual Mental Imagery",
+    "title_en": "Electrophysiological Correlates of Successful Visual Mental Imagery",
+    "title_zh": "成功视觉心理意象的电生理学关联",
+    "year": 2016,
+    "venue": "International Journal of Psychology and Behavioral Sciences",
+    "authors": [
+      "Fada Pan",
+      "Song Xue",
+      "Jiang Qiu"
+    ],
+    "doi": "",
+    "dblp_key": "",
+    "paper_url": "http://www.sapub.org/global/showpaperpdf.aspx?doi=10.5923/j.ijpbs.20160603.08",
+    "pdf_url": "http://www.sapub.org/global/showpaperpdf.aspx?doi=10.5923/j.ijpbs.20160603.08",
+    "source_url": "https://openalex.org/W2460634201",
+    "openalex_id": "https://openalex.org/W2460634201",
+    "openalex_author_id": "https://openalex.org/A5101422761",
+    "cited_by_count": 0,
+    "abstract_en": "The spatiotemporal analysis of brain activation during the execution of visual mental imagery tasks was performed in 14 normal young adult subjects using ERPs. Results showed that Successful mental imagery elicited a more positive ERP deflection (P600-1000) than Unsuccessful mental imagery between 600–1000 ms, which was possibly related to forming visual mental imagery on the basis of initial stimuli classification and identification. Then, a greater slow positivity (P1000-1500) in Successful mental imagery as compared to unsuccessful mental imagery might be associated with detected over the frontal scalp regions between 1000-1500 ms, which might be involved in maintaining mental imagery and making decisions in working memory.",
+    "abstract_zh": "使用 ERP 对 14 名正常年轻成人受试者执行视觉心理意象任务期间的大脑激活进行时空分析。结果表明，在 600-1000 毫秒之间，成功的心理意象比不成功的心理意象引发了更积极的 ERP 偏转（P600-1000），这可能与在初始刺激分类和识别的基础上形成视觉心理意象有关。然后，与不成功的心理意象相比，成功的心理意象中更大的慢积极性（P1000-1500）可能与在 1000-1500 毫秒之间检测到的额叶头皮区域有关，这可能涉及维持心理意象和在工作记忆中做出决策。",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "脑机接口与神经解码"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101422761）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_9cc63730fdce678e",
+    "global_record_id": "50019665cd986739",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "scholar_ids": [
+      "panorama_99955a03b9d9"
+    ],
+    "scholar_names": [
+      "薛松"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_9cc63730fdce678e"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "薛松",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "薛松：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Amplitude of low frequency fluctuations during resting state predicts social well-being",
+    "title_en": "Amplitude of low frequency fluctuations during resting state predicts social well-being",
+    "title_zh": "静息状态下低频波动的幅度可预测社会福祉",
+    "year": 2016,
+    "venue": "Biological Psychology",
+    "authors": [
+      "Feng Kong",
+      "Song Xue",
+      "Xu Wang"
+    ],
+    "doi": "10.1016/j.biopsycho.2016.05.012",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.biopsycho.2016.05.012",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2409715846",
+    "openalex_id": "https://openalex.org/W2409715846",
+    "openalex_author_id": "https://openalex.org/A5101422761",
+    "cited_by_count": 39,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101422761）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_822e32623f28371d",
+    "global_record_id": "e2683b4592e1ebe6",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "scholar_ids": [
+      "panorama_99955a03b9d9"
+    ],
+    "scholar_names": [
+      "薛松"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_822e32623f28371d"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "薛松",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "薛松：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Abnormal Neural Basis of Emotional Conflict Control in Treatment-Resistant Depression: An Event-Related Potential Study",
+    "title_en": "Abnormal Neural Basis of Emotional Conflict Control in Treatment-Resistant Depression: An Event-Related Potential Study",
+    "title_zh": "难治性抑郁症情绪冲突控制的异常神经基础：事件相关电位研究",
+    "year": 2016,
+    "venue": "Clinical EEG and Neuroscience",
+    "authors": [
+      "Song Xue",
+      "Shanshan Wang",
+      "Xia Kong",
+      "Jiang Qiu"
+    ],
+    "doi": "10.1177/1550059416631658",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1177/1550059416631658",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2341919358",
+    "openalex_id": "https://openalex.org/W2341919358",
+    "openalex_author_id": "https://openalex.org/A5101422761",
+    "cited_by_count": 28,
+    "abstract_en": "Emotional conflict has received increased attention as a research topic. The objective of this study is to confirm that the processing of emotional conflict is impaired in treatment-resistant depression (TRD). We compared the event-related potentials of 17 patients with TRD and 17 healthy controls during the face-word Stroop task, which is an effective way of assessing the effects of emotional conflict directly. Compared with healthy controls, the accuracy scores of the TRD patients were lower in both \"congruent stimuli\" and \"incongruent stimuli\" conditions, and their response times were longer. The TRD patients also had larger N2 amplitudes over the frontal region, regardless of stimulus condition, which might reflect that TRD patients pay more attention to emotional information. A larger P3 amplitude over the frontal region for \"incongruent stimuli minus congruent stimuli\" was also found among patients with TRD, which indicates interference effects in the Stroop task. The results of this study provide novel behavioral and neurophysiological evidence of anomalies in cognitive inhibition among patients with TRD using the word-face task. These findings not only improve our understanding of deficient inhibition in TRD, but also pave the way for a cognitive neuropsychiatric model of depression.",
+    "abstract_zh": "情绪冲突作为一个研究课题越来越受到关注。本研究的目的是确认难治性抑郁症（TRD）中情绪冲突的处理受到损害。我们比较了 17 名 TRD 患者和 17 名健康对照者在面部词 Stroop 任务中的事件相关电位，这是直接评估情绪冲突影响的有效方法。与健康对照相比，TRD患者在“一致刺激”和“不一致刺激”条件下的准确度得分均较低，且反应时间较长。无论刺激条件如何，TRD 患者的额叶区域 N2 振幅也较大，这可能反映出 TRD 患者付出了……",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "脑电情感识别",
+      "脑电基础大模型",
+      "情感计算与情绪理解",
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101422761）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_939c212bd167c143",
+    "global_record_id": "7ac7270f3b561ada",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "scholar_ids": [
+      "panorama_99955a03b9d9",
+      "panorama_jiang_qiu"
+    ],
+    "scholar_names": [
+      "薛松",
+      "邱江"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_939c212bd167c143"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "薛松",
+        "secondary_tags": [
+          "脑电情感识别",
+          "脑电基础大模型",
+          "情感计算与情绪理解",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_jiang_qiu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "邱江",
+        "secondary_tags": [
+          "脑电情感识别",
+          "脑电基础大模型",
+          "情感计算与情绪理解",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "薛松：脑电基础模型与通用解码",
+      "邱江：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "The negative priming effect in cognitive conflict processing",
+    "title_en": "The negative priming effect in cognitive conflict processing",
+    "title_zh": "认知冲突处理中的负启动效应",
+    "year": 2016,
+    "venue": "Neuroscience Letters",
+    "authors": [
+      "Fada Pan",
+      "Liang Shi",
+      "Qingyun Lu",
+      "WU Xiao-gang",
+      "Song Xue",
+      "Qiwei Li"
+    ],
+    "doi": "10.1016/j.neulet.2016.05.062",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.neulet.2016.05.062",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2467526041",
+    "openalex_id": "https://openalex.org/W2467526041",
+    "openalex_author_id": "https://openalex.org/A5101422761",
+    "cited_by_count": 39,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101422761）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_ad16c55ad164dc62",
+    "global_record_id": "a486a1360af64bb1",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "scholar_ids": [
+      "panorama_99955a03b9d9"
+    ],
+    "scholar_names": [
+      "薛松"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_ad16c55ad164dc62"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "薛松",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "薛松：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "The dissociable neural dynamics of cognitive conflict and emotional conflict control: An ERP study",
+    "title_en": "The dissociable neural dynamics of cognitive conflict and emotional conflict control: An ERP study",
+    "title_zh": "认知冲突和情绪冲突控制的分离神经动力学：一项 ERP 研究",
+    "year": 2016,
+    "venue": "Neuroscience Letters",
+    "authors": [
+      "Song Xue",
+      "Yu Li",
+      "Xia Kong",
+      "Qiaolin He",
+      "Jia Liu",
+      "Jiang Qiu"
+    ],
+    "doi": "10.1016/j.neulet.2016.03.020",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.neulet.2016.03.020",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2299981438",
+    "openalex_id": "https://openalex.org/W2299981438",
+    "openalex_author_id": "https://openalex.org/A5101422761",
+    "cited_by_count": 37,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [
+      "脑机接口与神经解码",
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101422761）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_e3fffe82c2181fb3",
+    "global_record_id": "c86d84efa2d4d0b9",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "scholar_ids": [
+      "panorama_99955a03b9d9",
+      "panorama_jiang_qiu"
+    ],
+    "scholar_names": [
+      "薛松",
+      "邱江"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_e3fffe82c2181fb3"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "薛松",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_jiang_qiu": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "邱江",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "薛松：情感脑电与多模态生理信号",
+      "邱江：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "The dissociable neural dynamics of cognitive conflict and emotional conflict control: An ERP study. Neuroscience Letters",
+    "title_en": "The dissociable neural dynamics of cognitive conflict and emotional conflict control: An ERP study. Neuroscience Letters",
+    "title_zh": "认知冲突和情绪冲突控制的可分离神经动力学：一项 ERP 研究。神经科学快报",
+    "year": 2016,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "薛松"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "脑机接口与神经解码",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_79c9572e1c1d",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "work_title_group": "0bf00cb7c6c1",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_99955a03b9d9"
+    ],
+    "scholar_names": [
+      "薛松"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_79c9572e1c1d"
+    ],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "薛松",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "9b76b9efa39aac62",
+    "primary_categories_by_scholar": [
+      "薛松：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Amplitude of low-frequency oscillations associated with emotional conflict control",
+    "title_en": "Amplitude of low-frequency oscillations associated with emotional conflict control",
+    "title_zh": "与情绪冲突控制相关的低频振荡幅度",
+    "year": 2016,
+    "venue": "Experimental Brain Research",
+    "authors": [
+      "Song Xue",
+      "Xu Wang",
+      "Jingjing Chang",
+      "Jia Liu",
+      "Jiang Qiu"
+    ],
+    "doi": "10.1007/s00221-016-4660-2",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1007/s00221-016-4660-2",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2346306930",
+    "openalex_id": "https://openalex.org/W2346306930",
+    "openalex_author_id": "https://openalex.org/A5101422761",
+    "cited_by_count": 6,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101422761）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_5533da6190f83fea",
+    "global_record_id": "121104f37207b311",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "scholar_ids": [
+      "panorama_99955a03b9d9"
+    ],
+    "scholar_names": [
+      "薛松"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_5533da6190f83fea"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "薛松",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "薛松：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Frequency-dependent alterations in regional homogeneity in major depression",
+    "title_en": "Frequency-dependent alterations in regional homogeneity in major depression",
+    "title_zh": "重度抑郁症区域同质性的频率依赖性变化",
+    "year": 2016,
+    "venue": "Behavioural Brain Research",
+    "authors": [
+      "Song Xue",
+      "Xu Wang",
+      "Wanqian Wang",
+      "Jia Liu",
+      "Jiang Qiu"
+    ],
+    "doi": "10.1016/j.bbr.2016.03.012",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.bbr.2016.03.012",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2295251998",
+    "openalex_id": "https://openalex.org/W2295251998",
+    "openalex_author_id": "https://openalex.org/A5101422761",
+    "cited_by_count": 41,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101422761）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_c35030cef17185cc",
+    "global_record_id": "8c464c76791abd3b",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "scholar_ids": [
+      "panorama_99955a03b9d9",
+      "panorama_jiang_qiu"
+    ],
+    "scholar_names": [
+      "薛松",
+      "邱江"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_c35030cef17185cc"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "薛松",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_jiang_qiu": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "邱江",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "薛松：情感脑电与多模态生理信号",
+      "邱江：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Electrophysiological correlates related to the conflict adaptation effect in an emotional conflict task. Neuroscience Letters",
+    "title_en": "Electrophysiological correlates related to the conflict adaptation effect in an emotional conflict task. Neuroscience Letters",
+    "title_zh": "电生理学相关性与情绪冲突任务中的冲突适应效应有关。神经科学快报",
+    "year": 2015,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "薛松"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_6b91e9f9fd14",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "work_title_group": "526b72083fbc",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_99955a03b9d9"
+    ],
+    "scholar_names": [
+      "薛松"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_6b91e9f9fd14"
+    ],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "薛松",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "e9fba6fa02beb79e",
+    "primary_categories_by_scholar": [
+      "薛松：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Mother's but not father's education predicts general fluid intelligence in emerging adulthood: Behavioral and neuroanatomical evidence",
+    "title_en": "Mother's but not father's education predicts general fluid intelligence in emerging adulthood: Behavioral and neuroanatomical evidence",
+    "title_zh": "母亲而非父亲的教育可以预测成年初期的一般流体智力：行为和神经解剖学证据",
+    "year": 2015,
+    "venue": "Human Brain Mapping",
+    "authors": [
+      "Feng Kong",
+      "Zhencai Chen",
+      "Song Xue",
+      "Xu Wang",
+      "Jia Liu"
+    ],
+    "doi": "10.1002/hbm.22934",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1002/hbm.22934",
+    "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hbm.22934",
+    "source_url": "https://openalex.org/W1850258238",
+    "openalex_id": "https://openalex.org/W1850258238",
+    "openalex_author_id": "https://openalex.org/A5101422761",
+    "cited_by_count": 48,
+    "abstract_en": "Lower parental education impairs cognitive abilities of their offspring such as general fluid intelligence dependent on the prefrontal cortex (PFC), but the independent contribution of mother's and father's education is unknown. We used an individual difference approach to test whether mother's and father's education independently affected general fluid intelligence in emerging adulthood at both the behavioral and neural level. Behaviorally, mother's but not father's education accounted for unique variance in general fluid intelligence in emerging adulthood (assessed by the Raven's advanced progressive matrices). Neurally, the whole-brain correlation analysis revealed that the regional gray matter volume (rGMV) in the medial PFC was related to both mother's education and general fluid intelligence but not father's education. Furthermore, after controlling for mother's education, the association between general fluid intelligence and the rGMV in medial PFC was no longer significant, indicating that mother's education plays an important role in influencing the structure of the medial PFC associated with general fluid intelligence. Taken together, our study provides the first behavioral and neural evidence that mother's education is a more important determinant of general cognitive ability in emerging adulthood than father's education.",
+    "abstract_zh": "父母教育程度较低会损害后代的认知能力，例如依赖于前额皮质（PFC）的一般流体智力，但母亲和父亲教育的独立贡献尚不清楚。我们使用个体差异方法来测试母亲和父亲的教育是否在行为和神经水平上独立影响成年初期的一般流体智力。在行为上，母亲的教育而非父亲的教育解释了成年初期一般流体智力的独特差异（通过乌鸦先进的渐进矩阵评估）。在神经方面，全脑相关性分析表明内侧 PFC 中的区域灰质体积 (rGMV) 相关......",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101422761）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_96fcd57c52a631a1",
+    "global_record_id": "8cf43f2c16ea9e6e",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "scholar_ids": [
+      "panorama_99955a03b9d9"
+    ],
+    "scholar_names": [
+      "薛松"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_96fcd57c52a631a1"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "薛松",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "薛松：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Dispositional mindfulness and perceived stress: The role of emotional intelligence",
+    "title_en": "Dispositional mindfulness and perceived stress: The role of emotional intelligence",
+    "title_zh": "性格正念和感知压力：情商的作用",
+    "year": 2015,
+    "venue": "Personality and Individual Differences",
+    "authors": [
+      "Xueming Bao",
+      "Song Xue",
+      "Feng Kong"
+    ],
+    "doi": "10.1016/j.paid.2015.01.007",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.paid.2015.01.007",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W1986874329",
+    "openalex_id": "https://openalex.org/W1986874329",
+    "openalex_author_id": "https://openalex.org/A5101422761",
+    "cited_by_count": 228,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101422761）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_a88798967b62064d",
+    "global_record_id": "c55039828311446c",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "scholar_ids": [
+      "panorama_99955a03b9d9"
+    ],
+    "scholar_names": [
+      "薛松"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_a88798967b62064d"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "薛松",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "薛松：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Psychometric Properties of the Chinese Version of the Fear of Negative Evaluation Scale-Brief (BFNE) and the BFNE-Straightforward for Middle School Students",
+    "title_en": "Psychometric Properties of the Chinese Version of the Fear of Negative Evaluation Scale-Brief (BFNE) and the BFNE-Straightforward for Middle School Students",
+    "title_zh": "中文版负面评价恐惧量表(BFNE)和中学生BFNE-Straightforward的心理测量学特性",
+    "year": 2015,
+    "venue": "PLoS ONE",
+    "authors": [
+      "Jia Wei",
+      "Chunyu Zhang",
+      "Yadan Li",
+      "Song Xue",
+      "Jinfu Zhang"
+    ],
+    "doi": "10.1371/journal.pone.0115948",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1371/journal.pone.0115948",
+    "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0115948&type=printable",
+    "source_url": "https://openalex.org/W2170838256",
+    "openalex_id": "https://openalex.org/W2170838256",
+    "openalex_author_id": "https://openalex.org/A5101422761",
+    "cited_by_count": 28,
+    "abstract_en": "BACKGROUND: The 12-item brief version of the Fear of Negative Evaluation Scale (BFNE) is one of the most widely used instruments to assess fear of negative evaluation. Recent evidence strongly supports the version composed of 8 straightforward items (BFNE-S), which possessesstronger psychometric properties. The purpose of the current study is to examine the psychometric prop-erties of the Chinese versions of the BFNE and BFNE-S for middle school students. METHODOLOGY: A total of 1009 middle school students were recruited in this study. The BFNE, the BFNE-S, the Friedman-Bendas Text Anxiety Scale (FBTAS), and the Social Anxiety Scale (SAS) were administered to 497 participants, and 52 participants were re-tested after four weeks. The BFNE, the BFNE-S, the Rosenberg Self-Esteem Scale (RSES), and the Balanced Inventory of Desirable Responding (BIDR) wereadministered to 492 participants. The BFNE and BFNE-S significantly cor-related with all the scales, supporting their convergent, divergent and concurrent validity. PRINCIPAL FINDINGS: The Cronbach's alpha of the BFNE (BFNE-S) was 0.864 (0.867) with 497 par-ticipants and 0.886 (0.844) with 492 participants, and the test-retest reliability coefficient was 0.791 (0.855) (ICC). Although the EFA identified a two-factor solution in which the 8 straightfor-ward items loaded on one factor and the 4 reversed items loaded on the other, the CFA, using a random intercept model to control the wording effect, supported a unidimensional factor struc-ture of the BFNE. Both EFA and CFA supported the unidimensional assumption of the BFNE-S. The correlations of the BFNE and BFNE-S were 0.929 and 0.952 in two samples. CONCLUSIONS: The Chinese versions of the BFNE and BFNE-S demonstrate adequate psychometric properties for assessing fear of negative evaluation. The results support their use among the Chinese middle school students. Considering its greater parsimony and excellent reliability and validity, the BFNE-S is a better tool.",
+    "abstract_zh": "背景：包含 12 项的简短版本的负面评价恐惧量表 (BFNE) 是最广泛使用的评估负面评价恐惧的工具之一。最近的证据强烈支持由 8 个简单项目组成的版本 (BFNE-S)，它具有更强的心理测量特性。本研究的目的是检验中文版 BFNE 和 BFNE-S 对中学生的心理测量特性。方法：本研究共招募了1009名中学生。对 497 名参与者进行了 BFNE、BFNE-S、弗里德曼-本达斯文本焦虑量表 (FBTAS) 和社交焦虑量表 (SAS)，其中 52 名参与者在 4 周后重新进行了测试。 BFNE，...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101422761）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_2072a6beed8c7f8c",
+    "global_record_id": "a5dbd1053b7039ea",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "scholar_ids": [
+      "panorama_99955a03b9d9"
+    ],
+    "scholar_names": [
+      "薛松"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_2072a6beed8c7f8c"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "薛松",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "薛松：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "A voxel-based morphometry study of regional gray and white matter correlate of self-disclosure",
+    "title_en": "A voxel-based morphometry study of regional gray and white matter correlate of self-disclosure",
+    "title_zh": "基于体素的形态测量学研究区域灰质和白质与自我表露的相关性",
+    "year": 2014,
+    "venue": "Social Neuroscience",
+    "authors": [
+      "Shanshan Wang",
+      "Dongtao Wei",
+      "Wenfu Li",
+      "Haijiang Li",
+      "Kangcheng Wang",
+      "Song Xue",
+      "Qinglin Zhang",
+      "Jiang Qiu"
+    ],
+    "doi": "10.1080/17470919.2014.925502",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1080/17470919.2014.925502",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2139105188",
+    "openalex_id": "https://openalex.org/W2139105188",
+    "openalex_author_id": "https://openalex.org/A5101422761",
+    "cited_by_count": 12,
+    "abstract_en": "Self-disclosure is an important performance in human social communication. Generally, an individual is likely to have a good physical and mental health if he is prone to self-disclosure under stressful life events. However, as for now, little is known about the neural structure associated with self-disclosure. Therefore, in this study, we used voxel-based morphometry to explore regional gray matter volume (rGMV) and white matter volume (rWMV) associated with self-disclosure measured by the Jourard Self-disclosure Questionnaire in a large sample of college students. Results showed that individual self-disclosure was significantly and positively associated with rGMV of the left postcentral gyrus, which might be related to strengthen individual's ability of body feeling; while self-disclosure was significantly and negatively associated with rGMV of the right orbitofrontal cortex (OFC), which might be involved in increased positive emotion experience seeking (intrinsically rewarding). In addition, individual self-disclosure was also associated with smaller rWMV in the right inferior parietal lobule (IPL). These findings suggested a biological basis for individual self-disclosure, distributed across different gray and white matter areas of the brain.",
+    "abstract_zh": "自我表露是人类社会交往的重要表现。一般来说，如果一个人在压力生活事件下易于自我表露，他的身心健康可能会良好。然而，就目前而言，人们对与自我表露相关的神经结构知之甚少。因此，在本研究中，我们使用基于体素的形态测量法来探索与 Jourard 自我表露问卷测量的大样本大学生自我表露相关的区域灰质体积 (rGMV) 和白质体积 (rWMV)。结果表明，个体自我表露与左侧中央后回rGMV显着正相关，这可能与加强个体自我暴露有关。",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101422761）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_5aa97c2c06eb3eb3",
+    "global_record_id": "3446de8b582f1e16",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "scholar_ids": [
+      "panorama_99955a03b9d9"
+    ],
+    "scholar_names": [
+      "薛松"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_5aa97c2c06eb3eb3"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "薛松",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "薛松：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Electrophysiological correlates related to the conflict adaptation effect in an emotional conflict task",
+    "title_en": "Electrophysiological correlates related to the conflict adaptation effect in an emotional conflict task",
+    "title_zh": "情绪冲突任务中与冲突适应效应相关的电生理相关性",
+    "year": 2014,
+    "venue": "Neuroscience Letters",
+    "authors": [
+      "Song Xue",
+      "Guofang Ren",
+      "Xia Kong",
+      "Jia Liu",
+      "Jiang Qiu"
+    ],
+    "doi": "10.1016/j.neulet.2014.10.019",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.neulet.2014.10.019",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2042321701",
+    "openalex_id": "https://openalex.org/W2042321701",
+    "openalex_author_id": "https://openalex.org/A5101422761",
+    "cited_by_count": 24,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101422761）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_1219f2db7e3d6214",
+    "global_record_id": "a3e9d912711e3526",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "scholar_ids": [
+      "panorama_99955a03b9d9"
+    ],
+    "scholar_names": [
+      "薛松"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_1219f2db7e3d6214"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "薛松",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "薛松：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Neuroticism and extraversion mediate the association between loneliness and the dorsolateral prefrontal cortex",
+    "title_en": "Neuroticism and extraversion mediate the association between loneliness and the dorsolateral prefrontal cortex",
+    "title_zh": "神经质和外向性介导孤独感与背外侧前额叶皮层之间的关联",
+    "year": 2014,
+    "venue": "Experimental Brain Research",
+    "authors": [
+      "Xia Kong",
+      "Dongtao Wei",
+      "Wenfu Li",
+      "Lingli Cun",
+      "Song Xue",
+      "Qinglin Zhang",
+      "Jiang Qiu"
+    ],
+    "doi": "10.1007/s00221-014-4097-4",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1007/s00221-014-4097-4",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W1991406526",
+    "openalex_id": "https://openalex.org/W1991406526",
+    "openalex_author_id": "https://openalex.org/A5101422761",
+    "cited_by_count": 73,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101422761）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_e4c92ad3e1bfb32e",
+    "global_record_id": "b4de7942da18a32e",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "scholar_ids": [
+      "panorama_99955a03b9d9",
+      "panorama_jiang_qiu"
+    ],
+    "scholar_names": [
+      "薛松",
+      "邱江"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_e4c92ad3e1bfb32e"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "薛松",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      },
+      "panorama_jiang_qiu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "邱江",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "薛松：脑电基础模型与通用解码",
+      "邱江：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Extraversion mediates the relationship between structural variations in the dorsolateral prefrontal cortex and social well-being",
+    "title_en": "Extraversion mediates the relationship between structural variations in the dorsolateral prefrontal cortex and social well-being",
+    "title_zh": "外向性调节背外侧前额叶皮层的结构变化与社会福祉之间的关系",
+    "year": 2014,
+    "venue": "NeuroImage",
+    "authors": [
+      "Feng Kong",
+      "Siyuan Hu",
+      "Song Xue",
+      "Yiying Song",
+      "Jia Liu"
+    ],
+    "doi": "10.1016/j.neuroimage.2014.10.062",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.neuroimage.2014.10.062",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2013146000",
+    "openalex_id": "https://openalex.org/W2013146000",
+    "openalex_author_id": "https://openalex.org/A5101422761",
+    "cited_by_count": 58,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101422761）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_d472faffde0b2fbc",
+    "global_record_id": "07267ef68cecfd81",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "scholar_ids": [
+      "panorama_99955a03b9d9"
+    ],
+    "scholar_names": [
+      "薛松"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_d472faffde0b2fbc"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "薛松",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "薛松：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Positive emotion modulates cognitive control: An event‐related potentials study",
+    "title_en": "Positive emotion modulates cognitive control: An event‐related potentials study",
+    "title_zh": "积极情绪调节认知控制：事件相关电位研究",
+    "year": 2013,
+    "venue": "Scandinavian Journal of Psychology",
+    "authors": [
+      "Song Xue",
+      "Jingjing Cui",
+      "Kangcheng Wang",
+      "Songyan Zhang",
+      "Jiang Qiu",
+      "Yuejia Luo"
+    ],
+    "doi": "10.1111/sjop.12031",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1111/sjop.12031",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W1965517420",
+    "openalex_id": "https://openalex.org/W1965517420",
+    "openalex_author_id": "https://openalex.org/A5101422761",
+    "cited_by_count": 57,
+    "abstract_en": "There is substantial evidence to indicate that negative emotion can modulate cognitive control processing. However, only a few studies have investigated this effect with positive emotion. Therefore, the present study explored the electrophysiological correlates of the impact of positive emotional stimuli on cognitive control, using event-related potentials (ERPs). Sixteen healthy young adults completed a modified Simon task (Simon, 1969). Behavioral data indicated that reaction times were faster for positive emotional stimuli than for neutral emotional stimuli in the incongruent condition, but not in the congruent condition, which suggested that positive emotion expedited conflict resolution. The ERP data showed that two negative ERP components (N300-400 and N450-550) were associated with the positive emotional stimuli in the incongruent minus congruent condition. It is suggested that these components may respectively be related to the conflict monitoring (N300-400) and response selection (N450-550) stages of cognitive control processing. Overall, our results indicated that positive emotion could facilitate cognitive control processing. These results are in line with the neuropsychological theory, according to which, positive emotion could modulate cognitive control mediated by increased dopamine levels in frontal brain areas.",
+    "abstract_zh": "有大量证据表明负面情绪可以调节认知控制处理。然而，只有少数研究调查了积极情绪的这种影响。因此，本研究利用事件相关电位（ERP）探索积极情绪刺激对认知控制影响的电生理相关性。十六名健康的年轻人完成了修改后的西蒙任务（Simon，1969）。行为数据表明，在不一致条件下，积极情绪刺激的反应时间比中性情绪刺激快，但在一致条件下则不然，这表明积极情绪加速了冲突的解决。 ERP 数据显示，两个负 ERP 成分...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "脑机接口与神经解码",
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101422761）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_78c8c49128448563",
+    "global_record_id": "b46d0b2caac3b489",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "scholar_ids": [
+      "panorama_99955a03b9d9",
+      "panorama_jiang_qiu"
+    ],
+    "scholar_names": [
+      "薛松",
+      "邱江"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_78c8c49128448563"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "薛松",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_jiang_qiu": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "邱江",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "薛松：情感脑电与多模态生理信号",
+      "邱江：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Positive emotion modulates cognitive control: An event-related potentials study. Scandinavian Journal of Psychology",
+    "title_en": "Positive emotion modulates cognitive control: An event-related potentials study. Scandinavian Journal of Psychology",
+    "title_zh": "积极情绪调节认知控制：事件相关电位研究。斯堪的纳维亚心理学杂志",
+    "year": 2013,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "薛松"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_d93f493c2c02",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "work_title_group": "a382a46ee806",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_99955a03b9d9"
+    ],
+    "scholar_names": [
+      "薛松"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_d93f493c2c02"
+    ],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "薛松",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "06585269d4be1586",
+    "primary_categories_by_scholar": [
+      "薛松：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Neural time course of emotional conflict control: An ERP study",
+    "title_en": "Neural time course of emotional conflict control: An ERP study",
+    "title_zh": "情绪冲突控制的神经时间过程：一项 ERP 研究",
+    "year": 2013,
+    "venue": "Neuroscience Letters",
+    "authors": [
+      "Yimo Shen",
+      "Song Xue",
+      "Kangcheng Wang",
+      "Jiang Qiu"
+    ],
+    "doi": "10.1016/j.neulet.2013.02.032",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.neulet.2013.02.032",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2076132124",
+    "openalex_id": "https://openalex.org/W2076132124",
+    "openalex_author_id": "https://openalex.org/A5101422761",
+    "cited_by_count": 57,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [
+      "脑机接口与神经解码",
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101422761）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_aa00977f43890882",
+    "global_record_id": "b0998f4b992da6c0",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "scholar_ids": [
+      "panorama_99955a03b9d9",
+      "panorama_jiang_qiu"
+    ],
+    "scholar_names": [
+      "薛松",
+      "邱江"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_aa00977f43890882"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "薛松",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_jiang_qiu": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "邱江",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "薛松：情感脑电与多模态生理信号",
+      "邱江：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Neural time course of emotional conflict control: An ERP study. Neuroscience Letters",
+    "title_en": "Neural time course of emotional conflict control: An ERP study. Neuroscience Letters",
+    "title_zh": "情绪冲突控制的神经时间过程：一项 ERP 研究。神经科学快报",
+    "year": 2013,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "薛松"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "脑机接口与神经解码",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_99955a03b9d9_c608fb5fb664",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_99955a03b9d9",
+    "scholar_name": "薛松",
+    "work_title_group": "7d66cfcc3eb5",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_99955a03b9d9"
+    ],
+    "scholar_names": [
+      "薛松"
+    ],
+    "source_record_ids": [
+      "panorama_99955a03b9d9_c608fb5fb664"
+    ],
+    "scholar_categories": {
+      "panorama_99955a03b9d9": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "薛松",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "e1fd339143ed3f6d",
+    "primary_categories_by_scholar": [
+      "薛松：情感脑电与多模态生理信号"
+    ]
+  }
+]

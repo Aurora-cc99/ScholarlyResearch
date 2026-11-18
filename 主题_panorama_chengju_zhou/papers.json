@@ -1,157 +1,2197 @@
-{
-  "scholar": {
-    "name_zh": "周成菊",
-    "name_en": "Chengju Zhou",
-    "affiliation": "华南师范大学",
-    "identity_sources": [
-      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+[
+  {
+    "title": "基于伪节点交叉注意力的远程步态情绪识别. 软件导刊",
+    "title_en": "基于伪节点交叉注意力的远程步态情绪识别. 软件导刊",
+    "title_zh": "基于伪节点交叉注意力的远程步态情绪识别. 软件导刊",
+    "year": 2026,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "Chengju Zhou"
     ],
-    "official_homepages": [
-      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "情感计算与脑电方向",
+      "情感计算与情绪理解"
     ],
-    "coverage": {
-      "scope": "2025–2026主题筛选与全量书目扩展",
-      "status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
-      "coverage_status": "仅有代表论文或项目级记录；个人全历史待补核",
-      "available_record_count": 2,
-      "bulk_source_record_count": 0,
-      "themes": [
-        "情感计算与脑电方向"
-      ]
-    },
-    "coverage_notes": "该目录与五位基线学者使用同一论文/资源/分类输出契约。‘可用记录数’表示本轮已取得并保留的书目，不等于未经消歧的个人终身全集；身份待核验、论文团队和同名风险见候选筛选证据。",
-    "id": "panorama_chengju_zhou",
-    "folder": "主题_panorama_chengju_zhou",
-    "classification": {
-      "method": "按题名及现有项目、资源说明进行主题粗分，用于阅读导航；未逐篇审阅全文，不代表学者官方分类。每条书目只设一个主类别，跨方向信息保留在辅助标签中。",
-      "categories": [
-        {
-          "id": "eeg_foundation",
-          "label": "脑电基础模型与通用解码",
-          "description": "EEG基础模型、跨任务/跨设备泛化、预训练与脑信号解码。",
-          "count": 0
-        },
-        {
-          "id": "eeg_affect",
-          "label": "情感脑电与多模态生理信号",
-          "description": "脑电情感识别、EEG-fNIRS/EEG-MEG及情感计算应用。",
-          "count": 2
-        },
-        {
-          "id": "eeg_benchmark",
-          "label": "脑电基准、数据与评测",
-          "description": "脑电基础模型基准、数据集、可复现评估与跨数据集比较。",
-          "count": 0
-        }
-      ],
-      "review": {
-        "status": "theme_candidate",
-        "source_status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
-        "primary_theme": "脑电情感计算与脑电大模型"
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_be62ab26c845",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "情感计算与脑电方向"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "work_title_group": "3dc1f1fe213d",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_be62ab26c845"
+    ],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "周成菊",
+        "secondary_tags": [
+          "情感计算与脑电方向"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
       }
     },
-    "counts": {
-      "bibliographic_records": 2,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [
-        2025,
-        2026
-      ],
-      "unknown_year": 0
-    }
+    "global_record_id": "5bdff931ecb779ff",
+    "primary_categories_by_scholar": [
+      "周成菊：情感脑电与多模态生理信号"
+    ]
   },
-  "papers": [
-    {
-      "title": "基于伪节点交叉注意力的远程步态情绪识别. 软件导刊",
-      "title_en": "基于伪节点交叉注意力的远程步态情绪识别. 软件导刊",
-      "title_zh": "基于伪焦点集中焦点的远程步态情绪识别。 软件导刊",
-      "year": 2026,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "Chengju Zhou"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "情感计算与脑电方向",
-        "情感计算与脑电方向"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_chengju_zhou_be62ab26c845",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "情感计算与脑电方向"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_chengju_zhou",
-      "scholar_name": "周成菊",
-      "work_title_group": "3dc1f1fe213d",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+  {
+    "title": "一种步态情绪识别方法、系统、设备及介质(发明专利,申请)",
+    "title_en": "一种步态情绪识别方法、系统、设备及介质(发明专利,申请)",
+    "title_zh": "一种步态情绪识别方法、系统、设备及介质(发明专利,申请)",
+    "year": 2025,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "Chengju Zhou"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "情感计算与脑电方向",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "人工校订的中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_35e6f716289d",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "情感计算与脑电方向"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "work_title_group": "598efbac858d",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_35e6f716289d"
+    ],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "周成菊",
+        "secondary_tags": [
+          "情感计算与脑电方向"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "一种步态情绪识别方法、系统、设备及介质(发明专利,申请)",
-      "title_en": "一种步态情绪识别方法、系统、设备及介质(发明专利,申请)",
-      "title_zh": "一种步态情绪识别方法、系统、设备及介质(发明专利,申请)",
-      "year": 2025,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "Chengju Zhou"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "情感计算与脑电方向",
-        "情感计算与脑电方向"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_chengju_zhou_35e6f716289d",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "情感计算与脑电方向"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_chengju_zhou",
-      "scholar_name": "周成菊",
-      "work_title_group": "598efbac858d",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
-    }
-  ]
-}
+    "global_record_id": "ad3148c86ad2431d",
+    "primary_categories_by_scholar": [
+      "周成菊：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Valid Post-Contextual Bandit Inference",
+    "title_en": "Valid Post-Contextual Bandit Inference",
+    "title_zh": "有效的后上下文强盗推理",
+    "year": 2025,
+    "venue": "SSRN Electronic Journal",
+    "authors": [
+      "Ramon Van den Akker",
+      "Bas J. M. Werker",
+      "Bo Zhou"
+    ],
+    "doi": "10.2139/ssrn.5261137",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.2139/ssrn.5261137",
+    "pdf_url": "https://arxiv.org/pdf/2505.13897",
+    "source_url": "https://openalex.org/W4410534011",
+    "openalex_id": "https://openalex.org/W4410534011",
+    "openalex_author_id": "https://openalex.org/A5100335184",
+    "cited_by_count": 1,
+    "abstract_en": "Contextual multi-armed bandits (CMAB) are increasingly used as adaptively sampled experiments, after which researchers test hypotheses about treatment effects. We derive the Hájek-Le Cam limit experiment for multi-armed contextual bandits under equal-arms (weak-signal) asymptotics. It is Locally Asymptotically Quadratic, but not a (mixed) Gaussian shift experiment. Girsanov's theorem gives it a structural representation in stochastic differential equations. Together with a general weak convergence result, this yields the asymptotic null distribution and local asymptotic power of often-used test statistics. Two kinds of nuisance parameters threaten size control: the common reward level of the arms of interest and the rewards of the arms not of interest. The first threat is removed by translation-invariant sampling. We propose Regularized Translation-Invariant (RTI) versions of Thompson, tempered-greedy, tempered-(Lin)UCB, and exploration sampling. The second threat calls for appropriate pivots. The structural representation of the limit experiment is key to overcome the inferential challenges arising from adaptive sampling. Simulations corroborate the theory.",
+    "abstract_zh": "上下文多臂老虎机 (CMAB) 越来越多地用作自适应采样实验，之后研究人员测试有关治疗效果的假设。我们推导了等臂（弱信号）渐近下多臂上下文老虎机的 Hájek-Le Cam 极限实验。它是局部渐近二次实验，但不是（混合）高斯平移实验。吉尔萨诺夫定理给出了随机微分方程的结构表示。与一般的弱收敛结果一起，这产生了常用检验统计量的渐近零分布和局部渐近幂。有两种令人讨厌的参数威胁着规模控制：感兴趣的武器的共同奖励水平和不......的武器的奖励水平",
+    "abstract_source": "arxiv_api",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100335184）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_03867939722c0d79",
+    "global_record_id": "474822f11e050853",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_03867939722c0d79"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周成菊",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周成菊：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Spectral conditions implying the existence of doubly chorded cycles without or with constraints",
+    "title_en": "Spectral conditions implying the existence of doubly chorded cycles without or with constraints",
+    "title_zh": "暗示存在无约束或有约束的双弦周期的谱条件",
+    "year": 2024,
+    "venue": "arXiv (Cornell University)",
+    "authors": [
+      "Leyou Xu",
+      "Bo Zhou"
+    ],
+    "doi": "10.48550/arxiv.2406.17820",
+    "dblp_key": "",
+    "paper_url": "http://arxiv.org/abs/2406.17820",
+    "pdf_url": "https://arxiv.org/pdf/2406.17820",
+    "source_url": "https://openalex.org/W4400104316",
+    "openalex_id": "https://openalex.org/W4400104316",
+    "openalex_author_id": "https://openalex.org/A5100335184",
+    "cited_by_count": 1,
+    "abstract_en": "What spectral conditions imply a graph contains a chorded cycle? This question was asked by R.J. Gould in 2022. We answer two modified versions of Gould's question by giving tight spectral conditions that imply the existence of doubly chorded cycle, and a doubly chorded cycle with two chords incident to a vertex, respectively.",
+    "abstract_zh": "什么光谱条件意味着图包含弦环？这个问题是由 R.J. 提出的。古尔德在 2022 年。我们通过给出严格的谱条件来回答古尔德问题的两个修改版本，这些条件分别暗示双弦循环的存在，以及两个弦入射到顶点的双弦循环。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100335184）",
+    "status": "预印本记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_17e09d248a483bff",
+    "global_record_id": "4fe3acbb0115e8a8",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_17e09d248a483bff"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周成菊",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周成菊：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Disproof of a Conjecture on the Edge Mostar Index",
+    "title_en": "Disproof of a Conjecture on the Edge Mostar Index",
+    "title_zh": "边缘莫斯塔尔指数猜想的反证",
+    "year": 2024,
+    "venue": "Utilitas Mathematica",
+    "authors": [
+      "Fazal Hayat",
+      "Shou‐Jun Xu",
+      "Bo Zhou"
+    ],
+    "doi": "10.61091/um121-03",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.61091/um121-03",
+    "pdf_url": "https://combinatorialpress.com/article/um/Volume%20121/disproof-of-a-conjecture-on-the-edge-mostar-index.pdf",
+    "source_url": "https://openalex.org/W4406163648",
+    "openalex_id": "https://openalex.org/W4406163648",
+    "openalex_author_id": "https://openalex.org/A5100335184",
+    "cited_by_count": 1,
+    "abstract_en": "For a connected graph \\(G\\), the edge Mostar index \\(Mo_e(G)\\) is defined as \\(Mo_e(G)=\\sum\\limits_{e=uv \\in E(G)}|m_u(e|G) - m_v(e|G)|\\), where \\(m_u(e|G)\\) and \\(m_v(e|G)\\) are respectively, the number of edges of \\(G\\) lying closer to vertex \\(u\\) than to vertex \\(v\\) and the number of edges of \\(G\\) lying closer to vertex \\(v\\) than to vertex \\(u\\). We determine a sharp upper bound for the edge Mostar index on bicyclic graphs and identify the graphs that achieve the bound, which disproves a conjecture proposed by Liu et al. [Iranian J. Math. Chem. 11(2) (2020) 95--106].",
+    "abstract_zh": "对于连通图 \\(G\\)，边莫斯塔尔指数 \\(Mo_e(G)\\) 定义为 \\(Mo_e(G)=\\sum\\limits_{e=uv \\in E(G)}|m_u(e|G) - m_v(e|G)|\\)，其中 \\(m_u(e|G)\\) 和 \\(m_v(e|G)\\) 分别是 \\(G\\) 靠近的边数到顶点 \\(u\\) 的距离比到顶点 \\(v\\) 的距离要多，并且 \\(G\\) 距离顶点 \\(v\\) 的边数比距离顶点 \\(u\\) 的距离更近。我们确定了双环图上边缘莫斯塔尔指数的尖锐上限，并识别了达到该界限的图，这反驳了 Liu 等人提出的猜想。 [伊朗 J.数学。化学。 11（2）（2020）95--106]。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100335184）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_3cba141c63095425",
+    "global_record_id": "811546e6bc71b626",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_3cba141c63095425"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周成菊",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周成菊：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Spend More to Save More (SM2): An Energy-Aware Implementation of Successive Halving for Sustainable Hyperparameter Optimization",
+    "title_en": "Spend More to Save More (SM2): An Energy-Aware Implementation of Successive Halving for Sustainable Hyperparameter Optimization",
+    "title_zh": "花更多钱节省更多（SM2）：连续减半的能源感知实现，以实现可持续的超参数优化",
+    "year": 2024,
+    "venue": "arXiv (Cornell University)",
+    "authors": [
+      "Daniel Geißler",
+      "Bo Zhou",
+      "Sungho Suh",
+      "Paul Lukowicz"
+    ],
+    "doi": "10.48550/arxiv.2412.08526",
+    "dblp_key": "",
+    "paper_url": "http://arxiv.org/abs/2412.08526",
+    "pdf_url": "https://arxiv.org/pdf/2412.08526",
+    "source_url": "https://openalex.org/W4405308849",
+    "openalex_id": "https://openalex.org/W4405308849",
+    "openalex_author_id": "https://openalex.org/A5100335184",
+    "cited_by_count": 5,
+    "abstract_en": "A fundamental step in the development of machine learning models commonly involves the tuning of hyperparameters, often leading to multiple model training runs to work out the best-performing configuration. As machine learning tasks and models grow in complexity, there is an escalating need for solutions that not only improve performance but also address sustainability concerns. Existing strategies predominantly focus on maximizing the performance of the model without considering energy efficiency. To bridge this gap, in this paper, we introduce Spend More to Save More (SM2), an energy-aware hyperparameter optimization implementation based on the widely adopted successive halving algorithm. Unlike conventional approaches including energy-intensive testing of individual hyperparameter configurations, SM2 employs exploratory pretraining to identify inefficient configurations with minimal energy expenditure. Incorporating hardware characteristics and real-time energy consumption tracking, SM2 identifies an optimal configuration that not only maximizes the performance of the model but also enables energy-efficient training. Experimental validations across various datasets, models, and hardware setups confirm the efficacy of SM2 to prevent the waste of energy during the training of hyperparameter configurations.",
+    "abstract_zh": "机器学习模型开发的一个基本步骤通常涉及超参数的调整，这通常会导致多次模型训练运行以找出性能最佳的配置。随着机器学习任务和模型变得越来越复杂，人们对解决方案的需求不断增加，不仅可以提高性能，还可以解决可持续性问题。现有策略主要侧重于最大化模型性能，而不考虑能源效率。为了弥补这一差距，在本文中，我们引入了“多花多省”（SM2），这是一种基于广泛采用的连续减半算法的能量感知超参数优化实现。与包括能量在内的传统方法不同...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "智能芯片与计算系统"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100335184）",
+    "status": "预印本记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_5cdd9b8ac540d186",
+    "global_record_id": "5e944e758aba1dd0",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_5cdd9b8ac540d186"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "周成菊",
+        "secondary_tags": [
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周成菊：脑电基准、数据与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "Maximum values of the edge Mostar index in tricyclic graphs",
+    "title_en": "Maximum values of the edge Mostar index in tricyclic graphs",
+    "title_zh": "三环图中边莫斯塔尔指数的最大值",
+    "year": 2024,
+    "venue": "Filomat",
+    "authors": [
+      "Fazal Hayat",
+      "Shou‐Jun Xu",
+      "Bo Zhou"
+    ],
+    "doi": "10.2298/fil2428967h",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.2298/fil2428967h",
+    "pdf_url": "http://www.doiserbia.nb.rs/ft.aspx?id=0354-51802428967H",
+    "source_url": "https://openalex.org/W4411449285",
+    "openalex_id": "https://openalex.org/W4411449285",
+    "openalex_author_id": "https://openalex.org/A5100335184",
+    "cited_by_count": 1,
+    "abstract_en": "For a graph G, the edge Mostar index of G is the sum of |mu (e|G)-mv (e|G)| over all edges e = uv of G, where mu (e|G) denotes the number of edges of G that have a smaller distance in G to u than to v, and analogously for mv (e|G). This paper mainly studies the problem of determining the graphs that maximize the edge Mostar index among tricyclic graphs. To be specific, we determine a sharp upper bound for the edge Mostar index on tricyclic graphs and identify the graphs that attain the bound.",
+    "abstract_zh": "对于图 G，G 的边莫斯塔尔指数是 |mu (e|G)-mv (e|G)| 之和。在所有边上，e = G 的 uv，其中 mu (e|G) 表示 G 中与 u 的距离小于与 v 的距离的边的数量，对于 mv (e|G) 也类似。本文主要研究三环图中边莫斯塔尔指数最大化的图的确定问题。具体来说，我们确定三环图上边莫斯塔尔指数的尖锐上限，并识别达到该界限的图。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100335184）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_b19e3f34598c93c1",
+    "global_record_id": "3f7415959beef57f",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_b19e3f34598c93c1"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周成菊",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周成菊：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "The Future of Cooperation in Space: Irreconcilable Differences?",
+    "title_en": "The Future of Cooperation in Space: Irreconcilable Differences?",
+    "title_zh": "太空合作的未来：不可调和的分歧？",
+    "year": 2024,
+    "venue": "Oxford University Press eBooks",
+    "authors": [
+      "Bo Zhou",
+      "Wang Guoyu"
+    ],
+    "doi": "10.1093/oxfordhb/9780197582671.013.45",
+    "dblp_key": "",
+    "paper_url": "http://dx.doi.org/10.1093/oxfordhb/9780197582671.013.45",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4392081555",
+    "openalex_id": "https://openalex.org/W4392081555",
+    "openalex_author_id": "https://openalex.org/A5100335184",
+    "cited_by_count": 0,
+    "abstract_en": "Abstract There are basically two schools of thoughts on outer space governance. China and Russia on one side wish to make a binding treaty of non-weaponization and no arms race in space while US-led western states on the other side claim that the weaponization of outer space is unavoidable and instead proposes to develop non-legally binding rules on responsible behaviors. These two views are not necessarily incompatible. A dual-track approach is that all parties agree to the goal of negotiating a binding treaty of non-weaponization and no arms race while encouraging discussions on responsible behaviors that could serve the goal of preventing an arms race in outer space. For that to happen, major powers should accept “mutually assured vulnerability” in space and take the lead in cooperation wherever possible.",
+    "abstract_zh": "摘要 外空治理基本上有两种思想流派。中俄一方面希望达成具有约束力的外空非武器化和不军备竞赛条约，另一方面以美国为首的西方国家则声称外空武器化不可避免，并提议制定不具法律约束力的负责任行为规则。这两种观点并不一定是不相容的。双轨思路是各方同意谈判一项具有约束力的非武器化和军备竞赛条约的目标，同时鼓励讨论有助于防止外空军备竞赛目标的负责任行为。为了实现这一点，主要大国应该接受“相互保证的脆弱......",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100335184）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_c3d93044a87dc2c1",
+    "global_record_id": "eaae9b2d21135e4a",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_c3d93044a87dc2c1"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周成菊",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周成菊：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Semiparametrically Optimal Cointegration Test",
+    "title_en": "Semiparametrically Optimal Cointegration Test",
+    "title_zh": "半参数最优协整检验",
+    "year": 2023,
+    "venue": "RePEc: Research Papers in Economics",
+    "authors": [
+      "Bo Zhou"
+    ],
+    "doi": "10.48550/arxiv.2305.08880",
+    "dblp_key": "",
+    "paper_url": "http://arxiv.org/pdf/2305.08880",
+    "pdf_url": "https://arxiv.org/pdf/2305.08880",
+    "source_url": "https://openalex.org/W4377029492",
+    "openalex_id": "https://openalex.org/W4377029492",
+    "openalex_author_id": "https://openalex.org/A5100335184",
+    "cited_by_count": 0,
+    "abstract_en": "This paper aims to address the issue of semiparametric efficiency for cointegration rank testing in finite-order vector autoregressive models, where the innovation distribution is considered an infinite-dimensional nuisance parameter. Our asymptotic analysis relies on Le Cam's theory of limit experiment, which in this context takes the form of Locally Asymptotically Brownian Functional (LABF). By leveraging the structural version of LABF, an Ornstein-Uhlenbeck experiment, we develop the asymptotic power envelopes of asymptotically invariant tests for both cases with and without a time trend. We propose feasible tests based on a nonparametrically estimated density and demonstrate that their power can achieve the semiparametric power envelopes, making them semiparametrically optimal. We validate the theoretical results through large-sample simulations and illustrate satisfactory size control and excellent power performance of our tests under small samples. In both cases with and without time trend, we show that a remarkable amount of additional power can be obtained from non-Gaussian distributions.",
+    "abstract_zh": "本文旨在解决有限阶向量自回归模型中协整秩检验的半参数效率问题，其中创新分布被视为无限维干扰参数。我们的渐近分析依赖于 Le Cam 的极限实验理论，在这种情况下，该理论采用局部渐近布朗泛函 (LABF) 的形式。通过利用 LABF（Ornstein-Uhlenbeck 实验）的结构版本，我们针对有和没有时间趋势的情况开发了渐近不变检验的渐近功率包络。我们提出基于非参数估计密度的可行测试，并证明它们的功率可以达到半参数功率包络......",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100335184）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_f937e1ce5ba2463f",
+    "global_record_id": "85df626dd1815dfe",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_f937e1ce5ba2463f"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周成菊",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周成菊：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "From Ultimate Energy to Graph Energies",
+    "title_en": "From Ultimate Energy to Graph Energies",
+    "title_zh": "从终极能量到图能量",
+    "year": 2023,
+    "venue": "match Communications in Mathematical and in Computer Chemistry",
+    "authors": [
+      "Jin Cai",
+      "Bo Zhou"
+    ],
+    "doi": "10.46793/match.91-3.769c",
+    "dblp_key": "",
+    "paper_url": "http://dx.doi.org/10.46793/match.91-3.769c",
+    "pdf_url": "https://match.pmf.kg.ac.rs/electronic_versions/Match91/n3/match91n3_769-778.pdf",
+    "source_url": "https://openalex.org/W4390414121",
+    "openalex_id": "https://openalex.org/W4390414121",
+    "openalex_author_id": "https://openalex.org/A5100335184",
+    "cited_by_count": 2,
+    "abstract_en": "A lower bound is given for the ultimate energy, which is applicable to all graph energies. The extremal characterization is provided for the energy and Laplacian energy when the graph is connected.",
+    "abstract_zh": "给出了最终能量的下界，它适用于所有图能量。当图连接时，为能量和拉普拉斯能量提供极值表征。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100335184）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_a3b260a0903424cb",
+    "global_record_id": "936d3bdbbacb5391",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_a3b260a0903424cb"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周成菊",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周成菊：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "On the $α$-spectral radius of hypergraphs",
+    "title_en": "On the $α$-spectral radius of hypergraphs",
+    "title_zh": "关于超图的$α$谱半径",
+    "year": 2023,
+    "venue": "arXiv (Cornell University)",
+    "authors": [
+      "Haiyan Guo",
+      "Bo Zhou",
+      "Bizhu Lin"
+    ],
+    "doi": "10.48550/arxiv.2303.16631",
+    "dblp_key": "",
+    "paper_url": "http://arxiv.org/abs/2303.16631",
+    "pdf_url": "https://arxiv.org/pdf/2303.16631",
+    "source_url": "https://openalex.org/W4361806860",
+    "openalex_id": "https://openalex.org/W4361806860",
+    "openalex_author_id": "https://openalex.org/A5100335184",
+    "cited_by_count": 0,
+    "abstract_en": "For real $α\\in [0,1)$ and a hypergraph $G$, the $α$-spectral radius of $G$ is the largest eigenvalue of the matrix $A_α(G)=αD(G)+(1-α)A(G)$, where $A(G)$ is the adjacency matrix of $G$, which is a symmetric matrix with zero diagonal such that for distinct vertices $u,v$ of $G$, the $(u,v)$-entry of $A(G)$ is exactly the number of edges containing both $u$ and $v$, and $D(G)$ is the diagonal matrix of row sums of $A(G)$. We study the $α$-spectral radius of a hypergraph that is uniform or not necessarily uniform. We propose some local grafting operations that increase or decrease the $α$-spectral radius of a hypergraph. We determine the unique hypergraphs with maximum $α$-spectral radius among $k$-uniform hypertrees, among $k$-uniform unicyclic hypergraphs, and among $k$-uniform hypergraphs with fixed number of pendant edges. We also determine the unique hypertrees with maximum $α$-spectral radius among hypertrees with given number of vertices and edges, the unique hypertrees with the first three largest (two smallest, respectively) $α$-spectral radii among hypertrees with given number of vertices, the unique hypertrees with minimum $α$-spectral radius among the hypertrees that are not $2$-uniform, the unique hypergraphs with the first two largest (smallest, respectively) $α$-spectral radii among unicyclic hypergraphs with given number of vertices, and the unique hypergraphs with maximum $α$-spectral radius among hypergraphs with fixed number of pendant edges.",
+    "abstract_zh": "对于实$α\\in [0,1)$和超图$G$，$G$的$α$谱半径是矩阵$A_α(G)=αD(G)+(1-α)A(G)$的最大特征值，其中$A(G)$是$G$的邻接矩阵，它是一个对角线为零的对称矩阵，因此对于$G$的不同顶点$u,v$， $A(G)$的$(u,v)$项恰好是同时包含$u$和$v$的边数，$D(G)$是$A(G)$的行和的对角矩阵。我们研究均匀或不一定均匀的超图的 $α$ 谱半径。我们提出了一些局部嫁接操作来增加或减少超图的 $α$ 谱半径。我们在$k$-均匀超树、$k$-均匀单环中确定具有最大$α$-谱半径的唯一超图...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100335184）",
+    "status": "预印本记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_0665f1305fe16bc4",
+    "global_record_id": "d0c9f31120db4c74",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_0665f1305fe16bc4"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周成菊",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周成菊：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "On ABC spectral radius of uniform hypergraphs",
+    "title_en": "On ABC spectral radius of uniform hypergraphs",
+    "title_zh": "关于均匀超图的ABC谱半径",
+    "year": 2023,
+    "venue": "arXiv (Cornell University)",
+    "authors": [
+      "Lin, Hongying",
+      "Bo Zhou"
+    ],
+    "doi": "10.48550/arxiv.2303.14929",
+    "dblp_key": "",
+    "paper_url": "http://arxiv.org/abs/2303.14929",
+    "pdf_url": "https://arxiv.org/pdf/2303.14929",
+    "source_url": "https://openalex.org/W4361230269",
+    "openalex_id": "https://openalex.org/W4361230269",
+    "openalex_author_id": "https://openalex.org/A5100335184",
+    "cited_by_count": 0,
+    "abstract_en": "Given a $k$-uniform hypergraph $G$ with vertex set $[n]$ and edge set $E(G)$, the ABC tensor $\\mathcal{ABC}(G)$ of $G$ is the $k$-order $n$-dimensional tensor with \\[ \\mathcal{ABC}(G)_{i_1, \\dots, i_k}= \\begin{cases} \\dfrac{1}{(k-1)!}\\sqrt[k]{\\dfrac{\\sum_{i\\in e}d_{i}-k}{\\prod_{i\\in e}d_{i}}} & \\mbox{if $e\\in E(G)$} 0 & \\mbox{otherwise} \\end{cases} \\] for $i_j\\in [n]$ with $j\\in [k]$, where $d_i$ is the degree of vertex $i$ in $G$. The ABC spectral radius of a uniform hypergraph is the spectral radius of its ABC tensor. We give tight lower and upper bounds for the ABC spectra radius, and determine the maximum ABC spectral radii of uniform hypertrees, uniform non-hyperstar hypertrees and uniform non-power hypertrees of given size, as well as the maximum ABC spectral radii of unicyclic uniform hypergraphs and linear unicyclic uniform hypergraphs of given size, respectively. We also characterize those uniform hypergraphs for which the maxima for the ABC spectral radii are actually attained in all cases.",
+    "abstract_zh": "给定一个具有顶点集 $[n]$ 和边集 $E(G)$ 的 $k$-均匀超图 $G$，$G$ 的 ABC 张量 $\\mathcal{ABC}(G)$ 是 $k$ 阶 $n$ 维张量，其中 \\[ \\mathcal{ABC}(G)_{i_1, \\dots, i_k}= \\begin{cases} \\dfrac{1}{(k-1)!}\\sqrt[k]{\\dfrac{\\sum_{i\\in e}d_{i}-k}{\\prod_{i\\in e}d_{i}}} & \\mbox{if $e\\in E(G)$} 0 & \\mbox{otherwise} \\end{cases} \\] 对于 $i_j\\in [n]$ 和 $j\\in [k]$，其中$d_i$ 是$G$ 中顶点$i$ 的度数。均匀超图的 ABC 谱半径是其 ABC 张量的谱半径。我们给出 ABC 谱半径的严格下限和上限，并确定给定大小的均匀超树、均匀非超星超树和均匀非幂超树的最大 ABC 谱半径，以及...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100335184）",
+    "status": "预印本记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_e4a23198de7d2c37",
+    "global_record_id": "078568580fe37ddd",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_e4a23198de7d2c37"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周成菊",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周成菊：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "On the ABC spectral radius of cactus graphs",
+    "title_en": "On the ABC spectral radius of cactus graphs",
+    "title_zh": "关于仙人掌图的ABC谱半径",
+    "year": 2023,
+    "venue": "Operators and Matrices",
+    "authors": [
+      "Zhi in Du",
+      "Bo Zhou"
+    ],
+    "doi": "10.7153/oam-2023-17-05",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.7153/oam-2023-17-05",
+    "pdf_url": "http://files.ele-math.com/abstracts/oam-17-05-abs.pdf",
+    "source_url": "https://openalex.org/W4365393412",
+    "openalex_id": "https://openalex.org/W4365393412",
+    "openalex_author_id": "https://openalex.org/A5100335184",
+    "cited_by_count": 1,
+    "abstract_en": "Let G be a graph with vertex set V (G) . Denote by d u the degree of vertex u in G . The ABC matrix of G , proposed by Estrada, is the matrix",
+    "abstract_zh": "设 G 是具有顶点集 V (G) 的图。用 d u 表示 G 中顶点 u 的度数。 Estrada 提出的 G 的 ABC 矩阵是",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100335184）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_7423ac809dbaba95",
+    "global_record_id": "2db9291fdc126e00",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_7423ac809dbaba95"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周成菊",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周成菊：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "On Bounded Completeness and The $$L_1$$-Denseness of Likelihood Ratios",
+    "title_en": "On Bounded Completeness and The $$L_1$$-Denseness of Likelihood Ratios",
+    "title_zh": "关于有界完整性和似然比的$$L_1$$-密度",
+    "year": 2023,
+    "venue": "Sankhya A",
+    "authors": [
+      "Marc Hallin",
+      "Bas J. M. Werker",
+      "Bo Zhou"
+    ],
+    "doi": "10.1007/s13171-023-00324-8",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1007/s13171-023-00324-8",
+    "pdf_url": "https://repository.tilburguniversity.edu/bitstreams/0d5be68d-be02-4482-a66c-c27bc46aa80a/download",
+    "source_url": "https://openalex.org/W4386574636",
+    "openalex_id": "https://openalex.org/W4386574636",
+    "openalex_author_id": "https://openalex.org/A5100335184",
+    "cited_by_count": 1,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100335184）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_a5e5c42ea8674fa6",
+    "global_record_id": "9600c38d097eb65b",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_a5e5c42ea8674fa6"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周成菊",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周成菊：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Hybrid Rank-Based Panel Unit Root Tests",
+    "title_en": "Hybrid Rank-Based Panel Unit Root Tests",
+    "title_zh": "基于混合等级的面板单位根检验",
+    "year": 2023,
+    "venue": "SSRN Electronic Journal",
+    "authors": [
+      "Ramon Van den Akker",
+      "Bas J. M. Werker",
+      "Bo Zhou"
+    ],
+    "doi": "10.2139/ssrn.4613034",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.2139/ssrn.4613034",
+    "pdf_url": "https://doi.org/10.2139/ssrn.4613034",
+    "source_url": "https://openalex.org/W4388919512",
+    "openalex_id": "https://openalex.org/W4388919512",
+    "openalex_author_id": "https://openalex.org/A5100335184",
+    "cited_by_count": 1,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100335184）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_78e7448fa5a9f3e7",
+    "global_record_id": "0ea9acf999795585",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_78e7448fa5a9f3e7"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周成菊",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周成菊：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Real-Time Detection of Local No-Arbitrage Violations",
+    "title_en": "Real-Time Detection of Local No-Arbitrage Violations",
+    "title_zh": "实时检测本地无套利违规行为",
+    "year": 2023,
+    "venue": "RePEc: Research Papers in Economics",
+    "authors": [
+      "Torben G. Andersen",
+      "Viktor Todorov",
+      "Bo Zhou"
+    ],
+    "doi": "10.48550/arxiv.2307.10872",
+    "dblp_key": "",
+    "paper_url": "http://arxiv.org/pdf/2307.10872",
+    "pdf_url": "https://arxiv.org/pdf/2307.10872",
+    "source_url": "https://openalex.org/W4385005822",
+    "openalex_id": "https://openalex.org/W4385005822",
+    "openalex_author_id": "https://openalex.org/A5100335184",
+    "cited_by_count": 2,
+    "abstract_en": "This paper focuses on the task of detecting local episodes involving violation of the standard Itô semimartingale assumption for financial asset prices in real time that might induce arbitrage opportunities. Our proposed detectors, defined as stopping rules, are applied sequentially to continually incoming high-frequency data. We show that they are asymptotically exponentially distributed in the absence of Ito semimartingale violations. On the other hand, when a violation occurs, we can achieve immediate detection under infill asymptotics. A Monte Carlo study demonstrates that the asymptotic results provide a good approximation to the finite-sample behavior of the sequential detectors. An empirical application to S&P 500 index futures data corroborates the effectiveness of our detectors in swiftly identifying the emergence of an extreme return persistence episode in real time.",
+    "abstract_zh": "本文重点关注实时检测涉及违反金融资产价格标准伊藤半鞅假设的局部事件的任务，这些事件可能会引发套利机会。我们提出的检测器（定义为停止规则）按顺序应用于连续传入的高频数据。我们证明，在不存在伊藤半鞅违规的情况下，它们呈渐近指数分布。另一方面，当发生违规时，我们可以在填充渐近下实现立即检测。蒙特卡罗研究表明，渐进结果很好地近似了顺序检测器的有限样本行为。标准普尔 500 指数期货数据的实证应用...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100335184）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_62ff341a647785c0",
+    "global_record_id": "85db0ddf36a12bde",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_62ff341a647785c0"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周成菊",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周成菊：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Attacking The Assortativity Coefficient Under A Rewiring Strategy",
+    "title_en": "Attacking The Assortativity Coefficient Under A Rewiring Strategy",
+    "title_zh": "在重新布线策略下攻击选配系数",
+    "year": 2023,
+    "venue": "arXiv (Cornell University)",
+    "authors": [
+      "Shuo Zou",
+      "Bo Zhou",
+      "Qi Xuan"
+    ],
+    "doi": "10.48550/arxiv.2310.08924",
+    "dblp_key": "",
+    "paper_url": "http://arxiv.org/abs/2310.08924",
+    "pdf_url": "https://arxiv.org/pdf/2310.08924",
+    "source_url": "https://openalex.org/W4387687255",
+    "openalex_id": "https://openalex.org/W4387687255",
+    "openalex_author_id": "https://openalex.org/A5100335184",
+    "cited_by_count": 1,
+    "abstract_en": "Degree correlation is an important characteristic of networks, which is usually quantified by the assortativity coefficient. However, concerns arise about changing the assortativity coefficient of a network when networks suffer from adversarial attacks. In this paper, we analyze the factors that affect the assortativity coefficient and study the optimization problem of maximizing or minimizing the assortativity coefficient (r) in rewired networks with $k$ pairs of edges. We propose a greedy algorithm and formulate the optimization problem using integer programming to obtain the optimal solution for this problem. Through experiments, we demonstrate the reasonableness and effectiveness of our proposed algorithm. For example, rewired edges 10% in the ER network, the assortativity coefficient improved by 60%.",
+    "abstract_zh": "度相关性是网络的一个重要特征，通常用配型系数来量化。然而，当网络遭受对抗性攻击时，人们会担心网络的相配系数会发生变化。在本文中，我们分析了影响协同系数的因素，并研究了在具有 $k$ 对边的重连网络中最大化或最小化协同系数 (r) 的优化问题。我们提出了一种贪心算法，并使用整数规划来制定优化问题，以获得该问题的最优解。通过实验，我们证明了所提出算法的合理性和有效性。例如，重新布线边缘 10%...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100335184）",
+    "status": "预印本记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_fc33d55a3cd1f1b1",
+    "global_record_id": "993897471c0d14ad",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_fc33d55a3cd1f1b1"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "周成菊",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周成菊：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Semiparametric testing with highly persistent predictors",
+    "title_en": "Semiparametric testing with highly persistent predictors",
+    "title_zh": "使用高度持久的预测变量进行半参数测试",
+    "year": 2021,
+    "venue": "Journal of Econometrics",
+    "authors": [
+      "Bas J. M. Werker",
+      "Bo Zhou"
+    ],
+    "doi": "10.1016/j.jeconom.2021.03.016",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.jeconom.2021.03.016",
+    "pdf_url": "https://durham-repository.worktribe.com/file/1279490/1/Accepted%20Journal%20Article",
+    "source_url": "https://openalex.org/W3174276646",
+    "openalex_id": "https://openalex.org/W3174276646",
+    "openalex_author_id": "https://openalex.org/A5100335184",
+    "cited_by_count": 6,
+    "abstract_en": "We address the issue of semiparametric efficiency in the bivariate regression problem with a highly persistent predictor, where the joint distribution of the innovations is regarded an infinite-dimensional nuisance parameter. Using a structural representation of the limit experiment and exploiting invariance relationships therein, we construct invariant point-optimal tests for the regression coefficient of interest. This approach naturally leads to a family of feasible tests based on the component-wise ranks of the innovations that can gain considerable power relative to existing tests under non-Gaussian innovation distributions, while behaving equivalently under Gaussianity. When an i.i.d. assumption on the innovations is appropriate for the data at hand, our tests exploit the efficiency gains possible. Moreover, we show by simulation that our test remains well behaved under some forms of conditional heteroskedasticity.",
+    "abstract_zh": "我们使用高度持久的预测器解决双变量回归问题中的半参数效率问题，其中创新的联合分布被视为无限维的干扰参数。使用极限实验的结构表示并利用其中的不变性关系，我们为感兴趣的回归系数构建不变点最优检验。这种方法自然会导致一系列基于创新的组件级别的可行测试，这些测试相对于非高斯创新分布下的现有测试可以获得相当大的能力，同时在高斯性下表现得相当。当 i.i.d.对创新的假设适合...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100335184）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_2e9981021fd843a5",
+    "global_record_id": "719b29bddaaf4f71",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_2e9981021fd843a5"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周成菊",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周成菊：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Volatility Measurement with Pockets of Extreme Return Persistence",
+    "title_en": "Volatility Measurement with Pockets of Extreme Return Persistence",
+    "title_zh": "具有极值回报持续性的波动率测量",
+    "year": 2020,
+    "venue": "Journal of Econometrics",
+    "authors": [
+      "Torben G. Andersen",
+      "Yingying Li",
+      "Viktor Todorov",
+      "Bo Zhou"
+    ],
+    "doi": "10.1016/j.jeconom.2020.11.005",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.jeconom.2020.11.005",
+    "pdf_url": "https://doi.org/10.2139/ssrn.3694403",
+    "source_url": "https://openalex.org/W3127486155",
+    "openalex_id": "https://openalex.org/W3127486155",
+    "openalex_author_id": "https://openalex.org/A5100335184",
+    "cited_by_count": 46,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100335184）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_584fae353912f75b",
+    "global_record_id": "df21deb445bb5abe",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_584fae353912f75b"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周成菊",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周成菊：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Supplemental Appendix to 'A General Semiparametric Approach for LAN, LAMN, and LABF Experiments'",
+    "title_en": "Supplemental Appendix to 'A General Semiparametric Approach for LAN, LAMN, and LABF Experiments'",
+    "title_zh": "“LAN、LAMN 和 LABF 实验的通用半参数方法”的补充附录",
+    "year": 2019,
+    "venue": "SSRN Electronic Journal",
+    "authors": [
+      "Bo Zhou"
+    ],
+    "doi": "10.2139/ssrn.3449967",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.2139/ssrn.3449967",
+    "pdf_url": "https://doi.org/10.2139/ssrn.3449967",
+    "source_url": "https://openalex.org/W4239393155",
+    "openalex_id": "https://openalex.org/W4239393155",
+    "openalex_author_id": "https://openalex.org/A5100335184",
+    "cited_by_count": 0,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100335184）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_07db756559010c29",
+    "global_record_id": "b5f7088621bda661",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_07db756559010c29"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周成菊",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周成菊：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Semiparametrically point-optimal hybrid rank tests for unit roots",
+    "title_en": "Semiparametrically point-optimal hybrid rank tests for unit roots",
+    "title_zh": "单位根的半参数点最优混合秩检验",
+    "year": 2019,
+    "venue": "The Annals of Statistics",
+    "authors": [
+      "Bo Zhou",
+      "Ramon Van den Akker",
+      "Bas J. M. Werker"
+    ],
+    "doi": "10.1214/18-aos1758",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1214/18-aos1758",
+    "pdf_url": "https://projecteuclid.org/journals/annals-of-statistics/volume-47/issue-5/Semiparametrically-point-optimal-hybrid-rank-tests-for-unit-roots/10.1214/18-AOS1758.pdf",
+    "source_url": "https://openalex.org/W3105242480",
+    "openalex_id": "https://openalex.org/W3105242480",
+    "openalex_author_id": "https://openalex.org/A5100335184",
+    "cited_by_count": 11,
+    "abstract_en": "We propose a new class of unit root tests that exploits invariance properties in the Locally Asymptotically Brownian Functional limit experiment associated to the unit root model. The invariance structures naturally suggest tests that are based on the ranks of the increments of the observations, their average and an assumed reference density for the innovations. The tests are semiparametric in the sense that they are valid, that is, have the correct (asymptotic) size, irrespective of the true innovation density. For a correctly specified reference density, our test is point-optimal and nearly efficient. For arbitrary reference densities, we establish a Chernoff–Savage-type result, that is, our test performs as well as commonly used tests under Gaussian innovations but has improved power under other, for example, fat-tailed or skewed, innovation distributions. To avoid nonparametric estimation, we propose a simplified version of our test that exhibits the same asymptotic properties, except for the Chernoff–Savage result that we are only able to demonstrate by means of simulations.",
+    "abstract_zh": "我们提出了一类新的单位根检验，它利用与单位根模型相关的局部渐近布朗函数极限实验中的不变性。不变性结构自然地建议基于观察增量的等级、平均值和假设的创新参考密度的测试。这些检验是半参数的，因为它们是有效的，也就是说，无论真实的创新密度如何，它们都具有正确的（渐近）大小。对于正确指定的参考密度，我们的测试是点最优的并且几乎有效。对于任意参考密度，我们建立了 Chernoff-Savage 型结果，也就是说，我们的测试与常用的测试一样...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100335184）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_02a906c491687c7d",
+    "global_record_id": "ea4df6f956d1f154",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_02a906c491687c7d"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周成菊",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周成菊：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Supplemental Appendix to 'Semiparametrically Point-Optimal Hybrid Rank Tests for Unit Roots'",
+    "title_en": "Supplemental Appendix to 'Semiparametrically Point-Optimal Hybrid Rank Tests for Unit Roots'",
+    "title_zh": "“单位根的半参数点最优混合秩检验”的补充附录",
+    "year": 2018,
+    "venue": "SSRN Electronic Journal",
+    "authors": [
+      "Bo Zhou",
+      "Ramon Van den Akker",
+      "Bas J. M. Werker"
+    ],
+    "doi": "10.2139/ssrn.3197859",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.2139/ssrn.3197859",
+    "pdf_url": "https://doi.org/10.2139/ssrn.3197859",
+    "source_url": "https://openalex.org/W2906704496",
+    "openalex_id": "https://openalex.org/W2906704496",
+    "openalex_author_id": "https://openalex.org/A5100335184",
+    "cited_by_count": 1,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100335184）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_425f0615fcfb46a9",
+    "global_record_id": "d9a197272f638499",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_425f0615fcfb46a9"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周成菊",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周成菊：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "A New Semiparametric Approach for Nonstandard Econometric Problems",
+    "title_en": "A New Semiparametric Approach for Nonstandard Econometric Problems",
+    "title_zh": "解决非标准计量经济学问题的新半参数方法",
+    "year": 2018,
+    "venue": "SSRN Electronic Journal",
+    "authors": [
+      "Bo Zhou"
+    ],
+    "doi": "10.2139/ssrn.3283676",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.2139/ssrn.3283676",
+    "pdf_url": "https://doi.org/10.2139/ssrn.3283676",
+    "source_url": "https://openalex.org/W2976428393",
+    "openalex_id": "https://openalex.org/W2976428393",
+    "openalex_author_id": "https://openalex.org/A5100335184",
+    "cited_by_count": 0,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100335184）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_16fc17c7aab02aed",
+    "global_record_id": "1c077cca00a6cf15",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_16fc17c7aab02aed"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周成菊",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周成菊：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Semiparametric inference for non-LAN models",
+    "title_en": "Semiparametric inference for non-LAN models",
+    "title_zh": "非 LAN 模型的半参数推理",
+    "year": 2017,
+    "venue": "RePEc: Research Papers in Economics",
+    "authors": [
+      "Bo Zhou"
+    ],
+    "doi": "",
+    "dblp_key": "",
+    "paper_url": "https://repository.tilburguniversity.edu/bitstreams/42988684-29c8-456e-a4fa-97bbac1ac35e/download",
+    "pdf_url": "https://research.tilburguniversity.edu/en/publications/0ea4fd8a-937d-4c19-8f77-f74e3afca230",
+    "source_url": "https://openalex.org/W2778612782",
+    "openalex_id": "https://openalex.org/W2778612782",
+    "openalex_author_id": "https://openalex.org/A5100335184",
+    "cited_by_count": 0,
+    "abstract_en": "This thesis consists of three essays in theory of econometrics and statistics, focusing on the issue of semiparametric efficiency in non-LAN (Locally Asymptotically Normality) models. The first essay starts with a univariate case of the unit root testing problem, of which the limit experiment is of the LABF (Locally Asymptotically Brownian Functional) model. A novel approach is designed for developing the semiparametric power envelope and a family of rank-based tests that are semiparametrically efficient is proposed. The second essay generalizes the approach to all LAQ (Locally Asymptotically Quadratic) models. Moreover, it expands the rank statistics in a unique way from the univariate case to the multivariate case. Using these results, in the third essay, the semiparametric power envelop of all invariant tests for stock return predictability is developed. And subsequently, a new family of tests that are more efficient than the existing ones is proposed.",
+    "abstract_zh": "本论文由计量经济学和统计学理论的三篇论文组成，重点研究非 LAN（局部渐近正态）模型中的半参数效率问题。第一篇文章从单位根检验问题的单变量情况开始，其中极限实验是 LABF（局部渐近布朗函数）模型。设计了一种新方法来开发半参数功率包络，并提出了一系列半参数有效的基于等级的测试。第二篇文章概括了所有 LAQ（局部渐近二次）模型的方法。此外，它以独特的方式将排名统计从单变量情况扩展到多变量情况。利用这些结果，在...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100335184）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_5f21be1d48c7e746",
+    "global_record_id": "3b555e59c88f8a3f",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_5f21be1d48c7e746"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周成菊",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周成菊：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "A comparison study of outpatient visits forecasting effect between ARIMA with seasonal index and SARIMA",
+    "title_en": "A comparison study of outpatient visits forecasting effect between ARIMA with seasonal index and SARIMA",
+    "title_zh": "季节指数ARIMA与SARIMA门诊量预测效果对比研究",
+    "year": 2017,
+    "venue": "IEEE International Conference on Progress in Informatics and Computing",
+    "authors": [
+      "Xinxiang Zhang",
+      "Bo Zhou",
+      "Huijuan Fu"
+    ],
+    "doi": "10.1109/pic.2017.8359573",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/pic.2017.8359573",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2804797070",
+    "openalex_id": "https://openalex.org/W2804797070",
+    "openalex_author_id": "https://openalex.org/A5100335184",
+    "cited_by_count": 12,
+    "abstract_en": "This paper delineates a case study analyzing and forecasting of the outpatient visits frequency of a hospital in Zhengzhou, China. By evaluating the annual out-patient data throughout the year of 2015, this paper applies the “Day” as timescale and carries out the experiment so as to forecast the number of visiting patients with the impact of the “Week” taken into consideration. Two models are used separately: the Autoregressive Integrated Moving Average (ARIMA) with seasonal index and the Seasonal Autoregressive Integrated Moving Average (SARIMA). Based on the empirical findings from the comparison of the fitting effect and forecasting effect of the above two models, it is clear that SARIMA reaches a satisfactory outcome: it displays optimum indexes. Therefore it is preferable to deploy the SARIMA model to proceed a forecasting of outpatient visits for medical institutions. Meanwhile the paper also aims to provide management of medical institution with theory grounds of working and personnel arrangement and insight so as to make a prompt and reasonable contingency plan when it comes to sudden disease.",
+    "abstract_zh": "本文描述了一个对中国郑州一家医院的门诊就诊频率进行分析和预测的案例研究。本文通过对2015年全年门诊数据进行评估，以“日”为时间尺度进行实验，以预测考虑“周”影响的就诊人数。分别使用两个模型：带有季节性指数的自回归综合移动平均线 (ARIMA) 和季节性自回归综合移动平均线 (SARIMA)。根据以上两个模型的拟合效果和预测效果比较的实证结果，很明显SARIMA达到了令人满意的结果：它显示出最优的结果。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100335184）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_60934fc889600b7f",
+    "global_record_id": "292136b6cc7e086b",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_60934fc889600b7f"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周成菊",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周成菊：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Semiparametrically Optimal Hybrid Rank Tests for Unit Roots",
+    "title_en": "Semiparametrically Optimal Hybrid Rank Tests for Unit Roots",
+    "title_zh": "单位根的半参数最优混合秩检验",
+    "year": 2016,
+    "venue": "SSRN Electronic Journal",
+    "authors": [
+      "Bo Zhou",
+      "Ramon Van den Akker",
+      "Bas J. M. Werker"
+    ],
+    "doi": "10.2139/ssrn.2746268",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.2139/ssrn.2746268",
+    "pdf_url": "https://doi.org/10.2139/ssrn.2746268",
+    "source_url": "https://openalex.org/W2301760060",
+    "openalex_id": "https://openalex.org/W2301760060",
+    "openalex_author_id": "https://openalex.org/A5100335184",
+    "cited_by_count": 2,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100335184）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_f5ecbb3476779474",
+    "global_record_id": "7bb3a2924a34f871",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_f5ecbb3476779474"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周成菊",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周成菊：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Are accurate bold forecasts better than accurate non-bold forecasts? Investors’ reactions to the joint effect of forecast boldness salience and forecast timing",
+    "title_en": "Are accurate bold forecasts better than accurate non-bold forecasts? Investors’ reactions to the joint effect of forecast boldness salience and forecast timing",
+    "title_zh": "准确的大胆预测是否比准确的非大胆预测更好？投资者对预测大胆程度和预测时机的共同影响的反应",
+    "year": 2013,
+    "venue": "DR-NTU (Nanyang Technological University)",
+    "authors": [
+      "Bo Zhou"
+    ],
+    "doi": "10.32657/10356/51234",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.32657/10356/51234",
+    "pdf_url": "https://dr.ntu.edu.sg/bitstream/10356/51234/1/TbG0701920B.pdf",
+    "source_url": "https://openalex.org/W2144404682",
+    "openalex_id": "https://openalex.org/W2144404682",
+    "openalex_author_id": "https://openalex.org/A5100335184",
+    "cited_by_count": 0,
+    "abstract_en": "In this study, I conduct an experiment to investigate how financial analysts' forecast boldness salience and forecast timing jointly influence investors' willingness to pay for investment advice, holding constant the accuracy of the forecast.I consider forecast boldness salience to refer to the extent that the magnitude of the analyst's forecast stands out from that made by others in terms of its boldness (magnitude of the forecast relative to the average forecast made by others) and uniqueness (whether there are other individual forecasts that are close or similar to this forecast).Forecast timing refers to whether analysts issue their forecasts earlier or later relative to other analysts.I find that for an early analyst, investors' willingness to pay for advice increases once his/her forecast is confirmed by the follower analyst(s).In contrast, for a late analyst, investors' willingness to pay for advice decreases if his/her forecast is nonbold.My results enrich our understanding on the joint effect of forecast characteristics on investor reaction to analysts' forecasts.I show that the effect of analysts' forecast boldness is contingent on both forecast uniqueness and forecast timing.My study has practical implications on forecasting strategies for financial analysts.",
+    "abstract_zh": "在本研究中，我进行了一个实验，研究在保持预测准确性不变的情况下，金融分析师的预测大胆显着性和预测时机如何共同影响投资者为投资建议付费的意愿。我认为预测大胆显着性是指分析师的预测在大胆性（相对于其他人的平均预测的大小）和独特性（是否有其他个人预测与此接近或相似）方面与其他人的预测相比突出的程度。预测）。预测时机是指分析师相对于其他分析师是否更早或更晚发布预测。我发现对于早期分析师来说，投资者愿意...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100335184）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_06497d3097776f89",
+    "global_record_id": "a326fb3d38eaf12b",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_06497d3097776f89"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周成菊",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周成菊：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Minimal energy trees of given bipartition and diameter",
+    "title_en": "Minimal energy trees of given bipartition and diameter",
+    "title_zh": "给定二分和直径的最小能量树",
+    "year": 2012,
+    "venue": "Utilitas Mathematica",
+    "authors": [
+      "中柱 刘",
+      "Bo Zhou"
+    ],
+    "doi": "",
+    "dblp_key": "",
+    "paper_url": "https://utilitasmathematica.com/index.php/Index/article/view/846",
+    "pdf_url": "https://utilitasmathematica.com/index.php/Index/article/view/846",
+    "source_url": "https://openalex.org/W7217419248",
+    "openalex_id": "https://openalex.org/W7217419248",
+    "openalex_author_id": "https://openalex.org/A5100335184",
+    "cited_by_count": 0,
+    "abstract_en": "The energy of a graph is defined as the sum of the absolute values of nil the eigenvalues of the graph. We determine the tree(s) with minimal energy in the class of trees of a (p, q)-bipartition and diameter d, where q ≥ p ≥ [d+1÷2]≥ 2.",
+    "abstract_zh": "图的能量定义为图的零特征值的绝对值之和。我们确定具有 (p, q)-二分和直径 d 的树类别中能量最小的树，其中 q ≥ p ≥ [d+1÷2]≥ 2。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100335184）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_9a99dc9133e92b9a",
+    "global_record_id": "ac3df44d61ac5650",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_9a99dc9133e92b9a"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周成菊",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周成菊：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Reverse Wiener indices of graphs of exactly two cycles",
+    "title_en": "Reverse Wiener indices of graphs of exactly two cycles",
+    "title_zh": "正好两个周期的图的逆维纳指数",
+    "year": 2012,
+    "venue": "Utilitas Mathematica",
+    "authors": [
+      "Wei Luo",
+      "Bo Zhou",
+      "Nenad Trinajstic",
+      "Zhibin Du"
+    ],
+    "doi": "",
+    "dblp_key": "",
+    "paper_url": "https://utilitasmathematica.com/index.php/Index/article/view/851",
+    "pdf_url": "https://utilitasmathematica.com/index.php/Index/article/view/851",
+    "source_url": "https://openalex.org/W7216803771",
+    "openalex_id": "https://openalex.org/W7216803771",
+    "openalex_author_id": "https://openalex.org/A5100335184",
+    "cited_by_count": 2,
+    "abstract_en": "The reverse Wiener index of a connected graph G with n vertices is defined as A(G) = 1/2n(n-1)d-W(G) where d and W(G)are respectively the diameter and Wiener index of G. We determine the n-vertex connected graph(s) of exactly two cycles of a vertex in common with the k-th greatest reverse Wiener indices for all k up to three if n = 7, four if n = 8, [√n-7/2]+1 if n ≥ 9, and the n-vertex connected graph(s) of exactly two vertex-disjoint cycles with the greatest reverse Wiener index. The n-vertex connected graphs with exactly two cycles with the greatest reverse Wiener index are determined for n≥7.",
+    "abstract_zh": "具有 n 个顶点的连通图 G 的逆维纳指数定义为 A(G) = 1/2n(n-1)d-W(G)，其中 d 和 W(G) 分别是 G 的直径和维纳指数。我们确定一个顶点的恰好两个周期的 n 顶点连通图，与所有 k 的第 k 个最大逆维纳指数相同，如果 n = 7，则最多为 3 个，如果 n = 8，则为 4 个，如果 n ≥ 9，则 [√n-7/2]+1，并且具有最大反向维纳指数的恰好两个顶点不相交循环的 n 顶点连通图。当 n≥7 时，确定具有最大逆维纳指数的恰好两个环的 n 顶点连通图。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100335184）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_9aeffee660881626",
+    "global_record_id": "f722d657362513e4",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_9aeffee660881626"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周成菊",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周成菊：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "On the irregularity of trees and unicyclic graphs with given matching number",
+    "title_en": "On the irregularity of trees and unicyclic graphs with given matching number",
+    "title_zh": "给定匹配数的树和单环图的不规则性",
+    "year": 2010,
+    "venue": "Utilitas Mathematica",
+    "authors": [
+      "Wei Luo",
+      "Bo Zhou"
+    ],
+    "doi": "",
+    "dblp_key": "",
+    "paper_url": "https://utilitasmathematica.com/index.php/Index/article/view/663",
+    "pdf_url": "https://utilitasmathematica.com/index.php/Index/article/view/663",
+    "source_url": "https://openalex.org/W7217532575",
+    "openalex_id": "https://openalex.org/W7217532575",
+    "openalex_author_id": "https://openalex.org/A5100335184",
+    "cited_by_count": 12,
+    "abstract_en": "The irregularity of a graph G is defined as irr(G)= Σ uv∈(G)|dG(u)-dG(v)|, where d G(u) denotes the degree of vertex u and E(G) denotes the edge set of G. We determine the maximum irregularity of trees and unicyclic graphs with given number of vertices and matching number and characterize the extremal graphs.",
+    "abstract_zh": "图 G 的不规则性定义为 irr(G)= Σ uvε(G)|dG(u)-dG(v)|，其中 d G(u) 表示顶点 u 的度数，E(G) 表示 G 的边集。我们确定给定顶点数和匹配数的树和单环图的最大不规则性，并表征极值图。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100335184）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_565913b7314764a2",
+    "global_record_id": "b44680b033871429",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_565913b7314764a2"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周成菊",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周成菊：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Analysis of tag within online social networks",
+    "title_en": "Analysis of tag within online social networks",
+    "title_zh": "在线社交网络中的标签分析",
+    "year": 2009,
+    "venue": "International ACM SIGGROUP Conference on Supporting Group Work (GROUP)",
+    "authors": [
+      "Chao Wu",
+      "Bo Zhou"
+    ],
+    "doi": "10.1145/1531674.1531678",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1145/1531674.1531678",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2064362880",
+    "openalex_id": "https://openalex.org/W2064362880",
+    "openalex_author_id": "https://openalex.org/A5100335184",
+    "cited_by_count": 17,
+    "abstract_en": "In recent years, tagging systems have been paid increasing attentions from both research communities and system designers. Most popular online social networking sites harness tag for managing and locating contents, for organizing and connecting users, and for recommending and sharing resources. We believe that tag acts like bridge between people and resources. Research on tag and tagging behavior will provide us insight about resource space and user activities on the Internet. In this paper, we present a two-level analysis of the tagging system of Del.icio.us. The results from both two levels confirm each other. In network level, we connect tags by users collaborative tagging to form a social network of tags. By investigating its network feature, we find phenomena of small world and scale-free network. We also discover that the links within this network have relatively strong semantic relatedness. In individual level, users' tagging behaviors and patterns are observed by visualizing their bookmarking history on Del.icio.us. Besides, we study the linked users by their tags and find that users within a subscription network share more common interests than random pairs of users. During the analysis, we also discuss the implications of the findings for the design of tag-based system.",
+    "abstract_zh": "近年来，标签系统越来越受到研究界和系统设计者的关注。大多数流行的在线社交网站利用标签来管理和定位内容、组织和连接用户以及推荐和共享资源。我们相信标签就像人与资源之间的桥梁。对标签和标记行为的研究将使我们深入了解互联网上的资源空间和用户活动。在本文中，我们对 Del.icio.us 的标签系统进行了两级分析。两个级别的结果相互印证。在网络层面，我们通过用户协同标记将标签连接起来，形成标签的社交网络。通过调查其网络性能...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100335184）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_bbc06a5a8a457375",
+    "global_record_id": "4b730e8146dcbd18",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_bbc06a5a8a457375"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周成菊",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周成菊：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Traffic Modeling and Prediction using ARIMA/GARCH Model",
+    "title_en": "Traffic Modeling and Prediction using ARIMA/GARCH Model",
+    "title_zh": "使用 ARIMA/GARCH 模型进行流量建模和预测",
+    "year": 2006,
+    "venue": "Springer eBooks",
+    "authors": [
+      "Bo Zhou",
+      "Dan He",
+      "Zhili Sun"
+    ],
+    "doi": "10.1007/0-387-34167-6_5",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1007/0-387-34167-6_5",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W28713011",
+    "openalex_id": "https://openalex.org/W28713011",
+    "openalex_author_id": "https://openalex.org/A5100335184",
+    "cited_by_count": 103,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100335184）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_314a2c270b2ce89a",
+    "global_record_id": "45017f04168b9a29",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_314a2c270b2ce89a"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周成菊",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周成菊：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "UPPER GENERALIZED EXPONENTS OF MINISTRONG DIGRAPHS",
+    "title_en": "UPPER GENERALIZED EXPONENTS OF MINISTRONG DIGRAPHS",
+    "title_zh": "小强有向图的上广义指数",
+    "year": 2006,
+    "venue": "Taiwanese Journal of Mathematics",
+    "authors": [
+      "Bo Zhou"
+    ],
+    "doi": "10.11650/twjm/1500403881",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.11650/twjm/1500403881",
+    "pdf_url": "https://projecteuclid.org/journals/taiwanese-journal-of-mathematics/volume-10/issue-4/UPPER-GENERALIZED-EXPONENTS-OF-MINISTRONG-DIGRAPHS/10.11650/twjm/1500403881.pdf",
+    "source_url": "https://openalex.org/W4237885550",
+    "openalex_id": "https://openalex.org/W4237885550",
+    "openalex_author_id": "https://openalex.org/A5100335184",
+    "cited_by_count": 0,
+    "abstract_en": "We obtain upper bounds for the upper generalized exponents of digraphs in the class of ministrong digraphs and in the class of non-primitive ministrong digraphs, characterize the corresponding extremal digraphs, and discuss the numbers attainable as upper generalized exponents of ministrong digraphs.",
+    "abstract_zh": "我们获得了小强有向图类和非原始小强有向图类中有向图的上广义指数的上限，描述了相应的极值有向图，并讨论了作为小强有向图的上广义指数可获得的数字。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100335184）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_8a6c0a215ac3699c",
+    "global_record_id": "234c3d93b08552a1",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_8a6c0a215ac3699c"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周成菊",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周成菊：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "The set of indices of convergence for a Boolean matrix class",
+    "title_en": "The set of indices of convergence for a Boolean matrix class",
+    "title_zh": "布尔矩阵类的收敛指数集",
+    "year": 2002,
+    "venue": "Utilitas Mathematica",
+    "authors": [
+      "Bo Zhou"
+    ],
+    "doi": "",
+    "dblp_key": "",
+    "paper_url": "https://utilitasmathematica.com/index.php/Index/article/view/269",
+    "pdf_url": "https://utilitasmathematica.com/index.php/Index/article/view/269",
+    "source_url": "https://openalex.org/W7217323709",
+    "openalex_id": "https://openalex.org/W7217323709",
+    "openalex_author_id": "https://openalex.org/A5100335184",
+    "cited_by_count": 0,
+    "abstract_en": "The index of convergence of a Boolean matrix is a much-studied quantity. This paper presents an explicit formula for the set of indices of convergence of Boolean matrices with at least one pair of symmetric nonzero entries.",
+    "abstract_zh": "布尔矩阵的收敛指数是一个被广泛研究的量。本文提出了具有至少一对对称非零项的布尔矩阵收敛指数集的显式公式。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100335184）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_e05da9e88e55f333",
+    "global_record_id": "690a558acd6fe681",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_e05da9e88e55f333"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周成菊",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周成菊：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "On the common consequent indices of nearly reducible binary relations",
+    "title_en": "On the common consequent indices of nearly reducible binary relations",
+    "title_zh": "近可约二元关系的共同后继指标",
+    "year": 1999,
+    "venue": "Utilitas Mathematica",
+    "authors": [
+      "Bo Zhou"
+    ],
+    "doi": "",
+    "dblp_key": "",
+    "paper_url": "https://utilitasmathematica.com/index.php/Index/article/view/123",
+    "pdf_url": "https://utilitasmathematica.com/index.php/Index/article/view/123",
+    "source_url": "https://openalex.org/W7217276932",
+    "openalex_id": "https://openalex.org/W7217276932",
+    "openalex_author_id": "https://openalex.org/A5100335184",
+    "cited_by_count": 1,
+    "abstract_en": "We obtain an upper bound for the common consequent indices of binary relations in the class of nearly reducible reduble binary relations, and prove that this bound is best possible.",
+    "abstract_zh": "我们获得了近可约可重二元关系类中二元关系的公共后继索引的上限，并证明了该界限是最好可能的。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100335184）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_6304af0eae3d60d5",
+    "global_record_id": "dbb53f1905b7c85a",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_6304af0eae3d60d5"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周成菊",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周成菊：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "On almost regular matrices",
+    "title_en": "On almost regular matrices",
+    "title_zh": "在几乎正则矩阵上",
+    "year": 1998,
+    "venue": "Utilitas Mathematica",
+    "authors": [
+      "Bo Zhou",
+      "Bolian Liu"
+    ],
+    "doi": "",
+    "dblp_key": "",
+    "paper_url": "https://utilitasmathematica.com/index.php/Index/article/view/84",
+    "pdf_url": "https://utilitasmathematica.com/index.php/Index/article/view/84",
+    "source_url": "https://openalex.org/W7218286361",
+    "openalex_id": "https://openalex.org/W7218286361",
+    "openalex_author_id": "https://openalex.org/A5100335184",
+    "cited_by_count": 0,
+    "abstract_en": "We obtain upper bounds of spectral radii of nonnegative symmetric matrices, and necessary and sufficient conditions to assume these bounds.",
+    "abstract_zh": "我们获得非负对称矩阵谱半径的上限，以及假设这些界限的充分必要条件。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100335184）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_chengju_zhou_a9c1c46a269f4467",
+    "global_record_id": "ee043a4f734a636b",
+    "scholar_id": "panorama_chengju_zhou",
+    "scholar_name": "周成菊",
+    "scholar_ids": [
+      "panorama_chengju_zhou"
+    ],
+    "scholar_names": [
+      "周成菊"
+    ],
+    "source_record_ids": [
+      "panorama_chengju_zhou_a9c1c46a269f4467"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_chengju_zhou": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周成菊",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周成菊：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  }
+]

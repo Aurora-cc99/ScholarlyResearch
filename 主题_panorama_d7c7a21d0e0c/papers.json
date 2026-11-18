@@ -1,202 +1,4063 @@
-{
-  "scholar": {
-    "name_zh": "刘淑华",
-    "name_en": "English name pending",
-    "affiliation": "东北师范大学",
-    "identity_sources": [
-      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+[
+  {
+    "title": "A lightweight model for early perception of rice diseases driven by photothermal information fusion",
+    "title_en": "A lightweight model for early perception of rice diseases driven by photothermal information fusion",
+    "title_zh": "光热信息融合驱动的水稻病害早期感知轻量级模型",
+    "year": 2025,
+    "venue": "Computers and Electronics in Agriculture",
+    "authors": [
+      "Ning Yang",
+      "Liang Chen",
+      "Tongge Li",
+      "Shuhua Liu",
+      "Aiying Wang",
+      "Jian Tang",
+      "Si Chen",
+      "Yafei Wang",
+      "Wei Cheng"
     ],
-    "official_homepages": [
-      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    "doi": "10.1016/j.compag.2025.110150",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.compag.2025.110150",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4407869201",
+    "openalex_id": "https://openalex.org/W4407869201",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 16,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_3ef295e76365ae3c",
+    "global_record_id": "191692938111c233",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
     ],
-    "coverage": {
-      "scope": "2025–2026主题筛选与全量书目扩展",
-      "status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
-      "coverage_status": "仅有代表论文或项目级记录；个人全历史待补核",
-      "available_record_count": 3,
-      "bulk_source_record_count": 0,
-      "themes": [
-        "情感理解与情感智能"
-      ]
-    },
-    "coverage_notes": "该目录与五位基线学者使用同一论文/资源/分类输出契约。‘可用记录数’表示本轮已取得并保留的书目，不等于未经消歧的个人终身全集；身份待核验、论文团队和同名风险见候选筛选证据。",
-    "id": "panorama_d7c7a21d0e0c",
-    "folder": "主题_panorama_d7c7a21d0e0c",
-    "classification": {
-      "method": "按题名及现有项目、资源说明进行主题粗分，用于阅读导航；未逐篇审阅全文，不代表学者官方分类。每条书目只设一个主类别，跨方向信息保留在辅助标签中。",
-      "categories": [
-        {
-          "id": "emotion_understanding",
-          "label": "情感理解与多模态推理",
-          "description": "多模态情感识别、情绪原因解释、开放词汇与上下文推理。",
-          "count": 3
-        },
-        {
-          "id": "affective_intelligence",
-          "label": "情感智能、共情与生成",
-          "description": "情感智能、心智理论、共情响应和情感生成。",
-          "count": 0
-        },
-        {
-          "id": "emotion_benchmark",
-          "label": "情感数据集、基准与评测",
-          "description": "情感数据集、评测基准、情感幻觉与可靠性分析。",
-          "count": 0
-        }
-      ],
-      "review": {
-        "status": "theme_candidate",
-        "source_status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
-        "primary_theme": "情感智能与情感大模型"
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_3ef295e76365ae3c"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
-    "counts": {
-      "bibliographic_records": 3,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [
-        2019,
-        2021
-      ],
-      "unknown_year": 0
-    }
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
   },
-  "papers": [
-    {
-      "title": "A Robot Object Recognition Method Based on Scene Text Reading in Home Environments.. Sensors (Basel)",
-      "title_en": "A Robot Object Recognition Method Based on Scene Text Reading in Home Environments.. Sensors (Basel)",
-      "title_zh": "家庭环境中基于场景文本阅读的机器人物体识别方法..传感器（巴塞尔）",
-      "year": 2021,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "刘淑华"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "情感理解与情感智能",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_d7c7a21d0e0c_1abf41c68a4e",
-      "category_id": "emotion_understanding",
-      "primary_category": "情感理解与多模态推理",
-      "secondary_tags": [
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_d7c7a21d0e0c",
-      "scholar_name": "刘淑华",
-      "work_title_group": "8374fa26a862",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+  {
+    "title": "A contrastive video language multimodal method for teacher action quality assessment",
+    "title_en": "A contrastive video language multimodal method for teacher action quality assessment",
+    "title_zh": "教师行为质量评估的对比视频语言多模态方法",
+    "year": 2025,
+    "venue": "Expert Systems with Applications",
+    "authors": [
+      "Ming Fang",
+      "Yunpeng Zhou",
+      "Qi Liu",
+      "Pengyang Wang",
+      "Jianping Ren",
+      "Xile Zhao",
+      "Shuhua Liu"
+    ],
+    "doi": "10.1016/j.eswa.2025.129501",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.eswa.2025.129501",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4413669164",
+    "openalex_id": "https://openalex.org/W4413669164",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 2,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [
+      "多模态与大语言模型"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_1756587a9a4d764c",
+    "global_record_id": "eaba14b4b1c663e8",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_1756587a9a4d764c"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "low",
+        "note": ""
+      }
     },
-    {
-      "title": "Speech emotion recognition based on transfer learning from the FaceNet framework.. J Acoust Soc Am",
-      "title_en": "Speech emotion recognition based on transfer learning from the FaceNet framework.. J Acoust Soc Am",
-      "title_zh": "基于 FaceNet 框架迁移学习的语音情感识别。J Acoust Soc Am",
-      "year": 2021,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "刘淑华"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "情感理解与情感智能",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_d7c7a21d0e0c_2b46bd2f8885",
-      "category_id": "emotion_understanding",
-      "primary_category": "情感理解与多模态推理",
-      "secondary_tags": [
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_d7c7a21d0e0c",
-      "scholar_name": "刘淑华",
-      "work_title_group": "46033caf681c",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "A new dataset and method for comprehensive evaluation of visual design elements in educational slides",
+    "title_en": "A new dataset and method for comprehensive evaluation of visual design elements in educational slides",
+    "title_zh": "教育幻灯片中视觉设计元素综合评价的新数据集和方法",
+    "year": 2025,
+    "venue": "ACM International Conference on Multimedia in Asia (MMAsia)",
+    "authors": [
+      "Xinning Du",
+      "Qiwen Liang",
+      "Jianping Ren",
+      "Ming Fang",
+      "Shuhua Liu"
+    ],
+    "doi": "10.1145/3743093.3770982",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1145/3743093.3770982",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4417073288",
+    "openalex_id": "https://openalex.org/W4417073288",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 0,
+    "abstract_en": "As a modern teaching method, the interface design quality of teaching courseware has a significant impact on teaching effectiveness. However, the absence of standardized datasets and evaluation frameworks presents significant challenges for the quantitative assessment of slide visual design quality. To address this gap, we introduce Vis-TCA, a large-scale benchmark dataset for evaluating the visual design quality of educational slides. Vis-TCA aims to systematically assess the layout regularity and visual design rationality of multiple visual elements in slides. This dataset includes 40144 middle school courseware images with four visual elements, that is, title, text, table, and image. Furthermore, for the text element, this paper defines 269 fine-grained textual visual attributes, such as font, size, and color. On this basis, we propose Educational Slide Assessment Model (ESAM), a novel model designed for evaluating the visual quality of educational slides. ESAM is trained using a multi-task joint learning strategy and incorporates a plug-and-play Adaptive Correlation Fusion Module (ACFM) to enhance the model’s ability to understand and process diverse visual elements and their fine-grained attributes. Experimental results demonstrate that ESAM can effectively assess the visual design quality of slides, providing a robust technical foundation for automated analysis and intelligent feedback in slide visual presentation.",
+    "abstract_zh": "作为一种现代教学方式，教学课件的界面设计质量对教学效果有着重大影响。然而，标准化数据集和评估框架的缺乏给幻灯片视觉设计质量的定量评估带来了重大挑战。为了解决这一差距，我们引入了 Vis-TCA，这是一个用于评估教育幻灯片视觉设计质量的大型基准数据集。 Vis-TCA旨在系统评估幻灯片中多个视觉元素的布局规律性和视觉设计合理性。该数据集包含40144张中学课件图像，具有标题、文本、表格和图像四种视觉元素。此外，对于文本元素，本文定义...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_766d4c58b1eb594d",
+    "global_record_id": "18ccb2fad58e3ef8",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_766d4c58b1eb594d"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "An Identity Authentication Method Combining Liveness Detection and Face Recognition.. Sensors (Basel)",
-      "title_en": "An Identity Authentication Method Combining Liveness Detection and Face Recognition.. Sensors (Basel)",
-      "title_zh": "一种结合活体检测和人脸识别的身份认证方法..传感器（巴塞尔）",
-      "year": 2019,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "刘淑华"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "情感理解与情感智能",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_d7c7a21d0e0c_959f3e938824",
-      "category_id": "emotion_understanding",
-      "primary_category": "情感理解与多模态推理",
-      "secondary_tags": [
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_d7c7a21d0e0c",
-      "scholar_name": "刘淑华",
-      "work_title_group": "c90b5f27aff9",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
-    }
-  ]
-}
+    "primary_categories_by_scholar": [
+      "刘淑华：情感数据集、基准与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测"
+  },
+  {
+    "title": "Association of triglyceride-glucose index with postoperative recovery-related factors in type II cesarean scar pregnancy treated by transvaginal surgery",
+    "title_en": "Association of triglyceride-glucose index with postoperative recovery-related factors in type II cesarean scar pregnancy treated by transvaginal surgery",
+    "title_zh": "经阴道手术治疗II型剖宫产疤痕妊娠甘油三酯-葡萄糖指数与术后恢复相关因素的关系",
+    "year": 2025,
+    "venue": "PeerJ",
+    "authors": [
+      "Xiaoyan Li",
+      "Shuhua Liu",
+      "Dehong Liu"
+    ],
+    "doi": "10.7717/peerj.19632",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.7717/peerj.19632",
+    "pdf_url": "https://doi.org/10.7717/peerj.19632",
+    "source_url": "https://openalex.org/W4411497753",
+    "openalex_id": "https://openalex.org/W4411497753",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 0,
+    "abstract_en": "Background: Type II cesarean scar pregnancy (CSP) is a rare and serious condition. The triglyceride-glucose index (TyG) may influence postoperative recovery-related factors (PRRF) as a marker of insulin resistance. This study investigates the relationship between TyG and PRRF in patients with type II CSP undergoing transvaginal surgery. Methods: Forty-five patients treated from January 2019 to September 2023 were analyzed. Data on surgical duration, intraoperative blood loss, length of stay, hospitalization costs, and recovery were collected and assessed against TyG levels. Results: = 0.02). Higher TyG levels were associated with shorter hospital stays and lower costs, while no significant associations were observed with other factors. Conclusion: TyG is associated with hospitalization costs and length of stay in type II CSP patients, suggesting its potential to predict healthcare resource utilization. Further research is needed to explore its role in surgical risk assessment.",
+    "abstract_zh": "背景：II 型剖宫产疤痕妊娠 (CSP) 是一种罕见且严重的疾病。甘油三酯-葡萄糖指数（TyG）可能会影响术后恢复相关因素（PRRF）作为胰岛素抵抗的标志。本研究探讨了接受经阴道手术的 II 型 CSP 患者中 TyG 和 PRRF 之间的关系。方法：对 2019 年 1 月至 2023 年 9 月期间治疗的 45 例患者进行分析。收集有关手术持续时间、术中失血量、住院时间、住院费用和康复的数据，并根据 TyG 水平进行评估。结果：= 0.02)。 TyG 水平较高与住院时间较短和费用较低相关，但与其他因素没有观察到显着关联。浓...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_2cefdc3eaec6993a",
+    "global_record_id": "1285a2d974505da2",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_2cefdc3eaec6993a"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Antihypertensive Drugs and Dental Caries Risk: A Drug–Target Mendelian Randomization Analysis",
+    "title_en": "Antihypertensive Drugs and Dental Caries Risk: A Drug–Target Mendelian Randomization Analysis",
+    "title_zh": "抗高血压药物和龋齿风险：药物-目标孟德尔随机分析",
+    "year": 2025,
+    "venue": "International Journal of Genomics",
+    "authors": [
+      "Wenbin Shi",
+      "Shuhua Liu",
+      "Xiuxia Wu",
+      "Wangsong Cheng",
+      "Xiqun Jia",
+      "Ziyang Hu"
+    ],
+    "doi": "10.1155/ijog/1612322",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1155/ijog/1612322",
+    "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1155/ijog/1612322",
+    "source_url": "https://openalex.org/W4414883244",
+    "openalex_id": "https://openalex.org/W4414883244",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 1,
+    "abstract_en": "Introduction and Objectives: To address the clinical uncertainty surrounding the effect of antihypertensive drugs on dental caries, this study was aimed at investigating the causal relationships between antihypertensive medication use and the risk of dental caries, utilizing a drug-target Mendelian randomization (MR) approach. Methods: Nine antihypertensive drug classes' influences on dental caries risk in the UK Biobank and FinnGen populations were assessed using drug-target MR. This genetic method utilizes randomly allocated gene variants as proxies for drug exposure, minimizing the confounding biases inherent in observational studies and allowing for more robust causal inference. Genetic variants associated with systolic blood pressure near the drug target genes were used to proxy for medication effects. Results: In the FinnGen cohort, genetic analysis linked calcium channel blockers to a 3.3% reduction in dental caries risk (OR: 0.967, 95% CI: 0.949-0.985) and loop diuretics to a 6.9% reduction (OR: 0.931, 95% CI: 0.897-0.966). Conversely, aldosterone antagonists were suggestively associated with an 8.2% increased risk (OR: 1.082, 95% CI: 1.017-1.150). Notably, the protective trend for calcium channel blockers and loop diuretics was also observed in the UK Biobank. These findings, validated by eQTLs, highlight the impact of antihypertensive drugs on dental health. Conclusion: The study suggests that calcium channel blockers and diuretics could potentially reduce the risk of dental caries. Additional research is needed to assess the feasibility of repurposing antihypertensive medications for the prevention of dental caries.",
+    "abstract_zh": "简介和目的：为了解决抗高血压药物对龋齿影响的临床不确定性，本研究旨在利用药物靶标孟德尔随机化 (MR) 方法调查抗高血压药物的使用与龋齿风险之间的因果关系。方法：使用药物靶向 MR 评估了英国生物银行和 FinnGen 人群中九种抗高血压药物对龋齿风险的影响。这种遗传方法利用随机分配的基因变异作为药物暴露的代理，最大限度地减少观察研究中固有的混杂偏差，并允许更稳健的因果推断。与收缩压相关的基因变异...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_03cd07f0dd72b761",
+    "global_record_id": "8c06f941c7a6ae90",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_03cd07f0dd72b761"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Methylation of the telomerase gene promoter region in umbilical cord blood of patients with gestational diabetes mellitus is associated with decreased telomerase expression levels and shortened telomere length",
+    "title_en": "Methylation of the telomerase gene promoter region in umbilical cord blood of patients with gestational diabetes mellitus is associated with decreased telomerase expression levels and shortened telomere length",
+    "title_zh": "妊娠期糖尿病患者脐带血端粒酶基因启动子区甲基化与端粒酶表达水平降低和端粒长度缩短有关",
+    "year": 2025,
+    "venue": "Frontiers in Endocrinology",
+    "authors": [
+      "Shuhua Liu",
+      "Liping Xu",
+      "Yan Cheng",
+      "Dehong Liu",
+      "Bin Zhang",
+      "Xianxia Chen",
+      "Mingming Zheng"
+    ],
+    "doi": "10.3389/fendo.2025.1502329",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.3389/fendo.2025.1502329",
+    "pdf_url": "https://doi.org/10.3389/fendo.2025.1502329",
+    "source_url": "https://openalex.org/W4408315885",
+    "openalex_id": "https://openalex.org/W4408315885",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 1,
+    "abstract_en": "Objective: This study speculates that gestational diabetes mellitus (GDM) may reduce fetal telomere length (TL),which may be related to modification of methylation in the promoter region of the telomerase (TE) gene promoter region. Methods: In this study, umbilical cord blood samples from patients with and without GDM (N = 100 each) were analyzed by prospective case-control. The TL, TE expression levels, and methylation levels of TERT and TERC gene promoter regions in two groups were measured. The significance of the methylation level of each CpG locus employed logistic regression analysis of R software, and the analysis of covariance (ANCOVA) was used to control the influence of confounding factors. Correlation analysis was performed by the Spearman. Results: The TL and TE expression levels of the offspring of GDM patients were decreased despite adjusting for PBMI, PWG, and TG. A total of two CpG islands were screened in the promoter region of the TERT gene and three fragments (TERT_2, TERT_3, and TERT_4) containing a total of 70 CpG sites were designed. Additionally, four CpG sites of the TERT gene in the GDM group (TERT_2_40, TERT_2_47, TERT_3_46, and TERT_3_212) showed increased methylation levels compared with the control group (all P < 0.05). In the promoter region of the TERC gene, one CpG island containing 19 CpG loci was screened and designed, and the methylation levels of the two CpG sites were significantly different in TERC_1_67 (0.65 ± 0.21 versus 0.57 ± 0.30; P = 0.040) and TERC_1_120 (0.68 ± 0.23 versus 0.59 ± 0.27; P = 0.014). The methylation levels of TERC gene fragments of GDM patients were significantly higher than those of the control group (0.69 ± 0.06 versus 0.65 ± 0.08, P = 0.001). Conclusion: This study revealed that GDM may induce decreased TE expression by increasing the methylation levels of TE genes promoter region, thereby reducing the TL.",
+    "abstract_zh": "【摘要】：目的:本研究推测妊娠期糖尿病(GDM)可能导致胎儿端粒长度(TL)缩短,这可能与端粒酶(TE)基因启动子区甲基化修饰有关。方法：在本研究中，通过前瞻性病例对照分析了患有和不患有 GDM 的患者（各 N = 100）的脐带血样本。检测两组的TL、TE表达水平以及TERT、TERC基因启动子区甲基化水平。各CpG位点甲基化水平显着性采用R软件logistic回归分析，并采用协方差分析（ANCOVA）控制混杂因素的影响。相关性分析是由...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_8f7a89ccfd2465e0",
+    "global_record_id": "3d07bd42f93bb07b",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_8f7a89ccfd2465e0"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Rehearsal-free continual few-shot relation extraction via contrastive weighted prompts",
+    "title_en": "Rehearsal-free continual few-shot relation extraction via contrastive weighted prompts",
+    "title_zh": "通过对比加权提示进行免排练的连续几次关系提取",
+    "year": 2025,
+    "venue": "Neurocomputing",
+    "authors": [
+      "Fengqin Yang",
+      "Mengen Ren",
+      "Delu Kong",
+      "Shuhua Liu",
+      "Zhiguo Fu"
+    ],
+    "doi": "10.1016/j.neucom.2025.129741",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.neucom.2025.129741",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4407925096",
+    "openalex_id": "https://openalex.org/W4407925096",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 5,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_31322a5f631d2ba4",
+    "global_record_id": "406d04365eaa3967",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_31322a5f631d2ba4"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "A Teacher Action Quality Assessment Method Based on Label Constraint Strategy",
+    "title_en": "A Teacher Action Quality Assessment Method Based on Label Constraint Strategy",
+    "title_zh": "一种基于标签约束策略的教师行为质量评价方法",
+    "year": 2025,
+    "venue": "IEEE International Conference on Acoustics Speech and Signal Processing",
+    "authors": [
+      "Ming Fang",
+      "Yunpeng Zhou",
+      "Jianping Ren",
+      "Chunsheng Qin",
+      "Shuhua Liu"
+    ],
+    "doi": "10.1109/icassp49660.2025.10888631",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/icassp49660.2025.10888631",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4408345633",
+    "openalex_id": "https://openalex.org/W4408345633",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 1,
+    "abstract_en": "Teacher’s actions significantly impact teaching effectiveness. Assessing these actions can help teachers to identify shortcomings and improve skills. However, the lack of datasets for assessing teacher action quality has hindered progress in this field. Therefore, this paper first constructs the Teacher Teaching Action Quality Assessment (TTAQA) Dataset, which includes 4 common teacher actions in real classroom, with a total of 2254 samples. In addition, this study proposes a teacher action scoring model based on Label Constraint Strategy (LCS). This model aims to construct a constraint loss by maximizing the similarity between the same class samples and the difference between the different class samples, thereby improving the performance of the model. This is also the first time that the concept of label contrastive learning has been introduced into action quality assessment tasks. A large number of experimental results demonstrate the effectiveness of the LCS method and the rationality of TTAQA dataset.",
+    "abstract_zh": "教师的行为显着影响教学效果。评估这些行动可以帮助教师发现缺点并提高技能。然而，缺乏评估教师行为质量的数据集阻碍了这一领域的进展。因此，本文首先构建了教师教学行为质量评估（TTAQA）数据集，其中包括真实课堂中常见的4种教师行为，总共2254个样本。此外，本研究提出了一种基于标签约束策略（LCS）的教师行为评分模型。该模型旨在通过最大化同类样本之间的相似性和不同类样本之间的差异来构造约束损失，从而提高...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_1c3a1fc27da9bb7e",
+    "global_record_id": "b622e8d71e37608a",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_1c3a1fc27da9bb7e"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感数据集、基准与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测"
+  },
+  {
+    "title": "A three-stream fusion network for 3D skeleton-based action recognition",
+    "title_en": "A three-stream fusion network for 3D skeleton-based action recognition",
+    "title_zh": "用于基于 3D 骨架的动作识别的三流融合网络",
+    "year": 2025,
+    "venue": "Multimedia Systems",
+    "authors": [
+      "Ming Fang",
+      "Qi Liu",
+      "Jianping Ren",
+      "Jie Li",
+      "Xinning Du",
+      "Shuhua Liu"
+    ],
+    "doi": "10.1007/s00530-025-01762-0",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1007/s00530-025-01762-0",
+    "pdf_url": "https://www.researchsquare.com/article/rs-4131227/latest.pdf",
+    "source_url": "https://openalex.org/W4409131937",
+    "openalex_id": "https://openalex.org/W4409131937",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 3,
+    "abstract_en": "Abstract The progress in the skeleton-based action recognition is advancing rapidly in recent years. However, the spatial-temporal features between joints are not systematically explored. In this study, we propose a three-stream fusion network (3sFN) that aims to fully learn action features by mining multiangle and mul-tiscale spatial-temporal information between joints. The proposed model first uses Spatial-Temporal Graph Convolutional Network (ST-GCN) and Res2NeXt-50 to obtain motion spatial-temporal information from the spatial-temporal graph, SkeleMotion, and tree-structure-reference-joints image (TSRJI). The spatial-temporal features obtained from the independent learning of these three components are fine-tuned and fused to make full use of the complementarity and diversity among the three features. The spatial-temporal graph, SkeleMo-tion image, and TSRJI image are all obtained from human skeleton data. The model of 3sFN performs explicit modeling separately on the temporal information and spatial information of the action and solves the shortcomings of ST-GCN, which extracts a single combined feature of temporal and spatial information. The model is tested on the NTU RGB+D 60 and NTU RGB+D 120 datasets, and accuracies of 97.43% on Cross-Subject with 99.19% on Cross-View for the first dataset, and 96.35% on Cross-Subject with 97.34% on Cross-Setup for the second dataset, are obtained. The experimental results show that the proposed model achieves the state-of-the-art action recognition.",
+    "abstract_zh": "摘要 近年来，基于骨架的动作识别进展迅速。然而，关节之间的时空特征尚未得到系统的探索。在本研究中，我们提出了一种三流融合网络（3sFN），旨在通过挖掘关节之间的多角度、多尺度时空信息来充分学习动作特征。该模型首先使用时空图卷积网络（ST-GCN）和Res2NeXt-50从时空图、SkeleMotion和树结构参考关节图像（TSRJI）中获取运动时空信息。这三个组件独立学习获得的时空特征经过微调和融合，可以充分...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_2d8a9ec0eeb7426c",
+    "global_record_id": "bf27011337c1d566",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_2d8a9ec0eeb7426c"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感数据集、基准与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测"
+  },
+  {
+    "title": "RDPNet: a multi-stage summary generation network for long chat dialogues",
+    "title_en": "RDPNet: a multi-stage summary generation network for long chat dialogues",
+    "title_zh": "RDPNet：用于长聊天对话的多阶段摘要生成网络",
+    "year": 2025,
+    "venue": "Knowledge and Information Systems",
+    "authors": [
+      "Shihao Yang",
+      "Shaoru Zhang",
+      "Huayu Zhang",
+      "Chih‐Cheng Hung",
+      "Fengqin Yang",
+      "Shuhua Liu"
+    ],
+    "doi": "10.1007/s10115-025-02358-w",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1007/s10115-025-02358-w",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4407390911",
+    "openalex_id": "https://openalex.org/W4407390911",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 1,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_2cc7bf432a3f55a3",
+    "global_record_id": "6d6febbcd1ddf7eb",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_2cc7bf432a3f55a3"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Decreased telomerase activity and shortened telomere length in infants whose mothers have gestational diabetes mellitus and increased severity of telomere shortening in male infants",
+    "title_en": "Decreased telomerase activity and shortened telomere length in infants whose mothers have gestational diabetes mellitus and increased severity of telomere shortening in male infants",
+    "title_zh": "母亲患有妊娠期糖尿病的婴儿端粒酶活性降低，端粒长度缩短，男婴端粒缩短的严重程度增加",
+    "year": 2024,
+    "venue": "Frontiers in Endocrinology",
+    "authors": [
+      "Shuhua Liu",
+      "Liping Xu",
+      "Yan Cheng",
+      "Dehong Liu",
+      "Bin Zhang",
+      "Xianxia Chen",
+      "Mingming Zheng"
+    ],
+    "doi": "10.3389/fendo.2024.1490336",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.3389/fendo.2024.1490336",
+    "pdf_url": "https://public-pages-files-2025.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2024.1490336/pdf",
+    "source_url": "https://openalex.org/W4405414471",
+    "openalex_id": "https://openalex.org/W4405414471",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 7,
+    "abstract_en": "Objective: Gestational diabetes mellitus (GDM) is a common complication during pregnancy and increases the risk of metabolic diseases in offspring. We hypothesize that the poor intrauterine environment in pregnant women with GDM may lead to chromosomal DNA damage and telomere damage in umbilical cord blood cells, providing evidence of an association between intrauterine programming and increased long-term metabolic disease risk in offspring. Methods: We measured telomere length (TL), serum telomerase (TE) activity, and oxidative stress markers in umbilical cord blood mononuclear cells (CBMCs) from pregnant women with GDM (N=200) and healthy controls (Ctrls) (N=200) and analysed the associations of TL with demographic characteristics, biochemical indicators, and blood glucose levels. Results: The length of telomeres in umbilical CBMCs in the GDM group was significantly shorter than that in the Ctrl group (P<0.001), and the shortening of telomeres in male infants in the GDM group was more significant than that in the Ctrl group (P<0.001) after adjustment for Pre-pregnancy body mass index (PBMI), Pregnancy weight gain (PGW), and Triglyceride (TG) as confounding factors. In addition, the TE expression level in the GDM group was lower after adjustment. There was no statistically significant difference in oxidative stress hydroxydeoxyguanosine (8-OHdG), malondialdehyde (MDA) and superoxide dismutase (SOD) between the two groups. TL was positively correlated with TE activity, and both were negatively correlated with blood glucose levels. There was no correlation between TL and Gestational age (GA), PBMI, PGW, or TG levels. Conclusion: The poor intrauterine environment in pregnant women with GDM increases telomere attrition and reduces TE activity, which may be potential genetic risk factors for an increased risk of metabolic diseases in offspring later in life due to intrauterine reprogramming.",
+    "abstract_zh": "目的：妊娠期糖尿病（GDM）是妊娠期常见的并发症，会增加后代患代谢性疾病的风险。我们推测，GDM 孕妇的不良宫内环境可能导致染色体 DNA 损伤和脐带血细胞端粒损伤，这为宫内编程与后代长期代谢性疾病风险增加之间的关联提供了证据。方法：我们测量了 GDM 孕妇 (N=200) 和健康对照组 (Ctrls) (N=200) 的端粒长度 (TL)、血清端粒酶 (TE) 活性和脐带血单核细胞 (CBMC) 中的氧化应激标志物，并分析了 TL 与人口特征、生物化学特征的关系。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_0df7b75fc2653c80",
+    "global_record_id": "7af44b5d1e9404d1",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_0df7b75fc2653c80"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Research on the Mechanism and Path of Digital Technology Enabling High-quality Development of Zhanjiang County Economy",
+    "title_en": "Research on the Mechanism and Path of Digital Technology Enabling High-quality Development of Zhanjiang County Economy",
+    "title_zh": "数字技术赋能湛江县域经济高质量发展机制与路径研究",
+    "year": 2024,
+    "venue": "Journal of life sciences and agriculture.",
+    "authors": [
+      "Yuanyi Liu",
+      "Shuhua Liu"
+    ],
+    "doi": "10.62517/jlsa.202407102",
+    "dblp_key": "",
+    "paper_url": "http://dx.doi.org/10.62517/jlsa.202407102",
+    "pdf_url": "http://www.stemmpress.com/uploadfile/202310/d6d0d1aafe5b8d6.pdf",
+    "source_url": "https://openalex.org/W4399459783",
+    "openalex_id": "https://openalex.org/W4399459783",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 1,
+    "abstract_en": "Digital technology is emerging as a significant driver for the high-quality development of Zhanjiang county's economy. This study begins by analyzing the present situation of the county's economic development, focusing on the gross domestic product(GDP) of each individual county within Zhanjiang. The findings demonstrate that while the GDP of Zhanjiang's counties is growing to varying degrees, there exists a noticeable disparity in development among them. Subsequently, this paper explores how digital technology facilitates the high-quality development of the county's economy. It illuminates this mechanism through several perspectives: the integration of digital elements into the county's economy, the promotion of industrial structure upgrading facilitated by digital technology, and the enhancement of human capital value through digital technology that propels the development of the county's economy. Moreover, this research proposes specific strategies for enabling the high-quality development of Zhanjiang county's economy through digital technology. These strategies encompass strengthening the construction of digital infrastructure, optimizing industry upgrades, promoting the integration of digital technology with agriculture, and improving the recruitment and training of digital talent. By presenting these pathways, this study aims to provide novel ideas and directions for the advancement of Zhanjiang county's economy towards high-quality development.",
+    "abstract_zh": "数字技术正在成为湛江县域经济高质量发展的重要驱动力。本研究从分析县域经济发展现状入手，重点关注湛江市各县域的国内生产总值（GDP）。研究结果表明，湛江各县GDP虽然有不同程度的增长，但发展水平仍存在明显差距。随后，本文探讨数字技术如何助力县域经济高质量发展。它从数字元素融入县域经济、促进产业结构升级等几个角度阐释了这一机制……",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_237b7cf6486e82de",
+    "global_record_id": "aa4f778286a96318",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_237b7cf6486e82de"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Semantic-wise guidance for efficient multimodal emotion recognition with missing modalities",
+    "title_en": "Semantic-wise guidance for efficient multimodal emotion recognition with missing modalities",
+    "title_zh": "语义指导，有效识别缺失模态的多模态情感",
+    "year": 2024,
+    "venue": "Multimedia Systems",
+    "authors": [
+      "Shuhua Liu",
+      "Yixuan Wang",
+      "Kehan Wang",
+      "Binshuai Li",
+      "Fengqin Yang",
+      "Shihao Yang"
+    ],
+    "doi": "10.1007/s00530-024-01310-2",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1007/s00530-024-01310-2",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4396774798",
+    "openalex_id": "https://openalex.org/W4396774798",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 8,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [
+      "情感计算与情绪理解",
+      "多模态与大语言模型"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_053707db7d3e69cd",
+    "global_record_id": "16ff51a4eba9a213",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_053707db7d3e69cd"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "3 s-STNet: three-stream spatial–temporal network with appearance and skeleton information learning for action recognition",
+    "title_en": "3 s-STNet: three-stream spatial–temporal network with appearance and skeleton information learning for action recognition",
+    "title_zh": "3 s-STNet：具有外观和骨架信息学习的三流时空网络，用于动作识别",
+    "year": 2022,
+    "venue": "Neural Computing and Applications",
+    "authors": [
+      "Ming Fang",
+      "Siyu Peng",
+      "Yang Zhao",
+      "Haibo Yuan",
+      "Chih‐Cheng Hung",
+      "Shuhua Liu"
+    ],
+    "doi": "10.1007/s00521-022-07763-8",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1007/s00521-022-07763-8",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4301603566",
+    "openalex_id": "https://openalex.org/W4301603566",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 4,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_18b0e64d40177dc1",
+    "global_record_id": "e705f4ec78bfc422",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_18b0e64d40177dc1"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "A Hierarchical Representation Model Based on Longformer and Transformer for Extractive Summarization",
+    "title_en": "A Hierarchical Representation Model Based on Longformer and Transformer for Extractive Summarization",
+    "title_zh": "基于Longformer和Transformer的提取摘要层次表示模型",
+    "year": 2022,
+    "venue": "Electronics",
+    "authors": [
+      "Shihao Yang",
+      "Shaoru Zhang",
+      "Ming Fang",
+      "Fengqin Yang",
+      "Shuhua Liu"
+    ],
+    "doi": "10.3390/electronics11111706",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.3390/electronics11111706",
+    "pdf_url": "https://www.mdpi.com/2079-9292/11/11/1706/pdf?version=1653629110",
+    "source_url": "https://openalex.org/W4281806453",
+    "openalex_id": "https://openalex.org/W4281806453",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 21,
+    "abstract_en": "Automatic text summarization is a method used to compress documents while preserving the main idea of the original text, including extractive summarization and abstractive summarization. Extractive text summarization extracts important sentences from the original document to serve as the summary. The document representation method is crucial for the quality of the generated summarization. To effectively represent the document, we propose a hierarchical document representation model Long-Trans-Extr for Extractive Summarization, which uses Longformer as the sentence encoder and Transformer as the document encoder. The advantage of Longformer as sentence encoder is that the model can input long document up to 4096 tokens with adding relative a little calculation. The proposed model Long-Trans-Extr is evaluated on three benchmark datasets: CNN (Cable News Network), DailyMail, and the combined CNN/DailyMail. It achieves 43.78 (Rouge-1) and 39.71 (Rouge-L) on CNN/DailyMail and 33.75 (Rouge-1), 13.11 (Rouge-2), and 30.44 (Rouge-L) on the CNN datasets. They are very competitive results, and furthermore, they show that our model has better performance on long documents, such as the CNN corpus.",
+    "abstract_zh": "自动文本摘要是一种在保留原文主要思想的同时对文档进行压缩的方法，包括抽取式摘要和抽象式摘要。提取文本摘要从原始文档中提取重要句子作为摘要。文档表示方法对于生成摘要的质量至关重要。为了有效地表示文档，我们提出了一种用于提取摘要的分层文档表示模型 Long-Trans-Extr，该模型使用 Longformer 作为句子编码器，使用 Transformer 作为文档编码器。 Longformer 作为句子编码器的优点是，该模型可以输入最多 4096 个标记的长文档，并添加相对...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_83999803f4a69c9f",
+    "global_record_id": "4ed92ad23281b3d1",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_83999803f4a69c9f"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感数据集、基准与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测"
+  },
+  {
+    "title": "Micro-expression recognition based on SqueezeNet and C3D",
+    "title_en": "Micro-expression recognition based on SqueezeNet and C3D",
+    "title_zh": "基于SqueezeNet和C3D的微表情识别",
+    "year": 2022,
+    "venue": "Multimedia Systems",
+    "authors": [
+      "Shuhua Liu",
+      "Yushu Ren",
+      "Lanting Li",
+      "Xiaoyu Sun",
+      "Yu Song",
+      "Chih‐Cheng Hung"
+    ],
+    "doi": "10.1007/s00530-022-00949-z",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1007/s00530-022-00949-z",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4281645557",
+    "openalex_id": "https://openalex.org/W4281645557",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 21,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_9895b8dc97258c89",
+    "global_record_id": "c1d174dfccbe8f0a",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_9895b8dc97258c89"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Speech emotion recognition based on transfer learning from the FaceNet framework",
+    "title_en": "Speech emotion recognition based on transfer learning from the FaceNet framework",
+    "title_zh": "基于 FaceNet 框架迁移学习的语音情感识别。J Acoust Soc Am",
+    "year": 2021,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "刘淑华"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "情感理解与情感智能",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_2b46bd2f8885",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理",
+    "secondary_tags": [
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "work_title_group": "46033caf681c",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_2b46bd2f8885"
+    ],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "f16545c1a28a7ee8",
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ]
+  },
+  {
+    "title": "A Robot Object Recognition Method Based on Scene Text Reading in Home Environments.. Sensors (Basel)",
+    "title_en": "A Robot Object Recognition Method Based on Scene Text Reading in Home Environments.. Sensors (Basel)",
+    "title_zh": "家庭环境中基于场景文本阅读的机器人物体识别方法..传感器（巴塞尔）",
+    "year": 2021,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "刘淑华"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "情感理解与情感智能"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_1abf41c68a4e",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理",
+    "secondary_tags": [
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "work_title_group": "8374fa26a862",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_1abf41c68a4e"
+    ],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "8294b76b40d81e81",
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ]
+  },
+  {
+    "title": "Detection of carcinoma in serous effusions: a review",
+    "title_en": "Detection of carcinoma in serous effusions: a review",
+    "title_zh": "浆液性渗出液中癌的检测：综述",
+    "year": 2021,
+    "venue": "American Journal of Cancer Research",
+    "authors": [
+      "Min Li",
+      "Lanbo Zhao",
+      "Xue Zhou",
+      "Kailu Zhang",
+      "Panyue Yin",
+      "Shuhua Liu",
+      "Yuliang Zou",
+      "Qiling Li"
+    ],
+    "doi": "",
+    "dblp_key": "",
+    "paper_url": "https://europepmc.org/article/MED/33520359",
+    "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7840719/",
+    "source_url": "https://openalex.org/W3128386896",
+    "openalex_id": "https://openalex.org/W3128386896",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 16,
+    "abstract_en": "A malignant serous effusion is one of the most common complications of advanced tumors, indicating a poor prognosis and having a profound impact on diagnosis, treatment, and prognosis. It is of great significance to identify benign and malignant effusions quickly and accurately. Both cellular and non-cellular components in the effusion can be employed for detection, diagnostic methods are necessary to obtain a definite diagnosis and more relevant information such as tumor classification. In this review, we focus on the comparison of several widespread cytological preparation methods, enrichment technology of exfoliated cells, and present tests for serous effusions, mainly including routine and special stains, immunocytochemistry, electron microscopy, enzyme-linked immunosorbent assay, flow cytometry, and molecular analysis.",
+    "abstract_zh": "恶性浆液性积液是晚期肿瘤最常见的并发症之一，预后不良，对诊断、治疗和预后影响深远。快速、准确地鉴别胸腔积液的良恶性具有重要意义。积液中的细胞和非细胞成分均可用于检测，需要诊断方法才能获得明确的诊断和更多相关信息，例如肿瘤分类。在这篇综述中，我们重点比较了几种广泛使用的细胞学制备方法、脱落细胞富集技术，并介绍了浆液积液的检测方法，主要包括常规和特殊染色、免疫细胞化学、电子显微镜等。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_e37fba341222a7dd",
+    "global_record_id": "c16a21d22305a4dc",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_e37fba341222a7dd"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感数据集、基准与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测"
+  },
+  {
+    "title": "Digital Reading Culture from the Perspective of Media Technology",
+    "title_en": "Digital Reading Culture from the Perspective of Media Technology",
+    "title_zh": "媒体技术视角下的数字阅读文化",
+    "year": 2021,
+    "venue": "International Journal of Frontiers in Sociology",
+    "authors": [
+      "Shuhua Liu"
+    ],
+    "doi": "10.25236/ijfs.2021.030601",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.25236/ijfs.2021.030601",
+    "pdf_url": "https://francis-press.com/uploads/papers/9gI1u9yl8liau7avzGxZIKawWVAOENYXIBh2bXrq.pdf",
+    "source_url": "https://openalex.org/W3181218533",
+    "openalex_id": "https://openalex.org/W3181218533",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 3,
+    "abstract_en": "Nowadays, digital reading is developing rapidly. From the traditional paper book to the first e-book, various forms of e-reading coexist. Thanks to the continuous upgrading of media technology, the reading culture also changes and develops constantly. It can be said that media technology determines the reading culture and even affects the general social culture. The arrival of the \"big read era\", the audience's reading habits from the \"print\" paper reading turned to the digital reading, The reading culture of the online reading community in the digital media era is constantly changing with the changes of the times, A digital culture that is gradually transforming into digital reading, and new media technology has bred a new reading culture.",
+    "abstract_zh": "如今，数字阅读正在迅速发展。从传统的纸质书到第一本电子书，多种形式的电子阅读并存。得益于媒体技术的不断升级，阅读文化也在不断变化和发展。可以说，媒介技术决定了阅读文化，甚至影响着整个社会文化。 “大阅读时代”的到来，受众的阅读习惯从“纸质”纸质阅读转向数字阅读，数字媒体时代网络阅读社区的阅读文化也在随着时代的变迁而不断变化，逐渐向数字阅读转变，新媒体技术孕育了新的阅读文化。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_0d3e770aea2fb990",
+    "global_record_id": "41b5371b820dad2d",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_0d3e770aea2fb990"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "A Robot Object Recognition Method Based on Scene Text Reading in Home Environments",
+    "title_en": "A Robot Object Recognition Method Based on Scene Text Reading in Home Environments",
+    "title_zh": "一种基于家庭环境下场景文本阅读的机器人物体识别方法",
+    "year": 2021,
+    "venue": "Sensors",
+    "authors": [
+      "Shuhua Liu",
+      "Huixin Xu",
+      "Qi Li",
+      "Fei Zhang",
+      "Kun Hou"
+    ],
+    "doi": "10.3390/s21051919",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.3390/s21051919",
+    "pdf_url": "https://www.mdpi.com/1424-8220/21/5/1919/pdf?version=1615446714",
+    "source_url": "https://openalex.org/W3133869417",
+    "openalex_id": "https://openalex.org/W3133869417",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 6,
+    "abstract_en": "With the aim to solve issues of robot object recognition in complex scenes, this paper proposes an object recognition method based on scene text reading. The proposed method simulates human-like behavior and accurately identifies objects with texts through careful reading. First, deep learning models with high accuracy are adopted to detect and recognize text in multi-view. Second, datasets including 102,000 Chinese and English scene text images and their inverse are generated. The F-measure of text detection is improved by 0.4% and the recognition accuracy is improved by 1.26% because the model is trained by these two datasets. Finally, a robot object recognition method is proposed based on the scene text reading. The robot detects and recognizes texts in the image and then stores the recognition results in a text file. When the user gives the robot a fetching instruction, the robot searches for corresponding keywords from the text files and achieves the confidence of multiple objects in the scene image. Then, the object with the maximum confidence is selected as the target. The results show that the robot can accurately distinguish objects with arbitrary shape and category, and it can effectively solve the problem of object recognition in home environments.",
+    "abstract_zh": "针对复杂场景下机器人物体识别问题，提出一种基于场景文本阅读的物体识别方法。该方法模拟人类行为，通过仔细阅读准确识别带有文本的物体。首先，采用高精度的深度学习模型来检测和识别多视图下的文本。其次，生成包含102,000张中文和英文场景文本图像及其逆的数据集。由于模型是由这两个数据集训练的，文本检测的 F-measure 提高了 0.4%，识别精度提高了 1.26%。最后提出一种基于场景文本阅读的机器人物体识别方法。机器人检测并记录...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_0299c1b598944ac9",
+    "global_record_id": "704fae46906f8d50",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_0299c1b598944ac9"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感数据集、基准与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测"
+  },
+  {
+    "title": "Mixed graph convolution and residual transformation network for skeleton-based action recognition",
+    "title_en": "Mixed graph convolution and residual transformation network for skeleton-based action recognition",
+    "title_zh": "用于基于骨架的动作识别的混合图卷积和残差变换网络",
+    "year": 2021,
+    "venue": "Applied Intelligence",
+    "authors": [
+      "Shuhua Liu",
+      "Xiaoying Bai",
+      "Ming Fang",
+      "Lanting Li",
+      "Chih‐Cheng Hung"
+    ],
+    "doi": "10.1007/s10489-021-02517-w",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1007/s10489-021-02517-w",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W3165224498",
+    "openalex_id": "https://openalex.org/W3165224498",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 38,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_9a2baaff38675cda",
+    "global_record_id": "5d1d3356daa46615",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_9a2baaff38675cda"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "The efficacy and safety of traditional Chinese medicine's tonifying-kidney, strengthening-spleen, and invigorating-blood circulation (Bushen-Jianpi-Huoxue) principle for type 2 diabetes mellitus with osteoporosis: A protocol for systematic review and meta-analysis",
+    "title_en": "The efficacy and safety of traditional Chinese medicine's tonifying-kidney, strengthening-spleen, and invigorating-blood circulation (Bushen-Jianpi-Huoxue) principle for type 2 diabetes mellitus with osteoporosis: A protocol for systematic review and meta-analysis",
+    "title_zh": "中药补肾健脾活血原则治疗2型糖尿病合并骨质疏松症的有效性和安全性：系统评价和荟萃分析方案",
+    "year": 2021,
+    "venue": "Medicine",
+    "authors": [
+      "Yu Zhao",
+      "Jingjing Qiu",
+      "Tongying Chen",
+      "Shihao Wang",
+      "Shuhua Liu",
+      "Hongxing Huang",
+      "Lei Wan"
+    ],
+    "doi": "10.1097/md.0000000000025197",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1097/md.0000000000025197",
+    "pdf_url": "https://doi.org/10.1097/md.0000000000025197",
+    "source_url": "https://openalex.org/W3139392722",
+    "openalex_id": "https://openalex.org/W3139392722",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 9,
+    "abstract_en": "BACKGROUND: Type 2 diabetes mellitus (T2D) and osteoporosis (OP) often coexist, and both are systemic metabolic diseases and seriously increase the risk of fragility fracture. However, there is no specific Western medicine for the treatment of T2D with OP (T2DOP). As reported in clinical and experimental studies, traditional Chinese medicine (TCM) based on principle of tonifying-kidney, strengthening-spleen, and invigorating blood circulation (Bushen-Jianpi-Huoxue) (BSJPHX) has significant efficacy against T2DOP. This protocol will be designed for a systematic review and meta-analysis to assess the efficacy and safety of TCM BSJPHX principle in the treatment of T2DOP. METHODS: All relevant randomized controlled trials (RCTs) related to TCM therapies conducted in BSJPHX principle for T2DOP will be searched in the 8 electronic databases: PubMed, Cochrane Library, Wed of Science, EMBASE, Chinese National Knowledge Infrastructure Database (CNKI), Chinese Biomedical Literatures Database (CBM), Chinese Scientific Journal Database (VIP), Wanfang Database, from inception to October 2020. The main outcomes will contain: fasting blood glucose (FPG), 2 hours postprandial blood glucose (2hPG), glycosylated hemoglobin (HbA1c), serum calcium, bone mineral density (BMD), TCM syndrome integral, and the additional outcomes will consist of visual analog scale (VAS), and adverse events. Two reviewers will independently carry out literature search, data selection and synthesis, and literature quality assessment. In case of any dispute, it will be settled by group discussion. Assessment of risk of bias, reporting bias, and data synthesis would be performed with Review Manager software (Rev-Man 5.3). RESULT: This study will collate and summarize the various current evidences of TCM BSJPHX principle for T2DOP. CONCLUSION: This study will offer convincing evidence for judging the efficacy and safety of TCM BSJPHX principle for T2DOP. PROSPERO REGISTRATION NUMBER: CRD42020218877.",
+    "abstract_zh": "背景：2型糖尿病（T2D）和骨质疏松症（OP）常常并存，两者都是全身代谢性疾病，严重增加脆性骨折的风险。但目前尚无治疗T2D合并OP（T2DOP）的特效西药。临床和实验研究表明，以补肾、健脾、活血为原则的中药（BSJPHX）对T2DOP有显着疗效。本方案旨在进行系统评价和荟萃分析，以评估中医 BSJPHX 原则治疗 T2DOP 的有效性和安全性。方法：所有与中医相关的随机对照试验（RCT）......",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_c056ee0dafe6f9a3",
+    "global_record_id": "1b68df04f7ec0c15",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_c056ee0dafe6f9a3"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感数据集、基准与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测"
+  },
+  {
+    "title": "The Sealing Effect of the Magnetic-Sealing Uterine Manipulator in Patients with Early-Stage Cervical Cancer",
+    "title_en": "The Sealing Effect of the Magnetic-Sealing Uterine Manipulator in Patients with Early-Stage Cervical Cancer",
+    "title_zh": "磁力封宫术对早期宫颈癌患者的封宫效果",
+    "year": 2020,
+    "venue": "来源待核",
+    "authors": [
+      "Xue Zhou",
+      "Dongxin Liang",
+      "Lanbo Zhao",
+      "Lei Wang",
+      "Lei Wang",
+      "Feng Ma",
+      "Rongqian Wu",
+      "Qing Li",
+      "Shuhua Liu",
+      "Qiling Li",
+      "Qiling Li"
+    ],
+    "doi": "10.22541/au.170669097.71239960/v1",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.22541/au.170669097.71239960/v1",
+    "pdf_url": "https://www.authorea.com/doi/pdf/10.22541/au.170669097.71239960",
+    "source_url": "https://openalex.org/W4391389652",
+    "openalex_id": "https://openalex.org/W4391389652",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 0,
+    "abstract_en": "Background: The traditional uterine manipulator is considered the main reason for the shorter survival of patients who undergo minimally invasive surgery (MIS) for the treatment of early-stage cervical cancer. The aim of this study was to assess the sealing effect of a Magnetic-Sealing Uterine Manipulator (MUM) in the isolated uterus. Methods: The study was performed on patients with early-stage cervical cancer who underwent radical laparotomy hysterectomy from November 2019 to January 2020 . We used right-angle forceps closure tests (group 1 and 3) as the control test. The MUM closure test (group 2) and the control test were carried out in an isolated uterus. DNA ploidy analysis system was used to analyze the exfoliated cells. Statistical analysis was performed using Mann-Whitney U test to assess the sealing effect of MUM. Findings: We identified eight patients. All of their tumors were less than 4.0 cm and had none regional nodal metastasis. The mean numbers of exfoliated tumor cells in groups 1, 2, and 3 were 58, 9, and 103, respectively. The number of exfoliated tumor cells was significantly lower in group 2 compared with group 3 (p=0·028). And we observed no significant difference between group 1 and group 2 (p=0·130). Furthermore, there was no signiﬁcant difference between group 1 and group 3 (p=0·721). Interpretation: The sealing effect for MUM was the same as, or even better than, that for the right-angle forceps. The MUM can effectively seal the cervical cancer cells in the cup cover and avoid the dissemination of tumor cells during MIS. Funding Statement: This work was supported by the Clinical Research Award of the First Affiliated Hospital of Xi’an Jiaotong University, China (XJTU1AF-2018-017, XJTU1AF-CRF-2019-002), the Major Basic Research Project of Natural Science of Shaanxi Provincial Science and Technology Department (2018JM7073, 2017ZDJC-11), the Key Research and Development Project of Shaanxi Provincial Science and Technology Department (2017ZDXM-SF-068, 2019QYPY-138), the Shaanxi Provincial Collaborative Technology Innovation Project (2017XT-026, 2018XT-002), and the Medical Research Project of Xi’an Social Development Guidance Plan (2017117SF/YX011-3). Declaration of Interests: The authors declare no potential conflicts of interest. Ethics Approval Statement: The study was approved by the Ethics Committee of the First Affiliated Hospital of Xi'an Jiaotong University (2019-W17). All patients were fully informed of the purpose and study design and provided written consent before their participation.",
+    "abstract_zh": "背景：传统的举宫器被认为是接受微创手术（MIS）治疗早期宫颈癌的患者生存期较短的主要原因。本研究的目的是评估磁力密封子宫机械手 (MUM) 在离体子宫中的密封效果。方法：研究对象为2019年11月至2020年1月接受根治性剖腹子宫切除术的早期宫颈癌患者。我们使用直角钳闭合测试（第 1 组和第 3 组）作为对照测试。 MUM 闭合测试（第 2 组）和对照测试在离体子宫中进行。 DNA倍体分析系统用于分析脱落细胞。统计...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_203d66fad46e86c3",
+    "global_record_id": "361938cfaa71db6f",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_203d66fad46e86c3"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Effect of herbal medicine Shenghua decoction on uterine bleeding after early medical abortion: A protocol for a systematic review and meta-analysis",
+    "title_en": "Effect of herbal medicine Shenghua decoction on uterine bleeding after early medical abortion: A protocol for a systematic review and meta-analysis",
+    "title_zh": "生化汤对早期药物流产后子宫出血的影响：系统评价和荟萃分析方案",
+    "year": 2020,
+    "venue": "Medicine",
+    "authors": [
+      "Ran Cheng",
+      "Shuhua Liu",
+      "Gu J",
+      "Lvyan Xu"
+    ],
+    "doi": "10.1097/md.0000000000022944",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1097/md.0000000000022944",
+    "pdf_url": "https://doi.org/10.1097/md.0000000000022944",
+    "source_url": "https://openalex.org/W3096591984",
+    "openalex_id": "https://openalex.org/W3096591984",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 6,
+    "abstract_en": "BACKGROUND: Excessive and prolonged uterine bleeding is an important obstacle for medical abortion to get popularized. Shenghua decoction (SHD) is widely used for treating uterine bleeding after early medical abortion. However, the clinical evidence is unclear. METHODS: Two researchers will dependently search literatures of SHD for the treatment of uterine bleeding after medical abortion from Web of Science, PubMed, Embase, and The Cochrane Library; traditional Chinese medicine databases; China National Knowledge Infrastructure (CNKI); Chinese Scientific Journal Database (VIP database); and Wan-Fang Database. These inclusive data of included studies will be conducted by RevMan V5.3 software. RESULTS: This systematic review and meta-analysis will provide a detailed summary of the current evidence related to the efficacy of SHD in treating uterine bleeding after early medical abortion, including the duration and volume of uterine bleeding, the medical abortion pain. CONCLUSION: This systematic review and meta-analysis will provide a detailed summary of the current evidence related to the efficacy of SHD in treating uterine bleeding after early medical abortion, REGISTRATION NUMBER:: PROSPERO CRD42020184465.",
+    "abstract_zh": "背景：子宫出血过多、持续时间长是药物流产推广的重要障碍。生化汤（SHD）广泛用于治疗早期药物流产后子宫出血。然而，临床证据尚不清楚。方法：两名研究者分别从Web of Science、PubMed、Embase和The Cochrane图书馆检索SHD治疗药物流产后子宫出血的文献；中药数据库；中国知识基础设施（CNKI）；中国科技期刊数据库（VIP数据库）；和万方数据库。这些纳入研究的包容性数据将由 RevMan V5.3 软件进行。结果：这项系统回顾和荟萃分析......",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_220c67646e00556a",
+    "global_record_id": "9fc6546c01a35adc",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_220c67646e00556a"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感数据集、基准与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测"
+  },
+  {
+    "title": "Acetylcholine ameliorated TNF-α-induced primary trophoblast malfunction via muscarinic receptors†",
+    "title_en": "Acetylcholine ameliorated TNF-α-induced primary trophoblast malfunction via muscarinic receptors†",
+    "title_zh": "乙酰胆碱通过毒蕈碱受体改善 TNF-α 诱导的初级滋养层功能障碍†",
+    "year": 2020,
+    "venue": "Biology of Reproduction",
+    "authors": [
+      "Zheng Wang",
+      "Abdoulaye Issotina Zibrila",
+      "Shuhua Liu",
+      "Gongxiao Zhao",
+      "Yubei Li",
+      "Jingning Xu",
+      "Dan Liu",
+      "Chunfang Li",
+      "Weiyi Feng",
+      "Jinjun Liu"
+    ],
+    "doi": "10.1093/biolre/ioaa158",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1093/biolre/ioaa158",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W3083782561",
+    "openalex_id": "https://openalex.org/W3083782561",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 14,
+    "abstract_en": "Oxidative stress and apoptosis of trophoblasts are involved in preeclampsia (PE). Numerous studies have shown that acetylcholine (ACh), the principal vagal neurotransmitter, plays a crucial role in attenuating oxidative stress, inflammation, and apoptosis in a variety of human diseases. However, the role of ACh in PE management remains unclear. Here, we aimed to determine the effects of ACh on TNF-α-treated human primary trophoblast cells. Western blotting, CCK-8, DHE, TUNEL immunofluorescence staining, transwell assays, and wound-healing assays were performed to evaluate the role of ACh in vitro. We found that both TNF-α expression and the apoptotic index were higher in placentas from preeclamptic women than in normal placentas. TNF-α enhanced oxidative stress and increased the number of TUNEL-positive nuclei, Bax/Bcl-2 ratio, and the cleaved caspase-3/caspase-3 ratio while decreasing cell viability in primary human trophoblast cells. TNF-α promoted cell migration and invasion. PDTC, a selective NF-κB inhibitor, significantly blunted TNF-α-induced effects. ACh treatment attenuated oxidative stress and apoptosis while further promoting migration and invasion of TNF-α-treated primary trophoblast cells. The effects of ACh could be reversed by the muscarinic receptor antagonist atropine. Overall, our findings indicate that ACh significantly ameliorates TNF-α-induced oxidative stress and apoptosis of human primary trophoblast cells via muscarinic receptors. This is the first time that the improvement of vagal activity served as a therapeutic strategy for PE-like trophoblasts, suggesting its potential value in clinical practice.",
+    "abstract_zh": "氧化应激和滋养细胞凋亡与先兆子痫（PE）有关。大量研究表明，乙酰胆碱（ACh）是主要的迷走神经递质，在减轻多种人类疾病中的氧化应激、炎症和细胞凋亡方面发挥着至关重要的作用。然而，ACh 在 PE 管理中的作用仍不清楚。在这里，我们的目的是确定 ACh 对 TNF-α 处理的人原代滋养层细胞的影响。通过蛋白质印迹、CCK-8、DHE、TUNEL 免疫荧光染色、Transwell 实验和伤口愈合实验来评估 ACh 的体外作用。我们发现先兆子痫女性胎盘中的 TNF-α 表达和细胞凋亡指数均高于正常胎盘。 TNF-α增强...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_6021f8bb6aeee6de",
+    "global_record_id": "8bd453f4aa9bc527",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_6021f8bb6aeee6de"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Accurate short tandem repeat analysis for confirmation of rare gestational adrenal choriocarcinoma: a case report",
+    "title_en": "Accurate short tandem repeat analysis for confirmation of rare gestational adrenal choriocarcinoma: a case report",
+    "title_zh": "准确的短串联重复分析确认罕见的妊娠肾上腺绒毛膜癌：病例报告",
+    "year": 2020,
+    "venue": "Translational Cancer Research",
+    "authors": [
+      "Lanbo Zhao",
+      "Sijia Ma",
+      "Yiran Wang",
+      "Xue Feng",
+      "Jie Li",
+      "Qiuping Wang",
+      "Yawen Wang",
+      "Shuhua Liu",
+      "Qiling Li"
+    ],
+    "doi": "10.21037/tcr.2020.04.08",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.21037/tcr.2020.04.08",
+    "pdf_url": "https://tcr.amegroups.com/article/viewFile/38531/pdf",
+    "source_url": "https://openalex.org/W3019258706",
+    "openalex_id": "https://openalex.org/W3019258706",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 2,
+    "abstract_en": "Rare adrenal choriocarcinoma should be identified as gestational or nongestational choriocarcinoma because of their different treatment and prognosis. A 29-year-old parous women underwent curettage and right-oviduct resection successively due to irregular vaginal bleeding and positive human chorionic gonadotropin (HCG). Postoperative pathological examinations revealed no intrauterine and extrauterine pregnancy. After that, HCG continued to rise. A 7.6×10.3×11.0 cm mass was present in the left adrenal gland with an uneven inner density and a complete capsule by computed tomography (CT). A biopsy was performed on the mass, which showed us choriocarcinoma. Seven cycles of chemotherapy made her complete response and under supervision. Recurrent diagnosis was done after 3 months. The tumor specimen, the patient's blood, and her husband's blood were drawn for short tandem repeat (STR) analysis using polymerase chain reaction amplification kit. The genotype of the tumor cells was both maternal and patrilineal, which led to the diagnosis of adrenal gestational choriocarcinoma. The patient was scheduled for adrenalectomy and various chemotherapeutic interventions before and after operation. She achieved complete response and was being followed up again. STR analysis first aids in precise classification of this rare adrenal choriocarcinoma. We encourage using the method to analyze choriocarcinoma outside reproductive organs.",
+    "abstract_zh": "罕见的肾上腺绒毛膜癌应区分为妊娠性或非妊娠性绒毛膜癌，因为它们的治疗和预后不同。一名29岁的经产妇女，因阴道不规则出血、人绒毛膜促性腺激素（HCG）阳性，先后行刮宫术和右侧输卵管切除术。术后病理检查未见宫内、宫外妊娠。此后HCG持续上升。 CT检查显示，左侧肾上腺有一7.6×10.3×11.0 cm肿块，内部密度不均，包膜完整。对肿块进行活检，结果显示绒毛膜癌。七个周期的化疗使她完全缓解并接受监督。反复发作...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_92486e86392777ad",
+    "global_record_id": "adc7e0e1d88670a0",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_92486e86392777ad"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Effect of enhanced external counterpulsation on cardiorenal function and endocrine system in patients with ischemic heart failure",
+    "title_en": "Effect of enhanced external counterpulsation on cardiorenal function and endocrine system in patients with ischemic heart failure",
+    "title_zh": "强化体外反搏对缺血性心力衰竭患者心肾功能及内分泌系统的影响",
+    "year": 2019,
+    "venue": "来源待核",
+    "authors": [
+      "Hua Zhang",
+      "Shuang Zhang",
+      "Zheng Ying",
+      "Nan Wang",
+      "Shuhua Liu"
+    ],
+    "doi": "",
+    "dblp_key": "",
+    "paper_url": "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=201902217705247736",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W3092112376",
+    "openalex_id": "https://openalex.org/W3092112376",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 1,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_eb63dd0fa4b0bf8e",
+    "global_record_id": "802c5a604d027c50",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_eb63dd0fa4b0bf8e"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "An Identity Authentication Method Combining Liveness Detection and Face Recognition",
+    "title_en": "An Identity Authentication Method Combining Liveness Detection and Face Recognition",
+    "title_zh": "一种活体检测与人脸识别相结合的身份认证方法",
+    "year": 2019,
+    "venue": "Sensors",
+    "authors": [
+      "Shuhua Liu",
+      "Yu Song",
+      "Mengyu Zhang",
+      "Jianwei Zhao",
+      "Shihao Yang",
+      "Kun Hou"
+    ],
+    "doi": "10.3390/s19214733",
+    "dblp_key": "",
+    "paper_url": "http://dx.doi.org/10.3390/s19214733",
+    "pdf_url": "https://www.mdpi.com/1424-8220/19/21/4733/pdf?version=1572508940",
+    "source_url": "https://openalex.org/W2982684574",
+    "openalex_id": "https://openalex.org/W2982684574",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 47,
+    "abstract_en": "In this study, an advanced Kinect sensor was adopted to acquire infrared radiation (IR) images for liveness detection. The proposed liveness detection method based on infrared radiation (IR) images can deal with face spoofs. Face pictures were acquired by a Kinect camera and converted into IR images. Feature extraction and classification were carried out by a deep neural network to distinguish between real individuals and face spoofs. IR images collected by the Kinect camera have depth information. Therefore, the IR pixels from live images have an evident hierarchical structure, while those from photos or videos have no evident hierarchical feature. Accordingly, two types of IR images were learned through the deep network to realize the identification of whether images were from live individuals. In comparison with other liveness detection cross-databases, our recognition accuracy was 99.8% and better than other algorithms. FaceNet is a face recognition model, and it is robust to occlusion, blur, illumination, and steering. We combined the liveness detection and FaceNet model for identity authentication. For improving the application of the authentication approach, we proposed two improved ways to run the FaceNet model. Experimental results showed that the combination of the proposed liveness detection and improved face recognition had a good recognition effect and can be used for identity authentication.",
+    "abstract_zh": "在这项研究中，采用先进的 Kinect 传感器来获取红外辐射 (IR) 图像以进行活体检测。所提出的基于红外辐射（IR）图像的活体检测方法可以处理人脸欺骗。人脸图片由 Kinect 摄像头采集并转换为红外图像。通过深度神经网络进行特征提取和分类，以区分真实个体和面部欺骗。 Kinect 摄像头收集的红外图像具有深度信息。因此，实时图像中的红外像素具有明显的层次结构，而照片或视频中的红外像素则没有明显的层次结构。因此，通过深度网络学习了两种类型的红外图像，以实现该想法...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_9e2819d4ee02c44b",
+    "global_record_id": "e0d85da56a6b23c4",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_9e2819d4ee02c44b"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "An Expression Recognition Method on Robots Based on Mobilenet V2-SSD",
+    "title_en": "An Expression Recognition Method on Robots Based on Mobilenet V2-SSD",
+    "title_zh": "一种基于Mobilenet V2-SSD的机器人表情识别方法",
+    "year": 2019,
+    "venue": "International Conference on Systems and Informatics (ICSAI)",
+    "authors": [
+      "Fei Zhang",
+      "Qi Li",
+      "Yushu Ren",
+      "Huixin Xu",
+      "Yu Song",
+      "Shuhua Liu"
+    ],
+    "doi": "10.1109/icsai48974.2019.9010173",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/icsai48974.2019.9010173",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W3008732369",
+    "openalex_id": "https://openalex.org/W3008732369",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 19,
+    "abstract_en": "This paper adopts a combination of MobileNet and SSD method to recognize facial expressions, and then apply it to Nao robots. MobileNet is a lightweight deep network model for mobile devices. The standard convolution is decomposed by depthwise separable convolution to decompose the calculation and reduce the amount of computation. The SSD model evolves from the VGG16 model and maintains excellent object detection performance despite a sharp decrease in the number of parameters. This paper combines MobileNet V2 with SSD for expression recognition, which not only meets the real-time requirements, but also keeps high recognition accuracy. Since the robot's processor performance is limited, while the deep neural network can automatically extract the image feature for accurate classification, it is of great significance to use lightweight deep neural network to apply the real-time detection and recognition of the Nao robot.",
+    "abstract_zh": "本文采用MobileNet和SSD相结合的方法来识别面部表情，然后将其应用到Nao机器人上。 MobileNet 是一种适用于移动设备的轻量级深度网络模型。标准卷积通过深度可分离卷积进行分解，分解计算，减少计算量。 SSD模型由VGG16模型演变而来，尽管参数数量急剧减少，但仍保持出色的目标检测性能。本文将MobileNet V2与SSD结合进行表情识别，既满足实时性要求，又保持较高的识别准确率。由于机器人的处理器性能有限，而深度神经网络可以自动提取...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "智能芯片与计算系统"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_33e12e03c4e29452",
+    "global_record_id": "8d3c292c537d0c7c",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_33e12e03c4e29452"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [
+          "智能芯片与计算系统"
+        ],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "An Identity Authentication Method Combining Liveness Detection and Face Recognition.. Sensors (Basel)",
+    "title_en": "An Identity Authentication Method Combining Liveness Detection and Face Recognition.. Sensors (Basel)",
+    "title_zh": "一种结合活体检测和人脸识别的身份认证方法..传感器（巴塞尔）",
+    "year": 2019,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "刘淑华"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "情感理解与情感智能"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_959f3e938824",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理",
+    "secondary_tags": [
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "work_title_group": "c90b5f27aff9",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_959f3e938824"
+    ],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "ec20400158a52e35",
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ]
+  },
+  {
+    "title": "Speech recognition based building semantic map method on Aldebaran Nao",
+    "title_en": "Speech recognition based building semantic map method on Aldebaran Nao",
+    "title_zh": "基于语音识别的Aldebaran Nao构建语义图方法",
+    "year": 2017,
+    "venue": "Chinese Control and Decision Conference (CCDC)",
+    "authors": [
+      "Shuhua Liu",
+      "Qiwei Xing",
+      "Yuanyuan Han",
+      "Yu Zhao",
+      "Runmin Li"
+    ],
+    "doi": "10.1109/ccdc.2017.7979119",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/ccdc.2017.7979119",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2735037244",
+    "openalex_id": "https://openalex.org/W2735037244",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 1,
+    "abstract_en": "Shallow domain knowledge, such as labels attached to objects and places is necessary for task planning of mobile robots. In order to save energy and protect environment for robots, a fast and effective semantic building map method based on sonars, vision and audio is proposed. Firstly, humanoid robot Nao builds the border map of an unknown environment by its sonars. And then Nao follows a red ball that controlled by a person to close to an obstacle in the environment. After that, Nao builds the border of the obstacle by its sonars autonomously. When finishing an obstacle border, Nao will get the name of obstacle by speech recognition. In this way, Nao builds the border map of all obstacles one by one until the map of the unknown environment is built. As illustrated in experimental results, the proposed algorithm is very fast and effective, and easy to implement.",
+    "abstract_zh": "浅层领域知识，例如附加到物体和地点的标签，对于移动机器人的任务规划是必要的。为了给机器人节省能源和保护环境，提出了一种基于声纳、视觉和音频的快速有效的语义建筑地图方法。首先，人形机器人Nao通过声纳构建未知环境的边界地图。然后 Nao 跟随一个由人控制的红球接近环境中的障碍物。之后，Nao 通过声纳自主构建障碍物边界。当完成一个障碍物边界时，Nao 会通过语音识别得到障碍物的名称。就这样，Nao一一构建了所有障碍物的边界图，直到未知环境的地图……",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_fe001a87725eabd0",
+    "global_record_id": "9c7c426de4ad268e",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_fe001a87725eabd0"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Cost–benefit analysis of pumped hydro storage using improved probabilistic production simulation method",
+    "title_en": "Cost–benefit analysis of pumped hydro storage using improved probabilistic production simulation method",
+    "title_zh": "使用改进的概率生产模拟方法进行抽水蓄能成本效益分析",
+    "year": 2017,
+    "venue": "The Journal of Engineering",
+    "authors": [
+      "Baorong Zhou",
+      "Shuhua Liu",
+      "Siyu Lu",
+      "Xiaoyu Cao",
+      "Wenmeng Zhao"
+    ],
+    "doi": "10.1049/joe.2017.0709",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1049/joe.2017.0709",
+    "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1049/joe.2017.0709",
+    "source_url": "https://openalex.org/W2771244676",
+    "openalex_id": "https://openalex.org/W2771244676",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 12,
+    "abstract_en": "This study presents an improved probabilistic production simulation method to facilitate the cost–benefit analysis of pumped hydro storage. To capture the coherent feature of power system operation, the traditional form of probabilistic production simulation is strengthened under a three‐fold computational framework. First, the chronological sequences of renewable energy generation and imbalanced power are produced according to a set of feature metrics. Then, the imbalanced power series are modified through the long‐term scheduling of pumped hydro storage. At last, the regular steps of probabilistic production simulation, including construction of equivalent energy function and convolution operation, are implemented to derive the operational cost and reliability metrics of power system. Case studies on IEEE‐RTS79 system demonstrate the effectiveness of the proposed simulation method, which enables the quantitative assessment for cost‐benefits of pumped hydro storage towards a high‐penetration renewable energy integrated power system.",
+    "abstract_zh": "本研究提出了一种改进的概率生产模拟方法，以促进抽水蓄能的成本效益分析。为了捕捉电力系统运行的连贯特征，传统形式的概率生产模拟在三重计算框架下得到了加强。首先，根据一组特征指标产生可再生能源发电和不平衡电力的时间顺序。然后，通过抽水蓄能的长期调度来修正不平衡的电力序列。最后，实现了概率生产模拟的常规步骤，包括构造等效能量函数和卷积运算，以推导操作...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_4e146054b78d819d",
+    "global_record_id": "9910c67f7d6b4316",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_4e146054b78d819d"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Cognitive abilities of indoor cleaning robots",
+    "title_en": "Cognitive abilities of indoor cleaning robots",
+    "title_zh": "室内清洁机器人的认知能力",
+    "year": 2016,
+    "venue": "World Congress on Intelligent Control and Automation",
+    "authors": [
+      "Shuhua Liu",
+      "Zheng Li",
+      "Siyu Wang",
+      "Runmin Li",
+      "Yu Zhao"
+    ],
+    "doi": "10.1109/wcica.2016.7578317",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/wcica.2016.7578317",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2526563717",
+    "openalex_id": "https://openalex.org/W2526563717",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 10,
+    "abstract_en": "Indoor cleaning robots often work in peopled surroundings. Therefore, cleaning robots in domestic homes should not only clean efficiently but also harmoniously integrate with humans. This paper proposes to add cognitive abilities to intelligent cleaning robots, including environmental cognition, dynamic obstacles, and cleaning tasks. These cognition abilities are implemented by very simple, yet efficient theoretical approaches. First, a robot builds a grid map of its environment via sonar and select human-robot interaction. Then, the robot moves one round along the room boundary via internal spiral coverage (ISC) algorithm to understand the room structure. The cleaning efficiency of a robot is greatly improved by understanding its environment. The structure of a room also provides semantic planning information for task cognition. Moreover, family members are able to avoid a moving robot in different ways. People are therefore divided into three types: elderly people, children, and adults. We assume that people wear different colors of clothing. The elderly wear red, children wear yellow, and adults wear blue. The robot can visually recognize these colors and adopt different obstacle avoidance policies, such as emergent, active, or normal. Finally, three cleaning modes are set: unstructured, structured, and local. Users can select different modes to save energy. Experimental results show that these cognitive abilities of a robot improve efficiency and enhance its safety and perceived friendliness.",
+    "abstract_zh": "室内清洁机器人通常在人群密集的环境中工作。因此，家庭清洁机器人不仅要高效清洁，还要与人类和谐相处。本文提出为智能清洁机器人添加认知能力，包括环境认知、动态障碍物和清洁任务。这些认知能力是通过非常简单但有效的理论方法来实现的。首先，机器人通过声纳构建其环境的网格图并选择人机交互。然后，机器人通过内部螺旋覆盖（ISC）算法沿着房间边界移动一圈，以了解房间结构。通过了解机器人的环境，可以大大提高机器人的清洁效率...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_6148a6b54857705b",
+    "global_record_id": "86e6e1b92fb6d03d",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_6148a6b54857705b"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Design and implementation of mobile robot ultrasonic localization system",
+    "title_en": "Design and implementation of mobile robot ultrasonic localization system",
+    "title_zh": "移动机器人超声定位系统的设计与实现",
+    "year": 2016,
+    "venue": "Chinese Control and Decision Conference (CCDC)",
+    "authors": [
+      "Runmin Li",
+      "Zhonghui Du",
+      "Yu Zhao",
+      "Shuhua Liu"
+    ],
+    "doi": "10.1109/ccdc.2016.7531954",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/ccdc.2016.7531954",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2517095224",
+    "openalex_id": "https://openalex.org/W2517095224",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 7,
+    "abstract_en": "This paper proposes adopting multiple ultrasonic sensors to localize indoor mobile robot. In order to achieve uttermost coverage and improve the accuracy, we combine three-sensor coverage, two-sensor coverage and single sensor coverage. When the data from sensors cannot determine the location of the robot, the relative coordinates is adopted for localization. This paper firstly gives principles and overall design idea of multiple ultrasonic sensors localization, then details software and hardware designing methods of the system. Finally, it conducts a test in self developed ultrasonic sensor transmit-receive system, and test data shows that this system can complete coverage of the whole room, reducing blind zone of coverage. The accumulated deviation was less than 13cm.",
+    "abstract_zh": "本文提出采用多个超声波传感器来定位室内移动机器人。为了实现最大程度的覆盖，提高准确度，我们采用了三传感器覆盖、两传感器覆盖和单传感器覆盖相结合的方式。当传感器数据无法确定机器人位置时，采用相对坐标进行定位。本文首先给出了多超声波传感器定位的原理和总体设计思路，然后详细介绍了系统的软硬件设计方法。最后对自主研发的超声波传感器发射接收系统进行了测试，测试数据表明该系统能够完成整个房间的覆盖，减少了覆盖盲区。累计的...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "智能芯片与计算系统"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_3e6d6c00e51a8579",
+    "global_record_id": "afabbb9644c250b0",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_3e6d6c00e51a8579"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [
+          "智能芯片与计算系统"
+        ],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Current Situation and Future of Chinese Industrial Robot Development",
+    "title_en": "Current Situation and Future of Chinese Industrial Robot Development",
+    "title_zh": "中国工业机器人发展现状与未来",
+    "year": 2016,
+    "venue": "International Journal of Mechanical Engineering and Robotics Research",
+    "authors": [
+      "Li Zheng",
+      "Shuhua Liu",
+      "Siyu Wang"
+    ],
+    "doi": "10.18178/ijmerr.5.4.295-300",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.18178/ijmerr.5.4.295-300",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2560063109",
+    "openalex_id": "https://openalex.org/W2560063109",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 15,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_5cfbb3bc8d113d11",
+    "global_record_id": "345eade80a0f848a",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_5cfbb3bc8d113d11"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Automatic Tag Extraction from Social Media for Visual Labeling",
+    "title_en": "Automatic Tag Extraction from Social Media for Visual Labeling",
+    "title_zh": "从社交媒体中自动提取标签以进行视觉标记",
+    "year": 2015,
+    "venue": "International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management",
+    "authors": [
+      "Shuhua Liu",
+      "Thomas Forss"
+    ],
+    "doi": "10.5220/0005638505040510",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.5220/0005638505040510",
+    "pdf_url": "https://doi.org/10.5220/0005638505040510",
+    "source_url": "https://openalex.org/W2294964449",
+    "openalex_id": "https://openalex.org/W2294964449",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 0,
+    "abstract_en": "Visual labeling or automated visual annotation is of great importance to the efficient access and management of multimedia content. Many methods and techniques have been proposed for image annotation in the last decade and they have shown reasonable performance on standard datasets. Great progress has been made especially in recent couple of years with the development of deep learning models for image content analysis and extraction of content-based concept labels. However, concept objects labels are much more friendly to machine than to users. We consider that more relevant and user-friendly visual labels need to include “context” descriptors. In this study we explore the possibilities to leverage social media content as a resource for visual labeling. We developed a tag extraction system that applies heuristic rules and term weighting method to extract image tags from associated Tweet. The system retrieves tweet-image pairs from public Twitter accounts, analyzes the Tweet, and generates labels for the images. We elaborate on different visual labeling methods, tag analysis and tag refinement methods.",
+    "abstract_zh": "视觉标签或自动视觉注释对于多媒体内容的有效访问和管理非常重要。在过去的十年中，人们提出了许多用于图像标注的方法和技术，并且它们在标准数据集上表现出了合理的性能。特别是近年来，随着用于图像内容分析和基于内容的概念标签提取的深度学习模型的发展，取得了巨大的进步。然而，概念对象标签对机器比对用户友好得多。我们认为更相关和用户友好的视觉标签需要包含“上下文”描述符。在这项研究中，我们探讨了利用社交媒体内容作为视觉资源的可能性……",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_fccf5e8e60585f86",
+    "global_record_id": "7716a877e008573f",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_fccf5e8e60585f86"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感数据集、基准与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测"
+  },
+  {
+    "title": "The effect of connective tissue growth factor on renal fibrosis and podocyte injury in hypertensive rats",
+    "title_en": "The effect of connective tissue growth factor on renal fibrosis and podocyte injury in hypertensive rats",
+    "title_zh": "结缔组织生长因子对高血压大鼠肾纤维化及足细胞损伤的影响",
+    "year": 2014,
+    "venue": "Renal Failure",
+    "authors": [
+      "Wen Ying Lu",
+      "Shuhua Liu",
+      "Zhiming Zhao",
+      "Yipeng Liu",
+      "Ting Li"
+    ],
+    "doi": "10.3109/0886022x.2014.934692",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.3109/0886022x.2014.934692",
+    "pdf_url": "https://www.tandfonline.com/doi/pdf/10.3109/0886022X.2014.934692?needAccess=true",
+    "source_url": "https://openalex.org/W2042784042",
+    "openalex_id": "https://openalex.org/W2042784042",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 8,
+    "abstract_en": "OBJECTIVE: The aim of this study was to evaluate the roles of podocalyxin (PCX) and connective tissue growth factor (CTGF) in spontaneously hypertensive rats. METHODS: Spontaneously hypertensive rats (SHR) and normotensive control Wistar-Kyoto (WKY) rats were divided into groups referred to as SHR 12W, SHR 24W, WKY 12W and WKY 24W. Systolic blood pressure and 24-hour total uric protein were measured every two weeks in the respective groups. CTGF, PCX, alpha-smooth muscle actin (α-SMA) and collagen-III were evaluated via immunohistochemical staining. In addition, CTGF, PCX, and α-SMA gene expression levels were determined by analyzing mRNA levels. RESULTS: More kidney lesions occurred alongside foot processes effacement in SHR 24W rats than in SHR 12W rats. In SHR 12W rats, blood pressure and 24-hour total uric protein level were elevated and continued to increase thereafter. In the SHR 12W and SHR 24W groups, the expression of CTGF, α-SMA and collagen-III was significantly increased. Immunohistochemical staining showed that PCX expression was significantly reduced in the SHR group and CTGF expression was increased. A significant decrease in PCX mRNA and an increase in CTGF mRNA were observed in SHR 24W rats relative to SHR 12W rats. CONCLUSION: Both the overexpression of CTGF and the loss of podocalyxin reflect renal damage in spontaneously hypertensive rats. CTGF and PCX may be involved in the mechanisms of podocyte injury and apoptosis induced by hypertension.",
+    "abstract_zh": "目的：本研究的目的是评估足萼蛋白（PCX）和结缔组织生长因子（CTGF）在自发性高血压大鼠中的作用。方法：将自发性高血压大鼠（SHR）和正常血压对照 Wistar-Kyoto（WKY）大鼠分为 SHR 12W、SHR 24W、WKY 12W 和 WKY 24W 组。每两周测量各组的收缩压和24小时总尿蛋白。通过免疫组织化学染色评估 CTGF、PCX、α-平滑肌肌动蛋白 (α-SMA) 和 III 型胶原蛋白。此外，通过分析 mRNA 水平来确定 CTGF、PCX 和 α-SMA 基因表达水平。结果：SHR 24W 大鼠中伴随足突消失发生的肾脏病变比...更多",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_4fd825ac8587bd83",
+    "global_record_id": "04385f55e31ee60d",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_4fd825ac8587bd83"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Computer parameterized design of sport bicycle frame structure",
+    "title_en": "Computer parameterized design of sport bicycle frame structure",
+    "title_zh": "运动自行车车架结构的计算机参数化设计",
+    "year": 2013,
+    "venue": "Journal of Shaanxi University of Technology",
+    "authors": [
+      "Shuhua Liu"
+    ],
+    "doi": "",
+    "dblp_key": "",
+    "paper_url": "https://oversea.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&filename=SXGX201303001",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2388736824",
+    "openalex_id": "https://openalex.org/W2388736824",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 0,
+    "abstract_en": "Through creating human body size database and bicycle parts inventory,based on the characteristics of sport bicycle frame and ergonomic principle of human engineering,the authors designs computerized parameters for framing bicycles.The paper explores a design method to make the frame suit different body size and actualize the ideal of people-first,tailor-made.",
+    "abstract_zh": "通过建立人体尺寸数据库和自行车零部件库存,根据运动自行车车架的特点和人体工程学原理,对自行车车架进行计算机化参数设计,探索出一种适合不同体型的车架设计方法,实现以人为本、量体裁衣的理想。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_ab0613a2affc64f5",
+    "global_record_id": "c8ce4fe16f96c4e3",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_ab0613a2affc64f5"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感数据集、基准与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测"
+  },
+  {
+    "title": "Power integrity simulation for multilayer power distribution networks based on GTLE and via model",
+    "title_en": "Power integrity simulation for multilayer power distribution networks based on GTLE and via model",
+    "title_zh": "基于GTLE和过孔模型的多层配电网络电源完整性仿真",
+    "year": 2011,
+    "venue": "International Conference on Electronic Packaging Technology (ICEPT)",
+    "authors": [
+      "Yunyan Zhou",
+      "Lixi Wan",
+      "Shuhua Liu",
+      "Liqiang Cao",
+      "Jia Jia"
+    ],
+    "doi": "10.1109/icept.2011.6066895",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/icept.2011.6066895",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W1969991429",
+    "openalex_id": "https://openalex.org/W1969991429",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 1,
+    "abstract_en": "In high-speed applications, electronic packages usually contain multilayer power-ground planes with large number of P-G vias to provide a low-impedance path for the power distribution system between the PCB and the die. The transient current injected into the P-G planes can induce unintentional voltage fluctuations in the power distribution network of the packages. The undesired voltage fluctuations can be significant even for the packages with solid P-G planes due to the return currents of switching input/output lines. A major problem arising in power distribution networks is simultaneous switching noise (SSN) which is induced by the power and ground inductance. This paper presents a numerical approach that combines the 2D generalized transmission line equations (GTLE) method and multi-layer finite-difference frequency-domain (FDFD) method to model and analyze the two-dimensional electromagnetic problem arising in multilayered power distribution planes. The results of our analysis method are compared to those from a full-wave simulator to show efficiency in power integrity simulation.",
+    "abstract_zh": "在高速应用中，电子封装通常包含带有大量 P-G 过孔的多层电源接地层，为 PCB 和芯片之间的配电系统提供低阻抗路径。注入 P-G 层的瞬态电流可能会在封装的配电网络中引起意外的电压波动。由于开关输入/输出线的返回电流，即使对于具有实心 P-G 平面的封装，不良电压波动也可能很大。配电网络中出现的一个主要问题是由电源和接地电感引起的同步开关噪声 (SSN)。本文提出了一种结合二维广义变换的数值方法...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_ef074833798b6202",
+    "global_record_id": "26eb1d2940b9a154",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_ef074833798b6202"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "A Kind of Sub-pixel Adjustment Method of Grid Characters Thickness",
+    "title_en": "A Kind of Sub-pixel Adjustment Method of Grid Characters Thickness",
+    "title_zh": "一种网格字符粗细的亚像素调整方法",
+    "year": 2011,
+    "venue": "China Printing and Packaging Study",
+    "authors": [
+      "Shuhua Liu"
+    ],
+    "doi": "",
+    "dblp_key": "",
+    "paper_url": "https://oversea.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&filename=PYSB201102009",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2379291420",
+    "openalex_id": "https://openalex.org/W2379291420",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 0,
+    "abstract_en": "In order to ensure printing quality of text content in grid image,it is necessary to adjust the thickness of characters in the pre-press.In this paper,a sub-pixel adjustment method was presented based on analysis of characters' neighborhood pixel information to control the scope and direction of the adjustment.With the new method,grid character image was considered as a combined result of a foreground character layer and a background image layer.By performing the steps of separating characters from background,calculating ink density of each pixel of characters,adjusting each pixel's ink density by analysis of neighborhood stroke shape,the result was achieved which could simulate the effects performed by vector methods. The method can be adapted to global or any certain direction(e.g.vertical,horizontal,diagonal,etc) thickness adjustment. Experimental results show that the method can achieve excellent results and is proved to be very practical.",
+    "abstract_zh": "为了保证网格图像中文字内容的印刷质量,需要在印前对字符的粗细进行调整。本文提出一种基于字符邻域像素信息分析的分像素调整方法,控制调整的范围和方向。该方法将网格字符图像视为前景字符层和背景图像层的合成结果。邻域笔划形状,得到的结果可以模拟矢量方法的效果。方法可以是...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_b26cac617a8d49b9",
+    "global_record_id": "366435bca3948212",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_b26cac617a8d49b9"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Development and application of new thrust bearing for ZN series turbocharger",
+    "title_en": "Development and application of new thrust bearing for ZN series turbocharger",
+    "title_zh": "ZN系列涡轮增压器新型推力轴承的开发与应用",
+    "year": 2011,
+    "venue": "Diesel Locomotives",
+    "authors": [
+      "Shuhua Liu"
+    ],
+    "doi": "",
+    "dblp_key": "",
+    "paper_url": "https://oversea.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&filename=LRJX201110009",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2390905350",
+    "openalex_id": "https://openalex.org/W2390905350",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 0,
+    "abstract_en": "New thrust bearing with space surfaceoil wedge structure was developed. The New material usedfor the bearing was introduced. The Special surface coating was made for improving the bearing capacity and wearresistance, and extending the service life. The number ofcomponets for the bearing is reduced by more than 70%.Application results show that the new bearings are good inboth reliability and durability.",
+    "abstract_zh": "开发出新型太空面油楔结构推力轴承。介绍了轴承的新材料。特殊表面涂层，提高承载能力和耐磨性，延长使用寿命。轴承的零部件数量减少了70%以上。应用结果表明，新型轴承具有良好的可靠性和耐用性。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_e648b2fb5d395f29",
+    "global_record_id": "1578a93a324ce93b",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_e648b2fb5d395f29"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Study of Mixed-signal crosstalk in 3-D package",
+    "title_en": "Study of Mixed-signal crosstalk in 3-D package",
+    "title_zh": "3D 封装中混合信号串扰的研究",
+    "year": 2010,
+    "venue": "International Conference on Electronic Packaging Technology (ICEPT)",
+    "authors": [
+      "Shuhua Liu",
+      "Liqiang Cao",
+      "Jun Li",
+      "Yunyan Zhou",
+      "Jing Hua Zhou",
+      "Qidong Wang",
+      "Fengwei Dai",
+      "Lixi Wan",
+      "Daniel Guidotti"
+    ],
+    "doi": "10.1109/icept.2010.5583791",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/icept.2010.5583791",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2033326930",
+    "openalex_id": "https://openalex.org/W2033326930",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 2,
+    "abstract_en": "With the development of miniaturization, multi-function, environmental protection and other aspects of electronic products, high-density integration technology such as System-on-Chip (SOC) and System-in-Package (SIP) technology has developed rapidly. Mixed-signal integrity in multi-chip integration packages is a main issue. To meet the demand for high-density, 3-D chip stacking is one solution to reduce size and increase the integration. In this paper, three methods are implemented and contrasted: (1) sweep the stack sequence of RF chip and digital chip; (2) investigate the crosstalk with or without adding shielding layer to the stacked dies; (3) investigate the crosstalk with varying the density of ground points on the shielding.",
+    "abstract_zh": "随着电子产品小型化、多功能化、环保化等方面的发展，片上系统（SOC）和系统级封装（SIP）技术等高密度集成技术迅速发展。多芯片集成封装中的混合信号完整性是一个主要问题。为了满足高密度的需求，3D芯片堆叠是减小尺寸和提高集成度的一种解决方案。本文对三种方法进行了实现和对比：（1）扫描射频芯片和数字芯片的堆叠顺序； (2) 研究在堆叠芯片上添加屏蔽层或不添加屏蔽层时的串扰； (3) 研究不同屏蔽层接地点密度的串扰。",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "智能芯片与计算系统"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_a8e5d4eb223e3896",
+    "global_record_id": "c151be97027d5997",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_a8e5d4eb223e3896"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [
+          "智能芯片与计算系统"
+        ],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Study on intermediate frequency furnace's filter based on PSAF simulation analysis",
+    "title_en": "Study on intermediate frequency furnace's filter based on PSAF simulation analysis",
+    "title_zh": "基于PSAF仿真分析的中频炉滤波器研究",
+    "year": 2010,
+    "venue": "Heilongjiang Electric Power",
+    "authors": [
+      "Shuhua Liu"
+    ],
+    "doi": "",
+    "dblp_key": "",
+    "paper_url": "https://oversea.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&filename=HEIL201006007",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2380418333",
+    "openalex_id": "https://openalex.org/W2380418333",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 0,
+    "abstract_en": "When high power intermediate frequency furnace's electrical equipment is service,its rated current is higher,the capacity of needed filter is bigger and its load changes intensely.On the basis of the above characteristics,this paper proposes to adopt passive power filter(PPF) to eliminate harmonic pollution.To prevent passive aggressive behavior when the system is no-load,PSAF is adopted to analyze harmonic's characteristics generated by intermediate frequency furnace and influences of impedance frequency perturbation on filter effect which are used for verification of PPF's feasibility and effectiveness.",
+    "abstract_zh": "大功率中频炉电气设备在运行时，额定电流较高，所需滤波器容量较大，负载变化剧烈。基于上述特点，提出采用无源电力滤波器(PPF)消除谐波污染。为防止系统空载时的无源攻击行为，采用PSAF分析中频炉产生的谐波特性以及阻抗频率摄动对滤波效果的影响，验证PPF的可行性和有效性。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_d4f1c8869ed862d8",
+    "global_record_id": "7c04e1a094c2dcff",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_d4f1c8869ed862d8"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Electrical design of high density low cost package for a switch ASIC",
+    "title_en": "Electrical design of high density low cost package for a switch ASIC",
+    "title_zh": "开关 ASIC 高密度低成本封装的电气设计",
+    "year": 2010,
+    "venue": "International Conference on Electronic Packaging Technology (ICEPT)",
+    "authors": [
+      "Jun Li",
+      "Liqiang Cao",
+      "Shuhua Liu",
+      "Jing Zhou",
+      "Qidong Wang",
+      "Daniel Guidotti",
+      "Lixi Wan",
+      "Cheng Liao"
+    ],
+    "doi": "10.1109/icept.2010.5582680",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/icept.2010.5582680",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2064005674",
+    "openalex_id": "https://openalex.org/W2064005674",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 2,
+    "abstract_en": "A switch Application Specific Integrated Circuit (ASIC) chip implemented in six-substrate layers for low cost design which has more than 1000 pin-count. This paper deals with the electrical design of the high density package, including transmission characteristics of the key signal lines, crosstalk between signal lines, the coupling between neighboring power pins, DC IR drop and AC input impedance etc.. The authors used different local grounding solutions to reduce the current density and the coupling between power pins. In this paper, wide copper traces/shapes on the substrate layers were used to achieve minimum DC resistance and suppress the crosstalk between layers. Both wide copper traces/shapes and smallest available surface mount technology (SMT) capacitors placed at the bottom of the substrate were used to minimize the input impedance of power supply networks. Electrical test, DFT test and functional test showed that the low cost package meets the design requirements.",
+    "abstract_zh": "一种采用六层基板实现的开关专用集成电路 (ASIC) 芯片，用于低成本设计，引脚数超过 1000 个。本文讨论了高密度封装的电气设计，包括关键信号线的传输特性、信号线之间的串扰、相邻电源引脚之间的耦合、直流压降和交流输入阻抗等。作者采用了不同的局部接地方案来降低电流密度和电源引脚之间的耦合。在本文中，基板层上的宽铜迹线/形状用于实现最小的直流电阻并抑制层间串扰。宽铜迹线/形状和最小的可用表面贴装技术...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "智能芯片与计算系统"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_46c7bacd399bec6a",
+    "global_record_id": "f12f3d3bcbe80147",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_46c7bacd399bec6a"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [
+          "智能芯片与计算系统"
+        ],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Research on government chief information officer system in China: a critical assessment",
+    "title_en": "Research on government chief information officer system in China: a critical assessment",
+    "title_zh": "中国政府首席信息官制度研究：批判性评估",
+    "year": 2010,
+    "venue": "International Conference on Theory and Practice of Electronic Governance",
+    "authors": [
+      "Chongzhao Li",
+      "Shuhua Liu",
+      "Lei Zheng"
+    ],
+    "doi": "10.1145/1930321.1930404",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1145/1930321.1930404",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2039379614",
+    "openalex_id": "https://openalex.org/W2039379614",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 1,
+    "abstract_en": "In this study, we reviewed papers on Government Chief Information Officer (GCIO) published from 1980 to 2009 in Chinese Academic Journals. Employing quantitative and qualitative methods, we found that most published papers are descriptive in nature and lack in-depth academic analysis.",
+    "abstract_zh": "在这项研究中，我们回顾了1980年至2009年在中国学术期刊上发表的有关政府首席信息官（GCIO）的论文。采用定量和定性方法，我们发现大多数发表的论文都是描述性的，缺乏深入的学术分析。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_0b8033ac0a74efa6",
+    "global_record_id": "396cb5cfb1e969a2",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_0b8033ac0a74efa6"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "The value of ultrasonography in monitoring ectopic pregnancy",
+    "title_en": "The value of ultrasonography in monitoring ectopic pregnancy",
+    "title_zh": "超声检查在宫外孕监测中的价值",
+    "year": 2009,
+    "venue": "Medical Journal of West China",
+    "authors": [
+      "Shuhua Liu"
+    ],
+    "doi": "",
+    "dblp_key": "",
+    "paper_url": "https://oversea.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&filename=XIBU200910075",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2394373388",
+    "openalex_id": "https://openalex.org/W2394373388",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 0,
+    "abstract_en": "Objective To investigate the clinical value of ultrasonography in ectopic pregnancy diagnosis and drug induced abortion monitor.Method We retrospectively analyzed 79 patients in our hospital who had ectopic pregnancy and 12 patients who had drug induced abortion by ultrasonography.Results Of the 79 ectopic pregnancy patients diagnosed by ultrasonography,77 patients were made a definite diagnosis through surgery and drug induced abortion.The diagnostic accordance rate was 97%.2 patients were missed(3%).11 patients were registered as shrunken or disappeared embryo by methotrexate and 5-fluorouracil.Conclusion The ultrasonography is one of the best way in diagnosing ectopic pregnancy.",
+    "abstract_zh": "目的探讨超声检查在宫外孕诊断及药物流产监测中的临床价值。方法对我院收治的79例宫外孕患者和12例药物流产患者进行超声检查回顾性分析。结果超声诊断的79例宫外孕患者中，77例通过手术和药物流产明确诊断，诊断符合率为97%，漏诊2例（3%），11例。甲氨蝶呤和5-氟尿嘧啶均显示胚胎萎缩或消失。结论超声检查是诊断宫外孕的最佳方法之一。",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_6944a3f61a5f6a4e",
+    "global_record_id": "fc69ed490f1aaaf8",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_6944a3f61a5f6a4e"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Simulation Analysis for Launch Dynamics of Multiple Launch Rocket System Based on ADMAS",
+    "title_en": "Simulation Analysis for Launch Dynamics of Multiple Launch Rocket System Based on ADMAS",
+    "title_zh": "基于ADMAS的多管火箭系统发射动力学仿真分析",
+    "year": 2009,
+    "venue": "Ordnance Industry Automation",
+    "authors": [
+      "Shuhua Liu"
+    ],
+    "doi": "",
+    "dblp_key": "",
+    "paper_url": "https://oversea.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&filename=BGZD200902012",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2390551900",
+    "openalex_id": "https://openalex.org/W2390551900",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 2,
+    "abstract_en": "Based on virtual prototype technology,the dynamic characteristics of the Multiple Launch Rocket mounting buffer device in fire period was discussed.We established the physical model that is suitable for dynamic simulation according to rocket gun system’s geometric model;developed simulation prototype system based on ADAMS software platform and program composition of launching simulation.Shocked vibration torque of pitch axis and azimuth axis,as well as rocket gun system’s mechanical characteristics of base,which provide reference data for developing and testing multiple launch rocket system,effectively reduced development period of the system,and saved the development funds.",
+    "abstract_zh": "基于虚拟样机技术，探讨了多管火箭炮安装缓冲装置在发射阶段的动态特性，根据火箭炮系统的几何模型，建立了适合动态仿真的物理模型；开发了基于ADAMS软件平台的仿真样机系统和发射仿真程序组成，得到了俯仰轴和方位轴的冲击振动扭矩，以及火箭炮系统底座的力学特性，为多管火箭炮系统的研制和测试提供了参考数据，有效缩短了系统的研制周期，节省了开发成本。资金。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_c3eed9856c2be74b",
+    "global_record_id": "e909b4a7f9a9c559",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_c3eed9856c2be74b"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Research on AI Planning Based Modeling Method for Area Traffic Signal Control",
+    "title_en": "Research on AI Planning Based Modeling Method for Area Traffic Signal Control",
+    "title_zh": "基于AI规划的区域交通信号控制建模方法研究",
+    "year": 2009,
+    "venue": "International Conference on Measuring Technology and Mechatronics Automation (ICMTMA)",
+    "authors": [
+      "Chenmu Yu",
+      "Shuhua Liu",
+      "Yu Zhang",
+      "Jie Liu"
+    ],
+    "doi": "10.1109/icmtma.2009.224",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/icmtma.2009.224",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2142592908",
+    "openalex_id": "https://openalex.org/W2142592908",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 1,
+    "abstract_en": "In this paper an area signal control model based on temporal planning is presented. Every activity of area signal control is modeled using planning domain definition language, and then the domain model of area signal control is established. Aiming at the representation problem of resource and time in the area signal control model, we extended the basic activity model by adding resource constraint and temporal constraint, and temporal planning based domain model for area signal control is established finally.",
+    "abstract_zh": "本文提出了一种基于时间规划的区域信号控制模型。利用规划域定义语言对区域信号控制的各项活动进行建模，建立区域信号控制的域模型。针对区域信号控制模型中资源和时间的表示问题，通过添加资源约束和时间约束对基本活动模型进行扩展，最终建立了基于时间规划的区域信号控制域模型。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_0f085526553df488",
+    "global_record_id": "66aa561fc445b09f",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_0f085526553df488"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Design and Implementation of Data Resources Management Platform Based on CMS",
+    "title_en": "Design and Implementation of Data Resources Management Platform Based on CMS",
+    "title_zh": "基于CMS的数据资源管理平台的设计与实现",
+    "year": 2009,
+    "venue": "Computer Programming Skills & Maintenance",
+    "authors": [
+      "Shuhua Liu"
+    ],
+    "doi": "",
+    "dblp_key": "",
+    "paper_url": "https://oversea.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&filename=DNBC200910025",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2360486402",
+    "openalex_id": "https://openalex.org/W2360486402",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 0,
+    "abstract_en": "This paper presents a framework based on data,which is the separation of data and demonstrated format based on CMS.Implementation of some project is based on this framework.This framework enhanced system flexibility,easy maintenance.The system forms data resources which have a unified standard format,will be shared by other systems and improves the utilization of resources.",
+    "abstract_zh": "提出了一种基于数据的框架，即基于CMS的数据与展示格式的分离。一些项目的实现就是基于该框架。该框架增强了系统的灵活性，易于维护。系统形成具有统一标准格式的数据资源，可以被其他系统共享，提高了资源的利用率。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_42c0b13a6ffcbd9c",
+    "global_record_id": "c0a15ae6c400980a",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_42c0b13a6ffcbd9c"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Two Dimensional Ultrasound Diagnosis of Old Ectopic Pregnancy",
+    "title_en": "Two Dimensional Ultrasound Diagnosis of Old Ectopic Pregnancy",
+    "title_zh": "陈旧性宫外孕的二维超声诊断",
+    "year": 2008,
+    "venue": "Journal of Occupational Health and Damage",
+    "authors": [
+      "Shuhua Liu"
+    ],
+    "doi": "",
+    "dblp_key": "",
+    "paper_url": "https://oversea.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&filename=ZYWB200805018",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2353177262",
+    "openalex_id": "https://openalex.org/W2353177262",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 0,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_825f4df0fac9a65e",
+    "global_record_id": "c01b7516082a095f",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_825f4df0fac9a65e"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Analysis on the Factors Affecting Battledore's Dynamic Properties",
+    "title_en": "Analysis on the Factors Affecting Battledore's Dynamic Properties",
+    "title_zh": "影响Battledore动态特性的因素分析",
+    "year": 2008,
+    "venue": "Journal of Xi'an Aeronautical University",
+    "authors": [
+      "Shuhua Liu"
+    ],
+    "doi": "",
+    "dblp_key": "",
+    "paper_url": "https://oversea.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&filename=XHGZ200803010",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2376373621",
+    "openalex_id": "https://openalex.org/W2376373621",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 0,
+    "abstract_en": "The essay combined facture techniques of battledores to discuss material dynamics and theoretical dynamics application in facture via material option,properties of stress and expected life span.",
+    "abstract_zh": "文章结合板锤的制造技术，从材料选择、应力特性和预期寿命等方面探讨了材料动力学和理论动力学在制造中的应用。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_a86945f2a2104d82",
+    "global_record_id": "9f280800009f497f",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_a86945f2a2104d82"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Application of image processing on analyzing the structure of spatial-temporal pattern",
+    "title_en": "Application of image processing on analyzing the structure of spatial-temporal pattern",
+    "title_zh": "图像处理在时空格局分析中的应用",
+    "year": 2007,
+    "venue": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+    "authors": [
+      "Xiaohong Yang",
+      "Shuhua Liu"
+    ],
+    "doi": "10.1117/12.790752",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1117/12.790752",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2022822619",
+    "openalex_id": "https://openalex.org/W2022822619",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 4,
+    "abstract_en": "In this work, we present some practical methods for analyzing the structure of spatial-temporal patterns with Matlab, including \"Fourier transform\", \"obtaining the sketch of the pattern\", \"obtaining the brightness distribution in the pattern\", \"filtering the noise in the pattern\", and so on. The types of the patterns can be determined by obtaining the spatial frequency spectrum of the patterns using Fourier transform. To obtain the sketches of the patterns can make the measurement of pattern structure parameters easier and more accurately. To obtain the brightness distribution in the patterns can help us to analyze the physics mechanism of the pattern formation systems. To filter the noise in the patterns can make the pattern pictures more clearly. This work can provide a beneficial reference for researchers who study pattern dynamics in different systems.",
+    "abstract_zh": "在这项工作中，我们提出了一些利用Matlab分析时空图案结构的实用方法，包括“傅里叶变换”、“获取图案的草图”、“获取图案中的亮度分布”、“过滤图案中的噪声”等。可以通过使用傅立叶变换获得图案的空间频谱来确定图案的类型。获得图案的草图可以使图案结构参数的测量更加容易和准确。获得图案中的亮度分布可以帮助我们分析图案形成系统的物理机制。滤除图案中的噪声可以使图案图片更加...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_36ab2346d9614b1c",
+    "global_record_id": "57efb3758735164c",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_36ab2346d9614b1c"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "A coordination mechanism for large-scale autonomous mobile robot systems",
+    "title_en": "A coordination mechanism for large-scale autonomous mobile robot systems",
+    "title_zh": "大规模自主移动机器人系统的协调机制",
+    "year": 2006,
+    "venue": "Journal of Northeast Normal University",
+    "authors": [
+      "Shuhua Liu"
+    ],
+    "doi": "",
+    "dblp_key": "",
+    "paper_url": "https://oversea.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&filename=DBSZ200603005",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2357859769",
+    "openalex_id": "https://openalex.org/W2357859769",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 0,
+    "abstract_en": "A effective coordination mechanism is indispensable to exert advantages of multi-robot systems.This paper proposes a coordination mechanism for large-scale autonomous mobile robots.The coordination includes task level and motion level.The method of coordination combines explicit communication with blackboard structure.Simulation results show that the coordination mechanism can be used for large-scale autonomous mobile robot systems.",
+    "abstract_zh": "有效的协调机制是发挥多机器人系统优势所必需的。本文提出了一种大规模自主移动机器人的协调机制。协调包括任务级和运动级。该协调方法将显式通信与黑板结构相结合。仿真结果表明，该协调机制可用于大型自主移动机器人系统。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_c8b49610b7a20a1d",
+    "global_record_id": "77a76425e7308510",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_c8b49610b7a20a1d"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Steady-state heat transfer calculation of heat exchanger based on Simulink simulation",
+    "title_en": "Steady-state heat transfer calculation of heat exchanger based on Simulink simulation",
+    "title_zh": "基于Simulink仿真的换热器稳态传热计算",
+    "year": 2006,
+    "venue": "Water Conservancy & Electric Power Machinery",
+    "authors": [
+      "Shuhua Liu"
+    ],
+    "doi": "",
+    "dblp_key": "",
+    "paper_url": "https://oversea.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&filename=SLDL200608010",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2384989873",
+    "openalex_id": "https://openalex.org/W2384989873",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 4,
+    "abstract_en": "The process of heat transfer is the key part in thermal power system.To simulate the thermal system,simulation of the process of heat transfer is needed.Simulation model is based on lumped parameter approximation,and its logical calculation structure is designed with the heat transfer iterative principle.Simulation results meet the requirement.",
+    "abstract_zh": "传热过程是火力发电系统中的关键部分，为了对热力系统进行仿真，需要对传热过程进行仿真。仿真模型基于集总参数近似，并利用传热迭代原理设计其逻辑计算结构。仿真结果满足要求。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_d7414b7c3af6908a",
+    "global_record_id": "5eee79f1e3ef9813",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_d7414b7c3af6908a"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "A Multiple Autonomous Mobile Robot Simulation System Based on KQML",
+    "title_en": "A Multiple Autonomous Mobile Robot Simulation System Based on KQML",
+    "title_zh": "基于KQML的多自主移动机器人仿真系统",
+    "year": 2005,
+    "venue": "Robot",
+    "authors": [
+      "Shuhua Liu",
+      "Tian Yantao"
+    ],
+    "doi": "",
+    "dblp_key": "",
+    "paper_url": "https://oversea.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&filename=JQRR200504012",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2363742581",
+    "openalex_id": "https://openalex.org/W2363742581",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 2,
+    "abstract_en": "A multiple autonomous robot simulation system is developed in JAVA, which simulates multiple autonomous mobile robots in grid environment with KQML communication. The autonomy of robots mainly includes autonomously sensing the environment, planning the path, executing the task, navigating safely, etc. The simulation system is platform independent, adapts to various maps, algorithms and robots with different configurations. Accordingly, it is a uniform platform for the multiple autonomous robot research.",
+    "abstract_zh": "采用JAVA开发了多自主机器人仿真系统，通过KQML通信在网格环境下模拟多自主移动机器人。机器人的自主性主要包括自主感知环境、规划路径、执行任务、安全导航等。仿真系统是平台无关的，适应各种地图、算法和不同配置的机器人。因此，它是多自主机器人研究的统一平台。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_fafe383484b8306e",
+    "global_record_id": "9e2c5785a2e02501",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_fafe383484b8306e"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "The Technology Research of Automatism Check and Measure of Electromagnet ism Valve with Malfunction of Controlled Retarder and Isolation and Give an Alarm System",
+    "title_en": "The Technology Research of Automatism Check and Measure of Electromagnet ism Valve with Malfunction of Controlled Retarder and Isolation and Give an Alarm System",
+    "title_zh": "可控缓速器故障电磁阀自动检测、隔离及报警系统技术研究",
+    "year": 2005,
+    "venue": "Retarders and Speed Control Technology",
+    "authors": [
+      "Shuhua Liu"
+    ],
+    "doi": "",
+    "dblp_key": "",
+    "paper_url": "https://oversea.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&filename=JSDT200503008",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2359880768",
+    "openalex_id": "https://openalex.org/W2359880768",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 0,
+    "abstract_en": "This paper introduces the research arm of automatism check and measure and isolation and give an alarm system, to confirm the technology project, to solve the linchpin technology, and go deep into research and experiment to actualize automatism check and measure and isolation and give an alarm to electromagnetism valve with malfunction from theory and technology.",
+    "abstract_zh": "介绍了自动检测、隔离和报警系统的研究方向，确定了技术方案，解决了关键技术，从理论和技术上深入研究和试验，实现电磁阀故障的自动检测、隔离和报警。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_6855ac1e681f2392",
+    "global_record_id": "393c8ae2aceffb13",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_6855ac1e681f2392"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Application of Extended KQML in Multi-|Robot Simulation System",
+    "title_en": "Application of Extended KQML in Multi-|Robot Simulation System",
+    "title_zh": "扩展KQML在多机器人仿真系统中的应用",
+    "year": 2005,
+    "venue": "Journal of Changchun Post and Telecommunication Institute",
+    "authors": [
+      "Shuhua Liu",
+      "Yantao Tian",
+      "Liu Jin-fang"
+    ],
+    "doi": "",
+    "dblp_key": "",
+    "paper_url": "https://oversea.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&filename=CCYD200505009",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2366519304",
+    "openalex_id": "https://openalex.org/W2366519304",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 0,
+    "abstract_en": "KQML(Knowledge Query and Manipulation Language) has been accepted as a standard of ACL in fact. The standard syntax and some Key words are defined to support real-|time communication of multi agents. The paper introduces KQML criterion and function and then extends it to apply to multi-|robot simulation system. Due to utilizing KQML protocol, the communication ability of the system is highly improved and its openness and compatibility are also enhanced.",
+    "abstract_zh": "KQML（知识查询和操作语言）实际上已经被接受为ACL的标准。定义了标准语法和一些关键字来支持多代理的实时通信。论文介绍了KQML的准则和功能，并将其扩展到多机器人仿真系统中。由于采用了KQML协议，大大提高了系统的通信能力，增强了系统的开放性和兼容性。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_6b4be30a1a783679",
+    "global_record_id": "78aaa2ae8883cd09",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_6b4be30a1a783679"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Multi mobile robot path planning based on genetic algorithm",
+    "title_en": "Multi mobile robot path planning based on genetic algorithm",
+    "title_zh": "基于遗传算法的多移动机器人路径规划",
+    "year": 2004,
+    "venue": "World Congress on Intelligent Control and Automation",
+    "authors": [
+      "Shuhua Liu",
+      "Yantao Tian",
+      "Liu Jin-fang"
+    ],
+    "doi": "10.1109/wcica.2004.1342412",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/wcica.2004.1342412",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2095896604",
+    "openalex_id": "https://openalex.org/W2095896604",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 28,
+    "abstract_en": "Genetic Algorithm has implicit parallelism and global optimization, however its computation speed constrains its on-line application. This paper attempts to apply improved genetic algorithm to multi mobile robot path planning. By using based-knowledge genetic operators, the performance of genetic algorithm is improved greatly. Simulation results showed that the improved genetic algorithm can satisfy real-time demand. In the future, it is used on-line to replan the multi mobile robot path.",
+    "abstract_zh": "遗传算法具有隐式并行性和全局优化能力，但其计算速度限制了其在线应用。本文尝试将改进的遗传算法应用于多移动机器人路径规划。通过使用基于知识的遗传算子，遗传算法的性能得到了很大的提高。仿真结果表明，改进的遗传算法能够满足实时性要求。未来将用于在线重新规划多移动机器人路径。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_59731f9f5be0902c",
+    "global_record_id": "8fe73fd99918ffaa",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_59731f9f5be0902c"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Clinical analysis of 24 cases of ovarian granulosa cell tumor",
+    "title_en": "Clinical analysis of 24 cases of ovarian granulosa cell tumor",
+    "title_zh": "卵巢颗粒细胞瘤24例临床分析",
+    "year": 2002,
+    "venue": "Tianjin Yike Daxue xuebao",
+    "authors": [
+      "Shuhua Liu"
+    ],
+    "doi": "",
+    "dblp_key": "",
+    "paper_url": "https://oversea.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&filename=TJYK200201021",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2367970064",
+    "openalex_id": "https://openalex.org/W2367970064",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 0,
+    "abstract_en": "Objective: To explore the factors related to the prognosis of ovarian granulosa cell tumor and its clinical characteristics.Methods:The clinical records and tumor sections of 24 patients with granulosa cell tumors of ovary were reviewed,the clinical characteristics, the clinical stage, and the various treatment and results were summed up.Results:According to the 5-year survival rate and 10-year survival rate,the clinical stage influence the prognosis of ovarian granulosa cell tumor.Conclusion: The clinical stage is the major factor which influences the patients` survial rate.",
+    "abstract_zh": "目的：探讨影响卵巢颗粒细胞瘤预后的因素及其临床特点。方法：回顾性分析24例卵巢颗粒细胞瘤患者的临床资料和肿瘤切片，总结其临床特点、临床分期、各种治疗及结果。结果：从5年生存率和10年生存率来看，临床分期是影响卵巢颗粒细胞瘤预后的主要因素。影响患者的生存率。",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_0891ec95bcc72104",
+    "global_record_id": "b0073f7f3fb6d98f",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_0891ec95bcc72104"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Study on geography information query system of campus",
+    "title_en": "Study on geography information query system of campus",
+    "title_zh": "校园地理信息查询系统的研究",
+    "year": 2002,
+    "venue": "Hebei Sheng Kexueyuan xuebao",
+    "authors": [
+      "Shuhua Liu"
+    ],
+    "doi": "",
+    "dblp_key": "",
+    "paper_url": "https://oversea.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&filename=HBKX200204007",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2348809380",
+    "openalex_id": "https://openalex.org/W2348809380",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 0,
+    "abstract_en": "Based on domestic GIS platform,by using activeX technology,the link of geography map and its information is completed with language of VB6.0. Accordingly the function of GIS query is completed.",
+    "abstract_zh": "基于国产GIS平台,利用ActiveX技术,用VB6.0语言完成地理地图及其信息的链接。至此GIS查询功能就完成了。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_218b8ee67dfd759d",
+    "global_record_id": "31ec3579dd486ca9",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_218b8ee67dfd759d"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "The OLE technology in Visual FoxPro and its application in agriculture",
+    "title_en": "The OLE technology in Visual FoxPro and its application in agriculture",
+    "title_zh": "Visual FoxPro中的OLE技术及其在农业中的应用",
+    "year": 2001,
+    "venue": "Hebei Nongye Daxue xuebao",
+    "authors": [
+      "Shuhua Liu"
+    ],
+    "doi": "",
+    "dblp_key": "",
+    "paper_url": "https://oversea.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&filename=CULT200101012",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2383234513",
+    "openalex_id": "https://openalex.org/W2383234513",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 0,
+    "abstract_en": "How to use OLE technology in Visual Foxpro is presented in this paper in terms of application. The use of OLE technology in agriculture expert system is also presented.",
+    "abstract_zh": "本文从应用方面介绍了如何在Visual Foxpro中使用OLE技术。还介绍了OLE技术在农业专家系统中的应用。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_4a4b5e7f3f681750",
+    "global_record_id": "413076ae5564dbd4",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_4a4b5e7f3f681750"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Discussion On the Peak Shaving Modes of Hua Zhong Transmission-line System of Electric Power",
+    "title_en": "Discussion On the Peak Shaving Modes of Hua Zhong Transmission-line System of Electric Power",
+    "title_zh": "华中电力输电系统调峰方式探讨",
+    "year": 2000,
+    "venue": "Turbine Technology",
+    "authors": [
+      "Shuhua Liu"
+    ],
+    "doi": "",
+    "dblp_key": "",
+    "paper_url": "https://oversea.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&filename=QLJV200003008",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2372899176",
+    "openalex_id": "https://openalex.org/W2372899176",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 1,
+    "abstract_en": "In this paper, the existing problems in the peak load operation of domestic 200MW power unit are analyzed. A new project of peak shaving is presented according to the realistic condition of Hua Zhong transmission-line system of electric power.",
+    "abstract_zh": "本文对国内200MW机组调峰运行中存在的问题进行了分析。针对华中电力输电线路系统的实际情况，提出了一种新的调峰方案。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_2104469027643c36",
+    "global_record_id": "37f1c1f9ba6e24ff",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_2104469027643c36"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Rocket Bomb Design (Selected Pages),",
+    "title_en": "Rocket Bomb Design (Selected Pages),",
+    "title_zh": "火箭炸弹设计（选定页面），",
+    "year": 1987,
+    "venue": "Defense Technical Information Center (DTIC)",
+    "authors": [
+      "Shuhua Liu",
+      "Qui,Quangshen",
+      "Pan,Cangxiang",
+      "Ke,Jimyou",
+      "Han,Shukai"
+    ],
+    "doi": "",
+    "dblp_key": "",
+    "paper_url": "http://oai.dtic.mil/oai/oai?&amp;verb=getRecord&amp;metadataPrefix=html&amp;identifier=ADA177488",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W230942275",
+    "openalex_id": "https://openalex.org/W230942275",
+    "openalex_author_id": "https://openalex.org/A5044641390",
+    "cited_by_count": 0,
+    "abstract_en": "Contents: Requirements of Tactics and Technology; Estimation of Rocket bomb Density; The Basic Knowledge About Rocket Dispersion; Direction Density Estimation of a Fin-Stabilized Rocket and Its Factors Analyses; Range Density Estimation for a Fin-Stabilized Rocket Bomb and Its Factor Analysis; The Effects and Designs of the Warhead; Engine (Structure) Design; Structural Elements Calculation. Keywords: Artillery rockets.",
+    "abstract_zh": "内容：战术与技术要求；火箭弹密度估算；火箭扩散的基础知识；尾翼稳定火箭方向密度估计及其影响因素分析尾翼稳定火箭弹的射程密度估计及其因子分析；弹头的效果和设计；发动机（结构）设计；结构元素计算。关键词：火炮火箭。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_d7c7a21d0e0c_a136344a272ab585",
+    "global_record_id": "8db39ea5b1ad84bd",
+    "scholar_id": "panorama_d7c7a21d0e0c",
+    "scholar_name": "刘淑华",
+    "scholar_ids": [
+      "panorama_d7c7a21d0e0c"
+    ],
+    "scholar_names": [
+      "刘淑华"
+    ],
+    "source_record_ids": [
+      "panorama_d7c7a21d0e0c_a136344a272ab585"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_d7c7a21d0e0c": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "刘淑华",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "刘淑华：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  }
+]

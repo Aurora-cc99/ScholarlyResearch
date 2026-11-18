@@ -1,115 +1,3723 @@
-{
-  "scholar": {
-    "name_zh": "孙颖",
-    "name_en": "English name pending",
-    "affiliation": "太原理工大学",
-    "identity_sources": [
-      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+[
+  {
+    "title": "HBM Package Interconnection Pseudo All-Channel Signal Integrity Simulation and Implementation Method of the Synchronous Current Load Research",
+    "title_en": "HBM Package Interconnection Pseudo All-Channel Signal Integrity Simulation and Implementation Method of the Synchronous Current Load Research",
+    "title_zh": "HBM封装互连伪全通道信号完整性同步电流负载仿真与实现方法研究",
+    "year": 2025,
+    "venue": "Micromachines",
+    "authors": [
+      "Wen-Xue Tang",
+      "Cong-Jian Mai",
+      "Li-Yan Zhou",
+      "Ying Sun",
+      "Xin-Ran Zhao",
+      "Shuli Liu",
+      "Gang Wang",
+      "Da‐Wei Wang",
+      "Cheng-Qian Wang"
     ],
-    "official_homepages": [
-      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    "doi": "10.3390/mi16080896",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.3390/mi16080896",
+    "pdf_url": "https://www.mdpi.com/2072-666X/16/8/896/pdf",
+    "source_url": "https://openalex.org/W4413265268",
+    "openalex_id": "https://openalex.org/W4413265268",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 3,
+    "abstract_en": "This paper proposes a pseudo full-channel signal integrity (SI) simulation method tailored for high-bandwidth memory (HBM) interconnects. In this approach, real interconnect models are applied to selected portions of the channel, while the remaining sections are replaced with synchronized current loads that emulate the electrical behavior of actual signal transmission. This technique enables accurate modeling of the HBM interface under full-channel parallel data transfer conditions. In addition to the simulation methodology itself, this study focuses on three specific implementation schemes for the synchronized current loads and explores their practical applications. Comparative analysis demonstrates the necessity and effectiveness of using synchronized current loads as substitutes for real transmission loads, offering a viable and efficient solution for SI analysis in HBM interconnect systems.",
+    "abstract_zh": "本文提出了一种专为高带宽存储器（HBM）互连定制的伪全通道信号完整性（SI）仿真方法。在这种方法中，真实互连模型应用于通道的选定部分，而其余部分则替换为模拟实际信号传输的电气行为的同步电流负载。该技术能够在全通道并行数据传输条件下对 HBM 接口进行精确建模。除了仿真方法本身之外，本研究还重点研究了同步电流负载的三种具体实现方案，并探讨了它们的实际应用。对比分析论证了使用...的必要性和有效性。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_fda5c650921cf328",
+    "global_record_id": "d47656ca0b82dc14",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
     ],
-    "coverage": {
-      "scope": "2025–2026主题筛选与全量书目扩展",
-      "status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
-      "coverage_status": "仅有代表论文或项目级记录；个人全历史待补核",
-      "available_record_count": 1,
-      "bulk_source_record_count": 0,
-      "themes": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ]
-    },
-    "coverage_notes": "该目录与五位基线学者使用同一论文/资源/分类输出契约。‘可用记录数’表示本轮已取得并保留的书目，不等于未经消歧的个人终身全集；身份待核验、论文团队和同名风险见候选筛选证据。",
-    "id": "panorama_5cbbefbf810b",
-    "folder": "主题_panorama_5cbbefbf810b",
-    "classification": {
-      "method": "按题名及现有项目、资源说明进行主题粗分，用于阅读导航；未逐篇审阅全文，不代表学者官方分类。每条书目只设一个主类别，跨方向信息保留在辅助标签中。",
-      "categories": [
-        {
-          "id": "eeg_foundation",
-          "label": "脑电基础模型与通用解码",
-          "description": "EEG基础模型、跨任务/跨设备泛化、预训练与脑信号解码。",
-          "count": 0
-        },
-        {
-          "id": "eeg_affect",
-          "label": "情感脑电与多模态生理信号",
-          "description": "脑电情感识别、EEG-fNIRS/EEG-MEG及情感计算应用。",
-          "count": 1
-        },
-        {
-          "id": "eeg_benchmark",
-          "label": "脑电基准、数据与评测",
-          "description": "脑电基础模型基准、数据集、可复现评估与跨数据集比较。",
-          "count": 0
-        }
-      ],
-      "review": {
-        "status": "theme_candidate",
-        "source_status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
-        "primary_theme": "脑电情感计算与脑电大模型"
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_fda5c650921cf328"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
-    "counts": {
-      "bibliographic_records": 1,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [
-        2024
-      ],
-      "unknown_year": 0
-    }
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
   },
-  "papers": [
-    {
-      "title": "Enhancing Green Ammonia Electrosynthesis Through Tuning Sn Vacancies in Sn-Based MXene/MAX Hybrids.. Nanomicro Lett",
-      "title_en": "Enhancing Green Ammonia Electrosynthesis Through Tuning Sn Vacancies in Sn-Based MXene/MAX Hybrids.. Nanomicro Lett",
-      "title_zh": "通过调整 Sn 基 MXene/MAX 杂化物中的 Sn 空位来增强绿色氨电合成.. Nanomicro Lett",
-      "year": 2024,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "孙颖"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_5cbbefbf810b_9c846e54552e",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_5cbbefbf810b",
-      "scholar_name": "孙颖",
-      "work_title_group": "ba7a39b923ab",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
-    }
-  ]
-}
+  {
+    "title": "Enhancing Green Ammonia Electrosynthesis Through Tuning Sn Vacancies in Sn-Based MXene/MAX Hybrids",
+    "title_en": "Enhancing Green Ammonia Electrosynthesis Through Tuning Sn Vacancies in Sn-Based MXene/MAX Hybrids",
+    "title_zh": "通过调整 Sn 基 MXene/MAX 杂化物中的 Sn 空位来增强绿色氨电合成.. Nanomicro Lett",
+    "year": 2024,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "孙颖"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_9c846e54552e",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "work_title_group": "ba7a39b923ab",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_9c846e54552e"
+    ],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "孙颖",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "c1764cc492dd3069",
+    "primary_categories_by_scholar": [
+      "孙颖：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Imidazole functionalized photo-crosslinked aliphatic polycarbonate drug-eluting coatings on zinc alloys for osteogenesis, angiogenesis, and bacteriostasis in bone regeneration",
+    "title_en": "Imidazole functionalized photo-crosslinked aliphatic polycarbonate drug-eluting coatings on zinc alloys for osteogenesis, angiogenesis, and bacteriostasis in bone regeneration",
+    "title_zh": "锌合金上咪唑功能化光交联脂肪族聚碳酸酯药物洗脱涂层，用于骨再生中的成骨、血管生成和抑菌",
+    "year": 2024,
+    "venue": "Bioactive Materials",
+    "authors": [
+      "Wei Zhang",
+      "Miao Dai",
+      "Ye Zhu",
+      "Siyuan Li",
+      "Ying Sun",
+      "Xiaoya Liu",
+      "Xiaojie Li"
+    ],
+    "doi": "10.1016/j.bioactmat.2024.03.037",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.bioactmat.2024.03.037",
+    "pdf_url": "https://doi.org/10.1016/j.bioactmat.2024.03.037",
+    "source_url": "https://openalex.org/W4396660829",
+    "openalex_id": "https://openalex.org/W4396660829",
+    "openalex_author_id": "https://openalex.org/A5090118631",
+    "cited_by_count": 34,
+    "abstract_en": "Zinc (Zn) alloys have demonstrated significant potential in healing critical-sized bone defects. However, the clinical application of Zn alloys implants is still hindered by challenges including excessive release of zinc ions (Zn2+), particularly in the early stage of implantation, and absence of bio-functions related to complex bone repair processes. Herein, a biodegradable aliphatic polycarbonate drug-eluting coating was fabricated on zinc-lithium (Zn–Li) alloys to inhibit Zn2+ release and enhance the osteogenesis, angiogenesis, and bacteriostasis of Zn alloys. Specifically, the photo-curable aliphatic polycarbonates were co-assembled with simvastatin and deposited onto Zn alloys to produce a drug-loaded coating, which was crosslinked by subsequent UV light irradiation. During the 60 days long-term immersion test, the coating showed distinguished stable drug release and Zn2+ release inhibition properties. Benefiting from the regulated release of Zn2+ and simvastatin, the coating facilitated the adhesion, proliferation, and differentiation of MC3T3-E1 cells, as well as the migration and tube formation of EA.hy926 cells. Astonishingly, the coating also showed remarkable antibacterial properties against both S. aureus and E. coli. The in vivo rabbit critical-size femur bone defects model demonstrated that the drug-eluting coating could efficiently promote new bone formation and the expression of platelet endothelial cell adhesion molecule-1 (CD31) and osteocalcin (OCN). The enhancement of osteogenesis, angiogenesis, and bacteriostasis is achieved by precisely controlling of the released Zn2+ at an appropriate level, as well as the stable release profile of simvastatin. This tailored aliphatic polycarbonate drug-eluting coating provides significant potential for clinical applications of Zn alloys implants.",
+    "abstract_zh": "锌 (Zn) 合金在修复临界尺寸的骨缺损方面表现出巨大的潜力。然而，锌合金植入物的临床应用仍然受到锌离子（Zn2+）过量释放（特别是在植入早期）以及缺乏与复杂骨修复过程相关的生物功能等挑战的阻碍。在此，在锌锂（Zn-Li）合金上制备了可生物降解的脂肪族聚碳酸酯药物洗脱涂层，以抑制Zn2+释放并增强锌合金的成骨、血管生成和抑菌作用。具体来说，将光固化脂肪族聚碳酸酯与辛伐他汀共同组装并沉积在锌合金上以产生载药涂层，该涂层通过...交联。",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5090118631）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_82cb205d32259961",
+    "global_record_id": "6c7870ef72240540",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_82cb205d32259961"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Spatial and temporal analysis of decomposition models in China",
+    "title_en": "Spatial and temporal analysis of decomposition models in China",
+    "title_zh": "中国分解模型的时空分析",
+    "year": 2024,
+    "venue": "Renewable Energy",
+    "authors": [
+      "Ying Sun",
+      "Ning Lu"
+    ],
+    "doi": "10.1016/j.renene.2024.121850",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.renene.2024.121850",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4404197254",
+    "openalex_id": "https://openalex.org/W4404197254",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 5,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_5bb7b45799571f95",
+    "global_record_id": "c3fb8fcd743b4a79",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_5bb7b45799571f95"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "MCBA: A Matroid Constraint-Based Approach for Composite Service Recommendation Considering Compatibility and Diversity : (Invited Paper)",
+    "title_en": "MCBA: A Matroid Constraint-Based Approach for Composite Service Recommendation Considering Compatibility and Diversity : (Invited Paper)",
+    "title_zh": "MCBA：考虑兼容性和多样性的基于拟阵约束的组合服务推荐方法：（特邀论文）",
+    "year": 2024,
+    "venue": "IEEE International Symposium on Service-Oriented System Engineering (SOSE)",
+    "authors": [
+      "Ying Sun",
+      "Xiao Wang",
+      "Hanchuan Xu",
+      "Zhongjie Wang"
+    ],
+    "doi": "10.1109/sose62363.2024.00016",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/sose62363.2024.00016",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4402897235",
+    "openalex_id": "https://openalex.org/W4402897235",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 1,
+    "abstract_en": "With the growing popularity of microservices, many companies are encapsulating their business processes as Web APIs for remote invocation. These lightweight Web APIs offer mashup developers an efficient way to achieve complex functionalities without starting from scratch. However, this also presents challenges, such as the concentration of developers’ search results on popular APIs limiting diversity, and difficulties in verifying API compatibility. A method is needed to recommend diverse compostions of compatible APIs that fulfill mashup functional requirements from a large pool of candidate APIs. To tackle this issue, this paper introduces a Matroid Constraint-Based Approach (MCBA) for composite service recommendation, consisting of two stages: API composition discovery focusing on compatibility and top-k composition recommendation focusing on diversity. In the first stage, the API composition issue is formulated as a minimal group Steiner tree (MGST) problem, subsequently addressed by a “compression-solution” algorithm. In the second stage, a Maximum Marginal Relevance method under partition matroid constraints (MMR-PMC) is employed to ensure recommendation diversity. Comprehensive experiments on the real-world dataset show that MCBA surpasses several state-of-the-art methods in terms of accuracy, compatibility, diversity, and efficiency.",
+    "abstract_zh": "随着微服务的日益普及，许多公司正在将其业务流程封装为Web API以供远程调用。这些轻量级 Web API 为混搭开发人员提供了一种无需从头开始即可实现复杂功能的有效方法。然而，这也带来了挑战，例如开发者的搜索结果集中在流行的 API 上限制了多样性，以及验证 API 兼容性的困难。需要一种方法来推荐兼容 API 的多种组合，以满足来自大量候选 API 的混搭功能要求。为了解决这个问题，本文引入了一种基于 Matroid 约束的方法（MCBA）来进行组合服务推荐，该方法由两个部分组成：",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_5c5cf1fe763ab9c1",
+    "global_record_id": "2b52c62f36fa879a",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_5c5cf1fe763ab9c1"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基准、数据与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "MCBA: A Matroid Constraint-Based Approach for Composite Service Recommendation Considering Compatibility and Diversity",
+    "title_en": "MCBA: A Matroid Constraint-Based Approach for Composite Service Recommendation Considering Compatibility and Diversity",
+    "title_zh": "MCBA：一种考虑兼容性和多样性的基于拟阵约束的复合服务推荐方法",
+    "year": 2024,
+    "venue": "arXiv (Cornell University)",
+    "authors": [
+      "Ying Sun",
+      "Xiao Wang",
+      "Hanchuan Xu",
+      "Zhongjie Wang"
+    ],
+    "doi": "10.48550/arxiv.2409.01600",
+    "dblp_key": "",
+    "paper_url": "http://arxiv.org/abs/2409.01600",
+    "pdf_url": "https://arxiv.org/pdf/2409.01600",
+    "source_url": "https://openalex.org/W4402955019",
+    "openalex_id": "https://openalex.org/W4402955019",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 0,
+    "abstract_en": "With the growing popularity of microservices, many companies are encapsulating their business processes as Web APIs for remote invocation. These lightweight Web APIs offer mashup developers an efficient way to achieve complex functionalities without starting from scratch. However, this also presents challenges, such as the concentration of developers'search results on popular APIs limiting diversity, and difficulties in verifying API compatibility. A method is needed to recommend diverse compositions of compatible APIs that fulfill mashup functional requirements from a large pool of candidate APIs. To tackle this issue, this paper introduces a Matroid Constraint-Based Approach (MCBA) for composite service recommendation, consisting of two stages: API composition discovery focusing on compatibility and top-k composition recommendation focusing on diversity. In the first stage, the API composition issue is formulated as a minimal group Steiner tree (MGST) problem, subsequently addressed by a \"compression-solution\" algorithm. In the second stage, a Maximum Marginal Relevance method under partition matroid constraints (MMR-PMC) is employed to ensure recommendation diversity. Comprehensive experiments on the real-world dataset show that MCBA surpasses several state-of-the-art methods in terms of accuracy, compatibility, diversity, and efficiency.",
+    "abstract_zh": "随着微服务的日益普及，许多公司正在将其业务流程封装为Web API以供远程调用。这些轻量级 Web API 为混搭开发人员提供了一种无需从头开始即可实现复杂功能的有效方法。然而，这也带来了挑战，例如开发者的搜索结果集中在流行的API上限制了多样性，以及验证API兼容性的困难。需要一种方法来推荐兼容 API 的多种组合，以满足来自大量候选 API 的混搭功能要求。为了解决这个问题，本文引入了一种基于 Matroid 约束的方法（MCBA）来进行组合服务推荐，该方法由两个部分组成：",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "预印本记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_e33c0d0dd19e48a3",
+    "global_record_id": "38374bc514286268",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_e33c0d0dd19e48a3"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基准、数据与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "A Shared Method of Metal Object Detection and Living Object Detection Based on the Quality Factor of Detection Coils for Electric Vehicle Wireless Charging",
+    "title_en": "A Shared Method of Metal Object Detection and Living Object Detection Based on the Quality Factor of Detection Coils for Electric Vehicle Wireless Charging",
+    "title_zh": "电动汽车无线充电基于检测线圈品质因数的金属物体检测和活体物体检测共享方法",
+    "year": 2023,
+    "venue": "IEEE Trans. Instrum. Meas.",
+    "authors": [
+      "Ying Sun",
+      "Kai Song",
+      "Tian Zhou",
+      "Guo Wei",
+      "Zhiyuan Cheng",
+      "Chunbo Zhu"
+    ],
+    "doi": "10.1109/TIM.2023.3277132",
+    "dblp_key": "journals/tim/SunSZWCZ23",
+    "paper_url": "https://doi.org/10.1109/TIM.2023.3277132",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/journals/tim/SunSZWCZ23.html",
+    "openalex_id": "https://openalex.org/W4377001502",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 42,
+    "abstract_en": "High power alternating magnetic fields can cause lesions and pathological changes in living object bodies entering the wireless charging area. Also, as for metal objects, the eddy effect can cause the security risks such as fire and ignition hazards. Hence, metal object detection (MOD) and living object detection (LOD) are the necessary functions for a wireless power transfer (WPT) system. A shared method of MOD and LOD based on the quality factor of detection coils for electric vehicle wireless charging was proposed in this paper to realize the dual functions by the same detection coil array. Firstly, the effect of metal objects and living objects on the detection coil quality factor was analyzed in detail. Secondly, a method of real-time calculation of quality factor was proposed to detect whether the foreign object exists. Then, a distinction algorithm based on the phase variation trend of resonant capacitor voltage was designed to classify the type of foreign objects. Finally, a 3.3 kW experimental prototype, including a foreign object detection (FOD) system, was established to verify the validity. The advantage of the quality factor as the core indicator for FOD was analyzed in detail. Under the condition of an iron wafer, aluminum wafer, and beef chunk placed on the detection coil, the quality factor calculation results of the detection coil in contrast to those without foreign objects decreased by 80.8%, 50.5%, and 69.9%, respectively. Meanwhile, the phase difference of the excitation relative to the resonant capacitor voltage changed -61.3°, -74.6°, and 49.4°, respectively.",
+    "abstract_zh": "高功率交变磁场会导致进入无线充电区域的生命体发生病变和病理变化。另外，对于金属物体，涡流效应还会导致火灾、着火等安全隐患。因此，金属物体检测（MOD）和活体物体检测（LOD）是无线电力传输（WPT）系统的必要功能。提出一种基于检测线圈品质因数的电动汽车无线充电MOD和LOD共享方法，通过同一检测线圈阵列实现双重功能。首先详细分析了金属物体和活体物体对检测线圈品质因数的影响。其次，一种实时的方法...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 10/5415-13）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_107c86d62b39e494",
+    "global_record_id": "cbdc1edf34e30ad0",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_107c86d62b39e494"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "High-Sensitivity Detection Method for Metal Foreign Objects Based on Frequency Optimization in Wireless Electric Vehicles Charging",
+    "title_en": "High-Sensitivity Detection Method for Metal Foreign Objects Based on Frequency Optimization in Wireless Electric Vehicles Charging",
+    "title_zh": "电动汽车无线充电中基于频率优化的高灵敏度金属异物检测方法",
+    "year": 2023,
+    "venue": "Energies",
+    "authors": [
+      "Ying Sun",
+      "Tian Zhou",
+      "Jinhai Jiang",
+      "Guo Wei",
+      "Chunbo Zhu",
+      "Kai Song"
+    ],
+    "doi": "10.3390/en16020741",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.3390/en16020741",
+    "pdf_url": "https://www.mdpi.com/1996-1073/16/2/741/pdf?version=1674020932",
+    "source_url": "https://openalex.org/W4313894335",
+    "openalex_id": "https://openalex.org/W4313894335",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 3,
+    "abstract_en": "Metal foreign objects will not only reduce the output power and efficiency of the wireless power transfer (WPT) system, but also will be heated under the eddy current effect. The method based on the detection coil array has been wildly adopted for foreign object detection (FOD), especially in high-power level WPT applications. However, the problems of low sensitivity or misjudgment still exist which leads to a safety hazard. Therefore, high sensitivity of the foreign object-detection method based on the excitation frequency optimization has been proposed in this paper. Based on the impedance change of the detection coil caused by the foreign object coupling, the frequency characteristics of detection sensitivity were analyzed under the conditions of different self-inductance detection coils. Then, the detection coil was designed and its corresponding optimal excitation frequency was selected to achieve the optimal detection effect to eliminate the area of low detection sensitivity. Finally, an FOD experimental prototype was established to verify the proposed frequency optimization strategy. The results show that the sensitivity of the FOD system is up to 97.56%. With the optimal excitation frequency of 6.22 MHz, as for 1-yuan coin in the center position and corner position of the detection coil, the detection sensitivity is 92.89% and 40.16%, respectively, which is 22.13% and 23.89% higher than that of the excitation frequency is 1 MHz. The improvement of detection sensitivity is helpful to detect accurately and eliminate the detection blind area.",
+    "abstract_zh": "金属异物不仅会降低无线功率传输（WPT）系统的输出功率和效率，而且还会在涡流效应下被加热。基于检测线圈阵列的方法已广泛用于异物检测（FOD），特别是在高功率级WPT应用中。但仍存在灵敏度低或误判等问题，存在安全隐患。因此，本文提出了基于激励频率优化的高灵敏度异物检测方法。基于异物耦合引起的检测线圈阻抗变化，分析了异物耦合条件下检测灵敏度的频率特性。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_d7aa9eaab3e6dd40",
+    "global_record_id": "eb10435e4958c199",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_d7aa9eaab3e6dd40"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Metal Foreign Object Detection Algorithm Based on Multivariate Normal Distribution",
+    "title_en": "Metal Foreign Object Detection Algorithm Based on Multivariate Normal Distribution",
+    "title_zh": "基于多元正态分布的金属异物检测算法",
+    "year": 2023,
+    "venue": "Lecture notes in electrical engineering",
+    "authors": [
+      "Ying Sun",
+      "Kai Song",
+      "Tian Zhou",
+      "Guo Wei",
+      "Chunbo Zhu"
+    ],
+    "doi": "10.1007/978-981-99-0631-4_42",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1007/978-981-99-0631-4_42",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4360592215",
+    "openalex_id": "https://openalex.org/W4360592215",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 0,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_6786332dac51f622",
+    "global_record_id": "e65e22ba70cdc54c",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_6786332dac51f622"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Metal Foreign Matter Detection and Hazard Elimination Based on Passive Shield of Monitor Coils",
+    "title_en": "Metal Foreign Matter Detection and Hazard Elimination Based on Passive Shield of Monitor Coils",
+    "title_zh": "基于监测线圈无源屏蔽的金属异物检测与危害消除",
+    "year": 2023,
+    "venue": "Lecture notes in electrical engineering",
+    "authors": [
+      "Ying Sun",
+      "Kai Song",
+      "Tian Zhou",
+      "Guo Wei",
+      "Chunbo Zhu"
+    ],
+    "doi": "10.1007/978-981-99-0408-2_96",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1007/978-981-99-0408-2_96",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4361858185",
+    "openalex_id": "https://openalex.org/W4361858185",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 0,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_c1f5422f50a3db1d",
+    "global_record_id": "36f0309566675dfc",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_c1f5422f50a3db1d"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Investigation and Analysis of Six Stone Statues in Medieval China",
+    "title_en": "Investigation and Analysis of Six Stone Statues in Medieval China",
+    "title_zh": "中国中古六尊石像考察与分析",
+    "year": 2023,
+    "venue": "The Journal of Chinese Characters",
+    "authors": [
+      "Ying Sun"
+    ],
+    "doi": "10.14772/cscck.2023.37.449",
+    "dblp_key": "",
+    "paper_url": "http://dx.doi.org/10.14772/cscck.2023.37.449",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4390921935",
+    "openalex_id": "https://openalex.org/W4390921935",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 0,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_8e4f6edbb5e575c4",
+    "global_record_id": "475eb855c59770cc",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_8e4f6edbb5e575c4"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "EEG emotion recognition based on cross-frequency granger causality feature extraction and fusion in the left and right hemispheres",
+    "title_en": "EEG emotion recognition based on cross-frequency granger causality feature extraction and fusion in the left and right hemispheres",
+    "title_zh": "基于左右半球跨频格兰杰因果特征提取与融合的脑电情感识别.. Front Neurosci",
+    "year": 2022,
+    "venue": "Frontiers in Neuroscience",
+    "authors": [
+      "Jing Zhang",
+      "Xueying Zhang",
+      "Guijun Chen",
+      "Lixia Huang",
+      "Ying Sun"
+    ],
+    "doi": "10.3389/fnins.2022.974673",
+    "paper_url": "https://doi.org/10.3389/fnins.2022.974673",
+    "source_url": "https://openalex.org/W4294935265",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "脑电情感识别",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4294935265",
+    "openalex_author_id": "https://openalex.org/A5100445969",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 23,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_65cdc0b75cb1_98c578b23d6f",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_65cdc0b75cb1",
+    "scholar_name": "张雪英",
+    "work_title_group": "89fdb2abd96b",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_65cdc0b75cb1",
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "张雪英",
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_65cdc0b75cb1_98c578b23d6f"
+    ],
+    "scholar_categories": {
+      "panorama_65cdc0b75cb1": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "张雪英",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "孙颖",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "脑电情感识别",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "global_record_id": "ad953d6b26057086",
+    "primary_categories_by_scholar": [
+      "张雪英：情感脑电与多模态生理信号",
+      "孙颖：情感脑电与多模态生理信号"
+    ],
+    "pdf_url": "https://www.frontiersin.org/articles/10.3389/fnins.2022.974673/pdf",
+    "abstract_en": "EEG emotion recognition based on Granger causality (GC) brain networks mainly focus on the EEG signal from the same-frequency bands, however, there are still some causality relationships between EEG signals in the cross-frequency bands. Considering the functional asymmetric of the left and right hemispheres to emotional response, this paper proposes an EEG emotion recognition scheme based on cross-frequency GC feature extraction and fusion in the left and right hemispheres. Firstly, we calculate the GC relationship of EEG signals according to the frequencies and hemispheres, and mainly focus on the causality of the cross-frequency EEG signals in left and right hemispheres. Then, to remove the redundant connections of the GC brain network, an adaptive two-stage decorrelation feature extraction scheme is proposed under the condition of maintaining the best emotion recognition performance. Finally, a multi-GC feature fusion scheme is designed to balance the recognition accuracy and feature number of each GC feature, which comprehensively considers the influence of the recognition accuracy and computational complexity. Experimental results on the DEAP emotion dataset show that the proposed scheme can achieve an average accuracy of 84.91% for four classifications, which improved the classification accuracy by up to 8.43% compared with that of the traditional same-frequency band GC features.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "基于格兰杰因果关系（GC）脑网络的脑电情感识别主要针对同频段的脑电信号，但跨频段的脑电信号之间仍然存在一定的因果关系。考虑到左右半球对情绪反应的功能不对称，提出一种基于左右半球跨频GC特征提取和融合的脑电情绪识别方案。首先，我们根据频率和半球计算脑电信号的GC关系，主要关注左右半球跨频率脑电信号的因果关系。然后，要删除该..."
+  },
+  {
+    "title": "Metal Foreign Object Detection Algorithm Based On Multivariate Normal Distribution For Wireless Power Transfer System",
+    "title_en": "Metal Foreign Object Detection Algorithm Based On Multivariate Normal Distribution For Wireless Power Transfer System",
+    "title_zh": "无线电力传输系统中基于多元正态分布的金属异物检测算法",
+    "year": 2022,
+    "venue": "2022 Wireless Power Week (WPW)",
+    "authors": [
+      "Tian Zhou",
+      "Ying Sun",
+      "Yu Lan",
+      "Kai Song"
+    ],
+    "doi": "10.1109/wpw54272.2022.9901348",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/wpw54272.2022.9901348",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4313145911",
+    "openalex_id": "https://openalex.org/W4313145911",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 1,
+    "abstract_en": "When the wirless power transfer system works, the problem of metal foreign object detection needs to be solved urgently. The traditional metal foreign object detection algorithm based on the change of single detection coil’s impedance is difficult to detect the metal foreign object at the corner of the detection coil. The metal foreign object detection algorithm based on multivariate normal distribution is proposed in this paper. The output can change more than 50 times when a metal foreign object with a diameter of 19mm is placed at the corner of the detection coil with a size of 32mm×38mm, which can significantly improve the detection effect of the corner area of the detection coil.",
+    "abstract_zh": "无线电力传输系统工作时，急需解决金属异物检测问题。传统的基于单个检测线圈阻抗变化的金属异物检测算法很难检测到检测线圈拐角处的金属异物。提出基于多元正态分布的金属异物检测算法。当直径为19mm的金属异物放置在尺寸为32mm×38mm的检测线圈拐角处时，输出可变化50次以上，可显着提高检测线圈拐角区域的检测效果。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_d1526b8ab0b3abbd",
+    "global_record_id": "c21c36be3a7d6cc5",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_d1526b8ab0b3abbd"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Multi-constraint and multi-objective optimization of free-form reticulated shells using improved optimization algorithm",
+    "title_en": "Multi-constraint and multi-objective optimization of free-form reticulated shells using improved optimization algorithm",
+    "title_zh": "采用改进优化算法的自由形式网壳多约束多目标优化",
+    "year": 2021,
+    "venue": "Engineering Structures",
+    "authors": [
+      "Zhenggang Cao",
+      "Zhicheng Wang",
+      "Lin Zhao",
+      "Feng Fan",
+      "Ying Sun"
+    ],
+    "doi": "10.1016/j.engstruct.2021.113442",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.engstruct.2021.113442",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W3211451157",
+    "openalex_id": "https://openalex.org/W3211451157",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 25,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_994f5962fe02371d",
+    "global_record_id": "5eb1f677350da481",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_994f5962fe02371d"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Study on Maintenance Methods of Local Communication in Low-voltage Electric Data Acquisition System",
+    "title_en": "Study on Maintenance Methods of Local Communication in Low-voltage Electric Data Acquisition System",
+    "title_zh": "低压电力数据采集系统本地通信维护方法研究",
+    "year": 2021,
+    "venue": "International Conference on Power System Technology (POWERCON)",
+    "authors": [
+      "Sijian Zhang",
+      "Ying Sun",
+      "Peng Wang",
+      "Guichuan Zhong",
+      "Zheng Zeng"
+    ],
+    "doi": "10.1109/powercon53785.2021.9697813",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/powercon53785.2021.9697813",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4210988584",
+    "openalex_id": "https://openalex.org/W4210988584",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 1,
+    "abstract_en": "The performance of low-voltage electric data acquisition depends on local communication quality, and routine maintenance should not be ignored. Showing communication situation visibly is helpful in problem diagnosis. This paper proposes maintenance methods of local communication to improve the stability and efficiency of data acquisition system. The key steps such as meter localization, belongingness and visible network description are given. The application experiments in advanced metering infrastructure(AMI) are conducted to validate the proposed method.",
+    "abstract_zh": "低压电力数据采集的性能取决于当地的通信质量，日常维护也不容忽视。直观地显示通信情况有助于问题诊断。提出本地通信的维护方法，以提高数据采集系统的稳定性和效率。给出了电表定位、归属性和可见网络描述等关键步骤。通过在高级计量基础设施(AMI)中的应用实验来验证所提方法的有效性。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_b75dbf168000729e",
+    "global_record_id": "19d65b24947a890d",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_b75dbf168000729e"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Effects of Cadmium Exposure on the Immune System and Immunoregulation",
+    "title_en": "Effects of Cadmium Exposure on the Immune System and Immunoregulation",
+    "title_zh": "镉暴露对免疫系统和免疫调节的影响",
+    "year": 2021,
+    "venue": "Frontiers in Immunology",
+    "authors": [
+      "Zhineng Wang",
+      "Ying Sun",
+      "Wenbo Yao",
+      "Qian Ba",
+      "Hui Wang"
+    ],
+    "doi": "10.3389/fimmu.2021.695484",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.3389/fimmu.2021.695484",
+    "pdf_url": "https://www.frontiersin.org/articles/10.3389/fimmu.2021.695484/pdf",
+    "source_url": "https://openalex.org/W3185366224",
+    "openalex_id": "https://openalex.org/W3185366224",
+    "openalex_author_id": "https://openalex.org/A5090118631",
+    "cited_by_count": 235,
+    "abstract_en": "Cadmium (Cd), a biologically non-essential heavy metal, is widespread in the environment, including the air, water, and soil, and is widely present in foods and quantum dot preparations. Cd enters the body primarily through inhalation and ingestion. Its biological half-life in humans is 10-35 years; therefore, Cd poses long-term health risks. While most studies on Cd toxicity have focused on organ and tissue damage, the immunotoxicity of Cd has drawn increasing attention recently. Cd accumulates in immune cells, modulates the function of the immune system, triggers immunological responses, and leads to diverse health problems. Cd acts as an immunotoxic agent by regulating the activity and apoptosis of immune cells, altering the secretion of immune cytokines, inducing reactive oxygen species (ROS) production and oxidative stress, changing the frequency of T lymphocyte subsets, and altering the production of selective antibodies in immune cells. This review summarizes the immunological toxicity of Cd, elucidates the mechanisms underlying Cd toxicity in terms of innate immunity and adaptive immunity, and discusses potential strategies to alleviate the adverse effects of Cd on the immune system.",
+    "abstract_zh": "镉 (Cd) 是一种生物非必需重金属，广泛存在于环境中，包括空气、水和土壤，并且广泛存在于食品和量子点制剂中。镉主要通过吸入和食入进入体内。其在人体内的生物半衰期为10-35年；因此，镉会带来长期的健康风险。虽然大多数关于镉毒性的研究都集中在器官和组织损伤上，但镉的免疫毒性最近引起了越来越多的关注。镉在免疫细胞中积聚，调节免疫系统的功能，引发免疫反应，并导致多种健康问题。镉通过调节免疫细胞的活性和凋亡，改变...的分泌，充当免疫毒剂。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5090118631）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_640268576f9091e8",
+    "global_record_id": "e95ccfb0accde4b1",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_640268576f9091e8"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Real-time metering data collection for industrial and commercial users",
+    "title_en": "Real-time metering data collection for industrial and commercial users",
+    "title_zh": "工商业用户实时计量数据采集",
+    "year": 2021,
+    "venue": "China International Conference on Electricity Distribution (CICED)",
+    "authors": [
+      "Ying Sun",
+      "Ying Zhao",
+      "Zhipeng Su",
+      "Haitong Gu",
+      "Jie Xiong"
+    ],
+    "doi": "10.1109/ciced50259.2021.9556845",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/ciced50259.2021.9556845",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W3206575109",
+    "openalex_id": "https://openalex.org/W3206575109",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 0,
+    "abstract_en": "With the development of new businesses such as electricity spot trading, load dispatching, and marketing user interaction, the metering automation systems have put forward new requirements for data acquisition types and real-time acquisition of large industrial and commercial users. The current metering automation system has certain limitations on data acquisition type expansion, real-time performance and flexibility improvement. This paper introduces a new data acquisition method, which can meet the requirements of rapid response to business data acquisition under complex and changeable business conditions, and can meet the requirements of data type expansion, real-time acquisition, rapid system upgrade and so on.",
+    "abstract_zh": "随着电力现货交易、负荷调度、营销用户交互等新业务的发展，计量自动化系统对大工商业用户的数据采集类型和实时采集提出了新的要求。目前的计量自动化系统在数据采集类型扩展、实时性和灵活性提高方面都存在一定的局限性。本文介绍了一种新的数据采集方法，能够满足复杂多变的业务条件下快速响应业务数据采集的要求，能够满足数据类型扩展、实时采集、系统快速升级等需求。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_771630319d7cb11c",
+    "global_record_id": "5ee6109af9c62dc9",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_771630319d7cb11c"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Design of High Sensitivity Foreign Object Detection System in Wireless Charging Based on the Variation of Detection Coils Impedance",
+    "title_en": "Design of High Sensitivity Foreign Object Detection System in Wireless Charging Based on the Variation of Detection Coils Impedance",
+    "title_zh": "基于检测线圈阻抗变化的无线充电高灵敏度异物检测系统设计",
+    "year": 2021,
+    "venue": "Lecture notes in electrical engineering",
+    "authors": [
+      "Ying Sun",
+      "Jixing Liu",
+      "Ce Liang",
+      "Wei Ping Guo",
+      "Chunbo Zhu",
+      "Kai Song"
+    ],
+    "doi": "10.1007/978-981-33-6609-1_71",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1007/978-981-33-6609-1_71",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W3154415966",
+    "openalex_id": "https://openalex.org/W3154415966",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 1,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_af8d1468f2774fbb",
+    "global_record_id": "9479e3de46e1870f",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_af8d1468f2774fbb"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Shape optimization of free-form grid structures based on the sensitivity hybrid multi-objective evolutionary algorithm",
+    "title_en": "Shape optimization of free-form grid structures based on the sensitivity hybrid multi-objective evolutionary algorithm",
+    "title_zh": "基于灵敏度混合多目标进化算法的自由网格结构形状优化",
+    "year": 2021,
+    "venue": "Journal of Building Engineering",
+    "authors": [
+      "Zhi‐Cheng Wang",
+      "Zhenggang Cao",
+      "Feng Fan",
+      "Ying Sun"
+    ],
+    "doi": "10.1016/j.jobe.2021.102538",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.jobe.2021.102538",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W3162682916",
+    "openalex_id": "https://openalex.org/W3162682916",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 28,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_1c53ceede342e00f",
+    "global_record_id": "6c858dbdf9c0da93",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_1c53ceede342e00f"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "SAR Image Noise Reduction Based on Wavelet Transform and DnCNN",
+    "title_en": "SAR Image Noise Reduction Based on Wavelet Transform and DnCNN",
+    "title_zh": "基于小波变换和DnCNN的SAR图像降噪",
+    "year": 2021,
+    "venue": "China International SAR Symposium (CISS)",
+    "authors": [
+      "Qiang Zhao",
+      "Sili Wu",
+      "Zhao Zhang",
+      "Ying Sun",
+      "Yulong Fu",
+      "Hui Wang"
+    ],
+    "doi": "10.23919/ciss51089.2021.9652335",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.23919/ciss51089.2021.9652335",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4200232899",
+    "openalex_id": "https://openalex.org/W4200232899",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 9,
+    "abstract_en": "Synthetic Aperture Rada is capable of all-weather, high-resolution and wide-ranging imaging , which is an important remote sensing observation technology. Unlike optical remote sensing images which have relatively uniform image characteristics, SAR images will be affected by speckles, resulting in large random fluctuations in the image, interfering with image interpretation and post-application, so how to reduce image noise and maintain effective image information important meaning. In this regard, this paper develops an adaptive processing flow that combines noise reduction and image contrast enhancement, which can effectively improve the interpretability and applicability of images with strong coherent speckle noise.",
+    "abstract_zh": "合成孔径雷达具有全天候、高分辨率、大范围成像的能力，是一项重要的遥感观测技术。与光学遥感图像具有相对均匀的图像特征不同，SAR图像会受到散斑的影响，导致图像出现较大的随机波动，干扰图像判读和后期应用，因此如何降低图像噪声并保持有效的图像信息具有重要意义。对此，本文开发了一种结合降噪和图像对比度增强的自适应处理流程，可以有效提高强相干散斑噪声图像的可解释性和适用性。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_198b1f7dae61b771",
+    "global_record_id": "5d8c48a079d00099",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_198b1f7dae61b771"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Interoperability Improvement for Rectangular Pad and DD Pad of Wireless Electric Vehicle Charging System Based on Adaptive Position Adjustment",
+    "title_en": "Interoperability Improvement for Rectangular Pad and DD Pad of Wireless Electric Vehicle Charging System Based on Adaptive Position Adjustment",
+    "title_zh": "基于自适应位置调整的无线电动汽车充电系统矩形垫和DD垫的互操作性改进",
+    "year": 2021,
+    "venue": "IEEE Transactions on Industry Applications",
+    "authors": [
+      "Guang Long Yang",
+      "Kai Song",
+      "Ying Sun",
+      "Xiaohua Huang",
+      "Li Jin",
+      "Yu Peng Guo",
+      "Hang Zhang",
+      "Qian Zhang",
+      "Rengui Lu",
+      "Chunbo Zhu"
+    ],
+    "doi": "10.1109/tia.2021.3056639",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/tia.2021.3056639",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W3126520431",
+    "openalex_id": "https://openalex.org/W3126520431",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 63,
+    "abstract_en": "Wireless charging for electric vehicles has been investigated in recent years. One of the critical issues of the research is to improve the weak interoperability between two popular charging pads—rectangular pad (RCP) and double-D pad (DDP). This article intends to model the interoperability under pad misalignment and improve it by adjusting the pads’ relative position. First, the variation of interoperability with pad misalignment is analyzed by the flux model. Full output power and high transmission efficiency can be achieved when the two pads are misaligned to a certain distance. Second, the optimal misalignment is obtained by flux calculation and simulation. Third, an adaptive position adjustment method for the transmitting pad based on the variable-step perturbation and observation algorithm is proposed. By searching the maximum dc input current, the optimal position of the transmitting pad can be found. Finally, in the experiment, a 3.3 kW output with 95% coil-coil efficiency is realized when the RCP and DDP interoperate at the optimal position. Compared with the scenario without position adjustment, the improvement of output power and efficiency proves that the proposal can optimize the interoperability between the RCP and DDP.",
+    "abstract_zh": "近年来，人们对电动汽车的无线充电进行了研究。研究的关键问题之一是改善两种流行的充电板——矩形充电板（RCP）和双D充电板（DDP）之间的弱互操作性。本文旨在对焊盘未对准情况下的互操作性进行建模，并通过调整焊盘的相对位置来改进它。首先，通过通量模型分析互操作性随焊盘未对准的变化。当两个焊盘错位一定距离时，即可实现全输出功率和高传输效率。其次，通过通量计算和模拟获得最佳错位。三、一种基于...的发射垫自适应位置调整方法",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_fa6fb58e04e90890",
+    "global_record_id": "b05e37fb78fd0649",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_fa6fb58e04e90890"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "A Foreign Object Detection Method Based on Variation of Quality Factor of Detection Coil at Multi-frequency",
+    "title_en": "A Foreign Object Detection Method Based on Variation of Quality Factor of Detection Coil at Multi-frequency",
+    "title_zh": "一种基于多频率检测线圈品质因数变化的异物检测方法",
+    "year": 2021,
+    "venue": "IEEE ECCE Asia Downunder",
+    "authors": [
+      "Ying Sun",
+      "Wei Ping Guo",
+      "Kejun Qian",
+      "Peng He",
+      "Chunbo Zhu",
+      "Kai Song"
+    ],
+    "doi": "10.1109/ecce-asia49820.2021.9479449",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/ecce-asia49820.2021.9479449",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W3183831158",
+    "openalex_id": "https://openalex.org/W3183831158",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 13,
+    "abstract_en": "Due to the contactless feature of the WPT (Wireless Power Transfer) system, the metal foreign objects could enter the coupling charging area possibly and be exposed in the high power alternating magnetic field. Heated by the eddy current, the metal foreign objects would ignite the inflammable materials and cause fire which has become the most potential safety hazard of WPT system. To solve this problem, this paper proposed a foreign object detection (FOD) method based on the quality factor variation of the detection coil at multi-frequencies. The proposed method could calculate the quality factor of the detection coil in real time through measuring the resonant capacitance voltage during the GA power transmission. Compared to traditional FOD methods, the proposed method could utilize the resistance variation of detection coil reasonably and preliminary realize the material identification of metal foreign object. By configuring different excitation frequencies the method could accurately identify the ferromagnetic metal foreign object which has the hazard of sharp temperature rise to WPT system. A 3.3kW FOD system prototype, which satisfied the standard SAEJ2954, was established to verify its feasibility. The experiment results showed that the error between the calculated quality factor of the proposed method and the actual measurement of instrument was less than 10% during power transmission. And the ferromagnetic and non-ferromagnetic metal foreign object with same size could be distinguished.",
+    "abstract_zh": "由于WPT（无线功率传输）系统的非接触特性，金属异物有可能进入耦合充电区域并暴露在高功率交变磁场中。金属异物受涡流加热，会点燃易燃物而引起火灾，已成为WPT系统最大的安全隐患。针对这一问题，本文提出了一种基于检测线圈在多频率下品质因数变化的异物检测（FOD）方法。该方法可以通过测量GA电力传输过程中的谐振电容电压来实时计算检测线圈的品质因数。与传统FO...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_4f0dc849ac422dc1",
+    "global_record_id": "e0a1c1eb4e74c41f",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_4f0dc849ac422dc1"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Interconnectivity and interoperability-oriented communication converter for low voltage meter reading",
+    "title_en": "Interconnectivity and interoperability-oriented communication converter for low voltage meter reading",
+    "title_zh": "用于低压抄表的面向互连和互操作性的通信转换器",
+    "year": 2021,
+    "venue": "China International Conference on Electricity Distribution (CICED)",
+    "authors": [
+      "Ying Sun",
+      "Zhipeng Su",
+      "Ying Zhao",
+      "Qiong Wu",
+      "Feiou Yu"
+    ],
+    "doi": "10.1109/ciced50259.2021.9556830",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/ciced50259.2021.9556830",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W3207327509",
+    "openalex_id": "https://openalex.org/W3207327509",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 1,
+    "abstract_en": "With the development of smart grid construction, the domestic power user consumption information collection system is basically complete. In the current low-voltage meter reading system, most of the downlink channels use power line carrier and RS485 for communication. In the construction process over the years, the power line carrier technology has been updated rapidly, resulting in the coexistence of narrowband carrier, broadband carrier, high-speed carrier, and carrier wireless dual-mode technologies. In order to solve the problem of power line carrier interconnection and intercommunication of different technologies in the same station, this paper designs a low-voltage meter reading interconnection and intercommunication converter, which solves the problem of the communication module upgrade of station electric meters. And the converter can also support data collection after load switching across stations. Verified by field application, the device can effectively solve the problem of power line carrier interconnection in different technical systems.",
+    "abstract_zh": "随着智能电网建设的发展，国内电力用户用电信息采集系统基本完善。目前的低压抄表系统中，下行通道大多采用电力线载波和RS485进行通信。在多年来的建设过程中，电力线载波技术更新迅速，出现了窄带载波、宽带载波、高速载波、载波无线双模技术并存的局面。为了解决同站不同技术的电力线载波互联互通问题，本文设计了一种低压抄表互联互通转换器，该变换器...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_506f3c0368ddf50f",
+    "global_record_id": "47795aca31d1e697",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_506f3c0368ddf50f"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Modeling and Analysis of Thermal Characteristics of Magnetic Coupler for Wireless Electric Vehicle Charging System",
+    "title_en": "Modeling and Analysis of Thermal Characteristics of Magnetic Coupler for Wireless Electric Vehicle Charging System",
+    "title_zh": "电动汽车无线充电系统磁耦合器热特性建模与分析",
+    "year": 2020,
+    "venue": "IEEE Access",
+    "authors": [
+      "Ce Liang",
+      "Guang Yang",
+      "Feng Yuan",
+      "Xiaohua Huang",
+      "Ying Sun",
+      "Jin Li",
+      "Kai Song"
+    ],
+    "doi": "10.1109/ACCESS.2020.3025586",
+    "dblp_key": "journals/access/LiangYYHSLS20",
+    "paper_url": "https://doi.org/10.1109/ACCESS.2020.3025586",
+    "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/09201453.pdf",
+    "source_url": "https://dblp.org/rec/journals/access/LiangYYHSLS20.html",
+    "openalex_id": "https://openalex.org/W3087807313",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 58,
+    "abstract_en": "The operating temperature of the magnetic coupler in wireless power transfer (WPT) systems for electric vehicles (EVs) determines the system reliability and service life. This paper studies the modeling and analysis of temperature characteristics of a general magnetic coupler. Firstly, a thermal circuit model is established to show the heat transfer of the magnetic coupler in the air. Secondly, the heating mechanism of the coil, core and aluminum (Al) shield plate is studied. The thermal power of each component is calculated, and the temperature distribution is qualitatively given based on the proposed thermal circuit model. Then, the temperature distribution of each component is simulated, and the results are consistent with the theoretical analysis. Finally, a 6.6 kW WPT prototype is set up, and the temperature of each component is measured after 30 minutes of operation. The temperature of the coil, 34.6 °C, is the highest among that of the coil, core, Al plate and coil base. The agreement between experimental results and the theoretical simulation results shows that the thermal field simulation can accurately predict the temperature of the magnetic coupler by reasonably setting the thermal power addition method.",
+    "abstract_zh": "电动汽车 (EV) 无线充电 (WPT) 系统中磁耦合器的工作温度决定了系统的可靠性和使用寿命。本文研究了通用磁耦合器温度特性的建模与分析。首先，建立热路模型来显示磁耦合器在空气中的传热。其次，研究了线圈、铁芯和铝屏蔽板的加热机理。计算每个组件的热功率，并根据所提出的热路模型定性给出温度分布。然后，对各部件的温度分布进行了仿真，结果与理论结果一致...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 10/5415-13）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_46e17c6b81a891db",
+    "global_record_id": "8d107f666bdd1ec0",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_46e17c6b81a891db"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Determination Foreign Object Detection Area in Electric Vehicle Wireless Charging System Based on Thermal Temperature Rise Characteristic",
+    "title_en": "Determination Foreign Object Detection Area in Electric Vehicle Wireless Charging System Based on Thermal Temperature Rise Characteristic",
+    "title_zh": "基于热温升特性确定电动汽车无线充电系统异物检测区域",
+    "year": 2020,
+    "venue": "IEEE Transportation Electrification Conference and Expo",
+    "authors": [
+      "Ying Sun",
+      "Wei Ping Guo",
+      "Kai Song",
+      "Xiaohua Huang",
+      "Qian Zhang",
+      "Chunbo Zhu"
+    ],
+    "doi": "10.1109/itec48692.2020.9161604",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/itec48692.2020.9161604",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W3047694304",
+    "openalex_id": "https://openalex.org/W3047694304",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 17,
+    "abstract_en": "For electric vehicle wireless charging (EVWC) systems, the foreign metal objects in the charging area will be heated, and it carries danger to the system because of the induced eddy current. Existing foreign object detection (FOD) methods focus on the same detection area as the transmitter. However, the foreign objects in the edge area of the transmitter may also be heated and cannot be detected. This paper proposes a method that can determine the area of FOD based on the temperature rise. Firstly, the loss model and the temperature variation of the foreign object is established. Secondly, the threshold of the flux density exposed to the foreign object is calculated according to the temperature rise. Then, the reasonable area of FOD can be determined by the threshold. Finally, an 11 kW EVWC prototype is set up. The experimental results prove that for a transmitter with an area of 650mm×510mm, the foreign objects in the detection area of 726mm×596mm will be heated to the dangerous temperature so the detection area needs to be extended.",
+    "abstract_zh": "对于电动汽车无线充电（EVWC）系统，充电区域内的异物金属物体会被加热，并且由于感应涡流而给系统带来危险。现有的异物检测（FOD）方法侧重于与发射器相同的检测区域。然而，发射器边缘区域的异物也可能被加热而无法检测到。本文提出了一种根据温升确定FOD面积的方法。首先，建立损耗模型和外物温度变化模型。其次，根据温升计算暴露于异物的磁通密度阈值。那么，合理的FOD面积可以是...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_dfd4d331c6f9c595",
+    "global_record_id": "584f8e89bf02bf01",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_dfd4d331c6f9c595"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Spatial-Temporal Taxi Demand Prediction Using LSTM-CNN",
+    "title_en": "Spatial-Temporal Taxi Demand Prediction Using LSTM-CNN",
+    "title_zh": "使用 LSTM-CNN 进行时空出租车需求预测",
+    "year": 2020,
+    "venue": "IEEE International Conference on Automation Science and Engineering (CASE)",
+    "authors": [
+      "Pengfeng Shu",
+      "Ying Sun",
+      "Yifan Zhao",
+      "Gangyan Xu"
+    ],
+    "doi": "10.1109/case48305.2020.9217007",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/case48305.2020.9217007",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W3091801004",
+    "openalex_id": "https://openalex.org/W3091801004",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 39,
+    "abstract_en": "Spatial-temporal taxi demand prediction is vital for efficient planning and scheduling of taxis, which could improve overall service level of public transportation in megacities. However, previous research mainly focuses on predicting the taxi demand within certain areas, and seldom considers the inter-area demands, which is essential for the macro-level taxi scheduling. Therefore, this paper proposes an effective model for spatial-temporal inter-area taxi demand prediction through integrating Convolutional Neural Networks (CNN) and Long Short-Term Memory (LSTM). CNN is adopted to extract the correlation between features and temporal closeness dependence while LSTM for fusing them in time series. The model is verified using the historical data in Haikou (China) and results show it is more accurate and stable than traditional LSTM in inter-area taxi demand prediction.",
+    "abstract_zh": "出租车时空需求预测对于出租车的高效规划和调度至关重要，可以提高特大城市公共交通的整体服务水平。然而，以往的研究主要集中在预测特定区域内的出租车需求，很少考虑区域间的需求，而这对于宏观层面的出租车调度至关重要。因此，本文通过整合卷积神经网络（CNN）和长短期记忆（LSTM）提出了一种有效的时空区域间出租车需求预测模型。采用CNN来提取特征之间的相关性和时间紧密度依赖性，而LSTM则用于将它们在时间序列中融合。该模型使用历史数据进行验证...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_cadd39f11e0e3fef",
+    "global_record_id": "f83984e9f7f9c508",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_cadd39f11e0e3fef"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Novel Application of Deep Learning for Adaptive Testing Based on Long Short-Term Memory",
+    "title_en": "Novel Application of Deep Learning for Adaptive Testing Based on Long Short-Term Memory",
+    "title_zh": "基于长短期记忆的深度学习自适应测试的新应用",
+    "year": 2019,
+    "venue": "IEEE VLSI Test Symposium (VTS)",
+    "authors": [
+      "Tai Song",
+      "Huaguo Liang",
+      "Ying Sun",
+      "Zhengfeng Huang",
+      "Maoxiang Yi",
+      "Xiangsheng Fang",
+      "Aibin Yan"
+    ],
+    "doi": "10.1109/vts.2019.8758628",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/vts.2019.8758628",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2960983555",
+    "openalex_id": "https://openalex.org/W2960983555",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 19,
+    "abstract_en": "Adaptive testing is a promising approach that practically ensures cost reduction and reliability for test strategy. In adaptive testing, the test content or pass/fail limits are not fixed as in conventional test, but depend on other test results of the currently or historically tested data. Based on recent progress in machine learning, a new Long Short-Term Memory (LSTM) which is more advanced than simple Recurrent Neuron Network (RNN) is proposed for defect screening. The simulation results have been compared with the other deep learning and traditional methods when patterns are increased and decreased. The comparisons show that the proposed RNN-based LSTM method has achieved remarkable improvements, i.e. 4.3% accuracy improvement and 2.32s time reduction during the test process.",
+    "abstract_zh": "自适应测试是一种很有前途的方法，实际上可以确保测试策略的成本降低和可靠性。在自适应测试中，测试内容或通过/失败限制并不像传统测试中那样固定，而是取决于当前或历史测试数据的其他测试结果。基于机器学习的最新进展，提出了一种比简单的循环神经元网络（RNN）更先进的新的长短期记忆（LSTM）用于缺陷筛选。当模式增加和减少时，模拟结果与其他深度学习和传统方法进行了比较。比较表明，所提出的基于 RNN 的 LSTM 方法取得了显着的改进，即精度提高了 4.3%，精度提高了 2.32...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_91476fa37b58198d",
+    "global_record_id": "e5c53f05e73f2809",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_91476fa37b58198d"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "The Construction of Security Warning Zone Based on Kinect",
+    "title_en": "The Construction of Security Warning Zone Based on Kinect",
+    "title_zh": "基于Kinect的安全警戒区构建",
+    "year": 2019,
+    "venue": "来源待核",
+    "authors": [
+      "Yangwei Cheng",
+      "Ying Sun",
+      "Yao Liu"
+    ],
+    "doi": "",
+    "dblp_key": "",
+    "paper_url": "https://webofproceedings.org/proceedings_series/ESR/ISRME%202019/ISRME19035.pdf",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2959104073",
+    "openalex_id": "https://openalex.org/W2959104073",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 0,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_ecc3d2559a419a7d",
+    "global_record_id": "c68491298738e735",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_ecc3d2559a419a7d"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Research on Remote Meter Reading Scheme and IoT Smart Energy Meter Based on NB-IoT Technology",
+    "title_en": "Research on Remote Meter Reading Scheme and IoT Smart Energy Meter Based on NB-IoT Technology",
+    "title_zh": "基于NB-IoT技术的远程抄表方案及物联网智能电表研究",
+    "year": 2019,
+    "venue": "Journal of Physics Conference Series",
+    "authors": [
+      "Xingyuan Fan",
+      "Chun Zhou",
+      "Ying Sun",
+      "Jinyang Du",
+      "Ying Zhao"
+    ],
+    "doi": "10.1088/1742-6596/1187/2/022064",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1088/1742-6596/1187/2/022064",
+    "pdf_url": "https://iopscience.iop.org/article/10.1088/1742-6596/1187/2/022064/pdf",
+    "source_url": "https://openalex.org/W2943889158",
+    "openalex_id": "https://openalex.org/W2943889158",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 5,
+    "abstract_en": "The energy meter supporting the NB-IoT standard protocol is designed to be connected to the NB-IoT network through the protocol conversion of the remote communication module itself, and directly connected to the existing centralized meter reading automation system. The acquisition terminal device is omitted, and direct communication between the main station and the energy meter is realized. The end-to-end standardized protocol reduces the complexity of the centralized meter reading platform architecture and improves the system's openness and scalability. It realizes end-to-end visual management and real-time monitoring, improving the safety, reliability and fault resistance of power collection. The overall scheme can reduce the large amount of human and material costs of system operation and maintenance.",
+    "abstract_zh": "支持NB-IoT标准协议的电能表旨在通过远程通信模块本身的协议转换连接到NB-IoT网络，并直接连接到现有的集中抄表自动化系统。省略了采集终端设备，实现了主站与电能表的直接通信。端到端的标准化协议降低了集中抄表平台架构的复杂性，提高了系统的开放性和可扩展性。实现端到端可视化管理和实时监控，提高电量采集的安全性、可靠性和抗故障能力。整体方案可以减少大量...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "智能芯片与计算系统"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_af6ba485d9f32867",
+    "global_record_id": "b253fe4d75492103",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_af6ba485d9f32867"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [
+          "智能芯片与计算系统"
+        ],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Phase Identification of Smart Meters by Spectral Clustering",
+    "title_en": "Phase Identification of Smart Meters by Spectral Clustering",
+    "title_zh": "通过频谱聚类进行智能电表相位识别",
+    "year": 2018,
+    "venue": "IEEE Conference on Energy Internet and Energy System Integration (EI2)",
+    "authors": [
+      "Yi Ma",
+      "Xingyuan Fan",
+      "Run Tang",
+      "Pan Duan",
+      "Ying Sun",
+      "Jinyang Du",
+      "Qichang Duan"
+    ],
+    "doi": "10.1109/ei2.2018.8582318",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/ei2.2018.8582318",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2906407438",
+    "openalex_id": "https://openalex.org/W2906407438",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 33,
+    "abstract_en": "Phase identification is important for the safe operation of distributed power grid, and a data-driven phase identification approach has been proposed in this paper, in which the OpenDSS (Open distribution system simulator) is used to perform power flow analysis on a real distribution feeder-European Low Voltage Test Feeder. The spectral clustering is used to identify phases of users/smart meters. Verification by European Low Voltage Test Feeder in different settings. The phase identification accuracy of proposed method is over 95% when the voltage sampling period is no more than 1 hour in the case of complete data set. Results indicate that the proposed method performs better than the constrained k-means method when the sampling period exceeds 15 minutes.",
+    "abstract_zh": "相位识别对于分布式电网的安全运行具有重要意义，本文提出了一种数据驱动的相位识别方法，利用OpenDSS（开放式配电系统模拟器）对真实的配电馈线——欧洲低压试验馈线进行潮流分析。谱聚类用于识别用户/智能电表的阶段。通过欧洲低压测试馈线在不同设置下进行验证。在数据集完整的情况下，当电压采样周期不超过1小时时，该方法的相位识别准确率超过95%。结果表明，当采样周期超过时，所提出的方法比约束 k 均值方法表现更好。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_f9c830d9ae9e151c",
+    "global_record_id": "344b44fda8d9e7b2",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_f9c830d9ae9e151c"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Spectral and Energy Efficiency Optimization Through Coordinated Transmission for Downlink Cloud Radio Access Networks",
+    "title_en": "Spectral and Energy Efficiency Optimization Through Coordinated Transmission for Downlink Cloud Radio Access Networks",
+    "title_zh": "通过下行云无线接入网络协调传输实现频谱和能源效率优化",
+    "year": 2018,
+    "venue": "Lecture notes in electrical engineering",
+    "authors": [
+      "Ying Sun",
+      "Yang Wang",
+      "Gang Wu"
+    ],
+    "doi": "10.1007/978-981-10-6571-2_2",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1007/978-981-10-6571-2_2",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2806608734",
+    "openalex_id": "https://openalex.org/W2806608734",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 0,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_0de0f54427f30ec4",
+    "global_record_id": "c8286fbe0c0b6c74",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_0de0f54427f30ec4"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Wireless Fronthaul Allocation for Downlink Coordinated Transmission in Cloud Radio Access Network",
+    "title_en": "Wireless Fronthaul Allocation for Downlink Coordinated Transmission in Cloud Radio Access Network",
+    "title_zh": "云无线接入网下行协调传输的无线前传分配",
+    "year": 2018,
+    "venue": "IEEE Vehicular Technology Conference",
+    "authors": [
+      "Ying Sun",
+      "Yang Wang",
+      "Ying Zhao"
+    ],
+    "doi": "10.1109/vtcspring.2018.8417720",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/vtcspring.2018.8417720",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2884839497",
+    "openalex_id": "https://openalex.org/W2884839497",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 0,
+    "abstract_en": "Cloud radio access network (C-RAN) is a promising architecture to meet the future demands of cell densification and explosive traffic volume. One key enabling factor of C-RAN is the availability of fronthaul link, over which the information between remote antennas and centralized processors is readily exchanged. This paper considers wireless fronthauled C- RAN, and proposes to enhance sum-rate performance under coordinated transmission by flexibly allocating wireless fronthaul bandwidth among antennas. For each antenna, we introduce degree of contribution to quantify its coordination gain, and compute its occupied fronthaul bandwidth as the cost. With the gain and cost, we formulate the wireless fronthaul allocation as a knapsack problem, which is then solved by proposed virtual antenna method and recursive divide and conquer algorithm. Simulation results verify the effectiveness of the proposed scheme in wireless fronthauled C-RAN.",
+    "abstract_zh": "云无线接入网络（C-RAN）是一种很有前途的架构，可以满足未来小区致密化和爆炸性流量的需求。 C-RAN 的一个关键推动因素是前传链路的可用性，通过该链路，远程天线和集中处理器之间的信息可以轻松交换。本文考虑无线前传C-RAN，提出通过在天线之间灵活分配无线前传带宽来增强协调传输下的总速率性能。对于每个天线，我们引入贡献度来量化其协调增益，并计算其占用的前传带宽作为成本。有了增益和成本，我们将无线前传分配制定为背包问题，w...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "智能芯片与计算系统"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_984a7b33d673e2c4",
+    "global_record_id": "c5cdbbd99b3b3361",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_984a7b33d673e2c4"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [
+          "智能芯片与计算系统"
+        ],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Robust Energy Efficiency Optimization for Coordinated Transmission with Transceiver Impairments in Private TD-LTE Wireless Network",
+    "title_en": "Robust Energy Efficiency Optimization for Coordinated Transmission with Transceiver Impairments in Private TD-LTE Wireless Network",
+    "title_zh": "专用 TD-LTE 无线网络中收发器损伤协调传输的稳健能效优化",
+    "year": 2018,
+    "venue": "China International Conference on Electricity Distribution (CICED)",
+    "authors": [
+      "Ying Sun",
+      "Ying ZHA",
+      "Liming Chen"
+    ],
+    "doi": "10.1109/ciced.2018.8592186",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/ciced.2018.8592186",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2908199633",
+    "openalex_id": "https://openalex.org/W2908199633",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 2,
+    "abstract_en": "Private TD-LTE Wireless Network has been widely utilized in power distribution communication due to its benefits of ease deployment and flexible coverage. Since the dedicated spectrum bandwidth for private TD-LTE network is extremely limited, coordinated transmission is often carried out to enhance system throughput. This paper studies the adverse impacts of transceiver impairments on the performance of coordinated transmission from the perspective of channel estimation and signal transceiver process. A robust optimization scheme utilizing Lagrange Multiplier method is then proposed to maximize the worst energy efficiency caused by the channel estimate error and signal distortion due to transceiver impairments. Simulations are conducted and the results verify the effectiveness of the proposed scheme.",
+    "abstract_zh": "TD-LTE专网无线网络以其部署方便、覆盖灵活等优点，在配电通信领域得到广泛应用。由于TD-LTE专用网络的专用频谱带宽极其有限，通常需要进行协调传输来提高系统吞吐量。本文从信道估计和信号收发过程的角度研究了收发损伤对协调传输性能的不利影响。然后提出了一种利用拉格朗日乘子方法的鲁棒优化方案，以最大化由信道估计误差和收发器损伤引起的信号失真引起的最差能量效率。进行模拟并...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_e7e65d3a61f25453",
+    "global_record_id": "2fa7b58ab95a3ba0",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_e7e65d3a61f25453"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Fronthaul Constrained Coordinated Transmission in Cloud-Based 5G Radio Access Network: Energy Efficiency Perspective",
+    "title_en": "Fronthaul Constrained Coordinated Transmission in Cloud-Based 5G Radio Access Network: Energy Efficiency Perspective",
+    "title_zh": "基于云的 5G 无线接入网络中的前传约束协调传输：能源效率视角",
+    "year": 2017,
+    "venue": "IEICE Transactions on Communications",
+    "authors": [
+      "Ying Sun",
+      "Yang Wang",
+      "Yuqing Zhong"
+    ],
+    "doi": "10.1587/transcom.2016fgp0004",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1587/transcom.2016fgp0004",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2586758035",
+    "openalex_id": "https://openalex.org/W2586758035",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 2,
+    "abstract_en": "The cloud radio access network (C-RAN) is embracing unprecedented popularity in the evolution of current RAN towards 5G. One of the essential benefits of C-RAN is facilitating cooperative transmission to enhance capacity and energy performances. In this paper, we argue that the conventional symmetric coordination in which all antennas participate in transmission does not necessarily lead to an energy efficient C-RAN. Further, the current assessments of energy consumption should be modified to match this shifted paradigm in network architecture. Towards this end, this paper proposes an asymmetric coordination scheme to optimize the energy efficiency of C-RAN. Specifically, asymmetric coordination is approximated and formulated as a joint antenna selection and power allocation problem, which is then solved by a proposed sequential-iterative algorithm. A modular power consumption model is also developed to convert the computational complexity of coordination into baseband power consumption. Simulations verify the performance benefits of our proposed asymmetric coordination in effectively enhancing system energy efficiency.",
+    "abstract_zh": "在当前 RAN 向 5G 演进的过程中，云无线接入网络 (C-RAN) 正迎来前所未有的普及。 C-RAN 的基本优势之一是促进协作传输以提高容量和能源性能。在本文中，我们认为所有天线参与传输的传统对称协调并不一定会带来节能的 C-RAN。此外，当前的能耗评估应该进行修改，以适应网络架构中这种转变的范式。为此，本文提出了一种非对称协调方案来优化C-RAN的能量效率。具体来说，不对称协调被近似并表述为联合蚂蚁......",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "智能芯片与计算系统"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_19dec5f1b7411d32",
+    "global_record_id": "0df0f610a37e9a3f",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_19dec5f1b7411d32"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [
+          "智能芯片与计算系统"
+        ],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Energy-efficient coordinated multi-point transmission for centralized power wireless private TD-LTE network",
+    "title_en": "Energy-efficient coordinated multi-point transmission for centralized power wireless private TD-LTE network",
+    "title_zh": "集中供电无线专用TD-LTE网络的节能协调多点传输",
+    "year": 2016,
+    "venue": "China International Conference on Electricity Distribution (CICED)",
+    "authors": [
+      "Ying Sun",
+      "Yuqing Zhong",
+      "Min Wang"
+    ],
+    "doi": "10.1109/ciced.2016.7576124",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/ciced.2016.7576124",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2524778605",
+    "openalex_id": "https://openalex.org/W2524778605",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 2,
+    "abstract_en": "This paper proposes and evaluates the energy-efficient Coordinated Multi-Point (CoMP) transmission schemes for centralized power wireless private TD-LTE network to utilize the limited radio frequency resources to satisfy the explosively increasing data traffic demands in Smart Grid. Centralized architecture is introduced to implement the power wireless private TD-LTE network. Energy-efficient CoMP transmissions are modeled as optimization problems and solved by proposed methods. Simulation results are given to evaluate and compare the performance of transmission schemes.",
+    "abstract_zh": "本文提出并评估了集中式电力无线专用 TD-LTE 网络的节能协调多点 (CoMP) 传输方案，以利用有限的射频资源来满足智能电网中爆炸性增长的数据流量需求。引入集中式架构，实现电力无线TD-LTE专网。高能效 CoMP 传输被建模为优化问题并通过所提出的方法解决。给出仿真结果来评估和比较传输方案的性能。",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "智能芯片与计算系统"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_878276fc8db17f45",
+    "global_record_id": "82d4aa0e6cdc260a",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_878276fc8db17f45"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [
+          "智能芯片与计算系统"
+        ],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Optimization of Vehicle Exhaust System Hanger Location",
+    "title_en": "Optimization of Vehicle Exhaust System Hanger Location",
+    "title_zh": "汽车排气系统吊架位置优化",
+    "year": 2016,
+    "venue": "SAE technical papers on CD-ROM/SAE technical paper series",
+    "authors": [
+      "Yuliang Yang",
+      "Yang Yu",
+      "Ying Sun",
+      "Zhihong Dong",
+      "Yunquan Zhang"
+    ],
+    "doi": "10.4271/2016-01-0448",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.4271/2016-01-0448",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2250810911",
+    "openalex_id": "https://openalex.org/W2250810911",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 10,
+    "abstract_en": "To improve the vehicle NVH performance and reduce the vibration of the exhaust system, average driving DOF displacement (ADDOFD) and dynamic analysis are used to optimize hanger locations. Based on the finite element model and rigid-flexible coupling model, exhaust system analysis model was established. According to the finite element model of the exhaust system, the free-free modal analysis is carried out, and the position of the hanging point of the exhaust system is optimized by using the ADDOFD method. Furthermore, through the dynamics analysis, the force of each hanger to the body is calculated by the dynamic analysis, then verify the rationality of the hanging position. The combination of the two methods can effectively determine the better NVH performance of the exhaust system with hanger locations in the earlier vehicle development process.",
+    "abstract_zh": "为了提高车辆NVH性能并减少排气系统振动，采用平均行驶自由度位移（ADDOFD）和动态分析来优化吊架位置。基于有限元模型和刚柔耦合模型，建立了排气系统分析模型。根据排气系统有限元模型，进行自由模态分析，利用ADDOFD方法对排气系统挂点位置进行优化。此外，通过动力学分析，通过动力学分析计算出各个吊架对人体的受力，进而验证吊挂位置的合理性。两种方法的结合可以有效地确定...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_c5998115d36b0a52",
+    "global_record_id": "c96d1eaeb9bd6e3c",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_c5998115d36b0a52"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Joint cyber and physical attacks against topology of electric grids",
+    "title_en": "Joint cyber and physical attacks against topology of electric grids",
+    "title_zh": "针对电网拓扑的网络和物理联合攻击",
+    "year": 2016,
+    "venue": "IEEE Region 10 Conference (TENCON)",
+    "authors": [
+      "Ying Sun",
+      "Wen-Tai Li",
+      "Wentu Song",
+      "Chau Yuen"
+    ],
+    "doi": "10.1109/tencon.2016.7848103",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/tencon.2016.7848103",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2587319144",
+    "openalex_id": "https://openalex.org/W2587319144",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 1,
+    "abstract_en": "This paper stands an attacker's point of view to develop a novel attack strategy that causes as much destructive as possible to the topology of electric network. By attacking transmission lines, power flow of girds will be changed, which could cause overload on other lines and possibly trigger cascading failures, and then lead to large areas blackout. Meanwhile, considering the limited resource of attacker, we propose a method to find out the minimum value to corrupt the measurements of attacked area, in order to mislead the control centre into detecting wrong attacked locations. Finally, the proposed attack strategy is explained in detail by IEEE 9-bus systems, and extending this application to a more complex networks that verified by IEEE 14-bus systems. Simulation results show that the damage risks of electric grids, caused by the proposed strategy, are increased at least 50% compared with traditional attack strategy.",
+    "abstract_zh": "本文站在攻击者的角度，开发一种新颖的攻击策略，对电网拓扑造成尽可能多的破坏。通过攻击输电线路，会改变电网的潮流，导致其他线路过载，并可能引发连锁故障，进而导致大面积停电。同时，考虑到攻击者的资源有限，我们提出了一种找出最小值的方法来破坏受攻击区域的测量值，以误导控制中心检测到错误的受攻击位置。最后，通过IEEE 9总线系统详细解释了所提出的攻击策略，并将该应用扩展到经IEEE验证的更复杂的网络......",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_3f7bc17194b1a424",
+    "global_record_id": "55df97bf749a1157",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_3f7bc17194b1a424"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Performance comparison of coordinated multi-point transmission strategies in C-RAN",
+    "title_en": "Performance comparison of coordinated multi-point transmission strategies in C-RAN",
+    "title_zh": "C-RAN中协作多点传输策略的性能比较",
+    "year": 2016,
+    "venue": "IEEE International Conference on Electronic Information and Communication Technology (ICEICT)",
+    "authors": [
+      "Ying Sun",
+      "Yuqing Zhong",
+      "Jia Li"
+    ],
+    "doi": "10.1109/iceict.2016.7879659",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/iceict.2016.7879659",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2596294721",
+    "openalex_id": "https://openalex.org/W2596294721",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 0,
+    "abstract_en": "Cloud-based Radio Access Network (C-RAN) could offer the benefit of mitigating inter-cell interference through facilitating cooperation techniques such as coordinated multi-point transmission (CoMP). This paper introduces the C-RAN architecture as well as different CoMP strategies to the multi-cell systems. Green advantages of C-RAN are presented and cooperation details of CoMP are analyzed. Simulations are conducted to compare the mean sum rate and energy efficiency performance of several CoMP strategies in the presence of different configurations of transmission power and fronthaul capacity.",
+    "abstract_zh": "基于云的无线接入网络 (C-RAN) 可以通过促进协作多点传输 (CoMP) 等协作技术来减轻小区间干扰。本文介绍了 C-RAN 架构以及多小区系统的不同 CoMP 策略。介绍了C-RAN的绿色优势，分析了CoMP的协作细节。通过仿真来比较在不同的传输功率和前传容量配置的情况下几种 CoMP 策略的平均总速率和能效性能。",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "智能芯片与计算系统"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_bf349c428666292c",
+    "global_record_id": "63a53f4da9d4e02e",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_bf349c428666292c"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [
+          "智能芯片与计算系统"
+        ],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "An Application of Fiber-Connected Distributed Antennas to Heterogeneous Networks: Energy Efficiency Perspective",
+    "title_en": "An Application of Fiber-Connected Distributed Antennas to Heterogeneous Networks: Energy Efficiency Perspective",
+    "title_zh": "光纤连接的分布式天线在异构网络中的应用：能源效率角度",
+    "year": 2015,
+    "venue": "International Journal of Future Generation Communication and Networking",
+    "authors": [
+      "Ying Sun",
+      "Yuxian Huang",
+      "Liming Chen"
+    ],
+    "doi": "10.14257/ijfgcn.2015.8.1.22",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.14257/ijfgcn.2015.8.1.22",
+    "pdf_url": "https://doi.org/10.14257/ijfgcn.2015.8.1.22",
+    "source_url": "https://openalex.org/W2925803996",
+    "openalex_id": "https://openalex.org/W2925803996",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 3,
+    "abstract_en": "Fiber-connected distributed antenna systems (DAS) have been recognized as an effective means to accommodate the coverage and capacity demands of future heterogeneous networks (HetNet).Among various opportunities realized by the architecture, our focus in this paper is on the spectral efficiency (SE) advantages achieved by cooperative transmission and the associated power consumption that may affect the energy efficiency (EE) of the system.A detailed power model is developed to benchmark the various sources of energy consumption in fiber-connected DAS.Then a simple but efficient pre-coding scheme is proposed to reduce the computation complexity associated with cooperative transmission, thus lowering the power consumed by baseband processing while at the same time maintaining a high throughput performance.Through detailed and extensive simulations, this paper demonstrates the SE and EE advantages of the application of fiber-connected DAS in HetNet.",
+    "abstract_zh": "光纤连接的分布式天线系统（DAS）已被认为是适应未来异构网络（HetNet）的覆盖和容量需求的有效手段。在该架构实现的各种机会中，本文的重点是通过协作传输实现的频谱效率（SE）优势以及可能影响系统能源效率（EE）的相关功耗。开发了详细的功率模型来对光纤连接的DAS中的各种能源消耗进行基准测试。然后提出了一种简单但有效的预编码方案来降低与协作传输相关的计算复杂性，从而降低基带处理消耗的功率......",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "智能芯片与计算系统"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_50a60c1640d35e9e",
+    "global_record_id": "eaf2fa91bf25f643",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_50a60c1640d35e9e"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "孙颖",
+        "secondary_tags": [
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "False data injection attacks with local topology information against linear state estimation",
+    "title_en": "False data injection attacks with local topology information against linear state estimation",
+    "title_zh": "利用本地拓扑信息对线性状态估计进行虚假数据注入攻击",
+    "year": 2015,
+    "venue": "IEEE Innovative Smart Grid Technologies-Asia",
+    "authors": [
+      "Ying Sun",
+      "Wen-Tai Li",
+      "Wentu Song",
+      "Chau Yuen"
+    ],
+    "doi": "10.1109/isgt-asia.2015.7387159",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/isgt-asia.2015.7387159",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2247018092",
+    "openalex_id": "https://openalex.org/W2247018092",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 14,
+    "abstract_en": "False data injection attacks (FDIAs) have been introduced as a critical class of cyber attacks against smart grid's monitoring system. These attacks aim to compromise the reading of grid sensors and phasor measurement units. It was shown that FDIAs can pass the traditional bad data detection. Furthermore, to perform an FDIA, the attacker need to acknowledge the power grid topology and transmission-line admittance value, which is not easy to obtain. In this paper, we propose a novel false data injection attack approach, called false data proportional attacks (FDPAs), which could avoid the traditional bad data detection method and do not need the transmission-line admittance value, but only local grid topology. When the measurement of a bus and transmission-line data is changed, simultaneously inject the same false data proportionally for all the buses and transmission-line that are connected to it. We demonstrate the success of these attacks with simulation by IEEE 30-bus test systems.",
+    "abstract_zh": "虚假数据注入攻击 (FDIA) 已成为针对智能电网监控系统的一类关键网络攻击。这些攻击旨在破坏网格传感器和相量测量单元的读取。结果表明，FDIA 可以通过传统的不良数据检测。此外，为了执行FDIA，攻击者需要了解电网拓扑和输电线路导纳值，而这些信息并不容易获得。在本文中，我们提出了一种新颖的虚假数据注入攻击方法，称为虚假数据比例攻击（FDPA），它可以避免传统的不良数据检测方法，并且不需要传输线导纳值，而只需要本地网格拓扑。当测量总线...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_130fd980987ba1d8",
+    "global_record_id": "85b026519e925268",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_130fd980987ba1d8"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Modulized resource management platform for wireless public network in Smart Grid communication",
+    "title_en": "Modulized resource management platform for wireless public network in Smart Grid communication",
+    "title_zh": "智能电网通信中无线公网模块化资源管理平台",
+    "year": 2015,
+    "venue": "International Conference on Computer Science and Network Technology (ICCSNT)",
+    "authors": [
+      "Ying Sun",
+      "Xuanni Lin",
+      "Yuqing Zhong",
+      "Yuqi Kong"
+    ],
+    "doi": "10.1109/iccsnt.2015.7490928",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/iccsnt.2015.7490928",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2431016373",
+    "openalex_id": "https://openalex.org/W2431016373",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 0,
+    "abstract_en": "This paper develops a modulated platform for the resource management of wireless public network to offer monthly analysis and comparison of data communication cards. The platform is consisted of three modules, namely the management module for public communication resource, operator bill module and distribution and measurement automation module. Compared with the conventional management platform, the developed modulized platform could verify the correctness of data usage of the large number of data communication cards provided by the mobile operators and make adjustments accordingly with the data and cost usage, thus effciently managing these public resources and accurately annalyzing the data traffic carried by the wireless public network.",
+    "abstract_zh": "本文开发了一个用于无线公共网络资源管理的调制平台，以提供数据通信卡的每月分析和比较。该平台由公共通信资源管理模块、运营商话费模块和配电计量自动化模块三个模块组成。与传统的管理平台相比，所开发的模块化平台可以验证移动运营商提供的大量数据通信卡的数据使用情况的正确性，并根据数据和费用的使用情况进行相应的调整，从而有效地管理这些公共资源，准确地分析无线公网承载的数据流量。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_2783702426411702",
+    "global_record_id": "0240b01446ce2ca7",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_2783702426411702"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "TD-LTE Private Network Performance Analysis in Smart Grid",
+    "title_en": "TD-LTE Private Network Performance Analysis in Smart Grid",
+    "title_zh": "智能电网中的TD-LTE专网性能分析",
+    "year": 2015,
+    "venue": "International Conference on Information Technology and Management Innovation (ICITMI)",
+    "authors": [
+      "Ying Sun",
+      "Xuanni Lin",
+      "Yuqing Zhong"
+    ],
+    "doi": "10.2991/icitmi-15.2015.2",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.2991/icitmi-15.2015.2",
+    "pdf_url": "https://download.atlantis-press.com/article/25839867.pdf",
+    "source_url": "https://openalex.org/W2314335142",
+    "openalex_id": "https://openalex.org/W2314335142",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 1,
+    "abstract_en": "Smart Grid applications require an efficient, reliable and robust private communication network to achieve the ubiquitous and mutual transmission of power grid data such as distribution automation, smart metering and video surveillance.This paper investigates the wide-spread deployment of TD-LTE private network in Smart Grid, presenting its system architecture and network implementation.Two important parameters, namely, spectral efficiency and energy efficiency, are then introduced to evaluate the system performance.Furthermore, detailed analysis and suggestions are provided for the deployment and implementation of TD-LTE private network in the presence of inter-cell interference, thus achieving the energy and cost efficient private wireless communication network for Smart Grid.",
+    "abstract_zh": "智能电网应用需要高效、可靠、鲁棒的专网来实现配电自动化、智能电表、视频监控等电网数据的无处不在、互传。本文研究了TD-LTE专网在智能电网中的广泛部署，介绍了其系统架构和网络实现，并引入了频谱效率和能源效率两个重要参数来评估系统性能，并为TD-LTE专网的部署和实施提供了详细的分析和建议。在存在小区间干扰的情况下，从而实现能源和成本高效的专用无线......",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "智能芯片与计算系统"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_d0332b707dd0283b",
+    "global_record_id": "1279ab6f09643703",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_d0332b707dd0283b"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [
+          "智能芯片与计算系统"
+        ],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Investigating the Energy Efficiency of TD-LTE Private Network",
+    "title_en": "Investigating the Energy Efficiency of TD-LTE Private Network",
+    "title_zh": "TD-LTE专网能源效率研究",
+    "year": 2015,
+    "venue": "International Conference on Information Technology and Management Innovation (ICITMI)",
+    "authors": [
+      "Ying Sun",
+      "Yuqing Zhong",
+      "Xuanni Lin"
+    ],
+    "doi": "10.2991/icitmi-15.2015.3",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.2991/icitmi-15.2015.3",
+    "pdf_url": "https://www.atlantis-press.com/article/25839868.pdf",
+    "source_url": "https://openalex.org/W2327745174",
+    "openalex_id": "https://openalex.org/W2327745174",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 0,
+    "abstract_en": "TD-LTE private network is embracing unprecedented popularity due to its support of broadband services and ease deployment.However, due to the limited applications of power industry and the more urgent bandwidth requirements of telecommunication industries, the availabe bandwidth TD-LTE private network could be granted with is still insufficient and very limited.This paper investigates the spectral and energy efficiency performance of TD-LTE private network, thus providing references and suggestions for the system optimization and performance enhancement.",
+    "abstract_zh": "TD-LTE专网因其对宽带业务的支持和易于部署而受到前所未有的普及。然而，由于电力行业的应用有限以及电信行业更加迫切的带宽需求，TD-LTE专网可分配的可用带宽仍然不足且非常有限。本文研究了TD-LTE专网的频谱和能效性能，为系统优化和性能提升提供参考和建议。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_468aed762f133c9c",
+    "global_record_id": "0ec31d32f76021c7",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_468aed762f133c9c"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Research on the Railroad Bridge Monitoring Platform Based on the Internet of Things",
+    "title_en": "Research on the Railroad Bridge Monitoring Platform Based on the Internet of Things",
+    "title_zh": "基于物联网的铁路桥梁监控平台研究",
+    "year": 2014,
+    "venue": "International Journal of Control and Automation",
+    "authors": [
+      "Ying Sun"
+    ],
+    "doi": "10.14257/ijca.2014.7.1.36",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.14257/ijca.2014.7.1.36",
+    "pdf_url": "https://doi.org/10.14257/ijca.2014.7.1.36",
+    "source_url": "https://openalex.org/W2109048222",
+    "openalex_id": "https://openalex.org/W2109048222",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 19,
+    "abstract_en": "As railroad bridge is one of the most important infrastructures of railway, the safety of bridge has a direct effect on railway operation efficiency and safety.In this paper, we propose a distributed railway bridge monitoring platform based on the Internet of Things (IOT) to monitoring the state of bridge safety.We made detailed research on the sensor nodes deployment, sensing data updating and early warning mechanisms of the wireless sensor network.The proposed system achieved the desired purpose of real-time monitoring of railroad bridge safety during test in China Railway Corp.",
+    "abstract_zh": "铁路桥梁是铁路最重要的基础设施之一，桥梁的安全直接影响铁路运营效率和安全。本文提出一种基于物联网的分布式铁路桥梁监测平台，对桥梁安全状态进行监测。对无线传感器网络的传感器节点部署、传感数据更新和预警机制进行了详细研究。该系统达到了中国铁路总公司试验过程中铁路桥梁安全实时监测的预期目的。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_495aab238fbfdc0d",
+    "global_record_id": "6ca2e46739579d7a",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_495aab238fbfdc0d"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Utilizing Indicator Computing Assistant to Facilitate Distribution Automation in LTE Wireless Private Network",
+    "title_en": "Utilizing Indicator Computing Assistant to Facilitate Distribution Automation in LTE Wireless Private Network",
+    "title_zh": "利用指标计算助手促进LTE无线专网配电自动化",
+    "year": 2014,
+    "venue": "Applied Mechanics and Materials",
+    "authors": [
+      "Ying Sun",
+      "Xuan Ni Lin",
+      "Li Ming Chen"
+    ],
+    "doi": "10.4028/www.scientific.net/amm.687-691.3239",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.4028/www.scientific.net/amm.687-691.3239",
+    "pdf_url": "https://doi.org/10.4028/www.scientific.net/amm.687-691.3239",
+    "source_url": "https://openalex.org/W2052327648",
+    "openalex_id": "https://openalex.org/W2052327648",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 5,
+    "abstract_en": "Concerning the communication infrastructure pertinent construction guidelines, China South Power Grid (CSG) has clearly defined and detailed the data network equipment quality control, test and check. This paper proposes two indicators to monitor the power distribution automation in LTE private wireless network. The first one is the distribution online ratio (DoR), which evaluates the effect of distribution automation infrastructure construction. The second one is distribution tunnel integrity ratio (DiR), which reflects the availability of distribution automation communication tunnel. Furthermore, an indicator computing assistant (ICA) is developed to collect the data of two indicators transmitted by the large number of custom premise equipment (CPE) in LTE private wireless network in a computationally efficient way, which frees the conventionally demanding human and computing resources..",
+    "abstract_zh": "在通信基础设施相关建设指南中，南方电网对数据网络设备的质量控制、测试和检查进行了明确规定和细化。本文提出了两个指标来监控LTE专用无线网络中的配电自动化。第一个是配电在线率（DoR），评价配电自动化基础设施建设效果。二是配电隧道完整性比（DiR），反映配电自动化通信隧道的可用性。此外，还开发了指标计算助手（ICA）来收集大量定制设备传输的两个指标的数据...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_59f5d8d7dd3eff99",
+    "global_record_id": "b632267902186ed2",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_59f5d8d7dd3eff99"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "A Centralized LTE Private Wireless Network Architecture for Smart Grid Communication Network",
+    "title_en": "A Centralized LTE Private Wireless Network Architecture for Smart Grid Communication Network",
+    "title_zh": "用于智能电网通信网络的集中式 LTE 专用无线网络架构",
+    "year": 2014,
+    "venue": "Applied Mechanics and Materials",
+    "authors": [
+      "Ying Sun",
+      "Yu Huang",
+      "Li Ming Chen"
+    ],
+    "doi": "10.4028/www.scientific.net/amm.687-691.2363",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.4028/www.scientific.net/amm.687-691.2363",
+    "pdf_url": "https://doi.org/10.4028/www.scientific.net/amm.687-691.2363",
+    "source_url": "https://openalex.org/W2082113733",
+    "openalex_id": "https://openalex.org/W2082113733",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 4,
+    "abstract_en": "With the rapid development of Smart Grid, multiple services such as power distribution automation, automatic measurement, user data collection, demand for a reliable, efficient and robust communication network. LTE Private wireless network stands as one promising solution due to its broad bandwidth, low delay, ease deployment and wide coverage, etc. This paper introduces a centralized architecture for the implementation of LTE private wireless network in smart grid communication network. The architecture utilizes the existing optical resources including MSTP/SDH in power grid to facilitate the deployment of private wireless network. Architecture principle and module designs are presented, illustrating an example of applying the centralized architecture into practical implementation.",
+    "abstract_zh": "随着智能电网的快速发展，配电自动化、自动测量、用户数据采集等多种业务，对可靠、高效、稳健的通信网络提出了需求。 LTE专用无线网络由于具有高带宽、低延迟、易于部署和覆盖范围广等优点而成为一种有前景的解决方案。本文介绍了一种在智能电网通信网络中实施LTE专用无线网络的集中式架构。该架构利用电网现有的MSTP/SDH等光资源，方便无线专网的部署。给出了架构原理和模块设计，并举例说明了应用集中式...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "智能芯片与计算系统"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_4c4a8f6903488e49",
+    "global_record_id": "6553fce9e6252795",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_4c4a8f6903488e49"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [
+          "智能芯片与计算系统"
+        ],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Safety Inspection System Based on the Internet of Things",
+    "title_en": "Safety Inspection System Based on the Internet of Things",
+    "title_zh": "基于物联网的安全巡检系统",
+    "year": 2013,
+    "venue": "Journal of Applied Sciences",
+    "authors": [
+      "Dong-Tao Hu",
+      "Yujie Wang",
+      "Jian Chen",
+      "Ying Sun"
+    ],
+    "doi": "10.3923/jas.2013.4087.4091",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.3923/jas.2013.4087.4091",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2315287221",
+    "openalex_id": "https://openalex.org/W2315287221",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 0,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_84d1a524fa43fb0b",
+    "global_record_id": "c0122862eeb53b2f",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_84d1a524fa43fb0b"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Based on EEMD-HHT Marginal Spectrum of Speech Emotion Recognition",
+    "title_en": "Based on EEMD-HHT Marginal Spectrum of Speech Emotion Recognition",
+    "title_zh": "基于EEMD-HHT边缘谱的语音情感识别",
+    "year": 2012,
+    "venue": "International Conference on Computing, Measurement, Control and Sensor Network",
+    "authors": [
+      "Wei Zhang",
+      "Xueying Zhang",
+      "Ying Sun"
+    ],
+    "doi": "10.1109/cmcsn.2012.24",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/cmcsn.2012.24",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2085628623",
+    "openalex_id": "https://openalex.org/W2085628623",
+    "openalex_author_id": "https://openalex.org/A5100445969",
+    "cited_by_count": 6,
+    "abstract_en": "Hilbert-Huang Transform is a time-frequency analysis method that apply to the nonlinear and non-stationary signal analysis, and has good adaptability. And The empirical mode decomposition(EMD) is the core part of HHT. Traditional EMD decomposition exists mode mixing phenomenon. To overcome this phenomenon, a new noise-assisted data analysis (NADA) method, the Ensemble EMD (EEMD), is proposed, which defines the true IMF components as the mean of an ensemble of trials and each consisting of the signal plus a white noise of finite amplitude. Finally the amplitude feature of emotional speech signal marginal spectrum is extracted using SVM classifier on emotional speech recognition.",
+    "abstract_zh": "Hilbert-Huang变换是一种适用于非线性、非平稳信号分析的时频分析方法，具有良好的适应性。其中经验模态分解(EMD)是HHT的核心部分。传统的EMD分解存在模态混合现象。为了克服这种现象，提出了一种新的噪声辅助数据分析 (NADA) 方法，即集成 EMD (EEMD)，它将真正的 IMF 分量定义为一组试验的平均值，每个分量由信号加上有限幅度的白噪声组成。最后利用支持向量机分类器提取情感语音信号边缘谱的幅度特征进行情感语音识别。",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100445969）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_65cdc0b75cb1_76b3c8ec642f3f30",
+    "global_record_id": "12d4bc2abfea9a2f",
+    "scholar_id": "panorama_65cdc0b75cb1",
+    "scholar_name": "张雪英",
+    "scholar_ids": [
+      "panorama_65cdc0b75cb1",
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "张雪英",
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_65cdc0b75cb1_76b3c8ec642f3f30"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_65cdc0b75cb1": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "张雪英",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "孙颖",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张雪英：情感脑电与多模态生理信号",
+      "孙颖：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "The design of converter circuit in distributed power generation system",
+    "title_en": "The design of converter circuit in distributed power generation system",
+    "title_zh": "分布式发电系统变流电路设计",
+    "year": 2010,
+    "venue": "International Conference on Computer, Mechatronics, Control and Electronic Engineering",
+    "authors": [
+      "Jiang Chunxia",
+      "Yang Hongxia",
+      "Ying Sun",
+      "Wu Ruizhi"
+    ],
+    "doi": "10.1109/cmce.2010.5610346",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/cmce.2010.5610346",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W1977754593",
+    "openalex_id": "https://openalex.org/W1977754593",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 1,
+    "abstract_en": "With the micro-turbine technology continues to improve, Micro-Turbine Generator(MTG) has become the most mature and most competitive business in distributed power generation equipment. This article designed a converter circuit that applied to distributed power generation system by micro-turbine drived a high-speed motor. PWM rectifier and PWM inverter can use the same topology for the whole system design. Space vector pulse width modulation(SVPWM) control algorithm is applied to this converter. A simulation model of converter circuit system applied to distributed generation can be designed. The simulation results show the feasibility of the proposed structure and the control strategy. Using SVPWM control method can improve the utilization ratio of direct current voltage and is easy-to-digital realization. It reduce harmonic currents and loss of the generator and improve system stability.",
+    "abstract_zh": "随着微型透平技术的不断完善，微型透平发电机（MTG）已成为分布式发电设备中最成熟、最具竞争力的业务。本文设计了一种应用于微型涡轮驱动高速电机的分布式发电系统的变流电路。整个系统设计中，PWM整流器和PWM逆变器可以使用相同的拓扑结构。该变换器采用空间矢量脉宽调制(SVPWM)控制算法。可以设计应用于分布式发电的变流电路系统仿真模型。仿真结果表明了所提出的结构和控制策略的可行性。采用SVPWM控制方法可以提高利用率...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_045a5801ff356719",
+    "global_record_id": "1d4457bc853df876",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_045a5801ff356719"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "WLAN Indoor GA-ANN Positioning Algorithm via Regularity Encoding Optimization",
+    "title_en": "WLAN Indoor GA-ANN Positioning Algorithm via Regularity Encoding Optimization",
+    "title_zh": "基于正则编码优化的WLAN室内GA-ANN定位算法",
+    "year": 2010,
+    "venue": "International Conference on Communications and Intelligence Information Security (ICCIIS)",
+    "authors": [
+      "Lin Ma",
+      "Ying Sun",
+      "Mu Zhou",
+      "Yubin Xu"
+    ],
+    "doi": "10.1109/icciis.2010.25",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/icciis.2010.25",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2052224501",
+    "openalex_id": "https://openalex.org/W2052224501",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 4,
+    "abstract_en": "To begin with, for indoor location system, the necessity of research on genetic neural network and its math model are introduced. Then, by analyzing principle of genetic optimized artificial neural network, an indoor location math model of genetic neural network is established. As for various coding types, regularity is taken as the measurement to determine the best coding type for parameter optimization. By analyzing theory of splicing/decomposable coding, the advantages of regularity for such coding type are proved. Finally, through simulation comparisons, to select a regularity coding type for GA-ANN can improve positioning accuracy for indoor environment effectively.",
+    "abstract_zh": "首先，针对室内定位系统，介绍了遗传神经网络及其数学模型研究的必要性。然后，通过分析遗传优化人工神经网络的原理，建立了遗传神经网络的室内定位数学模型。对于各种编码类型，以规律性为衡量标准，确定最佳的编码类型，进行参数优化。通过对拼接/可分解编码理论的分析，证明了该编码类型的规律性的优点。最后，通过仿真比较，选择GA-ANN的规律性编码类型可以有效提高室内环境的定位精度。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_5a5fa75753d73fa5",
+    "global_record_id": "5425eb1188c160f5",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_5a5fa75753d73fa5"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Research of driver fatigue detection system based on ADSP-BF548",
+    "title_en": "Research of driver fatigue detection system based on ADSP-BF548",
+    "title_zh": "基于ADSP-BF548的驾驶员疲劳检测系统研究",
+    "year": 2010,
+    "venue": "International Conference on Mechanic Automation and Control Engineering",
+    "authors": [
+      "Jie Tang",
+      "Fang Zuhua",
+      "Hu Shifeng",
+      "Ying Sun"
+    ],
+    "doi": "10.1109/mace.2010.5536444",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/mace.2010.5536444",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2022274378",
+    "openalex_id": "https://openalex.org/W2022274378",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 1,
+    "abstract_en": "To avoid traffic accidents caused by driver's fatigue, this paper designs a fatigue detection system based on ADSP-BF548 and relative algorithm. It captures driver's images in real time by on-board camera and localizes driver's eye position via frame-difference projection, edge extracting, and template matching such kind of methods. At last, makes a warning in time according to the eye states in a period of time. The experiment shows this driver fatigue detection system based on ADSP-BF548 is of high accuracy.",
+    "abstract_zh": "为了避免驾驶员疲劳造成的交通事故，本文设计了一种基于ADSP-BF548及相关算法的疲劳检测系统。它通过车载摄像头实时捕捉驾驶员的图像，并通过帧差投影、边缘提取、模板匹配等方法定位驾驶员的眼睛位置。最后，根据一段时间内的眼睛状态及时做出警告。实验表明，基于ADSP-BF548的驾驶员疲劳检测系统具有较高的准确度。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_5a81c198f6d2404c",
+    "global_record_id": "8addaf343325f3d3",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_5a81c198f6d2404c"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Notice of Retraction: Research on GA-ANN Based WLAN Indoor Location Method",
+    "title_en": "Notice of Retraction: Research on GA-ANN Based WLAN Indoor Location Method",
+    "title_zh": "撤回通知：基于 GA-ANN 的 WLAN 室内定位方法研究",
+    "year": 2009,
+    "venue": "Pacific-Asia Conference on Knowledge Engineering and Software Engineering (KESE)",
+    "authors": [
+      "Ying Sun",
+      "Yubin Xu",
+      "Lin Ma"
+    ],
+    "doi": "10.1109/kese.2009.31",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/kese.2009.31",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2159120485",
+    "openalex_id": "https://openalex.org/W2159120485",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 0,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_8dc4343a67bf8049",
+    "global_record_id": "499926a9591bb9b0",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_8dc4343a67bf8049"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "The Implementation of Fuzzy RBF Neural Network on Indoor Location",
+    "title_en": "The Implementation of Fuzzy RBF Neural Network on Indoor Location",
+    "title_zh": "模糊RBF神经网络在室内定位中的实现",
+    "year": 2009,
+    "venue": "Pacific-Asia Conference on Knowledge Engineering and Software Engineering (KESE)",
+    "authors": [
+      "Ying Sun",
+      "Yubin Xu",
+      "Lin Ma"
+    ],
+    "doi": "10.1109/kese.2009.32",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/kese.2009.32",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2103634647",
+    "openalex_id": "https://openalex.org/W2103634647",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 8,
+    "abstract_en": "The paper presents a fuzzy neural network with radial basis function (RBF) to apply on WLAN indoor location, effectively reducing the cost of indoor location, enhancing real-time indoor location, greatly improving indoor location accuracy. Through the equivalent theorem, the fuzzy inference system and the RBF neural network are combined and form a fuzzy RBF neural network system, which takes advantage of neural network to obtain suitable fuzzy rules and membership function expressions, and then outputs target coordinates by defuzzication. Finally, simulation experiments verify the feasibility and effectiveness of the fuzzy RBF neural network based WLAN indoor location method, with the location accuracy of 2.73m.",
+    "abstract_zh": "提出一种基于径向基函数(RBF)的模糊神经网络应用于WLAN室内定位，有效降低室内定位成本，增强室内定位的实时性，大大提高室内定位精度。通过等价定理，将模糊推理系统与RBF神经网络结合起来，形成模糊RBF神经网络系统，利用神经网络获得合适的模糊规则和隶属函数表达式，然后通过去模糊化输出目标坐标。最后通过仿真实验验证了基于模糊RBF神经网络的WLAN室内定位方法的可行性和有效性，定位精度达到2.73m。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_cfec705e8c1ee193",
+    "global_record_id": "0cad9659a40d3d2b",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_cfec705e8c1ee193"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Study on optimization for vehicle power train parameters",
+    "title_en": "Study on optimization for vehicle power train parameters",
+    "title_zh": "汽车动力总成参数优化研究",
+    "year": 2009,
+    "venue": "IEEE International Conference on Electronic Measurement & Instruments",
+    "authors": [
+      "Cheng Fangxiao",
+      "Hongguo Xu",
+      "Ying Sun"
+    ],
+    "doi": "10.1109/icemi.2009.5274143",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/icemi.2009.5274143",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2105390601",
+    "openalex_id": "https://openalex.org/W2105390601",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 1,
+    "abstract_en": "The optimized theory is used in the electronic control of the power train in order to improve the performance of the car. Except that, the author explains the optimized theory and the method of using it in writing the computer program. And moreover, the author discusses the problems occurring in the object and gives the methods to solve them. The result of the object is expressed by figures and gives out the controlling parameters that are going to be used by executive mechanical device.",
+    "abstract_zh": "将优化理论应用于动力总成的电子控制中，以提高汽车的性能。除此之外，作者还解释了优化理论以及在编写计算机程序时使用它的方法。此外，作者还讨论了对象中出现的问题并给出了解决方法。对象的结果以数字表示，并给出执行机械装置所要使用的控制参数。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_42abfe5ce34e6cfc",
+    "global_record_id": "8b11d39c10114794",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_42abfe5ce34e6cfc"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Research on the over-voltage of 220kV power system caused by traction transformer's commissioning",
+    "title_en": "Research on the over-voltage of 220kV power system caused by traction transformer's commissioning",
+    "title_zh": "牵引Transformer投运引起的220kV电力系统过电压研究",
+    "year": 2009,
+    "venue": "IEEE International Conference on Electronic Measurement & Instruments",
+    "authors": [
+      "Cheng Fangxiao",
+      "Ying Sun",
+      "Ma Weiping"
+    ],
+    "doi": "10.1109/icemi.2009.5274507",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/icemi.2009.5274507",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2013551485",
+    "openalex_id": "https://openalex.org/W2013551485",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 1,
+    "abstract_en": "The over-voltage of 220 kV power system appeared during the commissioning of several traction transformers in Jilin Province. Analysis showed that the electromagnetic oscillating of the system caused the over-voltage of the feeding phases. After setting up an accurate simulating model used in ATP-EMTP, the adverse influence on the electric power system and the character of the oscillation over-voltage had been studied. Results showed that under the environment of these substations the amplitude of the over-voltage couldn't exceed 2.0 p.u and would have little influence on electric power system.",
+    "abstract_zh": "吉林省多台牵引Transformer在调试过程中出现220kV电力系统过电压。分析表明，系统电磁振荡导致馈电各相过电压。建立了ATP-EMTP的精确仿真模型，研究了振荡过电压对电力系统的不利影响和振荡过电压的特性。结果表明，在这些变电站的环境下，过电压幅值不会超过2.0 p.u，对电力系统影响较小。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_523afcad3a58338d",
+    "global_record_id": "c6db7ac3b4e4c121",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_523afcad3a58338d"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "A feature extraction method based on Gauss wavelet filter and combined wavelets filter in speech recognition",
+    "title_en": "A feature extraction method based on Gauss wavelet filter and combined wavelets filter in speech recognition",
+    "title_zh": "语音识别中基于高斯小波滤波器和组合小波滤波器的特征提取方法",
+    "year": 2009,
+    "venue": "IET Conference on Wireless, Mobile and Sensor Networks (CCWMSN)",
+    "authors": [
+      "Xueying Zhang",
+      "Ying Sun"
+    ],
+    "doi": "",
+    "dblp_key": "",
+    "paper_url": "https://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4786180",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2546992228",
+    "openalex_id": "https://openalex.org/W2546992228",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 1,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_381a836470ab9d60",
+    "global_record_id": "33a51c480dc9c2de",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_381a836470ab9d60"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "A Fuzzy Neural Network Based on Particle Swarm Optimization Applied in the Speech Recognition System",
+    "title_en": "A Fuzzy Neural Network Based on Particle Swarm Optimization Applied in the Speech Recognition System",
+    "title_zh": "基于粒子群优化的模糊神经网络在语音识别系统中的应用",
+    "year": 2008,
+    "venue": "International Conference on Intelligent Systems Design and Applications (ISDA)",
+    "authors": [
+      "Xueying Zhang",
+      "Ying Sun",
+      "Xiaomei Zhang",
+      "Peng Wang"
+    ],
+    "doi": "10.1109/isda.2008.259",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/isda.2008.259",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2139894435",
+    "openalex_id": "https://openalex.org/W2139894435",
+    "openalex_author_id": "https://openalex.org/A5100445969",
+    "cited_by_count": 4,
+    "abstract_en": "Aim to the problems of fuzzy neural network depending on the initial conditions, the training time long, and being easy to fall into local minimum, this paper studied the combination of particle swarm optimization and fuzzy neural network, presented a fuzzy neural network model based on particle swarm optimization, and applied it in speech recognition system. This model improved the convergence speed of speech recognition system. The experimental results show that the system is feasible and effective.",
+    "abstract_zh": "针对模糊神经网络依赖于初始条件、训练时间长、易陷入局部极小等问题，本文研究了粒子群优化与模糊神经网络的结合，提出了一种基于粒子群优化的模糊神经网络模型，并将其应用于语音识别系统中。该模型提高了语音识别系统的收敛速度。实验结果表明该系统可行、有效。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100445969）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_65cdc0b75cb1_3bab9f5d3244e9b2",
+    "global_record_id": "9bd452a4d781e919",
+    "scholar_id": "panorama_65cdc0b75cb1",
+    "scholar_name": "张雪英",
+    "scholar_ids": [
+      "panorama_65cdc0b75cb1",
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "张雪英",
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_65cdc0b75cb1_3bab9f5d3244e9b2"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_65cdc0b75cb1": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "张雪英",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      },
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张雪英：脑电基础模型与通用解码",
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "A feature extraction method based on optimized frame algorithm in speech recognition",
+    "title_en": "A feature extraction method based on optimized frame algorithm in speech recognition",
+    "title_zh": "语音识别中基于优化帧算法的特征提取方法",
+    "year": 2007,
+    "venue": "IET Conference on Wireless, Mobile and Sensor Networks (CCWMSN)",
+    "authors": [
+      "Ying Sun",
+      "Xueying Zhang"
+    ],
+    "doi": "10.1049/cp:20070126",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1049/cp:20070126",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2314751163",
+    "openalex_id": "https://openalex.org/W2314751163",
+    "openalex_author_id": "https://openalex.org/A5101718115",
+    "cited_by_count": 2,
+    "abstract_en": "This paper used optimized frame algorithm in noise-robust feature extraction of speech recognition and introduced a feature extraction method based on optimized frame algorithm. The method of calculating the sample numbers of observation window in ZCPA feature extraction was proposed by studying the length of frame and human auditory characteristic. This paper also discussed the effect of using different frame in ZCPA feature extraction in detail. The RBF neural net was used in training and recognition course. The results showed that new feature has higher recognition rate and better robustness than traditional feature.",
+    "abstract_zh": "将优化帧算法应用于语音识别的抗噪声特征提取中，提出一种基于优化帧算法的特征提取方法。通过研究帧长度和人类听觉特性，提出了ZCPA特征提取中观察窗样本数的计算方法。本文还详细讨论了在ZCPA特征提取中使用不同框架的效果。 RBF神经网络用于训练和识别课程。结果表明，新特征比传统特征具有更高的识别率和更好的鲁棒性。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101718115）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_5cbbefbf810b_e2f095cb9a7c9f2d",
+    "global_record_id": "7ebb28c21f15a963",
+    "scholar_id": "panorama_5cbbefbf810b",
+    "scholar_name": "孙颖",
+    "scholar_ids": [
+      "panorama_5cbbefbf810b"
+    ],
+    "scholar_names": [
+      "孙颖"
+    ],
+    "source_record_ids": [
+      "panorama_5cbbefbf810b_e2f095cb9a7c9f2d"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_5cbbefbf810b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "孙颖",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "孙颖：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  }
+]

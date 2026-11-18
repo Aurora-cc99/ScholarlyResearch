@@ -1,1 +1,372 @@
-[]
+[
+  {
+    "id": "panorama_9a7afcd2f866__auto_code_b394e1eb83",
+    "name": "Hypergraph multi-modal learning for EEG-based emotion recognition in conversation — 开源代码 (NZWANG/Hyper-MML)",
+    "name_zh": "对话中基于脑电的情绪识别超图多模态学习 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/NZWANG/Hyper-MML",
+    "download_url": "https://github.com/NZWANG/Hyper-MML",
+    "access": "public",
+    "related_paper_titles": [
+      "Hypergraph multi-modal learning for EEG-based emotion recognition in conversation"
+    ],
+    "related_paper_titles_zh": [
+      "对话中基于脑电的情绪识别超图多模态学习"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/NZWANG/Hyper-MML",
+      "https://doi.org/10.1016/j.neunet.2026.109057"
+    ],
+    "description": "从论文《Hypergraph multi-modal learning for EEG-based emotion recognition in conversation》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "panorama_9a7afcd2f866",
+    "scholar_name": "张治国",
+    "matched_paper_ids": [
+      "panorama_9a7afcd2f866_f59264548142"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "panorama_9a7afcd2f866::eeg_affect"
+    ],
+    "primary_categories": [
+      "张治国：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "panorama_9a7afcd2f866__auto_code_9d3969a0e6",
+    "name": "LEL: Lipschitz Continuity Constrained Ensemble Learning for Efficient EEG-Based Intrasubject Emotion Recognition — 开源代码 (NZWANG/LEL)",
+    "name_zh": "LEL：面向高效脑电图被试内情绪识别的Lipschitz连续性约束集成学习 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/NZWANG/LEL",
+    "download_url": "https://github.com/NZWANG/LEL",
+    "access": "public",
+    "related_paper_titles": [
+      "LEL: Lipschitz Continuity Constrained Ensemble Learning for Efficient EEG-Based Intrasubject Emotion Recognition"
+    ],
+    "related_paper_titles_zh": [
+      "LEL：面向高效脑电图被试内情绪识别的Lipschitz连续性约束集成学习"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/NZWANG/LEL",
+      "https://doi.org/10.1109/JSEN.2026.3672658"
+    ],
+    "description": "从论文《LEL: Lipschitz Continuity Constrained Ensemble Learning for Efficient EEG-Based Intrasubject Emotion Recognition》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "panorama_9a7afcd2f866",
+    "scholar_name": "张治国",
+    "matched_paper_ids": [
+      "panorama_9a7afcd2f866_orcid_01860c07403b127a"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "panorama_9a7afcd2f866::eeg_affect"
+    ],
+    "primary_categories": [
+      "张治国：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "panorama_9a7afcd2f866__auto_code_5bc23e71fb",
+    "name": "STAMBRIDGE: Spectral-Temporal Amplitude-aware Mid-Feature Bridge for EEG Visual Decoding — 开源代码 (thabeatmjh/STAMBRIDGE)",
+    "name_zh": "STAMBRIDGE：用于脑电视觉解码的频谱—时间振幅感知中间特征桥 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/thabeatmjh/STAMBRIDGE",
+    "download_url": "https://github.com/thabeatmjh/STAMBRIDGE",
+    "access": "public",
+    "related_paper_titles": [
+      "STAMBRIDGE: Spectral-Temporal Amplitude-aware Mid-Feature Bridge for EEG Visual Decoding"
+    ],
+    "related_paper_titles_zh": [
+      "STAMBRIDGE：用于脑电视觉解码的频谱—时间振幅感知中间特征桥"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/thabeatmjh/STAMBRIDGE",
+      "https://doi.org/10.1109/JSEN.2026.3737462"
+    ],
+    "description": "从论文《STAMBRIDGE: Spectral-Temporal Amplitude-aware Mid-Feature Bridge for EEG Visual Decoding》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "panorama_9a7afcd2f866",
+    "scholar_name": "张治国",
+    "matched_paper_ids": [
+      "panorama_9a7afcd2f866_orcid_54b867fc8b692eb7"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "panorama_9a7afcd2f866::eeg_affect"
+    ],
+    "primary_categories": [
+      "张治国：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "panorama_9a7afcd2f866__auto_code_0fd59402a7",
+    "name": "Region-aware Spatiotemporal Modeling with Collaborative Domain Generalization for Cross-Subject EEG Emotion Recognition — 开源代码 (RyanLi-X/RSM-CoDG)",
+    "name_zh": "Region-aware Spatiotemporal Modeling with Collaborative Domain Generalization for Cross-Subject EEG Emotion Recognition — 开源代码",
+    "type": "code",
+    "url": "https://github.com/RyanLi-X/RSM-CoDG",
+    "download_url": "https://github.com/RyanLi-X/RSM-CoDG",
+    "access": "public",
+    "related_paper_titles": [
+      "Region-aware Spatiotemporal Modeling with Collaborative Domain Generalization for Cross-Subject EEG Emotion Recognition"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/RyanLi-X/RSM-CoDG",
+      "https://doi.org/10.48550/ARXIV.2601.15615"
+    ],
+    "description": "从论文《Region-aware Spatiotemporal Modeling with Collaborative Domain Generalization for Cross-Subject EEG Emotion Recognition》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "panorama_9a7afcd2f866",
+    "scholar_name": "张治国",
+    "matched_paper_ids": [
+      "panorama_9a7afcd2f866_0e5dcf1bfbe306cf"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "panorama_9a7afcd2f866::eeg_affect"
+    ],
+    "primary_categories": [
+      "张治国：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "panorama_9a7afcd2f866__auto_code_a965bb057e",
+    "name": "BrainCSD: A Hierarchical Consistency-Driven MoE Foundation Model for Unified Connectome Synthesis and Multitask Brain Trait Prediction — 开源代码 (SXR3015/BrainCSD)",
+    "name_zh": "BrainCSD: A Hierarchical Consistency-Driven MoE Foundation Model for Unified Connectome Synthesis and Multitask Brain Trait Prediction — 开源代码",
+    "type": "code",
+    "url": "https://github.com/SXR3015/BrainCSD",
+    "download_url": "https://github.com/SXR3015/BrainCSD",
+    "access": "public",
+    "related_paper_titles": [
+      "BrainCSD: A Hierarchical Consistency-Driven MoE Foundation Model for Unified Connectome Synthesis and Multitask Brain Trait Prediction"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/SXR3015/BrainCSD",
+      "https://doi.org/10.48550/ARXIV.2511.05630"
+    ],
+    "description": "从论文《BrainCSD: A Hierarchical Consistency-Driven MoE Foundation Model for Unified Connectome Synthesis and Multitask Brain Trait Prediction》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "panorama_9a7afcd2f866",
+    "scholar_name": "张治国",
+    "matched_paper_ids": [
+      "panorama_9a7afcd2f866_1cfacb97d5503499"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "panorama_9a7afcd2f866::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "张治国：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "panorama_9a7afcd2f866__auto_code_4ef1070d98",
+    "name": "Pattern-Aware Diffusion Synthesis of fMRI/dMRI with Tissue and Microstructural Refinement — 开源代码 (SXR3015/PDS)",
+    "name_zh": "Pattern-Aware Diffusion Synthesis of fMRI/dMRI with Tissue and Microstructural Refinement — 开源代码",
+    "type": "code",
+    "url": "https://github.com/SXR3015/PDS",
+    "download_url": "https://github.com/SXR3015/PDS",
+    "access": "public",
+    "related_paper_titles": [
+      "Pattern-Aware Diffusion Synthesis of fMRI/dMRI with Tissue and Microstructural Refinement"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/SXR3015/PDS",
+      "https://doi.org/10.48550/ARXIV.2511.04963"
+    ],
+    "description": "从论文《Pattern-Aware Diffusion Synthesis of fMRI/dMRI with Tissue and Microstructural Refinement》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "panorama_9a7afcd2f866",
+    "scholar_name": "张治国",
+    "matched_paper_ids": [
+      "panorama_9a7afcd2f866_e12df3f2c1422c89"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "panorama_9a7afcd2f866::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "张治国：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "panorama_9a7afcd2f866__auto_code_fb0bc7a4b4",
+    "name": "S$^2$M-Former: Spiking Symmetric Mixing Branchformer for Brain Auditory Attention Detection — 开源代码 (JackieWang9811/S2M-Former)",
+    "name_zh": "S$^2$M-Former: Spiking Symmetric Mixing Branchformer for Brain Auditory Attention Detection — 开源代码",
+    "type": "code",
+    "url": "https://github.com/JackieWang9811/S2M-Former",
+    "download_url": "https://github.com/JackieWang9811/S2M-Former",
+    "access": "public",
+    "related_paper_titles": [
+      "S$^2$M-Former: Spiking Symmetric Mixing Branchformer for Brain Auditory Attention Detection"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/JackieWang9811/S2M-Former",
+      "http://papers.nips.cc/paper_files/paper/2025/hash/b8330f5b70b3c53172417deac6f057b1-Abstract-Conference.html",
+      "https://doi.org/10.48550/ARXIV.2508.05164"
+    ],
+    "description": "从论文《S$^2$M-Former: Spiking Symmetric Mixing Branchformer for Brain Auditory Attention Detection》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "panorama_9a7afcd2f866",
+    "scholar_name": "张治国",
+    "matched_paper_ids": [
+      "panorama_9a7afcd2f866_9fbfb05b47b9a414"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "panorama_9a7afcd2f866::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "张治国：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "panorama_9a7afcd2f866__auto_code_af09675e56",
+    "name": "GCAN: Generative Counterfactual Attention-Guided Network for Explainable Cognitive Decline Diagnostics Based on fMRI Functional Connectivity — 开源代码 (SXR3015/GCAN)",
+    "name_zh": "GCAN: Generative Counterfactual Attention-Guided Network for Explainable Cognitive Decline Diagnostics Based on fMRI Functional Connectivity — 开源代码",
+    "type": "code",
+    "url": "https://github.com/SXR3015/GCAN",
+    "download_url": "https://github.com/SXR3015/GCAN",
+    "access": "public",
+    "related_paper_titles": [
+      "GCAN: Generative Counterfactual Attention-Guided Network for Explainable Cognitive Decline Diagnostics Based on fMRI Functional Connectivity"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/SXR3015/GCAN",
+      "https://doi.org/10.1007/978-3-031-72117-5_39"
+    ],
+    "description": "从论文《GCAN: Generative Counterfactual Attention-Guided Network for Explainable Cognitive Decline Diagnostics Based on fMRI Functional Connectivity》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "panorama_9a7afcd2f866",
+    "scholar_name": "张治国",
+    "matched_paper_ids": [
+      "panorama_9a7afcd2f866_3c78076db6793344"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "panorama_9a7afcd2f866::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "张治国：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "panorama_9a7afcd2f866__auto_code_4d9c440184",
+    "name": "HA-HI: Synergising fMRI and DTI through Hierarchical Alignments and Hierarchical Interactions for Mild Cognitive Impairment Diagnosis — 开源代码 (ICI-BCI/Dual-MRI-HA-HI)",
+    "name_zh": "HA-HI: Synergising fMRI and DTI through Hierarchical Alignments and Hierarchical Interactions for Mild Cognitive Impairment Diagnosis — 开源代码",
+    "type": "code",
+    "url": "https://github.com/ICI-BCI/Dual-MRI-HA-HI",
+    "download_url": "https://github.com/ICI-BCI/Dual-MRI-HA-HI",
+    "access": "public",
+    "related_paper_titles": [
+      "HA-HI: Synergising fMRI and DTI through Hierarchical Alignments and Hierarchical Interactions for Mild Cognitive Impairment Diagnosis"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/ICI-BCI/Dual-MRI-HA-HI",
+      "https://doi.org/10.48550/ARXIV.2401.06780"
+    ],
+    "description": "从论文《HA-HI: Synergising fMRI and DTI through Hierarchical Alignments and Hierarchical Interactions for Mild Cognitive Impairment Diagnosis》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "panorama_9a7afcd2f866",
+    "scholar_name": "张治国",
+    "matched_paper_ids": [
+      "panorama_9a7afcd2f866_33b398b74e71c2b4"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "panorama_9a7afcd2f866::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "张治国：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "panorama_9a7afcd2f866__auto_code_b332500f6f",
+    "name": "Information bottleneck-guided heterogeneous graph learning for interpretable neurodevelopmental disorder diagnosis — 开源代码 (RyanLi-X/I2B-HGNN)",
+    "name_zh": "Information bottleneck-guided heterogeneous graph learning for interpretable neurodevelopmental disorder diagnosis — 开源代码",
+    "type": "code",
+    "url": "https://github.com/RyanLi-X/I2B-HGNN",
+    "download_url": "https://github.com/RyanLi-X/I2B-HGNN",
+    "access": "public",
+    "related_paper_titles": [
+      "Information bottleneck-guided heterogeneous graph learning for interpretable neurodevelopmental disorder diagnosis"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/RyanLi-X/I2B-HGNN",
+      "https://doi.org/10.1016/j.neucom.2026.133721"
+    ],
+    "description": "从论文《Information bottleneck-guided heterogeneous graph learning for interpretable neurodevelopmental disorder diagnosis》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "panorama_9a7afcd2f866",
+    "scholar_name": "张治国",
+    "matched_paper_ids": [
+      "panorama_9a7afcd2f866_03e39b5039899144"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "panorama_9a7afcd2f866::eeg_foundation"
+    ],
+    "primary_categories": [
+      "张治国：脑电基础模型与通用解码"
+    ]
+  },
+  {
+    "id": "panorama_9a7afcd2f866__auto_code_c6b35aa5ec",
+    "name": "Invariant Representation Guided Multimodal Sentiment Decoding with Sequential Variation Regularization — 开源代码 (X-G-Y/SATI)",
+    "name_zh": "Invariant Representation Guided Multimodal Sentiment Decoding with Sequential Variation Regularization — 开源代码",
+    "type": "code",
+    "url": "https://github.com/X-G-Y/SATI",
+    "download_url": "https://github.com/X-G-Y/SATI",
+    "access": "public",
+    "related_paper_titles": [
+      "Invariant Representation Guided Multimodal Sentiment Decoding with Sequential Variation Regularization"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/X-G-Y/SATI",
+      "https://doi.org/10.1109/icassp55912.2026.11462233"
+    ],
+    "description": "从论文《Invariant Representation Guided Multimodal Sentiment Decoding with Sequential Variation Regularization》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "panorama_9a7afcd2f866",
+    "scholar_name": "张治国",
+    "matched_paper_ids": [
+      "panorama_9a7afcd2f866_7a738e29bb3adc56"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "panorama_9a7afcd2f866::eeg_affect"
+    ],
+    "primary_categories": [
+      "张治国：情感脑电与多模态生理信号"
+    ]
+  }
+]

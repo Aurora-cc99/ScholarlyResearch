@@ -1,792 +1,1955 @@
-{
-  "scholar": {
-    "name_zh": "周星辰",
-    "name_en": "English name pending",
-    "affiliation": "辽宁大学",
-    "identity_sources": [
-      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+[
+  {
+    "title": "Comparing flexible and fixed social media abstinence interventions for undergraduates: effects on mental well-being and academic engagement. Current Psychology",
+    "title_en": "Comparing flexible and fixed social media abstinence interventions for undergraduates: effects on mental well-being and academic engagement. Current Psychology",
+    "title_zh": "比较本科生灵活和固定的社交媒体禁欲干预措施：对心理健康和学术参与的影响。当前心理学",
+    "year": 2026,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "周星辰"
     ],
-    "official_homepages": [
-      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
     ],
-    "coverage": {
-      "scope": "2025–2026主题筛选与全量书目扩展",
-      "status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
-      "coverage_status": "仅有代表论文或项目级记录；个人全历史待补核",
-      "available_record_count": 15,
-      "bulk_source_record_count": 0,
-      "themes": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ]
-    },
-    "coverage_notes": "该目录与五位基线学者使用同一论文/资源/分类输出契约。‘可用记录数’表示本轮已取得并保留的书目，不等于未经消歧的个人终身全集；身份待核验、论文团队和同名风险见候选筛选证据。",
-    "id": "panorama_8cdef2e3124b",
-    "folder": "主题_panorama_8cdef2e3124b",
-    "classification": {
-      "method": "按题名及现有项目、资源说明进行主题粗分，用于阅读导航；未逐篇审阅全文，不代表学者官方分类。每条书目只设一个主类别，跨方向信息保留在辅助标签中。",
-      "categories": [
-        {
-          "id": "eeg_foundation",
-          "label": "脑电基础模型与通用解码",
-          "description": "EEG基础模型、跨任务/跨设备泛化、预训练与脑信号解码。",
-          "count": 0
-        },
-        {
-          "id": "eeg_affect",
-          "label": "情感脑电与多模态生理信号",
-          "description": "脑电情感识别、EEG-fNIRS/EEG-MEG及情感计算应用。",
-          "count": 15
-        },
-        {
-          "id": "eeg_benchmark",
-          "label": "脑电基准、数据与评测",
-          "description": "脑电基础模型基准、数据集、可复现评估与跨数据集比较。",
-          "count": 0
-        }
-      ],
-      "review": {
-        "status": "theme_candidate",
-        "source_status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
-        "primary_theme": "脑电情感计算与脑电大模型"
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_8cdef2e3124b_cc5f740bb27c",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_8cdef2e3124b",
+    "scholar_name": "周星辰",
+    "work_title_group": "b8d7cc1c3966",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_8cdef2e3124b"
+    ],
+    "scholar_names": [
+      "周星辰"
+    ],
+    "source_record_ids": [
+      "panorama_8cdef2e3124b_cc5f740bb27c"
+    ],
+    "scholar_categories": {
+      "panorama_8cdef2e3124b": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "周星辰",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
       }
     },
-    "counts": {
-      "bibliographic_records": 15,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [
-        2020,
-        2021,
-        2022,
-        2023,
-        2025,
-        2026
-      ],
-      "unknown_year": 0
-    }
+    "global_record_id": "9011db54db118d3a",
+    "primary_categories_by_scholar": [
+      "周星辰：情感脑电与多模态生理信号"
+    ]
   },
-  "papers": [
-    {
-      "title": "Comparing flexible and fixed social media abstinence interventions for undergraduates: effects on mental well-being and academic engagement. Current Psychology",
-      "title_en": "Comparing flexible and fixed social media abstinence interventions for undergraduates: effects on mental well-being and academic engagement. Current Psychology",
-      "title_zh": "比较本科生灵活和固定的社交媒体禁欲干预措施：对心理健康和学术参与的影响。当前心理学",
-      "year": 2026,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "周星辰"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_8cdef2e3124b_cc5f740bb27c",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_8cdef2e3124b",
-      "scholar_name": "周星辰",
-      "work_title_group": "b8d7cc1c3966",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+  {
+    "title": "The Impact of Secondary Task’s Perceived Value on Individuals' Creativity in Divergent Thinking Tasks",
+    "title_en": "The Impact of Secondary Task’s Perceived Value on Individuals' Creativity in Divergent Thinking Tasks",
+    "title_zh": "发散性思维任务中次要任务的感知价值对个体创造力的影响",
+    "year": 2025,
+    "venue": "AHFE international",
+    "authors": [
+      "Yunxuan Xing",
+      "Zhuoyi Sha",
+      "Junhui Lin",
+      "Xingchen Zhou"
+    ],
+    "doi": "10.54941/ahfe1006243",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.54941/ahfe1006243",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4411754594",
+    "openalex_id": "https://openalex.org/W4411754594",
+    "openalex_author_id": "https://openalex.org/A5052572000",
+    "cited_by_count": 0,
+    "abstract_en": "With the rapid advancement of information technology, media multitasking—the simultaneous use of media devices (e.g., computers, smartphones) to perform multiple tasks—has become increasingly common in daily life. Existing studies have indicated that media multitasking affects individuals’ creativity. One limitation of the previous research is that most studies only focused on utilitarian tasks. However, in practical, multitaskers are often attracted by hedonic tasks.The perceived value of a task (hedonic vs. utilitarian) is defined as the extent to which an individual’s intrinsic and extrinsic motive are satisfied. In this study, we conducted an experiment to examine how the perceived value of a secondary task influences individuals’ creativity performance in completing a primary task. Specifically, the study hypothesizes that the perceived value of the task influences attention and emotional experience, thereby impacting on creativity through distinct pathways.Eighty-three participants were recruited for a laboratory experiment employing a single-factor, two-level design (perceived value of secondary tasks: hedonic vs. utilitarian), with participants randomly assigned to two groups. Participants were instructed to finish a primary creative writing task—listing as many new functions of a refrigerator as possible—and a secondary reading task within 20 minutes. The value type of the reading task was manipulated by setting the reading material as either learning material or entertainment news. Attention to the main task and the secondary task was measured using eye-tracking (Tobii Pro Spectrum). Participants’ emotional valence and arousal during the experiment were recorded through a facial expression analysis system—Noldus Facereader 9.0. Task-switching frequencies were recorded via backend program. After completing the tasks, participants filled out questionnaires to subjectively evaluate their attention and emotions.The findings reveal that the perceived value of secondary tasks significantly influences creativity performance in the primary task. Regarding attention, participants who conducted hedonic reading tasks had higher task-switching frequencies compared to those conducted utilitarian ones, resulting in greater performance in the fluency of divergent answers. However, the effect of perceived value on creativity through the path of emotions was not supported in this study.Focusing on everyday multitasking scenarios, our study examines whether creativity varies with the value of different tasks. It vividly replicates multitasking scenarios common among university students, such as completing coursework or writing papers while simultaneously handling other tasks or browsing the web for leisure, thus achieving relatively high ecological validity. The present study reveals how the perceived value of tasks influenced individuals’ creativity through the attentional mechanisms. These findings provide evidence of the positive side of media multitasking.",
+    "abstract_zh": "随着信息技术的快速发展，媒体多任务处理——同时使用媒体设备（例如计算机、智能手机）执行多项任务——在日常生活中变得越来越普遍。现有研究表明，媒体多任务处理会影响个人的创造力。先前研究的一个局限性是大多数研究只关注功利性任务。然而，在实践中，多任务处理者常常被享乐性任务所吸引。任务的感知价值（享乐性与功利性）被定义为个人内在和外在动机得到满足的程度。在这项研究中，我们进行了一项实验，研究次要任务的感知价值如何影响个人的创造……",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5052572000）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_8cdef2e3124b_d7c603375851eae9",
+    "global_record_id": "c4f40480dd618f7b",
+    "scholar_id": "panorama_8cdef2e3124b",
+    "scholar_name": "周星辰",
+    "scholar_ids": [
+      "panorama_8cdef2e3124b"
+    ],
+    "scholar_names": [
+      "周星辰"
+    ],
+    "source_record_ids": [
+      "panorama_8cdef2e3124b_d7c603375851eae9"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_8cdef2e3124b": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "周星辰",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "Algorithmic Agitation and Affective Engineering: AI-Driven Emotion Recognition and Strategic Communication in Contemporary Social Movements. Applied and Computational Engineering",
-      "title_en": "Algorithmic Agitation and Affective Engineering: AI-Driven Emotion Recognition and Strategic Communication in Contemporary Social Movements. Applied and Computational Engineering",
-      "title_zh": "算法激动和情感工程：当代社会运动中人工智能驱动的情感识别和战略沟通。应用与计算工程",
-      "year": 2025,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "周星辰"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_8cdef2e3124b_9117a8e143a8",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_8cdef2e3124b",
-      "scholar_name": "周星辰",
-      "work_title_group": "d1a0dc8ade44",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "primary_categories_by_scholar": [
+      "周星辰：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "The Impact of Secondary Task’s Perceived Value on Individuals' Creativity in Divergent Thinking Tasks. AHFE International",
+    "title_en": "The Impact of Secondary Task’s Perceived Value on Individuals' Creativity in Divergent Thinking Tasks. AHFE International",
+    "title_zh": "发散性思维任务中次要任务的感知价值对个体创造力的影响。 AHFE国际",
+    "year": 2025,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "周星辰"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_8cdef2e3124b_181dc0e20997",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_8cdef2e3124b",
+    "scholar_name": "周星辰",
+    "work_title_group": "8dfe455280ba",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_8cdef2e3124b"
+    ],
+    "scholar_names": [
+      "周星辰"
+    ],
+    "source_record_ids": [
+      "panorama_8cdef2e3124b_181dc0e20997"
+    ],
+    "scholar_categories": {
+      "panorama_8cdef2e3124b": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "周星辰",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Smiles, Frowns, and Everything In Between: Understanding User Experiences with Emotion Tracking in Daily Life through Facial Expression Recognition. Proceedings of the 2025 ACM Designing Interactive Systems Conference",
-      "title_en": "Smiles, Frowns, and Everything In Between: Understanding User Experiences with Emotion Tracking in Daily Life through Facial Expression Recognition. Proceedings of the 2025 ACM Designing Interactive Systems Conference",
-      "title_zh": "微笑、皱眉以及介于两者之间的一切：通过面部表情识别了解日常生活中情绪跟踪的用户体验。 2025 年 ACM 设计交互系统会议论文集",
-      "year": 2025,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "周星辰"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_8cdef2e3124b_4b00719c392b",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_8cdef2e3124b",
-      "scholar_name": "周星辰",
-      "work_title_group": "00726214884e",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "8c416ef9e99fae29",
+    "primary_categories_by_scholar": [
+      "周星辰：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Social media communication and shifting attitudes toward social change across generations: a comparative study of Gen Z and older cohorts. Advances in Social Behavior Research",
+    "title_en": "Social media communication and shifting attitudes toward social change across generations: a comparative study of Gen Z and older cohorts. Advances in Social Behavior Research",
+    "title_zh": "社交媒体传播和跨代人对社会变革的态度转变：Z 世代和年长群体的比较研究。社会行为研究进展",
+    "year": 2025,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "周星辰"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_8cdef2e3124b_b43ad2c0a77a",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_8cdef2e3124b",
+    "scholar_name": "周星辰",
+    "work_title_group": "78e29caf8203",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_8cdef2e3124b"
+    ],
+    "scholar_names": [
+      "周星辰"
+    ],
+    "source_record_ids": [
+      "panorama_8cdef2e3124b_b43ad2c0a77a"
+    ],
+    "scholar_categories": {
+      "panorama_8cdef2e3124b": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "周星辰",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Social media communication and shifting attitudes toward social change across generations: a comparative study of Gen Z and older cohorts. Advances in Social Behavior Research",
-      "title_en": "Social media communication and shifting attitudes toward social change across generations: a comparative study of Gen Z and older cohorts. Advances in Social Behavior Research",
-      "title_zh": "社交媒体传播和跨代人对社会变革的态度转变：Z 世代和年长群体的比较研究。社会行为研究进展",
-      "year": 2025,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "周星辰"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_8cdef2e3124b_b43ad2c0a77a",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_8cdef2e3124b",
-      "scholar_name": "周星辰",
-      "work_title_group": "78e29caf8203",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "33c07f91da2a6d32",
+    "primary_categories_by_scholar": [
+      "周星辰：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Algorithmic Agitation and Affective Engineering: AI-Driven Emotion Recognition and Strategic Communication in Contemporary Social Movements. Applied and Computational Engineering",
+    "title_en": "Algorithmic Agitation and Affective Engineering: AI-Driven Emotion Recognition and Strategic Communication in Contemporary Social Movements. Applied and Computational Engineering",
+    "title_zh": "算法激动和情感工程：当代社会运动中人工智能驱动的情感识别和战略沟通。应用与计算工程",
+    "year": 2025,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "周星辰"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_8cdef2e3124b_9117a8e143a8",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_8cdef2e3124b",
+    "scholar_name": "周星辰",
+    "work_title_group": "d1a0dc8ade44",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_8cdef2e3124b"
+    ],
+    "scholar_names": [
+      "周星辰"
+    ],
+    "source_record_ids": [
+      "panorama_8cdef2e3124b_9117a8e143a8"
+    ],
+    "scholar_categories": {
+      "panorama_8cdef2e3124b": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "周星辰",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "The Impact of Secondary Task’s Perceived Value on Individuals' Creativity in Divergent Thinking Tasks. AHFE International",
-      "title_en": "The Impact of Secondary Task’s Perceived Value on Individuals' Creativity in Divergent Thinking Tasks. AHFE International",
-      "title_zh": "发散性思维任务中次要任务的感知价值对个体创造力的影响。 AHFE国际",
-      "year": 2025,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "周星辰"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_8cdef2e3124b_181dc0e20997",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_8cdef2e3124b",
-      "scholar_name": "周星辰",
-      "work_title_group": "8dfe455280ba",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "9086468053962998",
+    "primary_categories_by_scholar": [
+      "周星辰：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Smiles, Frowns, and Everything In Between: Understanding User Experiences with Emotion Tracking in Daily Life through Facial Expression Recognition",
+    "title_en": "Smiles, Frowns, and Everything In Between: Understanding User Experiences with Emotion Tracking in Daily Life through Facial Expression Recognition",
+    "title_zh": "微笑、皱眉以及介于两者之间的一切：通过面部表情识别了解日常生活中的情绪跟踪用户体验",
+    "year": 2025,
+    "venue": "Designing Interactive Systems Conference",
+    "authors": [
+      "Zhennan Yi",
+      "Xianghua Ding",
+      "Chenyang You",
+      "Xingchen Zhou"
+    ],
+    "doi": "10.1145/3715336.3735822",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1145/3715336.3735822",
+    "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3715336.3735822",
+    "source_url": "https://openalex.org/W4412017420",
+    "openalex_id": "https://openalex.org/W4412017420",
+    "openalex_author_id": "https://openalex.org/A5052572000",
+    "cited_by_count": 4,
+    "abstract_en": "Emotion tracking is commonly practiced for mental wellbeing.In recent years, increasing attention is turned to automatic emotion tracking, including technologies based on Facial Expression Recognition (FER).However, work on FER based tracking so far has mainly focused on accuracy improvement, and little is on how it works in everyday lives.In this paper, we developed an FER-based emotion tracking web application, EmoAction, and used it as a technology probe to explore participants' experiences and perceptions of using FER-based emotion tracking in daily life.A field study with 9 participants trying it over 14 days reveals how such an emotion tracking tool enables people to gain new awareness and new perspectives of their emotions, and identifies several potential usages of such an automatic tracking tool.We then discuss the implications for future design, including providing real-time non-judgmental feedback, prioritizing triggering reflection over seeking maximum precision, and enabling social sharing with respect for privacy.",
+    "abstract_zh": "情绪跟踪通常用于心理健康。近年来，越来越多的注意力转向自动情绪跟踪，包括基于面部表情识别（FER）的技术。然而，迄今为止基于 FER 的跟踪工作主要集中在准确性的提高，而很少关注其在日常生活中的工作原理。在本文中，我们开发了一个基于 FER 的情绪跟踪 Web 应用程序 EmoAction，并将其用作技术探针，以探索参与者在日常中使用基于 FER 的情绪跟踪的体验和感知一项由 9 名参与者在 14 天的时间里尝试的实地研究揭示了这种情绪跟踪工具如何使人们获得对其情绪的新认识和新视角，并识别...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5052572000）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_8cdef2e3124b_7cf835f40ff6d094",
+    "global_record_id": "0236d506c7064f22",
+    "scholar_id": "panorama_8cdef2e3124b",
+    "scholar_name": "周星辰",
+    "scholar_ids": [
+      "panorama_8cdef2e3124b"
+    ],
+    "scholar_names": [
+      "周星辰"
+    ],
+    "source_record_ids": [
+      "panorama_8cdef2e3124b_7cf835f40ff6d094"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_8cdef2e3124b": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "周星辰",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "An Honest Joker reveals stereotypical beliefs about the face of deception. Scientific Reports",
-      "title_en": "An Honest Joker reveals stereotypical beliefs about the face of deception. Scientific Reports",
-      "title_zh": "《诚实的小丑》揭示了人们对欺骗面孔的刻板印象。科学报告",
-      "year": 2023,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "周星辰"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_8cdef2e3124b_584553984058",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_8cdef2e3124b",
-      "scholar_name": "周星辰",
-      "work_title_group": "042ba4878a39",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "primary_categories_by_scholar": [
+      "周星辰：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Smiles, Frowns, and Everything In Between: Understanding User Experiences with Emotion Tracking in Daily Life through Facial Expression Recognition. Proceedings of the 2025 ACM Designing Interactive Systems Conference",
+    "title_en": "Smiles, Frowns, and Everything In Between: Understanding User Experiences with Emotion Tracking in Daily Life through Facial Expression Recognition. Proceedings of the 2025 ACM Designing Interactive Systems Conference",
+    "title_zh": "微笑、皱眉以及介于两者之间的一切：通过面部表情识别了解日常生活中情绪跟踪的用户体验。 2025 年 ACM 设计交互系统会议论文集",
+    "year": 2025,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "周星辰"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_8cdef2e3124b_4b00719c392b",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_8cdef2e3124b",
+    "scholar_name": "周星辰",
+    "work_title_group": "00726214884e",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_8cdef2e3124b"
+    ],
+    "scholar_names": [
+      "周星辰"
+    ],
+    "source_record_ids": [
+      "panorama_8cdef2e3124b_4b00719c392b"
+    ],
+    "scholar_categories": {
+      "panorama_8cdef2e3124b": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "周星辰",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Enhanced CatBoost with Stacking Features for Social Media Prediction. Proceedings of the 31st ACM International Conference on Multimedia",
-      "title_en": "Enhanced CatBoost with Stacking Features for Social Media Prediction. Proceedings of the 31st ACM International Conference on Multimedia",
-      "title_zh": "增强型 CatBoost 具有用于社交媒体预测的堆叠功能。第31届ACM国际多媒体会议论文集",
-      "year": 2023,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "周星辰"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_8cdef2e3124b_beaa1c373879",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_8cdef2e3124b",
-      "scholar_name": "周星辰",
-      "work_title_group": "51e058f7d078",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "a6bda269478f4b59",
+    "primary_categories_by_scholar": [
+      "周星辰：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Asymmetrical Commuting in Automated Vehicles: Effects of the Perceived Value of Nondriving-Related Tasks and Commuting Direction Expectations on Takeover Performance and Driving Experience",
+    "title_en": "Asymmetrical Commuting in Automated Vehicles: Effects of the Perceived Value of Nondriving-Related Tasks and Commuting Direction Expectations on Takeover Performance and Driving Experience",
+    "title_zh": "自动驾驶汽车中的不对称通勤：非驾驶相关任务的感知价值和通勤方向期望对接管性能和驾驶体验的影响",
+    "year": 2025,
+    "venue": "International Journal of Human-Computer Interaction",
+    "authors": [
+      "Jingyu Pang",
+      "Lubing He",
+      "Xingchen Zhou"
+    ],
+    "doi": "10.1080/10447318.2025.2544001",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1080/10447318.2025.2544001",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4413197215",
+    "openalex_id": "https://openalex.org/W4413197215",
+    "openalex_author_id": "https://openalex.org/A5052572000",
+    "cited_by_count": 1,
+    "abstract_en": "Conditional automated driving allows drivers to perform various nondriving-related tasks (NDRTs) during commutes. This study explores how commuting direction expectations and perceived values of NDRTs impact takeover performance. We conducted a 2 × 2 mixed-design driving simulation experiment involving 64 participants, with the perceived values of NDRTs (hedonic vs. utilitarian) as a within-subject variable and commuting direction expectations (outbound vs. inbound) as a between-subject variable. The key findings include: (1) Hedonic NDRTs caused more collisions than did utilitarian NDRTs. (2) Takeovers were slower and worse during inbound commutes than during outbound commutes. (3) Goal conflicts between NDRT values and commuting direction expectations impair takeovers. Our study identifies the impact of two psychological factors, task perceived value and commuting direction expectations, on takeover behavior and highlights the impact of goal conflict. This study broadens the scope of takeover research and provides insights for designing safer in-vehicle systems for conditional automated driving.",
+    "abstract_zh": "有条件的自动驾驶允许驾驶员在通勤期间执行各种非驾驶相关任务（NDRT）。本研究探讨了 NDRT 的通勤方向期望和感知价值如何 影响接管绩效。我们进行了 64 名参与者的 2 × 2 混合设计驾驶模拟实验，以 NDRT 的感知价值（享乐性与功利性）作为受试者内变量，通勤方向期望（出站与入境）作为受试者间变量。主要发现包括：(1) 享乐型 NDRT 比功利主义 NDRT 引起更多冲突。 (2) 入境通勤期间的接管比出境通勤期间更慢、更糟糕。 (3) NDRT 值与通勤方向之间的目标冲突...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5052572000）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_8cdef2e3124b_4c50223dee5aaa17",
+    "global_record_id": "f9a8dec57aacec68",
+    "scholar_id": "panorama_8cdef2e3124b",
+    "scholar_name": "周星辰",
+    "scholar_ids": [
+      "panorama_8cdef2e3124b"
+    ],
+    "scholar_names": [
+      "周星辰"
+    ],
+    "source_record_ids": [
+      "panorama_8cdef2e3124b_4c50223dee5aaa17"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_8cdef2e3124b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周星辰",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
     },
-    {
-      "title": "Interruption Value Type and Source Matter in Different Phases of an Interruption Process: Emotional/Cognitive Impact and Neural Evidence. Human Factors: The Journal of the Human Factors and Ergonomics Society",
-      "title_en": "Interruption Value Type and Source Matter in Different Phases of an Interruption Process: Emotional/Cognitive Impact and Neural Evidence. Human Factors: The Journal of the Human Factors and Ergonomics Society",
-      "title_zh": "中断过程不同阶段的中断价值类型和来源问题：情感/认知影响和神经证据。人为因素：人为因素和人体工程学会杂志",
-      "year": 2023,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "周星辰"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_8cdef2e3124b_4f3bedd36958",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_8cdef2e3124b",
-      "scholar_name": "周星辰",
-      "work_title_group": "0cc26d7d8d33",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "primary_categories_by_scholar": [
+      "周星辰：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Social Levels and Mobile App Stickiness--Measurement Model",
+    "title_en": "Social Levels and Mobile App Stickiness--Measurement Model",
+    "title_zh": "社交水平与移动应用粘性——测量模型",
+    "year": 2024,
+    "venue": "PsycTESTS Dataset",
+    "authors": [
+      "Xingchen Zhou",
+      "Pei‐Luen Patrick Rau",
+      "Zhuoni Jie"
+    ],
+    "doi": "10.1037/t93037-000",
+    "dblp_key": "",
+    "paper_url": "http://doi.org/10.1037/t93037-000",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4402359723",
+    "openalex_id": "https://openalex.org/W4402359723",
+    "openalex_author_id": "https://openalex.org/A5052572000",
+    "cited_by_count": 0,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5052572000）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_8cdef2e3124b_1d90e1a891196117",
+    "global_record_id": "6c0fadd15f2f31df",
+    "scholar_id": "panorama_8cdef2e3124b",
+    "scholar_name": "周星辰",
+    "scholar_ids": [
+      "panorama_8cdef2e3124b"
+    ],
+    "scholar_names": [
+      "周星辰"
+    ],
+    "source_record_ids": [
+      "panorama_8cdef2e3124b_1d90e1a891196117"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_8cdef2e3124b": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "周星辰",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "Digital interruptions permeating work-nonwork boundaries: Effect of interruption values on knowledge workers’ emotional experiences. Current Psychology",
-      "title_en": "Digital interruptions permeating work-nonwork boundaries: Effect of interruption values on knowledge workers’ emotional experiences. Current Psychology",
-      "title_zh": "数字干扰渗透到工作与非工作的界限：干扰价值观对知识工作者情感体验的影响。当前心理学",
-      "year": 2022,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "周星辰"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_8cdef2e3124b_3a72fadf0d09",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_8cdef2e3124b",
-      "scholar_name": "周星辰",
-      "work_title_group": "79daf71332d3",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "primary_categories_by_scholar": [
+      "周星辰：脑电基准、数据与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "An Honest Joker reveals stereotypical beliefs about the face of deception. Scientific Reports",
+    "title_en": "An Honest Joker reveals stereotypical beliefs about the face of deception. Scientific Reports",
+    "title_zh": "《诚实的小丑》揭示了人们对欺骗面孔的刻板印象。科学报告",
+    "year": 2023,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "周星辰"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_8cdef2e3124b_584553984058",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_8cdef2e3124b",
+    "scholar_name": "周星辰",
+    "work_title_group": "042ba4878a39",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_8cdef2e3124b"
+    ],
+    "scholar_names": [
+      "周星辰"
+    ],
+    "source_record_ids": [
+      "panorama_8cdef2e3124b_584553984058"
+    ],
+    "scholar_categories": {
+      "panorama_8cdef2e3124b": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "周星辰",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Face-evoked thoughts. Cognition",
-      "title_en": "Face-evoked thoughts. Cognition",
-      "title_zh": "面容引发的想法。认知",
-      "year": 2022,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "周星辰"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_8cdef2e3124b_da85d6dd1340",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_8cdef2e3124b",
-      "scholar_name": "周星辰",
-      "work_title_group": "65ca2f9770d3",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "e076ea9e07ebec3e",
+    "primary_categories_by_scholar": [
+      "周星辰：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Stickiness formation among mobile apps of different social levels: multigroup analysis using the cognitive–affective–conative framework",
+    "title_en": "Stickiness formation among mobile apps of different social levels: multigroup analysis using the cognitive–affective–conative framework",
+    "title_zh": "不同社会层次的移动应用程序之间的粘性形成：使用认知-情感-意动框架的多组分析",
+    "year": 2023,
+    "venue": "Information Technology and People",
+    "authors": [
+      "Xingchen Zhou",
+      "Pei‐Luen Patrick Rau",
+      "Zhuoni Jie"
+    ],
+    "doi": "10.1108/itp-05-2022-0358",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1108/itp-05-2022-0358",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4362720836",
+    "openalex_id": "https://openalex.org/W4362720836",
+    "openalex_author_id": "https://openalex.org/A5052572000",
+    "cited_by_count": 33,
+    "abstract_en": "Purpose This study aims to reveal how mobile app stickiness is formed and how the stickiness formation process differs for apps of different social levels. Design/methodology/approach This study proposed and validated a stickiness formation model following the cognitive–affective–conative framework. Data were collected from surveys of 1,240 mobile app users and analyzed using structural equation modeling. Multigroup analysis was applied to contrast the stickiness formation process among apps of different social levels. Findings This study revealed a causal link between cognitive, affective and conative factors. It found partial mediation effects of trust in the association between perceptions and satisfaction, and the full mediation role of satisfaction and personal investment (PI) in the effects of subjective norm (SN) on stickiness. The multigroup analysis results suggested that social media affordances benefit stickiness through increased PI and strengthened effects of SN on PI. However, it damages stickiness through increased perceived privacy risk (PPR), decreased trust and strengthened effects of PPR on trust. Originality/value This study contributes to both stickiness scholars and practitioners, as it builds a model to understand the stickiness formation process and reveals the effects of the “go social” strategy. The novelty of this study is that it examined social influences, considered privacy issues and revealed two mediation mechanisms. The findings can guide the improvement of mobile app stickiness and the application of the “go social” strategy.",
+    "abstract_zh": "目的本研究旨在揭示移动应用程序粘性是如何形成的，以及不同社交层次的应用程序粘性形成过程有何不同。设计/方法/途径本研究提出并验证了遵循认知-情感-意动框架的粘性形成模型。数据是通过对 1,240 名移动应用用户的调查收集的，并使用结构方程模型进行分析。采用多组分析来对比不同社交层次的应用程序之间的粘性形成过程。结果 这项研究揭示了认知、情感和意动因素之间的因果关系。它发现信任在感知和满意度之间的关联中具有部分中介作用，以及……的完全中介作用。",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5052572000）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_8cdef2e3124b_c323afb1765545e6",
+    "global_record_id": "c235d2ff4d6d8830",
+    "scholar_id": "panorama_8cdef2e3124b",
+    "scholar_name": "周星辰",
+    "scholar_ids": [
+      "panorama_8cdef2e3124b"
+    ],
+    "scholar_names": [
+      "周星辰"
+    ],
+    "source_record_ids": [
+      "panorama_8cdef2e3124b_c323afb1765545e6"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_8cdef2e3124b": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "周星辰",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "The combination of metacognition and face cognition: Cut-in points and methods. Advances in Psychological Science",
-      "title_en": "The combination of metacognition and face cognition: Cut-in points and methods. Advances in Psychological Science",
-      "title_zh": "元认知与面孔认知的结合：切入点与方法心理科学进展",
-      "year": 2022,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "周星辰"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_8cdef2e3124b_f1bf073f7cdd",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_8cdef2e3124b",
-      "scholar_name": "周星辰",
-      "work_title_group": "9d2d21128f70",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "primary_categories_by_scholar": [
+      "周星辰：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Colorful Commuting Journey: Non-driving Related Tasks that Drivers Willing to Perform Across Vehicles of Various Automation Levels and the Reasons",
+    "title_en": "Colorful Commuting Journey: Non-driving Related Tasks that Drivers Willing to Perform Across Vehicles of Various Automation Levels and the Reasons",
+    "title_zh": "多彩通勤之旅：驾驶员愿意在不同自动化级别的车辆上执行的非驾驶相关任务及其原因",
+    "year": 2023,
+    "venue": "Lecture notes in computer science",
+    "authors": [
+      "Jingyu Pang",
+      "Xingchen Zhou"
+    ],
+    "doi": "10.1007/978-3-031-48047-8_23",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1007/978-3-031-48047-8_23",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4388753451",
+    "openalex_id": "https://openalex.org/W4388753451",
+    "openalex_author_id": "https://openalex.org/A5052572000",
+    "cited_by_count": 4,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5052572000）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_8cdef2e3124b_94d4f02380c662a9",
+    "global_record_id": "a5376011ebb6e58b",
+    "scholar_id": "panorama_8cdef2e3124b",
+    "scholar_name": "周星辰",
+    "scholar_ids": [
+      "panorama_8cdef2e3124b"
+    ],
+    "scholar_names": [
+      "周星辰"
+    ],
+    "source_record_ids": [
+      "panorama_8cdef2e3124b_94d4f02380c662a9"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_8cdef2e3124b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周星辰",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
     },
-    {
-      "title": "Two Factors in Face Recognition: Whether You Know the Person’s Face and Whether You Share the Person’s Race. Perception",
-      "title_en": "Two Factors in Face Recognition: Whether You Know the Person’s Face and Whether You Share the Person’s Race. Perception",
-      "title_zh": "人脸识别的两个因素：你是否认识这个人的脸以及你是否分享这个人的种族。感知",
-      "year": 2021,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "周星辰"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_8cdef2e3124b_95bd103cc72a",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_8cdef2e3124b",
-      "scholar_name": "周星辰",
-      "work_title_group": "65ab897b4786",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "primary_categories_by_scholar": [
+      "周星辰：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Enhanced CatBoost with Stacking Features for Social Media Prediction. Proceedings of the 31st ACM International Conference on Multimedia",
+    "title_en": "Enhanced CatBoost with Stacking Features for Social Media Prediction. Proceedings of the 31st ACM International Conference on Multimedia",
+    "title_zh": "增强型 CatBoost 具有用于社交媒体预测的堆叠功能。第31届ACM国际多媒体会议论文集",
+    "year": 2023,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "周星辰"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_8cdef2e3124b_beaa1c373879",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_8cdef2e3124b",
+    "scholar_name": "周星辰",
+    "work_title_group": "51e058f7d078",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_8cdef2e3124b"
+    ],
+    "scholar_names": [
+      "周星辰"
+    ],
+    "source_record_ids": [
+      "panorama_8cdef2e3124b_beaa1c373879"
+    ],
+    "scholar_categories": {
+      "panorama_8cdef2e3124b": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "周星辰",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Valuing Social Media Affordances. Lecture Notes in Computer Science",
-      "title_en": "Valuing Social Media Affordances. Lecture Notes in Computer Science",
-      "title_zh": "重视社交媒体的可供性。计算机科学讲义",
-      "year": 2021,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "周星辰"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_8cdef2e3124b_1865a80fc81d",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_8cdef2e3124b",
-      "scholar_name": "周星辰",
-      "work_title_group": "a1ec7f192b39",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "b59b4c944cf72d3b",
+    "primary_categories_by_scholar": [
+      "周星辰：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Interruption Value Type and Source Matter in Different Phases of an Interruption Process: Emotional/Cognitive Impact and Neural Evidence. Human Factors: The Journal of the Human Factors and Ergonomics Society",
+    "title_en": "Interruption Value Type and Source Matter in Different Phases of an Interruption Process: Emotional/Cognitive Impact and Neural Evidence. Human Factors: The Journal of the Human Factors and Ergonomics Society",
+    "title_zh": "中断过程不同阶段的中断价值类型和来源问题：情感/认知影响和神经证据。人为因素：人为因素和人体工程学会杂志",
+    "year": 2023,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "周星辰"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_8cdef2e3124b_4f3bedd36958",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_8cdef2e3124b",
+    "scholar_name": "周星辰",
+    "work_title_group": "0cc26d7d8d33",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_8cdef2e3124b"
+    ],
+    "scholar_names": [
+      "周星辰"
+    ],
+    "source_record_ids": [
+      "panorama_8cdef2e3124b_4f3bedd36958"
+    ],
+    "scholar_categories": {
+      "panorama_8cdef2e3124b": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "周星辰",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Cognitive Behavioral Therapy-Based Short-Term Abstinence Intervention for Problematic Social Media Use: Improved Well-Being and Underlying Mechanisms. Psychiatric Quarterly",
-      "title_en": "Cognitive Behavioral Therapy-Based Short-Term Abstinence Intervention for Problematic Social Media Use: Improved Well-Being and Underlying Mechanisms. Psychiatric Quarterly",
-      "title_zh": "针对有问题的社交媒体使用的基于认知行为疗法的短期戒断干预：改善福祉和潜在机制。精神病学季刊",
-      "year": 2020,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "周星辰"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_8cdef2e3124b_b7961fd7809a",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_8cdef2e3124b",
-      "scholar_name": "周星辰",
-      "work_title_group": "340fd3f5c290",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "53eb8f88bc962cd5",
+    "primary_categories_by_scholar": [
+      "周星辰：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Interruption Value Type and Source Matter in Different Phases of an Interruption Process: Emotional/Cognitive Impact and Neural Evidence",
+    "title_en": "Interruption Value Type and Source Matter in Different Phases of an Interruption Process: Emotional/Cognitive Impact and Neural Evidence",
+    "title_zh": "中断过程不同阶段的中断价值类型和来源问题：情绪/认知影响和神经证据",
+    "year": 2023,
+    "venue": "Human Factors The Journal of the Human Factors and Ergonomics Society",
+    "authors": [
+      "Xingchen Zhou",
+      "Pei‐Luen Patrick Rau"
+    ],
+    "doi": "10.1177/00187208221150353",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1177/00187208221150353",
+    "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/00187208221150353?download=true",
+    "source_url": "https://openalex.org/W4313646957",
+    "openalex_id": "https://openalex.org/W4313646957",
+    "openalex_author_id": "https://openalex.org/A5052572000",
+    "cited_by_count": 6,
+    "abstract_en": "OBJECTIVE: To examine the effect of interruption value type (utilitarian, hedonic) and source (external, internal) in different phases of an interruption process. BACKGROUND: Prior studies on interruption mostly focused on the cognitive outcomes of utilitarian interruptions. Hedonic interruptions are common in life; however, they are not sufficiently explored through research. Hedonic value is closely associated with emotional experiences, and, in turn, influences behaviors. Moreover, the way the effect of values is moderated by interruptions initiated by intrinsic motives is worth exploring. METHOD: A 2 × 2 mixed design experiment was conducted with 48 participants who were asked to respond to instant messages during the writing task. The interruption value was induced by work or non-work tasks. The interruption source was manipulated by providing an alert. Functional near-infrared spectroscopy, behavioral data, and subjective measurements were collected and analyzed. RESULTS: Hedonic interruptions increased emotional valence, while utilitarian interruptions decreased it. These effects were strengthened by internal interruptions. The effect of interruption value type on work exhaustion was also moderated by the source. Interruption value type and source influenced the attention allocation before an interruption occurred. Hedonic interruptions led to longer resumption lags, whereas utilitarian interruptions required longer interruption durations. Internal interruptions led to improved performance in the resumed task. CONCLUSION: Interruption source modulate the effect of interruption value type, especially on emotional experience and attention allocation before an interruption occurs. APPLICATION: Self-initiated hedonic interruptions have emotional benefits, while alerts for utilitarian interruptions will improve attention on the main task before interruptions.",
+    "abstract_zh": "目的：考察中断价值类型（功利主义、享乐主义）和来源（外部、内部）在中断过程的不同阶段的影响。背景：先前关于干扰的研究主要集中在功利性干扰的认知结果上。享乐性的干扰在生活中很常见。然而，它们还没有通过研究得到充分探索。享乐价值与情感体验密切相关，进而影响行为。此外，内在动机引发的干扰如何调节价值观的影响也值得探索。方法：对 48 名参与者进行了 2 × 2 混合设计实验，要求他们在写作任务期间回复即时消息。该...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5052572000）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_8cdef2e3124b_79180c10e98b9074",
+    "global_record_id": "066830f45ee466b0",
+    "scholar_id": "panorama_8cdef2e3124b",
+    "scholar_name": "周星辰",
+    "scholar_ids": [
+      "panorama_8cdef2e3124b"
+    ],
+    "scholar_names": [
+      "周星辰"
+    ],
+    "source_record_ids": [
+      "panorama_8cdef2e3124b_79180c10e98b9074"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_8cdef2e3124b": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "周星辰",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "Dunning–Kruger effects in face perception. Cognition",
-      "title_en": "Dunning–Kruger effects in face perception. Cognition",
-      "title_zh": "面部感知中的邓宁-克鲁格效应。认知",
-      "year": 2020,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "周星辰"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_8cdef2e3124b_7763fa84ef16",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_8cdef2e3124b",
-      "scholar_name": "周星辰",
-      "work_title_group": "3bdc3ab83f24",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
-    }
-  ]
-}
+    "primary_categories_by_scholar": [
+      "周星辰：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Face-evoked thoughts. Cognition",
+    "title_en": "Face-evoked thoughts. Cognition",
+    "title_zh": "面容引发的想法。认知",
+    "year": 2022,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "周星辰"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_8cdef2e3124b_da85d6dd1340",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_8cdef2e3124b",
+    "scholar_name": "周星辰",
+    "work_title_group": "65ca2f9770d3",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_8cdef2e3124b"
+    ],
+    "scholar_names": [
+      "周星辰"
+    ],
+    "source_record_ids": [
+      "panorama_8cdef2e3124b_da85d6dd1340"
+    ],
+    "scholar_categories": {
+      "panorama_8cdef2e3124b": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "周星辰",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "06439097c3e7da14",
+    "primary_categories_by_scholar": [
+      "周星辰：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Digital interruptions permeating work-nonwork boundaries: Effect of interruption values on knowledge workers’ emotional experiences",
+    "title_en": "Digital interruptions permeating work-nonwork boundaries: Effect of interruption values on knowledge workers’ emotional experiences",
+    "title_zh": "数字干扰渗透到工作与非工作的界限：干扰价值观对知识工作者情感体验的影响",
+    "year": 2022,
+    "venue": "Current Psychology",
+    "authors": [
+      "Xingchen Zhou",
+      "Pei‐Luen Patrick Rau"
+    ],
+    "doi": "10.1007/s12144-022-02895-5",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1007/s12144-022-02895-5",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4213346609",
+    "openalex_id": "https://openalex.org/W4213346609",
+    "openalex_author_id": "https://openalex.org/A5052572000",
+    "cited_by_count": 12,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5052572000）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_8cdef2e3124b_1ff2c1c2d71ea75c",
+    "global_record_id": "b4ff9de6e9b906d7",
+    "scholar_id": "panorama_8cdef2e3124b",
+    "scholar_name": "周星辰",
+    "scholar_ids": [
+      "panorama_8cdef2e3124b"
+    ],
+    "scholar_names": [
+      "周星辰"
+    ],
+    "source_record_ids": [
+      "panorama_8cdef2e3124b_1ff2c1c2d71ea75c"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_8cdef2e3124b": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "周星辰",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周星辰：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Digital interruptions permeating work-nonwork boundaries: Effect of interruption values on knowledge workers’ emotional experiences. Current Psychology",
+    "title_en": "Digital interruptions permeating work-nonwork boundaries: Effect of interruption values on knowledge workers’ emotional experiences. Current Psychology",
+    "title_zh": "数字干扰渗透到工作与非工作的界限：干扰价值观对知识工作者情感体验的影响。当前心理学",
+    "year": 2022,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "周星辰"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_8cdef2e3124b_3a72fadf0d09",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_8cdef2e3124b",
+    "scholar_name": "周星辰",
+    "work_title_group": "79daf71332d3",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_8cdef2e3124b"
+    ],
+    "scholar_names": [
+      "周星辰"
+    ],
+    "source_record_ids": [
+      "panorama_8cdef2e3124b_3a72fadf0d09"
+    ],
+    "scholar_categories": {
+      "panorama_8cdef2e3124b": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "周星辰",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "466d417d937d4bf6",
+    "primary_categories_by_scholar": [
+      "周星辰：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "The combination of metacognition and face cognition: Cut-in points and methods. Advances in Psychological Science",
+    "title_en": "The combination of metacognition and face cognition: Cut-in points and methods. Advances in Psychological Science",
+    "title_zh": "元认知与面孔认知的结合：切入点与方法心理科学进展",
+    "year": 2022,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "周星辰"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_8cdef2e3124b_f1bf073f7cdd",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_8cdef2e3124b",
+    "scholar_name": "周星辰",
+    "work_title_group": "9d2d21128f70",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_8cdef2e3124b"
+    ],
+    "scholar_names": [
+      "周星辰"
+    ],
+    "source_record_ids": [
+      "panorama_8cdef2e3124b_f1bf073f7cdd"
+    ],
+    "scholar_categories": {
+      "panorama_8cdef2e3124b": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "周星辰",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "e11c3c325729eed9",
+    "primary_categories_by_scholar": [
+      "周星辰：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "\"Time to Take a Break\": How Heavy Adult Gamers React to a Built-In Gaming Gradual Intervention System",
+    "title_en": "\"Time to Take a Break\": How Heavy Adult Gamers React to a Built-In Gaming Gradual Intervention System",
+    "title_zh": "“是时候休息一下了”：重度成年游戏玩家对内置游戏渐进干预系统的反应如何",
+    "year": 2021,
+    "venue": "Proceedings of the ACM on Human-Computer Interaction",
+    "authors": [
+      "Xingchen Zhou",
+      "Pei‐Luen Patrick Rau",
+      "Xueqian Liu"
+    ],
+    "doi": "10.1145/3449077",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1145/3449077",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W3158298691",
+    "openalex_id": "https://openalex.org/W3158298691",
+    "openalex_author_id": "https://openalex.org/A5052572000",
+    "cited_by_count": 13,
+    "abstract_en": "Although often ignored, adult gamers, as with children and adolescents, can suffer from problematic gaming. This study explores the use of a built-in gaming gradual intervention system (G-GIS) designed to help adult gamers achieve their desired gaming habits in an autonomous and acceptable manner. In this study, we interviewed 26 heavy adult gamers (i.e., adult gamers who played frequently and for relatively long periods of time) of an online poker game using an in-built G-GIS. Then, we triangulated the interviewees' results with their real-world behavioral data collected over eight months to explore how demographics, attitudes, and contextual factors influenced their use of the G-GIS. The results indicate that family and occupation demographics play key roles in determining adult gamers' gaming habits and their self-control under G-GIS intervention. We also revealed that adult gamers' attitudes and contextual factors can facilitate or hinder the effectiveness of the G-GIS. The findings of this study extend our understanding of heavy adult gamers and reveal how a G-GIS influences adult gamers at the individual level, which can be applied in the design of future game intervention systems, particularly for adult gamers.",
+    "abstract_zh": "尽管经常被忽视，但成年游戏玩家与儿童和青少年一样，可能会遭受游戏问题的困扰。本研究探讨了内置游戏渐进干预系统（G-GIS）的使用，旨在帮助成年游戏玩家以自主且可接受的方式实现他们想要的游戏习惯。在这项研究中，我们采访了 26 名使用内置 G-GIS 玩在线扑克游戏的重度成年玩家（即经常玩且玩时间相对较长的成年玩家）。然后，我们将受访者的结果与八个月内收集的现实世界行为数据进行三角测量，以探讨人口统计、态度和背景因素如何影响他们对 G-GIS 的使用。结果表明，家庭和职业人口...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5052572000）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_8cdef2e3124b_2f3b4e79927d1df2",
+    "global_record_id": "324f16a7250065e1",
+    "scholar_id": "panorama_8cdef2e3124b",
+    "scholar_name": "周星辰",
+    "scholar_ids": [
+      "panorama_8cdef2e3124b"
+    ],
+    "scholar_names": [
+      "周星辰"
+    ],
+    "source_record_ids": [
+      "panorama_8cdef2e3124b_2f3b4e79927d1df2"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_8cdef2e3124b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周星辰",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周星辰：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Two Factors in Face Recognition: Whether You Know the Person’s Face and Whether You Share the Person’s Race. Perception",
+    "title_en": "Two Factors in Face Recognition: Whether You Know the Person’s Face and Whether You Share the Person’s Race. Perception",
+    "title_zh": "人脸识别的两个因素：你是否认识这个人的脸以及你是否分享这个人的种族。感知",
+    "year": 2021,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "周星辰"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_8cdef2e3124b_95bd103cc72a",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_8cdef2e3124b",
+    "scholar_name": "周星辰",
+    "work_title_group": "65ab897b4786",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_8cdef2e3124b"
+    ],
+    "scholar_names": [
+      "周星辰"
+    ],
+    "source_record_ids": [
+      "panorama_8cdef2e3124b_95bd103cc72a"
+    ],
+    "scholar_categories": {
+      "panorama_8cdef2e3124b": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "周星辰",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "12421ffe35ad5730",
+    "primary_categories_by_scholar": [
+      "周星辰：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Valuing Social Media Affordances",
+    "title_en": "Valuing Social Media Affordances",
+    "title_zh": "重视社交媒体的可供性",
+    "year": 2021,
+    "venue": "Lecture notes in computer science",
+    "authors": [
+      "Xingchen Zhou",
+      "Pei‐Luen Patrick Rau"
+    ],
+    "doi": "10.1007/978-3-030-77077-8_33",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1007/978-3-030-77077-8_33",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W3184426845",
+    "openalex_id": "https://openalex.org/W3184426845",
+    "openalex_author_id": "https://openalex.org/A5052572000",
+    "cited_by_count": 2,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5052572000）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_8cdef2e3124b_102e593b4683b9d4",
+    "global_record_id": "25b40571551070ef",
+    "scholar_id": "panorama_8cdef2e3124b",
+    "scholar_name": "周星辰",
+    "scholar_ids": [
+      "panorama_8cdef2e3124b"
+    ],
+    "scholar_names": [
+      "周星辰"
+    ],
+    "source_record_ids": [
+      "panorama_8cdef2e3124b_102e593b4683b9d4"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_8cdef2e3124b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周星辰",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周星辰：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Valuing Social Media Affordances. Lecture Notes in Computer Science",
+    "title_en": "Valuing Social Media Affordances. Lecture Notes in Computer Science",
+    "title_zh": "重视社交媒体的可供性。计算机科学讲义",
+    "year": 2021,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "周星辰"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_8cdef2e3124b_1865a80fc81d",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_8cdef2e3124b",
+    "scholar_name": "周星辰",
+    "work_title_group": "a1ec7f192b39",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_8cdef2e3124b"
+    ],
+    "scholar_names": [
+      "周星辰"
+    ],
+    "source_record_ids": [
+      "panorama_8cdef2e3124b_1865a80fc81d"
+    ],
+    "scholar_categories": {
+      "panorama_8cdef2e3124b": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "周星辰",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "fa292b481f1bc191",
+    "primary_categories_by_scholar": [
+      "周星辰：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Cognitive Behavioral Therapy-Based Short-Term Abstinence Intervention for Problematic Social Media Use: Improved Well-Being and Underlying Mechanisms",
+    "title_en": "Cognitive Behavioral Therapy-Based Short-Term Abstinence Intervention for Problematic Social Media Use: Improved Well-Being and Underlying Mechanisms",
+    "title_zh": "基于认知行为疗法的针对有问题的社交媒体使用的短期戒断干预：改善福祉和潜在机制",
+    "year": 2020,
+    "venue": "Psychiatric Quarterly",
+    "authors": [
+      "Xingchen Zhou",
+      "Pei‐Luen Patrick Rau",
+      "Chi-Lan Yang",
+      "Xiaofei Zhou"
+    ],
+    "doi": "10.1007/s11126-020-09852-0",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1007/s11126-020-09852-0",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W3089833095",
+    "openalex_id": "https://openalex.org/W3089833095",
+    "openalex_author_id": "https://openalex.org/A5052572000",
+    "cited_by_count": 85,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5052572000）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_8cdef2e3124b_4ba88e0e46c0dee3",
+    "global_record_id": "df09479447e350d3",
+    "scholar_id": "panorama_8cdef2e3124b",
+    "scholar_name": "周星辰",
+    "scholar_ids": [
+      "panorama_8cdef2e3124b"
+    ],
+    "scholar_names": [
+      "周星辰"
+    ],
+    "source_record_ids": [
+      "panorama_8cdef2e3124b_4ba88e0e46c0dee3"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_8cdef2e3124b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周星辰",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周星辰：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Dunning–Kruger effects in face perception. Cognition",
+    "title_en": "Dunning–Kruger effects in face perception. Cognition",
+    "title_zh": "面部感知中的邓宁-克鲁格效应。认知",
+    "year": 2020,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "周星辰"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_8cdef2e3124b_7763fa84ef16",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_8cdef2e3124b",
+    "scholar_name": "周星辰",
+    "work_title_group": "3bdc3ab83f24",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_8cdef2e3124b"
+    ],
+    "scholar_names": [
+      "周星辰"
+    ],
+    "source_record_ids": [
+      "panorama_8cdef2e3124b_7763fa84ef16"
+    ],
+    "scholar_categories": {
+      "panorama_8cdef2e3124b": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "周星辰",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "92c9a77746051253",
+    "primary_categories_by_scholar": [
+      "周星辰：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Cognitive Behavioral Therapy-Based Short-Term Abstinence Intervention for Problematic Social Media Use: Improved Well-Being and Underlying Mechanisms. Psychiatric Quarterly",
+    "title_en": "Cognitive Behavioral Therapy-Based Short-Term Abstinence Intervention for Problematic Social Media Use: Improved Well-Being and Underlying Mechanisms. Psychiatric Quarterly",
+    "title_zh": "针对有问题的社交媒体使用的基于认知行为疗法的短期戒断干预：改善福祉和潜在机制。精神病学季刊",
+    "year": 2020,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "周星辰"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_8cdef2e3124b_b7961fd7809a",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_8cdef2e3124b",
+    "scholar_name": "周星辰",
+    "work_title_group": "340fd3f5c290",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_8cdef2e3124b"
+    ],
+    "scholar_names": [
+      "周星辰"
+    ],
+    "source_record_ids": [
+      "panorama_8cdef2e3124b_b7961fd7809a"
+    ],
+    "scholar_categories": {
+      "panorama_8cdef2e3124b": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "周星辰",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "81361817e34ad998",
+    "primary_categories_by_scholar": [
+      "周星辰：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Determining fidelity of mixed prototypes: Effect of media and physical interaction",
+    "title_en": "Determining fidelity of mixed prototypes: Effect of media and physical interaction",
+    "title_zh": "确定混合原型的保真度：媒体和物理交互的影响",
+    "year": 2019,
+    "venue": "Applied Ergonomics",
+    "authors": [
+      "Xingchen Zhou",
+      "Pei‐Luen Patrick Rau"
+    ],
+    "doi": "10.1016/j.apergo.2019.05.007",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.apergo.2019.05.007",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2947806908",
+    "openalex_id": "https://openalex.org/W2947806908",
+    "openalex_author_id": "https://openalex.org/A5052572000",
+    "cited_by_count": 23,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5052572000）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_8cdef2e3124b_12f12bef13dd860f",
+    "global_record_id": "e3cb81e4ac55e2bf",
+    "scholar_id": "panorama_8cdef2e3124b",
+    "scholar_name": "周星辰",
+    "scholar_ids": [
+      "panorama_8cdef2e3124b"
+    ],
+    "scholar_names": [
+      "周星辰"
+    ],
+    "source_record_ids": [
+      "panorama_8cdef2e3124b_12f12bef13dd860f"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_8cdef2e3124b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周星辰",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周星辰：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Effect of Illumination on Reading Performance and Affect in a Virtual Environment",
+    "title_en": "Effect of Illumination on Reading Performance and Affect in a Virtual Environment",
+    "title_zh": "虚拟环境中照明对阅读性能和影响的影响",
+    "year": 2018,
+    "venue": "Lecture notes in computer science",
+    "authors": [
+      "Xingchen Zhou",
+      "Pei‐Luen Patrick Rau"
+    ],
+    "doi": "10.1007/978-3-319-92141-9_36",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1007/978-3-319-92141-9_36",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2805580319",
+    "openalex_id": "https://openalex.org/W2805580319",
+    "openalex_author_id": "https://openalex.org/A5052572000",
+    "cited_by_count": 7,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5052572000）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_8cdef2e3124b_a9bfdbbd9a533f74",
+    "global_record_id": "7a7c786eeb48f1b4",
+    "scholar_id": "panorama_8cdef2e3124b",
+    "scholar_name": "周星辰",
+    "scholar_ids": [
+      "panorama_8cdef2e3124b"
+    ],
+    "scholar_names": [
+      "周星辰"
+    ],
+    "source_record_ids": [
+      "panorama_8cdef2e3124b_a9bfdbbd9a533f74"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_8cdef2e3124b": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "周星辰",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周星辰：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Application of Virtual Reality Technology in Urban Planning",
+    "title_en": "Application of Virtual Reality Technology in Urban Planning",
+    "title_zh": "虚拟现实技术在城市规划中的应用",
+    "year": 2012,
+    "venue": "Journal of Hunan City University",
+    "authors": [
+      "Xingchen Zhou"
+    ],
+    "doi": "",
+    "dblp_key": "",
+    "paper_url": "https://oversea.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&filename=HNCG201204018",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2351107959",
+    "openalex_id": "https://openalex.org/W2351107959",
+    "openalex_author_id": "https://openalex.org/A5052572000",
+    "cited_by_count": 5,
+    "abstract_en": "As one of the supporting technologies of the digital city,the virtual reality technology shows great significance to the urban planning.Embarking from the concept of virtual reality,the dissertation elaborate three essential features and the technical system constitutions of virtual reality,and it analyzes the key technologies and the superiority of the application of VR technology in the urban planning.Taking the Pearl River new town as the example,it discuss the implementation step of VR technology applied in the urban planning.Finally,it appraises the virtual reality system of Pearl River new town,and proposes several insufficient spots on the application of VR technology in urban planning.",
+    "abstract_zh": "虚拟现实技术作为数字城市的支撑技术之一,对城市规划具有重要的意义。论文从虚拟现实的概念出发,阐述了虚拟现实的三大本质特征和技术体系构成,分析了VR技术在城市规划中应用的关键技术和优越性,并以珠江新城为例,探讨了VR技术在城市规划中应用的实施步骤。提出了VR技术在城市规划中应用的几个不足之处。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5052572000）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_8cdef2e3124b_a1aeb05803e76032",
+    "global_record_id": "a2fd258e29599e59",
+    "scholar_id": "panorama_8cdef2e3124b",
+    "scholar_name": "周星辰",
+    "scholar_ids": [
+      "panorama_8cdef2e3124b"
+    ],
+    "scholar_names": [
+      "周星辰"
+    ],
+    "source_record_ids": [
+      "panorama_8cdef2e3124b_a1aeb05803e76032"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_8cdef2e3124b": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "周星辰",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "周星辰：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  }
+]
