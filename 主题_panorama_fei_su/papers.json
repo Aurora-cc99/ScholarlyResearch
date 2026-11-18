@@ -3288,11 +3288,13 @@
     "scholar_name": "苏菲",
     "scholar_ids": [
       "panorama_fei_su",
-      "panorama_9a7afcd2f866"
+      "panorama_9a7afcd2f866",
+      "dewen_hu"
     ],
     "scholar_names": [
       "苏菲",
-      "张治国"
+      "张治国",
+      "胡德文"
     ],
     "source_record_ids": [
       "panorama_fei_su_bb7a26aca29cefae"
@@ -3321,11 +3323,22 @@
         ],
         "confidence": "low",
         "note": ""
+      },
+      "dewen_hu": {
+        "category_id": "bss_manifold_ml",
+        "label": "盲源分离、流形学习与模式识别方法",
+        "scholar_name": "胡德文",
+        "secondary_tags": [
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "苏菲：脑电基础模型与通用解码",
-      "张治国：脑电基础模型与通用解码"
+      "张治国：脑电基础模型与通用解码",
+      "胡德文：盲源分离、流形学习与模式识别方法"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
