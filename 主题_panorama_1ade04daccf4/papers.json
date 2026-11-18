@@ -1,261 +1,881 @@
-{
-  "scholar": {
-    "name_zh": "师硕",
-    "name_en": "English name pending",
-    "affiliation": "河北工业大学",
-    "identity_sources": [
-      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+[
+  {
+    "title": "Various Attention Mechanism Graph Convolutional Network with Multi-source Domain Adaptation for Cross-Subject EEG Emotion Recognition",
+    "title_en": "Various Attention Mechanism Graph Convolutional Network with Multi-source Domain Adaptation for Cross-Subject EEG Emotion Recognition",
+    "title_zh": "用于跨主题脑电情感识别的多源域自适应的多种注意力机制图卷积网络",
+    "year": 2025,
+    "venue": "Lecture notes in computer science",
+    "authors": [
+      "Shuo Shi",
+      "Xulei Zheng",
+      "Taiyi Wu",
+      "Xiaoke Hao"
     ],
-    "official_homepages": [
-      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    "doi": "10.1007/978-3-032-05162-2_65",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1007/978-3-032-05162-2_65",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4414343054",
+    "openalex_id": "https://openalex.org/W4414343054",
+    "openalex_author_id": "https://openalex.org/A5115494873",
+    "cited_by_count": 6,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [
+      "脑电情感识别",
+      "情感计算与情绪理解"
     ],
-    "coverage": {
-      "scope": "2025–2026主题筛选与全量书目扩展",
-      "status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
-      "coverage_status": "仅有代表论文或项目级记录；个人全历史待补核",
-      "available_record_count": 4,
-      "bulk_source_record_count": 0,
-      "themes": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ]
-    },
-    "coverage_notes": "该目录与五位基线学者使用同一论文/资源/分类输出契约。‘可用记录数’表示本轮已取得并保留的书目，不等于未经消歧的个人终身全集；身份待核验、论文团队和同名风险见候选筛选证据。",
-    "id": "panorama_1ade04daccf4",
-    "folder": "主题_panorama_1ade04daccf4",
-    "classification": {
-      "method": "按题名及现有项目、资源说明进行主题粗分，用于阅读导航；未逐篇审阅全文，不代表学者官方分类。每条书目只设一个主类别，跨方向信息保留在辅助标签中。",
-      "categories": [
-        {
-          "id": "eeg_foundation",
-          "label": "脑电基础模型与通用解码",
-          "description": "EEG基础模型、跨任务/跨设备泛化、预训练与脑信号解码。",
-          "count": 0
-        },
-        {
-          "id": "eeg_affect",
-          "label": "情感脑电与多模态生理信号",
-          "description": "脑电情感识别、EEG-fNIRS/EEG-MEG及情感计算应用。",
-          "count": 4
-        },
-        {
-          "id": "eeg_benchmark",
-          "label": "脑电基准、数据与评测",
-          "description": "脑电基础模型基准、数据集、可复现评估与跨数据集比较。",
-          "count": 0
-        }
-      ],
-      "review": {
-        "status": "theme_candidate",
-        "source_status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
-        "primary_theme": "脑电情感计算与脑电大模型"
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5115494873）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_1ade04daccf4_55e7f3468e55f2f6",
+    "global_record_id": "b440f780001cf99a",
+    "scholar_id": "panorama_1ade04daccf4",
+    "scholar_name": "师硕",
+    "scholar_ids": [
+      "panorama_1ade04daccf4"
+    ],
+    "scholar_names": [
+      "师硕"
+    ],
+    "source_record_ids": [
+      "panorama_1ade04daccf4_55e7f3468e55f2f6"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_1ade04daccf4": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "师硕",
+        "secondary_tags": [
+          "脑电情感识别",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
-    "counts": {
-      "bibliographic_records": 4,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [
-        2018,
-        2023,
-        2024
-      ],
-      "unknown_year": 0
-    }
+    "primary_categories_by_scholar": [
+      "师硕：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
   },
-  "papers": [
-    {
-      "title": "Deep learning-based EEG emotion recognition: a comprehensive review. Neural Computing and Applications",
-      "title_en": "Deep learning-based EEG emotion recognition: a comprehensive review. Neural Computing and Applications",
-      "title_zh": "基于深度学习的脑电情感识别：综合综述。神经计算与应用",
-      "year": 2024,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "师硕"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_1ade04daccf4_2ac7b23ccd9c",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_1ade04daccf4",
-      "scholar_name": "师硕",
-      "work_title_group": "8175191a9964",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+  {
+    "title": "基于改进ConvMixer和动态焦点损失的视听情感识别. 电子学报",
+    "title_en": "基于改进ConvMixer和动态焦点损失的视听情感识别. 电子学报",
+    "title_zh": "基于改进的ConvMixer和动态焦点损失的视听情感识别。 电子学报",
+    "year": 2024,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "师硕"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_1ade04daccf4_0676f54799f4",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_1ade04daccf4",
+    "scholar_name": "师硕",
+    "work_title_group": "c2fb9f0a68e3",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_1ade04daccf4"
+    ],
+    "scholar_names": [
+      "师硕"
+    ],
+    "source_record_ids": [
+      "panorama_1ade04daccf4_0676f54799f4"
+    ],
+    "scholar_categories": {
+      "panorama_1ade04daccf4": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "师硕",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "基于改进ConvMixer和动态焦点损失的视听情感识别. 电子学报",
-      "title_en": "基于改进ConvMixer和动态焦点损失的视听情感识别. 电子学报",
-      "title_zh": "基于改进的ConvMixer和动态焦点损失的视听情感识别。 电子学报",
-      "year": 2024,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "师硕"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_1ade04daccf4_0676f54799f4",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_1ade04daccf4",
-      "scholar_name": "师硕",
-      "work_title_group": "c2fb9f0a68e3",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "b62f3eb485fc9814",
+    "primary_categories_by_scholar": [
+      "师硕：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Deep learning-based EEG emotion recognition: a comprehensive review",
+    "title_en": "Deep learning-based EEG emotion recognition: a comprehensive review",
+    "title_zh": "基于深度学习的脑电情感识别：综合综述",
+    "year": 2024,
+    "venue": "Neural Computing and Applications",
+    "authors": [
+      "Yuxiao Geng",
+      "Shuo Shi",
+      "Xiaoke Hao"
+    ],
+    "doi": "10.1007/s00521-024-10821-y",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1007/s00521-024-10821-y",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4405450233",
+    "openalex_id": "https://openalex.org/W4405450233",
+    "openalex_author_id": "https://openalex.org/A5115494873",
+    "cited_by_count": 52,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [
+      "脑电情感识别",
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5115494873）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_1ade04daccf4_e91d5249c9a62a9a",
+    "global_record_id": "b624e185fc4a2102",
+    "scholar_id": "panorama_1ade04daccf4",
+    "scholar_name": "师硕",
+    "scholar_ids": [
+      "panorama_1ade04daccf4"
+    ],
+    "scholar_names": [
+      "师硕"
+    ],
+    "source_record_ids": [
+      "panorama_1ade04daccf4_e91d5249c9a62a9a"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_1ade04daccf4": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "师硕",
+        "secondary_tags": [
+          "脑电情感识别",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "基于残差网络和粗细粒度的音视频情感识别. 计算机工程与设计",
-      "title_en": "基于残差网络和粗细粒度的音视频情感识别. 计算机工程与设计",
-      "title_zh": "基于差残网络和粗细粒度的音频视频情感识别。 计算机工程与设计",
-      "year": 2023,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "师硕"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_1ade04daccf4_fe416abb13c2",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_1ade04daccf4",
-      "scholar_name": "师硕",
-      "work_title_group": "5dbf4b1d5a21",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "primary_categories_by_scholar": [
+      "师硕：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Deep learning-based EEG emotion recognition: a comprehensive review. Neural Computing and Applications",
+    "title_en": "Deep learning-based EEG emotion recognition: a comprehensive review. Neural Computing and Applications",
+    "title_zh": "基于深度学习的脑电情感识别：综合综述。神经计算与应用",
+    "year": 2024,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "师硕"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "脑电情感识别",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_1ade04daccf4_2ac7b23ccd9c",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_1ade04daccf4",
+    "scholar_name": "师硕",
+    "work_title_group": "8175191a9964",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_1ade04daccf4"
+    ],
+    "scholar_names": [
+      "师硕"
+    ],
+    "source_record_ids": [
+      "panorama_1ade04daccf4_2ac7b23ccd9c"
+    ],
+    "scholar_categories": {
+      "panorama_1ade04daccf4": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "师硕",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Facial expression recognition based on Gabor features of salient patches and ACI-LBP. Journal of Intelligent & Fuzzy Systems",
-      "title_en": "Facial expression recognition based on Gabor features of salient patches and ACI-LBP. Journal of Intelligent & Fuzzy Systems",
-      "title_zh": "基于显着斑块 Gabor 特征和 ACI-LBP 的面部表情识别。智能与模糊系统杂志",
-      "year": 2018,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "师硕"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_1ade04daccf4_e6015e074a53",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_1ade04daccf4",
-      "scholar_name": "师硕",
-      "work_title_group": "adcb2a8eb4f6",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
-    }
-  ]
-}
+    "global_record_id": "f5844940a5a5d930",
+    "primary_categories_by_scholar": [
+      "师硕：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "基于残差网络和粗细粒度的音视频情感识别. 计算机工程与设计",
+    "title_en": "基于残差网络和粗细粒度的音视频情感识别. 计算机工程与设计",
+    "title_zh": "基于残差网络和粗细粒度的音视频情感识别. 计算机工程与设计",
+    "year": 2023,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "师硕"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_1ade04daccf4_fe416abb13c2",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_1ade04daccf4",
+    "scholar_name": "师硕",
+    "work_title_group": "5dbf4b1d5a21",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_1ade04daccf4"
+    ],
+    "scholar_names": [
+      "师硕"
+    ],
+    "source_record_ids": [
+      "panorama_1ade04daccf4_fe416abb13c2"
+    ],
+    "scholar_categories": {
+      "panorama_1ade04daccf4": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "师硕",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "545d2e3a52658e28",
+    "primary_categories_by_scholar": [
+      "师硕：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Multi-template Neuroimaging Feature Selection Using Weight-constrained Low-rank Learning for Alzheimer’s Disease Classification",
+    "title_en": "Multi-template Neuroimaging Feature Selection Using Weight-constrained Low-rank Learning for Alzheimer’s Disease Classification",
+    "title_zh": "使用权重约束低秩学习进行阿尔茨海默病分类的多模板神经影像特征选择",
+    "year": 2021,
+    "venue": "Youth Academic Annual Conference of Chinese Association of Automation (YAC)",
+    "authors": [
+      "Xiaoke Hao",
+      "Qijin An",
+      "Tao Jiang",
+      "Yingchun Guo",
+      "Jie Li",
+      "Shuo Shi",
+      "Ming Yu",
+      "Bing Liu",
+      "Ying Han",
+      "Yong Liu"
+    ],
+    "doi": "10.1109/yac53711.2021.9486487",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/yac53711.2021.9486487",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W3186458915",
+    "openalex_id": "https://openalex.org/W3186458915",
+    "openalex_author_id": "https://openalex.org/A5101561841",
+    "cited_by_count": 1,
+    "abstract_en": "In recent years, much attention has been focused on the diagnosis of neurodegenerative diseases. Some studies use a single template to identify neuroimaging biomarkers for the diagnosis of brain diseases. Compared to traditional single-template based approaches, a multi-template based approach can generally take into account more and richer information and relationships between subjects than a single-template based approach, so it can usually obtain better performance. However, most existing machine learning methods focus on finding the relationship between multiple templates, ignoring subject weights or noise effectiveness in the model building process. In fact, the representations of different subjects registered under multiple templates have different distinguishing discrimination capabilities. To solve this problem, we propose multi-template neuroimaging feature selection using weight-induced low-rank learning (WILL) for early diagnosis of AD. Specifically, we first use the resting-state functional magnetic resonance imaging (rs-fMRI) data to construct brain networks to obtain feature representations based on three different templates. Then, we adopt the WILL method to learn the weight of the subject through low-rank pattern matrix optimization, and select the most useful features for classification. Finally, based on the selected discriminative features, we apply the multi-kernel support vector machine as the classifier to get the result. Experimental results on a large number of data sets show that our proposed method is more accurate than the existing multi-template based methods, which confirms the superiority of our proposed method.",
+    "abstract_zh": "近年来，神经退行性疾病的诊断受到广泛关注。一些研究使用单一模板来识别用于诊断脑部疾病的神经影像生物标志物。与传统的基于单模板的方法相比，基于多模板的方法通常可以比基于单模板的方法考虑更多、更丰富的信息和主题之间的关系，因此通常可以获得更好的性能。然而，现有的机器学习方法大多数侧重于寻找多个模板之间的关系，而忽略了模型构建过程中的主题权重或噪声有效性。事实上，在多个模板下注册的不同主题的表示......",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101561841）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_1ade04daccf4_7827c538c44f3748",
+    "global_record_id": "e76f10e1160cd2f9",
+    "scholar_id": "panorama_1ade04daccf4",
+    "scholar_name": "师硕",
+    "scholar_ids": [
+      "panorama_1ade04daccf4"
+    ],
+    "scholar_names": [
+      "师硕"
+    ],
+    "source_record_ids": [
+      "panorama_1ade04daccf4_7827c538c44f3748"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_1ade04daccf4": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "师硕",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "师硕：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Facial expression recognition based on Gabor features of salient patches and ACI-LBP. Journal of Intelligent & Fuzzy Systems",
+    "title_en": "Facial expression recognition based on Gabor features of salient patches and ACI-LBP. Journal of Intelligent & Fuzzy Systems",
+    "title_zh": "基于显着斑块 Gabor 特征和 ACI-LBP 的面部表情识别。智能与模糊系统杂志",
+    "year": 2018,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "师硕"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_1ade04daccf4_e6015e074a53",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_1ade04daccf4",
+    "scholar_name": "师硕",
+    "work_title_group": "adcb2a8eb4f6",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_1ade04daccf4"
+    ],
+    "scholar_names": [
+      "师硕"
+    ],
+    "source_record_ids": [
+      "panorama_1ade04daccf4_e6015e074a53"
+    ],
+    "scholar_categories": {
+      "panorama_1ade04daccf4": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "师硕",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "2c365fe1dbe5488d",
+    "primary_categories_by_scholar": [
+      "师硕：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Facial expression recognition based on Gabor features of salient patches and ACI-LBP",
+    "title_en": "Facial expression recognition based on Gabor features of salient patches and ACI-LBP",
+    "title_zh": "基于显着斑块Gabor特征和ACI-LBP的面部表情识别",
+    "year": 2018,
+    "venue": "Journal of Intelligent & Fuzzy Systems",
+    "authors": [
+      "Shuo Shi",
+      "Haoqiang Si",
+      "Jiaomin Liu",
+      "Yi Liu"
+    ],
+    "doi": "10.3233/jifs-17422",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.3233/jifs-17422",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2798692156",
+    "openalex_id": "https://openalex.org/W2798692156",
+    "openalex_author_id": "https://openalex.org/A5101561841",
+    "cited_by_count": 7,
+    "abstract_en": "Texture features of the salient patches are closely related to the facial expression recognition on face images. To obtain these features, we applied the Gabor wavelets to extract the relevant values on the whole-face and important regions such as the eyes, nose, and mouth of the face, and assigned different weights to them with respect to their different recognition effectiveness. Since the LBP operator is largely dependent on the center pixel and is easily to be affected by the lighting conditions, an Around Center Instable Local Binary Pattern (ACI-LBP) operator is applied in this research. The technique takes consideration of the relationship between the center point and the adjacent points, thus extends the representations of the fetures in the local region and is more robust to noise and illumination. To get the ACI-LBP, the LBP value is calculated first, then the Near Local Binary Pattern (N-LBP) value is calculated based on the distance between each pixel point and its neighborhood points in clockwise direction. The inconsistent values of LBP and N-LBP in corresponding positions are calculated in terms of their absolute values. In addition, a multi-scale histogram statistics method is adopted in the ACI-LBP extraction. Finally, the two parts features, Gabor and ACI-LBP, are merged as an integrated feature vector to classify and recognize the facial expression. Experimental results based on the JAFFE and CK facial databases show that the method can effectively improve the recognition accuracy of the facial expression recognition.",
+    "abstract_zh": "显着斑块的纹理特征与人脸图像上的面部表情识别密切相关。为了获得这些特征，我们应用Gabor小波提取整个脸部以及脸部的眼睛、鼻子和嘴巴等重要区域的相关值，并根据其不同的识别效果为其分配不同的权重。由于LBP算子很大程度上依赖于中心像素并且容易受到光照条件的影响，因此本研究中采用了围绕中心不稳定局部二值模式（ACI-LBP）算子。该技术考虑了中心点和相邻点之间的关系，从而扩展了特征的表示...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101561841）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_1ade04daccf4_742ccbc37f8729dd",
+    "global_record_id": "e9518f6523ccd929",
+    "scholar_id": "panorama_1ade04daccf4",
+    "scholar_name": "师硕",
+    "scholar_ids": [
+      "panorama_1ade04daccf4"
+    ],
+    "scholar_names": [
+      "师硕"
+    ],
+    "source_record_ids": [
+      "panorama_1ade04daccf4_742ccbc37f8729dd"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_1ade04daccf4": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "师硕",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "师硕：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "The recognition of traffic speed limit sign in hazy weather",
+    "title_en": "The recognition of traffic speed limit sign in hazy weather",
+    "title_zh": "雾霾天气交通限速标志识别",
+    "year": 2017,
+    "venue": "Journal of Intelligent & Fuzzy Systems",
+    "authors": [
+      "Gang Yan",
+      "Ming Zhen Yu",
+      "Shuo Shi",
+      "Chao Feng"
+    ],
+    "doi": "10.3233/jifs-162138",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.3233/jifs-162138",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2735623664",
+    "openalex_id": "https://openalex.org/W2735623664",
+    "openalex_author_id": "https://openalex.org/A5101561841",
+    "cited_by_count": 14,
+    "abstract_en": "Hazy weather affects drivers’ sightline seriously and causes a high potential safety hazard. This paper proposes a novel approach for recognizing the speed limit sign in hazy weather. It consists of three major modules: haze removal, speed limit sign location, and sign recognition. In haze removal, this paper proposes to dehaze image with the dark channel prior. The speed limit sign is located by Histogram of Oriented Gradient (HOG) feature extraction and Support Vector Machine (SVM) classification and is recognized by the seven layers Convolutional Neural Networks (CNN). Experimental results show that the proposed method has better performance than the state-of-art dehazing methods and the processing time is also reduced. The recognition rate of the speed limit signs is 98.51% that is better than the human performance, and the classifier can recognize the speed limit sign with rotation, shift, scale and other distortions.",
+    "abstract_zh": "雾霾天气严重影响驾驶员视线，安全隐患较大。本文提出了一种在雾霾天气下识别限速标志的新方法。它由三大模块组成：除雾、限速标志定位、标志识别。在去雾方面，本文提出利用暗通道先验对图像进行去雾。限速标志通过定向梯度直方图（HOG）特征提取和支持向量机（SVM）分类进行定位，并由七层卷积神经网络（CNN）识别。实验结果表明，所提出的方法比最先进的去雾方法具有更好的性能，并且处理时间也减少了。认可度...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101561841）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_1ade04daccf4_0347a3f70df810bd",
+    "global_record_id": "cd1b3cb65ecb17b2",
+    "scholar_id": "panorama_1ade04daccf4",
+    "scholar_name": "师硕",
+    "scholar_ids": [
+      "panorama_1ade04daccf4"
+    ],
+    "scholar_names": [
+      "师硕"
+    ],
+    "source_record_ids": [
+      "panorama_1ade04daccf4_0347a3f70df810bd"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_1ade04daccf4": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "师硕",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "师硕：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Improved Scheme on SIFT Image Matching Efficiency",
+    "title_en": "Improved Scheme on SIFT Image Matching Efficiency",
+    "title_zh": "SIFT图像匹配效率改进方案",
+    "year": 2013,
+    "venue": "Lecture notes in electrical engineering",
+    "authors": [
+      "Shuo Shi",
+      "Ming Yu",
+      "Gang Yan",
+      "Liu-Yan Yu"
+    ],
+    "doi": "10.1007/978-3-642-40618-8_101",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1007/978-3-642-40618-8_101",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2487386329",
+    "openalex_id": "https://openalex.org/W2487386329",
+    "openalex_author_id": "https://openalex.org/A5101561841",
+    "cited_by_count": 3,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101561841）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_1ade04daccf4_5e512341950adc45",
+    "global_record_id": "089a3dca22496684",
+    "scholar_id": "panorama_1ade04daccf4",
+    "scholar_name": "师硕",
+    "scholar_ids": [
+      "panorama_1ade04daccf4"
+    ],
+    "scholar_names": [
+      "师硕"
+    ],
+    "source_record_ids": [
+      "panorama_1ade04daccf4_5e512341950adc45"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_1ade04daccf4": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "师硕",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "师硕：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "The Application of SIFT Algorithm in Blind Road Environmental Image Matching",
+    "title_en": "The Application of SIFT Algorithm in Blind Road Environmental Image Matching",
+    "title_zh": "SIFT算法在盲道环境图像匹配中的应用",
+    "year": 2012,
+    "venue": "Applied Mechanics and Materials",
+    "authors": [
+      "Shuo Shi",
+      "Ming Yu",
+      "Cuihong Xue",
+      "Ying Zhou"
+    ],
+    "doi": "10.4028/www.scientific.net/amm.155-156.1137",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.4028/www.scientific.net/amm.155-156.1137",
+    "pdf_url": "https://doi.org/10.4028/www.scientific.net/amm.155-156.1137",
+    "source_url": "https://openalex.org/W1981470617",
+    "openalex_id": "https://openalex.org/W1981470617",
+    "openalex_author_id": "https://openalex.org/A5101561841",
+    "cited_by_count": 1,
+    "abstract_en": "Image Matching is a key technology in the intelligent navigation system for the blind, which is based on the computer video. The images of moving blind people, collected at real time, have variety of changes in light, rotation, scaling, etc. Against this feature, we propose a practical matching algorithm, which is based on the SIFT (Scale Invariant, Feature Transform). That is the image matching algorithm. We focus on the algorithm of the SIFT feature extraction and matching, and obtain the feature points of the image through feature extraction algorithm. We verify the effect of the algorithm by selecting practical images with rotation, scaling and different light. The result is that this method can get better matches for the blind road environmental image.",
+    "abstract_zh": "图像匹配是基于计算机视频的盲人智能导航系统的一项关键技术。实时采集的移动盲人图像具有光线、旋转、缩放等多种变化。针对这一特点，我们提出了一种基于SIFT（尺度不变，特征变换）的实用匹配算法。这就是图像匹配算法。我们重点研究了SIFT特征提取和匹配算法，通过特征提取算法获得图像的特征点。我们通过选择具有旋转、缩放和不同光照的实际图像来验证算法的效果。结果是该方法能够更好地匹配盲道环境...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101561841）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_1ade04daccf4_08dc2df2f9f76c06",
+    "global_record_id": "dbc0da4a1bb32e97",
+    "scholar_id": "panorama_1ade04daccf4",
+    "scholar_name": "师硕",
+    "scholar_ids": [
+      "panorama_1ade04daccf4"
+    ],
+    "scholar_names": [
+      "师硕"
+    ],
+    "source_record_ids": [
+      "panorama_1ade04daccf4_08dc2df2f9f76c06"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_1ade04daccf4": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "师硕",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "师硕：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Controllable Arbitrary Integer Frequency Divider Based on VHDL",
+    "title_en": "Controllable Arbitrary Integer Frequency Divider Based on VHDL",
+    "title_zh": "基于VHDL的可控任意整数分频器",
+    "year": 2009,
+    "venue": "International Joint Conference on Artificial Intelligence (JCAI)",
+    "authors": [
+      "Hongli Tian",
+      "Shuo Shi",
+      "Jun Zhang",
+      "Hongdong Zhao"
+    ],
+    "doi": "10.1109/jcai.2009.62",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/jcai.2009.62",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2118244411",
+    "openalex_id": "https://openalex.org/W2118244411",
+    "openalex_author_id": "https://openalex.org/A5101561841",
+    "cited_by_count": 1,
+    "abstract_en": "The key technique for the design of a frequency divider is to find a function between the input and output. In general, the design process and circuit of a frequency divider is complicated, modification and transplantation for it is difficult. A creative design method of CAIFD (Controllable Arbitrary Integer Frequency Divider) is presented in this paper, which uses the VHDL (VHSIC Hardware Description Language ) source code to synthesize a FPGA (Field Programmable Gate Array) or a CPLD (Complex Programmable Logic Device) circuit that produces a 50% duty cycle n (n is a integer and n>0 ) controllable waveform. In order to validate the design method, CAIFD which has different frequency coefficients is simulated in device of ALTERA Corporation's EP2S15F484C3. Results of the experiment shows that modification and transplantation of CAIFD is easy, moreover the performance is steady and reliable.",
+    "abstract_zh": "分频器设计的关键技术是找到输入和输出之间的函数。一般来说，分频器的设计过程和电路比较复杂，修改和移植比较困难。本文提出了一种创造性的CAIFD（可控任意整数分频器）设计方法，利用VHDL（VHSIC硬件描述语言）源代码合成FPGA（现场可编程门阵列）或CPLD（复杂可编程逻辑器件）电路，产生50%占空比n（n为整数且n>0）的可控波形。为了验证设计方法，在ALTERA公司的装置上对具有不同频率系数的CAIFD进行了仿真...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "智能芯片与计算系统"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101561841）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_1ade04daccf4_70d6daafe82bea91",
+    "global_record_id": "73b277ec9f792015",
+    "scholar_id": "panorama_1ade04daccf4",
+    "scholar_name": "师硕",
+    "scholar_ids": [
+      "panorama_1ade04daccf4"
+    ],
+    "scholar_names": [
+      "师硕"
+    ],
+    "source_record_ids": [
+      "panorama_1ade04daccf4_70d6daafe82bea91"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_1ade04daccf4": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "师硕",
+        "secondary_tags": [
+          "智能芯片与计算系统"
+        ],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "师硕：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Design of Intelligent Traffic Light Controller Based on VHDL",
+    "title_en": "Design of Intelligent Traffic Light Controller Based on VHDL",
+    "title_zh": "基于VHDL的智能交通灯控制器设计",
+    "year": 2009,
+    "venue": "Workshop on Knowledge Discovery and Data Mining",
+    "authors": [
+      "Shuo Shi",
+      "Hongli Tian",
+      "Yandong Zhai"
+    ],
+    "doi": "10.1109/wkdd.2009.19",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/wkdd.2009.19",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2108329507",
+    "openalex_id": "https://openalex.org/W2108329507",
+    "openalex_author_id": "https://openalex.org/A5101561841",
+    "cited_by_count": 10,
+    "abstract_en": "According to the different branches of citypsilas intersections and the traffic flow at different times, the program of intelligent traffic light controller based on VHDL is given and simulated by Quartus II by using hierarchical design thought. The simulation results show that the intelligent traffic light controller can realize the transition of 2-phase, 3-phase and 4-phase based on actual situations. The adaptability and applicability of the system can be strengthened by changing the phase.",
+    "abstract_zh": "根据城市交叉口的不同分支和不同时段的交通流量，采用分层设计思想，给出了基于VHDL的智能交通灯控制器程序，并利用Quartus II进行了仿真。仿真结果表明，智能交通灯控制器可以根据实际情况实现2相、3相、4相的转换。通过改变相位可以增强系统的适应性和适用性。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101561841）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_1ade04daccf4_708161f12e415282",
+    "global_record_id": "310b18fddf15ad36",
+    "scholar_id": "panorama_1ade04daccf4",
+    "scholar_name": "师硕",
+    "scholar_ids": [
+      "panorama_1ade04daccf4"
+    ],
+    "scholar_names": [
+      "师硕"
+    ],
+    "source_record_ids": [
+      "panorama_1ade04daccf4_708161f12e415282"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_1ade04daccf4": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "师硕",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "师硕：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  }
+]

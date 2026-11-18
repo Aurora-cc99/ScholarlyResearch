@@ -11,7 +11,6 @@
     "author_relation": "主题筛选候选记录",
     "related_paper_titles": [],
     "evidence_urls": [
-      "https://sunlicai.github.io/",
       "https://sunlicai.github.io/"
     ],
     "verification": "候选来源；未执行下载或训练",
@@ -27,5 +26,237 @@
     "unmatched_titles": [],
     "scholar_category_ids": [],
     "primary_categories": []
+  },
+  {
+    "id": "licai_sun__auto_code_9d1f4b8a7a",
+    "name": "ITEACH-Net: Inverted teacher-student search network for emotion recognition in conversation — 开源代码 (Shy-98/ITEACH-Net)",
+    "name_zh": "ITEACH-Net：用于对话中情感识别的反向师生搜索网络 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/Shy-98/ITEACH-Net",
+    "download_url": "https://github.com/Shy-98/ITEACH-Net",
+    "access": "public",
+    "related_paper_titles": [
+      "ITEACH-Net: Inverted teacher-student search network for emotion recognition in conversation"
+    ],
+    "related_paper_titles_zh": [
+      "ITEACH-Net：用于对话中情感识别的反向师生搜索网络"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/Shy-98/ITEACH-Net",
+      "https://doi.org/10.1016/j.artint.2026.104643"
+    ],
+    "description": "从论文《ITEACH-Net: Inverted teacher-student search network for emotion recognition in conversation》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "licai_sun",
+    "scholar_name": "孙立才",
+    "matched_paper_ids": [
+      "licai_sun_ebe0e5a8daf1"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "licai_sun::emotion_understanding",
+      "zheng_lian::eeg_benchmark",
+      "jianhua_tao::eeg_affect"
+    ],
+    "primary_categories": [
+      "孙立才：情感理解与多模态推理",
+      "连政：脑电基准、数据与评测",
+      "陶建华：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "licai_sun__auto_code_ea62be1830",
+    "name": "GPT-4V with emotion: A zero-shot benchmark for Generalized Emotion Recognition — 开源代码 (zeroQiaoba/gpt4v-emotion)",
+    "name_zh": "带有情感的GPT-4V：广义情感识别的零样本基准 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/zeroQiaoba/gpt4v-emotion",
+    "download_url": "https://github.com/zeroQiaoba/gpt4v-emotion",
+    "access": "public",
+    "related_paper_titles": [
+      "GPT-4V with emotion: A zero-shot benchmark for Generalized Emotion Recognition",
+      "GPT-4V with Emotion: A Zero-shot Benchmark for Multimodal Emotion Understanding"
+    ],
+    "related_paper_titles_zh": [
+      "带有情感的GPT-4V：广义情感识别的零样本基准"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/zeroQiaoba/gpt4v-emotion",
+      "https://doi.org/10.1016/j.inffus.2024.102367"
+    ],
+    "description": "从论文《GPT-4V with emotion: A zero-shot benchmark for Generalized Emotion Recognition》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "licai_sun",
+    "scholar_name": "孙立才",
+    "matched_paper_ids": [
+      "licai_sun_0da05f3d2a0e",
+      "licai_sun_7184ea40c0c419bb"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "licai_sun::emotion_benchmark",
+      "zheng_lian::eeg_benchmark",
+      "jianhua_tao::eeg_benchmark",
+      "zheng_lian::eeg_affect",
+      "jianhua_tao::eeg_affect"
+    ],
+    "primary_categories": [
+      "孙立才：情感数据集、基准与评测",
+      "连政：脑电基准、数据与评测",
+      "陶建华：脑电基准、数据与评测",
+      "连政：情感脑电与多模态生理信号",
+      "陶建华：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "licai_sun__auto_code_5f994c0678",
+    "name": "HiCMAE: Hierarchical Contrastive Masked Autoencoder for self-supervised Audio-Visual Emotion Recognition — 开源代码 (sunlicai/HiCMAE)",
+    "name_zh": "HiCMAE：用于自监督视听情感识别的分层对比屏蔽自动编码器 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/sunlicai/HiCMAE",
+    "download_url": "https://github.com/sunlicai/HiCMAE",
+    "access": "public",
+    "related_paper_titles": [
+      "HiCMAE: Hierarchical Contrastive Masked Autoencoder for self-supervised Audio-Visual Emotion Recognition"
+    ],
+    "related_paper_titles_zh": [
+      "HiCMAE：用于自监督视听情感识别的分层对比屏蔽自动编码器"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/sunlicai/HiCMAE",
+      "https://doi.org/10.1016/j.inffus.2024.102382"
+    ],
+    "description": "从论文《HiCMAE: Hierarchical Contrastive Masked Autoencoder for self-supervised Audio-Visual Emotion Recognition》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "licai_sun",
+    "scholar_name": "孙立才",
+    "matched_paper_ids": [
+      "licai_sun_c2144f2a8dc8"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "licai_sun::emotion_understanding",
+      "zheng_lian::eeg_benchmark",
+      "jianhua_tao::eeg_affect"
+    ],
+    "primary_categories": [
+      "孙立才：情感理解与多模态推理",
+      "连政：脑电基准、数据与评测",
+      "陶建华：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "licai_sun__auto_code_76aef48cd7",
+    "name": "MAE-DFER: Efficient Masked Autoencoder for Self-supervised Dynamic Facial Expression Recognition — 开源代码 (sunlicai/MAE-DFER)",
+    "name_zh": "MAE-DFER：用于自监督动态面部表情识别的高效掩码自动编码器 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/sunlicai/MAE-DFER",
+    "download_url": "https://github.com/sunlicai/MAE-DFER",
+    "access": "public",
+    "related_paper_titles": [
+      "MAE-DFER: Efficient Masked Autoencoder for Self-supervised Dynamic Facial Expression Recognition"
+    ],
+    "related_paper_titles_zh": [
+      "MAE-DFER：用于自监督动态面部表情识别的高效掩码自动编码器"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/sunlicai/MAE-DFER",
+      "https://doi.org/10.1145/3581783.3612365"
+    ],
+    "description": "从论文《MAE-DFER: Efficient Masked Autoencoder for Self-supervised Dynamic Facial Expression Recognition》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "licai_sun",
+    "scholar_name": "孙立才",
+    "matched_paper_ids": [
+      "licai_sun_f849ab8daedb"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "licai_sun::emotion_understanding",
+      "zheng_lian::eeg_benchmark",
+      "jianhua_tao::eeg_affect"
+    ],
+    "primary_categories": [
+      "孙立才：情感理解与多模态推理",
+      "连政：脑电基准、数据与评测",
+      "陶建华：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "licai_sun__auto_code_d6b7dd0de3",
+    "name": "MagicPortrait: Temporally Consistent Face Reenactment with 3D Geometric Guidance — 开源代码 (weimengting/MagicPortrait)",
+    "name_zh": "MagicPortrait: Temporally Consistent Face Reenactment with 3D Geometric Guidance — 开源代码",
+    "type": "code",
+    "url": "https://github.com/weimengting/MagicPortrait",
+    "download_url": "https://github.com/weimengting/MagicPortrait",
+    "access": "public",
+    "related_paper_titles": [
+      "MagicPortrait: Temporally Consistent Face Reenactment with 3D Geometric Guidance"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/weimengting/MagicPortrait",
+      "https://doi.org/10.48550/ARXIV.2504.21497"
+    ],
+    "description": "从论文《MagicPortrait: Temporally Consistent Face Reenactment with 3D Geometric Guidance》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "licai_sun",
+    "scholar_name": "孙立才",
+    "matched_paper_ids": [
+      "licai_sun_bd19300c7670cfe2"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "licai_sun::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "孙立才：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "licai_sun__auto_code_9255175900",
+    "name": "ARNet: Automatic Refinement Network for Noisy Partial Label Learning — 开源代码 (zeroQiaoba/IRNet)",
+    "name_zh": "ARNet: Automatic Refinement Network for Noisy Partial Label Learning — 开源代码",
+    "type": "code",
+    "url": "https://github.com/zeroQiaoba/IRNet",
+    "download_url": "https://github.com/zeroQiaoba/IRNet",
+    "access": "public",
+    "related_paper_titles": [
+      "ARNet: Automatic Refinement Network for Noisy Partial Label Learning"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/zeroQiaoba/IRNet",
+      "https://doi.org/10.48550/ARXIV.2211.04774"
+    ],
+    "description": "从论文《ARNet: Automatic Refinement Network for Noisy Partial Label Learning》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "licai_sun",
+    "scholar_name": "孙立才",
+    "matched_paper_ids": [
+      "licai_sun_c77cd03151c89c9f"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "licai_sun::emotion_benchmark",
+      "zheng_lian::eeg_benchmark",
+      "jianhua_tao::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "孙立才：情感数据集、基准与评测",
+      "连政：脑电基准、数据与评测",
+      "陶建华：脑电基准、数据与评测"
+    ]
   }
 ]

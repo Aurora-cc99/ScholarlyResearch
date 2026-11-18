@@ -1,1 +1,175 @@
-[]
+[
+  {
+    "id": "dezhong_yao__auto_dataset_4f6f64bca5",
+    "name": "DECAN: A Denoising Encoder via Contrastive Alignment Network for Dry Electrode EEG Emotion Recognition — 开源数据集 (peiyu999/PaDWEED)",
+    "name_zh": "DECAN：通过对比对齐网络进行干电极脑电图情绪识别的去噪编码器 — 开源数据集",
+    "type": "dataset",
+    "url": "https://huggingface.co/datasets/peiyu999/PaDWEED",
+    "download_url": "https://huggingface.co/datasets/peiyu999/PaDWEED",
+    "access": "public",
+    "related_paper_titles": [
+      "DECAN: A Denoising Encoder via Contrastive Alignment Network for Dry Electrode EEG Emotion Recognition"
+    ],
+    "related_paper_titles_zh": [
+      "DECAN：通过对比对齐网络进行干电极脑电图情绪识别的去噪编码器"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://huggingface.co/datasets/peiyu999/PaDWEED",
+      "https://doi.org/10.48550/ARXIV.2409.03976"
+    ],
+    "description": "从论文《DECAN: A Denoising Encoder via Contrastive Alignment Network for Dry Electrode EEG Emotion Recognition》原始摘要/预印本说明自动提取并核验的公开 dataset 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "dezhong_yao",
+    "scholar_name": "尧德中",
+    "matched_paper_ids": [
+      "dezhong_yao_3094919c2ddd"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "dezhong_yao::eeg_affect"
+    ],
+    "primary_categories": [
+      "尧德中：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "dezhong_yao__auto_code_06fea9c66d",
+    "name": "Temporal Dynamic Synchronous Functional Brain Network for Schizophrenia Diagnosis and Lateralization Analysis — 开源代码 (swfen/Temporal-BCGCN)",
+    "name_zh": "用于精神分裂症诊断和偏侧化分析的时间动态同步功能脑网络 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/swfen/Temporal-BCGCN",
+    "download_url": "https://github.com/swfen/Temporal-BCGCN",
+    "access": "public",
+    "related_paper_titles": [
+      "Temporal Dynamic Synchronous Functional Brain Network for Schizophrenia Diagnosis and Lateralization Analysis",
+      "Temporal Dynamic Synchronous Functional Brain Network for Schizophrenia Classification and Lateralization Analysis"
+    ],
+    "related_paper_titles_zh": [
+      "用于精神分裂症诊断和偏侧化分析的时间动态同步功能脑网络"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/swfen/Temporal-BCGCN",
+      "https://doi.org/10.48550/ARXIV.2304.01347"
+    ],
+    "description": "从论文《Temporal Dynamic Synchronous Functional Brain Network for Schizophrenia Diagnosis and Lateralization Analysis》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "dezhong_yao",
+    "scholar_name": "尧德中",
+    "matched_paper_ids": [
+      "dezhong_yao_524864ad767a",
+      "dezhong_yao_b82398289e7927e0"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "dezhong_yao::eeg_affect",
+      "dezhong_yao::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "尧德中：情感脑电与多模态生理信号",
+      "尧德中：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "dezhong_yao__auto_code_787926a175",
+    "name": "An Interpretable Functional-Dynamic Synaptic Graph Neural Network for Major Depressive Disorder Diagnosis from rs-fMRI — 开源代码 (ZHChen-294/FDSyn-GNN)",
+    "name_zh": "An Interpretable Functional-Dynamic Synaptic Graph Neural Network for Major Depressive Disorder Diagnosis from rs-fMRI — 开源代码",
+    "type": "code",
+    "url": "https://github.com/ZHChen-294/FDSyn-GNN",
+    "download_url": "https://github.com/ZHChen-294/FDSyn-GNN",
+    "access": "public",
+    "related_paper_titles": [
+      "An Interpretable Functional-Dynamic Synaptic Graph Neural Network for Major Depressive Disorder Diagnosis from rs-fMRI"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/ZHChen-294/FDSyn-GNN",
+      "https://doi.org/10.1142/S0129065726500243"
+    ],
+    "description": "从论文《An Interpretable Functional-Dynamic Synaptic Graph Neural Network for Major Depressive Disorder Diagnosis from rs-fMRI》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "dezhong_yao",
+    "scholar_name": "尧德中",
+    "matched_paper_ids": [
+      "dezhong_yao_1a711f048471e895"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "dezhong_yao::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "尧德中：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "dezhong_yao__auto_code_3571be9d55",
+    "name": "NeuroSparse: An Unsupervised Framework for Inferring Brain Connectivity in Autism Diagnosis — 开源代码 (yangshuqigit/NeuroSparse)",
+    "name_zh": "NeuroSparse: An Unsupervised Framework for Inferring Brain Connectivity in Autism Diagnosis — 开源代码",
+    "type": "code",
+    "url": "https://github.com/yangshuqigit/NeuroSparse",
+    "download_url": "https://github.com/yangshuqigit/NeuroSparse",
+    "access": "public",
+    "related_paper_titles": [
+      "NeuroSparse: An Unsupervised Framework for Inferring Brain Connectivity in Autism Diagnosis"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/yangshuqigit/NeuroSparse",
+      "https://doi.org/10.1109/BIBM62325.2024.10822395"
+    ],
+    "description": "从论文《NeuroSparse: An Unsupervised Framework for Inferring Brain Connectivity in Autism Diagnosis》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "dezhong_yao",
+    "scholar_name": "尧德中",
+    "matched_paper_ids": [
+      "dezhong_yao_75a31d2b7827f2a3"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "dezhong_yao::eeg_affect"
+    ],
+    "primary_categories": [
+      "尧德中：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "dezhong_yao__auto_code_7e0c85827c",
+    "name": "DRT: A new toolbox for the Standard EEG Data Structure in large-scale EEG applications — 开源代码 (WeCloudHub/DRT)",
+    "name_zh": "DRT: A new toolbox for the Standard EEG Data Structure in large-scale EEG applications — 开源代码",
+    "type": "code",
+    "url": "https://github.com/WeCloudHub/DRT",
+    "download_url": "https://github.com/WeCloudHub/DRT",
+    "access": "public",
+    "related_paper_titles": [
+      "DRT: A new toolbox for the Standard EEG Data Structure in large-scale EEG applications"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/WeCloudHub/DRT",
+      "https://doi.org/10.1016/J.SOFTX.2021.100933"
+    ],
+    "description": "从论文《DRT: A new toolbox for the Standard EEG Data Structure in large-scale EEG applications》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "dezhong_yao",
+    "scholar_name": "尧德中",
+    "matched_paper_ids": [
+      "dezhong_yao_25f65edf19d8a884"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "dezhong_yao::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "尧德中：脑电基准、数据与评测"
+    ]
+  }
+]

@@ -9,7 +9,9 @@
     "access": "以原始项目页面为准",
     "description": "候选学者主题资源入口",
     "author_relation": "主题筛选候选记录",
-    "related_paper_titles": [],
+    "related_paper_titles": [
+      "MetaBCI: An open-source platform for brain-computer interfaces"
+    ],
     "evidence_urls": [
       "https://github.com/TBC-TJU/MetaBCI",
       "https://mstu.tju.edu.cn/info/1193/4237.htm",
@@ -27,9 +29,54 @@
       "作者/机构主页",
       "项目主页/资源说明"
     ],
-    "matched_paper_ids": [],
+    "matched_paper_ids": [
+      "minpeng_xu_aa54e0d1b443"
+    ],
     "unmatched_titles": [],
-    "scholar_category_ids": [],
-    "primary_categories": []
+    "scholar_category_ids": [
+      "minpeng_xu::eeg_affect",
+      "ming_dong::eeg_foundation"
+    ],
+    "primary_categories": [
+      "许敏鹏：情感脑电与多模态生理信号",
+      "明东：脑电基础模型与通用解码"
+    ]
+  },
+  {
+    "id": "minpeng_xu__auto_code_f596651f0e",
+    "name": "Enhancing motor imagery EEG classification with a Riemannian geometry-based spatial filtering (RSF) method — 开源代码 (PLC-TJU/RSF)",
+    "name_zh": "使用基于黎曼几何的空间滤波（RSF）方法增强运动想象脑电图分类。 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/PLC-TJU/RSF",
+    "download_url": "https://github.com/PLC-TJU/RSF",
+    "access": "public",
+    "related_paper_titles": [
+      "Enhancing motor imagery EEG classification with a Riemannian geometry-based spatial filtering (RSF) method"
+    ],
+    "related_paper_titles_zh": [
+      "使用基于黎曼几何的空间滤波（RSF）方法增强运动想象脑电图分类。"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/PLC-TJU/RSF",
+      "https://doi.org/10.1016/j.neunet.2025.107511"
+    ],
+    "description": "从论文《Enhancing motor imagery EEG classification with a Riemannian geometry-based spatial filtering (RSF) method》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "minpeng_xu",
+    "scholar_name": "许敏鹏",
+    "matched_paper_ids": [
+      "minpeng_xu_ec025f1a7849"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "minpeng_xu::eeg_affect",
+      "ming_dong::eeg_affect"
+    ],
+    "primary_categories": [
+      "许敏鹏：情感脑电与多模态生理信号",
+      "明东：情感脑电与多模态生理信号"
+    ]
   }
 ]

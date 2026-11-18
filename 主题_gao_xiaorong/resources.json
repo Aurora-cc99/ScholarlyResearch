@@ -1,1 +1,76 @@
-[]
+[
+  {
+    "id": "gao_xiaorong__auto_code_ac6f1c1385",
+    "name": "Recognizing Natural Images From EEG With Language-Guided Contrastive Learning — 开源代码 (eeyhsong/NICE-LLM)",
+    "name_zh": "用语言引导的脑电图识别自然图像对比学习 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/eeyhsong/NICE-LLM",
+    "download_url": "https://github.com/eeyhsong/NICE-LLM",
+    "access": "public",
+    "related_paper_titles": [
+      "Recognizing Natural Images From EEG With Language-Guided Contrastive Learning"
+    ],
+    "related_paper_titles_zh": [
+      "用语言引导的脑电图识别自然图像对比学习"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/eeyhsong/NICE-LLM",
+      "https://doi.org/10.1109/tnnls.2025.3562743"
+    ],
+    "description": "从论文《Recognizing Natural Images From EEG With Language-Guided Contrastive Learning》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "gao_xiaorong",
+    "scholar_name": "高小榕",
+    "matched_paper_ids": [
+      "gao_xiaorong_7c09f1836ade"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "gao_xiaorong::eeg_affect",
+      "wang_yijun::eeg_affect",
+      "huiguang_he::eeg_affect"
+    ],
+    "primary_categories": [
+      "高小榕：情感脑电与多模态生理信号",
+      "王毅军：情感脑电与多模态生理信号",
+      "何晖光：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "gao_xiaorong__auto_code_21dbdf2a34",
+    "name": "EEG Conformer: Convolutional Transformer for EEG Decoding and Visualization — 开源代码 (eeyhsong/EEG-Conformer)",
+    "name_zh": "EEG Conformer：用于脑电解码与可视化的卷积Transformer — 开源代码",
+    "type": "code",
+    "url": "https://github.com/eeyhsong/EEG-Conformer",
+    "download_url": "https://github.com/eeyhsong/EEG-Conformer",
+    "access": "public",
+    "related_paper_titles": [
+      "EEG Conformer: Convolutional Transformer for EEG Decoding and Visualization"
+    ],
+    "related_paper_titles_zh": [
+      "EEG Conformer：用于脑电解码与可视化的卷积Transformer"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/eeyhsong/EEG-Conformer",
+      "https://doi.org/10.1109/tnsre.2022.3230250"
+    ],
+    "description": "从论文《EEG Conformer: Convolutional Transformer for EEG Decoding and Visualization》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "gao_xiaorong",
+    "scholar_name": "高小榕",
+    "matched_paper_ids": [
+      "gao_xiaorong_c21038a510c7"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "gao_xiaorong::eeg_affect"
+    ],
+    "primary_categories": [
+      "高小榕：情感脑电与多模态生理信号"
+    ]
+  }
+]

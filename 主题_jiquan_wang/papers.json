@@ -1,1612 +1,2977 @@
-{
-  "scholar": {
-    "name_zh": "王继权",
-    "name_en": "Jiquan Wang",
-    "affiliation": "浙江大学脑机智能全国重点实验室/CBraMod团队",
-    "identity_sources": [
-      "https://mlanthology.org/iclr/2025/wang2025iclr-cbramod/",
-      "https://github.com/wjq-learning/CBraMod"
+[
+  {
+    "title": "Tuning the Mind: Closed-loop Emotion Regulation via AIGC Music Driven by Wearable Multimodal Neurofeedback",
+    "year": 2026,
+    "venue": "IEEE Transactions on Affective Computing (Early Access)",
+    "authors": [
+      "Sha Zhao",
+      "Song Yi",
+      "Yangxuan Zhou",
+      "Jiadong Pan",
+      "Jiquan Wang",
+      "Jie Xia",
+      "Shijian Li",
+      "Shurong Dong",
+      "Gang Pan"
     ],
-    "official_homepages": [
-      "https://mlanthology.org/iclr/2025/wang2025iclr-cbramod/",
-      "https://github.com/wjq-learning/CBraMod"
+    "doi": "10.1109/TAFFC.2026.3679522",
+    "paper_url": "https://doi.org/10.1109/TAFFC.2026.3679522",
+    "pdf_url": "",
+    "dblp_key": "",
+    "source_url": "https://doi.org/10.1109/TAFFC.2026.3679522",
+    "topics": [
+      "情感/心理/临床",
+      "普适计算/可穿戴",
+      "情感计算与情绪理解",
+      "多模态与大语言模型"
     ],
-    "coverage": {
-      "scope": "2025–2026主题筛选与全量书目扩展",
-      "status": "已在现有潘纲资源范围内-补充作者档案",
-      "coverage_status": "作者作品集/论文包已扩展；仍需身份消歧与覆盖审计",
-      "available_record_count": 26,
-      "bulk_source_record_count": 25,
-      "themes": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ]
-    },
-    "coverage_notes": "该目录与五位基线学者使用同一论文/资源/分类输出契约。‘可用记录数’表示本轮已取得并保留的书目，不等于未经消歧的个人终身全集；身份待核验、论文团队和同名风险见候选筛选证据。",
-    "id": "jiquan_wang",
-    "folder": "主题_jiquan_wang",
-    "classification": {
-      "method": "按题名及现有项目、资源说明进行主题粗分，用于阅读导航；未逐篇审阅全文，不代表学者官方分类。每条书目只设一个主类别，跨方向信息保留在辅助标签中。",
-      "categories": [
-        {
-          "id": "eeg_foundation",
-          "label": "脑电基础模型与通用解码",
-          "description": "EEG基础模型、跨任务/跨设备泛化、预训练与脑信号解码。",
-          "count": 22
-        },
-        {
-          "id": "eeg_affect",
-          "label": "情感脑电与多模态生理信号",
-          "description": "脑电情感识别、EEG-fNIRS/EEG-MEG及情感计算应用。",
-          "count": 3
-        },
-        {
-          "id": "eeg_benchmark",
-          "label": "脑电基准、数据与评测",
-          "description": "脑电基础模型基准、数据集、可复现评估与跨数据集比较。",
-          "count": 1
-        }
-      ],
-      "review": {
-        "status": "theme_candidate",
-        "source_status": "已在现有潘纲资源范围内-补充作者档案",
-        "primary_theme": "脑电情感计算与脑电大模型"
+    "resource_ids": [
+      "pan_gang__pan_data_tuningmind_private"
+    ],
+    "status": "published",
+    "verification": "复用本轮 2026-11-14 前阶段原始论文/作者归属核验；见 work/eeg_2025_2026/pan_team.json 与 work/eeg_data_links/pan_dataset_mapping.json。",
+    "source_type": "prior_primary_verified_supplement",
+    "year_basis": "原始出版社/作者页面标注年份；与 DBLP 基表分开保留。",
+    "resource_status": "已关联公开入口；具体访问范围见资源说明",
+    "evidence_urls": [
+      "https://ieeexplore.ieee.org/document/11477097",
+      "https://songyi-plus.github.io/"
+    ],
+    "prior_paper_id": "PAN-2026-TuningMind",
+    "title_zh": "调谐心绪：由可穿戴多模态神经反馈驱动的 AI 生成音乐闭环情绪调节",
+    "translation_source": "人工复核的中文辅助译名，非官方中文题名",
+    "id": "pan_122892a0ba8b12",
+    "version_group": "da6b78cd2f08",
+    "title_en": "Tuning the Mind: Closed-loop Emotion Regulation via AIGC Music Driven by Wearable Multimodal Neurofeedback",
+    "record_id": "pan_gang_9fff33e48c46",
+    "category_id": "neuro_affect",
+    "primary_category": "脑信号、脑机接口与情感健康",
+    "secondary_tags": [
+      "情绪与心理健康",
+      "感知与用户行为"
+    ],
+    "classification_basis": "题名及现有资源信息的主题粗分",
+    "classification_confidence": "high",
+    "classification_note": "按明确研究对象或任务归类；算法/模态交叉信息保留为辅助标签。",
+    "scholar_id": "pan_gang",
+    "scholar_name": "潘纲",
+    "work_title_group": "3a499b278e29",
+    "code_urls": [],
+    "data_urls": [
+      "https://ieeexplore.ieee.org/document/11477097"
+    ],
+    "model_urls": [],
+    "scholar_ids": [
+      "pan_gang",
+      "jiquan_wang"
+    ],
+    "scholar_names": [
+      "潘纲",
+      "王继权"
+    ],
+    "source_record_ids": [
+      "pan_gang_9fff33e48c46",
+      "jiquan_wang_9fff33e48c46"
+    ],
+    "scholar_categories": {
+      "pan_gang": {
+        "category_id": "neuro_affect",
+        "label": "脑信号、脑机接口与情感健康",
+        "scholar_name": "潘纲",
+        "secondary_tags": [
+          "情绪与心理健康",
+          "感知与用户行为"
+        ],
+        "confidence": "high",
+        "note": "按明确研究对象或任务归类；算法/模态交叉信息保留为辅助标签。"
+      },
+      "jiquan_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王继权",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
       }
     },
-    "counts": {
-      "bibliographic_records": 26,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "unknown_year": 0
-    }
+    "global_record_id": "deab98c24e1ffcf9",
+    "primary_categories_by_scholar": [
+      "潘纲：脑信号、脑机接口与情感健康",
+      "王继权：情感脑电与多模态生理信号"
+    ],
+    "evidence_labels": [
+      "论文主页/PDF",
+      "项目主页/资源说明",
+      "项目主页/资源说明"
+    ],
+    "openalex_id": "https://openalex.org/W7151923074",
+    "openalex_author_id": "https://openalex.org/A5124545455",
+    "cited_by_count": 1
   },
-  "papers": [
-    {
-      "title": "BrainAgent: A Large Language Model-Driven Multi-Agent Framework for Autonomous Brain Signal Understanding",
-      "title_en": "BrainAgent: A Large Language Model-Driven Multi-Agent Framework for Autonomous Brain Signal Understanding",
-      "title_zh": "BrainAgent：大语言模型驱动的自主脑信号理解多智能体框架",
-      "year": 2026,
-      "venue": "arXiv.org",
-      "authors": [
-        "Yang-Xuan Zhou",
-        "Sha Zhao",
-        "Jiquan Wang",
-        "Shi-Jian Li",
-        "Gang Pan"
-      ],
-      "doi": "10.48550/arXiv.2606.25400",
-      "paper_url": "https://www.semanticscholar.org/paper/c73d4f74d43b8089211f78112ba8617b91f47323",
-      "source_url": "https://www.semanticscholar.org/paper/c73d4f74d43b8089211f78112ba8617b91f47323",
-      "topics": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化",
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "c73d4f74d43b8089211f78112ba8617b91f47323",
-      "semantic_scholar_author_id": "2110190007",
-      "cited_by_count": 6,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "人工校正辅助译名，非官方",
-      "record_id": "jiquan_wang_e69041b355dd",
-      "category_id": "eeg_foundation",
-      "primary_category": "脑电基础模型与通用解码",
-      "secondary_tags": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "jiquan_wang",
-      "scholar_name": "王继权",
-      "work_title_group": "fa9f95189915",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+  {
+    "title": "EEG Biomarkers for Affective Disorders Diagnosis: An Evaluation and Validation Study",
+    "year": 2026,
+    "venue": "Human Brain Mapping",
+    "authors": [
+      "Sha Zhao",
+      "Yitian Liu",
+      "Jiquan Wang",
+      "Ruizhe Zhang",
+      "Yilin Wang",
+      "Haiteng Jiang",
+      "Shijian Li",
+      "Tao Li",
+      "Gang Pan"
+    ],
+    "doi": "10.1002/hbm.70628",
+    "paper_url": "https://doi.org/10.1002/hbm.70628",
+    "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hbm.70628",
+    "dblp_key": "",
+    "source_url": "https://doi.org/10.1002/hbm.70628",
+    "topics": [
+      "EEG/脑电",
+      "情感/心理/临床",
+      "脑电情感识别",
+      "情感计算与情绪理解",
+      "多模态与大语言模型",
+      "医学影像与脑疾病诊断"
+    ],
+    "resource_ids": [
+      "pan_gang__pan_code_pan_2026_affectivebiomarkers",
+      "pan_gang__pan_data_mumtaz2016",
+      "pan_gang__pan_data_b_snip1"
+    ],
+    "status": "published",
+    "verification": "复用本轮 2026-11-14 前阶段原始论文/作者归属核验；见 work/eeg_2025_2026/pan_team.json 与 work/eeg_data_links/pan_dataset_mapping.json。",
+    "source_type": "prior_primary_verified_supplement",
+    "year_basis": "原始出版社/作者页面标注年份；与 DBLP 基表分开保留。",
+    "resource_status": "已关联公开入口；具体访问范围见资源说明",
+    "evidence_urls": [
+      "https://onlinelibrary.wiley.com/doi/10.1002/hbm.70628",
+      "https://wjq-learning.github.io/"
+    ],
+    "prior_paper_id": "PAN-2026-AffectiveBiomarkers",
+    "title_zh": "情感障碍诊断的脑电生物标志物：评估与验证研究",
+    "translation_source": "人工复核的中文辅助译名，非官方中文题名",
+    "id": "pan_5b73f6d24d03e6",
+    "version_group": "bba39599ae79",
+    "title_en": "EEG Biomarkers for Affective Disorders Diagnosis: An Evaluation and Validation Study",
+    "record_id": "pan_gang_41ff23b333db",
+    "category_id": "neuro_affect",
+    "primary_category": "脑信号、脑机接口与情感健康",
+    "secondary_tags": [
+      "EEG脑电",
+      "情绪与心理健康",
+      "综述/评测/数据资源"
+    ],
+    "classification_basis": "题名及现有资源信息的主题粗分",
+    "classification_confidence": "high",
+    "classification_note": "按明确研究对象或任务归类；算法/模态交叉信息保留为辅助标签。",
+    "scholar_id": "pan_gang",
+    "scholar_name": "潘纲",
+    "work_title_group": "8107d52436c2",
+    "code_urls": [
+      "https://github.com/yt-liu88/EEGBiomarkers-for-Affective-Disorders-Diagnosis"
+    ],
+    "data_urls": [
+      "https://doi.org/10.6084/m9.figshare.4244171.v2",
+      "https://nda.nih.gov/general-query.html"
+    ],
+    "model_urls": [],
+    "scholar_ids": [
+      "pan_gang",
+      "jiquan_wang"
+    ],
+    "scholar_names": [
+      "潘纲",
+      "王继权"
+    ],
+    "source_record_ids": [
+      "pan_gang_41ff23b333db",
+      "jiquan_wang_41ff23b333db"
+    ],
+    "scholar_categories": {
+      "pan_gang": {
+        "category_id": "neuro_affect",
+        "label": "脑信号、脑机接口与情感健康",
+        "scholar_name": "潘纲",
+        "secondary_tags": [
+          "EEG脑电",
+          "情绪与心理健康",
+          "综述/评测/数据资源"
+        ],
+        "confidence": "high",
+        "note": "按明确研究对象或任务归类；算法/模态交叉信息保留为辅助标签。"
+      },
+      "jiquan_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王继权",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "BrainBench: Benchmarking Large Language Models for Comprehensive EEG Understanding",
-      "title_en": "BrainBench: Benchmarking Large Language Models for Comprehensive EEG Understanding",
-      "title_zh": "BrainBench：对大型语言模型进行基准测试以实现全面的脑电图理解。",
-      "year": 2026,
-      "venue": "arXiv.org",
-      "authors": [
-        "Yang-Xuan Zhou",
-        "Yu-Ning Chen",
-        "Chentian Wu",
-        "Jiquan Wang",
-        "Shi-Jian Li",
-        "Gang Pan",
-        "Sha Zhao"
-      ],
-      "doi": "10.48550/arXiv.2608.04156",
-      "paper_url": "https://www.semanticscholar.org/paper/a0ed12424bf8931d91bc74ff45223f2efc1e55c3",
-      "source_url": "https://www.semanticscholar.org/paper/a0ed12424bf8931d91bc74ff45223f2efc1e55c3",
-      "topics": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化",
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "a0ed12424bf8931d91bc74ff45223f2efc1e55c3",
-      "semantic_scholar_author_id": "2110190007",
-      "cited_by_count": 2,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "中文辅助机器译名，已做术语规则校正；非作者官方中文题名",
-      "record_id": "jiquan_wang_6a08dcf02486",
-      "category_id": "eeg_benchmark",
-      "primary_category": "脑电基准、数据与评测",
-      "secondary_tags": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "jiquan_wang",
-      "scholar_name": "王继权",
-      "work_title_group": "6654b7c7ef32",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "14601ce5584d6a83",
+    "primary_categories_by_scholar": [
+      "潘纲：脑信号、脑机接口与情感健康",
+      "王继权：情感脑电与多模态生理信号"
+    ],
+    "evidence_labels": [
+      "项目主页/资源说明",
+      "项目主页/资源说明"
+    ],
+    "openalex_id": "https://openalex.org/W7211897563",
+    "openalex_author_id": "https://openalex.org/A5124545455",
+    "abstract_en": "Electroencephalography (EEG) provides real-time, dynamic insights into brain function, making it a valuable tool for the screening, diagnosis, and treatment of affective disorders. The use of EEG-derived features as biomarkers for affective disorder diagnosis has attracted growing attention. In this work, we introduce 25 commonly used EEG features and categorize them into four domains: time-domain, frequency-domain, complexity, and connectivity. Each feature captures distinct aspects of emotional processing and serves as a potential biomarker for diagnosing affective disorders. To evaluate their diagnostic utility, we analyzed two independent resting-state EEG datasets. The first dataset comprised 84 healthy controls, 62 patients with schizophrenia (SZ), 43 patients with schizoaffective disorder (SAD), and 32 patients with bipolar disorder (BD), while the second included 28 healthy controls and 32 patients with major depressive disorder (MDD). These features are extracted and used for classification, allowing us to identify biomarkers with strong discriminative power. Finally, we provide a comprehensive discussion on key issues in the field, including multimodal biomarker integration, challenges in EEG-based diagnosis, variability in classification results, and factors influencing EEG feature extraction.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "脑电图 (EEG) 可提供对大脑功能的实时、动态洞察，使其成为筛查、诊断和治疗情感障碍的宝贵工具。使用脑电图衍生的特征作为情感障碍诊断的生物标志物引起了越来越多的关注。在这项工作中，我们介绍了 25 个常用的 EEG 特征，并将它们分为四个域：时域、频域、复杂性和连通性。每个特征都捕捉了情绪处理的不同方面，并作为诊断情感障碍的潜在生物标志物。为了评估其诊断效用，我们分析了两个独立的静息态脑电图数据集。第一个数据集..."
+  },
+  {
+    "title": "BrainAgent: A Large Language Model-Driven Multi-Agent Framework for Autonomous Brain Signal Understanding",
+    "title_en": "BrainAgent: A Large Language Model-Driven Multi-Agent Framework for Autonomous Brain Signal Understanding",
+    "title_zh": "BrainAgent：大语言模型驱动的自主脑信号理解多智能体框架",
+    "year": 2026,
+    "venue": "arXiv.org",
+    "authors": [
+      "Yang-Xuan Zhou",
+      "Sha Zhao",
+      "Jiquan Wang",
+      "Shi-Jian Li",
+      "Gang Pan"
+    ],
+    "doi": "10.48550/arXiv.2606.25400",
+    "paper_url": "https://www.semanticscholar.org/paper/c73d4f74d43b8089211f78112ba8617b91f47323",
+    "source_url": "https://www.semanticscholar.org/paper/c73d4f74d43b8089211f78112ba8617b91f47323",
+    "topics": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化",
+      "脑电基础大模型",
+      "多模态与大语言模型",
+      "强化学习与决策优化",
+      "智能芯片与计算系统",
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "c73d4f74d43b8089211f78112ba8617b91f47323",
+    "semantic_scholar_author_id": "2110190007",
+    "cited_by_count": 6,
+    "publication_types": [
+      "JournalArticle"
+    ],
+    "candidate_source": false,
+    "source_kind": "Semantic Scholar author works",
+    "translation_source": "人工校正辅助译名，非官方",
+    "record_id": "jiquan_wang_e69041b355dd",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码",
+    "secondary_tags": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "jiquan_wang",
+    "scholar_name": "王继权",
+    "work_title_group": "fa9f95189915",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "jiquan_wang"
+    ],
+    "scholar_names": [
+      "王继权"
+    ],
+    "source_record_ids": [
+      "jiquan_wang_e69041b355dd"
+    ],
+    "scholar_categories": {
+      "jiquan_wang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "王继权",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "BRAINet: a brain-region-aware interaction network for EEG-based diagnosis of disorders of consciousness",
-      "title_en": "BRAINet: a brain-region-aware interaction network for EEG-based diagnosis of disorders of consciousness",
-      "title_zh": "BRAINet：用于基于 EEG 的意识障碍诊断的大脑区域感知交互网络",
-      "year": 2026,
-      "venue": "Journal of Neural Engineering",
-      "authors": [
-        "Hao-Xiang Chen",
-        "Sha Zhao",
-        "Jie Yu",
-        "Jiquan Wang",
-        "Yu-Meng Bai",
-        "Chuan Xu",
-        "Shi-Jian Li",
-        "Ben-Yan Luo",
-        "Gang Pan"
-      ],
-      "doi": "10.1088/1741-2552/aea7db",
-      "paper_url": "https://www.semanticscholar.org/paper/588f90dcd30f22503f79e1a9978ee78493a1665d",
-      "source_url": "https://www.semanticscholar.org/paper/588f90dcd30f22503f79e1a9978ee78493a1665d",
-      "topics": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化",
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "588f90dcd30f22503f79e1a9978ee78493a1665d",
-      "semantic_scholar_author_id": "2110190007",
-      "cited_by_count": 1,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "jiquan_wang_bc3d2bf9554e",
-      "category_id": "eeg_foundation",
-      "primary_category": "脑电基础模型与通用解码",
-      "secondary_tags": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "jiquan_wang",
-      "scholar_name": "王继权",
-      "work_title_group": "9cf7310ae4a8",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "72034f0e21a2831b",
+    "primary_categories_by_scholar": [
+      "王继权：脑电基础模型与通用解码"
+    ],
+    "abstract_en": "Brain-Computer Interfaces (BCIs) and brain signal understanding are pivotal for clinical health and next-generation interactions. Despite this significance, its widespread adoption in real-world scenarios remains restricted, primarily because current analytical paradigms lack sufficient agentic intelligence. First, existing methodologies impose prohibitive technical barriers, requiring extensive specialized expertise. Second, they remain inherently static and task-specific, failing to execute the complex, long-horizon workflows essential for real-world deployment. To accelerate the democratization of brain signal understanding, we draw inspiration from Large Language Models (LLMs) to introduce BrainAgent, an LLM-driven multi-agent framework designed to ground abstract natural language intent into rigorous, executable, and end-to-end processing pipelines. BrainAgent employs a hierarchical architecture where a central supervisor orchestrates specialized sub-agents for adaptive task decomposition and execution. Furthermore, we establish a comprehensive, systematic benchmark for evaluating agentic systems in brain signal analysis. Empirical results demonstrate that BrainAgent effectively automates complex workflows with superior reliability, marking a paradigm shift toward democratized brain signal understanding.",
+    "abstract_source": "arxiv_api",
+    "pdf_url": "https://arxiv.org/pdf/2606.25400.pdf",
+    "abstract_zh": "脑机接口 (BCI) 和大脑信号理解对于临床健康和下一代交互至关重要。尽管具有这一重要性，但它在现实世界场景中的广泛采用仍然受到限制，主要是因为当前的分析范式缺乏足够的智能体智能。首先，现有方法设置了令人望而却步的技术障碍，需要广泛的专业知识。其次，它们本质上仍然是静态的和特定于任务的，无法执行实际部署所必需的复杂的、长期的工作流程。为了加速大脑信号理解的民主化，我们从大型语言模型 (LLM) 中汲取灵感，引入..."
+  },
+  {
+    "title": "BrainAgent: A Large Language Model-Driven Multi-Agent Framework for Autonomous Brain Signal Understanding",
+    "year": 2026,
+    "venue": "CoRR",
+    "authors": [
+      "Yangxuan Zhou",
+      "Sha Zhao",
+      "Jiquan Wang",
+      "Shijian Li",
+      "Gang Pan"
+    ],
+    "authors_dblp": [
+      "Yangxuan Zhou",
+      "Sha Zhao",
+      "Jiquan Wang",
+      "Shijian Li",
+      "Gang Pan 0001"
+    ],
+    "doi": "10.48550/ARXIV.2606.25400",
+    "doi_urls": [
+      "https://doi.org/10.48550/ARXIV.2606.25400"
+    ],
+    "paper_url": "https://doi.org/10.48550/ARXIV.2606.25400",
+    "pdf_url": "https://arxiv.org/pdf/2606.25400",
+    "document_urls": [
+      "https://doi.org/10.48550/ARXIV.2606.25400"
+    ],
+    "dblp_key": "journals/corr/abs-2606-25400",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2606-25400",
+    "publication_types": [
+      "https://dblp.org/rdf/schema#Informal",
+      "https://dblp.org/rdf/schema#Publication"
+    ],
+    "topics": [
+      "脑机接口/神经解码",
+      "语言/大模型",
+      "脑电基础大模型",
+      "多模态与大语言模型",
+      "强化学习与决策优化",
+      "智能芯片与计算系统",
+      "医学影像与脑疾病诊断"
+    ],
+    "topic_basis": "基于标题关键词初筛；未视为全文分类",
+    "resource_ids": [],
+    "status": "preprint",
+    "verification": "DBLP官方SPARQL完整作者查询（无LIMIT），已核作者身份；未逐篇全文审阅",
+    "source_type": "official_dblp_sparql",
+    "year_basis": "DBLP 卷/会议年；预印本依 DBLP CoRR 年。",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "id": "pan_journals_corr_abs-2606-25400",
+    "version_group": "6013fc95448b",
+    "title_en": "BrainAgent: A Large Language Model-Driven Multi-Agent Framework for Autonomous Brain Signal Understanding",
+    "title_zh": "BrainAgent：大语言模型驱动的自主脑信号理解多智能体框架",
+    "translation_source": "人工校正辅助译名，非官方",
+    "record_id": "pan_gang_7ba33c851603",
+    "category_id": "neuro_affect",
+    "primary_category": "脑信号、脑机接口与情感健康",
+    "secondary_tags": [
+      "多智能体/博弈",
+      "大模型/语言",
+      "硬件与系统"
+    ],
+    "classification_basis": "题名及现有资源信息的主题粗分",
+    "classification_confidence": "high",
+    "classification_note": "按明确研究对象或任务归类；算法/模态交叉信息保留为辅助标签。",
+    "scholar_id": "pan_gang",
+    "scholar_name": "潘纲",
+    "work_title_group": "fa9f95189915",
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_ids": [
+      "pan_gang",
+      "jiquan_wang"
+    ],
+    "scholar_names": [
+      "潘纲",
+      "王继权"
+    ],
+    "source_record_ids": [
+      "pan_gang_7ba33c851603"
+    ],
+    "scholar_categories": {
+      "pan_gang": {
+        "category_id": "neuro_affect",
+        "label": "脑信号、脑机接口与情感健康",
+        "scholar_name": "潘纲",
+        "secondary_tags": [
+          "多智能体/博弈",
+          "大模型/语言",
+          "硬件与系统"
+        ],
+        "confidence": "high",
+        "note": "按明确研究对象或任务归类；算法/模态交叉信息保留为辅助标签。"
+      },
+      "jiquan_wang": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "王继权",
+        "secondary_tags": [
+          "脑机接口/神经解码",
+          "语言/大模型",
+          "脑电基础大模型",
+          "多模态与大语言模型",
+          "强化学习与决策优化",
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "DeeperBrain: A Neuro-Grounded EEG Foundation Model Towards Universal BCI",
-      "title_en": "DeeperBrain: A Neuro-Grounded EEG Foundation Model Towards Universal BCI",
-      "title_zh": "DeeperBrain：面向通用 BCI 的神经接地 EEG 基础模型。",
-      "year": 2026,
-      "venue": "arXiv.org",
-      "authors": [
-        "Jiquan Wang",
-        "Sha Zhao",
-        "Yang-Xuan Zhou",
-        "Yi-Ming Kang",
-        "Shi-Jian Li",
-        "Gang Pan"
-      ],
-      "doi": "10.48550/arXiv.2601.06134",
-      "paper_url": "https://www.semanticscholar.org/paper/98a3e82cdad4f6d2fd8621c1f9cf7d9c53d43bd5",
-      "source_url": "https://www.semanticscholar.org/paper/98a3e82cdad4f6d2fd8621c1f9cf7d9c53d43bd5",
-      "topics": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化",
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "98a3e82cdad4f6d2fd8621c1f9cf7d9c53d43bd5",
-      "semantic_scholar_author_id": "2110190007",
-      "cited_by_count": 12,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "中文辅助机器译名，已做术语规则校正；非作者官方中文题名",
-      "record_id": "jiquan_wang_9d3eb7e5a320",
-      "category_id": "eeg_foundation",
-      "primary_category": "脑电基础模型与通用解码",
-      "secondary_tags": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "jiquan_wang",
-      "scholar_name": "王继权",
-      "work_title_group": "0338a0c8a5b5",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "9cb017a7e48753cd",
+    "primary_categories_by_scholar": [
+      "潘纲：脑信号、脑机接口与情感健康",
+      "王继权：脑电基准、数据与评测"
+    ],
+    "openalex_id": "https://openalex.org/W7165889050",
+    "openalex_author_id": "https://openalex.org/A5121941343",
+    "cited_by_count": 6,
+    "abstract_en": "Brain-Computer Interfaces (BCIs) and brain signal understanding are pivotal for clinical health and next-generation interactions. Despite this significance, its widespread adoption in real-world scenarios remains restricted, primarily because current analytical paradigms lack sufficient agentic intelligence. First, existing methodologies impose prohibitive technical barriers, requiring extensive specialized expertise. Second, they remain inherently static and task-specific, failing to execute the complex, long-horizon workflows essential for real-world deployment. To accelerate the democratization of brain signal understanding, we draw inspiration from Large Language Models (LLMs) to introduce BrainAgent, an LLM-driven multi-agent framework designed to ground abstract natural language intent into rigorous, executable, and end-to-end processing pipelines. BrainAgent employs a hierarchical architecture where a central supervisor orchestrates specialized sub-agents for adaptive task decomposition and execution. Furthermore, we establish a comprehensive, systematic benchmark for evaluating agentic systems in brain signal analysis. Empirical results demonstrate that BrainAgent effectively automates complex workflows with superior reliability, marking a paradigm shift toward democratized brain signal understanding.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "脑机接口 (BCI) 和大脑信号理解对于临床健康和下一代交互至关重要。尽管具有这一重要性，但它在现实世界场景中的广泛采用仍然受到限制，主要是因为当前的分析范式缺乏足够的智能体智能。首先，现有方法设置了令人望而却步的技术障碍，需要广泛的专业知识。其次，它们本质上仍然是静态的和特定于任务的，无法执行实际部署所必需的复杂的、长期的工作流程。为了加速大脑信号理解的民主化，我们从大型语言模型 (LLM) 中汲取灵感，引入..."
+  },
+  {
+    "title": "BrainBench: Benchmarking Large Language Models for Comprehensive EEG Understanding",
+    "title_en": "BrainBench: Benchmarking Large Language Models for Comprehensive EEG Understanding",
+    "title_zh": "BrainBench：对大型语言模型进行基准测试以实现全面的脑电图理解。",
+    "year": 2026,
+    "venue": "arXiv.org",
+    "authors": [
+      "Yang-Xuan Zhou",
+      "Yu-Ning Chen",
+      "Chentian Wu",
+      "Jiquan Wang",
+      "Shi-Jian Li",
+      "Gang Pan",
+      "Sha Zhao"
+    ],
+    "doi": "10.48550/arXiv.2608.04156",
+    "paper_url": "https://www.semanticscholar.org/paper/a0ed12424bf8931d91bc74ff45223f2efc1e55c3",
+    "source_url": "https://www.semanticscholar.org/paper/a0ed12424bf8931d91bc74ff45223f2efc1e55c3",
+    "topics": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化",
+      "脑电基础大模型",
+      "多模态与大语言模型"
+    ],
+    "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W7197033200",
+    "openalex_author_id": "https://openalex.org/A5121941343",
+    "semantic_scholar_id": "a0ed12424bf8931d91bc74ff45223f2efc1e55c3",
+    "semantic_scholar_author_id": "2110190007",
+    "cited_by_count": 2,
+    "publication_types": [
+      "JournalArticle"
+    ],
+    "candidate_source": false,
+    "source_kind": "Semantic Scholar author works",
+    "translation_source": "中文辅助机器译名，已做术语规则校正；非作者官方中文题名",
+    "record_id": "jiquan_wang_6a08dcf02486",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测",
+    "secondary_tags": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "jiquan_wang",
+    "scholar_name": "王继权",
+    "work_title_group": "6654b7c7ef32",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "jiquan_wang",
+      "pan_gang"
+    ],
+    "scholar_names": [
+      "王继权",
+      "潘纲"
+    ],
+    "source_record_ids": [
+      "jiquan_wang_6a08dcf02486"
+    ],
+    "scholar_categories": {
+      "jiquan_wang": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "王继权",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "pan_gang": {
+        "category_id": "neuromorphic",
+        "label": "类脑算法、脉冲网络与神经形态系统",
+        "scholar_name": "潘纲",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化",
+          "脑电基础大模型",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "EEG Biomarkers for Affective Disorders Diagnosis: An Evaluation and Validation Study",
-      "title_en": "EEG Biomarkers for Affective Disorders Diagnosis: An Evaluation and Validation Study",
-      "title_zh": "情感障碍诊断的脑电生物标志物：评估与验证研究",
-      "year": 2026,
-      "venue": "Human Brain Mapping",
-      "authors": [
-        "Sha Zhao",
-        "Yi-Tian Liu",
-        "Jiquan Wang",
-        "Rui-Zhe Zhang",
-        "Yi-Lin Wang",
-        "Hai-Teng Jiang",
-        "Shi-Jian Li",
-        "Tao Li",
-        "Gang Pan"
-      ],
-      "doi": "10.1002/hbm.70628",
-      "paper_url": "https://www.semanticscholar.org/paper/b16644338851bdefdc2ce11ae780ac9a7473e04f",
-      "source_url": "https://www.semanticscholar.org/paper/b16644338851bdefdc2ce11ae780ac9a7473e04f",
-      "topics": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化",
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "b16644338851bdefdc2ce11ae780ac9a7473e04f",
-      "semantic_scholar_author_id": "2110190007",
-      "cited_by_count": 0,
-      "publication_types": [
-        "Review",
-        "JournalArticle"
-      ],
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "人工复核的中文辅助译名，非官方中文题名",
-      "record_id": "jiquan_wang_41ff23b333db",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "jiquan_wang",
-      "scholar_name": "王继权",
-      "work_title_group": "8107d52436c2",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "39cc8e62939512ee",
+    "primary_categories_by_scholar": [
+      "王继权：脑电基准、数据与评测",
+      "潘纲：类脑算法、脉冲网络与神经形态系统"
+    ],
+    "dblp_key": "journals/corr/abs-2608-04156",
+    "pdf_url": "https://arxiv.org/pdf/2608.04156",
+    "abstract_en": "Electroencephalography (EEG) analysis extends beyond assigning predefined labels to recordings; it requires workflows connecting natural-language instructions, signal processing, quantitative evidence, and scientific interpretation. We term this capability \\emph{comprehensive EEG understanding}. Existing evaluations, however, primarily target isolated decoding tasks or system-specific demonstrations, leaving the competence of large language models (LLMs) insufficiently quantified. We introduce \\benchmarkname{}, a unified benchmark for comprehensive, instruction-conditioned EEG understanding. It comprises four subsets---Foundational Analysis, Sleep Assessment, Neurocognitive Assessment, and Physiological Integration---covering 17 datasets, \\numcases{} tasks, and over \\numinstances{} real-data instances. Given an instruction and EEG recordings with optional physiological signals, a system must perform the analysis and produce a scientifically grounded report and, when required, artifacts. Outputs are assessed through numerical, categorical, set, sequence, semantic, and artifact validation. We evaluate \\nummodels{} representative LLMs across more than 100K executions under two paradigms: autonomous code execution with CodeAct and structured agentic analysis with BrainAgent. Results vary substantially across models, subsets, difficulty levels, and execution paradigms, showing that EEG competence depends on the model and its operationalization. \\benchmarkname{} provides a reproducible testbed for advancing LLM-based EEG understanding. The code and benchmark will be released soon, with evaluation results continuously updated.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "脑电图 (EEG) 分析不仅限于为录音分配预定义标签；它需要连接自然语言指令、信号处理、定量证据和科学解释的工作流程。我们将这种能力称为\\emph{全面的脑电图理解}。然而，现有的评估主要针对孤立的解码任务或特定于系统的演示，导致大型语言模型（LLM）的能力没有得到充分量化。我们引入 \\benchmarkname{}，这是一个用于全面、指令条件脑电图理解的统一基准。它包含四个子集——基础分析、睡眠评估、神经认知评估和 P..."
+  },
+  {
+    "title": "BRAINet: a brain-region-aware interaction network for EEG-based diagnosis of disorders of consciousness",
+    "title_en": "BRAINet: a brain-region-aware interaction network for EEG-based diagnosis of disorders of consciousness",
+    "title_zh": "BRAINet：用于基于 EEG 的意识障碍诊断的大脑区域感知交互网络",
+    "year": 2026,
+    "venue": "Journal of Neural Engineering",
+    "authors": [
+      "Hao-Xiang Chen",
+      "Sha Zhao",
+      "Jie Yu",
+      "Jiquan Wang",
+      "Yu-Meng Bai",
+      "Chuan Xu",
+      "Shi-Jian Li",
+      "Ben-Yan Luo",
+      "Gang Pan"
+    ],
+    "doi": "10.1088/1741-2552/aea7db",
+    "paper_url": "https://www.semanticscholar.org/paper/588f90dcd30f22503f79e1a9978ee78493a1665d",
+    "source_url": "https://www.semanticscholar.org/paper/588f90dcd30f22503f79e1a9978ee78493a1665d",
+    "topics": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化",
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W7213250066",
+    "openalex_author_id": "https://openalex.org/A5121941343",
+    "semantic_scholar_id": "588f90dcd30f22503f79e1a9978ee78493a1665d",
+    "semantic_scholar_author_id": "2110190007",
+    "cited_by_count": 1,
+    "publication_types": [
+      "JournalArticle"
+    ],
+    "candidate_source": false,
+    "source_kind": "Semantic Scholar author works",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "jiquan_wang_bc3d2bf9554e",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码",
+    "secondary_tags": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "jiquan_wang",
+    "scholar_name": "王继权",
+    "work_title_group": "9cf7310ae4a8",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "jiquan_wang"
+    ],
+    "scholar_names": [
+      "王继权"
+    ],
+    "source_record_ids": [
+      "jiquan_wang_bc3d2bf9554e"
+    ],
+    "scholar_categories": {
+      "jiquan_wang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "王继权",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "EEGDiffuser: Label-guided EEG signals synthesis via diffusion model for BCI applications",
-      "title_en": "EEGDiffuser: Label-guided EEG signals synthesis via diffusion model for BCI applications",
-      "title_zh": "EEGDiffuser：通过用于BCI应用的扩散模型进行标签引导的EEG信号合成。",
-      "year": 2026,
-      "venue": "Neurocomputing",
-      "authors": [
-        "Jiquan Wang",
-        "Sha Zhao",
-        "Zhiling Luo",
-        "Yang-Xuan Zhou",
-        "Shi-Jian Li",
-        "Gang Pan"
-      ],
-      "doi": "10.1016/j.neucom.2026.132636",
-      "paper_url": "https://www.semanticscholar.org/paper/bdd7267758c53d9d8a9853935c5b1555f4bd2162",
-      "source_url": "https://www.semanticscholar.org/paper/bdd7267758c53d9d8a9853935c5b1555f4bd2162",
-      "topics": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化",
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "bdd7267758c53d9d8a9853935c5b1555f4bd2162",
-      "semantic_scholar_author_id": "2110190007",
-      "cited_by_count": 3,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "中文辅助机器译名，已做术语规则校正；非作者官方中文题名",
-      "record_id": "jiquan_wang_feba6679c3b1",
-      "category_id": "eeg_foundation",
-      "primary_category": "脑电基础模型与通用解码",
-      "secondary_tags": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "jiquan_wang",
-      "scholar_name": "王继权",
-      "work_title_group": "ad247975b77f",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "9b0f1299a49accd3",
+    "primary_categories_by_scholar": [
+      "王继权：脑电基础模型与通用解码"
+    ],
+    "abstract_en": "Abstract Objective. Reliable assessment and stratification of disorders of consciousness (DOC) is essential for patient care and clinical treatment planning. Electroencephalography (EEG) provides a non-invasive approach to measure neural activity and has shown promise in DOC assessment. However, most existing EEG-based approaches focus on binary unresponsive wakefulness syndrome (UWS)/minimally conscious state (MCS) classification and often process EEG channels as a whole, without explicitly modeling anatomical brain-region organization. In this study, our goal is to distinguish among UWS, minimally conscious state minus (MCS − ), and minimally conscious state plus (MCS + ) using resting-state EEG signals. Approach. We propose BRAINet, a brain-region-aware EEG framework for three-class DOC classification. BRAINet partitions EEG channels into five anatomical brain regions, extracts region-specific spatiotemporal and spectral features, models cross-region interactions using a Transformer-based attention module, and fuses the learned representations with approximate entropy features for final classification. We evaluated BRAINet on a clinical resting-state EEG dataset comprising 22 UWS, 24 MCS − , and 15 MCS + patients using patient-wise five-fold cross-validation and comparisons with representative machine-learning and deep-learning baselines. Statistical comparisons were based on paired patient-level out-of-fold (OOF) predictions. Main results. BRAINet achieved the highest numerical performance among the compared methods. Across the five folds, its mean balanced accuracy (BA) was 54.07% at the epoch level and 59.89% at the subject level. Based on pooled patient-level OOF predictions, BRAINet achieved significantly higher BA than the best-performing baseline, Conformer (two-sided paired permutation test, Holm-adjusted p = 0.005 13 ). Significance. These results suggest that brain-region-aware EEG modeling may provide useful information for fine-grained UWS/MCS − /MCS + classification. BRAINet provides an interpretable framework for exploring region-specific EEG representations in DOC and may support future studies on patient stratification and prognostic assessment.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "抽象目标。意识障碍 (DOC) 的可靠评估和分层对于患者护理和临床治疗计划至关重要。脑电图 (EEG) 提供了一种非侵入性方法来测量神经活动，并在 DOC 评估中显示出前景。然而，大多数现有的基于脑电图的方法侧重于二元无反应觉醒综合征（UWS）/最低意识状态（MCS）分类，并且通常将脑电图通道作为一个整体进行处理，而没有明确地建模大脑区域的解剖组织。在这项研究中，我们的目标是使用静息状态来区分 UWS、最低意识状态减 (MCS − ) 和最低意识状态加 (MCS + )..."
+  },
+  {
+    "title": "DeeperBrain: A Neuro-Grounded EEG Foundation Model Towards Universal BCI",
+    "title_en": "DeeperBrain: A Neuro-Grounded EEG Foundation Model Towards Universal BCI",
+    "title_zh": "DeeperBrain：面向通用 BCI 的神经接地 EEG 基础模型。",
+    "year": 2026,
+    "venue": "arXiv.org",
+    "authors": [
+      "Jiquan Wang",
+      "Sha Zhao",
+      "Yang-Xuan Zhou",
+      "Yi-Ming Kang",
+      "Shi-Jian Li",
+      "Gang Pan"
+    ],
+    "doi": "10.48550/arXiv.2601.06134",
+    "paper_url": "https://www.semanticscholar.org/paper/98a3e82cdad4f6d2fd8621c1f9cf7d9c53d43bd5",
+    "source_url": "https://www.semanticscholar.org/paper/98a3e82cdad4f6d2fd8621c1f9cf7d9c53d43bd5",
+    "topics": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化",
+      "脑电基础大模型",
+      "脑机接口与神经解码"
+    ],
+    "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "98a3e82cdad4f6d2fd8621c1f9cf7d9c53d43bd5",
+    "semantic_scholar_author_id": "2110190007",
+    "cited_by_count": 12,
+    "publication_types": [
+      "JournalArticle"
+    ],
+    "candidate_source": false,
+    "source_kind": "Semantic Scholar author works",
+    "translation_source": "中文辅助机器译名，已做术语规则校正；非作者官方中文题名",
+    "record_id": "jiquan_wang_9d3eb7e5a320",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码",
+    "secondary_tags": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "jiquan_wang",
+    "scholar_name": "王继权",
+    "work_title_group": "0338a0c8a5b5",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "jiquan_wang"
+    ],
+    "scholar_names": [
+      "王继权"
+    ],
+    "source_record_ids": [
+      "jiquan_wang_9d3eb7e5a320"
+    ],
+    "scholar_categories": {
+      "jiquan_wang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "王继权",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "EvoBrain: Continual Learning of EEG Foundation Models Across Heterogeneous BCI Tasks",
-      "title_en": "EvoBrain: Continual Learning of EEG Foundation Models Across Heterogeneous BCI Tasks",
-      "title_zh": "EvoBrain：跨异构 BCI 任务的 EEG 基础模型的持续学习。",
-      "year": 2026,
-      "venue": "arXiv.org",
-      "authors": [
-        "Yang-Xuan Zhou",
-        "Shan Zhao",
-        "Jiquan Wang",
-        "Shi-Jian Li",
-        "Gang Pan"
-      ],
-      "doi": "10.48550/arXiv.2606.01767",
-      "paper_url": "https://www.semanticscholar.org/paper/7256113e8bbdfda3f4a4023167b4d5acf100383d",
-      "source_url": "https://www.semanticscholar.org/paper/7256113e8bbdfda3f4a4023167b4d5acf100383d",
-      "topics": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化",
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "7256113e8bbdfda3f4a4023167b4d5acf100383d",
-      "semantic_scholar_author_id": "2110190007",
-      "cited_by_count": 0,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "中文辅助机器译名，已做术语规则校正；非作者官方中文题名",
-      "record_id": "jiquan_wang_94765c5319ba",
-      "category_id": "eeg_foundation",
-      "primary_category": "脑电基础模型与通用解码",
-      "secondary_tags": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "jiquan_wang",
-      "scholar_name": "王继权",
-      "work_title_group": "fa53c0e7d70e",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "04328cbd26480c90",
+    "primary_categories_by_scholar": [
+      "王继权：脑电基础模型与通用解码"
+    ],
+    "abstract_en": "Electroencephalography (EEG) foundation models hold significant promise for universal Brain-Computer Interfaces (BCIs). However, existing approaches often rely on end-to-end fine-tuning and exhibit limited efficacy under frozen-probing protocols, lacking the intrinsic universality required for broad generalization. This limitation stems from adapting general-purpose sequence architectures that overlook the biophysical and dynamical principles of neural activity. To bridge this gap, we propose DeeperBrain, a neuro-grounded foundation model integrating domain-specific inductive biases into its model design and learning objectives. Architecturally, DeeperBrain incorporates a volume conduction-aware channel encoding to model spatial mixing via 3D geometry, and a neurodynamics-aware temporal encoding capturing slow adaptations using oscillatory and exponential bases. For pretraining, we introduce a dual-objective strategy combining Masked EEG Reconstruction (MER) for local fidelity and Neurodynamics Statistics Prediction (NSP). NSP enforces alignment with macroscopic brain states by predicting interpretable order parameters, including spectral power, functional connectivity, cross-frequency coupling, and dynamic complexity. Extensive experiments demonstrate that DeeperBrain achieves state-of-the-art or highly competitive performance under end-to-end fine-tuning. Crucially, it maintains superior efficacy under a rigorous frozen-probing protocol, verifying that embedding neuroscientific first principles endows learned representations with the intrinsic universality essential for universal BCI. The code will be publicly available.",
+    "abstract_source": "arxiv_api",
+    "pdf_url": "https://arxiv.org/pdf/2601.06134.pdf",
+    "abstract_zh": "脑电图 (EEG) 基础模型为通用脑机接口 (BCI) 带来了巨大希望。然而，现有的方法通常依赖于端到端的微调，并且在冻结探测协议下表现出有限的功效，缺乏广泛泛化所需的内在普遍性。这种限制源于采用通用序列架构，而忽略了神经活动的生物物理和动力学原理。为了弥补这一差距，我们提出了 DeeperBrain，这是一种基于神经的基础模型，将特定领域的归纳偏差集成到其模型设计和学习目标中。在架构上，DeeperBrain 结合了体积传导..."
+  },
+  {
+    "title": "DeeperBrain: A Neuro-Grounded EEG Foundation Model Towards Universal BCI",
+    "year": 2026,
+    "venue": "CoRR",
+    "authors": [
+      "Jiquan Wang",
+      "Sha Zhao",
+      "Yangxuan Zhou",
+      "Yiming Kang",
+      "Shijian Li",
+      "Gang Pan"
+    ],
+    "authors_dblp": [
+      "Jiquan Wang",
+      "Sha Zhao",
+      "Yangxuan Zhou",
+      "Yiming Kang",
+      "Shijian Li",
+      "Gang Pan 0001"
+    ],
+    "doi": "10.48550/ARXIV.2601.06134",
+    "doi_urls": [
+      "https://doi.org/10.48550/ARXIV.2601.06134"
+    ],
+    "paper_url": "https://doi.org/10.48550/ARXIV.2601.06134",
+    "pdf_url": "https://arxiv.org/pdf/2601.06134",
+    "document_urls": [
+      "https://doi.org/10.48550/ARXIV.2601.06134"
+    ],
+    "dblp_key": "journals/corr/abs-2601-06134",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2601-06134",
+    "publication_types": [
+      "https://dblp.org/rdf/schema#Informal",
+      "https://dblp.org/rdf/schema#Publication"
+    ],
+    "topics": [
+      "EEG/脑电",
+      "脑机接口/神经解码",
+      "脑电基础大模型",
+      "脑机接口与神经解码"
+    ],
+    "topic_basis": "基于标题关键词初筛；未视为全文分类",
+    "resource_ids": [
+      "pan_gang__pan_data_seed_v",
+      "pan_gang__pan_data_seed_vii",
+      "pan_gang__pan_data_seed_vig",
+      "pan_gang__pan_data_faced",
+      "pan_gang__pan_data_isruc",
+      "pan_gang__pan_data_tueg",
+      "pan_gang__pan_data_physionet_mi",
+      "pan_gang__pan_data_eegmat",
+      "pan_gang__pan_data_physionet2018",
+      "pan_gang__pan_data_chb_mit",
+      "pan_gang__pan_data_siena",
+      "pan_gang__pan_data_bcic2020_3",
+      "pan_gang__pan_data_bcic_iv_2a",
+      "pan_gang__pan_data_shu_mi",
+      "pan_gang__pan_data_modma",
+      "pan_gang__pan_data_raweeg",
+      "pan_gang__pan_data_ds006171",
+      "pan_gang__pan_data_ds006317",
+      "pan_gang__pan_data_ds006367",
+      "pan_gang__pan_data_ds006370",
+      "pan_gang__pan_data_ds006437",
+      "pan_gang__pan_data_ds006446",
+      "pan_gang__pan_data_ds006466",
+      "pan_gang__pan_data_ds006480",
+      "pan_gang__pan_data_ds006525",
+      "pan_gang__pan_data_ds006547"
+    ],
+    "status": "preprint",
+    "verification": "DBLP官方SPARQL完整作者查询（无LIMIT），已核作者身份；未逐篇全文审阅",
+    "source_type": "official_dblp_sparql",
+    "year_basis": "DBLP 卷/会议年；预印本依 DBLP CoRR 年。",
+    "resource_status": "已关联公开入口；具体访问范围见资源说明",
+    "evidence_urls": [
+      "https://arxiv.org/abs/2601.06134",
+      "https://wjq-learning.github.io/"
+    ],
+    "prior_paper_id": "PAN-2026-DeeperBrain",
+    "title_aliases": [
+      "DeeperBrain: A Neuro-Grounded EEG Foundation Model Towards Universal BCI"
+    ],
+    "title_zh": "DeeperBrain：面向通用脑机接口、以神经机理为依据的脑电基础模型",
+    "translation_source": "人工复核的中文辅助译名，非官方中文题名",
+    "id": "pan_journals_corr_abs-2601-06134",
+    "version_group": "fd56692bae41",
+    "title_en": "DeeperBrain: A Neuro-Grounded EEG Foundation Model Towards Universal BCI",
+    "record_id": "pan_gang_17bf24bb14d9",
+    "category_id": "neuro_affect",
+    "primary_category": "脑信号、脑机接口与情感健康",
+    "secondary_tags": [
+      "EEG脑电"
+    ],
+    "classification_basis": "题名及现有资源信息的主题粗分",
+    "classification_confidence": "high",
+    "classification_note": "按明确研究对象或任务归类；算法/模态交叉信息保留为辅助标签。",
+    "scholar_id": "pan_gang",
+    "scholar_name": "潘纲",
+    "work_title_group": "0338a0c8a5b5",
+    "code_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/",
+      "https://www.synapse.org/Synapse:syn50614194/files/",
+      "https://sleeptight.isr.uc.pt/",
+      "https://isip.piconepress.com/projects/tuh_eeg/html/downloads.shtml",
+      "https://physionet.org/content/eegmmidb/1.0.0/",
+      "https://physionet.org/content/eegmat/1.0.0/",
+      "https://physionet.org/content/challenge-2018/1.0.0/",
+      "https://physionet.org/content/chbmit/1.0.0/",
+      "https://physionet.org/content/siena-scalp-eeg/1.0.0/",
+      "https://osf.io/pq7vb/",
+      "https://www.bbci.de/competition/iv/#download",
+      "https://figshare.com/articles/software/shu_dataset/19228725",
+      "https://modma.lzu.edu.cn/data/application/",
+      "https://doi.org/10.18738/T8/SS2NHB",
+      "https://openneuro.org/datasets/ds006171/versions/1.0.0",
+      "https://openneuro.org/datasets/ds006317/versions/1.1.0",
+      "https://openneuro.org/datasets/ds006367/versions/1.0.1",
+      "https://openneuro.org/datasets/ds006370/versions/1.0.1",
+      "https://openneuro.org/datasets/ds006437/versions/1.1.0",
+      "https://openneuro.org/datasets/ds006446/versions/1.0.0",
+      "https://openneuro.org/datasets/ds006466/versions/1.0.1",
+      "https://openneuro.org/datasets/ds006480/versions/1.0.1",
+      "https://openneuro.org/datasets/ds006525/versions/1.0.0",
+      "https://openneuro.org/datasets/ds006547/versions/1.0.0"
+    ],
+    "model_urls": [],
+    "scholar_ids": [
+      "pan_gang",
+      "jiquan_wang"
+    ],
+    "scholar_names": [
+      "潘纲",
+      "王继权"
+    ],
+    "source_record_ids": [
+      "pan_gang_17bf24bb14d9"
+    ],
+    "scholar_categories": {
+      "pan_gang": {
+        "category_id": "neuro_affect",
+        "label": "脑信号、脑机接口与情感健康",
+        "scholar_name": "潘纲",
+        "secondary_tags": [
+          "EEG脑电"
+        ],
+        "confidence": "high",
+        "note": "按明确研究对象或任务归类；算法/模态交叉信息保留为辅助标签。"
+      },
+      "jiquan_wang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "王继权",
+        "secondary_tags": [
+          "EEG/脑电",
+          "脑机接口/神经解码",
+          "脑电基础大模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "SleepVLM: A Rule-Grounded Vision-Language Model for Auditable Sleep Staging",
-      "title_en": "SleepVLM: A Rule-Grounded Vision-Language Model for Auditable Sleep Staging",
-      "title_zh": "SleepVLM：以规则为依据、支持可审查睡眠分期的视觉语言模型",
-      "year": 2026,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "Guifeng Deng",
-        "Pan Wang",
-        "Meng-Fan Niu",
-        "Jiquan Wang",
-        "Shu-Ying Rao",
-        "Junyi Xie",
-        "Xiang Chen",
-        "Sha Zhao",
-        "Gang Pan",
-        "Wan-Jun Guo",
-        "Tao Li",
-        "Hai-Teng Jiang"
-      ],
-      "doi": "",
-      "paper_url": "https://www.semanticscholar.org/paper/b47977d61d466e9ead96f74156f4d324cdb3587d",
-      "source_url": "https://www.semanticscholar.org/paper/b47977d61d466e9ead96f74156f4d324cdb3587d",
-      "topics": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化",
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "b47977d61d466e9ead96f74156f4d324cdb3587d",
-      "semantic_scholar_author_id": "2110190007",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "人工复核的中文辅助译名，非官方中文题名",
-      "record_id": "jiquan_wang_f19b7fa97d53",
-      "category_id": "eeg_foundation",
-      "primary_category": "脑电基础模型与通用解码",
-      "secondary_tags": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "jiquan_wang",
-      "scholar_name": "王继权",
-      "work_title_group": "39356059b545",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "72040df8d93eab14",
+    "primary_categories_by_scholar": [
+      "潘纲：脑信号、脑机接口与情感健康",
+      "王继权：脑电基础模型与通用解码"
+    ],
+    "evidence_labels": [
+      "论文主页/PDF",
+      "项目主页/资源说明"
+    ],
+    "openalex_id": "https://openalex.org/W7123616012",
+    "openalex_author_id": "https://openalex.org/A5121941343",
+    "cited_by_count": 16,
+    "abstract_en": "Electroencephalography (EEG) foundation models hold significant promise for universal Brain-Computer Interfaces (BCIs). However, existing approaches often rely on end-to-end fine-tuning and exhibit limited efficacy under frozen-probing protocols, lacking the intrinsic universality required for broad generalization. This limitation stems from adapting general-purpose sequence architectures that overlook the biophysical and dynamical principles of neural activity. To bridge this gap, we propose DeeperBrain, a neuro-grounded foundation model integrating domain-specific inductive biases into its model design and learning objectives. Architecturally, DeeperBrain incorporates a volume conduction-aware channel encoding to model spatial mixing via 3D geometry, and a neurodynamics-aware temporal encoding capturing slow adaptations using oscillatory and exponential bases. For pretraining, we introduce a dual-objective strategy combining Masked EEG Reconstruction (MER) for local fidelity and Neurodynamics Statistics Prediction (NSP). NSP enforces alignment with macroscopic brain states by predicting interpretable order parameters, including spectral power, functional connectivity, cross-frequency coupling, and dynamic complexity. Extensive experiments demonstrate that DeeperBrain achieves state-of-the-art or highly competitive performance under end-to-end fine-tuning. Crucially, it maintains superior efficacy under a rigorous frozen-probing protocol, verifying that embedding neuroscientific first principles endows learned representations with the intrinsic universality essential for universal BCI. The code will be publicly available.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "脑电图 (EEG) 基础模型为通用脑机接口 (BCI) 带来了巨大希望。然而，现有的方法通常依赖于端到端的微调，并且在冻结探测协议下表现出有限的功效，缺乏广泛泛化所需的内在普遍性。这种限制源于采用通用序列架构，而忽略了神经活动的生物物理和动力学原理。为了弥补这一差距，我们提出了 DeeperBrain，这是一种基于神经的基础模型，将特定领域的归纳偏差集成到其模型设计和学习目标中。在架构上，DeeperBrain 结合了体积传导..."
+  },
+  {
+    "title": "EEGDiffuser: Label-guided EEG signals synthesis via diffusion model for BCI applications",
+    "title_en": "EEGDiffuser: Label-guided EEG signals synthesis via diffusion model for BCI applications",
+    "title_zh": "EEGDiffuser：通过用于BCI应用的扩散模型进行标签引导的EEG信号合成。",
+    "year": 2026,
+    "venue": "Neurocomputing",
+    "authors": [
+      "Jiquan Wang",
+      "Sha Zhao",
+      "Zhiling Luo",
+      "Yang-Xuan Zhou",
+      "Shi-Jian Li",
+      "Gang Pan"
+    ],
+    "doi": "10.1016/j.neucom.2026.132636",
+    "paper_url": "https://www.semanticscholar.org/paper/bdd7267758c53d9d8a9853935c5b1555f4bd2162",
+    "source_url": "https://www.semanticscholar.org/paper/bdd7267758c53d9d8a9853935c5b1555f4bd2162",
+    "topics": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化",
+      "脑机接口与神经解码"
+    ],
+    "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W7118158378",
+    "openalex_author_id": "https://openalex.org/A5121941343",
+    "semantic_scholar_id": "bdd7267758c53d9d8a9853935c5b1555f4bd2162",
+    "semantic_scholar_author_id": "2110190007",
+    "cited_by_count": 3,
+    "publication_types": [
+      "JournalArticle"
+    ],
+    "candidate_source": false,
+    "source_kind": "Semantic Scholar author works",
+    "translation_source": "中文辅助机器译名，已做术语规则校正；非作者官方中文题名",
+    "record_id": "jiquan_wang_feba6679c3b1",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码",
+    "secondary_tags": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "jiquan_wang",
+    "scholar_name": "王继权",
+    "work_title_group": "ad247975b77f",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "jiquan_wang",
+      "pan_gang"
+    ],
+    "scholar_names": [
+      "王继权",
+      "潘纲"
+    ],
+    "source_record_ids": [
+      "jiquan_wang_feba6679c3b1"
+    ],
+    "scholar_categories": {
+      "jiquan_wang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "王继权",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "pan_gang": {
+        "category_id": "neuromorphic",
+        "label": "类脑算法、脉冲网络与神经形态系统",
+        "scholar_name": "潘纲",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "TCF4 contributes to OA progression by regulating the transcription of LOXL1",
-      "title_en": "TCF4 contributes to OA progression by regulating the transcription of LOXL1",
-      "title_zh": "TCF4 通过调节 LOXL1 的转录来促进 OA 进展",
-      "year": 2026,
-      "venue": "Journal of Inflammation",
-      "authors": [
-        "Jiquan Wang",
-        "Xiaojun Liu",
-        "Xin-Yi Fan",
-        "Yiming Zhang",
-        "Hai-Yang Ouyang"
-      ],
-      "doi": "10.1186/s12950-026-00494-w",
-      "paper_url": "https://www.semanticscholar.org/paper/c867421e52c8d5249a51bea031e2858e8f613252",
-      "source_url": "https://www.semanticscholar.org/paper/c867421e52c8d5249a51bea031e2858e8f613252",
-      "topics": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化",
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "c867421e52c8d5249a51bea031e2858e8f613252",
-      "semantic_scholar_author_id": "2110190007",
-      "cited_by_count": 0,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "jiquan_wang_2e403df54ce3",
-      "category_id": "eeg_foundation",
-      "primary_category": "脑电基础模型与通用解码",
-      "secondary_tags": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "jiquan_wang",
-      "scholar_name": "王继权",
-      "work_title_group": "5d2eb2ad9474",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "d97d7381ee07b0eb",
+    "primary_categories_by_scholar": [
+      "王继权：脑电基础模型与通用解码",
+      "潘纲：类脑算法、脉冲网络与神经形态系统"
+    ],
+    "dblp_key": "journals/ijon/WangZLZLP26"
+  },
+  {
+    "title": "EvoBrain: Continual Learning of EEG Foundation Models Across Heterogeneous BCI Tasks",
+    "title_en": "EvoBrain: Continual Learning of EEG Foundation Models Across Heterogeneous BCI Tasks",
+    "title_zh": "EvoBrain：跨异构 BCI 任务的 EEG 基础模型的持续学习。",
+    "year": 2026,
+    "venue": "arXiv.org",
+    "authors": [
+      "Yang-Xuan Zhou",
+      "Shan Zhao",
+      "Jiquan Wang",
+      "Shi-Jian Li",
+      "Gang Pan"
+    ],
+    "doi": "10.48550/arXiv.2606.01767",
+    "paper_url": "https://www.semanticscholar.org/paper/7256113e8bbdfda3f4a4023167b4d5acf100383d",
+    "source_url": "https://www.semanticscholar.org/paper/7256113e8bbdfda3f4a4023167b4d5acf100383d",
+    "topics": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化",
+      "脑电基础大模型",
+      "脑机接口与神经解码"
+    ],
+    "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "7256113e8bbdfda3f4a4023167b4d5acf100383d",
+    "semantic_scholar_author_id": "2110190007",
+    "cited_by_count": 0,
+    "publication_types": [
+      "JournalArticle"
+    ],
+    "candidate_source": false,
+    "source_kind": "Semantic Scholar author works",
+    "translation_source": "中文辅助机器译名，已做术语规则校正；非作者官方中文题名",
+    "record_id": "jiquan_wang_94765c5319ba",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码",
+    "secondary_tags": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "jiquan_wang",
+    "scholar_name": "王继权",
+    "work_title_group": "fa53c0e7d70e",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "jiquan_wang"
+    ],
+    "scholar_names": [
+      "王继权"
+    ],
+    "source_record_ids": [
+      "jiquan_wang_94765c5319ba"
+    ],
+    "scholar_categories": {
+      "jiquan_wang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "王继权",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Tuning the Mind: Closed-loop Emotion Regulation via AIGC Music Driven by Wearable Multimodal Neurofeedback",
-      "title_en": "Tuning the Mind: Closed-loop Emotion Regulation via AIGC Music Driven by Wearable Multimodal Neurofeedback",
-      "title_zh": "调谐心绪：由可穿戴多模态神经反馈驱动的 AI 生成音乐闭环情绪调节",
-      "year": 2026,
-      "venue": "IEEE Transactions on Affective Computing",
-      "authors": [
-        "Sha Zhao",
-        "Song Yi",
-        "Yang-Xuan Zhou",
-        "Jiadong Pan",
-        "Jiquan Wang",
-        "Jie Xia",
-        "Shi-Jian Li",
-        "Shurong Dong",
-        "Gang Pan"
-      ],
-      "doi": "10.1109/taffc.2026.3679522",
-      "paper_url": "https://www.semanticscholar.org/paper/dcc76180e23aa9ab0e726a97158f920c9d34338e",
-      "source_url": "https://www.semanticscholar.org/paper/dcc76180e23aa9ab0e726a97158f920c9d34338e",
-      "topics": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化",
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "dcc76180e23aa9ab0e726a97158f920c9d34338e",
-      "semantic_scholar_author_id": "2110190007",
-      "cited_by_count": 0,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "人工复核的中文辅助译名，非官方中文题名",
-      "record_id": "jiquan_wang_9fff33e48c46",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "jiquan_wang",
-      "scholar_name": "王继权",
-      "work_title_group": "3a499b278e29",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "a1b16995aeaba892",
+    "primary_categories_by_scholar": [
+      "王继权：脑电基础模型与通用解码"
+    ],
+    "abstract_en": "Electroencephalography (EEG) is the cornerstone of non-invasive brain-computer interfaces (BCIs), yet conventional decoding relies on fragmented, task-specific architectures that severely limit cross-task scalability. While EEG foundation models pre-trained on massive corpora promise universal brain decoding, current post-training depends on task-isolated fine-tuning. This static paradigm restricts knowledge transfer across heterogeneous tasks, hinders model scalability, and incurs computational and storage overheads that scale linearly with task count. To overcome these bottlenecks, we formulate downstream adaptation as a cross-task continual learning problem and propose EvoBrain, a dynamic, task-aware continual learning framework for unified EEG decoding. EvoBrain addresses the plasticity-stability trade-off via two complementary components: (1) Neuro-Spectral Task Normalization (NSN) aligns incoming tasks with historical statistics while recalibrating spectral responses to handle distributional and neuro-spectral shifts; and (2) Response-Affinity Distillation (RAD), combined with time-dependent replay, preserves old-task response geometry and promotes selective knowledge transfer between spectrally compatible tasks, effectively mitigating forgetting. Extensive evaluations across six distinct BCI tasks demonstrate that EvoBrain consistently surpasses state-of-the-art methods across diverse foundation backbones, optimally balancing plasticity and stability. To our knowledge, this work pioneers cross-task continual learning in the EEG domain, advancing the realization of a unified, one-for-all brain decoding system.",
+    "abstract_source": "arxiv_api",
+    "pdf_url": "https://arxiv.org/pdf/2606.01767.pdf",
+    "abstract_zh": "脑电图 (EEG) 是非侵入性脑机接口 (BCI) 的基石，但传统解码依赖于碎片化的、特定于任务的架构，这严重限制了跨任务的可扩展性。虽然在海量语料库上预训练的脑电图基础模型有望实现通用大脑解码，但目前的后训练依赖于任务隔离的微调。这种静态范式限制了跨异构任务的知识转移，阻碍了模型的可扩展性，并产生随任务数量线性扩展的计算和存储开销。为了克服这些瓶颈，我们将下游适应制定为跨任务持续学习问题，并提出 EvoBrain，一种动态..."
+  },
+  {
+    "title": "EvoBrain: Continual Learning of EEG Foundation Models Across Heterogeneous BCI Tasks",
+    "year": 2026,
+    "venue": "CoRR",
+    "authors": [
+      "Yangxuan Zhou",
+      "Sha Zhao",
+      "Jiquan Wang",
+      "Shijian Li",
+      "Gang Pan"
+    ],
+    "authors_dblp": [
+      "Yangxuan Zhou",
+      "Sha Zhao",
+      "Jiquan Wang",
+      "Shijian Li",
+      "Gang Pan 0001"
+    ],
+    "doi": "10.48550/ARXIV.2606.01767",
+    "doi_urls": [
+      "https://doi.org/10.48550/ARXIV.2606.01767"
+    ],
+    "paper_url": "https://doi.org/10.48550/ARXIV.2606.01767",
+    "pdf_url": "https://arxiv.org/pdf/2606.01767",
+    "document_urls": [
+      "https://doi.org/10.48550/ARXIV.2606.01767"
+    ],
+    "dblp_key": "journals/corr/abs-2606-01767",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2606-01767",
+    "publication_types": [
+      "https://dblp.org/rdf/schema#Informal",
+      "https://dblp.org/rdf/schema#Publication"
+    ],
+    "topics": [
+      "EEG/脑电",
+      "脑机接口/神经解码",
+      "脑电基础大模型",
+      "脑机接口与神经解码"
+    ],
+    "topic_basis": "基于标题关键词初筛；未视为全文分类",
+    "resource_ids": [
+      "pan_gang__pan_data_faced",
+      "pan_gang__pan_data_isruc",
+      "pan_gang__pan_data_physionet_mi",
+      "pan_gang__pan_data_bcic2020_3",
+      "pan_gang__pan_data_bcic_iv_2a",
+      "pan_gang__pan_data_mumtaz2016"
+    ],
+    "status": "preprint",
+    "verification": "DBLP官方SPARQL完整作者查询（无LIMIT），已核作者身份；未逐篇全文审阅",
+    "source_type": "official_dblp_sparql",
+    "year_basis": "DBLP 卷/会议年；预印本依 DBLP CoRR 年。",
+    "resource_status": "已关联公开入口；具体访问范围见资源说明",
+    "evidence_urls": [
+      "https://arxiv.org/abs/2606.01767",
+      "https://wjq-learning.github.io/"
+    ],
+    "prior_paper_id": "PAN-2026-EvoBrain",
+    "title_aliases": [
+      "EvoBrain: Continual Learning of EEG Foundation Models Across Heterogeneous BCI Tasks"
+    ],
+    "title_zh": "EvoBrain：面向异构脑机接口任务的脑电基础模型持续学习",
+    "translation_source": "人工复核的中文辅助译名，非官方中文题名",
+    "id": "pan_journals_corr_abs-2606-01767",
+    "version_group": "d88d65482732",
+    "title_en": "EvoBrain: Continual Learning of EEG Foundation Models Across Heterogeneous BCI Tasks",
+    "record_id": "pan_gang_10d091588c08",
+    "category_id": "neuro_affect",
+    "primary_category": "脑信号、脑机接口与情感健康",
+    "secondary_tags": [
+      "EEG脑电",
+      "泛化与持续学习"
+    ],
+    "classification_basis": "题名及现有资源信息的主题粗分",
+    "classification_confidence": "high",
+    "classification_note": "按明确研究对象或任务归类；算法/模态交叉信息保留为辅助标签。",
+    "scholar_id": "pan_gang",
+    "scholar_name": "潘纲",
+    "work_title_group": "fa53c0e7d70e",
+    "code_urls": [],
+    "data_urls": [
+      "https://www.synapse.org/Synapse:syn50614194/files/",
+      "https://sleeptight.isr.uc.pt/",
+      "https://physionet.org/content/eegmmidb/1.0.0/",
+      "https://osf.io/pq7vb/",
+      "https://www.bbci.de/competition/iv/#download",
+      "https://doi.org/10.6084/m9.figshare.4244171.v2"
+    ],
+    "model_urls": [],
+    "scholar_ids": [
+      "pan_gang",
+      "jiquan_wang"
+    ],
+    "scholar_names": [
+      "潘纲",
+      "王继权"
+    ],
+    "source_record_ids": [
+      "pan_gang_10d091588c08"
+    ],
+    "scholar_categories": {
+      "pan_gang": {
+        "category_id": "neuro_affect",
+        "label": "脑信号、脑机接口与情感健康",
+        "scholar_name": "潘纲",
+        "secondary_tags": [
+          "EEG脑电",
+          "泛化与持续学习"
+        ],
+        "confidence": "high",
+        "note": "按明确研究对象或任务归类；算法/模态交叉信息保留为辅助标签。"
+      },
+      "jiquan_wang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "王继权",
+        "secondary_tags": [
+          "EEG/脑电",
+          "脑机接口/神经解码",
+          "脑电基础大模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "ZeroMAG: Zero-Shot Multimodal Adapter Generation for Plug-and-Play EEG Foundation Models",
-      "title_en": "ZeroMAG: Zero-Shot Multimodal Adapter Generation for Plug-and-Play EEG Foundation Models",
-      "title_zh": "ZeroMAG：即插即用脑电图基础模型的零射击多模态适配器生成",
-      "year": 2026,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "Yu-Bo Wang",
-        "Jing-Ying Ma",
-        "Xin-Liang Zhou",
-        "Yang-Xuan Zhou",
-        "Jiquan Wang",
-        "Sha Zhao",
-        "Yi-Yuan Yang",
-        "Yi Ding",
-        "Zi-Yu Jia",
-        "Chen-Yu Liu",
-        "Cun-Tai Guan"
-      ],
-      "doi": "",
-      "paper_url": "https://www.semanticscholar.org/paper/4413ba16a50ac0360c1382ce7fb2d042c365c6de",
-      "source_url": "https://www.semanticscholar.org/paper/4413ba16a50ac0360c1382ce7fb2d042c365c6de",
-      "topics": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化",
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "4413ba16a50ac0360c1382ce7fb2d042c365c6de",
-      "semantic_scholar_author_id": "2110190007",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "jiquan_wang_2d39021171c8",
-      "category_id": "eeg_foundation",
-      "primary_category": "脑电基础模型与通用解码",
-      "secondary_tags": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "jiquan_wang",
-      "scholar_name": "王继权",
-      "work_title_group": "7152deb9111f",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "1a59a9e3e02a9761",
+    "primary_categories_by_scholar": [
+      "潘纲：脑信号、脑机接口与情感健康",
+      "王继权：脑电基础模型与通用解码"
+    ],
+    "evidence_labels": [
+      "论文主页/PDF",
+      "项目主页/资源说明"
+    ],
+    "openalex_id": "https://openalex.org/W7163185035",
+    "openalex_author_id": "https://openalex.org/A5124545455",
+    "abstract_en": "Electroencephalography (EEG) is the cornerstone of non-invasive brain-computer interfaces (BCIs), yet conventional decoding relies on fragmented, task-specific architectures that severely limit cross-task scalability. While EEG foundation models pre-trained on massive corpora promise universal brain decoding, current post-training depends on task-isolated fine-tuning. This static paradigm restricts knowledge transfer across heterogeneous tasks, hinders model scalability, and incurs computational and storage overheads that scale linearly with task count. To overcome these bottlenecks, we formulate downstream adaptation as a cross-task continual learning problem and propose EvoBrain, a dynamic, task-aware continual learning framework for unified EEG decoding. EvoBrain addresses the plasticity-stability trade-off via two complementary components: (1) Neuro-Spectral Task Normalization (NSN) aligns incoming tasks with historical statistics while recalibrating spectral responses to handle distributional and neuro-spectral shifts; and (2) Response-Affinity Distillation (RAD), combined with time-dependent replay, preserves old-task response geometry and promotes selective knowledge transfer between spectrally compatible tasks, effectively mitigating forgetting. Extensive evaluations across six distinct BCI tasks demonstrate that EvoBrain consistently surpasses state-of-the-art methods across diverse foundation backbones, optimally balancing plasticity and stability. To our knowledge, this work pioneers cross-task continual learning in the EEG domain, advancing the realization of a unified, one-for-all brain decoding system.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "脑电图 (EEG) 是非侵入性脑机接口 (BCI) 的基石，但传统解码依赖于碎片化的、特定于任务的架构，这严重限制了跨任务的可扩展性。虽然在海量语料库上预训练的脑电图基础模型有望实现通用大脑解码，但目前的后训练依赖于任务隔离的微调。这种静态范式限制了跨异构任务的知识转移，阻碍了模型的可扩展性，并产生随任务数量线性扩展的计算和存储开销。为了克服这些瓶颈，我们将下游适应制定为跨任务持续学习问题，并提出 EvoBrain，一种动态..."
+  },
+  {
+    "title": "SleepVLM: A Rule-Grounded Vision-Language Model for Auditable Sleep Staging",
+    "year": 2026,
+    "venue": "arXiv",
+    "authors": [
+      "Guifeng Deng",
+      "Pan Wang",
+      "Mengfan Niu",
+      "Jiquan Wang",
+      "Shuying Rao",
+      "Junyi Xie",
+      "Xi’ang Chen",
+      "Sha Zhao",
+      "Gang Pan",
+      "Wanjun Guo",
+      "Tao Li",
+      "Haiteng Jiang"
+    ],
+    "doi": "10.48550/arxiv.2603.26738",
+    "paper_url": "https://arxiv.org/abs/2603.26738",
+    "pdf_url": "https://arxiv.org/pdf/2603.26738",
+    "dblp_key": "",
+    "source_url": "https://arxiv.org/abs/2603.26738",
+    "topics": [
+      "情感/心理/临床",
+      "视觉/图像/三维",
+      "语言/大模型",
+      "多模态与大语言模型",
+      "医学影像与脑疾病诊断"
+    ],
+    "resource_ids": [
+      "pan_gang__pan_code_pan_2026_sleepvlm",
+      "pan_gang__pan_data_mass",
+      "pan_gang__pan_data_mass_ex",
+      "pan_gang__pan_data_abc",
+      "pan_gang__pan_data_dcsm",
+      "pan_gang__pan_data_zuamhcs",
+      "pan_gang__pan_extra_sleepvlm_weights"
+    ],
+    "status": "preprint",
+    "verification": "复用本轮 2026-11-14 前阶段原始论文/作者归属核验；见 work/eeg_2025_2026/pan_team.json 与 work/eeg_data_links/pan_dataset_mapping.json。",
+    "source_type": "prior_primary_verified_supplement",
+    "year_basis": "原始出版社/作者页面标注年份；与 DBLP 基表分开保留。",
+    "resource_status": "已关联公开入口；具体访问范围见资源说明",
+    "evidence_urls": [
+      "https://arxiv.org/abs/2603.26738"
+    ],
+    "prior_paper_id": "PAN-2026-SleepVLM",
+    "title_zh": "SleepVLM：以规则为依据、支持可审查睡眠分期的视觉语言模型",
+    "translation_source": "人工复核的中文辅助译名，非官方中文题名",
+    "id": "pan_4b567385c17b6b",
+    "version_group": "a071886d484c",
+    "title_en": "SleepVLM: A Rule-Grounded Vision-Language Model for Auditable Sleep Staging",
+    "record_id": "pan_gang_f19b7fa97d53",
+    "category_id": "neuro_affect",
+    "primary_category": "脑信号、脑机接口与情感健康",
+    "secondary_tags": [
+      "睡眠与癫痫",
+      "大模型/语言",
+      "视觉/三维"
+    ],
+    "classification_basis": "题名及现有资源信息的主题粗分",
+    "classification_confidence": "high",
+    "classification_note": "按明确研究对象或任务归类；算法/模态交叉信息保留为辅助标签。",
+    "scholar_id": "pan_gang",
+    "scholar_name": "潘纲",
+    "work_title_group": "39356059b545",
+    "code_urls": [
+      "https://github.com/Deng-GuiFeng/SleepVLM"
+    ],
+    "data_urls": [
+      "https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP3/9MYUCS",
+      "https://zenodo.org/records/19087197",
+      "https://sleepdata.org/datasets/abc",
+      "https://erda.ku.dk/public/archives/db553715ecbe1f3ac66c1dc569826eef/published-archive.html",
+      "https://arxiv.org/html/2603.26738v4"
+    ],
+    "model_urls": [
+      "https://huggingface.co/Feng613/SleepVLM-3B/tree/main"
+    ],
+    "scholar_ids": [
+      "pan_gang",
+      "jiquan_wang"
+    ],
+    "scholar_names": [
+      "潘纲",
+      "王继权"
+    ],
+    "source_record_ids": [
+      "pan_gang_f19b7fa97d53",
+      "jiquan_wang_f19b7fa97d53"
+    ],
+    "scholar_categories": {
+      "pan_gang": {
+        "category_id": "neuro_affect",
+        "label": "脑信号、脑机接口与情感健康",
+        "scholar_name": "潘纲",
+        "secondary_tags": [
+          "睡眠与癫痫",
+          "大模型/语言",
+          "视觉/三维"
+        ],
+        "confidence": "high",
+        "note": "按明确研究对象或任务归类；算法/模态交叉信息保留为辅助标签。"
+      },
+      "jiquan_wang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "王继权",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "BrainUICL: An Unsupervised Individual Continual Learning Framework for EEG Applications",
-      "title_en": "BrainUICL: An Unsupervised Individual Continual Learning Framework for EEG Applications",
-      "title_zh": "BrainUICL：脑电图应用的无监督个人持续学习框架。",
-      "year": 2025,
-      "venue": "International Conference on Learning Representations",
-      "authors": [
-        "Yang-Xuan Zhou",
-        "Sha Zhao",
-        "Jiquan Wang",
-        "Hai-Teng Jiang",
-        "Shi-Jian Li",
-        "Tao Li",
-        "Gang Pan"
-      ],
-      "doi": "",
-      "paper_url": "https://www.semanticscholar.org/paper/7043d9e76c0cf76844ceb27f8aac99898c622b69",
-      "source_url": "https://www.semanticscholar.org/paper/7043d9e76c0cf76844ceb27f8aac99898c622b69",
-      "topics": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化",
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "7043d9e76c0cf76844ceb27f8aac99898c622b69",
-      "semantic_scholar_author_id": "2110190007",
-      "cited_by_count": 26,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "中文辅助机器译名，已做术语规则校正；非作者官方中文题名",
-      "record_id": "jiquan_wang_02682a359b67",
-      "category_id": "eeg_foundation",
-      "primary_category": "脑电基础模型与通用解码",
-      "secondary_tags": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "jiquan_wang",
-      "scholar_name": "王继权",
-      "work_title_group": "f6796ede5292",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "a4431f85f907c7d4",
+    "primary_categories_by_scholar": [
+      "潘纲：脑信号、脑机接口与情感健康",
+      "王继权：脑电基础模型与通用解码"
+    ],
+    "evidence_labels": [
+      "论文主页/PDF",
+      "论文主页/PDF"
+    ],
+    "openalex_id": "https://openalex.org/W7147748052",
+    "openalex_author_id": "https://openalex.org/A5121941343",
+    "abstract_en": "Sleep staging is essential for sleep assessment and disorder diagnosis. In recent years, automatic sleep staging systems have achieved accuracy approaching that of human experts, but the black-box nature of their predictions hinders clinical adoption. Existing interpretability methods offer partial insight into model behavior, but their outputs still require expert reinterpretation and do not provide a direct basis for auditing individual predictions. To improve trustworthiness, we propose the task of auditable sleep staging. To solve this task, we present SleepVLM, a vision-language model that casts sleep staging as visual reasoning over rendered polysomnography (PSG) waveform images. For each epoch, SleepVLM outputs a stage together with the applicable American Academy of Sleep Medicine (AASM) rules and an auditable rationale. The model is trained using a two-stage framework: Waveform-Perceptual Pre-training followed by Rule-Grounded Supervised Fine-tuning over a mixture of fine-grained and coarse annotations. Experiments on four datasets show that SleepVLM outperforms state-of-the-art methods on average. An automated AASM-feature audit shows broad coverage of stage-defining evidence in the rationales, and independent experts validate their reasoning quality. To facilitate further research, we construct and release MASS-EX, an expert-annotated dataset for rule-grounded sleep staging with AASM rule annotations and expert-written rationales.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "睡眠分期对于睡眠评估和疾病诊断至关重要。近年来，自动睡眠分期系统的准确性已接近人类专家，但其预测的黑箱性质阻碍了临床采用。现有的可解释性方法提供了对模型行为的部分洞察，但其输出仍然需要专家重新解释，并且不为审核个体预测提供直接基础。为了提高可信度，我们提出了可审计的睡眠分期任务。为了解决这一任务，我们提出了 SleepVLM，这是一种视觉语言模型，它将睡眠分期视为对渲染的多导睡眠图 (PSG) 波形图像的视觉推理。对于电子..."
+  },
+  {
+    "title": "TCF4 contributes to OA progression by regulating the transcription of LOXL1",
+    "title_en": "TCF4 contributes to OA progression by regulating the transcription of LOXL1",
+    "title_zh": "TCF4 通过调节 LOXL1 的转录来促进 OA 进展",
+    "year": 2026,
+    "venue": "Journal of Inflammation",
+    "authors": [
+      "Jiquan Wang",
+      "Xiaojun Liu",
+      "Xin-Yi Fan",
+      "Yiming Zhang",
+      "Hai-Yang Ouyang"
+    ],
+    "doi": "10.1186/s12950-026-00494-w",
+    "paper_url": "https://www.semanticscholar.org/paper/c867421e52c8d5249a51bea031e2858e8f613252",
+    "source_url": "https://www.semanticscholar.org/paper/c867421e52c8d5249a51bea031e2858e8f613252",
+    "topics": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化",
+      "智能芯片与计算系统"
+    ],
+    "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W7139088391",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "c867421e52c8d5249a51bea031e2858e8f613252",
+    "semantic_scholar_author_id": "2110190007",
+    "cited_by_count": 0,
+    "publication_types": [
+      "JournalArticle"
+    ],
+    "candidate_source": false,
+    "source_kind": "Semantic Scholar author works",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "jiquan_wang_2e403df54ce3",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码",
+    "secondary_tags": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "jiquan_wang",
+    "scholar_name": "王继权",
+    "work_title_group": "5d2eb2ad9474",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "jiquan_wang"
+    ],
+    "scholar_names": [
+      "王继权"
+    ],
+    "source_record_ids": [
+      "jiquan_wang_2e403df54ce3"
+    ],
+    "scholar_categories": {
+      "jiquan_wang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "王继权",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "CBraMod: A Criss-Cross Brain Foundation Model for EEG Decoding",
-      "title_en": "CBraMod: A Criss-Cross Brain Foundation Model for EEG Decoding",
-      "title_zh": "CBraMod：用于脑电解码的交叉脑基础模型",
-      "year": 2025,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "Jiquan Wang"
-      ],
-      "doi": "",
-      "paper_url": "https://mlanthology.org/iclr/2025/wang2025iclr-cbramod/",
-      "source_url": "https://mlanthology.org/iclr/2025/wang2025iclr-cbramod/",
-      "topics": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化",
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": false,
-      "source_kind": "代表论文/官方页面",
-      "record_id": "jiquan_wang_1bfa26bdabb3",
-      "category_id": "eeg_foundation",
-      "primary_category": "脑电基础模型与通用解码",
-      "secondary_tags": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "jiquan_wang",
-      "scholar_name": "王继权",
-      "work_title_group": "3a094e6613d2",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "9993bb4e32424808",
+    "primary_categories_by_scholar": [
+      "王继权：脑电基础模型与通用解码"
+    ],
+    "abstract_en": "BACKGROUND: Osteoarthritis (OA) is a chronic degenerative joint disease that seriously affects patients’ quality of life. Lysyl oxidase like 1 (LOXL1), a member of the lysyl oxidase protein family, whose role in OA is unknown. METHODS: The gene expression pattern was investigated by the Gene Expression Omnibus database. Quantitative real-time PCR (qRT-PCR) and western blot were used to detect the gene expression in tissues and cells. Interleukin-1β (IL-1β) was applied to induce an inflammatory chondrocyte injury model in vitro, mimicking certain aspects of OA pathology, and the cell viability was measured by 3-(4,5-dimethyl-2-thiazolyl)-2,5-diphenyl tetrazolium bromide (MTT) assay. 5-Ethynyl-2’-deoxyuridine (EdU) staining, flow cytometry, and enzyme linked immunosorbent assay (ELISA) assays were utilized for function examination. In addition, the monoiodoacetate (MIA)-induced arthritis mouse models were constructed to evaluate the effects of LOXL1 in vivo, and the hematoxylin-eosin (H&E) staining, safranin-O/fast green (SOFG) staining, and immunohistochemistry (IHC) were used to estimate the histological and morphological changes of the knee joints obtained from the mice. The transcriptional binding between genes was verified by chromatin immunoprecipitation (ChIP) and dual luciferase reporter assay. RESULTS: LOXL1 was up-regulated in tissues of OA. The down-regulation of LOXL1 promoted cell proliferation and inhibited apoptosis, inflammation, oxidative stress, and extracellular matrix (ECM) degradation in vitro. Meanwhile, LOXL1 knockdown exhibited the same results in vivo. Mechanically, transcription factor 4 (TCF4) activated the transcription of LOXL1, and TCF4 deficiency-mediated effects on chondrocyte injury were weakened by LOXL1. CONCLUSION: In summary, TCF4 may contribute to OA pathology by activating LOXL1 transcription, and the TCF4/LOXL1 axis is involved in IL-1β-induced chondrocyte dysfunction and MIA-induced joint degeneration.",
+    "abstract_source": "openalex_doi",
+    "pdf_url": "https://doi.org/10.1186/s12950-026-00494-w",
+    "abstract_zh": "背景：骨关节炎（OA）是一种慢性退行性关节疾病，严重影响患者的生活质量。赖氨酰氧化酶样 1 (LOXL1) 是赖氨酰氧化酶蛋白家族的成员，其在 OA 中的作用尚不清楚。方法：通过基因表达综合数据库研究基因表达模式。采用实时定量PCR（qRT-PCR）和蛋白质印迹法检测组织和细胞中的基因表达。应用白细胞介素-1β (IL-1β) 在体外诱导炎症软骨细胞损伤模型，模拟 OA 病理学的某些方面，并通过 3-(4,5-二甲基-2-噻唑基)-2,5-二苯基溴化四唑 (MTT) 测定来测量细胞活力。 5-乙炔基..."
+  },
+  {
+    "title": "ZeroMAG: Zero-Shot Multimodal Adapter Generation for Plug-and-Play EEG Foundation Models",
+    "title_en": "ZeroMAG: Zero-Shot Multimodal Adapter Generation for Plug-and-Play EEG Foundation Models",
+    "title_zh": "ZeroMAG：即插即用脑电图基础模型的零射击多模态适配器生成",
+    "year": 2026,
+    "venue": "CoRR",
+    "authors": [
+      "Yu-Bo Wang",
+      "Jing-Ying Ma",
+      "Xin-Liang Zhou",
+      "Yang-Xuan Zhou",
+      "Jiquan Wang",
+      "Sha Zhao",
+      "Yi-Yuan Yang",
+      "Yi Ding",
+      "Zi-Yu Jia",
+      "Chen-Yu Liu",
+      "Cun-Tai Guan"
+    ],
+    "doi": "10.48550/ARXIV.2610.03546",
+    "paper_url": "https://www.semanticscholar.org/paper/4413ba16a50ac0360c1382ce7fb2d042c365c6de",
+    "source_url": "https://www.semanticscholar.org/paper/4413ba16a50ac0360c1382ce7fb2d042c365c6de",
+    "topics": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化",
+      "脑电基础大模型",
+      "多模态与大语言模型"
+    ],
+    "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W7220365151",
+    "openalex_author_id": "https://openalex.org/A5121941343",
+    "semantic_scholar_id": "4413ba16a50ac0360c1382ce7fb2d042c365c6de",
+    "semantic_scholar_author_id": "2110190007",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "Semantic Scholar author works",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "jiquan_wang_2d39021171c8",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码",
+    "secondary_tags": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "jiquan_wang",
+    "scholar_name": "王继权",
+    "work_title_group": "7152deb9111f",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "jiquan_wang",
+      "yi_ding"
+    ],
+    "scholar_names": [
+      "王继权",
+      "Yi Ding"
+    ],
+    "source_record_ids": [
+      "jiquan_wang_2d39021171c8"
+    ],
+    "scholar_categories": {
+      "jiquan_wang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "王继权",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "yi_ding": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "Yi Ding",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化",
+          "脑电基础大模型",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "EEGMamba: An EEG foundation model with Mamba",
-      "title_en": "EEGMamba: An EEG foundation model with Mamba",
-      "title_zh": "EEGMamba：Mamba 的 EEG 基础模型。",
-      "year": 2025,
-      "venue": "Neural Networks",
-      "authors": [
-        "Jiquan Wang",
-        "Sha Zhao",
-        "Zhiling Luo",
-        "Yang-Xuan Zhou",
-        "Shi-Jian Li",
-        "Gang Pan"
-      ],
-      "doi": "10.1016/j.neunet.2025.107816",
-      "paper_url": "https://www.semanticscholar.org/paper/57eb4bb267cc9e3ce878d226e213e464102c45fc",
-      "source_url": "https://www.semanticscholar.org/paper/57eb4bb267cc9e3ce878d226e213e464102c45fc",
-      "topics": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化",
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "57eb4bb267cc9e3ce878d226e213e464102c45fc",
-      "semantic_scholar_author_id": "2110190007",
-      "cited_by_count": 54,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "中文辅助机器译名，已做术语规则校正；非作者官方中文题名",
-      "record_id": "jiquan_wang_1128950bb074",
-      "category_id": "eeg_foundation",
-      "primary_category": "脑电基础模型与通用解码",
-      "secondary_tags": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "jiquan_wang",
-      "scholar_name": "王继权",
-      "work_title_group": "6cb7e3054dce",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "fddbed0b8f8e1c4f",
+    "primary_categories_by_scholar": [
+      "王继权：脑电基础模型与通用解码",
+      "Yi Ding：脑电基准、数据与评测"
+    ],
+    "dblp_key": "journals/corr/abs-2610-03546",
+    "pdf_url": "https://arxiv.org/pdf/2610.03546",
+    "abstract_en": "EEG foundation models (EFMs) capture reusable knowledge from large-scale EEG data, while many EEG recordings also include companion physiological signals that provide complementary information beyond the EEG-only interface. The challenge is to preserve this pretrained knowledge while extending the EFM to heterogeneous multimodal recordings through an adaptation inferred from unlabeled target data. We introduce ZeroMAG, a zero-shot multimodal adapter generation framework that extends a frozen EEG encoder and prediction head using unlabeled target recordings, without target labels or target-side optimization. The target datasets are held out from all model training and selection in the ZeroMAG pipeline. ZeroMAG organizes companion modalities around a configuration-invariant adapter, constructs a modality-subject-task condition from unlabeled recordings and task context, and generates adapter weights in a function-constrained latent space learned from source adapters. Across six held-out target datasets and three EFM backbones, ZeroMAG improves balanced accuracy by 7.22 percentage points over EEG-only inference and 4.89 points over direct weight regression, while coming within 0.50 points of supervised multimodal adaptation on average. Ablations further show that removing functional supervision from either representation learning or conditional generation degrades generated-adapter performance, confirming the contribution of both components.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "脑电图基础模型 (EFM) 从大规模脑电图数据中捕获可重复使用的知识，而许多脑电图记录还包括伴随的生理信号，这些信号提供了超出仅限脑电图接口的补充信息。面临的挑战是保留这种预先训练的知识，同时通过从未标记的目标数据推断出的适应将 EFM 扩展到异构多模态记录。我们引入了 ZeroMAG，一种零样本多模态适配器生成框架，它使用未标记的目标记录扩展冻结的 EEG 编码器和预测头，无需目标标签或目标端优化。目标数据集来自 ZeroMAG 中的所有模型训练和选择......"
+  },
+  {
+    "title": "Wearable Music2Emotion : Assessing Emotions Induced by AI-Generated Music through Portable EEG-fNIRS Fusion",
+    "title_en": "Wearable Music2Emotion : Assessing Emotions Induced by AI-Generated Music through Portable EEG-fNIRS Fusion",
+    "title_zh": "可穿戴式Music2Emotion:通过便携式EEG-fNIRS融合评估AI生成的音乐诱发的情绪。",
+    "year": 2025,
+    "venue": "ACM Multimedia",
+    "authors": [
+      "Sha Zhao",
+      "Song Yi",
+      "Yang-Xuan Zhou",
+      "Jiadong Pan",
+      "Jiquan Wang",
+      "Jie Xia",
+      "Shi-Jian Li",
+      "Shurong Dong",
+      "Gang Pan"
+    ],
+    "doi": "10.1145/3746027.3755270",
+    "paper_url": "https://www.semanticscholar.org/paper/a4130da5a60511910a0856b6b22a0e3e6bd65d0d",
+    "source_url": "https://www.semanticscholar.org/paper/a4130da5a60511910a0856b6b22a0e3e6bd65d0d",
+    "topics": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化",
+      "脑电情感识别",
+      "脑机接口与神经解码",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4415541067",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "a4130da5a60511910a0856b6b22a0e3e6bd65d0d",
+    "semantic_scholar_author_id": "2110190007",
+    "cited_by_count": 6,
+    "publication_types": [
+      "JournalArticle",
+      "Book"
+    ],
+    "candidate_source": false,
+    "source_kind": "Semantic Scholar author works",
+    "translation_source": "中文辅助机器译名，已做术语规则校正；非作者官方中文题名",
+    "record_id": "jiquan_wang_05483244449b",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "jiquan_wang",
+    "scholar_name": "王继权",
+    "work_title_group": "f21921743c96",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "jiquan_wang",
+      "pan_gang"
+    ],
+    "scholar_names": [
+      "王继权",
+      "潘纲"
+    ],
+    "source_record_ids": [
+      "jiquan_wang_05483244449b"
+    ],
+    "scholar_categories": {
+      "jiquan_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王继权",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "pan_gang": {
+        "category_id": "neuro_affect",
+        "label": "脑信号、脑机接口与情感健康",
+        "scholar_name": "潘纲",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化",
+          "脑电情感识别",
+          "脑机接口与神经解码",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "SeiFuD: A novel deep learning framework leveraging domain generalization for cross-subject seizure prediction",
-      "title_en": "SeiFuD: A novel deep learning framework leveraging domain generalization for cross-subject seizure prediction",
-      "title_zh": "SeiFuD：利用领域泛化进行跨受试者癫痫发作预测的深度学习框架",
-      "year": 2025,
-      "venue": "Neurocomputing",
-      "authors": [
-        "Sha Zhao",
-        "Cai-Bo Zhang",
-        "Jiquan Wang",
-        "Hai-Teng Jiang",
-        "Shi-Jian Li",
-        "Tao Li",
-        "Gang Pan"
-      ],
-      "doi": "10.1016/j.neucom.2025.132227",
-      "paper_url": "https://www.semanticscholar.org/paper/eaaceaba83aaa05e86969a988cae649bf5ab9dd7",
-      "source_url": "https://www.semanticscholar.org/paper/eaaceaba83aaa05e86969a988cae649bf5ab9dd7",
-      "topics": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化",
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "eaaceaba83aaa05e86969a988cae649bf5ab9dd7",
-      "semantic_scholar_author_id": "2110190007",
-      "cited_by_count": 0,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "人工复核的中文辅助译名，非官方中文题名",
-      "record_id": "jiquan_wang_945f60f5da67",
-      "category_id": "eeg_foundation",
-      "primary_category": "脑电基础模型与通用解码",
-      "secondary_tags": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "jiquan_wang",
-      "scholar_name": "王继权",
-      "work_title_group": "34bbf19a6730",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "1700d57776a16af1",
+    "primary_categories_by_scholar": [
+      "王继权：情感脑电与多模态生理信号",
+      "潘纲：脑信号、脑机接口与情感健康"
+    ],
+    "dblp_key": "conf/mm/ZhaoYZPWXLD025"
+  },
+  {
+    "title": "BrainUICL: An Unsupervised Individual Continual Learning Framework for EEG Applications",
+    "title_en": "BrainUICL: An Unsupervised Individual Continual Learning Framework for EEG Applications",
+    "title_zh": "BrainUICL：脑电图应用的无监督个人持续学习框架。",
+    "year": 2025,
+    "venue": "International Conference on Learning Representations",
+    "authors": [
+      "Yang-Xuan Zhou",
+      "Sha Zhao",
+      "Jiquan Wang",
+      "Hai-Teng Jiang",
+      "Shi-Jian Li",
+      "Tao Li",
+      "Gang Pan"
+    ],
+    "doi": "",
+    "paper_url": "https://www.semanticscholar.org/paper/7043d9e76c0cf76844ceb27f8aac99898c622b69",
+    "source_url": "https://www.semanticscholar.org/paper/7043d9e76c0cf76844ceb27f8aac99898c622b69",
+    "topics": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化"
+    ],
+    "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "7043d9e76c0cf76844ceb27f8aac99898c622b69",
+    "semantic_scholar_author_id": "2110190007",
+    "cited_by_count": 26,
+    "publication_types": [
+      "JournalArticle"
+    ],
+    "candidate_source": false,
+    "source_kind": "Semantic Scholar author works",
+    "translation_source": "中文辅助机器译名，已做术语规则校正；非作者官方中文题名",
+    "record_id": "jiquan_wang_02682a359b67",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码",
+    "secondary_tags": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "jiquan_wang",
+    "scholar_name": "王继权",
+    "work_title_group": "f6796ede5292",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "jiquan_wang"
+    ],
+    "scholar_names": [
+      "王继权"
+    ],
+    "source_record_ids": [
+      "jiquan_wang_02682a359b67"
+    ],
+    "scholar_categories": {
+      "jiquan_wang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "王继权",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "SPICED: A Synaptic Homeostasis-Inspired Framework for Unsupervised Continual EEG Decoding",
-      "title_en": "SPICED: A Synaptic Homeostasis-Inspired Framework for Unsupervised Continual EEG Decoding",
-      "title_zh": "SPICED：用于无监督连续脑电解码的突触稳态启发框架。",
-      "year": 2025,
-      "venue": "Neural Information Processing Systems",
-      "authors": [
-        "Yang-Xuan Zhou",
-        "Sha Zhao",
-        "Jiquan Wang",
-        "Hai-Teng Jiang",
-        "Shi-Jian Li",
-        "Tao Li",
-        "Gang Pan"
-      ],
-      "doi": "10.48550/arXiv.2509.17439",
-      "paper_url": "https://www.semanticscholar.org/paper/421ec0590ff2d0744d182b6e18c21a8ccd941ba5",
-      "source_url": "https://www.semanticscholar.org/paper/421ec0590ff2d0744d182b6e18c21a8ccd941ba5",
-      "topics": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化",
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "421ec0590ff2d0744d182b6e18c21a8ccd941ba5",
-      "semantic_scholar_author_id": "2110190007",
-      "cited_by_count": 5,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "中文辅助机器译名，已做术语规则校正；非作者官方中文题名",
-      "record_id": "jiquan_wang_d62d46af946d",
-      "category_id": "eeg_foundation",
-      "primary_category": "脑电基础模型与通用解码",
-      "secondary_tags": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "jiquan_wang",
-      "scholar_name": "王继权",
-      "work_title_group": "cd7ae22e356d",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "1692a98f677abd33",
+    "primary_categories_by_scholar": [
+      "王继权：脑电基础模型与通用解码"
+    ]
+  },
+  {
+    "title": "CBraMod: A Criss-Cross Brain Foundation Model for EEG Decoding",
+    "title_en": "CBraMod: A Criss-Cross Brain Foundation Model for EEG Decoding",
+    "title_zh": "CBraMod：用于脑电解码的交叉脑基础模型",
+    "year": 2025,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "Jiquan Wang"
+    ],
+    "doi": "",
+    "paper_url": "https://mlanthology.org/iclr/2025/wang2025iclr-cbramod/",
+    "source_url": "https://mlanthology.org/iclr/2025/wang2025iclr-cbramod/",
+    "topics": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化",
+      "脑电基础大模型",
+      "脑机接口与神经解码"
+    ],
+    "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "代表论文/官方页面",
+    "record_id": "jiquan_wang_1bfa26bdabb3",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码",
+    "secondary_tags": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "jiquan_wang",
+    "scholar_name": "王继权",
+    "work_title_group": "3a094e6613d2",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "jiquan_wang"
+    ],
+    "scholar_names": [
+      "王继权"
+    ],
+    "source_record_ids": [
+      "jiquan_wang_1bfa26bdabb3"
+    ],
+    "scholar_categories": {
+      "jiquan_wang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "王继权",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Wearable Music2Emotion : Assessing Emotions Induced by AI-Generated Music through Portable EEG-fNIRS Fusion",
-      "title_en": "Wearable Music2Emotion : Assessing Emotions Induced by AI-Generated Music through Portable EEG-fNIRS Fusion",
-      "title_zh": "可穿戴式Music2Emotion:通过便携式EEG-fNIRS融合评估AI生成的音乐诱发的情绪。",
-      "year": 2025,
-      "venue": "ACM Multimedia",
-      "authors": [
-        "Sha Zhao",
-        "Song Yi",
-        "Yang-Xuan Zhou",
-        "Jiadong Pan",
-        "Jiquan Wang",
-        "Jie Xia",
-        "Shi-Jian Li",
-        "Shurong Dong",
-        "Gang Pan"
-      ],
-      "doi": "10.1145/3746027.3755270",
-      "paper_url": "https://www.semanticscholar.org/paper/a4130da5a60511910a0856b6b22a0e3e6bd65d0d",
-      "source_url": "https://www.semanticscholar.org/paper/a4130da5a60511910a0856b6b22a0e3e6bd65d0d",
-      "topics": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化",
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "a4130da5a60511910a0856b6b22a0e3e6bd65d0d",
-      "semantic_scholar_author_id": "2110190007",
-      "cited_by_count": 6,
-      "publication_types": [
-        "JournalArticle",
-        "Book"
-      ],
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "中文辅助机器译名，已做术语规则校正；非作者官方中文题名",
-      "record_id": "jiquan_wang_05483244449b",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "jiquan_wang",
-      "scholar_name": "王继权",
-      "work_title_group": "f21921743c96",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "f51dc21773afda13",
+    "primary_categories_by_scholar": [
+      "王继权：脑电基础模型与通用解码"
+    ]
+  },
+  {
+    "title": "EEGMamba: An EEG foundation model with Mamba",
+    "title_en": "EEGMamba: An EEG foundation model with Mamba",
+    "title_zh": "EEGMamba：Mamba 的 EEG 基础模型。",
+    "year": 2025,
+    "venue": "Neural Networks",
+    "authors": [
+      "Jiquan Wang",
+      "Sha Zhao",
+      "Zhiling Luo",
+      "Yang-Xuan Zhou",
+      "Shi-Jian Li",
+      "Gang Pan"
+    ],
+    "doi": "10.1016/j.neunet.2025.107816",
+    "paper_url": "https://www.semanticscholar.org/paper/57eb4bb267cc9e3ce878d226e213e464102c45fc",
+    "source_url": "https://www.semanticscholar.org/paper/57eb4bb267cc9e3ce878d226e213e464102c45fc",
+    "topics": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化",
+      "脑电基础大模型"
+    ],
+    "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4412467931",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "57eb4bb267cc9e3ce878d226e213e464102c45fc",
+    "semantic_scholar_author_id": "2110190007",
+    "cited_by_count": 54,
+    "publication_types": [
+      "JournalArticle"
+    ],
+    "candidate_source": false,
+    "source_kind": "Semantic Scholar author works",
+    "translation_source": "中文辅助机器译名，已做术语规则校正；非作者官方中文题名",
+    "record_id": "jiquan_wang_1128950bb074",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码",
+    "secondary_tags": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "jiquan_wang",
+    "scholar_name": "王继权",
+    "work_title_group": "6cb7e3054dce",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "jiquan_wang",
+      "pan_gang"
+    ],
+    "scholar_names": [
+      "王继权",
+      "潘纲"
+    ],
+    "source_record_ids": [
+      "jiquan_wang_1128950bb074"
+    ],
+    "scholar_categories": {
+      "jiquan_wang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "王继权",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "pan_gang": {
+        "category_id": "neuromorphic",
+        "label": "类脑算法、脉冲网络与神经形态系统",
+        "scholar_name": "潘纲",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化",
+          "脑电基础大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "CareSleepNet: A Hybrid Deep Learning Network for Automatic Sleep Staging",
-      "title_en": "CareSleepNet: A Hybrid Deep Learning Network for Automatic Sleep Staging",
-      "title_zh": "CareSleepNet：用于自动睡眠分期的混合深度学习网络。",
-      "year": 2024,
-      "venue": "IEEE journal of biomedical and health informatics",
-      "authors": [
-        "Jiquan Wang",
-        "Sha Zhao",
-        "Hai-Teng Jiang",
-        "Yang-Xuan Zhou",
-        "Zhenghe Yu",
-        "Tao Li",
-        "Shi-Jian Li",
-        "Gang Pan"
-      ],
-      "doi": "10.1109/JBHI.2024.3426939",
-      "paper_url": "https://www.semanticscholar.org/paper/dc0b9b3502393824e4a49b41d707cbd3ef5f88ba",
-      "source_url": "https://www.semanticscholar.org/paper/dc0b9b3502393824e4a49b41d707cbd3ef5f88ba",
-      "topics": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化",
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "dc0b9b3502393824e4a49b41d707cbd3ef5f88ba",
-      "semantic_scholar_author_id": "2110190007",
-      "cited_by_count": 43,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "中文辅助机器译名，已做术语规则校正；非作者官方中文题名",
-      "record_id": "jiquan_wang_15cb3f3fc44e",
-      "category_id": "eeg_foundation",
-      "primary_category": "脑电基础模型与通用解码",
-      "secondary_tags": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "jiquan_wang",
-      "scholar_name": "王继权",
-      "work_title_group": "e238a96a5bc5",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "ad41cce22c35604d",
+    "primary_categories_by_scholar": [
+      "王继权：脑电基础模型与通用解码",
+      "潘纲：类脑算法、脉冲网络与神经形态系统"
+    ],
+    "dblp_key": "journals/nn/WangZLZLP25"
+  },
+  {
+    "title": "SeiFuD: A novel deep learning framework leveraging domain generalization for cross-subject seizure prediction",
+    "title_en": "SeiFuD: A novel deep learning framework leveraging domain generalization for cross-subject seizure prediction",
+    "title_zh": "SeiFuD：利用领域泛化进行跨受试者癫痫发作预测的深度学习框架",
+    "year": 2025,
+    "venue": "Neurocomputing",
+    "authors": [
+      "Sha Zhao",
+      "Cai-Bo Zhang",
+      "Jiquan Wang",
+      "Hai-Teng Jiang",
+      "Shi-Jian Li",
+      "Tao Li",
+      "Gang Pan"
+    ],
+    "doi": "10.1016/j.neucom.2025.132227",
+    "paper_url": "https://www.semanticscholar.org/paper/eaaceaba83aaa05e86969a988cae649bf5ab9dd7",
+    "source_url": "https://www.semanticscholar.org/paper/eaaceaba83aaa05e86969a988cae649bf5ab9dd7",
+    "topics": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化",
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4416818812",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "eaaceaba83aaa05e86969a988cae649bf5ab9dd7",
+    "semantic_scholar_author_id": "2110190007",
+    "cited_by_count": 0,
+    "publication_types": [
+      "JournalArticle"
+    ],
+    "candidate_source": false,
+    "source_kind": "Semantic Scholar author works",
+    "translation_source": "人工复核的中文辅助译名，非官方中文题名",
+    "record_id": "jiquan_wang_945f60f5da67",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码",
+    "secondary_tags": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "jiquan_wang",
+    "scholar_name": "王继权",
+    "work_title_group": "34bbf19a6730",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "jiquan_wang"
+    ],
+    "scholar_names": [
+      "王继权"
+    ],
+    "source_record_ids": [
+      "jiquan_wang_945f60f5da67"
+    ],
+    "scholar_categories": {
+      "jiquan_wang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "王继权",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "CBraMod: A Criss-Cross Brain Foundation Model for EEG Decoding",
-      "title_en": "CBraMod: A Criss-Cross Brain Foundation Model for EEG Decoding",
-      "title_zh": "CBraMod：用于脑电解码的十字交叉脑基础模型。",
-      "year": 2024,
-      "venue": "International Conference on Learning Representations",
-      "authors": [
-        "Jiquan Wang",
-        "Sha Zhao",
-        "Zhiling Luo",
-        "Yang-Xuan Zhou",
-        "Hai-Teng Jiang",
-        "Shi-Jian Li",
-        "Tao Li",
-        "Gang Pan"
-      ],
-      "doi": "10.48550/arXiv.2412.07236",
-      "paper_url": "https://www.semanticscholar.org/paper/177844dbe5087ca2010be62d0cf6952434fd8cf8",
-      "source_url": "https://www.semanticscholar.org/paper/177844dbe5087ca2010be62d0cf6952434fd8cf8",
-      "topics": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化",
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "177844dbe5087ca2010be62d0cf6952434fd8cf8",
-      "semantic_scholar_author_id": "2110190007",
-      "cited_by_count": 320,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "中文辅助机器译名，已做术语规则校正；非作者官方中文题名",
-      "record_id": "jiquan_wang_38cf3352ca1e",
-      "category_id": "eeg_foundation",
-      "primary_category": "脑电基础模型与通用解码",
-      "secondary_tags": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "jiquan_wang",
-      "scholar_name": "王继权",
-      "work_title_group": "3a094e6613d2",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "a167655dd9baef65",
+    "primary_categories_by_scholar": [
+      "王继权：脑电基础模型与通用解码"
+    ]
+  },
+  {
+    "title": "SPICED: A Synaptic Homeostasis-Inspired Framework for Unsupervised Continual EEG Decoding",
+    "title_en": "SPICED: A Synaptic Homeostasis-Inspired Framework for Unsupervised Continual EEG Decoding",
+    "title_zh": "SPICED：用于无监督连续脑电解码的突触稳态启发框架。",
+    "year": 2025,
+    "venue": "Neural Information Processing Systems",
+    "authors": [
+      "Yang-Xuan Zhou",
+      "Sha Zhao",
+      "Jiquan Wang",
+      "Hai-Teng Jiang",
+      "Shi-Jian Li",
+      "Tao Li",
+      "Gang Pan"
+    ],
+    "doi": "10.48550/arXiv.2509.17439",
+    "paper_url": "https://www.semanticscholar.org/paper/421ec0590ff2d0744d182b6e18c21a8ccd941ba5",
+    "source_url": "https://www.semanticscholar.org/paper/421ec0590ff2d0744d182b6e18c21a8ccd941ba5",
+    "topics": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化",
+      "脑机接口与神经解码",
+      "脉冲神经网络与类脑计算"
+    ],
+    "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "421ec0590ff2d0744d182b6e18c21a8ccd941ba5",
+    "semantic_scholar_author_id": "2110190007",
+    "cited_by_count": 5,
+    "publication_types": [
+      "JournalArticle"
+    ],
+    "candidate_source": false,
+    "source_kind": "Semantic Scholar author works",
+    "translation_source": "中文辅助机器译名，已做术语规则校正；非作者官方中文题名",
+    "record_id": "jiquan_wang_d62d46af946d",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码",
+    "secondary_tags": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "jiquan_wang",
+    "scholar_name": "王继权",
+    "work_title_group": "cd7ae22e356d",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "jiquan_wang",
+      "pan_gang"
+    ],
+    "scholar_names": [
+      "王继权",
+      "潘纲"
+    ],
+    "source_record_ids": [
+      "jiquan_wang_d62d46af946d"
+    ],
+    "scholar_categories": {
+      "jiquan_wang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "王继权",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "pan_gang": {
+        "category_id": "systems",
+        "label": "数据库、计算系统与软件方法",
+        "scholar_name": "潘纲",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化",
+          "脑机接口与神经解码",
+          "脉冲神经网络与类脑计算"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "Personalized Sleep Staging Leveraging Source-free Unsupervised Domain Adaptation",
-      "title_en": "Personalized Sleep Staging Leveraging Source-free Unsupervised Domain Adaptation",
-      "title_zh": "利用无源无监督域适应的个性化睡眠分期。",
-      "year": 2024,
-      "venue": "AAAI Conference on Artificial Intelligence",
-      "authors": [
-        "Yang-Xuan Zhou",
-        "Sha Zhao",
-        "Jiquan Wang",
-        "Hai-Teng Jiang",
-        "Shi-Jian Li",
-        "Ben-Yan Luo",
-        "Tao Li",
-        "Gang Pan"
-      ],
-      "doi": "10.48550/arXiv.2412.12159",
-      "paper_url": "https://www.semanticscholar.org/paper/1c2d35f1684f7460e636066b7d0b3a2859428627",
-      "source_url": "https://www.semanticscholar.org/paper/1c2d35f1684f7460e636066b7d0b3a2859428627",
-      "topics": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化",
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "1c2d35f1684f7460e636066b7d0b3a2859428627",
-      "semantic_scholar_author_id": "2110190007",
-      "cited_by_count": 14,
-      "publication_types": [
-        "JournalArticle",
-        "Conference"
-      ],
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "中文辅助机器译名，已做术语规则校正；非作者官方中文题名",
-      "record_id": "jiquan_wang_e1e9e159133c",
-      "category_id": "eeg_foundation",
-      "primary_category": "脑电基础模型与通用解码",
-      "secondary_tags": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "jiquan_wang",
-      "scholar_name": "王继权",
-      "work_title_group": "b35b92f598b1",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "b1a2bdcca9bcc73b",
+    "primary_categories_by_scholar": [
+      "王继权：脑电基础模型与通用解码",
+      "潘纲：数据库、计算系统与软件方法"
+    ],
+    "dblp_key": "journals/corr/abs-2509-17439",
+    "abstract_en": "Human brain achieves dynamic stability-plasticity balance through synaptic homeostasis. Inspired by this biological principle, we propose SPICED: a neuromorphic framework that integrates the synaptic homeostasis mechanism for unsupervised continual EEG decoding, particularly addressing practical scenarios where new individuals with inter-individual variability emerge continually. SPICED comprises a novel synaptic network that enables dynamic expansion during continual adaptation through three bio-inspired neural mechanisms: (1) critical memory reactivation; (2) synaptic consolidation and (3) synaptic renormalization. The interplay within synaptic homeostasis dynamically strengthens task-discriminative memory traces and weakens detrimental memories. By integrating these mechanisms with continual learning system, SPICED preferentially replays task-discriminative memory traces that exhibit strong associations with newly emerging individuals, thereby achieving robust adaptations. Meanwhile, SPICED effectively mitigates catastrophic forgetting by suppressing the replay prioritization of detrimental memories during long-term continual learning. Validated on three EEG datasets, SPICED show its effectiveness.",
+    "abstract_source": "arxiv_api",
+    "pdf_url": "https://arxiv.org/pdf/2509.17439.pdf",
+    "abstract_zh": "人脑通过突触稳态实现动态稳定性-可塑性平衡。受这一生物学原理的启发，我们提出了 SPICED：一种神经形态框架，集成了突触稳态机制，用于无监督的连续脑电图解码，特别是解决不断出现具有个体间变异的新个体的实际场景。 SPICED 包含一种新颖的突触网络，可通过三种仿生神经机制在持续适应过程中实现动态扩展：（1）关键记忆重新激活； (2)突触巩固和(3)突触重正常化。突触稳态内的相互作用动态地增强了任务盘......"
+  },
+  {
+    "title": "Personalized Sleep Staging Leveraging Source-free Unsupervised Domain Adaptation",
+    "title_en": "Personalized Sleep Staging Leveraging Source-free Unsupervised Domain Adaptation",
+    "title_zh": "利用无源无监督域适应的个性化睡眠分期。",
+    "year": 2024,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "authors": [
+      "Yang-Xuan Zhou",
+      "Sha Zhao",
+      "Jiquan Wang",
+      "Hai-Teng Jiang",
+      "Shi-Jian Li",
+      "Ben-Yan Luo",
+      "Tao Li",
+      "Gang Pan"
+    ],
+    "doi": "10.48550/arXiv.2412.12159",
+    "paper_url": "https://www.semanticscholar.org/paper/1c2d35f1684f7460e636066b7d0b3a2859428627",
+    "source_url": "https://www.semanticscholar.org/paper/1c2d35f1684f7460e636066b7d0b3a2859428627",
+    "topics": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化",
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "1c2d35f1684f7460e636066b7d0b3a2859428627",
+    "semantic_scholar_author_id": "2110190007",
+    "cited_by_count": 14,
+    "publication_types": [
+      "JournalArticle",
+      "Conference"
+    ],
+    "candidate_source": false,
+    "source_kind": "Semantic Scholar author works",
+    "translation_source": "中文辅助机器译名，已做术语规则校正；非作者官方中文题名",
+    "record_id": "jiquan_wang_e1e9e159133c",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码",
+    "secondary_tags": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "jiquan_wang",
+    "scholar_name": "王继权",
+    "work_title_group": "b35b92f598b1",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "jiquan_wang",
+      "pan_gang"
+    ],
+    "scholar_names": [
+      "王继权",
+      "潘纲"
+    ],
+    "source_record_ids": [
+      "jiquan_wang_e1e9e159133c"
+    ],
+    "scholar_categories": {
+      "jiquan_wang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "王继权",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "pan_gang": {
+        "category_id": "systems",
+        "label": "数据库、计算系统与软件方法",
+        "scholar_name": "潘纲",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "Simplifying Multimodal With Single EOG Modality for Automatic Sleep Staging",
-      "title_en": "Simplifying Multimodal With Single EOG Modality for Automatic Sleep Staging",
-      "title_zh": "使用单 EOG 模态简化多模态以实现自动睡眠分期",
-      "year": 2024,
-      "venue": "IEEE transactions on neural systems and rehabilitation engineering",
-      "authors": [
-        "Yang-Xuan Zhou",
-        "Sha Zhao",
-        "Jiquan Wang",
-        "Hai-Teng Jiang",
-        "Zhenghe Yu",
-        "Shi-Jian Li",
-        "Tao Li",
-        "Gang Pan"
-      ],
-      "doi": "10.1109/TNSRE.2024.3389077",
-      "paper_url": "https://www.semanticscholar.org/paper/7e18b87735adbfcf438d92b64cd830c5149dd575",
-      "source_url": "https://www.semanticscholar.org/paper/7e18b87735adbfcf438d92b64cd830c5149dd575",
-      "topics": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化",
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "7e18b87735adbfcf438d92b64cd830c5149dd575",
-      "semantic_scholar_author_id": "2110190007",
-      "cited_by_count": 17,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "jiquan_wang_2e546ef3911a",
-      "category_id": "eeg_foundation",
-      "primary_category": "脑电基础模型与通用解码",
-      "secondary_tags": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "jiquan_wang",
-      "scholar_name": "王继权",
-      "work_title_group": "a639268c34ac",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "3442567ac0825bb8",
+    "primary_categories_by_scholar": [
+      "王继权：脑电基础模型与通用解码",
+      "潘纲：数据库、计算系统与软件方法"
+    ],
+    "dblp_key": "journals/corr/abs-2412-12159",
+    "abstract_en": "Sleep staging is crucial for assessing sleep quality and diagnosing related disorders. Recent deep learning models for automatic sleep staging using polysomnography often suffer from poor generalization to new subjects because they are trained and tested on the same labeled datasets, overlooking individual differences. To tackle this issue, we propose a novel Source-Free Unsupervised Individual Domain Adaptation (SF-UIDA) framework. This two-step adaptation scheme allows the model to effectively adjust to new unlabeled individuals without needing source data, facilitating personalized customization in clinical settings. Our framework has been applied to three established sleep staging models and tested on three public datasets, achieving state-of-the-art performance.",
+    "abstract_source": "arxiv_api",
+    "pdf_url": "https://arxiv.org/pdf/2412.12159.pdf",
+    "abstract_zh": "睡眠分期对于评估睡眠质量和诊断相关疾病至关重要。最近使用多导睡眠图进行自动睡眠分期的深度学习模型通常对新受试者的泛化性较差，因为它们是在相同的标记数据集上进行训练和测试的，忽略了个体差异。为了解决这个问题，我们提出了一种新颖的无源无监督个体域适应（SF-UIDA）框架。这种两步适应方案使模型能够有效地适应新的未标记个体，而无需源数据，从而促进临床环境中的个性化定制。我们的框架已应用于三个已建立的睡眠分期模型......"
+  },
+  {
+    "title": "Simplifying Multimodal With Single EOG Modality for Automatic Sleep Staging",
+    "title_en": "Simplifying Multimodal With Single EOG Modality for Automatic Sleep Staging",
+    "title_zh": "使用单 EOG 模态简化多模态以实现自动睡眠分期",
+    "year": 2024,
+    "venue": "IEEE transactions on neural systems and rehabilitation engineering",
+    "authors": [
+      "Yang-Xuan Zhou",
+      "Sha Zhao",
+      "Jiquan Wang",
+      "Hai-Teng Jiang",
+      "Zhenghe Yu",
+      "Shi-Jian Li",
+      "Tao Li",
+      "Gang Pan"
+    ],
+    "doi": "10.1109/TNSRE.2024.3389077",
+    "paper_url": "https://www.semanticscholar.org/paper/7e18b87735adbfcf438d92b64cd830c5149dd575",
+    "source_url": "https://www.semanticscholar.org/paper/7e18b87735adbfcf438d92b64cd830c5149dd575",
+    "topics": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化",
+      "多模态与大语言模型",
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4394939123",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "7e18b87735adbfcf438d92b64cd830c5149dd575",
+    "semantic_scholar_author_id": "2110190007",
+    "cited_by_count": 17,
+    "publication_types": [
+      "JournalArticle"
+    ],
+    "candidate_source": false,
+    "source_kind": "Semantic Scholar author works",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "jiquan_wang_2e546ef3911a",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码",
+    "secondary_tags": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "jiquan_wang",
+    "scholar_name": "王继权",
+    "work_title_group": "a639268c34ac",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "jiquan_wang"
+    ],
+    "scholar_names": [
+      "王继权"
+    ],
+    "source_record_ids": [
+      "jiquan_wang_2e546ef3911a"
+    ],
+    "scholar_categories": {
+      "jiquan_wang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "王继权",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Generalizable Sleep Staging via Multi-Level Domain Alignment",
-      "title_en": "Generalizable Sleep Staging via Multi-Level Domain Alignment",
-      "title_zh": "通过多级域对齐的通用睡眠分期。",
-      "year": 2023,
-      "venue": "AAAI Conference on Artificial Intelligence",
-      "authors": [
-        "Jiquan Wang",
-        "Sha Zhao",
-        "Hai-Teng Jiang",
-        "Shi-Jian Li",
-        "Tao Li",
-        "Gang Pan"
-      ],
-      "doi": "10.48550/arXiv.2401.05363",
-      "paper_url": "https://www.semanticscholar.org/paper/286804dedf5a8d954b1858f39f67ec9ac8a138e0",
-      "source_url": "https://www.semanticscholar.org/paper/286804dedf5a8d954b1858f39f67ec9ac8a138e0",
-      "topics": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化",
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "286804dedf5a8d954b1858f39f67ec9ac8a138e0",
-      "semantic_scholar_author_id": "2110190007",
-      "cited_by_count": 40,
-      "publication_types": [
-        "JournalArticle",
-        "Conference"
-      ],
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "中文辅助机器译名，已做术语规则校正；非作者官方中文题名",
-      "record_id": "jiquan_wang_272dda571a5f",
-      "category_id": "eeg_foundation",
-      "primary_category": "脑电基础模型与通用解码",
-      "secondary_tags": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "jiquan_wang",
-      "scholar_name": "王继权",
-      "work_title_group": "27ebe803ab60",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "253187e3526cdc61",
+    "primary_categories_by_scholar": [
+      "王继权：脑电基础模型与通用解码"
+    ],
+    "abstract_en": "Polysomnography (PSG) recordings have been widely used for sleep staging in clinics, containing multiple modality signals (i.e., EEG and EOG). Recently, many studies have combined EEG and EOG modalities for sleep staging, since they are the most and the second most powerful modality for sleep staging among PSG recordings, respectively. However, EEG is complex to collect and sensitive to environment noise or other body activities, imbedding its use in clinical practice. Comparatively, EOG is much more easily to be obtained. In order to make full use of the powerful ability of EEG and the easy collection of EOG, we propose a novel framework to simplify multimodal sleep staging with a single EOG modality. It still performs well with only EOG modality in the absence of the EEG. Specifically, we first model the correlation between EEG and EOG, and then based on the correlation we generate multimodal features with time and frequency guided generators by adopting the idea of generative adversarial learning. We collected a real-world sleep dataset containing 67 recordings and used other four public datasets for evaluation. Compared with other existing sleep staging methods, our framework performs the best when solely using the EOG modality. Moreover, under our framework, EOG provides a comparable performance to EEG.",
+    "abstract_source": "openalex_doi",
+    "pdf_url": "https://ieeexplore.ieee.org/ielx7/7333/4359219/10504925.pdf",
+    "abstract_zh": "多导睡眠图 (PSG) 记录已广泛用于临床睡眠分期，其中包含多种模态信号（即脑电图和眼电图）。最近，许多研究将脑电图和眼电图模式结合起来进行睡眠分期，因为它们分别是 PSG 记录中最强大和第二强大的睡眠分期模式。然而，脑电图采集起来很复杂，并且对环境噪声或其他身体活动敏感，使其在临床实践中的应用受到限制。相比之下，EOG 更容易获得。为了充分利用 EEG 的强大功能和 EOG 的轻松收集，我们提出了一种新颖的框架，通过单个 EO 简化多模式睡眠分期......"
+  },
+  {
+    "title": "CareSleepNet: A Hybrid Deep Learning Network for Automatic Sleep Staging",
+    "title_en": "CareSleepNet: A Hybrid Deep Learning Network for Automatic Sleep Staging",
+    "title_zh": "CareSleepNet：用于自动睡眠分期的混合深度学习网络。",
+    "year": 2024,
+    "venue": "IEEE journal of biomedical and health informatics",
+    "authors": [
+      "Jiquan Wang",
+      "Sha Zhao",
+      "Hai-Teng Jiang",
+      "Yang-Xuan Zhou",
+      "Zhenghe Yu",
+      "Tao Li",
+      "Shi-Jian Li",
+      "Gang Pan"
+    ],
+    "doi": "10.1109/JBHI.2024.3426939",
+    "paper_url": "https://www.semanticscholar.org/paper/dc0b9b3502393824e4a49b41d707cbd3ef5f88ba",
+    "source_url": "https://www.semanticscholar.org/paper/dc0b9b3502393824e4a49b41d707cbd3ef5f88ba",
+    "topics": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化"
+    ],
+    "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "dc0b9b3502393824e4a49b41d707cbd3ef5f88ba",
+    "semantic_scholar_author_id": "2110190007",
+    "cited_by_count": 43,
+    "publication_types": [
+      "JournalArticle"
+    ],
+    "candidate_source": false,
+    "source_kind": "Semantic Scholar author works",
+    "translation_source": "中文辅助机器译名，已做术语规则校正；非作者官方中文题名",
+    "record_id": "jiquan_wang_15cb3f3fc44e",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码",
+    "secondary_tags": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "jiquan_wang",
+    "scholar_name": "王继权",
+    "work_title_group": "e238a96a5bc5",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "jiquan_wang"
+    ],
+    "scholar_names": [
+      "王继权"
+    ],
+    "source_record_ids": [
+      "jiquan_wang_15cb3f3fc44e"
+    ],
+    "scholar_categories": {
+      "jiquan_wang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "王继权",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Narcolepsy Diagnosis With Sleep Stage Features Using PSG Recordings",
-      "title_en": "Narcolepsy Diagnosis With Sleep Stage Features Using PSG Recordings",
-      "title_zh": "使用PSG记录进行睡眠阶段特征的发作性睡病诊断",
-      "year": 2023,
-      "venue": "IEEE transactions on neural systems and rehabilitation engineering",
-      "authors": [
-        "Jiquan Wang",
-        "Sha Zhao",
-        "Yang-Xuan Zhou",
-        "Hai-Teng Jiang",
-        "Zhenghe Yu",
-        "Tao Li",
-        "Shi-Jian Li",
-        "Gang Pan"
-      ],
-      "doi": "10.1109/TNSRE.2023.3312396",
-      "paper_url": "https://www.semanticscholar.org/paper/7f4f143cc5fa2c6157c8dc5ef55e8f144c58a4a8",
-      "source_url": "https://www.semanticscholar.org/paper/7f4f143cc5fa2c6157c8dc5ef55e8f144c58a4a8",
-      "topics": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化",
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "7f4f143cc5fa2c6157c8dc5ef55e8f144c58a4a8",
-      "semantic_scholar_author_id": "2110190007",
-      "cited_by_count": 31,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "jiquan_wang_eb631dec03b1",
-      "category_id": "eeg_foundation",
-      "primary_category": "脑电基础模型与通用解码",
-      "secondary_tags": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "jiquan_wang",
-      "scholar_name": "王继权",
-      "work_title_group": "6a27bd2314a3",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "6f44bfe1333e66f2",
+    "primary_categories_by_scholar": [
+      "王继权：脑电基础模型与通用解码"
+    ]
+  },
+  {
+    "title": "CBraMod: A Criss-Cross Brain Foundation Model for EEG Decoding",
+    "title_en": "CBraMod: A Criss-Cross Brain Foundation Model for EEG Decoding",
+    "title_zh": "CBraMod：用于脑电解码的十字交叉脑基础模型。",
+    "year": 2024,
+    "venue": "International Conference on Learning Representations",
+    "authors": [
+      "Jiquan Wang",
+      "Sha Zhao",
+      "Zhiling Luo",
+      "Yang-Xuan Zhou",
+      "Hai-Teng Jiang",
+      "Shi-Jian Li",
+      "Tao Li",
+      "Gang Pan"
+    ],
+    "doi": "10.48550/arXiv.2412.07236",
+    "paper_url": "https://www.semanticscholar.org/paper/177844dbe5087ca2010be62d0cf6952434fd8cf8",
+    "source_url": "https://www.semanticscholar.org/paper/177844dbe5087ca2010be62d0cf6952434fd8cf8",
+    "topics": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化",
+      "脑电基础大模型",
+      "脑机接口与神经解码"
+    ],
+    "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [
+      "pan_gang__pan_code_pan_2025_cbramod"
+    ],
+    "code_urls": [
+      "https://github.com/wjq-learning/CBraMod"
+    ],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "177844dbe5087ca2010be62d0cf6952434fd8cf8",
+    "semantic_scholar_author_id": "2110190007",
+    "cited_by_count": 320,
+    "publication_types": [
+      "JournalArticle"
+    ],
+    "candidate_source": false,
+    "source_kind": "Semantic Scholar author works",
+    "translation_source": "中文辅助机器译名，已做术语规则校正；非作者官方中文题名",
+    "record_id": "jiquan_wang_38cf3352ca1e",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码",
+    "secondary_tags": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "jiquan_wang",
+    "scholar_name": "王继权",
+    "work_title_group": "3a094e6613d2",
+    "resource_status": "已关联公开代码/数据/模型资源",
+    "scholar_ids": [
+      "jiquan_wang",
+      "pan_gang"
+    ],
+    "scholar_names": [
+      "王继权",
+      "潘纲"
+    ],
+    "source_record_ids": [
+      "jiquan_wang_38cf3352ca1e"
+    ],
+    "scholar_categories": {
+      "jiquan_wang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "王继权",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "pan_gang": {
+        "category_id": "neuromorphic",
+        "label": "类脑算法、脉冲网络与神经形态系统",
+        "scholar_name": "潘纲",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化",
+          "脑电基础大模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "Multimodal Sarcasm Target Identification in Tweets",
-      "title_en": "Multimodal Sarcasm Target Identification in Tweets",
-      "title_zh": "推文中的多模态讽刺目标识别",
-      "year": 2022,
-      "venue": "Annual Meeting of the Association for Computational Linguistics",
-      "authors": [
-        "Jiquan Wang",
-        "Lin Sun",
-        "Yi Liu",
-        "Mei-In Shao",
-        "Zeng-Wei Zheng"
-      ],
-      "doi": "10.18653/v1/2022.acl-long.562",
-      "paper_url": "https://www.semanticscholar.org/paper/ad255c3984151e6ae07c101fb150a82584916475",
-      "source_url": "https://www.semanticscholar.org/paper/ad255c3984151e6ae07c101fb150a82584916475",
-      "topics": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化",
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "ad255c3984151e6ae07c101fb150a82584916475",
-      "semantic_scholar_author_id": "2110190007",
-      "cited_by_count": 29,
-      "publication_types": [
-        "JournalArticle",
-        "Conference"
-      ],
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "jiquan_wang_323a8b77ba22",
-      "category_id": "eeg_foundation",
-      "primary_category": "脑电基础模型与通用解码",
-      "secondary_tags": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "jiquan_wang",
-      "scholar_name": "王继权",
-      "work_title_group": "aa7fe9e12ea2",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "e8bf4095c3c3084e",
+    "primary_categories_by_scholar": [
+      "王继权：脑电基础模型与通用解码",
+      "潘纲：类脑算法、脉冲网络与神经形态系统"
+    ],
+    "dblp_key": "journals/corr/abs-2412-07236",
+    "abstract_en": "Electroencephalography (EEG) is a non-invasive technique to measure and record brain electrical activity, widely used in various BCI and healthcare applications. Early EEG decoding methods rely on supervised learning, limited by specific tasks and datasets, hindering model performance and generalizability. With the success of large language models, there is a growing body of studies focusing on EEG foundation models. However, these studies still leave challenges: Firstly, most of existing EEG foundation models employ full EEG modeling strategy. It models the spatial and temporal dependencies between all EEG patches together, but ignores that the spatial and temporal dependencies are heterogeneous due to the unique structural characteristics of EEG signals. Secondly, existing EEG foundation models have limited generalizability on a wide range of downstream BCI tasks due to varying formats of EEG data, making it challenging to adapt to. To address these challenges, we propose a novel foundation model called CBraMod. Specifically, we devise a criss-cross transformer as the backbone to thoroughly leverage the structural characteristics of EEG signals, which can model spatial and temporal dependencies separately through two parallel attention mechanisms. And we utilize an asymmetric conditional positional encoding scheme which can encode positional information of EEG patches and be easily adapted to the EEG with diverse formats. CBraMod is pre-trained on a very large corpus of EEG through patch-based masked EEG reconstruction. We evaluate CBraMod on up to 10 downstream BCI tasks (12 public datasets). CBraMod achieves the state-of-the-art performance across the wide range of tasks, proving its strong capability and generalizability. The source code is publicly available at https://github.com/wjq-learning/CBraMod.",
+    "abstract_source": "arxiv_api",
+    "pdf_url": "https://arxiv.org/pdf/2412.07236.pdf",
+    "abstract_zh": "脑电图 (EEG) 是一种测量和记录脑电活动的非侵入性技术，广泛用于各种 BCI 和医疗保健应用。早期的脑电图解码方法依赖于监督学习，受到特定任务和数据集的限制，阻碍了模型的性能和泛化性。随着大型语言模型的成功，越来越多的研究关注脑电图基础模型。然而，这些研究仍然存在挑战：首先，大多数现有的脑电图基础模型都采用完整的脑电图建模策略。它对所有脑电图块之间的空间和时间依赖性进行建模，但忽略了空间和时间依赖性是异质的......"
+  },
+  {
+    "title": "Narcolepsy Diagnosis With Sleep Stage Features Using PSG Recordings",
+    "title_en": "Narcolepsy Diagnosis With Sleep Stage Features Using PSG Recordings",
+    "title_zh": "使用PSG记录进行睡眠阶段特征的发作性睡病诊断",
+    "year": 2023,
+    "venue": "IEEE transactions on neural systems and rehabilitation engineering",
+    "authors": [
+      "Jiquan Wang",
+      "Sha Zhao",
+      "Yang-Xuan Zhou",
+      "Hai-Teng Jiang",
+      "Zhenghe Yu",
+      "Tao Li",
+      "Shi-Jian Li",
+      "Gang Pan"
+    ],
+    "doi": "10.1109/TNSRE.2023.3312396",
+    "paper_url": "https://www.semanticscholar.org/paper/7f4f143cc5fa2c6157c8dc5ef55e8f144c58a4a8",
+    "source_url": "https://www.semanticscholar.org/paper/7f4f143cc5fa2c6157c8dc5ef55e8f144c58a4a8",
+    "topics": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化"
+    ],
+    "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4386473270",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "7f4f143cc5fa2c6157c8dc5ef55e8f144c58a4a8",
+    "semantic_scholar_author_id": "2110190007",
+    "cited_by_count": 31,
+    "publication_types": [
+      "JournalArticle"
+    ],
+    "candidate_source": false,
+    "source_kind": "Semantic Scholar author works",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "jiquan_wang_eb631dec03b1",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码",
+    "secondary_tags": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "jiquan_wang",
+    "scholar_name": "王继权",
+    "work_title_group": "6a27bd2314a3",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "jiquan_wang"
+    ],
+    "scholar_names": [
+      "王继权"
+    ],
+    "source_record_ids": [
+      "jiquan_wang_eb631dec03b1"
+    ],
+    "scholar_categories": {
+      "jiquan_wang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "王继权",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "RpBERT: A Text-image Relation Propagation-based BERT Model for Multimodal NER",
-      "title_en": "RpBERT: A Text-image Relation Propagation-based BERT Model for Multimodal NER",
-      "title_zh": "RpBERT：用于多模态 NER 的基于文本图像关系传播的 BERT 模型",
-      "year": 2021,
-      "venue": "AAAI Conference on Artificial Intelligence",
-      "authors": [
-        "Lin Sun",
-        "Jiquan Wang",
-        "Kai Zhang",
-        "Yin-Du Su",
-        "Fang-Sheng Weng"
-      ],
-      "doi": "10.48550/arXiv.2102.02967",
-      "paper_url": "https://www.semanticscholar.org/paper/b9ad52b670189658851026e03a33063a1b8d47fe",
-      "source_url": "https://www.semanticscholar.org/paper/b9ad52b670189658851026e03a33063a1b8d47fe",
-      "topics": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化",
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "b9ad52b670189658851026e03a33063a1b8d47fe",
-      "semantic_scholar_author_id": "2110190007",
-      "cited_by_count": 213,
-      "publication_types": [
-        "JournalArticle",
-        "Conference"
-      ],
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "jiquan_wang_351db3f8db24",
-      "category_id": "eeg_foundation",
-      "primary_category": "脑电基础模型与通用解码",
-      "secondary_tags": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "jiquan_wang",
-      "scholar_name": "王继权",
-      "work_title_group": "4bc0ceebad7b",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "7c1d69d880f86873",
+    "primary_categories_by_scholar": [
+      "王继权：脑电基础模型与通用解码"
+    ],
+    "abstract_en": "Narcolepsy is a sleep disorder affecting millions of people worldwide and causes serious public health problems. It is hard for doctors to correctly and objectively diagnose narcolepsy. Polysomnography (PSG) recordings, a gold standard for sleep monitoring and quality measurement, can provide abundant and objective cues for the narcolepsy diagnosis. There have been some studies on automatic narcolepsy diagnosis using PSG recordings. However, the sleep stage information, an important cue for narcolepsy diagnosis, has not been fully utilized. For example, some studies have not considered the sleep stage information to diagnose narcolepsy. Although some studies consider the sleep stage information, the stages are manually scored by experts, which is time-consuming and subjective. And the framework using sleep stages scored automatically for narcolepsy diagnosis is designed in a two-phase learning manner, where sleep staging in the first phase and diagnosis in the second phase, causing cumulative error and degrading the performance. To address these challenges, we propose a novel end-to-end framework for automatic narcolepsy diagnosis using PSG recordings. In particular, adopting the idea of multi-task learning, we take the sleep staging as our auxiliary task, and then combine the sleep stage related features with narcolepsy related features for our primary task of narcolepsy diagnosis. We collected a dataset of PSG recordings from 77 participants and evaluated our framework on it. Both of the sleep stage features and the end-to-end fashion contribute to diagnosis performance. Moreover, we do a comprehensive analysis on the relationship between sleep stages and narcolepsy, correlation of different channels, predictive ability of different sensing data, and diagnosis results in subject level.",
+    "abstract_source": "openalex_doi",
+    "pdf_url": "https://ieeexplore.ieee.org/ielx7/7333/4359219/10242085.pdf",
+    "abstract_zh": "发作性睡病是一种睡眠障碍，影响全世界数百万人，并导致严重的公共健康问题。医生很难正确、客观地诊断发作性睡病。多导睡眠图（PSG）记录是睡眠监测和质量测量的黄金标准，可以为发作性睡病的诊断提供丰富且客观的线索。已经有一些利用 PSG 记录进行自动发作性睡病诊断的研究。然而，睡眠阶段信息作为发作性睡病诊断的重要线索，尚未得到充分利用。例如，一些研究没有考虑睡眠阶段信息来诊断发作性睡病。尽管一些研究考虑了睡眠阶段信息......"
+  },
+  {
+    "title": "Generalizable Sleep Staging via Multi-Level Domain Alignment",
+    "title_en": "Generalizable Sleep Staging via Multi-Level Domain Alignment",
+    "title_zh": "通过多级域对齐的通用睡眠分期。",
+    "year": 2023,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "authors": [
+      "Jiquan Wang",
+      "Sha Zhao",
+      "Hai-Teng Jiang",
+      "Shi-Jian Li",
+      "Tao Li",
+      "Gang Pan"
+    ],
+    "doi": "10.48550/arXiv.2401.05363",
+    "paper_url": "https://www.semanticscholar.org/paper/286804dedf5a8d954b1858f39f67ec9ac8a138e0",
+    "source_url": "https://www.semanticscholar.org/paper/286804dedf5a8d954b1858f39f67ec9ac8a138e0",
+    "topics": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化"
+    ],
+    "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "286804dedf5a8d954b1858f39f67ec9ac8a138e0",
+    "semantic_scholar_author_id": "2110190007",
+    "cited_by_count": 40,
+    "publication_types": [
+      "JournalArticle",
+      "Conference"
+    ],
+    "candidate_source": false,
+    "source_kind": "Semantic Scholar author works",
+    "translation_source": "中文辅助机器译名，已做术语规则校正；非作者官方中文题名",
+    "record_id": "jiquan_wang_272dda571a5f",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码",
+    "secondary_tags": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "jiquan_wang",
+    "scholar_name": "王继权",
+    "work_title_group": "27ebe803ab60",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "jiquan_wang",
+      "pan_gang"
+    ],
+    "scholar_names": [
+      "王继权",
+      "潘纲"
+    ],
+    "source_record_ids": [
+      "jiquan_wang_272dda571a5f"
+    ],
+    "scholar_categories": {
+      "jiquan_wang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "王继权",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "pan_gang": {
+        "category_id": "systems",
+        "label": "数据库、计算系统与软件方法",
+        "scholar_name": "潘纲",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "RIVA: A Pre-trained Tweet Multimodal Model Based on Text-image Relation for Multimodal NER",
-      "title_en": "RIVA: A Pre-trained Tweet Multimodal Model Based on Text-image Relation for Multimodal NER",
-      "title_zh": "RIVA：基于文本图像的预训练推文多模态模型多模态 NER 的关系",
-      "year": 2020,
-      "venue": "International Conference on Computational Linguistics",
-      "authors": [
-        "Lin Sun",
-        "Jiquan Wang",
-        "Yin-Du Su",
-        "Fang-Sheng Weng",
-        "Yuxuan Sun",
-        "Zeng-Wei Zheng",
-        "Yuanyi Chen"
-      ],
-      "doi": "10.18653/V1/2020.COLING-MAIN.168",
-      "paper_url": "https://www.semanticscholar.org/paper/dacb7d17ad9d1a17421bbe9f38ca9fd9e0703653",
-      "source_url": "https://www.semanticscholar.org/paper/dacb7d17ad9d1a17421bbe9f38ca9fd9e0703653",
-      "topics": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化",
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "dacb7d17ad9d1a17421bbe9f38ca9fd9e0703653",
-      "semantic_scholar_author_id": "2110190007",
-      "cited_by_count": 67,
-      "publication_types": [
-        "JournalArticle",
-        "Conference"
-      ],
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "jiquan_wang_5ec1d2bc090a",
-      "category_id": "eeg_foundation",
-      "primary_category": "脑电基础模型与通用解码",
-      "secondary_tags": [
-        "EEG基础模型",
-        "脑电解码",
-        "跨任务泛化"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "jiquan_wang",
-      "scholar_name": "王继权",
-      "work_title_group": "4cf96977703c",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
-    }
-  ]
-}
+    "global_record_id": "7c186ff091687e54",
+    "primary_categories_by_scholar": [
+      "王继权：脑电基础模型与通用解码",
+      "潘纲：数据库、计算系统与软件方法"
+    ],
+    "dblp_key": "journals/corr/abs-2401-05363",
+    "abstract_en": "Automatic sleep staging is essential for sleep assessment and disorder diagnosis. Most existing methods depend on one specific dataset and are limited to be generalized to other unseen datasets, for which the training data and testing data are from the same dataset. In this paper, we introduce domain generalization into automatic sleep staging and propose the task of generalizable sleep staging which aims to improve the model generalization ability to unseen datasets. Inspired by existing domain generalization methods, we adopt the feature alignment idea and propose a framework called SleepDG to solve it. Considering both of local salient features and sequential features are important for sleep staging, we propose a Multi-level Feature Alignment combining epoch-level and sequence-level feature alignment to learn domain-invariant feature representations. Specifically, we design an Epoch-level Feature Alignment to align the feature distribution of each single sleep epoch among different domains, and a Sequence-level Feature Alignment to minimize the discrepancy of sequential features among different domains. SleepDG is validated on five public datasets, achieving the state-of-the-art performance.",
+    "abstract_source": "arxiv_api",
+    "pdf_url": "https://arxiv.org/pdf/2401.05363.pdf",
+    "abstract_zh": "自动睡眠分期对于睡眠评估和疾病诊断至关重要。大多数现有方法依赖于一个特定的数据集，并且仅限于推广到其他未见过的数据集，其中训练数据和测试数据来自同一数据集。在本文中，我们将领域泛化引入自动睡眠分期，并提出可泛化睡眠分期的任务，旨在提高模型对未见过的数据集的泛化能力。受现有领域泛化方法的启发，我们采用特征对齐思想并提出了一个名为 SleepDG 的框架来解决它。考虑局部显着特征和顺序特征对于sl..."
+  },
+  {
+    "title": "Multimodal Sarcasm Target Identification in Tweets",
+    "title_en": "Multimodal Sarcasm Target Identification in Tweets",
+    "title_zh": "推文中的多模态讽刺目标识别",
+    "year": 2022,
+    "venue": "Annual Meeting of the Association for Computational Linguistics",
+    "authors": [
+      "Jiquan Wang",
+      "Lin Sun",
+      "Yi Liu",
+      "Mei-In Shao",
+      "Zeng-Wei Zheng"
+    ],
+    "doi": "10.18653/v1/2022.acl-long.562",
+    "paper_url": "https://www.semanticscholar.org/paper/ad255c3984151e6ae07c101fb150a82584916475",
+    "source_url": "https://www.semanticscholar.org/paper/ad255c3984151e6ae07c101fb150a82584916475",
+    "topics": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化",
+      "情感计算与情绪理解",
+      "多模态与大语言模型"
+    ],
+    "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4285247267",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "ad255c3984151e6ae07c101fb150a82584916475",
+    "semantic_scholar_author_id": "2110190007",
+    "cited_by_count": 29,
+    "publication_types": [
+      "JournalArticle",
+      "Conference"
+    ],
+    "candidate_source": false,
+    "source_kind": "Semantic Scholar author works",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "jiquan_wang_323a8b77ba22",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码",
+    "secondary_tags": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "jiquan_wang",
+    "scholar_name": "王继权",
+    "work_title_group": "aa7fe9e12ea2",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "jiquan_wang"
+    ],
+    "scholar_names": [
+      "王继权"
+    ],
+    "source_record_ids": [
+      "jiquan_wang_323a8b77ba22"
+    ],
+    "scholar_categories": {
+      "jiquan_wang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "王继权",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "dda5fbc1bb1ef485",
+    "primary_categories_by_scholar": [
+      "王继权：脑电基础模型与通用解码"
+    ],
+    "abstract_en": "Sarcasm is important to sentiment analysis on social media.Sarcasm Target Identification (STI) deserves further study to understand sarcasm in depth.However, text lacking context or missing sarcasm target makes target identification very difficult.In this paper, we introduce multimodality to STI and present Multimodal Sarcasm Target Identification (MSTI) task.We propose a novel multi-scale crossmodality model that can simultaneously perform textual target labeling and visual target detection.In the model, we extract multi-scale visual features to enrich spatial information for different sized visual sarcasm targets.We design a set of convolution networks to unify multi-scale visual features with textual features for cross-modal attention learning, and correspondingly a set of transposed convolution networks to restore multi-scale visual information.The results show that visual clues can improve the performance of TSTI by a large margin, and VSTI achieves good accuracy.",
+    "abstract_source": "openalex_doi",
+    "pdf_url": "https://aclanthology.org/2022.acl-long.562.pdf",
+    "abstract_zh": "讽刺对于社交媒体上的情感分析很重要。讽刺目标识别（STI）值得进一步研究以深入理解讽刺。然而，缺乏上下文或缺少讽刺目标的文本使得目标识别变得非常困难。在本文中，我们将多模态引入STI并提出多模态讽刺目标识别（MSTI）任务。我们提出了一种新颖的多尺度交叉模态模型，可以同时执行文本目标标记和视觉目标检测。在该模型中，我们提取多尺度视觉特征丰富不同尺寸视觉讽刺目标的空间信息。我们设计了一组卷积网络来统一多尺度视觉特征..."
+  },
+  {
+    "title": "RpBERT: A Text-image Relation Propagation-based BERT Model for Multimodal NER",
+    "title_en": "RpBERT: A Text-image Relation Propagation-based BERT Model for Multimodal NER",
+    "title_zh": "RpBERT：用于多模态 NER 的基于文本图像关系传播的 BERT 模型",
+    "year": 2021,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "authors": [
+      "Lin Sun",
+      "Jiquan Wang",
+      "Kai Zhang",
+      "Yin-Du Su",
+      "Fang-Sheng Weng"
+    ],
+    "doi": "10.48550/arXiv.2102.02967",
+    "paper_url": "https://www.semanticscholar.org/paper/b9ad52b670189658851026e03a33063a1b8d47fe",
+    "source_url": "https://www.semanticscholar.org/paper/b9ad52b670189658851026e03a33063a1b8d47fe",
+    "topics": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化",
+      "多模态与大语言模型"
+    ],
+    "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "b9ad52b670189658851026e03a33063a1b8d47fe",
+    "semantic_scholar_author_id": "2110190007",
+    "cited_by_count": 213,
+    "publication_types": [
+      "JournalArticle",
+      "Conference"
+    ],
+    "candidate_source": false,
+    "source_kind": "Semantic Scholar author works",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "jiquan_wang_351db3f8db24",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码",
+    "secondary_tags": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "jiquan_wang",
+    "scholar_name": "王继权",
+    "work_title_group": "4bc0ceebad7b",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "jiquan_wang"
+    ],
+    "scholar_names": [
+      "王继权"
+    ],
+    "source_record_ids": [
+      "jiquan_wang_351db3f8db24"
+    ],
+    "scholar_categories": {
+      "jiquan_wang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "王继权",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "f5fc39d99c3bb554",
+    "primary_categories_by_scholar": [
+      "王继权：脑电基础模型与通用解码"
+    ],
+    "abstract_en": "Recently multimodal named entity recognition (MNER) has utilized images to improve the accuracy of NER in tweets. However, most of the multimodal methods use attention mechanisms to extract visual clues regardless of whether the text and image are relevant. Practically, the irrelevant text-image pairs account for a large proportion in tweets. The visual clues that are unrelated to the texts will exert uncertain or even negative effects on multimodal model learning. In this paper, we introduce a method of text-image relation propagation into the multimodal BERT model. We integrate soft or hard gates to select visual clues and propose a multitask algorithm to train on the MNER datasets. In the experiments, we deeply analyze the changes in visual attention before and after the use of text-image relation propagation. Our model achieves state-of-the-art performance on the MNER datasets.",
+    "abstract_source": "arxiv_api",
+    "pdf_url": "https://arxiv.org/pdf/2102.02967.pdf",
+    "abstract_zh": "最近，多模态命名实体识别 (MNER) 利用图像来提高推文中 NER 的准确性。然而，大多数多模态方法都使用注意机制来提取视觉线索，无论文本和图像是否相关。实际上，不相关的文本图像对在推文中占很大比例。与文本无关的视觉线索会对多模态模型学习产生不确定甚至负面的影响。在本文中，我们将一种文本-图像关系传播方法引入多模态 BERT 模型中。我们集成软门或硬门来选择视觉线索，并提出一种多任务算法来在 MNER 数据集上进行训练。在..."
+  },
+  {
+    "title": "RIVA: A Pre-trained Tweet Multimodal Model Based on Text-image Relation for Multimodal NER",
+    "title_en": "RIVA: A Pre-trained Tweet Multimodal Model Based on Text-image Relation for Multimodal NER",
+    "title_zh": "RIVA：基于文本图像的预训练推文多模态模型多模态 NER 的关系",
+    "year": 2020,
+    "venue": "International Conference on Computational Linguistics",
+    "authors": [
+      "Lin Sun",
+      "Jiquan Wang",
+      "Yin-Du Su",
+      "Fang-Sheng Weng",
+      "Yuxuan Sun",
+      "Zeng-Wei Zheng",
+      "Yuanyi Chen"
+    ],
+    "doi": "10.18653/V1/2020.COLING-MAIN.168",
+    "paper_url": "https://www.semanticscholar.org/paper/dacb7d17ad9d1a17421bbe9f38ca9fd9e0703653",
+    "source_url": "https://www.semanticscholar.org/paper/dacb7d17ad9d1a17421bbe9f38ca9fd9e0703653",
+    "topics": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化",
+      "多模态与大语言模型"
+    ],
+    "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W3117216739",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "dacb7d17ad9d1a17421bbe9f38ca9fd9e0703653",
+    "semantic_scholar_author_id": "2110190007",
+    "cited_by_count": 67,
+    "publication_types": [
+      "JournalArticle",
+      "Conference"
+    ],
+    "candidate_source": false,
+    "source_kind": "Semantic Scholar author works",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "jiquan_wang_5ec1d2bc090a",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码",
+    "secondary_tags": [
+      "EEG基础模型",
+      "脑电解码",
+      "跨任务泛化"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "jiquan_wang",
+    "scholar_name": "王继权",
+    "work_title_group": "4cf96977703c",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "jiquan_wang"
+    ],
+    "scholar_names": [
+      "王继权"
+    ],
+    "source_record_ids": [
+      "jiquan_wang_5ec1d2bc090a"
+    ],
+    "scholar_categories": {
+      "jiquan_wang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "王继权",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "41eeb59409bafd8c",
+    "primary_categories_by_scholar": [
+      "王继权：脑电基础模型与通用解码"
+    ],
+    "abstract_en": "Multimodal named entity recognition (MNER) for tweets has received increasing attention recently.Most of the multimodal methods used attention mechanisms to capture the text-related visual information.However, unrelated or weakly related text-image pairs account for a large proportion in tweets.Visual clues unrelated to the text would incur uncertain or even negative effects for multimodal model learning.In this paper, we propose a novel pre-trained multimodal model based on Relationship Inference and Visual Attention (RIVA) for tweets.The RIVA model controls the attention-based visual clues with a gate regarding the role of image to the semantics of text.We use a teacher-student semi-supervised paradigm to leverage a large unlabeled multimodal tweet corpus with a labeled data set for text-image relation classification.In the multimodal NER task, the experimental results show the significance of text-related visual features for the visual-linguistic model and our approach achieves SOTA performance on the MNER datasets.",
+    "abstract_source": "openalex_doi",
+    "pdf_url": "https://www.aclweb.org/anthology/2020.coling-main.168.pdf",
+    "abstract_zh": "推文的多模态命名实体识别（MNER）最近受到越来越多的关注。大多数多模态方法使用注意机制来捕获与文本相关的视觉信息。然而，不相关或弱相关的文本图像对在推文中占很大比例。与文本无关的视觉线索会给多模态模型学习带来不确定甚至负面的影响。在本文中，我们提出了一种基于推文关系推理和视觉注意（RIVA）的新型预训练多模态模型。 RIVA 模型通过关于图像对文本语义的作用的门来控制基于注意力的视觉线索。我们使用师生半监督..."
+  }
+]

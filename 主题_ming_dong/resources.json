@@ -39,7 +39,7 @@
       "ming_dong::eeg_affect"
     ],
     "primary_categories": [
-      "情感脑电与多模态生理信号"
+      "明东：情感脑电与多模态生理信号"
     ]
   },
   {
@@ -82,7 +82,7 @@
       "ming_dong::eeg_affect"
     ],
     "primary_categories": [
-      "情感脑电与多模态生理信号"
+      "明东：情感脑电与多模态生理信号"
     ]
   },
   {
@@ -125,7 +125,7 @@
       "ming_dong::eeg_affect"
     ],
     "primary_categories": [
-      "情感脑电与多模态生理信号"
+      "明东：情感脑电与多模态生理信号"
     ]
   },
   {
@@ -168,7 +168,7 @@
       "ming_dong::eeg_affect"
     ],
     "primary_categories": [
-      "情感脑电与多模态生理信号"
+      "明东：情感脑电与多模态生理信号"
     ]
   },
   {
@@ -211,7 +211,7 @@
       "ming_dong::eeg_affect"
     ],
     "primary_categories": [
-      "情感脑电与多模态生理信号"
+      "明东：情感脑电与多模态生理信号"
     ]
   },
   {
@@ -254,7 +254,143 @@
       "ming_dong::eeg_affect"
     ],
     "primary_categories": [
-      "情感脑电与多模态生理信号"
+      "明东：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "ming_dong__auto_code_01b4030543",
+    "name": "CTSSP: A temporal-spectral-spatial joint optimization algorithm for motor imagery EEG decoding — 开源代码 (PLC-TJU/CTSSP)",
+    "name_zh": "CTSSP：运动想象脑电图解码的时谱空间联合优化算法。 J Neural Eng — 开源代码",
+    "type": "code",
+    "url": "https://github.com/PLC-TJU/CTSSP",
+    "download_url": "https://github.com/PLC-TJU/CTSSP",
+    "access": "public",
+    "related_paper_titles": [
+      "CTSSP: A temporal-spectral-spatial joint optimization algorithm for motor imagery EEG decoding"
+    ],
+    "related_paper_titles_zh": [
+      "CTSSP：运动想象脑电图解码的时谱空间联合优化算法。 J Neural Eng"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/PLC-TJU/CTSSP",
+      "https://doi.org/10.1088/1741-2552/ae34ea"
+    ],
+    "description": "从论文《CTSSP: A temporal-spectral-spatial joint optimization algorithm for motor imagery EEG decoding》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "ming_dong",
+    "scholar_name": "明东",
+    "matched_paper_ids": [
+      "ming_dong_55bc5cd3f16d"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "ming_dong::eeg_affect",
+      "minpeng_xu::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "明东：情感脑电与多模态生理信号",
+      "许敏鹏：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "ming_dong__auto_code_9c31f6602c",
+    "name": "YOLO-US: A Unified Multi-Task Foundation Framework for Generalist Ultrasound Image Analysis — 开源代码 (LwpZoe/YOLO-US)",
+    "name_zh": "YOLO-US: A Unified Multi-Task Foundation Framework for Generalist Ultrasound Image Analysis — 开源代码",
+    "type": "code",
+    "url": "https://github.com/LwpZoe/YOLO-US",
+    "download_url": "https://github.com/LwpZoe/YOLO-US",
+    "access": "public",
+    "related_paper_titles": [
+      "YOLO-US: A Unified Multi-Task Foundation Framework for Generalist Ultrasound Image Analysis"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/LwpZoe/YOLO-US",
+      "https://doi.org/10.1109/ISBI61048.2026.11515898"
+    ],
+    "description": "从论文《YOLO-US: A Unified Multi-Task Foundation Framework for Generalist Ultrasound Image Analysis》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "ming_dong",
+    "scholar_name": "明东",
+    "matched_paper_ids": [
+      "ming_dong_b42e0ae69de48968"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "ming_dong::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "明东：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "ming_dong__auto_code_7fbcff5b93",
+    "name": "S2Net: Self-adaptive weighted fusion and self-adaptive aligned network for multi-modal MRI segmentation — 开源代码 (Cooper-Gu/S2Net)",
+    "name_zh": "S2Net: Self-adaptive weighted fusion and self-adaptive aligned network for multi-modal MRI segmentation — 开源代码",
+    "type": "code",
+    "url": "https://github.com/Cooper-Gu/S2Net",
+    "download_url": "https://github.com/Cooper-Gu/S2Net",
+    "access": "public",
+    "related_paper_titles": [
+      "S2Net: Self-adaptive weighted fusion and self-adaptive aligned network for multi-modal MRI segmentation"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/Cooper-Gu/S2Net",
+      "https://doi.org/10.1002/mp.17742"
+    ],
+    "description": "从论文《S2Net: Self-adaptive weighted fusion and self-adaptive aligned network for multi-modal MRI segmentation》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "ming_dong",
+    "scholar_name": "明东",
+    "matched_paper_ids": [
+      "ming_dong_1a35e4804303f7a1"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "ming_dong::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "明东：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "ming_dong__auto_code_c78f2ba079",
+    "name": "St-RegSeg: an unsupervised registration-based framework for multimodal magnetic resonance imaging stroke lesion segmentation — 开源代码 (Cooper-Gu/St-RegSeg)",
+    "name_zh": "St-RegSeg: an unsupervised registration-based framework for multimodal magnetic resonance imaging stroke lesion segmentation — 开源代码",
+    "type": "code",
+    "url": "https://github.com/Cooper-Gu/St-RegSeg",
+    "download_url": "https://github.com/Cooper-Gu/St-RegSeg",
+    "access": "public",
+    "related_paper_titles": [
+      "St-RegSeg: an unsupervised registration-based framework for multimodal magnetic resonance imaging stroke lesion segmentation"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/Cooper-Gu/St-RegSeg",
+      "https://doi.org/10.21037/qims-24-725"
+    ],
+    "description": "从论文《St-RegSeg: an unsupervised registration-based framework for multimodal magnetic resonance imaging stroke lesion segmentation》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "ming_dong",
+    "scholar_name": "明东",
+    "matched_paper_ids": [
+      "ming_dong_a58284d21a94538e"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "ming_dong::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "明东：脑电基准、数据与评测"
     ]
   }
 ]

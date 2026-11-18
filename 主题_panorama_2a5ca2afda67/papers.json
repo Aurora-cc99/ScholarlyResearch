@@ -1,1180 +1,3426 @@
-{
-  "scholar": {
-    "name_zh": "陈庭继",
-    "name_en": "English name pending",
-    "affiliation": "苏州大学",
-    "identity_sources": [
-      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+[
+  {
+    "title": "Distinct modulatory effects of altruistic and deontological guilt on neural processes of empathy. Journal of Experimental Social Psychology",
+    "title_en": "Distinct modulatory effects of altruistic and deontological guilt on neural processes of empathy. Journal of Experimental Social Psychology",
+    "title_zh": "利他主义和道义罪恶感对共情神经过程的独特调节作用。实验社会心理学杂志",
+    "year": 2026,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "陈庭继"
     ],
-    "official_homepages": [
-      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感计算与情绪理解"
     ],
-    "coverage": {
-      "scope": "2025–2026主题筛选与全量书目扩展",
-      "status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
-      "coverage_status": "仅有代表论文或项目级记录；个人全历史待补核",
-      "available_record_count": 23,
-      "bulk_source_record_count": 0,
-      "themes": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ]
-    },
-    "coverage_notes": "该目录与五位基线学者使用同一论文/资源/分类输出契约。‘可用记录数’表示本轮已取得并保留的书目，不等于未经消歧的个人终身全集；身份待核验、论文团队和同名风险见候选筛选证据。",
-    "id": "panorama_2a5ca2afda67",
-    "folder": "主题_panorama_2a5ca2afda67",
-    "classification": {
-      "method": "按题名及现有项目、资源说明进行主题粗分，用于阅读导航；未逐篇审阅全文，不代表学者官方分类。每条书目只设一个主类别，跨方向信息保留在辅助标签中。",
-      "categories": [
-        {
-          "id": "eeg_foundation",
-          "label": "脑电基础模型与通用解码",
-          "description": "EEG基础模型、跨任务/跨设备泛化、预训练与脑信号解码。",
-          "count": 0
-        },
-        {
-          "id": "eeg_affect",
-          "label": "情感脑电与多模态生理信号",
-          "description": "脑电情感识别、EEG-fNIRS/EEG-MEG及情感计算应用。",
-          "count": 23
-        },
-        {
-          "id": "eeg_benchmark",
-          "label": "脑电基准、数据与评测",
-          "description": "脑电基础模型基准、数据集、可复现评估与跨数据集比较。",
-          "count": 0
-        }
-      ],
-      "review": {
-        "status": "theme_candidate",
-        "source_status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
-        "primary_theme": "脑电情感计算与脑电大模型"
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_6362ddd1bf40",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "work_title_group": "9304834d9bc5",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_6362ddd1bf40"
+    ],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
       }
     },
-    "counts": {
-      "bibliographic_records": 23,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [
-        2015,
-        2016,
-        2017,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "unknown_year": 0
-    }
+    "global_record_id": "751c5ecff8409b5d",
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ]
   },
-  "papers": [
-    {
-      "title": "Distinct modulatory effects of altruistic and deontological guilt on neural processes of empathy. Journal of Experimental Social Psychology",
-      "title_en": "Distinct modulatory effects of altruistic and deontological guilt on neural processes of empathy. Journal of Experimental Social Psychology",
-      "title_zh": "利他主义和道义罪恶感对共情神经过程的独特调节作用。实验社会心理学杂志",
-      "year": 2026,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "陈庭继"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_2a5ca2afda67_6362ddd1bf40",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_2a5ca2afda67",
-      "scholar_name": "陈庭继",
-      "work_title_group": "9304834d9bc5",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+  {
+    "title": "The Affective Priming Effect on the N400 and LPP Components: A Three‐Level Meta‐Analysis. Psychophysiology",
+    "title_en": "The Affective Priming Effect on the N400 and LPP Components: A Three‐Level Meta‐Analysis. Psychophysiology",
+    "title_zh": "对 N400 和 LPP 成分的情感启动效应：三级荟萃分析。心理生理学",
+    "year": 2025,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "陈庭继"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_975e36c3e0d7",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "work_title_group": "1a4335400faa",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_975e36c3e0d7"
+    ],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Effects of Deontological and Altruistic Guilt on Empathy. International Journal of Psychology",
-      "title_en": "Effects of Deontological and Altruistic Guilt on Empathy. International Journal of Psychology",
-      "title_zh": "义务论和利他主义内疚对同理心的影响。国际心理学杂志",
-      "year": 2025,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "陈庭继"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_2a5ca2afda67_a04058bcb067",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_2a5ca2afda67",
-      "scholar_name": "陈庭继",
-      "work_title_group": "4603eb7f6155",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "c6702c50cbe9625e",
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Effects of Deontological and Altruistic Guilt on Empathy. International Journal of Psychology",
+    "title_en": "Effects of Deontological and Altruistic Guilt on Empathy. International Journal of Psychology",
+    "title_zh": "义务论和利他主义内疚对同理心的影响。国际心理学杂志",
+    "year": 2025,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "陈庭继"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_a04058bcb067",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "work_title_group": "4603eb7f6155",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_a04058bcb067"
+    ],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "The Affective Priming Effect on the N400 and LPP Components: A Three‐Level Meta‐Analysis. Psychophysiology",
-      "title_en": "The Affective Priming Effect on the N400 and LPP Components: A Three‐Level Meta‐Analysis. Psychophysiology",
-      "title_zh": "对 N400 和 LPP 成分的情感启动效应：三级荟萃分析。心理生理学",
-      "year": 2025,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "陈庭继"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_2a5ca2afda67_975e36c3e0d7",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_2a5ca2afda67",
-      "scholar_name": "陈庭继",
-      "work_title_group": "1a4335400faa",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "07154f917f05ad0b",
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Effects of Deontological and Altruistic Guilt on Empathy",
+    "title_en": "Effects of Deontological and Altruistic Guilt on Empathy",
+    "title_zh": "义务性和利他性内疚对同理心的影响",
+    "year": 2025,
+    "venue": "International Journal of Psychology",
+    "authors": [
+      "Ziyu Zhang",
+      "Tingji Chen"
+    ],
+    "doi": "10.1002/ijop.70134",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1002/ijop.70134",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4416122769",
+    "openalex_id": "https://openalex.org/W4416122769",
+    "openalex_author_id": "https://openalex.org/A5038483627",
+    "cited_by_count": 0,
+    "abstract_en": "Guilt as an important self-conscious emotion plays both constructive and destructive roles in affective and cognitive processes of empathy during social interactions. To reconcile these contrasting perspectives, we explored how two distinct guilt emotions-deontological guilt (DG) and altruistic guilt (AG)-affect affective and cognitive empathy, based on a dualistic thesis of guilt. We employed auditory stories to induce participants' DG, AG and neutral emotional states and used an empathy task adapted from the Multifaceted Empathy Test (MET) to measure two types of empathy. Results showed that the DG group demonstrated greater affective empathy towards angry, disgusted, fearful and sad faces, and the AG group exhibited more affective empathy towards fearful and sad facial expressions compared to those in the neutral group. Moreover, the DG group also experienced more affective empathy towards disgusted and fearful faces than the AG group. However, cognitive empathy for facial expressions did not differ among the three emotional state groups. Overall, these findings suggest that DG and AG emotions both have a constructive effect on affective empathic responses for specific emotions.",
+    "abstract_zh": "内疚作为一种重要的自我意识情绪，在社会交往过程中的共情情感和认知过程中发挥着建设性和破坏性的作用。为了调和这些截然不同的观点，我们基于内疚的二元论论，探讨了两种不同的内疚情绪——道义内疚（DG）和利他内疚（AG）——如何影响情感和认知同理心。我们采用听觉故事来诱导参与者的 DG、AG 和中性情绪状态，并使用改编自多方面同理心测试 (MET) 的同理心任务来测量两种类型的同理心。结果显示，DG 组对愤怒、厌恶、恐惧和悲伤的面孔表现出更大的情感同理心，而 AG 组则表现出更多的情感同理心……",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5038483627）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_10f2bf5932e8cdeb",
+    "global_record_id": "0b8d68c277f9c1ed",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_10f2bf5932e8cdeb"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "Autonomic and facial electromyographic responses to watching eyes. i-Perception",
-      "title_en": "Autonomic and facial electromyographic responses to watching eyes. i-Perception",
-      "title_zh": "对注视眼睛的自主和面部肌电反应。 i-感知",
-      "year": 2024,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "陈庭继"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_2a5ca2afda67_864e8c76ec9f",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_2a5ca2afda67",
-      "scholar_name": "陈庭继",
-      "work_title_group": "b1ba7af7931a",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "The Affective Priming Effect on the N400 and LPP Components: A Three‐Level Meta‐Analysis",
+    "title_en": "The Affective Priming Effect on the N400 and LPP Components: A Three‐Level Meta‐Analysis",
+    "title_zh": "N400 和 LPP 成分的情感启动效应：三级荟萃分析",
+    "year": 2025,
+    "venue": "Psychophysiology",
+    "authors": [
+      "Ziyu Zhang",
+      "Tingji Chen"
+    ],
+    "doi": "10.1111/psyp.70141",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1111/psyp.70141",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4414845828",
+    "openalex_id": "https://openalex.org/W4414845828",
+    "openalex_author_id": "https://openalex.org/A5038483627",
+    "cited_by_count": 1,
+    "abstract_en": "ABSTRACT The priming of affective stimuli influences the subsequent emotional and cognitive processes. Though the affective priming effect has been widely discussed at the behavioral level, systematic reviews, and evaluations of the electrophysiological data in affective priming studies remain scarce, with findings across various research appearing inconsistent. By adopting a three‐level random‐effects meta‐analytic approach, the present study aimed to quantitatively synthesize the event‐related potential (ERP) evidence of the affective priming effect on N400 and late positive potential (LPP) components. We identified 47 studies through a search of four databases (i.e., Web of Science, PubMed, ProQuest, and PsycINFO). Meta‐analysis of the N400 component in N = 1118 participants and the LPP component in N = 804 participants both indicated that affectively incongruent prime‐target trials induced larger ERP amplitudes compared to affectively congruent prime‐target trials, with d N400 = 0.63 (95% CI: 0.38, 0.88; SE = 0.13; t = 5.03; p < 0.001), d LPP = 0.24 (95% CI: 0.03, 0.46; SE = 0.11; t = 2.29; p < 0.05), respectively. Moderator analyses showed that stimulus onset asynchrony (SOA) and task demand have explained the variations in the N400 effect and the LPP effect is moderated by SOA. Potential explanations, limitations, and future research directions were discussed.",
+    "abstract_zh": "摘要 情感刺激的启动影响随后的情感和认知过程。尽管情感启动效应已在行为层面得到广泛讨论，但情感启动研究中电生理数据的系统评价和评估仍然很少，各种研究的结果似乎不一致。通过采用三水平随机效应荟萃分析方法，本研究旨在定量综合 N400 和晚期正电位 (LPP) 成分的情感启动效应的事件相关电位 (ERP) 证据。我们通过检索四个数据库（即 Web of Science、PubMed、ProQuest 和 PsycINFO）确定了 47 项研究。 N 的荟萃分析...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "脑机接口与神经解码",
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5038483627）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_3afd0df7b020403b",
+    "global_record_id": "bd85032ace06d41b",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_3afd0df7b020403b"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "Emotionally positive self-directed speech widens the cone of gaze.. Emotion",
-      "title_en": "Emotionally positive self-directed speech widens the cone of gaze.. Emotion",
-      "title_zh": "情感上积极的自我导向演讲扩大了视线范围。. 情感",
-      "year": 2024,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "陈庭继"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_2a5ca2afda67_5c5b436f5c97",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_2a5ca2afda67",
-      "scholar_name": "陈庭继",
-      "work_title_group": "a0845562b6a5",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Autonomic and facial electromyographic responses to watching eyes",
+    "title_en": "Autonomic and facial electromyographic responses to watching eyes",
+    "title_zh": "对注视眼睛的自主和面部肌电反应",
+    "year": 2024,
+    "venue": "i-Perception",
+    "authors": [
+      "Tingji Chen",
+      "Terhi M. Helminen",
+      "Samuli Linnunsalo",
+      "Jari K. Hietanen"
+    ],
+    "doi": "10.1177/20416695231226059",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1177/20416695231226059",
+    "pdf_url": "https://doi.org/10.1177/20416695231226059",
+    "source_url": "https://openalex.org/W4391146788",
+    "openalex_id": "https://openalex.org/W4391146788",
+    "openalex_author_id": "https://openalex.org/A5038483627",
+    "cited_by_count": 4,
+    "abstract_en": "We measured participants' psychophysiological responses and gaze behavior while viewing a stimulus person's direct and averted gaze in three different conditions manipulating the participants' experience of being watched. The results showed that skin conductance responses and heart rate deceleration responses were greater to direct than averted gaze only in the condition in which the participants had the experience of being watched by the other individual. In contrast, gaze direction had no effects on these responses when the participants were manipulated to believe that the other individual could not watch them or when the stimulus person was presented in a pre-recorded video. Importantly, the eye tracking measures showed no differences in participants' looking behavior between these stimulus presentation conditions. The results of facial electromyography responses suggested that direct gaze elicited greater zygomatic and periocular responses than averted gaze did, independent of the presentation condition. It was concluded that the affective arousal and attention-orienting indexing autonomic responses to eye contact are driven by the experience of being watched. In contrast, the facial responses seem to reflect automatized affiliative responses which can be elicited even in conditions in which seeing another's direct gaze does not signal that the self is being watched.",
+    "abstract_zh": "我们测量了参与者的心理生理反应和凝视行为，同时在三种不同的条件下观察刺激者的直接和回避的凝视，从而操纵参与者的被观看体验。结果表明，只有在参与者有被他人注视的体验的情况下，皮肤电导反应和心率减速反应对直接凝视的反应才大于对回避凝视的反应。相比之下，当参与者被操纵相信其他人无法观看他们或当刺激者出现在预先录制的视频中时，凝视方向对这些反应没有影响。重要的是，眼动追踪测量结果显示……没有差异。",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5038483627）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_ecad065b7eb9f413",
+    "global_record_id": "791dc4f9eb5f09d7",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_ecad065b7eb9f413"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "The Effects of Buddhist Religiosity and Aspects on Prosociality. The International Journal for the Psychology of Religion",
-      "title_en": "The Effects of Buddhist Religiosity and Aspects on Prosociality. The International Journal for the Psychology of Religion",
-      "title_zh": "佛教宗教信仰及其对亲社会性的影响。国际宗教心理学杂志",
-      "year": 2024,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "陈庭继"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_2a5ca2afda67_54f1db2c7175",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_2a5ca2afda67",
-      "scholar_name": "陈庭继",
-      "work_title_group": "e1a9aa02cd53",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Autonomic and facial electromyographic responses to watching eyes. i-Perception",
+    "title_en": "Autonomic and facial electromyographic responses to watching eyes. i-Perception",
+    "title_zh": "对注视眼睛的自主和面部肌电反应。 i-感知",
+    "year": 2024,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "陈庭继"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_864e8c76ec9f",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "work_title_group": "b1ba7af7931a",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_864e8c76ec9f"
+    ],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Attentional biases toward auditory weight‐related information among females with weight dissatisfaction. Psychophysiology",
-      "title_en": "Attentional biases toward auditory weight‐related information among females with weight dissatisfaction. Psychophysiology",
-      "title_zh": "对体重不满意的女性对听觉体重相关信息的注意偏差。心理生理学",
-      "year": 2023,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "陈庭继"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_2a5ca2afda67_333f07e1ebae",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_2a5ca2afda67",
-      "scholar_name": "陈庭继",
-      "work_title_group": "816a66bdef0b",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "a73656a513f3be37",
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "The Effects of Buddhist Religiosity and Aspects on Prosociality",
+    "title_en": "The Effects of Buddhist Religiosity and Aspects on Prosociality",
+    "title_zh": "佛教信仰及其对亲社会性的影响",
+    "year": 2024,
+    "venue": "International Journal for the Psychology of Religion",
+    "authors": [
+      "Ziyu Zhang",
+      "Dingyang Gu",
+      "Fei Shen",
+      "Yanqin Peng",
+      "Tingji Chen"
+    ],
+    "doi": "10.1080/10508619.2024.2353440",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1080/10508619.2024.2353440",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4398145160",
+    "openalex_id": "https://openalex.org/W4398145160",
+    "openalex_author_id": "https://openalex.org/A5038483627",
+    "cited_by_count": 5,
+    "abstract_en": "Religion prosociality hypothesis, which predicts that religion promotes prosocial behaviors, has been verified by previous empirical research. However, the religion in the previous studies investigating Eastern religions has often been examined as a single and unified concept. In the current study, based on a few studies in the context of Western religions, we considered the religiosity as a complex construct and investigated the influence of Buddhist religiosity and primed Buddhist and Christian aspects on prosociality through two studies. In Study 1, participants’ prosocial tendencies were measured by the Prosocial Tendencies Measure (PTM). In Study 2, we employed a subliminal priming task to investigate the effects of aspects of Buddhist and Christian traditions on prosociality measured by self-reports with explicit requests for donating money amount in nonbelievers. The results of Study 1 revealed that Buddhist believers exhibited more prosocial tendencies than nonbelievers, and female participants exhibited more prosocial tendencies than male participants. Study 2’s results showed that the Buddhist and Christian priming groups exhibited more prosocial intentions than the neutral priming group. Furthermore, for the group primed with the Buddhist words, the aspect of the spiritual activated more prosocial intentions than did the aspect of the agents and institutional. Taken together, these findings suggest that Buddhism, especially the spiritual component of Buddhism, increased prosocial tendencies.",
+    "abstract_zh": "宗教亲社会假说预测宗教会促进亲社会行为，这一假设已被先前的实证研究所证实。然而，以往对东方宗教的研究往往将宗教作为一个单一的、统一的概念来考察。在本研究中，基于西方宗教背景下的一些研究，我们将宗教信仰视为一个复杂的建构，并通过两项研究调查了佛教宗教信仰以及佛教和基督教方面对亲社会性的影响。在研究 1 中，参与者的亲社会倾向是通过亲社会倾向测量 (PTM) 来衡量的。在研究 2 中，我们采用了潜意识启动任务来研究佛教各方面的影响……",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5038483627）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_5a683fbfb82e389f",
+    "global_record_id": "5ba03cc9c8bc9527",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_5a683fbfb82e389f"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
     },
-    {
-      "title": "Audiovisual illusion training improves multisensory temporal integration. Consciousness and Cognition",
-      "title_en": "Audiovisual illusion training improves multisensory temporal integration. Consciousness and Cognition",
-      "title_zh": "视听错觉训练可改善多感觉时间整合。意识与认知",
-      "year": 2023,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "陈庭继"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_2a5ca2afda67_b3604f0312b1",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_2a5ca2afda67",
-      "scholar_name": "陈庭继",
-      "work_title_group": "1a4555650af6",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "primary_categories_by_scholar": [
+      "陈庭继：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "The Effects of Buddhist Religiosity and Aspects on Prosociality. The International Journal for the Psychology of Religion",
+    "title_en": "The Effects of Buddhist Religiosity and Aspects on Prosociality. The International Journal for the Psychology of Religion",
+    "title_zh": "佛教宗教信仰及其对亲社会性的影响。国际宗教心理学杂志",
+    "year": 2024,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "陈庭继"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_54f1db2c7175",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "work_title_group": "e1a9aa02cd53",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_54f1db2c7175"
+    ],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Skin conductance, facial EMG, and heart rate responses in multi-person gaze interactions. Biological Psychology",
-      "title_en": "Skin conductance, facial EMG, and heart rate responses in multi-person gaze interactions. Biological Psychology",
-      "title_zh": "多人凝视交互中的皮肤电导、面部肌电图和心率反应。生物心理学",
-      "year": 2023,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "陈庭继"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_2a5ca2afda67_f1eb9758e6e0",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_2a5ca2afda67",
-      "scholar_name": "陈庭继",
-      "work_title_group": "7bc436d02aa8",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "6221bdf5b7cad36f",
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Emotionally positive self-directed speech widens the cone of gaze",
+    "title_en": "Emotionally positive self-directed speech widens the cone of gaze",
+    "title_zh": "情感上积极的自我导向演讲扩大了视线范围。. 情感",
+    "year": 2024,
+    "venue": "Emotion",
+    "authors": [
+      "Tingji Chen",
+      "Jari K. Hietanen"
+    ],
+    "doi": "10.1037/emo0001304",
+    "paper_url": "https://doi.org/10.1037/emo0001304",
+    "source_url": "https://openalex.org/W4387114792",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4387114792",
+    "openalex_author_id": "https://openalex.org/A5038483627",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 3,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_5c5b436f5c97",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "work_title_group": "a0845562b6a5",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_5c5b436f5c97"
+    ],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "The pictorial set of Emotional Social Interactive Scenarios between Chinese Adults (ESISCA): Development and validation. Behavior Research Methods",
-      "title_en": "The pictorial set of Emotional Social Interactive Scenarios between Chinese Adults (ESISCA): Development and validation. Behavior Research Methods",
-      "title_zh": "中国成年人之间的情感社交互动场景（ESISCA）图集：开发和验证。行为研究方法",
-      "year": 2023,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "陈庭继"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_2a5ca2afda67_7f31761d1596",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_2a5ca2afda67",
-      "scholar_name": "陈庭继",
-      "work_title_group": "7a09cee8877e",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "51cb7ee070b936d9",
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ],
+    "abstract_en": "The perception of another individual's gaze direction is not a low-level, stimulus-driven visual process but a higher-level process that can be top-down modulated, for example, by emotion and theory of mind. The present study investigated the influence of directed (self vs. other) and emotional (positive vs. negative) speech on judging whether another individual's gaze or an arrow is directed toward the self or not. Experiments 1 and 2 showed that participants perceived a wider range of gaze deviations as looking at them when the speech was directed to themselves versus others. Importantly, the emotion in speech also impacted gaze judgments, but only when the speech was related to the participants themselves: the gaze cone was greater for positive than for negative self-relevant speech. This pattern of results was observed regardless of whether the speech was task-relevant (Experiment 1) or task-irrelevant (Experiment 2). Additionally, the results from Experiment 3 showed that the directed and emotional information in the speech had no impact on the judgments of the direction of an arrow. These findings expand our knowledge of the interaction between the perception of emotions and gaze direction and emphasize the significance of self-relevance in modulating this interaction. (PsycInfo Database Record (c) 2024 APA, all rights reserved).",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "对另一个人的注视方向的感知不是一个低级的、刺激驱动的视觉过程，而是一个可以自上而下调节的高级过程，例如通过情感和心理理论。本研究调查了定向（自我与他人）和情感（积极与消极）言语对判断他人的目光或箭头是否指向自我的影响。实验 1 和 2 表明，当演讲针对自己而不是他人时，参与者在看自己时会感觉到更大范围的目光偏差。重要的是，演讲中的情绪也会影响目光判断，但只有当演讲与当事人相关时......"
+  },
+  {
+    "title": "Attentional biases toward auditory weight‐related information among females with weight dissatisfaction. Psychophysiology",
+    "title_en": "Attentional biases toward auditory weight‐related information among females with weight dissatisfaction. Psychophysiology",
+    "title_zh": "对体重不满意的女性对听觉体重相关信息的注意偏差。心理生理学",
+    "year": 2023,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "陈庭继"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_333f07e1ebae",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "work_title_group": "816a66bdef0b",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_333f07e1ebae"
+    ],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "In Identifying the Source of the Incongruent Effect. Journal of Psychophysiology",
-      "title_en": "In Identifying the Source of the Incongruent Effect. Journal of Psychophysiology",
-      "title_zh": "识别不一致效应的来源。心理生理学杂志",
-      "year": 2022,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "陈庭继"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_2a5ca2afda67_6d1d42a20d49",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_2a5ca2afda67",
-      "scholar_name": "陈庭继",
-      "work_title_group": "b2ce6d84358b",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "bff97af56540731b",
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Skin conductance, facial EMG, and heart rate responses in multi-person gaze interactions. Biological Psychology",
+    "title_en": "Skin conductance, facial EMG, and heart rate responses in multi-person gaze interactions. Biological Psychology",
+    "title_zh": "多人凝视交互中的皮肤电导、面部肌电图和心率反应。生物心理学",
+    "year": 2023,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "陈庭继"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_f1eb9758e6e0",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "work_title_group": "7bc436d02aa8",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_f1eb9758e6e0"
+    ],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Om chanting modulates the processing of negative stimuli: Behavioral and electrophysiological evidence. Frontiers in Psychology",
-      "title_en": "Om chanting modulates the processing of negative stimuli: Behavioral and electrophysiological evidence. Frontiers in Psychology",
-      "title_zh": "嗡唱调节负面刺激的处理：行为和电生理学证据。心理学前沿",
-      "year": 2022,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "陈庭继"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_2a5ca2afda67_7d2101ef54de",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_2a5ca2afda67",
-      "scholar_name": "陈庭继",
-      "work_title_group": "23ef3c9dbdce",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "545b3505ca341116",
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Audiovisual illusion training improves multisensory temporal integration",
+    "title_en": "Audiovisual illusion training improves multisensory temporal integration",
+    "title_zh": "视听错觉训练改善多感觉时间整合",
+    "year": 2023,
+    "venue": "Consciousness and Cognition",
+    "authors": [
+      "Haocheng Zhu",
+      "Xiaoyu Tang",
+      "Tingji Chen",
+      "Jiajia Yang",
+      "Aijun Wang",
+      "Ming Zhang"
+    ],
+    "doi": "10.1016/j.concog.2023.103478",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.concog.2023.103478",
+    "pdf_url": "https://www.sciencedirect.com/science/article/am/pii/S1053810023000156",
+    "source_url": "https://openalex.org/W4319655948",
+    "openalex_id": "https://openalex.org/W4319655948",
+    "openalex_author_id": "https://openalex.org/A5038483627",
+    "cited_by_count": 14,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5038483627）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_05e67c06009f0ea9",
+    "global_record_id": "d9ff45495de19db2",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_05e67c06009f0ea9"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
     },
-    {
-      "title": "Spatial attentional biases toward height‐related words in young males with physical stature dissatisfaction. Psychophysiology",
-      "title_en": "Spatial attentional biases toward height‐related words in young males with physical stature dissatisfaction. Psychophysiology",
-      "title_zh": "身材不满意的年轻男性对身高相关词汇的空间注意偏差。心理生理学",
-      "year": 2022,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "陈庭继"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_2a5ca2afda67_fb01b5a3347e",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_2a5ca2afda67",
-      "scholar_name": "陈庭继",
-      "work_title_group": "44705be10973",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "primary_categories_by_scholar": [
+      "陈庭继：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Audiovisual illusion training improves multisensory temporal integration. Consciousness and Cognition",
+    "title_en": "Audiovisual illusion training improves multisensory temporal integration. Consciousness and Cognition",
+    "title_zh": "视听错觉训练可改善多感觉时间整合。意识与认知",
+    "year": 2023,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "陈庭继"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_b3604f0312b1",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "work_title_group": "1a4555650af6",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_b3604f0312b1"
+    ],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "The influence of gazer and observer factors on gaze perception. Advances in Psychological Science",
-      "title_en": "The influence of gazer and observer factors on gaze perception. Advances in Psychological Science",
-      "title_zh": "注视者和观察者因素对注视感知的影响。心理科学进展",
-      "year": 2021,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "陈庭继"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_2a5ca2afda67_994d9483bec6",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_2a5ca2afda67",
-      "scholar_name": "陈庭继",
-      "work_title_group": "17957555eebf",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "bf73d0f72f7b4bd4",
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Attentional biases toward auditory weight‐related information among females with weight dissatisfaction",
+    "title_en": "Attentional biases toward auditory weight‐related information among females with weight dissatisfaction",
+    "title_zh": "体重不满意的女性对听觉体重相关信息的注意偏差",
+    "year": 2023,
+    "venue": "Psychophysiology",
+    "authors": [
+      "Yixuan Chen",
+      "Xuechen Leng",
+      "Jiayi Yao",
+      "Tingji Chen",
+      "Yu Liao",
+      "Yiyao Jiang",
+      "Chengzhi Feng",
+      "Wenfeng Feng"
+    ],
+    "doi": "10.1111/psyp.14318",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1111/psyp.14318",
+    "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/psyp.14318",
+    "source_url": "https://openalex.org/W4367369424",
+    "openalex_id": "https://openalex.org/W4367369424",
+    "openalex_author_id": "https://openalex.org/A5038483627",
+    "cited_by_count": 2,
+    "abstract_en": "Although there is substantial evidence of visual attentional biases in processing weight-related information among individuals with weight dissatisfaction, few studies have examined auditory attentional biases in these individuals. The identification of attentional biases may provide an impetus for interventions to reduce distress, negative body image, and pathological eating patterns among weight-dissatisfied individuals. Therefore, the present study aimed to investigate the attentional biases, as well as the neural consequences, toward auditory weight-related information among weight-dissatisfied young females. In this experiment, young female participants were assigned to an experimental group with high weight dissatisfaction (HWD) and a control group with low weight dissatisfaction (LWD) according to the levels of weight dissatisfaction. Using a spatial cueing paradigm, auditory fatness-related, thinness-related, and neutral household words were presented laterally as cue stimuli, followed by visual stimuli presented at either the cued or uncued location. The results revealed that auditory fatness-related words elicited significantly larger N2ac amplitudes than auditory thinness-related and neutral words in the HWD group. However, for the LWD group, thinness-related words elicited a significantly larger N2ac than fatness-related and neutral words. These results suggest an orienting attentional bias toward auditory fatness-related body words among females with HWD and an orienting attentional bias toward auditory thinness-related words among females with LWD.",
+    "abstract_zh": "尽管有大量证据表明体重不满意的个体在处理与体重相关的信息时存在视觉注意偏差，但很少有研究检查这些个体的听觉注意偏差。注意力偏差的识别可能会为干预措施提供动力，以减少体重不满意的个体的痛苦、负面身体形象和病态饮食模式。因此，本研究旨在调查体重不满意的年轻女性对听觉体重相关信息的注意偏差以及神经后果。在这个实验中，年轻女性参与者被分配到一个体重不满意（HWD）高的实验组，并且......",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5038483627）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_3e15d92c405266c0",
+    "global_record_id": "82adcc2c3885b66e",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_3e15d92c405266c0"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
     },
-    {
-      "title": "Auditory attentional biases in young males with physical stature dissatisfaction. Psychophysiology",
-      "title_en": "Auditory attentional biases in young males with physical stature dissatisfaction. Psychophysiology",
-      "title_zh": "身材不满意的年轻男性的听觉注意偏差。心理生理学",
-      "year": 2020,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "陈庭继"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_2a5ca2afda67_bf4a8ae91d21",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_2a5ca2afda67",
-      "scholar_name": "陈庭继",
-      "work_title_group": "ac35942d7242",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "primary_categories_by_scholar": [
+      "陈庭继：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "The pictorial set of Emotional Social Interactive Scenarios between Chinese Adults (ESISCA): Development and validation",
+    "title_en": "The pictorial set of Emotional Social Interactive Scenarios between Chinese Adults (ESISCA): Development and validation",
+    "title_zh": "中国成年人情感社交互动场景图集（ESISCA）：开发与验证",
+    "year": 2023,
+    "venue": "Behavior Research Methods",
+    "authors": [
+      "Ziyu Zhang",
+      "Yanqin Peng",
+      "Yiyao Jiang",
+      "Tingji Chen"
+    ],
+    "doi": "10.3758/s13428-023-02168-4",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.3758/s13428-023-02168-4",
+    "pdf_url": "https://link.springer.com/content/pdf/10.3758/s13428-023-02168-4.pdf",
+    "source_url": "https://openalex.org/W4385449717",
+    "openalex_id": "https://openalex.org/W4385449717",
+    "openalex_author_id": "https://openalex.org/A5038483627",
+    "cited_by_count": 7,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5038483627）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_ba85b9d4fb109423",
+    "global_record_id": "31c474571ebc68ae",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_ba85b9d4fb109423"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "Early integration of affectively contextual information when processing low-intensity fearful faces: Behavioral and electrophysiological evidence. International Journal of Psychophysiology",
-      "title_en": "Early integration of affectively contextual information when processing low-intensity fearful faces: Behavioral and electrophysiological evidence. International Journal of Psychophysiology",
-      "title_zh": "处理低强度恐惧面孔时情感背景信息的早期整合：行为和电生理学证据。国际心理生理学杂志",
-      "year": 2020,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "陈庭继"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_2a5ca2afda67_259be36eab41",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_2a5ca2afda67",
-      "scholar_name": "陈庭继",
-      "work_title_group": "45ba2d4a9fb7",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "The pictorial set of Emotional Social Interactive Scenarios between Chinese Adults (ESISCA): Development and validation. Behavior Research Methods",
+    "title_en": "The pictorial set of Emotional Social Interactive Scenarios between Chinese Adults (ESISCA): Development and validation. Behavior Research Methods",
+    "title_zh": "中国成年人之间的情感社交互动场景（ESISCA）图集：开发和验证。行为研究方法",
+    "year": 2023,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "陈庭继"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_7f31761d1596",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "work_title_group": "7a09cee8877e",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_7f31761d1596"
+    ],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Temporal dynamics of the flash‐induced bouncing effect. Human Brain Mapping",
-      "title_en": "Temporal dynamics of the flash‐induced bouncing effect. Human Brain Mapping",
-      "title_zh": "闪光引起的弹跳效应的时间动态。人脑图谱",
-      "year": 2020,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "陈庭继"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_2a5ca2afda67_d414990c8171",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_2a5ca2afda67",
-      "scholar_name": "陈庭继",
-      "work_title_group": "04c45e46225b",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "45869320aa37ffee",
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Skin conductance, facial EMG, and heart rate responses in multi-person gaze interactions",
+    "title_en": "Skin conductance, facial EMG, and heart rate responses in multi-person gaze interactions",
+    "title_zh": "多人凝视交互中的皮肤电导、面部肌电图和心率反应",
+    "year": 2022,
+    "venue": "Biological Psychology",
+    "authors": [
+      "Wenting Sun",
+      "Tingji Chen",
+      "Jari K. Hietanen"
+    ],
+    "doi": "10.1016/j.biopsycho.2022.108465",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.biopsycho.2022.108465",
+    "pdf_url": "https://trepo.tuni.fi/handle/10024/222810",
+    "source_url": "https://openalex.org/W4310117609",
+    "openalex_id": "https://openalex.org/W4310117609",
+    "openalex_author_id": "https://openalex.org/A5038483627",
+    "cited_by_count": 4,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5038483627）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_a832d0f3f71d79dd",
+    "global_record_id": "f09e1f6c70d0497e",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_a832d0f3f71d79dd"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
     },
-    {
-      "title": "Eye Contact Judgment Is Influenced by Perceivers’ Social Anxiety But Not by Their Affective State. Frontiers in Psychology",
-      "title_en": "Eye Contact Judgment Is Influenced by Perceivers’ Social Anxiety But Not by Their Affective State. Frontiers in Psychology",
-      "title_zh": "目光接触判断受感知者的社交焦虑影响，但不受情感状态影响。心理学前沿",
-      "year": 2017,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "陈庭继"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_2a5ca2afda67_5b25373cb25b",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_2a5ca2afda67",
-      "scholar_name": "陈庭继",
-      "work_title_group": "165417b0e9b3",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "primary_categories_by_scholar": [
+      "陈庭继：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Impact of Lightning Protection Grounding System on the Ground Surface Potential of Substations",
+    "title_en": "Impact of Lightning Protection Grounding System on the Ground Surface Potential of Substations",
+    "title_zh": "防雷接地系统对变电站地表电位的影响",
+    "year": 2022,
+    "venue": "Journal of Physics Conference Series",
+    "authors": [
+      "Tingji Chen",
+      "Yang Lian",
+      "Weibing Gu",
+      "Haiyang Gao",
+      "Junchi Zhou",
+      "Xiaodong Fu"
+    ],
+    "doi": "10.1088/1742-6596/2148/1/012049",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1088/1742-6596/2148/1/012049",
+    "pdf_url": "https://iopscience.iop.org/article/10.1088/1742-6596/2148/1/012049/pdf",
+    "source_url": "https://openalex.org/W4206613859",
+    "openalex_id": "https://openalex.org/W4206613859",
+    "openalex_author_id": "https://openalex.org/A5038483627",
+    "cited_by_count": 2,
+    "abstract_en": "Abstract Grounding device is an indispensable facility for lightning protection of buildings. Nowadays, SGCC (State Grid Corporation of China) is promoting steel structure substations, which are made of metal as a whole including the roof. There are now several grounding approaches when the roof was struck by a lightning flash, including external grounding, nearby grounding, separate grounding and common grounding. This paper took a metal structure substation in Nanjing as an example and calculated its ground potential in case of different grounding system. We came to such conclusions: 1) For substations of separate grounding system, the ground potential after a lightning strike could reach as high as 743.5kV and 230kV with a single earthing electrode and multiple electrodes respectively. 1000μs after the strike, the ground potential is 91.57 kV, which is still a significant threat to humans and equipment inside. 2) Nearby grounding and external grounding are both common grounding system. The peak of ground potential after a lightning strike is 101.4kV and 109kV respectively, much lower than that of separate grounding system. They also have similar waveform and peak time. 3) 3500μs after the lightning strike, the ground potential all over the grid is around 36V. 4) Separate grounding is not a sound choice of grounding system for steel structure substations. From the perspective of cost and discharging capacity, nearby grounding is the most reasonable scheme for a steel structure substation.",
+    "abstract_zh": "摘要 接地装置是建筑物防雷不可缺少的设施。目前，国家电网正在推广钢结构变电站，变电站包括屋顶在内整体采用金属制成。目前屋顶遭受雷击时的接地方式有多种，包括外部接地、就近接地、单独接地和共同接地。本文以南京某金属结构变电站为例，计算了不同接地系统情况下的接地电位。我们得出这样的结论： 1）对于单独接地系统的变电站，雷击后的地电位可高达743.5kV和230kV。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5038483627）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_71380cbc7c8b06e6",
+    "global_record_id": "0d032a9e13d599f5",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_71380cbc7c8b06e6"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
     },
-    {
-      "title": "Modulation of the eyeblink and cardiac startle reflexes by genuine eye contact. Psychophysiology",
-      "title_en": "Modulation of the eyeblink and cardiac startle reflexes by genuine eye contact. Psychophysiology",
-      "title_zh": "通过真正的目光接触调节眨眼和心脏惊跳反射。心理生理学",
-      "year": 2017,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "陈庭继"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_2a5ca2afda67_710d4f717df1",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_2a5ca2afda67",
-      "scholar_name": "陈庭继",
-      "work_title_group": "1c9218e8eae7",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "primary_categories_by_scholar": [
+      "陈庭继：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Om chanting modulates the processing of negative stimuli: Behavioral and electrophysiological evidence",
+    "title_en": "Om chanting modulates the processing of negative stimuli: Behavioral and electrophysiological evidence",
+    "title_zh": "念诵 Om 调节负面刺激的处理：行为和电生理学证据",
+    "year": 2022,
+    "venue": "Frontiers in Psychology",
+    "authors": [
+      "Ziyu Zhang",
+      "Yanqin Peng",
+      "Tingji Chen"
+    ],
+    "doi": "10.3389/fpsyg.2022.943243",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.3389/fpsyg.2022.943243",
+    "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2022.943243/pdf",
+    "source_url": "https://openalex.org/W4304842886",
+    "openalex_id": "https://openalex.org/W4304842886",
+    "openalex_author_id": "https://openalex.org/A5038483627",
+    "cited_by_count": 20,
+    "abstract_en": "Previous studies have suggested that Om chanting, a type of meditation, can relieve individuals' negative emotions. However, the dynamic aspects of neural processes in the processing of the negative stimuli while Om chanting are still unclear. In this study, we recruited 33 healthy undergraduate students without meditation experience and recorded event-related potentials (ERPs) to unpleasant and neutral images when they performed Om chanting and viewing task. The behavioral results showed that the unpleasant images were rated as less unpleasant and arousing in the condition of Om chanting than while passive viewing, and the rates were not different between the two conditions for the neutral images. Analyses of the ERP responses to the emotional stimuli revealed that Om chanting decreased P1 and late positive potential (LPP) amplitudes for the neutral images but not for the unpleasant images. We speculated that Om chanting might reduce vigilance to the neutral stimuli, whereas for the negative stimuli, they automatically captured all available attentional resources and led to a failure in observing the regulating effect of Om chanting. These observations suggest that Om chanting modulates individuals' affective evaluations to the negative stimuli and alters early visual and late neural processing of the stimuli.",
+    "abstract_zh": "之前的研究表明，念诵嗡嗡声（一种冥想）可以缓解个人的负面情绪。然而，念诵 Om 时神经过程处理负面刺激的动态方面仍不清楚。在这项研究中，我们招募了 33 名没有冥想经验的健康本科生，记录他们在执行 Om 念诵和观看任务时对不愉快和中性图像的事件相关电位（ERP）。行为结果表明，与被动观看时相比，在念诵 Om 的情况下，不愉快的图像被评为不那么令人不愉快和唤起，并且中性图像的两种条件之间的比率没有差异。 ERP 对情绪反应的分析",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "脑机接口与神经解码",
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5038483627）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_fc790292a462bf0c",
+    "global_record_id": "fe167d7e0766acc8",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_fc790292a462bf0c"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "Affect in the eyes: explicit and implicit evaluations. Cognition and Emotion",
-      "title_en": "Affect in the eyes: explicit and implicit evaluations. Cognition and Emotion",
-      "title_zh": "眼神中的影响：显性评价和隐性评价。认知与情感",
-      "year": 2016,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "陈庭继"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_2a5ca2afda67_20903f350e30",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_2a5ca2afda67",
-      "scholar_name": "陈庭继",
-      "work_title_group": "0c9753a5814b",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Spatial attentional biases toward height‐related words in young males with physical stature dissatisfaction",
+    "title_en": "Spatial attentional biases toward height‐related words in young males with physical stature dissatisfaction",
+    "title_zh": "身材不满意的年轻男性对身高相关词汇的空间注意偏差",
+    "year": 2022,
+    "venue": "Psychophysiology",
+    "authors": [
+      "Tingji Chen",
+      "Yishuang Li",
+      "Chengzhi Feng",
+      "Wenfeng Feng"
+    ],
+    "doi": "10.1111/psyp.14163",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1111/psyp.14163",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4291884798",
+    "openalex_id": "https://openalex.org/W4291884798",
+    "openalex_author_id": "https://openalex.org/A5038483627",
+    "cited_by_count": 5,
+    "abstract_en": "By recording event-related potentials (ERPs) during a dot-probe task, the present study examined the neural dynamics of attentional bias toward height-related words among height dissatisfied males. Sixty male participants screened by Negative Physical Self Scale-Stature Concerns subscale (NPS-S) were assigned into a high height dissatisfaction (HHD) group and a low height dissatisfaction (LHD) group. The results showed that tall-related versus neutral words elicited larger N2pc for both HHD and LHD groups, whereas short-related versus neutral words elicited larger N2pc only for the HHD group. Additionally, an evident Pd was elicited by tall-related words for the HHD group, but not for the LHD group. Taken together, these findings revealed attentional biases toward height-related information for HHD individuals on a neural level. Specifically, HHD individuals showed an enhanced spatial attention oriented toward both tall-related and short-related words, and then, the allocated attention to the tall-related words was terminated by an active suppression mechanism.",
+    "abstract_zh": "通过在点探测任务中记录事件相关电位（ERP），本研究检查了身高不满意的男性对身高相关单词的注意偏差的神经动力学。通过消极身体自我量表-身高关注子量表（NPS-S）筛选的 60 名男性参与者被分配到高身高不满意（HHD）组和低身高不满意（LHD）组。结果表明，对于 HHD 组和 LHD 组来说，高相关词与中性词相比，会引起更大的 N2pc，而短相关词与中性词相比，只会在 HHD 组中引起更大的 N2pc。此外，对于 HHD 组，与高相关的单词会引发明显的 Pd，但对于 LHD 组则不然。总而言之，这些发现揭示了...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5038483627）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_af8ea17666a1eed7",
+    "global_record_id": "2e318b84b170971b",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_af8ea17666a1eed7"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
     },
-    {
-      "title": "Affective Priming by Eye Gaze Stimuli: Behavioral and Electrophysiological Evidence. Frontiers in Human Neuroscience",
-      "title_en": "Affective Priming by Eye Gaze Stimuli: Behavioral and Electrophysiological Evidence. Frontiers in Human Neuroscience",
-      "title_zh": "眼睛注视刺激的情感启动：行为和电生理学证据。人类神经科学前沿",
-      "year": 2016,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "陈庭继"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_2a5ca2afda67_02c2a63df766",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_2a5ca2afda67",
-      "scholar_name": "陈庭继",
-      "work_title_group": "5997709730b6",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "primary_categories_by_scholar": [
+      "陈庭继：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Spatial attentional biases toward height‐related words in young males with physical stature dissatisfaction. Psychophysiology",
+    "title_en": "Spatial attentional biases toward height‐related words in young males with physical stature dissatisfaction. Psychophysiology",
+    "title_zh": "身材不满意的年轻男性对身高相关词汇的空间注意偏差。心理生理学",
+    "year": 2022,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "陈庭继"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_fb01b5a3347e",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "work_title_group": "44705be10973",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_fb01b5a3347e"
+    ],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Combined Cognitive Training vs. Memory Strategy Training in Healthy Older Adults. Frontiers in Psychology",
-      "title_en": "Combined Cognitive Training vs. Memory Strategy Training in Healthy Older Adults. Frontiers in Psychology",
-      "title_zh": "健康老年人的组合认知训练与记忆策略训练。心理学前沿",
-      "year": 2016,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "陈庭继"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_2a5ca2afda67_ecc97a7dc2d2",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_2a5ca2afda67",
-      "scholar_name": "陈庭继",
-      "work_title_group": "0764c179b8ed",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "31ba5e1abd5c3453",
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "In Identifying the Source of the Incongruent Effect. Journal of Psychophysiology",
+    "title_en": "In Identifying the Source of the Incongruent Effect. Journal of Psychophysiology",
+    "title_zh": "识别不一致效应的来源。心理生理学杂志",
+    "year": 2022,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "陈庭继"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_6d1d42a20d49",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "work_title_group": "b2ce6d84358b",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_6d1d42a20d49"
+    ],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Interpretive bias of ambiguous facial expressions in older adults with depressive symptoms. PsyCh Journal",
-      "title_en": "Interpretive bias of ambiguous facial expressions in older adults with depressive symptoms. PsyCh Journal",
-      "title_zh": "患有抑郁症状的老年人对模糊面部表情的解释偏差。心理学杂志",
-      "year": 2015,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "陈庭继"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_2a5ca2afda67_0051483746c1",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_2a5ca2afda67",
-      "scholar_name": "陈庭继",
-      "work_title_group": "5ae2f5956324",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
-    }
-  ]
-}
+    "global_record_id": "751cf551cd153511",
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Om chanting modulates the processing of negative stimuli: Behavioral and electrophysiological evidence. Frontiers in Psychology",
+    "title_en": "Om chanting modulates the processing of negative stimuli: Behavioral and electrophysiological evidence. Frontiers in Psychology",
+    "title_zh": "嗡唱调节负面刺激的处理：行为和电生理学证据。心理学前沿",
+    "year": 2022,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "陈庭继"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_7d2101ef54de",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "work_title_group": "23ef3c9dbdce",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_7d2101ef54de"
+    ],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "915804a809687afa",
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "In Identifying the Source of the Incongruent Effect: Whether It Is From the Fearful Face-Happy Body or Happy Face-Fearful Body Compounds",
+    "title_en": "In Identifying the Source of the Incongruent Effect: Whether It Is From the Fearful Face-Happy Body or Happy Face-Fearful Body Compounds",
+    "title_zh": "识别不一致效应的来源：是来自恐惧脸-快乐身体还是快乐脸-恐惧身体复合物",
+    "year": 2021,
+    "venue": "Journal of Psychophysiology",
+    "authors": [
+      "Tingji Chen",
+      "Yanting Sun",
+      "Chengzhi Feng",
+      "Wenfeng Feng"
+    ],
+    "doi": "10.1027/0269-8803/a000290",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1027/0269-8803/a000290",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W3207463616",
+    "openalex_id": "https://openalex.org/W3207463616",
+    "openalex_author_id": "https://openalex.org/A5038483627",
+    "cited_by_count": 4,
+    "abstract_en": "Abstract. Emotional signals from the face and body are normally perceived as an integrated whole in everyday life. Previous studies have revealed an incongruent effect which refers to distinctive behavioral and neural responses to emotionally congruent versus incongruent face-body compounds. However, it remains unknown which kind of the face-body compounds caused the incongruence effect. In the present study, we added neutral face and neutral body stimuli to form new face-body compounds. Forty subjects with normal or corrected-to-normal vision participated in this experiment. By comparing the face-body compounds with emotional conflict and face-body compounds with neutral stimuli, we could investigate the source of the incongruent effect. For both behavioral and event-related potential (ERP) data, a 2 (bodily expression: happiness, fear) × 2 (congruence: congruent, incongruent) repeated-measure analysis of variance (ANOVA) was performed to re-investigate the incongruent effect and a 3 (facial expression: fearful, happy, neutral) × 3 (bodily expression: fearful, happy, neutral) repeated-measure ANOVA was performed to clarify the source of the incongruent effect. As expected, both behavioral and ERP results have successfully repeated the incongruent effect. Specifically, the behavioral data showed that emotionally congruent versus incongruent face-body compounds were recognized more accurately ( p < .05). The ERP component of N2 was modulated by the emotional congruency between the facial and bodily expression showing that the emotionally incongruent compounds elicited greater N2 amplitudes than emotionally congruent compounds ( p < .05). No incongruent effect was found for P1 or P3 component ( p = .079, p = .99, respectively). Furthermore, by comparing the emotionally incongruent pairs with the neutral baseline, the present study suggests that the source of the incongruent effect might be from the happy face-fearful body compounds. We speculate that the emotion expressed by the fearful body was much more intensive than the emotion expressed by the happy body and thus caused a stronger interference in judging the facial expressions.",
+    "abstract_zh": "摘要。在日常生活中，来自面部和身体的情绪信号通常被视为一个整体。先前的研究揭示了一种不一致效应，指的是对情绪一致与不一致的面部身体化合物的独特行为和神经反应。然而，目前尚不清楚哪种面部-身体复合物导致了不一致效应。在本研究中，我们添加了中性面部和中性身体刺激以形成新的面部-身体复合物。四十名视力正常或矫正至正常的受试者参与了该实验。通过比较带有情绪冲突的面部身体复合物和带有中性刺激的面部身体复合物，我们可以调查不一致效应的根源。弗...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "脑机接口与神经解码",
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5038483627）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_39f1d91cfc42e56e",
+    "global_record_id": "1cfbaad3007e13ec",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_39f1d91cfc42e56e"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "The influence of gazer and observer factors on gaze perception",
+    "title_en": "The influence of gazer and observer factors on gaze perception",
+    "title_zh": "注视者和观察者因素对注视感知的影响",
+    "year": 2021,
+    "venue": "Advances in Psychological Science",
+    "authors": [
+      "Penghui HUO",
+      "Chengzhi Feng",
+      "Tingji Chen"
+    ],
+    "doi": "10.3724/sp.j.1042.2021.00238",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.3724/sp.j.1042.2021.00238",
+    "pdf_url": "https://journal.psych.ac.cn/xlkxjz/CN/article/downloadArticleFile.do?attachType=PDF&id=5332",
+    "source_url": "https://openalex.org/W3119130360",
+    "openalex_id": "https://openalex.org/W3119130360",
+    "openalex_author_id": "https://openalex.org/A5038483627",
+    "cited_by_count": 3,
+    "abstract_en": "Gaze perception includes both recognizing the location where another person gazes at in the surrounding environment and the judgment of whether another person is looking at ourselves or not.Previous studies have shown that gaze perception is influenced by many factors from the perspectives of the gazer and observer.In this paper, we reviewed and discussed these factors.Specifically, from the perspective of the gazer, we discussed the influence of the gazers' facial emotions and attractiveness and the physical characteristics of the eyes and the head on gaze perception.From the perspective of the observer, we discussed the influence of individuals' psychological disorders, current states, and the observer's gender, race and culture differences on gaze perception.Future research could develop innovative experimental designs and tasks to explore more about the role of stimulus type, the clinical application, and cross-cultural differences in the field of gaze perception.",
+    "abstract_zh": "注视感知既包括识别他人在周围环境中注视的位置，也包括判断他人是否在看自己。以往的研究表明，注视感知受到多种因素的影响，从注视者和观察者的角度来看。本文对这些因素进行了回顾和讨论。具体来说，从注视者的角度，我们讨论了注视者的面部情绪和吸引力以及眼睛和头部的物理特征对注视感知的影响。从观察者的角度，我们讨论了注视感知的影响。个体的心理障碍、现状以及观察者的性别、种族和文化差异的影响...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解",
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5038483627）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_7139c66be5dfb531",
+    "global_record_id": "03d1fc6fb03c6154",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_7139c66be5dfb531"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "The influence of gazer and observer factors on gaze perception. Advances in Psychological Science",
+    "title_en": "The influence of gazer and observer factors on gaze perception. Advances in Psychological Science",
+    "title_zh": "注视者和观察者因素对注视感知的影响。心理科学进展",
+    "year": 2021,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "陈庭继"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_994d9483bec6",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "work_title_group": "17957555eebf",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_994d9483bec6"
+    ],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "54d0192e0e703eae",
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Early integration of affectively contextual information when processing low-intensity fearful faces: Behavioral and electrophysiological evidence. International Journal of Psychophysiology",
+    "title_en": "Early integration of affectively contextual information when processing low-intensity fearful faces: Behavioral and electrophysiological evidence. International Journal of Psychophysiology",
+    "title_zh": "处理低强度恐惧面孔时情感背景信息的早期整合：行为和电生理学证据。国际心理生理学杂志",
+    "year": 2020,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "陈庭继"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_259be36eab41",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "work_title_group": "45ba2d4a9fb7",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_259be36eab41"
+    ],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "19ed5034f7483d50",
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Temporal dynamics of the flash‐induced bouncing effect",
+    "title_en": "Temporal dynamics of the flash‐induced bouncing effect",
+    "title_zh": "闪光引起的弹跳效应的时间动态",
+    "year": 2020,
+    "venue": "Human Brain Mapping",
+    "authors": [
+      "Hui Zhong",
+      "Song Zhao",
+      "Tingji Chen",
+      "Yang Wanlu",
+      "Xinyin Huang",
+      "Wenfeng Feng"
+    ],
+    "doi": "10.1002/hbm.24993",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1002/hbm.24993",
+    "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hbm.24993",
+    "source_url": "https://openalex.org/W3012947315",
+    "openalex_id": "https://openalex.org/W3012947315",
+    "openalex_author_id": "https://openalex.org/A5038483627",
+    "cited_by_count": 2,
+    "abstract_en": "Two identical visual disks moving toward each other on a two-dimensional (2D) display are more likely to be perceived as \"streaming through\" than \"bouncing off\" each other after their coincidence. However, either a brief auditory tone or visual flash presented at the coincident moment of the disks can strikingly increase the incidence of the bouncing percept. Despite the neural substrates underlying the sound-induced bouncing effect have been widely investigated, little is known about the neural mechanisms underlying the flash-induced bouncing effect. The present study used event-related potential recordings to explore the temporal dynamics of the flash-induced bouncing effect. The results showed that the amplitude of the postcoincidence parietooccipital P2 component (190-230 ms after coincidence) elicited by the visual motion was significantly smaller on bouncing relative to streaming trials only when the flash was presented but not when absent. In addition, the parietal P3 component (330-430 ms) was found to be larger on bouncing than streaming trials when the flash was presented, but the opposite was true when no flash was presented. These electrophysiological findings suggest that the flash-induced bouncing effect may occur at both perceptual and postperceptual stages of processing.",
+    "abstract_zh": "在二维 (2D) 显示器上朝彼此移动的两个相同的视盘在重合后更有可能被感知为“流过”而不是彼此“弹开”。然而，在圆盘同时出现的短暂听觉或视觉闪光都会显着增加弹跳知觉的发生率。尽管声音引起的弹跳效应背后的神经基质已被广泛研究，但人们对闪光引起的弹跳效应背后的神经机制知之甚少。本研究使用与事件相关的电位记录来探索闪光引起的弹跳效应的时间动态。结果表明，重合后的振幅...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5038483627）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_daf1bfff3a2a5512",
+    "global_record_id": "b81656469afaeb3f",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_daf1bfff3a2a5512"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "陈庭继：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Temporal dynamics of the flash‐induced bouncing effect. Human Brain Mapping",
+    "title_en": "Temporal dynamics of the flash‐induced bouncing effect. Human Brain Mapping",
+    "title_zh": "闪光引起的弹跳效应的时间动态。人脑图谱",
+    "year": 2020,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "陈庭继"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_d414990c8171",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "work_title_group": "04c45e46225b",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_d414990c8171"
+    ],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "ed83970c7f5c8059",
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Auditory attentional biases in young males with physical stature dissatisfaction",
+    "title_en": "Auditory attentional biases in young males with physical stature dissatisfaction",
+    "title_zh": "身材不满意的年轻男性的听觉注意偏差",
+    "year": 2020,
+    "venue": "Psychophysiology",
+    "authors": [
+      "Wenguan Cai",
+      "Lili Wang",
+      "Tingji Chen",
+      "Song Zhao",
+      "Chengzhi Feng",
+      "Wenfeng Feng"
+    ],
+    "doi": "10.1111/psyp.13635",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1111/psyp.13635",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W3042308569",
+    "openalex_id": "https://openalex.org/W3042308569",
+    "openalex_author_id": "https://openalex.org/A5038483627",
+    "cited_by_count": 11,
+    "abstract_en": "The attentional biases toward body-related information for individuals with weight concerns and eating disorders have been well documented. However, our knowledge of the attentional biases toward body-related information for subjects with physical stature concerns is only at the beginning. And the research on the auditory attentional biases for individuals with physical stature concerns is rare. The identification of attentional biases may provide an impetus for interventions to reduce distress among height dissatisfied individuals. Therefore, the present study investigated the neural mechanisms of attentional bias toward auditory physical stature-related words among height dissatisfied young males by using event-related potential recordings. Forty-four young male participants screened by Negative Physical Self Scale-Stature Concerns subscale (NPS-S) were assigned into an experimental group with high levels of height dissatisfaction (HHD) and a control group with low levels of height dissatisfaction (LHD). Task irrelevant auditory tall-related words, short-related words and neutral words were presented unilaterally to the participants as the cue in a cue-target paradigm. Participants were required to respond to the visual target preceded by the task-irrelevant auditory cue. The results found that significantly larger N2ac was elicited by tall-related words than short-related words and neutral words only for the HHD group, but not for the LHD group. LPCpc amplitudes did not differ significantly by the functions of word types and experimental groups. These results suggest an attentional orienting bias toward auditory tall-related words for young males with high levels of height dissatisfaction.",
+    "abstract_zh": "对于有体重问题和饮食失调的人来说，对身体相关信息的注意力偏差已有充分记录。然而，我们对与身体身材有关的受试者对身体相关信息的注意力偏差的了解才刚刚开始。而对有身材问题的个体的听觉注意偏差的研究也很少。注意力偏差的识别可能会为干预措施提供动力，以减少身高不满意的个体的痛苦。因此，本研究通过使用事件相关电位记录，调查了身高不满意的年轻男性对听觉身体身高相关单词的注意偏差的神经机制......",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5038483627）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_f12ca32ee9fcdcaa",
+    "global_record_id": "168ab40b4ec34ca7",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_f12ca32ee9fcdcaa"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "陈庭继：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Auditory attentional biases in young males with physical stature dissatisfaction. Psychophysiology",
+    "title_en": "Auditory attentional biases in young males with physical stature dissatisfaction. Psychophysiology",
+    "title_zh": "身材不满意的年轻男性的听觉注意偏差。心理生理学",
+    "year": 2020,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "陈庭继"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_bf4a8ae91d21",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "work_title_group": "ac35942d7242",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_bf4a8ae91d21"
+    ],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "80b6a2fbfe2010cc",
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Early integration of affectively contextual information when processing low-intensity fearful faces: Behavioral and electrophysiological evidence",
+    "title_en": "Early integration of affectively contextual information when processing low-intensity fearful faces: Behavioral and electrophysiological evidence",
+    "title_zh": "在处理低强度恐惧面孔时早期整合情感情境信息：行为和电生理学证据",
+    "year": 2020,
+    "venue": "International Journal of Psychophysiology",
+    "authors": [
+      "Tingji Chen",
+      "Yan Wang",
+      "Chengzhi Feng",
+      "Wenfeng Feng"
+    ],
+    "doi": "10.1016/j.ijpsycho.2020.07.001",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.ijpsycho.2020.07.001",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W3041626755",
+    "openalex_id": "https://openalex.org/W3041626755",
+    "openalex_author_id": "https://openalex.org/A5038483627",
+    "cited_by_count": 8,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5038483627）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_976c593951e26ab8",
+    "global_record_id": "9a41ec59087dd9fb",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_976c593951e26ab8"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "When You Look Me in the Eyes: The Interplay between eye gaze and affect",
+    "title_en": "When You Look Me in the Eyes: The Interplay between eye gaze and affect",
+    "title_zh": "当你看着我的眼睛时：目光与情感之间的相互作用",
+    "year": 2018,
+    "venue": "Tampere University Institutional Repository (Tampere University)",
+    "authors": [
+      "Tingji Chen"
+    ],
+    "doi": "",
+    "dblp_key": "",
+    "paper_url": "https://trepo.tuni.fi/handle/10024/102834",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2786090989",
+    "openalex_id": "https://openalex.org/W2786090989",
+    "openalex_author_id": "https://openalex.org/A5038483627",
+    "cited_by_count": 2,
+    "abstract_en": "Katse ja erilaiset tunnereaktiot ovat tärkeitä ilmiöitä sosiaalisen vuorovaikutuksen kannalta, ja niiden on ajateltu vaikuttavan toisiinsa. Tämä väitöskirja selvitti katseen ja tunteiden vuorovaikutukseen liittyviä ilmiöitä. Osatutkimuksissa I, II, ja III tutkittiin sitä, millaisia tunnereaktioita toisen ihmisen katse aiheuttaa havaitsijassa. Osatutkimuksessa IV tarkasteltiin sitä, muuntaako havaitsijan oma tunnetila katseen havaitsemista. \\n \\nOsatutkimuksissa I ja II tutkittiin katseen aiheuttamia automaattisesti syntyviä tunnereaktioita alustuskoeasetelmalla. Alustusärsykkeinä käytettiin kasvokuvia henkilöistä, joiden katseen suunta vaihteli ja kohdeärsykkeinä käytettiin tunnesisällöltään positiivisia ja negatiivisia sanoja. Tutkittavien tehtävänä oli luokitella sanojen tunnesisältö positiiviseksi tai negatiiviseksi. Tulokset osoittivat, että tutkittavat luokittelivat positiiviset sanat nopeammin kun sanan esittämistä edelsi kuva kohti katsovista kasvoista, verrattuna tilanteeseen, jossa edeltävässä kuvassa näkyi silmät kiinni pitävät kasvot. Vastaavasti negatiiviset sanat luokiteltiin nopeammin silmät kiinni olevien kasvokuvien esittämisen jälkeen. Nämä tulokset osoittavat, että kohti katsovien kasvojen näkeminen synnytti positiivisemman tunnereaktion kuin silmät kiinni pitävien kasvojen näkeminen ja tämä reaktio aiheutti vastausaikojen lyhenemisen tunnesisällöltään positiivisiin sanoihin. Osatutkimuksessa II tutkittiin lisäksi suoran katseen aiheuttaman alustusvaikutuksen hermostollisia mekanismeja. Tutkimuksessa mitattiin kohdesanojen synnyttämiä aivosähkökäyrästä mitattavia herätevasteita. Tulokset osoittivat, että alustusärsykkeinä käytetyt kasvokuvat vaikuttivat sanojen synnyttämiin herätevasteisiin. Positiivisten sanojen synnyttämä N170-vaste oli voimakkaampi silloin, kun niitä edelsi kohti katsovien kasvojen näkeminen, verrattuna tilanteeseen, jossa tutkittavat näkivät silmät kiinni pitävät kasvot. Lisäksi negatiivisten sanojen synnyttämä myöhäisempi LPP-vaste oli voimakkaampi silloin, kun tutkittavat olivat nähneet kohti katsovat kasvot, verrattuna silmät kiinni pitäviin kasvoihin. Näiden tulosten tulkittiin osoittavan, että suora katse, verrattuna suljettuihin silmiin, havaittiin tunnesisällöltään yhdenmukaisemmaksi positiivisten sanojen kanssa, ja vähemmän yhdenmukaiseksi negatiivisten sanojen kanssa. Osatutkimuksessa III tutkittiin voimakkaan äänen synnyttämää puolustusrefleksiä mittaamalla silmän sulkeutumisrefleksin voimakkuutta ja sydämen sykkeessä tapahtuvia muutoksia samalla kun tutkittaville esitettiin mallihenkilön kasvoja, jotka katsoivat joko kohti tai alaspäin. Puolustusrefleksit olivat heikompia silloin, kun tutkittavat näkivät kohti katsovan mallihenkilön, verrattuna tilanteeseen, jossa mallihenkilö katsoi alaspäin. Nämäkin tulokset viittasivat siihen, että suora katse automaattisesti havaittiin alaspäin käännettyä katsetta positiivisempana sosiaalisena viestinä, mikä vaimensi voimakkaan äänen synnyttämää puolustusrefleksiä. Kaikissa tutkimuksissa kerätyt tietoiset, eksplisiittiset itsearvioinnit tuottivat päinvastaisia tuloksia kuin näiden implisiittisten reaktioiden mittarit. Tutkittavat arvioivat suoran katseen vähemmän positiiviseksi kuin suljetut silmät ja alaspäin käännetyn katseen. \\n \\nOsatutkimuksessa IV tutkittiin sitä, vaikuttaako havaitsijan oma tunnetila toisen ihmisen katseensuunnan havaitsemiseen. Tutkimustulokset osoittivat, että katseen havaitsemiseen ei vaikuttanut havaitsijan oma tunnetila. Sen sijaan yksilölliset erot sosiaalisessa ahdistuneisuudessa liittyivät katseen havaitsemiseen. Mitä korkeampia pistemääriä tutkittavat saivat sosiaalista ahdistuneisuutta mittaavassa kyselyssä, sitä enemmän katse saattoi todellisuudessa olla itsestä poispäin kääntynyt, ja tutkittavat silti tulkitsivat katseen itseensä kohdistuneeksi. \\n \\nYhteenvetona voidaan sanoa, että tämä väitöskirjatyö osoittaa kolmessa osatutkimuksessa, että suora katse havaitaan implisiittisesti positiivisena sosiaalisena viestinä. Sen sijaan eksplisiittiset arviot suoran katseen aiheuttamista tunnereaktioista saattavat riippua paljolti tutkimustilanteesta. Lisäksi tämä väitöskirjatyö laajentaa tutkimuskirjallisuutta osoittamalla, että havaitsijan oma tunnetila ei vaikuta katsesuunnan havaitsemiseen.",
+    "abstract_zh": "Katse ja erilaiset tunnereaktiot ovat tärkeitä ilmiöitä sosiaalisen vuorovaikutuksen kannalta, ja niiden on ajateltu vaikuttavan toisiinsa.请勿将其关闭。 Osatutkimuksissa I, II, ja III tutkittiin satä, millaisia tunnereaktioita toisen ihmisen katse aiheuttaa havaitsijassa. Osatutkimuksessa IV tarkasteltiin satä，muuntaako havaitsijan oma tunnetila katseen havaitsemista。 \\n \\nOsatutkimuksissa I ja II tutkittiin katseen aiheuttamia automaattisesti syntyviä tunnereaktioita alustuskoeasetelmalla。 Alustusärsykkeinä käytettiin kasvokuvia henkilöistä，joiden katseen suunta vaihteli kohdeärsykkeinä käytettiin tunnesisällöltään 积极和消极的观点。图特基塔维恩...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5038483627）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_e4d33a87b47aae5a",
+    "global_record_id": "18b556cb6baf2802",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_e4d33a87b47aae5a"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Study on Power Network Planning in Consideration of Demand Response of Aggregate Inverter Air-Conditioner Load",
+    "title_en": "Study on Power Network Planning in Consideration of Demand Response of Aggregate Inverter Air-Conditioner Load",
+    "title_zh": "考虑变频空调总负荷需求响应的电网规划研究",
+    "year": 2017,
+    "venue": "International Conference on Smart Grid and Electrical Automation (ICSGEA)",
+    "authors": [
+      "Long Yu",
+      "Tan Jian",
+      "Tingji Chen",
+      "Zhao Hong-da",
+      "Yang Jiru",
+      "Gao Ciwei"
+    ],
+    "doi": "10.1109/icsgea.2017.37",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/icsgea.2017.37",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2770609115",
+    "openalex_id": "https://openalex.org/W2770609115",
+    "openalex_author_id": "https://openalex.org/A5038483627",
+    "cited_by_count": 6,
+    "abstract_en": "In this paper, a control model is set in which the AC running with lower frequency and fixed operating time while meeting users requirements. An aggregation control algorithm is designed achieving full advantage of the energy saving potential or optimal economy. The power network planning model is set with consideration of demand response incentive costs through genetic algorithm optimization. A numerical example demonstrates the effectiveness of the method.",
+    "abstract_zh": "本文建立了一种控制模型，在满足用户要求的情况下，空调以较低的频率和固定的运行时间运行。设计了聚合控制算法，以充分利用节能潜力或最佳经济性。通过遗传算法优化建立考虑需求响应激励成本的电网规划模型。数值例子证明了该方法的有效性。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5038483627）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_6969e6b6c621f60b",
+    "global_record_id": "6e9d79c02a84ecbd",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_6969e6b6c621f60b"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "陈庭继：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Eye Contact Judgment Is Influenced by Perceivers’ Social Anxiety But Not by Their Affective State",
+    "title_en": "Eye Contact Judgment Is Influenced by Perceivers’ Social Anxiety But Not by Their Affective State",
+    "title_zh": "目光接触判断受感知者的社交焦虑影响，但不受情感状态影响",
+    "year": 2017,
+    "venue": "Frontiers in Psychology",
+    "authors": [
+      "Tingji Chen",
+      "Lauri Nummenmaa",
+      "Jari K. Hietanen"
+    ],
+    "doi": "10.3389/fpsyg.2017.00373",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.3389/fpsyg.2017.00373",
+    "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2017.00373/pdf",
+    "source_url": "https://openalex.org/W2591605660",
+    "openalex_id": "https://openalex.org/W2591605660",
+    "openalex_author_id": "https://openalex.org/A5038483627",
+    "cited_by_count": 14,
+    "abstract_en": "Fast and accurate judgment of whether another person is making eye contact or not is crucial for our social interaction. As affective states have been shown to influence social perceptions and judgments, we investigated the influence of observers' own affective states and trait anxiety on their eye contact judgments. In two experiments, participants were required to judge whether animated faces (Experiment 1) and real faces (Experiment 2) with varying gaze angles were looking at them or not. Participants performed the task in pleasant, neutral, and unpleasant odor conditions. The results from two experiments showed that eye contact judgments were not modulated by observers' affective state, yet participants with higher levels of social anxiety accepted a wider range of gaze deviations from the direct gaze as eye contact. We conclude that gaze direction judgments depend on individual differences in affective predispositions, yet they are not amenable to situational affective influences.",
+    "abstract_zh": "快速准确地判断他人是否有目光接触对于我们的社交互动至关重要。由于情感状态已被证明会影响社会感知和判断，因此我们研究了观察者自身的情感状态和特质焦虑对其目光接触判断的影响。在两个实验中，参与者需要判断不同注视角度的动画面孔（实验 1）和真实面孔（实验 2）是否在看着自己。参与者在令人愉快、中性和令人不快的气味条件下执行任务。两项实验的结果表明，目光接触判断不受观察者的情感状态调节，但社交焦虑水平较高的参与者...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5038483627）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_946ee4babd10747f",
+    "global_record_id": "743bf91c00bb5bee",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_946ee4babd10747f"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Eye Contact Judgment Is Influenced by Perceivers’ Social Anxiety But Not by Their Affective State. Frontiers in Psychology",
+    "title_en": "Eye Contact Judgment Is Influenced by Perceivers’ Social Anxiety But Not by Their Affective State. Frontiers in Psychology",
+    "title_zh": "目光接触判断受感知者的社交焦虑影响，但不受情感状态影响。心理学前沿",
+    "year": 2017,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "陈庭继"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_5b25373cb25b",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "work_title_group": "165417b0e9b3",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_5b25373cb25b"
+    ],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "e6dc42f16f8fadde",
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Modulation of the eyeblink and cardiac startle reflexes by genuine eye contact",
+    "title_en": "Modulation of the eyeblink and cardiac startle reflexes by genuine eye contact",
+    "title_zh": "通过真正的目光接触调节眨眼和心脏惊跳反射",
+    "year": 2017,
+    "venue": "Psychophysiology",
+    "authors": [
+      "Tingji Chen",
+      "Mikko J. Peltola",
+      "Richard Dunn",
+      "Sanna M. Pajunen",
+      "Jari K. Hietanen"
+    ],
+    "doi": "10.1111/psyp.12975",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1111/psyp.12975",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2744439468",
+    "openalex_id": "https://openalex.org/W2744439468",
+    "openalex_author_id": "https://openalex.org/A5038483627",
+    "cited_by_count": 12,
+    "abstract_en": "Is another person's direct gaze an inherently positive or negative stimulus? The present study employed the startle reflex methodology to investigate individuals' automatic reactions to another person's direct and averted gaze. In the study, participants' eyeblink startle and cardiac reflexes elicited by a high-intensity acoustic noise stimulus were measured in the context of viewing a live model's direct and downward gaze. Both the eyeblink electromyographic and electrocardiographic data revealed that the startle reflex was modulated by gaze direction. Direct gaze attenuated the eyeblink startle and cardiac reflexes to the acoustic probes compared to those elicited in the context of a downward gaze. These results indicate that the defense reflex is weaker when presented in the context of direct versus downward gaze, and thus suggest that another individual's direct gaze, compared to averted gaze, automatically elicits more positive affective responses in the viewer.",
+    "abstract_zh": "另一个人的直接凝视本质上是积极还是消极的刺激？本研究采用惊吓反射方法来研究个体对其他人的直接和回避目光的自动反应。在这项研究中，参与者在观看实时模型的直视和向下凝视的情况下，测量了由高强度声学噪声刺激引起的参与者的眨眼惊吓和心脏反射。眨眼肌电图和心电图数据均显示惊吓反射受到注视方向的调节。与向下凝视引起的反应相比，直接凝视减弱了对声学探头的眨眼惊吓和心脏反射。这些结果表明防御...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5038483627）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_420fa7c736d236c2",
+    "global_record_id": "267f849fe8715a6a",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_420fa7c736d236c2"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Modulation of the eyeblink and cardiac startle reflexes by genuine eye contact. Psychophysiology",
+    "title_en": "Modulation of the eyeblink and cardiac startle reflexes by genuine eye contact. Psychophysiology",
+    "title_zh": "通过真正的目光接触调节眨眼和心脏惊跳反射。心理生理学",
+    "year": 2017,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "陈庭继"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_710d4f717df1",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "work_title_group": "1c9218e8eae7",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_710d4f717df1"
+    ],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "693a71a36ca3ff93",
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Optimal Tilt Angle and Orientation of Photovoltaic Modules Using HS Algorithm in Different Climates of China",
+    "title_en": "Optimal Tilt Angle and Orientation of Photovoltaic Modules Using HS Algorithm in Different Climates of China",
+    "title_zh": "中国不同气候条件下采用HS算法的光伏组件最佳倾斜角度和方位",
+    "year": 2017,
+    "venue": "Applied Sciences",
+    "authors": [
+      "Mian Guo",
+      "Haixiang Zang",
+      "Shengyu Gao",
+      "Tingji Chen",
+      "Jing Zhong Xiao",
+      "Lexiang Cheng",
+      "Zhinong Wei",
+      "Guoqiang Sun"
+    ],
+    "doi": "10.3390/app7101028",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.3390/app7101028",
+    "pdf_url": "https://www.mdpi.com/2076-3417/7/10/1028/pdf?version=1507786854",
+    "source_url": "https://openalex.org/W2761248635",
+    "openalex_id": "https://openalex.org/W2761248635",
+    "openalex_author_id": "https://openalex.org/A5038483627",
+    "cited_by_count": 77,
+    "abstract_en": "Solar energy technologies play an important role in shaping a sustainable energy future, and generating clean, renewable, and widely distributed energy sources. This paper determines the optimum tilt angle and optimum azimuth angle of photovoltaic (PV) panels, employing the harmony search (HS) meta-heuristic algorithm. In this study, the ergodic method is first conducted to obtain the optimum tilt angle and the optimum azimuth angle in several cities of China based on the model of Julian dating. Next, the HS algorithm is applied to search for the optimum solution. The purpose of this research is to maximize the extraterrestrial radiation on the collector surface for a specific period. The sun’s position is predicted by the proposed model at different times, and then solar radiation is obtained on various inclined planes with different orientations in each city. The performance of the HS method is compared with that of the ergodic method and other optimization algorithms. The results demonstrate that the tilt angle should be changed once a month, and the best orientation is usually due south in the selected cities. In addition, the HS algorithm is a practical and reliable alternative for estimating the optimum tilt angle and optimum azimuth angle of PV panels.",
+    "abstract_zh": "太阳能技术在塑造可持续能源未来以及产生清洁、可再生和广泛分布的能源方面发挥着重要作用。本文采用和谐搜索（HS）元启发式算法确定光伏（PV）面板的最佳倾斜角和最佳方位角。本研究首先基于儒略测年模型，采用遍历法求得中国多个城市的最佳倾斜角和最佳方位角。接下来，应用HS算法来搜索最优解。这项研究的目的是在特定时期内最大限度地提高收集器表面的地外辐射。太阳的位置由所提出的模型预测为......",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5038483627）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_fdfa289db8e2f79a",
+    "global_record_id": "bb58db19867bb3da",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_fdfa289db8e2f79a"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "陈庭继：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Affect in the Eyes: Explicit and Implicit Evaluations (Table S1).pdf",
+    "title_en": "Affect in the Eyes: Explicit and Implicit Evaluations (Table S1).pdf",
+    "title_zh": "对眼睛的影响：显式和隐式评估（表 S1）.pdf",
+    "year": 2016,
+    "venue": "Figshare",
+    "authors": [
+      "Tingji Chen"
+    ],
+    "doi": "10.6084/m9.figshare.3384124",
+    "dblp_key": "",
+    "paper_url": "https://figshare.com/articles/dataset/Table_S1_pdf/3384124",
+    "pdf_url": "https://figshare.com/articles/dataset/Table_S1_pdf/3384124",
+    "source_url": "https://openalex.org/W4394321563",
+    "openalex_id": "https://openalex.org/W4394321563",
+    "openalex_author_id": "https://openalex.org/A5038483627",
+    "cited_by_count": 0,
+    "abstract_en": "Mean (and standard error, SE) response times (ms) to positive and negative words primed by different gaze stimuli.",
+    "abstract_zh": "对不同凝视刺激引发的积极和消极词语的平均（和标准误差，SE）响应时间（毫秒）。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5038483627）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_4adbffe47861888d",
+    "global_record_id": "ef6900eea4ea912a",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_4adbffe47861888d"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Combined Cognitive Training vs. Memory Strategy Training in Healthy Older Adults",
+    "title_en": "Combined Cognitive Training vs. Memory Strategy Training in Healthy Older Adults",
+    "title_zh": "健康老年人的组合认知训练与记忆策略训练",
+    "year": 2016,
+    "venue": "Frontiers in Psychology",
+    "authors": [
+      "Bing Li",
+      "Xinyi Zhu",
+      "Jianhua Hou",
+      "Tingji Chen",
+      "Pengyun Wang",
+      "Juan Li"
+    ],
+    "doi": "10.3389/fpsyg.2016.00834",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.3389/fpsyg.2016.00834",
+    "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2016.00834/pdf",
+    "source_url": "https://openalex.org/W2409645371",
+    "openalex_id": "https://openalex.org/W2409645371",
+    "openalex_author_id": "https://openalex.org/A5038483627",
+    "cited_by_count": 52,
+    "abstract_en": "UNLABELLED: As mnemonic utilization deficit in older adults associates with age-related decline in executive function, we hypothesized that memory strategy training combined with executive function training might induce larger training effect in memory and broader training effects in non-memory outcomes than pure memory training. The present study compared the effects of combined cognitive training (executive function training plus memory strategy training) to pure memory strategy training. Forty healthy older adults were randomly assigned to a combined cognitive training group or a memory strategy training group. A control group receiving no training was also included. Combined cognitive training group received 16 sessions of training (eight sessions of executive function training followed by eight sessions of memory strategy training). Memory training group received 16 sessions of memory strategy training. The results partly supported our hypothesis in that indeed improved performance on executive function was only found in combined training group, whereas memory performance increased less in combined training compared to memory strategy group. Results suggest that combined cognitive training may be less efficient than pure memory training in memory outcomes, though the influences from insufficient training time and less closeness between trained executive function and working memory could not be excluded; however it has broader training effects in non-memory outcomes. CLINICAL TRIAL REGISTRATION: www.chictr.org.cn, identifier ChiCTR-OON-16007793.",
+    "abstract_zh": "未标记：由于老年人的记忆利用缺陷与年龄相关的执行功能下降有关，我们假设记忆策略训练与执行功能训练相结合可能会比纯粹的记忆训练产生更大的记忆训练效果和更广泛的非记忆结果训练效果。本研究比较了组合认知训练（执行功能训练加记忆策略训练）与纯记忆策略训练的效果。四十名健康老年人被随机分配到联合认知训练组或记忆策略训练组。还包括未接受培训的对照组。联合认知训练组接受了16次训练（eig...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5038483627）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_d48c1a77c16377c5",
+    "global_record_id": "12701fec7b969fd0",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_d48c1a77c16377c5"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "陈庭继：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Combined Cognitive Training vs. Memory Strategy Training in Healthy Older Adults. Frontiers in Psychology",
+    "title_en": "Combined Cognitive Training vs. Memory Strategy Training in Healthy Older Adults. Frontiers in Psychology",
+    "title_zh": "健康老年人的组合认知训练与记忆策略训练。心理学前沿",
+    "year": 2016,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "陈庭继"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_ecc97a7dc2d2",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "work_title_group": "0764c179b8ed",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_ecc97a7dc2d2"
+    ],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "056810f26158a1e7",
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Affective Priming by Eye Gaze Stimuli: Behavioral and Electrophysiological Evidence",
+    "title_en": "Affective Priming by Eye Gaze Stimuli: Behavioral and Electrophysiological Evidence",
+    "title_zh": "眼睛注视刺激的情感启动：行为和电生理学证据",
+    "year": 2016,
+    "venue": "Frontiers in Human Neuroscience",
+    "authors": [
+      "Tingji Chen",
+      "Mikko J. Peltola",
+      "Lotta J. Ranta",
+      "Jari K. Hietanen"
+    ],
+    "doi": "10.3389/fnhum.2016.00619",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.3389/fnhum.2016.00619",
+    "pdf_url": "https://www.frontiersin.org/articles/10.3389/fnhum.2016.00619/pdf",
+    "source_url": "https://openalex.org/W2560597256",
+    "openalex_id": "https://openalex.org/W2560597256",
+    "openalex_author_id": "https://openalex.org/A5038483627",
+    "cited_by_count": 12,
+    "abstract_en": "The present study employed the affective priming paradigm and measurements of event-related potentials (ERPs) to investigate implicit affective reactions elicited by gaze stimuli. Participants categorized positive and negative words primed by direct gaze, averted gaze and closed eyes. The behavioral response time (RT) results indicated that direct gaze implicitly elicited more positive affective reactions than did closed eyes. Analyses of the ERP responses to the target words revealed a priming effect on the N170 and an interaction on late positive potential (LPP) responses, and congruently with the behavioral results, suggested that, compared to closed eyes, direct gaze was affectively more congruent with positive words and more incongruent with negative words. The priming effect on the N170 response indicated that gaze stimuli influenced the subsequent affective word processing at an early stage of information processing. In conclusion, the present behavioral and electrophysiological evidence suggests that direct gaze automatically activates more positive affective reactions than closed eyes.",
+    "abstract_zh": "本研究采用情感启动范式和事件相关电位（ERP）测量来研究凝视刺激引起的隐性情感反应。参与者根据直视、回避凝视和闭眼对积极和消极的词语进行分类。行为反应时间（RT）结果表明，直接凝视比闭上眼睛更能引发积极的情感反应。对目标词的 ERP 反应的分析揭示了对 N170 的启动效应以及对晚期正电位（LPP）反应的相互作用，并且与行为结果一致，表明与闭上眼睛相比，直视在情感上与积极词更一致，并且更不一致......",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "脑机接口与神经解码",
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5038483627）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_006eb7c092b78ffe",
+    "global_record_id": "79e78106598970d6",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_006eb7c092b78ffe"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Affective Priming by Eye Gaze Stimuli: Behavioral and Electrophysiological Evidence. Frontiers in Human Neuroscience",
+    "title_en": "Affective Priming by Eye Gaze Stimuli: Behavioral and Electrophysiological Evidence. Frontiers in Human Neuroscience",
+    "title_zh": "眼睛注视刺激的情感启动：行为和电生理学证据。人类神经科学前沿",
+    "year": 2016,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "陈庭继"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_02c2a63df766",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "work_title_group": "5997709730b6",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_02c2a63df766"
+    ],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "694ebb064d57df8b",
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Affect in the eyes: explicit and implicit evaluations",
+    "title_en": "Affect in the eyes: explicit and implicit evaluations",
+    "title_zh": "眼神中的情感：显性评价和隐性评价",
+    "year": 2016,
+    "venue": "Cognition & Emotion",
+    "authors": [
+      "Tingji Chen",
+      "Terhi M. Helminen",
+      "Jari K. Hietanen"
+    ],
+    "doi": "10.1080/02699931.2016.1188059",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1080/02699931.2016.1188059",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2411766755",
+    "openalex_id": "https://openalex.org/W2411766755",
+    "openalex_author_id": "https://openalex.org/A5038483627",
+    "cited_by_count": 41,
+    "abstract_en": "Tingji Chena, Terhi M. Helminena & Jari K. Hietanena*a Human Information Processing Laboratory, School of Social Sciences and Humanities/Psychology, University of Tampere, Tampere, FinlandCONTACT Jari K. Hietanen jari.hietanen@staff.uta.fiSupplemental data for this article can be accessed here 10.1080/02699931.2016.1188059ABSTRACTThe present study investigated whether another individual’s gaze direction influences an observer’s affective responses. In Experiment 1, subjective self-ratings and an affective priming paradigm were employed to examine how participants explicitly and implicitly, respectively, evaluated the affective valence of direct gaze, averted gaze, and closed eyes. The explicit self-ratings showed that participants evaluated closed eyes more positively than direct gaze. However, the implicit priming task showed an inverse pattern of results indicating that direct gaze was automatically evaluated more positively than closed eyes were. Experiment 2 confirmed that the opposite patterns of results between the two tasks were not due to differences in presentation times of the gaze stimuli. The results provide evidence for automatic affective reactions to eye gaze and indicate a dissociation between explicit and implicit affective evaluations of eyes and gaze direction.",
+    "abstract_zh": "Tingji Chena、Terhi M. Helminena 和 Jari K. Hietanena*a 人类信息处理实验室，社会科学和人文/心理学学院，坦佩雷大学，坦佩雷，芬兰联系 Jari K. Hietanen jari.hietanen@staff.uta.fi 本文的补充数据可以在此处访问10.1080/02699931.2016.1188059摘要本研究调查了另一个人的注视方向是否影响观察者的情感反应。在实验1中，采用主观自我评价和情感启动范式来检查参与者如何分别显式和隐式地评估直接凝视、回避凝视和闭眼的情感效价。明确的自我评分表明参与者评价...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5038483627）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_495f24feb23c9d06",
+    "global_record_id": "adfe7a33d3eb75bb",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_495f24feb23c9d06"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Affect in the eyes: explicit and implicit evaluations. Cognition and Emotion",
+    "title_en": "Affect in the eyes: explicit and implicit evaluations. Cognition and Emotion",
+    "title_zh": "眼神中的影响：显性评价和隐性评价。认知与情感",
+    "year": 2016,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "陈庭继"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_20903f350e30",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "work_title_group": "0c9753a5814b",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_20903f350e30"
+    ],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "c9d1885f07d4bde9",
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Interpretive bias of ambiguous facial expressions in older adults with depressive symptoms. PsyCh Journal",
+    "title_en": "Interpretive bias of ambiguous facial expressions in older adults with depressive symptoms. PsyCh Journal",
+    "title_zh": "患有抑郁症状的老年人对模糊面部表情的解释偏差。心理学杂志",
+    "year": 2015,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "陈庭继"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_0051483746c1",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "work_title_group": "5ae2f5956324",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_0051483746c1"
+    ],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "d54dbafde1a77c5b",
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Interpretive bias of ambiguous facial expressions in older adults with depressive symptoms",
+    "title_en": "Interpretive bias of ambiguous facial expressions in older adults with depressive symptoms",
+    "title_zh": "有抑郁症状的老年人对模糊面部表情的解释偏差",
+    "year": 2015,
+    "venue": "PsyCh Journal",
+    "authors": [
+      "Bibing Dai",
+      "Juan Li",
+      "Tingji Chen",
+      "Qi Li"
+    ],
+    "doi": "10.1002/pchj.85",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1002/pchj.85",
+    "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/pchj.85",
+    "source_url": "https://openalex.org/W1593450043",
+    "openalex_id": "https://openalex.org/W1593450043",
+    "openalex_author_id": "https://openalex.org/A5038483627",
+    "cited_by_count": 10,
+    "abstract_en": "Cognitive theories of emotional disorders indicate that biases in cognitive processes, such as attention, memory, and interpretation, are common factors that indicate vulnerability to these disorders, although their form varies according to the type of disorder. However, most of the studies have focused on adolescence and adulthood. It is still uncertain whether cognitive biases are risk factors for late-life depression. The present study sought to explore the role of interpretive bias in older adults with depressive symptoms and whether this effect is independent of basic cognitive abilities. Therefore, 18 older adults with depressive symptoms and 21 healthy controls were compared with an ambiguous facial expression identification task, a Mini Mental Status Examination, a Trail Making Test A and B, and a Word Fluency Test. Findings revealed that the depressive group was more likely to identify more ambiguous happy-sad facial expressions as indicative of sadness than were the healthy controls, but the two groups showed no significant differences in the cognitive test scores. These results suggest that interpretive bias indicates vulnerability to late-life depression, but basic cognitive abilities may have no influence in this context.",
+    "abstract_zh": "情绪障碍的认知理论表明，认知过程中的偏差，例如注意力、记忆和解释，是表明容易患这些疾病的常见因素，尽管其形式根据障碍的类型而有所不同。然而，大多数研究都集中在青春期和成年期。目前尚不确定认知偏差是否是晚年抑郁症的危险因素。本研究旨在探讨解释偏差在患有抑郁症状的老年人中的作用，以及这种作用是否独立于基本认知能力。因此，18 名患有抑郁症状的老年人和 21 名健康对照者与模糊的面部表情识别任务进行了比较，...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5038483627）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_47567204ccc2342b",
+    "global_record_id": "69656088d73c778c",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_47567204ccc2342b"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "The effects of reminiscence therapy on depressive symptoms of Chinese elderly: study protocol of a randomized controlled trial",
+    "title_en": "The effects of reminiscence therapy on depressive symptoms of Chinese elderly: study protocol of a randomized controlled trial",
+    "title_zh": "怀旧疗法对中国老年人抑郁症状的影响：随机对照试验研究方案",
+    "year": 2012,
+    "venue": "BMC Psychiatry",
+    "authors": [
+      "Tingji Chen",
+      "Hui‐Jie Li",
+      "Juan Li"
+    ],
+    "doi": "10.1186/1471-244x-12-189",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1186/1471-244x-12-189",
+    "pdf_url": "https://bmcpsychiatry.biomedcentral.com/counter/pdf/10.1186/1471-244X-12-189",
+    "source_url": "https://openalex.org/W1986891974",
+    "openalex_id": "https://openalex.org/W1986891974",
+    "openalex_author_id": "https://openalex.org/A5038483627",
+    "cited_by_count": 62,
+    "abstract_en": "BACKGROUND: Depression is one of the most common mental disorders with a high prevalence among the older adults. In recent years, after realizing some side effects of the antidepressants, non-pharmacological psychological treatments begin to attract accruing attention. Reminiscence therapy is one of the psychological treatments that specially designed for the elderly to improve their mental health status by recalling and assessing their existing memory. Though some studies indicate reminiscence therapy can be effective and beneficial for the mental health of elderly, the conclusions are not consistent yet. The aim of this research is to assess the effectiveness of reminiscence therapy for Chinese elderly. METHODS: Sixty older adults (≥60 years of age) with mild to moderate depression will be randomly assigned to an experimental or a control condition. The participants in the experiment group will receive the reminiscence therapy under the Watt's protocol with adaptation to Chinese Culture which consists of six weekly sessions of 90 minutes each. The control group will be treated as before. An assessor who is blind to intervention will conduct the measures before treatment, after treatment immediately, and three months after treatment. DISCUSSION: This study will provide the evidence whether the reminiscence therapy is effective to treat depressive symptoms of Chinese elderly. This research has been registered in the clinicaltrials.gov (NCT01553669).",
+    "abstract_zh": "背景：抑郁症是最常见的精神障碍之一，在老年人中患病率较高。近年来，在认识到抗抑郁药的一些副作用后，非药物心理治疗开始引起越来越多的关注。怀旧疗法是专门为老年人设计的一种心理治疗方法，通过回忆和评估老年人现有的记忆来改善他们的心理健康状况。尽管一些研究表明回忆疗法对老年人的心理健康有效且有益，但结论尚不一致。本研究的目的是评估怀旧疗法对中国老年人的有效性。方法：60 名老年人（≥60 岁...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5038483627）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_2a5ca2afda67_c014df70040c25c8",
+    "global_record_id": "734d1c93a87cb2d9",
+    "scholar_id": "panorama_2a5ca2afda67",
+    "scholar_name": "陈庭继",
+    "scholar_ids": [
+      "panorama_2a5ca2afda67"
+    ],
+    "scholar_names": [
+      "陈庭继"
+    ],
+    "source_record_ids": [
+      "panorama_2a5ca2afda67_c014df70040c25c8"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_2a5ca2afda67": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "陈庭继",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "陈庭继：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  }
+]

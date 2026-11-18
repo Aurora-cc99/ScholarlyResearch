@@ -1,455 +1,1552 @@
-{
-  "scholar": {
-    "name_zh": "杨小冬",
-    "name_en": "English name pending",
-    "affiliation": "中国矿业大学",
-    "identity_sources": [
-      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+[
+  {
+    "title": "CSORMN: Cosine Similarity Order Recurrence Motif Networks for myocardial infarction detection and localization using 12-lead ECGs",
+    "title_en": "CSORMN: Cosine Similarity Order Recurrence Motif Networks for myocardial infarction detection and localization using 12-lead ECGs",
+    "title_zh": "CSORMN：使用 12 导联心电图进行心肌梗塞检测和定位的余弦相似度顺序循环基序网络",
+    "year": 2026,
+    "venue": "Chaos Solitons & Fractals",
+    "authors": [
+      "Xiaodong Yang",
+      "Huanping Lin",
+      "Ziqing Zhou",
+      "Aijun He",
+      "Jun Wang"
     ],
-    "official_homepages": [
-      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    "doi": "10.1016/j.chaos.2026.118701",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.chaos.2026.118701",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W7167352953",
+    "openalex_id": "https://openalex.org/W7167352953",
+    "openalex_author_id": "https://openalex.org/A5100604864",
+    "cited_by_count": 0,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100604864）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_27342c2bd268_2d0463df3266d754",
+    "global_record_id": "8d1077f94f765fb7",
+    "scholar_id": "panorama_27342c2bd268",
+    "scholar_name": "杨小冬",
+    "scholar_ids": [
+      "panorama_27342c2bd268"
     ],
-    "coverage": {
-      "scope": "2025–2026主题筛选与全量书目扩展",
-      "status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
-      "coverage_status": "仅有代表论文或项目级记录；个人全历史待补核",
-      "available_record_count": 8,
-      "bulk_source_record_count": 0,
-      "themes": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ]
-    },
-    "coverage_notes": "该目录与五位基线学者使用同一论文/资源/分类输出契约。‘可用记录数’表示本轮已取得并保留的书目，不等于未经消歧的个人终身全集；身份待核验、论文团队和同名风险见候选筛选证据。",
-    "id": "panorama_27342c2bd268",
-    "folder": "主题_panorama_27342c2bd268",
-    "classification": {
-      "method": "按题名及现有项目、资源说明进行主题粗分，用于阅读导航；未逐篇审阅全文，不代表学者官方分类。每条书目只设一个主类别，跨方向信息保留在辅助标签中。",
-      "categories": [
-        {
-          "id": "eeg_foundation",
-          "label": "脑电基础模型与通用解码",
-          "description": "EEG基础模型、跨任务/跨设备泛化、预训练与脑信号解码。",
-          "count": 0
-        },
-        {
-          "id": "eeg_affect",
-          "label": "情感脑电与多模态生理信号",
-          "description": "脑电情感识别、EEG-fNIRS/EEG-MEG及情感计算应用。",
-          "count": 8
-        },
-        {
-          "id": "eeg_benchmark",
-          "label": "脑电基准、数据与评测",
-          "description": "脑电基础模型基准、数据集、可复现评估与跨数据集比较。",
-          "count": 0
-        }
-      ],
-      "review": {
-        "status": "theme_candidate",
-        "source_status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
-        "primary_theme": "脑电情感计算与脑电大模型"
+    "scholar_names": [
+      "杨小冬"
+    ],
+    "source_record_ids": [
+      "panorama_27342c2bd268_2d0463df3266d754"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_27342c2bd268": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "杨小冬",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
-    "counts": {
-      "bibliographic_records": 8,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [
-        2007,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "unknown_year": 0
-    }
+    "primary_categories_by_scholar": [
+      "杨小冬：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
   },
-  "papers": [
-    {
-      "title": "DC-ASTGCN: EEG Emotion Recognition Based on Fusion Deep Convolutional and Adaptive Spatio-Temporal Graph Convolutional Networks. IEEE Journal of Biomedical and Health Informatics",
-      "title_en": "DC-ASTGCN: EEG Emotion Recognition Based on Fusion Deep Convolutional and Adaptive Spatio-Temporal Graph Convolutional Networks. IEEE Journal of Biomedical and Health Informatics",
-      "title_zh": "DC-ASTGCN：基于融合深度卷积和自适应时空图卷积网络的脑电情绪识别。 IEEE 生物医学和健康信息学杂志",
-      "year": 2025,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "杨小冬"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_27342c2bd268_0f427c08138f",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_27342c2bd268",
-      "scholar_name": "杨小冬",
-      "work_title_group": "f5072f63ad37",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+  {
+    "title": "DC-ASTGCN: EEG Emotion Recognition Based on Fusion Deep Convolutional and Adaptive Spatio-Temporal Graph Convolutional Networks",
+    "title_en": "DC-ASTGCN: EEG Emotion Recognition Based on Fusion Deep Convolutional and Adaptive Spatio-Temporal Graph Convolutional Networks",
+    "title_zh": "DC-ASTGCN：基于融合深度卷积和自适应时空图卷积网络的脑电情绪识别",
+    "year": 2025,
+    "venue": "IEEE J. Biomed. Health Informatics",
+    "authors": [
+      "Xiaodong Yang",
+      "Zhengping Zhu",
+      "Guangkang Jiang",
+      "Dandan Wu",
+      "Aijun He",
+      "Jun Wang"
+    ],
+    "doi": "10.1109/JBHI.2024.3449083",
+    "dblp_key": "journals/titb/YangZJWHW25",
+    "paper_url": "https://doi.org/10.1109/JBHI.2024.3449083",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/journals/titb/YangZJWHW25.html",
+    "openalex_id": "https://openalex.org/W4402260920",
+    "openalex_author_id": "https://openalex.org/A5100604864",
+    "cited_by_count": 26,
+    "abstract_en": "Thanks to advancements in artificial intelligence and brain-computer interface (BCI) research, there has been increasing attention towards emotion recognition techniques based on electroencephalogram (EEG) recently. The complexity of EEG data poses a challenge when it comes to accurately classifying emotions by integrating time, frequency, and spatial domain features. To address this challenge, this paper proposes a fusion model called DC-ASTGCN, which combines the strengths of deep convolutional neural network (DCNN) and adaptive spatio-temporal graphic convolutional neural network (ASTGCN) to comprehensively analyze and understand EEG signals. The DCNN focuses on extracting frequency-domain and local spatial features from EEG signals to identify brain region activity patterns, while the ASTGCN, with its spatio-temporal attention mechanism and adaptive brain topology layer, reveals the functional connectivity features between brain regions in different emotional states. This integration significantly enhances the model's ability to understand and recognize emotional states. Extensive experiments conducted on the DEAP and SEED datasets demonstrate that the DC-ASTGCN model outperforms existing state-of-the-art methods in terms of emotion recognition accuracy.",
+    "abstract_zh": "近年来，随着人工智能和脑机接口（BCI）研究的进步，基于脑电图（EEG）的情绪识别技术越来越受到人们的关注。脑电图数据的复杂性给通过整合时间、频率和空间域特征来准确分类情绪带来了挑战。为了应对这一挑战，本文提出了一种名为 DC-ASTGCN 的融合模型，该模型结合了深度卷积神经网络（DCNN）和自适应时空图形卷积神经网络（ASTGCN）的优势来全面分析和理解脑电信号。 DCNN 专注于从 EEG 信号中提取频域和局部空间特征，以...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "脑电情感识别",
+      "脑机接口与神经解码",
+      "情感计算与情绪理解"
+    ],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 19/1551-19）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_27342c2bd268_f3037b587eaf169c",
+    "global_record_id": "947f1b9aadc6157b",
+    "scholar_id": "panorama_27342c2bd268",
+    "scholar_name": "杨小冬",
+    "scholar_ids": [
+      "panorama_27342c2bd268"
+    ],
+    "scholar_names": [
+      "杨小冬"
+    ],
+    "source_record_ids": [
+      "panorama_27342c2bd268_f3037b587eaf169c"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_27342c2bd268": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "杨小冬",
+        "secondary_tags": [
+          "脑电情感识别",
+          "脑机接口与神经解码",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "EfficientSleepNet: A Novel Lightweight End-to-End Model for Automated Sleep Staging on Single-Channel EEG. ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
-      "title_en": "EfficientSleepNet: A Novel Lightweight End-to-End Model for Automated Sleep Staging on Single-Channel EEG. ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
-      "title_zh": "EfficientSleepNet：一种新颖的轻量级端到端模型，用于单通道脑电图自动睡眠分期。 ICASSP 2025 - 2025 IEEE 声学、语音和信号处理国际会议 (ICASSP)",
-      "year": 2025,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "杨小冬"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_27342c2bd268_c74c0638a3b0",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_27342c2bd268",
-      "scholar_name": "杨小冬",
-      "work_title_group": "3e285eb82c7f",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "primary_categories_by_scholar": [
+      "杨小冬：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "DC-ASTGCN: EEG Emotion Recognition Based on Fusion Deep Convolutional and Adaptive Spatio-Temporal Graph Convolutional Networks. IEEE Journal of Biomedical and Health Informatics",
+    "title_en": "DC-ASTGCN: EEG Emotion Recognition Based on Fusion Deep Convolutional and Adaptive Spatio-Temporal Graph Convolutional Networks. IEEE Journal of Biomedical and Health Informatics",
+    "title_zh": "DC-ASTGCN：基于融合深度卷积和自适应时空图卷积网络的脑电情绪识别。 IEEE 生物医学和健康信息学杂志",
+    "year": 2025,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "杨小冬"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "脑电情感识别",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_27342c2bd268_0f427c08138f",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_27342c2bd268",
+    "scholar_name": "杨小冬",
+    "work_title_group": "f5072f63ad37",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_27342c2bd268"
+    ],
+    "scholar_names": [
+      "杨小冬"
+    ],
+    "source_record_ids": [
+      "panorama_27342c2bd268_0f427c08138f"
+    ],
+    "scholar_categories": {
+      "panorama_27342c2bd268": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "杨小冬",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "ConvTransSleepNet: A Novel Framework for EEG-based Automatic Sleep Staging in Wearable Sleep Sensors. 2024 4th International Conference on Neural Networks, Information and Communication (NNICE)",
-      "title_en": "ConvTransSleepNet: A Novel Framework for EEG-based Automatic Sleep Staging in Wearable Sleep Sensors. 2024 4th International Conference on Neural Networks, Information and Communication (NNICE)",
-      "title_zh": "ConvTransSleepNet：可穿戴睡眠传感器中基于脑电图的自动睡眠分级的新颖框架。 2024年第四届神经网络、信息与通信国际会议（NNICE）",
-      "year": 2024,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "杨小冬"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_27342c2bd268_afaa58e1142a",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_27342c2bd268",
-      "scholar_name": "杨小冬",
-      "work_title_group": "4ce0c36acdce",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "7164384fbcc47814",
+    "primary_categories_by_scholar": [
+      "杨小冬：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "EfficientSleepNet: A Novel Lightweight End-to-End Model for Automated Sleep Staging on Single-Channel EEG. ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "title_en": "EfficientSleepNet: A Novel Lightweight End-to-End Model for Automated Sleep Staging on Single-Channel EEG. ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "title_zh": "EfficientSleepNet：一种新颖的轻量级端到端模型，用于单通道脑电图自动睡眠分期。 ICASSP 2025 - 2025 IEEE 声学、语音和信号处理国际会议 (ICASSP)",
+    "year": 2025,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "杨小冬"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_27342c2bd268_c74c0638a3b0",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_27342c2bd268",
+    "scholar_name": "杨小冬",
+    "work_title_group": "3e285eb82c7f",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_27342c2bd268"
+    ],
+    "scholar_names": [
+      "杨小冬"
+    ],
+    "source_record_ids": [
+      "panorama_27342c2bd268_c74c0638a3b0"
+    ],
+    "scholar_categories": {
+      "panorama_27342c2bd268": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "杨小冬",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Epileptic detection in single and multi-lead EEG signals using persistent homology based on bi-directional weighted visibility graphs. Chaos: An Interdisciplinary Journal of Nonlinear Science",
-      "title_en": "Epileptic detection in single and multi-lead EEG signals using persistent homology based on bi-directional weighted visibility graphs. Chaos: An Interdisciplinary Journal of Nonlinear Science",
-      "title_zh": "使用基于双向加权可见性图的持久同源性对单导联和多导联 EEG 信号进行癫痫检测。混沌：非线性科学的跨学科期刊",
-      "year": 2023,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "杨小冬"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_27342c2bd268_73779d3c2746",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_27342c2bd268",
-      "scholar_name": "杨小冬",
-      "work_title_group": "7c26398fd526",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "3be321785cadde5a",
+    "primary_categories_by_scholar": [
+      "杨小冬：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "MDD2DG-IRA: Multivariate Degree Distribution to Dynamic Graph With Inter-Channel Relevance Attention Mechanism for Multi-Channel Myocardial Infarction ECG Analysis",
+    "title_en": "MDD2DG-IRA: Multivariate Degree Distribution to Dynamic Graph With Inter-Channel Relevance Attention Mechanism for Multi-Channel Myocardial Infarction ECG Analysis",
+    "title_zh": "MDD2DG-IRA：用于多通道心肌梗塞心电图分析的具有通道间相关性注意机制的动态图的多元度分布",
+    "year": 2025,
+    "venue": "IEEE J. Biomed. Health Informatics",
+    "authors": [
+      "Xiaodong Yang",
+      "Guangkang Jiang",
+      "Zhengping Zhu",
+      "Dandan Wu",
+      "Aijun He",
+      "Jun Wang"
+    ],
+    "doi": "10.1109/JBHI.2025.3554309",
+    "dblp_key": "journals/titb/YangJZWHW25",
+    "paper_url": "https://doi.org/10.1109/JBHI.2025.3554309",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/journals/titb/YangJZWHW25.html",
+    "openalex_id": "https://openalex.org/W4408780052",
+    "openalex_author_id": "https://openalex.org/A5100604864",
+    "cited_by_count": 6,
+    "abstract_en": "We introduced a novel methodology Multivariate Degree Distribution to Dynamic Graph (MDD2DG) with Inter-channel Relevance Attention (IRA) mechanism to analyze multi-channel Electrocardiogram (ECG) signals and explore signal connections across different channels. Our methodology comprises three main steps. First, multi-channel cardiac signals are transformed into multi-channel visual graphs to extract crucial degree distribution features. Then, degree distributions are mapped into dynamic graphs using a neural network with an IRA mechanism. After that, critical features are extracted within dynamic graphs utilizing a Graph Convolutional Neural Networks (GCNNs), and classification is subsequently performed using a multilayer perceptron. In this model, a method of multi-scale position embedding was introduced, which significantly enhanced the processing efficiency of the model by providing a simpler yet sufficiently effective feature representation. Compared to traditional complex network methods, our approach replaces fixed formula-calculated features with dynamic graph models, resulting in improved recognition accuracy. In the experiments, we achieved an impressive 99.94% classification accuracy for distinguishing ECG signals from the five distinct locations (AMI, ASMI, ALMI, IMI and ILMI) with myocardial infarction (MI) as well as those of the healthy controls (HC). This work contributes to the analysis of complex physiological signals in the field of multi-channel ECG sequence, and provides a robust approach with promising implications for improving clinical medicine and the early detection of cardiac diseases.",
+    "abstract_zh": "我们引入了一种具有通道间相关性注意 (IRA) 机制的多元度分布动态图 (MDD2DG) 方法来分析多通道心电图 (ECG) 信号并探索不同通道之间的信号连接。我们的方法包括三个主要步骤。首先，将多通道心脏信号转换为多通道视觉图，以提取关键度分布特征。然后，使用具有 IRA 机制的神经网络将度分布映射到动态图。之后，利用图卷积神经网络 (GCNN) 在动态图中提取关键特征，并随后使用多层感知器进行分类。在...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 19/1551-19）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_27342c2bd268_1ee19098a10fc5bb",
+    "global_record_id": "7c15f3cc79f4a067",
+    "scholar_id": "panorama_27342c2bd268",
+    "scholar_name": "杨小冬",
+    "scholar_ids": [
+      "panorama_27342c2bd268"
+    ],
+    "scholar_names": [
+      "杨小冬"
+    ],
+    "source_record_ids": [
+      "panorama_27342c2bd268_1ee19098a10fc5bb"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_27342c2bd268": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "杨小冬",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "low",
+        "note": ""
+      }
     },
-    {
-      "title": "Multivariate emotional EEG signal recognition based on multivariate joint motif entropy of a horizontal visibility graph. SCIENTIA SINICA Informationis",
-      "title_en": "Multivariate emotional EEG signal recognition based on multivariate joint motif entropy of a horizontal visibility graph. SCIENTIA SINICA Informationis",
-      "title_zh": "基于水平可见度图的多元联合主题熵的多元情绪脑电信号识别。中国科学信息网",
-      "year": 2023,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "杨小冬"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_27342c2bd268_b31011a395b0",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_27342c2bd268",
-      "scholar_name": "杨小冬",
-      "work_title_group": "6a19717b9dd3",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "primary_categories_by_scholar": [
+      "杨小冬：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "ConvTransSleepNet: A Novel Framework for EEG-based Automatic Sleep Staging in Wearable Sleep Sensors. 2024 4th International Conference on Neural Networks, Information and Communication (NNICE)",
+    "title_en": "ConvTransSleepNet: A Novel Framework for EEG-based Automatic Sleep Staging in Wearable Sleep Sensors. 2024 4th International Conference on Neural Networks, Information and Communication (NNICE)",
+    "title_zh": "ConvTransSleepNet：可穿戴睡眠传感器中基于脑电图的自动睡眠分级的新颖框架。 2024年第四届神经网络、信息与通信国际会议（NNICE）",
+    "year": 2024,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "杨小冬"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_27342c2bd268_afaa58e1142a",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_27342c2bd268",
+    "scholar_name": "杨小冬",
+    "work_title_group": "4ce0c36acdce",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_27342c2bd268"
+    ],
+    "scholar_names": [
+      "杨小冬"
+    ],
+    "source_record_ids": [
+      "panorama_27342c2bd268_afaa58e1142a"
+    ],
+    "scholar_categories": {
+      "panorama_27342c2bd268": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "杨小冬",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Research on emotion cognitive classification based on eye movement in virtual reality. 4th International Conference on Information Science, Electrical, and Automation Engineering (ISEAE 2022)",
-      "title_en": "Research on emotion cognitive classification based on eye movement in virtual reality. 4th International Conference on Information Science, Electrical, and Automation Engineering (ISEAE 2022)",
-      "title_zh": "虚拟现实中基于眼动的情绪认知分类研究第四届信息科学、电气与自动化工程国际会议 (ISEAE 2022)",
-      "year": 2022,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "杨小冬"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_27342c2bd268_3b1da89b1946",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_27342c2bd268",
-      "scholar_name": "杨小冬",
-      "work_title_group": "522c6f4b7083",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "5af14f24d87060cd",
+    "primary_categories_by_scholar": [
+      "杨小冬：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Multivariate emotional EEG signal recognition based on multivariate joint motif entropy of a horizontal visibility graph. SCIENTIA SINICA Informationis",
+    "title_en": "Multivariate emotional EEG signal recognition based on multivariate joint motif entropy of a horizontal visibility graph. SCIENTIA SINICA Informationis",
+    "title_zh": "基于水平可见度图的多元联合主题熵的多元情绪脑电信号识别。中国科学信息网",
+    "year": 2023,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "杨小冬"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "脑电情感识别",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_27342c2bd268_b31011a395b0",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_27342c2bd268",
+    "scholar_name": "杨小冬",
+    "work_title_group": "6a19717b9dd3",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_27342c2bd268"
+    ],
+    "scholar_names": [
+      "杨小冬"
+    ],
+    "source_record_ids": [
+      "panorama_27342c2bd268_b31011a395b0"
+    ],
+    "scholar_categories": {
+      "panorama_27342c2bd268": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "杨小冬",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Multifractal Analysis of Epilepsy in Electroencephalogram. 2007 IEEE/ICME International Conference on Complex Medical Engineering",
-      "title_en": "Multifractal Analysis of Epilepsy in Electroencephalogram. 2007 IEEE/ICME International Conference on Complex Medical Engineering",
-      "title_zh": "脑电图中癫痫的多重分形分析。 2007年IEEE/ICME复杂医学工程国际会议",
-      "year": 2007,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "杨小冬"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_27342c2bd268_d2353cf5df64",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_27342c2bd268",
-      "scholar_name": "杨小冬",
-      "work_title_group": "709268da5acc",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "b95f298b7f5683f7",
+    "primary_categories_by_scholar": [
+      "杨小冬：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Epileptic detection in single and multi-lead EEG signals using persistent homology based on bi-directional weighted visibility graphs. Chaos: An Interdisciplinary Journal of Nonlinear Science",
+    "title_en": "Epileptic detection in single and multi-lead EEG signals using persistent homology based on bi-directional weighted visibility graphs. Chaos: An Interdisciplinary Journal of Nonlinear Science",
+    "title_zh": "使用基于双向加权可见性图的持久同源性对单导联和多导联 EEG 信号进行癫痫检测。混沌：非线性科学的跨学科期刊",
+    "year": 2023,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "杨小冬"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_27342c2bd268_73779d3c2746",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_27342c2bd268",
+    "scholar_name": "杨小冬",
+    "work_title_group": "7c26398fd526",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_27342c2bd268"
+    ],
+    "scholar_names": [
+      "杨小冬"
+    ],
+    "source_record_ids": [
+      "panorama_27342c2bd268_73779d3c2746"
+    ],
+    "scholar_categories": {
+      "panorama_27342c2bd268": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "杨小冬",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Phase Synchronization in Sleep Electroencephalogram. 2007 IEEE/ICME International Conference on Complex Medical Engineering",
-      "title_en": "Phase Synchronization in Sleep Electroencephalogram. 2007 IEEE/ICME International Conference on Complex Medical Engineering",
-      "title_zh": "睡眠脑电图中的相位同步。 2007年IEEE/ICME复杂医学工程国际会议",
-      "year": 2007,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "杨小冬"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_27342c2bd268_94b884bb501d",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_27342c2bd268",
-      "scholar_name": "杨小冬",
-      "work_title_group": "d2df4b7e84c2",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
-    }
-  ]
-}
+    "global_record_id": "969ee347ef10e7b0",
+    "primary_categories_by_scholar": [
+      "杨小冬：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Epileptic detection in single and multi-lead EEG signals using persistent homology based on bi-directional weighted visibility graphs",
+    "title_en": "Epileptic detection in single and multi-lead EEG signals using persistent homology based on bi-directional weighted visibility graphs",
+    "title_zh": "使用基于双向加权可见性图的持久同源性对单导联和多导联脑电图信号进行癫痫检测",
+    "year": 2023,
+    "venue": "Chaos An Interdisciplinary Journal of Nonlinear Science",
+    "authors": [
+      "Xiaodong Yang",
+      "Yanlin Ren",
+      "Binyi Hong",
+      "Aijun He",
+      "Jun Wang",
+      "Zhixiao Wang"
+    ],
+    "doi": "10.1063/5.0140579",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1063/5.0140579",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4379377181",
+    "openalex_id": "https://openalex.org/W4379377181",
+    "openalex_author_id": "https://openalex.org/A5100604864",
+    "cited_by_count": 12,
+    "abstract_en": "Epilepsy is a widespread neurological disorder, and its recurrence and suddenness are making automatic detection of seizure an urgent necessity. For this purpose, this paper performs topological data analysis (TDA) of electroencephalographic (EEG) signals by the medium of graphs to explore the potential brain activity information they contain. Through our innovative method, we first map the time series of epileptic EEGs into bi-directional weighted visibility graphs (BWVGs), which give more comprehensive reflections of the signals compared to previous existing structures. Traditional graph-theoretic measurements are generally partial and mainly consider differences or correlations in vertices or edges, whereas persistent homology (PH), the essential part of TDA, provides an alternative way of thinking by quantifying the topology structure of the graphs and analyzing the evolution of these topological properties with scale changes. Therefore, we analyze the PH for BWVGs and then obtain the two indicators of persistence and birth-death for homology groups to reflect the topology of the mapping graphs of EEG signals and reveal the discrepancies in brain dynamics. Furthermore, we adopt neural networks (NNs) for the automatic detection of epileptic signals and successfully achieve a classification accuracy of 99.67% when distinguishing among three different sets of EEG signals from seizure, seizure-free, and healthy subjects. In addition, to accommodate multi-leads, we propose a classifier that incorporates graph structure to distinguish seizure and seizure-free EEG signals. The classification accuracies of the two subjects used in the classifier are as high as 99.23% and 94.76%, respectively, indicating that our proposed model is useful for the analysis of EEG signals.",
+    "abstract_zh": "癫痫是一种广泛存在的神经系统疾病，其复发性和突发性使得自动检测癫痫发作成为迫切需要。为此，本文以图形为媒介对脑电图（EEG）信号进行拓扑数据分析（TDA），以探索其包含的潜在大脑活动信息。通过我们的创新方法，我们首先将癫痫脑电图的时间序列映射到双向加权可见性图（BWVG）中，与以前的现有结构相比，它可以更全面地反映信号。传统的图论测量通常是部分的，主要考虑顶点或边的差异或相关性，而持久同源性（PH），...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100604864）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_27342c2bd268_f8ae7d094e2aaca7",
+    "global_record_id": "5450f6379de40d7a",
+    "scholar_id": "panorama_27342c2bd268",
+    "scholar_name": "杨小冬",
+    "scholar_ids": [
+      "panorama_27342c2bd268"
+    ],
+    "scholar_names": [
+      "杨小冬"
+    ],
+    "source_record_ids": [
+      "panorama_27342c2bd268_f8ae7d094e2aaca7"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_27342c2bd268": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "杨小冬",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "杨小冬：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Image Visibility Graph Analysis of the Eye Disease Images",
+    "title_en": "Image Visibility Graph Analysis of the Eye Disease Images",
+    "title_zh": "眼部疾病图像的图像可见性图分析",
+    "year": 2023,
+    "venue": "CISP-BMEI",
+    "authors": [
+      "Dandan Wu",
+      "Zhiyi Ma",
+      "Xiaodong Yang",
+      "Guangkang Jiang",
+      "Chen Yan",
+      "Lu Ma"
+    ],
+    "doi": "10.1109/CISP-BMEI60920.2023.10373331",
+    "dblp_key": "conf/bmei/WuMYJYM23",
+    "paper_url": "https://doi.org/10.1109/CISP-BMEI60920.2023.10373331",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/conf/bmei/WuMYJYM23.html",
+    "openalex_id": "https://openalex.org/W4390494816",
+    "openalex_author_id": "https://openalex.org/A5100604864",
+    "cited_by_count": 2,
+    "abstract_en": "Visibility graph algorithm is a widely used time series complex network transformation algorithm. It has been mainly applied to one-dimensional or multidimensional time series, while many real-life objects, such as images, cannot be represented by sequences. In this paper, we focus on two-dimensional images and propose a novel method of image visibility graph network (IVGN) with redefined node-degree features. We use the staining images of corneal ulcer of eye as the research object and demonstrate the application of IVGN to medical images. Our method consists of the following steps: (1) We construct a novel IVGN by treating each pixel as a node and connecting the visible pixels. We compute the average node degree of the IVGN for ocular pathology image analysis. (2) Based on the IVGN, we extract the node-degree features of the visible images and map them to a new degree topology, which is used for image enhancement. (3) By doing so, we build a gray co-occurrence matrix based on the degree topology and extract its four parameters, showing the role of the degree topology in image texture extraction. (4) As a result, we use the proposed contrast-based descriptors to achieve effective detection of eye staining images with different categories and severity levels.",
+    "abstract_zh": "可见图算法是一种广泛使用的时间序列复杂网络变换算法。它主要应用于一维或多维时间序列，而许多现实生活中的对象，例如图像，无法用序列表示。在本文中，我们专注于二维图像，并提出了一种具有重新定义的节点度特征的图像可见性图网络（IVGN）的新方法。我们以眼部角膜溃疡的染色图像为研究对象，论证了IVGN在医学图像中的应用。我们的方法包括以下步骤：（1）我们通过将每个像素视为一个节点并连接可见像素来构造一个新颖的 IVGN。我们计算眼部 IVGN 的平均节点度...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 19/1551-19）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_27342c2bd268_7010db5dde810d64",
+    "global_record_id": "d56fd3cf18f4d05e",
+    "scholar_id": "panorama_27342c2bd268",
+    "scholar_name": "杨小冬",
+    "scholar_ids": [
+      "panorama_27342c2bd268"
+    ],
+    "scholar_names": [
+      "杨小冬"
+    ],
+    "source_record_ids": [
+      "panorama_27342c2bd268_7010db5dde810d64"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_27342c2bd268": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "杨小冬",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "杨小冬：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Multivariate joint order recurrence networks for characterization of multi-lead ECG time series from healthy and pathological heartbeat dynamics",
+    "title_en": "Multivariate joint order recurrence networks for characterization of multi-lead ECG time series from healthy and pathological heartbeat dynamics",
+    "title_zh": "用于表征健康和病理心跳动态的多导联心电图时间序列的多元联合顺序递归网络",
+    "year": 2023,
+    "venue": "Chaos An Interdisciplinary Journal of Nonlinear Science",
+    "authors": [
+      "Xiaodong Yang",
+      "Meihui Chen",
+      "Yanlin Ren",
+      "Binyi Hong",
+      "Aijun He",
+      "Jun Wang"
+    ],
+    "doi": "10.1063/5.0167477",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1063/5.0167477",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4387579514",
+    "openalex_id": "https://openalex.org/W4387579514",
+    "openalex_author_id": "https://openalex.org/A5100604864",
+    "cited_by_count": 3,
+    "abstract_en": "Analysis of nonlinear dynamic characteristics of cardiac systems has been a hot topic of clinical research, and the recurrence plots have earned much attention as an effective tool for it. In this paper, we propose a novel method of multivariate joint order recurrence networks (MJORNs) to evaluate the multi-lead electrocardiography (ECG) time series with healthy and psychological heart states. The similarity between time series is studied by quantifying the structure in a joint order pattern recurrence plot. We take the time series that corresponds to each of the 12-lead ECG signals as a node in the network and use the entropy of diagonal line length that describes the complex structure of joint order pattern recurrence plot as the weight to construct MJORN. The analysis of network topology reveals differences in nonlinear complexity for healthy and heart diseased heartbeat systems. Experimental outcomes show that the values of average weighted path length are reduced in MJORN constructed from crowds with heart diseases, compared to those from healthy individuals, and the results of the average weighted clustering coefficient are the opposite. Due to the impaired cardiac fractal-like structures, the similarity between different leads of ECG is reduced, leading to a decrease in the nonlinear complexity of the cardiac system. The topological changes of MJORN reflect, to some extent, modifications in the nonlinear dynamics of the cardiac system from healthy to diseased conditions. Compared to multivariate cross recurrence networks and multivariate joint recurrence networks, our results suggest that MJORN performs better in discriminating healthy and pathological heartbeat dynamics.",
+    "abstract_zh": "心脏系统非线性动态特性分析一直是临床研究的热点，而复发图作为分析心脏系统非线性动态特性的有效工具而备受关注。在本文中，我们提出了一种多元联合顺序递归网络（MJORN）的新方法来评估具有健康和心理心脏状态的多导联心电图（ECG）时间序列。通过量化联合顺序模式递归图中的结构来研究时间序列之间的相似性。我们将每个 12 导联 ECG 信号对应的时间序列作为网络中的节点，并使用描述联合顺序模式递归图复杂结构的对角线长度熵作为权重 t...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100604864）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_27342c2bd268_5bd29623a78c61e1",
+    "global_record_id": "7b46fb59598543ae",
+    "scholar_id": "panorama_27342c2bd268",
+    "scholar_name": "杨小冬",
+    "scholar_ids": [
+      "panorama_27342c2bd268"
+    ],
+    "scholar_names": [
+      "杨小冬"
+    ],
+    "source_record_ids": [
+      "panorama_27342c2bd268_5bd29623a78c61e1"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_27342c2bd268": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "杨小冬",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "杨小冬：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Detection of Healthy and Pathological Heartbeat Dynamics in Ecg Signals Using Multivariate Recurrence Networks with Multiple Scale Factors",
+    "title_en": "Detection of Healthy and Pathological Heartbeat Dynamics in Ecg Signals Using Multivariate Recurrence Networks with Multiple Scale Factors",
+    "title_zh": "使用具有多个尺度因子的多元循环网络检测心电图信号中的健康和病理性心跳动态",
+    "year": 2022,
+    "venue": "Chinese Physics B",
+    "authors": [
+      "Lu 璐 Ma 马",
+      "Meihui 梅辉 Chen 陈",
+      "Aijun He",
+      "Deqiang Cheng",
+      "Xiaodong Yang"
+    ],
+    "doi": "10.1088/1674-1056/acb422",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1088/1674-1056/acb422",
+    "pdf_url": "https://iopscience.iop.org/article/10.1088/1674-1056/acb422/pdf",
+    "source_url": "https://openalex.org/W4317397257",
+    "openalex_id": "https://openalex.org/W4317397257",
+    "openalex_author_id": "https://openalex.org/A5100604864",
+    "cited_by_count": 4,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100604864）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_27342c2bd268_9301c9a7c72aa162",
+    "global_record_id": "5673402cd333bd0e",
+    "scholar_id": "panorama_27342c2bd268",
+    "scholar_name": "杨小冬",
+    "scholar_ids": [
+      "panorama_27342c2bd268"
+    ],
+    "scholar_names": [
+      "杨小冬"
+    ],
+    "source_record_ids": [
+      "panorama_27342c2bd268_9301c9a7c72aa162"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_27342c2bd268": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "杨小冬",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "杨小冬：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Research on emotion cognitive classification based on eye movement in virtual reality. 4th International Conference on Information Science, Electrical, and Automation Engineering (ISEAE 2022)",
+    "title_en": "Research on emotion cognitive classification based on eye movement in virtual reality. 4th International Conference on Information Science, Electrical, and Automation Engineering (ISEAE 2022)",
+    "title_zh": "虚拟现实中基于眼动的情绪认知分类研究第四届信息科学、电气与自动化工程国际会议 (ISEAE 2022)",
+    "year": 2022,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "杨小冬"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_27342c2bd268_3b1da89b1946",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_27342c2bd268",
+    "scholar_name": "杨小冬",
+    "work_title_group": "522c6f4b7083",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_27342c2bd268"
+    ],
+    "scholar_names": [
+      "杨小冬"
+    ],
+    "source_record_ids": [
+      "panorama_27342c2bd268_3b1da89b1946"
+    ],
+    "scholar_categories": {
+      "panorama_27342c2bd268": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "杨小冬",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "368c6aba150fdea2",
+    "primary_categories_by_scholar": [
+      "杨小冬：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "DEM study of particles flow on an industrial-scale roller screen",
+    "title_en": "DEM study of particles flow on an industrial-scale roller screen",
+    "title_zh": "工业规模滚筒筛上颗粒流动的 DEM 研究",
+    "year": 2020,
+    "venue": "Advanced Powder Technology",
+    "authors": [
+      "Xiaodong Yang",
+      "Lala Zhao",
+      "LI Hong-xi",
+      "Chusheng Liu",
+      "Eryi Hu",
+      "Yun-Wang Li",
+      "Qinfu Hou"
+    ],
+    "doi": "10.1016/j.apt.2020.09.020",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.apt.2020.09.020",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W3092566389",
+    "openalex_id": "https://openalex.org/W3092566389",
+    "openalex_author_id": "https://openalex.org/A5100604864",
+    "cited_by_count": 42,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100604864）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_27342c2bd268_e868012ceeecb9ce",
+    "global_record_id": "11d4e58822bdce73",
+    "scholar_id": "panorama_27342c2bd268",
+    "scholar_name": "杨小冬",
+    "scholar_ids": [
+      "panorama_27342c2bd268"
+    ],
+    "scholar_names": [
+      "杨小冬"
+    ],
+    "source_record_ids": [
+      "panorama_27342c2bd268_e868012ceeecb9ce"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_27342c2bd268": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "杨小冬",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "杨小冬：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "A neighbour scale fixed approach for influence maximization in social networks",
+    "title_en": "A neighbour scale fixed approach for influence maximization in social networks",
+    "title_zh": "社交网络影响力最大化的邻居规模固定方法",
+    "year": 2020,
+    "venue": "Computing",
+    "authors": [
+      "Xiaobin Rui",
+      "Xiaodong Yang",
+      "Jianping Fan",
+      "Zhixiao Wang"
+    ],
+    "doi": "10.1007/S00607-019-00778-5",
+    "dblp_key": "journals/computing/RuiYFW20",
+    "paper_url": "https://doi.org/10.1007/S00607-019-00778-5",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/journals/computing/RuiYFW20.html",
+    "openalex_id": "https://openalex.org/W3000121986",
+    "openalex_author_id": "",
+    "cited_by_count": 0,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 19/1551-19）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_27342c2bd268_185cdd9ed958f169",
+    "global_record_id": "1f3af8537deca669",
+    "scholar_id": "panorama_27342c2bd268",
+    "scholar_name": "杨小冬",
+    "scholar_ids": [
+      "panorama_27342c2bd268"
+    ],
+    "scholar_names": [
+      "杨小冬"
+    ],
+    "source_record_ids": [
+      "panorama_27342c2bd268_185cdd9ed958f169"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_27342c2bd268": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "杨小冬",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "杨小冬：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "A neighborhood link sensitive dismantling method for social networks",
+    "title_en": "A neighborhood link sensitive dismantling method for social networks",
+    "title_zh": "一种社交网络邻里链接敏感拆解方法",
+    "year": 2020,
+    "venue": "J. Comput. Sci.",
+    "authors": [
+      "Zhixiao Wang",
+      "Chengcheng Sun",
+      "Guan Yuan",
+      "Xiaobin Rui",
+      "Xiaodong Yang"
+    ],
+    "doi": "10.1016/J.JOCS.2020.101129",
+    "dblp_key": "journals/jocs/WangSYRY20",
+    "paper_url": "https://doi.org/10.1016/J.JOCS.2020.101129",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/journals/jocs/WangSYRY20.html",
+    "openalex_id": "https://openalex.org/W3018008132",
+    "openalex_author_id": "",
+    "cited_by_count": 0,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 19/1551-19）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_27342c2bd268_7ce700bea67565e9",
+    "global_record_id": "e2bef07ed033f26c",
+    "scholar_id": "panorama_27342c2bd268",
+    "scholar_name": "杨小冬",
+    "scholar_ids": [
+      "panorama_27342c2bd268"
+    ],
+    "scholar_names": [
+      "杨小冬"
+    ],
+    "source_record_ids": [
+      "panorama_27342c2bd268_7ce700bea67565e9"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_27342c2bd268": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "杨小冬",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "杨小冬：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "DEM study of size segregation of wet particles under vertical vibration",
+    "title_en": "DEM study of size segregation of wet particles under vertical vibration",
+    "title_zh": "垂直振动下湿颗粒尺寸偏析的DEM研究",
+    "year": 2019,
+    "venue": "Advanced Powder Technology",
+    "authors": [
+      "L. Zhao",
+      "Yun-Wang Li",
+      "Xiaodong Yang",
+      "Yang Jiao",
+      "Qinfu Hou"
+    ],
+    "doi": "10.1016/j.apt.2019.04.019",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.apt.2019.04.019",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2943746802",
+    "openalex_id": "https://openalex.org/W2943746802",
+    "openalex_author_id": "https://openalex.org/A5100604864",
+    "cited_by_count": 54,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100604864）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_27342c2bd268_73401fdd8118081c",
+    "global_record_id": "12540bab13753b62",
+    "scholar_id": "panorama_27342c2bd268",
+    "scholar_name": "杨小冬",
+    "scholar_ids": [
+      "panorama_27342c2bd268"
+    ],
+    "scholar_names": [
+      "杨小冬"
+    ],
+    "source_record_ids": [
+      "panorama_27342c2bd268_73401fdd8118081c"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_27342c2bd268": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "杨小冬",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "杨小冬：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Detection of the Nonlinearity in Human ECG Physiological Signals",
+    "title_en": "Detection of the Nonlinearity in Human ECG Physiological Signals",
+    "title_zh": "人体心电生理信号的非线性检测",
+    "year": 2018,
+    "venue": "CISP-BMEI",
+    "authors": [
+      "Xiaodong Yang",
+      "Aijun He",
+      "Jiaqi Han",
+      "Ke Guo"
+    ],
+    "doi": "10.1109/CISP-BMEI.2018.8633144",
+    "dblp_key": "conf/bmei/YangHHG18",
+    "paper_url": "https://doi.org/10.1109/CISP-BMEI.2018.8633144",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/conf/bmei/YangHHG18.html",
+    "openalex_id": "https://openalex.org/W2913568048",
+    "openalex_author_id": "",
+    "cited_by_count": 0,
+    "abstract_en": "In this paper, we defined and investigated multifractal singularity spectrum area lnsf(α) of the 12-lead ECG signals taken from healthy and diseased human subjects of different age stages. One-way ANOV A analysis reveals all the crowds are statistically distinguishable using this indicator. The results showed that the arithmetic mean values of lnsf(a) from the 12 leads ECG signals is significantly larger for healthy young people but smaller for heart diseased sufferer. While the dispersion of lnsf(a) from the 12 leads ECG signals is obviously smaller for diseased sufferer but larger for healthy people. We also think, the 12-leads mean value of singularity spectrum area of human ECG signal can reflect the self-discipline control function of human autonomic nervous system to some degree. When people are getting unhealthy and older, the self-discipline function weakens. It tends to turn from multifractality to monofractality.",
+    "abstract_zh": "在本文中，我们定义并研究了取自不同年龄阶段的健康和患病人类受试者的 12 导联心电图信号的多重分形奇点谱面积 lnsf(α)。单向方差分析表明，使用该指标可以在统计上区分所有人群。结果表明，12导联心电图信号的lnsf(a)算术平均值对于健康年轻人来说明显较大，而对于心脏病患者来说则较小。而12导联心电图信号中lnsf(a)的离散度对于患病者来说明显较小，而对于健康人来说则较大。我们还认为，人体心电信号奇点频谱区域的12导联平均值可以反映...",
+    "abstract_source": "openalex_doi",
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 19/1551-19）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_27342c2bd268_c57049ad3e01f12e",
+    "global_record_id": "abeebbc8ede2ed1d",
+    "scholar_id": "panorama_27342c2bd268",
+    "scholar_name": "杨小冬",
+    "scholar_ids": [
+      "panorama_27342c2bd268"
+    ],
+    "scholar_names": [
+      "杨小冬"
+    ],
+    "source_record_ids": [
+      "panorama_27342c2bd268_c57049ad3e01f12e"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_27342c2bd268": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "杨小冬",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "杨小冬：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Resource-exchange based cooperation stimulating mechanism for wireless ad hoc networks",
+    "title_en": "Resource-exchange based cooperation stimulating mechanism for wireless ad hoc networks",
+    "title_zh": "基于资源交换的无线自组织网络合作激励机制",
+    "year": 2012,
+    "venue": "ICC",
+    "authors": [
+      "Guopeng Zhang",
+      "Kun Yang",
+      "Peng Liu",
+      "Xiaodong Yang",
+      "Enjie Ding"
+    ],
+    "doi": "10.1109/ICC.2012.6363706",
+    "dblp_key": "conf/icc/ZhangYLYD12",
+    "paper_url": "https://doi.org/10.1109/ICC.2012.6363706",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/conf/icc/ZhangYLYD12.html",
+    "openalex_id": "https://openalex.org/W2091690280",
+    "openalex_author_id": "",
+    "cited_by_count": 0,
+    "abstract_en": "In this paper, a multi-user cooperative game is proposed to stimulate selfish user nodes to participate in cooperative relaying in wireless ad hoc networks. Without using the traditional reputation-mechanisms or pricing-mechanisms, we resort to the resource-exchange mechanism by assuming a source node could reward the relaying nodes by, in return, forwarding data that are originated from these relaying nodes. Then the cooperation stimulating problem can be formulated as a multi-player cooperative bargaining game. We prove that there exists a unique Nash bargaining solution (NBS) of the game and propose a fast Particle Swarm Optimizer (PSO) algorithm to solve the NBS. Simulation results show that the NBS-based incentive strategy achieves social optimality, i.e., all cooperative nodes could achieve significant rate-gains in comparison with direct transmission. Moreover, the relaying nodes could also get fairness rewards by the source node according to the level of contribution that they have made to improve the performance of the source node.",
+    "abstract_zh": "本文提出了一种多用户合作博弈来刺激自私用户节点参与无线自组织网络中的合作中继。在不使用传统的信誉机制或定价机制的情况下，我们通过假设源节点可以通过转发源自这些中继节点的数据来奖励中继节点，从而诉诸资源交换机制。那么合作刺激问题可以表述为多人合作讨价还价博弈。我们证明了博弈存在唯一的纳什讨价还价解（NBS），并提出了一种快速粒子群优化器（PSO）算法来求解NBS。仿真结果表明，基于NBS的激励策略实现了社会...",
+    "abstract_source": "openalex_doi",
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 19/1551-19）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_27342c2bd268_51140a78912e6138",
+    "global_record_id": "80b796f6ee1138bb",
+    "scholar_id": "panorama_27342c2bd268",
+    "scholar_name": "杨小冬",
+    "scholar_ids": [
+      "panorama_27342c2bd268"
+    ],
+    "scholar_names": [
+      "杨小冬"
+    ],
+    "source_record_ids": [
+      "panorama_27342c2bd268_51140a78912e6138"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_27342c2bd268": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "杨小冬",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "杨小冬：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Fair and Efficient Resource Sharing for Selfish Cooperative Communication Networks Using Cooperative Game Theory",
+    "title_en": "Fair and Efficient Resource Sharing for Selfish Cooperative Communication Networks Using Cooperative Game Theory",
+    "title_zh": "利用合作博弈论实现自私合作通信网络公平高效的资源共享",
+    "year": 2011,
+    "venue": "ICC",
+    "authors": [
+      "Guopeng Zhang",
+      "Li Cong",
+      "Enjie Ding",
+      "Kun Yang",
+      "Xiaodong Yang"
+    ],
+    "doi": "10.1109/ICC.2011.5962621",
+    "dblp_key": "conf/icc/ZhangCDYY11",
+    "paper_url": "https://doi.org/10.1109/ICC.2011.5962621",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/conf/icc/ZhangCDYY11.html",
+    "openalex_id": "https://openalex.org/W2110230586",
+    "openalex_author_id": "",
+    "cited_by_count": 0,
+    "abstract_en": "In this paper, a cooperative game is proposed to perform a fair and efficient resource allocation for the time division multiple access (TDMA) based cooperative communication networks. In the considered system, two selfish user nodes can act as a source as well as a potential relay for each other. A transmission node with energy limitation is willing to seek cooperative relaying only if the data-rate achieved through cooperation is not lower than that achieved without cooperation by consuming the same amount of energy. The cooperative strategy of a node can be defined as the number of data-symbols and power that it is willing to contribute for relaying purpose. We formulate this two-node fair and efficient resource sharing problem as a bargaining game. Since the Nash bargaining solution (NBS) to the game is computationally complex to obtain, a low-complexity algorithm to search the suboptimal NBS is proposed. Simulation results show that the NBS results are fair in that both nodes could experience better performance than if they work independently. And the NBS results are efficient in that the performance loss of the game to that of the maximal overall rate scheme is small while the maximal-rate scheme is unfair.",
+    "abstract_zh": "本文提出了一种合作博弈，为基于时分多址（TDMA）的合作通信网络执行公平有效的资源分配。在所考虑的系统中，两个自私的用户节点可以充当彼此的源以及潜在的中继。仅当通过协作实现的数据速率不低于不通过消耗相同量的能量而实现的数据速率时，具有能量限制的传输节点才愿意寻求协作中继。节点的协作策略可以定义为它愿意为中继目的贡献的数据符号和功率的数量。我们将这个两节点公平高效的资源共享问题表述为一个驳斥......",
+    "abstract_source": "openalex_doi",
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 19/1551-19）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_27342c2bd268_e96c42072afb8966",
+    "global_record_id": "c81fc16a9fe267fc",
+    "scholar_id": "panorama_27342c2bd268",
+    "scholar_name": "杨小冬",
+    "scholar_ids": [
+      "panorama_27342c2bd268"
+    ],
+    "scholar_names": [
+      "杨小冬"
+    ],
+    "source_record_ids": [
+      "panorama_27342c2bd268_e96c42072afb8966"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_27342c2bd268": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "杨小冬",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "杨小冬：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Accounting for the Effect of Internal Viscosity in Dumbbell Models for Polymeric Fluids and Relaxation of DNA",
+    "title_en": "Accounting for the Effect of Internal Viscosity in Dumbbell Models for Polymeric Fluids and Relaxation of DNA",
+    "title_zh": "考虑聚合物流体哑铃模型中内粘度的影响和 DNA 松弛",
+    "year": 2007,
+    "venue": "Scholars Commons (Wilfrid Laurier University)",
+    "authors": [
+      "Xiaodong Yang",
+      "Roderick Melnik"
+    ],
+    "doi": "10.3934/proc.2007.2007.1052",
+    "dblp_key": "",
+    "paper_url": "http://scholars.wlu.ca/math_faculty/32",
+    "pdf_url": "http://scholars.wlu.ca/math_faculty/32",
+    "source_url": "https://openalex.org/W1558420951",
+    "openalex_id": "https://openalex.org/W1558420951",
+    "openalex_author_id": "https://openalex.org/A5100604864",
+    "cited_by_count": 1,
+    "abstract_en": "Abstract. The coarse-graining approach is one of the most important modeling methods in research of long-chain polymers such as DNA molecules. The dumbbell model is a simple but efficient way to describe the behavior of polymers in solutions. In this paper, the dumbbell model with internal viscosity (IV) for concentrated polymeric liquids is analyzed for the steady-state and time-dependent elongational flow and steady-state shear flow. In the elongational flow case, by analyzing the governing ordinary differential equations the contribution of the IV to the stress tensor is discussed for fluids subjected to a sudden elongational jerk. In the shear flow case, the governing stochastic differential equation of the finitely extensible nonlinear elastic dumbbell model is solved numerically. For this case, the extensions of DNA molecules for different shear rates are analyzed, and the comparison with the experimental data is carried out to estimate the contribution of the effect of internal viscosity. 1. Introduction. Modeling",
+    "abstract_zh": "摘要。粗粒度方法是 DNA 分子等长链聚合物研究中最重要的建模方法之一。哑铃模型是描述溶液中聚合物行为的简单而有效的方法。在本文中，对浓聚合物液体的具有内粘度（IV）的哑铃模型进行了稳态和时间依赖性拉伸流动和稳态剪切流动的分析。在伸长流动情况下，通过分析控制常微分方程，讨论了流体遭受突然伸长冲击时 IV 对应力张量的贡献。在剪切流情况下，有限可扩展非线性的控制随机微分方程......",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100604864）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_27342c2bd268_f1713bf8d8bbf49e",
+    "global_record_id": "e357451eeec89e20",
+    "scholar_id": "panorama_27342c2bd268",
+    "scholar_name": "杨小冬",
+    "scholar_ids": [
+      "panorama_27342c2bd268"
+    ],
+    "scholar_names": [
+      "杨小冬"
+    ],
+    "source_record_ids": [
+      "panorama_27342c2bd268_f1713bf8d8bbf49e"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_27342c2bd268": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "杨小冬",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "杨小冬：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Multifractal Analysis of Epilepsy in Electroencephalogram. 2007 IEEE/ICME International Conference on Complex Medical Engineering",
+    "title_en": "Multifractal Analysis of Epilepsy in Electroencephalogram. 2007 IEEE/ICME International Conference on Complex Medical Engineering",
+    "title_zh": "脑电图中癫痫的多重分形分析。 2007年IEEE/ICME复杂医学工程国际会议",
+    "year": 2007,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "杨小冬"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_27342c2bd268_d2353cf5df64",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_27342c2bd268",
+    "scholar_name": "杨小冬",
+    "work_title_group": "709268da5acc",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_27342c2bd268"
+    ],
+    "scholar_names": [
+      "杨小冬"
+    ],
+    "source_record_ids": [
+      "panorama_27342c2bd268_d2353cf5df64"
+    ],
+    "scholar_categories": {
+      "panorama_27342c2bd268": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "杨小冬",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "e76e57e602d9f124",
+    "primary_categories_by_scholar": [
+      "杨小冬：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Phase Synchronization in Sleep Electroencephalogram. 2007 IEEE/ICME International Conference on Complex Medical Engineering",
+    "title_en": "Phase Synchronization in Sleep Electroencephalogram. 2007 IEEE/ICME International Conference on Complex Medical Engineering",
+    "title_zh": "睡眠脑电图中的相位同步。 2007年IEEE/ICME复杂医学工程国际会议",
+    "year": 2007,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "杨小冬"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_27342c2bd268_94b884bb501d",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_27342c2bd268",
+    "scholar_name": "杨小冬",
+    "work_title_group": "d2df4b7e84c2",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_27342c2bd268"
+    ],
+    "scholar_names": [
+      "杨小冬"
+    ],
+    "source_record_ids": [
+      "panorama_27342c2bd268_94b884bb501d"
+    ],
+    "scholar_categories": {
+      "panorama_27342c2bd268": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "杨小冬",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "7b0179d8a2c33756",
+    "primary_categories_by_scholar": [
+      "杨小冬：情感脑电与多模态生理信号"
+    ]
+  }
+]

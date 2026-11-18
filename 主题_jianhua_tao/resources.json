@@ -12,8 +12,7 @@
     "related_paper_titles": [],
     "evidence_urls": [
       "https://aclanthology.org/people/jianhua-tao/",
-      "https://www.au.tsinghua.edu.cn/info/1080/3219.htm",
-      "https://aclanthology.org/people/jianhua-tao/"
+      "https://www.au.tsinghua.edu.cn/info/1080/3219.htm"
     ],
     "verification": "候选来源；未执行下载或训练",
     "notes": "需核对身份归属和许可证",
@@ -43,7 +42,6 @@
     "related_paper_titles": [],
     "evidence_urls": [
       "https://www.au.tsinghua.edu.cn/info/1080/3219.htm",
-      "https://www.au.tsinghua.edu.cn/info/1080/3219.htm",
       "https://aclanthology.org/people/jianhua-tao/"
     ],
     "verification": "候选来源；未执行下载或训练",
@@ -60,5 +58,681 @@
     "unmatched_titles": [],
     "scholar_category_ids": [],
     "primary_categories": []
+  },
+  {
+    "id": "jianhua_tao__auto_code_15a1f451f8",
+    "name": "AffectGPT-RL: Revealing Roles of Reinforcement Learning in Open-Vocabulary Emotion Recognition — 开源代码 (zeroQiaoba/AffectGPT)",
+    "name_zh": "AffectGPT-RL：揭示强化学习在开放词汇情绪识别中的作用 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/zeroQiaoba/AffectGPT",
+    "download_url": "https://github.com/zeroQiaoba/AffectGPT",
+    "access": "public",
+    "related_paper_titles": [
+      "AffectGPT-RL: Revealing Roles of Reinforcement Learning in Open-Vocabulary Emotion Recognition",
+      "AffectGPT: A New Dataset, Model, and Benchmark for Emotion Understanding with Multimodal Large Language Models",
+      "AffectGPT: Dataset and Framework for Explainable Multimodal Emotion Recognition",
+      "OV-MER: Towards Open-Vocabulary Multimodal Emotion Recognition"
+    ],
+    "related_paper_titles_zh": [
+      "AffectGPT-RL：揭示强化学习在开放词汇情绪识别中的作用"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/zeroQiaoba/AffectGPT",
+      "https://arxiv.org/abs/2605.06126v2",
+      "https://doi.org/10.48550/ARXIV.2605.06126"
+    ],
+    "description": "从论文《AffectGPT-RL: Revealing Roles of Reinforcement Learning in Open-Vocabulary Emotion Recognition》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "jianhua_tao",
+    "scholar_name": "陶建华",
+    "matched_paper_ids": [
+      "jianhua_tao_014c0124ad2d",
+      "licai_sun_9d098495a468",
+      "licai_sun_137f6c565fca",
+      "licai_sun_bb800715a844"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "jianhua_tao::eeg_affect",
+      "zheng_lian::eeg_affect",
+      "panorama_e298ea16b5bc::emotion_understanding",
+      "licai_sun::emotion_benchmark",
+      "zheng_lian::eeg_benchmark",
+      "jianhua_tao::eeg_benchmark",
+      "panorama_e298ea16b5bc::emotion_benchmark",
+      "licai_sun::emotion_understanding",
+      "panorama_ya_li::eeg_affect"
+    ],
+    "primary_categories": [
+      "陶建华：情感脑电与多模态生理信号",
+      "连政：情感脑电与多模态生理信号",
+      "刘瑞：情感理解与多模态推理",
+      "孙立才：情感数据集、基准与评测",
+      "连政：脑电基准、数据与评测",
+      "陶建华：脑电基准、数据与评测",
+      "刘瑞：情感数据集、基准与评测",
+      "孙立才：情感理解与多模态推理",
+      "李雅：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "jianhua_tao__auto_code_1018456d40",
+    "name": "DashFusion: Dual-Stream Alignment With Hierarchical Bottleneck Fusion for Multimodal Sentiment Analysis — 开源代码 (ultramarineX/DashFusion)",
+    "name_zh": "DashFusion：双流对齐用于多模态情感分析的分层瓶颈融合 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/ultramarineX/DashFusion",
+    "download_url": "https://github.com/ultramarineX/DashFusion",
+    "access": "public",
+    "related_paper_titles": [
+      "DashFusion: Dual-Stream Alignment With Hierarchical Bottleneck Fusion for Multimodal Sentiment Analysis"
+    ],
+    "related_paper_titles_zh": [
+      "DashFusion：双流对齐用于多模态情感分析的分层瓶颈融合"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/ultramarineX/DashFusion",
+      "https://doi.org/10.1109/tnnls.2025.3578618"
+    ],
+    "description": "从论文《DashFusion: Dual-Stream Alignment With Hierarchical Bottleneck Fusion for Multimodal Sentiment Analysis》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "jianhua_tao",
+    "scholar_name": "陶建华",
+    "matched_paper_ids": [
+      "jianhua_tao_80cd50f6ed03"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "jianhua_tao::eeg_affect",
+      "panorama_ya_li::eeg_affect"
+    ],
+    "primary_categories": [
+      "陶建华：情感脑电与多模态生理信号",
+      "李雅：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "jianhua_tao__auto_code_68d03ad873",
+    "name": "Fewer-Token Neural Speech Codec with Time-Invariant Codes — 开源代码 (y-ren16/TiCodec)",
+    "name_zh": "具有时不变代码的更少令牌神经语音编解码器 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/y-ren16/TiCodec",
+    "download_url": "https://github.com/y-ren16/TiCodec",
+    "access": "public",
+    "related_paper_titles": [
+      "Fewer-Token Neural Speech Codec with Time-Invariant Codes"
+    ],
+    "related_paper_titles_zh": [
+      "具有时不变代码的更少令牌神经语音编解码器"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/y-ren16/TiCodec",
+      "https://doi.org/10.1109/icassp48485.2024.10448454"
+    ],
+    "description": "从论文《Fewer-Token Neural Speech Codec with Time-Invariant Codes》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "jianhua_tao",
+    "scholar_name": "陶建华",
+    "matched_paper_ids": [
+      "jianhua_tao_c1efc7fb3797"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "jianhua_tao::eeg_affect"
+    ],
+    "primary_categories": [
+      "陶建华：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "jianhua_tao__auto_code_f04d7715fe",
+    "name": "Multi-Scale Permutation Entropy for Audio Deepfake Detection — 开源代码 (ADDchallenge/MPE-for-audio-deepfake-detection)",
+    "name_zh": "用于音频 Deepfake 检测的多尺度排列熵 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/ADDchallenge/MPE-for-audio-deepfake-detection",
+    "download_url": "https://github.com/ADDchallenge/MPE-for-audio-deepfake-detection",
+    "access": "public",
+    "related_paper_titles": [
+      "Multi-Scale Permutation Entropy for Audio Deepfake Detection"
+    ],
+    "related_paper_titles_zh": [
+      "用于音频 Deepfake 检测的多尺度排列熵"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/ADDchallenge/MPE-for-audio-deepfake-detection",
+      "https://doi.org/10.1109/icassp48485.2024.10448095"
+    ],
+    "description": "从论文《Multi-Scale Permutation Entropy for Audio Deepfake Detection》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "jianhua_tao",
+    "scholar_name": "陶建华",
+    "matched_paper_ids": [
+      "jianhua_tao_817591ce85d2"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "jianhua_tao::eeg_affect"
+    ],
+    "primary_categories": [
+      "陶建华：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "jianhua_tao__auto_code_ac1edb4247",
+    "name": "Dual-Branch Knowledge Distillation for Noise-Robust Synthetic Speech Detection — 开源代码 (fchest/DKDSSD)",
+    "name_zh": "用于噪声鲁棒合成语音检测的双分支知识蒸馏 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/fchest/DKDSSD",
+    "download_url": "https://github.com/fchest/DKDSSD",
+    "access": "public",
+    "related_paper_titles": [
+      "Dual-Branch Knowledge Distillation for Noise-Robust Synthetic Speech Detection",
+      "Learning to Behave Like Clean Speech: Dual-Branch Knowledge Distillation for Noise-Robust Fake Audio Detection"
+    ],
+    "related_paper_titles_zh": [
+      "用于噪声鲁棒合成语音检测的双分支知识蒸馏"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/fchest/DKDSSD",
+      "https://doi.org/10.1109/taslp.2024.3389643"
+    ],
+    "description": "从论文《Dual-Branch Knowledge Distillation for Noise-Robust Synthetic Speech Detection》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "jianhua_tao",
+    "scholar_name": "陶建华",
+    "matched_paper_ids": [
+      "jianhua_tao_9945870e7534",
+      "jianhua_tao_0834f9a94ef7fddc"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "jianhua_tao::eeg_affect",
+      "jianhua_tao::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "陶建华：情感脑电与多模态生理信号",
+      "陶建华：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "jianhua_tao__auto_code_1ffb059ed3",
+    "name": "DARNet: Dual Attention Refinement Network with Spatiotemporal Construction for Auditory Attention Detection — 开源代码 (fchest/DARNet)",
+    "name_zh": "DARNet：用于听觉注意力检测的具有时空结构的双重注意力细化网络 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/fchest/DARNet",
+    "download_url": "https://github.com/fchest/DARNet",
+    "access": "public",
+    "related_paper_titles": [
+      "DARNet: Dual Attention Refinement Network with Spatiotemporal Construction for Auditory Attention Detection"
+    ],
+    "related_paper_titles_zh": [
+      "DARNet：用于听觉注意力检测的具有时空结构的双重注意力细化网络"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/fchest/DARNet",
+      "https://doi.org/10.52202/079017-0995"
+    ],
+    "description": "从论文《DARNet: Dual Attention Refinement Network with Spatiotemporal Construction for Auditory Attention Detection》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "jianhua_tao",
+    "scholar_name": "陶建华",
+    "matched_paper_ids": [
+      "jianhua_tao_c57952ed2473"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "jianhua_tao::eeg_affect"
+    ],
+    "primary_categories": [
+      "陶建华：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "jianhua_tao__auto_dataset_b1a3c93af8",
+    "name": "SceneFake: An initial dataset and benchmarks for scene fake audio detection — 开源数据集 (record/7663324)",
+    "name_zh": "SceneFake：场景假音频检测的初始数据集和基准 — 开源数据集",
+    "type": "dataset",
+    "url": "https://zenodo.org/record/7663324",
+    "download_url": "https://zenodo.org/record/7663324",
+    "access": "public",
+    "related_paper_titles": [
+      "SceneFake: An initial dataset and benchmarks for scene fake audio detection"
+    ],
+    "related_paper_titles_zh": [
+      "SceneFake：场景假音频检测的初始数据集和基准"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://zenodo.org/record/7663324",
+      "https://doi.org/10.1016/j.patcog.2024.110468"
+    ],
+    "description": "从论文《SceneFake: An initial dataset and benchmarks for scene fake audio detection》原始摘要/预印本说明自动提取并核验的公开 dataset 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "jianhua_tao",
+    "scholar_name": "陶建华",
+    "matched_paper_ids": [
+      "jianhua_tao_1b96b6cbc815"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "jianhua_tao::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "陶建华：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "jianhua_tao__auto_code_0e8ff60434",
+    "name": "SceneFake: An initial dataset and benchmarks for scene fake audio detection — 开源代码 (ADDchallenge/SceneFake)",
+    "name_zh": "SceneFake：场景假音频检测的初始数据集和基准 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/ADDchallenge/SceneFake",
+    "download_url": "https://github.com/ADDchallenge/SceneFake",
+    "access": "public",
+    "related_paper_titles": [
+      "SceneFake: An initial dataset and benchmarks for scene fake audio detection"
+    ],
+    "related_paper_titles_zh": [
+      "SceneFake：场景假音频检测的初始数据集和基准"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/ADDchallenge/SceneFake",
+      "https://doi.org/10.1016/j.patcog.2024.110468"
+    ],
+    "description": "从论文《SceneFake: An initial dataset and benchmarks for scene fake audio detection》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "jianhua_tao",
+    "scholar_name": "陶建华",
+    "matched_paper_ids": [
+      "jianhua_tao_1b96b6cbc815"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "jianhua_tao::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "陶建华：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "jianhua_tao__auto_code_6f9535a199",
+    "name": "TraceableSpeech: Towards Proactively Traceable Text-to-Speech with Watermarking — 开源代码 (zjzser/TraceableSpeech)",
+    "name_zh": "TraceableSpeech：通过水印实现主动可追踪的文本到语音 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/zjzser/TraceableSpeech",
+    "download_url": "https://github.com/zjzser/TraceableSpeech",
+    "access": "public",
+    "related_paper_titles": [
+      "TraceableSpeech: Towards Proactively Traceable Text-to-Speech with Watermarking"
+    ],
+    "related_paper_titles_zh": [
+      "TraceableSpeech：通过水印实现主动可追踪的文本到语音"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/zjzser/TraceableSpeech",
+      "https://doi.org/10.21437/interspeech.2024-534"
+    ],
+    "description": "从论文《TraceableSpeech: Towards Proactively Traceable Text-to-Speech with Watermarking》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "jianhua_tao",
+    "scholar_name": "陶建华",
+    "matched_paper_ids": [
+      "jianhua_tao_7f41e05a1bad"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "jianhua_tao::eeg_affect"
+    ],
+    "primary_categories": [
+      "陶建华：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "jianhua_tao__auto_dataset_ad113fd9fb",
+    "name": "Half-Truth: A Partially Fake Audio Detection Dataset — 开源数据集 (records/10377492)",
+    "name_zh": "半真半假：部分虚假的音频检测数据集 — 开源数据集",
+    "type": "dataset",
+    "url": "https://zenodo.org/records/10377492",
+    "download_url": "https://zenodo.org/records/10377492",
+    "access": "public",
+    "related_paper_titles": [
+      "Half-Truth: A Partially Fake Audio Detection Dataset"
+    ],
+    "related_paper_titles_zh": [
+      "半真半假：部分虚假的音频检测数据集"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://zenodo.org/records/10377492",
+      "https://doi.org/10.21437/interspeech.2021-930"
+    ],
+    "description": "从论文《Half-Truth: A Partially Fake Audio Detection Dataset》原始摘要/预印本说明自动提取并核验的公开 dataset 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "jianhua_tao",
+    "scholar_name": "陶建华",
+    "matched_paper_ids": [
+      "jianhua_tao_a3e7a17ffe74"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "jianhua_tao::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "陶建华：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "jianhua_tao__auto_code_2d7ea86ae4",
+    "name": "MSSG: Multi-Scale Speaker Graph Network for Active Speaker Detection — 开源代码 (sdqdlgj/MSSG)",
+    "name_zh": "MSSG: Multi-Scale Speaker Graph Network for Active Speaker Detection — 开源代码",
+    "type": "code",
+    "url": "https://github.com/sdqdlgj/MSSG",
+    "download_url": "https://github.com/sdqdlgj/MSSG",
+    "access": "public",
+    "related_paper_titles": [
+      "MSSG: Multi-Scale Speaker Graph Network for Active Speaker Detection"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/sdqdlgj/MSSG",
+      "https://doi.org/10.1109/TMM.2025.3608949"
+    ],
+    "description": "从论文《MSSG: Multi-Scale Speaker Graph Network for Active Speaker Detection》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "jianhua_tao",
+    "scholar_name": "陶建华",
+    "matched_paper_ids": [
+      "jianhua_tao_4db311013d5d7378"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "jianhua_tao::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "陶建华：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "jianhua_tao__auto_code_e917e969e6",
+    "name": "Realizing Immersive Volumetric Video: A Multimodal Framework for 6-DoF VR Engagement — 开源代码 (Metaverse-AI-Lab-THU/ImViD)",
+    "name_zh": "Realizing Immersive Volumetric Video: A Multimodal Framework for 6-DoF VR Engagement — 开源代码",
+    "type": "code",
+    "url": "https://github.com/Metaverse-AI-Lab-THU/ImViD",
+    "download_url": "https://github.com/Metaverse-AI-Lab-THU/ImViD",
+    "access": "public",
+    "related_paper_titles": [
+      "Realizing Immersive Volumetric Video: A Multimodal Framework for 6-DoF VR Engagement"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/Metaverse-AI-Lab-THU/ImViD",
+      "https://doi.org/10.48550/ARXIV.2604.09473"
+    ],
+    "description": "从论文《Realizing Immersive Volumetric Video: A Multimodal Framework for 6-DoF VR Engagement》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "jianhua_tao",
+    "scholar_name": "陶建华",
+    "matched_paper_ids": [
+      "jianhua_tao_16707d963047d4ce"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "jianhua_tao::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "陶建华：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "jianhua_tao__auto_code_41624776df",
+    "name": "Spark: Strategic Policy-Aware Exploration via Dynamic Branching for Long-Horizon Agentic Learning — 开源代码 (jinyangwu/SPARK)",
+    "name_zh": "Spark: Strategic Policy-Aware Exploration via Dynamic Branching for Long-Horizon Agentic Learning — 开源代码",
+    "type": "code",
+    "url": "https://github.com/jinyangwu/SPARK",
+    "download_url": "https://github.com/jinyangwu/SPARK",
+    "access": "public",
+    "related_paper_titles": [
+      "Spark: Strategic Policy-Aware Exploration via Dynamic Branching for Long-Horizon Agentic Learning"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/jinyangwu/SPARK",
+      "https://doi.org/10.48550/ARXIV.2601.20209"
+    ],
+    "description": "从论文《Spark: Strategic Policy-Aware Exploration via Dynamic Branching for Long-Horizon Agentic Learning》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "jianhua_tao",
+    "scholar_name": "陶建华",
+    "matched_paper_ids": [
+      "jianhua_tao_ea2ab65c4a59248a"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "jianhua_tao::eeg_foundation"
+    ],
+    "primary_categories": [
+      "陶建华：脑电基础模型与通用解码"
+    ]
+  },
+  {
+    "id": "jianhua_tao__auto_code_c32cf3ee3d",
+    "name": "ELDeR: Getting Efficient LLMs through Data-Driven Regularized Layer-wise Pruning — 开源代码 (fmk345/TRSP)",
+    "name_zh": "ELDeR: Getting Efficient LLMs through Data-Driven Regularized Layer-wise Pruning — 开源代码",
+    "type": "code",
+    "url": "https://github.com/fmk345/TRSP",
+    "download_url": "https://github.com/fmk345/TRSP",
+    "access": "public",
+    "related_paper_titles": [
+      "ELDeR: Getting Efficient LLMs through Data-Driven Regularized Layer-wise Pruning"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/fmk345/TRSP",
+      "https://doi.org/10.48550/ARXIV.2505.18232"
+    ],
+    "description": "从论文《ELDeR: Getting Efficient LLMs through Data-Driven Regularized Layer-wise Pruning》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "jianhua_tao",
+    "scholar_name": "陶建华",
+    "matched_paper_ids": [
+      "jianhua_tao_3b1cc8c2cffba095"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "jianhua_tao::eeg_foundation"
+    ],
+    "primary_categories": [
+      "陶建华：脑电基础模型与通用解码"
+    ]
+  },
+  {
+    "id": "jianhua_tao__auto_code_e8a7ddf747",
+    "name": "Beyond Examples: High-level Automated Reasoning Paradigm in In-Context Learning via MCTS — 开源代码 (jinyangwu/HiARICL)",
+    "name_zh": "Beyond Examples: High-level Automated Reasoning Paradigm in In-Context Learning via MCTS — 开源代码",
+    "type": "code",
+    "url": "https://github.com/jinyangwu/HiARICL",
+    "download_url": "https://github.com/jinyangwu/HiARICL",
+    "access": "public",
+    "related_paper_titles": [
+      "Beyond Examples: High-level Automated Reasoning Paradigm in In-Context Learning via MCTS"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/jinyangwu/HiARICL",
+      "https://doi.org/10.48550/ARXIV.2411.18478"
+    ],
+    "description": "从论文《Beyond Examples: High-level Automated Reasoning Paradigm in In-Context Learning via MCTS》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "jianhua_tao",
+    "scholar_name": "陶建华",
+    "matched_paper_ids": [
+      "jianhua_tao_4a956ea8c7ff4e5f"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "jianhua_tao::eeg_foundation"
+    ],
+    "primary_categories": [
+      "陶建华：脑电基础模型与通用解码"
+    ]
+  },
+  {
+    "id": "jianhua_tao__auto_code_0ecab9e981",
+    "name": "MINT: a Multi-modal Image and Narrative Text Dubbing Dataset for Foley Audio Content Planning and Generation — 开源代码 (borisfrb/MINT)",
+    "name_zh": "MINT: a Multi-modal Image and Narrative Text Dubbing Dataset for Foley Audio Content Planning and Generation — 开源代码",
+    "type": "code",
+    "url": "https://github.com/borisfrb/MINT",
+    "download_url": "https://github.com/borisfrb/MINT",
+    "access": "public",
+    "related_paper_titles": [
+      "MINT: a Multi-modal Image and Narrative Text Dubbing Dataset for Foley Audio Content Planning and Generation"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/borisfrb/MINT",
+      "https://doi.org/10.48550/ARXIV.2406.10591"
+    ],
+    "description": "从论文《MINT: a Multi-modal Image and Narrative Text Dubbing Dataset for Foley Audio Content Planning and Generation》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "jianhua_tao",
+    "scholar_name": "陶建华",
+    "matched_paper_ids": [
+      "jianhua_tao_71ac6249972d2743"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "jianhua_tao::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "陶建华：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "jianhua_tao__auto_code_71fcedfb58",
+    "name": "RawBMamba: End-to-End Bidirectional State Space Model for Audio Deepfake Detection — 开源代码 (cyjie429/RawBMamba)",
+    "name_zh": "RawBMamba: End-to-End Bidirectional State Space Model for Audio Deepfake Detection — 开源代码",
+    "type": "code",
+    "url": "https://github.com/cyjie429/RawBMamba",
+    "download_url": "https://github.com/cyjie429/RawBMamba",
+    "access": "public",
+    "related_paper_titles": [
+      "RawBMamba: End-to-End Bidirectional State Space Model for Audio Deepfake Detection"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/cyjie429/RawBMamba",
+      "https://doi.org/10.21437/INTERSPEECH.2024-698"
+    ],
+    "description": "从论文《RawBMamba: End-to-End Bidirectional State Space Model for Audio Deepfake Detection》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "jianhua_tao",
+    "scholar_name": "陶建华",
+    "matched_paper_ids": [
+      "jianhua_tao_a976342d35bcca83"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "jianhua_tao::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "陶建华：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "jianhua_tao__auto_dataset_44b3267516",
+    "name": "System Fingerprints Detection for DeepFake Audio: An Initial Dataset and Investigation — 开源数据集 (records/13318702)",
+    "name_zh": "System Fingerprints Detection for DeepFake Audio: An Initial Dataset and Investigation — 开源数据集",
+    "type": "dataset",
+    "url": "https://zenodo.org/records/13318702",
+    "download_url": "https://zenodo.org/records/13318702",
+    "access": "public",
+    "related_paper_titles": [
+      "System Fingerprints Detection for DeepFake Audio: An Initial Dataset and Investigation"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://zenodo.org/records/13318702",
+      "https://doi.org/10.48550/ARXIV.2208.10489"
+    ],
+    "description": "从论文《System Fingerprints Detection for DeepFake Audio: An Initial Dataset and Investigation》原始摘要/预印本说明自动提取并核验的公开 dataset 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "jianhua_tao",
+    "scholar_name": "陶建华",
+    "matched_paper_ids": [
+      "jianhua_tao_64d8691fdf93ff97"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "jianhua_tao::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "陶建华：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "jianhua_tao__auto_dataset_44319ab269",
+    "name": "System Fingerprints Detection for DeepFake Audio: An Initial Dataset and Investigation — 开源数据集 (records/13340666)",
+    "name_zh": "System Fingerprints Detection for DeepFake Audio: An Initial Dataset and Investigation — 开源数据集",
+    "type": "dataset",
+    "url": "https://zenodo.org/records/13340666",
+    "download_url": "https://zenodo.org/records/13340666",
+    "access": "public",
+    "related_paper_titles": [
+      "System Fingerprints Detection for DeepFake Audio: An Initial Dataset and Investigation"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://zenodo.org/records/13340666",
+      "https://doi.org/10.48550/ARXIV.2208.10489"
+    ],
+    "description": "从论文《System Fingerprints Detection for DeepFake Audio: An Initial Dataset and Investigation》原始摘要/预印本说明自动提取并核验的公开 dataset 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "jianhua_tao",
+    "scholar_name": "陶建华",
+    "matched_paper_ids": [
+      "jianhua_tao_64d8691fdf93ff97"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "jianhua_tao::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "陶建华：脑电基准、数据与评测"
+    ]
   }
 ]

@@ -12,7 +12,6 @@
     "related_paper_titles": [],
     "evidence_urls": [
       "https://cnbi.fudan.edu.cn/info/1004/1004.htm",
-      "https://cnbi.fudan.edu.cn/info/1004/1004.htm",
       "https://www.dcs.warwick.ac.uk/~feng/Full_publications.pdf",
       "https://www.clarehall.cam.ac.uk/directory/jianfeng-feng/"
     ],
@@ -46,7 +45,6 @@
     "evidence_urls": [
       "https://www.dcs.warwick.ac.uk/~feng/Full_publications.pdf",
       "https://cnbi.fudan.edu.cn/info/1004/1004.htm",
-      "https://www.dcs.warwick.ac.uk/~feng/Full_publications.pdf",
       "https://www.clarehall.cam.ac.uk/directory/jianfeng-feng/"
     ],
     "verification": "候选来源；未执行下载或训练",
@@ -79,8 +77,7 @@
     "evidence_urls": [
       "https://www.clarehall.cam.ac.uk/directory/jianfeng-feng/",
       "https://cnbi.fudan.edu.cn/info/1004/1004.htm",
-      "https://www.dcs.warwick.ac.uk/~feng/Full_publications.pdf",
-      "https://www.clarehall.cam.ac.uk/directory/jianfeng-feng/"
+      "https://www.dcs.warwick.ac.uk/~feng/Full_publications.pdf"
     ],
     "verification": "候选来源；未执行下载或训练",
     "notes": "需核对身份归属和许可证",
@@ -97,5 +94,514 @@
     "unmatched_titles": [],
     "scholar_category_ids": [],
     "primary_categories": []
+  },
+  {
+    "id": "jianfeng_feng__auto_code_5c4ce9d09f",
+    "name": "Topo-Field: Topometric mapping with Brain-inspired Hierarchical Layout-Object-Position Fields — 开源代码 (fudan-birlab/Topo-Field)",
+    "name_zh": "地形场：利用受大脑启发的分层布局-对象-位置字段进行地形测绘 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/fudan-birlab/Topo-Field",
+    "download_url": "https://github.com/fudan-birlab/Topo-Field",
+    "access": "public",
+    "related_paper_titles": [
+      "Topo-Field: Topometric mapping with Brain-inspired Hierarchical Layout-Object-Position Fields"
+    ],
+    "related_paper_titles_zh": [
+      "地形场：利用受大脑启发的分层布局-对象-位置字段进行地形测绘"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/fudan-birlab/Topo-Field",
+      "https://doi.org/10.1109/LRA.2025.3559836"
+    ],
+    "description": "从论文《Topo-Field: Topometric mapping with Brain-inspired Hierarchical Layout-Object-Position Fields》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "jianfeng_feng",
+    "scholar_name": "冯建峰",
+    "matched_paper_ids": [
+      "jianfeng_feng_19a799cf4181"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "jianfeng_feng::eeg_affect"
+    ],
+    "primary_categories": [
+      "冯建峰：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "jianfeng_feng__auto_dataset_5f72c4538d",
+    "name": "MinD-3D++: Advancing fMRI-Based 3D Reconstruction with High-Quality Textured Mesh Generation and a Comprehensive Dataset — 开源数据集 (Fudan-fMRI/fMRI-Shape)",
+    "name_zh": "MinD-3D++：通过高质量纹理网格生成和全面的数据集推进基于 fMRI 的 3D 重建 — 开源数据集",
+    "type": "dataset",
+    "url": "https://huggingface.co/datasets/Fudan-fMRI/fMRI-Shape",
+    "download_url": "https://huggingface.co/datasets/Fudan-fMRI/fMRI-Shape",
+    "access": "public",
+    "related_paper_titles": [
+      "MinD-3D++: Advancing fMRI-Based 3D Reconstruction with High-Quality Textured Mesh Generation and a Comprehensive Dataset",
+      "fMRI-3D: A Comprehensive Dataset for Enhancing fMRI-based 3D Reconstruction"
+    ],
+    "related_paper_titles_zh": [
+      "MinD-3D++：通过高质量纹理网格生成和全面的数据集推进基于 fMRI 的 3D 重建"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://huggingface.co/datasets/Fudan-fMRI/fMRI-Shape",
+      "https://doi.org/10.1109/TPAMI.2025.3599860"
+    ],
+    "description": "从论文《MinD-3D++: Advancing fMRI-Based 3D Reconstruction with High-Quality Textured Mesh Generation and a Comprehensive Dataset》原始摘要/预印本说明自动提取并核验的公开 dataset 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "jianfeng_feng",
+    "scholar_name": "冯建峰",
+    "matched_paper_ids": [
+      "jianfeng_feng_039b87a9a4b5",
+      "jianfeng_feng_16d9967c5df74517"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "jianfeng_feng::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "冯建峰：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "jianfeng_feng__auto_dataset_258d3ddb23",
+    "name": "MinD-3D++: Advancing fMRI-Based 3D Reconstruction with High-Quality Textured Mesh Generation and a Comprehensive Dataset — 开源数据集 (Fudan-fMRI/fMRI-Objaverse)",
+    "name_zh": "MinD-3D++：通过高质量纹理网格生成和全面的数据集推进基于 fMRI 的 3D 重建 — 开源数据集",
+    "type": "dataset",
+    "url": "https://huggingface.co/datasets/Fudan-fMRI/fMRI-Objaverse",
+    "download_url": "https://huggingface.co/datasets/Fudan-fMRI/fMRI-Objaverse",
+    "access": "public",
+    "related_paper_titles": [
+      "MinD-3D++: Advancing fMRI-Based 3D Reconstruction with High-Quality Textured Mesh Generation and a Comprehensive Dataset",
+      "fMRI-3D: A Comprehensive Dataset for Enhancing fMRI-based 3D Reconstruction"
+    ],
+    "related_paper_titles_zh": [
+      "MinD-3D++：通过高质量纹理网格生成和全面的数据集推进基于 fMRI 的 3D 重建"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://huggingface.co/datasets/Fudan-fMRI/fMRI-Objaverse",
+      "https://doi.org/10.1109/TPAMI.2025.3599860"
+    ],
+    "description": "从论文《MinD-3D++: Advancing fMRI-Based 3D Reconstruction with High-Quality Textured Mesh Generation and a Comprehensive Dataset》原始摘要/预印本说明自动提取并核验的公开 dataset 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "jianfeng_feng",
+    "scholar_name": "冯建峰",
+    "matched_paper_ids": [
+      "jianfeng_feng_039b87a9a4b5",
+      "jianfeng_feng_16d9967c5df74517"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "jianfeng_feng::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "冯建峰：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "jianfeng_feng__auto_code_614085cd57",
+    "name": "SGM3D: Stereo Guided Monocular 3D Object Detection — 开源代码 (zhouzheyuan/sgm3d)",
+    "name_zh": "SGM3D：立体引导单目 3D 物体检测。 IEEE 机器人与自动化快报，7(4):10478-10485 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/zhouzheyuan/sgm3d",
+    "download_url": "https://github.com/zhouzheyuan/sgm3d",
+    "access": "public",
+    "related_paper_titles": [
+      "SGM3D: Stereo Guided Monocular 3D Object Detection"
+    ],
+    "related_paper_titles_zh": [
+      "SGM3D：立体引导单目 3D 物体检测。 IEEE 机器人与自动化快报，7(4):10478-10485"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/zhouzheyuan/sgm3d",
+      "https://doi.org/10.1109/LRA.2022.3191849"
+    ],
+    "description": "从论文《SGM3D: Stereo Guided Monocular 3D Object Detection》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "jianfeng_feng",
+    "scholar_name": "冯建峰",
+    "matched_paper_ids": [
+      "jianfeng_feng_0bf743d42cf9"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "jianfeng_feng::eeg_affect"
+    ],
+    "primary_categories": [
+      "冯建峰：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "jianfeng_feng__auto_code_83c7ae0f10",
+    "name": "A Self-Evolving Agent for Longitudinal Personal Health Management — 开源代码 (HC-Guo/Self-Evolving_HealthJev)",
+    "name_zh": "A Self-Evolving Agent for Longitudinal Personal Health Management — 开源代码",
+    "type": "code",
+    "url": "https://github.com/HC-Guo/Self-Evolving_HealthJev",
+    "download_url": "https://github.com/HC-Guo/Self-Evolving_HealthJev",
+    "access": "public",
+    "related_paper_titles": [
+      "A Self-Evolving Agent for Longitudinal Personal Health Management"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/HC-Guo/Self-Evolving_HealthJev",
+      "https://doi.org/10.48550/ARXIV.2607.13940"
+    ],
+    "description": "从论文《A Self-Evolving Agent for Longitudinal Personal Health Management》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "jianfeng_feng",
+    "scholar_name": "冯建峰",
+    "matched_paper_ids": [
+      "jianfeng_feng_818320b02607b316"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "jianfeng_feng::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "冯建峰：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "jianfeng_feng__auto_code_d9217cbdca",
+    "name": "LLMs as Adaptive Meta-Solvers: Strategy-Diverse RL for Industrial-Scale Optimization — 开源代码 (tokentideAI/LLMMetaSolver)",
+    "name_zh": "LLMs as Adaptive Meta-Solvers: Strategy-Diverse RL for Industrial-Scale Optimization — 开源代码",
+    "type": "code",
+    "url": "https://github.com/tokentideAI/LLMMetaSolver",
+    "download_url": "https://github.com/tokentideAI/LLMMetaSolver",
+    "access": "public",
+    "related_paper_titles": [
+      "LLMs as Adaptive Meta-Solvers: Strategy-Diverse RL for Industrial-Scale Optimization"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/tokentideAI/LLMMetaSolver",
+      "https://doi.org/10.48550/ARXIV.2609.34427"
+    ],
+    "description": "从论文《LLMs as Adaptive Meta-Solvers: Strategy-Diverse RL for Industrial-Scale Optimization》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "jianfeng_feng",
+    "scholar_name": "冯建峰",
+    "matched_paper_ids": [
+      "jianfeng_feng_d63f5e6bda766374"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "jianfeng_feng::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "冯建峰：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "jianfeng_feng__auto_code_4c58518ad8",
+    "name": "Stochastic Forward-Forward Learning through Representational Dimensionality Compression — 开源代码 (ZhichaoZhu/StochasticForwardForward)",
+    "name_zh": "Stochastic Forward-Forward Learning through Representational Dimensionality Compression — 开源代码",
+    "type": "code",
+    "url": "https://github.com/ZhichaoZhu/StochasticForwardForward",
+    "download_url": "https://github.com/ZhichaoZhu/StochasticForwardForward",
+    "access": "public",
+    "related_paper_titles": [
+      "Stochastic Forward-Forward Learning through Representational Dimensionality Compression"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/ZhichaoZhu/StochasticForwardForward",
+      "https://doi.org/10.48550/ARXIV.2505.16649"
+    ],
+    "description": "从论文《Stochastic Forward-Forward Learning through Representational Dimensionality Compression》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "jianfeng_feng",
+    "scholar_name": "冯建峰",
+    "matched_paper_ids": [
+      "jianfeng_feng_1bc412c97f9c61da"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "jianfeng_feng::eeg_foundation"
+    ],
+    "primary_categories": [
+      "冯建峰：脑电基础模型与通用解码"
+    ]
+  },
+  {
+    "id": "jianfeng_feng__auto_code_8169c8bab3",
+    "name": "UL-SLAM: A Universal Monocular Line-Based SLAM Via Unifying Structural and Non-Structural Constraints — 开源代码 (jhch1995/UL-SLAM)",
+    "name_zh": "UL-SLAM: A Universal Monocular Line-Based SLAM Via Unifying Structural and Non-Structural Constraints — 开源代码",
+    "type": "code",
+    "url": "https://github.com/jhch1995/UL-SLAM",
+    "download_url": "https://github.com/jhch1995/UL-SLAM",
+    "access": "public",
+    "related_paper_titles": [
+      "UL-SLAM: A Universal Monocular Line-Based SLAM Via Unifying Structural and Non-Structural Constraints"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/jhch1995/UL-SLAM",
+      "https://doi.org/10.1109/TASE.2024.3382770"
+    ],
+    "description": "从论文《UL-SLAM: A Universal Monocular Line-Based SLAM Via Unifying Structural and Non-Structural Constraints》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "jianfeng_feng",
+    "scholar_name": "冯建峰",
+    "matched_paper_ids": [
+      "jianfeng_feng_b19ee7565649c2c5"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "jianfeng_feng::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "冯建峰：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "jianfeng_feng__auto_code_be9640fd8d",
+    "name": "Efficient Combinatorial Optimization via Heat Diffusion — 开源代码 (AwakerMhy/HeO)",
+    "name_zh": "Efficient Combinatorial Optimization via Heat Diffusion — 开源代码",
+    "type": "code",
+    "url": "https://github.com/AwakerMhy/HeO",
+    "download_url": "https://github.com/AwakerMhy/HeO",
+    "access": "public",
+    "related_paper_titles": [
+      "Efficient Combinatorial Optimization via Heat Diffusion"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/AwakerMhy/HeO",
+      "https://doi.org/10.48550/ARXIV.2403.08757"
+    ],
+    "description": "从论文《Efficient Combinatorial Optimization via Heat Diffusion》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "jianfeng_feng",
+    "scholar_name": "冯建峰",
+    "matched_paper_ids": [
+      "jianfeng_feng_defe1f5e453c1d89"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "jianfeng_feng::eeg_foundation"
+    ],
+    "primary_categories": [
+      "冯建峰：脑电基础模型与通用解码"
+    ]
+  },
+  {
+    "id": "jianfeng_feng__auto_code_e979f3fe19",
+    "name": "Softmax-Free Linear Transformers — 开源代码 (fudan-zvg/SOFT)",
+    "name_zh": "Softmax-Free Linear Transformers — 开源代码",
+    "type": "code",
+    "url": "https://github.com/fudan-zvg/SOFT",
+    "download_url": "https://github.com/fudan-zvg/SOFT",
+    "access": "public",
+    "related_paper_titles": [
+      "Softmax-Free Linear Transformers"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/fudan-zvg/SOFT",
+      "https://doi.org/10.1007/S11263-024-02035-5"
+    ],
+    "description": "从论文《Softmax-Free Linear Transformers》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "jianfeng_feng",
+    "scholar_name": "冯建峰",
+    "matched_paper_ids": [
+      "jianfeng_feng_d420f8bf98d59946"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "jianfeng_feng::eeg_foundation"
+    ],
+    "primary_categories": [
+      "冯建峰：脑电基础模型与通用解码"
+    ]
+  },
+  {
+    "id": "jianfeng_feng__auto_code_460ad0a7f2",
+    "name": "Uncertainty Quantification in Working Memory via Moment Neural Networks — 开源代码 (AwakerMhy/mnn_wm_uq)",
+    "name_zh": "Uncertainty Quantification in Working Memory via Moment Neural Networks — 开源代码",
+    "type": "code",
+    "url": "https://github.com/AwakerMhy/mnn_wm_uq",
+    "download_url": "https://github.com/AwakerMhy/mnn_wm_uq",
+    "access": "public",
+    "related_paper_titles": [
+      "Uncertainty Quantification in Working Memory via Moment Neural Networks"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/AwakerMhy/mnn_wm_uq",
+      "https://doi.org/10.48550/ARXIV.2411.14196"
+    ],
+    "description": "从论文《Uncertainty Quantification in Working Memory via Moment Neural Networks》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "jianfeng_feng",
+    "scholar_name": "冯建峰",
+    "matched_paper_ids": [
+      "jianfeng_feng_998bc7dd1f9ccc70"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "jianfeng_feng::eeg_foundation"
+    ],
+    "primary_categories": [
+      "冯建峰：脑电基础模型与通用解码"
+    ]
+  },
+  {
+    "id": "jianfeng_feng__auto_code_6c33bd9b44",
+    "name": "Probabilistic Computation with Emerging Covariance: Towards Efficient Uncertainty Quantification — 开源代码 (AwakerMhy/probabilistic-computing-mnn)",
+    "name_zh": "Probabilistic Computation with Emerging Covariance: Towards Efficient Uncertainty Quantification — 开源代码",
+    "type": "code",
+    "url": "https://github.com/AwakerMhy/probabilistic-computing-mnn",
+    "download_url": "https://github.com/AwakerMhy/probabilistic-computing-mnn",
+    "access": "public",
+    "related_paper_titles": [
+      "Probabilistic Computation with Emerging Covariance: Towards Efficient Uncertainty Quantification"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/AwakerMhy/probabilistic-computing-mnn",
+      "https://doi.org/10.48550/ARXIV.2305.19265"
+    ],
+    "description": "从论文《Probabilistic Computation with Emerging Covariance: Towards Efficient Uncertainty Quantification》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "jianfeng_feng",
+    "scholar_name": "冯建峰",
+    "matched_paper_ids": [
+      "jianfeng_feng_cb286d3b094e2f37"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "jianfeng_feng::eeg_foundation"
+    ],
+    "primary_categories": [
+      "冯建峰：脑电基础模型与通用解码"
+    ]
+  },
+  {
+    "id": "jianfeng_feng__auto_code_ddd4847f6f",
+    "name": "Accelerating Score-based Generative Models with Preconditioned Diffusion Sampling — 开源代码 (fudan-zvg/PDS)",
+    "name_zh": "Accelerating Score-based Generative Models with Preconditioned Diffusion Sampling — 开源代码",
+    "type": "code",
+    "url": "https://github.com/fudan-zvg/PDS",
+    "download_url": "https://github.com/fudan-zvg/PDS",
+    "access": "public",
+    "related_paper_titles": [
+      "Accelerating Score-based Generative Models with Preconditioned Diffusion Sampling"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/fudan-zvg/PDS",
+      "https://doi.org/10.48550/ARXIV.2207.02196"
+    ],
+    "description": "从论文《Accelerating Score-based Generative Models with Preconditioned Diffusion Sampling》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "jianfeng_feng",
+    "scholar_name": "冯建峰",
+    "matched_paper_ids": [
+      "jianfeng_feng_88f8e8d4e216c6e6"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "jianfeng_feng::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "冯建峰：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "jianfeng_feng__auto_code_6d175d9088",
+    "name": "GaitSet: Cross-View Gait Recognition Through Utilizing Gait As a Deep Set — 开源代码 (AbnerHqC/GaitSet)",
+    "name_zh": "GaitSet: Cross-View Gait Recognition Through Utilizing Gait As a Deep Set — 开源代码",
+    "type": "code",
+    "url": "https://github.com/AbnerHqC/GaitSet",
+    "download_url": "https://github.com/AbnerHqC/GaitSet",
+    "access": "public",
+    "related_paper_titles": [
+      "GaitSet: Cross-View Gait Recognition Through Utilizing Gait As a Deep Set",
+      "GaitSet: Regarding Gait as a Set for Cross-View Gait Recognition"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/AbnerHqC/GaitSet",
+      "https://doi.org/10.1109/TPAMI.2021.3057879"
+    ],
+    "description": "从论文《GaitSet: Cross-View Gait Recognition Through Utilizing Gait As a Deep Set》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "jianfeng_feng",
+    "scholar_name": "冯建峰",
+    "matched_paper_ids": [
+      "jianfeng_feng_79bd33911bbf9ffd",
+      "jianfeng_feng_93584253c059d343"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "jianfeng_feng::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "冯建峰：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "jianfeng_feng__auto_code_59bcfef393",
+    "name": "Identifying age-specific gene signatures of the human cerebral cortex with joint analysis of transcriptomes and functional connectomes — 开源代码 (Soulnature/TCA)",
+    "name_zh": "Identifying age-specific gene signatures of the human cerebral cortex with joint analysis of transcriptomes and functional connectomes — 开源代码",
+    "type": "code",
+    "url": "https://github.com/Soulnature/TCA",
+    "download_url": "https://github.com/Soulnature/TCA",
+    "access": "public",
+    "related_paper_titles": [
+      "Identifying age-specific gene signatures of the human cerebral cortex with joint analysis of transcriptomes and functional connectomes"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/Soulnature/TCA",
+      "https://doi.org/10.1093/BIB/BBAA388"
+    ],
+    "description": "从论文《Identifying age-specific gene signatures of the human cerebral cortex with joint analysis of transcriptomes and functional connectomes》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "jianfeng_feng",
+    "scholar_name": "冯建峰",
+    "matched_paper_ids": [
+      "jianfeng_feng_8a5b961214af51af"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "jianfeng_feng::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "冯建峰：脑电基准、数据与评测"
+    ]
   }
 ]

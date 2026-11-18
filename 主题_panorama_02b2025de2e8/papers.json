@@ -1,212 +1,3028 @@
-{
-  "scholar": {
-    "name_zh": "张天翼",
-    "name_en": "English name pending",
-    "affiliation": "东南大学",
-    "identity_sources": [
-      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+[
+  {
+    "title": "Affective and interpersonal expression in young adults during simulated interviews: implications for mental health research",
+    "title_en": "Affective and interpersonal expression in young adults during simulated interviews: implications for mental health research",
+    "title_zh": "模拟访谈中年轻人的情感和人际表达：对心理健康研究的影响",
+    "year": 2026,
+    "venue": "Frontiers in Psychiatry",
+    "authors": [
+      "Tianyi Zhang",
+      "开宁 常"
     ],
-    "official_homepages": [
-      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    "doi": "10.3389/fpsyt.2026.1946199",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.3389/fpsyt.2026.1946199",
+    "pdf_url": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1946199/pdf",
+    "source_url": "https://openalex.org/W7224132659",
+    "openalex_id": "https://openalex.org/W7224132659",
+    "openalex_author_id": "https://openalex.org/A5160054367",
+    "cited_by_count": 0,
+    "abstract_en": "Background Simulated interviews could provide behavioral information for young-adult mental-health research, including studies of social-evaluative anxiety. Their value depends on reliable observer impressions and interpretable links to participants’ self-reports. We examined personality expression, affective communication, self-observer correspondence, and competence impressions in emerging adults. Methods Two video-interview protocols were administered to participants aged 18–23 years: an occupationally framed protocol ( n = 55 ) and a broader personality-oriented protocol ( n = 33 ); 30 participants completed both. The protocols covered parallel HEXACO-related domains but differed in both framing and question content. Participants completed HEXACO self-reports and selected one of five valence-arousal categories after each response. Four observers rated personality expression, affective communication, and competence. We distinguished focused domain-matched tests from secondary question-level tests and exploratory correlation matrices, reported 95% confidence intervals, used permutation tests, and controlled the false-discovery rate within analysis families. Results Self-reported HEXACO scores were similar across protocols except for lower Agreeableness in the broader protocol (mean difference = − 0.23 , 95% CI [ − 0.35 , − 0.12 ] , q = 0.004 ). Global valence was more positive in the broader protocol (mean difference = 0.30 , 95% CI [ 0.15 , 0.45 ] , q < 0.001 ), whereas the arousal difference was uncertain. Reliability was heterogeneous: personality and competence ICCs ranged from 0.27 to 0.65 and 0.35 to 0.64 in the occupational protocol and from 0.33 to 0.58 and 0.22 to 0.73 in the broader protocol. Question-level affect ICCs were approximately 0.00 to 0.60 and − 0.91 to 0.03, respectively. Occupational self-observer correlations for Extraversion and Agreeableness survived correction; no broader-protocol personality correlation did. Strong same-observer personality-competence associations survived correction in both protocols, but broader-protocol affect-competence associations did not. Conclusions Affective reports differed between protocols, but question content also differed, precluding a pure context effect. Observer-rating reliability and self-observer correspondence identify conditions for future mental-health studies pairing simulated interviews with validated symptom and functioning measures.",
+    "abstract_zh": "背景模拟访谈可以为年轻人心理健康研究提供行为信息，包括社会评价焦虑的研究。它们的价值取决于可靠的观察者印象以及与参与者自我报告的可解释链接。我们研究了新兴成年人的个性表达、情感交流、自我观察者对应和能力印象。方法 对 18-23 岁的参与者实施两种视频访谈方案：职业框架方案 (n = 55) 和更广泛的个性导向方案 (n = 33)； 30 名参与者完成了两项任务。这些协议涵盖了并行的 HEXACO 相关领域，但在框架和问题内容方面有所不同。参与者完成...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解"
     ],
-    "coverage": {
-      "scope": "2025–2026主题筛选与全量书目扩展",
-      "status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
-      "coverage_status": "仅有代表论文或项目级记录；个人全历史待补核",
-      "available_record_count": 3,
-      "bulk_source_record_count": 0,
-      "themes": [
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ]
-    },
-    "coverage_notes": "该目录与五位基线学者使用同一论文/资源/分类输出契约。‘可用记录数’表示本轮已取得并保留的书目，不等于未经消歧的个人终身全集；身份待核验、论文团队和同名风险见候选筛选证据。",
-    "id": "panorama_02b2025de2e8",
-    "folder": "主题_panorama_02b2025de2e8",
-    "classification": {
-      "method": "按题名及现有项目、资源说明进行主题粗分，用于阅读导航；未逐篇审阅全文，不代表学者官方分类。每条书目只设一个主类别，跨方向信息保留在辅助标签中。",
-      "categories": [
-        {
-          "id": "emotion_understanding",
-          "label": "情感理解与多模态推理",
-          "description": "多模态情感识别、情绪原因解释、开放词汇与上下文推理。",
-          "count": 3
-        },
-        {
-          "id": "affective_intelligence",
-          "label": "情感智能、共情与生成",
-          "description": "情感智能、心智理论、共情响应和情感生成。",
-          "count": 0
-        },
-        {
-          "id": "emotion_benchmark",
-          "label": "情感数据集、基准与评测",
-          "description": "情感数据集、评测基准、情感幻觉与可靠性分析。",
-          "count": 0
-        }
-      ],
-      "review": {
-        "status": "theme_candidate",
-        "source_status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
-        "primary_theme": "情感智能与情感大模型"
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5160054367）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_02b2025de2e8_37c06d9d1cc34028",
+    "global_record_id": "5a42199a9a367aef",
+    "scholar_id": "panorama_02b2025de2e8",
+    "scholar_name": "张天翼",
+    "scholar_ids": [
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "panorama_02b2025de2e8_37c06d9d1cc34028"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "张天翼",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
-    "counts": {
-      "bibliographic_records": 3,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [
-        2024,
-        2026
-      ],
-      "unknown_year": 0
-    }
+    "primary_categories_by_scholar": [
+      "张天翼：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
   },
-  "papers": [
-    {
-      "title": "Affective and interpersonal expression in young adults during simulated interviews: implications for mental health research. Frontiers in Psychiatry",
-      "title_en": "Affective and interpersonal expression in young adults during simulated interviews: implications for mental health research. Frontiers in Psychiatry",
-      "title_zh": "模拟访谈中年轻人的情感和人际表达：对心理健康研究的影响。精神病学前沿",
-      "year": 2026,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "张天翼"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_02b2025de2e8_7f00d66e46bf",
-      "category_id": "emotion_understanding",
-      "primary_category": "情感理解与多模态推理",
-      "secondary_tags": [
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_02b2025de2e8",
-      "scholar_name": "张天翼",
-      "work_title_group": "09dec042dd14",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+  {
+    "title": "Affective and interpersonal expression in young adults during simulated interviews: implications for mental health research. Frontiers in Psychiatry",
+    "title_en": "Affective and interpersonal expression in young adults during simulated interviews: implications for mental health research. Frontiers in Psychiatry",
+    "title_zh": "模拟访谈中年轻人的情感和人际表达：对心理健康研究的影响。精神病学前沿",
+    "year": 2026,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "张天翼"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_02b2025de2e8_7f00d66e46bf",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理",
+    "secondary_tags": [
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_02b2025de2e8",
+    "scholar_name": "张天翼",
+    "work_title_group": "09dec042dd14",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "panorama_02b2025de2e8_7f00d66e46bf"
+    ],
+    "scholar_categories": {
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "张天翼",
+        "secondary_tags": [
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Hierarchical Vision-Language Interaction for Facial Action Unit Detection. IEEE Transactions on Affective Computing",
-      "title_en": "Hierarchical Vision-Language Interaction for Facial Action Unit Detection. IEEE Transactions on Affective Computing",
-      "title_zh": "用于面部动作单元检测的分层视觉语言交互。 IEEE 情感计算汇刊",
-      "year": 2026,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "张天翼"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_02b2025de2e8_be0a4491a657",
-      "category_id": "emotion_understanding",
-      "primary_category": "情感理解与多模态推理",
-      "secondary_tags": [
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_02b2025de2e8",
-      "scholar_name": "张天翼",
-      "work_title_group": "60d1cc3e9338",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "e36515f51672e28f",
+    "primary_categories_by_scholar": [
+      "张天翼：情感理解与多模态推理"
+    ]
+  },
+  {
+    "title": "LLM-based Multimodal Personality Recognition via Facial Action Unit-Text Semantic Fusion",
+    "title_en": "LLM-based Multimodal Personality Recognition via Facial Action Unit-Text Semantic Fusion",
+    "title_zh": "通过面部动作单元文本语义融合进行基于 LLM 的多模态人格识别",
+    "year": 2026,
+    "venue": "CoRR",
+    "authors": [
+      "Tianyi Zhang",
+      "Wei Shan",
+      "Yuan Zong",
+      "Tianhua Qi",
+      "Wenming Zheng"
+    ],
+    "doi": "10.1109/TAFFC.2026.3713475",
+    "paper_url": "https://doi.org/10.1109/TAFFC.2026.3713475",
+    "source_url": "https://doi.org/10.1109/TAFFC.2026.3713475",
+    "topics": [
+      "情感计算",
+      "脑电情感识别",
+      "EEG-fNIRS双模态",
+      "人工智能与模式识别",
+      "脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "多模态与大语言模型"
+    ],
+    "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W7168262224",
+    "openalex_author_id": "https://openalex.org/A5029771864",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 5,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "official institutional publication list",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "wenming_zheng_311b2c7bf165",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "情感计算",
+      "脑电情感识别",
+      "EEG-fNIRS双模态",
+      "人工智能与模式识别",
+      "脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wenming_zheng",
+    "scholar_name": "郑文明",
+    "work_title_group": "1ef9359746b0",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "wenming_zheng",
+      "panorama_6ea6272c5bf0",
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "郑文明",
+      "宗源",
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "wenming_zheng_311b2c7bf165"
+    ],
+    "scholar_categories": {
+      "wenming_zheng": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "郑文明",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "panorama_6ea6272c5bf0": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "宗源",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "张天翼",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "Can Large Language Models Assess Personality From Asynchronous Video Interviews? A Comprehensive Evaluation of Validity, Reliability, Fairness, and Rating Patterns. IEEE Transactions on Affective Computing",
-      "title_en": "Can Large Language Models Assess Personality From Asynchronous Video Interviews? A Comprehensive Evaluation of Validity, Reliability, Fairness, and Rating Patterns. IEEE Transactions on Affective Computing",
-      "title_zh": "大型语言模型可以通过异步视频面试评估性格吗？有效性、可靠性、公平性和评级模式的综合评估。 IEEE 情感计算汇刊",
-      "year": 2024,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "张天翼"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_02b2025de2e8_772bf60c2e8c",
-      "category_id": "emotion_understanding",
-      "primary_category": "情感理解与多模态推理",
-      "secondary_tags": [
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_02b2025de2e8",
-      "scholar_name": "张天翼",
-      "work_title_group": "0cb53180a40c",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
-    }
-  ]
-}
+    "global_record_id": "7c2dc02ad0915326",
+    "primary_categories_by_scholar": [
+      "郑文明：情感脑电与多模态生理信号",
+      "宗源：脑电基准、数据与评测",
+      "张天翼：情感数据集、基准与评测"
+    ],
+    "dblp_key": "journals/corr/abs-2606-29900",
+    "pdf_url": "https://doi.org/10.1109/taffc.2026.3713475",
+    "abstract_en": "Personality recognition in asynchronous video interviews (AVIs) has become increasingly important due to their widespread adoption in modern recruitment. Existing approaches often rely on large language models (LLMs) to analyze textual responses of interviewees in AVI. However, text-based methods overlook informative non-verbal behaviors. In contrast, multimodal approaches based on full-face images or sparsely sampled frames often fail to preserve the fine-grained temporal dynamics that are critical for reliable personality assessment. To address these limitations, we propose a framework that transforms facial action unit (AU) dynamics into language compatible semantic representations, which allows AU-derived semantics and interview transcripts to be reasoned over jointly within a single LLM space. The pipeline preserves local facial dynamics through keyframe-centered AU modeling, aligns these low-level signals with high-level semantic representations by semanticization, and separates semantic reasoning from continuous score prediction via a lightweight regression head. Experiments on the AVI-6 benchmark demonstrate consistent improvements over most baselines, with lower prediction errors and stronger correlations with human-rated scores across multiple traits. Further analysis reveals that AU-derived semantic representations offer complementary non-verbal information beyond interview transcripts, and the decoupled prediction strategy contributes to improved training stability and model interpretability. Overall, the results demonstrate that semantically aligning AU-derived representations with interview transcripts provides a psycho logically grounded and computationally efficient framework for personality recognition in AVIs.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "由于异步视频面试 (AVI) 在现代招聘中的广泛采用，个性识别变得越来越重要。现有方法通常依赖大型语言模型 (LLM) 来分析 AVI 中受访者的文本响应。然而，基于文本的方法忽视了信息丰富的非语言行为。相比之下，基于全脸图像或稀疏采样帧的多模态方法通常无法保留对于可靠的个性评估至关重要的细粒度时间动态。为了解决这些限制，我们提出了一个框架，将面部动作单元（AU）动态转换为语言兼容的语义表示，这......"
+  },
+  {
+    "title": "Advancing Micro-Expression Recognition: A Task-Specific Framework Integrating Frequency Analysis and Structural Embedding",
+    "title_en": "Advancing Micro-Expression Recognition: A Task-Specific Framework Integrating Frequency Analysis and Structural Embedding",
+    "title_zh": "推进微表情识别：集成频率分析和结构嵌入的任务特定框架",
+    "year": 2026,
+    "venue": "IEEE Trans. Affect. Comput.",
+    "authors": [
+      "Zheng Li",
+      "Yuan Zong",
+      "Cheng Lu",
+      "Tianyi Zhang",
+      "Jingang Shi",
+      "Xin Liu",
+      "Wenming Zheng"
+    ],
+    "doi": "10.1109/TAFFC.2026.3679944",
+    "paper_url": "https://aip.seu.edu.cn/wmzheng/main.htm",
+    "source_url": "https://aip.seu.edu.cn/wmzheng/main.htm",
+    "topics": [
+      "情感计算",
+      "脑电情感识别",
+      "EEG-fNIRS双模态",
+      "人工智能与模式识别",
+      "脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W7147563543",
+    "openalex_author_id": "https://openalex.org/A5027316177",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 2,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "official institutional publication list",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "wenming_zheng_d894952099bc",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "情感计算",
+      "脑电情感识别",
+      "EEG-fNIRS双模态",
+      "人工智能与模式识别",
+      "脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wenming_zheng",
+    "scholar_name": "郑文明",
+    "work_title_group": "c40295b81bcb",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "wenming_zheng",
+      "xin_liu",
+      "panorama_6ea6272c5bf0",
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "郑文明",
+      "刘鑫",
+      "宗源",
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "wenming_zheng_d894952099bc"
+    ],
+    "scholar_categories": {
+      "wenming_zheng": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "郑文明",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "xin_liu": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "刘鑫",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_6ea6272c5bf0": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "宗源",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "张天翼",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "global_record_id": "1e69f8fcdb1ba6af",
+    "primary_categories_by_scholar": [
+      "郑文明：情感脑电与多模态生理信号",
+      "刘鑫：情感数据集、基准与评测",
+      "宗源：情感脑电与多模态生理信号",
+      "张天翼：情感数据集、基准与评测"
+    ],
+    "dblp_key": "journals/taffco/LiZLZSLZ26",
+    "abstract_en": "Micro-expression recognition (MER) remains a challenging task due to the subtlety and low intensity of facial motion patterns. Existing deep models often struggle with spectral bias and structural mismatches when applied to MER, leading to notable performance degradation. To tackle these issues, we propose a task-specific framework named Adaptive Attenuation Compensated Polarity Network (A2CPN) that introduces two key innovations. First, we conduct a frequency analysis paradigm to reveal the degradation of high-frequency motion cues in deep networks. To mitigate this, we propose a layer-wise compensation method to preserve decision-relevant cues. Specifically, frequency and spatial-domain features are projected into a shared wavelet feature space in a band-wise manner, while the hierarchical compensation mechanism establishes a mapping between frequency specific attenuation levels and network layer indices to adaptively enhance ME motion cues. Second, we embed facial structural priors via a polar coordinate system. It constructs correlations among radial cells, aligning the model's representations with radial motion-distribution patterns. Extensive experiments on four benchmark datasets, CASME II, SAMM, SMIC, and MEGC2019, demonstrate state-of-the-art (SOTA) performance, validating the effectiveness of our frequency-domain and radial analysis paradigms, offering new insights for MER research.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "由于面部运动模式的微妙性和低强度，微表情识别（MER）仍然是一项具有挑战性的任务。现有的深度模型在应用于 MER 时经常会遇到光谱偏差和结构不匹配的问题，从而导致性能显着下降。为了解决这些问题，我们提出了一个名为自适应衰减补偿极性网络（A2CPN）的特定任务框架，该框架引入了两项关键创新。首先，我们进行频率分析范式来揭示深层网络中高频运动线索的退化。为了缓解这种情况，我们提出了一种分层补偿方法来保留与决策相关的线索。具体来说，频域和空间域特征..."
+  },
+  {
+    "title": "Hierarchical Vision-Language Interaction for Facial Action Unit Detection",
+    "title_en": "Hierarchical Vision-Language Interaction for Facial Action Unit Detection",
+    "title_zh": "用于面部动作单元检测的分层视觉语言交互",
+    "year": 2026,
+    "venue": "IEEE Trans. Affect. Comput.",
+    "authors": [
+      "Yong Li",
+      "Yi Ren",
+      "Yizhe Zhang",
+      "Wenhua Zhang",
+      "Tianyi Zhang",
+      "Muyun Jiang",
+      "Guo-Sen Xie",
+      "Cuntai Guan"
+    ],
+    "doi": "10.1109/TAFFC.2026.3665903",
+    "dblp_key": "journals/taffco/LiRZZZJXG26",
+    "paper_url": "https://doi.org/10.1109/TAFFC.2026.3665903",
+    "pdf_url": "https://arxiv.org/pdf/2602.14425",
+    "source_url": "https://dblp.org/rec/journals/taffco/LiRZZZJXG26.html",
+    "openalex_id": "https://openalex.org/W7129644561",
+    "openalex_author_id": "https://openalex.org/A5049516313",
+    "cited_by_count": 3,
+    "abstract_en": "Facial Action Unit (AU) detection seeks to recognize subtle facial muscle activations as defined by the Facial Action Coding System (FACS). A primary challenge w.r.t AU detection is the effective learning of discriminative and generalizable AU representations under conditions of limited annotated data. To address this, we propose a Hierarchical Vision-language Inter action for AU Understanding (HiVA) method, which leverages textual AU descriptions as semantic priors to guide and enhance AU detection. Specifically, HiVA employs a large language model to generate diverse and contextually rich AU descriptions to strengthen language-based representation learning. To capture both fine-grained and holistic vision-language associations, HiVA introduces an AU-aware dynamic graph module that facilitates the learning of AU-specific visual representations. These features are further integrated within a hierarchical cross-modal atten tion architecture comprising two complementary mechanisms: Disentangled Dual Cross-Attention (DDCA), which establishes fine-grained, AU-specific interactions between visual and textual features, and Contextual Dual Cross-Attention (CDCA), which models global inter-AU dependencies. This collaborative, cross modal learning paradigm enables HiVA to leverage multi-grained vision-based AU features in conjunction with refined language based AU details, culminating in robust and semantically en riched AU detection capabilities. Extensive experiments show that HiVA consistently surpasses state-of-the-art approaches. Besides, qualitative analyses reveal that HiVA produces semantically meaningful activation patterns, highlighting its efficacy in learning robust and interpretable cross-modal correspondences for comprehensive facial behavior analysis.",
+    "abstract_zh": "面部动作单元 (AU) 检测旨在识别面部动作编码系统 (FACS) 定义的细微面部肌肉激活。 AU 检测的主要挑战是在有限注释数据的条件下有效学习判别性和可概括的 AU 表示。为了解决这个问题，我们提出了一种用于 AU 理解的分层视觉语言交互（HiVA）方法，该方法利用文本 AU 描述作为语义先验来指导和增强 AU 检测。具体来说，HiVA 采用大型语言模型来生成多样化且上下文丰富的 AU 描述，以加强基于语言的表示学习。为了捕捉细粒度和整体的视觉语言关联，HiVA 介绍...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "多模态与大语言模型",
+      "智能芯片与计算系统"
+    ],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 17/322-13）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_02b2025de2e8_9048df12be4224e3",
+    "global_record_id": "54eeae2630738413",
+    "scholar_id": "panorama_02b2025de2e8",
+    "scholar_name": "张天翼",
+    "scholar_ids": [
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "panorama_02b2025de2e8_9048df12be4224e3"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "张天翼",
+        "secondary_tags": [
+          "多模态与大语言模型",
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张天翼：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Hierarchical Vision-Language Interaction for Facial Action Unit Detection. IEEE Transactions on Affective Computing",
+    "title_en": "Hierarchical Vision-Language Interaction for Facial Action Unit Detection. IEEE Transactions on Affective Computing",
+    "title_zh": "用于面部动作单元检测的分层视觉语言交互。 IEEE 情感计算汇刊",
+    "year": 2026,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "张天翼"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "情感计算与情绪理解",
+      "多模态与大语言模型"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_02b2025de2e8_be0a4491a657",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理",
+    "secondary_tags": [
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_02b2025de2e8",
+    "scholar_name": "张天翼",
+    "work_title_group": "60d1cc3e9338",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "panorama_02b2025de2e8_be0a4491a657"
+    ],
+    "scholar_categories": {
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "张天翼",
+        "secondary_tags": [
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "da0bd75f73fc5a7b",
+    "primary_categories_by_scholar": [
+      "张天翼：情感理解与多模态推理"
+    ]
+  },
+  {
+    "title": "Multimodal Functional Maximum Correlation for Emotion Recognition",
+    "title_en": "Multimodal Functional Maximum Correlation for Emotion Recognition",
+    "title_zh": "用于情绪识别的多模态功能最大相关性",
+    "year": 2026,
+    "venue": "IEEE Trans. Affect. Comput.",
+    "authors": [
+      "Deyang Zheng",
+      "Tianyi Zhang",
+      "Wenming Zheng",
+      "Shujian Yu"
+    ],
+    "doi": "10.1109/TAFFC.2026.3695876",
+    "paper_url": "https://aip.seu.edu.cn/wmzheng/main.htm",
+    "source_url": "https://aip.seu.edu.cn/wmzheng/main.htm",
+    "topics": [
+      "情感计算",
+      "脑电情感识别",
+      "EEG-fNIRS双模态",
+      "人工智能与模式识别",
+      "脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "情感计算与情绪理解",
+      "多模态与大语言模型"
+    ],
+    "verification": "主题筛选候选；纳入候选-重点",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [
+      "wenming_zheng__auto_code_9d6a9b0977"
+    ],
+    "code_urls": [
+      "https://github.com/DY9910/MFMC"
+    ],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W7162105824",
+    "openalex_author_id": "https://openalex.org/A5049516313",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 2,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "official institutional publication list",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "wenming_zheng_4fb9daae20c5",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "情感计算",
+      "脑电情感识别",
+      "EEG-fNIRS双模态",
+      "人工智能与模式识别",
+      "脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wenming_zheng",
+    "scholar_name": "郑文明",
+    "work_title_group": "5444aa69f3b2",
+    "resource_status": "已关联公开代码/数据/模型资源",
+    "scholar_ids": [
+      "wenming_zheng",
+      "wei_long_zheng",
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "郑文明",
+      "郑伟龙",
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "wenming_zheng_4fb9daae20c5",
+      "wei_long_zheng_4fb9daae20c5"
+    ],
+    "scholar_categories": {
+      "wenming_zheng": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "郑文明",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "wei_long_zheng": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "郑伟龙",
+        "secondary_tags": [
+          "情感脑机接口",
+          "脑电基础模型",
+          "临床脑电解码",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "张天翼",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "global_record_id": "3ccc9d38e5ce0952",
+    "primary_categories_by_scholar": [
+      "郑文明：情感脑电与多模态生理信号",
+      "郑伟龙：情感脑电与多模态生理信号",
+      "张天翼：情感数据集、基准与评测"
+    ],
+    "dblp_key": "journals/taffco/ZhengZZY26",
+    "pdf_url": "https://hdl.handle.net/1871.1/40dff498-728e-48b9-b012-bc956a24c0a0",
+    "abstract_en": "Emotional states manifest as coordinated and heterogeneous physiological responses across central and autonomic systems, posing a fundamental challenge for multimodal representation learning in affective computing. Learning such joint dynamics is further complicated by scarce and subjective affective annotations, motivating the use of self-supervised learning (SSL). However, most existing SSL approaches rely on pairwise alignment objectives, which are insufficient to characterize the joint dependencies among more than two modalities and fail to capture higher-order interactions arising from coordinated brain-autonomic responses. To move beyond this limitation, we propose Multimodal Functional Maximum Correlation (MFMC), a principled SSL framework that maximizes higher-order multimodal dependence via a Dual Total Correlation (DTC) objective. By deriving a tight sandwich bound and optimizing it with a functional maximum correlation analysis (FMCA)-based trace surrogate, MFMC directly captures joint multimodal interactions without resorting to pairwise contrastive losses. Experiments on three public affective computing benchmarks demonstrate that MFMC consistently achieves state-of-the-art or competitive performance under both subject-dependent and subject-independent protocols, highlighting its robustness to inter-subject variability. In particular, MFMC achieves substantial gains on CEAP-360VR, improving subject-dependent accuracy from 78.9% to 86.8% and subject-independent accuracy from 27.5% to 33.1% using the EDA signal alone, and remains highly competitive within 0.8 percentage points of the best-performing method on the most challenging EEG subject-independent split of MAHNOB-HCI. Our code is available athttps://github.com/DY9910/MFMC.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "情绪状态表现为跨中央和自主系统的协调和异质生理反应，这对情感计算中的多模态表示学习提出了根本性挑战。由于缺乏和主观的情感注释，学习这种联合动态变得更加复杂，从而激发了自我监督学习（SSL）的使用。然而，大多数现有的 SSL 方法依赖于成对对齐目标，这不足以表征两种以上模态之间的联合依赖关系，并且无法捕获协调的大脑自主反应所产生的高阶交互。为了突破这一限制，我们提出了多模态功能..."
+  },
+  {
+    "title": "Progressive Latent Denoising and Geometric Refinement for Real-World 4D Point Cloud Enhancement",
+    "title_en": "Progressive Latent Denoising and Geometric Refinement for Real-World 4D Point Cloud Enhancement",
+    "title_zh": "用于现实世界4D点云增强的渐进式潜在去噪和几何细化",
+    "year": 2026,
+    "venue": "Proceedings of the 34th ACM International Conference on Multimedia",
+    "authors": [
+      "Tianhua Qi",
+      "Jiateng Liu",
+      "Mingxin Tang",
+      "Tianyi Zhang",
+      "Yuan Zong",
+      "Hengcan Shi",
+      "Yaonan Wang",
+      "Wenming Zheng"
+    ],
+    "doi": "10.1145/3767308.3837693",
+    "paper_url": "https://doi.org/10.1145/3767308.3837693",
+    "source_url": "https://doi.org/10.1145/3767308.3837693",
+    "topics": [
+      "情感计算",
+      "脑电情感识别",
+      "EEG-fNIRS双模态",
+      "人工智能与模式识别",
+      "脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W7225341846",
+    "openalex_author_id": "https://openalex.org/A5027316177",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 1,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "Crossref ORCID exact-match record",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "wenming_zheng_6deae182b69c",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "情感计算",
+      "脑电情感识别",
+      "EEG-fNIRS双模态",
+      "人工智能与模式识别",
+      "脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wenming_zheng",
+    "scholar_name": "郑文明",
+    "work_title_group": "55e227a7c2eb",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "wenming_zheng",
+      "panorama_6ea6272c5bf0",
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "郑文明",
+      "宗源",
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "wenming_zheng_6deae182b69c"
+    ],
+    "scholar_categories": {
+      "wenming_zheng": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "郑文明",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "panorama_6ea6272c5bf0": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "宗源",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "张天翼",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "global_record_id": "fcdcd18cfdc50b84",
+    "primary_categories_by_scholar": [
+      "郑文明：情感脑电与多模态生理信号",
+      "宗源：脑电基准、数据与评测",
+      "张天翼：情感数据集、基准与评测"
+    ],
+    "pdf_url": "https://doi.org/10.1145/3767308.3837693",
+    "abstract_en": "Dynamic point clouds (DPCs) have become a fundamental modality for immersive multimedia applications like free-viewpoint video and holographic telepresence. While consumer-grade depth sensors have democratized large-scale 4D data acquisition, real-world DPCs captured in-the-wild inevitably suffer from severe spatial-temporal degradations, including chaotic outliers, missing topologies, and temporal flickering. Existing enhancement methods mostly operate in raw 3D coordinate spaces under simplified noise assumptions, leading to drastic performance drops in real-world scenarios. Furthermore, they inherently suffer from a delicate trade-off: aggressive noise suppression tends to oversmooth intricate geometries, whereas direct surface completion often amplifies residual noise. To tackle this, we propose PointPower, a progressive multi-stage pipeline tailored for dynamic point cloud enhancement. Specifically, the first stage introduces an invertible latent-space denoising module that maps corrupted point clouds into a well-structured latent space for robust, topology-aware noise filtering. The second stage performs spatial anchoring and primary density refinement to regularize point coordinates and density in Euclidean space, yielding a reliable primary representation. Finally, the third stage executes a decision-driven gated refinement, utilizing a frame-level gating mechanism to dynamically invoke a pretrained diffusion model for high-fidelity structural completion only when significant geometric deficits are detected. Extensive experiments on the UVG-CWI-DQPC Challenge 2026 dataset demonstrate that the proposed framework achieves superior geometric fidelity and perceptual quality on real-world 4D volumetric data.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "动态点云 (DPC) 已成为自由视点视频和全息远程呈现等沉浸式多媒体应用的基本模式。虽然消费级深度传感器已经实现了大规模 4D 数据采集的大众化，但在野外捕获的现实世界 DPC 不可避免地会遭受严重的时空退化，包括混乱的异常值、缺失的拓扑和时间闪烁。现有的增强方法大多在简化的噪声假设下在原始 3D 坐标空间中运行，导致现实场景中的性能急剧下降。此外，它们本质上面临着微妙的权衡：积极的噪声抑制往往会导致过度平滑的..."
+  },
+  {
+    "title": "Mixture-of-Expert Large Language Models for text-based Personality Assessment from Asynchronous Video Interviews",
+    "title_en": "Mixture-of-Expert Large Language Models for text-based Personality Assessment from Asynchronous Video Interviews",
+    "title_zh": "用于异步视频访谈中基于文本的人格评估的专家混合大型语言模型",
+    "year": 2026,
+    "venue": "IEEE Trans. Affect. Comput.",
+    "authors": [
+      "Tianyi Zhang",
+      "Shan Liang",
+      "Wenming Zheng",
+      "Antonis Koutsoumpis",
+      "Janneke K. Oostrom",
+      "Reinout E. de Vries"
+    ],
+    "doi": "10.1109/TAFFC.2026.3667846",
+    "paper_url": "https://aip.seu.edu.cn/wmzheng/main.htm",
+    "source_url": "https://aip.seu.edu.cn/wmzheng/main.htm",
+    "topics": [
+      "情感计算",
+      "脑电情感识别",
+      "EEG-fNIRS双模态",
+      "人工智能与模式识别",
+      "脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "多模态与大语言模型"
+    ],
+    "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W7131274831",
+    "openalex_author_id": "https://openalex.org/A5049516313",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 3,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "official institutional publication list",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "wenming_zheng_9f8eeb323669",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "情感计算",
+      "脑电情感识别",
+      "EEG-fNIRS双模态",
+      "人工智能与模式识别",
+      "脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wenming_zheng",
+    "scholar_name": "郑文明",
+    "work_title_group": "f97244202d51",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "wenming_zheng",
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "郑文明",
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "wenming_zheng_9f8eeb323669"
+    ],
+    "scholar_categories": {
+      "wenming_zheng": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "郑文明",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "张天翼",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "global_record_id": "e31617440d81398f",
+    "primary_categories_by_scholar": [
+      "郑文明：情感脑电与多模态生理信号",
+      "张天翼：情感数据集、基准与评测"
+    ],
+    "dblp_key": "journals/taffco/ZhangLZKOV26",
+    "pdf_url": "https://research.vu.nl/en/publications/bbe7a4b1-9cff-460f-a2ef-82ae0a0d7a1d",
+    "abstract_en": "In selection and assessment, Large Language Models (LLMs) are deemed suitable for personality assessment of Asynchronous Video Interviews (AVI) due to their advanced linguistic understanding and semantic interpretation capacities. However, most of the previous works have focused on personality traitclassificationrather thanregression. Since current LLMs are trained on massive corpora, they are more attuned to text-based structures than to numeric data. The classification-centered approach fails to take into account the fact that personality traits are continuous, instead of categorical, variables. In addition, LLMs suffer from low rating validity due to their tendency to be over-lenient, assigning higher than average personality scores to a large number of individuals (i.e., issues ofPositivity Biases). To address these challenges, we designed a text-based, two-stage, Mixture-of-Experts based personality assessment framework (MoE-Personality) to provide fine-grained personality ratings and regulate the positivity biases of LLMs. The designed model first rates the coarse-grained personality category of the individual (classification stage). After that, the model rates fine-grained personality scores by merging the obtained personality category and empirical score ranges of different personality categories. Inspired by the the way human annotators rate personality traits, each stage comprises multiple annotator LLM experts and one aggregator LLM expert to promote validity. Our experiments in two datasets show that the designed framework outperformed open-sourced, medium-sized LLMs (e.g., Llama 3.1-8B, qwen2-7B) and achieved comparable results with close-sourced, large-sized LLMs (e.g., GPT-3.5 and GPT-4).",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "在选择和评估中，大型语言模型（LLM）因其先进的语言理解和语义解释能力而被认为适合异步视频面试（AVI）的性格评估。然而，之前的大部分工作都集中在人格特质分类而不是回归上。由于当前的大语言模型接受的是海量语料库的培训，因此他们更适合基于文本的结构而不是数字数据。以分类为中心的方法未能考虑到人格特征是连续变量而不是分类变量这一事实。此外，大语言模型由于过于宽容、评估的倾向而受到评级有效性较低的困扰。"
+  },
+  {
+    "title": "AVI Challenge 2026: Assessing True Personality Traits and Cognitive Ability from Asynchronous Video Interviews (AVIs)",
+    "title_en": "AVI Challenge 2026: Assessing True Personality Traits and Cognitive Ability from Asynchronous Video Interviews (AVIs)",
+    "title_zh": "AVI 挑战 2026：通过异步视频访谈 (AVI) 评估真实人格特质和认知能力",
+    "year": 2026,
+    "venue": "Proceedings of the 34th ACM International Conference on Multimedia",
+    "authors": [
+      "Tianyi Zhang",
+      "Tianhua Qi",
+      "Reinout E. de Vries",
+      "Wenming Zheng",
+      "Janneke Oostrom",
+      "Djurre Holtrop",
+      "Yuan Zong",
+      "Antonis Koutsoumpis"
+    ],
+    "doi": "10.1145/3767308.3837683",
+    "paper_url": "https://doi.org/10.1145/3767308.3837683",
+    "source_url": "https://doi.org/10.1145/3767308.3837683",
+    "topics": [
+      "情感计算",
+      "脑电情感识别",
+      "EEG-fNIRS双模态",
+      "人工智能与模式识别",
+      "脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W7225304602",
+    "openalex_author_id": "https://openalex.org/A5029771864",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 7,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "Crossref ORCID exact-match record",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "wenming_zheng_eef9a7c40403",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "情感计算",
+      "脑电情感识别",
+      "EEG-fNIRS双模态",
+      "人工智能与模式识别",
+      "脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wenming_zheng",
+    "scholar_name": "郑文明",
+    "work_title_group": "fc1325f672a0",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "wenming_zheng",
+      "panorama_6ea6272c5bf0",
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "郑文明",
+      "宗源",
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "wenming_zheng_eef9a7c40403"
+    ],
+    "scholar_categories": {
+      "wenming_zheng": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "郑文明",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "panorama_6ea6272c5bf0": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "宗源",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "张天翼",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "global_record_id": "2715d3157112b9de",
+    "primary_categories_by_scholar": [
+      "郑文明：情感脑电与多模态生理信号",
+      "宗源：脑电基准、数据与评测",
+      "张天翼：情感数据集、基准与评测"
+    ],
+    "pdf_url": "https://doi.org/10.1145/3767308.3837683",
+    "abstract_en": "Asynchronous Video Interviews (AVIs) allow candidates to record responses to predefined questions using digital devices, offering flexibility and enabling remote assessments. Evaluating personality traits and cognitive ability through AVIs provides organizations with valuable insights into candidates' profiles and helps predicting future job performance. Building on this, we successfully organized the AVI Challenge 2025 at ACM Multimedia, which established a high-fidelity benchmark by grounding assessments in Trait Activation Theory and employing Behaviorally Anchored Rating Scales (BARS). However, the 2025 iteration primarily focused on observer-reported personality, which captures ascribed traits susceptible to human perceptual bias and candidates' impression management, while bypassing cognitive ability, a key predictor of job performance. To address these gaps, we introduce the AVI Challenge 2026, featuring a novel dataset of mock AVIs (3,876 videos from 646 subjects). This iteration introduces two major shifts: (a) transitioning from social perception to true personality by utilizing validated self-reported inventories as ground truth, and (b) inaugurating a new track for cognitive ability estimation through semantic and paralinguistic analysis. By aligning multimedia analytics with the gold standards of psychology, this challenge aims to decode authentic professional potential.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "异步视频面试 (AVI) 允许候选人使用数字设备记录对预定义问题的回答，从而提供灵活性并支持远程评估。通过 AVI 评估人格特质和认知能力，可以为组织提供有关候选人个人资料的宝贵见解，并有助于预测未来的工作表现。在此基础上，我们在 ACM Multimedia 成功组织了 2025 年 AVI 挑战赛，该挑战赛通过基于特质激活理论的评估并采用行为锚定量表 (BARS) 建立了高保真度基准。然而，2025 年的迭代主要关注观察者报告的个性，它捕捉了归因的……"
+  },
+  {
+    "title": "AVI-Personality: A Trait-Activated Multimodal Dataset for Personality and Competency Assessment in Asynchronous Video Interviews",
+    "title_en": "AVI-Personality: A Trait-Activated Multimodal Dataset for Personality and Competency Assessment in Asynchronous Video Interviews",
+    "title_zh": "AVI-Personality：用于异步视频面试中人格和能力评估的特征激活多模态数据集",
+    "year": 2026,
+    "venue": "CoRR",
+    "authors": [
+      "Tianyi Zhang",
+      "Jinwenxi Shang",
+      "Antonis Koutsoumpis",
+      "Yuan Zong",
+      "Reinout E. de Vries",
+      "Wenming Zheng"
+    ],
+    "doi": "10.48550/ARXIV.2608.25316",
+    "dblp_key": "journals/corr/abs-2608-25316",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2608.25316",
+    "pdf_url": "https://arxiv.org/pdf/2608.25316",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2608-25316.html",
+    "openalex_id": "https://openalex.org/W7204464735",
+    "openalex_author_id": "https://openalex.org/A5049516313",
+    "cited_by_count": 0,
+    "abstract_en": "With the rapid development of AI-based personality and job-related competency assessment, Asynchronous Video Interviews (AVIs) are increasingly used in recruitment. However, existing multimodal personality datasets are often based on short, task-free social media videos and crowdsourced apparent personality labels, which limits their construct validity and relevance to structured interview assessment. To address these limitations, we introduce AVI-Personality, a trait-activated multimodal dataset for personality and job-related competency assessment from AVIs. The dataset contains 3,876 interview videos from 646 participants who completed a simulated management traineeship application. Participants answered two generic questions and four personality-targeted questions designed according to Trait Activation Theory. Our dataset provides both self and observer-reported HEXACO personality traits and job-related competency. We validate AVI-Personality through reliability, construct validity, internal nomological association, fairness, and benchmark analyses. Validation results show that the observer-rated personality traits have moderate to high reliability, especially when ratings are based on personality-targeted questions. Benchmark results show that text-based AI algorithms provide strong personality-relevant cues, while multimodal methods achieve the best overall performance but only modestly outperform text-based baselines. In general, AVI-Personality provides a psychometrically grounded dataset for developing and evaluating AI-based models for personality and competency assessment. The dataset is available are released at https://github.com/APAL-SEU/AVI6",
+    "abstract_zh": "随着基于人工智能的人格和工作相关能力评估的快速发展，异步视频面试（AVI）在招聘中越来越多地使用。然而，现有的多模态人格数据集通常基于简短的、无任务的社交媒体视频和众包的明显人格标签，这限制了它们的构造有效性和与结构化面试评估的相关性。为了解决这些限制，我们引入了 AVI-Personality，这是一个特征激活的多模态数据集，用于 AVI 的个性和工作相关能力评估。该数据集包含来自 646 名完成模拟管理培训申请的参与者的 3,876 个采访视频。党...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
+    "status": "预印本记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "wenming_zheng_591d401bb20e00ef",
+    "global_record_id": "0860c43810f3bdb0",
+    "scholar_id": "wenming_zheng",
+    "scholar_name": "郑文明",
+    "scholar_ids": [
+      "wenming_zheng",
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "郑文明",
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "wenming_zheng_591d401bb20e00ef"
+    ],
+    "resource_ids": [
+      "wenming_zheng__auto_code_79957cc62c"
+    ],
+    "code_urls": [
+      "https://github.com/APAL-SEU/AVI6"
+    ],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "wenming_zheng": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "郑文明",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "张天翼",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "郑文明：脑电基准、数据与评测",
+      "张天翼：情感数据集、基准与评测"
+    ],
+    "resource_status": "已关联公开代码/数据/模型资源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "EMMR: Emotion-Mediated Multimodal Reasoning for Personality Assessment in Asynchronous Video Interviews",
+    "title_en": "EMMR: Emotion-Mediated Multimodal Reasoning for Personality Assessment in Asynchronous Video Interviews",
+    "title_zh": "EMMR：异步视频面试中用于人格评估的情绪介导多模态推理",
+    "year": 2026,
+    "venue": "CoRR",
+    "authors": [
+      "Dongsheng Hu",
+      "Tianyi Zhang",
+      "Chuang Liu",
+      "Yuan Zong",
+      "Yong Li",
+      "Wenming Zheng",
+      "XiuXiu Zhan"
+    ],
+    "doi": "10.48550/ARXIV.2608.07512",
+    "dblp_key": "journals/corr/abs-2608-07512",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2608.07512",
+    "pdf_url": "https://arxiv.org/pdf/2608.07512",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2608-07512.html",
+    "openalex_id": "https://openalex.org/W7202187509",
+    "openalex_author_id": "https://openalex.org/A5049516313",
+    "cited_by_count": 0,
+    "abstract_en": "Asynchronous Video Interviews (AVIs) have become increasingly popular for personality assessment. Recent large language models (LLMs) have shown potential for personality assessment from transcribed interview responses. However, text-centered methods may overlook non-verbal behavioral cues conveyed through visual and audio modalities, even though such cues are highly relevant to personality assessment. In particular, emotion-related cues provide important social and affective evidence for understanding candidates' behavior related to personality traits. Thus, we propose EMMR (Emotion-Mediated Multimodal Reasoning), a two-stage framework for MLLMs-based personality assessment for AVIs. EMMR extracts emotion-related cues from multimodal interview data and incorporates them into personality assessment through structured reasoning as auxiliary social and behavioral evidence. Experiments on two AVIs datasets, OPVA and AVI-6, show that EMMR improves MAE, MSE, and PCC compared with baselines. Further analysis indicates that semantic descriptions of emotion cues enhance personality assessment, while their quality affects personality assessment reliability. These results suggest that integrating emotion-related cues into multimodal reasoning is a promising direction for more interpretable MLLMs-based personality assessment in AVIs.",
+    "abstract_zh": "异步视频面试 (AVI) 在性格评估中越来越受欢迎。最近的大型语言模型（LLM）已经显示出根据转录的采访回答进行人格评估的潜力。然而，以文本为中心的方法可能会忽略通过视觉和音频方式传达的非语言行为线索，即使这些线索与人格评估高度相关。特别是，与情绪相关的线索为理解候选人与人格特质相关的行为提供了重要的社会和情感证据。因此，我们提出了 EMMR（情绪介导的多模态推理），这是一种基于 MLLM 的 AVI 人格评估的两阶段框架。 EMMR电子...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解",
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
+    "status": "预印本记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "wenming_zheng_4cc43ad6b3373c8b",
+    "global_record_id": "d7270998a56c3652",
+    "scholar_id": "wenming_zheng",
+    "scholar_name": "郑文明",
+    "scholar_ids": [
+      "wenming_zheng",
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "郑文明",
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "wenming_zheng_4cc43ad6b3373c8b"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "wenming_zheng": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "郑文明",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "张天翼",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "郑文明：情感脑电与多模态生理信号",
+      "张天翼：情感数据集、基准与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "PersonalityLLM: Fine-tuning Large Language Models for Personality Assessment from Asynchronous Video Interviews",
+    "title_en": "PersonalityLLM: Fine-tuning Large Language Models for Personality Assessment from Asynchronous Video Interviews",
+    "title_zh": "PersonalityLLM：微调大型语言模型，用于异步视频访谈的人格评估",
+    "year": 2026,
+    "venue": "IEEE Trans. Affect. Comput.",
+    "authors": [
+      "Tianyi Zhang",
+      "Dongsheng Hu",
+      "Xiu-xiu Zhan",
+      "Shan Liang",
+      "Yuan Zong",
+      "Yong Li",
+      "Chuang Liu",
+      "Wenming Zheng"
+    ],
+    "doi": "10.1109/TAFFC.2026.3684073",
+    "paper_url": "https://aip.seu.edu.cn/wmzheng/main.htm",
+    "source_url": "https://aip.seu.edu.cn/wmzheng/main.htm",
+    "topics": [
+      "情感计算",
+      "脑电情感识别",
+      "EEG-fNIRS双模态",
+      "人工智能与模式识别",
+      "脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W7154643407",
+    "openalex_author_id": "https://openalex.org/A5027316177",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 3,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "official institutional publication list",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "wenming_zheng_924769d27b88",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "情感计算",
+      "脑电情感识别",
+      "EEG-fNIRS双模态",
+      "人工智能与模式识别",
+      "脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wenming_zheng",
+    "scholar_name": "郑文明",
+    "work_title_group": "afe750f5d5a9",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "wenming_zheng",
+      "panorama_6ea6272c5bf0",
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "郑文明",
+      "宗源",
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "wenming_zheng_924769d27b88"
+    ],
+    "scholar_categories": {
+      "wenming_zheng": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "郑文明",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "panorama_6ea6272c5bf0": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "宗源",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "张天翼",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "global_record_id": "4de31613d8667301",
+    "primary_categories_by_scholar": [
+      "郑文明：情感脑电与多模态生理信号",
+      "宗源：情感脑电与多模态生理信号",
+      "张天翼：情感数据集、基准与评测"
+    ],
+    "dblp_key": "journals/taffco/ZhangHZLZLLZ26",
+    "abstract_en": "Asynchronous Video Interviews (AVIs) have gained traction in personality assessment due to their structured format and scalability. In the context of AVI, candidates respond to questions designed by psychologists to elicit specific personality traits. While Large Language Models (LLMs) possess strong semantic capabilities, most existing approaches apply them in a zero-shot manner without adapting to the content and structure of AVI questions. This can result in misalignment between candidate responses of designed questions and the corresponding personality traits. Thus fine-tuning LLMs to improve trait-specific reasoning becomes essential. However, the gap between the lack of sufficient annotated AVI data and the billions of parameters of LLMs makes fine-tuning challenging for AVI-based personality assessment. To address these limitations, we proposePersonalityLLM, a two-stage framework for fine-grained personality assessment. The first stage classifies the AVI responses of interviewees into a personality trait category. After that, a continuous score is predicted in the second stage based on the identified personality category and its empirical range. This structure reduces the learning burden by narrowing the prediction space and allowing each stage to focus on a simpler task. It improves the learning efficiency by reusing trait-level information to guide score estimation. Both stages are fine-tuned using Low-Rank Adaptation (LoRA) to further lower the parameter requirement. Together, the structure and fine-tuning method enable effective learning from limited annotated data and bridge the AVI question responses and their corresponding personality traits. Experiments on two benchmark AVI datasets demonstrate that, with only 120 annotated subjects for training,PersonalityLLMachieves consistently lower MAE and MSE than both zero-shot LLMs and fine-tuned text-based baselines. Specifically, it attains MAE/MSE of 0.33/0.17 and 0.26/0.12 on OPVA and AVI-6 dataset respectively, outperforming both zero-shot LLMs and fine-tuned text-based baselines.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "异步视频面试 (AVI) 因其结构化格式和可扩展性而在性格评估中受到关注。在 AVI 的背景下，候选人回答心理学家设计的问题，以得出特定的人格特征。虽然大型语言模型 (LLM) 具有强大的语义功能，但大多数现有方法以零样本的方式应用它们，而不适应 AVI 问题的内容和结构。这可能会导致候选人对设计问题的回答与相应的性格特征之间出现不一致。因此，微调大语言模型以提高特定特征的推理能力变得至关重要。然而，两者之间的差距缺乏足够的..."
+  },
+  {
+    "title": "Assessing Personality Traits and Interview Performance from Asynchronous Video Interviews",
+    "title_en": "Assessing Personality Traits and Interview Performance from Asynchronous Video Interviews",
+    "title_zh": "评估人格特质和面试表现来自异步视频采访",
+    "year": 2025,
+    "venue": "ACM Multimedia",
+    "authors": [
+      "Tianyi Zhang",
+      "Tianhua Qi",
+      "Antonis Koutsoumpis",
+      "Yuan Zong",
+      "Wenming Zheng",
+      "Janneke K. Oostrom",
+      "Djurre Holtrop",
+      "Zhaojie Luo",
+      "Reinout E. de Vries"
+    ],
+    "doi": "10.1145/3746027.3762016",
+    "paper_url": "https://aip.seu.edu.cn/wmzheng/main.htm",
+    "source_url": "https://aip.seu.edu.cn/wmzheng/main.htm",
+    "topics": [
+      "情感计算",
+      "脑电情感识别",
+      "EEG-fNIRS双模态",
+      "人工智能与模式识别",
+      "脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4415537982",
+    "openalex_author_id": "https://openalex.org/A5029771864",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 17,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "official institutional publication list",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "wenming_zheng_6d260357d3eb",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "情感计算",
+      "脑电情感识别",
+      "EEG-fNIRS双模态",
+      "人工智能与模式识别",
+      "脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wenming_zheng",
+    "scholar_name": "郑文明",
+    "work_title_group": "ffc7cb6eba50",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "wenming_zheng",
+      "panorama_6ea6272c5bf0",
+      "panorama_7dab343da17a",
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "郑文明",
+      "宗源",
+      "罗兆杰",
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "wenming_zheng_6d260357d3eb"
+    ],
+    "scholar_categories": {
+      "wenming_zheng": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "郑文明",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "panorama_6ea6272c5bf0": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "宗源",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_7dab343da17a": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "罗兆杰",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "张天翼",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "global_record_id": "804f55d288538d7e",
+    "primary_categories_by_scholar": [
+      "郑文明：情感脑电与多模态生理信号",
+      "宗源：脑电基准、数据与评测",
+      "罗兆杰：脑电基准、数据与评测",
+      "张天翼：情感数据集、基准与评测"
+    ],
+    "dblp_key": "conf/mm/ZhangQKZZOHLV25",
+    "pdf_url": "https://research.tilburguniversity.edu/en/publications/a0205ef1-f13b-4d7f-a464-92735583a527",
+    "abstract_en": "Asynchronous Video Interviews (AVIs) allow candidates to record responses to predefined questions using digital devices, offering both flexibility and remote accessibility. Assessing personality traits and interview performance via AVIs provides organizations with valuable insights into candidate profiles and facilitates the prediction of future job performance. However, prior benchmark challenges, whose datasets were predominantly sourced from social media, suffer from suboptimal construct and methodological validity, limiting their utility for model development and real-world applications. To address these limitations, we introduce the AVI Grand Challenge at ACM Multimedia 2025, featuring a novel dataset of mock AVIs comprising 3,876 videos from 646 participants in a simulated job application procedure. Interview questions were carefully designed to reflect real-world selection contexts and elicit personality expressions grounded in Trait Activation Theory. Personality traits and job competencies were annotated by trained evaluators and professional recruiters, ensuring both methodological rigor and ecological validity. The solutions and algorithms developed in this challenge are analyzed and summarized in this paper to foster the development of fair, reliable, and AI-driven hiring assessments.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "异步视频面试 (AVI) 允许候选人使用数字设备记录对预定义问题的回答，提供灵活性和远程访问性。通过 AVI 评估性格特征和面试表现，可以为组织提供有关候选人资料的宝贵见解，并有助于预测未来的工作表现。然而，之前的基准挑战的数据集主要来自社交媒体，其结构和方法有效性不理想，限制了它们在模型开发和现实世界应用中的实用性。为了解决这些限制，我们在 ACM Multimedia 2025 上推出了 AVI Grand Challenge，其中包括..."
+  },
+  {
+    "title": "Beyond traditional interviews: Psychometric analysis of asynchronous video interviews for personality and interview performance evaluation using machine learning",
+    "title_en": "Beyond traditional interviews: Psychometric analysis of asynchronous video interviews for personality and interview performance evaluation using machine learning",
+    "title_zh": "超越传统面试：使用机器学习对异步视频面试进行个性心理测量分析和面试表现评估",
+    "year": 2024,
+    "venue": "Comput. Hum. Behav.",
+    "authors": [
+      "Antonis Koutsoumpis",
+      "Sina Ghassemi",
+      "Janneke K. Oostrom",
+      "Djurre Holtrop",
+      "Ward van Breda",
+      "Tianyi Zhang",
+      "Reinout E. de Vries"
+    ],
+    "doi": "10.1016/J.CHB.2023.108128",
+    "dblp_key": "journals/chb/KoutsoumpisGOHBZV24",
+    "paper_url": "https://doi.org/10.1016/J.CHB.2023.108128",
+    "pdf_url": "https://doi.org/10.1016/j.chb.2023.108128",
+    "source_url": "https://dblp.org/rec/journals/chb/KoutsoumpisGOHBZV24.html",
+    "openalex_id": "https://openalex.org/W4390479873",
+    "openalex_author_id": "https://openalex.org/A5049516313",
+    "cited_by_count": 75,
+    "abstract_en": "With the advent of new technology, traditional job interviews have been supplemented by asynchronous video interviews (AVIs). However, research on psychometric properties of AVIs is limited. In this study, 710 participants completed a mock AVI responding to eight personality questions (Extraversion, Conscientiousness). We collected self- and observer reports of personality, interview performance ratings, attractiveness, and AVI meta-information (e.g., professional attire, audio quality). Then, we automatically extracted the words, facial expressions, and voice characteristics from the videos and trained machine learning models to predict the personality traits and interview performance. Our algorithm explained substantially more variance in observer reports of Extraversion and Conscientiousness (average R2 = 0.32) and interview performance (R2 = 0.44), than self-reported Extraversion and Conscientiousness (average R2 = 0.12). Consistent with Trait Activation Theory, the explained variance in personality traits increased when participants responded to trait-relevant, compared to trait-irrelevant, questions. The test-retest reliability of our algorithm was somewhat stable over a time period of seven months, but lower than desired reliability standards in personnel selection. We examined potential sources of bias, including age, gender, and attractiveness, and found some instances of algorithmic bias (e.g., gender differences were often amplified in favor of women).",
+    "abstract_zh": "随着新技术的出现，异步视频面试 (AVI) 补充了传统的工作面试。然而，对 AVI 心理测量特性的研究有限。在这项研究中，710 名参与者完成了模拟 AVI，回答了八个性格问题（外向性、尽责性）。我们收集了有关性格、面试表现评分、吸引力和 AVI 元信息（例如职业着装、音频质量）的自我报告和观察者报告。然后，我们自动从视频中提取单词、面部表情和声音特征，并训练机器学习模型来预测人格特征和面试表现。我们的算法解释了更多的方差......",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 17/322-13）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_02b2025de2e8_329d0fef5bcf488c",
+    "global_record_id": "e6e125583db79de1",
+    "scholar_id": "panorama_02b2025de2e8",
+    "scholar_name": "张天翼",
+    "scholar_ids": [
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "panorama_02b2025de2e8_329d0fef5bcf488c"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "张天翼",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张天翼：情感数据集、基准与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测"
+  },
+  {
+    "title": "Can Large Language Models Assess Personality From Asynchronous Video Interviews? A Comprehensive Evaluation of Validity, Reliability, Fairness, and Rating Patterns",
+    "title_en": "Can Large Language Models Assess Personality From Asynchronous Video Interviews? A Comprehensive Evaluation of Validity, Reliability, Fairness, and Rating Patterns",
+    "title_zh": "大型语言模型可以通过异步视频面试评估性格吗？有效性、可靠性、公平性和评级模式的综合评估",
+    "year": 2024,
+    "venue": "IEEE Trans. Affect. Comput.",
+    "authors": [
+      "Tianyi Zhang",
+      "Antonis Koutsoumpis",
+      "Janneke K. Oostrom",
+      "Djurre Holtrop",
+      "Sina Ghassemi",
+      "Reinout E. de Vries"
+    ],
+    "doi": "10.1109/TAFFC.2024.3374875",
+    "dblp_key": "journals/taffco/ZhangKOHGV24",
+    "paper_url": "https://doi.org/10.1109/TAFFC.2024.3374875",
+    "pdf_url": "https://research.tilburguniversity.edu/en/publications/22b9c1e3-f48a-4a5a-9ddd-c4cfd3ea414c",
+    "source_url": "https://dblp.org/rec/journals/taffco/ZhangKOHGV24.html",
+    "openalex_id": "https://openalex.org/W4392607660",
+    "openalex_author_id": "https://openalex.org/A5049516313",
+    "cited_by_count": 66,
+    "abstract_en": "The advent of Artificial Intelligence (AI) technologies has precipitated the rise of asynchronous video interviews (AVIs) as an alternative to conventional job interviews. These one-way video interviews are conducted online and can be analyzed using AI algorithms to automate and speed up the selection procedure. In particular, the swift advancement of Large Language Models (LLMs) has significantly decreased the cost and technical barrier to developing AI systems for automatic personality and interview performance evaluation. However, the generative and task-unspecific nature of LLMs might pose potential risks and biases when evaluating humans based on their AVI responses. In this study, we conducted a comprehensive evaluation of the validity, reliability, fairness, and rating patterns of two widely-used LLMs, GPT-3.5 and GPT-4, in assessing personality and interview performance from an AVI. We compared the personality and interview performance ratings of the LLMs with the ratings from a task-specific AI model and human annotators using simulated AVI responses of 685 participants. The results show that LLMs can achieve similar or even better zero-shot validity compared with the task-specific AI model when predicting personality traits. The verbal explanations for predicting personality traits generated by LLMs are interpretable by the personality items that are designed according to psychological theories. However, LLMs also suffered from uneven performance across different traits, insufficient test-retest reliability, and the emergence of certain biases. Thus, it is necessary to exercise caution when applying LLMs for human-related application scenarios, especially for significant decisions such as employment.",
+    "abstract_zh": "人工智能 (AI) 技术的出现促进了异步视频面试 (AVI) 的兴起，作为传统工作面试的替代方案。这些单向视频面试是在线进行的，可以使用人工智能算法进行分析，以自动化并加快选择过程。特别是，大型语言模型（LLM）的迅速发展显着降低了开发用于自动个性和面试表现评估的人工智能系统的成本和技术障碍。然而，大语言模型的生成性和任务非特异性性质在根据 AVI 反应评估人类时可能会带来潜在的风险和偏见。在这项研究中，我们对有效性进行了综合评估...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 17/322-13）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_02b2025de2e8_a622adee2fefd44c",
+    "global_record_id": "54bd5cfc977ebe05",
+    "scholar_id": "panorama_02b2025de2e8",
+    "scholar_name": "张天翼",
+    "scholar_ids": [
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "panorama_02b2025de2e8_a622adee2fefd44c"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "张天翼",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张天翼：情感数据集、基准与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测"
+  },
+  {
+    "title": "Can Large Language Models Assess Personality From Asynchronous Video Interviews? A Comprehensive Evaluation of Validity, Reliability, Fairness, and Rating Patterns. IEEE Transactions on Affective Computing",
+    "title_en": "Can Large Language Models Assess Personality From Asynchronous Video Interviews? A Comprehensive Evaluation of Validity, Reliability, Fairness, and Rating Patterns. IEEE Transactions on Affective Computing",
+    "title_zh": "大型语言模型可以通过异步视频面试评估性格吗？有效性、可靠性、公平性和评级模式的综合评估。 IEEE 情感计算汇刊",
+    "year": 2024,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "张天翼"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_02b2025de2e8_772bf60c2e8c",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理",
+    "secondary_tags": [
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_02b2025de2e8",
+    "scholar_name": "张天翼",
+    "work_title_group": "0cb53180a40c",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "panorama_02b2025de2e8_772bf60c2e8c"
+    ],
+    "scholar_categories": {
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "张天翼",
+        "secondary_tags": [
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "0f92acec912277a6",
+    "primary_categories_by_scholar": [
+      "张天翼：情感理解与多模态推理"
+    ]
+  },
+  {
+    "title": "Unsupervised Multimodal Learning for Dependency-Free Personality Recognition",
+    "title_en": "Unsupervised Multimodal Learning for Dependency-Free Personality Recognition",
+    "title_zh": "用于无依赖性人格识别的无监督多模态学习",
+    "year": 2024,
+    "venue": "IEEE Trans. Affect. Comput.",
+    "authors": [
+      "Sina Ghassemi",
+      "Tianyi Zhang",
+      "Ward van Breda",
+      "Antonis Koutsoumpis",
+      "Janneke K. Oostrom",
+      "Djurre Holtrop",
+      "Reinout E. de Vries"
+    ],
+    "doi": "10.1109/TAFFC.2023.3318367",
+    "dblp_key": "journals/taffco/GhassemiZBKOHV24",
+    "paper_url": "https://doi.org/10.1109/TAFFC.2023.3318367",
+    "pdf_url": "https://research.vu.nl/en/publications/6b9cec81-3821-4b80-b2ff-b4cdc32d3f3c",
+    "source_url": "https://dblp.org/rec/journals/taffco/GhassemiZBKOHV24.html",
+    "openalex_id": "https://openalex.org/W4386952201",
+    "openalex_author_id": "https://openalex.org/A5049516313",
+    "cited_by_count": 46,
+    "abstract_en": "Recent advances in AI-based learning models have significantly increased the accuracy of Automatic Personality Recognition (APR). However, these methods either require training data from the same subject or the meta-information from the training set to learn the personality-related features (i.e., subject-dependency). The variance of feature extraction for different subjects compromises the possibility of designing a dependency-free system for APR. To address this problem, we present an unsupervised multimodal learning framework to infer personality traits from audio, visual, and verbal modalities. Our method both extracts the handcraft features and transfers deep-learning based embeddings from other tasks (e.g., emotion recognition) to recognize personality traits. Since these representations are extracted locally in the time domain, we present an unsupervised temporal aggregation method to aggregate the extracted features over the temporal dimension. We evaluate our method on the ChaLearn dataset, the most widely referenced dataset for APR, using a dependency-free split of the dataset. Our results show that the proposed feature extraction and temporal aggregation modules do not require personality annotations in training but still outperform other state-of-the-art baseline methods. We also address the problem of subject-dependency in the original split of the ChaLearn dataset. The newly proposed split (i.e., data for training, validation, and testing) of the dataset can benefit the community by providing a more accurate method to validate the subject-generalizability of APR algorithms.",
+    "abstract_zh": "基于人工智能的学习模型的最新进展显着提高了自动人格识别（APR）的准确性。然而，这些方法要么需要来自同一主题的训练数据，要么需要来自训练集的元信息来学习与人格相关的特征（即主题依赖性）。不同主题的特征提取的差异损害了为 APR 设计无依赖性系统的可能性。为了解决这个问题，我们提出了一个无监督的多模态学习框架，从音频、视觉和语言模态推断人格特征。我们的方法既提取手工特征，又将基于深度学习的嵌入从其他任务（例如情感识别）转移到re...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解",
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 17/322-13）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_02b2025de2e8_1fbc6e5a238cb34b",
+    "global_record_id": "84d829255217d47c",
+    "scholar_id": "panorama_02b2025de2e8",
+    "scholar_name": "张天翼",
+    "scholar_ids": [
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "panorama_02b2025de2e8_1fbc6e5a238cb34b"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "张天翼",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张天翼：情感数据集、基准与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测"
+  },
+  {
+    "title": "Multimodal-Based and Aesthetic-Guided Narrative Video Summarization",
+    "title_en": "Multimodal-Based and Aesthetic-Guided Narrative Video Summarization",
+    "title_zh": "基于多模态和美学引导的叙事视频摘要",
+    "year": 2023,
+    "venue": "IEEE Trans. Multim.",
+    "authors": [
+      "Jiehang Xie",
+      "Xuanbai Chen",
+      "Tianyi Zhang",
+      "Yixuan Zhang",
+      "Shao-Ping Lu",
+      "Pablo César",
+      "Yulu Yang"
+    ],
+    "doi": "10.1109/TMM.2022.3183394",
+    "dblp_key": "journals/tmm/XieCZZLCY23",
+    "paper_url": "https://doi.org/10.1109/TMM.2022.3183394",
+    "pdf_url": "https://ir.cwi.nl/pub/31736/31736.pdf",
+    "source_url": "https://dblp.org/rec/journals/tmm/XieCZZLCY23.html",
+    "openalex_id": "https://openalex.org/W4285058679",
+    "openalex_author_id": "https://openalex.org/A5049516313",
+    "cited_by_count": 30,
+    "abstract_en": "Narrative videos usually illustrate the main content through multiple narrative information such as audios, video frames and subtitles. Existing video summarization approaches rarely consider the multiple dimensional narrative inputs, or ignore the impact of shots artistic assembly when directly applied to narrative videos. This paper introduces a multimodal-based and aesthetic-guided narrative video summarization method. Our method leverages multimodal information including visual content, subtitles and audio information through our specified key shots selection, subtitle summarization, and highlight extraction components. Furthermore, under the guidance of cinematographic aesthetic, we design a novel shots assembly module to ensure the shot content completeness and then assemble the selected shots into a desired summary. Besides, our method also provides the flexible specification for shots selection, to achieve which it automatically selects semantically related shots according to the user-designed text. By conducting a large number of quantitative experimental evaluations and user studies, we demonstrate that our method effectively preserves important narrative information of the original video, and it is capable of rapidly producing high-quality and aesthetic-guided narrative video summaries.",
+    "abstract_zh": "叙事视频通常通过音频、视频帧、字幕等多种叙事信息来说明主要内容。现有的视频摘要方法很少考虑多维叙事输入，或者忽略直接应用于叙事视频时镜头艺术组合的影响。本文介绍了一种基于多模态、审美引导的叙事视频摘要方法。我们的方法通过我们指定的关键镜头选择、字幕摘要和亮点提取组件来利用多模态信息，包括视觉内容、字幕和音频信息。此外，我们在电影美学的指导下，设计了新颖的镜头拼装模块，以保证...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 17/322-13）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_02b2025de2e8_d64317a969143017",
+    "global_record_id": "ed0894b3db9e3ba2",
+    "scholar_id": "panorama_02b2025de2e8",
+    "scholar_name": "张天翼",
+    "scholar_ids": [
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "panorama_02b2025de2e8_d64317a969143017"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "张天翼",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张天翼：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Group Synchrony for Emotion Recognition Using Physiological Signals",
+    "title_en": "Group Synchrony for Emotion Recognition Using Physiological Signals",
+    "title_zh": "使用生理信号进行情绪识别的群体同步",
+    "year": 2023,
+    "venue": "IEEE Trans. Affect. Comput.",
+    "authors": [
+      "Patrícia J. Bota",
+      "Tianyi Zhang",
+      "Abdallah El Ali",
+      "Ana Fred",
+      "Hugo Plácido da Silva",
+      "Pablo César"
+    ],
+    "doi": "10.1109/TAFFC.2023.3265433",
+    "dblp_key": "journals/taffco/BotaZAFSC23",
+    "paper_url": "https://doi.org/10.1109/TAFFC.2023.3265433",
+    "pdf_url": "https://ir.cwi.nl/pub/33017/33017.pdf",
+    "source_url": "https://dblp.org/rec/journals/taffco/BotaZAFSC23.html",
+    "openalex_id": "https://openalex.org/W4362714408",
+    "openalex_author_id": "https://openalex.org/A5049516313",
+    "cited_by_count": 33,
+    "abstract_en": "During group interactions, we react and modulate our emotions and behaviour to the group through phenomena including emotion contagion and physiological synchrony. Previous work on emotion recognition through video/image has shown that group context information improves the classification performance. However, when using physiological data, literature mostly focuses on intrapersonal models that leave-out group information, while interpersonal models are unexplored. This paper introduces a new interpersonal Weighted Group Synchrony approach, which relies on Electrodermal Activity (EDA) and Heart-Rate Variability (HRV). We perform an analysis of synchrony metrics applied across diverse data representations (EDA and HRV morphology and features, recurrence plot, spectrogram), to identify which metrics and modalities better characterise physiological synchrony for emotion recognition. We explored two datasets (AMIGOS and K-EmoCon), covering different group sizes (4 vs dyad) and group-based activities (video-watching vs conversation). The experimental results show that integrating group information improves arousal and valence classification, across all datasets, with the exception of K-EmoCon on valence. The proposed method was able to attain mean M-F1 of$\\approx$72.15% arousal and 81.16% valence for AMIGOS, and M-F1 of$\\approx$52.63% arousal, 65.09% valence for K-EmoCon, surpassing previous work results for K-EmoCon on arousal, and providing a new baseline on AMIGOS for long-videos.",
+    "abstract_zh": "在群体互动过程中，我们通过情绪感染和生理同步等现象对群体做出反应并调节我们的情绪和行为。之前通过视频/图像进行情感识别的工作表明，组上下文信息可以提高分类性能。然而，在使用生理数据时，文献主要集中在忽略群体信息的个人模型上，而人际模型尚未得到探索。本文介绍了一种新的人际加权组同步方法，该方法依赖于皮电活动 (EDA) 和心率变异性 (HRV)。我们对跨不同数据表示（EDA 和 HRV 形态和特征）应用的同步指标进行分析...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 17/322-13）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_02b2025de2e8_4a3da04f9a22b937",
+    "global_record_id": "64576667b366fecd",
+    "scholar_id": "panorama_02b2025de2e8",
+    "scholar_name": "张天翼",
+    "scholar_ids": [
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "panorama_02b2025de2e8_4a3da04f9a22b937"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "张天翼",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张天翼：情感数据集、基准与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测"
+  },
+  {
+    "title": "Weakly-Supervised Learning for Fine-Grained Emotion Recognition Using Physiological Signals",
+    "title_en": "Weakly-Supervised Learning for Fine-Grained Emotion Recognition Using Physiological Signals",
+    "title_zh": "使用生理信号进行细粒度情绪识别的弱监督学习",
+    "year": 2023,
+    "venue": "IEEE Trans. Affect. Comput.",
+    "authors": [
+      "Tianyi Zhang",
+      "Abdallah El Ali",
+      "Chen Wang",
+      "Alan Hanjalic",
+      "Pablo César"
+    ],
+    "doi": "10.1109/TAFFC.2022.3158234",
+    "dblp_key": "journals/taffco/ZhangAWHC23",
+    "paper_url": "https://doi.org/10.1109/TAFFC.2022.3158234",
+    "pdf_url": "https://ir.cwi.nl/pub/31569/31569.pdf",
+    "source_url": "https://dblp.org/rec/journals/taffco/ZhangAWHC23.html",
+    "openalex_id": "https://openalex.org/W4225611164",
+    "openalex_author_id": "https://openalex.org/A5049516313",
+    "cited_by_count": 40,
+    "abstract_en": "Instead of predicting just one emotion for one activity (e.g., video watching), fine-grained emotion recognition enables more temporally precise recognition. Previous works on fine-grained emotion recognition require segment-by-segment, fine-grained emotion labels to train the recognition algorithm. However, experiments to collect these labels are costly and time-consuming compared with only collecting one emotion label after the user watched that stimulus (i.e., the post-stimuli emotion labels). To recognize emotions at a finer granularity level when trained with only post-stimuli labels, we propose an emotion recognition algorithm based on Deep Multiple Instance Learning (EDMIL) using physiological signals.EDMILrecognizes fine-grained valence and arousal (V-A) labels by identifying which instances represent the post-stimuli V-A annotated by users after watching the videos. Instead of fully-supervised training, the instances are weakly-supervised by the post-stimuli labels in the training stage. The V-A of instances are estimated by the instance gains, which indicate the probability of instances to predict the post-stimuli labels. We testedEDMILon three different datasets,CASE,MERCAandCEAP-360VR, collected in three different environments: desktop, mobile and HMD-based Virtual Reality, respectively. Recognition results validated with the fine-grained V-A self-reports show that for subject-independent 3-class classification (high/neutral/low),EDMILobtains promising recognition accuracies: 75.63% and 79.73% for V-A onCASE, 70.51% and 67.62% for V-A onMERCAand 65.04% and 67.05% for V-A onCEAP-360VR. Our ablation study shows that all components ofEDMILcontribute to both the classification and regression tasks. Our experiments also show that (1) compared with fully-supervised learning, weakly-supervised learning can reduce the problem of overfitting caused by the temporal mismatch between fine-grained annotations and physiological signals, (2) instance segment lengths between 1-2 s result in the highest recognition accuracies and (3)EDMILperforms best if post-stimuli annotations consist of less than 30% or more than 60% of the entire video watching.",
+    "abstract_zh": "细粒度的情绪识别不是只预测一项活动（例如观看视频）的一种情绪，而是可以在时间上实现更精确的识别。之前关于细粒度情感识别的工作需要逐段、细粒度的情感标签来训练识别算法。然而，与用户观看该刺激后仅收集一个情绪标签（即刺激后情绪标签）相比，收集这些标签的实验既昂贵又耗时。为了在仅使用刺激后标签进行训练时以更精细的粒度级别识别情绪，我们提出了一种基于使用生理信号的深度多实例学习（EDMIL）的情绪识别算法。EDMIL 识别细粒度的值...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 17/322-13）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_02b2025de2e8_1d42024b0b77f8b1",
+    "global_record_id": "708101f07bda91ee",
+    "scholar_id": "panorama_02b2025de2e8",
+    "scholar_name": "张天翼",
+    "scholar_ids": [
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "panorama_02b2025de2e8_1d42024b0b77f8b1"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "张天翼",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张天翼：情感数据集、基准与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测"
+  },
+  {
+    "title": "Few-Shot Learning for Fine-Grained Emotion Recognition Using Physiological Signals",
+    "title_en": "Few-Shot Learning for Fine-Grained Emotion Recognition Using Physiological Signals",
+    "title_zh": "使用生理信号进行细粒度情绪识别的少样本学习",
+    "year": 2023,
+    "venue": "IEEE Trans. Multim.",
+    "authors": [
+      "Tianyi Zhang",
+      "Abdallah El Ali",
+      "Alan Hanjalic",
+      "Pablo César"
+    ],
+    "doi": "10.1109/TMM.2022.3165715",
+    "dblp_key": "journals/tmm/ZhangAHC23",
+    "paper_url": "https://doi.org/10.1109/TMM.2022.3165715",
+    "pdf_url": "https://repository.tudelft.nl/file/File_1201201a-d2b5-433f-aa88-229500db8079",
+    "source_url": "https://dblp.org/rec/journals/tmm/ZhangAHC23.html",
+    "openalex_id": "https://openalex.org/W4226068530",
+    "openalex_author_id": "https://openalex.org/A5049516313",
+    "cited_by_count": 40,
+    "abstract_en": "Fine-grained emotion recognition can model the temporal dynamics of emotions, which is more precise than predicting one emotion retrospectively for an activity (e.g., video clip watching). Previous works require large amounts of continuously annotated data to train an accurate recognition model, however experiments to collect such large amounts of continuously annotated physiological signals are costly and time-consuming. To overcome this challenge, we propose an Emotion recognition algorithm based on Deep Siamese Networks (EmoDSN) which can rapidly converge on a small amount of training data, typically less than 10 samples per class (i.e., <10 shot). EmoDSN recognizes fine-grained valence and arousal (V-A) labels by maximizing the distance metric between signal segments with different V-A labels. We tested EmoDSN on three different datasets collected in three different environments: desktop, mobile and HMD-based virtual reality, respectively. The results from our experiments show that EmoDSN achieves promising results for both one-dimension binary (high/low V-A, 1D-2 C) and two-dimensional 5-class (four quadrants of V- A space + neutral, 2D-5 C) classification. We get an averaged accuracy of 76.04, 76.62 and 57.62% for 1D-2 C valence, 1D-2 C arousal, and 2D-5 C, respectively, by using only 5 shots of training data. Our experiments show that EmoDSN can achieve better results if we select training samples from the changing points of emotion or the ending moments of video watching.",
+    "abstract_zh": "细粒度的情绪识别可以对情绪的时间动态进行建模，这比回顾性地预测某项活动（例如观看视频剪辑）的一种情绪更精确。以前的工作需要大量连续注释的数据来训练准确的识别模型，然而收集如此大量的连续注释的生理信号的实验既昂贵又耗时。为了克服这一挑战，我们提出了一种基于深度连体网络 (EmoDSN) 的情绪识别算法，该算法可以快速收敛于少量训练数据，通常每类少于 10 个样本（即 <10 个镜头）。 EmoDSN 通过最大化距离来识别细粒度的效价和唤醒 (V-A) 标签...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 17/322-13）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_02b2025de2e8_c9d665c973fb8d5e",
+    "global_record_id": "afa52650fc190834",
+    "scholar_id": "panorama_02b2025de2e8",
+    "scholar_name": "张天翼",
+    "scholar_ids": [
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "panorama_02b2025de2e8_c9d665c973fb8d5e"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "张天翼",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张天翼：情感数据集、基准与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测"
+  },
+  {
+    "title": "CEAP-360VR: A Continuous Physiological and Behavioral Emotion Annotation Dataset for 360$^\\circ$ VR Videos",
+    "title_en": "CEAP-360VR: A Continuous Physiological and Behavioral Emotion Annotation Dataset for 360$^\\circ$ VR Videos",
+    "title_zh": "CEAP-360VR：360$^\\circ$ VR 视频的连续生理和行为情感注释数据集",
+    "year": 2023,
+    "venue": "IEEE Trans. Multim.",
+    "authors": [
+      "Tong Xue",
+      "Abdallah El Ali",
+      "Tianyi Zhang",
+      "Gangyi Ding",
+      "Pablo César"
+    ],
+    "doi": "10.1109/TMM.2021.3124080",
+    "dblp_key": "journals/tmm/XueAZDC23",
+    "paper_url": "https://doi.org/10.1109/TMM.2021.3124080",
+    "pdf_url": "https://ir.cwi.nl/pub/31191/31191.pdf",
+    "source_url": "https://dblp.org/rec/journals/tmm/XueAZDC23.html",
+    "openalex_id": "https://openalex.org/W3209712801",
+    "openalex_author_id": "https://openalex.org/A5049516313",
+    "cited_by_count": 92,
+    "abstract_en": "Watching 360$^\\circ$videos using Virtual Reality (VR) head-mounted displays (HMDs) provides interactive and immersive experiences, where videos can evoke different emotions. Existing emotion self-report techniques within VR however are either retrospective or interrupt the immersive experience. To address this, we introduce theContinuous Physiological and Behavioral Emotion Annotation Dataset for 360$^\\circ$Videos (CEAP-360VR). We conducted a controlled study (N=32) where participants used a Vive Pro Eye HMD to watch eight validated affective 360$^\\circ$video clips, and annotated their valence and arousal (V-A) continuously. We collected (a) behavioral (head and eye movements; pupillometry) signals (b) physiological (heart rate, skin temperature, electrodermal activity) responses (c) momentary emotion self-reports (d) within-VR discrete emotion ratings (e) motion sickness, presence, and workload. We show the consistency of continuous annotation trajectories and verify their mean V-A annotations. We find high consistency between viewed 360$^\\circ$video regions across subjects, with higher consistency for eye than head movements. We furthermore run baseline classification experiments, where Random Forest classifiers with 2s segments show good accuracies for subject-independent models: 66.80% (V) and 64.26% (A) for binary classification; 49.92% (V) and 52.20% (A) for 3-class classification. Our open dataset allows further experiments with continuous emotion self-reports collected in 360$^\\circ$VR environments, which can enable automatic assessment of immersive Quality of Experience (QoE) andmomentary affective states.",
+    "abstract_zh": "使用虚拟现实 (VR) 头戴式显示器 (HMD) 观看 360$^\\circ$视频可提供交互式和身临其境的体验，其中视频可以唤起不同的情感。然而，VR 中现有的情绪自我报告技术要么是回顾性的，要么会中断沉浸式体验。为了解决这个问题，我们引入了 360$^\\circ$ 视频的连续生理和行为情感注释数据集 (CEAP-360VR)。我们进行了一项对照研究 (N=32)，参与者使用 Vive Pro Eye HMD 观看八个经过验证的情感 360$^\\circ$ 视频剪辑，并连续注释它们的效价和唤醒度 (V-A)。我们收集（a）行为（头部和眼睛运动；瞳孔测量）信号（b）生理（心率、皮肤温度......",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 17/322-13）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_02b2025de2e8_f5274f9ce05ac0e6",
+    "global_record_id": "5ad292d922ca1e45",
+    "scholar_id": "panorama_02b2025de2e8",
+    "scholar_name": "张天翼",
+    "scholar_ids": [
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "panorama_02b2025de2e8_f5274f9ce05ac0e6"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "张天翼",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张天翼：情感数据集、基准与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测"
+  },
+  {
+    "title": "On Other Mental Considerations",
+    "title_en": "On Other Mental Considerations",
+    "title_zh": "关于其他心理因素",
+    "year": 2022,
+    "venue": "BRILL eBooks",
+    "authors": [
+      "Tianyi Zhang"
+    ],
+    "doi": "10.1163/9789004527744_006",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1163/9789004527744_006",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4318008332",
+    "openalex_id": "https://openalex.org/W4318008332",
+    "openalex_author_id": "https://openalex.org/A5049516313",
+    "cited_by_count": 0,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5049516313）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_02b2025de2e8_babed638712e8035",
+    "global_record_id": "d79e633ebb7b6afe",
+    "scholar_id": "panorama_02b2025de2e8",
+    "scholar_name": "张天翼",
+    "scholar_ids": [
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "panorama_02b2025de2e8_babed638712e8035"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "张天翼",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张天翼：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "AC-WGAN-GP: Augmenting ECG and GSR Signals using Conditional Generative Models for Arousal Classification",
+    "title_en": "AC-WGAN-GP: Augmenting ECG and GSR Signals using Conditional Generative Models for Arousal Classification",
+    "title_zh": "AC-WGAN-GP：使用条件生成模型增强 ECG 和 GSR 信号进行唤醒分类",
+    "year": 2021,
+    "venue": "UbiComp/ISWC Adjunct",
+    "authors": [
+      "Andrei Furdui",
+      "Tianyi Zhang",
+      "Marcel Worring",
+      "Pablo César",
+      "Abdallah El Ali"
+    ],
+    "doi": "10.1145/3460418.3479301",
+    "dblp_key": "conf/huc/FurduiZWCA21",
+    "paper_url": "https://doi.org/10.1145/3460418.3479301",
+    "pdf_url": "https://ir.cwi.nl/pub/31138/31138.pdf",
+    "source_url": "https://dblp.org/rec/conf/huc/FurduiZWCA21.html",
+    "openalex_id": "https://openalex.org/W3204716024",
+    "openalex_author_id": "https://openalex.org/A5049516313",
+    "cited_by_count": 13,
+    "abstract_en": "Computational recognition of human emotion using Deep Learning techniques requires learning from large collections of data. However, the complex processes involved in collecting and annotating physiological data lead to datasets with small sample sizes. Models trained on such limited data often do not generalize well to real-world settings. To address the problem of data scarcity, we use an Auxiliary Conditioned Wasserstein Generative Adversarial Network with Gradient Penalty (AC-WGAN-GP) to generate synthetic data. We compare the recognition performance between real and synthetic signals as training data in the task of binary arousal classification. Experiments on GSR and ECG signals show that generative data augmentation significantly improves model performance (avg. 16.5%) for binary arousal classification in a subject-independent setting.",
+    "abstract_zh": "使用深度学习技术对人类情感进行计算识别需要从大量数据中学习。然而，收集和注释生理数据所涉及的复杂过程导致数据集样本量较小。在如此有限的数据上训练的模型通常不能很好地推广到现实世界的环境。为了解决数据稀缺的问题，我们使用带有梯度惩罚的辅助条件 Wasserstein 生成对抗网络（AC-WGAN-GP）来生成合成数据。我们在二元唤醒分类任务中比较了作为训练数据的真实信号和合成信号之间的识别性能。 GSR 和 ECG 信号的实验表明，生成数据增强显着改善了...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 17/322-13）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_02b2025de2e8_53ecb126c6724fd8",
+    "global_record_id": "6838b255553294ee",
+    "scholar_id": "panorama_02b2025de2e8",
+    "scholar_name": "张天翼",
+    "scholar_ids": [
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "panorama_02b2025de2e8_53ecb126c6724fd8"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "张天翼",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张天翼：情感数据集、基准与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测"
+  },
+  {
+    "title": "CEAP-360VR: A Continuous Physiological and Behavioral Emotion Annotation Dataset for 360 VR Videos",
+    "title_en": "CEAP-360VR: A Continuous Physiological and Behavioral Emotion Annotation Dataset for 360 VR Videos",
+    "title_zh": "CEAP-360VR：360 VR 视频的连续生理和行为情感注释数据集",
+    "year": 2021,
+    "venue": "Data Archiving and Networked Services (DANS)",
+    "authors": [
+      "Tong Xue",
+      "Abdallah El Ali",
+      "Tianyi Zhang",
+      "Gangyi Ding",
+      "Pablo S. Cesar"
+    ],
+    "doi": "10.5281/zenodo.6136883",
+    "dblp_key": "",
+    "paper_url": "https://ir.cwi.nl/pub/31545",
+    "pdf_url": "https://ir.cwi.nl/pub/31545",
+    "source_url": "https://openalex.org/W4393812157",
+    "openalex_id": "https://openalex.org/W4393812157",
+    "openalex_author_id": "https://openalex.org/A5049516313",
+    "cited_by_count": 9,
+    "abstract_en": "CEAP-360VR: A Continuous Physiological and Behavioral Emotion Annotation Dataset for 360° Videos ## General Information We develop the CEAP-360VR dataset to address the lack of continuously annotated behavioral and physiological datasets for 360 video VR affective computing. Accordingly, this dataset contains a) questionnaires (SSQ, IPQ, NASA-TLX); b) continuous valence-arousal annotations; c) head and eye movements as well as left and right eye pupil diameters while watching videos; d) peripheral physiological responses (ACC, EDA, SKT, BVP, HR, IBI). Our dataset also concludes the data pre-processing, data validating scripts, along with dataset description and key steps in the stage of data acquisition and pre-processing. ## Dataset Structure The CEAP-360VR folder contains the following six subfolders 1_Stimuli 2_QuestionnaireData 3_AnnotationData 4_BehaviorData 5_PhysioData 6_Scripts The following is a detailed description of each sub-file: 1_Stimuli - VideoThumbNails contains the eight thumbNails for each video (.jpg) - VideoInfo.json contains the detailed information for eight videos 2_QuestionnaireData - PXX_Questionnaire_Data.json (X = 1, 2, ..., 32) contains questionnaire data for each participant 3_AnnotationData - Raw contains the raw annotation data captured from the Joy-Con joystick for each participant - Transformed contains the transformed valence-arousal data generated from the raw data for each participant - Frame contains the re-sampled annotation data from the transformed data for each participant 4_BehaviorData - Raw contains the raw behavior data captured from the HTC VIVE Pro Eye Tobii Device for each participant - Transformed contains the transformed heam/eye movement data (pitch/yaw) generated from the raw data, as well as pupil diameter data for each participant - Frame contains the re-sampled behavior data generated from the transformed data for each participant - HM_ScanPath contains the head scanpath data generated from the transformed data for each participant - EM_Fixation contains the eye gaze fixation data generated from the transformed data for each participant 5_PhysioData - Raw contains the raw physiological data captured from the Empatica E4 wristband for each participant - Transformed contains the transformed physiological data generated from the raw data for each participant - Frame contains the re-sampled physiological data from the transformed data for each participant 6_Scripts - Unity Project contains the complete project of our user-controlled experiment (Unity 2018.4.1f1, HTC VIVE Pro Eye HMD) - Data Processed contains scripts that undertake the pre-processing steps for converting the raw data to the transformed/frame data in the transformed and frame folders. conatins scripts for continuous annotation, behavior and physiological data analysis and visualization. - CEAP-360VR_Baseline contains scripts to generate processed behavioral and physiological data with V-A labels for deep learning experiments and features for machine learning experiments. contains scripts to run ML and DL experiments under both subject-dependent and subject-independent model. ## Dataset Description The CEAP-360VR Dataset [Description.pdf](https://github.com/cwi-dis/CEAP-360VR-Dataset/blob/master/CEAP-Dataset%20Description.pdf) introduces the dataset description and key steps in the stage of data acquisition and pre-processing. ## Dataset License CEAP-360VR dataset is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license]. ## Citation Please cite our paper in any published work that uses this dataset as follows: - Plain Text T. Xue, A. El Ali, T. Zhang, G. Ding, and P. Cesar, \"CEAP-360VR: A Continuous Physiological and Behavioral Emotion Annotation Dataset for 360° Videos,\" in IEEE Transactions on Multimedia, doi: 10.1109/TMM.2021.3124080. - BibTex @ARTICLE{Xue2021CEAP-360VR, author={Xue, Tong and Ali, Abdallah El and Zhang, Tianyi and Ding, Gangyi and Cesar, Pablo}, journal={IEEE Transactions on Multimedia}, title={CEAP-360VR: A Continuous Physiological and Behavioral Emotion Annotation Dataset for 360° Videos}, year={2021}, volume={}, number={}, pages={1-1}, doi={https://doi.org/10.1109/TMM.2021.3124080}} ## Usage 1. We have performed the time alignment of different types of data and videos for each participant, as well as the proceesing scripts that can be used to generate both the transformed and frame data. Researchers can run their analysis methods on them. 2. For researchers who want to try other data processing methods, you can directly use the raw data. ## About The CEAP-360VR Dataset is maintained by Key Laboratory of Digital Performance and Simulation Technology at Beijing Institute of Technology and the Distributed & Interactive Systems (DIS) research group at Centrum Wiskunde & Informatica . Contact the authors - Tong Xue: xuetong@bit.edu.cn, xue.tong@cwi.nl - Abdallah El Ali: abdallah.el.ali@cwi.nl",
+    "abstract_zh": "CEAP-360VR：360° 视频的连续生理和行为情感注释数据集 ## 一般信息 我们开发 CEAP-360VR 数据集是为了解决 360 视频 VR 情感计算缺乏连续注释的行为和生理数据集的问题。因此，该数据集包含 a) 问卷（SSQ、IPQ、NASA-TLX）； b) 连续价态唤醒注释； c) 观看视频时的头部和眼球运动以及左右眼瞳孔直径； d) 外周生理反应（ACC、EDA、SKT、BVP、HR、IBI）。我们的数据集还包括数据预处理、数据验证脚本、数据集描述以及数据采集和预处理阶段的关键步骤。 ## 数据集结构...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5049516313）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_02b2025de2e8_c40bbd6909973e8d",
+    "global_record_id": "e7293d558e8c8257",
+    "scholar_id": "panorama_02b2025de2e8",
+    "scholar_name": "张天翼",
+    "scholar_ids": [
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "panorama_02b2025de2e8_c40bbd6909973e8d"
+    ],
+    "resource_ids": [
+      "panorama_02b2025de2e8__auto_code_83ac919ce4"
+    ],
+    "code_urls": [
+      "https://github.com/cwi-dis/CEAP-360VR-Dataset"
+    ],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "张天翼",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张天翼：情感数据集、基准与评测"
+    ],
+    "resource_status": "已关联公开代码/数据/模型资源",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测"
+  },
+  {
+    "title": "CorrNet: Fine-Grained Emotion Recognition for Video Watching Using Wearable Physiological Sensors",
+    "title_en": "CorrNet: Fine-Grained Emotion Recognition for Video Watching Using Wearable Physiological Sensors",
+    "title_zh": "CorrNet：使用可穿戴生理传感器进行视频观看的细粒度情绪识别",
+    "year": 2021,
+    "venue": "Sensors",
+    "authors": [
+      "Tianyi Zhang",
+      "Abdallah El Ali",
+      "Chen Wang",
+      "Alan Hanjalic",
+      "Pablo César"
+    ],
+    "doi": "10.3390/S21010052",
+    "dblp_key": "journals/sensors/ZhangAWHC21",
+    "paper_url": "https://doi.org/10.3390/S21010052",
+    "pdf_url": "https://www.mdpi.com/1424-8220/21/1/52/pdf?version=1608872629",
+    "source_url": "https://dblp.org/rec/journals/sensors/ZhangAWHC21.html",
+    "openalex_id": "https://openalex.org/W3116273309",
+    "openalex_author_id": "https://openalex.org/A5049516313",
+    "cited_by_count": 89,
+    "abstract_en": "Recognizing user emotions while they watch short-form videos anytime and anywhere is essential for facilitating video content customization and personalization. However, most works either classify a single emotion per video stimuli, or are restricted to static, desktop environments. To address this, we propose a correlation-based emotion recognition algorithm (CorrNet) to recognize the valence and arousal (V-A) of each instance (fine-grained segment of signals) using only wearable, physiological signals (e.g., electrodermal activity, heart rate). CorrNet takes advantage of features both inside each instance (intra-modality features) and between different instances for the same video stimuli (correlation-based features). We first test our approach on an indoor-desktop affect dataset (CASE), and thereafter on an outdoor-mobile affect dataset (MERCA) which we collected using a smart wristband and wearable eyetracker. Results show that for subject-independent binary classification (high-low), CorrNet yields promising recognition accuracies: 76.37% and 74.03% for V-A on CASE, and 70.29% and 68.15% for V-A on MERCA. Our findings show: (1) instance segment lengths between 1-4 s result in highest recognition accuracies (2) accuracies between laboratory-grade and wearable sensors are comparable, even under low sampling rates (≤64 Hz) (3) large amounts of neutral V-A labels, an artifact of continuous affect annotation, result in varied recognition performance.",
+    "abstract_zh": "随时随地识别用户观看短视频时的情绪对于促进视频内容定制和个性化至关重要。然而，大多数作品要么根据视频刺激对单一情感进行分类，要么仅限于静态桌面环境。为了解决这个问题，我们提出了一种基于相关性的情感识别算法（CorrNet），仅使用可穿戴的生理信号（例如皮肤电活动、心率）来识别每个实例（细粒度信号段）的效价和唤醒度（V-A）。 CorrNet 利用每个实例内部的特征（模态内特征）以及相同视频刺激的不同实例之间的特征（基于相关的特征）。我们首先测试我们的应用程序...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 17/322-13）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_02b2025de2e8_21d830817f7b63d8",
+    "global_record_id": "d04c217db05c35f1",
+    "scholar_id": "panorama_02b2025de2e8",
+    "scholar_name": "张天翼",
+    "scholar_ids": [
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "panorama_02b2025de2e8_21d830817f7b63d8"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "张天翼",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张天翼：情感数据集、基准与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测"
+  },
+  {
+    "title": "RCEA-360VR: Real-time, Continuous Emotion Annotation in 360° VR Videos for Collecting Precise Viewport-dependent Ground Truth Labels",
+    "title_en": "RCEA-360VR: Real-time, Continuous Emotion Annotation in 360° VR Videos for Collecting Precise Viewport-dependent Ground Truth Labels",
+    "title_zh": "RCEA-360VR：360° VR 视频中的实时、连续情感注释，用于收集精确的视口相关地面实况标签",
+    "year": 2021,
+    "venue": "CHI",
+    "authors": [
+      "Tong Xue",
+      "Abdallah El Ali",
+      "Tianyi Zhang",
+      "Gangyi Ding",
+      "Pablo César"
+    ],
+    "doi": "10.1145/3411764.3445487",
+    "dblp_key": "conf/chi/XueAZDC21",
+    "paper_url": "https://doi.org/10.1145/3411764.3445487",
+    "pdf_url": "https://ir.cwi.nl/pub/31250/31250.pdf",
+    "source_url": "https://dblp.org/rec/conf/chi/XueAZDC21.html",
+    "openalex_id": "https://openalex.org/W3161934537",
+    "openalex_author_id": "https://openalex.org/A5049516313",
+    "cited_by_count": 40,
+    "abstract_en": "Precise emotion ground truth labels for 360° virtual reality (VR) video watching are essential for fine-grained predictions under varying viewing behavior. However, current annotation techniques either rely on post-stimulus discrete self-reports, or real-time, continuous emotion annotations (RCEA) but only for desktop/mobile settings. We present RCEA for 360° VR videos (RCEA-360VR), where we evaluate in a controlled study (N=32) the usability of two peripheral visualization techniques: HaloLight and DotSize. We furthermore develop a method that considers head movements when fusing labels. Using physiological, behavioral, and subjective measures, we show that (1) both techniques do not increase users’ workload, sickness, nor break presence (2) our continuous valence and arousal annotations are consistent with discrete within-VR and original stimuli ratings (3) users exhibit high similarity in viewing behavior, where fused ratings perfectly align with intended labels. Our work contributes usable and effective techniques for collecting fine-grained viewport-dependent emotion labels in 360° VR.",
+    "abstract_zh": "用于 360° 虚拟现实 (VR) 视频观看的精确情感地面实况标签对于在不同观看行为下进行细粒度预测至关重要。然而，当前的注释技术要么依赖于刺激后离散的自我报告，要么依赖于实时、连续的情绪注释（RCEA），但仅适用于桌面/移动设置。我们提出了 360° VR 视频的 RCEA (RCEA-360VR)，我们在一项对照研究 (N=32) 中评估了两种外围可视化技术的可用性：HaloLight 和 DotSize。我们还开发了一种在融合标签时考虑头部运动的方法。使用生理、行为和主观测量，我们表明（1）这两种技术不会增加用户的工作量、疾病，也不会破坏存在感（……",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 17/322-13）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_02b2025de2e8_1f1361914df9118b",
+    "global_record_id": "cfe45f0e55592be2",
+    "scholar_id": "panorama_02b2025de2e8",
+    "scholar_name": "张天翼",
+    "scholar_ids": [
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "panorama_02b2025de2e8_1f1361914df9118b"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "张天翼",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张天翼：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Data-driven and deep learning-based detection and diagnosis of incipient faults with application to electrical traction systems",
+    "title_en": "Data-driven and deep learning-based detection and diagnosis of incipient faults with application to electrical traction systems",
+    "title_zh": "基于数据驱动和深度学习的早期故障检测和诊断及其在电力牵引系统中的应用",
+    "year": 2020,
+    "venue": "Neurocomputing",
+    "authors": [
+      "Hongtian Chen",
+      "Bin Jiang",
+      "Tianyi Zhang",
+      "Ningyun Lu"
+    ],
+    "doi": "10.1016/J.NEUCOM.2018.07.103",
+    "dblp_key": "journals/ijon/ChenJZL20",
+    "paper_url": "https://doi.org/10.1016/J.NEUCOM.2018.07.103",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/journals/ijon/ChenJZL20.html",
+    "openalex_id": "https://openalex.org/W2941788244",
+    "openalex_author_id": "",
+    "cited_by_count": 0,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 17/322-13）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_02b2025de2e8_8ef45f94341d2974",
+    "global_record_id": "64713bfdb219e015",
+    "scholar_id": "panorama_02b2025de2e8",
+    "scholar_name": "张天翼",
+    "scholar_ids": [
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "panorama_02b2025de2e8_8ef45f94341d2974"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "张天翼",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张天翼：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "RCEA: Real-time, Continuous Emotion Annotation for Collecting Precise Mobile Video Ground Truth Labels",
+    "title_en": "RCEA: Real-time, Continuous Emotion Annotation for Collecting Precise Mobile Video Ground Truth Labels",
+    "title_zh": "RCEA：实时、连续的情感注释，用于收集精确的移动视频地面真相标签",
+    "year": 2020,
+    "venue": "CHI",
+    "authors": [
+      "Tianyi Zhang",
+      "Abdallah El Ali",
+      "Chen Wang",
+      "Alan Hanjalic",
+      "Pablo César"
+    ],
+    "doi": "10.1145/3313831.3376808",
+    "dblp_key": "conf/chi/ZhangA0HC20",
+    "paper_url": "https://doi.org/10.1145/3313831.3376808",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/conf/chi/ZhangA0HC20.html",
+    "openalex_id": "https://openalex.org/W3030187186",
+    "openalex_author_id": "https://openalex.org/A5049516313",
+    "cited_by_count": 64,
+    "abstract_en": "Collecting accurate and precise emotion ground truth labels for mobile video watching is essential for ensuring meaningful predictions. However, video-based emotion annotation techniques either rely on post-stimulus discrete self-reports, or allow real-time, continuous emotion annotations (RCEA) only for desktop settings. Following a user-centric approach, we designed an RCEA technique for mobile video watching, and validated its usability and reliability in a controlled, indoor (N=12) and later outdoor (N=20) study. Drawing on physiological measures, interaction logs, and subjective workload reports, we show that (1) RCEA is perceived to be usable for annotating emotions while mobile video watching, without increasing users' mental workload (2) the resulting time-variant annotations are comparable with intended emotion attributes of the video stimuli (classification error for valence: 8.3%; arousal: 25%). We contribute a validated annotation technique and associated annotation fusion method, that is suitable for collecting fine-grained emotion annotations while users watch mobile videos.",
+    "abstract_zh": "收集用于移动视频观看的准确且精确的情感真实标签对于确保有意义的预测至关重要。然而，基于视频的情绪注释技术要么依赖于刺激后离散的自我报告，要么仅允许桌面设置的实时、连续情绪注释（RCEA）。遵循以用户为中心的方法，我们设计了一种用于移动视频观看的 RCEA 技术，并在受控的室内 (N=12) 和后来的室外 (N=20) 研究中验证了其可用性和可靠性。利用生理测量、交互日志和主观工作量报告，我们表明：(1) RCEA 被认为可用于注释移动视频观看时的情绪，而不会增加用户的脑力工作量……",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 17/322-13）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_02b2025de2e8_4950c51e839d4667",
+    "global_record_id": "fe1fa73c74f8cf85",
+    "scholar_id": "panorama_02b2025de2e8",
+    "scholar_name": "张天翼",
+    "scholar_ids": [
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "panorama_02b2025de2e8_4950c51e839d4667"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "张天翼",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张天翼：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Multi-modal Fusion Methods for Robust Emotion Recognition using Body-worn Physiological Sensors in Mobile Environments",
+    "title_en": "Multi-modal Fusion Methods for Robust Emotion Recognition using Body-worn Physiological Sensors in Mobile Environments",
+    "title_zh": "在移动环境中使用穿戴式生理传感器进行鲁棒情绪识别的多模态融合方法",
+    "year": 2019,
+    "venue": "ICMI",
+    "authors": [
+      "Tianyi Zhang"
+    ],
+    "doi": "10.1145/3340555.3356089",
+    "dblp_key": "conf/icmi/Zhang19a",
+    "paper_url": "https://doi.org/10.1145/3340555.3356089",
+    "pdf_url": "https://ir.cwi.nl/pub/29001/29001.pdf",
+    "source_url": "https://dblp.org/rec/conf/icmi/Zhang19a.html",
+    "openalex_id": "https://openalex.org/W2980330886",
+    "openalex_author_id": "https://openalex.org/A5049516313",
+    "cited_by_count": 6,
+    "abstract_en": "High-accuracy physiological emotion recognition typically requires participants to wear or attach obtrusive sensors (e.g., Electroencephalograph). To achieve precise emotion recognition using only wearable body-worn physiological sensors, my doctoral work focuses on researching and developing a robust sensor fusion system among different physiological sensors. Developing such fusion system has three problems: 1) how to pre-process signals with different temporal characteristics and noise models, 2) how to train the fusion system with limited labeled data and 3) how to fuse multiple signals with inaccurate and inexact ground truth. To overcome these challenges, I plan to explore semi-supervised, weakly supervised and unsupervised machine learning methods to obtain precise emotion recognition in mobile environments. By developing such techniques, we can measure the user engagement with larger amounts of participants and apply the emotion recognition techniques in a variety of scenarios such as mobile video watching and online education.",
+    "abstract_zh": "高精度生理情绪识别通常需要参与者佩戴或连接侵入式传感器（例如脑电图仪）。为了仅使用可穿戴式身体佩戴的生理传感器来实现精确的情绪识别，我的博士工作重点是研究和开发不同生理传感器之间的鲁棒传感器融合系统。开发这样的融合系统面临三个问题：1）如何预处理具有不同时间特征和噪声模型的信号，2）如何用有限的标记数据训练融合系统，3）如何融合不准确和不精确的地面实况的多个信号。为了克服这些挑战，我计划探索半监督、弱监督和无监督机器学习......",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "脑电情感识别",
+      "情感计算与情绪理解",
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 17/322-13）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_02b2025de2e8_ece5460a6a757231",
+    "global_record_id": "c037f01783ac6c79",
+    "scholar_id": "panorama_02b2025de2e8",
+    "scholar_name": "张天翼",
+    "scholar_ids": [
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "panorama_02b2025de2e8_ece5460a6a757231"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "张天翼",
+        "secondary_tags": [
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张天翼：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "CorrFeat: Correlation-based Feature Extraction Algorithm using Skin Conductance and Pupil Diameter for Emotion Recognition",
+    "title_en": "CorrFeat: Correlation-based Feature Extraction Algorithm using Skin Conductance and Pupil Diameter for Emotion Recognition",
+    "title_zh": "CorrFeat：使用皮肤电导和瞳孔直径进行情绪识别的基于相关性的特征提取算法",
+    "year": 2019,
+    "venue": "ICMI",
+    "authors": [
+      "Tianyi Zhang",
+      "Abdallah El Ali",
+      "Chen Wang",
+      "Xintong Zhu",
+      "Pablo César"
+    ],
+    "doi": "10.1145/3340555.3353716",
+    "dblp_key": "conf/icmi/ZhangAWZC19",
+    "paper_url": "https://doi.org/10.1145/3340555.3353716",
+    "pdf_url": "https://ir.cwi.nl/pub/28998/28998.pdf",
+    "source_url": "https://dblp.org/rec/conf/icmi/ZhangAWZC19.html",
+    "openalex_id": "https://openalex.org/W2980410562",
+    "openalex_author_id": "https://openalex.org/A5049516313",
+    "cited_by_count": 16,
+    "abstract_en": "To recognize emotions using less obtrusive wearable sensors, we present a novel emotion recognition method that uses only pupil diameter (PD) and skin conductance (SC). Psychological studies show that these two signals are related to the attention level of humans exposed to visual stimuli. Based on this, we propose a feature extraction algorithm that extract correlation-based features for participants watching the same video clip. To boost performance given limited data, we implement a learning system without a deep architecture to classify arousal and valence. Our method outperforms not only state-of-art approaches, but also widely-used traditional and deep learning methods.",
+    "abstract_zh": "为了使用不那么引人注目的可穿戴传感器来识别情绪，我们提出了一种新颖的情绪识别方法，该方法仅使用瞳孔直径（PD）和皮肤电导（SC）。心理学研究表明，这两个信号与人类受到视觉刺激的注意力水平有关。基于此，我们提出了一种特征提取算法，为观看同一视频剪辑的参与者提取基于相关性的特征。为了在有限数据的情况下提高性能，我们实现了一个没有深层架构的学习系统来对唤醒和效价进行分类。我们的方法不仅优于最先进的方法，而且优于广泛使用的传统和深度学习方法。",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解",
+      "智能芯片与计算系统"
+    ],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 17/322-13）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_02b2025de2e8_fe3c39763c48d10f",
+    "global_record_id": "5f1da3a350d7cbfa",
+    "scholar_id": "panorama_02b2025de2e8",
+    "scholar_name": "张天翼",
+    "scholar_ids": [
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "panorama_02b2025de2e8_fe3c39763c48d10f"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "张天翼",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张天翼：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Accurate and Robust Vanishing Point Detection Method in Unstructured Road Scenes",
+    "title_en": "Accurate and Robust Vanishing Point Detection Method in Unstructured Road Scenes",
+    "title_zh": "非结构化道路场景中准确鲁棒的消失点检测方法",
+    "year": 2018,
+    "venue": "Journal of Intelligent & Robotic Systems",
+    "authors": [
+      "Jiaming Han",
+      "Zhong Xue Yang",
+      "Guoxiong Hu",
+      "Tianyi Zhang",
+      "Jiarong Song"
+    ],
+    "doi": "10.1007/s10846-018-0814-8",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1007/s10846-018-0814-8",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2801700975",
+    "openalex_id": "https://openalex.org/W2801700975",
+    "openalex_author_id": "https://openalex.org/A5049516313",
+    "cited_by_count": 10,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5049516313）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_02b2025de2e8_34c3474ecdf5cc60",
+    "global_record_id": "cc0ae58f8465150c",
+    "scholar_id": "panorama_02b2025de2e8",
+    "scholar_name": "张天翼",
+    "scholar_ids": [
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "panorama_02b2025de2e8_34c3474ecdf5cc60"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "张天翼",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张天翼：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "A random chemical reaction optimization algorithm based on dual containers strategy for multi‐rotor UAV path planning in transmission line inspection",
+    "title_en": "A random chemical reaction optimization algorithm based on dual containers strategy for multi‐rotor UAV path planning in transmission line inspection",
+    "title_zh": "基于双容器策略的输电线路巡检多旋翼无人机路径规划随机化学反应优化算法",
+    "year": 2018,
+    "venue": "Concurrency and Computation Practice and Experience",
+    "authors": [
+      "Qing Yang",
+      "Zhong Xue Yang",
+      "Tianyi Zhang",
+      "Guoxiong Hu"
+    ],
+    "doi": "10.1002/cpe.4658",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1002/cpe.4658",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2898371372",
+    "openalex_id": "https://openalex.org/W2898371372",
+    "openalex_author_id": "https://openalex.org/A5049516313",
+    "cited_by_count": 19,
+    "abstract_en": "Summary Aiming at the specific mission requirements of high‐voltage transmission line inspection, a modeling method based on columnar space is proposed, which simplifies the complexity of traditional methods to a certain extent, and ensures enough modeling accuracy. Then, an improved random chemical reaction algorithm based on dual container strategy (RMCRO) is proposed, and the new algorithm divides the set of molecules into two subsets and puts them into two reaction containers, respectively. A subset introducing PSO algorithm strategy strengthens the strategy of diversity algorithm molecules and enhances the global search capability of the algorithm. Additionally, another subset introducing elitist selection and differential strategy strengthens the local search ability of the algorithm and accelerates the convergence speed. Then, through the exchange of the two subsets under certain conditions, the advantages of the two subsets can be further integrated to eliminate the original defects. Finally, respectively analyze the simulation of two typical scenarios of transmission line inspection based on multi‐rotor UAV, the simulation results show that the proposed algorithm can avoid the local minimum, the path planning is shorter, and it can make the airborne camera equipment working in a more stable state.",
+    "abstract_zh": "总结针对高压输电线路巡检的具体任务需求，提出了一种基于柱状空间的建模方法，在一定程度上简化了传统方法的复杂度，并保证了足够的建模精度。然后，提出了一种基于双容器策略的改进随机化学反应算法（RMCRO），该算法将分子集合分为两个子集，并分别放入两个反应容器中。引入PSO算法策略的子集强化了算法分子策略的多样性，增强了算法的全局搜索能力。此外，另一个子集引入了精英选择和差异化策略......",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5049516313）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_02b2025de2e8_16b1200094c7cefc",
+    "global_record_id": "d890e237fc494532",
+    "scholar_id": "panorama_02b2025de2e8",
+    "scholar_name": "张天翼",
+    "scholar_ids": [
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "panorama_02b2025de2e8_16b1200094c7cefc"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "张天翼",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张天翼：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "How Old Do You Look? Inferring Your Age from Your Gaze",
+    "title_en": "How Old Do You Look? Inferring Your Age from Your Gaze",
+    "title_zh": "你看起来几岁？从你的眼神推断你的年龄",
+    "year": 2018,
+    "venue": "ICIP",
+    "authors": [
+      "Tianyi Zhang",
+      "Olivier Le Meur"
+    ],
+    "doi": "10.1109/ICIP.2018.8451219",
+    "dblp_key": "conf/icip/ZhangM18",
+    "paper_url": "https://doi.org/10.1109/ICIP.2018.8451219",
+    "pdf_url": "https://inria.hal.science/hal-01951396",
+    "source_url": "https://dblp.org/rec/conf/icip/ZhangM18.html",
+    "openalex_id": "https://openalex.org/W2891503551",
+    "openalex_author_id": "https://openalex.org/A5049516313",
+    "cited_by_count": 23,
+    "abstract_en": "The visual exploration of a scene, represented by a visual scanpath, depends on a number of factors. Among them, the age of the observer plays a significant role. For instance, young kids are making shorter saccades and longer fixations than adults. In the light of these observations, we propose a new method for inferring the age of the observer from its scanpath. The proposed method is based on a 1D CNN network which is trained by real eye tracking data collected on five age groups. In order to boost the performance, the training dataset is augmented by predicting a high number of scan-paths thanks to the use of an age-dependent computational saccadic model. The proposed method brings a new momentum in this field not only by significantly outperforming existing method but also by being robust to noise and data erasure.",
+    "abstract_zh": "由视觉扫描路径表示的场景的视觉探索取决于许多因素。其中，观察者的年龄起着重要作用。例如，与成年人相比，幼儿的扫视时间较短，注视时间较长。根据这些观察结果，我们提出了一种从观察者的扫描路径推断观察者年龄的新方法。该方法基于一维 CNN 网络，该网络由五个年龄段收集的真实眼动追踪数据进行训练。为了提高性能，由于使用了与年龄相关的计算扫视模型，通过预测大量扫描路径来增强训练数据集。所提出的方法不仅显着地为该领域带来了新的动力......",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 17/322-13）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_02b2025de2e8_604eb623d1bfbfa1",
+    "global_record_id": "97b2ec7698556c0f",
+    "scholar_id": "panorama_02b2025de2e8",
+    "scholar_name": "张天翼",
+    "scholar_ids": [
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "panorama_02b2025de2e8_604eb623d1bfbfa1"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "张天翼",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张天翼：情感数据集、基准与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测"
+  },
+  {
+    "title": "Correction to: Accurate and Robust Vanishing Point Detection Method in Unstructured Road Scenes",
+    "title_en": "Correction to: Accurate and Robust Vanishing Point Detection Method in Unstructured Road Scenes",
+    "title_zh": "修正：非结构化道路场景中准确鲁棒的消失点检测方法",
+    "year": 2018,
+    "venue": "Journal of Intelligent & Robotic Systems",
+    "authors": [
+      "Jiaming Han",
+      "Zhong Xue Yang",
+      "Guoxiong Hu",
+      "Tianyi Zhang",
+      "Jiarong Song"
+    ],
+    "doi": "10.1007/s10846-018-0872-y",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1007/s10846-018-0872-y",
+    "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10846-018-0872-y.pdf",
+    "source_url": "https://openalex.org/W2808211346",
+    "openalex_id": "https://openalex.org/W2808211346",
+    "openalex_author_id": "https://openalex.org/A5049516313",
+    "cited_by_count": 0,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5049516313）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_02b2025de2e8_d6318dffa363ec4e",
+    "global_record_id": "6517375b89f7f87e",
+    "scholar_id": "panorama_02b2025de2e8",
+    "scholar_name": "张天翼",
+    "scholar_ids": [
+      "panorama_02b2025de2e8"
+    ],
+    "scholar_names": [
+      "张天翼"
+    ],
+    "source_record_ids": [
+      "panorama_02b2025de2e8_d6318dffa363ec4e"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_02b2025de2e8": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "张天翼",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张天翼：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  }
+]

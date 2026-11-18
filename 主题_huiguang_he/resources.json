@@ -1,1 +1,383 @@
-[]
+[
+  {
+    "id": "huiguang_he__auto_dataset_84f29cccb4",
+    "name": "Improved Video Emotion Recognition With Alignment of CNN and Human Brain Representations — 开源数据集 (osf.io/ucx57)",
+    "name_zh": "通过CNN与人脑表征对齐改进视频情绪识别 — 开源数据集",
+    "type": "dataset",
+    "url": "https://osf.io/ucx57",
+    "download_url": "https://osf.io/ucx57",
+    "access": "public",
+    "related_paper_titles": [
+      "Improved Video Emotion Recognition With Alignment of CNN and Human Brain Representations"
+    ],
+    "related_paper_titles_zh": [
+      "通过CNN与人脑表征对齐改进视频情绪识别"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://osf.io/ucx57",
+      "https://doi.org/10.1109/taffc.2023.3316173"
+    ],
+    "description": "从论文《Improved Video Emotion Recognition With Alignment of CNN and Human Brain Representations》原始摘要/预印本说明自动提取并核验的公开 dataset 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "huiguang_he",
+    "scholar_name": "何晖光",
+    "matched_paper_ids": [
+      "huiguang_he_9ce272dab6ae"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "huiguang_he::eeg_affect",
+      "panorama_shouyan_wang::eeg_affect"
+    ],
+    "primary_categories": [
+      "何晖光：情感脑电与多模态生理信号",
+      "王守岩：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "huiguang_he__auto_code_a25611cd42",
+    "name": "CLIP-MUSED: CLIP-Guided Multi-Subject Visual Neural Information Semantic Decoding — 开源代码 (CLIP-MUSED/CLIP-MUSED)",
+    "name_zh": "CLIP-MUSED：CLIP引导的多被试视觉神经信息语义解码 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/CLIP-MUSED/CLIP-MUSED",
+    "download_url": "https://github.com/CLIP-MUSED/CLIP-MUSED",
+    "access": "public",
+    "related_paper_titles": [
+      "CLIP-MUSED: CLIP-Guided Multi-Subject Visual Neural Information Semantic Decoding"
+    ],
+    "related_paper_titles_zh": [
+      "CLIP-MUSED：CLIP引导的多被试视觉神经信息语义解码"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/CLIP-MUSED/CLIP-MUSED",
+      "https://arxiv.org/abs/2402.08994",
+      "https://doi.org/10.48550/ARXIV.2402.08994"
+    ],
+    "description": "从论文《CLIP-MUSED: CLIP-Guided Multi-Subject Visual Neural Information Semantic Decoding》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "huiguang_he",
+    "scholar_name": "何晖光",
+    "matched_paper_ids": [
+      "huiguang_he_b6b5f8c008ac"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "huiguang_he::eeg_affect",
+      "panorama_shouyan_wang::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "何晖光：情感脑电与多模态生理信号",
+      "王守岩：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "huiguang_he__auto_code_132305030f",
+    "name": "PGCN: Pyramidal Graph Convolutional Network for EEG Emotion Recognition — 开源代码 (Jinminbox/PGCN)",
+    "name_zh": "PGCN：用于脑电情绪识别的金字塔图卷积网络 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/Jinminbox/PGCN",
+    "download_url": "https://github.com/Jinminbox/PGCN",
+    "access": "public",
+    "related_paper_titles": [
+      "PGCN: Pyramidal Graph Convolutional Network for EEG Emotion Recognition"
+    ],
+    "related_paper_titles_zh": [
+      "PGCN：用于脑电情绪识别的金字塔图卷积网络"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/Jinminbox/PGCN",
+      "https://doi.org/10.1109/tmm.2024.3385676"
+    ],
+    "description": "从论文《PGCN: Pyramidal Graph Convolutional Network for EEG Emotion Recognition》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "huiguang_he",
+    "scholar_name": "何晖光",
+    "matched_paper_ids": [
+      "huiguang_he_9dd6e14b9aa7"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "huiguang_he::eeg_affect"
+    ],
+    "primary_categories": [
+      "何晖光：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "huiguang_he__auto_code_4bbceea2a7",
+    "name": "Decoding Visual Neural Representations by Multimodal Learning of Brain-Visual-Linguistic Features — 开源代码 (ChangdeDu/BraVL)",
+    "name_zh": "通过脑-视觉-语言特征的多模态学习解码视觉神经表征 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/ChangdeDu/BraVL",
+    "download_url": "https://github.com/ChangdeDu/BraVL",
+    "access": "public",
+    "related_paper_titles": [
+      "Decoding Visual Neural Representations by Multimodal Learning of Brain-Visual-Linguistic Features"
+    ],
+    "related_paper_titles_zh": [
+      "通过脑-视觉-语言特征的多模态学习解码视觉神经表征"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/ChangdeDu/BraVL",
+      "https://doi.org/10.48550/arXiv.2210.06756"
+    ],
+    "description": "从论文《Decoding Visual Neural Representations by Multimodal Learning of Brain-Visual-Linguistic Features》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "huiguang_he",
+    "scholar_name": "何晖光",
+    "matched_paper_ids": [
+      "huiguang_he_200e6f1dfe6a"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "huiguang_he::eeg_affect"
+    ],
+    "primary_categories": [
+      "何晖光：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "huiguang_he__auto_code_bc8393e657",
+    "name": "Going Deeper into Permutation-Sensitive Graph Neural Networks — 开源代码 (zhongyu1998/PG-GNN)",
+    "name_zh": "Going Deeper into Permutation-Sensitive 图 Neural 网络s — 开源代码",
+    "type": "code",
+    "url": "https://github.com/zhongyu1998/PG-GNN",
+    "download_url": "https://github.com/zhongyu1998/PG-GNN",
+    "access": "public",
+    "related_paper_titles": [
+      "Going Deeper into Permutation-Sensitive Graph Neural Networks"
+    ],
+    "related_paper_titles_zh": [
+      "Going Deeper into Permutation-Sensitive 图 Neural 网络s"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/zhongyu1998/PG-GNN",
+      "https://doi.org/10.48550/arXiv.2205.14368"
+    ],
+    "description": "从论文《Going Deeper into Permutation-Sensitive Graph Neural Networks》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "huiguang_he",
+    "scholar_name": "何晖光",
+    "matched_paper_ids": [
+      "huiguang_he_50c6321e6956"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "huiguang_he::eeg_affect"
+    ],
+    "primary_categories": [
+      "何晖光：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "huiguang_he__auto_code_6c13e40c31",
+    "name": "MS-MDA: Multisource Marginal Distribution Adaptation for Cross-Subject and Cross-Session EEG Emotion Recognition — 开源代码 (VoiceBeer/MS-MDA)",
+    "name_zh": "MS-MDA: Multisource Marginal Distribution Adaptation 用于 Cross-Subject 与 Cross-Session 脑电 情绪识别 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/VoiceBeer/MS-MDA",
+    "download_url": "https://github.com/VoiceBeer/MS-MDA",
+    "access": "public",
+    "related_paper_titles": [
+      "MS-MDA: Multisource Marginal Distribution Adaptation for Cross-Subject and Cross-Session EEG Emotion Recognition"
+    ],
+    "related_paper_titles_zh": [
+      "MS-MDA: Multisource Marginal Distribution Adaptation 用于 Cross-Subject 与 Cross-Session 脑电 情绪识别"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/VoiceBeer/MS-MDA",
+      "http://www.scopus.com/inward/record.url?eid=2-s2.0-85111535879&partnerID=MN8TOARS",
+      "https://doi.org/10.3389/fnins.2021.778488"
+    ],
+    "description": "从论文《MS-MDA: Multisource Marginal Distribution Adaptation for Cross-Subject and Cross-Session EEG Emotion Recognition》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "huiguang_he",
+    "scholar_name": "何晖光",
+    "matched_paper_ids": [
+      "huiguang_he_55b5529652b7"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "huiguang_he::eeg_affect"
+    ],
+    "primary_categories": [
+      "何晖光：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "huiguang_he__auto_code_008a77d89a",
+    "name": "Mind-Omni: A Unified Multi-Task Framework for Brain-Vision-Language Modeling via Discrete Diffusion — 开源代码 (ReedOnePeck/Mind-Omni)",
+    "name_zh": "Mind-Omni: A Unified Multi-Task Framework for Brain-Vision-Language Modeling via Discrete Diffusion — 开源代码",
+    "type": "code",
+    "url": "https://github.com/ReedOnePeck/Mind-Omni",
+    "download_url": "https://github.com/ReedOnePeck/Mind-Omni",
+    "access": "public",
+    "related_paper_titles": [
+      "Mind-Omni: A Unified Multi-Task Framework for Brain-Vision-Language Modeling via Discrete Diffusion"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/ReedOnePeck/Mind-Omni",
+      "https://doi.org/10.48550/ARXIV.2605.29591"
+    ],
+    "description": "从论文《Mind-Omni: A Unified Multi-Task Framework for Brain-Vision-Language Modeling via Discrete Diffusion》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "huiguang_he",
+    "scholar_name": "何晖光",
+    "matched_paper_ids": [
+      "huiguang_he_0f3616f46fbf3ec2"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "huiguang_he::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "何晖光：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "huiguang_he__auto_code_6d541e1555",
+    "name": "Project Imaging-X: A Survey of 1000+ Open-Access Medical Imaging Datasets for Foundation Model Development — 开源代码 (uni-medical/Project-Imaging-X)",
+    "name_zh": "Project Imaging-X: A Survey of 1000+ Open-Access Medical Imaging Datasets for Foundation Model Development — 开源代码",
+    "type": "code",
+    "url": "https://github.com/uni-medical/Project-Imaging-X",
+    "download_url": "https://github.com/uni-medical/Project-Imaging-X",
+    "access": "public",
+    "related_paper_titles": [
+      "Project Imaging-X: A Survey of 1000+ Open-Access Medical Imaging Datasets for Foundation Model Development"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/uni-medical/Project-Imaging-X",
+      "https://doi.org/10.48550/ARXIV.2603.27460"
+    ],
+    "description": "从论文《Project Imaging-X: A Survey of 1000+ Open-Access Medical Imaging Datasets for Foundation Model Development》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "huiguang_he",
+    "scholar_name": "何晖光",
+    "matched_paper_ids": [
+      "huiguang_he_2cd0b15c3dad24c6"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "huiguang_he::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "何晖光：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "huiguang_he__auto_code_00a536401d",
+    "name": "BP-GPT: Auditory Neural Decoding Using fMRI-prompted LLM — 开源代码 (1994cxy/BP-GPT)",
+    "name_zh": "BP-GPT: Auditory Neural Decoding Using fMRI-prompted LLM — 开源代码",
+    "type": "code",
+    "url": "https://github.com/1994cxy/BP-GPT",
+    "download_url": "https://github.com/1994cxy/BP-GPT",
+    "access": "public",
+    "related_paper_titles": [
+      "BP-GPT: Auditory Neural Decoding Using fMRI-prompted LLM"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/1994cxy/BP-GPT",
+      "https://doi.org/10.1109/ICASSP49660.2025.10890142"
+    ],
+    "description": "从论文《BP-GPT: Auditory Neural Decoding Using fMRI-prompted LLM》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "huiguang_he",
+    "scholar_name": "何晖光",
+    "matched_paper_ids": [
+      "huiguang_he_2195b6ed9e3a14a7"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "huiguang_he::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "何晖光：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "huiguang_he__auto_code_6b89f82244",
+    "name": "GREN: Graph-Regularized Embedding Network for Weakly-Supervised Disease Localization in X-ray images — 开源代码 (qibaolian/GREN)",
+    "name_zh": "GREN: Graph-Regularized Embedding Network for Weakly-Supervised Disease Localization in X-ray images — 开源代码",
+    "type": "code",
+    "url": "https://github.com/qibaolian/GREN",
+    "download_url": "https://github.com/qibaolian/GREN",
+    "access": "public",
+    "related_paper_titles": [
+      "GREN: Graph-Regularized Embedding Network for Weakly-Supervised Disease Localization in X-ray images"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/qibaolian/GREN",
+      "https://doi.org/10.48550/ARXIV.2107.06442"
+    ],
+    "description": "从论文《GREN: Graph-Regularized Embedding Network for Weakly-Supervised Disease Localization in X-ray images》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "huiguang_he",
+    "scholar_name": "何晖光",
+    "matched_paper_ids": [
+      "huiguang_he_438d0e115eb0f162"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "huiguang_he::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "何晖光：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "huiguang_he__auto_code_22a8e87d51",
+    "name": "SEMPO: Lightweight Foundation Models for Time Series Forecasting — 开源代码 (mala-lab/SEMPO)",
+    "name_zh": "SEMPO: Lightweight Foundation Models for Time Series Forecasting — 开源代码",
+    "type": "code",
+    "url": "https://github.com/mala-lab/SEMPO",
+    "download_url": "https://github.com/mala-lab/SEMPO",
+    "access": "public",
+    "related_paper_titles": [
+      "SEMPO: Lightweight Foundation Models for Time Series Forecasting"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/mala-lab/SEMPO",
+      "https://doi.org/10.52202/085713-5405"
+    ],
+    "description": "从论文《SEMPO: Lightweight Foundation Models for Time Series Forecasting》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "huiguang_he",
+    "scholar_name": "何晖光",
+    "matched_paper_ids": [
+      "huiguang_he_892e7bdd496a82d0"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "huiguang_he::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "何晖光：脑电基准、数据与评测"
+    ]
+  }
+]

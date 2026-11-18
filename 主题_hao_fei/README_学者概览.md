@@ -1,17 +1,16 @@
-# 郝飞（Hao Fei）论文与资源
+# 郝飞（Hao Fei）论文与开源资源
 
-检索截至2026-11-14，全时间范围。
+检索更新截至 2026-11-18，按全历史生涯已核实身份范围收集。
 
-- 身份/单位：University of Oxford, Department of Computer Science / Big Data Institute / OATML; previously National University of Singapore
-- 官方身份依据：[官方来源1](https://haofei.vip/) · [官方来源2](https://oatml.cs.ox.ac.uk/members/hao_fei/) · [官方来源3](https://dblp.org/pid/81/3569-1.html)
-- 官方主页：[主页1](https://haofei.vip/) · [主页2](https://oatml.cs.ox.ac.uk/members/hao_fei/) · [主页3](https://dblp.org/pid/81/3569-1.html)
-- 本轮合并书目记录：217；资源入口：126；有具体资源关联的书目记录：110。
-- 论文档案覆盖状态：作者作品集/论文包已扩展；仍需身份消歧与覆盖审计；可用记录数：217；批量来源记录数：190。
+- **身份/单位**：University of Oxford, Department of Computer Science / Big Data Institute / OATML; previously National University of Singapore
+- **英文姓名**：Hao Fei · **ORCID**：[0000-0003-3026-6347](https://orcid.org/0000-0003-3026-6347) · **DBLP**：[81/3569-1](https://dblp.org/pid/81/3569-1.html)
+- **外部身份依据**：[身份源1](https://haofei.vip/) · [身份源2](https://oatml.cs.ox.ac.uk/members/hao_fei/) · [身份源3](https://dblp.org/pid/81/3569-1.html) · [身份源4](https://orcid.org/0000-0003-3026-6347) · [身份源5](https://openalex.org/A5055815455)
+- **本轮核验书目记录**：**278** 条（其中含中英文摘要 **238** 条）；**开源资源入口**：**141** 条；**已关联资源的论文**：**129** 篇。
 
-[论文分类目录](论文分类目录.md) · [按年份查看全部论文](全部论文.md) · [论文CSV](papers.csv) · [BibTeX](papers.bib) · [代码与项目](代码与项目.md) · [数据集与模型](数据集与模型.md) · [资源CSV](resources.csv) · [核验与缺口](核验与缺口.md)
+[论文分类目录](论文分类目录.md) · [按年份查看全部论文](全部论文.md) · [论文CSV](papers.csv) · [BibTeX](papers.bib) · [代码与项目](代码与项目.md) · [数据集与模型](数据集与模型.md) · [资源CSV](resources.csv) · [核验与缺口](核验与缺口.md) · [返回总导航](../README_总导航.md)
 
-主类别：情感理解与多模态推理（162条）；情感智能、共情与生成（28条）；情感数据集、基准与评测（27条）。每条书目仅归入一个主类别，详见分类目录。
+## 研究主类别分布
 
-书目按署名及官方目录收集，保留不同发表版本；条目数不能直接当作互不重复的研究成果数。英文原题与中文辅助译名并列；除来源原始中文题名外，译名不是作者官方题名。一般译名经机器翻译和术语规则检查，核心论文另有人工校正。BibTeX保留原始title，将中文辅助译名放入annotation。主题标签是标题/已核资源辅助分类，不是全篇质量评分。没有匹配资源的论文仍保留。
+情感理解与多模态推理（203条）；情感智能、共情与生成（28条）；情感数据集、基准与评测（47条）。每条书目仅归入一个主类别，跨方向信息保留在辅助主题标签中。
 
-该目录与五位基线学者使用同一论文/资源/分类输出契约。‘可用记录数’表示本轮已取得并保留的书目，不等于未经消歧的个人终身全集；身份待核验、论文团队和同名风险见候选筛选证据。
+> 说明：书目通过 DBLP SPARQL、OpenAlex 作者实体、ORCID、PubMed 机构署名与 Crossref 交叉消歧获取，保留预印本与正式出版等不同版本记录；严格剔除无合作网络或机构证据的同名异人条目，不伪造 DOI 或未公开下载链接。
