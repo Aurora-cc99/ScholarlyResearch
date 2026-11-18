@@ -196,7 +196,9 @@
     "abstract_en": "",
     "abstract_zh": "",
     "abstract_source": "",
-    "topics": [],
+    "topics": [
+      "脑机接口与神经解码"
+    ],
     "verification": "Crossref江南大学机构与合作者网络核验",
     "status": "已索引出版记录",
     "source_kind": "crossref_verified",
@@ -251,7 +253,9 @@
     "abstract_en": "Existing bipartite graph based methods commonly learn a consistent anchor graph across multiple views utilizing various optimization techniques to determine clustering assignments, maintaining linear complexity w.r.t. the number of samples. Owing to their efficiency and effectiveness, these approaches have attracted significant attention. However, the inherent geometric relationship in which anchors and the raw data share common centroids remains under-explored, leaving room for potential improvements in algorithm efficiency. This relationship enables the use of anchors to efficiently learn clustering centroids. In this paper, we propose a novel multi-view clustering approach termed anchor point segmentation based multi-view clustering (APS-MVC). Specifically, we group the raw data by first assigning each data point to an anchor point, then to a centroid. This process is modeled as a two-step transition within a Markov chain, where the optimal centroids and the soft partition of anchors are learned simultaneously by encoding the graph structure information of the anchor points. Furthermore, the proposed APS-MVC effectively tackles the out-of-sample issue. The resultant optimization problem is solved efficiently, exhibiting square complexity w.r.t. the number of anchors. Experimental results on six benchmark datasets validate the effectiveness of the proposed method. The source code is available at: https://github.com/Wenhua-Dong/APS-MVC.",
     "abstract_zh": "现有的基于二分图的方法通常利用各种优化技术来跨多个视图学习一致的锚图来确定聚类分配，从而保持线性复杂度。样本数量。由于其效率和有效性，这些方法引起了极大的关注。然而，锚点和原始数据共享共同质心的固有几何关系仍未得到充分探索，这为算法效率的潜在改进留下了空间。这种关系使得能够使用锚点来有效地学习聚类质心。在本文中，我们提出了一种新颖的多视图聚类方法，称为基于锚点分割的多视图聚类（APS-MVC）。斯佩",
     "abstract_source": "pubmed_verified",
-    "topics": [],
+    "topics": [
+      "医学影像与脑疾病诊断"
+    ],
     "verification": "PubMed江南大学机构署名核验",
     "status": "已索引期刊论文",
     "source_kind": "pubmed_verified",
@@ -365,7 +369,10 @@
     "abstract_en": "Transfer learning from image to video has become a widely adopted strategy in action recognition. Existing mainstream approaches typically fine-tune the entire network after initialising with pre-trained parameters, which inevitably leads to substantial training overhead. Recent efficiency-oriented methods alleviate this by freezing the backbone during optimisation; however, they tend to overly rely on powerful prior knowledge encoded in image models and often neglect how to effectively perform video reasoning with static backbones. In this paper, we propose an efficient image-to-video transfer learning framework, termed SDST (Static-Dynamic & Spatial-Temporal interaction framework), which explicitly enhances the interaction between static and dynamic cues as well as spatial and temporal domains. Specifically, we introduce the Motion Booster Module that extracts motion descriptors from intermediate features and integrates them via the progressive cross-attention mechanism to fuse static and dynamic representations. Furthermore, we propose a lightweight temporal modelling module, named Channel-Aware Multi-Scale Temporal Modelling, characterised by channel awareness, various temporal scales modelling, as well as feature interactions. By enriching the frozen image backbone through these components, our approach effectively bridges the gap between static visual representations and video-based action recognition tasks. Extensive experiments on Something-Something V1&V2, Diving-48, and Kinetics-400 demonstrate that our method not only surpasses State-of-the-Art efficient transfer learning techniques but also outperforms several fully fine-tuned approaches, all without additional bells and whistles. Moreover, we validate the transferability of the proposed SDST framework to vision-language pre-trained models like CLIP, achieving further gains in performance. These results highlight the potential of our method as a general and scalable solution for efficient video understanding in the era of large vision-language models.",
     "abstract_zh": "从图像到视频的迁移学习已成为动作识别中广泛采用的策略。现有的主流方法通常在使用预训练参数初始化后对整个网络进行微调，这不可避免地会导致大量的训练开销。最近以效率为导向的方法通过在优化过程中冻结主干来缓解这一问题；然而，他们往往过度依赖图像模型中编码的强大先验知识，并且经常忽略如何使用静态主干有效地执行视频推理。在本文中，我们提出了一种高效的图像到视频的迁移学习框架，称为 SDST（静态-动态和时空交互框架），它显着增强了静态和动态之间的交互",
     "abstract_source": "pubmed_verified",
-    "topics": [],
+    "topics": [
+      "脑电基础大模型",
+      "多模态与大语言模型"
+    ],
     "verification": "PubMed江南大学机构署名核验",
     "status": "已索引期刊论文",
     "source_kind": "pubmed_verified",
@@ -424,7 +431,9 @@
     "abstract_en": "",
     "abstract_zh": "",
     "abstract_source": "",
-    "topics": [],
+    "topics": [
+      "医学影像与脑疾病诊断"
+    ],
     "verification": "Crossref江南大学机构与合作者网络核验",
     "status": "已索引出版记录",
     "source_kind": "crossref_verified",
@@ -776,7 +785,9 @@
     "abstract_en": "",
     "abstract_zh": "",
     "abstract_source": "",
-    "topics": [],
+    "topics": [
+      "多模态与大语言模型"
+    ],
     "verification": "Crossref江南大学机构与合作者网络核验",
     "status": "已索引出版记录",
     "source_kind": "crossref_verified",
@@ -1136,7 +1147,9 @@
     "abstract_en": "",
     "abstract_zh": "",
     "abstract_source": "",
-    "topics": [],
+    "topics": [
+      "多模态与大语言模型"
+    ],
     "verification": "Crossref江南大学机构与合作者网络核验",
     "status": "已索引出版记录",
     "source_kind": "crossref_verified",
@@ -1722,7 +1735,9 @@
     "abstract_en": "",
     "abstract_zh": "",
     "abstract_source": "",
-    "topics": [],
+    "topics": [
+      "多模态与大语言模型"
+    ],
     "verification": "Crossref江南大学机构与合作者网络核验",
     "status": "已索引出版记录",
     "source_kind": "crossref_verified",
@@ -2016,7 +2031,9 @@
     "abstract_en": "",
     "abstract_zh": "",
     "abstract_source": "",
-    "topics": [],
+    "topics": [
+      "多模态与大语言模型"
+    ],
     "verification": "Crossref江南大学机构与合作者网络核验",
     "status": "已索引出版记录",
     "source_kind": "crossref_verified",
@@ -2208,6 +2225,64 @@
     ],
     "source_record_ids": [
       "panorama_7e26a7e13c4f_c3c9e96ac06be3c1"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_7e26a7e13c4f": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "吴小俊",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "吴小俊：脑电基准、数据与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "Robust Token Gradient and Frequency-Aware Transferable Adversarial Attacks on Vision Transformers",
+    "title_en": "Robust Token Gradient and Frequency-Aware Transferable Adversarial Attacks on Vision Transformers",
+    "title_zh": "对 Vision Transformer 的鲁棒Token梯度和频率感知可转移对抗攻击",
+    "year": 2025,
+    "venue": "IEEE Transactions on Information Forensics and Security",
+    "authors": [
+      "Cong Hu",
+      "Zhi-Chao He",
+      "Yuan-Bo Li",
+      "Xiao-Jun Wu"
+    ],
+    "doi": "10.1109/tifs.2025.3620638",
+    "paper_url": "https://doi.org/10.1109/tifs.2025.3620638",
+    "pdf_url": "",
+    "source_url": "https://doi.org/10.1109/tifs.2025.3620638",
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "Crossref江南大学机构与合作者网络核验",
+    "status": "已索引出版记录",
+    "source_kind": "crossref_verified",
+    "record_id": "panorama_7e26a7e13c4f_243d1cdf81361672",
+    "global_record_id": "243d1cdf81361672",
+    "scholar_id": "panorama_7e26a7e13c4f",
+    "scholar_name": "吴小俊",
+    "scholar_ids": [
+      "panorama_7e26a7e13c4f"
+    ],
+    "scholar_names": [
+      "吴小俊"
+    ],
+    "source_record_ids": [
+      "panorama_7e26a7e13c4f_243d1cdf81361672"
     ],
     "resource_ids": [],
     "code_urls": [],
@@ -2481,7 +2556,10 @@
     "abstract_en": "",
     "abstract_zh": "",
     "abstract_source": "",
-    "topics": [],
+    "topics": [
+      "多模态与大语言模型",
+      "强化学习与决策优化"
+    ],
     "verification": "Crossref江南大学机构与合作者网络核验",
     "status": "已索引出版记录",
     "source_kind": "crossref_verified",
@@ -3129,7 +3207,9 @@
     "abstract_en": "Riemannian neural networks, which generalize the deep learning paradigm to non-Euclidean geometries, have garnered widespread attention across diverse applications in artificial intelligence. Among these, the representative attention models have been studied on various non-Euclidean spaces to geometrically capture the spatiotemporal dependencies inherent in time series data, e.g., electroencephalography (EEG). Recent studies have highlighted the full-rank correlation matrix as an advantageous alternative to the covariance matrix for data representation, owing to its invariance to the scale of variables. Motivated by these advancements, we propose the Correlation Attention Network (CorAtt) tailored for full-rank correlation matrices and implement it under the permutation-invariant and computationally efficient Off-Log and Log-Scaled geometries, respectively. Extensive evaluations on three benchmarking EEG datasets provide substantial evidence for the effectiveness of our introduced CorAtt. The code and supplementary material can be found at https://github.com/ChenHu-ML/CorAtt.",
     "abstract_zh": "黎曼神经网络将深度学习范式推广到非欧几里得几何，在人工智能的各种应用中引起了广泛的关注。其中，代表性的注意力模型已经在各种非欧几里得空间上进行了研究，以几何方式捕获时间序列数据中固有的时空依赖性，例如脑电图（EEG）。最近的研究强调，满秩相关矩阵由于其对变量规模的不变性，可以作为数据表示的协方差矩阵的有利替代方案。受这些进步的推动，我们提出了为全秩相关矩阵量身定制的相关注意网络（CorAtt），并在",
     "abstract_source": "crossref_verified",
-    "topics": [],
+    "topics": [
+      "脑机接口与神经解码"
+    ],
     "verification": "Crossref江南大学机构与合作者网络核验",
     "status": "已索引出版记录",
     "source_kind": "crossref_verified",
@@ -3247,7 +3327,9 @@
     "abstract_en": "",
     "abstract_zh": "",
     "abstract_source": "",
-    "topics": [],
+    "topics": [
+      "医学影像与脑疾病诊断"
+    ],
     "verification": "Crossref江南大学机构与合作者网络核验",
     "status": "已索引出版记录",
     "source_kind": "crossref_verified",
@@ -3302,7 +3384,9 @@
     "abstract_en": "Precisely identifying and delineating food regions automatically from images, a task known as food image segmentation, is crucial for enabling applications in food science such as automated dietary logging, accurate nutritional analysis, and food safety monitoring. However, accurately segmenting food images, particularly delineating food edges with precision, remains challenging due to the wide variety and diverse forms of food items, frequent inter-food occlusion, and ambiguous boundaries between food and backgrounds or containers. To overcome these challenges, we proposed a novel method called the Multi-view Edge Attention Network (MVEANet), which focuses on enhancing the fine-grained segmentation of food edges. The core idea behind this method is to integrate information obtained from observing food from different perspectives to achieve a more comprehensive understanding of its shape and specifically to strengthen the processing capability for food contour details. Rigorous testing on two large public food image datasets, FoodSeg103 and UEC-FoodPIX Complete, demonstrates that MVEANet surpasses existing state-of-the-art methods in segmentation accuracy, performing exceptionally well in depicting clear and precise food boundaries. This work provides the field of food science with a more accurate and reliable tool for automated food image segmentation, offering strong technical support for the development of more intelligent dietary assessment, nutritional research, and health management systems.",
     "abstract_zh": "从图像中自动精确识别和描绘食物区域（称为食物图像分割）对于实现自动饮食记录、准确营养分析和食品安全监控等食品科学应用至关重要。然而，由于食品种类繁多、形式多样、食品间频繁遮挡以及食品与背景或容器之间的界限模糊，准确分割食品图像，特别是精确描绘食品边缘仍然具有挑战性。为了克服这些挑战，我们提出了一种称为多视图边缘注意网络（MVEANet）的新方法，该方法专注于增强食物边缘的细粒度分割。该方法背后的核心思想是",
     "abstract_source": "pubmed_verified",
-    "topics": [],
+    "topics": [
+      "医学影像与脑疾病诊断"
+    ],
     "verification": "PubMed江南大学机构署名核验",
     "status": "已索引期刊论文",
     "source_kind": "pubmed_verified",
@@ -3537,7 +3621,9 @@
     "abstract_en": "In recent years, food nutrition estimation has received growing attention due to its critical role in dietary analysis and public health. Traditional nutrition assessment methods often rely on manual measurements and expert knowledge, which are time-consuming and not easily scalable. With the advancement of computer vision, RGB-based methods have been proposed, and more recently, RGB-D-based approaches have further improved performance by incorporating depth information to capture spatial cues. While these methods have shown promising results, they still face challenges in complex food scenes, such as limited ability to distinguish visually similar items with different ingredients and insufficient modeling of spatial or semantic relationships. To solve these issues, we propose an Ingredient-Guided Semantic Modeling Network (IGSMNet) for food nutrition estimation. The method introduces an ingredient-guided module that encodes ingredient information using a pre-trained language model and aligns it with visual features via cross-modal attention. At the same time, an internal semantic modeling component is designed to enhance structural understanding through dynamic positional encoding and localized attention, allowing for fine-grained relational reasoning. On the Nutrition5k dataset, our method achieves PMAE values of 12.2% for Calories, 9.4% for Mass, 19.1% for Fat, 18.3% for Carb, and 16.0% for Protein. These results demonstrate that our IGSMNet consistently outperforms existing baselines, validating its effectiveness.",
     "abstract_zh": "近年来，食品营养评估因其在膳食分析和公共卫生中的关键作用而受到越来越多的关注。传统的营养评估方法通常依赖于手动测量和专家知识，这既耗时又不易扩展。随着计算机视觉的进步，人们提出了基于 RGB 的方法，最近，基于 RGB-D 的方法通过结合深度信息来捕获空间线索，进一步提高了性能。虽然这些方法已经显示出有希望的结果，但它们在复杂的食物场景中仍然面临挑战，例如区分具有不同成分的视觉相似物品的能力有限，以及空间或语义关系的建模不足。至溶胶",
     "abstract_source": "crossref_verified",
-    "topics": [],
+    "topics": [
+      "多模态与大语言模型"
+    ],
     "verification": "Crossref江南大学机构与合作者网络核验",
     "status": "已索引出版记录",
     "source_kind": "crossref_verified",
@@ -3650,7 +3736,9 @@
     "abstract_en": "In the open world, out-of-distribution (OOD) detection is crucial to ensure the reliability and robustness of deep learning models. Traditional OOD detection methods are often limited to using single-source information coupled with the abnormal activations of OOD data, resulting in poor detection performance for OOD samples. To this end, we propose MuSIA (Multi-Source Information Fusion with Abnormal Activations) to obtain effective information from multiple information sources and capture abnormal activations to improve the performance of OOD detection. To verify the effectiveness of MuSIA, we conducted experiments with six OOD datasets on six pre-trained models (ViT, RepVGG, DeiT, etc.). Experimental results show that compared with the SOTA method, MuSIA reduces FPR95 (↓) by an average of 7.78%. Further ablation studies deeply explore the role of each component in MuSIA, especially the synergy of capturing abnormal activation and multi-source information fusion.",
     "abstract_zh": "在开放世界中，分布外（OOD）检测对于确保深度学习模型的可靠性和鲁棒性至关重要。传统的OOD检测方法往往局限于使用单源信息，加上OOD数据的异常激活，导致OOD样本的检测性能较差。为此，我们提出MuSIA（多源信息融合与异常激活）从多个信息源获取有效信息并捕获异常激活以提高OOD检测的性能。为了验证 MuSIA 的有效性，我们在 6 个 OOD 数据集上对 6 个预训练模型（ViT、RepVGG、DeiT 等）进行了实验。实验结果表明，与SOTA方法相比，",
     "abstract_source": "pubmed_verified",
-    "topics": [],
+    "topics": [
+      "脑电基础大模型"
+    ],
     "verification": "PubMed江南大学机构署名核验",
     "status": "已索引期刊论文",
     "source_kind": "pubmed_verified",
@@ -3666,64 +3754,6 @@
     ],
     "source_record_ids": [
       "panorama_7e26a7e13c4f_64f5e45a6be73091"
-    ],
-    "resource_ids": [],
-    "code_urls": [],
-    "data_urls": [],
-    "model_urls": [],
-    "scholar_categories": {
-      "panorama_7e26a7e13c4f": {
-        "category_id": "eeg_benchmark",
-        "label": "脑电基准、数据与评测",
-        "scholar_name": "吴小俊",
-        "secondary_tags": [],
-        "confidence": "medium",
-        "note": ""
-      }
-    },
-    "primary_categories_by_scholar": [
-      "吴小俊：脑电基准、数据与评测"
-    ],
-    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
-    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
-    "category_id": "eeg_benchmark",
-    "primary_category": "脑电基准、数据与评测"
-  },
-  {
-    "title": "Robust Token Gradient and Frequency-Aware Transferable Adversarial Attacks on Vision Transformers",
-    "title_en": "Robust Token Gradient and Frequency-Aware Transferable Adversarial Attacks on Vision Transformers",
-    "title_zh": "Robust Token Gradient and Frequency-Aware Transferable Adversarial Attacks on Vision Transformers",
-    "year": 2025,
-    "venue": "IEEE Transactions on Information Forensics and Security",
-    "authors": [
-      "Cong Hu",
-      "Zhi-Chao He",
-      "Yuan-Bo Li",
-      "Xiao-Jun Wu"
-    ],
-    "doi": "10.1109/tifs.2025.3620638",
-    "paper_url": "https://doi.org/10.1109/tifs.2025.3620638",
-    "pdf_url": "",
-    "source_url": "https://doi.org/10.1109/tifs.2025.3620638",
-    "abstract_en": "",
-    "abstract_zh": "",
-    "abstract_source": "",
-    "topics": [],
-    "verification": "Crossref江南大学机构与合作者网络核验",
-    "status": "已索引出版记录",
-    "source_kind": "crossref_verified",
-    "record_id": "panorama_7e26a7e13c4f_243d1cdf81361672",
-    "global_record_id": "243d1cdf81361672",
-    "scholar_id": "panorama_7e26a7e13c4f",
-    "scholar_name": "吴小俊",
-    "scholar_ids": [
-      "panorama_7e26a7e13c4f"
-    ],
-    "scholar_names": [
-      "吴小俊"
-    ],
-    "source_record_ids": [
-      "panorama_7e26a7e13c4f_243d1cdf81361672"
     ],
     "resource_ids": [],
     "code_urls": [],
@@ -3823,7 +3853,9 @@
     "abstract_en": "There is currently strong interest in improving visual object tracking by augmenting the RGB modality with the output of a visual event camera that is particularly informative about the scene motion. However, existing approaches perform event feature extraction for RGB-E tracking using traditional appearance models, which have been optimised for RGB only tracking, without adapting it for the intrinsic characteristics of the event data. To address this problem, we propose an Event backbone (Pooler), designed to obtain a high-quality feature representation that is cognisant of the innate characteristics of the event data, namely its sparsity. In particular, Multi-Scale Pooling is introduced to capture all the motion feature trends within event data through the utilisation of diverse pooling kernel sizes. The association between the derived RGB and event representations is established by an innovative module performing adaptive Mutually Guided Fusion (MGF). Extensive experimental results show that our method significantly outperforms state-of-the-art trackers on two widely used RGB-E tracking datasets, including VisEvent and COESOT, where the precision and success rates on COESOT are improved by 4.9% and 5.2%, respectively. Our code will be available at https://github.com/SSSpc333/TENet.",
     "abstract_zh": "目前，人们对通过使用视觉事件相机的输出来增强 RGB 模态来改进视觉对象跟踪非常感兴趣，该输出特别提供有关场景运动的信息。然而，现有方法使用传统的外观模型来执行 RGB-E 跟踪的事件特征提取，这些模型已针对仅 RGB 跟踪进行了优化，而没有针对事件数据的内在特征进行调整。为了解决这个问题，我们提出了一个事件主干（Pooler），旨在获得高质量的特征表示，该特征表示能够识别事件数据的固有特征，即其稀疏性。特别是，引入了多尺度池化来捕获事件数据中的所有运动特征趋势",
     "abstract_source": "pubmed_verified",
-    "topics": [],
+    "topics": [
+      "脉冲神经网络与类脑计算"
+    ],
     "verification": "PubMed江南大学机构署名核验",
     "status": "已索引期刊论文",
     "source_kind": "pubmed_verified",
@@ -3936,7 +3968,9 @@
     "abstract_en": "Premature convergence is a thorny problem for particle swarm optimization (PSO) algorithms, especially on multimodal problems, where maintaining swarm diversity is crucial. However, most enhancement strategies for PSO, including the existing diversity-guided strategies, have not fully addressed this issue. This paper proposes the virtual position guided (VPG) strategy for PSO algorithms. The VPG strategy calculates diversity values for two different populations and establishes a diversity baseline. It then dynamically guides the algorithm to conduct different search behaviors, through three phases-divergence, normal, and acceleration-in each iteration, based on the relationships among these diversity values and the baseline. Collectively, these phases orchestrate different schemes to balance exploration and exploitation, collaboratively steering the algorithm away from local optima and towards enhanced solution quality. The introduction of \"virtual position\" caters to the strategy's adaptability across various PSO algorithms, ensuring the generality and effectiveness of the proposed VPG strategy. With a single hyperparameter and a recommended usual setup, VPG is easy to implement. The experimental results demonstrate that the VPG strategy is superior to several canonical and the state-of-the-art strategies for diversity guidance, and is effective in improving the search performance of most PSO algorithms on multimodal problems of various dimensionalities.",
     "abstract_zh": "过早收敛是粒子群优化（PSO）算法的一个棘手问题，特别是在多模态问题上，保持群体多样性至关重要。然而，大多数 PSO 增强策略，包括现有的多样性引导策略，都没有完全解决这个问题。本文提出了 PSO 算法的虚拟位置引导（VPG）策略。 VPG策略计算两个不同群体的多样性值并建立多样性基线。然后，根据这些多样性值与基线之间的关系，在每次迭代中动态引导算法通过发散、正常和加速三个阶段进行不同的搜索行为。总的来说，这些阶段",
     "abstract_source": "pubmed_verified",
-    "topics": [],
+    "topics": [
+      "多模态与大语言模型"
+    ],
     "verification": "PubMed江南大学机构署名核验",
     "status": "已索引期刊论文",
     "source_kind": "pubmed_verified",
@@ -4633,7 +4667,9 @@
     "abstract_en": "",
     "abstract_zh": "",
     "abstract_source": "",
-    "topics": [],
+    "topics": [
+      "多模态与大语言模型"
+    ],
     "verification": "Crossref江南大学机构与合作者网络核验",
     "status": "已索引出版记录",
     "source_kind": "crossref_verified",
@@ -4986,7 +5022,9 @@
     "abstract_en": "Image segmentation is one of the vital steps in medical image analysis. A large number of methods based on convolutional neural networks have emerged, which can extract abstract features from multiple-modality medical images, learn valuable information that is difficult to recognize by humans, and obtain more reliable results than traditional image segmentation approaches. U-Net, due to its simple structure and excellent performance, is widely used in medical image segmentation. In this paper, to further improve the performance of U-Net, we propose a channel and space compound attention (CSCA) convolutional neural network, CSCA U-Net in abbreviation, which increases the network depth and employs a double squeeze-and-excitation (DSE) block in the bottleneck layer to enhance feature extraction and obtain more high-level semantic features. Moreover, the characteristics of the proposed method are three-fold: (1) channel and space compound attention (CSCA) block, (2) cross-layer feature fusion (CLFF), and (3) deep supervision (DS). Extensive experiments on several available medical image datasets, including Kvasir-SEG, CVC-ClinicDB, CVC-ColonDB, ETIS, CVC-T, 2018 Data Science Bowl (2018 DSB), ISIC 2018, and JSUAH-Cerebellum, show that CSCA U-Net achieves competitive results and significantly improves generalization performance. The codes and trained models are available at https://github.com/xiaolanshu/CSCA-U-Net.",
     "abstract_zh": "图像分割是医学图像分析的重要步骤之一。大量基于卷积神经网络的方法已经出现，它们可以从多模态医学图像中提取抽象特征，学习人类难以识别的有价值的信息，并获得比传统图像分割方法更可靠的结果。 U-Net由于其简单的结构和优异的性能，在医学图像分割中得到广泛应用。在本文中，为了进一步提高 U-Net 的性能，我们提出了一种通道和空间复合注意（CSCA）卷积神经网络，简称 CSCA U-Net，它增加了网络深度，并在底部采用了双挤压和激励（DSE）块。",
     "abstract_source": "pubmed_verified",
-    "topics": [],
+    "topics": [
+      "医学影像与脑疾病诊断"
+    ],
     "verification": "PubMed江南大学机构署名核验",
     "status": "已索引期刊论文",
     "source_kind": "pubmed_verified",
@@ -5219,7 +5257,9 @@
     "abstract_en": "",
     "abstract_zh": "",
     "abstract_source": "",
-    "topics": [],
+    "topics": [
+      "多模态与大语言模型"
+    ],
     "verification": "Crossref江南大学机构与合作者网络核验",
     "status": "已索引出版记录",
     "source_kind": "crossref_verified",
@@ -6278,7 +6318,9 @@
     "abstract_en": "Cross-modal hashing (CMH) has recently received increasing attention with the merit of speed and storage in performing large-scale cross-media similarity search. However, most existing cross-media approaches utilize the batch-based mode to update hash functions, without the ability to efficiently handle the online streaming multimedia data. Online hashing can effectively address the preceding issue by using the online learning scheme to incrementally update the hash functions. Nevertheless, the existing online CMH approaches still suffer from several challenges, such as (1) how to efficiently and effectively utilize the supervision information, (2) how to learn more powerful hash functions, and (3) how to solve the binary constraints. To mitigate these limitations, we present a novel online hashing approach named ONION ( ON line semant I c aut O encoder hashi N g). Specifically, it leverages the semantic autoencoder scheme to establish the correlations between binary codes and labels, delivering the power to obtain more discriminative hash codes. Besides, the proposed ONION directly utilizes the label inner product to build the connection between existing data and newly coming data. Therefore, the optimization is less sensitive to the newly arriving data. Equipping a discrete optimization scheme designed to solve the binary constraints, the quantization errors can be dramatically reduced. Furthermore, the hash functions are learned by the proposed autoencoder strategy, making the hash functions more powerful. Extensive experiments on three large-scale databases demonstrate that the performance of our ONION is superior to several recent competitive online and offline cross-media algorithms.",
     "abstract_zh": "跨模态哈希（CMH）最近因其在执行大规模跨媒体相似性搜索方面的速度和存储优点而受到越来越多的关注。然而，现有的跨媒体方法大多利用基于批处理的模式来更新哈希函数，无法有效处理在线流媒体多媒体数据。在线哈希通过使用在线学习方案来增量更新哈希函数，可以有效解决上述问题。然而，现有的在线CMH方法仍然面临一些挑战，例如（1）如何高效且有效地利用监督信息，（2）如何学习更强大的哈希函数，以及（3）如何解决二进制约束。为了减轻",
     "abstract_source": "crossref_verified",
-    "topics": [],
+    "topics": [
+      "多模态与大语言模型"
+    ],
     "verification": "Crossref江南大学机构与合作者网络核验",
     "status": "已索引出版记录",
     "source_kind": "crossref_verified",
@@ -6566,7 +6608,9 @@
     "abstract_en": "",
     "abstract_zh": "",
     "abstract_source": "",
-    "topics": [],
+    "topics": [
+      "强化学习与决策优化"
+    ],
     "verification": "Crossref江南大学机构与合作者网络核验",
     "status": "已索引出版记录",
     "source_kind": "crossref_verified",
@@ -7142,7 +7186,9 @@
     "abstract_en": "",
     "abstract_zh": "",
     "abstract_source": "",
-    "topics": [],
+    "topics": [
+      "多模态与大语言模型"
+    ],
     "verification": "Crossref江南大学机构与合作者网络核验",
     "status": "已索引出版记录",
     "source_kind": "crossref_verified",
@@ -7486,7 +7532,9 @@
     "abstract_en": "In recent years, deep learning-based image fusion methods have achieved promising fusion performance. However, existing fusion approaches always focus on increasing the network depth to enhance the feature extraction capacity. In addition, fusion is performed in a fixed feature space, which further degrades the performance. To this end, we proposed an end-to-end infrared and visible image fusion method based on a multibranch encoder, coined MEFuse. In principle, MEFuse increased the number of branches of the encoder, thus mapping the source images into different feature spaces, increasing the diversity of the extracted feature maps, and enhancing the learning capacity of the network. In addition, a multistage fusion strategy was designed to achieve multigranularity image fusion. First, the cascaded multimodal images were merged in the input stage; thus the primary visual fusion was realized in the coding process. Second, the feature maps from multiple coding branches were fused to fuse multimodal information comprehensively. Finally, the long-range lateral connection sent the input appearance of each encoding branch to the decoder to guide the image reconstruction process. Experiments on the benchmark data sets demonstrate that, compared with the existing methods, the proposed MEFuse achieved superior performance in both human perception and objective evaluation.",
     "abstract_zh": "近年来，基于深度学习的图像融合方法取得了令人鼓舞的融合性能。然而，现有的融合方法总是侧重于增加网络深度以增强特征提取能力。此外，融合是在固定的特征空间中进行的，这进一步降低了性能。为此，我们提出了一种基于多分支编码器的端到端红外和可见光图像融合方法，命名为MEFuse。原则上，MEFuse增加了编码器的分支数量，从而将源图像映射到不同的特征空间，增加了提取的特征图的多样性，增强了网络的学习能力。此外，还设计了多级融合策略来实现m",
     "abstract_source": "crossref_verified",
-    "topics": [],
+    "topics": [
+      "多模态与大语言模型"
+    ],
     "verification": "Crossref江南大学机构与合作者网络核验",
     "status": "已索引出版记录",
     "source_kind": "crossref_verified",
@@ -7658,7 +7706,9 @@
     "abstract_en": "Hashing methods have sparked a great revolution on large-scale cross-media search due to its effectiveness and efficiency. Most existing approaches learn unified hash representation in a common Hamming space to represent all multimodal data. However, the unified hash codes may not characterize the cross-modal data discriminatively, because the data may vary greatly due to its different dimensionalities, physical properties, and statistical information. In addition, most existing supervised cross-modal algorithms preserve the similarity relationship by constructing an n × n pairwise similarity matrix, which requires a large amount of calculation and loses the category information. To mitigate these issues, a novel cross-media hashing approach is proposed in this article, dubbed label flexible matrix factorization hashing (LFMH). Specifically, LFMH jointly learns the modality-specific latent subspace with similar semantic by the flexible matrix factorization. In addition, LFMH guides the hash learning by utilizing the semantic labels directly instead of the large n × n pairwise similarity matrix. LFMH transforms the heterogeneous data into modality-specific latent semantic representation. Therefore, we can obtain the hash codes by quantifying the representations, and the learned hash codes are consistent with the supervised labels of multimodal data. Then, we can obtain the similar binary codes of the corresponding modality, and the binary codes can characterize such samples flexibly. Accordingly, the derived hash codes have more discriminative power for single-modal and cross-modal retrieval tasks. Extensive experiments on eight different databases demonstrate that our model outperforms some competitive approaches.",
     "abstract_zh": "哈希方法因其有效性和效率引发了大规模跨媒体搜索的巨大革命。大多数现有方法在公共汉明空间中学习统一的哈希表示来表示所有多模态数据。然而，统一的哈希码可能无法区分地表征跨模态数据，因为数据可能由于其不同的维度、物理属性和统计信息而变化很大。此外，现有的有监督跨模态算法大多通过构造n×n两两的相似度矩阵来保存相似度关系，这需要大量的计算量并且丢失类别信息。为了缓解这些问题，提出了一种新颖的跨媒体哈希方法",
     "abstract_source": "crossref_verified",
-    "topics": [],
+    "topics": [
+      "多模态与大语言模型"
+    ],
     "verification": "Crossref江南大学机构与合作者网络核验",
     "status": "已索引出版记录",
     "source_kind": "crossref_verified",
@@ -8915,7 +8965,9 @@
     "abstract_en": "Subspace clustering analysis algorithms are often employed when dealing with high-dimensional data. As a representative approach, Low-Rank Representation (LRR) of data has achieved great success for subspace segmentation tasks in applications such as image processing. The traditional LRR-related methods consist of two separate tasks: first, the affinity graph construction by using lowrank minimization techniques, and then the spectral clustering, which is done on the affinity graph to get the final segmentation. Since these two steps are independent of each other, this method does not guarantee that the results obtained by the algorithm are globally optimal. In this paper, a method called Robust Structured Low-Rank Representation (RSLRR) is proposed, by integrating the two above mentioned tasks and solve a joint optimization problem. This paper also puts forward a method to solve the joint optimization problem, which can efficiently get both the segmentation and the structured low-rank representation. Experiments on several standard datasets show that, compared with other algorithms, the algorithm proposed in this paper can achieve better clustering results.",
     "abstract_zh": "处理高维数据时经常采用子空间聚类分析算法。作为一种代表性方法，数据的低秩表示（LRR）在图像处理等应用中的子空间分割任务中取得了巨大的成功。传统的LRR相关方法由两个独立的任务组成：首先，使用低秩最小化技术构建亲和图，然后在亲和图上进行谱聚类以获得最终的分割。由于这两个步骤是相互独立的，因此该方法并不能保证算法得到的结果是全局最优的。在本文中，提出了一种称为鲁棒结构化低秩表示（RSLRR）的方法，",
     "abstract_source": "crossref_verified",
-    "topics": [],
+    "topics": [
+      "医学影像与脑疾病诊断"
+    ],
     "verification": "Crossref江南大学机构与合作者网络核验",
     "status": "已索引出版记录",
     "source_kind": "crossref_verified",
@@ -9145,7 +9197,9 @@
     "abstract_en": "",
     "abstract_zh": "",
     "abstract_source": "",
-    "topics": [],
+    "topics": [
+      "多模态与大语言模型"
+    ],
     "verification": "Crossref江南大学机构与合作者网络核验",
     "status": "已索引出版记录",
     "source_kind": "crossref_verified",
@@ -9775,7 +9829,8 @@
     "paper_url": "",
     "source_url": "",
     "topics": [
-      "情感计算与脑电方向"
+      "情感计算与脑电方向",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",

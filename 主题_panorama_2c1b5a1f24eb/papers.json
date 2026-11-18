@@ -442,7 +442,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -584,7 +585,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -802,7 +804,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100398343）",
     "status": "已索引出版/会议记录",
@@ -813,10 +816,12 @@
     "scholar_id": "panorama_2c1b5a1f24eb",
     "scholar_name": "李海峰",
     "scholar_ids": [
-      "panorama_2c1b5a1f24eb"
+      "panorama_2c1b5a1f24eb",
+      "guangyu_wang_bupt"
     ],
     "scholar_names": [
-      "李海峰"
+      "李海峰",
+      "王光宇"
     ],
     "source_record_ids": [
       "panorama_2c1b5a1f24eb_75da6475ffe27c0e"
@@ -835,10 +840,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "guangyu_wang_bupt": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "王光宇",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李海峰：情感脑电与多模态生理信号"
+      "李海峰：情感脑电与多模态生理信号",
+      "王光宇：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -1563,7 +1580,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2058,7 +2076,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100398343）",
     "status": "已索引出版/会议记录",
@@ -2182,7 +2201,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "Crossref exact/near-exact title and publication-year match; DOI URL preserved；题名、年份和作者字段已写入论文详情页",
     "status": "已核验作品（Crossref/DOI）",
@@ -2720,7 +2740,8 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2804,7 +2825,8 @@
     "abstract_zh": "微表情是短暂的、不自觉的面部表情，可以揭示真实的情绪，因此准确检测微表情在安全和心理学等领域至关重要。由于微表情的强度微妙且持续时间短，准确捕捉微表情的细微动作是一项重大挑战。虽然当前的微表情识别方法在单个 ME 数据集上取得了长足的进步，但实际应用面临着额外的挑战。采集环境和设备的差异可能会导致训练集和测试集之间的分布差异，从而可能影响识别结果。此外，单个微表情数据集的规模较小可能会导致模型训练不足......",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100398343）",
     "status": "已索引出版/会议记录",
@@ -2871,7 +2893,8 @@
     "abstract_zh": "微表情（ME）是不自觉地快速表现出来的面部表情，揭示微妙的心理活动。之前的大多数研究通常集中于两个独立的任务：微表情识别和识别。我们的目标是提出一种高精度的“发现+识别”方法，可以从长视频中发现 ME 区间并识别其情感类别。由于ME的出现稀疏性，长视频中微表情区间和非微表情区间的数量存在显着的不平衡。这种不平衡使得使用传统策略训练的模型难以区分真实的 ME 和由头部运动、眨眼和宏观表情引起的噪声样本，结果...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100398343）",
     "status": "已索引出版/会议记录",
@@ -3002,7 +3025,7 @@
       "Haifeng Li"
     ],
     "doi": "10.52202/079017-1239",
-    "dblp_key": "",
+    "dblp_key": "conf/nips/Wang0HXML24",
     "paper_url": "https://doi.org/10.52202/079017-1239",
     "pdf_url": "",
     "source_url": "https://openalex.org/W4415797794",
@@ -3024,10 +3047,12 @@
     "scholar_id": "panorama_2c1b5a1f24eb",
     "scholar_name": "李海峰",
     "scholar_ids": [
-      "panorama_2c1b5a1f24eb"
+      "panorama_2c1b5a1f24eb",
+      "guangyu_wang_bupt"
     ],
     "scholar_names": [
-      "李海峰"
+      "李海峰",
+      "王光宇"
     ],
     "source_record_ids": [
       "panorama_2c1b5a1f24eb_18ffca5c23721eef"
@@ -3046,10 +3071,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "guangyu_wang_bupt": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "王光宇",
+        "secondary_tags": [
+          "脑电基础大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李海峰：脑电基础模型与通用解码"
+      "李海峰：脑电基础模型与通用解码",
+      "王光宇：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -3084,7 +3120,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100398343）",
     "status": "已索引出版/会议记录",
@@ -3226,7 +3263,8 @@
     "abstract_zh": "微表情 (ME) 是短暂的、无意识的面部表情，可以揭示真实的情绪，因此准确检测微表情在安全、心理学和人机交互等各种应用中至关重要。由于其强度小、持续时间短，如何准确捕捉微表情的细微动作是一个具有挑战性的问题。本文提出了一种基于 AU 原型的新型微表情识别方法，该方法具有高精度和鲁棒性。动作单元（AU）是基本的面部动作，例如下眉、拉唇角等，广泛用于微表情分析，表情可以编码为一系列 AU。我们的方法包括设计 AU 原型来记录代表......",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100398343）",
     "status": "已索引出版/会议记录",
@@ -3237,10 +3275,12 @@
     "scholar_id": "panorama_2c1b5a1f24eb",
     "scholar_name": "李海峰",
     "scholar_ids": [
-      "panorama_2c1b5a1f24eb"
+      "panorama_2c1b5a1f24eb",
+      "guangyu_wang_bupt"
     ],
     "scholar_names": [
-      "李海峰"
+      "李海峰",
+      "王光宇"
     ],
     "source_record_ids": [
       "panorama_2c1b5a1f24eb_0a7651ff0c7ed97e"
@@ -3261,10 +3301,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "guangyu_wang_bupt": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "王光宇",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李海峰：情感脑电与多模态生理信号"
+      "李海峰：情感脑电与多模态生理信号",
+      "王光宇：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -3908,7 +3960,8 @@
     "topics": [
       "脑电情感识别",
       "脑电基础大模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100398343）",
     "status": "已索引出版/会议记录",
@@ -3970,7 +4023,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -4060,7 +4114,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100398343）",
     "status": "已索引出版/会议记录",
@@ -4404,7 +4459,9 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -4555,7 +4612,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "Crossref exact/near-exact title and publication-year match; DOI URL preserved；题名、年份和作者字段已写入论文详情页",
     "status": "已核验作品（Crossref/DOI）",
@@ -4774,7 +4832,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100398343）",
     "status": "已索引出版/会议记录",
@@ -4843,7 +4902,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100398343）",
     "status": "已索引出版/会议记录",
@@ -4910,7 +4970,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100398343）",
     "status": "已索引出版/会议记录",
@@ -4970,7 +5031,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -5365,7 +5427,7 @@
       "Tzyy‐Ping Jung"
     ],
     "doi": "10.1109/access.2020.2967814",
-    "dblp_key": "",
+    "dblp_key": "journals/access/LiFMXXJ20",
     "paper_url": "https://doi.org/10.1109/access.2020.2967814",
     "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/08963695.pdf",
     "source_url": "https://openalex.org/W3002391655",
@@ -5385,10 +5447,12 @@
     "scholar_id": "panorama_2c1b5a1f24eb",
     "scholar_name": "李海峰",
     "scholar_ids": [
-      "panorama_2c1b5a1f24eb"
+      "panorama_2c1b5a1f24eb",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
-      "李海峰"
+      "李海峰",
+      "钟子平"
     ],
     "source_record_ids": [
       "panorama_2c1b5a1f24eb_f6f3d270df049f9f"
@@ -5405,10 +5469,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟子平",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李海峰：脑电基准、数据与评测"
+      "李海峰：脑电基准、数据与评测",
+      "钟子平：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -5440,7 +5513,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100398343）",
     "status": "已索引出版/会议记录",
@@ -5773,7 +5847,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100398343）",
     "status": "已索引出版/会议记录",
@@ -6093,7 +6168,8 @@
     "abstract_source": "",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100398343）",
     "status": "已索引出版/会议记录",
@@ -6211,7 +6287,7 @@
       "Björn Wolfgang Schuller"
     ],
     "doi": "10.21437/interspeech.2018-1858",
-    "dblp_key": "",
+    "dblp_key": "conf/interspeech/HanRCW0S18",
     "paper_url": "https://doi.org/10.21437/interspeech.2018-1858",
     "pdf_url": "",
     "source_url": "https://openalex.org/W2889286050",
@@ -6222,7 +6298,8 @@
     "abstract_zh": "为了以时间方式对分类语音情感识别任务进行建模，出现的第一个挑战是如何将每个话语的分类标签转换为标签序列。为了解决这个问题，我们假设一个话语由情感和非情感片段组成，这些非情感片段对应于沉默区域、短暂停顿、音素之间的转换、清音音素等。根据这个假设，我们建议将话语的标签序列视为两个链states：情感状态表示情感框架，Null表示非情感框架。然后，我们利用基于循环神经网络的联结时间分类模型来自动标记和对齐UT...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100398343）",
     "status": "已索引出版/会议记录",
@@ -6233,10 +6310,12 @@
     "scholar_id": "panorama_2c1b5a1f24eb",
     "scholar_name": "李海峰",
     "scholar_ids": [
-      "panorama_2c1b5a1f24eb"
+      "panorama_2c1b5a1f24eb",
+      "bjorn_schuller"
     ],
     "scholar_names": [
-      "李海峰"
+      "李海峰",
+      "Björn W. Schuller"
     ],
     "source_record_ids": [
       "panorama_2c1b5a1f24eb_9e537389db171ffe"
@@ -6257,10 +6336,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bjorn_schuller": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李海峰：情感脑电与多模态生理信号"
+      "李海峰：情感脑电与多模态生理信号",
+      "Björn W. Schuller：自然语言处理、多模态学习与通用方法"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -6290,7 +6381,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -6464,7 +6557,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -7110,10 +7205,12 @@
     "scholar_id": "panorama_2c1b5a1f24eb",
     "scholar_name": "李海峰",
     "scholar_ids": [
-      "panorama_2c1b5a1f24eb"
+      "panorama_2c1b5a1f24eb",
+      "bjorn_schuller"
     ],
     "scholar_names": [
-      "李海峰"
+      "李海峰",
+      "Björn W. Schuller"
     ],
     "source_record_ids": [
       "panorama_2c1b5a1f24eb_a4567c97bff0e147"
@@ -7130,10 +7227,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "bjorn_schuller": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李海峰：脑电基础模型与通用解码"
+      "李海峰：脑电基础模型与通用解码",
+      "Björn W. Schuller：自然语言处理、多模态学习与通用方法"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -7226,7 +7332,8 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -8384,7 +8491,8 @@
     "abstract_zh": "尽管许多源自线性语音产生理论的特征已被研究作为语音情感指标，但对于实际应用来说，识别精度仍然不能令人满意。本文基于 Teager Energy Operator (TEO) 和 Mel 感知特性，提出了一种新颖的语音情感特征 Teager Mel。由于TEO具有非线性、简单等优点，似乎非常适合语音情感描述。从听觉心理物理学的角度来看，感知线性预测（PLP）特征也作为 Teager Mel 的扩展进行了研究。然后采用支持向量机 (SVM) 分类器将 Teager Mel 和 PLP 特征融合在中文离散情感语言上。",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100398343）",
     "status": "已索引出版/会议记录",
@@ -9482,7 +9590,7 @@
       "Björn Wolfgang Schuller"
     ],
     "doi": "10.21437/interspeech.2013-247",
-    "dblp_key": "",
+    "dblp_key": "conf/interspeech/HanLRMSS13",
     "paper_url": "https://doi.org/10.21437/interspeech.2013-247",
     "pdf_url": "",
     "source_url": "https://openalex.org/W2394717182",
@@ -9493,7 +9601,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100398343）",
     "status": "已索引出版/会议记录",
@@ -9504,10 +9613,12 @@
     "scholar_id": "panorama_2c1b5a1f24eb",
     "scholar_name": "李海峰",
     "scholar_ids": [
-      "panorama_2c1b5a1f24eb"
+      "panorama_2c1b5a1f24eb",
+      "bjorn_schuller"
     ],
     "scholar_names": [
-      "李海峰"
+      "李海峰",
+      "Björn W. Schuller"
     ],
     "source_record_ids": [
       "panorama_2c1b5a1f24eb_f786fc4aceaabadc"
@@ -9526,10 +9637,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bjorn_schuller": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李海峰：情感脑电与多模态生理信号"
+      "李海峰：情感脑电与多模态生理信号",
+      "Björn W. Schuller：自然语言处理、多模态学习与通用方法"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -9681,7 +9804,8 @@
     "abstract_zh": "语音情感识别是一项非常重要的语音技术。在本文中，梅尔频率倒谱系数（MFCC）被用来将语音信号表示为情感特征。 MFCC 加上话语能量用作支持向量机的输入。支持向量机（SVM）在模式识别领域取得了巨大成功。近年来，SVM 用于语音识别。 SVM 可使用多种核函数将输入空间问题映射到高维空间。我们缺乏选择具有优化的 SVM 参数的更好内核的指南。有些内核对于某些问题更好，但对于其他问题则较差。言语情感哪个更好尚不得而知...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100398343）",
     "status": "已索引出版/会议记录",
@@ -9739,7 +9863,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -9822,7 +9947,8 @@
     "abstract_zh": "语音情感识别在人机交互的发展中变得越来越重要。整个句子的长期特征通常是通过使用低级描述符（例如帧级的音调或能量）的统计函数来获得的。在本文中，与以前的统计方法不同，我们在HHT方法的基础上提出了一组新的长期特征，用LTF-HMS表示。与基于FFT的统计特征相比，我们测试了LTF-HMS在实验中发挥的重要作用，并采用柏林情感数据库作为我们的语料库。实验结果表明，较短句子中的误分类样本为 39.5%，较长句子中的误分类样本为 25%...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100398343）",
     "status": "已索引出版/会议记录",
@@ -10148,7 +10274,7 @@
       "Björn Wolfgang Schuller"
     ],
     "doi": "10.1145/2388676.2388786",
-    "dblp_key": "",
+    "dblp_key": "conf/icmi/HanLEMSS12",
     "paper_url": "https://doi.org/10.1145/2388676.2388786",
     "pdf_url": "http://mediatum.ub.tum.de/node?id=1137854",
     "source_url": "https://openalex.org/W2082418950",
@@ -10160,7 +10286,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100398343）",
     "status": "已索引出版/会议记录",
@@ -10171,10 +10298,12 @@
     "scholar_id": "panorama_2c1b5a1f24eb",
     "scholar_name": "李海峰",
     "scholar_ids": [
-      "panorama_2c1b5a1f24eb"
+      "panorama_2c1b5a1f24eb",
+      "bjorn_schuller"
     ],
     "scholar_names": [
-      "李海峰"
+      "李海峰",
+      "Björn W. Schuller"
     ],
     "source_record_ids": [
       "panorama_2c1b5a1f24eb_35b2e0af9491ba19"
@@ -10194,10 +10323,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bjorn_schuller": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "李海峰：情感脑电与多模态生理信号"
+      "李海峰：情感脑电与多模态生理信号",
+      "Björn W. Schuller：自然语言处理、多模态学习与通用方法"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",

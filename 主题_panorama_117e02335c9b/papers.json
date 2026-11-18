@@ -78,11 +78,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "zheng_lian",
-      "panorama_117e02335c9b"
+      "panorama_117e02335c9b",
+      "lei_xie_nwpu"
     ],
     "scholar_names": [
       "连政",
-      "薛柳萌"
+      "薛柳萌",
+      "谢磊"
     ],
     "source_record_ids": [
       "zheng_lian_680e95ebee09"
@@ -122,17 +124,34 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "lei_xie_nwpu": {
+        "category_id": "affect_dataset_eval",
+        "label": "情感理解数据集、评测基准与综述",
+        "scholar_name": "谢磊",
+        "secondary_tags": [
+          "情感智能评测",
+          "多模态情感理解",
+          "情感计算与LLM",
+          "多模态情感识别",
+          "情感理解",
+          "情感大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "c52de3963adf5b8a",
     "primary_categories_by_scholar": [
       "连政：脑电基准、数据与评测",
-      "薛柳萌：脑电基准、数据与评测"
+      "薛柳萌：脑电基准、数据与评测",
+      "谢磊：情感理解数据集、评测基准与综述"
     ],
     "pdf_url": "https://arxiv.org/pdf/2610.16076",
     "abstract_en": "Nonverbal vocalizations (NVVs), such as laughter and sighs, convey meaning alongside words. NVV-aware speech systems must recognize and generate these events while preserving lexical accuracy and perceptual quality. Yet differences in annotation, resources, and evaluation complicate comparisons, and aggregate scores can obscure specific weaknesses. We review ten system descriptions from the NVVSpeech Challenge 2026, covering understanding and generation in Chinese and English across 16 event categories. Our analysis examines supervision construction, task adaptation, and inference-time or preference-based feedback. Results reveal persistent recognition difficulties with breath and gasp and trade-offs between event recognition and lexical accuracy, as well as between generation intelligibility and acoustic quality, with human listening providing complementary evaluation evidence. These findings identify priorities for advancing NVV-aware speech understanding, controllable generation, and comparable evaluation.",
     "abstract_source": "openalex_verified",
-    "abstract_zh": "非语言发声 (NVV)，例如笑声和叹息，与单词一起传达意义。 NVV 感知语音系统必须识别并生成这些事件，同时保持词汇准确性和感知质量。然而，注释、资源和评估方面的差异使比较变得复杂，而且总分可能会掩盖具体的弱点。我们回顾了 NVVSpeech Challenge 2026 的十个系统描述，涵盖 16 个事件类别的中文和英文的理解和生成。我们的分析检查了监督构建、任务适应以及推理时间或基于偏好的反馈。结果显示，患者持续存在呼吸、喘气和呼吸识别困难。"
+    "abstract_zh": "非语言发声 (NVV)，例如笑声和叹息，与单词一起传达意义。 NVV 感知语音系统必须识别并生成这些事件，同时保持词汇准确性和感知质量。然而，注释、资源和评估方面的差异使比较变得复杂，而且总分可能会掩盖具体的弱点。我们回顾了 NVVSpeech Challenge 2026 的十个系统描述，涵盖 16 个事件类别的中文和英文的理解和生成。我们的分析检查了监督构建、任务适应以及推理时间或基于偏好的反馈。结果显示，患者持续存在呼吸、喘气和呼吸识别困难。",
+    "dblp_key": "journals/corr/abs-2610-16076"
   },
   {
     "title": "Summary of the ChinaVoices Challenge 2026: Data, Tasks, Baseline, and Methods",
@@ -373,7 +392,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "多模态与大语言模型",
-      "强化学习与决策优化"
+      "强化学习与决策优化",
+      "情感大模型"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5009337933）",
     "status": "预印本记录",
@@ -509,7 +529,7 @@
       "Liumeng Xue"
     ],
     "doi": "10.48550/arxiv.2609.09929",
-    "dblp_key": "",
+    "dblp_key": "journals/corr/abs-2609-09929",
     "paper_url": "https://arxiv.org/abs/2609.09929",
     "pdf_url": "https://arxiv.org/pdf/2609.09929",
     "source_url": "https://openalex.org/W7212152199",
@@ -521,7 +541,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感大模型"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5009337933）",
     "status": "预印本记录",
@@ -532,10 +553,12 @@
     "scholar_id": "panorama_117e02335c9b",
     "scholar_name": "薛柳萌",
     "scholar_ids": [
-      "panorama_117e02335c9b"
+      "panorama_117e02335c9b",
+      "lei_xie_nwpu"
     ],
     "scholar_names": [
-      "薛柳萌"
+      "薛柳萌",
+      "谢磊"
     ],
     "source_record_ids": [
       "panorama_117e02335c9b_b9e28cbefa159880"
@@ -555,10 +578,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "lei_xie_nwpu": {
+        "category_id": "multimodal_emotion",
+        "label": "多模态情感理解、面部表情与语音情绪",
+        "scholar_name": "谢磊",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "情感大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "薛柳萌：脑电基准、数据与评测"
+      "薛柳萌：脑电基准、数据与评测",
+      "谢磊：多模态情感理解、面部表情与语音情绪"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -1042,7 +1078,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1143,7 +1180,8 @@
       "情感大模型与多模态基础模型",
       "arXiv exact match",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入",
     "status": "候选条目/需按作者主页继续核验",
@@ -1184,13 +1222,21 @@
       "jianhua_tao",
       "guoying_zhao",
       "zheng_lian",
-      "panorama_117e02335c9b"
+      "panorama_117e02335c9b",
+      "bjorn_schuller",
+      "erik_cambria",
+      "xiaojiang_peng",
+      "zebang_cheng"
     ],
     "scholar_names": [
       "陶建华",
       "赵国英",
       "连政",
-      "薛柳萌"
+      "薛柳萌",
+      "Björn W. Schuller",
+      "Erik Cambria",
+      "彭小江",
+      "程泽邦"
     ],
     "source_record_ids": [
       "jianhua_tao_0a595a9c5e70",
@@ -1255,6 +1301,66 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bjorn_schuller": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "情感计算",
+          "语音与对话",
+          "多模态情感理解",
+          "人机交互",
+          "情感智能",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "erik_cambria": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Erik Cambria",
+        "secondary_tags": [
+          "情感计算",
+          "语音与对话",
+          "多模态情感理解",
+          "人机交互",
+          "情感智能",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "xiaojiang_peng": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "彭小江",
+        "secondary_tags": [
+          "情感计算",
+          "语音与对话",
+          "多模态情感理解",
+          "人机交互",
+          "情感智能",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zebang_cheng": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "程泽邦",
+        "secondary_tags": [
+          "情感计算",
+          "语音与对话",
+          "多模态情感理解",
+          "人机交互",
+          "情感智能",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "ddce5ddae6a2dfb0",
@@ -1262,7 +1368,11 @@
       "陶建华：情感脑电与多模态生理信号",
       "赵国英：情感理解与多模态推理",
       "连政：情感脑电与多模态生理信号",
-      "薛柳萌：情感脑电与多模态生理信号"
+      "薛柳萌：情感脑电与多模态生理信号",
+      "Björn W. Schuller：自然语言处理、多模态学习与通用方法",
+      "Erik Cambria：自然语言处理、多模态学习与通用方法",
+      "彭小江：情感与大模型评测基准、数据集及综述",
+      "程泽邦：情感与大模型评测基准、数据集及综述"
     ],
     "dblp_key": "journals/corr/abs-2604-19417",
     "pdf_url": "https://doi.org/10.1145/3767308.3838604",
@@ -1294,7 +1404,7 @@
       "Lei Xie"
     ],
     "doi": "10.1145/3767308.3836420",
-    "dblp_key": "",
+    "dblp_key": "journals/corr/abs-2604-17958",
     "paper_url": "https://doi.org/10.1145/3767308.3836420",
     "pdf_url": "https://doi.org/10.1145/3767308.3836420",
     "source_url": "https://openalex.org/W7155068545",
@@ -1314,10 +1424,12 @@
     "scholar_id": "panorama_117e02335c9b",
     "scholar_name": "薛柳萌",
     "scholar_ids": [
-      "panorama_117e02335c9b"
+      "panorama_117e02335c9b",
+      "lei_xie_nwpu"
     ],
     "scholar_names": [
-      "薛柳萌"
+      "薛柳萌",
+      "谢磊"
     ],
     "source_record_ids": [
       "panorama_117e02335c9b_8db2bcb3c8f55818"
@@ -1334,10 +1446,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "lei_xie_nwpu": {
+        "category_id": "sentiment_nlp",
+        "label": "文本情感分析、情绪原因与认知语义",
+        "scholar_name": "谢磊",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "薛柳萌：脑电基准、数据与评测"
+      "薛柳萌：脑电基准、数据与评测",
+      "谢磊：文本情感分析、情绪原因与认知语义"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -1437,7 +1558,7 @@
       "Lei Xie"
     ],
     "doi": "10.48550/arxiv.2609.09940",
-    "dblp_key": "",
+    "dblp_key": "journals/corr/abs-2609-09940",
     "paper_url": "https://arxiv.org/abs/2609.09940",
     "pdf_url": "https://arxiv.org/pdf/2609.09940",
     "source_url": "https://openalex.org/W7212159635",
@@ -1450,7 +1571,8 @@
     "topics": [
       "情感计算与情绪理解",
       "多模态与大语言模型",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感大模型"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5009337933）",
     "status": "预印本记录",
@@ -1461,10 +1583,12 @@
     "scholar_id": "panorama_117e02335c9b",
     "scholar_name": "薛柳萌",
     "scholar_ids": [
-      "panorama_117e02335c9b"
+      "panorama_117e02335c9b",
+      "lei_xie_nwpu"
     ],
     "scholar_names": [
-      "薛柳萌"
+      "薛柳萌",
+      "谢磊"
     ],
     "source_record_ids": [
       "panorama_117e02335c9b_79c4176fde467997"
@@ -1485,10 +1609,24 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "lei_xie_nwpu": {
+        "category_id": "affect_dataset_eval",
+        "label": "情感理解数据集、评测基准与综述",
+        "scholar_name": "谢磊",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "智能芯片与计算系统",
+          "情感大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "薛柳萌：脑电基准、数据与评测"
+      "薛柳萌：脑电基准、数据与评测",
+      "谢磊：情感理解数据集、评测基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -2203,7 +2341,7 @@
       "Lei Xie"
     ],
     "doi": "10.48550/arxiv.2609.09947",
-    "dblp_key": "",
+    "dblp_key": "journals/corr/abs-2609-09947",
     "paper_url": "https://arxiv.org/abs/2609.09947",
     "pdf_url": "https://arxiv.org/pdf/2609.09947",
     "source_url": "https://openalex.org/W7212172299",
@@ -2227,10 +2365,12 @@
     "scholar_id": "panorama_117e02335c9b",
     "scholar_name": "薛柳萌",
     "scholar_ids": [
-      "panorama_117e02335c9b"
+      "panorama_117e02335c9b",
+      "lei_xie_nwpu"
     ],
     "scholar_names": [
-      "薛柳萌"
+      "薛柳萌",
+      "谢磊"
     ],
     "source_record_ids": [
       "panorama_117e02335c9b_7a4e7eb210c269dd"
@@ -2251,10 +2391,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "lei_xie_nwpu": {
+        "category_id": "multimodal_emotion",
+        "label": "多模态情感理解、面部表情与语音情绪",
+        "scholar_name": "谢磊",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "强化学习与决策优化"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "薛柳萌：情感脑电与多模态生理信号"
+      "薛柳萌：情感脑电与多模态生理信号",
+      "谢磊：多模态情感理解、面部表情与语音情绪"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -2606,7 +2759,7 @@
       "Wei Xue"
     ],
     "doi": "10.48550/arxiv.2502.04128",
-    "dblp_key": "",
+    "dblp_key": "journals/corr/abs-2502-04128",
     "paper_url": "http://arxiv.org/abs/2502.04128",
     "pdf_url": "https://arxiv.org/pdf/2502.04128",
     "source_url": "https://openalex.org/W4407245277",
@@ -2630,10 +2783,12 @@
     "scholar_id": "panorama_117e02335c9b",
     "scholar_name": "薛柳萌",
     "scholar_ids": [
-      "panorama_117e02335c9b"
+      "panorama_117e02335c9b",
+      "lei_xie_nwpu"
     ],
     "scholar_names": [
-      "薛柳萌"
+      "薛柳萌",
+      "谢磊"
     ],
     "source_record_ids": [
       "panorama_117e02335c9b_648eb2b53ff764c5"
@@ -2654,10 +2809,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "lei_xie_nwpu": {
+        "category_id": "multimodal_emotion",
+        "label": "多模态情感理解、面部表情与语音情绪",
+        "scholar_name": "谢磊",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "薛柳萌：脑电基础模型与通用解码"
+      "薛柳萌：脑电基础模型与通用解码",
+      "谢磊：多模态情感理解、面部表情与语音情绪"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -2697,7 +2865,7 @@
       "Wei Xue"
     ],
     "doi": "10.48550/arxiv.2503.01710",
-    "dblp_key": "",
+    "dblp_key": "journals/corr/abs-2503-01710",
     "paper_url": "http://arxiv.org/abs/2503.01710",
     "pdf_url": "https://arxiv.org/pdf/2503.01710",
     "source_url": "https://openalex.org/W4415085369",
@@ -2719,10 +2887,12 @@
     "scholar_id": "panorama_117e02335c9b",
     "scholar_name": "薛柳萌",
     "scholar_ids": [
-      "panorama_117e02335c9b"
+      "panorama_117e02335c9b",
+      "lei_xie_nwpu"
     ],
     "scholar_names": [
-      "薛柳萌"
+      "薛柳萌",
+      "谢磊"
     ],
     "source_record_ids": [
       "panorama_117e02335c9b_122cbf948b084d6b"
@@ -2745,12 +2915,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "lei_xie_nwpu": {
+        "category_id": "sentiment_nlp",
+        "label": "文本情感分析、情绪原因与认知语义",
+        "scholar_name": "谢磊",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "薛柳萌：脑电基准、数据与评测"
+      "薛柳萌：脑电基准、数据与评测",
+      "谢磊：文本情感分析、情绪原因与认知语义"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "eeg_benchmark",
     "primary_category": "脑电基准、数据与评测"
   },
@@ -2821,7 +3002,7 @@
       "Yike Guo"
     ],
     "doi": "10.48550/arxiv.2503.08638",
-    "dblp_key": "",
+    "dblp_key": "conf/iclr/YuanLGZPZLLMDDY26",
     "paper_url": "http://arxiv.org/abs/2503.08638",
     "pdf_url": "https://arxiv.org/pdf/2503.08638",
     "source_url": "https://openalex.org/W4414578659",
@@ -2843,10 +3024,12 @@
     "scholar_id": "panorama_117e02335c9b",
     "scholar_name": "薛柳萌",
     "scholar_ids": [
-      "panorama_117e02335c9b"
+      "panorama_117e02335c9b",
+      "xipeng_qiu"
     ],
     "scholar_names": [
-      "薛柳萌"
+      "薛柳萌",
+      "邱锡鹏"
     ],
     "source_record_ids": [
       "panorama_117e02335c9b_8bca4bc5cec9061f"
@@ -2865,10 +3048,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "xipeng_qiu": {
+        "category_id": "affective_llm_mllm",
+        "label": "情感大模型、多模态指令微调与共情生成",
+        "scholar_name": "邱锡鹏",
+        "secondary_tags": [
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "薛柳萌：脑电基准、数据与评测"
+      "薛柳萌：脑电基准、数据与评测",
+      "邱锡鹏：情感大模型、多模态指令微调与共情生成"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -2892,7 +3086,7 @@
       "Zhifei Li"
     ],
     "doi": "10.21437/interspeech.2024-1559",
-    "dblp_key": "",
+    "dblp_key": "conf/interspeech/LiXGZLXCYL24",
     "paper_url": "https://doi.org/10.21437/interspeech.2024-1559",
     "pdf_url": "https://arxiv.org/pdf/2406.07422",
     "source_url": "https://openalex.org/W4402111239",
@@ -2914,10 +3108,12 @@
     "scholar_id": "panorama_117e02335c9b",
     "scholar_name": "薛柳萌",
     "scholar_ids": [
-      "panorama_117e02335c9b"
+      "panorama_117e02335c9b",
+      "lei_xie_nwpu"
     ],
     "scholar_names": [
-      "薛柳萌"
+      "薛柳萌",
+      "谢磊"
     ],
     "source_record_ids": [
       "panorama_117e02335c9b_daaa4c47b05cb51b"
@@ -2936,10 +3132,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "lei_xie_nwpu": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "谢磊",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "薛柳萌：脑电基础模型与通用解码"
+      "薛柳萌：脑电基础模型与通用解码",
+      "谢磊：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -3589,7 +3796,7 @@
       "Lei Xie"
     ],
     "doi": "10.21437/interspeech.2024-1862",
-    "dblp_key": "",
+    "dblp_key": "conf/interspeech/GuoZXZTX24",
     "paper_url": "https://doi.org/10.21437/interspeech.2024-1862",
     "pdf_url": "https://arxiv.org/pdf/2406.05672",
     "source_url": "https://openalex.org/W4402112210",
@@ -3609,10 +3816,12 @@
     "scholar_id": "panorama_117e02335c9b",
     "scholar_name": "薛柳萌",
     "scholar_ids": [
-      "panorama_117e02335c9b"
+      "panorama_117e02335c9b",
+      "lei_xie_nwpu"
     ],
     "scholar_names": [
-      "薛柳萌"
+      "薛柳萌",
+      "谢磊"
     ],
     "source_record_ids": [
       "panorama_117e02335c9b_1bf9dc34995b2d3d"
@@ -3629,10 +3838,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "lei_xie_nwpu": {
+        "category_id": "multimodal_emotion",
+        "label": "多模态情感理解、面部表情与语音情绪",
+        "scholar_name": "谢磊",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "薛柳萌：脑电基础模型与通用解码"
+      "薛柳萌：脑电基础模型与通用解码",
+      "谢磊：多模态情感理解、面部表情与语音情绪"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -3866,7 +4084,7 @@
       "Yu‐Ping Wang"
     ],
     "doi": "10.1109/taslp.2024.3407577",
-    "dblp_key": "",
+    "dblp_key": "journals/taslp/WangXKXCTW24",
     "paper_url": "https://doi.org/10.1109/taslp.2024.3407577",
     "pdf_url": "https://arxiv.org/pdf/2305.07204",
     "source_url": "https://openalex.org/W4399168655",
@@ -3886,10 +4104,12 @@
     "scholar_id": "panorama_117e02335c9b",
     "scholar_name": "薛柳萌",
     "scholar_ids": [
-      "panorama_117e02335c9b"
+      "panorama_117e02335c9b",
+      "lei_xie_nwpu"
     ],
     "scholar_names": [
-      "薛柳萌"
+      "薛柳萌",
+      "谢磊"
     ],
     "source_record_ids": [
       "panorama_117e02335c9b_efca02f5c797a8ee"
@@ -3906,10 +4126,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "lei_xie_nwpu": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "谢磊",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "薛柳萌：脑电基准、数据与评测"
+      "薛柳萌：脑电基准、数据与评测",
+      "谢磊：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -4264,7 +4493,7 @@
       "Peng Sun"
     ],
     "doi": "10.1109/iscslp63861.2024.10800694",
-    "dblp_key": "",
+    "dblp_key": "conf/iscslp/XiaGYXLWGXZLDS24",
     "paper_url": "https://doi.org/10.1109/iscslp63861.2024.10800694",
     "pdf_url": "https://arxiv.org/pdf/2411.00064",
     "source_url": "https://openalex.org/W4405709385",
@@ -4284,10 +4513,12 @@
     "scholar_id": "panorama_117e02335c9b",
     "scholar_name": "薛柳萌",
     "scholar_ids": [
-      "panorama_117e02335c9b"
+      "panorama_117e02335c9b",
+      "lei_xie_nwpu"
     ],
     "scholar_names": [
-      "薛柳萌"
+      "薛柳萌",
+      "谢磊"
     ],
     "source_record_ids": [
       "panorama_117e02335c9b_b682f59c6d361d4c"
@@ -4304,10 +4535,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "lei_xie_nwpu": {
+        "category_id": "affect_dataset_eval",
+        "label": "情感理解数据集、评测基准与综述",
+        "scholar_name": "谢磊",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "薛柳萌：脑电基准、数据与评测"
+      "薛柳萌：脑电基准、数据与评测",
+      "谢磊：情感理解数据集、评测基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -4542,7 +4782,7 @@
       "Lei Xie"
     ],
     "doi": "10.1109/icassp48485.2024.10445828",
-    "dblp_key": "",
+    "dblp_key": "conf/icassp/LiZXSCX24",
     "paper_url": "https://doi.org/10.1109/icassp48485.2024.10445828",
     "pdf_url": "https://arxiv.org/pdf/2311.07179",
     "source_url": "https://openalex.org/W4392904093",
@@ -4562,10 +4802,12 @@
     "scholar_id": "panorama_117e02335c9b",
     "scholar_name": "薛柳萌",
     "scholar_ids": [
-      "panorama_117e02335c9b"
+      "panorama_117e02335c9b",
+      "lei_xie_nwpu"
     ],
     "scholar_names": [
-      "薛柳萌"
+      "薛柳萌",
+      "谢磊"
     ],
     "source_record_ids": [
       "panorama_117e02335c9b_192a6b53efe58f47"
@@ -4582,10 +4824,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "lei_xie_nwpu": {
+        "category_id": "multimodal_emotion",
+        "label": "多模态情感理解、面部表情与语音情绪",
+        "scholar_name": "谢磊",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "薛柳萌：脑电基础模型与通用解码"
+      "薛柳萌：脑电基础模型与通用解码",
+      "谢磊：多模态情感理解、面部表情与语音情绪"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -4685,7 +4936,7 @@
       "Lei Xie"
     ],
     "doi": "10.21437/interspeech.2024-2343",
-    "dblp_key": "",
+    "dblp_key": "conf/interspeech/MaGSJWXXZZX24",
     "paper_url": "https://doi.org/10.21437/interspeech.2024-2343",
     "pdf_url": "https://arxiv.org/pdf/2406.05763",
     "source_url": "https://openalex.org/W4402111455",
@@ -4706,11 +4957,13 @@
     "scholar_name": "薛柳萌",
     "scholar_ids": [
       "panorama_117e02335c9b",
-      "panorama_huan_zhao"
+      "panorama_huan_zhao",
+      "lei_xie_nwpu"
     ],
     "scholar_names": [
       "薛柳萌",
-      "赵欢"
+      "赵欢",
+      "谢磊"
     ],
     "source_record_ids": [
       "panorama_117e02335c9b_d51fa3907661a5df"
@@ -4735,11 +4988,20 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "lei_xie_nwpu": {
+        "category_id": "sentiment_nlp",
+        "label": "文本情感分析、情绪原因与认知语义",
+        "scholar_name": "谢磊",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "薛柳萌：脑电基准、数据与评测",
-      "赵欢：脑电基准、数据与评测"
+      "赵欢：脑电基准、数据与评测",
+      "谢磊：文本情感分析、情绪原因与认知语义"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -4835,7 +5097,7 @@
       "Zhifei Li"
     ],
     "doi": "10.1109/apsipaasc58517.2023.10317138",
-    "dblp_key": "",
+    "dblp_key": "conf/apsipa/ChiFXCXL23",
     "paper_url": "http://dx.doi.org/10.1109/apsipaasc58517.2023.10317138",
     "pdf_url": "",
     "source_url": "https://openalex.org/W4388820758",
@@ -4855,10 +5117,12 @@
     "scholar_id": "panorama_117e02335c9b",
     "scholar_name": "薛柳萌",
     "scholar_ids": [
-      "panorama_117e02335c9b"
+      "panorama_117e02335c9b",
+      "lei_xie_nwpu"
     ],
     "scholar_names": [
-      "薛柳萌"
+      "薛柳萌",
+      "谢磊"
     ],
     "source_record_ids": [
       "panorama_117e02335c9b_e0f23bffd94a8378"
@@ -4875,10 +5139,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "lei_xie_nwpu": {
+        "category_id": "sentiment_nlp",
+        "label": "文本情感分析、情绪原因与认知语义",
+        "scholar_name": "谢磊",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "薛柳萌：情感脑电与多模态生理信号"
+      "薛柳萌：情感脑电与多模态生理信号",
+      "谢磊：文本情感分析、情绪原因与认知语义"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -4976,7 +5249,7 @@
       "Mengxiao Bi"
     ],
     "doi": "10.1109/icassp49357.2023.10096057",
-    "dblp_key": "",
+    "dblp_key": "conf/icassp/NingXZWXYXB23",
     "paper_url": "https://doi.org/10.1109/icassp49357.2023.10096057",
     "pdf_url": "https://arxiv.org/pdf/2211.04710",
     "source_url": "https://openalex.org/W4372337821",
@@ -4998,10 +5271,12 @@
     "scholar_id": "panorama_117e02335c9b",
     "scholar_name": "薛柳萌",
     "scholar_ids": [
-      "panorama_117e02335c9b"
+      "panorama_117e02335c9b",
+      "lei_xie_nwpu"
     ],
     "scholar_names": [
-      "薛柳萌"
+      "薛柳萌",
+      "谢磊"
     ],
     "source_record_ids": [
       "panorama_117e02335c9b_35864d225c9e4870"
@@ -5020,10 +5295,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "lei_xie_nwpu": {
+        "category_id": "multimodal_emotion",
+        "label": "多模态情感理解、面部表情与语音情绪",
+        "scholar_name": "谢磊",
+        "secondary_tags": [
+          "脑电基础大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "薛柳萌：脑电基础模型与通用解码"
+      "薛柳萌：脑电基础模型与通用解码",
+      "谢磊：多模态情感理解、面部表情与语音情绪"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -5120,7 +5406,7 @@
       "Lei Xie"
     ],
     "doi": "10.1109/asru57964.2023.10389629",
-    "dblp_key": "",
+    "dblp_key": "conf/asru/GuoZXLLJX23",
     "paper_url": "https://doi.org/10.1109/asru57964.2023.10389629",
     "pdf_url": "https://arxiv.org/pdf/2309.13907",
     "source_url": "https://openalex.org/W4391021635",
@@ -5140,10 +5426,12 @@
     "scholar_id": "panorama_117e02335c9b",
     "scholar_name": "薛柳萌",
     "scholar_ids": [
-      "panorama_117e02335c9b"
+      "panorama_117e02335c9b",
+      "lei_xie_nwpu"
     ],
     "scholar_names": [
-      "薛柳萌"
+      "薛柳萌",
+      "谢磊"
     ],
     "source_record_ids": [
       "panorama_117e02335c9b_4b574c020e7965f1"
@@ -5160,10 +5448,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "lei_xie_nwpu": {
+        "category_id": "multimodal_emotion",
+        "label": "多模态情感理解、面部表情与语音情绪",
+        "scholar_name": "谢磊",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "薛柳萌：脑电基础模型与通用解码"
+      "薛柳萌：脑电基础模型与通用解码",
+      "谢磊：多模态情感理解、面部表情与语音情绪"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -5258,7 +5555,7 @@
       "Lei Xie"
     ],
     "doi": "10.21437/interspeech.2022-570",
-    "dblp_key": "",
+    "dblp_key": "conf/interspeech/XueYH0022",
     "paper_url": "https://doi.org/10.21437/interspeech.2022-570",
     "pdf_url": "https://arxiv.org/pdf/2207.00756",
     "source_url": "https://openalex.org/W4283836776",
@@ -5278,10 +5575,12 @@
     "scholar_id": "panorama_117e02335c9b",
     "scholar_name": "薛柳萌",
     "scholar_ids": [
-      "panorama_117e02335c9b"
+      "panorama_117e02335c9b",
+      "lei_xie_nwpu"
     ],
     "scholar_names": [
-      "薛柳萌"
+      "薛柳萌",
+      "谢磊"
     ],
     "source_record_ids": [
       "panorama_117e02335c9b_69aea9f6bcda7727"
@@ -5298,10 +5597,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "lei_xie_nwpu": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "谢磊",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "薛柳萌：脑电基础模型与通用解码"
+      "薛柳萌：脑电基础模型与通用解码",
+      "谢磊：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -5395,7 +5703,7 @@
       "Lei Xie"
     ],
     "doi": "10.1109/taslp.2022.3202126",
-    "dblp_key": "",
+    "dblp_key": "journals/taslp/XueSZX22",
     "paper_url": "https://doi.org/10.1109/taslp.2022.3202126",
     "pdf_url": "https://arxiv.org/pdf/2209.06484",
     "source_url": "https://openalex.org/W4295036296",
@@ -5417,10 +5725,12 @@
     "scholar_id": "panorama_117e02335c9b",
     "scholar_name": "薛柳萌",
     "scholar_ids": [
-      "panorama_117e02335c9b"
+      "panorama_117e02335c9b",
+      "lei_xie_nwpu"
     ],
     "scholar_names": [
-      "薛柳萌"
+      "薛柳萌",
+      "谢磊"
     ],
     "source_record_ids": [
       "panorama_117e02335c9b_5d248bd856922267"
@@ -5439,10 +5749,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "lei_xie_nwpu": {
+        "category_id": "multimodal_emotion",
+        "label": "多模态情感理解、面部表情与语音情绪",
+        "scholar_name": "谢磊",
+        "secondary_tags": [
+          "脑电基础大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "薛柳萌：脑电基准、数据与评测"
+      "薛柳萌：脑电基准、数据与评测",
+      "谢磊：多模态情感理解、面部表情与语音情绪"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -5537,7 +5858,7 @@
       "Frank K. Soong"
     ],
     "doi": "10.1016/j.neunet.2021.03.005",
-    "dblp_key": "",
+    "dblp_key": "journals/nn/XuePHXS21",
     "paper_url": "https://doi.org/10.1016/j.neunet.2021.03.005",
     "pdf_url": "",
     "source_url": "https://openalex.org/W3139170550",
@@ -5557,10 +5878,12 @@
     "scholar_id": "panorama_117e02335c9b",
     "scholar_name": "薛柳萌",
     "scholar_ids": [
-      "panorama_117e02335c9b"
+      "panorama_117e02335c9b",
+      "lei_xie_nwpu"
     ],
     "scholar_names": [
-      "薛柳萌"
+      "薛柳萌",
+      "谢磊"
     ],
     "source_record_ids": [
       "panorama_117e02335c9b_edc0e39d89b73c7b"
@@ -5577,10 +5900,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "lei_xie_nwpu": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "谢磊",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "薛柳萌：脑电基础模型与通用解码"
+      "薛柳萌：脑电基础模型与通用解码",
+      "谢磊：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -5674,7 +6006,7 @@
       "Lei Xie"
     ],
     "doi": "10.1109/iscslp49672.2021.9362069",
-    "dblp_key": "",
+    "dblp_key": "conf/iscslp/LiYXX21",
     "paper_url": "https://doi.org/10.1109/iscslp49672.2021.9362069",
     "pdf_url": "https://arxiv.org/pdf/2011.08679",
     "source_url": "https://openalex.org/W3135644023",
@@ -5696,10 +6028,12 @@
     "scholar_id": "panorama_117e02335c9b",
     "scholar_name": "薛柳萌",
     "scholar_ids": [
-      "panorama_117e02335c9b"
+      "panorama_117e02335c9b",
+      "lei_xie_nwpu"
     ],
     "scholar_names": [
-      "薛柳萌"
+      "薛柳萌",
+      "谢磊"
     ],
     "source_record_ids": [
       "panorama_117e02335c9b_356d8bc30ecb8f88"
@@ -5718,10 +6052,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "lei_xie_nwpu": {
+        "category_id": "sentiment_nlp",
+        "label": "文本情感分析、情绪原因与认知语义",
+        "scholar_name": "谢磊",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "薛柳萌：情感脑电与多模态生理信号"
+      "薛柳萌：情感脑电与多模态生理信号",
+      "谢磊：文本情感分析、情绪原因与认知语义"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -5896,7 +6241,7 @@
       "Dong Yu"
     ],
     "doi": "10.1016/j.neunet.2020.01.034",
-    "dblp_key": "",
+    "dblp_key": "journals/nn/YangLKXXSXY20",
     "paper_url": "https://doi.org/10.1016/j.neunet.2020.01.034",
     "pdf_url": "",
     "source_url": "https://openalex.org/W3005962597",
@@ -5916,10 +6261,12 @@
     "scholar_id": "panorama_117e02335c9b",
     "scholar_name": "薛柳萌",
     "scholar_ids": [
-      "panorama_117e02335c9b"
+      "panorama_117e02335c9b",
+      "lei_xie_nwpu"
     ],
     "scholar_names": [
-      "薛柳萌"
+      "薛柳萌",
+      "谢磊"
     ],
     "source_record_ids": [
       "panorama_117e02335c9b_92cdc28216a49139"
@@ -5936,10 +6283,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "lei_xie_nwpu": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "谢磊",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "薛柳萌：脑电基础模型与通用解码"
+      "薛柳萌：脑电基础模型与通用解码",
+      "谢磊：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -6098,7 +6454,7 @@
       "Zhizheng Wu"
     ],
     "doi": "10.21437/interspeech.2019-3191",
-    "dblp_key": "",
+    "dblp_key": "conf/interspeech/XueSXXW19",
     "paper_url": "https://doi.org/10.21437/interspeech.2019-3191",
     "pdf_url": "https://arxiv.org/pdf/1904.06063",
     "source_url": "https://openalex.org/W2973177731",
@@ -6118,10 +6474,12 @@
     "scholar_id": "panorama_117e02335c9b",
     "scholar_name": "薛柳萌",
     "scholar_ids": [
-      "panorama_117e02335c9b"
+      "panorama_117e02335c9b",
+      "lei_xie_nwpu"
     ],
     "scholar_names": [
-      "薛柳萌"
+      "薛柳萌",
+      "谢磊"
     ],
     "source_record_ids": [
       "panorama_117e02335c9b_64f86f2ff2dc6b16"
@@ -6138,10 +6496,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "lei_xie_nwpu": {
+        "category_id": "sentiment_nlp",
+        "label": "文本情感分析、情绪原因与认知语义",
+        "scholar_name": "谢磊",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "薛柳萌：脑电基础模型与通用解码"
+      "薛柳萌：脑电基础模型与通用解码",
+      "谢磊：文本情感分析、情绪原因与认知语义"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -6451,7 +6818,7 @@
       "Lei Xie"
     ],
     "doi": "10.1109/access.2019.2914149",
-    "dblp_key": "",
+    "dblp_key": "journals/access/ZhuZYXX19",
     "paper_url": "https://doi.org/10.1109/access.2019.2914149",
     "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/8600701/08703406.pdf",
     "source_url": "https://openalex.org/W2942807473",
@@ -6471,10 +6838,12 @@
     "scholar_id": "panorama_117e02335c9b",
     "scholar_name": "薛柳萌",
     "scholar_ids": [
-      "panorama_117e02335c9b"
+      "panorama_117e02335c9b",
+      "lei_xie_nwpu"
     ],
     "scholar_names": [
-      "薛柳萌"
+      "薛柳萌",
+      "谢磊"
     ],
     "source_record_ids": [
       "panorama_117e02335c9b_18a4670afa015fd0"
@@ -6491,10 +6860,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "lei_xie_nwpu": {
+        "category_id": "sentiment_nlp",
+        "label": "文本情感分析、情绪原因与认知语义",
+        "scholar_name": "谢磊",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "薛柳萌：脑电基础模型与通用解码"
+      "薛柳萌：脑电基础模型与通用解码",
+      "谢磊：文本情感分析、情绪原因与认知语义"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -6586,7 +6964,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -6729,7 +7108,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",

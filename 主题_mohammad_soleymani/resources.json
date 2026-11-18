@@ -1,0 +1,253 @@
+[
+  {
+    "id": "res_ds_b94adc5295ca",
+    "name": "A Data-driven Approach to Mid-level Perceptual M (OSF 5aupt)",
+    "name_zh": "A Data-driven Approach to Mid-level Perceptual M (OSF 5aupt)",
+    "type": "dataset",
+    "url": "https://osf.io/5aupt",
+    "download_url": "https://osf.io/5aupt",
+    "access": "公开数据集仓库",
+    "scholar_id": "mohammad_soleymani",
+    "scholar_name": "Mohammad Soleymani",
+    "matched_paper_ids": [
+      "4d88f907c8a84649"
+    ],
+    "related_paper_titles": [
+      "A Data-driven Approach to Mid-level Perceptual Musical Feature Modeling"
+    ],
+    "related_paper_titles_zh": [
+      "中级感知音乐特征建模的数据驱动方法"
+    ],
+    "evidence_urls": [
+      "http://arxiv.org/abs/1806.04903"
+    ],
+    "description": "论文《中级感知音乐特征建模的数据驱动方法》公开数据集入口。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "mohammad_soleymani::eeg_affect_bench"
+    ],
+    "primary_categories": [
+      "Mohammad Soleymani：生理情感数据库、基准与综述"
+    ]
+  },
+  {
+    "id": "res_gh_eeb82abd5e59",
+    "name": "X-Dyna (bytedance/X-Dyna)",
+    "name_zh": "X-Dyna (bytedance/X-Dyna) — X-Dyna：富有表现力的动态人体图像动画",
+    "type": "code",
+    "url": "https://github.com/bytedance/X-Dyna",
+    "download_url": "https://github.com/bytedance/X-Dyna",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "mohammad_soleymani",
+    "scholar_name": "Mohammad Soleymani",
+    "matched_paper_ids": [
+      "0fdc7ccd0e47cdf9"
+    ],
+    "related_paper_titles": [
+      "X-Dyna: Expressive Dynamic Human Image Animation"
+    ],
+    "related_paper_titles_zh": [
+      "X-Dyna：富有表现力的动态人体图像动画"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1109/CVPR52734.2025.00517"
+    ],
+    "description": "论文《X-Dyna：富有表现力的动态人体图像动画》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "mohammad_soleymani::eeg_affect_bench"
+    ],
+    "primary_categories": [
+      "Mohammad Soleymani：生理情感数据库、基准与综述"
+    ]
+  },
+  {
+    "id": "res_gh_575f2ca64e48",
+    "name": "Social-MAE (HuBohy/SocialMAE)",
+    "name_zh": "Social-MAE (HuBohy/SocialMAE) — Social-MAE：基于 Transformer 的面部和语音多模态自动编码器",
+    "type": "code",
+    "url": "https://github.com/HuBohy/SocialMAE",
+    "download_url": "https://github.com/HuBohy/SocialMAE",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "mohammad_soleymani",
+    "scholar_name": "Mohammad Soleymani",
+    "matched_paper_ids": [
+      "4709a68b00b16eff"
+    ],
+    "related_paper_titles": [
+      "Social-MAE: A Transformer-Based Multimodal Autoencoder for Face and Voice"
+    ],
+    "related_paper_titles_zh": [
+      "Social-MAE：基于 Transformer 的面部和语音多模态自动编码器"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1109/FG59268.2024.10581940"
+    ],
+    "description": "论文《Social-MAE：基于 Transformer 的面部和语音多模态自动编码器》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "mohammad_soleymani::eeg_affect_bench"
+    ],
+    "primary_categories": [
+      "Mohammad Soleymani：生理情感数据库、基准与综述"
+    ]
+  },
+  {
+    "id": "res_gh_86f23186b329",
+    "name": "ihp-lab/LibreFace",
+    "name_zh": "ihp-lab/LibreFace — LibreFace 2.0：利用合成数据的通用面部表情分析工具包",
+    "type": "code",
+    "url": "https://github.com/ihp-lab/LibreFace",
+    "download_url": "https://github.com/ihp-lab/LibreFace",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "mohammad_soleymani",
+    "scholar_name": "Mohammad Soleymani",
+    "matched_paper_ids": [
+      "dcb1c14b27504e5a",
+      "33d5b20a59c300d8"
+    ],
+    "related_paper_titles": [
+      "LibreFace 2.0: A Generalizable Facial Expression Analysis Toolkit Leveraging Synthetic Data"
+    ],
+    "related_paper_titles_zh": [
+      "LibreFace 2.0：利用合成数据的通用面部表情分析工具包"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1109/FG67764.2026.11556988"
+    ],
+    "description": "论文《LibreFace 2.0：利用合成数据的通用面部表情分析工具包》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "mohammad_soleymani::eeg_affect_bench"
+    ],
+    "primary_categories": [
+      "Mohammad Soleymani：生理情感数据库、基准与综述"
+    ]
+  },
+  {
+    "id": "res_gh_0511ad081456",
+    "name": "FG-Net (ihp-lab/FG-Net)",
+    "name_zh": "FG-Net (ihp-lab/FG-Net) — FG-Net：具有可推广金字塔特征的面部动作单元检测",
+    "type": "code",
+    "url": "https://github.com/ihp-lab/FG-Net",
+    "download_url": "https://github.com/ihp-lab/FG-Net",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "mohammad_soleymani",
+    "scholar_name": "Mohammad Soleymani",
+    "matched_paper_ids": [
+      "0abb0cf36fcbf1f8"
+    ],
+    "related_paper_titles": [
+      "FG-Net: Facial Action Unit Detection with Generalizable Pyramidal Features"
+    ],
+    "related_paper_titles_zh": [
+      "FG-Net：具有可推广金字塔特征的面部动作单元检测"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1109/WACV57701.2024.00599"
+    ],
+    "description": "论文《FG-Net：具有可推广金字塔特征的面部动作单元检测》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "mohammad_soleymani::eeg_affect_bench"
+    ],
+    "primary_categories": [
+      "Mohammad Soleymani：生理情感数据库、基准与综述"
+    ]
+  },
+  {
+    "id": "res_gh_e955b32ed23d",
+    "name": "ihp-lab/vqface",
+    "name_zh": "ihp-lab/vqface — 离散面部编码：数据驱动的面部显示发现框架",
+    "type": "code",
+    "url": "https://github.com/ihp-lab/vqface",
+    "download_url": "https://github.com/ihp-lab/vqface",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "mohammad_soleymani",
+    "scholar_name": "Mohammad Soleymani",
+    "matched_paper_ids": [
+      "c0d1e671a53965e9"
+    ],
+    "related_paper_titles": [
+      "Discrete Facial Encoding: A Framework for Data-driven Facial Display Discovery"
+    ],
+    "related_paper_titles_zh": [
+      "离散面部编码：数据驱动的面部显示发现框架"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1109/WACV61042.2026.00232"
+    ],
+    "description": "论文《离散面部编码：数据驱动的面部显示发现框架》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "mohammad_soleymani::eeg_affect_bench"
+    ],
+    "primary_categories": [
+      "Mohammad Soleymani：生理情感数据库、基准与综述"
+    ]
+  },
+  {
+    "id": "res_gh_69381b7bcfd4",
+    "name": "SEMPI (ihp-lab/SEMPI)",
+    "name_zh": "SEMPI (ihp-lab/SEMPI) — SEMPI：用于理解视频介导的多方交互中的社交参与的数据库",
+    "type": "code",
+    "url": "https://github.com/ihp-lab/SEMPI",
+    "download_url": "https://github.com/ihp-lab/SEMPI",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "mohammad_soleymani",
+    "scholar_name": "Mohammad Soleymani",
+    "matched_paper_ids": [
+      "a1603864cabfb49f"
+    ],
+    "related_paper_titles": [
+      "SEMPI: A Database for Understanding Social Engagement in Video-Mediated Multiparty Interaction"
+    ],
+    "related_paper_titles_zh": [
+      "SEMPI：用于理解视频介导的多方交互中的社交参与的数据库"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1145/3678957.3685752"
+    ],
+    "description": "论文《SEMPI：用于理解视频介导的多方交互中的社交参与的数据库》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "is_dataset_benchmark": true,
+    "dataset_title": "SEMPI (ihp-lab/SEMPI)",
+    "scholar_category_ids": [
+      "mohammad_soleymani::eeg_affect_bench"
+    ],
+    "primary_categories": [
+      "Mohammad Soleymani：生理情感数据库、基准与综述"
+    ]
+  },
+  {
+    "id": "res_gh_7ce455723d0e",
+    "name": "MagicDance (Boese0601/MagicDance)",
+    "name_zh": "MagicDance (Boese0601/MagicDance) — MagicDance：通过动作和面部表情传输生成逼真的人类舞蹈视频",
+    "type": "code",
+    "url": "https://github.com/Boese0601/MagicDance",
+    "download_url": "https://github.com/Boese0601/MagicDance",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "mohammad_soleymani",
+    "scholar_name": "Mohammad Soleymani",
+    "matched_paper_ids": [
+      "beaab482ab1afe66"
+    ],
+    "related_paper_titles": [
+      "MagicDance: Realistic Human Dance Video Generation with Motions & Facial Expressions Transfer"
+    ],
+    "related_paper_titles_zh": [
+      "MagicDance：通过动作和面部表情传输生成逼真的人类舞蹈视频"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.48550/ARXIV.2311.12052"
+    ],
+    "description": "论文《MagicDance：通过动作和面部表情传输生成逼真的人类舞蹈视频》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "mohammad_soleymani::general_ml_biomed"
+    ],
+    "primary_categories": [
+      "Mohammad Soleymani：通用模式识别、临床脑科学与跨领域应用"
+    ]
+  }
+]

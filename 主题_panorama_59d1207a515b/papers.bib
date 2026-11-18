@@ -1803,7 +1803,7 @@
   url = {https://doi.org/10.18653/V1/2025.ACL-LONG.933},
   howpublished = {ACL (1)},
   annotation = {中文辅助译名：CC-Tuning：一种改进联合多语言监督微调的跨语言连接机制},
-  abstract = {Yangfan Ye, Xiaocheng Feng, Zekun Yuan, Xiachong Feng, Libo Qin, Lei Huang, Weitao Ma, Yichong Huang, Zhirui Zhang, Yunfei Lu, Xiaohui Yan, Duyu Tang, Dandan Tu, Bing Qin. Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2025.},
+  abstract = {Current large language models (LLMs) often exhibit imbalanced multilingual capabilities due to their English-centric training corpora. To address this, existing fine-tuning approaches operating at the data-level (e.g., through data augmentation or distillation) typically introduce implicit cross-lingual alignment, overlooking the potential for more profound, latent-level cross-lingual interactions. In this work, we propose CC-Tuning, a novel multilingual fine-tuning paradigm that explicitly establishes a cross-lingual connection mechanism at the latent level. During training, CC-Tuning fuses the feed forward activations from both English and non-English inputs, enabling the model to benefit from both linguistic resources. This process is facilitated with a trainable Decision Maker that identifies beneficial activations. Furthermore, during inference, a Transform Matrix is utilized to simulate the cross-lingual connection under monolingual setting through representation transformation. Our experiments on six benchmarks covering 22 languages show that CC-Tuning outperforms vanilla SFT and offers a strong latent-level alternative to data-level augmentation methods. Further analysis also highlights the practicality of CC-Tuning and the potential of latent-level cross-lingual interactions in advancing the multilingual performance of LLMs.},
 }
 
 @misc{panorama_59d1207a515b_4e38d45c226a1851,
@@ -2486,7 +2486,7 @@
   url = {https://doi.org/10.48550/ARXIV.2408.04568},
   howpublished = {CoRR},
   annotation = {中文辅助译名：学习归因大语言模型的细粒度基础引文},
-  abstract = {Lei Huang, Xiaocheng Feng, Weitao Ma, Yuxuan Gu, Weihong Zhong, Xiachong Feng, Weijiang Yu, Weihua Peng, Duyu Tang, Dandan Tu, Bing Qin. Findings of the Association for Computational Linguistics: ACL 2024. 2024.},
+  abstract = {Despite the impressive performance on information-seeking tasks, large language models (LLMs) still struggle with hallucinations. Attributed LLMs, which augment generated text with in-line citations, have shown potential in mitigating hallucinations and improving verifiability. However, current approaches suffer from suboptimal citation quality due to their reliance on in-context learning. Furthermore, the practice of citing only coarse document identifiers makes it challenging for users to perform fine-grained verification. In this work, we introduce FRONT, a training framework designed to teach LLMs to generate Fine-Grained Grounded Citations. By grounding model outputs in fine-grained supporting quotes, these quotes guide the generation of grounded and consistent responses, not only improving citation quality but also facilitating fine-grained verification. Experiments on the ALCE benchmark demonstrate the efficacy of FRONT in generating superior grounded responses and highly supportive citations. With LLaMA-2-7B, the framework significantly outperforms all the baselines, achieving an average of 14.21% improvement in citation quality across all datasets, even surpassing ChatGPT.},
 }
 
 @misc{panorama_59d1207a515b_b6040bce6dbf6e03,
@@ -4027,6 +4027,7 @@
   url = {https://aclanthology.org/2021.ccl-1.86},
   howpublished = {CCL (Chinese Papers)},
   annotation = {中文辅助译名：通过异构图网络将常识知识融入抽象对话总结中},
+  abstract = {ive dialogue summarization is the task of capturing the highlights of a dialogue and rewriting them into a concise version. In this paper, we present a novel multi-speaker dialogue summarizer to demonstrate how large-scale commonsense knowledge can facilitate dialogue understanding and summary generation. In detail, we consider utterance and commonsense knowledge as two different types of data and design a Dialogue Heterogeneous Graph Network (D-HGN) for modeling both information. Meanwhile, we also add speakers as heterogeneous nodes to facilitate information flow. Experimental results on the SAMSum dataset show that our model can outperform various methods. We also conduct zero-shot setting experiments on the Argumentative Dialogue Summary Corpus, the results show that our model can better generalized to the new domain.},
 }
 
 @misc{panorama_59d1207a515b_344b8c334454088e,
@@ -4409,7 +4410,7 @@
   url = {https://doi.org/10.48550/ARXIV.2002.08155},
   howpublished = {CoRR},
   annotation = {中文辅助译名：CodeBERT：编程和自然语言的预训练模型},
-  abstract = {Zhangyin Feng, Daya Guo, Duyu Tang, Nan Duan, Xiaocheng Feng, Ming Gong, Linjun Shou, Bing Qin, Ting Liu, Daxin Jiang, Ming Zhou. Findings of the Association for Computational Linguistics: EMNLP 2020. 2020.},
+  abstract = {We present CodeBERT, a bimodal pre-trained model for programming language (PL) and nat-ural language (NL). CodeBERT learns general-purpose representations that support downstream NL-PL applications such as natural language codesearch, code documentation generation, etc. We develop CodeBERT with Transformer-based neural architecture, and train it with a hybrid objective function that incorporates the pre-training task of replaced token detection, which is to detect plausible alternatives sampled from generators. This enables us to utilize both bimodal data of NL-PL pairs and unimodal data, where the former provides input tokens for model training while the latter helps to learn better generators. We evaluate CodeBERT on two NL-PL applications by fine-tuning model parameters. Results show that CodeBERT achieves state-of-the-art performance on both natural language code search and code documentation generation tasks. Furthermore, to investigate what type of knowledge is learned in CodeBERT, we construct a dataset for NL-PL probing, and evaluate in a zero-shot setting where parameters of pre-trained models are fixed. Results show that CodeBERT performs better than previous pre-trained models on NL-PL probing.},
 }
 
 @misc{panorama_59d1207a515b_28df30df7e86346b,
@@ -4626,7 +4627,7 @@
   url = {https://doi.org/10.18653/V1/D19-1310},
   howpublished = {EMNLP/IJCNLP (1)},
   annotation = {中文辅助译名：在三个维度（行、列和时间）上使用有效的分层编码器生成表到文本},
-  abstract = {Heng Gong, Xiaocheng Feng, Bing Qin, Ting Liu. Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP). 2019.},
+  abstract = {Although Seq2Seq models for table-to-text generation have achieved remarkable progress, modeling table representation in one dimension is inadequate. This is because (1) the table consists of multiple rows and columns, which means that encoding a table should not depend only on one dimensional sequence or set of records and (2) most of the tables are time series data (e.g. NBA game data, stock market data), which means that the description of the current table may be affected by its historical data. To address aforementioned problems, not only do we model each table cell considering other records in the same row, we also enrich table's representation by modeling each table cell in context of other cells in the same column or with historical (time dimension) data respectively. In addition, we develop a table cell fusion gate to combine representations from row, column and time dimension into one dense vector according to the saliency of each dimension's representation. We evaluated our methods on ROTOWIRE, a benchmark dataset of NBA basketball games. Both automatic and human evaluation results demonstrate the effectiveness of our model with improvement of 2.66 in BLEU over the strong baseline and outperformance of state-of-the-art model.},
 }
 
 @misc{panorama_59d1207a515b_76117b5a91470ffd,
@@ -4945,6 +4946,7 @@
   url = {https://aclanthology.org/C16-1276/},
   howpublished = {COLING},
   annotation = {中文辅助译名：神经网络英汉知识库翻译},
+  abstract = {Knowledge base (KB) such as Freebase plays an important role for many natural language processing tasks. English knowledge base is obviously larger and of higher quality than low resource language like Chinese. To expand Chinese KB by leveraging English KB resources, an effective way is to translate English KB (source) into Chinese (target). In this direction, two major challenges are to model triple semantics and to build a robust KB translator. We address these challenges by presenting a neural network approach, which learns continuous triple representation with a gated neural network. Accordingly, source triples and target triples are mapped in the same semantic vector space. We build a new dataset for English-Chinese KB translation from Freebase, and compare with several baselines on it. Experimental results show that the proposed method improves translation accuracy compared with baseline methods. We show that adaptive composition model improves standard solution such as neural tensor network in terms of translation accuracy.},
 }
 
 @misc{panorama_59d1207a515b_593122a49796c2a3,

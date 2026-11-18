@@ -308,7 +308,7 @@
     "openalex_author_id": "",
     "cited_by_count": 0,
     "abstract_en": "Somatic depression is a distinct subtype of major depressive disorder, with a poorer response to treatment, an elevated risk of suicidal behaviour, and a worse prognosis. Interoception, the sense of internal bodily signals, is related to somatic symptoms. However, the underlying pathophysiological mechanisms of body brain communication remain unclear. 293 depressed patients (145 with somatic symptoms and 148 without), and 160 healthy controls underwent magnetoencephalography during a resting state. Both the intra- and inter-network neural oscillation patterns of the salience network, were computed, alongside and heart rate variability (HRV) as a measure of autonomic function. Individuals with somatic depression exhibited lower HRV, accompanied by theta hyper-connectivity within the salience network. Although higher theta connectivity was linked to increased HRV in controls, this correlation was attenuated or even reversed in patients with somatic depression. Our findings identify a specific pattern of brain-heart decoupling in somatic depression, characterized by disrupted communication between salience network theta oscillations and autonomic cardiac regulation. This provides novel neuroimaging evidence for body-brain communication deficits in a clinically important depression subtype.",
-    "abstract_zh": "围绕“躯体抑郁症中的脑心解耦：显着网络神经心理连接与心率变异性之间的去同步”（NeuroImage，2026）开展研究，完整原始摘要请参见下方英文原文（English Abstract）。",
+    "abstract_zh": "躯体抑郁症是重度抑郁症的一种独特亚型，治疗反应较差，自杀行为风险较高，预后较差。内感受，即内部身体信号的感觉，与躯体症状有关。然而，体脑通讯的潜在病理生理机制仍不清楚。 293 名抑郁症患者（145 名有躯体症状，148 名没有躯体症状）和 160 名健康对照者在静息状态下接受了脑磁图检查。计算显着网络的网络内和网络间神经振荡模式，以及心率变异性（HRV）作为自主神经功能的衡量标准。患有躯体抑郁症的个体表现出较低的 HRV，伴随...",
     "abstract_source": "openalex_doi",
     "topics": [
       "情感计算与情绪理解"
@@ -4008,7 +4008,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044544974）",
     "status": "已索引出版/会议记录",
@@ -4377,7 +4378,8 @@
     "topics": [
       "脑机接口与神经解码",
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044544974）",
     "status": "已索引出版/会议记录",
@@ -11197,7 +11199,8 @@
     "abstract_zh": "在重度抑郁症 (MDD) 中，面部情感的处理被认为反映了感知偏差（倾向于消极情绪，远离积极情绪，以及将中性情绪解释为情绪）。然而，尚不清楚 MDD 在行为和神经元水平上表现出何种程度以及何种特定的感知偏差。本报告检查了 48 名未曾接受药物治疗的 MDD 患者和 41 名健康对照 (HC)，他们在记录脑磁图的同时执行面部情感判断任务。 MDD 患者的特点是整体反应时间较慢，知觉判断准确度较低。与 HC 相比，MDD 患者表现出较少的体感 β 活动 (20-30 Hz) 抑制，更多的视觉伽马活动 (40-...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044544974）",
     "status": "已索引出版/会议记录",
@@ -13012,7 +13015,7 @@
     "openalex_author_id": "https://openalex.org/A5044544974",
     "cited_by_count": 21,
     "abstract_en": "BACKGROUND: Most previous neuroimaging studies have focused on the structural and functional abnormalities of local brain regions in major depressive disorder (MDD). Moreover, the exactly topological organization of networks underlying MDD remains unclear. This study examined the aberrant global and regional topological patterns of the brain white matter networks in MDD patients. METHODS: The diffusion tensor imaging data were obtained from 27 patients with MDD and 40 healthy controls. The brain fractional anisotropy-weighted structural networks were constructed, and the global network and regional nodal metrics of the networks were explored by the complex network theory. RESULTS: Compared with the healthy controls, the brain structural network of MDD patients showed an intact small-world topology, but significantly abnormal global network topological organization and regional nodal characteristic of the network in MDD were found. Our findings also indicated that the brain structural networks in MDD patients become a less strongly integrated network with a reduced central role of some key brain regions. CONCLUSIONS: All these resulted in a less optimal topological organization of networks underlying MDD patients, including an impaired capability of local information processing, reduced centrality of some brain regions and limited capacity to integrate information across different regions. Thus, these global network and regional node-level aberrations might contribute to understanding the pathogenesis of MDD from the view of the brain network.",
-    "abstract_zh": "围绕“重度抑郁症分数各向异性加权脑结构网络的异常全局和区域拓扑组织”（Chinese Medical Journal，2016）开展研究，完整原始摘要请参见下方英文原文（English Abstract）。",
+    "abstract_zh": "背景：大多数先前的神经影像学研究都集中在重度抑郁症（MDD）局部大脑区域的结构和功能异常。此外，MDD 背后的网络的确切拓扑组织仍不清楚。这项研究检查了重度抑郁症患者大脑白质网络异常的整体和区域拓扑模式。方法：从 27 名 MDD 患者和 40 名健康对照中获得弥散张量成像数据。构建了脑部分各向异性加权结构网络，并通过复杂网络理论探讨了网络的全局网络和区域节点度量。结果：与健康对照组相比，大脑结构网络...",
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解"
@@ -14899,7 +14902,8 @@
     "abstract_zh": "目的 探讨首发抑郁症患者与复发性抑郁症患者在识别悲伤面部表情过程中大脑激活强度的差异以及神经心理学认知的变化。方法对11例首发抑郁症患者、11例复发性抑郁症患者以及11名各方面匹配的健康对照者进行扫描，比较悲伤面部表情识别过程中的大脑激活强度和神经面部表情识别结果。结果与健康人相比，首发抑郁症患者右脑激活增强。楔叶（BA18），右侧梭状回（BA20），左侧额内侧回（BA6），左侧颞中回（BA39），左侧海马旁回（BA30）和...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044544974）",
     "status": "已索引出版/会议记录",

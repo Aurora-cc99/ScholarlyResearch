@@ -95,7 +95,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -209,7 +210,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -542,7 +544,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -689,7 +692,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -779,7 +783,8 @@
     "topics": [
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5027316177）",
     "status": "已索引出版/会议记录",
@@ -987,7 +992,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1031,12 +1037,14 @@
     "scholar_ids": [
       "wenming_zheng",
       "panorama_6ea6272c5bf0",
-      "panorama_173db248ed1f"
+      "panorama_173db248ed1f",
+      "bjorn_schuller"
     ],
     "scholar_names": [
       "郑文明",
       "宗源",
-      "赵焱"
+      "赵焱",
+      "Björn W. Schuller"
     ],
     "source_record_ids": [
       "wenming_zheng_156eac025cea"
@@ -1088,13 +1096,29 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bjorn_schuller": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "4357f1a26ba53fff",
     "primary_categories_by_scholar": [
       "郑文明：情感脑电与多模态生理信号",
       "宗源：情感脑电与多模态生理信号",
-      "赵焱：情感数据集、基准与评测"
+      "赵焱：情感数据集、基准与评测",
+      "Björn W. Schuller：自然语言处理、多模态学习与通用方法"
     ],
     "abstract_en": "Speaker attributes (e. g., age, accent, and expression habits) are typically confused with emotional cues in the speech feature space, which can impair the emotional discriminability of speech features that are robust to speakers, thereby degrading the generalization of speech emotion recognition (SER). To overcome this issue, we propose a Generalizable Dynamic Domain Adaptation (GDDA) framework for learning speaker-invariant speech emotion representations. GDDA transforms the speaker-independent SER task into an extension of domain adaptation from a single-source domain to multi-source domains to address the impact of multiple speakers on speech emotion representations. For this purpose, we first construct a GDDA under theSingleSource domain adaptation (i. e., GDDA-SS), which consists of two parts: a joint distribution adaptation (JDA) measuring the speech emotion feature distributions caused by speakers between the training and testing domains, and a dynamic balance factor (DBF) that enables the recognition model to adaptively handle unseen speaker data distributions. Specifically, JDA combines global marginal distribution adaptation (MDA) with local class-aware conditional distribution adaptation (CDA), and DBF uses$\\mathcal {A}$-divergence to automatically quantify the contributions of MDA and CDA in JDA. In DJDA-SS, the training and testing data are considered as a source domain and a target domain, respectively, from a coarse-grained perspective. Considering the multi-domain property of speech emotion features from diverse speakers (i. e., each speaker can be regarded as a sub-domain), we further extend GDDA-SS to aMulti-Source domain adaptation (i. e., GDDA-MS) to eliminate distribution shift from a fine-grained perspective. In contrast to GDDA-SS, it is implemented by calculating JDA and DBF under the multi-source domain adaptation. Extensive experiments on four public datasets (i. e., IEMOCAP, EMO-DB, CASIA, and MSP-Podcast) demonstrate that our GDDA framework achieves the state-of-the-art performance.",
     "abstract_source": "openalex_verified",
@@ -1127,7 +1151,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5027316177）",
     "status": "已索引出版/会议记录",
@@ -1203,7 +1228,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1463,7 +1489,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1500,11 +1528,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "panorama_jing_wang",
-      "panorama_6ea6272c5bf0"
+      "panorama_6ea6272c5bf0",
+      "bjorn_schuller"
     ],
     "scholar_names": [
       "王晶",
-      "宗源"
+      "宗源",
+      "Björn W. Schuller"
     ],
     "source_record_ids": [
       "panorama_jing_wang_c9c7620437f0"
@@ -1534,12 +1564,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bjorn_schuller": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "情感计算与情绪理解",
+          "情感理解",
+          "情感智能"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "c3db135185d5bfaa",
     "primary_categories_by_scholar": [
       "王晶：情感脑电与多模态生理信号",
-      "宗源：脑电基准、数据与评测"
+      "宗源：脑电基准、数据与评测",
+      "Björn W. Schuller：自然语言处理、多模态学习与通用方法"
     ],
     "pdf_url": "https://doi.org/10.1109/taffc.2026.3746232",
     "abstract_en": "Speech emotion recognition (SER) remains challenging when the training (source) and testing (target) data are drawn from different speech corpora, a setting commonly referred to as cross-corpus SER. Although domain adaptation (DA) methods show promise for mitigating this domain shift, many conventional unsupervised DA methods require access to labeled source speech data, limiting their applicability in privacy-sensitive scenarios, e.g., patient recordings from different hospitals. To address this limitation, we investigate a stricter setting of cross-corpus SER, i.e., source-free cross-corpus SER, aligned with the source-free DA (SFDA) paradigm. In this setting, no source speech data are accessible and only a pre-trained source SER model is available. Building on our prior ECAN (emotion-aware contrastive adaptation network), we propose E$^{2}$CAN, an enhanced emotion-aware contrastive adaptation network tailored to source-free cross-corpus SER. To evaluate E$^{2}$CAN, we establish an evaluation protocol on five widely-used speech corpora: CASIA, EmoDB, EMOVO, eNTERFACE, and IEMOCAP, and compare against seven recent state-of-the-art SFDA methods. Experiments demonstrate the effectiveness and superiority of E$^{2}$CAN in addressing source-free cross-corpus SER.",
@@ -1914,7 +1960,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2140,7 +2187,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感智能"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2338,7 +2386,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5027316177）",
     "status": "已索引出版/会议记录",
@@ -2422,7 +2471,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感大模型"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2697,7 +2747,8 @@
     "abstract_source": "",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "已索引出版/会议记录",
@@ -2780,7 +2831,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3143,7 +3195,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3255,7 +3308,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3383,13 +3437,17 @@
       "wenming_zheng",
       "yi_ding",
       "panorama_6ea6272c5bf0",
-      "panorama_ef5ed70a98c0"
+      "panorama_ef5ed70a98c0",
+      "cuntai_guan",
+      "shiguang_shan"
     ],
     "scholar_names": [
       "郑文明",
       "Yi Ding",
       "宗源",
-      "崔振"
+      "崔振",
+      "关存太",
+      "山世光"
     ],
     "source_record_ids": [
       "wenming_zheng_d5f33f8371ed"
@@ -3456,6 +3514,36 @@
         ],
         "confidence": "low",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "shiguang_shan": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "山世光",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "c2f544176674b9d7",
@@ -3463,12 +3551,14 @@
       "郑文明：情感脑电与多模态生理信号",
       "Yi Ding：脑电基础模型与通用解码",
       "宗源：脑电基础模型与通用解码",
-      "崔振：脑电基础模型与通用解码"
+      "崔振：脑电基础模型与通用解码",
+      "关存太：脑电基础大模型与自监督预训练",
+      "山世光：视觉感知、语音信号与通用人工智能"
     ],
     "dblp_key": "journals/corr/abs-2503-08977",
     "pdf_url": "https://arxiv.org/pdf/2503.08977",
-    "abstract_en": "Despite the impressive performance of current vision-based facial action unit (AU) detection approaches, they are heavily susceptible to the variations across different domains and the cross-domain AU detection methods are under-explored. In response to this challenge, we propose a decoupled doubly contrastive adaptation (D2CA) approach to learn a purified AU representation that is semantically aligned for the source and target domains. Specifically, we decompose latent representations into AU-relevant and AU-irrelevant components, with the objective of exclusively facilitating adaptation within the AU-relevant subspace. To achieve the feature decoupling, D2CA is trained to disentangle AU and domain factors by assessing the quality of synthesized faces in cross-domain scenarios when either AU or domain attributes are modified. To further strengthen feature decoupling, particularly in scenarios with limited AU data diversity, D2CA employs a doubly contrastive learning mechanism comprising image and feature-level contrastive learning to ensure the quality of synthesized faces and mitigate feature ambiguities. This new framework leads to an automatically learned, dedicated separation of AU-relevant and domain-relevant factors, and it enables intuitive, scale-specific control of the cross-domain facial image synthesis. Extensive experiments demonstrate the efficacy of D2CA in successfully decoupling AU and domain factors, yielding visually pleasing cross-domain synthesized facial images. Meanwhile, D2CA consistently outperforms state-of-the-art cross-domain AU detection approaches, achieving an average F1 score improvement of 6%-14% across various cross-domain scenarios.",
-    "abstract_source": "openalex_verified",
+    "abstract_en": "Despite the impressive performance of current vision-based facial action unit (AU) detection approaches, they are heavily susceptible to the variations across different domains and the cross-domain AU detection methods are under-explored. In response to this challenge, we propose a decoupled doubly contrastive adaptation (D$^2$CA) approach to learn a purified AU representation that is semantically aligned for the source and target domains. Specifically, we decompose latent representations into AU-relevant and AU-irrelevant components, with the objective of exclusively facilitating adaptation within the AU-relevant subspace. To achieve the feature decoupling, D$^2$CA is trained to disentangle AU and domain factors by assessing the quality of synthesized faces in cross-domain scenarios when either AU or domain attributes are modified. To further strengthen feature decoupling, particularly in scenarios with limited AU data diversity, D$^2$CA employs a doubly contrastive learning mechanism comprising image and feature-level contrastive learning to ensure the quality of synthesized faces and mitigate feature ambiguities. This new framework leads to an automatically learned, dedicated separation of AU-relevant and domain-relevant factors, and it enables intuitive, scale-specific control of the cross-domain facial image synthesis. Extensive experiments demonstrate the efficacy of D$^2$CA in successfully decoupling AU and domain factors, yielding visually pleasing cross-domain synthesized facial images. Meanwhile, D$^2$CA consistently outperforms state-of-the-art cross-domain AU detection approaches, achieving an average F1 score improvement of 6\\%-14\\% across various cross-domain scenarios.",
+    "abstract_source": "arxiv_api",
     "abstract_zh": "尽管当前基于视觉的面部动作单元（AU）检测方法具有令人印象深刻的性能，但它们很容易受到不同领域之间的变化的影响，并且跨领域的 AU 检测方法尚未得到充分探索。为了应对这一挑战，我们提出了一种解耦双重对比适应（D2CA）方法来学习源域和目标域在语义上对齐的纯化 AU 表示。具体来说，我们将潜在表示分解为 AU 相关和 AU 不相关的组件，目的是专门促进 AU 相关子空间内的适应。为了实现特征解耦，D2CA 被训练来解开 AU 和..."
   },
   {
@@ -3501,7 +3591,10 @@
     "topics": [
       "情感计算与情绪理解",
       "多模态与大语言模型",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感大模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 76/1820-12）",
     "status": "预印本记录",
@@ -3513,11 +3606,13 @@
     "scholar_name": "刘鑫",
     "scholar_ids": [
       "xin_liu",
-      "panorama_6ea6272c5bf0"
+      "panorama_6ea6272c5bf0",
+      "zitong_yu"
     ],
     "scholar_names": [
       "刘鑫",
-      "宗源"
+      "宗源",
+      "于子桐"
     ],
     "source_record_ids": [
       "xin_liu_c998cce59892b7d5"
@@ -3557,13 +3652,29 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zitong_yu": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "于子桐",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "智能芯片与计算系统",
+          "情感大模型",
+          "情感理解",
+          "情感智能"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "刘鑫：情感数据集、基准与评测",
-      "宗源：脑电基准、数据与评测"
+      "宗源：脑电基准、数据与评测",
+      "于子桐：视觉感知、语音信号与通用人工智能"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "emotion_benchmark",
     "primary_category": "情感数据集、基准与评测"
   },
@@ -3584,7 +3695,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3671,7 +3783,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3791,7 +3904,8 @@
     "abstract_zh": "简介：实验室大鼠疼痛的自动评估对于动物福利和生物医学研究都很重要。面部表情分析已成为实现此目的的一种有前景的非侵入性方法。方法：构建了一个公开可用的数据集 RatsPain，其中包含六只接受正畸治疗的老鼠的面部表情图像。每张图像都是从治疗前和治疗后视频中精心挑选的，并由八位疼痛评估专家使用大鼠鬼脸量表 (RGS) 进行注释。为了实现自动疼痛识别，开发了一种头部姿势不变的深度学习模型 PainSeeker。该模型旨在识别与疼痛密切相关的局部面部区域，并有效地学习一致的...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5027316177）",
     "status": "已索引出版/会议记录",
@@ -3853,7 +3967,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -4054,7 +4169,8 @@
     "abstract_zh": "在与说话人无关的语音情感识别中，训练和测试样本是从不同的说话人收集的，这导致了来自不同说话人的数据特征分布的多域转换挑战。因此，当经过训练的模型遇到来自新说话者的数据时，其性能往往会下降。为了解决这个问题，我们提出了多源域自适应框架下的动态联合分布自适应（DJDA）方法。 DJDA首先利用联合分布自适应（JDA），包括边际分布自适应（MDA）和条件分布自适应（CDA），以更精确地测量多域分布偏移...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "预印本记录",
@@ -4067,12 +4183,14 @@
     "scholar_ids": [
       "wenming_zheng",
       "panorama_6ea6272c5bf0",
-      "panorama_173db248ed1f"
+      "panorama_173db248ed1f",
+      "bjorn_schuller"
     ],
     "scholar_names": [
       "郑文明",
       "宗源",
-      "赵焱"
+      "赵焱",
+      "Björn W. Schuller"
     ],
     "source_record_ids": [
       "wenming_zheng_bbbf1ae51fd62b7c"
@@ -4111,12 +4229,24 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bjorn_schuller": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "郑文明：情感脑电与多模态生理信号",
       "宗源：情感脑电与多模态生理信号",
-      "赵焱：情感理解与多模态推理"
+      "赵焱：情感理解与多模态推理",
+      "Björn W. Schuller：自然语言处理、多模态学习与通用方法"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -4148,7 +4278,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5027316177）",
     "status": "已索引出版/会议记录",
@@ -4229,7 +4360,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5027316177）",
     "status": "已索引出版/会议记录",
@@ -4298,7 +4430,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "已索引出版/会议记录",
@@ -4311,12 +4444,14 @@
     "scholar_ids": [
       "wenming_zheng",
       "panorama_6ea6272c5bf0",
-      "panorama_173db248ed1f"
+      "panorama_173db248ed1f",
+      "bjorn_schuller"
     ],
     "scholar_names": [
       "郑文明",
       "宗源",
-      "赵焱"
+      "赵焱",
+      "Björn W. Schuller"
     ],
     "source_record_ids": [
       "wenming_zheng_2fb08afdd6b232b5"
@@ -4355,12 +4490,24 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bjorn_schuller": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "郑文明：情感脑电与多模态生理信号",
       "宗源：情感脑电与多模态生理信号",
-      "赵焱：情感数据集、基准与评测"
+      "赵焱：情感数据集、基准与评测",
+      "Björn W. Schuller：自然语言处理、多模态学习与通用方法"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -4578,7 +4725,8 @@
     "abstract_zh": "近几十年来，情感识别引起了越来越多的关注。尽管七种基本情感的识别技术已经取得了重大进展，但现有的方法仍然难以应对实际应用中常见的复合情感识别。本文介绍了我们在第七届现场情绪行为分析（ABAW）竞赛中取得的成绩。在比赛中，我们选择了经过广泛验证的预训练ResNet18和Transformer作为基础网络框架。考虑到情绪随时间的连续性，我们提出了一种用于帧级情绪预测的时间金字塔结构网络。此外。与此同时，在欧...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "预印本记录",
@@ -4792,7 +4940,8 @@
     "abstract_zh": "这封信解决了基于交叉刺激语音的抑郁症检测（SDD）的挑战，其中训练（源）和测试（目标）语音样本源于不同的刺激方法，例如访谈反应和阅读文本。这种差异可能会导致源语音样本和目标语音样本之间的特征分布不匹配，从而导致现有 SDD 方法的性能显着恶化。为了解决这个问题，我们提出了一种新颖的域适应方法，称为联合分布对齐双稀疏线性回归（JDDLR）。 JDDLR 的基本思想很简单：将简单线性回归 (LR) 扩展到具有抑郁判别性和刺激不变性的版本。为了达到这个...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5027316177）",
     "status": "已索引出版/会议记录",
@@ -4863,7 +5012,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -5003,7 +5153,8 @@
     "abstract_zh": "跨语料库语音情感识别（SER）旨在将情感知识从标记的源语料库转移到未标记的语料库。然而，现有方法需要在适应过程中访问源数据，由于数据隐私保护问题，这在现实场景中是无法实现的。本文解决了一个更实际的任务，即无源跨语料库 SER，其中预训练的源模型无需访问源数据即可适应目标域。为了解决这个问题，我们提出了一种称为情感感知对比适应网络（ECAN）的新方法。核心思想是捕获样本之间的局部邻域信息，同时考虑全局类级别的适应...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "预印本记录",
@@ -5016,12 +5167,14 @@
     "scholar_ids": [
       "wenming_zheng",
       "panorama_6ea6272c5bf0",
-      "panorama_173db248ed1f"
+      "panorama_173db248ed1f",
+      "bjorn_schuller"
     ],
     "scholar_names": [
       "郑文明",
       "宗源",
-      "赵焱"
+      "赵焱",
+      "Björn W. Schuller"
     ],
     "source_record_ids": [
       "wenming_zheng_819ea00faf8b86f0"
@@ -5060,12 +5213,24 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bjorn_schuller": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "郑文明：脑电基准、数据与评测",
       "宗源：脑电基准、数据与评测",
-      "赵焱：情感数据集、基准与评测"
+      "赵焱：情感数据集、基准与评测",
+      "Björn W. Schuller：自然语言处理、多模态学习与通用方法"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -5098,7 +5263,8 @@
     "abstract_zh": "由于面部运动强度较低，微表情（ME）识别具有挑战性。克服这个问题的一个想法是通过宏表达式（MaE）辅助学习。然而，MaE和ME之间的强度差距如此巨大，以至于相关工作未能有效利用MaE的帮助来克服低强度干扰，试图直接迫使ME知识模仿MaE知识。在本文中，我们建议从 MaE 到 ME 的知识转移可以转化为渐进的过程，以便更好地实施。因此，我们构建了一个渐进的多步骤学习框架，它完成了两个任务：首先，我们将巨大的强度差距剖析成多个部分......",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "已索引出版/会议记录",
@@ -5180,7 +5346,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -5318,7 +5485,9 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感大模型",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 76/1820-12）",
     "status": "预印本记录",
@@ -5744,7 +5913,8 @@
     "abstract_zh": "Swin-Transformer 通过利用其基于 Transformer 的分层特征表示，在计算机视觉领域取得了显着的成功。在语音信号中，情感信息分布在不同尺度的语音特征中，例如。例如，单词、短语和话语。受上述启发，本文提出了一种分层语音Transformer，其具有移动窗口来聚合语音情感识别（SER）的多尺度情感特征，称为语音 Swin-Transformer。具体来说，我们首先将语音频谱图在时域中划分为段级补丁，由多个帧补丁组成。然后使用 Swin 堆栈对这些段级补丁进行编码...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "预印本记录",
@@ -5757,12 +5927,14 @@
     "scholar_ids": [
       "wenming_zheng",
       "panorama_6ea6272c5bf0",
-      "panorama_173db248ed1f"
+      "panorama_173db248ed1f",
+      "bjorn_schuller"
     ],
     "scholar_names": [
       "郑文明",
       "宗源",
-      "赵焱"
+      "赵焱",
+      "Björn W. Schuller"
     ],
     "source_record_ids": [
       "wenming_zheng_f827ef7e26087eac"
@@ -5801,12 +5973,24 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bjorn_schuller": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "郑文明：脑电基础模型与通用解码",
       "宗源：脑电基础模型与通用解码",
-      "赵焱：情感理解与多模态推理"
+      "赵焱：情感理解与多模态推理",
+      "Björn W. Schuller：自然语言处理、多模态学习与通用方法"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -5839,11 +6023,16 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；纳入候选-重点",
     "status": "候选条目/需按作者主页继续核验",
-    "resource_ids": [],
+    "resource_ids": [
+      "lu_baoliang__LU_DATA_DREAMER",
+      "pan_gang__pan_data_mped"
+    ],
     "code_urls": [],
     "data_urls": [
       "https://bcmi.sjtu.edu.cn/home/seed/",
@@ -5879,18 +6068,20 @@
     "scholar_id": "wenming_zheng",
     "scholar_name": "郑文明",
     "work_title_group": "380cfdcfdc90",
-    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
       "wenming_zheng",
       "wei_long_zheng",
       "panorama_6ea6272c5bf0",
-      "panorama_ef5ed70a98c0"
+      "panorama_ef5ed70a98c0",
+      "tengfei_song"
     ],
     "scholar_names": [
       "郑文明",
       "郑伟龙",
       "宗源",
-      "崔振"
+      "崔振",
+      "宋腾飞"
     ],
     "source_record_ids": [
       "wenming_zheng_896047bdc2c3",
@@ -5958,6 +6149,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tengfei_song": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "20aeb341bbd42bbd",
@@ -5965,7 +6171,8 @@
       "郑文明：情感脑电与多模态生理信号",
       "郑伟龙：情感脑电与多模态生理信号",
       "宗源：情感脑电与多模态生理信号",
-      "崔振：情感脑电与多模态生理信号"
+      "崔振：情感脑电与多模态生理信号",
+      "宋腾飞：生理情感数据库、基准与综述"
     ],
     "dblp_key": "journals/taffco/SongLZZCLZ23",
     "abstract_en": "The individual differences and the dynamic uncertain relationships among different electroencephalogram (EEG) regions are essential factors that limit EEG emotion recognition. To address these issues, in this article, we propose a variational instance-adaptive graph method (V-IAG) that simultaneously captures the individual dependencies among different EEG electrodes and estimates the underlying uncertain information. Specifically, we employ two branches, i.e., instance-adaptive branch and variational branch, to construct the graph. Inspired by the attention mechanism, the instance-adaptive branch generates the graph based on the input so as to characterize the individual dependencies among EEG channels. The variational branch generates the probabilistic graph, which quantifies the uncertainties. We combine these two types of graphs to extract more discriminative features. To present more precise graph representation, we propose a new operation named the multi-level and multi-graph convolution operation, which aggregates the features of EEG channels from different frequencies with different graphs. Furthermore, we design the graph coarsening and employ the sparse constraint to obtain more robust features. We conduct extensive experiments on three widely-used EEG emotion recognition databases, i.e., SJTU emotion EEG dataset (SEED), multi-modal physiological emotion recognition dataset (MPED) and DREAMER. The results demonstrate that the proposed model achieves the-state-of-the-art performance.",
@@ -6218,7 +6425,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -6346,7 +6554,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -6433,7 +6642,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5027316177）",
     "status": "已索引出版/会议记录",
@@ -6636,7 +6846,8 @@
     "abstract_zh": "在本文中，我们提出了一种用于语音情感识别的新颖时频联合学习方法，称为时频变换器。其优点在于，时频变换器可以挖掘语音信号时频域中的全局情感模式，同时分别在时域和频域中对局部情感相关性进行建模。为此，我们首先设计了时间变换器和频率变换器来分别捕获帧之间和频带内的局部情感模式，以确保时域和频域上情感信息建模的完整性。然后，提出了一种时频变换器来挖掘时频情感相关性......",
     "abstract_source": "arxiv_api",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5027316177）",
     "status": "已索引出版/会议记录",
@@ -6721,7 +6932,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -6860,7 +7072,9 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；纳入候选-重点",
     "status": "候选条目/需按作者主页继续核验",
@@ -7239,7 +7453,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -7378,7 +7593,8 @@
     "abstract_zh": "目前Transformer已经出现在语音情感识别（SER）领域。然而，其等分块划分不仅损害了频率信息，而且忽略了跨帧的局部情感相关性，而这是表示情感的关键线索。为了解决这个问题，我们提出了一种针对 SER 的局部到全局特征聚合学习（LGFA），它可以将帧内和片段内不同尺度的长期情感相关性与整个频率信息进行聚合，以增强话语级语音特征的情感辨别力。为此，我们将帧Transformer嵌套在段Transformer内。首先，Frame Transformer 旨在挖掘局部情感相关性...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "预印本记录",
@@ -7471,7 +7687,8 @@
     "abstract_zh": "为了克服微表情识别仅出现在几个低强度的小面部区域的挑战，一些研究人员提出了面部区域划分机制，并引入了用于特征选择的群体稀疏学习方法。然而，此类方法存在一些缺点，包括区域划分的复杂性和关键面部区域的利用不足。为了解决这些问题，我们提出了一种新颖的组稀疏降阶张量回归（GSRRTR），通过在不同维度放置块和特征将恐惧矩阵转换为张量。因此我们可以分别处理网格和纹理特征，避免网格和特征之间的干扰。此外，通过使用塔克...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5027316177）",
     "status": "已索引出版/会议记录",
@@ -7542,7 +7759,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -7628,7 +7846,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -7756,7 +7975,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -7959,7 +8180,8 @@
     "abstract_zh": "在这封信中，我们的目的是研究是否可以通过实验室老鼠的面部表情自动评估其疼痛。为此，我们首先展示了一个名为 RatsPain 的公开数据集，其中包含从六只接受正畸治疗手术的老鼠身上捕获的 1,138 张面部图像。 RatsPain 中每只大鼠的面部图像都是从手术前或手术后录制的视频中精心挑选的，并由八位注释者根据大鼠鬼脸量表 (RGS) 进行了良好标记。然后，我们提出了一种名为 PainSeeker 的新型深度学习方法，用于通过面部表情自动评估大鼠的疼痛。 PainSeeker 旨在寻找与疼痛相关的面部局部区域，以促进学习疼痛辨别...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5027316177）",
     "status": "预印本记录",
@@ -8092,7 +8314,8 @@
     "abstract_zh": "跨数据库微表情识别（MER）是一项比传统微表情识别更具挑战性的任务，因为其标记的训练（源）和未标记的测试（目标）微表情（ME）样本来自不同的数据库。在这种情况下，由于样本来源不同，源ME样本和目标ME样本之间可能存在较大的特征分布差距，这降低了现有MER方法的识别性能。在本文中，我们通过提出一种简单而有效的方法（称为转移核回归模型（TKRM））来专注于这项具有挑战性的任务。 TKRM 的基本思想是找到一个 ME 有判别性、数据库不变且公共的再生核希尔伯特空间 (RKHS) 来桥接属于不同...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5027316177）",
     "status": "已索引出版/会议记录",
@@ -8152,7 +8375,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -8237,7 +8461,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；纳入候选-重点",
     "status": "候选条目/需按作者主页继续核验",
@@ -8391,7 +8617,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "已索引出版/会议记录",
@@ -8472,7 +8699,8 @@
     "abstract_zh": "半监督条件下的跨数据库微表情识别（CDMER）是一项艰巨的任务，其中目标（测试）和源（训练）样本来自不同的微表情（ME）数据库，导致彼此之间的特征分布不一致，从而影响许多现有MER方法的性能。为了解决这个问题，我们提出了一种双流卷积神经网络（DSCNN）来处理 CDMER 任务。在 DSCNN 中，设计了两个流分支来研究 ME 样本中的时间和面部区域线索，目的是识别 ME。此外，在训练过程中，使用域差异损失来强制目标和源样本具有相似的特性......",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5027316177）",
     "status": "已索引出版/会议记录",
@@ -8530,7 +8758,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -8606,7 +8835,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -8689,7 +8919,8 @@
       "情感视觉与微表情",
       "多模态情感分析",
       "视觉情感大模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -8848,7 +9079,9 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5027316177）",
     "status": "已索引出版/会议记录",
@@ -8910,7 +9143,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -8996,7 +9230,8 @@
     "abstract_zh": "由于微表情的持续时间短、强度低，微表情识别（MER）是一项具有挑战性的任务。解决这个问题的一个流行的方法是放大 ME，以增大表达强度，从而更容易识别。然而，现有 MER 作品中广泛使用的单一固定放大策略并不适合不同的受试者，因为每个受试者都有对应于不同 ME 的特定表达强度。为了解决这个问题，我们提出了一种新颖的基于注意力的放大自适应网络（AMAN）来学习 ME 表示的自适应放大级别。该网络由两个模块组成：放大注意力（MA 模块）...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "已索引出版/会议记录",
@@ -9076,7 +9311,8 @@
     "abstract_zh": "在本文中，我们关注语音情感识别（SER）中一项具有挑战性但有趣的任务，即跨语料库 SER。与传统的 SER 不同，跨语料库 SER 中标记的源（训练）和目标（测试）语音样本之间可能存在特征分布不匹配，因为它们来自不同的语音情感语料库，这会降低大多数性能良好的 SER 方法的性能。为了解决这个问题，我们提出了一种称为多重分布自适应回归（MDAR）的新型转移子空间学习方法，以弥合来自不同语料库的语音样本之间的差距。具体来说，MDAR 旨在学习投影矩阵来建立源语音特征和情感标签之间的关系。一部小说...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5027316177）",
     "status": "已索引出版/会议记录",
@@ -9221,7 +9457,8 @@
     "abstract_zh": "无监督域适应（DA）是一个具有挑战性的机器学习问题，因为标记的训练（源）和未标记的测试（目标）集属于不同的域，因此具有不同的特征分布，最近在微表情识别（MER）中引起了广泛的关注。尽管已经提出了一些性能良好的无监督DA方法，但这些方法不能很好地解决MER中的无监督DA问题。 k. a.、跨域MER。为了解决这样一个具有挑战性的问题，在这封信中，我们提出了一种新颖的无监督 DA 方法，称为联合补丁加权和矩匹配（JPMM）。 JPMM 通过最小化源微表情特征集和目标微表情特征集的概率分布潜水来桥接它们...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5027316177）",
     "status": "已索引出版/会议记录",
@@ -9279,7 +9516,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -9363,7 +9601,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5027316177）",
     "status": "已索引出版/会议记录",
@@ -9431,7 +9670,8 @@
     "abstract_zh": "现有的自发微表情识别（MER）工作倾向于对微表情（ME）动作进行编码，以获得更具辨别力的特征。然而，ME的低强度使得运动捕捉极其困难，并且广泛采用的统一放大策略容易产生噪声且缺乏灵活性。为此，本文提供了编码 ME 运动和解决放大噪声的新见解。具体来说，我们通过放大技术重建一个新的序列，使微妙的 ME 运动更容易区分。然后，稀疏自注意力（SSA）通过局部敏感散列（LSH）来纠正自注意力，将空间切割成几个相关的保密桶......",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "已索引出版/会议记录",
@@ -9513,7 +9753,9 @@
       "脑电情感识别",
       "脑机接口与神经解码",
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -9649,7 +9891,8 @@
     "abstract_zh": "在本文中，我们研究了跨语料库语音情感识别（SER）问题，其中训练（源）和测试（目标）语音样本属于不同的语料库。因此，这种情况导致源语音样本和目标语音样本之间的特征分布不匹配。因此，大多数现有 SER 方法的性能急剧下降。为了解决这个问题，我们提出了一种简单而有效的转移子空间学习方法，称为联合分布隐式对齐子空间学习（JIASL）。 JIASL的基本思想非常简单，即在隐式分布对齐策略下构建情感判别和语料不变的线性回归模型。遵循这个想法，我们首先利用...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5027316177）",
     "status": "已索引出版/会议记录",
@@ -9720,7 +9963,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -9806,11 +10050,15 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
-    "resource_ids": [],
+    "resource_ids": [
+      "lu_baoliang__LU_DATA_DREAMER"
+    ],
     "code_urls": [],
     "data_urls": [
       "https://bcmi.sjtu.edu.cn/home/seed/",
@@ -9846,16 +10094,18 @@
     "scholar_id": "wenming_zheng",
     "scholar_name": "郑文明",
     "work_title_group": "444c5a03fe5a",
-    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
       "wenming_zheng",
       "panorama_6ea6272c5bf0",
-      "panorama_ef5ed70a98c0"
+      "panorama_ef5ed70a98c0",
+      "tengfei_song"
     ],
     "scholar_names": [
       "郑文明",
       "宗源",
-      "崔振"
+      "崔振",
+      "宋腾飞"
     ],
     "source_record_ids": [
       "wenming_zheng_1610aa94cfef"
@@ -9907,13 +10157,29 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tengfei_song": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "551a9128f7a9da7c",
     "primary_categories_by_scholar": [
       "郑文明：情感脑电与多模态生理信号",
       "宗源：情感脑电与多模态生理信号",
-      "崔振：情感脑电与多模态生理信号"
+      "崔振：情感脑电与多模态生理信号",
+      "宋腾飞：生理情感数据库、基准与综述"
     ],
     "dblp_key": "journals/tetc/SongZLZCL22",
     "abstract_en": "Emotion recognition from electroencephalograph (EEG) signals has long been essential for affective computing. In this article, we evaluate EEG emotion recognition by converting EEG signals from multiple channels into images such that richer spatial information can be considered and the question of EEG-based emotion recognition can be converted into image recognition. To this end, we propose a novel method to generate continuous images from discrete EEG signals by introducing offset variables following a Gaussian distribution for each EEG channel to alleviate the biased electrode coordinates during image generation. In addition, a novel graph-embedded convolutional neural network (GECNN) method is proposed to combine the local convolutional neural network (CNN) features with global functional features to provide complementary emotion information. In GECNN, the attention mechanism is applied to extract more discriminative local features. Simultaneously, dynamical graph filtering explores the intrinsic relationships between different EEG regions. The local and global functional features are finally fused for emotion recognition. Extensive experiments in subject-dependent and subject-independent protocols are conducted to evaluate the performance of the proposed GECNN model on four datasets, i.e., SEED, SDEA, DREAMER, and MPED.",
@@ -9944,7 +10210,8 @@
     "abstract_zh": "近年来，跨数据集面部表情识别（FER）受到了研究人员的广泛关注。得益于大规模面部表情数据集的出现，跨数据集FER取得了长足的进步。然而，大规模数据集中的面部图像质量低、主观标注、遮挡严重、主体身份稀少，可能导致面部表情数据集中存在异常样本。这些离群样本通常在特征空间中远离数据集的聚类中心，从而导致特征分布存在相当大的差异，这严重限制了大多数跨数据集面部表情识别方法的性能。为了消除异常样本对...的影响",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5027316177）",
     "status": "已索引出版/会议记录",
@@ -10005,7 +10272,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -10090,7 +10358,8 @@
     "abstract_zh": "低质量的面部图像、主观标注、严重遮挡和稀有的主体身份可能导致面部表情数据集中存在异常样本。这些离群样本通常在特征空间中远离数据集的中心，导致特征分布存在巨大差异，严重限制了跨数据集面部表情识别（FER）的性能。为了消除异常样本对跨数据集FER的影响，我们提出了一种称为样本自修正网络（SSRN）的无监督域适应（UDA）方法，该方法1）动态检测源域中每个样本的异常水平，以减少外部的干扰。",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "已索引出版/会议记录",
@@ -10172,7 +10441,8 @@
     "abstract_zh": "在本文中，我们研究了语音情感识别（SER）研究中一个具有挑战性但有趣的任务，即跨语料库 SER。与传统的SER不同，跨语料SER中的训练（源）和测试（目标）样本来自不同的语音语料库，这导致它们之间的特征分布不匹配。因此，大多数现有 SER 方法的性能可能会急剧下降。为了解决这个问题，我们提出了一种简单而有效的深度迁移学习方法，称为渐进分布适应神经网络（PDAN）。 PDAN采用卷积神经网络（CNN）作为主干，以语音频谱作为输入来实现端到端的学习框架。更重要的是，它的基本思想...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5027316177）",
     "status": "已索引出版/会议记录",
@@ -10240,7 +10510,8 @@
     "abstract_zh": "跨语料库语音情感识别（SER）是一项具有挑战性的任务，其困难在于训练（源域）和测试（目标域）数据的特征分布不匹配，导致模型在处理新域数据时性能下降。之前的工作探索利用域适应（DA）来消除源域和目标域之间的域转移，并在 SER 中取得了有希望的性能。然而，这些方法主要将跨语料库任务简单地视为 DA 问题，直接在公共特征空间中对齐跨域的分布。在这种情况下，过度缩小域距离会损害语音特征的情感辨别力，因为它...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5027316177）",
     "status": "已索引出版/会议记录",
@@ -10300,7 +10571,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -10384,7 +10656,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -10515,7 +10788,8 @@
     "abstract_zh": "尽管在从隐藏信息中挖掘情感描述符方面做了很多工作，但由于微表情动态变化差异较小并且发生在局部面部区域，因此学习有效的时空特征对于微表情识别来说是一个具有挑战性的问题。因此，微表达的这些特性表明其表征在时空域上是稀疏的。在这封信中，提出了一种基于稀疏变换器的高性能时空特征学习来解决上述问题。我们通过区分空间注意力图并仔细融合时间特征来提取强关联的时空特征。因此，从...中提取的特征图",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5027316177）",
     "status": "已索引出版/会议记录",
@@ -10583,7 +10857,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -10624,11 +10899,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "wenming_zheng",
-      "panorama_6ea6272c5bf0"
+      "panorama_6ea6272c5bf0",
+      "bjorn_schuller"
     ],
     "scholar_names": [
       "郑文明",
-      "宗源"
+      "宗源",
+      "Björn W. Schuller"
     ],
     "source_record_ids": [
       "wenming_zheng_fc65e3f86884"
@@ -10665,12 +10942,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bjorn_schuller": {
+        "category_id": "affect_int_llm",
+        "label": "情感大模型、知识推理与评测基准",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "d1ac987fb7f97053",
     "primary_categories_by_scholar": [
       "郑文明：情感脑电与多模态生理信号",
-      "宗源：情感脑电与多模态生理信号"
+      "宗源：情感脑电与多模态生理信号",
+      "Björn W. Schuller：情感大模型、知识推理与评测基准"
     ],
     "dblp_key": "journals/taslp/LuZZLTS22",
     "abstract_en": "In this paper, we propose a novel domain invariant feature learning (DIFL) method to deal with speaker-independent speech emotion recognition (SER). The basic idea of DIFL is to learn the speaker-invariant emotion feature by eliminating domain shifts between the training and testing data caused by different speakers from the perspective of multi-source unsupervised domain adaptation (UDA). Specifically, we embed a hierarchical alignment layer with the strong-weak distribution alignment strategy into the feature extraction block to firstly reduce the discrepancy in feature distributions of speech samples across different speakers as much as possible. Furthermore, multiple discriminators in the discriminator block are utilized to confuse the speaker information of emotion features both inside the training data and between the training and testing data. Through them, a multi-domain invariant representation of emotional speech can be gradually and adaptively achieved by updating network parameters. We conduct extensive experiments on three public datasets, i. e., Emo-DB, eNTERFACE, and CASIA, to evaluate the SER performance of the proposed method, respectively. The experimental results show that the proposed method is superior to the state-of-the-art methods.",
@@ -10780,7 +11073,8 @@
     "abstract_zh": "本文主要研究跨语料库语音情感识别（SER），其中跨语料库SER中的训练和测试语音信号属于不同的语音语料库。由于这一事实，训练和测试语音特征集之间可能存在不匹配的特征分布，从而降低了大多数原本表现良好的 SER 方法的性能。为了处理跨语料库 SER，我们提出了一种新的域适应（DA）方法，称为联合分布自适应回归（JDAR）。 JDAR的基本思想是通过共同考虑训练和测试语音信号之间的边际概率分布和条件概率分布来学习回归矩阵，并且...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "已索引出版/会议记录",
@@ -10928,7 +11222,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -10969,13 +11264,15 @@
       "wenming_zheng",
       "panorama_6ea6272c5bf0",
       "panorama_ef5ed70a98c0",
-      "panorama_f7d2a628e3df"
+      "panorama_f7d2a628e3df",
+      "tengfei_song"
     ],
     "scholar_names": [
       "郑文明",
       "宗源",
       "崔振",
-      "张桐"
+      "张桐",
+      "宋腾飞"
     ],
     "source_record_ids": [
       "wenming_zheng_1a30647dc5de"
@@ -11042,6 +11339,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tengfei_song": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "a7307bd45324cba2",
@@ -11049,7 +11361,8 @@
       "郑文明：情感脑电与多模态生理信号",
       "宗源：情感脑电与多模态生理信号",
       "崔振：情感脑电与多模态生理信号",
-      "张桐：情感脑电与多模态生理信号"
+      "张桐：情感脑电与多模态生理信号",
+      "宋腾飞：脑电情感识别与多模态生理计算"
     ],
     "dblp_key": "journals/tamd/LiWZZQCZS21",
     "pdf_url": "https://arxiv.org/pdf/1906.01704",
@@ -11081,7 +11394,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "已索引出版/会议记录",
@@ -11160,7 +11474,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "已索引出版/会议记录",
@@ -11241,7 +11556,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -11376,7 +11692,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点",
     "status": "候选条目/需按作者主页继续核验",
@@ -11593,11 +11910,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "wenming_zheng",
-      "panorama_6ea6272c5bf0"
+      "panorama_6ea6272c5bf0",
+      "cuntai_guan"
     ],
     "scholar_names": [
       "郑文明",
-      "宗源"
+      "宗源",
+      "关存太"
     ],
     "source_record_ids": [
       "wenming_zheng_586822b2a4f3"
@@ -11634,12 +11953,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_bci_decode",
+        "label": "脑机接口、神经解码与情感脑电",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "fc7b5171fef5152f",
     "primary_categories_by_scholar": [
       "郑文明：情感脑电与多模态生理信号",
-      "宗源：脑电基准、数据与评测"
+      "宗源：脑电基准、数据与评测",
+      "关存太：脑机接口、神经解码与情感脑电"
     ],
     "pdf_url": "https://ieeexplore.ieee.org/ielx7/7333/9250399/09208692.pdf",
     "abstract_en": "It is reported that the symptoms of autism spectrum disorder (ASD) could be improved by effective early interventions, which arouses an urgent need for large-scale early identification of ASD. Until now, the screening of ASD has relied on the child psychiatrist to collect medical history and conduct behavioral observations with the help of psychological assessment tools. Such screening measures inevitably have some disadvantages, including strong subjectivity, relying on experts and low-efficiency. With the development of computer science, it is possible to realize a computer-aided screening for ASD and alleviate the disadvantages of manual evaluation. In this study, we propose a behavior-based automated screening method to identify high-risk ASD (HR-ASD) for babies aged 8-24 months. The still-face paradigm (SFP) was used to elicit baby's spontaneous social behavior through a face-to-face interaction, in which a mother was required to maintain a normal interaction to amuse her baby for 2 minutes (a baseline episode) and then suddenly change to the no-reaction and no-expression status with 1 minute (a still-face episode). Here, multiple cues derived from baby's social stress response behavior during the latter episode, including head-movements, facial expressions and vocal characteristics, were statistically analyzed between HR-ASD and typical developmental (TD) groups. An automated identification model of HR-ASD was constructed based on these multi-cue features and the support vector machine (SVM) classifier; moreover, its screening performance was satisfied, for all the accuracy, specificity and sensitivity exceeded 90% on the cases included in this study. The experimental results suggest its feasibility in the early screening of HR-ASD.",
@@ -11674,7 +12009,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5027316177）",
     "status": "已索引出版/会议记录",
@@ -11744,7 +12080,8 @@
     "abstract_zh": "在这封信中，我们提出了一种新颖的深度域自适应卷积神经网络（DDACNN）模型来处理具有挑战性的跨语料库语音情感识别（SER）问题。 DDACNN 模型的框架由两个组件组成：基于深度卷积神经网络（DCNN）的特征提取模型和利用最大平均差异（MMD）准则在 DCNN 中添加的域自适应（DA）层。我们使用源语音语料库中的标记频谱图与目标语音语料库中的未标记频谱图相结合作为两个经典 DCNN 的输入来提取语音的情感特征，并使用特殊的混合损失与交叉熵相结合来训练模型。",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "已索引出版/会议记录",
@@ -11904,7 +12241,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点",
     "status": "候选条目/需按作者主页继续核验",
@@ -11945,13 +12283,15 @@
       "wenming_zheng",
       "wei_long_zheng",
       "panorama_6ea6272c5bf0",
-      "panorama_ef5ed70a98c0"
+      "panorama_ef5ed70a98c0",
+      "tengfei_song"
     ],
     "scholar_names": [
       "郑文明",
       "郑伟龙",
       "宗源",
-      "崔振"
+      "崔振",
+      "宋腾飞"
     ],
     "source_record_ids": [
       "wenming_zheng_e3889da3959b",
@@ -12019,6 +12359,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tengfei_song": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "5ffbb0884f7487e4",
@@ -12026,7 +12381,8 @@
       "郑文明：情感脑电与多模态生理信号",
       "郑伟龙：情感脑电与多模态生理信号",
       "宗源：情感脑电与多模态生理信号",
-      "崔振：情感脑电与多模态生理信号"
+      "崔振：情感脑电与多模态生理信号",
+      "宋腾飞：生理情感数据库、基准与综述"
     ],
     "dblp_key": "conf/aaai/SongLZZC20",
     "pdf_url": "https://doi.org/10.1609/aaai.v34i03.5656",
@@ -12054,7 +12410,8 @@
       "情感视觉与微表情",
       "多模态情感分析",
       "视觉情感大模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -12316,7 +12673,8 @@
     "abstract_zh": "摘要 婴儿面部表情自动编码在婴儿相关应用中发挥着重要作用，包括计算机辅助ASD诊断、ASD儿童自动干预以及ADHD诊断等。然而，现有面部表情研究大多集中于成人面部表情分析，对婴儿面部表情识别的研究较少。由于成人和婴儿的面部表情数据集之间存在年龄差距，在成人数据集上训练的面部表情识别模型通常对婴儿数据集的泛化能力较差。带标签的婴儿面部表情数据集可以缓解这个问题，因此我们首先收集面部表情......",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5029771864）",
     "status": "已索引出版/会议记录",
@@ -12398,7 +12756,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -12516,7 +12875,8 @@
     "abstract_zh": "正确感知微表情是很困难的，因为微表情是一种不自觉的、压抑的、微妙的面部表情，有效地揭示微表情序列中的细微动作变化并捕捉微表情序列中的重要片段是微表情识别（MER）的关键。为了解决这个关键问题，在本文中，我们首先提出了一种动态分段稀疏成像模块（DSSI），在独特的采样协议下将动态图像计算为局部全局时空描述符，从而以有效的方式在视觉上揭示微妙的运动变化。其次，提出了分段运动参与时空网络（SMA-STN）以进一步揭示我...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "预印本记录",
@@ -12601,7 +12961,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -12756,7 +13117,8 @@
     "abstract_zh": "微表情是一种特殊的面部表情，通常发生在人们试图隐藏真实情绪时。因此，识别微表情在许多应用中具有潜在价值，例如测谎。在这封信中，我们围绕这样一个有意义的话题，研究如何充分利用微表情样本提供的颜色信息来处理微表情识别（MER）问题。为此，我们提出了一种称为颜色空间融合学习（CSFL）模型的新方法，用于融合在不同颜色空间中提取的时空特征，使得融合后的时空特征能够更好地描述微表情...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "已索引出版/会议记录",
@@ -12838,7 +13200,9 @@
     "abstract_zh": "在过去的几年里，微表情识别（MER）的研究因其在许多应用领域（例如测谎）中的潜在价值而成为情感计算和计算机视觉领域的一个活跃课题。然而，之前的大多数工作都假设了一个理想的场景，即训练和测试样本都属于同一个微表情数据库，这在实践中很容易被打破。因此，在这封信中，我们考虑了一个更具挑战性的场景，即训练和测试样本来自不同的微表情数据库，并研究了无监督的跨数据库 MER，其中源数据库被标记，而目标数据库的标签信息完全......",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "已索引出版/会议记录",
@@ -12923,7 +13287,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -13047,7 +13412,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -13167,7 +13534,8 @@
     "abstract_zh": "对于跨语料库语音情感识别（SER），如何获得有效的特征表示以消除源域和目标域之间的特征分布差异是一个关键问题。在本文中，我们提出了一种用于跨语料库 SER 的目标自适应子空间学习（TaSL）方法。 TaSL方法试图找到一个投影子空间，其中特征更准确地回归标签，并且有效地弥合了目标域和源域中特征分布的差距。然后，为了获得更加最优的投影矩阵，分别在不同的正则化项上添加ℓ1范数和ℓ2,1范数惩罚项。最后，我们进行了广泛的实验......",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "已索引出版/会议记录",
@@ -13249,7 +13617,8 @@
     "abstract_source": "",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "已索引出版/会议记录",
@@ -13261,11 +13630,13 @@
     "scholar_name": "郑文明",
     "scholar_ids": [
       "wenming_zheng",
-      "panorama_6ea6272c5bf0"
+      "panorama_6ea6272c5bf0",
+      "tengfei_song"
     ],
     "scholar_names": [
       "郑文明",
-      "宗源"
+      "宗源",
+      "宋腾飞"
     ],
     "source_record_ids": [
       "wenming_zheng_544da69b19379083"
@@ -13296,11 +13667,24 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tengfei_song": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "郑文明：情感脑电与多模态生理信号",
-      "宗源：情感脑电与多模态生理信号"
+      "宗源：情感脑电与多模态生理信号",
+      "宋腾飞：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -13331,7 +13715,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -13487,7 +13872,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "已索引出版/会议记录",
@@ -13569,7 +13955,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -13611,12 +13998,14 @@
     "scholar_ids": [
       "wenming_zheng",
       "panorama_6ea6272c5bf0",
-      "panorama_ef5ed70a98c0"
+      "panorama_ef5ed70a98c0",
+      "tengfei_song"
     ],
     "scholar_names": [
       "郑文明",
       "宗源",
-      "崔振"
+      "崔振",
+      "宋腾飞"
     ],
     "source_record_ids": [
       "wenming_zheng_558360a25d4a"
@@ -13668,13 +14057,29 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tengfei_song": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "f07dee2372831f07",
     "primary_categories_by_scholar": [
       "郑文明：情感脑电与多模态生理信号",
       "宗源：情感脑电与多模态生理信号",
-      "崔振：情感脑电与多模态生理信号"
+      "崔振：情感脑电与多模态生理信号",
+      "宋腾飞：生理情感数据库、基准与综述"
     ],
     "dblp_key": "journals/access/SongZLZZC19",
     "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/8600701/08606087.pdf",
@@ -13702,7 +14107,8 @@
       "情感视觉与微表情",
       "多模态情感分析",
       "视觉情感大模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -13925,7 +14331,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -14072,7 +14479,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "预印本记录",
@@ -14183,7 +14591,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -14341,7 +14750,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -14493,7 +14903,8 @@
     "abstract_zh": "在本文中，我们研究了一个有趣的问题，即无监督跨语料库语音情感识别（SER），其中训练和测试语音信号来自两个不同的语音情感语料库。同时，训练语音信号被标记，而测试语音信号的标记信息完全未知。由于这种设置，训练（源）和测试（目标）语音信号可能具有不同的特征分布，因此许多现有的 SER 方法将不起作用。为了解决这个问题，我们提出了一种域自适应子空间学习（DoSL）方法来学习投影矩阵，我们可以用它来变换源和目标空间...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5082301986）",
     "status": "已索引出版/会议记录",
@@ -14574,7 +14985,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -14694,7 +15107,9 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5029771864）",
     "status": "已索引出版/会议记录",
@@ -14776,7 +15191,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -14952,7 +15368,8 @@
     "abstract_zh": "无监督跨数据库面部表情识别（FER）是一个具有挑战性的问题，其中训练和测试样本属于不同的面部表情数据库。因此，训练（源）和测试（目标）面部表情样本将具有不同的特征分布，因此许多现有 FER 方法的性能可能会下降。为了解决这个问题，在本文中，我们提出了一种新颖的超宽回归网络（SWiRN）模型，该模型作为回归参数来连接原始特征空间和标签空间，并且在每一层中使用最大平均差异（MMD）标准来强制源和目标面部表情样本共享相同或相似的特征。",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5027316177）",
     "status": "已索引出版/会议记录",
@@ -15022,7 +15439,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电基础大模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -15140,7 +15558,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -15290,7 +15709,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -15447,7 +15867,8 @@
     "abstract_zh": "在这封信中，通过整合时空面部特征和回归模型来研究微表情识别方法。为此，我们首先对每个面部图像进行多尺度面部区域划分，然后在三个正交平面（LBP-TOP）特征上提取一组与微表情视频的划分面部区域相对应的局部二值模式。此外，我们使用GSLSR模型建立LBP-TOP面部特征向量和微表情标签向量之间的线性回归关系。最后，将学习到的 GSLSR 模型应用于每个测试微表情视频的微表情类别预测。经验...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "已索引出版/会议记录",
@@ -15528,7 +15949,8 @@
     "abstract_zh": "在这封信中，提出了一种使用领域自适应最小二乘回归（DaLSR）模型的新型跨语料库语音情感识别（SER）方法。该方法利用目标语音语料库中额外的未标记数据集作为辅助数据集，与源语音语料库中的标记训练数据集相结合，共同训练DaLSR模型。与传统的最小二乘回归（LSR）方法相比，DaLSR 的主要新颖之处在于它能够处理源语音语料库和目标语音语料库之间的不匹配问题。因此，所提出的DaLSR方法非常适合解决跨语料库SER问题。用于评估产品的性能...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100378800）",
     "status": "已索引出版/会议记录",
@@ -15620,7 +16042,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "已索引出版/会议记录",
@@ -15715,7 +16138,8 @@
     "abstract_source": "",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "已索引出版/会议记录",
@@ -15812,7 +16236,8 @@
     "abstract_zh": "本文提出了一种新颖的深度神经网络（DNN）驱动的特征学习方法，并将其应用于多视图面部表情识别（FER）。在该方法中，首先从每个面部图像中提取与一组标志点相对应的尺度不变特征变换（SIFT）特征。然后，由提取的 SIFT 特征向量组成的特征矩阵被用作输入数据，并发送到精心设计的 DNN 模型，以学习表情分类的最佳判别特征。所提出的 DNN 模型采用多个层来表征 SIFT 特征向量与其相应的高级语义信息之间的对应关系。经过...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "已索引出版/会议记录",
@@ -15908,7 +16333,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -16060,7 +16486,8 @@
     "abstract_zh": "提出了一种具有基于金字塔结构的特征提取方案的双稀疏学习（DSL）模型来处理语音情感识别（SER）问题。该方法的关键新颖之处在于，所提出的 DSL 模型能够考虑基于金字塔结构的特征的两个尺度，以选择对 SER 有较大贡献的特征。在 eENTERFACE 和 AFEW 情感数据库上进行了大量实验来评估该方法。实验结果表明，与最近的一些竞争方法相比，基于金字塔结构的特征提取方案的 DSL 在处理 SER 任务方面具有更有前景的性能。",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5029771864）",
     "status": "已索引出版/会议记录",
@@ -16153,7 +16580,8 @@
     "abstract_zh": "在本文中，我们提出了一种使用传导传递线性判别分析 (TTLDA) 和基于 Riesz 的体积局部二进制模式 (RVLBP) 的方法，用于野外情感识别挑战赛 (EmotiW 2015) 中基于图像的静态面部表情识别挑战。本次挑战的任务是在真实世界环境下为一些包含人脸的电影帧分配面部表情标签。在我们的方法中，我们首先采用多尺度图像分割方案将每个人脸图像划分为一些图像块，并使用从每个块中提取的RVLBP特征来描述每个人脸图像。然后，我们采用基于RVLBP的TTLDA方法来处理表达式r...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "已索引出版/会议记录",

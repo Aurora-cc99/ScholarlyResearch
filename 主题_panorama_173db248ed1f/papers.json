@@ -159,7 +159,8 @@
     "abstract_zh": "尽管微表情识别（MER）取得了进展，但微表情的低强度仍然是一个关键挑战，阻碍了区分特征的有效学习。鉴于宏观表达与微表达共享情感成分并提供更强的辨别线索，我们提出了一种利用宏观表达知识来增强 MER 的方法。生成模型旨在综合基于加权表示的过渡表达特征，从而实现从宏观表达到微观表达的一对多指导。为了使这些过渡特征与微表达式语义保持一致，我们使用微表达式标签应用一致性正则化。最后，进行特征对齐以增加......",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 88/5320-37）",
     "status": "已索引出版/会议记录",
@@ -228,7 +229,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -272,12 +274,14 @@
     "scholar_ids": [
       "wenming_zheng",
       "panorama_6ea6272c5bf0",
-      "panorama_173db248ed1f"
+      "panorama_173db248ed1f",
+      "bjorn_schuller"
     ],
     "scholar_names": [
       "郑文明",
       "宗源",
-      "赵焱"
+      "赵焱",
+      "Björn W. Schuller"
     ],
     "source_record_ids": [
       "wenming_zheng_156eac025cea"
@@ -329,13 +333,29 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bjorn_schuller": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "4357f1a26ba53fff",
     "primary_categories_by_scholar": [
       "郑文明：情感脑电与多模态生理信号",
       "宗源：情感脑电与多模态生理信号",
-      "赵焱：情感数据集、基准与评测"
+      "赵焱：情感数据集、基准与评测",
+      "Björn W. Schuller：自然语言处理、多模态学习与通用方法"
     ],
     "abstract_en": "Speaker attributes (e. g., age, accent, and expression habits) are typically confused with emotional cues in the speech feature space, which can impair the emotional discriminability of speech features that are robust to speakers, thereby degrading the generalization of speech emotion recognition (SER). To overcome this issue, we propose a Generalizable Dynamic Domain Adaptation (GDDA) framework for learning speaker-invariant speech emotion representations. GDDA transforms the speaker-independent SER task into an extension of domain adaptation from a single-source domain to multi-source domains to address the impact of multiple speakers on speech emotion representations. For this purpose, we first construct a GDDA under theSingleSource domain adaptation (i. e., GDDA-SS), which consists of two parts: a joint distribution adaptation (JDA) measuring the speech emotion feature distributions caused by speakers between the training and testing domains, and a dynamic balance factor (DBF) that enables the recognition model to adaptively handle unseen speaker data distributions. Specifically, JDA combines global marginal distribution adaptation (MDA) with local class-aware conditional distribution adaptation (CDA), and DBF uses$\\mathcal {A}$-divergence to automatically quantify the contributions of MDA and CDA in JDA. In DJDA-SS, the training and testing data are considered as a source domain and a target domain, respectively, from a coarse-grained perspective. Considering the multi-domain property of speech emotion features from diverse speakers (i. e., each speaker can be regarded as a sub-domain), we further extend GDDA-SS to aMulti-Source domain adaptation (i. e., GDDA-MS) to eliminate distribution shift from a fine-grained perspective. In contrast to GDDA-SS, it is implemented by calculating JDA and DBF under the multi-source domain adaptation. Extensive experiments on four public datasets (i. e., IEMOCAP, EMO-DB, CASIA, and MSP-Podcast) demonstrate that our GDDA framework achieves the state-of-the-art performance.",
     "abstract_source": "openalex_verified",
@@ -368,7 +388,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5027316177）",
     "status": "已索引出版/会议记录",
@@ -454,7 +475,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100727732）",
     "status": "已索引出版/会议记录",
@@ -522,7 +544,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5027316177）",
     "status": "已索引出版/会议记录",
@@ -603,7 +626,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -819,7 +843,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 88/5320-37）",
     "status": "已索引出版/会议记录",
@@ -1187,7 +1212,8 @@
     "source_url": "",
     "topics": [
       "情感理解与情感智能",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1461,7 +1487,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "已索引出版/会议记录",
@@ -1542,7 +1569,8 @@
     "abstract_zh": "在与说话人无关的语音情感识别中，训练和测试样本是从不同的说话人收集的，这导致了来自不同说话人的数据特征分布的多域转换挑战。因此，当经过训练的模型遇到来自新说话者的数据时，其性能往往会下降。为了解决这个问题，我们提出了多源域自适应框架下的动态联合分布自适应（DJDA）方法。 DJDA首先利用联合分布自适应（JDA），包括边际分布自适应（MDA）和条件分布自适应（CDA），以更精确地测量多域分布偏移...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "预印本记录",
@@ -1555,12 +1583,14 @@
     "scholar_ids": [
       "wenming_zheng",
       "panorama_6ea6272c5bf0",
-      "panorama_173db248ed1f"
+      "panorama_173db248ed1f",
+      "bjorn_schuller"
     ],
     "scholar_names": [
       "郑文明",
       "宗源",
-      "赵焱"
+      "赵焱",
+      "Björn W. Schuller"
     ],
     "source_record_ids": [
       "wenming_zheng_bbbf1ae51fd62b7c"
@@ -1599,12 +1629,24 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bjorn_schuller": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "郑文明：情感脑电与多模态生理信号",
       "宗源：情感脑电与多模态生理信号",
-      "赵焱：情感理解与多模态推理"
+      "赵焱：情感理解与多模态推理",
+      "Björn W. Schuller：自然语言处理、多模态学习与通用方法"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -1718,7 +1760,8 @@
     "abstract_zh": "简介：恐怖主义和创伤幸存者经常会经历在不同时间评估的自主神经、炎症和下丘脑-垂体-肾上腺 (HPA) 轴生物标志物的变化。研究表明这些系统在慢性压力下相互作用。研究目的：这项史无前例的回顾性研究探讨了恐怖主义幸存者三个系统中的长期压力生物标志物。方法：将 60 名健康的直接恐怖主义幸存者与未暴露的社区成员进行了心血管对创伤脚本、早晨唾液皮质醇、白细胞介素 1-β (IL-1β) 和白细胞介素 2-R (IL-2R) 反应的比较。幸存者的生物标志物与精神症状和诊断相关，并在七年后报告功能和健康状况......",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100727732）",
     "status": "已索引出版/会议记录",
@@ -1786,7 +1829,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5027316177）",
     "status": "已索引出版/会议记录",
@@ -1932,7 +1976,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "已索引出版/会议记录",
@@ -1945,12 +1990,14 @@
     "scholar_ids": [
       "wenming_zheng",
       "panorama_6ea6272c5bf0",
-      "panorama_173db248ed1f"
+      "panorama_173db248ed1f",
+      "bjorn_schuller"
     ],
     "scholar_names": [
       "郑文明",
       "宗源",
-      "赵焱"
+      "赵焱",
+      "Björn W. Schuller"
     ],
     "source_record_ids": [
       "wenming_zheng_2fb08afdd6b232b5"
@@ -1989,12 +2036,24 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bjorn_schuller": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "郑文明：情感脑电与多模态生理信号",
       "宗源：情感脑电与多模态生理信号",
-      "赵焱：情感数据集、基准与评测"
+      "赵焱：情感数据集、基准与评测",
+      "Björn W. Schuller：自然语言处理、多模态学习与通用方法"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -2092,7 +2151,8 @@
     "abstract_zh": "近几十年来，情感识别引起了越来越多的关注。尽管七种基本情感的识别技术已经取得了重大进展，但现有的方法仍然难以应对实际应用中常见的复合情感识别。本文介绍了我们在第七届现场情绪行为分析（ABAW）竞赛中取得的成绩。在比赛中，我们选择了经过广泛验证的预训练ResNet18和Transformer作为基础网络框架。考虑到情绪随时间的连续性，我们提出了一种用于帧级情绪预测的时间金字塔结构网络。此外。与此同时，在欧...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "预印本记录",
@@ -2189,7 +2249,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2329,7 +2390,8 @@
     "abstract_zh": "跨语料库语音情感识别（SER）旨在将情感知识从标记的源语料库转移到未标记的语料库。然而，现有方法需要在适应过程中访问源数据，由于数据隐私保护问题，这在现实场景中是无法实现的。本文解决了一个更实际的任务，即无源跨语料库 SER，其中预训练的源模型无需访问源数据即可适应目标域。为了解决这个问题，我们提出了一种称为情感感知对比适应网络（ECAN）的新方法。核心思想是捕获样本之间的局部邻域信息，同时考虑全局类级别的适应...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "预印本记录",
@@ -2342,12 +2404,14 @@
     "scholar_ids": [
       "wenming_zheng",
       "panorama_6ea6272c5bf0",
-      "panorama_173db248ed1f"
+      "panorama_173db248ed1f",
+      "bjorn_schuller"
     ],
     "scholar_names": [
       "郑文明",
       "宗源",
-      "赵焱"
+      "赵焱",
+      "Björn W. Schuller"
     ],
     "source_record_ids": [
       "wenming_zheng_819ea00faf8b86f0"
@@ -2386,12 +2450,24 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bjorn_schuller": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "郑文明：脑电基准、数据与评测",
       "宗源：脑电基准、数据与评测",
-      "赵焱：情感数据集、基准与评测"
+      "赵焱：情感数据集、基准与评测",
+      "Björn W. Schuller：自然语言处理、多模态学习与通用方法"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -2411,7 +2487,8 @@
     "source_url": "",
     "topics": [
       "情感理解与情感智能",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2494,7 +2571,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "已索引出版/会议记录",
@@ -2576,7 +2654,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2780,7 +2859,8 @@
     "abstract_zh": "Swin-Transformer 通过利用其基于 Transformer 的分层特征表示，在计算机视觉领域取得了显着的成功。在语音信号中，情感信息分布在不同尺度的语音特征中，例如。例如，单词、短语和话语。受上述启发，本文提出了一种分层语音Transformer，其具有移动窗口来聚合语音情感识别（SER）的多尺度情感特征，称为语音 Swin-Transformer。具体来说，我们首先将语音频谱图在时域中划分为段级补丁，由多个帧补丁组成。然后使用 Swin 堆栈对这些段级补丁进行编码...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "预印本记录",
@@ -2793,12 +2873,14 @@
     "scholar_ids": [
       "wenming_zheng",
       "panorama_6ea6272c5bf0",
-      "panorama_173db248ed1f"
+      "panorama_173db248ed1f",
+      "bjorn_schuller"
     ],
     "scholar_names": [
       "郑文明",
       "宗源",
-      "赵焱"
+      "赵焱",
+      "Björn W. Schuller"
     ],
     "source_record_ids": [
       "wenming_zheng_f827ef7e26087eac"
@@ -2837,12 +2919,24 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bjorn_schuller": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "郑文明：脑电基础模型与通用解码",
       "宗源：脑电基础模型与通用解码",
-      "赵焱：情感理解与多模态推理"
+      "赵焱：情感理解与多模态推理",
+      "Björn W. Schuller：自然语言处理、多模态学习与通用方法"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -3005,7 +3099,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3143,7 +3238,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5027316177）",
     "status": "已索引出版/会议记录",
@@ -3292,7 +3388,8 @@
     "abstract_zh": "在本文中，我们提出了一种用于语音情感识别的新颖时频联合学习方法，称为时频变换器。其优点在于，时频变换器可以挖掘语音信号时频域中的全局情感模式，同时分别在时域和频域中对局部情感相关性进行建模。为此，我们首先设计了时间变换器和频率变换器来分别捕获帧之间和频带内的局部情感模式，以确保时域和频域上情感信息建模的完整性。然后，提出了一种时频变换器来挖掘时频情感相关性......",
     "abstract_source": "arxiv_api",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5027316177）",
     "status": "已索引出版/会议记录",
@@ -3377,7 +3474,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3516,7 +3614,9 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；纳入候选-重点",
     "status": "候选条目/需按作者主页继续核验",
@@ -3673,7 +3773,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3938,7 +4039,8 @@
     "abstract_zh": "目前Transformer已经出现在语音情感识别（SER）领域。然而，其等分块划分不仅损害了频率信息，而且忽略了跨帧的局部情感相关性，而这是表示情感的关键线索。为了解决这个问题，我们提出了一种针对 SER 的局部到全局特征聚合学习（LGFA），它可以将帧内和片段内不同尺度的长期情感相关性与整个频率信息进行聚合，以增强话语级语音特征的情感辨别力。为此，我们将帧Transformer嵌套在段Transformer内。首先，Frame Transformer 旨在挖掘局部情感相关性...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "预印本记录",
@@ -4101,7 +4203,8 @@
     "abstract_zh": "在本文中，我们提出了一种称为深度隐式分布对齐网络（DIDAN）的新型深度迁移学习方法来处理跨语料库语音情感识别（SER）问题，其中标记的训练（源）和未标记的测试（目标）语音信号来自不同的语料库。具体来说，DIDAN首先采用由一组卷积层和全连接层组成的简单深度回归网络，将源语音频谱直接回归为情感标签，使得所提出的DIDAN能够拥有情感辨别能力。然后，这种能力被转移到也适用于目标语音样本，而不管语料库方差如何......",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "已索引出版/会议记录",
@@ -4170,7 +4273,8 @@
     "source_url": "",
     "topics": [
       "情感理解与情感智能",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -4251,7 +4355,8 @@
     "abstract_zh": "为了克服微表情识别仅出现在几个低强度的小面部区域的挑战，一些研究人员提出了面部区域划分机制，并引入了用于特征选择的群体稀疏学习方法。然而，此类方法存在一些缺点，包括区域划分的复杂性和关键面部区域的利用不足。为了解决这些问题，我们提出了一种新颖的组稀疏降阶张量回归（GSRRTR），通过在不同维度放置块和特征将恐惧矩阵转换为张量。因此我们可以分别处理网格和纹理特征，避免网格和特征之间的干扰。此外，通过使用塔克...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5027316177）",
     "status": "已索引出版/会议记录",
@@ -5050,7 +5155,8 @@
     "abstract_zh": "在本文中，我们研究了跨语料库语音情感识别（SER）问题，其中训练（源）和测试（目标）语音样本属于不同的语料库。因此，这种情况导致源语音样本和目标语音样本之间的特征分布不匹配。因此，大多数现有 SER 方法的性能急剧下降。为了解决这个问题，我们提出了一种简单而有效的转移子空间学习方法，称为联合分布隐式对齐子空间学习（JIASL）。 JIASL的基本思想非常简单，即在隐式分布对齐策略下构建情感判别和语料不变的线性回归模型。遵循这个想法，我们首先利用...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5027316177）",
     "status": "已索引出版/会议记录",
@@ -5131,7 +5237,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "已索引出版/会议记录",
@@ -5200,7 +5307,8 @@
     "source_url": "",
     "topics": [
       "情感理解与情感智能",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -5542,7 +5650,8 @@
     "abstract_zh": "抑郁症是一种威胁人们健康和正常生活的精神障碍。因此，有必要提供一种有效的方法来检测抑郁症。然而，抑郁症检测的研究主要集中在利用音频、视频和文本的不同并行特征来增强性能，而没有充分利用语音的固有信息。为了关注抑郁症言语中更显着的情感区域，在本研究中，我们提出了一种基于多头时维注意力的长短期记忆（LSTM）模型。我们首先提取帧级特征来存储语音序列的原始时间关系，然后分析抑郁症和健康人的语音之间的差异......",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 88/5320-37）",
     "status": "已索引出版/会议记录",
@@ -5564,7 +5673,8 @@
     "resource_ids": [],
     "code_urls": [],
     "data_urls": [
-      "http://modma.lzu.edu.cn/data/index/"
+      "http://modma.lzu.edu.cn/data/index/",
+      "https://dcapswoz.ict.usc.edu/"
     ],
     "model_urls": [],
     "scholar_categories": {
@@ -5677,7 +5787,8 @@
     "abstract_zh": "抑郁症作为一种精神障碍，危害人们的健康状况，影响社会秩序。作为一种有效的抑郁症诊断方法，自动抑郁症检测引起了许多研究者的兴趣。本研究提出了一种基于注意力的长短期记忆（LSTM）模型，用于抑郁症检测，以充分利用时间范围内抑郁症和非抑郁症之间的差异。该模型使用帧级特征来捕获抑郁语音的时间信息，以取代传统的统计特征作为 LSTM 层的输入。为了实现更多多维深度特征表示，LSTM 输出随后在时间和特征维度上传递到注意力层。然后， ...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 88/5320-37）",
     "status": "已索引出版/会议记录",
@@ -5698,7 +5809,9 @@
     ],
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://dcapswoz.ict.usc.edu/"
+    ],
     "model_urls": [],
     "scholar_categories": {
       "panorama_173db248ed1f": {
@@ -6563,7 +6676,8 @@
     "abstract_zh": "讨论了一种在情感识别中使用二类分类器的方法。情感类别被分成几对，以改进特征选择和优化。每对情绪通过二类分类器进行分类，并通过相关解码器得出最终的识别结果。与n类分类器相比，对每对情感使用二类分类器更适合多种情感分类。",
     "abstract_source": "openalex_doi",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 88/5320-37）",
     "status": "已索引出版/会议记录",
@@ -6631,7 +6745,8 @@
     "abstract_zh": "二次判别函数（QDF）是模式识别中广泛使用的常用方法。当采样特征在已知均值和协方差矩阵的情况下呈正态时，这是最佳的。本文提出了一种新的变换，并推导了一种改进的QDF（MQDF）方法，旨在改善语音情感识别过程中特征的非正态性，实验中同时考虑了韵律特征和语音质量特征。结果表明我们的方法是有效且稳健的。",
     "abstract_source": "openalex_doi",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 88/5320-37）",
     "status": "已索引出版/会议记录",
@@ -6707,10 +6822,12 @@
     "scholar_id": "panorama_173db248ed1f",
     "scholar_name": "赵焱",
     "scholar_ids": [
-      "panorama_173db248ed1f"
+      "panorama_173db248ed1f",
+      "haixian_wang"
     ],
     "scholar_names": [
-      "赵焱"
+      "赵焱",
+      "王海贤"
     ],
     "source_record_ids": [
       "panorama_173db248ed1f_43a7075a128fa7fe"
@@ -6729,10 +6846,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "haixian_wang": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "王海贤",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "赵焱：情感理解与多模态推理"
+      "赵焱：情感理解与多模态推理",
+      "王海贤：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "emotion_understanding",
