@@ -2,14 +2,14 @@
   "as_of": "2026-11-18",
   "stats": {
     "as_of": "2026-11-18",
-    "scholars": 241,
+    "scholars": 242,
     "base_scholars": 5,
     "theme_candidate_scholars": 150,
-    "scholar_paper_records": 57541,
-    "merged_records_by_bibliographic_key": 52632,
-    "resource_entries": 2134,
-    "distinct_resource_urls": 1990,
-    "paper_resource_edges": 2598,
+    "scholar_paper_records": 58101,
+    "merged_records_by_bibliographic_key": 53181,
+    "resource_entries": 2150,
+    "distinct_resource_urls": 2006,
+    "paper_resource_edges": 2614,
     "by_scholar": {
       "潘纲": {
         "bibliographic_records": 494,
@@ -5793,7 +5793,7 @@
       },
       "金晶": {
         "bibliographic_records": 214,
-        "with_abstract": 137,
+        "with_abstract": 142,
         "compatibility_alias_records": 0,
         "resource_entries": 0,
         "papers_with_linked_resources": 0,
@@ -7817,25 +7817,67 @@
           2027
         ],
         "unknown_year": 0
+      },
+      "胡德文": {
+        "bibliographic_records": 560,
+        "with_abstract": 398,
+        "compatibility_alias_records": 0,
+        "resource_entries": 16,
+        "papers_with_linked_resources": 16,
+        "types": {
+          "code": 16
+        },
+        "years": [
+          1988,
+          1993,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025,
+          2026
+        ],
+        "unknown_year": 0
       }
     },
     "scope": "all_years; bibliography versions retained; theme candidates are representative-resource layer, not absolute lifetime completeness",
     "large_data_downloaded": false,
     "training_executed": false,
     "paper_link_audit": {
-      "total": 52632,
-      "total_with_aliases": 52878,
-      "with_paper_url": 49004,
-      "with_doi": 44577,
-      "with_abstract": 33848,
-      "with_any_external_or_source": 49575,
+      "total": 53181,
+      "total_with_aliases": 53427,
+      "with_paper_url": 49550,
+      "with_doi": 45118,
+      "with_abstract": 34242,
+      "with_any_external_or_source": 50124,
       "missing_external_or_source": 3057
     },
-    "total_records_including_aliases": 52878,
+    "total_records_including_aliases": 53427,
     "compatibility_alias_records": 426,
-    "papers_with_abstract": 33848
+    "papers_with_abstract": 34242
   },
-  "file_count": 3319,
+  "file_count": 3332,
   "files": [
     {
       "path": ".nojekyll",
@@ -7845,297 +7887,297 @@
     {
       "path": "app-common.js",
       "bytes": 59150,
-      "sha256": "92867c3b0dd636861800c88586d0cd2344ec9300c583b1dccd93c85e6b91f0f5"
+      "sha256": "46f67a97f66a7a6f55ceb21fe4787df7163285a03d8ff5c2fb72648e15127fd3"
     },
     {
       "path": "data/abstracts/bucket-00.js",
-      "bytes": 1866634,
-      "sha256": "eca97225ab35f258ca629f6bd82a0fa134c62e7cb4d369718cc3163a9d1232fc"
+      "bytes": 1889570,
+      "sha256": "b80a22f6b2580cbe0b50bf19bcbfd59ca006a068a10d66505e2b9c51c08ff415"
     },
     {
       "path": "data/abstracts/bucket-01.js",
-      "bytes": 1995827,
-      "sha256": "6c25b9989bdef59be95a29f3df8d1e6d9c930bf7412674b5c3e4a089fe709969"
+      "bytes": 2030251,
+      "sha256": "61658246279a463cb7774ca96b9375e5615c2e92a677d610829fcc5797f253c7"
     },
     {
       "path": "data/abstracts/bucket-02.js",
-      "bytes": 1888385,
-      "sha256": "1b29b6d05150b670c9073ce596945bbb3b7c370b41c57c8e909f416a82a98bbe"
+      "bytes": 1904627,
+      "sha256": "6b902d8ec243e0612e3f3a60bee243f719dd33b1c415446b7def64741556a817"
     },
     {
       "path": "data/abstracts/bucket-03.js",
-      "bytes": 2149544,
-      "sha256": "14a7a0ab0097df9870b3b93032b24c94bab142594e841ad41b5e6d962f70b4e4"
+      "bytes": 2163428,
+      "sha256": "2aea9d42fc5f28e5ae3b68f6dcb6afcb23eab101f4f3c5749cfa5867dcc45478"
     },
     {
       "path": "data/abstracts/bucket-04.js",
-      "bytes": 2103978,
-      "sha256": "2c3ef132997b36bd792e88b304aa680d7d3f21b823cb9298d47b2ce7533de975"
+      "bytes": 2120386,
+      "sha256": "4332b0b639a13edf2e280b61d6181a3ade05ccf8b436ea4994d16b85d065f172"
     },
     {
       "path": "data/abstracts/bucket-05.js",
-      "bytes": 2022617,
-      "sha256": "1b4f3c9bf851cbdb08d217a32fd7b1ad05f0bfad513b1744370680bdbf1759f7"
+      "bytes": 2039355,
+      "sha256": "109ba1e678b7cd2811570b6b3be2fbf5ddf6ea134b8f591db863007888573854"
     },
     {
       "path": "data/abstracts/bucket-06.js",
-      "bytes": 2008066,
-      "sha256": "ee55c8710868da305526557b3e6164598a3f696abd65188d8e6d0c101f2d8396"
+      "bytes": 2030529,
+      "sha256": "5e7fad56c4b0984ab43f7db492242c4738d8d16d93552effad4b61a3528b5558"
     },
     {
       "path": "data/abstracts/bucket-07.js",
-      "bytes": 2017924,
-      "sha256": "6840dda10ced5bb5d73840c814c3a55500fef32eee67c6fb0617d52e27510f2f"
+      "bytes": 2047688,
+      "sha256": "c8680168d42218dab34daf890b54f0245a8db7775daf590f90aa4ec47d4e57ee"
     },
     {
       "path": "data/abstracts/bucket-08.js",
-      "bytes": 2081365,
-      "sha256": "f35f90cea1044d798fed740d36757c523a53f249d2fed570ca7d5e62d9511009"
+      "bytes": 2115501,
+      "sha256": "ef3b67941e56c9d01d07d924b96b1122a2d7891268d0cdecb17833671451fdfd"
     },
     {
       "path": "data/abstracts/bucket-09.js",
-      "bytes": 2005620,
-      "sha256": "6c4d031f63458466153430a98e3686e4af08304552505d3f08a2f6f39b2dd29c"
+      "bytes": 2018951,
+      "sha256": "6fd82f50e02bda6e84cd6d2eeacad7810c3c7e64855c1a719311f529fe9aa642"
     },
     {
       "path": "data/abstracts/bucket-10.js",
-      "bytes": 1903331,
-      "sha256": "0b9fd0cda0820c4828a43387f5096f311c70148165ae3f1ea1f24c7c30d8621f"
+      "bytes": 1932876,
+      "sha256": "ea04d6bf2ef5c97612d43ec678efebd054f70e7dc67284d8314b7b4cbf3cce17"
     },
     {
       "path": "data/abstracts/bucket-11.js",
-      "bytes": 1988229,
-      "sha256": "ae7be02f33331a335eccace5e86892f1e85371389fbf012d959e331cb66d11bd"
+      "bytes": 2010529,
+      "sha256": "93dc58a4147539a8cfd61f507eea7bcda26b1862368e3b0933702b69dc635166"
     },
     {
       "path": "data/abstracts/bucket-12.js",
-      "bytes": 1907860,
-      "sha256": "4494643876f2eac46262688e5a15c37243e81708fae3747685e8ce23f0e41efb"
+      "bytes": 1926223,
+      "sha256": "7603eaa3e6e1c3db522e31669d461e62c36f870af19ded9429ec56a591d3d11d"
     },
     {
       "path": "data/abstracts/bucket-13.js",
-      "bytes": 2014251,
-      "sha256": "ec39c73cc7cc30d87a45cdd85740e7c5a500aa32954109cf0fbde52004d1fee9"
+      "bytes": 2033053,
+      "sha256": "1e3f32ad8e0252a9552d7d98663cb66ab671295bce8eed81e545c5830a263632"
     },
     {
       "path": "data/abstracts/bucket-14.js",
-      "bytes": 1932842,
-      "sha256": "1d9ff47cddc48a1e5403571edcb436d9abcd4cb2567a9f796a5029727d2ef5bb"
+      "bytes": 1954411,
+      "sha256": "c6efbe0d256b9ca62edc31901592133628df53572791f574405d018025f19e44"
     },
     {
       "path": "data/abstracts/bucket-15.js",
-      "bytes": 1935457,
-      "sha256": "1604f247f9f2721acd4c78648a7420ca63a1dcdf8bdc6f0e30709c56703237b7"
+      "bytes": 1956877,
+      "sha256": "181022478e15fa0feb3ee5198bf6b983e5b36d35d1305b1f8b3f2a26c5d35648"
     },
     {
       "path": "data/abstracts/bucket-16.js",
-      "bytes": 1936050,
-      "sha256": "32eaee65c287c3825686af522178be05d26af4f7a4ce46c57d178aba2ecb9355"
+      "bytes": 1961623,
+      "sha256": "a463af72f92d84eb3f8da8c5f1be588f0e396790101b4597dbf2eaf35841a452"
     },
     {
       "path": "data/abstracts/bucket-17.js",
-      "bytes": 2031388,
-      "sha256": "24ff6050deee3924242e3b5caa2a5db7577b14ee77cb565848c8d96ce1960899"
+      "bytes": 2055732,
+      "sha256": "d45c84024cd3f70984ea475dbb988ff05a828b7ec9be81f2634b2492cbb555fe"
     },
     {
       "path": "data/abstracts/bucket-18.js",
-      "bytes": 1924001,
-      "sha256": "64f4d59af775956b8cebb883f6f77f1d1d4026a1ac950678f90da78bfa90f93b"
+      "bytes": 1957630,
+      "sha256": "843ed15389327fc3da5390eac4299e330c8a20bf97ece352b8819278aa6be3e7"
     },
     {
       "path": "data/abstracts/bucket-19.js",
-      "bytes": 1958164,
-      "sha256": "6aa27704508800bc3038f5234fde41c2ae6166ac0f61bfeeecac0ab183edbbd6"
+      "bytes": 1979651,
+      "sha256": "f81e93c8effd539a5eac09c996fcd562063e604c26250cac537d81e1858fc982"
     },
     {
       "path": "data/abstracts/bucket-20.js",
-      "bytes": 2166437,
-      "sha256": "b66495345db846ebc9cd7d8958a643a1cd6295d8a97540ec5f310dee03682549"
+      "bytes": 2189161,
+      "sha256": "44d83d4f4cf45ad4504085f92f3e2bd27ed98e5ebe5dc674bcdb35d0c096557c"
     },
     {
       "path": "data/abstracts/bucket-21.js",
-      "bytes": 2033740,
-      "sha256": "1e09d33c7a45c1dd6d52cf279e6e53ea66b6048b70865667a856a543c100dbe8"
+      "bytes": 2059299,
+      "sha256": "be6615071fb7d556789305e3769505ade17fa8989c0a1d0c62c0d7d997029973"
     },
     {
       "path": "data/abstracts/bucket-22.js",
-      "bytes": 1968795,
-      "sha256": "225a72e58e7c39f3b1eb6c4d6044e9204de4f4c35114192ef595a7663a8400ea"
+      "bytes": 1998006,
+      "sha256": "e4eabfb1b32600361838c798eb5b0693a3e5346724f4483bcaa8f9e29985cf7c"
     },
     {
       "path": "data/abstracts/bucket-23.js",
-      "bytes": 2007946,
-      "sha256": "ff8278325d970e2fb170ec5ae5a1e695e23e3859976b7eec15ceff8886b45b70"
+      "bytes": 2042438,
+      "sha256": "221de1e62f22a9a2460c1f4c95df074807e981441a9820a8f33736a0328fda10"
     },
     {
       "path": "data/abstracts/bucket-24.js",
-      "bytes": 1974912,
-      "sha256": "e6e9e9352b1f86a24a40912700e7e7fe81d88a7cb9af0440a38dca98891273b7"
+      "bytes": 1997163,
+      "sha256": "54b4a79e880ff1ceac422af94844fc0706cedf98950f5731fd530e07df582516"
     },
     {
       "path": "data/abstracts/bucket-25.js",
-      "bytes": 2051052,
-      "sha256": "f404155614caf6ec304d1f301250558b4df97134d6a0e8cf4e462482de0c0bbb"
+      "bytes": 2085810,
+      "sha256": "54f617f3998c56dc3908c9e173fadc745402d2cf34f53713b364a596f3d92931"
     },
     {
       "path": "data/abstracts/bucket-26.js",
-      "bytes": 1957730,
-      "sha256": "d5e2ccc7dd2500f5fd865ad44baedd6dcf90bda72c8b0ada9bc5f9e56ac59e13"
+      "bytes": 1993287,
+      "sha256": "cd3354bdd2f17edaddefdeed8c169697cd067962e94ec2464eb3d5f7e841fb65"
     },
     {
       "path": "data/abstracts/bucket-27.js",
-      "bytes": 1908328,
-      "sha256": "10c5b3f48aa1037b758b26261e82dbb02bb10c1d630a17b4c295581f0353f165"
+      "bytes": 1925537,
+      "sha256": "60b1d764a56261dc58969c8109f507bdfb5ed612202065692229c43f0da5d28d"
     },
     {
       "path": "data/abstracts/bucket-28.js",
-      "bytes": 1904094,
-      "sha256": "c75f7842b0aedbaa3e52cf54b45eb15b21832ead5b56763322093d8ceca6dd6e"
+      "bytes": 1937959,
+      "sha256": "8302a4e20d45a20bbe702c1c32e127b5993f4260e255151491a9bec1bd166bb5"
     },
     {
       "path": "data/abstracts/bucket-29.js",
-      "bytes": 1917507,
-      "sha256": "7fccd8196659986d77db3481708166199fcb009f3aa2825e3eb58aadb7a26770"
+      "bytes": 1937983,
+      "sha256": "dfb9d890e4b7f40bb9eba6fc30755cf66db91216627cd08a09f09077ad3d1b5a"
     },
     {
       "path": "data/abstracts/bucket-30.js",
-      "bytes": 1988999,
-      "sha256": "ecddf0aee21372625df804bdf09d237f12adb3e6d54559d55a365951d9612367"
+      "bytes": 2009718,
+      "sha256": "1401de0fd83c9e2c8867f1f0bdf24ea4287368d39c389823c6926d844b953d5d"
     },
     {
       "path": "data/abstracts/bucket-31.js",
-      "bytes": 2052311,
-      "sha256": "aef9b4fbf47afcfc4b2d94c1218e354666227749fb7680f3875d138dd75e2cea"
+      "bytes": 2078161,
+      "sha256": "d0e0b78afb75ffbc8f64580694646bce7e76a585822677e785d094aa328cabeb"
     },
     {
       "path": "data/db-meta.js",
-      "bytes": 3489259,
-      "sha256": "1170964eaf072e906602ad689ec9da741ba57fc764ca5e2c61db4bdcb17900db"
+      "bytes": 3508400,
+      "sha256": "45831e828ea51849d88fded65fad06b2a0a30fd936e6d2fb7d2cc5b20aaa2995"
     },
     {
       "path": "data/papers-01.js",
-      "bytes": 7825486,
-      "sha256": "1be7802b3e7d42984bacbc5b04b3ab4eb0d8f91c09a918ecb1747f1ab575a8d2"
+      "bytes": 7823821,
+      "sha256": "4ef71c64e45f3fd1824e72f80a307d4c540fcd36baf67b743746a1fd196e7cef"
     },
     {
       "path": "data/papers-02.js",
-      "bytes": 7867242,
-      "sha256": "2e1cca677b4bada78d719a227fe66e830394091d0e5458d57456bd631e8772fd"
+      "bytes": 7857003,
+      "sha256": "dadf3d266b6f23bf05bc044d51cadf07a73b0dae8b31c5138b54ddb151f869d7"
     },
     {
       "path": "data/papers-03.js",
-      "bytes": 7901974,
-      "sha256": "687ad69a97ffc38c03860bcc834d5af4827b6cb5f7962ad359cf7fbc215c3b1a"
+      "bytes": 7893370,
+      "sha256": "565a4f64bc1268eb8a7168b734a6f2cc54860879de6086d095d2498f2e4acf1f"
     },
     {
       "path": "data/papers-04.js",
-      "bytes": 7864033,
-      "sha256": "089e199dd8bf580c40dab99fc76b43db9cf089ff749830fa2455732b8ed983c6"
+      "bytes": 7861848,
+      "sha256": "5ecf618bab79111ebe2b7be14e73555f0e6c87ba5e3e66cae8baa6f1f12aee43"
     },
     {
       "path": "data/papers-05.js",
-      "bytes": 7925864,
-      "sha256": "1b0c770274196174dc9b0bcb6170dfc7d55efa977fcc414d15f0113e3e087e45"
+      "bytes": 7938480,
+      "sha256": "c3a36cefa6843674952b08f20a2c3ff91c2123ca3a0d1648b9c78cc285b33d55"
     },
     {
       "path": "data/papers-06.js",
-      "bytes": 7892757,
-      "sha256": "baf3a2931c5629de50be72b59cc3b1ac89c68afa079fa0862d9ce5ed3237290b"
+      "bytes": 7886272,
+      "sha256": "399542fec1573acedfb4b71f22b8c5334040fc08ac19d5e25eeb867361f8bb49"
     },
     {
       "path": "data/papers-07.js",
-      "bytes": 7921740,
-      "sha256": "1c192f976913f989f5526f3e58c00ab1cb4270a57bed01e0f6712ccead9dac70"
+      "bytes": 7905803,
+      "sha256": "7f88029a54e1f9fbf9e2a9029487897f4894d7173b344fa37fa22caf51dac5c6"
     },
     {
       "path": "data/papers-08.js",
-      "bytes": 7771414,
-      "sha256": "0a7eb5cfe55fa60dcec063437d98d468264961fdaf5eff54f16a00834b579dbf"
+      "bytes": 7781962,
+      "sha256": "0f4d5370fb89b4d1f541e9340f968cfc6e322ec510fb8ed4fba7ffd1586c3d6b"
     },
     {
       "path": "data/papers-09.js",
-      "bytes": 7739676,
-      "sha256": "2d3ba3876a8e6205504ac871cf0b3067852acbcad560889596c0e45471826845"
+      "bytes": 7717914,
+      "sha256": "89a91a7ff1bc8837539448ef56a5ab6e6c356ab568f19814ff78bcd4cebb3c19"
     },
     {
       "path": "data/papers-10.js",
-      "bytes": 7610501,
-      "sha256": "ea3124bda017e7a53748838b0186d64c1ae9131eccaac4cde7b44e4a8742bc68"
+      "bytes": 7635821,
+      "sha256": "9799cfe89fb7dde8efe07247e96ecfe0a050dcb55d6fc88419dea15aca5247e7"
     },
     {
       "path": "data/papers-11.js",
-      "bytes": 7510179,
-      "sha256": "ff20a2a51e8d858a036494bb350965b664c065ef0cdce07f5fda73ce3ee853e1"
+      "bytes": 7518840,
+      "sha256": "3bb5c875cccc6f01869099c9b5902420eb2cdf2969e9005d119e9334442f55d1"
     },
     {
       "path": "data/papers-12.js",
-      "bytes": 7295447,
-      "sha256": "8d3ec520966d69b1634eeb08b828e39bf9d25d5d60b59578e101a0899942684a"
+      "bytes": 7300119,
+      "sha256": "e2a254e3e172d11fe53a78e17f865f51f5fa60683902a8858e510fae3b70252c"
     },
     {
       "path": "data/papers-13.js",
-      "bytes": 7367784,
-      "sha256": "0edaf9f315c114bf2a2474307e950f3cda6d362fd3a2fb56a18a38253e76de41"
+      "bytes": 7351900,
+      "sha256": "2497f971d938b1398f5413de63f22be62623eef495cb0b6231cc02f8c1d04eeb"
     },
     {
       "path": "data/papers-14.js",
-      "bytes": 7193609,
-      "sha256": "c05df86979d36958fb5358a70c10025fd62fe674cf9f601bc2101b3cabca290e"
+      "bytes": 7206177,
+      "sha256": "c5f6bb8d34d2613d0c486ccfb1f47ab17ebe64466b39c0f5e634042815156f5a"
     },
     {
       "path": "data/papers-15.js",
-      "bytes": 7164761,
-      "sha256": "fce40828f935c57ef6b0e39cb0ef177d6f35311cbf3d12c65c91fc2dd7dcb166"
+      "bytes": 7173679,
+      "sha256": "80995a1daf24ac48c49040a97defd202071b3d1122535b6c533359c3772341e2"
     },
     {
       "path": "data/papers-16.js",
-      "bytes": 6991112,
-      "sha256": "7e7c676716f1b604be5f983dfa99a8973e6c88d0488df5fdecbbe55c59ed214f"
+      "bytes": 6989980,
+      "sha256": "0b8edb65a5c6315e6aa6f1d24331bfdee59a6d635ae8fad73566ea8e043ed1fd"
     },
     {
       "path": "data/papers-17.js",
-      "bytes": 3801810,
-      "sha256": "1d47bd5f436322180348a9374f42f812158c5e31fba7ea08dbe1bd648e4c661c"
+      "bytes": 4975512,
+      "sha256": "54d57b67b9755fea3b2511980c77cd591e1f51b9939cff870e02c6fb6095b231"
     },
     {
       "path": "data/学者总库_papers_part1.json",
-      "bytes": 18543308,
-      "sha256": "a7bb820db4008c241e46e3d01d1dc9447f712d75e92e39da3e23023ad3cce049"
+      "bytes": 18722778,
+      "sha256": "c855767c66151a80ed928485f18332eb2c77357cd30e444a3341a4b72b0401e4"
     },
     {
       "path": "data/学者总库_papers_part2.json",
-      "bytes": 18655162,
-      "sha256": "1234007ba87a8b4c194f7807dda6263add209c9531ac67ad51b11fbdfd106a44"
+      "bytes": 18847612,
+      "sha256": "01d65ae8e14e2a3d4f1f26cfc0ac920df2d4c8051742d3d832019e02214a2daf"
     },
     {
       "path": "data/学者总库_papers_part3.json",
-      "bytes": 18636213,
-      "sha256": "261b7107ebdafe6f1f1970b859d053546f4cd836a404fb7e925fde0b95931720"
+      "bytes": 18808287,
+      "sha256": "77f2399d779ec0c17015fcd90b711d4e154892a88f918836e65ea5e459fbf193"
     },
     {
       "path": "data/学者总库_papers_part4.json",
-      "bytes": 18260725,
-      "sha256": "2284b87b704122025048e99f8a57d0f013d3c2ffac85a40d62739e3d90a2a97c"
+      "bytes": 18441816,
+      "sha256": "b3c5c2a0f479980c4397507c6151855f1deaa19e7693d2496c60dc3b6a93bed1"
     },
     {
       "path": "data/学者总库_papers_part5.json",
-      "bytes": 17621844,
-      "sha256": "5ebb7266764d016910a8cea16c33e040bbac621f2ed10d646e5892b55ed039d7"
+      "bytes": 17789896,
+      "sha256": "3c4ad04ea527a71faad8df34e177d91cd9ddc33badb507e410fcb3f49c199cd8"
     },
     {
       "path": "data/学者总库_papers_part6.json",
-      "bytes": 17123437,
-      "sha256": "3c88311914592b5d06ea7b74c60105a6978811a98991ccfdb44bffc85bc52203"
+      "bytes": 17280589,
+      "sha256": "d12b40d6635d1c9af4f4613cd2395543eb445d32c053f7b9d1768eb49cb5eaa2"
     },
     {
       "path": "data/学者总库_papers_part7.json",
-      "bytes": 16803551,
-      "sha256": "768cdfc2be7d619a9cfea4dca11123560761c133eff305d769de073dc1f06c4d"
+      "bytes": 16926374,
+      "sha256": "b2b93003397353401c119c8983219a779620b7f14677f39a3d94504b1f60bb86"
     },
     {
       "path": "docs-bundle.js",
-      "bytes": 893223,
-      "sha256": "9da4a967b0c6566656b65078d4918b431099113b74db706d67e241562a541e08"
+      "bytes": 895461,
+      "sha256": "10ad0d1b94ec28d95542b92bc68e30c7e9bab496639cdf807378baaa47e56cef"
     },
     {
       "path": "index.html",
@@ -8144,8 +8186,8 @@
     },
     {
       "path": "README_总导航.md",
-      "bytes": 37425,
-      "sha256": "7bdaa2545d5c324a256913bb6b57a52c2333ed6428f4de5590b2ff2e587b1b3a"
+      "bytes": 37604,
+      "sha256": "f5fdc56cea379202501a9f0909ec98c8c1069fc625a0f7f9d337d86a9704539d"
     },
     {
       "path": "README.md",
@@ -8224,13 +8266,13 @@
     },
     {
       "path": "主题_badong_chen/papers.csv",
-      "bytes": 1107769,
-      "sha256": "8297f6932aef610f2aa461b8d4857887b0c5cfce052526681b982ce7787f1f99"
+      "bytes": 1107889,
+      "sha256": "ecfa90e67901d90995bbc3ba1691ece600a206769e4f071acb74d7607016330c"
     },
     {
       "path": "主题_badong_chen/papers.json",
-      "bytes": 2247843,
-      "sha256": "086bd2449ac7bff5be2015d9224b860d805b2c918ab73c7388de3e21d792dec6"
+      "bytes": 2249409,
+      "sha256": "af87eae6055be145c2d7989611d292781a104ca300321765bf897427639b8466"
     },
     {
       "path": "主题_badong_chen/README_学者概览.md",
@@ -8254,8 +8296,8 @@
     },
     {
       "path": "主题_badong_chen/全部论文.md",
-      "bytes": 351688,
-      "sha256": "d603fd7f78c9eee98919f9deea71ef7663137aeee224b0878284e44db7b6eb91"
+      "bytes": 351734,
+      "sha256": "9da78d13d4e83a26278848eeeaa65aee6fe74d2080f25c5bc9e7a895c88aac3f"
     },
     {
       "path": "主题_badong_chen/数据集与模型.md",
@@ -8269,13 +8311,13 @@
     },
     {
       "path": "主题_badong_chen/论文分类.csv",
-      "bytes": 236610,
-      "sha256": "b9a1aeca6e13026caf875d227a7497a733581fcc1c4aaba836c51e99c28a2e81"
+      "bytes": 236730,
+      "sha256": "945672dfad2e174c73e14f9fb3de9af1130fe4ac6cec8b933ac0e773325031f7"
     },
     {
       "path": "主题_badong_chen/论文分类目录.md",
-      "bytes": 165413,
-      "sha256": "6693d54fe2f9d851e8f46c36c545ce798da5f1cb7906d90c28083209585dbb24"
+      "bytes": 165459,
+      "sha256": "9303226749abd1c5695e6645ca90c9a3ccce7f8cca2d3a1bdb0ff682c9a2d13f"
     },
     {
       "path": "主题_badong_chen/论文资源对应表.csv",
@@ -9191,6 +9233,71 @@
       "path": "主题_demetres_kostas/论文资源对应表.csv",
       "bytes": 591,
       "sha256": "b3fdcfeef0e3d37b8fa27da08ef3301ebb36772f54a344d2bb9374e124039963"
+    },
+    {
+      "path": "主题_dewen_hu/papers.bib",
+      "bytes": 768215,
+      "sha256": "842e01cd51aa7c4dece26c49754ffae9ae86c2a86f8f8dbae93a6c6781df1340"
+    },
+    {
+      "path": "主题_dewen_hu/papers.csv",
+      "bytes": 1056549,
+      "sha256": "1df57e41bf72ca27de282090fa23a50f4223c0f5cd3ac5b731c5c1fa29245ad0"
+    },
+    {
+      "path": "主题_dewen_hu/papers.json",
+      "bytes": 2013763,
+      "sha256": "682e717fa6d963bd7d0f9cca21510cd7b35da83afa24be920c4b2f0a418fb093"
+    },
+    {
+      "path": "主题_dewen_hu/README_学者概览.md",
+      "bytes": 2168,
+      "sha256": "93372f59594690f64d081392aaa0faecf8437dce8ed59f26b3030d8b419d6d43"
+    },
+    {
+      "path": "主题_dewen_hu/resources.csv",
+      "bytes": 6198,
+      "sha256": "5cf4a0653ea6df7fd1eb76566295746c3d0ca4446423afa9eb760e1639203533"
+    },
+    {
+      "path": "主题_dewen_hu/resources.json",
+      "bytes": 18604,
+      "sha256": "d498fc6874c4ef4c752f9945f201458014a5f804871df6a8a87699c81bef2b90"
+    },
+    {
+      "path": "主题_dewen_hu/代码与项目.md",
+      "bytes": 6296,
+      "sha256": "8ef044d411280b0c9c600a79d876ca2e6b40ebd5785245dda5733965b0a026a2"
+    },
+    {
+      "path": "主题_dewen_hu/全部论文.md",
+      "bytes": 308839,
+      "sha256": "ab826ce99115fc76cd4393e509533fb22d0614a1c7a72c3a75722a2ac444d9c0"
+    },
+    {
+      "path": "主题_dewen_hu/数据集与模型.md",
+      "bytes": 234,
+      "sha256": "ac6d8258e2018ed8b6a8770be80c250dbe31ed4468fc5f9b57ed176521b83bf3"
+    },
+    {
+      "path": "主题_dewen_hu/核验与缺口.md",
+      "bytes": 463,
+      "sha256": "fe4eb1da28f1aae7f341fb1f5bea62bcc9140cc8f87658a37c8f3baaeb625404"
+    },
+    {
+      "path": "主题_dewen_hu/论文分类.csv",
+      "bytes": 210039,
+      "sha256": "ee3a5735c3493536de83230e331f472f18d6c9e55c4400645131c2bd24f8375c"
+    },
+    {
+      "path": "主题_dewen_hu/论文分类目录.md",
+      "bytes": 141578,
+      "sha256": "fd9f9862ebc1d414c3a4066621ff0d5fb68447c11816ca3aca1816d9fcc4ec16"
+    },
+    {
+      "path": "主题_dewen_hu/论文资源对应表.csv",
+      "bytes": 5869,
+      "sha256": "d9087d504c6273979cf2fbee02b2fcf827a8d93a19111913077e0c88748e7c77"
     },
     {
       "path": "主题_dezhong_yao/papers.bib",
@@ -10114,8 +10221,8 @@
     },
     {
       "path": "主题_guoying_zhao/papers.json",
-      "bytes": 2400402,
-      "sha256": "eb3975741ca245b0fe13b275845ae969c65cceaec4a228a0a3fa66cdba7886d3"
+      "bytes": 2400775,
+      "sha256": "3ee00b54f99988e0866e233792a440dd1a86477840cb09079598f374cb240a02"
     },
     {
       "path": "主题_guoying_zhao/README_学者概览.md",
@@ -10949,23 +11056,23 @@
     },
     {
       "path": "主题_jing_jin_ecust/papers.bib",
-      "bytes": 283946,
-      "sha256": "6b1d70cf3ad0a34cd465e6dcbc3f68c3cb178f7c971cffb9a783d3dbdd3c1028"
+      "bytes": 291355,
+      "sha256": "062272b1bb855a643f0964f5e4ed53723b4ce889898329583eea4421f3eeddc1"
     },
     {
       "path": "主题_jing_jin_ecust/papers.csv",
-      "bytes": 389441,
-      "sha256": "a1d29c85cadac4e61be038e94c0a85bbf887873cfbf5469ff12467f85d5aa179"
+      "bytes": 400340,
+      "sha256": "24eb2f8aed9df4c4b02e5ff3b7f3963efa36ccefcb733f4fe2f07747f3362257"
     },
     {
       "path": "主题_jing_jin_ecust/papers.json",
-      "bytes": 767524,
-      "sha256": "70971ca8c61a4675e98089f547057f8d3f8f1c713c839c0baae9a840e0337e2b"
+      "bytes": 780644,
+      "sha256": "012590591c1c2d53f3e05994d04b8c3b376ff137c13cccdc5d81a348ca4775d0"
     },
     {
       "path": "主题_jing_jin_ecust/README_学者概览.md",
       "bytes": 1691,
-      "sha256": "2c628ee4d1409fec630e368d4702279b01f4a5219cd27eaae7f89c2436ab3d0f"
+      "sha256": "52bfa0d96b8f45f9cbc58677f9e83bf4eaef09597930378c54c262e6142a0c87"
     },
     {
       "path": "主题_jing_jin_ecust/resources.csv",
@@ -10984,8 +11091,8 @@
     },
     {
       "path": "主题_jing_jin_ecust/全部论文.md",
-      "bytes": 119748,
-      "sha256": "3625c9bd757b30820bf9f666e3114b5fdd8956a4eb2f3beef3a7b0a5e5be8bf3"
+      "bytes": 121051,
+      "sha256": "4f311435f0647098725e55fbc10f5293d80b417783a95b7d575e304b087fa02f"
     },
     {
       "path": "主题_jing_jin_ecust/数据集与模型.md",
@@ -10995,17 +11102,17 @@
     {
       "path": "主题_jing_jin_ecust/核验与缺口.md",
       "bytes": 459,
-      "sha256": "6c7d21489446420d3855c65baedb9226221587cb686d664bca9be87c46302f42"
+      "sha256": "de614f07469c852c12b274ee4b0a93177e0e2fdd5fd33c133f188888d635aa73"
     },
     {
       "path": "主题_jing_jin_ecust/论文分类.csv",
-      "bytes": 85800,
-      "sha256": "0d577fb33dae5c003b8032f332b9b95834bf6a7a5cb33f729dcfa4a2b763fe31"
+      "bytes": 85874,
+      "sha256": "37df1a0af5dff9b3416e7ee3da5eab08a89e0ada8806d63ebcf6bff2c7d29602"
     },
     {
       "path": "主题_jing_jin_ecust/论文分类目录.md",
-      "bytes": 60383,
-      "sha256": "cfd758972b8e809e9020c6103fa0619838de67cf8f5507ccc50a0fd5e926f800"
+      "bytes": 60472,
+      "sha256": "32c8e4f96c6267240c1d64ac54c6fb9234fa79782d49108c2d7873bac2cbc82e"
     },
     {
       "path": "主题_jing_jin_ecust/论文资源对应表.csv",
@@ -14394,18 +14501,18 @@
     },
     {
       "path": "主题_panorama_9a7afcd2f866/papers.bib",
-      "bytes": 414464,
-      "sha256": "be0d7ffc267bda1fc905a5c074d6f9ab43e10b141dc4d75b749abc7a07557b25"
+      "bytes": 414851,
+      "sha256": "7566e72b0e3d633779637e0985364e9e6b5f5d1c9b4c523d140423c831943eb9"
     },
     {
       "path": "主题_panorama_9a7afcd2f866/papers.csv",
-      "bytes": 577018,
-      "sha256": "ec5d6f22ca8f82fe318af2eb8a687008f4ba3efab89de049ffeacc429cac4506"
+      "bytes": 577816,
+      "sha256": "2234d0601e67e43a76a153d3542fc6e89711465d1a29ae32b5faa3bcc3d71222"
     },
     {
       "path": "主题_panorama_9a7afcd2f866/papers.json",
-      "bytes": 1237409,
-      "sha256": "1a9b919e99d14b51fb6308d6b9b47c0e56869bcc849d59de9588dc31ece391ce"
+      "bytes": 1239119,
+      "sha256": "af7719bbb377b50e30a1888fbc6439d8e3c2896a91f74ae34deb049fd743d98a"
     },
     {
       "path": "主题_panorama_9a7afcd2f866/README_学者概览.md",
@@ -16419,8 +16526,8 @@
     },
     {
       "path": "主题_panorama_fei_su/papers.json",
-      "bytes": 337205,
-      "sha256": "cc5dbd2a43f6694aa032fab6d8631c27f1d9d03059adad12b75af565a587d261"
+      "bytes": 337619,
+      "sha256": "7e95d5249b44dc55bc2297b5fd992469ede5b2bb6e64983b886c5cacae5acc10"
     },
     {
       "path": "主题_panorama_fei_su/README_学者概览.md",
@@ -23509,13 +23616,13 @@
     },
     {
       "path": "全部论文总表.csv",
-      "bytes": 31671627,
-      "sha256": "ac020ecd8e4675fc0bd022a95bff644c58eb06e90fc16527ae107536af83b31c"
+      "bytes": 31978567,
+      "sha256": "ced1ad033eb55b83bec1d2fc4f87385cf42c427b194fdaaf5908873cc6750e6b"
     },
     {
       "path": "全部资源总表.csv",
-      "bytes": 1308891,
-      "sha256": "a2d4720654035985587b01d32613f01c95a039541fc19778cf4900482fabc1ac"
+      "bytes": 1317034,
+      "sha256": "2a0a79b99f71bbea879769f3e992388864f1a6519fe0e175738e38d43328b3be"
     },
     {
       "path": "分类依据/lu_baoliang.json",
@@ -23524,8 +23631,8 @@
     },
     {
       "path": "分类概览.md",
-      "bytes": 174567,
-      "sha256": "eb132bfdcfc453fe721447419d7ac8857b07c55a3a4ba06d8be3e863978d5a69"
+      "bytes": 175578,
+      "sha256": "4519f2aa192b148cd015c54f4bd7563afe3db115c751979ac99c847cdda67963"
     },
     {
       "path": "吕宝粮_BaoLiang_Lu/papers.bib",
@@ -23594,13 +23701,13 @@
     },
     {
       "path": "学者总库.json",
-      "bytes": 6882132,
-      "sha256": "9b31b75fe3a2577e6b4dcf112dd3520acfb97c4dcb212bed0dec480dde822502"
+      "bytes": 6919633,
+      "sha256": "dbd12ab87e11dece155ae4eb99db15eaa4411cf2255e6551affe52e1e0bc7369"
     },
     {
       "path": "学者论文资源检索.html",
-      "bytes": 58727,
-      "sha256": "3559d7c3669d3fc79cd30b4daf8ada461aabdc36854842b3d35167eed6a2930e"
+      "bytes": 58739,
+      "sha256": "c8d0ffa43723267d6564b2d0c93f3a7fdc4afaeabc9e55ed012834a4edc25510"
     },
     {
       "path": "张治国_逐论文链接核验.md",
@@ -23609,23 +23716,23 @@
     },
     {
       "path": "收集统计.json",
-      "bytes": 137860,
-      "sha256": "f576f38af90923ea53b72b05e7efe58201feb9987003aa88f7c0b8da338847b4"
+      "bytes": 138562,
+      "sha256": "fe3936ec0bebe26bffac5f810a95917f874a41b66513873588f7797a9162653e"
     },
     {
       "path": "数据集详情.html",
       "bytes": 11284,
-      "sha256": "0ce91b719066a35d9b57058cf1f7a61655012426600eb20aa80be9d1e4474abe"
+      "sha256": "631f04f902bc4a996df381e2c050e4a6044149b0317e074627d853b60a0a7b0b"
     },
     {
       "path": "文档浏览.html",
       "bytes": 11282,
-      "sha256": "e0e301829335c7ecd18353a170b080dbfff3754ccbd306489e8a7601132e9381"
+      "sha256": "4c49892ad3ea1a2b880b7060923869158112382d0c518d8f0080b074e1e9748e"
     },
     {
       "path": "新增主题学者筛选与核验说明.md",
-      "bytes": 31011,
-      "sha256": "d54519264676c7f42748229b0f8f17cfcabfc84427b844e0e64857154b5e2795"
+      "bytes": 31347,
+      "sha256": "a70bfd9edd0b35a098ca4b46e0039b5e1daf50aa9cbf34aff43cac5c25fe6aa6"
     },
     {
       "path": "来源快照/DBLP/chen_yunji_papers.json",
@@ -24139,18 +24246,18 @@
     },
     {
       "path": "梁臻_Zhen_Liang/papers.bib",
-      "bytes": 223582,
-      "sha256": "278e8048c1f6c532fa103997eb08458d9741d0e17cb1cb2288b640a6d2f8de7f"
+      "bytes": 223969,
+      "sha256": "44d7b8dfb6d3bd7d03a2a5fdcf3203d08d10ad334e1c3649020923bdcc8efb4e"
     },
     {
       "path": "梁臻_Zhen_Liang/papers.csv",
-      "bytes": 326241,
-      "sha256": "b9d2a2d63bda4d14e4e883914a24b66199243b8b0e5f99cbe92ab6f181c1a600"
+      "bytes": 327039,
+      "sha256": "34377d451e64deb174c67a4ab43df508934cc38965ca1abf6f843e76e1ed91d8"
     },
     {
       "path": "梁臻_Zhen_Liang/papers.json",
-      "bytes": 823289,
-      "sha256": "b2dbf15735d83abb4255d5cb5fb7b81767f7b74a93237127e9a581704553e011"
+      "bytes": 824585,
+      "sha256": "0230cd4a078488bffb104d2ad15fd96a32cfe16448cf42cbb98a3a6672a119d9"
     },
     {
       "path": "梁臻_Zhen_Liang/README_学者概览.md",
@@ -24204,8 +24311,8 @@
     },
     {
       "path": "检索与覆盖说明.md",
-      "bytes": 123146,
-      "sha256": "1a0d90db95fceff4d80d51a905d90ab2f63dfa5e617a1ff85f16c5fc326ce6e3"
+      "bytes": 123797,
+      "sha256": "66f69f21dec5491cbde18360aacf6afe95fca91488af0ec8e9b7808c585f04bd"
     },
     {
       "path": "潘纲_Gang_Pan/papers.bib",
@@ -24280,22 +24387,22 @@
     {
       "path": "论文详情.html",
       "bytes": 14376,
-      "sha256": "d2b7cb7cd38269e3b11027ae221b8cfed1156fbf7b45f23586bdf32f4a5e4ba3"
+      "sha256": "9c37671aa55fb702556b67b31914678907e1f74a6cccc4caa0b4201ae2cc0810"
     },
     {
       "path": "论文资源关联总表.csv",
-      "bytes": 1160844,
-      "sha256": "f9a383b5406971b59eaa69b76c650f14fadf21a2e4f0e22eb34cc33899c0ebe3"
+      "bytes": 1166588,
+      "sha256": "f92a1923f36264ab8bf69a535e2121d6449dc605c9b280fc9c19576265a7e6d0"
     },
     {
       "path": "论文链接完整性审计.csv",
-      "bytes": 22401974,
-      "sha256": "7f2bc66562720466fdec600a1c84eae995b6248eec4c9435a86b6a4b191b12df"
+      "bytes": 22632588,
+      "sha256": "30bd41beb69ad8bf2494897f8d49f8abb409c2783f1d503b8d7a9787ac5130d7"
     },
     {
       "path": "论文链接完整性审计.md",
       "bytes": 470,
-      "sha256": "80d396b878ce2f7ced40496f7e9749052fc59408cc2fa6b5aa9f6b180ec2e51e"
+      "sha256": "0bf0ecc06896c406b5151660ad2256942cb1e358bb009f4622109a7322b687b4"
     },
     {
       "path": "跨学者主题与资源关联.md",

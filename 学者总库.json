@@ -2,14 +2,14 @@
   "as_of": "2026-11-18",
   "stats": {
     "as_of": "2026-11-18",
-    "scholars": 241,
+    "scholars": 242,
     "base_scholars": 5,
     "theme_candidate_scholars": 150,
-    "scholar_paper_records": 57541,
-    "merged_records_by_bibliographic_key": 52632,
-    "resource_entries": 2134,
-    "distinct_resource_urls": 1990,
-    "paper_resource_edges": 2598,
+    "scholar_paper_records": 58101,
+    "merged_records_by_bibliographic_key": 53181,
+    "resource_entries": 2150,
+    "distinct_resource_urls": 2006,
+    "paper_resource_edges": 2614,
     "by_scholar": {
       "潘纲": {
         "bibliographic_records": 494,
@@ -5793,7 +5793,7 @@
       },
       "金晶": {
         "bibliographic_records": 214,
-        "with_abstract": 137,
+        "with_abstract": 142,
         "compatibility_alias_records": 0,
         "resource_entries": 0,
         "papers_with_linked_resources": 0,
@@ -7817,23 +7817,65 @@
           2027
         ],
         "unknown_year": 0
+      },
+      "胡德文": {
+        "bibliographic_records": 560,
+        "with_abstract": 398,
+        "compatibility_alias_records": 0,
+        "resource_entries": 16,
+        "papers_with_linked_resources": 16,
+        "types": {
+          "code": 16
+        },
+        "years": [
+          1988,
+          1993,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025,
+          2026
+        ],
+        "unknown_year": 0
       }
     },
     "scope": "all_years; bibliography versions retained; theme candidates are representative-resource layer, not absolute lifetime completeness",
     "large_data_downloaded": false,
     "training_executed": false,
     "paper_link_audit": {
-      "total": 52632,
-      "total_with_aliases": 52878,
-      "with_paper_url": 49004,
-      "with_doi": 44577,
-      "with_abstract": 33848,
-      "with_any_external_or_source": 49575,
+      "total": 53181,
+      "total_with_aliases": 53427,
+      "with_paper_url": 49550,
+      "with_doi": 45118,
+      "with_abstract": 34242,
+      "with_any_external_or_source": 50124,
       "missing_external_or_source": 3057
     },
-    "total_records_including_aliases": 52878,
+    "total_records_including_aliases": 53427,
     "compatibility_alias_records": 426,
-    "papers_with_abstract": 33848
+    "papers_with_abstract": 34242
   },
   "scholars": [
     {
@@ -24810,7 +24852,7 @@
       },
       "counts": {
         "bibliographic_records": 214,
-        "with_abstract": 137,
+        "with_abstract": 142,
         "compatibility_alias_records": 0,
         "resource_entries": 0,
         "papers_with_linked_resources": 0,
@@ -30459,6 +30501,120 @@
           2025,
           2026,
           2027
+        ],
+        "unknown_year": 0
+      }
+    },
+    {
+      "id": "dewen_hu",
+      "folder": "主题_dewen_hu",
+      "name_zh": "胡德文",
+      "name_en": "Dewen Hu",
+      "affiliation": "国防科技大学智能科学学院（National University of Defense Technology）",
+      "orcid": "0000-0001-7357-0053",
+      "dblp_pid": "10/6414",
+      "openalex_id": "https://openalex.org/A5071074935",
+      "identity_sources": [
+        "https://orcid.org/0000-0001-7357-0053",
+        "https://dblp.org/pid/10/6414.html",
+        "https://openalex.org/A5071074935",
+        "https://openalex.org/A5001060157",
+        "https://openalex.org/A5055104872",
+        "https://openalex.org/A5138144279",
+        "https://openalex.org/A5137167015",
+        "https://openalex.org/A5159223688",
+        "https://openalex.org/A5159310963",
+        "https://openalex.org/A5058942755",
+        "https://openalex.org/A5000104464"
+      ],
+      "official_homepages": [],
+      "coverage": {
+        "scope": "全历史生涯研究论文多源检索补全（DBLP + OpenAlex + PubMed + Crossref + arXiv）",
+        "status": "已核验入库",
+        "coverage_status": "全历史生涯已核实身份范围书目与双语摘要",
+        "primary_theme": "脑电基础大模型",
+        "themes": [
+          "脑电基础大模型",
+          "脑电情感计算",
+          "脑机接口与神经影像",
+          "精神疾病连接组计算诊断",
+          "模式识别与类脑智能"
+        ]
+      },
+      "coverage_notes": "综合 DBLP 官方 SPARQL（无 LIMIT）、OpenAlex 作者实体、PubMed 神经影像索引、Crossref 国防科技大学机构署名与 arXiv 交叉消歧补全全历史生涯论文与中英文摘要。",
+      "classification": {
+        "method": "按题名、摘要及研究方向进行主题粗分，用于阅读导航；每条个人书目只归入一个主类别，跨方向信息保留在辅助主题标签中。",
+        "categories": [
+          {
+            "id": "fmri_mental_biomarker",
+            "label": "功能脑影像、脑网络与精神疾病计算诊断",
+            "description": "fMRI/多模态脑连接组学、重度抑郁症/精神分裂症/认知障碍神经影像生物标志物、个体化脑功能图谱与判别分析。",
+            "count": 195
+          },
+          {
+            "id": "bci_eeg_decoding",
+            "label": "脑机接口、脑电信号处理与视觉神经解码",
+            "description": "EEG/ERP/P300/运动想象及混合脑机接口、脑活动视觉图像重建、神经认知状态解码与脑机协同控制。",
+            "count": 84
+          },
+          {
+            "id": "bss_manifold_ml",
+            "label": "盲源分离、流形学习与模式识别方法",
+            "description": "独立成分分析（ICA）、盲信号处理、流形与黎曼几何学习、核方法、深度神经网络及统计学习理论。",
+            "count": 187
+          },
+          {
+            "id": "vision_robotics_control",
+            "label": "视觉感知、仿生导航控制与智能系统",
+            "description": "人脸与目标识别、图像分割配准、仿生视觉导航（SLAM）、非线性系统辨识与多智能体协同控制。",
+            "count": 94
+          }
+        ],
+        "review": {
+          "status": "theme_screened_verified",
+          "source_status": "五大主题与重点学者全量核验入库",
+          "primary_theme": "脑电基础大模型"
+        }
+      },
+      "counts": {
+        "bibliographic_records": 560,
+        "with_abstract": 398,
+        "compatibility_alias_records": 0,
+        "resource_entries": 16,
+        "papers_with_linked_resources": 16,
+        "types": {
+          "code": 16
+        },
+        "years": [
+          1988,
+          1993,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025,
+          2026
         ],
         "unknown_year": 0
       }
@@ -109167,6 +109323,502 @@
         "邢晓芬：情感脑电与多模态生理信号",
         "陈逸嵘：情感大模型、多模态指令微调与共情生成"
       ]
+    },
+    {
+      "id": "res_gh_c0781e25f87d",
+      "name": "zhuogege1943/dgc",
+      "name_zh": "zhuogege1943/dgc — 用于加速卷积神经网络的动态组卷积",
+      "type": "code",
+      "url": "https://github.com/zhuogege1943/dgc",
+      "download_url": "https://github.com/zhuogege1943/dgc",
+      "access": "GitHub 公开仓库",
+      "scholar_id": "dewen_hu",
+      "scholar_name": "胡德文",
+      "matched_paper_ids": [
+        "8e69d67602ee710a"
+      ],
+      "related_paper_titles": [
+        "Dynamic Group Convolution for Accelerating Convolutional Neural Networks"
+      ],
+      "related_paper_titles_zh": [
+        "用于加速卷积神经网络的动态组卷积"
+      ],
+      "evidence_urls": [
+        "https://doi.org/10.1007/978-3-030-58539-6_9"
+      ],
+      "description": "论文《用于加速卷积神经网络的动态组卷积》关联官方开源代码仓库。",
+      "verification": "论文摘要/元数据显式开源链接核验",
+      "scholar_category_ids": [
+        "dewen_hu::bss_manifold_ml"
+      ],
+      "primary_categories": [
+        "胡德文：盲源分离、流形学习与模式识别方法"
+      ]
+    },
+    {
+      "id": "res_gh_7e89ecd02513",
+      "name": "wwsource/SplatFlow",
+      "name_zh": "wwsource/SplatFlow — SplatFlow：通过 Splatting 学习多帧光流",
+      "type": "code",
+      "url": "https://github.com/wwsource/SplatFlow",
+      "download_url": "https://github.com/wwsource/SplatFlow",
+      "access": "GitHub 公开仓库",
+      "scholar_id": "dewen_hu",
+      "scholar_name": "胡德文",
+      "matched_paper_ids": [
+        "4a9f5956a72059aa"
+      ],
+      "related_paper_titles": [
+        "SplatFlow: Learning Multi-frame Optical Flow via Splatting"
+      ],
+      "related_paper_titles_zh": [
+        "SplatFlow：通过 Splatting 学习多帧光流"
+      ],
+      "evidence_urls": [
+        "https://doi.org/10.1007/S11263-024-01993-0"
+      ],
+      "description": "论文《SplatFlow：通过 Splatting 学习多帧光流》关联官方开源代码仓库。",
+      "verification": "论文摘要/元数据显式开源链接核验",
+      "scholar_category_ids": [
+        "dewen_hu::bss_manifold_ml"
+      ],
+      "primary_categories": [
+        "胡德文：盲源分离、流形学习与模式识别方法"
+      ]
+    },
+    {
+      "id": "res_gh_59ec64bc55e9",
+      "name": "zhuoinoulu/pidinet",
+      "name_zh": "zhuoinoulu/pidinet — 用于高效边缘检测的像素差分网络",
+      "type": "code",
+      "url": "https://github.com/zhuoinoulu/pidinet",
+      "download_url": "https://github.com/zhuoinoulu/pidinet",
+      "access": "GitHub 公开仓库",
+      "scholar_id": "dewen_hu",
+      "scholar_name": "胡德文",
+      "matched_paper_ids": [
+        "09c517241d54030b"
+      ],
+      "related_paper_titles": [
+        "Pixel Difference Networks for Efficient Edge Detection"
+      ],
+      "related_paper_titles_zh": [
+        "用于高效边缘检测的像素差分网络"
+      ],
+      "evidence_urls": [
+        "https://doi.org/10.1109/ICCV48922.2021.00507"
+      ],
+      "description": "论文《用于高效边缘检测的像素差分网络》关联官方开源代码仓库。",
+      "verification": "论文摘要/元数据显式开源链接核验",
+      "scholar_category_ids": [
+        "dewen_hu::bss_manifold_ml"
+      ],
+      "primary_categories": [
+        "胡德文：盲源分离、流形学习与模式识别方法"
+      ]
+    },
+    {
+      "id": "res_gh_68aa89287cc6",
+      "name": "anchang699/HGSLoc",
+      "name_zh": "anchang699/HGSLoc — HGSLoc：基于 3DGS 的启发式相机姿势细化",
+      "type": "code",
+      "url": "https://github.com/anchang699/HGSLoc",
+      "download_url": "https://github.com/anchang699/HGSLoc",
+      "access": "GitHub 公开仓库",
+      "scholar_id": "dewen_hu",
+      "scholar_name": "胡德文",
+      "matched_paper_ids": [
+        "56da0681f1faa240"
+      ],
+      "related_paper_titles": [
+        "HGSLoc: 3DGS-Based Heuristic Camera Pose Refinement"
+      ],
+      "related_paper_titles_zh": [
+        "HGSLoc：基于 3DGS 的启发式相机姿势细化"
+      ],
+      "evidence_urls": [
+        "https://doi.org/10.1109/ICRA55743.2025.11127431"
+      ],
+      "description": "论文《HGSLoc：基于 3DGS 的启发式相机姿势细化》关联官方开源代码仓库。",
+      "verification": "论文摘要/元数据显式开源链接核验",
+      "scholar_category_ids": [
+        "dewen_hu::bss_manifold_ml"
+      ],
+      "primary_categories": [
+        "胡德文：盲源分离、流形学习与模式识别方法"
+      ]
+    },
+    {
+      "id": "res_gh_b1a97acb69e2",
+      "name": "nubot-nudt/TD-NeRF",
+      "name_zh": "nubot-nudt/TD-NeRF — TD-NeRF：用于联合相机姿势和神经辐射场优化的新型截断深度先验",
+      "type": "code",
+      "url": "https://github.com/nubot-nudt/TD-NeRF",
+      "download_url": "https://github.com/nubot-nudt/TD-NeRF",
+      "access": "GitHub 公开仓库",
+      "scholar_id": "dewen_hu",
+      "scholar_name": "胡德文",
+      "matched_paper_ids": [
+        "86008165911c3a27"
+      ],
+      "related_paper_titles": [
+        "TD-NeRF: Novel Truncated Depth Prior for Joint Camera Pose and Neural Radiance Field Optimization"
+      ],
+      "related_paper_titles_zh": [
+        "TD-NeRF：用于联合相机姿势和神经辐射场优化的新型截断深度先验"
+      ],
+      "evidence_urls": [
+        "https://doi.org/10.1109/IROS58592.2024.10802634"
+      ],
+      "description": "论文《TD-NeRF：用于联合相机姿势和神经辐射场优化的新型截断深度先验》关联官方开源代码仓库。",
+      "verification": "论文摘要/元数据显式开源链接核验",
+      "scholar_category_ids": [
+        "dewen_hu::vision_robotics_control"
+      ],
+      "primary_categories": [
+        "胡德文：视觉感知、仿生导航控制与智能系统"
+      ]
+    },
+    {
+      "id": "res_gh_928bef31f037",
+      "name": "ljx1002/FE-TAP",
+      "name_zh": "ljx1002/FE-TAP — 使用高帧速率的帧事件融合网络跟踪任意点",
+      "type": "code",
+      "url": "https://github.com/ljx1002/FE-TAP",
+      "download_url": "https://github.com/ljx1002/FE-TAP",
+      "access": "GitHub 公开仓库",
+      "scholar_id": "dewen_hu",
+      "scholar_name": "胡德文",
+      "matched_paper_ids": [
+        "13d3d9bd270b8073"
+      ],
+      "related_paper_titles": [
+        "Tracking Any Point with Frame-Event Fusion Network at High Frame Rate"
+      ],
+      "related_paper_titles_zh": [
+        "使用高帧速率的帧事件融合网络跟踪任意点"
+      ],
+      "evidence_urls": [
+        "https://doi.org/10.1109/IROS60139.2025.11247196"
+      ],
+      "description": "论文《使用高帧速率的帧事件融合网络跟踪任意点》关联官方开源代码仓库。",
+      "verification": "论文摘要/元数据显式开源链接核验",
+      "scholar_category_ids": [
+        "dewen_hu::vision_robotics_control"
+      ],
+      "primary_categories": [
+        "胡德文：视觉感知、仿生导航控制与智能系统"
+      ]
+    },
+    {
+      "id": "res_gh_d6b558e33577",
+      "name": "qinzheng93/GeoTransformer",
+      "name_zh": "qinzheng93/GeoTransformer — GeoTransformer：使用几何变换器进行快速、稳健的点云配准",
+      "type": "code",
+      "url": "https://github.com/qinzheng93/GeoTransformer",
+      "download_url": "https://github.com/qinzheng93/GeoTransformer",
+      "access": "GitHub 公开仓库",
+      "scholar_id": "dewen_hu",
+      "scholar_name": "胡德文",
+      "matched_paper_ids": [
+        "462279fe25913b8c"
+      ],
+      "related_paper_titles": [
+        "GeoTransformer: Fast and Robust Point Cloud Registration With Geometric Transformer"
+      ],
+      "related_paper_titles_zh": [
+        "GeoTransformer：使用几何变换器进行快速、稳健的点云配准"
+      ],
+      "evidence_urls": [
+        "https://doi.org/10.1109/TPAMI.2023.3259038"
+      ],
+      "description": "论文《GeoTransformer：使用几何变换器进行快速、稳健的点云配准》关联官方开源代码仓库。",
+      "verification": "论文摘要/元数据显式开源链接核验",
+      "scholar_category_ids": [
+        "dewen_hu::bss_manifold_ml"
+      ],
+      "primary_categories": [
+        "胡德文：盲源分离、流形学习与模式识别方法"
+      ]
+    },
+    {
+      "id": "res_gh_09c25d4bb77c",
+      "name": "wwsource/SceneTracker",
+      "name_zh": "wwsource/SceneTracker — SceneTracker：长期场景流估计网络",
+      "type": "code",
+      "url": "https://github.com/wwsource/SceneTracker",
+      "download_url": "https://github.com/wwsource/SceneTracker",
+      "access": "GitHub 公开仓库",
+      "scholar_id": "dewen_hu",
+      "scholar_name": "胡德文",
+      "matched_paper_ids": [
+        "c7f03fc4855a8281"
+      ],
+      "related_paper_titles": [
+        "SceneTracker: Long-Term Scene Flow Estimation Network"
+      ],
+      "related_paper_titles_zh": [
+        "SceneTracker：长期场景流估计网络"
+      ],
+      "evidence_urls": [
+        "https://doi.org/10.1109/TPAMI.2025.3572489"
+      ],
+      "description": "论文《SceneTracker：长期场景流估计网络》关联官方开源代码仓库。",
+      "verification": "论文摘要/元数据显式开源链接核验",
+      "scholar_category_ids": [
+        "dewen_hu::bss_manifold_ml"
+      ],
+      "primary_categories": [
+        "胡德文：盲源分离、流形学习与模式识别方法"
+      ]
+    },
+    {
+      "id": "res_gh_febdde9b11e4",
+      "name": "zhuogege1943/ftbnn",
+      "name_zh": "zhuogege1943/ftbnn — FTBNN：重新思考 1 位 CNN 的非线性并超越",
+      "type": "code",
+      "url": "https://github.com/zhuogege1943/ftbnn",
+      "download_url": "https://github.com/zhuogege1943/ftbnn",
+      "access": "GitHub 公开仓库",
+      "scholar_id": "dewen_hu",
+      "scholar_name": "胡德文",
+      "matched_paper_ids": [
+        "3a053873caa9683c"
+      ],
+      "related_paper_titles": [
+        "FTBNN: Rethinking Non-linearity for 1-bit CNNs and Going Beyond"
+      ],
+      "related_paper_titles_zh": [
+        "FTBNN：重新思考 1 位 CNN 的非线性并超越"
+      ],
+      "evidence_urls": [
+        "https://doi.org/10.48550/ARXIV.2010.09294"
+      ],
+      "description": "论文《FTBNN：重新思考 1 位 CNN 的非线性并超越》关联官方开源代码仓库。",
+      "verification": "论文摘要/元数据显式开源链接核验",
+      "scholar_category_ids": [
+        "dewen_hu::vision_robotics_control"
+      ],
+      "primary_categories": [
+        "胡德文：视觉感知、仿生导航控制与智能系统"
+      ]
+    },
+    {
+      "id": "res_gh_2245eb46ca70",
+      "name": "zhang-jinghua/DBC-FSCIL",
+      "name_zh": "zhang-jinghua/DBC-FSCIL — 少样本类增量药丸识别",
+      "type": "code",
+      "url": "https://github.com/zhang-jinghua/DBC-FSCIL",
+      "download_url": "https://github.com/zhang-jinghua/DBC-FSCIL",
+      "access": "GitHub 公开仓库",
+      "scholar_id": "dewen_hu",
+      "scholar_name": "胡德文",
+      "matched_paper_ids": [
+        "fd7d456ab08328c3"
+      ],
+      "related_paper_titles": [
+        "Few-shot Class-incremental Pill Recognition"
+      ],
+      "related_paper_titles_zh": [
+        "少样本类增量药丸识别"
+      ],
+      "evidence_urls": [
+        "https://doi.org/10.48550/ARXIV.2304.11959"
+      ],
+      "description": "论文《少样本类增量药丸识别》关联官方开源代码仓库。",
+      "verification": "论文摘要/元数据显式开源链接核验",
+      "scholar_category_ids": [
+        "dewen_hu::bss_manifold_ml"
+      ],
+      "primary_categories": [
+        "胡德文：盲源分离、流形学习与模式识别方法"
+      ]
+    },
+    {
+      "id": "res_gh_bfde3e307689",
+      "name": "yiyscut/VIO-IPNet",
+      "name_zh": "yiyscut/VIO-IPNet — 用于鲁棒视觉惯性里程计的基于即插即用学习的 IMU 偏差因子",
+      "type": "code",
+      "url": "https://github.com/yiyscut/VIO-IPNet",
+      "download_url": "https://github.com/yiyscut/VIO-IPNet",
+      "access": "GitHub 公开仓库",
+      "scholar_id": "dewen_hu",
+      "scholar_name": "胡德文",
+      "matched_paper_ids": [
+        "7a3701d12ba941dd"
+      ],
+      "related_paper_titles": [
+        "A Plug-and-Play Learning-based IMU Bias Factor for Robust Visual-Inertial Odometry"
+      ],
+      "related_paper_titles_zh": [
+        "用于鲁棒视觉惯性里程计的基于即插即用学习的 IMU 偏差因子"
+      ],
+      "evidence_urls": [
+        "https://doi.org/10.48550/ARXIV.2503.12527"
+      ],
+      "description": "论文《用于鲁棒视觉惯性里程计的基于即插即用学习的 IMU 偏差因子》关联官方开源代码仓库。",
+      "verification": "论文摘要/元数据显式开源链接核验",
+      "scholar_category_ids": [
+        "dewen_hu::vision_robotics_control"
+      ],
+      "primary_categories": [
+        "胡德文：视觉感知、仿生导航控制与智能系统"
+      ]
+    },
+    {
+      "id": "res_gh_e6ec6e7b5c63",
+      "name": "yiyscut/GESS",
+      "name_zh": "yiyscut/GESS — GESS：通过几何和语义协同进行多线索引导局部特征学习",
+      "type": "code",
+      "url": "https://github.com/yiyscut/GESS",
+      "download_url": "https://github.com/yiyscut/GESS",
+      "access": "GitHub 公开仓库",
+      "scholar_id": "dewen_hu",
+      "scholar_name": "胡德文",
+      "matched_paper_ids": [
+        "30ac3f15acf0faef"
+      ],
+      "related_paper_titles": [
+        "GESS: Multi-cue Guided Local Feature Learning via Geometric and Semantic Synergy"
+      ],
+      "related_paper_titles_zh": [
+        "GESS：通过几何和语义协同进行多线索引导局部特征学习"
+      ],
+      "evidence_urls": [
+        "https://doi.org/10.48550/ARXIV.2604.05359"
+      ],
+      "description": "论文《GESS：通过几何和语义协同进行多线索引导局部特征学习》关联官方开源代码仓库。",
+      "verification": "论文摘要/元数据显式开源链接核验",
+      "scholar_category_ids": [
+        "dewen_hu::bss_manifold_ml"
+      ],
+      "primary_categories": [
+        "胡德文：盲源分离、流形学习与模式识别方法"
+      ]
+    },
+    {
+      "id": "res_gh_ca95a45dae4e",
+      "name": "duzh11/VoxelGS",
+      "name_zh": "duzh11/VoxelGS — 高斯-体素二重奏：用于快速准确的单眼表面重建的双支架混合表示",
+      "type": "code",
+      "url": "https://github.com/duzh11/VoxelGS",
+      "download_url": "https://github.com/duzh11/VoxelGS",
+      "access": "GitHub 公开仓库",
+      "scholar_id": "dewen_hu",
+      "scholar_name": "胡德文",
+      "matched_paper_ids": [
+        "82942c86439d1068"
+      ],
+      "related_paper_titles": [
+        "Gaussian-Voxel Duet: A Dual-Scaffolding Hybrid Representation for Fast and Accurate Monocular Surface Reconstruction"
+      ],
+      "related_paper_titles_zh": [
+        "高斯-体素二重奏：用于快速准确的单眼表面重建的双支架混合表示"
+      ],
+      "evidence_urls": [
+        "https://doi.org/10.48550/ARXIV.2605.26616"
+      ],
+      "description": "论文《高斯-体素二重奏：用于快速准确的单眼表面重建的双支架混合表示》关联官方开源代码仓库。",
+      "verification": "论文摘要/元数据显式开源链接核验",
+      "scholar_category_ids": [
+        "dewen_hu::bss_manifold_ml"
+      ],
+      "primary_categories": [
+        "胡德文：盲源分离、流形学习与模式识别方法"
+      ]
+    },
+    {
+      "id": "res_gh_f2d891ca5bd7",
+      "name": "sliderplm/D-BFA-618",
+      "name_zh": "sliderplm/D-BFA-618 — 使用静息态动态功能连接来分割人脑",
+      "type": "code",
+      "url": "https://github.com/sliderplm/D-BFA-618",
+      "download_url": "https://github.com/sliderplm/D-BFA-618",
+      "access": "GitHub 公开仓库",
+      "scholar_id": "dewen_hu",
+      "scholar_name": "胡德文",
+      "matched_paper_ids": [
+        "31cd7247503427f5"
+      ],
+      "related_paper_titles": [
+        "Parcellating the human brain using resting-state dynamic functional connectivity"
+      ],
+      "related_paper_titles_zh": [
+        "使用静息态动态功能连接来分割人脑"
+      ],
+      "evidence_urls": [
+        "https://doi.org/10.1093/cercor/bhac293"
+      ],
+      "description": "论文《使用静息态动态功能连接来分割人脑》关联官方开源代码仓库。",
+      "verification": "论文摘要/元数据显式开源链接核验",
+      "scholar_category_ids": [
+        "dewen_hu::fmri_mental_biomarker"
+      ],
+      "primary_categories": [
+        "胡德文：功能脑影像、脑网络与精神疾病计算诊断"
+      ]
+    },
+    {
+      "id": "res_gh_7c30e27ab4ef",
+      "name": "Lanhao23-nudt/GE-LSTM-Net",
+      "name_zh": "Lanhao23-nudt/GE-LSTM-Net — GE-LSTM-Net：全局增强的 LSTM 网络，关注基于脑电图的警惕性估计中的时空特征提取",
+      "type": "code",
+      "url": "https://github.com/Lanhao23-nudt/GE-LSTM-Net",
+      "download_url": "https://github.com/Lanhao23-nudt/GE-LSTM-Net",
+      "access": "GitHub 公开仓库",
+      "scholar_id": "dewen_hu",
+      "scholar_name": "胡德文",
+      "matched_paper_ids": [
+        "cf220f14100e25e4"
+      ],
+      "related_paper_titles": [
+        "GE-LSTM-Net: A global-enhanced LSTM network with attention for spatiotemporal feature extraction in EEG-based vigilance estimation"
+      ],
+      "related_paper_titles_zh": [
+        "GE-LSTM-Net：全局增强的 LSTM 网络，关注基于脑电图的警惕性估计中的时空特征提取"
+      ],
+      "evidence_urls": [
+        "https://doi.org/10.26599/air.2026.9150001"
+      ],
+      "description": "论文《GE-LSTM-Net：全局增强的 LSTM 网络，关注基于脑电图的警惕性估计中的时空特征提取》关联官方开源代码仓库。",
+      "verification": "论文摘要/元数据显式开源链接核验",
+      "scholar_category_ids": [
+        "dewen_hu::bci_eeg_decoding"
+      ],
+      "primary_categories": [
+        "胡德文：脑机接口、脑电信号处理与视觉神经解码"
+      ]
+    },
+    {
+      "id": "res_gh_61316a0bf98b",
+      "name": "wwsource/SplatFlow3D",
+      "name_zh": "wwsource/SplatFlow3D — SplatFlow3D：通过 3D 运动特征泼溅学习场景流",
+      "type": "code",
+      "url": "https://github.com/wwsource/SplatFlow3D",
+      "download_url": "https://github.com/wwsource/SplatFlow3D",
+      "access": "GitHub 公开仓库",
+      "scholar_id": "dewen_hu",
+      "scholar_name": "胡德文",
+      "matched_paper_ids": [
+        "fa0c70c495577435"
+      ],
+      "related_paper_titles": [
+        "SplatFlow3D: Learning Scene Flow via 3D Motion Feature Splatting"
+      ],
+      "related_paper_titles_zh": [
+        "SplatFlow3D：通过 3D 运动特征泼溅学习场景流"
+      ],
+      "evidence_urls": [
+        "https://doi.org/10.1109/tcsvt.2026.3753016"
+      ],
+      "description": "论文《SplatFlow3D：通过 3D 运动特征泼溅学习场景流》关联官方开源代码仓库。",
+      "verification": "论文摘要/元数据显式开源链接核验",
+      "scholar_category_ids": [
+        "dewen_hu::bss_manifold_ml"
+      ],
+      "primary_categories": [
+        "胡德文：盲源分离、流形学习与模式识别方法"
+      ]
     }
   ],
   "paper_resource_edges": [
@@ -109713,6 +110365,23 @@
       "download_url": "https://github.com/hgpftd/DRSN",
       "access": "public",
       "relation_evidence": "https://github.com/hgpftd/DRSN；https://doi.org/10.1109/tgrs.2026.3665830"
+    },
+    {
+      "scholar_id": "dewen_hu",
+      "scholar_name": "胡德文",
+      "global_record_id": "82942c86439d1068",
+      "paper_id": "dewen_hu_82942c86439d1068",
+      "paper_title": "Gaussian-Voxel Duet: A Dual-Scaffolding Hybrid Representation for Fast and Accurate Monocular Surface Reconstruction",
+      "paper_title_zh": "高斯-体素二重奏：用于快速准确的单眼表面重建的双支架混合表示",
+      "paper_year": 2026,
+      "paper_url": "https://doi.org/10.48550/ARXIV.2605.26616",
+      "resource_id": "res_gh_ca95a45dae4e",
+      "resource_name": "duzh11/VoxelGS",
+      "resource_type": "code",
+      "url": "https://github.com/duzh11/VoxelGS",
+      "download_url": "https://github.com/duzh11/VoxelGS",
+      "access": "GitHub 公开仓库",
+      "relation_evidence": "https://doi.org/10.48550/ARXIV.2605.26616"
     },
     {
       "scholar_id": "mang_ye",
@@ -115019,6 +115688,23 @@
       "relation_evidence": "https://doi.org/10.48550/ARXIV.2609.27232"
     },
     {
+      "scholar_id": "dewen_hu",
+      "scholar_name": "胡德文",
+      "global_record_id": "cf220f14100e25e4",
+      "paper_id": "dewen_hu_cf220f14100e25e4",
+      "paper_title": "GE-LSTM-Net: A global-enhanced LSTM network with attention for spatiotemporal feature extraction in EEG-based vigilance estimation",
+      "paper_title_zh": "GE-LSTM-Net：全局增强的 LSTM 网络，关注基于脑电图的警惕性估计中的时空特征提取",
+      "paper_year": 2026,
+      "paper_url": "https://doi.org/10.26599/air.2026.9150001",
+      "resource_id": "res_gh_7c30e27ab4ef",
+      "resource_name": "Lanhao23-nudt/GE-LSTM-Net",
+      "resource_type": "code",
+      "url": "https://github.com/Lanhao23-nudt/GE-LSTM-Net",
+      "download_url": "https://github.com/Lanhao23-nudt/GE-LSTM-Net",
+      "access": "GitHub 公开仓库",
+      "relation_evidence": "https://doi.org/10.26599/air.2026.9150001"
+    },
+    {
       "scholar_id": "huang_tiejun",
       "scholar_name": "黄铁军",
       "global_record_id": "5b6444da5e8f3bb2",
@@ -115034,6 +115720,23 @@
       "download_url": "https://github.com/hzc1208/Ge2mST",
       "access": "public_repository; README_verified; code_not_executed",
       "relation_evidence": "https://github.com/hzc1208/Ge2mST"
+    },
+    {
+      "scholar_id": "dewen_hu",
+      "scholar_name": "胡德文",
+      "global_record_id": "30ac3f15acf0faef",
+      "paper_id": "dewen_hu_30ac3f15acf0faef",
+      "paper_title": "GESS: Multi-cue Guided Local Feature Learning via Geometric and Semantic Synergy",
+      "paper_title_zh": "GESS：通过几何和语义协同进行多线索引导局部特征学习",
+      "paper_year": 2026,
+      "paper_url": "https://doi.org/10.48550/ARXIV.2604.05359",
+      "resource_id": "res_gh_e6ec6e7b5c63",
+      "resource_name": "yiyscut/GESS",
+      "resource_type": "code",
+      "url": "https://github.com/yiyscut/GESS",
+      "download_url": "https://github.com/yiyscut/GESS",
+      "access": "GitHub 公开仓库",
+      "relation_evidence": "https://doi.org/10.48550/ARXIV.2604.05359"
     },
     {
       "scholar_id": "zhuliang_yu",
@@ -118980,6 +119683,23 @@
       "relation_evidence": "https://github.com/Zyj061/SpikeCV；https://doi.org/10.1007/S11432-023-4565-6"
     },
     {
+      "scholar_id": "dewen_hu",
+      "scholar_name": "胡德文",
+      "global_record_id": "fa0c70c495577435",
+      "paper_id": "dewen_hu_fa0c70c495577435",
+      "paper_title": "SplatFlow3D: Learning Scene Flow via 3D Motion Feature Splatting",
+      "paper_title_zh": "SplatFlow3D：通过 3D 运动特征泼溅学习场景流",
+      "paper_year": 2026,
+      "paper_url": "https://doi.org/10.1109/tcsvt.2026.3753016",
+      "resource_id": "res_gh_61316a0bf98b",
+      "resource_name": "wwsource/SplatFlow3D",
+      "resource_type": "code",
+      "url": "https://github.com/wwsource/SplatFlow3D",
+      "download_url": "https://github.com/wwsource/SplatFlow3D",
+      "access": "GitHub 公开仓库",
+      "relation_evidence": "https://doi.org/10.1109/tcsvt.2026.3753016"
+    },
+    {
       "scholar_id": "yuchao_yang",
       "scholar_name": "杨玉超",
       "global_record_id": "aab8ae011fb59659",
@@ -122040,6 +122760,23 @@
       "relation_evidence": "https://github.com/sunwei925/LMM-EVQA；https://doi.org/10.1109/ICCVW69036.2025.00360"
     },
     {
+      "scholar_id": "dewen_hu",
+      "scholar_name": "胡德文",
+      "global_record_id": "13d3d9bd270b8073",
+      "paper_id": "dewen_hu_13d3d9bd270b8073",
+      "paper_title": "Tracking Any Point with Frame-Event Fusion Network at High Frame Rate",
+      "paper_title_zh": "使用高帧速率的帧事件融合网络跟踪任意点",
+      "paper_year": 2025,
+      "paper_url": "https://doi.org/10.1109/IROS60139.2025.11247196",
+      "resource_id": "res_gh_928bef31f037",
+      "resource_name": "ljx1002/FE-TAP",
+      "resource_type": "code",
+      "url": "https://github.com/ljx1002/FE-TAP",
+      "download_url": "https://github.com/ljx1002/FE-TAP",
+      "access": "GitHub 公开仓库",
+      "relation_evidence": "https://doi.org/10.1109/IROS60139.2025.11247196"
+    },
+    {
       "scholar_id": "yi_ding",
       "scholar_name": "Yi Ding",
       "global_record_id": "b91bddcf7a4fea72",
@@ -123602,6 +124339,23 @@
       "download_url": "",
       "access": "request_from_corresponding_author",
       "relation_evidence": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202417334"
+    },
+    {
+      "scholar_id": "dewen_hu",
+      "scholar_name": "胡德文",
+      "global_record_id": "7a3701d12ba941dd",
+      "paper_id": "dewen_hu_7a3701d12ba941dd",
+      "paper_title": "A Plug-and-Play Learning-based IMU Bias Factor for Robust Visual-Inertial Odometry",
+      "paper_title_zh": "用于鲁棒视觉惯性里程计的基于即插即用学习的 IMU 偏差因子",
+      "paper_year": 2025,
+      "paper_url": "https://doi.org/10.48550/ARXIV.2503.12527",
+      "resource_id": "res_gh_bfde3e307689",
+      "resource_name": "yiyscut/VIO-IPNet",
+      "resource_type": "code",
+      "url": "https://github.com/yiyscut/VIO-IPNet",
+      "download_url": "https://github.com/yiyscut/VIO-IPNet",
+      "access": "GitHub 公开仓库",
+      "relation_evidence": "https://doi.org/10.48550/ARXIV.2503.12527"
     },
     {
       "scholar_id": "huang_tiejun",
@@ -127038,6 +127792,23 @@
       "relation_evidence": "https://doi.org/10.1093/bioinformatics/btaf363"
     },
     {
+      "scholar_id": "dewen_hu",
+      "scholar_name": "胡德文",
+      "global_record_id": "56da0681f1faa240",
+      "paper_id": "dewen_hu_56da0681f1faa240",
+      "paper_title": "HGSLoc: 3DGS-Based Heuristic Camera Pose Refinement",
+      "paper_title_zh": "HGSLoc：基于 3DGS 的启发式相机姿势细化",
+      "paper_year": 2025,
+      "paper_url": "https://doi.org/10.1109/ICRA55743.2025.11127431",
+      "resource_id": "res_gh_68aa89287cc6",
+      "resource_name": "anchang699/HGSLoc",
+      "resource_type": "code",
+      "url": "https://github.com/anchang699/HGSLoc",
+      "download_url": "https://github.com/anchang699/HGSLoc",
+      "access": "GitHub 公开仓库",
+      "relation_evidence": "https://doi.org/10.1109/ICRA55743.2025.11127431"
+    },
+    {
       "scholar_id": "jimeng_sun",
       "scholar_name": "孙继孟",
       "global_record_id": "b43e465dd71e8009",
@@ -129484,6 +130255,23 @@
       "download_url": "https://github.com/njust-winchy/SC4ANM",
       "access": "public",
       "relation_evidence": "https://github.com/njust-winchy/SC4ANM；https://doi.org/10.1016/j.eswa.2025.126778"
+    },
+    {
+      "scholar_id": "dewen_hu",
+      "scholar_name": "胡德文",
+      "global_record_id": "c7f03fc4855a8281",
+      "paper_id": "dewen_hu_c7f03fc4855a8281",
+      "paper_title": "SceneTracker: Long-Term Scene Flow Estimation Network",
+      "paper_title_zh": "SceneTracker：长期场景流估计网络",
+      "paper_year": 2025,
+      "paper_url": "https://doi.org/10.1109/TPAMI.2025.3572489",
+      "resource_id": "res_gh_09c25d4bb77c",
+      "resource_name": "wwsource/SceneTracker",
+      "resource_type": "code",
+      "url": "https://github.com/wwsource/SceneTracker",
+      "download_url": "https://github.com/wwsource/SceneTracker",
+      "access": "GitHub 公开仓库",
+      "relation_evidence": "https://doi.org/10.1109/TPAMI.2025.3572489"
     },
     {
       "scholar_id": "wei_long_zheng",
@@ -139091,6 +139879,23 @@
       "relation_evidence": "https://github.com/Evin-X/SpiReco；https://doi.org/10.1109/TCSVT.2023.3272375"
     },
     {
+      "scholar_id": "dewen_hu",
+      "scholar_name": "胡德文",
+      "global_record_id": "4a9f5956a72059aa",
+      "paper_id": "dewen_hu_4a9f5956a72059aa",
+      "paper_title": "SplatFlow: Learning Multi-frame Optical Flow via Splatting",
+      "paper_title_zh": "SplatFlow：通过 Splatting 学习多帧光流",
+      "paper_year": 2024,
+      "paper_url": "https://doi.org/10.1007/S11263-024-01993-0",
+      "resource_id": "res_gh_7e89ecd02513",
+      "resource_name": "wwsource/SplatFlow",
+      "resource_type": "code",
+      "url": "https://github.com/wwsource/SplatFlow",
+      "download_url": "https://github.com/wwsource/SplatFlow",
+      "access": "GitHub 公开仓库",
+      "relation_evidence": "https://doi.org/10.1007/S11263-024-01993-0"
+    },
+    {
       "scholar_id": "ming_dong",
       "scholar_name": "明东",
       "global_record_id": "63a223af5194f1f3",
@@ -139191,6 +139996,23 @@
       "download_url": "https://github.com/vedernikovphoto/TCCT_Net",
       "access": "GitHub 公开仓库",
       "relation_evidence": "https://doi.org/10.1109/CVPRW63382.2024.00475"
+    },
+    {
+      "scholar_id": "dewen_hu",
+      "scholar_name": "胡德文",
+      "global_record_id": "86008165911c3a27",
+      "paper_id": "dewen_hu_86008165911c3a27",
+      "paper_title": "TD-NeRF: Novel Truncated Depth Prior for Joint Camera Pose and Neural Radiance Field Optimization",
+      "paper_title_zh": "TD-NeRF：用于联合相机姿势和神经辐射场优化的新型截断深度先验",
+      "paper_year": 2024,
+      "paper_url": "https://doi.org/10.1109/IROS58592.2024.10802634",
+      "resource_id": "res_gh_b1a97acb69e2",
+      "resource_name": "nubot-nudt/TD-NeRF",
+      "resource_type": "code",
+      "url": "https://github.com/nubot-nudt/TD-NeRF",
+      "download_url": "https://github.com/nubot-nudt/TD-NeRF",
+      "access": "GitHub 公开仓库",
+      "relation_evidence": "https://doi.org/10.1109/IROS58592.2024.10802634"
     },
     {
       "scholar_id": "xiongkuo_min",
@@ -140670,6 +141492,23 @@
       "download_url": "https://github.com/hjynwa/NeurImg-HDR",
       "access": "public",
       "relation_evidence": "https://github.com/hjynwa/NeurImg-HDR；https://doi.org/10.1109/TPAMI.2022.3231334"
+    },
+    {
+      "scholar_id": "dewen_hu",
+      "scholar_name": "胡德文",
+      "global_record_id": "fd7d456ab08328c3",
+      "paper_id": "dewen_hu_fd7d456ab08328c3",
+      "paper_title": "Few-shot Class-incremental Pill Recognition",
+      "paper_title_zh": "少样本类增量药丸识别",
+      "paper_year": 2023,
+      "paper_url": "https://doi.org/10.48550/ARXIV.2304.11959",
+      "resource_id": "res_gh_2245eb46ca70",
+      "resource_name": "zhang-jinghua/DBC-FSCIL",
+      "resource_type": "code",
+      "url": "https://github.com/zhang-jinghua/DBC-FSCIL",
+      "download_url": "https://github.com/zhang-jinghua/DBC-FSCIL",
+      "access": "GitHub 公开仓库",
+      "relation_evidence": "https://doi.org/10.48550/ARXIV.2304.11959"
     },
     {
       "scholar_id": "xin_liu",
@@ -143052,6 +143891,23 @@
       "relation_evidence": "https://github.com/baaivision/GeoDream；https://doi.org/10.48550/ARXIV.2311.17971"
     },
     {
+      "scholar_id": "dewen_hu",
+      "scholar_name": "胡德文",
+      "global_record_id": "462279fe25913b8c",
+      "paper_id": "dewen_hu_462279fe25913b8c",
+      "paper_title": "GeoTransformer: Fast and Robust Point Cloud Registration With Geometric Transformer",
+      "paper_title_zh": "GeoTransformer：使用几何变换器进行快速、稳健的点云配准",
+      "paper_year": 2023,
+      "paper_url": "https://doi.org/10.1109/TPAMI.2023.3259038",
+      "resource_id": "res_gh_d6b558e33577",
+      "resource_name": "qinzheng93/GeoTransformer",
+      "resource_type": "code",
+      "url": "https://github.com/qinzheng93/GeoTransformer",
+      "download_url": "https://github.com/qinzheng93/GeoTransformer",
+      "access": "GitHub 公开仓库",
+      "relation_evidence": "https://doi.org/10.1109/TPAMI.2023.3259038"
+    },
+    {
       "scholar_id": "yi_ding",
       "scholar_name": "Yi Ding",
       "global_record_id": "cce8075e3d4fe3b5",
@@ -145294,6 +146150,23 @@
       "download_url": "https://github.com/cxyazy/FGCSD-main",
       "access": "public",
       "relation_evidence": "https://github.com/cxyazy/FGCSD-main；https://doi.org/10.1109/BIBM55620.2022.9995476"
+    },
+    {
+      "scholar_id": "dewen_hu",
+      "scholar_name": "胡德文",
+      "global_record_id": "31cd7247503427f5",
+      "paper_id": "dewen_hu_31cd7247503427f5",
+      "paper_title": "Parcellating the human brain using resting-state dynamic functional connectivity",
+      "paper_title_zh": "使用静息态动态功能连接来分割人脑",
+      "paper_year": 2022,
+      "paper_url": "https://doi.org/10.1093/cercor/bhac293",
+      "resource_id": "res_gh_f2d891ca5bd7",
+      "resource_name": "sliderplm/D-BFA-618",
+      "resource_type": "code",
+      "url": "https://github.com/sliderplm/D-BFA-618",
+      "download_url": "https://github.com/sliderplm/D-BFA-618",
+      "access": "GitHub 公开仓库",
+      "relation_evidence": "https://doi.org/10.1093/cercor/bhac293"
     },
     {
       "scholar_id": "yi_ding",
@@ -148781,6 +149654,23 @@
       "relation_evidence": "https://doi.org/10.1145/3442381.3449981"
     },
     {
+      "scholar_id": "dewen_hu",
+      "scholar_name": "胡德文",
+      "global_record_id": "09c517241d54030b",
+      "paper_id": "dewen_hu_09c517241d54030b",
+      "paper_title": "Pixel Difference Networks for Efficient Edge Detection",
+      "paper_title_zh": "用于高效边缘检测的像素差分网络",
+      "paper_year": 2021,
+      "paper_url": "https://doi.org/10.1109/ICCV48922.2021.00507",
+      "resource_id": "res_gh_59ec64bc55e9",
+      "resource_name": "zhuoinoulu/pidinet",
+      "resource_type": "code",
+      "url": "https://github.com/zhuoinoulu/pidinet",
+      "download_url": "https://github.com/zhuoinoulu/pidinet",
+      "access": "GitHub 公开仓库",
+      "relation_evidence": "https://doi.org/10.1109/ICCV48922.2021.00507"
+    },
+    {
       "scholar_id": "nenggan_zheng",
       "scholar_name": "郑能干",
       "global_record_id": "90410f8f83a02c31",
@@ -150702,6 +151592,23 @@
       "relation_evidence": "https://github.com/chujiezheng/DiffKS；https://coai.cs.tsinghua.edu.cn/hml；https://www.cs.tsinghua.edu.cn/csen/info/1312/4387.htm；https://coai.cs.tsinghua.edu.cn/hw-ai/publications.html"
     },
     {
+      "scholar_id": "dewen_hu",
+      "scholar_name": "胡德文",
+      "global_record_id": "8e69d67602ee710a",
+      "paper_id": "dewen_hu_8e69d67602ee710a",
+      "paper_title": "Dynamic Group Convolution for Accelerating Convolutional Neural Networks",
+      "paper_title_zh": "用于加速卷积神经网络的动态组卷积",
+      "paper_year": 2020,
+      "paper_url": "https://doi.org/10.1007/978-3-030-58539-6_9",
+      "resource_id": "res_gh_c0781e25f87d",
+      "resource_name": "zhuogege1943/dgc",
+      "resource_type": "code",
+      "url": "https://github.com/zhuogege1943/dgc",
+      "download_url": "https://github.com/zhuogege1943/dgc",
+      "access": "GitHub 公开仓库",
+      "relation_evidence": "https://doi.org/10.1007/978-3-030-58539-6_9"
+    },
+    {
       "scholar_id": "zhiyuan_liu",
       "scholar_name": "刘知远",
       "global_record_id": "34420134071e4f4e",
@@ -150904,6 +151811,23 @@
       "download_url": "https://github.com/swordcheng/FCSR-GAN",
       "access": "GitHub 公开仓库",
       "relation_evidence": "https://doi.org/10.1109/TBIOM.2019.2951063"
+    },
+    {
+      "scholar_id": "dewen_hu",
+      "scholar_name": "胡德文",
+      "global_record_id": "3a053873caa9683c",
+      "paper_id": "dewen_hu_3a053873caa9683c",
+      "paper_title": "FTBNN: Rethinking Non-linearity for 1-bit CNNs and Going Beyond",
+      "paper_title_zh": "FTBNN：重新思考 1 位 CNN 的非线性并超越",
+      "paper_year": 2020,
+      "paper_url": "https://doi.org/10.48550/ARXIV.2010.09294",
+      "resource_id": "res_gh_febdde9b11e4",
+      "resource_name": "zhuogege1943/ftbnn",
+      "resource_type": "code",
+      "url": "https://github.com/zhuogege1943/ftbnn",
+      "download_url": "https://github.com/zhuogege1943/ftbnn",
+      "access": "GitHub 公开仓库",
+      "relation_evidence": "https://doi.org/10.48550/ARXIV.2010.09294"
     },
     {
       "scholar_id": "ziyu_jia",
