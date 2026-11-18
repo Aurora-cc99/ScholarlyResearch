@@ -198,8 +198,8 @@ summary{cursor:pointer}
   <section class="panel detail-view" id="detailView" hidden></section>
   <div class="footer">本页采用自动分片技术，支持离线浏览与在线毫秒级检索（涵盖全部 155 位学者全历史论文、双语摘要与开源资源）；外部出版页和下载链接需联网访问。</div>
 </main>
-<script src="data/db-meta.js?v=20261118v3"></script>
-<script src="app-common.js?v=20261118v3"></script>
+<script src="data/db-meta.js?v=20261118v4"></script>
+<script src="app-common.js?v=20261118v4"></script>
 <script>
 (async function () {
   'use strict';
@@ -227,7 +227,7 @@ summary{cursor:pointer}
   $('datasetsTab').onclick = () => syncPreloadTabs('datasets');
 
   if (typeof C.loadAllPaperShards !== 'function' || typeof C.loadAbstract !== 'function') {
-    const verSuffix = (typeof location !== 'undefined' && location.protocol === 'file:') ? '' : '?v=20261118v3';
+    const verSuffix = (typeof location !== 'undefined' && location.protocol === 'file:') ? '' : '?v=20261118v4';
     let _p = null;
     C.loadAllPaperShards = function (targetDb, onProg) {
       if (!targetDb || targetDb._shardsLoaded || !(targetDb.shards && Array.isArray(targetDb.shards.papers) && targetDb.shards.papers.length)) {
@@ -790,9 +790,14 @@ summary{cursor:pointer}
       el('span', 'tag', `${d.scholar_names.length}位学者`)
     );
     if (d.platform_tag) stats.append(el('span', 'tag', d.platform_tag));
+    if (d.subsets && d.subsets.length >= 2) stats.append(el('span', 'tag', `含 ${d.subsets.length} 个子集`));
     if (d.has_code) stats.append(el('span', 'tag', '含开源代码'));
     if (d.occurrences > 1) stats.append(el('span', 'dataset-duplicate', `合并 ${d.occurrences} 处引用`));
     top.append(stats);
+    if (d.subsets && d.subsets.length >= 2) {
+      const subPreview = d.subsets.slice(0, 7).join(' · ') + (d.subsets.length > 7 ? ` 等${d.subsets.length}个子集` : '');
+      top.append(el('p', 'muted', '包含子集：' + subPreview));
+    }
     if (d.scholar_names.length) {
       const namesPreview = d.scholar_names.slice(0, 6).join('；') + (d.scholar_names.length > 6 ? ` 等${d.scholar_names.length}位` : '');
       top.append(el('p', 'muted', '涉及学者：' + namesPreview));

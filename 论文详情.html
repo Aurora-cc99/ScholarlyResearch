@@ -44,8 +44,8 @@ a:hover{text-decoration:underline}
     <div class="empty">正在加载论文信息…</div>
   </section>
 </main>
-<script src="data/db-meta.js?v=20261118v3"></script>
-<script src="app-common.js?v=20261118v3"></script>
+<script src="data/db-meta.js?v=20261118v4"></script>
+<script src="app-common.js?v=20261118v4"></script>
 <script>
 (async function () {
   'use strict';
@@ -57,7 +57,7 @@ a:hover{text-decoration:underline}
     return;
   }
   if (typeof C.loadAllPaperShards !== 'function' || typeof C.loadAbstract !== 'function') {
-    const verSuffix = (typeof location !== 'undefined' && location.protocol === 'file:') ? '' : '?v=20261118v3';
+    const verSuffix = (typeof location !== 'undefined' && location.protocol === 'file:') ? '' : '?v=20261118v4';
     C.loadAllPaperShards = function (targetDb) {
       if (!targetDb || targetDb._shardsLoaded || !(targetDb.shards && Array.isArray(targetDb.shards.papers) && targetDb.shards.papers.length)) {
         if (targetDb) { targetDb._shardsLoaded = true; C.prepareDb(targetDb); }

@@ -111,6 +111,10 @@
     'https://www.bbci.de/competition/iv/': 'BCI Competition IV 脑机接口竞赛数据集',
     'https://www.bbci.de/competition/iii/': 'BCI Competition III 脑机接口竞赛数据集',
     'https://physionet.org/content/eegmmidb/1.0.0/': 'PhysioNet EEGMMIDB 运动想象脑电数据集',
+    'https://physionet.org/content/hmc-sleep-staging/1.1/': 'HMC 睡眠分期多导脑电数据集 (PhysioNet)',
+    'https://physionet.org/content/eegmat/1.0.0/': 'EEGMAT 心算认知任务脑电数据集 (PhysioNet)',
+    'https://physionet.org/content/siena-scalp-eeg/1.0.0/': 'Siena 头皮癫痫发作脑电数据集 (PhysioNet)',
+    'https://physionet.org/content/i-care/2.1/': 'I-CARE 心脏骤停昏迷预后多中心脑电数据集 (PhysioNet)',
     'https://physionet.org/content/sleep-edfx/1.0.0/': 'Sleep-EDF / Sleep-EDFX 睡眠脑电数据集',
     'https://sleeptight.isr.uc.pt/': 'ISRUC-Sleep 睡眠分期脑电数据集',
     'https://sleeptight.isr.uc.pt/?page_id=48': 'ISRUC-Sleep / SleepTight 下载页',
@@ -179,18 +183,209 @@
     'https://raw.githubusercontent.com/albertmentat/labram-at-scale/main/data_manifests/pretraining/datasets.csv': 'LaBraM-at-Scale 预训练数据集清单'
   };
 
-  function canonicalizeDatasetUrl(rawUrl) {
-    const u = String(rawUrl || '').trim();
-    if (!u) return '';
-    const l = u.toLowerCase();
-    if (/ida\.loni\.usc\.edu\/.*project=adni|adni\.loni\.usc\.edu/i.test(l)) return 'https://adni.loni.usc.edu/data-samples/adni-data/';
-    if (/eecs\.qmul\.ac\.uk\/mmv\/datasets\/amigos/i.test(l)) return 'https://www.eecs.qmul.ac.uk/mmv/datasets/amigos/';
-    if (/eecs\.qmul\.ac\.uk\/mmv\/datasets\/deap/i.test(l)) return 'https://www.eecs.qmul.ac.uk/mmv/datasets/deap/';
-    if (/bbci\.de\/competition\/iv\/?(?:download\/index\.html|#download)?$/i.test(l)) return 'https://www.bbci.de/competition/iv/';
-    if (/bcmi\.sjtu\.edu\.cn\/home\/seed\/?(?:index\.html|seed\.html)?$/i.test(l)) return 'https://bcmi.sjtu.edu.cn/home/seed/';
-    if (/^https?:\/\/(?:www\.)?mahnob-db\.eu\/?(?:hci-tagging\/?)?$/i.test(l)) return 'https://mahnob-db.eu/hci-tagging/';
-    if (/^https?:\/\/bci\.med\.tsinghua\.edu\.cn\/download\.html$/i.test(l)) return 'https://bci.med.tsinghua.edu.cn/download.html';
-    return u;
+  function cleanUrlForKey(rawUrl) {
+    return String(rawUrl || '')
+      .trim()
+      .toLowerCase()
+      .replace(/^https?:\/\/(www\.)?/, '')
+      .replace(/[?#].*$/, '')
+      .replace(/\/(?:tree\/main|blob\/main|index\.html?|download\.html?|files)\/?$/i, '')
+      .replace(/\/+$/, '');
+  }
+
+  // Canonical family & subset resolver: groups multi-subset families & duplicate mirrors under one parent card while preserving subset names!
+  function resolveDatasetFamily(nameZh, nameEn, urlsList) {
+    const combinedText = `${nameZh || ''} ${nameEn || ''}`.trim();
+    const urlsJoined = list(urlsList).join(' ').toLowerCase();
+    const all = `${combinedText} ${urlsJoined}`;
+
+    // 1. SJTU BCMI SEED Family (SEED / IV / V / VII / VIG / FRA / GER / OLF / SD / MYA / DV + license portal)
+    if (/\bSEED(?:[- ](?:IV|V|VII|VIG|FRA|GER|OLF|SD|MYA|DV))?\b/i.test(combinedText) || /bcmi\.sjtu\.edu\.cn\/(?:home\/(?:seed|eeg2video)|applicationform\/apply_form)/i.test(urlsJoined)) {
+      let sub = '';
+      const sm = combinedText.match(/\b(SEED-(?:IV|VII|VIG|FRA|GER|OLF|SD|MYA|DV|V))\b/i);
+      if (sm) sub = sm[1].toUpperCase();
+      else if (/eeg2video/i.test(urlsJoined)) sub = 'SEED-DV';
+      else if (/apply_form|许可申请/i.test(all)) sub = 'BCMI许可申请入口';
+      else if (/\bSEED\b/i.test(combinedText) || /home\/seed/i.test(urlsJoined)) sub = 'SEED';
+      return {
+        key: 'family:seed_series',
+        name_zh: 'SEED 系列情感与多模态脑电数据集 (SJTU BCMI)',
+        name_en: 'SJTU BCMI SEED Series (SEED / IV / V / VII / VIG / FRA / GER / OLF / SD / MYA / DV)',
+        canonical_url: 'https://bcmi.sjtu.edu.cn/home/seed/',
+        subset: sub
+      };
+    }
+
+    // 2. TUH EEG Family (TUEG / TUAB / TUSZ / TUEV / TUAR)
+    if (/\b(?:TUH[- ]?EEG|TUEG|TUAB|TUSZ|TUEV|TUAR)\b/i.test(combinedText) || /piconepress\.com\/projects\/(?:nedc\/html\/)?tuh_eeg/i.test(urlsJoined)) {
+      const tm = combinedText.match(/\b(TUEG|TUAB|TUSZ|TUEV|TUAR)\b/i);
+      return {
+        key: 'family:tuh_eeg',
+        name_zh: 'TUH EEG 坦普尔大学临床脑电语料库 (TUEG / TUAB / TUSZ / TUEV)',
+        name_en: 'Temple University Hospital EEG Corpus (TUEG / TUAB / TUSZ / TUEV)',
+        canonical_url: 'https://isip.piconepress.com/projects/nedc/html/tuh_eeg/',
+        subset: tm ? tm[1].toUpperCase() : 'TUEG'
+      };
+    }
+
+    // 3. BCI Competition IV (Dataset 1 / 2a / 2b) & BNCI2014-001
+    if (/\bBCI Competition IV\b/i.test(combinedText) || /bbci\.de\/competition\/iv\b/i.test(urlsJoined)) {
+      let sub = '';
+      if (/2a/i.test(all)) sub = 'Dataset 2a';
+      else if (/2b/i.test(all)) sub = 'Dataset 2b';
+      else if (/dataset\s*1\b|#dataset1/i.test(all)) sub = 'Dataset 1';
+      return {
+        key: 'family:bci_comp_iv',
+        name_zh: 'BCI Competition IV 脑机接口竞赛数据集 (含 Dataset 1 / 2a / 2b)',
+        name_en: 'BCI Competition IV (Datasets 1 / 2a / 2b)',
+        canonical_url: 'https://www.bbci.de/competition/iv/',
+        subset: sub
+      };
+    }
+
+    // 4. 2020 International BCI Competition (Track 3 Imagined Speech / pq7vb)
+    if (/2020 International BCI Competition|BCI Competition 2020/i.test(combinedText) || /osf\.io\/pq7vb|brain\.korea\.ac\.kr\/bci2020/i.test(urlsJoined)) {
+      return {
+        key: 'family:bci_comp_2020',
+        name_zh: '2020 International BCI Competition (含 Track 3 想象语音脑电)',
+        name_en: '2020 International BCI Competition',
+        canonical_url: 'https://osf.io/pq7vb/',
+        subset: /track\s*3/i.test(all) ? 'Track 3 (Imagined Speech)' : ''
+      };
+    }
+
+    // 5. BNCI Horizon 2020 (BNCI2014-002 / BNCI2015-001 / Monitoring ErrP)
+    if (/\bBNCI(?:201\d-\d+|\s+Horizon\s+2020)\b|Monitoring ErrP/i.test(combinedText) || /bnci-horizon-2020\.eu/i.test(urlsJoined)) {
+      const bm = combinedText.match(/\b(BNCI201\d-\d+)\b/i);
+      return {
+        key: 'family:bnci_horizon_2020',
+        name_zh: 'BNCI Horizon 2020 脑机接口公开数据集集合',
+        name_en: 'BNCI Horizon 2020 BCI Database',
+        canonical_url: 'http://bnci-horizon-2020.eu/database/data-sets',
+        subset: bm ? bm[1].toUpperCase() : (/ErrP/i.test(combinedText) ? 'Monitoring ErrP' : '')
+      };
+    }
+
+    // 6. OpenNeuro BIDS Datasets (ds00xxxx)
+    if (/\bOpenNeuro\b|\bds00\d{4}\b/i.test(all) && /openneuro\.org/i.test(urlsJoined)) {
+      const dm = all.match(/\b(ds00\d{4})\b/i);
+      return {
+        key: 'family:openneuro_bids',
+        name_zh: 'OpenNeuro 开放脑电与神经影像数据集集合 (BIDS)',
+        name_en: 'OpenNeuro BIDS Neuroimaging & EEG Datasets',
+        canonical_url: 'https://openneuro.org/',
+        subset: dm ? dm[1].toLowerCase() : ''
+      };
+    }
+
+    // 7. M3D 3D Medical Multimodal Family (M3D-Cap / VQA / Seg / RefSeg)
+    if (/\bM3D-(?:Cap|VQA|Seg|RefSeg)\b/i.test(all) || /GoodBaiBai88\/M3D-/i.test(urlsJoined)) {
+      let sub = '';
+      if (/m3d-cap/i.test(all)) sub = 'M3D-Cap';
+      else if (/m3d-vqa/i.test(all)) sub = 'M3D-VQA';
+      else if (/m3d-refseg/i.test(all)) sub = 'M3D-RefSeg';
+      else if (/m3d-seg/i.test(all)) sub = 'M3D-Seg';
+      return {
+        key: 'family:m3d_medical',
+        name_zh: 'M3D 三维医学多模态数据集系列 (Cap / VQA / Seg / RefSeg)',
+        name_en: 'M3D 3D Medical Multimodal Datasets (M3D-Cap / VQA / Seg / RefSeg)',
+        canonical_url: 'https://huggingface.co/datasets/GoodBaiBai88/M3D-Seg',
+        subset: sub
+      };
+    }
+
+    // 8. MinD-3D++ Family (fMRI-Shape / fMRI-Objaverse)
+    if (/MinD-3D\+\+|Fudan-fMRI\/fMRI-(?:Shape|Objaverse)/i.test(all)) {
+      const sub = /Objaverse/i.test(all) ? 'fMRI-Objaverse' : (/Shape/i.test(all) ? 'fMRI-Shape' : '');
+      return {
+        key: 'family:mind3d_pp',
+        name_zh: 'MinD-3D++ 脑影像三维重建数据集 (fMRI-Shape / fMRI-Objaverse)',
+        name_en: 'MinD-3D++ fMRI 3D Reconstruction Datasets',
+        canonical_url: 'https://huggingface.co/datasets/Fudan-fMRI/fMRI-Shape',
+        subset: sub
+      };
+    }
+
+    // 9. Exact & Multi-Subset Dataset Families
+    const RULES = [
+      { key: 'family:faced', re: /\bFACED\b|syn50614194/i, zh: 'FACED 细粒度情感脑电数据集 (Tsinghua)', en: 'FACED Fine-grained Affective Computing EEG Dataset', url: 'https://www.synapse.org/#!Synapse:syn50614194' },
+      { key: 'family:mped', re: /\bMPED\b|tengfei000\/mped/i, zh: 'MPED 多模态生理情绪数据库 (SEU)', en: 'MPED Multi-Modal Physiological Emotion Database', url: 'https://github.com/Tengfei000/MPED' },
+      { key: 'family:modma', re: /\bMODMA\b|modma\.lzu\.edu\.cn/i, zh: 'MODMA 多模态精神障碍脑电与语音数据集 (LZU)', en: 'MODMA Multi-modal Open Dataset for Mental-disorder Analysis', url: 'https://modma.lzu.edu.cn/data/index/', subRe: /128-channel/i, subName: '128-channel Resting EEG' },
+      { key: 'family:mahnob', re: /\bMAHNOB|mahnob-db\.eu/i, zh: 'MAHNOB-HCI 多模态情感与眼动生理数据库', en: 'MAHNOB-HCI Tagging Database', url: 'https://mahnob-db.eu/hci-tagging/' },
+      { key: 'family:amigos', re: /\bAMIGOS\b|datasets\/amigos/i, zh: 'AMIGOS 群体与个体多模态情感生理数据集', en: 'AMIGOS Dataset', url: 'https://www.eecs.qmul.ac.uk/mmv/datasets/amigos/' },
+      { key: 'family:deap', re: /\bDEAP\b|datasets\/deap/i, zh: 'DEAP 多模态生理与脑电情感数据集', en: 'DEAP Dataset for Emotion Analysis using Physiological Signals', url: 'https://www.eecs.qmul.ac.uk/mmv/datasets/deap/' },
+      { key: 'family:isruc', re: /\bISRUC|sleeptight\.isr\.uc\.pt/i, zh: 'ISRUC-Sleep 睡眠分期多导脑电数据集', en: 'ISRUC-Sleep Dataset', url: 'https://sleeptight.isr.uc.pt/' },
+      { key: 'family:mass', re: /\bMontreal Archive of Sleep Studies|\bMASS(?:-EX)?\b|ceams-carsm\.ca\/mass|9MYUCS|19087197/i, zh: 'MASS 蒙特利尔睡眠脑电档案库 (含 MASS-EX 专家标注子集)', en: 'Montreal Archive of Sleep Studies (MASS & MASS-EX)', url: 'http://ceams-carsm.ca/mass/', subRe: /MASS-EX|19087197/i, subName: 'MASS-EX 专家标注子集' },
+      { key: 'family:beta_ssvep', re: /\bBETA SSVEP|The_BETA_database|12264401|bci\.med\.tsinghua\.edu\.cn/i, zh: 'Tsinghua SSVEP / BETA 稳态视觉诱发脑电基准集', en: 'Tsinghua Benchmark & BETA SSVEP Datasets', url: 'https://bci.med.tsinghua.edu.cn/download.html' },
+      { key: 'family:mumtaz_mdd', re: /Mumtaz2016|EEG_Data_New|EEG Data New|4244171/i, zh: 'Mumtaz2016 / EEG_Data_New 抑郁症脑电公开数据集', en: 'Mumtaz2016 MDD EEG Dataset (Figshare 4244171)', url: 'https://figshare.com/articles/dataset/EEG_Data_New/4244171' },
+      { key: 'family:shu_mi', re: /\bSHU(?:-MI|\s+Multi-session|\s+Dataset)|shu_dataset\/19228725|s41597-022-01647-1/i, zh: 'SHU-MI 上海大学多会话运动想象脑电数据集', en: 'SHU Multi-session Motor Imagery EEG Dataset (Ma et al., 2022)', url: 'https://figshare.com/articles/software/shu_dataset/19228725' },
+      { key: 'family:way_eeg_gal', re: /WAY-EEG-GAL|Grasp and Lift|grasp-and-lift-eeg-detection/i, zh: 'WAY-EEG-GAL 手部抓举动作脑电肌电数据集', en: 'WAY-EEG-GAL / Grasp-and-Lift EEG Detection', url: 'https://www.kaggle.com/competitions/grasp-and-lift-eeg-detection/data' },
+      { key: 'family:inria_bci', re: /Inria BCI Challenge|inria-bci-challenge/i, zh: 'Inria BCI Challenge (NER 2015 错觉电位脑机竞赛集)', en: 'Inria BCI Challenge (NER 2015)', url: 'https://www.kaggle.com/competitions/inria-bci-challenge' },
+      { key: 'family:rsed2017', re: /Trujillo.*2017|rsed2017|EG0LJI/i, zh: 'Resting-State EEG 静息态脑电数据集 (Trujillo et al., 2017)', en: 'Resting-state EEG (Trujillo et al., 2017)', url: 'https://dataverse.tdl.org/dataverse/rsed2017' },
+      { key: 'family:m3cv', re: /\bM3CV\b|eeg-biometric-competition|nm000166/i, zh: 'M3CV 多会话多任务跨被试脑电数据集 (含 NEMAR BIDS 版)', en: 'M3CV Multi-subject Multi-session EEG Dataset', url: 'https://nemar.org/dataset/nm000166', subRe: /NEMAR|nm000166/i, subName: 'NEMAR BIDS 版' },
+      { key: 'family:eeg_macs', re: /EEG-MACS|1HD2lOxh/i, zh: 'EEG-MACS 临床轻度认知障碍与帕金森脑电数据集', en: 'EEG-MACS Clinical MCI/AD & PD EEG Dataset', url: 'https://github.com/ICI-BCI/EEG-MACS', subRe: /\bPD\b/i, subName: 'PD 帕金森子集' },
+      { key: 'family:mdme', re: /\bMDME\b|11194571|s41597-024-03676-4/i, zh: 'MDME 混合情绪识别多模态数据集', en: 'MDME: Multimodal Dataset for Mixed Emotion Recognition', url: 'https://zenodo.org/records/11194571' },
+      { key: 'family:zbra', re: /\bZBra(?:in-music|\s+Dataset)?\b|zju-bmi-lab\.github\.io\/zbra/i, zh: 'ZBrain / ZBra 自然音乐脑活动数据集 (ZJU BMI Lab)', en: 'ZBrain-music / ZBra Dataset', url: 'https://zju-bmi-lab.github.io/ZBra/index.html' },
+      { key: 'family:dcsm', re: /\bDCSM\b|Danish Center for Sleep Medicine|db553715/i, zh: 'DCSM 丹麦睡眠医学中心临床多导睡眠数据集', en: 'Danish Center for Sleep Medicine (DCSM)', url: 'https://erda.ku.dk/public/archives/db553715ecbe1f3ac66c1dc569826eef/published-archive.html' },
+      { key: 'family:happy_sad_fmri', re: /Naturalistic Happy\/Sad fMRI|janezhenliang\/fmriemo|1k2mdyNm/i, zh: 'Naturalistic Happy/Sad fMRI 自然情绪脑影像数据集', en: 'Naturalistic Happy/Sad fMRI Dataset', url: 'https://sites.google.com/site/janezhenliang/fmriemo' },
+      { key: 'family:nda', re: /NIMH Data Archive|\bB-SNIP1\b|nda\.nih\.gov/i, zh: 'NIMH Data Archive (NDA, 含 B-SNIP1 精神障碍脑电集合)', en: 'NIMH Data Archive (NDA / B-SNIP1 Collection 2274)', url: 'https://nda.nih.gov/edit_collection.html?id=2274', subRe: /B-SNIP1/i, subName: 'B-SNIP1 (Collection 2274)' },
+      { key: 'family:mous', re: /Schoffelen2019|\bMOUS\b|DSC_3011020\.09_236/i, zh: 'MOUS 自然语言句子阅读与听觉脑磁图/fMRI数据集', en: 'Schoffelen2019 / MOUS Dataset', url: 'https://data.donders.ru.nl/collections/di/dccn/DSC_3011020.09_236' },
+      { key: 'family:meg_masc', re: /Gwilliams2022|MEG-MASC|osf\.io\/ag3kj/i, zh: 'MEG-MASC 自然连续语音听觉脑磁图数据集', en: 'Gwilliams2022 / MEG-MASC Dataset', url: 'https://osf.io/ag3kj/' },
+      { key: 'family:mpi_lemon', re: /MPI[-_]LEMON/i, zh: 'MPI-LEMON 心智-脑-体多模态脑电与磁共振数据集', en: 'MPI-LEMON Dataset', url: 'https://fcon_1000.projects.nitrc.org/indi/retro/MPI_LEMON.html' },
+      { key: 'family:labram_523', re: /LaBraM[- ]at[- ]Scale/i, zh: 'LaBraM-at-Scale 523 源大规模脑电预训练数据集清单', en: 'LaBraM-at-Scale 523-Dataset Pretraining Inventory', url: 'https://github.com/AlbertMentat/LaBraM-at-Scale' },
+      { key: 'family:activity_forensics', re: /ActivityForensics/i, zh: 'ActivityForensics 视觉活动取证数据集', en: 'ActivityForensics Dataset', url: 'https://huggingface.co/datasets/ActivityForensics/ActivityForensics' },
+      { key: 'family:cifar10_dvs', re: /CIFAR10-DVS|1pzYnhoU|1q1k6JJg|zju-bmi-lab\/TMC/i, zh: 'CIFAR10-DVS 神经形态事件流数据集 (含 TMC 训练/测试划分)', en: 'CIFAR10-DVS Neuromorphic Dataset', url: 'https://figshare.com/articles/dataset/CIFAR10-DVS_New/4724671' },
+      { key: 'family:dtu_mvs', re: /DTU Robot Image|DTU processed data|DTU MVS|roboimagedata\.compute\.dtu\.dk|1SJFgt8q/i, zh: 'DTU MVS 多视角三维重建数据集 (含 SpikingGS 预处理子集)', en: 'DTU Robot Image / MVS Dataset', url: 'https://roboimagedata.compute.dtu.dk/?page_id=36' },
+      { key: 'family:s_imagenet_cars', re: /\bS-ImageNet\b|\bS-CARS\b/i, zh: 'S-ImageNet / S-CARS 脉冲相机视觉识别数据集', en: 'S-ImageNet & S-CARS Spike Camera Datasets', url: 'https://pkuorgcn-my.sharepoint.com/:u:/g/personal/jwz_pku_org_cn/EYjP_sf9i-RFodsPnVYKKPgB43fQR4ZIWP4gAhfXvqErDA?e=1OerGY' },
+      { key: 'family:dense_outdoor_spike', re: /\bDENSE-Spike\b|\bOutdoor-Spike\b/i, zh: 'DENSE-Spike / Outdoor-Spike 脉冲相机室内外单目深度估计数据集', en: 'DENSE-Spike & Outdoor-Spike Depth Datasets', url: 'https://pan.baidu.com/s/1Lg2spMW4OYlsYy0iT4u_7g' },
+      { key: 'family:diligent', re: /\bDiLiGenT(?:102)?\b|photometricstereodata|diligent102/i, zh: 'DiLiGenT / DiLiGenT102 光度立体三维表面重建基准集', en: 'DiLiGenT & DiLiGenT102 Photometric Stereo Benchmark', url: 'https://photometricstereo.github.io/diligent102.html' },
+      { key: 'family:zuco', re: /\bZuCo\s*[12]\.0\b|osf\.io\/(?:q3zws|2urht)/i, zh: 'ZuCo (1.0 & 2.0) 自然阅读脑电与眼动追踪语料库', en: 'ZuCo 1.0 & ZuCo 2.0 Zurich Cognitive Language Processing Corpus', url: 'https://osf.io/2urht/' },
+      { key: 'family:4dme', re: /\b4DME(?:plus)?\b|4dmr-ijcai/i, zh: '4DME / 4DMEplus 四维多模态自发微表情数据集', en: '4DME & 4DMEplus 4D Spontaneous Micro-Expression Datasets', url: 'https://github.com/1nO1SB/4DMEplus' },
+      { key: 'family:aves', re: /\bAVES\b|aves-dataset/i, zh: 'AVES 音视频连续情绪流检测数据集', en: 'AVES: Audio-Visual Emotion Stream Dataset', url: 'https://liyan4ai.github.io/aves-dataset/' },
+      { key: 'family:cmu_mosi_mosei', re: /\bCMU-MOSE?I\b|cmu-mose?i-dataset/i, zh: 'CMU-MOSI / CMU-MOSEI 多模态观点与情感强度数据集', en: 'CMU-MOSI & CMU-MOSEI Multimodal Sentiment Datasets', url: 'http://multicomp.cs.cmu.edu/resources/cmu-mosei-dataset/' },
+      { key: 'family:semeval', re: /\bSemEval\b|SemEval-2024_ECAC/i, zh: 'SemEval 国际语义与多模态对话情感评测集 (含 SemEval-2024 ECAC)', en: 'SemEval Affective & Emotion-Cause Evaluation Datasets', url: 'https://alt.qcri.org/semeval2018/' },
+      { key: 'family:deepfake_fp', re: /System Fingerprints Detection for DeepFake|13318702|13340666/i, zh: 'DeepFake Audio System Fingerprints 伪造音频系统指纹数据集', en: 'System Fingerprints Detection for DeepFake Audio Dataset', url: 'https://zenodo.org/records/13318702' },
+      { key: 'family:adni', re: /\bADNI\b|adni\.loni\.usc\.edu|project=adni/i, zh: 'ADNI 阿尔茨海默病神经影像数据集', en: 'Alzheimer\'s Disease Neuroimaging Initiative (ADNI)', url: 'https://adni.loni.usc.edu/data-samples/adni-data/' },
+      // Clean curated titles for truncated single datasets
+      { key: 'family:or_pad', re: /Oulu Remote-photoplethysmography|\bOR-PAD\b/i, zh: 'OR-PAD 奥卢远程光电容积脉搏波防伪数据库', en: 'Oulu Remote-PPG Presentation Attacks Database (OR-PAD)', url: 'https://gyzhao-nm.github.io/Guoying/publications.htm' },
+      { key: 'family:avamerg', re: /Avatar-based Benchmark|avamerg\.github\.io/i, zh: 'AvaMERG 多模态虚拟人共情回复生成基准集', en: 'AvaMERG Multimodal Empathetic Response Generation Benchmark', url: 'https://avamerg.github.io/' },
+      { key: 'family:ugvq', re: /zczhang-sjtu\/UGVQ/i, zh: 'UGVQ 多维 AIGC 生成视频质量评测数据集', en: 'UGVQ AIGC Video Quality Assessment Dataset', url: 'https://github.com/zczhang-sjtu/UGVQ' },
+      { key: 'family:ghvq', re: /zczhang-sjtu\/GHVQ/i, zh: 'GHVQ 人体活动生成视频质量评测数据集', en: 'GHVQ Human-Activity AIGC Video Quality Dataset', url: 'https://github.com/zczhang-sjtu/GHVQ' },
+      { key: 'family:dumoga', re: /lili0415\/DuMoGa/i, zh: 'DuMoGa 复杂查询指代图像分割基准集', en: 'DuMoGa Complex-query Referring Image Segmentation Benchmark', url: 'https://github.com/lili0415/DuMoGa' },
+      { key: 'family:mc_eiu', re: /MC-EIU\/MC-EIU/i, zh: 'MC-EIU 多模态对话情感与意图联合理解数据集', en: 'MC-EIU Multimodal Conversation Emotion & Intent Dataset', url: 'https://github.com/MC-EIU/MC-EIU' },
+      { key: 'family:mud3', re: /Syx1030\/MUD3/i, zh: 'MUD3 动态社交媒体多模态用户级抑郁检测数据集', en: 'MUD3 Multimodal User-Level Depression Detection Dataset', url: 'https://github.com/Syx1030/MUD3' },
+      { key: 'family:mie', re: /WKH186\/MIE/i, zh: 'MIE 多模态隐式情绪理解与推理数据集', en: 'MIE Multimodal Implicit Emotion Dataset', url: 'https://github.com/WKH186/MIE' },
+      { key: 'family:multimm', re: /DUTIR-YSQ\/MultiMM/i, zh: 'MultiMM 跨文化多模态情感分析基准数据集', en: 'MultiMM Cross-Cultural Multimodal Sentiment Benchmark', url: 'https://github.com/DUTIR-YSQ/MultiMM' },
+      { key: 'family:gpt4v_emotion', re: /zeroQiaoba\/gpt4v-emotion/i, zh: 'GPT-4V-Emotion 通用多模态情感识别评测基准', en: 'GPT-4V with Emotion Benchmark', url: 'https://github.com/zeroQiaoba/gpt4v-emotion' },
+      { key: 'family:moralstory', re: /thu-coai\/MoralStory/i, zh: 'MoralStory 中文道德故事理解与生成语料库 (THU CoAI)', en: 'MoralStory Corpus', url: 'https://github.com/thu-coai/MoralStory' },
+      { key: 'family:cdial_gpt', re: /thu-coai\/CDial-GPT/i, zh: 'LCCC / CDial-GPT 大规模中文短文本对话数据集 (THU CoAI)', en: 'LCCC Large-Scale Chinese Short-Text Conversation Dataset', url: 'https://github.com/thu-coai/CDial-GPT' },
+      { key: 'family:mer2025', re: /MERChallenge\/MER2025/i, zh: 'MER 2025 多模态情感识别挑战赛数据集', en: 'MER 2025 Affective Computing & LLM Dataset', url: 'https://huggingface.co/datasets/MERChallenge/MER2025' },
+      { key: 'family:vwg_bench', re: /KlingTeam\/VWG-Bench/i, zh: 'VWG-Bench 视频生成世界规律与推理评测基准', en: 'VWG-Bench (KlingTeam)', url: 'https://huggingface.co/datasets/KlingTeam/VWG-Bench' },
+      { key: 'family:objaverse_mix', re: /BAAI\/Objaverse-MIX/i, zh: 'Objaverse-MIX 三维形状自回归生成数据集 (BAAI)', en: 'BAAI/Objaverse-MIX 3D Dataset', url: 'https://huggingface.co/datasets/BAAI/Objaverse-MIX' },
+      { key: 'family:mulocbench', re: /somethingone\/MULocBench/i, zh: 'MULocBench 软件工程代码与非代码缺陷定位基准集', en: 'MULocBench Dataset', url: 'https://huggingface.co/datasets/somethingone/MULocBench' },
+      { key: 'family:temporal_vip', re: /yml2002\/Temporal-VIP/i, zh: 'Temporal-VIP 视频关键人物多模态时空识别数据集', en: 'Temporal-VIP Dataset', url: 'https://huggingface.co/datasets/yml2002/Temporal-VIP' }
+    ];
+
+    for (const rule of RULES) {
+      if (rule.re.test(all)) {
+        let sub = '';
+        if (rule.subRe && rule.subRe.test(all)) sub = rule.subName;
+        else if (rule.key === 'family:s_imagenet_cars') sub = /S-CARS/i.test(all) ? 'S-CARS' : 'S-ImageNet';
+        else if (rule.key === 'family:dense_outdoor_spike') sub = /Outdoor-Spike/i.test(all) ? 'Outdoor-Spike' : 'DENSE-Spike';
+        else if (rule.key === 'family:diligent') sub = /102/.test(all) ? 'DiLiGenT102' : 'DiLiGenT';
+        else if (rule.key === 'family:zuco') sub = /2\.0|2urht/.test(all) ? 'ZuCo 2.0' : 'ZuCo 1.0';
+        else if (rule.key === 'family:4dme') sub = /plus/i.test(all) ? '4DMEplus' : '4DME';
+        else if (rule.key === 'family:cmu_mosi_mosei') sub = /mosei/i.test(all) ? 'CMU-MOSEI' : 'CMU-MOSI';
+        return {
+          key: rule.key,
+          name_zh: rule.zh,
+          name_en: rule.en,
+          canonical_url: rule.url,
+          subset: sub
+        };
+      }
+    }
+    return null;
   }
 
   function datasetPlatformTag(u) {
@@ -211,9 +406,19 @@
     return '官方数据主页';
   }
 
+  function canonicalizeDatasetUrl(rawUrl) {
+    const u = String(rawUrl || '').trim();
+    if (!u) return '';
+    const fam = resolveDatasetFamily('', '', [u]);
+    if (fam && fam.canonical_url) return fam.canonical_url;
+    return u;
+  }
+
   function datasetNameFromUrl(u) {
     const raw = canonicalizeDatasetUrl(u);
     if (!raw) return '未命名数据集';
+    const fam = resolveDatasetFamily('', '', [raw]);
+    if (fam && fam.name_zh) return fam.name_zh;
     const lower = raw.toLowerCase();
     const lowerSlash = lower.replace(/\/+$/, '') + '/';
     if (knownDatasetNames[lower]) return knownDatasetNames[lower];
@@ -426,25 +631,36 @@
       });
     };
 
+    const byFamily = new Map();
+
     const ensure = (nameZh, name, url, resource, paper) => {
-      const canonical = canonicalizeDatasetUrl(url);
-      const knownLabel = canonical ? (knownDatasetNames[canonical.toLowerCase()] || knownDatasetNames[canonical.toLowerCase().replace(/\/+$/, '') + '/'] || '') : '';
+      const extraUrls = [url, resource && resource.url, resource && resource.download_url].filter(Boolean).map(x => String(x).trim());
+      const fam = resolveDatasetFamily(nameZh, name, extraUrls);
+      const canonical = fam ? fam.canonical_url : canonicalizeDatasetUrl(url);
+      const knownLabel = fam
+        ? fam.name_zh
+        : (canonical ? (knownDatasetNames[canonical.toLowerCase()] || knownDatasetNames[canonical.toLowerCase().replace(/\/+$/, '') + '/'] || '') : '');
       const label = String(knownLabel || nameZh || name || canonical || '数据集').trim();
-      const rawNames = [knownLabel, nameZh, name, label]
+      const rawNames = [knownLabel, fam && fam.name_en, nameZh, name, label]
         .filter(Boolean)
         .map(x => String(x).trim())
         .filter(x => x && !genericDatasetName(x));
       const nameKeys = rawNames.map(normKey).filter(Boolean);
-      const urlKey = canonical ? normKey(canonical) : '';
+      const urlKeys = [...new Set([canonical, ...extraUrls].map(cleanUrlForKey).filter(Boolean))];
 
-      let d = (urlKey && byUrl.get(urlKey)) || nameKeys.map(k => byName.get(k)).find(Boolean);
+      let d = (fam && byFamily.get(fam.key))
+        || urlKeys.map(k => byUrl.get(k)).find(Boolean)
+        || nameKeys.map(k => byName.get(k)).find(Boolean);
+
       if (!d) {
         d = {
           id: 'dataset-' + (map.size + 1),
+          family_key: fam ? fam.key : '',
           name_zh: label,
-          name: name || label,
+          name: (fam && fam.name_en) || name || label,
           url: canonical,
           urls: new Set(),
+          subsets: new Set(),
           descriptions: new Set(),
           access_notes: new Set(),
           resource_ids: new Set(),
@@ -461,24 +677,33 @@
         map.set(d.id, d);
       }
 
-      nameKeys.forEach(k => byName.set(k, d));
-      if (urlKey) byUrl.set(urlKey, d);
+      if (fam) {
+        byFamily.set(fam.key, d);
+        d.name_zh = fam.name_zh;
+        d.name = fam.name_en;
+        d.url = fam.canonical_url;
+        if (fam.subset) d.subsets.add(fam.subset);
+      } else {
+        if (knownLabel) {
+          d.name_zh = knownLabel;
+        } else if (nameZh && !genericDatasetName(nameZh)) {
+          d.name_zh = String(nameZh).trim();
+        } else if (genericDatasetName(d.name_zh) && name && !genericDatasetName(name)) {
+          d.name_zh = String(name).trim();
+        }
+        if (name && (!d.name || genericDatasetName(d.name))) {
+          d.name = String(name).trim();
+        }
+      }
 
-      if (knownLabel) {
-        d.name_zh = knownLabel;
-      } else if (nameZh && !genericDatasetName(nameZh)) {
-        d.name_zh = String(nameZh).trim();
-      } else if (genericDatasetName(d.name_zh) && name && !genericDatasetName(name)) {
-        d.name_zh = String(name).trim();
-      }
-      if (name && (!d.name || genericDatasetName(d.name))) {
-        d.name = String(name).trim();
-      }
+      nameKeys.forEach(k => byName.set(k, d));
+      urlKeys.forEach(k => byUrl.set(k, d));
+
       if (canonical) {
         d.urls.add(canonical);
         if (!d.url) d.url = canonical;
       }
-      if (url && String(url).trim()) d.urls.add(String(url).trim());
+      extraUrls.forEach(u => { if (u) d.urls.add(u); });
       if (resource) {
         if (resource.id) d.resource_ids.add(resource.id);
         if (resource.type) {
@@ -486,7 +711,6 @@
           if (['code', 'software', 'repository'].includes(resource.type)) d.has_code = true;
           if (['model', 'weights'].includes(resource.type)) d.has_model = true;
         }
-        if (resource.download_url) d.urls.add(String(resource.download_url).trim());
         if (resource.description) d.descriptions.add(String(resource.description).trim());
         if (resource.access) d.access_notes.add(String(resource.access).trim());
         list(resource.scholar_id).forEach(x => d.scholar_ids.add(x));
@@ -527,7 +751,60 @@
       }
     }
 
-    const result = [...map.values()].map(d => {
+    // Second-pass connected-components merge: merge any buckets sharing a non-generic dataset URL or identical display name!
+    const mergeInto = (target, src) => {
+      if (target === src) return;
+      src.urls.forEach(x => target.urls.add(x));
+      src.subsets.forEach(x => target.subsets.add(x));
+      src.descriptions.forEach(x => target.descriptions.add(x));
+      src.access_notes.forEach(x => target.access_notes.add(x));
+      src.resource_ids.forEach(x => target.resource_ids.add(x));
+      src.resource_types.forEach(x => target.resource_types.add(x));
+      src.topics.forEach(x => target.topics.add(x));
+      if (src.has_code) target.has_code = true;
+      if (src.has_model) target.has_model = true;
+      src._paperMap.forEach((p, gid) => target._paperMap.set(gid, p));
+      src.scholars.forEach(x => target.scholars.add(x));
+      src.scholar_ids.forEach(x => target.scholar_ids.add(x));
+      src.category_ids.forEach(x => target.category_ids.add(x));
+      target.occurrences += src.occurrences;
+      if (!target.family_key && src.name_zh && !/^数据链接[:：]/.test(src.name_zh) && /^数据链接[:：]/.test(target.name_zh)) {
+        target.name_zh = src.name_zh;
+        target.name = src.name || src.name_zh;
+      }
+      map.delete(src.id);
+    };
+
+    let mergedPass = true;
+    while (mergedPass) {
+      mergedPass = false;
+      const seenUrlOwner = new Map();
+      const seenDispOwner = new Map();
+      for (const d of [...map.values()]) {
+        const dispKey = normKey(datasetDisplayName({ name_zh: d.name_zh, name: d.name, urls: [...d.urls] }));
+        if (dispKey && seenDispOwner.has(dispKey) && seenDispOwner.get(dispKey) !== d) {
+          mergeInto(seenDispOwner.get(dispKey), d);
+          mergedPass = true;
+          break;
+        }
+        if (dispKey) seenDispOwner.set(dispKey, d);
+        let didUrlMerge = false;
+        for (const u of d.urls) {
+          const uk = cleanUrlForKey(u);
+          if (!uk || /publications\.htm|faculty|home\/lubaoliang|dsfc\/jsjkxyjs|bnci-horizon-2020\.eu\/database\/data-sets/i.test(uk)) continue;
+          if (seenUrlOwner.has(uk) && seenUrlOwner.get(uk) !== d) {
+            mergeInto(seenUrlOwner.get(uk), d);
+            mergedPass = true;
+            didUrlMerge = true;
+            break;
+          }
+          seenUrlOwner.set(uk, d);
+        }
+        if (didUrlMerge) break;
+      }
+    }
+
+    const result = [...map.values()].map((d, finalIdx) => {
       const allPapers = [...d._paperMap.values()];
       const activeOnly = allPapers.filter(p => !p.compatibility_only);
       const finalPapers = (activeOnly.length ? activeOnly : allPapers).sort((a, b) =>
@@ -535,7 +812,6 @@
         String(a.title_zh || a.title || '').localeCompare(String(b.title_zh || b.title || ''), 'zh-CN') ||
         String(a.title || '').localeCompare(String(b.title || ''), 'en')
       );
-      // If a standalone dataset resource has 0 matched papers, include its scholar's categories so category filter doesn't hide it
       if (!d.category_ids.size && d.scholar_ids.size) {
         for (const sid of d.scholar_ids) {
           const sch = scholarById.get(sid);
@@ -546,12 +822,14 @@
       }
       const years = [...new Set(finalPapers.map(p => Number(p.year)).filter(y => y >= 1970 && y <= 2030))].sort((a, b) => a - b);
       const urlsArr = [...d.urls].filter(Boolean);
+      const subsetsArr = [...d.subsets].filter(Boolean).sort((a, b) => a.localeCompare(b, 'en'));
       const item = {
-        id: d.id,
+        id: 'dataset-' + (finalIdx + 1),
         name_zh: d.name_zh,
         name: d.name,
         url: d.url || urlsArr[0] || '',
         urls: urlsArr,
+        subsets: subsetsArr,
         platform_tag: datasetPlatformTag(d.url || urlsArr[0] || ''),
         descriptions: [...d.descriptions].filter(Boolean),
         access_notes: [...d.access_notes].filter(Boolean),
@@ -575,6 +853,7 @@
         item.name_zh,
         item.name,
         item.platform_tag,
+        ...item.subsets,
         ...item.urls,
         ...item.descriptions,
         ...item.topics,
@@ -612,7 +891,7 @@
     return '文档浏览.html?doc=' + encodeURIComponent(docPath);
   }
 
-  const CACHE_VER = '20261118v3';
+  const CACHE_VER = '20261118v4';
   function withCacheVer(src) {
     const s = String(src || '');
     if (!s || (typeof location !== 'undefined' && location.protocol === 'file:')) return s;

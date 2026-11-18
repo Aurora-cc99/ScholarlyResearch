@@ -43,8 +43,8 @@ header p{margin:5px 0 0;color:#d2e4eb;font-size:14px}
   <p>数据集名称、下载/申请入口及使用该数据集的全部论文</p>
 </header>
 <main id="app"><div class="card"><div class="empty">正在加载数据集…</div></div></main>
-<script src="data/db-meta.js?v=20261118v3"></script>
-<script src="app-common.js?v=20261118v3"></script>
+<script src="data/db-meta.js?v=20261118v4"></script>
+<script src="app-common.js?v=20261118v4"></script>
 <script>
 (async function () {
   'use strict';
@@ -56,7 +56,7 @@ header p{margin:5px 0 0;color:#d2e4eb;font-size:14px}
     return;
   }
   if (typeof C.loadAllPaperShards !== 'function') {
-    const verSuffix = (typeof location !== 'undefined' && location.protocol === 'file:') ? '' : '?v=20261118v3';
+    const verSuffix = (typeof location !== 'undefined' && location.protocol === 'file:') ? '' : '?v=20261118v4';
     C.loadAllPaperShards = function (targetDb) {
       if (!targetDb || targetDb._shardsLoaded || !(targetDb.shards && Array.isArray(targetDb.shards.papers) && targetDb.shards.papers.length)) {
         if (targetDb) { targetDb._shardsLoaded = true; C.prepareDb(targetDb); }
@@ -142,10 +142,19 @@ header p{margin:5px 0 0;color:#d2e4eb;font-size:14px}
       el('span', 'tag', `${selected.papers.length} 篇关联论文`),
       el('span', 'tag', `${selected.scholar_names.length} 位涉及学者`)
     );
+    if (selected.subsets && selected.subsets.length >= 2) {
+      stats.append(el('span', 'tag', `含 ${selected.subsets.length} 个数据子集`));
+    }
     if (selected.occurrences > 1) {
-      stats.append(el('span', 'tag tag-warn', `合并 ${selected.occurrences} 处重复引用`));
+      stats.append(el('span', 'tag tag-warn', `合并 ${selected.occurrences} 处重复与子集引用`));
     }
     card.append(stats);
+
+    if (selected.subsets && selected.subsets.length >= 1) {
+      const subBox = el('div', 'info-box');
+      subBox.append(el('div', '', `包含数据子集 / 版本（${selected.subsets.length}）：` + selected.subsets.join(' · ')));
+      card.append(subBox);
+    }
 
     if (selected.scholar_names.length) {
       card.append(el('p', 'muted', '涉及学者：' + selected.scholar_names.join('；')));
@@ -153,15 +162,22 @@ header p{margin:5px 0 0;color:#d2e4eb;font-size:14px}
 
     if (selected.descriptions.length || selected.access_notes.length) {
       const info = el('div', 'info-box');
-      if (selected.descriptions.length) info.append(el('div', '', '说明：' + selected.descriptions.join('；')));
+      if (selected.descriptions.length) info.append(el('div', '', '说明：' + selected.descriptions.slice(0, 6).join('；')));
       if (selected.access_notes.length) info.append(el('div', '', '访问/获取方式：' + selected.access_notes.join('；')));
       card.append(info);
     }
 
+    const urlLabelFor = (u, idx, total) => {
+      if (total <= 1) return '数据集下载 / 主页入口 ↗';
+      const clean = String(u || '').replace(/^https?:\/\/(www\.)?/i, '').replace(/\/+$/, '');
+      const tail = clean.split('/').slice(0, 4).join('/');
+      return (tail.length > 48 ? tail.slice(0, 46) + '…' : tail) + ' ↗';
+    };
+
     const urls = el('div', 'urls');
     selected.urls.forEach((u, i) => {
       if (!/^https?:\/\/\S+$/i.test(u)) return;
-      const a = el('a', '', selected.urls.length > 1 ? `数据集下载 / 主页入口 ${i + 1} ↗` : '数据集下载 / 主页入口 ↗');
+      const a = el('a', '', urlLabelFor(u, i, selected.urls.length));
       a.href = u;
       a.target = '_blank';
       a.rel = 'noopener noreferrer';
