@@ -169,7 +169,8 @@
     "abstract_zh": "Facial expressions (FEs) and action units (AUs) are facial emotional representations at different levels of granularity.过去，识别它们通常被视为两项独立的任务。还有一些方法利用其中一个的知识来帮助识别另一个，但目前，能够同时识别 FE 和 AU 的统一模型仍然很少。在本文中，我们构建了一个具有强大泛化能力的统一模型来联合执行面部表情识别（FER）和动作单元检测（AUD）。考虑到用 FE 和 AU 注释的训练样本极其有限，我们引入了来自 FE 和 AU 的大量未标记的面部数据。",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 76/1820-12）",
     "status": "已索引出版/会议记录",
@@ -180,10 +181,12 @@
     "scholar_id": "xin_liu",
     "scholar_name": "刘鑫",
     "scholar_ids": [
-      "xin_liu"
+      "xin_liu",
+      "bjorn_schuller"
     ],
     "scholar_names": [
-      "刘鑫"
+      "刘鑫",
+      "Björn W. Schuller"
     ],
     "source_record_ids": [
       "xin_liu_268500e421f93e73"
@@ -206,12 +209,24 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bjorn_schuller": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "刘鑫：情感数据集、基准与评测"
+      "刘鑫：情感数据集、基准与评测",
+      "Björn W. Schuller：自然语言处理、多模态学习与通用方法"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "emotion_benchmark",
     "primary_category": "情感数据集、基准与评测"
   },
@@ -544,12 +559,13 @@
     "source_url": "https://dblp.org/rec/journals/taffco/GaoLXYSK26.html",
     "openalex_id": "https://openalex.org/W7127630109",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 21,
     "abstract_en": "In this work, we focus on a special group of human body language — themicro-gesture (MG), which differs from the range of ordinary illustrative gestures in that they are not intentional behaviors performed to convey information to others, but rather unintentional behaviors driven by inner feelings. This characteristic introduces two novel challenges regarding micro-gestures that are worth rethinking. The first is whether strategies designed for other action recognition are entirely applicable to micro-gestures. The second is whether micro-gestures, as supplementary data, can provide additional insights for emotional understanding. In recognizing micro-gestures, we explore various augmentation strategies that take into account the subtle spatial and brief temporal characteristics of micro-gestures, often accompanied by repetitiveness, to determine more suitable augmentation methods. Considering the significance of temporal domain information for micro-gestures, we introduce a simple and efficient spatiotemporal balancing fusion method. We not only study our method on the considered micro-gesture dataset but also conduct experiments on mainstream gesture/action datasets. The results show that our approach performs well in micro-gesture recognition and on other datasets, achieving state-of-the-art performance compared to previous micro-gesture recognition methods. For emotional understanding based on micro-gestures, we construct complex emotional reasoning scenarios. Our evaluation, conducted with large language models, shows that micro-gestures play a significant and positive role in enhancing comprehensive emotional understanding. We confirm that our new insights contribute to advancing research in micro-gesture and emotional artificial intelligence.",
     "abstract_zh": "In this work, we focus on a special group of human body language — themicro-gesture (MG), which differs from the range of ordinary illustrative gestures in that they are not intentional behaviors performed to convey information to others, but rather unintentional behaviors driven by inner feelings.这一特性带来了关于微手势的两个值得重新思考的新挑战。首先是为其他动作识别设计的策略是否完全适用于微手势。第二个问题是微手势作为补充数据是否可以为情感理解提供额外的见解。在识别微手势时，我们探索了各种增强...",
     "abstract_source": "openalex_doi",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 76/1820-12）",
     "status": "已索引出版/会议记录",
@@ -560,10 +576,12 @@
     "scholar_id": "xin_liu",
     "scholar_name": "刘鑫",
     "scholar_ids": [
-      "xin_liu"
+      "xin_liu",
+      "bjorn_schuller"
     ],
     "scholar_names": [
-      "刘鑫"
+      "刘鑫",
+      "Björn W. Schuller"
     ],
     "source_record_ids": [
       "xin_liu_defd70e505808b6e"
@@ -582,10 +600,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bjorn_schuller": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感智能"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "刘鑫：情感数据集、基准与评测"
+      "刘鑫：情感数据集、基准与评测",
+      "Björn W. Schuller：自然语言处理、多模态学习与通用方法"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "emotion_benchmark",
@@ -618,7 +648,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -774,7 +805,7 @@
     "source_url": "https://dblp.org/rec/conf/eccv/MaLYWZDLYXS26.html",
     "openalex_id": "https://openalex.org/W4414939912",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 6,
     "abstract_en": "",
     "abstract_zh": "",
     "abstract_source": "",
@@ -790,10 +821,12 @@
     "scholar_id": "xin_liu",
     "scholar_name": "刘鑫",
     "scholar_ids": [
-      "xin_liu"
+      "xin_liu",
+      "zitong_yu"
     ],
     "scholar_names": [
-      "刘鑫"
+      "刘鑫",
+      "于子桐"
     ],
     "source_record_ids": [
       "xin_liu_a657e63148e7b08b"
@@ -812,10 +845,21 @@
         ],
         "confidence": "low",
         "note": ""
+      },
+      "zitong_yu": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "于子桐",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "刘鑫：情感理解与多模态推理"
+      "刘鑫：情感理解与多模态推理",
+      "于子桐：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "emotion_understanding",
@@ -921,7 +965,9 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感大模型",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 76/1820-12）",
     "status": "已索引出版/会议记录",
@@ -932,10 +978,12 @@
     "scholar_id": "xin_liu",
     "scholar_name": "刘鑫",
     "scholar_ids": [
-      "xin_liu"
+      "xin_liu",
+      "zitong_yu"
     ],
     "scholar_names": [
-      "刘鑫"
+      "刘鑫",
+      "于子桐"
     ],
     "source_record_ids": [
       "xin_liu_2ac6e1e04dfc5ce6"
@@ -959,12 +1007,26 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zitong_yu": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "于子桐",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "情感大模型",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "刘鑫：情感数据集、基准与评测"
+      "刘鑫：情感数据集、基准与评测",
+      "于子桐：视觉感知、语音信号与通用人工智能"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "emotion_benchmark",
     "primary_category": "情感数据集、基准与评测"
   },
@@ -2081,7 +2143,7 @@
     "source_url": "https://dblp.org/rec/journals/corr/abs-2508-18763.html",
     "openalex_id": "",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 3,
     "abstract_en": "This paper investigates the enhancement of reasoning capabilities in language models through token-level multi-model collaboration. Our approach selects the optimal tokens from the next token distributions provided by multiple models to perform autoregressive reasoning. Contrary to the assumption that more models yield better results, we introduce a distribution distance-based dynamic selection strategy (DDS) to optimize the multi-model collaboration process. To address the critical challenge of vocabulary misalignment in multi-model collaboration, we propose the concept of minimal complete semantic units (MCSU), which is simple yet enables multiple language models to achieve natural alignment within the linguistic space. Experimental results across various benchmarks demonstrate the superiority of our method. The code will be available at https://github.com/Fanye12/DDS.",
     "abstract_zh": "本文研究通过令牌级多模型协作增强语言模型的推理能力。我们的方法从多个模型提供的下一个令牌分布中选择最佳令牌来执行自回归推理。与更多模型产生更好结果的假设相反，我们引入了基于分布距离的动态选择策略（DDS）来优化多模型协作过程。为了解决多模型协作中词汇错位的关键挑战，我们提出了最小完整语义单元（MCSU）的概念，它很简单，但使多个语言模型能够实现自然对齐...",
     "abstract_source": "arxiv_api",
@@ -2095,10 +2157,12 @@
     "scholar_id": "xin_liu",
     "scholar_name": "刘鑫",
     "scholar_ids": [
-      "xin_liu"
+      "xin_liu",
+      "zitong_yu"
     ],
     "scholar_names": [
-      "刘鑫"
+      "刘鑫",
+      "于子桐"
     ],
     "source_record_ids": [
       "xin_liu_0747120c574e02fb"
@@ -2119,12 +2183,21 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "zitong_yu": {
+        "category_id": "affect_dataset_eval",
+        "label": "情感理解数据集、评测基准与综述",
+        "scholar_name": "于子桐",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "刘鑫：情感数据集、基准与评测"
+      "刘鑫：情感数据集、基准与评测",
+      "于子桐：情感理解数据集、评测基准与综述"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "emotion_benchmark",
     "primary_category": "情感数据集、基准与评测"
   },
@@ -2335,10 +2408,12 @@
     "scholar_id": "xin_liu",
     "scholar_name": "刘鑫",
     "scholar_ids": [
-      "xin_liu"
+      "xin_liu",
+      "zitong_yu"
     ],
     "scholar_names": [
-      "刘鑫"
+      "刘鑫",
+      "于子桐"
     ],
     "source_record_ids": [
       "xin_liu_e935bcee7b64aec9"
@@ -2357,10 +2432,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zitong_yu": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "于子桐",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "刘鑫：情感数据集、基准与评测"
+      "刘鑫：情感数据集、基准与评测",
+      "于子桐：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "emotion_benchmark",
@@ -2587,7 +2673,8 @@
     "abstract_zh": "远程光电体积描记法（rPPG）是一种很有前途的技术，用于从面部视频中捕获生理信号，在医疗健康、情感计算和生物特征识别方面具有潜在的应用前景。对 rPPG 任务的需求已经从在数据集内测试中实现高性能发展到在跨数据集测试（即域泛化）中表现出色。然而，大多数现有方法忽略了 rPPG 特定先验知识的结合，导致泛化能力有限。 In this paper, we propose a novel framework that effectively integrates both explicit and implicit prior knowledge into the rPPG task.具体来说，我们进行了系统的...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 76/1820-12）",
     "status": "已索引出版/会议记录",
@@ -2735,10 +2822,12 @@
     "scholar_id": "xin_liu",
     "scholar_name": "刘鑫",
     "scholar_ids": [
-      "xin_liu"
+      "xin_liu",
+      "zitong_yu"
     ],
     "scholar_names": [
-      "刘鑫"
+      "刘鑫",
+      "于子桐"
     ],
     "source_record_ids": [
       "xin_liu_4a09df60abea7c05"
@@ -2761,12 +2850,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zitong_yu": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "于子桐",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "刘鑫：情感数据集、基准与评测"
+      "刘鑫：情感数据集、基准与评测",
+      "于子桐：视觉感知、语音信号与通用人工智能"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "emotion_benchmark",
     "primary_category": "情感数据集、基准与评测"
   },
@@ -2809,10 +2909,12 @@
     "scholar_id": "xin_liu",
     "scholar_name": "刘鑫",
     "scholar_ids": [
-      "xin_liu"
+      "xin_liu",
+      "zitong_yu"
     ],
     "scholar_names": [
-      "刘鑫"
+      "刘鑫",
+      "于子桐"
     ],
     "source_record_ids": [
       "xin_liu_e27b335c926b6b1a"
@@ -2835,12 +2937,23 @@
         ],
         "confidence": "low",
         "note": ""
+      },
+      "zitong_yu": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "于子桐",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "刘鑫：情感理解与多模态推理"
+      "刘鑫：情感理解与多模态推理",
+      "于子桐：视觉感知、语音信号与通用人工智能"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "emotion_understanding",
     "primary_category": "情感理解与多模态推理"
   },
@@ -2871,7 +2984,8 @@
     "abstract_zh": "面部动作单元（AU）检测是情感计算和社交机器人技术中的一项关键任务，因为它有助于识别通过面部表情表达的情绪。从解剖学上讲，AU之间存在无数的相关性，其中包含丰富的信息，对于AU检测至关重要。以前的方法使用基于专家经验或特定基准上的统计规则的固定AU相关性，但通过手工设置来全面反映AU之间的复杂相关性具有挑战性。还有一些替代方法可以使用完全连接的图来详尽地学习这些依赖关系。然而，这些方法可能会导致计算爆炸和高...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 76/1820-12）",
     "status": "已索引出版/会议记录",
@@ -2882,10 +2996,12 @@
     "scholar_id": "xin_liu",
     "scholar_name": "刘鑫",
     "scholar_ids": [
-      "xin_liu"
+      "xin_liu",
+      "zitong_yu"
     ],
     "scholar_names": [
-      "刘鑫"
+      "刘鑫",
+      "于子桐"
     ],
     "source_record_ids": [
       "xin_liu_e8405057d9bb31fc"
@@ -2904,10 +3020,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zitong_yu": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "于子桐",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感智能"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "刘鑫：情感数据集、基准与评测"
+      "刘鑫：情感数据集、基准与评测",
+      "于子桐：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "emotion_benchmark",
@@ -3086,7 +3214,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5058509635）",
     "status": "已索引出版/会议记录",
@@ -3154,7 +3283,9 @@
     "abstract_zh": "Facial Action Units (AUs) detection is a cornerstone of objective facial expression analysis and a critical focus in affective computing.尽管 AU 检测很重要，但它面临着重大挑战，例如 AU 注释的高成本和数据集的可用性有限。这些限制通常会导致现有方法过度拟合，从而导致在跨不同数据集应用时性能大幅下降。解决这些问题对于提高 AU 检测方法的可靠性和通用性至关重要。此外，当前的许多方法都利用 Transformer 来实现长上下文建模的有效性，但它们受到二次计算的阻碍......",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 76/1820-12）",
     "status": "预印本记录",
@@ -3165,10 +3296,12 @@
     "scholar_id": "xin_liu",
     "scholar_name": "刘鑫",
     "scholar_ids": [
-      "xin_liu"
+      "xin_liu",
+      "zitong_yu"
     ],
     "scholar_names": [
-      "刘鑫"
+      "刘鑫",
+      "于子桐"
     ],
     "source_record_ids": [
       "xin_liu_b4d2b60f64b1baa4"
@@ -3187,10 +3320,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zitong_yu": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "于子桐",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解",
+          "情感智能"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "刘鑫：情感数据集、基准与评测"
+      "刘鑫：情感数据集、基准与评测",
+      "于子桐：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "emotion_benchmark",
@@ -3231,10 +3377,12 @@
     "scholar_id": "xin_liu",
     "scholar_name": "刘鑫",
     "scholar_ids": [
-      "xin_liu"
+      "xin_liu",
+      "zitong_yu"
     ],
     "scholar_names": [
-      "刘鑫"
+      "刘鑫",
+      "于子桐"
     ],
     "source_record_ids": [
       "xin_liu_974e65fde6055c24"
@@ -3251,10 +3399,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "zitong_yu": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "于子桐",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "刘鑫：情感理解与多模态推理"
+      "刘鑫：情感理解与多模态推理",
+      "于子桐：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "emotion_understanding",
@@ -3368,10 +3525,12 @@
     "scholar_id": "xin_liu",
     "scholar_name": "刘鑫",
     "scholar_ids": [
-      "xin_liu"
+      "xin_liu",
+      "zitong_yu"
     ],
     "scholar_names": [
-      "刘鑫"
+      "刘鑫",
+      "于子桐"
     ],
     "source_record_ids": [
       "xin_liu_d5d3ea8b0b2ac931"
@@ -3395,12 +3554,24 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zitong_yu": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "于子桐",
+        "secondary_tags": [
+          "多模态与大语言模型",
+          "强化学习与决策优化"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "刘鑫：情感数据集、基准与评测"
+      "刘鑫：情感数据集、基准与评测",
+      "于子桐：视觉感知、语音信号与通用人工智能"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "emotion_benchmark",
     "primary_category": "情感数据集、基准与评测"
   },
@@ -3604,10 +3775,12 @@
     "scholar_id": "xin_liu",
     "scholar_name": "刘鑫",
     "scholar_ids": [
-      "xin_liu"
+      "xin_liu",
+      "zitong_yu"
     ],
     "scholar_names": [
-      "刘鑫"
+      "刘鑫",
+      "于子桐"
     ],
     "source_record_ids": [
       "xin_liu_c737da9ff3d1c426"
@@ -3624,10 +3797,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "zitong_yu": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "于子桐",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "刘鑫：情感理解与多模态推理"
+      "刘鑫：情感理解与多模态推理",
+      "于子桐：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "emotion_understanding",
@@ -3660,7 +3842,10 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感大模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 76/1820-12）",
     "status": "已索引出版/会议记录",
@@ -3743,10 +3928,12 @@
     "scholar_id": "xin_liu",
     "scholar_name": "刘鑫",
     "scholar_ids": [
-      "xin_liu"
+      "xin_liu",
+      "zitong_yu"
     ],
     "scholar_names": [
-      "刘鑫"
+      "刘鑫",
+      "于子桐"
     ],
     "source_record_ids": [
       "xin_liu_0307a20ca7834c6f"
@@ -3767,12 +3954,21 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "zitong_yu": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "于子桐",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "刘鑫：情感数据集、基准与评测"
+      "刘鑫：情感数据集、基准与评测",
+      "于子桐：视觉感知、语音信号与通用人工智能"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "emotion_benchmark",
     "primary_category": "情感数据集、基准与评测"
   },
@@ -3806,7 +4002,10 @@
     "topics": [
       "情感计算与情绪理解",
       "多模态与大语言模型",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感大模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 76/1820-12）",
     "status": "预印本记录",
@@ -3818,11 +4017,13 @@
     "scholar_name": "刘鑫",
     "scholar_ids": [
       "xin_liu",
-      "panorama_6ea6272c5bf0"
+      "panorama_6ea6272c5bf0",
+      "zitong_yu"
     ],
     "scholar_names": [
       "刘鑫",
-      "宗源"
+      "宗源",
+      "于子桐"
     ],
     "source_record_ids": [
       "xin_liu_c998cce59892b7d5"
@@ -3862,13 +4063,29 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zitong_yu": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "于子桐",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "智能芯片与计算系统",
+          "情感大模型",
+          "情感理解",
+          "情感智能"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "刘鑫：情感数据集、基准与评测",
-      "宗源：脑电基准、数据与评测"
+      "宗源：脑电基准、数据与评测",
+      "于子桐：视觉感知、语音信号与通用人工智能"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "emotion_benchmark",
     "primary_category": "情感数据集、基准与评测"
   },
@@ -3910,10 +4127,12 @@
     "scholar_id": "xin_liu",
     "scholar_name": "刘鑫",
     "scholar_ids": [
-      "xin_liu"
+      "xin_liu",
+      "zitong_yu"
     ],
     "scholar_names": [
-      "刘鑫"
+      "刘鑫",
+      "于子桐"
     ],
     "source_record_ids": [
       "xin_liu_feceecdb27983452"
@@ -3938,12 +4157,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zitong_yu": {
+        "category_id": "multimodal_emotion",
+        "label": "多模态情感理解、面部表情与语音情绪",
+        "scholar_name": "于子桐",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "刘鑫：情感数据集、基准与评测"
+      "刘鑫：情感数据集、基准与评测",
+      "于子桐：多模态情感理解、面部表情与语音情绪"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "emotion_benchmark",
     "primary_category": "情感数据集、基准与评测"
   },
@@ -4150,7 +4380,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感智能"
     ],
     "verification": "主题筛选候选；核心纳入（情感智能评测与情感计算）",
     "status": "候选条目/需按作者主页继续核验",
@@ -4198,14 +4429,19 @@
     "scholar_id": "zheng_lian",
     "scholar_name": "连政",
     "work_title_group": "64c7e9339475",
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
       "zheng_lian",
       "jianhua_tao",
       "guoying_zhao",
       "xin_liu",
       "panorama_ya_li",
-      "panorama_e298ea16b5bc"
+      "panorama_e298ea16b5bc",
+      "bjorn_schuller",
+      "erik_cambria",
+      "bin_liu_casia",
+      "xiaojiang_peng",
+      "zebang_cheng"
     ],
     "scholar_names": [
       "连政",
@@ -4213,7 +4449,12 @@
       "赵国英",
       "刘鑫",
       "李雅",
-      "刘瑞"
+      "刘瑞",
+      "Björn W. Schuller",
+      "Erik Cambria",
+      "刘斌",
+      "彭小江",
+      "程泽邦"
     ],
     "source_record_ids": [
       "zheng_lian_83373cb06f4d",
@@ -4314,6 +4555,81 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bjorn_schuller": {
+        "category_id": "affect_int_llm",
+        "label": "情感大模型、知识推理与评测基准",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "情感智能评测",
+          "多模态情感理解",
+          "情感计算与LLM",
+          "多模态情感识别",
+          "情感理解",
+          "情感大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "erik_cambria": {
+        "category_id": "affect_int_llm",
+        "label": "情感大模型、知识推理与评测基准",
+        "scholar_name": "Erik Cambria",
+        "secondary_tags": [
+          "情感智能评测",
+          "多模态情感理解",
+          "情感计算与LLM",
+          "多模态情感识别",
+          "情感理解",
+          "情感大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "bin_liu_casia": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感智能评测",
+          "多模态情感理解",
+          "情感计算与LLM",
+          "多模态情感识别",
+          "情感理解",
+          "情感大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "xiaojiang_peng": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "彭小江",
+        "secondary_tags": [
+          "情感智能评测",
+          "多模态情感理解",
+          "情感计算与LLM",
+          "多模态情感识别",
+          "情感理解",
+          "情感大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zebang_cheng": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "程泽邦",
+        "secondary_tags": [
+          "情感智能评测",
+          "多模态情感理解",
+          "情感计算与LLM",
+          "多模态情感识别",
+          "情感理解",
+          "情感大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "ecfe66c6cbdfb069",
@@ -4323,7 +4639,12 @@
       "赵国英：情感理解与多模态推理",
       "刘鑫：情感数据集、基准与评测",
       "李雅：脑电基准、数据与评测",
-      "刘瑞：情感数据集、基准与评测"
+      "刘瑞：情感数据集、基准与评测",
+      "Björn W. Schuller：情感大模型、知识推理与评测基准",
+      "Erik Cambria：情感大模型、知识推理与评测基准",
+      "刘斌：通用预训练大模型、视听生成与基础方法",
+      "彭小江：通用预训练大模型、视听生成与基础方法",
+      "程泽邦：通用预训练大模型、视听生成与基础方法"
     ],
     "dblp_key": "journals/corr/abs-2504-19423",
     "pdf_url": "https://doi.org/10.1145/3746027.3762007",
@@ -4670,10 +4991,12 @@
     "scholar_id": "xin_liu",
     "scholar_name": "刘鑫",
     "scholar_ids": [
-      "xin_liu"
+      "xin_liu",
+      "zitong_yu"
     ],
     "scholar_names": [
-      "刘鑫"
+      "刘鑫",
+      "于子桐"
     ],
     "source_record_ids": [
       "xin_liu_d591eae33ed59284"
@@ -4696,12 +5019,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zitong_yu": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "于子桐",
+        "secondary_tags": [
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "刘鑫：情感数据集、基准与评测"
+      "刘鑫：情感数据集、基准与评测",
+      "于子桐：视觉感知、语音信号与通用人工智能"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "emotion_benchmark",
     "primary_category": "情感数据集、基准与评测"
   },
@@ -5311,7 +5645,7 @@
     "source_url": "https://dblp.org/rec/journals/corr/abs-2403-06679.html",
     "openalex_id": "",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 10,
     "abstract_en": "Audio-visual question answering (AVQA) requires reference to video content and auditory information, followed by correlating the question to predict the most precise answer. Although mining deeper layers of audio-visual information to interact with questions facilitates the multimodal fusion process, the redundancy of audio-visual parameters tends to reduce the generalization of the inference engine to multiple question-answer pairs in a single video. Indeed, the natural heterogeneous relationship between audiovisuals and text makes the perfect fusion challenging, to prevent high-level audio-visual semantics from weakening the network's adaptability to diverse question types, we propose a framework for performing mutual correlation distillation (MCD) to aid question inference. MCD is divided into three main steps: 1) firstly, the residual structure is utilized to enhance the audio-visual soft associations based on self-attention, then key local audio-visual features relevant to the question context are captured hierarchically by shared aggregators and coupled in the form of clues with specific question vectors. 2) Secondly, knowledge distillation is enforced to align audio-visual-text pairs in a shared latent space to narrow the cross-modal semantic gap. 3) And finally, the audio-visual dependencies are decoupled by discarding the decision-level integrations. We evaluate the proposed method on two publicly available datasets containing multiple question-and-answer pairs, i.e., Music-AVQA and AVQA. Experiments show that our method outperforms other state-of-the-art methods, and one interesting finding behind is that removing deep audio-visual features during inference can effectively mitigate overfitting. The source code is released at http://github.com/rikeilong/MCD-forAVQA.",
     "abstract_zh": "视听问答（AVQA）需要参考视频内容和听觉信息，然后将问题关联起来以预测最精确的答案。尽管挖掘更深层次的视听信息来与问题交互有利于多模态融合过程，但视听参数的冗余往往会降低推理引擎对单个视频中多个问答对的泛化能力。事实上，视听和文本之间的自然异构关系使得完美融合具有挑战性，为了防止高级视听语义削弱网络对不同问题类型的适应性，我们提出了一种...",
     "abstract_source": "arxiv_api",
@@ -5327,10 +5661,12 @@
     "scholar_id": "xin_liu",
     "scholar_name": "刘鑫",
     "scholar_ids": [
-      "xin_liu"
+      "xin_liu",
+      "zitong_yu"
     ],
     "scholar_names": [
-      "刘鑫"
+      "刘鑫",
+      "于子桐"
     ],
     "source_record_ids": [
       "xin_liu_263db0095c359e19"
@@ -5353,12 +5689,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zitong_yu": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "于子桐",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "刘鑫：情感数据集、基准与评测"
+      "刘鑫：情感数据集、基准与评测",
+      "于子桐：视觉感知、语音信号与通用人工智能"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "emotion_benchmark",
     "primary_category": "情感数据集、基准与评测"
   },
@@ -5449,7 +5796,8 @@
     "abstract_zh": "心理学研究表明，微手势（MG）与人类情绪密切相关。基于 MG 的情感理解引起了广泛关注，因为它允许通过非语言的身体姿势来理解情感，而不依赖于身份信息（例如面部和心电图数据）。因此，有效识别 MG 对于高级情绪理解至关重要。然而，现有的微手势识别 (MGR) 方法仅利用单一模态（例如 RGB 或骨架），同时忽略了关键的文本信息。在这封信中，我们提出了一种简单但有效的视觉文本对比学习解决方案，利用文本信息进行 MGR。在...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 76/1820-12）",
     "status": "预印本记录",
@@ -5658,10 +6006,12 @@
     "scholar_id": "xin_liu",
     "scholar_name": "刘鑫",
     "scholar_ids": [
-      "xin_liu"
+      "xin_liu",
+      "zitong_yu"
     ],
     "scholar_names": [
-      "刘鑫"
+      "刘鑫",
+      "于子桐"
     ],
     "source_record_ids": [
       "xin_liu_01eb7b27ffbf73f7"
@@ -5682,10 +6032,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zitong_yu": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "于子桐",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "刘鑫：情感数据集、基准与评测"
+      "刘鑫：情感数据集、基准与评测",
+      "于子桐：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "emotion_benchmark",
@@ -5781,7 +6142,9 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感大模型",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 76/1820-12）",
     "status": "预印本记录",
@@ -6010,10 +6373,12 @@
     "scholar_id": "xin_liu",
     "scholar_name": "刘鑫",
     "scholar_ids": [
-      "xin_liu"
+      "xin_liu",
+      "zitong_yu"
     ],
     "scholar_names": [
-      "刘鑫"
+      "刘鑫",
+      "于子桐"
     ],
     "source_record_ids": [
       "xin_liu_857701bbe657e576"
@@ -6032,10 +6397,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zitong_yu": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "于子桐",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "刘鑫：情感数据集、基准与评测"
+      "刘鑫：情感数据集、基准与评测",
+      "于子桐：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "emotion_benchmark",
@@ -6076,10 +6452,12 @@
     "scholar_id": "xin_liu",
     "scholar_name": "刘鑫",
     "scholar_ids": [
-      "xin_liu"
+      "xin_liu",
+      "zitong_yu"
     ],
     "scholar_names": [
-      "刘鑫"
+      "刘鑫",
+      "于子桐"
     ],
     "source_record_ids": [
       "xin_liu_4874cd8d11bcf006"
@@ -6100,12 +6478,21 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "zitong_yu": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "于子桐",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "刘鑫：情感数据集、基准与评测"
+      "刘鑫：情感数据集、基准与评测",
+      "于子桐：视觉感知、语音信号与通用人工智能"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "emotion_benchmark",
     "primary_category": "情感数据集、基准与评测"
   },
@@ -7970,11 +8357,13 @@
     "scholar_name": "刘鑫",
     "scholar_ids": [
       "xin_liu",
-      "guoying_zhao"
+      "guoying_zhao",
+      "xiaobai_li"
     ],
     "scholar_names": [
       "刘鑫",
-      "赵国英"
+      "赵国英",
+      "李晓白"
     ],
     "source_record_ids": [
       "xin_liu_71f7da7d1d75cf3b"
@@ -8009,13 +8398,24 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "xiaobai_li": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "李晓白",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "刘鑫：情感数据集、基准与评测",
-      "赵国英：情感数据集、基准与评测"
+      "赵国英：情感数据集、基准与评测",
+      "李晓白：视觉感知、语音信号与通用人工智能"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "emotion_benchmark",
     "primary_category": "情感数据集、基准与评测"
   },
@@ -8708,7 +9108,8 @@
       "多模态情感分析",
       "视觉情感大模型",
       "情感计算与情绪理解",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -8948,7 +9349,9 @@
     "abstract_en": "Camera-based contactless photoplethysmography refers to a set of popular techniques for contactless physiological measurement. The current state-of-the-art neural models are typically trained in a supervised manner using videos accompanied by gold standard physiological measurements. However, they often generalize poorly out-of-domain examples (i.e., videos that are unlike those in the training set). Personalizing models can help improve model generalizability, but many personalization techniques still require some gold standard data. To help alleviate this dependency, in this paper, we present a novel mobile sensing system called MobilePhys, the first mobile personalized remote physiological sensing system, that leverages both front and rear cameras on a smartphone to generate high-quality self-supervised labels for training personalized contactless camera-based PPG models. To evaluate the robustness of MobilePhys, we conducted a user study with 39 participants who completed a set of tasks under different mobile devices, lighting conditions/intensities, motion tasks, and skin types. Our results show that MobilePhys significantly outperforms the state-of-the-art on-device supervised training and few-shot adaptation methods. Through extensive user studies, we further examine how does MobilePhys perform in complex real-world settings. We envision that calibrated or personalized camera-based contactless PPG models generated from our proposed dual-camera mobile sensing system will open the door for numerous future applications such as smart mirrors, fitness and mobile health applications.",
     "abstract_zh": "基于相机的非接触式光电体积描记法是指一组用于非接触式生理测量的流行技术。当前最先进的神经模型通常使用视频和黄金标准生理测量以监督方式进行训练。然而，他们经常对域外示例（即与训练集中的视频不同的视频）进行概括。个性化模型有助于提高模型的通用性，但许多个性化技术仍然需要一些黄金标准数据。为了帮助减轻这种依赖性，在本文中，我们提出了一种名为 MobilePhys 的新型移动传感系统，这是第一个移动个性化远程生理学...",
     "abstract_source": "openalex_verified",
-    "topics": [],
+    "topics": [
+      "脑电基础大模型"
+    ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5058509635）",
     "status": "已索引出版/会议记录",
     "source_kind": "openalex_verified",
@@ -10410,7 +10813,8 @@
       "情感多模态大模型",
       "微姿态/微表情",
       "远程生理信号",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；核心纳入（情感大模型评测）",
     "status": "候选条目/需按作者主页继续核验",
@@ -10448,11 +10852,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "xin_liu",
-      "guoying_zhao"
+      "guoying_zhao",
+      "xiaobai_li"
     ],
     "scholar_names": [
       "刘鑫",
-      "赵国英"
+      "赵国英",
+      "李晓白"
     ],
     "source_record_ids": [
       "xin_liu_a94aba0ca2f6",
@@ -10487,12 +10893,28 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "xiaobai_li": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "李晓白",
+        "secondary_tags": [
+          "情绪幻觉",
+          "情感心理学知识注入",
+          "多模态大模型可信评测",
+          "可信情感智能",
+          "人机共情",
+          "情感多模态大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "10cbe297ebfe5ad7",
     "primary_categories_by_scholar": [
       "刘鑫：情感数据集、基准与评测",
-      "赵国英：情感数据集、基准与评测"
+      "赵国英：情感数据集、基准与评测",
+      "李晓白：视觉感知、语音信号与通用人工智能"
     ],
     "dblp_key": "journals/corr/abs-2107-00285",
     "pdf_url": "https://arxiv.org/pdf/2107.00285",
@@ -11897,7 +12319,7 @@
     "source_url": "https://dblp.org/rec/journals/corr/abs-2008-03996.html",
     "openalex_id": "",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 5,
     "abstract_en": "To address the problem of training on small datasets for action recognition tasks, most prior works are either based on a large number of training samples or require pre-trained models transferred from other large datasets to tackle overfitting problems. However, it limits the research within organizations that have strong computational abilities. In this work, we try to propose a data-efficient framework that can train the model from scratch on small datasets while achieving promising results. Specifically, by introducing a 3D central difference convolution operation, we proposed a novel C3D neural network-based two-stream (Rank Pooling RGB and Optical Flow) framework for the task. The method is validated on the action recognition track of the ECCV 2020 VIPriors challenges and got the 2nd place (88.31%). It is proved that our method can achieve a promising result even without a pre-trained model on large scale datasets. The code will be released soon.",
     "abstract_zh": "为了解决动作识别任务的小数据集训练问题，大多数现有工作要么基于大量训练样本，要么需要从其他大型数据集转移的预训练模型来解决过拟合问题。然而，它限制了具有强大计算能力的组织内的研究。在这项工作中，我们尝试提出一种数据高效的框架，可以在小型数据集上从头开始训练模型，同时取得有希望的结果。具体来说，通过引入 3D 中心差分卷积运算，我们为该任务提出了一种新颖的基于 C3D 神经网络的双流（Rank Pooling RGB 和光流）框架。该方法...",
     "abstract_source": "arxiv_api",
@@ -11913,10 +12335,12 @@
     "scholar_id": "xin_liu",
     "scholar_name": "刘鑫",
     "scholar_ids": [
-      "xin_liu"
+      "xin_liu",
+      "zitong_yu"
     ],
     "scholar_names": [
-      "刘鑫"
+      "刘鑫",
+      "于子桐"
     ],
     "source_record_ids": [
       "xin_liu_e71e222519fd8054"
@@ -11935,10 +12359,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zitong_yu": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "于子桐",
+        "secondary_tags": [
+          "脑电基础大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "刘鑫：情感数据集、基准与评测"
+      "刘鑫：情感数据集、基准与评测",
+      "于子桐：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "emotion_benchmark",
@@ -12034,7 +12469,8 @@
     "abstract_zh": "情感是人类智力的核心，在人工智能中也应该发挥类似的作用。然而，在情感识别方面，机器人的分析线索大多局限于人类的面部表情和语音。肢体动作作为另一种重要的非语言交际方式，被证明能够传达情感信息，值得更多的关注。受最近微表情研究的启发，在本文中，我们试图探索一组由内心情感自发和无意识引发的特定手势。这些手势不同于常见的促进沟通或主动表达感情的手势...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 76/1820-12）",
     "status": "已索引出版/会议记录",
@@ -12046,11 +12482,13 @@
     "scholar_name": "刘鑫",
     "scholar_ids": [
       "xin_liu",
-      "guoying_zhao"
+      "guoying_zhao",
+      "xiaobai_li"
     ],
     "scholar_names": [
       "刘鑫",
-      "赵国英"
+      "赵国英",
+      "李晓白"
     ],
     "source_record_ids": [
       "xin_liu_08a35aa535aa8bc3"
@@ -12079,11 +12517,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "xiaobai_li": {
+        "category_id": "multimodal_emotion",
+        "label": "多模态情感理解、面部表情与语音情绪",
+        "scholar_name": "李晓白",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "刘鑫：情感数据集、基准与评测",
-      "赵国英：情感数据集、基准与评测"
+      "赵国英：情感数据集、基准与评测",
+      "李晓白：多模态情感理解、面部表情与语音情绪"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "emotion_benchmark",
@@ -12778,7 +13228,9 @@
       "情感视觉与微表情",
       "多模态情感分析",
       "视觉情感大模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -12812,11 +13264,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "guoying_zhao",
-      "xin_liu"
+      "xin_liu",
+      "su_jing_wang"
     ],
     "scholar_names": [
       "赵国英",
-      "刘鑫"
+      "刘鑫",
+      "王苏菁"
     ],
     "source_record_ids": [
       "guoying_zhao_eeef53017d0d"
@@ -12846,12 +13300,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "su_jing_wang": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "王苏菁",
+        "secondary_tags": [
+          "情感视觉与微表情",
+          "多模态情感分析",
+          "视觉情感大模型",
+          "情感计算与情绪理解",
+          "情感理解",
+          "情感智能"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "01e9a6fe08f3d17c",
     "primary_categories_by_scholar": [
       "赵国英：情感理解与多模态推理",
-      "刘鑫：情感理解与多模态推理"
+      "刘鑫：情感理解与多模态推理",
+      "王苏菁：视觉感知、语音信号与通用人工智能"
     ],
     "dblp_key": "journals/taffco/HuangWLZFP19",
     "pdf_url": "https://arxiv.org/pdf/1608.02255",
@@ -14824,7 +15294,8 @@
     "abstract_zh": "网络上数以百万计的图像使我们能够探索家庭聚会等社会活动中的图像，因此理解和模拟一群人在图像中所表现出的影响是很有趣的。但由于室内和室外环境不同，以及不同数量的人之间发生的互动，对多人表达的影响进行分析具有挑战性。一些现有的群体级情绪识别（GER）工作已经对面部信息进行了研究。由于环境充满挑战，人脸可能无法向 GER 提供足够的信息。相对较少的研究调查了多模式 GER。因此，我们提出了一种基于新功能的新颖的多模式方法......",
     "abstract_source": "arxiv_api",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 76/1820-12）",
     "status": "预印本记录",
@@ -14892,7 +15363,8 @@
     "abstract_zh": "最近，人们对从面部图像序列推断微表情越来越感兴趣。由于微表情的微妙面部运动，特征提取已成为自发面部微表情识别的重要且关键的问题。最近的工作通常使用时空局部二值模式进行微表情分析。然而，常用的时空局部二值模式考虑动态纹理信息来表示人脸图像，而忽略了人脸图像的形状属性。另一方面，他们的工作从全局人脸区域中提取时空特征，忽略了两个微观表达之间的区分信息。",
     "abstract_source": "arxiv_api",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 76/1820-12）",
     "status": "预印本记录",
@@ -14903,10 +15375,12 @@
     "scholar_id": "xin_liu",
     "scholar_name": "刘鑫",
     "scholar_ids": [
-      "xin_liu"
+      "xin_liu",
+      "su_jing_wang"
     ],
     "scholar_names": [
-      "刘鑫"
+      "刘鑫",
+      "王苏菁"
     ],
     "source_record_ids": [
       "xin_liu_8f9d15cd3ad93164"
@@ -14925,10 +15399,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "su_jing_wang": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "王苏菁",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "刘鑫：情感理解与多模态推理"
+      "刘鑫：情感理解与多模态推理",
+      "王苏菁：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "emotion_understanding",

@@ -1,0 +1,382 @@
+[
+  {
+    "id": "res_gh_8df3657ad808",
+    "name": "DoubleMix (declare-lab/DoubleMix)",
+    "name_zh": "DoubleMix (declare-lab/DoubleMix) — DoubleMix：用于文本分类的简单的基于插值的数据增强",
+    "type": "code",
+    "url": "https://github.com/declare-lab/DoubleMix",
+    "download_url": "https://github.com/declare-lab/DoubleMix",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "soujanya_poria",
+    "scholar_name": "Soujanya Poria",
+    "matched_paper_ids": [
+      "3216e9fbf5e282da"
+    ],
+    "related_paper_titles": [
+      "DoubleMix: Simple Interpolation-Based Data Augmentation for Text Classification"
+    ],
+    "related_paper_titles_zh": [
+      "DoubleMix：用于文本分类的简单的基于插值的数据增强"
+    ],
+    "evidence_urls": [
+      "http://arxiv.org/abs/2209.05297"
+    ],
+    "description": "论文《DoubleMix：用于文本分类的简单的基于插值的数据增强》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "soujanya_poria::general_vision_ai"
+    ],
+    "primary_categories": [
+      "Soujanya Poria：视觉感知、语音信号与通用人工智能"
+    ]
+  },
+  {
+    "id": "res_gh_3ed2366f7b50",
+    "name": "declare-lab/trust-align",
+    "name_zh": "declare-lab/trust-align — 通过扎根归因和学习拒绝来衡量和增强 RAG 大语言模型的可信度",
+    "type": "code",
+    "url": "https://github.com/declare-lab/trust-align",
+    "download_url": "https://github.com/declare-lab/trust-align",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "soujanya_poria",
+    "scholar_name": "Soujanya Poria",
+    "matched_paper_ids": [
+      "ba806b97da290863"
+    ],
+    "related_paper_titles": [
+      "Measuring and Enhancing Trustworthiness of LLMs in RAG through Grounded Attributions and Learning to Refuse"
+    ],
+    "related_paper_titles_zh": [
+      "通过扎根归因和学习拒绝来衡量和增强 RAG 大语言模型的可信度"
+    ],
+    "evidence_urls": [
+      "http://arxiv.org/abs/2409.11242"
+    ],
+    "description": "论文《通过扎根归因和学习拒绝来衡量和增强 RAG 大语言模型的可信度》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "soujanya_poria::affect_dataset_eval"
+    ],
+    "primary_categories": [
+      "Soujanya Poria：情感理解数据集、评测基准与综述"
+    ]
+  },
+  {
+    "id": "res_gh_ba444c09ec4c",
+    "name": "declare-lab/NLP-OT",
+    "name_zh": "declare-lab/NLP-OT — 以最佳传输损失解决 NLP 任务",
+    "type": "code",
+    "url": "https://github.com/declare-lab/NLP-OT",
+    "download_url": "https://github.com/declare-lab/NLP-OT",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "soujanya_poria",
+    "scholar_name": "Soujanya Poria",
+    "matched_paper_ids": [
+      "86fe1781497ae919"
+    ],
+    "related_paper_titles": [
+      "Towards solving NLP tasks with optimal transport loss"
+    ],
+    "related_paper_titles_zh": [
+      "以最佳传输损失解决 NLP 任务"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1016/J.JKSUCI.2022.10.031"
+    ],
+    "description": "论文《以最佳传输损失解决 NLP 任务》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "soujanya_poria::sentiment_nlp"
+    ],
+    "primary_categories": [
+      "Soujanya Poria：文本情感分析、情绪原因与认知语义"
+    ]
+  },
+  {
+    "id": "res_gh_6d7def3cec57",
+    "name": "declare-lab/exemplary-empathy",
+    "name_zh": "declare-lab/exemplary-empathy — 由人类交流要素控制的范例引导的移情反应生成",
+    "type": "code",
+    "url": "https://github.com/declare-lab/exemplary-empathy",
+    "download_url": "https://github.com/declare-lab/exemplary-empathy",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "soujanya_poria",
+    "scholar_name": "Soujanya Poria",
+    "matched_paper_ids": [
+      "4872d014a8bb7205"
+    ],
+    "related_paper_titles": [
+      "Exemplars-Guided Empathetic Response Generation Controlled by the Elements of Human Communication"
+    ],
+    "related_paper_titles_zh": [
+      "由人类交流要素控制的范例引导的移情反应生成"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1109/ACCESS.2022.3193159"
+    ],
+    "description": "论文《由人类交流要素控制的范例引导的移情反应生成》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "soujanya_poria::sentiment_nlp",
+      "rada_mihalcea::sentiment_nlp"
+    ],
+    "primary_categories": [
+      "Soujanya Poria：文本情感分析、情绪原因与认知语义",
+      "Rada Mihalcea：文本情感分析、情绪原因与认知语义"
+    ]
+  },
+  {
+    "id": "res_gh_62986c8642b4",
+    "name": "declare-lab/ASTE-RL",
+    "name_zh": "declare-lab/ASTE-RL — 使用强化学习提取方面情感三元组",
+    "type": "code",
+    "url": "https://github.com/declare-lab/ASTE-RL",
+    "download_url": "https://github.com/declare-lab/ASTE-RL",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "soujanya_poria",
+    "scholar_name": "Soujanya Poria",
+    "matched_paper_ids": [
+      "03ac5e823128c821"
+    ],
+    "related_paper_titles": [
+      "Aspect Sentiment Triplet Extraction Using Reinforcement Learning"
+    ],
+    "related_paper_titles_zh": [
+      "使用强化学习提取方面情感三元组"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1145/3459637.3482058"
+    ],
+    "description": "论文《使用强化学习提取方面情感三元组》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "soujanya_poria::sentiment_nlp"
+    ],
+    "primary_categories": [
+      "Soujanya Poria：文本情感分析、情绪原因与认知语义"
+    ]
+  },
+  {
+    "id": "res_gh_401100391255",
+    "name": "declare-lab/domadapter",
+    "name_zh": "declare-lab/domadapter — UDAPTER - 使用适配器进行有效的域适应",
+    "type": "code",
+    "url": "https://github.com/declare-lab/domadapter",
+    "download_url": "https://github.com/declare-lab/domadapter",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "soujanya_poria",
+    "scholar_name": "Soujanya Poria",
+    "matched_paper_ids": [
+      "91c6b49bc675ffe5"
+    ],
+    "related_paper_titles": [
+      "UDAPTER - Efficient Domain Adaptation Using Adapters"
+    ],
+    "related_paper_titles_zh": [
+      "UDAPTER - 使用适配器进行有效的域适应"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.18653/V1/2023.EACL-MAIN.165"
+    ],
+    "description": "论文《UDAPTER - 使用适配器进行有效的域适应》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "soujanya_poria::sentiment_nlp"
+    ],
+    "primary_categories": [
+      "Soujanya Poria：文本情感分析、情绪原因与认知语义"
+    ]
+  },
+  {
+    "id": "res_gh_80417deac283",
+    "name": "WalledEval (walledai/walledeval)",
+    "name_zh": "WalledEval (walledai/walledeval) — WalledEval：大型语言模型的综合安全评估工具包",
+    "type": "code",
+    "url": "https://github.com/walledai/walledeval",
+    "download_url": "https://github.com/walledai/walledeval",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "soujanya_poria",
+    "scholar_name": "Soujanya Poria",
+    "matched_paper_ids": [
+      "63705b24b5fe92a1"
+    ],
+    "related_paper_titles": [
+      "WalledEval: A Comprehensive Safety Evaluation Toolkit for Large Language Models"
+    ],
+    "related_paper_titles_zh": [
+      "WalledEval：大型语言模型的综合安全评估工具包"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.18653/V1/2024.EMNLP-DEMO.42"
+    ],
+    "description": "论文《WalledEval：大型语言模型的综合安全评估工具包》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "soujanya_poria::sentiment_nlp"
+    ],
+    "primary_categories": [
+      "Soujanya Poria：文本情感分析、情绪原因与认知语义"
+    ]
+  },
+  {
+    "id": "res_gh_146f04af437f",
+    "name": "declare-lab/dialogue-understanding",
+    "name_zh": "declare-lab/dialogue-understanding — 话语级对话理解：实证研究",
+    "type": "code",
+    "url": "https://github.com/declare-lab/dialogue-understanding",
+    "download_url": "https://github.com/declare-lab/dialogue-understanding",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "soujanya_poria",
+    "scholar_name": "Soujanya Poria",
+    "matched_paper_ids": [
+      "ebe4e3cc17318e13"
+    ],
+    "related_paper_titles": [
+      "Utterance-level Dialogue Understanding: An Empirical Study"
+    ],
+    "related_paper_titles_zh": [
+      "话语级对话理解：实证研究"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.48550/ARXIV.2009.13902"
+    ],
+    "description": "论文《话语级对话理解：实证研究》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "soujanya_poria::sentiment_nlp",
+      "rada_mihalcea::sentiment_nlp"
+    ],
+    "primary_categories": [
+      "Soujanya Poria：文本情感分析、情绪原因与认知语义",
+      "Rada Mihalcea：文本情感分析、情绪原因与认知语义"
+    ]
+  },
+  {
+    "id": "res_md_448fb0f500f9",
+    "name": "Hugging Face / declare-lab/flacuna-13b-v1.0",
+    "name_zh": "declare-lab/flacuna-13b-v1.0（开源模型权重）",
+    "type": "model",
+    "url": "https://huggingface.co/declare-lab/flacuna-13b-v1.0",
+    "download_url": "https://huggingface.co/declare-lab/flacuna-13b-v1.0",
+    "access": "Hugging Face 模型仓库",
+    "scholar_id": "soujanya_poria",
+    "scholar_name": "Soujanya Poria",
+    "matched_paper_ids": [
+      "ca117e48a334dae4"
+    ],
+    "related_paper_titles": [
+      "Flacuna: Unleashing the Problem Solving Power of Vicuna using FLAN Fine-Tuning"
+    ],
+    "related_paper_titles_zh": [
+      "Flacuna：使用 FLAN 微调释放 Vicuna 解决问题的能力"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.48550/ARXIV.2307.02053"
+    ],
+    "description": "论文《Flacuna：使用 FLAN 微调释放 Vicuna 解决问题的能力》关联开源预训练/指令微调模型权重。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "soujanya_poria::affect_dataset_eval"
+    ],
+    "primary_categories": [
+      "Soujanya Poria：情感理解数据集、评测基准与综述"
+    ]
+  },
+  {
+    "id": "res_gh_bfaf81b94d0d",
+    "name": "MM-BigBench (declare-lab/MM-BigBench)",
+    "name_zh": "MM-BigBench (declare-lab/MM-BigBench) — MM-BigBench：评估多模态内容理解任务的多模态模型",
+    "type": "code",
+    "url": "https://github.com/declare-lab/MM-BigBench",
+    "download_url": "https://github.com/declare-lab/MM-BigBench",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "soujanya_poria",
+    "scholar_name": "Soujanya Poria",
+    "matched_paper_ids": [
+      "9f5d5e6dfaffcba0"
+    ],
+    "related_paper_titles": [
+      "MM-BigBench: Evaluating Multimodal Models on Multimodal Content Comprehension Tasks"
+    ],
+    "related_paper_titles_zh": [
+      "MM-BigBench：评估多模态内容理解任务的多模态模型"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.48550/ARXIV.2310.09036"
+    ],
+    "description": "论文《MM-BigBench：评估多模态内容理解任务的多模态模型》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "soujanya_poria::general_vision_ai"
+    ],
+    "primary_categories": [
+      "Soujanya Poria：视觉感知、语音信号与通用人工智能"
+    ]
+  },
+  {
+    "id": "res_gh_642d9b828039",
+    "name": "DELLA-Merging (declare-lab/della)",
+    "name_zh": "DELLA-Merging (declare-lab/della) — DELLA-Merging：通过基于幅度的采样减少模型合并中的干扰",
+    "type": "code",
+    "url": "https://github.com/declare-lab/della",
+    "download_url": "https://github.com/declare-lab/della",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "soujanya_poria",
+    "scholar_name": "Soujanya Poria",
+    "matched_paper_ids": [
+      "24f809134d3998bb"
+    ],
+    "related_paper_titles": [
+      "DELLA-Merging: Reducing Interference in Model Merging through Magnitude-Based Sampling"
+    ],
+    "related_paper_titles_zh": [
+      "DELLA-Merging：通过基于幅度的采样减少模型合并中的干扰"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.48550/ARXIV.2406.11617"
+    ],
+    "description": "论文《DELLA-Merging：通过基于幅度的采样减少模型合并中的干扰》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "soujanya_poria::affect_dataset_eval"
+    ],
+    "primary_categories": [
+      "Soujanya Poria：情感理解数据集、评测基准与综述"
+    ]
+  },
+  {
+    "id": "res_ds_ce3f858291c6",
+    "name": "MELD Multimodal EmotionLines Dataset",
+    "name_zh": "MELD 多方对话多模态情绪识别基准数据集",
+    "type": "dataset",
+    "url": "https://github.com/declare-lab/MELD",
+    "download_url": "https://github.com/declare-lab/MELD",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "soujanya_poria",
+    "scholar_name": "Soujanya Poria",
+    "matched_paper_ids": [
+      "06d9a07f8958b9d5"
+    ],
+    "related_paper_titles": [
+      "MELD: A Multimodal Multi-Party Dataset for Emotion Recognition in Conversations"
+    ],
+    "related_paper_titles_zh": [
+      "MELD：用于对话中情绪识别的多模态多方数据集"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.18653/V1/P19-1050"
+    ],
+    "description": "ACL 2019 Declare Lab 多方对话视听文本情感识别标准数据集。",
+    "verification": "代表作与官方项目仓库人工交叉核验",
+    "scholar_category_ids": [
+      "soujanya_poria::general_vision_ai",
+      "rada_mihalcea::general_vision_ai",
+      "erik_cambria::general_nlp_ai"
+    ],
+    "primary_categories": [
+      "Soujanya Poria：视觉感知、语音信号与通用人工智能",
+      "Rada Mihalcea：视觉感知、语音信号与通用人工智能",
+      "Erik Cambria：自然语言处理、多模态学习与通用方法"
+    ]
+  }
+]

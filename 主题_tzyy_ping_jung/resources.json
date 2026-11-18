@@ -1,0 +1,64 @@
+[
+  {
+    "id": "res_gh_88b327504f47",
+    "name": "IC-U-Net (roseDwayane/AIEEG)",
+    "name_zh": "IC-U-Net (roseDwayane/AIEEG) — IC-U-Net：基于 U-Net 的去噪自动编码器，使用独立组件的混合来自动去除脑电图伪影",
+    "type": "code",
+    "url": "https://github.com/roseDwayane/AIEEG",
+    "download_url": "https://github.com/roseDwayane/AIEEG",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "tzyy_ping_jung",
+    "scholar_name": "钟子平",
+    "matched_paper_ids": [
+      "b2683efdb933aabf"
+    ],
+    "related_paper_titles": [
+      "IC-U-Net: A U-Net-based Denoising Autoencoder Using Mixtures of Independent Components for Automatic EEG Artifact Removal"
+    ],
+    "related_paper_titles_zh": [
+      "IC-U-Net：基于 U-Net 的去噪自动编码器，使用独立组件的混合来自动去除脑电图伪影"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1016/J.NEUROIMAGE.2022.119586"
+    ],
+    "description": "论文《IC-U-Net：基于 U-Net 的去噪自动编码器，使用独立组件的混合来自动去除脑电图伪影》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "tzyy_ping_jung::eeg_affect_rec"
+    ],
+    "primary_categories": [
+      "钟子平：脑电情感识别与多模态生理计算"
+    ]
+  },
+  {
+    "id": "res_gh_c6d1e6f0441d",
+    "name": "EEGLAB (UCSD SCCN)",
+    "name_zh": "EEGLAB 单试次脑电动力学分析开源工具箱",
+    "type": "software",
+    "url": "https://github.com/sccn/eeglab",
+    "download_url": "https://github.com/sccn/eeglab",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "tzyy_ping_jung",
+    "scholar_name": "钟子平",
+    "matched_paper_ids": [
+      "1a22bdf41aef47c8"
+    ],
+    "related_paper_titles": [
+      "Online recursive independent component analysis for real-time source separation of high-density EEG"
+    ],
+    "related_paper_titles_zh": [
+      "高密度脑电图实时源分离的在线递归独立成分分析"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1109/EMBC.2014.6944462"
+    ],
+    "description": "全球应用最广泛的脑电独立成分分析（ICA）与时频动力学开源工具箱。",
+    "verification": "代表作与官方项目仓库人工交叉核验",
+    "scholar_category_ids": [
+      "tzyy_ping_jung::eeg_affect_bench"
+    ],
+    "primary_categories": [
+      "钟子平：生理情感数据库、基准与综述"
+    ]
+  }
+]

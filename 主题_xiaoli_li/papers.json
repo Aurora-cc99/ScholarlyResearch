@@ -113,7 +113,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -481,7 +482,8 @@
       "脑电情感识别",
       "脑电基础大模型",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "Crossref exact title match for arXiv-preprint EEG/fMRI/BCI record",
     "status": "已核验作品（Crossref DOI）",
@@ -856,7 +858,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1299,7 +1302,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1651,7 +1655,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "Crossref exact/near-exact title and publication-year match; DOI URL preserved",
     "status": "已核验作品（Crossref DOI）",
@@ -1840,7 +1845,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "Crossref exact/near-exact title and publication-year match; DOI URL preserved",
     "status": "已核验作品（Crossref DOI）",
@@ -2705,7 +2711,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3054,7 +3061,8 @@
     "abstract_zh": "由于情绪在人类日常生活中发挥着至关重要的作用，情绪识别系统具有重要的实用价值。由于心脏活动在情绪唤起过程中至关重要，因此开发基于心脏信号的情绪识别系统非常重要。然而，主体间的变异性给跨主体情感识别带来了重大挑战，并且仍然是情感识别系统实际应用的关键瓶颈。在这里，我们报告了一种基于地震心动图（SCG）信号的光子跨主题情感识别系统（PCERS），利用复杂网络特征工程驱动的机器学习技术从信号中解码主题不变的情感信息。在...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100418692）",
     "status": "已索引出版/会议记录",
@@ -4886,7 +4894,8 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "脑电基础大模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -6432,7 +6441,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -6689,8 +6699,8 @@
     "authors": [
       "Xiaoli Li"
     ],
-    "doi": "",
-    "paper_url": "",
+    "doi": "10.1109/TAFFC.2025.3573180",
+    "paper_url": "https://doi.org/10.1109/TAFFC.2025.3573180",
     "source_url": "",
     "topics": [
       "脑电解码与脑机接口",
@@ -6699,7 +6709,9 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -6711,7 +6723,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 23,
     "publication_types": "",
     "candidate_source": true,
     "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
@@ -6734,10 +6746,12 @@
     "work_title_group": "21da892169cb",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "xiaoli_li"
+      "xiaoli_li",
+      "xiaobai_li"
     ],
     "scholar_names": [
-      "李小俚"
+      "李小俚",
+      "李晓白"
     ],
     "source_record_ids": [
       "xiaoli_li_2d726098798a"
@@ -6756,12 +6770,33 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "xiaobai_li": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "李晓白",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "62ddedc79f735793",
     "primary_categories_by_scholar": [
-      "李小俚：情感脑电与多模态生理信号"
-    ]
+      "李小俚：情感脑电与多模态生理信号",
+      "李晓白：视觉感知、语音信号与通用人工智能"
+    ],
+    "dblp_key": "journals/taffco/KumarMRL25",
+    "pdf_url": "https://arxiv.org/pdf/2208.11450",
+    "abstract_en": "This paper proposes a multimodal emotion recognition system, VIsual Spoken Textual Additive Net (VISTANet), to classify emotions reflected by input containing image, speech, and text into discrete classes. A new interpretability technique, K-Average Additive exPlanation (KAAP), has been developed that identifies important visual, spoken, and textual features leading to predicting a particular emotion class. The VISTANet fuses information from image, speech, and text modalities using a hybrid of intermediate and late fusion. It automatically adjusts the weights of their intermediate outputs while computing the weighted average. The KAAP technique computes the contribution of each modality and corresponding features toward predicting a particular emotion class. To mitigate the insufficiency of multimodal emotion datasets labelled with discrete emotion classes, we have constructed the IIT-R MMEmoRec dataset consisting of images, corresponding speech and text, and emotion labels (‘angry,’ ‘happy,’ ‘hate,’ and ‘sad’). The VISTANet has resulted in an overall emotion recognition accuracy of 80.11% on the IIT-R MMEmoRec dataset using visual, spoken, and textual modalities, outperforming single or dual-modality configurations. The code and data can be accessed at github.com/MIntelligence-Group/MMEmoRec.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "本文提出了一种多模态情感识别系统，视觉口语文本加法网络（VISTANet），将包含图像、语音和文本的输入反映的情感分类为离散类别。一种新的可解释性技术——K-平均加性解释（KAAP）已经被开发出来，它可以识别重要的视觉、口头和文本特征，从而预测特定的情绪类别。 VISTANet 使用中间和后期融合的混合方式融合来自图像、语音和文本模式的信息。它在计算加权平均值时自动调整中间输出的权重。 KAAP 技术计算每种模态和相应特征对预测粒子的贡献..."
   },
   {
     "title": "Development of EEG connectivity from preschool to school-age children",
@@ -8010,7 +8045,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点核验",
     "status": "候选条目/需按作者主页继续核验",
@@ -9808,7 +9844,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点核验",
     "status": "候选条目/需按作者主页继续核验",
@@ -11275,7 +11312,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页",
     "status": "候选条目/需按作者主页继续核验",
@@ -14261,7 +14299,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -15393,7 +15432,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -15663,7 +15703,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页",
     "status": "候选条目/需按作者主页继续核验",
@@ -16248,8 +16289,8 @@
     "authors": [
       "Xiaoli Li"
     ],
-    "doi": "",
-    "paper_url": "",
+    "doi": "10.1016/J.NEUCOM.2021.01.079",
+    "paper_url": "https://doi.org/10.1016/J.NEUCOM.2021.01.079",
     "source_url": "",
     "topics": [
       "脑电解码与脑机接口",
@@ -16269,7 +16310,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 31,
     "publication_types": "",
     "candidate_source": true,
     "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
@@ -16292,10 +16333,12 @@
     "work_title_group": "42d78c108e30",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "xiaoli_li"
+      "xiaoli_li",
+      "suge_wang"
     ],
     "scholar_names": [
-      "李小俚"
+      "李小俚",
+      "王素格"
     ],
     "source_record_ids": [
       "xiaoli_li_8a355d18cd9d"
@@ -16314,12 +16357,29 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "suge_wang": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "王素格",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "low",
+        "note": ""
       }
     },
     "global_record_id": "365ba92e72075072",
     "primary_categories_by_scholar": [
-      "李小俚：情感脑电与多模态生理信号"
-    ]
+      "李小俚：情感脑电与多模态生理信号",
+      "王素格：通用预训练大模型、视听生成与基础方法"
+    ],
+    "dblp_key": "journals/ijon/FuLLWLL21"
   },
   {
     "title": "Dual-CNN based multi-modal sleep scoring with temporal correlation driven fine-tuning",
@@ -16839,7 +16899,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -17015,7 +17077,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -17849,27 +17912,32 @@
     "authors": [
       "Xiaoli Li"
     ],
-    "doi": "",
-    "paper_url": "",
+    "doi": "10.1109/TETCI.2022.3189695",
+    "paper_url": "https://doi.org/10.1109/TETCI.2022.3189695",
     "source_url": "",
     "topics": [
       "脑电解码与脑机接口",
       "脑电情感计算",
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
-      "情感大模型与多模态基础模型"
+      "情感大模型与多模态基础模型",
+      "脑电基础大模型"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
-    "resource_ids": [],
-    "code_urls": [],
+    "resource_ids": [
+      "res_gh_3e620e9b99ae"
+    ],
+    "code_urls": [
+      "https://github.com/emadeldeen24/ADAST"
+    ],
     "data_urls": [],
     "model_urls": [],
     "openalex_id": "",
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 74,
     "publication_types": "",
     "candidate_source": true,
     "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
@@ -17890,12 +17958,14 @@
     "scholar_id": "xiaoli_li",
     "scholar_name": "李小俚",
     "work_title_group": "dd82630be1c3",
-    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
-      "xiaoli_li"
+      "xiaoli_li",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "李小俚"
+      "李小俚",
+      "关存太"
     ],
     "source_record_ids": [
       "xiaoli_li_86f39fd411e4"
@@ -17914,12 +17984,33 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑电基础大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "889b2c066fe85db2",
     "primary_categories_by_scholar": [
-      "李小俚：情感脑电与多模态生理信号"
-    ]
+      "李小俚：情感脑电与多模态生理信号",
+      "关存太：脑电基础大模型与自监督预训练"
+    ],
+    "dblp_key": "journals/tetci/EldeleRCWKLG23",
+    "pdf_url": "https://arxiv.org/pdf/2107.04470",
+    "abstract_en": "Sleep staging is of great importance in the diagnosis and treatment of sleep disorders. Recently, numerous data-driven deep learning models have been proposed for automatic sleep staging. They mainly train the model on a large public labeled sleep dataset and test it on a smaller one with subjects of interest. However, they usually assume that the train and test data are drawn from the same distribution, which may not hold in real-world scenarios. Unsupervised domain adaption (UDA) has been recently developed to handle this domain shift problem. However, previous UDA methods applied for sleep staging have two main limitations. First, they rely on a totally shared model for the domain alignment, which may lose the domain-specific information during feature extraction. Second, they only align the source and target distributions globally without considering the class information in the target domain, which hinders the classification performance of the model while testing. In this work, we propose a novel adversarial learning framework called ADAST to tackle the domain shift problem in the unlabeled target domain. First, we develop an unshared attention mechanism to preserve the domain-specific features in both domains. Second, we design an iterative self-training strategy to improve the classification performance on the target domain via target domain pseudo labels. We also propose dual distinct classifiers to increase the robustness and quality of the pseudo labels. The experimental results on six cross-domain scenarios validate the efficacy of our proposed framework and its advantage over state-of-the-art UDA methods. The source code is available at https://github.com/emadeldeen24/ADAST.",
+    "abstract_source": "arxiv_api",
+    "abstract_zh": "睡眠分期对于睡眠障碍的诊断和治疗非常重要。最近，人们提出了许多数据驱动的深度学习模型用于自动睡眠分期。他们主要在大型公共标记睡眠数据集上训练模型，并在包含感兴趣主题的较小数据集上进行测试。然而，他们通常假设训练数据和测试数据来自相同的分布，这在现实场景中可能不成立。最近开发了无监督域适应（UDA）来处理这个域转移问题。然而，之前应用于睡眠分期的 UDA 方法有两个主要局限性。首先，它们依赖于完全共享的模型来进行域对齐，这可能会丢失特定于域的信息......"
   },
   {
     "title": "Neuromodulation Effects of Ultrasound Stimulation Under Different Parameters on Mouse Motor Cortex",
@@ -18382,8 +18473,8 @@
     "authors": [
       "Xiaoli Li"
     ],
-    "doi": "",
-    "paper_url": "",
+    "doi": "10.18653/V1/2020.EMNLP-MAIN.307",
+    "paper_url": "https://doi.org/10.18653/V1/2020.EMNLP-MAIN.307",
     "source_url": "",
     "topics": [
       "脑电解码与脑机接口",
@@ -18403,7 +18494,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 6,
     "publication_types": "",
     "candidate_source": true,
     "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
@@ -18426,10 +18517,12 @@
     "work_title_group": "cefd8a6cb656",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "xiaoli_li"
+      "xiaoli_li",
+      "suge_wang"
     ],
     "scholar_names": [
-      "李小俚"
+      "李小俚",
+      "王素格"
     ],
     "source_record_ids": [
       "xiaoli_li_705569c00f8d"
@@ -18448,12 +18541,33 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "suge_wang": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "王素格",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "449a74242805bd26",
     "primary_categories_by_scholar": [
-      "李小俚：情感脑电与多模态生理信号"
-    ]
+      "李小俚：情感脑电与多模态生理信号",
+      "王素格：通用预训练大模型、视听生成与基础方法"
+    ],
+    "dblp_key": "conf/emnlp/ZhangLLWLLZ20",
+    "pdf_url": "https://www.aclweb.org/anthology/2020.emnlp-main.307.pdf",
+    "abstract_en": "Detecting public sentiment drift is a challenging task due to sentiment change over time.Existing methods first build a classification model using historical data and subsequently detect drift if the model performs much worse on new data.In this paper, we focus on distribution learning by proposing a novel Hierarchical Variational Auto-Encoder (HVAE) model to learn better distribution representation, and design a new drift measure to directly evaluate distribution changes between historical data and new data.Our experimental results demonstrate that our proposed model achieves better results than three existing state-of-theart methods.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "由于情绪随时间变化，检测公众情绪漂移是一项具有挑战性的任务。现有方法首先使用历史数据建立分类模型，如果模型在新数据上表现更差，则随后检测漂移。在本文中，我们通过提出一种新颖的分层变分自动编码器（HVAE）模型来关注分布学习，以学习更好的分布表示，并设计一种新的漂移度量来直接评估历史数据和新数据之间的分布变化。我们的实验结果表明，我们提出的模型比现有的三个模型取得了更好的结果最先进的方法。"
   },
   {
     "title": "A study on EEG feature extraction and classification in autistic children based on singular spectrum analysis method",
@@ -19342,8 +19456,8 @@
     "authors": [
       "Xiaoli Li"
     ],
-    "doi": "",
-    "paper_url": "",
+    "doi": "10.1109/ACCESS.2020.2972697",
+    "paper_url": "https://doi.org/10.1109/ACCESS.2020.2972697",
     "source_url": "",
     "topics": [
       "脑电解码与脑机接口",
@@ -19363,7 +19477,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 18,
     "publication_types": "",
     "candidate_source": true,
     "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
@@ -19386,10 +19500,12 @@
     "work_title_group": "d35da222d343",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "xiaoli_li"
+      "xiaoli_li",
+      "suge_wang"
     ],
     "scholar_names": [
-      "李小俚"
+      "李小俚",
+      "王素格"
     ],
     "source_record_ids": [
       "xiaoli_li_eeac3f0ebd2c"
@@ -19408,12 +19524,33 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "suge_wang": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "王素格",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "eaacd2747c83719a",
     "primary_categories_by_scholar": [
-      "李小俚：情感脑电与多模态生理信号"
-    ]
+      "李小俚：情感脑电与多模态生理信号",
+      "王素格：情感与大模型评测基准、数据集及综述"
+    ],
+    "dblp_key": "journals/access/WuLLLLW20",
+    "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/08988147.pdf",
+    "abstract_en": "Aspect-level sentiment classification aims to determine sentiment polarities of various aspects in reviews, where each review typically contains multiple aspects, that may correspond to different polarities. Aspect-level sentiment classification, unlike document-level sentiment classification, requires different context representations for different aspects. Existing methods normally use Long Short-Term Memory (LSTM) network to model aspects and contexts separately, and they combine attention mechanisms to extract features of a specific aspect in its context. Attention mechanisms are not used for sequence modeling, so aspects are not considered when generating context sequence representations. This study proposes a novel aspect-context interactive representation structure that only relies on an attention mechanism for generating sequence-to-sequence representations in both context and aspect. It is capable of extracting features related to the specific aspect during the process of its context sequence modeling, and generating a high quality aspect representation simultaneously. We have conducted comprehensive experiments to compare with thirteen existing methods. Our experimental results show that the proposed model is able to achieve significantly better performance on Restaurant dataset, as well as very competitive results on Laptop and Twitter datasets.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "方面级情感分类旨在确定评论中各个方面的情感极性，其中每个评论通常包含多个方面，可能对应于不同的极性。方面级情感分类与文档级情感分类不同，不同方面需要不同的上下文表示。现有方法通常使用长短期记忆（LSTM）网络分别对方面和上下文进行建模，并结合注意力机制来提取上下文中特定方面的特征。注意机制不用于序列建模，因此在生成上下文序列表示时不考虑方面。这项研究提出了一种新颖的方面上下文交互..."
   },
   {
     "title": "Decision-Making Selector (DMS) for Integrating CCA-Based Methods to Improve Performance of SSVEP-Based BCIs",
@@ -20790,8 +20927,8 @@
     "authors": [
       "Xiaoli Li"
     ],
-    "doi": "",
-    "paper_url": "",
+    "doi": "10.3390/SYM11020133",
+    "paper_url": "https://doi.org/10.3390/SYM11020133",
     "source_url": "",
     "topics": [
       "脑电解码与脑机接口",
@@ -20811,7 +20948,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 14,
     "publication_types": "",
     "candidate_source": true,
     "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
@@ -20834,10 +20971,12 @@
     "work_title_group": "838e2a59b392",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "xiaoli_li"
+      "xiaoli_li",
+      "suge_wang"
     ],
     "scholar_names": [
-      "李小俚"
+      "李小俚",
+      "王素格"
     ],
     "source_record_ids": [
       "xiaoli_li_370d4e6584cf"
@@ -20856,12 +20995,33 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "suge_wang": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "王素格",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "d7b1c1171e04c3e5",
     "primary_categories_by_scholar": [
-      "李小俚：情感脑电与多模态生理信号"
-    ]
+      "李小俚：情感脑电与多模态生理信号",
+      "王素格：通用预训练大模型、视听生成与基础方法"
+    ],
+    "dblp_key": "journals/symmetry/LiLWLLL19",
+    "pdf_url": "https://www.mdpi.com/2073-8994/11/2/133/pdf?version=1548336274",
+    "abstract_en": "A large-scale and high-quality training dataset is an important guarantee to learn an ideal classifier for text sentiment classification. However, manually constructing such a training dataset with sentiment labels is a labor-intensive and time-consuming task. Therefore, based on the idea of effectively utilizing unlabeled samples, a synthetical framework that covers the whole process of semi-supervised learning from seed selection, iterative modification of the training text set, to the co-training strategy of the classifier is proposed in this paper for text sentiment classification. To provide an important basis for selecting the seed texts and modifying the training text set, three kinds of measures—the cluster similarity degree of an unlabeled text, the cluster uncertainty degree of a pseudo-label text to a learner, and the reliability degree of a pseudo-label text to a learner—are defined. With these measures, a seed selection method based on Random Swap clustering, a hybrid modification method of the training text set based on active learning and self-learning, and an alternately co-training strategy of the ensemble classifier of the Maximum Entropy and Support Vector Machine are proposed and combined into our framework. The experimental results on three Chinese datasets (COAE2014, COAE2015, and a Hotel review, respectively) and five English datasets (Books, DVD, Electronics, Kitchen, and MR, respectively) in the real world verify the effectiveness of the proposed framework.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "大规模、高质量的训练数据集是学习理想的文本情感分类分类器的重要保证。然而，手动构建这样的带有情感标签的训练数据集是一项劳动密集型且耗时的任务。因此，基于有效利用未标记样本的思想，本文提出了一个涵盖从种子选择、训练文本集迭代修改到分类器协同训练策略的半监督学习全过程的文本情感分类综合框架。为了给种子文本的选择和训练文本集的修改提供重要依据，本文提出了三种度量——用户的聚类相似度。"
   },
   {
     "title": "Effects of repetitive transcranial magnetic stimulation on children with low‐function autism",

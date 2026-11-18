@@ -2,6 +2,7 @@
   title = {Beyond Flattened Tokens: Structure-Preserving EEG Decoding with Reusable TriDim Blocks},
   author = {Shiyue Su and Song Wang and Zekai Zhan and Junjie Zeng and Ziling Lu and Zongsheng Li and Xinyuan Ye and Zhiyuan Ma and Xinke Shen and Quanying Liu},
   year = {2026},
+  doi = {10.48550/ARXIV.2609.19842},
   url = {https://arxiv.org/abs/2609.19842},
   howpublished = {arXiv (Cornell University)},
   annotation = {中文辅助译名：超越扁平化词元：使用可重复使用的 TriDim 块进行结构保留 EEG 解码},
@@ -27,7 +28,7 @@
   url = {https://doi.org/10.5281/zenodo.19498240},
   howpublished = {Zenodo (CERN European Organization for Nuclear Research)},
   annotation = {中文辅助译名：几何感知框架增强了整个人脑动力学的无创映射},
-  abstract = {Non invasive electrophysiology lacks methods that accurately reconstruct whole brain spatiotemporal dynamics while incorporating individual cortical geometry, leaving current electroencephalography and magnetoencephalography source imaging limited by simplistic or biologically implausible priors. Here, we show that embedding patient-specific Geometric Basis Function (GBF), eigenmodes derived from each individual’s cortical surface, provides a powerful anatomic constraint that resolves the inverse problem and improves reconstruction fidelity. The method allows reconstruction of the sources as linear combinations of geometric organization of neural dynamics. We validate GBF across the Meta-Source Benchmark, task-evoked data, resting-state networks, intracranial stimulation, and epilepsy data. The results demonstrate that GBF yields high localization accuracy and captures fast spatiotemporal dynamics consistent with anatomical pathways. These findings suggest that both spontaneous and evoked whole-brain activity can be described by hundreds of geometric modes, providing a compact yet accurate representation of neural sources. By linking cortical geometry to electrophysiological dynamics, GBF offers a versatile source imaging tool for both scientific and clinical applications.},
+  abstract = {Non-invasive electrophysiology lacks methods that accurately reconstruct whole-brain spatiotemporal dynamics while incorporating individual cortical geometry, leaving current electroencephalography and magnetoencephalography source imaging limited by simplistic or biologically implausible priors. Here, we show that embedding participant-specific Geometric Basis Functions (GBFs), eigenmodes derived from each individual's cortical surface, provides a powerful anatomic constraint that resolves the inverse problem and improves reconstruction fidelity. The method reconstructs neural sources as linear combinations of geometric basis functions, thereby aligning source estimates with the geometric organization of neural dynamics. We validate GBF across the Meta-Source Benchmark, task-evoked data, resting-state networks, intracranial stimulation, and epilepsy data. The results demonstrate that GBF yields high localization accuracy and captures fast spatiotemporal dynamics consistent with anatomical pathways. These findings suggest that both spontaneous and evoked whole-brain activity can be described by hundreds of geometric modes, providing a compact yet accurate representation of neural sources. By linking cortical geometry to electrophysiological dynamics, GBF offers a versatile source imaging tool for both scientific and clinical applications.},
 }
 
 @misc{xinke_shen_5588b19331cb,
@@ -143,9 +144,11 @@
   title = {Multi-dataset Joint Pre-training of Emotional EEG Enables Generalizable Affective Computing},
   author = {Xinke Shen},
   year = {2025},
+  doi = {10.52202/085713-5515},
   url = {https://proceedings.neurips.cc/paper_files/paper/2025/file/f1b8d443042f376aa3654b6c68de6297-Paper-Conference.pdf},
   howpublished = {NeurIPS 2025},
   annotation = {中文辅助译名：感情EEG的多数据集联合预训练实现可泛化情感计算},
+  abstract = {Task-specific pre-training is essential when task representations diverge from generic pre-training features. Existing task-general pre-training EEG models struggle with complex tasks like emotion recognition due to mismatches between task-specific features and broad pre-training approaches. This work aims to develop a task-specific multi-dataset joint pre-training framework for cross-dataset emotion recognition, tackling problems of large inter-dataset distribution shifts, inconsistent emotion category definitions, and substantial inter-subject variability. We introduce a cross-dataset covariance alignment loss to align second-order statistical properties across datasets, enabling robust generalization without the need for extensive labels or per-subject calibration. To capture the long-term dependency and complex dynamics of EEG, we propose a hybrid encoder combining a Mamba-like linear attention channel encoder and a spatiotemporal dynamics model. Our method outperforms state-of-the-art large-scale EEG models by an average of 4.57% in AUROC for few-shot emotion recognition and 11.92% in accuracy for zero-shot generalization to a new dataset. Performance scales with the increase of datasets used in pre-training. Multi-dataset joint pre-training achieves a performance gain of 8.55% over single-dataset training. This work provides a scalable framework for task-specific pre-training and highlights its benefit in generalizable affective computing. Our code is available at https},
 }
 
 @misc{xinke_shen_18584d2d2e58,

@@ -5,7 +5,7 @@
 - **身份/单位**：Institute of Semiconductors, Chinese Academy of Sciences
 - **英文姓名**：Yijun Wang · **ORCID**：[0000-0002-8161-2150](https://orcid.org/0000-0002-8161-2150) · **DBLP**：[27/1332-1](https://dblp.org/pid/27/1332-1.html)
 - **外部身份依据**：[身份源1](https://dblp.org/pid/27/1332-1.html) · [身份源2](https://sccn.ucsd.edu/download/yijun/) · [身份源3](https://orcid.org/0000-0002-8161-2150) · [身份源4](https://openalex.org/A5100713695) · [身份源5](https://openalex.org/A5136498658)
-- **本轮核验书目记录**：**313** 条（其中含中英文摘要 **205** 条）；**开源资源入口**：**4** 条；**已关联资源的论文**：**5** 篇。
+- **本轮核验书目记录**：**313** 条（其中含中英文摘要 **207** 条）；**开源资源入口**：**4** 条；**已关联资源的论文**：**5** 篇。
 
 [论文分类目录](论文分类目录.md) · [按年份查看全部论文](全部论文.md) · [论文CSV](papers.csv) · [BibTeX](papers.bib) · [代码与项目](代码与项目.md) · [数据集与模型](数据集与模型.md) · [资源CSV](resources.csv) · [核验与缺口](核验与缺口.md) · [返回总导航](../README_总导航.md)
 

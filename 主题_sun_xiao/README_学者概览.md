@@ -5,7 +5,7 @@
 - **身份/单位**：合肥工业大学；情感计算与先进智能机器安徽省重点实验室；MAC-Lab
 - **英文姓名**：Xiao Sun · **ORCID**：[0000-0001-9750-7032](https://orcid.org/0000-0001-9750-7032) · **DBLP**：[30/202-3](https://dblp.org/pid/30/202-3.html)
 - **外部身份依据**：[身份源1](https://faculty.hfut.edu.cn/sunxiao/zh_CN/index.htm) · [身份源2](https://sxhfut.github.io/research/) · [身份源3](https://sxhfut.github.io/publications/) · [身份源4](https://orcid.org/0000-0001-9750-7032) · [身份源5](https://dblp.org/pid/30/202-3.html) · [身份源6](https://openalex.org/A5088062069) · [身份源7](https://openalex.org/A5073318464)
-- **本轮核验书目记录**：**264** 条（其中含中英文摘要 **177** 条）；**开源资源入口**：**21** 条；**已关联资源的论文**：**19** 篇。
+- **本轮核验书目记录**：**264** 条（其中含中英文摘要 **178** 条）；**开源资源入口**：**21** 条；**已关联资源的论文**：**19** 篇。
 
 [论文分类目录](论文分类目录.md) · [按年份查看全部论文](全部论文.md) · [论文CSV](papers.csv) · [BibTeX](papers.bib) · [代码与项目](代码与项目.md) · [数据集与模型](数据集与模型.md) · [资源CSV](resources.csv) · [核验与缺口](核验与缺口.md) · [返回总导航](../README_总导航.md)
 

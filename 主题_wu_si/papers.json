@@ -106,7 +106,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "Crossref exact title match; DOI URL preserved",
     "status": "已核验作品（Crossref DOI）",
@@ -196,7 +197,8 @@
     "abstract_zh": "人类将经验抽象为结构化表示，以促进模式推理和知识转移。虽然海马-内嗅 (HPC-MEC) 回路已知代表空间和概念空间，但从连续、高维动态中同时提取抽象结构的机制仍然知之甚少。我们提出了一种受大脑启发的分层模型，该模型可以同时推断潜在的转换并构建预测的视觉世界模型。我们的架构采用逆模型进行结构提取，并采用 HPC-MEC 耦合模型，将关系结构 (MEC) 与集成情景场景 (HPC) 分离。使用原始变换动力学作为基准，我们证明......",
     "abstract_source": "arxiv_api",
     "topics": [
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "脑电基础大模型"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 25/437-1）",
     "status": "预印本记录",
@@ -346,7 +348,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感智能"
     ],
     "verification": "Crossref exact title match; DOI URL preserved",
     "status": "已核验作品（Crossref DOI）",
@@ -358,7 +361,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 2,
     "publication_types": "",
     "candidate_source": false,
     "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）；Crossref exact title",
@@ -382,10 +385,12 @@
     "work_title_group": "34e5128b95d4",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "wu_si"
+      "wu_si",
+      "erik_cambria"
     ],
     "scholar_names": [
-      "吴思"
+      "吴思",
+      "Erik Cambria"
     ],
     "source_record_ids": [
       "wu_si_05980b7480f2"
@@ -405,15 +410,32 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "erik_cambria": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Erik Cambria",
+        "secondary_tags": [
+          "计算神经科学",
+          "连续吸引子神经网络",
+          "类脑智能",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "7887d0b54bc7c5ef",
     "primary_categories_by_scholar": [
-      "吴思：情感脑电与多模态生理信号"
+      "吴思：情感脑电与多模态生理信号",
+      "Erik Cambria：自然语言处理、多模态学习与通用方法"
     ],
     "abstract_en": "Multimodal Emotion-Cause Pair Extraction in Conversation (MECPEC) aims to accurately identify emotions and their causes in multimodal multiparty conversations. Existing methods primarily rely on discriminative or generative predictions from pre-trained language models, overlooking the potential to leverage the differences and complementary strengths between these two approaches. This paper proposes a novel framework, DEC-Debate, based on a multiparty-multiround debate mechanism. Concretely, the utterance emotion classification results from different models are integrated through debate, which can assign more appropriate emotion labels to utterances. Subsequently, multiple LLMs collaborate to combine their knowledge, express the causal relationships in each emotion-cause utterance pair, and then explain and update them through multiround debate, reducing the impact of erroneous model knowledge. By enabling independent generation and mutual criticism, our method gradually reaches consensus, enhancing the accuracy and reliability of the inference. It achieves state-of-the-art performance and strong generalization on three public benchmark datasets.",
     "abstract_source": "openalex_doi",
-    "abstract_zh": "对话中的多模态情感-原因对提取（MECPEC）旨在准确识别多模态多方对话中的情绪及其原因。现有方法主要依赖于预先训练的语言模型的判别性或生成性预测，忽视了利用这两种方法之间的差异和互补优势的潜力。本文提出了一种基于多方多轮辩论机制的新颖框架DEC-Debate。具体来说，通过辩论整合不同模型的话语情感分类结果，可以为话语分配更合适的情感标签。随后，多个大语言模型合作..."
+    "abstract_zh": "对话中的多模态情感-原因对提取（MECPEC）旨在准确识别多模态多方对话中的情绪及其原因。现有方法主要依赖于预先训练的语言模型的判别性或生成性预测，忽视了利用这两种方法之间的差异和互补优势的潜力。本文提出了一种基于多方多轮辩论机制的新颖框架DEC-Debate。具体来说，通过辩论整合不同模型的话语情感分类结果，可以为话语分配更合适的情感标签。随后，多个大语言模型合作...",
+    "dblp_key": "journals/taffco/WuLWJC26"
   },
   {
     "title": "Bridging Categorical and Dimensional Affect: The MVEmo Multi-Task Benchmark for Music-Related Emotion Recognition",
@@ -439,7 +461,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "Crossref exact title match; DOI URL preserved",
     "status": "已核验作品（Crossref DOI）",
@@ -1219,7 +1243,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份已核验；公开目录/代表作范围已接入，非全部生涯作品；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1795,7 +1820,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份已核验；公开目录/代表作范围已接入，非全部生涯作品；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2051,7 +2078,10 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感大模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份已核验；公开目录/代表作范围已接入，非全部生涯作品；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3387,7 +3417,9 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份已核验；公开目录/代表作范围已接入，非全部生涯作品；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -4025,7 +4057,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份已核验；公开目录/代表作范围已接入，非全部生涯作品；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -4290,7 +4324,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份已核验；公开目录/代表作范围已接入，非全部生涯作品；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -6172,7 +6207,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份已核验；公开目录/代表作范围已接入，非全部生涯作品；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -6862,7 +6898,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份已核验；公开目录/代表作范围已接入，非全部生涯作品；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",

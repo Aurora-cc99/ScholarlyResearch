@@ -17,7 +17,7 @@
       "Xinke Shen",
       "Quanying Liu"
     ],
-    "doi": "",
+    "doi": "10.48550/ARXIV.2609.19842",
     "paper_url": "https://arxiv.org/abs/2609.19842",
     "source_url": "https://arxiv.org/abs/2609.19842",
     "topics": [
@@ -27,7 +27,8 @@
       "脑电情感识别",
       "脑机接口与神经解码",
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "verification": "主题筛选候选；重点纳入：情感EEG预训练；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -62,12 +63,14 @@
     "scholar_id": "xinke_shen",
     "scholar_name": "沈新科",
     "work_title_group": "a61153f89dbf",
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
-      "xinke_shen"
+      "xinke_shen",
+      "quanying_liu"
     ],
     "scholar_names": [
-      "沈新科"
+      "沈新科",
+      "刘泉影"
     ],
     "source_record_ids": [
       "xinke_shen_b2f1ccdacbe7"
@@ -84,16 +87,33 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "quanying_liu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "刘泉影",
+        "secondary_tags": [
+          "情感EEG",
+          "跨域对齐损失",
+          "可泛化脑电解码",
+          "脑电情感识别",
+          "脑机接口与神经解码",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "ae42f785a3bcb832",
     "primary_categories_by_scholar": [
-      "沈新科：情感脑电与多模态生理信号"
+      "沈新科：情感脑电与多模态生理信号",
+      "刘泉影：脑电基础大模型与自监督预训练"
     ],
     "pdf_url": "https://arxiv.org/pdf/2609.19842",
     "abstract_en": "Effective EEG decoding requires representations that preserve organization among channels, local waveform dynamics, and long-range temporal context. Existing EEG architectures often capture these structures using separate specialized modules or collapse them into a single token sequence, making it difficult to maintain their distinct roles and coordinate their interactions throughout the backbone. We propose TriDim, a reusable block that preserves the representation shape and keeps three EEG axes explicit: channel, sample position within each patch, and patch position across the recording. These axes correspond to spatial, short-term temporal, and long-term temporal information, respectively. Each TriDim block applies feed-forward transformations along individual axes and cross-axis attention to coordinate information exchange among them. By stacking TriDim blocks with a multi-level tri-axis readout, we construct TriDimEEG, a standalone EEG decoder. Under strict cross-subject evaluation on eight datasets spanning clinical diagnosis, sleep staging, motor imagery, and emotion recognition, TriDimEEG achieves the best overall performance among fifteen evaluated models, with a 4.3% relative improvement in average accuracy over the second-best model. Replacing Transformer blocks in three EEG foundation models with TriDim blocks yields an average relative improvement of 7.4% in downstream accuracy while reducing parameter counts by 17.0% to 47.3%. These results establish TriDim as an effective and reusable building block and TriDimEEG as a strong standalone EEG decoder. Code and parameters of TriDimEEG are available at https://github.com/ncclab-sustech/TriDim_model.",
     "abstract_source": "openalex_verified",
-    "abstract_zh": "有效的脑电图解码需要能够保留通道之间的组织、局部波形动态和远程时间上下文的表示。现有的 EEG 架构通常使用单独的专用模块捕获这些结构，或将它们折叠成单个令牌序列，从而很难维持它们的独特角色并在整个主干中协调它们的交互。我们提出了 TriDim，一个可重复使用的块，它保留了表示形状并保持三个 EEG 轴明确：通道、每个块内的样本位置以及整个记录中的块位置。这些轴分别对应于空间、短期时间和长期时间信息......"
+    "abstract_zh": "有效的脑电图解码需要能够保留通道之间的组织、局部波形动态和远程时间上下文的表示。现有的 EEG 架构通常使用单独的专用模块捕获这些结构，或将它们折叠成单个令牌序列，从而很难维持它们的独特角色并在整个主干中协调它们的交互。我们提出了 TriDim，一个可重复使用的块，它保留了表示形状并保持三个 EEG 轴明确：通道、每个块内的样本位置以及整个记录中的块位置。这些轴分别对应于空间、短期时间和长期时间信息......",
+    "dblp_key": "journals/corr/abs-2609-19842"
   },
   {
     "title": "An Intraoperative EEG Biomarker for Postoperative Delirium Predicting Based on Interpretable Deep Learning Framework",
@@ -155,10 +175,12 @@
     "work_title_group": "625719c929a8",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "xinke_shen"
+      "xinke_shen",
+      "quanying_liu"
     ],
     "scholar_names": [
-      "沈新科"
+      "沈新科",
+      "刘泉影"
     ],
     "source_record_ids": [
       "xinke_shen_cacbee4ae362"
@@ -175,11 +197,25 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "quanying_liu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "刘泉影",
+        "secondary_tags": [
+          "情感EEG",
+          "跨域对齐损失",
+          "可泛化脑电解码",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "171c34f361919383",
     "primary_categories_by_scholar": [
-      "沈新科：情感脑电与多模态生理信号"
+      "沈新科：情感脑电与多模态生理信号",
+      "刘泉影：脑电基础大模型与自监督预训练"
     ],
     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mco2.70980",
     "abstract_en": "Postoperative delirium (POD) is a common complication in older surgical patients and substantially worsens clinical outcomes, yet existing intraoperative electroencephalography (EEG) monitoring tools lack spatial and temporal specificity, creating a need for interpretable biomarkers. We prospectively analyzed 32-channel intraoperative EEG from 71 patients aged ≥ 60 undergoing noncardiac surgery, trained an interpretable spatiotemporal convolutional network (ST-CN), derived a best temporal filter (BTF), and evaluated model performance with region-specific tests and independent external validation. The ST-CN classified POD with 97.52% accuracy and an ROC of 0.996. The BTF alone discriminated POD with an AUC of 0.911 and achieved 85.12% accuracy using frontal EEG alone. It captured a distinct 2-12 Hz (δ-θ-α) oscillation in a spindle-like envelope, which occurred at a significantly higher rate in POD patients (4.62 ± 0.15 vs. 3.88 ± 0.13 waves/min in the frontal region) and differed in central frequency and spectral power. Independent external validation further confirmed robust generalizability, with frontal EEG achieving 89.01% accuracy and an AUC of 0.950. This framework enables accurate, interpretable POD risk stratification and identifies a reproducible frontal EEG biomarker, supporting objective intraoperative early warning and individualized perioperative care.",
@@ -245,10 +281,12 @@
     "work_title_group": "5044ffb51218",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "xinke_shen"
+      "xinke_shen",
+      "quanying_liu"
     ],
     "scholar_names": [
-      "沈新科"
+      "沈新科",
+      "刘泉影"
     ],
     "source_record_ids": [
       "xinke_shen_94e4515f96ed"
@@ -265,15 +303,29 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "quanying_liu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "刘泉影",
+        "secondary_tags": [
+          "情感EEG",
+          "跨域对齐损失",
+          "可泛化脑电解码",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "15adec17b58468b9",
     "primary_categories_by_scholar": [
-      "沈新科：情感脑电与多模态生理信号"
+      "沈新科：情感脑电与多模态生理信号",
+      "刘泉影：脑电基础大模型与自监督预训练"
     ],
     "pdf_url": "https://arxiv.org/pdf/2604.25592",
-    "abstract_en": "Non invasive electrophysiology lacks methods that accurately reconstruct whole brain spatiotemporal dynamics while incorporating individual cortical geometry, leaving current electroencephalography and magnetoencephalography source imaging limited by simplistic or biologically implausible priors. Here, we show that embedding patient-specific Geometric Basis Function (GBF), eigenmodes derived from each individual’s cortical surface, provides a powerful anatomic constraint that resolves the inverse problem and improves reconstruction fidelity. The method allows reconstruction of the sources as linear combinations of geometric organization of neural dynamics. We validate GBF across the Meta-Source Benchmark, task-evoked data, resting-state networks, intracranial stimulation, and epilepsy data. The results demonstrate that GBF yields high localization accuracy and captures fast spatiotemporal dynamics consistent with anatomical pathways. These findings suggest that both spontaneous and evoked whole-brain activity can be described by hundreds of geometric modes, providing a compact yet accurate representation of neural sources. By linking cortical geometry to electrophysiological dynamics, GBF offers a versatile source imaging tool for both scientific and clinical applications.",
-    "abstract_source": "openalex_verified",
+    "abstract_en": "Non-invasive electrophysiology lacks methods that accurately reconstruct whole-brain spatiotemporal dynamics while incorporating individual cortical geometry, leaving current electroencephalography and magnetoencephalography source imaging limited by simplistic or biologically implausible priors. Here, we show that embedding participant-specific Geometric Basis Functions (GBFs), eigenmodes derived from each individual's cortical surface, provides a powerful anatomic constraint that resolves the inverse problem and improves reconstruction fidelity. The method reconstructs neural sources as linear combinations of geometric basis functions, thereby aligning source estimates with the geometric organization of neural dynamics. We validate GBF across the Meta-Source Benchmark, task-evoked data, resting-state networks, intracranial stimulation, and epilepsy data. The results demonstrate that GBF yields high localization accuracy and captures fast spatiotemporal dynamics consistent with anatomical pathways. These findings suggest that both spontaneous and evoked whole-brain activity can be described by hundreds of geometric modes, providing a compact yet accurate representation of neural sources. By linking cortical geometry to electrophysiological dynamics, GBF offers a versatile source imaging tool for both scientific and clinical applications.",
+    "abstract_source": "arxiv_api",
     "abstract_zh": "无创电生理学缺乏准确重建整个大脑时空动力学同时结合个体皮质几何形状的方法，使得当前的脑电图和脑磁图源成像受到简单化或生物学上不可信的先验的限制。在这里，我们展示了嵌入患者特定的几何基础函数（GBF），即从每个个体的皮质表面衍生的本征模式，提供了强大的解剖学约束，可以解决逆问题并提高重建保真度。该方法允许将源重建为神经动力学几何组织的线性组合。我们在 Meta-Sou 上验证 GBF..."
   },
   {
@@ -386,7 +438,8 @@
       "情感EEG",
       "跨域对齐损失",
       "可泛化脑电解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；重点纳入：情感EEG预训练；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -508,10 +561,12 @@
     "work_title_group": "1de6c398b9f3",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "xinke_shen"
+      "xinke_shen",
+      "quanying_liu"
     ],
     "scholar_names": [
-      "沈新科"
+      "沈新科",
+      "刘泉影"
     ],
     "source_record_ids": [
       "xinke_shen_7df5a22a43bc"
@@ -528,11 +583,25 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "quanying_liu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "刘泉影",
+        "secondary_tags": [
+          "情感EEG",
+          "跨域对齐损失",
+          "可泛化脑电解码",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "4cbebd9973784e6e",
     "primary_categories_by_scholar": [
-      "沈新科：脑电基准、数据与评测"
+      "沈新科：脑电基准、数据与评测",
+      "刘泉影：脑电基础大模型与自监督预训练"
     ],
     "pdf_url": "https://doi.org/10.57760/sciencedb.46254",
     "abstract_en": "Cooperation visuomotor control requires partners to coordinate complementary actions while continuously monitoring a shared outcome. However, open hyperscanning datasets that combine interacting-brain recordings with synchronized kinematic and force measurements during cooperative visuomotor control remain scarce. Here, we present a functional near-infrared spectroscopy (fNIRS) hyperscanning dataset collected from 64 healthy adults organized into 32 dyads while they performed a virtual coloring task using two haptic-feedback devices. Each dyad completed the task under two collaboration modes and two difficulty levels. In the leader-follower mode, one participant controlled the pen trajectory and the other controlled contact force, which determined brush width; in the egalitarian mode, the participants controlled orthogonal position components and jointly determined brush width. Task difficulty was manipulated by target-pattern complexity. Each participant was recorded with 26-channel fNIRS covering the left and right prefrontal cortex, left sensorimotor cortex, and right temporoparietal junction. Synchronized behavioral data, including continuous pen kinematics, contact force signals, event markers, and trial-wise collaboration performance metrics, were acquired in parallel. The dataset contains fNIRS recordings, metadata, event annotations, behavioral files, and example analysis code.",
@@ -685,10 +754,12 @@
     "work_title_group": "cf78d5c85673",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "xinke_shen"
+      "xinke_shen",
+      "quanying_liu"
     ],
     "scholar_names": [
-      "沈新科"
+      "沈新科",
+      "刘泉影"
     ],
     "source_record_ids": [
       "xinke_shen_663a5218de59"
@@ -705,16 +776,32 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "quanying_liu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "刘泉影",
+        "secondary_tags": [
+          "情感EEG",
+          "跨域对齐损失",
+          "可泛化脑电解码",
+          "脑电基础大模型",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "6cee2346287ca792",
     "primary_categories_by_scholar": [
-      "沈新科：情感脑电与多模态生理信号"
+      "沈新科：情感脑电与多模态生理信号",
+      "刘泉影：脑电基础大模型与自监督预训练"
     ],
     "pdf_url": "https://arxiv.org/pdf/2604.12683",
     "abstract_en": "Current fMRI foundation models primarily rely on a limited range of brain states and mismatched pretraining tasks, restricting their ability to learn generalized representations across diverse brain states. We present Brain-DiT, a universal multi-state fMRI foundation model pretrained on 349,898 sessions from 24 datasets spanning resting, task, naturalistic, disease, and sleep states. Unlike prior fMRI foundation models that rely on masked reconstruction in the raw-signal space or a latent space, Brain-DiT adopts metadata-conditioned diffusion pretraining with a Diffusion Transformer (DiT), enabling the model to learn multi-scale representations that capture both fine-grained functional structure and global semantics. Across extensive evaluations and ablations on 7 downstream tasks, we find consistent evidence that diffusion-based generative pretraining is a stronger proxy than reconstruction or alignment, with metadata-conditioned pretraining further improving downstream performance by disentangling intrinsic neural dynamics from population-level variability. We also observe that downstream tasks exhibit distinct preferences for representational scale: ADNI classification benefits more from global semantic representations, whereas age/sex prediction comparatively relies more on fine-grained local structure.",
     "abstract_source": "arxiv_api",
-    "abstract_zh": "当前的功能磁共振成像基础模型主要依赖于有限范围的大脑状态和不匹配的预训练任务，限制了它们学习不同大脑状态的广义表示的能力。我们提出了 Brain-DiT，这是一种通用的多状态 fMRI 基础模型，经过来自 24 个涵盖休息、任务、自然、疾病和睡眠状态的数据集的 349,898 个会话的预训练。与之前依赖于原始信号空间或潜在空间中的掩蔽重建的 fMRI 基础模型不同，Brain-DiT 采用带有扩散Transformer (DiT) 的元数据条件扩散预训练，使模型能够学习捕获细粒度功能结构的多尺度表示。"
+    "abstract_zh": "当前的功能磁共振成像基础模型主要依赖于有限范围的大脑状态和不匹配的预训练任务，限制了它们学习不同大脑状态的广义表示的能力。我们提出了 Brain-DiT，这是一种通用的多状态 fMRI 基础模型，经过来自 24 个涵盖休息、任务、自然、疾病和睡眠状态的数据集的 349,898 个会话的预训练。与之前依赖于原始信号空间或潜在空间中的掩蔽重建的 fMRI 基础模型不同，Brain-DiT 采用带有扩散Transformer (DiT) 的元数据条件扩散预训练，使模型能够学习捕获细粒度功能结构的多尺度表示。",
+    "dblp_key": "conf/miccai/XiaYPSWL26"
   },
   {
     "title": "CBP: Learning shared cognitive basis space and connectivity patterns for cross-cognitive-task brain dynamics modeling",
@@ -770,10 +857,12 @@
     "work_title_group": "65ed478af32b",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "xinke_shen"
+      "xinke_shen",
+      "quanying_liu"
     ],
     "scholar_names": [
-      "沈新科"
+      "沈新科",
+      "刘泉影"
     ],
     "source_record_ids": [
       "xinke_shen_bc6af74b2cb2"
@@ -790,12 +879,26 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "quanying_liu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "刘泉影",
+        "secondary_tags": [
+          "情感EEG",
+          "跨域对齐损失",
+          "可泛化脑电解码"
+        ],
+        "confidence": "low",
+        "note": ""
       }
     },
     "global_record_id": "f8d0fa5e1da24785",
     "primary_categories_by_scholar": [
-      "沈新科：情感脑电与多模态生理信号"
-    ]
+      "沈新科：情感脑电与多模态生理信号",
+      "刘泉影：脑电基础大模型与自监督预训练"
+    ],
+    "dblp_key": "journals/ijon/LiLYYSTL26"
   },
   {
     "title": "DSAINet: An Efficient Dual-Scale Attentive Interaction Network for General EEG Decoding",
@@ -914,7 +1017,8 @@
       "可泛化脑电解码",
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；重点纳入：情感EEG预训练；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1048,12 +1152,14 @@
     "scholar_id": "xinke_shen",
     "scholar_name": "沈新科",
     "work_title_group": "a8914a887999",
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
-      "xinke_shen"
+      "xinke_shen",
+      "quanying_liu"
     ],
     "scholar_names": [
-      "沈新科"
+      "沈新科",
+      "刘泉影"
     ],
     "source_record_ids": [
       "xinke_shen_5b3ef52083f9"
@@ -1070,16 +1176,33 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "quanying_liu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "刘泉影",
+        "secondary_tags": [
+          "情感EEG",
+          "跨域对齐损失",
+          "可泛化脑电解码",
+          "脑电情感识别",
+          "脑电基础大模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "29f8dd51be02f59f",
     "primary_categories_by_scholar": [
-      "沈新科：脑电基准、数据与评测"
+      "沈新科：脑电基准、数据与评测",
+      "刘泉影：脑电基础大模型与自监督预训练"
     ],
     "pdf_url": "https://arxiv.org/pdf/2606.00815",
     "abstract_en": "Electroencephalography (EEG) supports a variety of brain-computer interface (BCI) tasks ranging from brain-state monitoring to human-LLM interactions. EEG foundation models are emerging, but evaluation remains fragmented due to heterogeneous datasets and nconsistent task protocols. Here, we introduce OmniEEG-Bench, a unified benchmark and downstream task roadmap for EEG foundation models (FMs). It organizes evaluation of EEG FMs into six task families spanning (i) signal reliability, (ii) biometrics and disease, (iii) consciousness and state, (iv) cognition and emotion, (v) naturalistic stimulus decoding, and (vi) motor and interaction, introducing a new generation of tasks not systematically benchmarked in prior EEG FM work. OmniEEG-Bench standardizes model deployment, task definitions, and metrics through a task-card specification, and unifies 54 EEG datasets with consistent evaluation protocols. We benchmark 10 representative EEG foundation models and report a leaderboard that covers diverse evaluation settings. Both pretraining dataset diversity and model size are significantly associated with better average ranks across datasets, revealing scaling-law behavior in EEG foundation models (Figure 1). These results suggest that scaling EEG foundation models requires not only larger architectures but also broader and more diverse pretraining data. The benchmark code is available at https://github.com/ncclab-sustech/omni-eegbench.git.",
     "abstract_source": "openalex_verified",
-    "abstract_zh": "脑电图 (EEG) 支持各种脑机接口 (BCI) 任务，从大脑状态监测到人机交互。脑电图基础模型正在兴起，但由于异构数据集和不一致的任务协议，评估仍然分散。在这里，我们介绍 OmniEEG-Bench，这是脑电图基础模型 (FM) 的统一基准和下游任务路线图。它将 EEG FM 的评估分为六个任务系列，涵盖（i）信号可靠性，（ii）生物识别和疾病，（iii）意识和状态，（iv）认知和情感，（v）自然刺激解码，以及（vi）运动和交互，引入了新一代不系统的任务......"
+    "abstract_zh": "脑电图 (EEG) 支持各种脑机接口 (BCI) 任务，从大脑状态监测到人机交互。脑电图基础模型正在兴起，但由于异构数据集和不一致的任务协议，评估仍然分散。在这里，我们介绍 OmniEEG-Bench，这是脑电图基础模型 (FM) 的统一基准和下游任务路线图。它将 EEG FM 的评估分为六个任务系列，涵盖（i）信号可靠性，（ii）生物识别和疾病，（iii）意识和状态，（iv）认知和情感，（v）自然刺激解码，以及（vi）运动和交互，引入了新一代不系统的任务......",
+    "dblp_key": "journals/corr/abs-2606-00815"
   },
   {
     "title": "An EEG Dataset for Multimodal Semantic Alignment and Neural Decoding during Reading and Listening",
@@ -1142,10 +1265,12 @@
     "work_title_group": "6497a9d6ee1e",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "xinke_shen"
+      "xinke_shen",
+      "quanying_liu"
     ],
     "scholar_names": [
-      "沈新科"
+      "沈新科",
+      "刘泉影"
     ],
     "source_record_ids": [
       "xinke_shen_ad988286fdc1"
@@ -1162,11 +1287,27 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "quanying_liu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "刘泉影",
+        "secondary_tags": [
+          "情感EEG",
+          "跨域对齐损失",
+          "可泛化脑电解码",
+          "脑电基础大模型",
+          "脑机接口与神经解码",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "8e87264a9f676242",
     "primary_categories_by_scholar": [
-      "沈新科：脑电基准、数据与评测"
+      "沈新科：脑电基准、数据与评测",
+      "刘泉影：脑电基础大模型与自监督预训练"
     ],
     "pdf_url": "https://www.nature.com/articles/s41597-025-06466-8_reference.pdf",
     "abstract_en": "EEG-based neural decoding requires large-scale benchmark datasets. Paired brain-language data across speaking, listening, and reading modalities are essential for aligning neural activity with the semantic representation of large language models (LLMs). However, such datasets are rare, especially for non-English languages. Here, we present ChineseEEG-2, a high-density EEG dataset designed for benchmarking neural decoding models under real-world language tasks. Building on our previous ChineseEEG dataset, which focused on silent reading, ChineseEEG-2 adds two active modalities: Reading Aloud (RA) and Passive Listening (PL), using the same Chinese corpus. EEG and audio were simultaneously recorded from four participants during ~10.8 hours of reading aloud. These recordings were then played to eight other participants, collecting ~21.6 hours of EEG during listening. This setup enables precise temporal and semantic alignment across the RA and PL modalities. ChineseEEG-2 includes EEG signals, speech audio, aligned semantic embeddings from pre-trained language models, and task labels. Together with ChineseEEG, this dataset supports joint semantic alignment learning across speaking, listening, and reading. It enables benchmarking of neural decoding algorithms and promotes brain-LLM alignment under multimodal language tasks, especially in Chinese. ChineseEEG-2 provides a benchmark dataset for next-generation neural semantic decoding.",
@@ -1182,7 +1323,7 @@
     "authors": [
       "Xinke Shen"
     ],
-    "doi": "",
+    "doi": "10.52202/085713-5515",
     "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/f1b8d443042f376aa3654b6c68de6297-Paper-Conference.pdf",
     "source_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/f1b8d443042f376aa3654b6c68de6297-Paper-Conference.pdf",
     "topics": [
@@ -1190,19 +1331,28 @@
       "跨域对齐损失",
       "可泛化脑电解码",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "脑电基础大模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；重点纳入：情感EEG预训练",
     "status": "候选条目/需按作者主页继续核验",
-    "resource_ids": [],
-    "code_urls": [],
-    "data_urls": [],
+    "resource_ids": [
+      "xinke_shen__R001"
+    ],
+    "code_urls": [
+      "https://github.com/ncclab-sustech/mdJPT_nips2025"
+    ],
+    "data_urls": [
+      "https://github.com/ncclab-sustech/mdJPT_nips2025"
+    ],
     "model_urls": [],
     "openalex_id": "",
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 8,
     "publication_types": "",
     "candidate_source": false,
     "source_kind": "代表论文/官方页面",
@@ -1220,12 +1370,14 @@
     "scholar_id": "xinke_shen",
     "scholar_name": "沈新科",
     "work_title_group": "beafc114e261",
-    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
-      "xinke_shen"
+      "xinke_shen",
+      "quanying_liu"
     ],
     "scholar_names": [
-      "沈新科"
+      "沈新科",
+      "刘泉影"
     ],
     "source_record_ids": [
       "xinke_shen_9dd995bb0ace"
@@ -1242,12 +1394,33 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "quanying_liu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "刘泉影",
+        "secondary_tags": [
+          "情感EEG",
+          "跨域对齐损失",
+          "可泛化脑电解码",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "脑电基础大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "9fdfbc36e7182027",
     "primary_categories_by_scholar": [
-      "沈新科：脑电基准、数据与评测"
-    ]
+      "沈新科：脑电基准、数据与评测",
+      "刘泉影：脑电基础大模型与自监督预训练"
+    ],
+    "dblp_key": "conf/nips/ZhangZLSL25",
+    "pdf_url": "https://arxiv.org/pdf/2510.22197",
+    "abstract_en": "Task-specific pre-training is essential when task representations diverge from generic pre-training features. Existing task-general pre-training EEG models struggle with complex tasks like emotion recognition due to mismatches between task-specific features and broad pre-training approaches. This work aims to develop a task-specific multi-dataset joint pre-training framework for cross-dataset emotion recognition, tackling problems of large inter-dataset distribution shifts, inconsistent emotion category definitions, and substantial inter-subject variability. We introduce a cross-dataset covariance alignment loss to align second-order statistical properties across datasets, enabling robust generalization without the need for extensive labels or per-subject calibration. To capture the long-term dependency and complex dynamics of EEG, we propose a hybrid encoder combining a Mamba-like linear attention channel encoder and a spatiotemporal dynamics model. Our method outperforms state-of-the-art large-scale EEG models by an average of 4.57% in AUROC for few-shot emotion recognition and 11.92% in accuracy for zero-shot generalization to a new dataset. Performance scales with the increase of datasets used in pre-training. Multi-dataset joint pre-training achieves a performance gain of 8.55% over single-dataset training. This work provides a scalable framework for task-specific pre-training and highlights its benefit in generalizable affective computing. Our code is available at https://github.com/ncclab-sustech/mdJPT_nips2025.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "当任务表示与通用预训练特征不同时，特定于任务的预训练至关重要。由于任务特定特征和广泛的预训练方法之间的不匹配，现有的通用任务预训练脑电图模型难以应对情绪识别等复杂任务。这项工作旨在开发一个用于跨数据集情感识别的特定任务的多数据集联合预训练框架，解决数据集间分布变化大、情感类别定义不一致和主体间差异较大的问题。我们引入了跨数据集协方差对齐损失来对齐跨数据集的二阶统计属性，从而无需大量标签即可实现稳健的泛化......"
   },
   {
     "title": "Dynamic-Attention-Based EEG State Transition Modeling for Emotion Recognition",
@@ -1273,7 +1446,9 @@
       "跨域对齐损失",
       "可泛化脑电解码",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；重点纳入：情感EEG预训练；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1310,10 +1485,14 @@
     "work_title_group": "9c4085218bdc",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "xinke_shen"
+      "xinke_shen",
+      "dan_zhang_thu",
+      "quanying_liu"
     ],
     "scholar_names": [
-      "沈新科"
+      "沈新科",
+      "张丹",
+      "刘泉影"
     ],
     "source_record_ids": [
       "xinke_shen_18584d2d2e58"
@@ -1330,16 +1509,49 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "dan_zhang_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "张丹",
+        "secondary_tags": [
+          "情感EEG",
+          "跨域对齐损失",
+          "可泛化脑电解码",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "quanying_liu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "刘泉影",
+        "secondary_tags": [
+          "情感EEG",
+          "跨域对齐损失",
+          "可泛化脑电解码",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "7a151c2958a73648",
     "primary_categories_by_scholar": [
-      "沈新科：情感脑电与多模态生理信号"
+      "沈新科：情感脑电与多模态生理信号",
+      "张丹：脑电基础大模型与自监督预训练",
+      "刘泉影：脑电基础大模型与自监督预训练"
     ],
     "pdf_url": "https://arxiv.org/pdf/2411.04568",
     "abstract_en": "Electroencephalogram (EEG)-based emotion decoding can objectively quantify people's emotional state and has broad application prospects in human-computer interaction and early detection of emotional disorders. Recently emerging deep learning architectures have significantly improved the performance of EEG emotion decoding. However, existing methods still fall short of fully capturing the complex spatiotemporal dynamics of neural signals, which are crucial for representing emotion processing. This study proposes a Dynamic-Attention-based EEG State Transition (DAEST) modeling method to characterize EEG spatiotemporal dynamics. The model extracts spatiotemporal components of EEG that represent multiple parallel neural processes and estimates dynamic attention weights on these components to capture transitions in brain states. The model is optimized within a contrastive learning framework for cross-subject emotion recognition. The proposed method achieved state-of-the-art performance on three publicly available datasets: FACED, SEED, and SEED-V. It achieved$81.7\\pm 4.3\\%$accuracy in the binary classification of positive and negative emotions and$67.9\\pm 7.3\\%$in nine-class discrete emotion classification on the FACED dataset,$88.1\\pm 3.6\\%$in the three-class classification of positive, negative, and neutral emotions on the SEED dataset, and$73.6\\pm 12.7\\%$in five-class discrete emotion classification on the SEED-V dataset. The learned EEG spatiotemporal patterns and dynamic transition properties offer valuable insights into neural dynamics underlying emotion processing.",
     "abstract_source": "openalex_verified",
-    "abstract_zh": "基于脑电图（EEG）的情绪解码可以客观量化人们的情绪状态，在人机交互和情绪障碍的早期检测方面具有广阔的应用前景。最近新兴的深度学习架构显着提高了脑电图情感解码的性能。然而，现有的方法仍然无法完全捕获神经信号的复杂时空动态，这对于表示情感处理至关重要。本研究提出了一种基于动态注意力的脑电图状态转换（DAEST）建模方法来表征脑电图时空动态。该模型提取脑电图的时空分量，代表......"
+    "abstract_zh": "基于脑电图（EEG）的情绪解码可以客观量化人们的情绪状态，在人机交互和情绪障碍的早期检测方面具有广阔的应用前景。最近新兴的深度学习架构显着提高了脑电图情感解码的性能。然而，现有的方法仍然无法完全捕获神经信号的复杂时空动态，这对于表示情感处理至关重要。本研究提出了一种基于动态注意力的脑电图状态转换（DAEST）建模方法来表征脑电图时空动态。该模型提取脑电图的时空分量，代表......",
+    "dblp_key": "journals/taffco/ShenGWYZLZS25"
   },
   {
     "title": "Unveiling frequency-specific microstate correlates of anxiety and depression symptoms",
@@ -1477,10 +1689,14 @@
     "work_title_group": "be0ffb6ce16c",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "xinke_shen"
+      "xinke_shen",
+      "dan_zhang_thu",
+      "quanying_liu"
     ],
     "scholar_names": [
-      "沈新科"
+      "沈新科",
+      "张丹",
+      "刘泉影"
     ],
     "source_record_ids": [
       "xinke_shen_911b852e1d78"
@@ -1497,11 +1713,41 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "dan_zhang_thu": {
+        "category_id": "eeg_bci_decode",
+        "label": "脑机接口、神经解码与情感脑电",
+        "scholar_name": "张丹",
+        "secondary_tags": [
+          "情感EEG",
+          "跨域对齐损失",
+          "可泛化脑电解码",
+          "脑电情感识别",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "quanying_liu": {
+        "category_id": "eeg_bci_decode",
+        "label": "脑机接口、神经解码与情感脑电",
+        "scholar_name": "刘泉影",
+        "secondary_tags": [
+          "情感EEG",
+          "跨域对齐损失",
+          "可泛化脑电解码",
+          "脑电情感识别",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "13ac4f807c23caec",
     "primary_categories_by_scholar": [
-      "沈新科：情感脑电与多模态生理信号"
+      "沈新科：情感脑电与多模态生理信号",
+      "张丹：脑机接口、神经解码与情感脑电",
+      "刘泉影：脑机接口、神经解码与情感脑电"
     ]
   },
   {
@@ -1614,7 +1860,8 @@
       "跨域对齐损失",
       "可泛化脑电解码",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；重点纳入：情感EEG预训练；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1647,10 +1894,14 @@
     "work_title_group": "ff67aa47fa42",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "xinke_shen"
+      "xinke_shen",
+      "dan_zhang_thu",
+      "quanying_liu"
     ],
     "scholar_names": [
-      "沈新科"
+      "沈新科",
+      "张丹",
+      "刘泉影"
     ],
     "source_record_ids": [
       "xinke_shen_ca6fff76a487"
@@ -1667,11 +1918,43 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "dan_zhang_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "张丹",
+        "secondary_tags": [
+          "情感EEG",
+          "跨域对齐损失",
+          "可泛化脑电解码",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "情感智能"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "quanying_liu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "刘泉影",
+        "secondary_tags": [
+          "情感EEG",
+          "跨域对齐损失",
+          "可泛化脑电解码",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "情感智能"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "7105d65979b310ee",
     "primary_categories_by_scholar": [
-      "沈新科：脑电基准、数据与评测"
+      "沈新科：脑电基准、数据与评测",
+      "张丹：脑电基础大模型与自监督预训练",
+      "刘泉影：脑电基础大模型与自监督预训练"
     ],
     "pdf_url": "https://www.nature.com/articles/s41597-025-05349-2.pdf",
     "abstract_en": "EEG-based emotion decoding is essential for unveiling neural mechanisms of emotion and has applications in mental health and human-machine interaction. However, existing datasets for EEG-based emotion decoding are limited to a single context of emotion elicitation. The ability of emotion decoding methods to generalize across different contexts remains underexplored. To address this gap, we present the Multi-Context Emotional EEG (EmoEEG-MC) dataset, featuring 64-channel EEG and peripheral physiological data from 60 participants exposed to two distinct contexts: video-induced and imagery-induced emotions. These contexts evoke seven distinct emotional categories: joy, inspiration, tenderness, fear, disgust, sadness, and neutral emotion. The emotional experience of specific emotion categories was validated through subjective reports. To validate the potential of cross-context emotion decoding, we implemented a support vector machine with L1 regularization, achieving accuracies of 66.7% for binary classification (positive vs. negative emotions) and 28.9% for seven-category emotion classification, both significantly above chance levels. The EmoEEG-MC dataset serves as a foundational resource for understanding the neural substrates of emotion and enhancing the real-world applicability of affective computing.",
@@ -1732,10 +2015,12 @@
     "work_title_group": "715c1b357aea",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "xinke_shen"
+      "xinke_shen",
+      "quanying_liu"
     ],
     "scholar_names": [
-      "沈新科"
+      "沈新科",
+      "刘泉影"
     ],
     "source_record_ids": [
       "xinke_shen_3fb9150a146b"
@@ -1752,11 +2037,25 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "quanying_liu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "刘泉影",
+        "secondary_tags": [
+          "情感EEG",
+          "跨域对齐损失",
+          "可泛化脑电解码",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "30cfcfb9077e214e",
     "primary_categories_by_scholar": [
-      "沈新科：情感脑电与多模态生理信号"
+      "沈新科：情感脑电与多模态生理信号",
+      "刘泉影：脑电基础大模型与自监督预训练"
     ]
   },
   {
@@ -1894,10 +2193,12 @@
     "work_title_group": "444cd756fd03",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "xinke_shen"
+      "xinke_shen",
+      "dan_zhang_thu"
     ],
     "scholar_names": [
-      "沈新科"
+      "沈新科",
+      "张丹"
     ],
     "source_record_ids": [
       "xinke_shen_97f533e70843"
@@ -1914,11 +2215,25 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "dan_zhang_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "张丹",
+        "secondary_tags": [
+          "情感EEG",
+          "跨域对齐损失",
+          "可泛化脑电解码",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "low",
+        "note": ""
       }
     },
     "global_record_id": "ff3a22a71130342f",
     "primary_categories_by_scholar": [
-      "沈新科：情感脑电与多模态生理信号"
+      "沈新科：情感脑电与多模态生理信号",
+      "张丹：脑电基础大模型与自监督预训练"
     ],
     "pdf_url": "https://doi.org/10.1101/2024.03.28.587119"
   },
@@ -2060,10 +2375,14 @@
     "work_title_group": "775da73326ec",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "xinke_shen"
+      "xinke_shen",
+      "dan_zhang_thu",
+      "quanying_liu"
     ],
     "scholar_names": [
-      "沈新科"
+      "沈新科",
+      "张丹",
+      "刘泉影"
     ],
     "source_record_ids": [
       "xinke_shen_f59d42b8fe5c"
@@ -2080,16 +2399,47 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "dan_zhang_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "张丹",
+        "secondary_tags": [
+          "情感EEG",
+          "跨域对齐损失",
+          "可泛化脑电解码",
+          "脑电情感识别",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "quanying_liu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "刘泉影",
+        "secondary_tags": [
+          "情感EEG",
+          "跨域对齐损失",
+          "可泛化脑电解码",
+          "脑电情感识别",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "50824b0028def521",
     "primary_categories_by_scholar": [
-      "沈新科：情感脑电与多模态生理信号"
+      "沈新科：情感脑电与多模态生理信号",
+      "张丹：脑电基础大模型与自监督预训练",
+      "刘泉影：脑电基础大模型与自监督预训练"
     ],
     "pdf_url": "https://doi.org/10.1016/j.neuroimage.2024.120890",
     "abstract_en": "Neural representations induced by naturalistic stimuli offer insights into how humans respond to stimuli in daily life. Understanding neural mechanisms underlying naturalistic stimuli processing hinges on the precise identification and extraction of the shared neural patterns that are consistently present across individuals. Targeting the Electroencephalogram (EEG) technique, known for its rich spatial and temporal information, this study presents a framework for Contrastive Learning of Shared SpatioTemporal EEG Representations across individuals (CL-SSTER). CL-SSTER utilizes contrastive learning to maximize the similarity of EEG representations across individuals for identical stimuli, contrasting with those for varied stimuli. The network employs spatial and temporal convolutions to simultaneously learn the spatial and temporal patterns inherent in EEG. The versatility of CL-SSTER was demonstrated on three EEG datasets, including a synthetic dataset, a natural speech comprehension EEG dataset, and an emotional video watching EEG dataset. CL-SSTER attained the highest inter-subject correlation (ISC) values compared to the state-of-the-art ISC methods. The latent representations generated by CL-SSTER exhibited reliable spatiotemporal EEG patterns, which can be explained by properties of the naturalistic stimuli. CL-SSTER serves as an interpretable and scalable framework for the identification of inter-subject shared neural representations in naturalistic neuroscience.",
     "abstract_source": "openalex_verified",
-    "abstract_zh": "自然刺激引起的神经表征提供了关于人类如何对日常生活中的刺激做出反应的见解。了解自然刺激处理背后的神经机制取决于对个体之间一致存在的共享神经模式的精确识别和提取。本研究针对以其丰富的空间和时间信息而闻名的脑电图 (EEG) 技术，提出了一个跨个体共享时空脑电图表征的对比学习框架 (CL-SSTER)。 CL-SSTER 利用对比学习来最大限度地提高个体之间对于相同刺激的脑电图表示的相似性，继续..."
+    "abstract_zh": "自然刺激引起的神经表征提供了关于人类如何对日常生活中的刺激做出反应的见解。了解自然刺激处理背后的神经机制取决于对个体之间一致存在的共享神经模式的精确识别和提取。本研究针对以其丰富的空间和时间信息而闻名的脑电图 (EEG) 技术，提出了一个跨个体共享时空脑电图表征的对比学习框架 (CL-SSTER)。 CL-SSTER 利用对比学习来最大限度地提高个体之间对于相同刺激的脑电图表示的相似性，继续...",
+    "dblp_key": "journals/neuroimage/ShenTCSLZ24"
   },
   {
     "title": "A Large Finer-grained Affective Computing EEG Dataset",
@@ -2113,7 +2463,8 @@
       "跨域对齐损失",
       "可泛化脑电解码",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；重点纳入：情感EEG预训练；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2148,10 +2499,12 @@
     "work_title_group": "cfdb276aa2d5",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "xinke_shen"
+      "xinke_shen",
+      "dan_zhang_thu"
     ],
     "scholar_names": [
-      "沈新科"
+      "沈新科",
+      "张丹"
     ],
     "source_record_ids": [
       "xinke_shen_84a6347989cf"
@@ -2168,11 +2521,27 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "dan_zhang_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "张丹",
+        "secondary_tags": [
+          "情感EEG",
+          "跨域对齐损失",
+          "可泛化脑电解码",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "情感智能"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "f8ab54bc9ba43bcd",
     "primary_categories_by_scholar": [
-      "沈新科：脑电基准、数据与评测"
+      "沈新科：脑电基准、数据与评测",
+      "张丹：脑电基础大模型与自监督预训练"
     ],
     "pdf_url": "https://www.nature.com/articles/s41597-023-02650-w.pdf",
     "abstract_en": "Affective computing based on electroencephalogram (EEG) has gained increasing attention for its objectivity in measuring emotional states. While positive emotions play a crucial role in various real-world applications, such as human-computer interactions, the state-of-the-art EEG datasets have primarily focused on negative emotions, with less consideration given to positive emotions. Meanwhile, these datasets usually have a relatively small sample size, limiting exploration of the important issue of cross-subject affective computing. The proposed Finer-grained Affective Computing EEG Dataset (FACED) aimed to address these issues by recording 32-channel EEG signals from 123 subjects. During the experiment, subjects watched 28 emotion-elicitation video clips covering nine emotion categories (amusement, inspiration, joy, tenderness; anger, fear, disgust, sadness, and neutral emotion), providing a fine-grained and balanced categorization on both the positive and negative sides of emotion. The validation results show that emotion categories can be effectively recognized based on EEG signals at both the intra-subject and the cross-subject levels. The FACED dataset is expected to contribute to developing EEG-based affective computing algorithms for real-world applications.",
@@ -2233,10 +2602,12 @@
     "work_title_group": "9dec4f97ffec",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "xinke_shen"
+      "xinke_shen",
+      "dan_zhang_thu"
     ],
     "scholar_names": [
-      "沈新科"
+      "沈新科",
+      "张丹"
     ],
     "source_record_ids": [
       "xinke_shen_15a2994eb506"
@@ -2253,11 +2624,26 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "dan_zhang_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "张丹",
+        "secondary_tags": [
+          "情感EEG",
+          "跨域对齐损失",
+          "可泛化脑电解码",
+          "脑电情感识别",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "e771895a7ea50f43",
     "primary_categories_by_scholar": [
-      "沈新科：情感脑电与多模态生理信号"
+      "沈新科：情感脑电与多模态生理信号",
+      "张丹：脑电基础大模型与自监督预训练"
     ],
     "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2023/05/24/2023.05.23.541871.full.pdf",
     "abstract_en": "Despite the fact that human daily emotions are co-occurring by nature, most neuroscience studies have primarily adopted a univariate approach to identify the neural representation of emotion (emotion experience within a single emotion category) without adequate consideration of the co-occurrence of different emotions (emotion experience across different emotion categories simultaneously). To investigate the neural representations of multivariate emotion experience, this study employed the inter-situation representational similarity analysis (RSA) method. Researchers used an EEG dataset of 78 participants who watched 28 video clips and rated their experience on eight emotion categories. The EEG-based electrophysiological representation was extracted as the power spectral density (PSD) feature per channel in the five frequency bands. The inter-situation RSA method revealed significant correlations between the multivariate emotion experience ratings and PSD features in the Alpha and Beta bands, primarily over the frontal and parietal-occipital brain regions. The study found the identified EEG representations to be reliable with sufficient situations and participants. Moreover, through a series of ablation analyses, the inter-situation RSA further demonstrated the stability and specificity of the EEG representations for multivariate emotion experience. These findings highlight the importance of adopting a multivariate perspective for a comprehensive understanding of the neural representation of human emotion experience.",
@@ -2320,11 +2706,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "xinke_shen",
-      "panorama_zhao_lv"
+      "panorama_zhao_lv",
+      "dan_zhang_thu"
     ],
     "scholar_names": [
       "沈新科",
-      "吕钊"
+      "吕钊",
+      "张丹"
     ],
     "source_record_ids": [
       "xinke_shen_568decfb5459"
@@ -2355,12 +2743,27 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "dan_zhang_thu": {
+        "category_id": "eeg_bci_decode",
+        "label": "脑机接口、神经解码与情感脑电",
+        "scholar_name": "张丹",
+        "secondary_tags": [
+          "情感EEG",
+          "跨域对齐损失",
+          "可泛化脑电解码",
+          "脑电情感识别",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "f240f820aeccdddc",
     "primary_categories_by_scholar": [
       "沈新科：情感脑电与多模态生理信号",
-      "吕钊：情感脑电与多模态生理信号"
+      "吕钊：情感脑电与多模态生理信号",
+      "张丹：脑机接口、神经解码与情感脑电"
     ]
   },
   {
@@ -2416,10 +2819,12 @@
     "work_title_group": "a9074a7442bd",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "xinke_shen"
+      "xinke_shen",
+      "quanying_liu"
     ],
     "scholar_names": [
-      "沈新科"
+      "沈新科",
+      "刘泉影"
     ],
     "source_record_ids": [
       "xinke_shen_28ca37baa13b"
@@ -2436,16 +2841,30 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "quanying_liu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "刘泉影",
+        "secondary_tags": [
+          "情感EEG",
+          "跨域对齐损失",
+          "可泛化脑电解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "368f9c4aac47840a",
     "primary_categories_by_scholar": [
-      "沈新科：情感脑电与多模态生理信号"
+      "沈新科：情感脑电与多模态生理信号",
+      "刘泉影：脑电基础大模型与自监督预训练"
     ],
     "pdf_url": "https://arxiv.org/pdf/2307.09770",
     "abstract_en": "Identifying causal relationships among distinct brain areas, known as effective connectivity, holds key insights into the brain's information processing and cognitive functions. Electroencephalogram (EEG) signals exhibit intricate dynamics and inter-areal interactions within the brain. However, methods for characterizing nonlinear causal interactions among multiple brain regions remain relatively underdeveloped. In this study, we proposed a data-driven framework to infer effective connectivity by perturbing the trained neural networks. Specifically, we trained neural networks (i.e., CNN, vanilla RNN, GRU, LSTM, and Transformer) to predict future EEG signals according to historical data and perturbed the networks' input to obtain effective connectivity (EC) between the perturbed EEG channel and the rest of the channels. The EC reflects the causal impact of perturbing one node on others. The performance was tested on the synthetic EEG generated by a biological-plausible Jansen-Rit model. CNN and Transformer obtained the best performance on both 3-channel and 90-channel synthetic EEG data, outperforming the classical Granger causality method. Our work demonstrated the potential of perturbing an artificial neural network, learned to predict future system dynamics, to uncover the underlying causal structure.",
     "abstract_source": "openalex_verified",
-    "abstract_zh": "识别不同大脑区域之间的因果关系（称为有效连接）可以深入了解大脑的信息处理和认知功能。脑电图 (EEG) 信号表现出大脑内复杂的动力学和区域间相互作用。然而，描述多个大脑区域之间非线性因果相互作用的方法仍然相对不发达。在这项研究中，我们提出了一个数据驱动的框架，通过扰乱训练有素的神经网络来推断有效的连接。具体来说，我们训练神经网络（即 CNN、vanilla RNN、GRU、LSTM 和 Transformer）根据历史数据和 p..."
+    "abstract_zh": "识别不同大脑区域之间的因果关系（称为有效连接）可以深入了解大脑的信息处理和认知功能。脑电图 (EEG) 信号表现出大脑内复杂的动力学和区域间相互作用。然而，描述多个大脑区域之间非线性因果相互作用的方法仍然相对不发达。在这项研究中，我们提出了一个数据驱动的框架，通过扰乱训练有素的神经网络来推断有效的连接。具体来说，我们训练神经网络（即 CNN、vanilla RNN、GRU、LSTM 和 Transformer）根据历史数据和 p...",
+    "dblp_key": "journals/corr/abs-2307-09770"
   },
   {
     "title": "Contrastive Learning of Subject-Invariant EEG Representations for Cross-Subject Emotion Recognition",
@@ -2468,7 +2887,9 @@
       "跨域对齐损失",
       "可泛化脑电解码",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；重点纳入：情感EEG预训练；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2634,7 +3055,9 @@
       "跨域对齐损失",
       "可泛化脑电解码",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；重点纳入：情感EEG预训练；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2669,10 +3092,12 @@
     "work_title_group": "b732abed7d0f",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "xinke_shen"
+      "xinke_shen",
+      "dan_zhang_thu"
     ],
     "scholar_names": [
-      "沈新科"
+      "沈新科",
+      "张丹"
     ],
     "source_record_ids": [
       "xinke_shen_d3f0c50c8205"
@@ -2689,16 +3114,33 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "dan_zhang_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "张丹",
+        "secondary_tags": [
+          "情感EEG",
+          "跨域对齐损失",
+          "可泛化脑电解码",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "1b718bb0028eeb19",
     "primary_categories_by_scholar": [
-      "沈新科：情感脑电与多模态生理信号"
+      "沈新科：情感脑电与多模态生理信号",
+      "张丹：脑电基础大模型与自监督预训练"
     ],
     "pdf_url": "https://arxiv.org/pdf/2109.09559",
     "abstract_en": "EEG signals have been reported to be informative and reliable for emotion recognition in recent years. However, the inter-subject variability of emotion-related EEG signals still poses a great challenge for the practical applications of EEG-based emotion recognition. Inspired by recent neuroscience studies on inter-subject correlation, we proposed a Contrastive Learning method for Inter-Subject Alignment (CLISA) to tackle the cross-subject emotion recognition problem. Contrastive learning was employed to minimize the inter-subject differences by maximizing the similarity in EEG signkal representations across subjects when they received the same emotional stimuli in contrast to different ones. Specifically, a convolutional neural network was applied to learn inter-subject aligned spatiotemporal representations from EEG time series in contrastive learning. The aligned representations were subsequently used to extract differential entropy features for emotion classification. CLISA achieved state-of-the-art cross-subject emotion recognition performance on our THU-EP dataset with 80 subjects and the publicly available SEED dataset with 15 subjects. It could generalize to unseen subjects or unseen emotional stimuli in testing. Furthermore, the spatiotemporal representations learned by CLISA could provide insights into the neural mechanisms of human emotion processing.",
     "abstract_source": "openalex_verified",
-    "abstract_zh": "近年来，据报道，脑电图信号对于情绪识别来说信息丰富且可靠。然而，情绪相关脑电信号的个体间变异性仍然对基于脑电的情绪识别的实际应用提出了巨大的挑战。受最近关于主体间相关性的神经科学研究的启发，我们提出了一种主体间对齐的对比学习方法（CLISA）来解决跨主体情绪识别问题。当受试者收到相同的情绪刺激而不是不同的情绪刺激时，对比学习被用来通过最大化受试者之间脑电图信号表征的相似性来最小化受试者之间的差异......"
+    "abstract_zh": "近年来，据报道，脑电图信号对于情绪识别来说信息丰富且可靠。然而，情绪相关脑电信号的个体间变异性仍然对基于脑电的情绪识别的实际应用提出了巨大的挑战。受最近关于主体间相关性的神经科学研究的启发，我们提出了一种主体间对齐的对比学习方法（CLISA）来解决跨主体情绪识别问题。当受试者收到相同的情绪刺激而不是不同的情绪刺激时，对比学习被用来通过最大化受试者之间脑电图信号表征的相似性来最小化受试者之间的差异......",
+    "dblp_key": "journals/taffco/ShenLHZS23"
   },
   {
     "title": "Emotional state decoding using EEG-based microstates of functional connectivity",
@@ -2801,7 +3243,9 @@
       "跨域对齐损失",
       "可泛化脑电解码",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；重点纳入：情感EEG预训练；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2836,10 +3280,12 @@
     "work_title_group": "ef4c5ee25753",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "xinke_shen"
+      "xinke_shen",
+      "dan_zhang_thu"
     ],
     "scholar_names": [
-      "沈新科"
+      "沈新科",
+      "张丹"
     ],
     "source_record_ids": [
       "xinke_shen_bbe10114c7d2"
@@ -2856,15 +3302,32 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "dan_zhang_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "张丹",
+        "secondary_tags": [
+          "情感EEG",
+          "跨域对齐损失",
+          "可泛化脑电解码",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "777b6c7e4c29a705",
     "primary_categories_by_scholar": [
-      "沈新科：情感脑电与多模态生理信号"
+      "沈新科：情感脑电与多模态生理信号",
+      "张丹：脑电基础大模型与自监督预训练"
     ],
     "abstract_en": "The high inter-subject variability in emotional EEG activities has posed great challenges for practical EEG-based affective computing applications. The recently popular domain adaptation strategy seemed to be a promising technique for addressing this issue, by minimizing the discrepancy of EEG data from different subjects. The present study proposed and implemented an extended Domain Adaptation method by introducing Subject Clustering (DASC). By clustering subjects based on the similarity of their emotion-specific EEG activities, the DASC method could make a flexible use of the available source domain information towards an optimized target domain application. Using the publicly available EEG dataset of DEAP, the DASC method achieved an average accuracy of 73.9±13.5% and 68.8±11.2% for binary classifications of the high or low levels of valence and arousal. Comparison with the state-of-the-art performance as well as the ablation experiments suggest the proposed DASC method as an effective extension to the conventional domain adaptation methods for EEG-based emotion recognition.",
     "abstract_source": "openalex_verified",
-    "abstract_zh": "情绪脑电图活动的高主体间变异性给基于脑电图的情感计算的实际应用带来了巨大的挑战。最近流行的领域适应策略似乎是解决这个问题的一种有前途的技术，它可以最大限度地减少不同受试者的脑电图数据的差异。本研究通过引入主题聚类（DASC）提出并实现了扩展的域适应方法。通过根据特定情绪 EEG 活动的相似性对受试者进行聚类，DASC 方法可以灵活地利用可用的源域信息来优化目标域应用。使用公开可用的 EE..."
+    "abstract_zh": "情绪脑电图活动的高主体间变异性给基于脑电图的情感计算的实际应用带来了巨大的挑战。最近流行的领域适应策略似乎是解决这个问题的一种有前途的技术，它可以最大限度地减少不同受试者的脑电图数据的差异。本研究通过引入主题聚类（DASC）提出并实现了扩展的域适应方法。通过根据特定情绪 EEG 活动的相似性对受试者进行聚类，DASC 方法可以灵活地利用可用的源域信息来优化目标域应用。使用公开可用的 EE...",
+    "dblp_key": "conf/ner/LiuSSZ21"
   },
   {
     "title": "Exploring EEG microstates for affective computing: decoding valence and arousal experiences during video watching",
@@ -2887,7 +3350,8 @@
       "跨域对齐损失",
       "可泛化脑电解码",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；重点纳入：情感EEG预训练；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2922,10 +3386,12 @@
     "work_title_group": "a29ec1ab9d6d",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "xinke_shen"
+      "xinke_shen",
+      "dan_zhang_thu"
     ],
     "scholar_names": [
-      "沈新科"
+      "沈新科",
+      "张丹"
     ],
     "source_record_ids": [
       "xinke_shen_40a6db2abf19"
@@ -2942,15 +3408,32 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "dan_zhang_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "张丹",
+        "secondary_tags": [
+          "情感EEG",
+          "跨域对齐损失",
+          "可泛化脑电解码",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "情感智能"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "38926d754bb269bf",
     "primary_categories_by_scholar": [
-      "沈新科：情感脑电与多模态生理信号"
+      "沈新科：情感脑电与多模态生理信号",
+      "张丹：脑电基础大模型与自监督预训练"
     ],
     "abstract_en": "Investigating the electroencephalography (EEG) correlates of human emotional experiences has attracted increasing interest in the field of affective computing. Substantial progress has been made during the past decades, mainly by using EEG features extracted from localized brain activities. The present study explored a brain network-based feature defined by EEG microstates for a possible representation of emotional experiences. A publicly available and widely used benchmarking EEG dataset called DEAP was used, in which 32 participants watched 40 one-minute music videos with their 32channel EEG recorded. Four quasi-stable prototypical microstates were obtained, and their temporal parameters were extracted as features. In random forest regression, the microstate features showed better performances for decoding valence (model fitting mean squared error (MSE) = 3.85±0.28 and 4.07 ± 0.30, respectively, p = 0.022) and comparable performances for decoding arousal (MSE = 3.30±0.30 and 3.41 ±0.31, respectively, p = 0.169), as compared to conventional spectral power features. As microstate features describe neural activities from a global spatiotemporal dynamical perspective, our findings demonstrate a possible new mechanism for understanding human emotion and provide a promising type of EEG feature for affective computing.",
     "abstract_source": "openalex_verified",
-    "abstract_zh": "研究人类情感体验的脑电图（EEG）相关性引起了情感计算领域越来越多的兴趣。过去几十年来，主要通过使用从局部大脑活动中提取的脑电图特征，取得了实质性进展。本研究探索了由脑电图微状态定义的基于大脑网络的特征，以作为情感体验的可能表示。使用了一个公开且广泛使用的基准脑电图数据集 DEAP，其中 32 名参与者观看了 40 个一分钟的音乐视频，并记录了他们的 32 通道脑电图。获得了四种准稳定的原型微观状态，它们的时间参数..."
+    "abstract_zh": "研究人类情感体验的脑电图（EEG）相关性引起了情感计算领域越来越多的兴趣。过去几十年来，主要通过使用从局部大脑活动中提取的脑电图特征，取得了实质性进展。本研究探索了由脑电图微状态定义的基于大脑网络的特征，以作为情感体验的可能表示。使用了一个公开且广泛使用的基准脑电图数据集 DEAP，其中 32 名参与者观看了 40 个一分钟的音乐视频，并记录了他们的 32 通道脑电图。获得了四种准稳定的原型微观状态，它们的时间参数...",
+    "dblp_key": "conf/embc/ShenHLSZ20"
   },
   {
     "title": "Bridging Biological and Artificial Neural Networks with Emerging Neuromorphic Devices: Fundamentals, Progress, and Challenges",

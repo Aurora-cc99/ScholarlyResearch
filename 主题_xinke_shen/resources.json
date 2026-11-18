@@ -23,10 +23,19 @@
       "GitHub 代码仓库",
       "项目主页/资源说明"
     ],
-    "matched_paper_ids": [],
+    "matched_paper_ids": [
+      "9fdfbc36e7182027"
+    ],
     "unmatched_titles": [],
-    "scholar_category_ids": [],
-    "primary_categories": []
+    "scholar_category_ids": [
+      "xinke_shen::eeg_benchmark",
+      "quanying_liu::eeg_foundation"
+    ],
+    "primary_categories": [
+      "沈新科：脑电基准、数据与评测",
+      "刘泉影：脑电基础大模型与自监督预训练"
+    ],
+    "is_dataset_benchmark": true
   },
   {
     "id": "xinke_shen__auto_code_fe17d03978",
@@ -53,14 +62,17 @@
     "scholar_id": "xinke_shen",
     "scholar_name": "沈新科",
     "matched_paper_ids": [
-      "xinke_shen_b2f1ccdacbe7"
+      "xinke_shen_b2f1ccdacbe7",
+      "ae42f785a3bcb832"
     ],
     "unmatched_titles": [],
     "scholar_category_ids": [
-      "xinke_shen::eeg_affect"
+      "xinke_shen::eeg_affect",
+      "quanying_liu::eeg_foundation"
     ],
     "primary_categories": [
-      "沈新科：情感脑电与多模态生理信号"
+      "沈新科：情感脑电与多模态生理信号",
+      "刘泉影：脑电基础大模型与自监督预训练"
     ]
   },
   {
@@ -123,14 +135,17 @@
     "scholar_id": "xinke_shen",
     "scholar_name": "沈新科",
     "matched_paper_ids": [
-      "xinke_shen_5b3ef52083f9"
+      "xinke_shen_5b3ef52083f9",
+      "29f8dd51be02f59f"
     ],
     "unmatched_titles": [],
     "scholar_category_ids": [
-      "xinke_shen::eeg_benchmark"
+      "xinke_shen::eeg_benchmark",
+      "quanying_liu::eeg_foundation"
     ],
     "primary_categories": [
-      "沈新科：脑电基准、数据与评测"
+      "沈新科：脑电基准、数据与评测",
+      "刘泉影：脑电基础大模型与自监督预训练"
     ],
     "is_dataset_benchmark": true,
     "dataset_title": "OmniEEG-Bench — A Standardized Evaluation Benchmark for EEG Foundation Models"

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "res_ds_2b1225f68b37",
+    "name": "CASME II Spontaneous Micro-Expression Database",
+    "name_zh": "CASME II 自发面部微表情标准数据集（中科院心理所）",
+    "type": "dataset",
+    "url": "http://casme.psych.ac.cn/casme/e2",
+    "download_url": "http://casme.psych.ac.cn/casme/e2",
+    "access": "官方资源主页/申请下载",
+    "scholar_id": "su_jing_wang",
+    "scholar_name": "王苏菁",
+    "matched_paper_ids": [
+      "393bfb943fc970d5"
+    ],
+    "related_paper_titles": [
+      "A Main Directional Mean Optical Flow Feature for Spontaneous Micro-Expression Recognition"
+    ],
+    "related_paper_titles_zh": [
+      "自发微表情识别的主方向平均光流特征"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1109/taffc.2015.2485205"
+    ],
+    "description": "高帧率实验室诱发自发微表情视频标准评测数据库。",
+    "verification": "代表作与官方项目仓库人工交叉核验",
+    "scholar_category_ids": [
+      "fu_xiaolan::eeg_affect",
+      "guoying_zhao::emotion_understanding",
+      "su_jing_wang::general_vision_ai"
+    ],
+    "primary_categories": [
+      "傅小兰：情感脑电与多模态生理信号",
+      "赵国英：情感理解与多模态推理",
+      "王苏菁：视觉感知、语音信号与通用人工智能"
+    ]
+  }
+]

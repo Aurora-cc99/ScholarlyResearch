@@ -5,7 +5,7 @@
 - **身份/单位**：Beijing Normal University State Key Laboratory of Cognitive Neuroscience and Learning
 - **英文姓名**：Xiaoli Li · **ORCID**：[0000-0003-1359-5130](https://orcid.org/0000-0003-1359-5130) · **DBLP**：[172/6872](https://dblp.org/pid/172/6872.html)
 - **外部身份依据**：[身份源1](https://brain.bnu.edu.cn/kytd/jsyjy/Ljs/0f04a81f60614f47a5f2f5178d78e344.htm) · [身份源2](https://jwb.bnu.edu.cn/docs/2022-10/c7a8193654e9dbe2cb1826c1b51df.pdf) · [身份源3](https://www.aminer.cn/academic/scholar/xiaoli-li/56cb18c3c35f4f3c65661353) · [身份源4](https://orcid.org/0000-0003-1359-5130) · [身份源5](https://dblp.org/pid/172/6872.html) · [身份源6](https://openalex.org/A5100418692)
-- **本轮核验书目记录**：**404** 条（其中含中英文摘要 **263** 条）；**开源资源入口**：**2** 条；**已关联资源的论文**：**3** 篇。
+- **本轮核验书目记录**：**404** 条（其中含中英文摘要 **268** 条）；**开源资源入口**：**2** 条；**已关联资源的论文**：**4** 篇。
 
 [论文分类目录](论文分类目录.md) · [按年份查看全部论文](全部论文.md) · [论文CSV](papers.csv) · [BibTeX](papers.bib) · [代码与项目](代码与项目.md) · [数据集与模型](数据集与模型.md) · [资源CSV](resources.csv) · [核验与缺口](核验与缺口.md) · [返回总导航](../README_总导航.md)
 

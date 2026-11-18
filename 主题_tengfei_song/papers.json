@@ -1,0 +1,2558 @@
+[
+  {
+    "title": "Tag-Aware Structured Text Translation: Towards a Systematic Understanding",
+    "title_en": "Tag-Aware Structured Text Translation: Towards a Systematic Understanding",
+    "title_zh": "标签感知结构化文本翻译：走向系统化理解",
+    "year": 2026,
+    "venue": "CoRR",
+    "authors": [
+      "Daimeng Wei",
+      "Jiaxin Guo",
+      "Ning Xie",
+      "Zhanglin Wu",
+      "Hengchao Shang",
+      "Zongyao Li",
+      "Weidong Zhang",
+      "Tengfei Song"
+    ],
+    "doi": "10.48550/ARXIV.2609.29131",
+    "dblp_key": "journals/corr/abs-2609-29131",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2609.29131",
+    "pdf_url": "https://arxiv.org/pdf/2609.29131",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2609-29131",
+    "abstract_en": "Internet texts are replete with format tags that carry structural, semantic, and functional meaning. Current large language model (LLM)-based translation systems struggle to balance translation fluency with tag fidelity when processing tagged text. We argue that resolving this tension requires a systematic approach at three interconnected levels: data synthesis, capability building, and multi-objective alignment. At the data level, we identify and formalize a fundamental trade-off between structural tag diversity and translation naturalness in synthetic data generation; existing methods optimize for one at the expense of the other. We propose a hybrid synthesis strategy (Hy-LST) combining LLM-based synthesis tag method and Two-Stage LLM-based synthesis tag method to produce both diverse and natural tagged data. At the capability level, we decompose tag-aware translation into four sub-tasks of increasing difficulty in a multi-task supervised fine-tuning framework, enabling targeted capability acquisition and knowledge transfer. At the alignment level, we design three complementary reward functions under a group relative policy optimization framework, each targeting a distinct objective (fluency, tag fidelity, and tag-scoped translation quality), and show that joint optimization consistently outperforms single-reward alternatives. Experiments on six language directions (en2zh, en2ja, en2de, en2fr, en2ru, de2fr) demonstrate that each level contributes measurable improvements, and the complete system significantly outperforms existing methods. Qualitative analysis reveals specific error patterns and their mitigation after training with our method.",
+    "abstract_zh": "互联网文本充满了带有结构、语义和功能含义的格式标签。当前基于大语言模型 (LLM) 的翻译系统在处理标记文本时难以平衡翻译流畅性和标记保真度。我们认为，解决这种紧张关系需要在三个相互关联的层面上采取系统方法：数据合成、能力建设和多目标协调。在数据层面，我们确定并形式化了合成数据生成中结构标签多样性和翻译自然性之间的基本权衡；现有方法以牺牲另一种为代价来优化一种方法。我们提出了一种结合基于 LLM 的合成标签方法和基于两阶段 LLM 的混合合成策略（Hy-LST）...",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 0,
+    "topics": [
+      "多模态与大语言模型",
+      "强化学习与决策优化"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（235/1928）",
+    "status": "预印本（arXiv/CoRR）",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "tengfei_song_a5f6e9087caa39cb",
+    "global_record_id": "a5f6e9087caa39cb",
+    "scholar_id": "tengfei_song",
+    "scholar_name": "宋腾飞",
+    "scholar_ids": [
+      "tengfei_song"
+    ],
+    "scholar_names": [
+      "宋腾飞"
+    ],
+    "source_record_ids": [
+      "tengfei_song_a5f6e9087caa39cb"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "tengfei_song": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [
+          "多模态与大语言模型",
+          "强化学习与决策优化"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "宋腾飞：生理情感数据库、基准与综述"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_affect_bench",
+    "primary_category": "生理情感数据库、基准与综述"
+  },
+  {
+    "title": "Global-Local Dual Perception for MLLMs in High-Resolution Text-Rich Image Translation",
+    "title_en": "Global-Local Dual Perception for MLLMs in High-Resolution Text-Rich Image Translation",
+    "title_zh": "高分辨率文本丰富图像翻译中 MLLM 的全局-局部双重感知",
+    "year": 2026,
+    "venue": "ECCV (77)",
+    "authors": [
+      "Hui Yang",
+      "Xiaowei Liang",
+      "Zhanglin Wu",
+      "Junxin Lu",
+      "Tengfei Song",
+      "Shiliang Sun",
+      "Ning Xie",
+      "Daimeng Wei",
+      "Yunfei Lu",
+      "Pengfei Li",
+      "Kun Chen",
+      "Jing Zhao"
+    ],
+    "doi": "10.1007/978-3-032-37041-9_12",
+    "dblp_key": "conf/eccv/LuSWLLYCXLZSW26",
+    "paper_url": "https://doi.org/10.1007/978-3-032-37041-9_12",
+    "pdf_url": "https://arxiv.org/pdf/2602.21956",
+    "source_url": "https://dblp.org/rec/conf/eccv/LuSWLLYCXLZSW26",
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "cited_by_count": 2,
+    "topics": [
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（235/1928）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "tengfei_song_ee9d1e0438c05c42",
+    "global_record_id": "ee9d1e0438c05c42",
+    "scholar_id": "tengfei_song",
+    "scholar_name": "宋腾飞",
+    "scholar_ids": [
+      "tengfei_song"
+    ],
+    "scholar_names": [
+      "宋腾飞"
+    ],
+    "source_record_ids": [
+      "tengfei_song_ee9d1e0438c05c42"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "tengfei_song": {
+        "category_id": "general_ml_biomed",
+        "label": "通用模式识别、临床脑科学与跨领域应用",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "宋腾飞：通用模式识别、临床脑科学与跨领域应用"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "general_ml_biomed",
+    "primary_category": "通用模式识别、临床脑科学与跨领域应用"
+  },
+  {
+    "title": "Memory Reviving, Continuing Learning and Beyond: Evaluation of Pre-trained Encoders and Decoders for Multimodal Machine Translation",
+    "title_en": "Memory Reviving, Continuing Learning and Beyond: Evaluation of Pre-trained Encoders and Decoders for Multimodal Machine Translation",
+    "title_zh": "记忆恢复、持续学习及其他：多模态机器翻译预训练编码器和解码器的评估",
+    "year": 2025,
+    "venue": "CoRR",
+    "authors": [
+      "Shiliang Sun",
+      "Jing Zhao",
+      "Zhuang Yu",
+      "Tengfei Song",
+      "Hao Yang"
+    ],
+    "doi": "10.48550/ARXIV.2504.18012",
+    "dblp_key": "journals/corr/abs-2504-18012",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2504.18012",
+    "pdf_url": "https://arxiv.org/pdf/2504.18012",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2504-18012",
+    "abstract_en": "Multimodal Machine Translation (MMT) aims to improve translation quality by leveraging auxiliary modalities such as images alongside textual input. While recent advances in large-scale pre-trained language and vision models have significantly benefited unimodal natural language processing tasks, their effectiveness and role in MMT remain underexplored. In this work, we conduct a systematic study on the impact of pre-trained encoders and decoders in multimodal translation models. Specifically, we analyze how different training strategies, from training from scratch to using pre-trained and partially frozen components, affect translation performance under a unified MMT framework. Experiments are carried out on the Multi30K and CoMMuTE dataset across English-German and English-French translation tasks. Our results reveal that pre-training plays a crucial yet asymmetrical role in multimodal settings: pre-trained decoders consistently yield more fluent and accurate outputs, while pre-trained encoders show varied effects depending on the quality of visual-text alignment. Furthermore, we provide insights into the interplay between modality fusion and pre-trained components, offering guidance for future architecture design in multimodal translation systems.",
+    "abstract_zh": "多模式机器翻译 (MMT) 旨在通过利用图像和文本输入等辅助模式来提高翻译质量。虽然大规模预训练语言和视觉模型的最新进展使单模态自然语言处理任务显着受益，但它们在 MMT 中的有效性和作用仍未得到充分探索。在这项工作中，我们对多模态翻译模型中预训练编码器和解码器的影响进行了系统研究。具体来说，我们分析了从头开始训练到使用预训练和部分冻结组件的不同训练策略如何影响统一 MMT 框架下的翻译性能。在Multi30K和CoMMuTE数据集上进行实验...",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 2,
+    "topics": [
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（235/1928）",
+    "status": "预印本（arXiv/CoRR）",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "tengfei_song_98b655ab47398a73",
+    "global_record_id": "98b655ab47398a73",
+    "scholar_id": "tengfei_song",
+    "scholar_name": "宋腾飞",
+    "scholar_ids": [
+      "tengfei_song"
+    ],
+    "scholar_names": [
+      "宋腾飞"
+    ],
+    "source_record_ids": [
+      "tengfei_song_98b655ab47398a73"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "tengfei_song": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "宋腾飞：生理情感数据库、基准与综述"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_affect_bench",
+    "primary_category": "生理情感数据库、基准与综述"
+  },
+  {
+    "title": "VQA-Augmented Machine Translation with Cross-Modal Contrastive Learning",
+    "title_en": "VQA-Augmented Machine Translation with Cross-Modal Contrastive Learning",
+    "title_zh": "具有跨模态对比学习的 VQA 增强机器翻译",
+    "year": 2025,
+    "venue": "EMNLP (Findings)",
+    "authors": [
+      "Hao Yang",
+      "Jing Zhao",
+      "Zhihui Zhang",
+      "Shiliang Sun",
+      "Tengfei Song"
+    ],
+    "doi": "10.18653/V1/2025.FINDINGS-EMNLP.536",
+    "dblp_key": "conf/emnlp/ZhangSZSY25",
+    "paper_url": "https://doi.org/10.18653/V1/2025.FINDINGS-EMNLP.536",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/conf/emnlp/ZhangSZSY25",
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "cited_by_count": 0,
+    "topics": [
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（235/1928）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "tengfei_song_6b124271e9435b59",
+    "global_record_id": "6b124271e9435b59",
+    "scholar_id": "tengfei_song",
+    "scholar_name": "宋腾飞",
+    "scholar_ids": [
+      "tengfei_song"
+    ],
+    "scholar_names": [
+      "宋腾飞"
+    ],
+    "source_record_ids": [
+      "tengfei_song_6b124271e9435b59"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "tengfei_song": {
+        "category_id": "general_ml_biomed",
+        "label": "通用模式识别、临床脑科学与跨领域应用",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "宋腾飞：通用模式识别、临床脑科学与跨领域应用"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "general_ml_biomed",
+    "primary_category": "通用模式识别、临床脑科学与跨领域应用"
+  },
+  {
+    "title": "Multimodal Machine Translation with Visual Scene Graph Pruning",
+    "title_en": "Multimodal Machine Translation with Visual Scene Graph Pruning",
+    "title_zh": "具有视觉场景图修剪的多模态机器翻译",
+    "year": 2025,
+    "venue": "CoRR",
+    "authors": [
+      "Chenyu Lu",
+      "Nan Zhang",
+      "Jing Zhao",
+      "Shiliang Sun",
+      "Tengfei Song",
+      "Hao Yang"
+    ],
+    "doi": "10.48550/ARXIV.2505.19507",
+    "dblp_key": "journals/corr/abs-2505-19507",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2505.19507",
+    "pdf_url": "https://arxiv.org/pdf/2505.19507",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2505-19507",
+    "abstract_en": "Multimodal machine translation (MMT) seeks to address the challenges posed by linguistic polysemy and ambiguity in translation tasks by incorporating visual information. A key bottleneck in current MMT research is the effective utilization of visual data. Previous approaches have focused on extracting global or region-level image features and using attention or gating mechanisms for multimodal information fusion. However, these methods have not adequately tackled the issue of visual information redundancy in MMT, nor have they proposed effective solutions. In this paper, we introduce a novel approach--multimodal machine translation with visual Scene Graph Pruning (PSG), which leverages language scene graph information to guide the pruning of redundant nodes in visual scene graphs, thereby reducing noise in downstream translation tasks. Through extensive comparative experiments with state-of-the-art methods and ablation studies, we demonstrate the effectiveness of the PSG model. Our results also highlight the promising potential of visual information pruning in advancing the field of MMT.",
+    "abstract_zh": "多模态机器翻译（MMT）旨在通过整合视觉信息来解决翻译任务中语言多义性和歧义性带来的挑战。当前MMT研究的一个关键瓶颈是视觉数据的有效利用。以前的方法侧重于提取全局或区域级图像特征并使用注意力或门控机制进行多模态信息融合。然而，这些方法并没有充分解决MMT中视觉信息冗余的问题，也没有提出有效的解决方案。在本文中，我们介绍了一种新颖的方法——带有视觉场景图剪枝（PSG）的多模态机器翻译，它利用语言场景图信息来指导剪枝...",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 2,
+    "topics": [
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（235/1928）",
+    "status": "预印本（arXiv/CoRR）",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "tengfei_song_d13ae6dcf5bbeec1",
+    "global_record_id": "d13ae6dcf5bbeec1",
+    "scholar_id": "tengfei_song",
+    "scholar_name": "宋腾飞",
+    "scholar_ids": [
+      "tengfei_song"
+    ],
+    "scholar_names": [
+      "宋腾飞"
+    ],
+    "source_record_ids": [
+      "tengfei_song_d13ae6dcf5bbeec1"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "tengfei_song": {
+        "category_id": "general_ml_biomed",
+        "label": "通用模式识别、临床脑科学与跨领域应用",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "宋腾飞：通用模式识别、临床脑科学与跨领域应用"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "general_ml_biomed",
+    "primary_category": "通用模式识别、临床脑科学与跨领域应用"
+  },
+  {
+    "title": "Evaluating Menu OCR and Translation: A Benchmark for Aligning Human and Automated Evaluations in Large Vision-Language Models",
+    "title_en": "Evaluating Menu OCR and Translation: A Benchmark for Aligning Human and Automated Evaluations in Large Vision-Language Models",
+    "title_zh": "评估菜单 OCR 和翻译：在大型视觉语言模型中协调人工和自动评估的基准",
+    "year": 2025,
+    "venue": "CoRR",
+    "authors": [
+      "Zhanglin Wu",
+      "Weidong Zhang",
+      "Mengli Zhu",
+      "Tengfei Song",
+      "Chong Li",
+      "Ning Xie",
+      "Pengfei Li",
+      "Shiliang Sun",
+      "Shuang Wu",
+      "Junhao Zhu",
+      "Hao Yang"
+    ],
+    "doi": "10.48550/ARXIV.2504.13945",
+    "dblp_key": "journals/corr/abs-2504-13945",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2504.13945",
+    "pdf_url": "https://arxiv.org/pdf/2504.13945",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2504-13945",
+    "abstract_en": "The rapid advancement of large vision-language models (LVLMs) has significantly propelled applications in document understanding, particularly in optical character recognition (OCR) and multilingual translation. However, current evaluations of LVLMs, like the widely used OCRBench, mainly focus on verifying the correctness of their short-text responses and long-text responses with simple layout, while the evaluation of their ability to understand long texts with complex layout design is highly significant but largely overlooked. In this paper, we propose Menu OCR and Translation Benchmark (MOTBench), a specialized evaluation framework emphasizing the pivotal role of menu translation in cross-cultural communication. MOTBench requires LVLMs to accurately recognize and translate each dish, along with its price and unit items on a menu, providing a comprehensive assessment of their visual understanding and language processing capabilities. Our benchmark is comprised of a collection of Chinese and English menus, characterized by intricate layouts, a variety of fonts, and culturally specific elements across different languages, along with precise human annotations. Experiments show that our automatic evaluation results are highly consistent with professional human evaluation. We evaluate a range of publicly available state-of-the-art LVLMs, and through analyzing their output to identify the strengths and weaknesses in their performance, offering valuable insights to guide future advancements in LVLM development. MOTBench is available at https://github.com/gitwzl/MOTBench.",
+    "abstract_zh": "大型视觉语言模型（LVLM）的快速发展极大地推动了文档理解的应用，特别是在光学字符识别（OCR）和多语言翻译方面。然而，目前对 LVLM 的评估，如广泛使用的 OCRBench，主要集中在验证其短文本响应和具有简单布局的长文本响应的正确性，而对其理解具有复杂布局设计的长文本的能力的评估非常重要，但在很大程度上被忽视。在本文中，我们提出了菜单 OCR 和翻译基准（MOTBench），这是一个专门的评估框架，强调菜单翻译在跨文化交流中的关键作用。 MOTBench 要求 LVLM...",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 3,
+    "topics": [
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（235/1928）",
+    "status": "预印本（arXiv/CoRR）",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "tengfei_song_261d94d7c7674fa6",
+    "global_record_id": "261d94d7c7674fa6",
+    "scholar_id": "tengfei_song",
+    "scholar_name": "宋腾飞",
+    "scholar_ids": [
+      "tengfei_song"
+    ],
+    "scholar_names": [
+      "宋腾飞"
+    ],
+    "source_record_ids": [
+      "tengfei_song_261d94d7c7674fa6"
+    ],
+    "resource_ids": [
+      "res_gh_aedb3dc1a3a8"
+    ],
+    "code_urls": [
+      "https://github.com/gitwzl/MOTBench"
+    ],
+    "data_urls": [
+      "https://github.com/gitwzl/MOTBench"
+    ],
+    "model_urls": [],
+    "scholar_categories": {
+      "tengfei_song": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "宋腾飞：生理情感数据库、基准与综述"
+    ],
+    "resource_status": "已关联公开资源入口",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_affect_bench",
+    "primary_category": "生理情感数据库、基准与综述"
+  },
+  {
+    "title": "Emotion Knowledge Enhancement for Vision Large Language Models: A Self-Verification Approach for High-Quality Emotion Instruction Data Generation",
+    "title_en": "Emotion Knowledge Enhancement for Vision Large Language Models: A Self-Verification Approach for High-Quality Emotion Instruction Data Generation",
+    "title_zh": "视觉大语言模型的情感知识增强：一种高质量情感指令数据生成的自验证方法",
+    "year": 2025,
+    "venue": "CoRR",
+    "authors": [
+      "Feifan Wang",
+      "Tengfei Song",
+      "Minggui He",
+      "Chang Su",
+      "Zhanglin Wu",
+      "Hao Yang",
+      "Wenming Zheng",
+      "Osamu Yoshie"
+    ],
+    "doi": "10.48550/ARXIV.2505.18168",
+    "dblp_key": "journals/corr/abs-2505-18168",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2505.18168",
+    "pdf_url": "https://arxiv.org/pdf/2505.18168.pdf",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2505-18168.html",
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "cited_by_count": 0,
+    "abstract_en": "Facial emotion perception in the vision large language model (VLLM) is crucial for achieving natural human-machine interaction. However, creating high-quality annotations for both coarse- and fine-grained facial emotion analysis demands costly expertise. The lack of such high-quality instruction data limits the performance of VLLMs in facial emotion perception. To address this, we propose a self-verification approach with emotion knowledge enhancement (SEKE), which generates high-quality instruction data for multi-grained emotion analysis cost-effectively using closed-source VLLM. This approach integrates prior human knowledge to VLLM inference, guided by the inherent correlations between three grained levels of emotion descriptions, i.e., discrete expression, valence-arousal, and action unit, to reliably generate comprehensive annotations. A self-verification strategy with Uncertainty-Aware Monte Carlo sampling (SV-UAMC) is further embedded to efficiently extract more accurate VLLM predictions, further improving annotation reliability. Consequently, we construct a facial emotion instruction dataset (FEID) containing three comprehensive descriptions, which provides coarse- and fine-grained emotional information for effective model training. Additionally, we introduce a facial emotion analysis benchmark (FEAB) to measure the VLLM's corresponding ability. Our method significantly outperforms state-of-the-art methods on three downstream facial emotion analysis tasks.",
+    "abstract_zh": "视觉大语言模型（VLLM）中的面部情感感知对于实现自然的人机交互至关重要。然而，为粗粒度和细粒度的面部情绪分析创建高质量的注释需要昂贵的专业知识。缺乏如此高质量的指令数据限制了 VLLM 在面部情绪感知方面的性能。为了解决这个问题，我们提出了一种具有情感知识增强（SEKE）的自我验证方法，该方法使用闭源 VLLM 经济高效地生成用于多粒度情感分析的高质量指令数据。这种方法将人类先验知识整合到 VLLM 推理中，以两者之间的内在相关性为指导...",
+    "abstract_source": "arxiv_api",
+    "topics": [
+      "情感计算与情绪理解",
+      "多模态与大语言模型",
+      "情感大模型"
+    ],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
+    "status": "预印本记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "wenming_zheng_a4d34ed7b12afb81",
+    "global_record_id": "2ceb71ce40ac328f",
+    "scholar_id": "wenming_zheng",
+    "scholar_name": "郑文明",
+    "scholar_ids": [
+      "wenming_zheng",
+      "tengfei_song"
+    ],
+    "scholar_names": [
+      "郑文明",
+      "宋腾飞"
+    ],
+    "source_record_ids": [
+      "wenming_zheng_a4d34ed7b12afb81"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "wenming_zheng": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "郑文明",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "tengfei_song": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "情感大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "郑文明：脑电基准、数据与评测",
+      "宋腾飞：生理情感数据库、基准与综述"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "Multimodal Machine Translation with Text-Image In-depth Questioning",
+    "title_en": "Multimodal Machine Translation with Text-Image In-depth Questioning",
+    "title_zh": "文本图像深度提问的多模态机器翻译",
+    "year": 2025,
+    "venue": "ACL (Findings)",
+    "authors": [
+      "Jing Zhao",
+      "Yue Gao",
+      "Xiaosong Qiao",
+      "Tengfei Song",
+      "Shiliang Sun",
+      "Hao Yang"
+    ],
+    "doi": "10.18653/V1/2025.FINDINGS-ACL.483",
+    "dblp_key": "conf/acl/GaoZSQSY25",
+    "paper_url": "https://doi.org/10.18653/V1/2025.FINDINGS-ACL.483",
+    "pdf_url": "https://aclanthology.org/2025.findings-acl.483.pdf",
+    "source_url": "https://dblp.org/rec/conf/acl/GaoZSQSY25",
+    "abstract_en": "Multimodal machine translation (MMT) integrates visual information to address ambiguity and contextual limitations in neural machine translation (NMT).Some empirical studies have revealed that many MMT models underutilize visual data during translation.They attempt to enhance cross-modal interactions to enable better exploitation of visual data.However, they only focus on simple interactions between nouns in text and corresponding entities in image, overlooking global semantic alignment, particularly for prepositional phrases and verbs in text which are more likely to be translated incorrectly.To address this, we design a Text-Image In-depth Questioning method to deepen interactions and optimize translations.Furthermore, to mitigate errors arising from contextually irrelevant image noise, we propose a Consistency Constraint strategy to improve our approach's robustness.Our approach achieves state-of-the-art results on five translation directions of Multi30K and Ambig-Caps, with +2.35 BLEU on the challenging MSCOCO benchmark, validating our method's effectiveness in utilizing visual data and capturing comprehensive textual semantics.",
+    "abstract_zh": "多模态机器翻译（MMT）集成视觉信息来解决神经机器翻译（NMT）中的歧义和上下文限制。一些实证研究表明，许多MMT模型在翻译过程中未充分利用视觉数据。它们试图增强跨模态交互，以更好地利用视觉数据。然而，它们只关注文本中的名词与图像中相应实体之间的简单交互，忽略了全局语义对齐，特别是对于文本中更容易被错误翻译的介词短语和动词。为此，我们设计了一种文本-图像深度提问方法来加深交互并优化翻译。此外，为了减少错误......",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 11,
+    "topics": [
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（235/1928）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "tengfei_song_a0c4d9fefc2592e7",
+    "global_record_id": "a0c4d9fefc2592e7",
+    "scholar_id": "tengfei_song",
+    "scholar_name": "宋腾飞",
+    "scholar_ids": [
+      "tengfei_song"
+    ],
+    "scholar_names": [
+      "宋腾飞"
+    ],
+    "source_record_ids": [
+      "tengfei_song_a0c4d9fefc2592e7"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "tengfei_song": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "宋腾飞：生理情感数据库、基准与综述"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_affect_bench",
+    "primary_category": "生理情感数据库、基准与综述"
+  },
+  {
+    "title": "Imagination and Contemplation: A Balanced Framework for Semantic-Augmented Multimodal Machine Translation",
+    "title_en": "Imagination and Contemplation: A Balanced Framework for Semantic-Augmented Multimodal Machine Translation",
+    "title_zh": "想象力与沉思：语义增强多模态机器翻译的平衡框架",
+    "year": 2025,
+    "venue": "EMNLP (Findings)",
+    "authors": [
+      "Zhuang Yu",
+      "Hao Yang",
+      "Jing Zhao",
+      "Tengfei Song",
+      "Shiliang Sun"
+    ],
+    "doi": "10.18653/V1/2025.FINDINGS-EMNLP.579",
+    "dblp_key": "conf/emnlp/YuSZSY25",
+    "paper_url": "https://doi.org/10.18653/V1/2025.FINDINGS-EMNLP.579",
+    "pdf_url": "https://aclanthology.org/2025.findings-emnlp.579.pdf",
+    "source_url": "https://dblp.org/rec/conf/emnlp/YuSZSY25",
+    "abstract_en": "Multimodal Machine Translation (MMT) enhances textual translation through auxiliary inputs such as images, which is particularly effective in resolving linguistic ambiguities.However, visual information often introduces redundancy or noise, potentially impairing translation quality.To address this challenge, we propose a balanced semantic-augmented framework that integrates Imagination and Contemplation in multimodal understanding.Specifically, we first generate synthetic images from the source text and align them with the authentic images via an optimal transport (OT) loss to enhance visual semantic consistency.A CLIP-based similarity gating mechanism is introduced to adaptively fuse visual features from both authentic and synthetic images during visual representation learning.To strengthen semantic grounding, a neural machine translation (NMT) branch is incorporated as a regularization signal, and a Kullback-Leibler (KL) divergence is applied between MMT and NMT outputs to mitigate modality mismatch.Furthermore, an image-text contrastive (ITC) loss aligns the final translations with image representations, reinforcing multimodal coherence.Experiments on multiple translation datasets with a diverse set of language pairs demonstrate that our framework outperforms existing baselines, particularly in cases with visually ambiguous or weakly correlated content.",
+    "abstract_zh": "多模态机器翻译（MMT）通过图像等辅助输入来增强文本翻译，这在解决语言歧义方面特别有效。然而，视觉信息经常引入冗余或噪声，可能会损害翻译质量。为了应对这一挑战，我们提出了一种平衡的语义增强框架，将多模态理解中的想象力和沉思融为一体。具体来说，我们首先从源文本生成合成图像，并通过最佳传输（OT）损失将其与真实图像对齐，以增强视觉语义一致性。引入基于 CLIP 的相似性门控机制来自适应地融合真实图像和合成图像的视觉特征......",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 4,
+    "topics": [
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（235/1928）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "tengfei_song_42bd21c67a81a057",
+    "global_record_id": "42bd21c67a81a057",
+    "scholar_id": "tengfei_song",
+    "scholar_name": "宋腾飞",
+    "scholar_ids": [
+      "tengfei_song"
+    ],
+    "scholar_names": [
+      "宋腾飞"
+    ],
+    "source_record_ids": [
+      "tengfei_song_42bd21c67a81a057"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "tengfei_song": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "宋腾飞：生理情感数据库、基准与综述"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_affect_bench",
+    "primary_category": "生理情感数据库、基准与综述"
+  },
+  {
+    "title": "DIMT25@ICDAR2025: HW-TSC's End-to-End Document Image Machine Translation System Leveraging Large Vision-Language Model",
+    "title_en": "DIMT25@ICDAR2025: HW-TSC's End-to-End Document Image Machine Translation System Leveraging Large Vision-Language Model",
+    "title_zh": "DIMT25@ICDAR2025：HW-TSC 利用大型视觉语言模型的端到端文档图像机器翻译系统",
+    "year": 2025,
+    "venue": "CoRR",
+    "authors": [
+      "Pengfei Li",
+      "Tengfei Song",
+      "Hao Yang",
+      "Zhanglin Wu",
+      "Ning Xie",
+      "Weidong Zhang",
+      "Junhao Zhu",
+      "Shuang Wu",
+      "Chong Li"
+    ],
+    "doi": "10.48550/ARXIV.2504.17315",
+    "dblp_key": "journals/corr/abs-2504-17315",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2504.17315",
+    "pdf_url": "https://arxiv.org/pdf/2504.17315",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2504-17315",
+    "abstract_en": "This paper presents the technical solution proposed by Huawei Translation Service Center (HW-TSC) for the \"End-to-End Document Image Machine Translation for Complex Layouts\" competition at the 19th International Conference on Document Analysis and Recognition (DIMT25@ICDAR2025). Leveraging state-of-the-art open-source large vision-language model (LVLM), we introduce a training framework that combines multi-task learning with perceptual chain-of-thought to develop a comprehensive end-to-end document translation system. During the inference phase, we apply minimum Bayesian decoding and post-processing strategies to further enhance the system's translation capabilities. Our solution uniquely addresses both OCR-based and OCR-free document image translation tasks within a unified framework. This paper systematically details the training methods, inference strategies, LVLM base models, training data, experimental setups, and results, demonstrating an effective approach to document image machine translation.",
+    "abstract_zh": "本文介绍了华为翻译服务中心（HW-TSC）为第十九届国际文档分析与识别会议（DIMT25@ICDAR2025）“复杂布局的端到端文档图像机器翻译”竞赛提出的技术解决方案。利用最先进的开源大型视觉语言模型（LVLM），我们引入了一种将多任务学习与感知思维链相结合的训练框架，以开发全面的端到端文档翻译系统。在推理阶段，我们应用最小贝叶斯解码和后处理策略来进一步增强系统的翻译能力。我们的解决方案独特地解决了基于 OCR 和无 OCR 的文档图像...",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 0,
+    "topics": [
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（235/1928）",
+    "status": "预印本（arXiv/CoRR）",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "tengfei_song_799ef96cb506b460",
+    "global_record_id": "799ef96cb506b460",
+    "scholar_id": "tengfei_song",
+    "scholar_name": "宋腾飞",
+    "scholar_ids": [
+      "tengfei_song"
+    ],
+    "scholar_names": [
+      "宋腾飞"
+    ],
+    "source_record_ids": [
+      "tengfei_song_799ef96cb506b460"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "tengfei_song": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "宋腾飞：生理情感数据库、基准与综述"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_affect_bench",
+    "primary_category": "生理情感数据库、基准与综述"
+  },
+  {
+    "title": "PromptEVC: Controllable Emotional Voice Conversion with Natural Language Prompts",
+    "title_en": "PromptEVC: Controllable Emotional Voice Conversion with Natural Language Prompts",
+    "title_zh": "PromptEVC：具有自然语言提示的可控情感语音转换",
+    "year": 2025,
+    "venue": "CoRR",
+    "authors": [
+      "Tianhua Qi",
+      "Shiyan Wang",
+      "Cheng Lu",
+      "Tengfei Song",
+      "Hao Yang",
+      "Zhanglin Wu",
+      "Wenming Zheng"
+    ],
+    "doi": "10.48550/ARXIV.2505.20678",
+    "dblp_key": "journals/corr/abs-2505-20678",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2505.20678",
+    "pdf_url": "https://arxiv.org/pdf/2505.20678.pdf",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2505-20678.html",
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "cited_by_count": 12,
+    "abstract_en": "Controllable emotional voice conversion (EVC) aims to manipulate emotional expressions to increase the diversity of synthesized speech. Existing methods typically rely on predefined labels, reference audios, or prespecified factor values, often overlooking individual differences in emotion perception and expression. In this paper, we introduce PromptEVC that utilizes natural language prompts for precise and flexible emotion control. To bridge text descriptions with emotional speech, we propose emotion descriptor and prompt mapper to generate fine-grained emotion embeddings, trained jointly with reference embeddings. To enhance naturalness, we present a prosody modeling and control pipeline that adjusts the rhythm based on linguistic content and emotional cues. Additionally, a speaker encoder is incorporated to preserve identity. Experimental results demonstrate that PromptEVC outperforms state-of-the-art controllable EVC methods in emotion conversion, intensity control, mixed emotion synthesis, and prosody manipulation. Speech samples are available at https://jeremychee4.github.io/PromptEVC/.",
+    "abstract_zh": "可控情绪语音转换（EVC）旨在操纵情绪表达以增加合成语音的多样性。现有的方法通常依赖于预定义的标签、参考音频或预先指定的因子值，常常忽略情绪感知和表达的个体差异。在本文中，我们介绍了PromptEVC，它利用自然语言提示进行精确灵活的情绪控制。为了将文本描述与情感语音联系起来，我们提出了情感描述符和提示映射器来生成细粒度的情感嵌入，并与参考嵌入联合训练。为了增强自然性，我们提出了韵律建模和控制管道...",
+    "abstract_source": "arxiv_api",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
+    "status": "预印本记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "wenming_zheng_793501bd9fc85311",
+    "global_record_id": "319e2b241d0f3cbd",
+    "scholar_id": "wenming_zheng",
+    "scholar_name": "郑文明",
+    "scholar_ids": [
+      "wenming_zheng",
+      "tengfei_song"
+    ],
+    "scholar_names": [
+      "郑文明",
+      "宋腾飞"
+    ],
+    "source_record_ids": [
+      "wenming_zheng_793501bd9fc85311"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "wenming_zheng": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "郑文明",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "tengfei_song": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "郑文明：情感脑电与多模态生理信号",
+      "宋腾飞：脑电情感识别与多模态生理计算"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Optical Properties and Possible Origins of Atmospheric Aerosols over LHAASO in the Eastern Margin of the Tibetan Plateau",
+    "title_en": "Optical Properties and Possible Origins of Atmospheric Aerosols over LHAASO in the Eastern Margin of the Tibetan Plateau",
+    "title_zh": "青藏高原东缘LHAASO上空大气气溶胶的光学特性及可能来源",
+    "year": 2024,
+    "venue": "Remote. Sens.",
+    "authors": [
+      "Hu Liu",
+      "Long Chen",
+      "Yang Wang",
+      "Jing Liu",
+      "Lei Xie",
+      "Min Jin",
+      "Junji Xia",
+      "Tengfei Song",
+      "Yu Liu",
+      "Guotao Yuan",
+      "Xingbing Zhao",
+      "Qinning Sun",
+      "Fengrong Zhu"
+    ],
+    "doi": "10.3390/RS16101695",
+    "dblp_key": "journals/remotesensing/XiaZZLLYSXJCWLS24",
+    "paper_url": "https://doi.org/10.3390/RS16101695",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/journals/remotesensing/XiaZZLLYSXJCWLS24",
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "cited_by_count": 0,
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者PID核验（235/1928）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "tengfei_song_6104cfee2a1d0a06",
+    "global_record_id": "6104cfee2a1d0a06",
+    "scholar_id": "tengfei_song",
+    "scholar_name": "宋腾飞",
+    "scholar_ids": [
+      "tengfei_song"
+    ],
+    "scholar_names": [
+      "宋腾飞"
+    ],
+    "source_record_ids": [
+      "tengfei_song_6104cfee2a1d0a06"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "tengfei_song": {
+        "category_id": "general_ml_biomed",
+        "label": "通用模式识别、临床脑科学与跨领域应用",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "宋腾飞：通用模式识别、临床脑科学与跨领域应用"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "general_ml_biomed",
+    "primary_category": "通用模式识别、临床脑科学与跨领域应用"
+  },
+  {
+    "title": "Variational Instance-Adaptive Graph for EEG Emotion Recognition",
+    "title_en": "Variational Instance-Adaptive Graph for EEG Emotion Recognition",
+    "title_zh": "变分实例自适应脑电图情绪识别图",
+    "year": 2023,
+    "venue": "IEEE Transactions on Affective Computing 14(1):343-356",
+    "authors": [
+      "Tengfei Song",
+      "Suyuan Liu",
+      "Wenming Zheng",
+      "Yuan Zong",
+      "Zhen Cui",
+      "Yang Li",
+      "Xiaoyan Zhou"
+    ],
+    "doi": "10.1109/TAFFC.2021.3064940",
+    "paper_url": "https://oic.seu.edu.cn/oicenglish/2026/0522/c68505a568541/page.htm",
+    "source_url": "https://oic.seu.edu.cn/oicenglish/2026/0522/c68505a568541/page.htm",
+    "topics": [
+      "情感计算",
+      "脑电情感识别",
+      "EEG-fNIRS双模态",
+      "人工智能与模式识别",
+      "脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
+    ],
+    "verification": "主题筛选候选；纳入候选-重点",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [
+      "lu_baoliang__LU_DATA_DREAMER",
+      "pan_gang__pan_data_mped"
+    ],
+    "code_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/",
+      "https://zenodo.org/records/546113",
+      "https://github.com/Tengfei000/MPED"
+    ],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W3134204148",
+    "openalex_author_id": "https://openalex.org/A5029771864",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 159,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "Official institutional faculty publication page",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "wenming_zheng_896047bdc2c3",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "情感计算",
+      "脑电情感识别",
+      "EEG-fNIRS双模态",
+      "人工智能与模式识别",
+      "脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wenming_zheng",
+    "scholar_name": "郑文明",
+    "work_title_group": "380cfdcfdc90",
+    "resource_status": "已关联公开资源入口",
+    "scholar_ids": [
+      "wenming_zheng",
+      "wei_long_zheng",
+      "panorama_6ea6272c5bf0",
+      "panorama_ef5ed70a98c0",
+      "tengfei_song"
+    ],
+    "scholar_names": [
+      "郑文明",
+      "郑伟龙",
+      "宗源",
+      "崔振",
+      "宋腾飞"
+    ],
+    "source_record_ids": [
+      "wenming_zheng_896047bdc2c3",
+      "wei_long_zheng_896047bdc2c3"
+    ],
+    "scholar_categories": {
+      "wenming_zheng": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "郑文明",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "wei_long_zheng": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "郑伟龙",
+        "secondary_tags": [
+          "情感脑机接口",
+          "脑电基础模型",
+          "临床脑电解码",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "panorama_6ea6272c5bf0": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "宗源",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_ef5ed70a98c0": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "崔振",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "tengfei_song": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "global_record_id": "20aeb341bbd42bbd",
+    "primary_categories_by_scholar": [
+      "郑文明：情感脑电与多模态生理信号",
+      "郑伟龙：情感脑电与多模态生理信号",
+      "宗源：情感脑电与多模态生理信号",
+      "崔振：情感脑电与多模态生理信号",
+      "宋腾飞：生理情感数据库、基准与综述"
+    ],
+    "dblp_key": "journals/taffco/SongLZZCLZ23",
+    "abstract_en": "The individual differences and the dynamic uncertain relationships among different electroencephalogram (EEG) regions are essential factors that limit EEG emotion recognition. To address these issues, in this article, we propose a variational instance-adaptive graph method (V-IAG) that simultaneously captures the individual dependencies among different EEG electrodes and estimates the underlying uncertain information. Specifically, we employ two branches, i.e., instance-adaptive branch and variational branch, to construct the graph. Inspired by the attention mechanism, the instance-adaptive branch generates the graph based on the input so as to characterize the individual dependencies among EEG channels. The variational branch generates the probabilistic graph, which quantifies the uncertainties. We combine these two types of graphs to extract more discriminative features. To present more precise graph representation, we propose a new operation named the multi-level and multi-graph convolution operation, which aggregates the features of EEG channels from different frequencies with different graphs. Furthermore, we design the graph coarsening and employ the sparse constraint to obtain more robust features. We conduct extensive experiments on three widely-used EEG emotion recognition databases, i.e., SJTU emotion EEG dataset (SEED), multi-modal physiological emotion recognition dataset (MPED) and DREAMER. The results demonstrate that the proposed model achieves the-state-of-the-art performance.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "脑电图不同区域之间的个体差异和动态不确定关系是限制脑电图情绪识别的重要因素。为了解决这些问题，在本文中，我们提出了一种变分实例自适应图方法（V-IAG），该方法同时捕获不同脑电图电极之间的个体依赖性并估计潜在的不确定信息。具体来说，我们采用两个分支，即实例自适应分支和变分分支来构建图。受注意力机制的启发，实例自适应分支根据输入生成图，以表征...之间的个体依赖关系。"
+  },
+  {
+    "title": "Graph-Embedded Convolutional Neural Network for Image-Based EEG Emotion Recognition",
+    "title_en": "Graph-Embedded Convolutional Neural Network for Image-Based EEG Emotion Recognition",
+    "title_zh": "用于基于图像的脑电图情感识别的图嵌入卷积神经网络",
+    "year": 2022,
+    "venue": "IEEE Transactions on Emerging Topics in Computing",
+    "authors": [
+      "Tengfei Song",
+      "Wenming Zheng",
+      "Suyuan Liu",
+      "Yuan Zong",
+      "Zhen Cui",
+      "Yang Li"
+    ],
+    "doi": "10.1109/tetc.2021.3087174",
+    "paper_url": "https://doi.org/10.1109/tetc.2021.3087174",
+    "source_url": "https://doi.org/10.1109/tetc.2021.3087174",
+    "topics": [
+      "情感计算",
+      "脑电情感识别",
+      "EEG-fNIRS双模态",
+      "人工智能与模式识别",
+      "脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
+    ],
+    "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [
+      "lu_baoliang__LU_DATA_DREAMER"
+    ],
+    "code_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/",
+      "https://zenodo.org/records/546113",
+      "https://github.com/Tengfei000/MPED"
+    ],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W3169095106",
+    "openalex_author_id": "https://openalex.org/A5029771864",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 145,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "Crossref ORCID exact-match record",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "wenming_zheng_1610aa94cfef",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "情感计算",
+      "脑电情感识别",
+      "EEG-fNIRS双模态",
+      "人工智能与模式识别",
+      "脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wenming_zheng",
+    "scholar_name": "郑文明",
+    "work_title_group": "444c5a03fe5a",
+    "resource_status": "已关联公开资源入口",
+    "scholar_ids": [
+      "wenming_zheng",
+      "panorama_6ea6272c5bf0",
+      "panorama_ef5ed70a98c0",
+      "tengfei_song"
+    ],
+    "scholar_names": [
+      "郑文明",
+      "宗源",
+      "崔振",
+      "宋腾飞"
+    ],
+    "source_record_ids": [
+      "wenming_zheng_1610aa94cfef"
+    ],
+    "scholar_categories": {
+      "wenming_zheng": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "郑文明",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "panorama_6ea6272c5bf0": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "宗源",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_ef5ed70a98c0": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "崔振",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "tengfei_song": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "global_record_id": "551a9128f7a9da7c",
+    "primary_categories_by_scholar": [
+      "郑文明：情感脑电与多模态生理信号",
+      "宗源：情感脑电与多模态生理信号",
+      "崔振：情感脑电与多模态生理信号",
+      "宋腾飞：生理情感数据库、基准与综述"
+    ],
+    "dblp_key": "journals/tetc/SongZLZCL22",
+    "abstract_en": "Emotion recognition from electroencephalograph (EEG) signals has long been essential for affective computing. In this article, we evaluate EEG emotion recognition by converting EEG signals from multiple channels into images such that richer spatial information can be considered and the question of EEG-based emotion recognition can be converted into image recognition. To this end, we propose a novel method to generate continuous images from discrete EEG signals by introducing offset variables following a Gaussian distribution for each EEG channel to alleviate the biased electrode coordinates during image generation. In addition, a novel graph-embedded convolutional neural network (GECNN) method is proposed to combine the local convolutional neural network (CNN) features with global functional features to provide complementary emotion information. In GECNN, the attention mechanism is applied to extract more discriminative local features. Simultaneously, dynamical graph filtering explores the intrinsic relationships between different EEG regions. The local and global functional features are finally fused for emotion recognition. Extensive experiments in subject-dependent and subject-independent protocols are conducted to evaluate the performance of the proposed GECNN model on four datasets, i.e., SEED, SDEA, DREAMER, and MPED.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "脑电图 (EEG) 信号的情感识别长期以来对于情感计算至关重要。在本文中，我们通过将来自多个通道的脑电信号转换为图像来评估脑电情感识别，这样可以考虑更丰富的空间信息，并且可以将基于脑电的情感识别问题转换为图像识别。为此，我们提出了一种新方法，通过为每个脑电图通道引入遵循高斯分布的偏移变量，从离散脑电图信号生成连续图像，以减轻图像生成过程中的偏置电极坐标。此外，一种新颖的图嵌入卷积神经网络（GECNN）方法..."
+  },
+  {
+    "title": "The Improved Equivalent Circuit Models Considering End Effects of Annular Linear Induction Electromagnetic Pump for Space Nuclear Power Supply",
+    "title_en": "The Improved Equivalent Circuit Models Considering End Effects of Annular Linear Induction Electromagnetic Pump for Space Nuclear Power Supply",
+    "title_zh": "考虑端部效应的空间核电源环形线性感应电磁泵改进等效电路模型",
+    "year": 2021,
+    "venue": "IEEE Access",
+    "authors": [
+      "Lixin Yang",
+      "Zhenyang Zhang",
+      "Keming Bi",
+      "Tengfei Song",
+      "Huijuan Liu",
+      "Qian Zhang"
+    ],
+    "doi": "10.1109/ACCESS.2021.3108663",
+    "dblp_key": "journals/access/ZhangLSZYB21",
+    "paper_url": "https://doi.org/10.1109/ACCESS.2021.3108663",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/journals/access/ZhangLSZYB21",
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "cited_by_count": 0,
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者PID核验（235/1928）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "tengfei_song_75d2626812e433cc",
+    "global_record_id": "75d2626812e433cc",
+    "scholar_id": "tengfei_song",
+    "scholar_name": "宋腾飞",
+    "scholar_ids": [
+      "tengfei_song"
+    ],
+    "scholar_names": [
+      "宋腾飞"
+    ],
+    "source_record_ids": [
+      "tengfei_song_75d2626812e433cc"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "tengfei_song": {
+        "category_id": "general_ml_biomed",
+        "label": "通用模式识别、临床脑科学与跨领域应用",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "宋腾飞：通用模式识别、临床脑科学与跨领域应用"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "general_ml_biomed",
+    "primary_category": "通用模式识别、临床脑科学与跨领域应用"
+  },
+  {
+    "title": "A Novel Bi-Hemispheric Discrepancy Model for EEG Emotion Recognition",
+    "title_en": "A Novel Bi-Hemispheric Discrepancy Model for EEG Emotion Recognition",
+    "title_zh": "一种用于脑电图情绪识别的新型双半球差异模型",
+    "year": 2021,
+    "venue": "IEEE Transactions on Cognitive and Developmental Systems",
+    "authors": [
+      "Yang Li",
+      "Lei Wang",
+      "Wenming Zheng",
+      "Yuan Zong",
+      "Lei Qi",
+      "Zhen Cui",
+      "Tong Zhang",
+      "Tengfei Song"
+    ],
+    "doi": "10.1109/tcds.2020.2999337",
+    "paper_url": "https://doi.org/10.1109/tcds.2020.2999337",
+    "source_url": "https://doi.org/10.1109/tcds.2020.2999337",
+    "topics": [
+      "情感计算",
+      "脑电情感识别",
+      "EEG-fNIRS双模态",
+      "人工智能与模式识别",
+      "脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "情感计算与情绪理解",
+      "情感理解"
+    ],
+    "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W3033046106",
+    "openalex_author_id": "https://openalex.org/A5029771864",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 407,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "Crossref ORCID exact-match record",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "wenming_zheng_1a30647dc5de",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "情感计算",
+      "脑电情感识别",
+      "EEG-fNIRS双模态",
+      "人工智能与模式识别",
+      "脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wenming_zheng",
+    "scholar_name": "郑文明",
+    "work_title_group": "dfe607dd0154",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "wenming_zheng",
+      "panorama_6ea6272c5bf0",
+      "panorama_ef5ed70a98c0",
+      "panorama_f7d2a628e3df",
+      "tengfei_song"
+    ],
+    "scholar_names": [
+      "郑文明",
+      "宗源",
+      "崔振",
+      "张桐",
+      "宋腾飞"
+    ],
+    "source_record_ids": [
+      "wenming_zheng_1a30647dc5de"
+    ],
+    "scholar_categories": {
+      "wenming_zheng": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "郑文明",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "panorama_6ea6272c5bf0": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "宗源",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_ef5ed70a98c0": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "崔振",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_f7d2a628e3df": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "张桐",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "tengfei_song": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "global_record_id": "a7307bd45324cba2",
+    "primary_categories_by_scholar": [
+      "郑文明：情感脑电与多模态生理信号",
+      "宗源：情感脑电与多模态生理信号",
+      "崔振：情感脑电与多模态生理信号",
+      "张桐：情感脑电与多模态生理信号",
+      "宋腾飞：脑电情感识别与多模态生理计算"
+    ],
+    "dblp_key": "journals/tamd/LiWZZQCZS21",
+    "pdf_url": "https://arxiv.org/pdf/1906.01704",
+    "abstract_en": "Neuroscience study has revealed the discrepancy of emotion expression between the left and right hemispheres of human brain. Inspired by this study, in this article, we propose a novel bi-hemispheric discrepancy model (BiHDM) to learn this discrepancy information between the two hemispheres to improve electroencephalograph (EEG) emotion recognition. Concretely, we first employ four directed recurrent neural networks (RNNs) based on two spatial orientations to traverse electrode signals on two separate brain regions. This enables the proposed model to obtain the deep representations of all the EEG electrodes’ signals that keep their intrinsic spatial dependence. Upon this representation, a pairwise subnetwork is designed to explicitly capture the discrepancy information between the two hemispheres and extract higher level features for final classification. Furthermore, considering the presence of the domain shift between training and testing data, we incorporate a domain discriminator that adversarially induces the overall feature learning module to generate emotion related but domain-invariant feature representation so as to further promote EEG emotion recognition. Experiments are conducted on three public EEG emotional data sets, in which we evaluate the performance of the proposed BiHDM as well as investigated the important brain areas in emotion expression and explore to use less electrodes to achieve comparable results. These experimental results jointly demonstrate the effectiveness and advantage of the proposed BiHDM model in solving the EEG emotion recognition problem.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "神经科学研究揭示了人脑左右半球情绪表达的差异。受这项研究的启发，在本文中，我们提出了一种新颖的双半球差异模型（BiHDM）来学习两个半球之间的差异信息，以改善脑电图（EEG）情绪识别。具体来说，我们首先采用基于两个空间方向的四个定向循环神经网络（RNN）来遍历两个独立大脑区域上的电极信号。这使得所提出的模型能够获得所有脑电图电极信号的深度表示，并保持其固有的空间依赖性。根据这一陈述，一名..."
+  },
+  {
+    "title": "Uncertain Graph Neural Networks for Facial Action Unit Detection",
+    "title_en": "Uncertain Graph Neural Networks for Facial Action Unit Detection",
+    "title_zh": "用于面部动作单元检测的不确定图神经网络",
+    "year": 2021,
+    "venue": "AAAI",
+    "authors": [
+      "Tengfei Song",
+      "Lisha Chen",
+      "Wenming Zheng",
+      "Qiang Ji"
+    ],
+    "doi": "10.1609/AAAI.V35I7.16748",
+    "paper_url": "https://aip.seu.edu.cn/wmzheng/main.htm",
+    "source_url": "https://aip.seu.edu.cn/wmzheng/main.htm",
+    "topics": [
+      "情感计算",
+      "脑电情感识别",
+      "EEG-fNIRS双模态",
+      "人工智能与模式识别",
+      "脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W3173225380",
+    "openalex_author_id": "https://openalex.org/A5029771864",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 95,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "official institutional publication list",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "wenming_zheng_cfb61883df4e",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "情感计算",
+      "脑电情感识别",
+      "EEG-fNIRS双模态",
+      "人工智能与模式识别",
+      "脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wenming_zheng",
+    "scholar_name": "郑文明",
+    "work_title_group": "0c352a831a6f",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "wenming_zheng",
+      "tengfei_song"
+    ],
+    "scholar_names": [
+      "郑文明",
+      "宋腾飞"
+    ],
+    "source_record_ids": [
+      "wenming_zheng_cfb61883df4e"
+    ],
+    "scholar_categories": {
+      "wenming_zheng": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "郑文明",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "tengfei_song": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "global_record_id": "2688e1e5bbe75a97",
+    "primary_categories_by_scholar": [
+      "郑文明：情感脑电与多模态生理信号",
+      "宋腾飞：生理情感数据库、基准与综述"
+    ],
+    "dblp_key": "conf/aaai/SongCZJ21",
+    "pdf_url": "https://doi.org/10.1609/aaai.v35i7.16748",
+    "abstract_en": "Capturing the dependencies among different facial action units (AU) is extremely important for the AU detection task. Many studies have employed graph-based deep learning methods to exploit the dependencies among AUs. However, the dependencies among AUs in real world data are often noisy and the uncertainty is essential to be taken into consideration. Rather than employing a deterministic mode, we propose an uncertain graph neural network (UGN) to learn the probabilistic mask that simultaneously captures both the individual dependencies among AUs and the uncertainties. Further, we propose an adaptive weighted loss function based on the epistemic uncertainties to adaptively vary the weights of the training samples during the training process to account for unbalanced data distributions among AUs. We also provide an insightful analysis on how the uncertainties are related to the performance of AU detection. Extensive experiments, conducted on two benchmark datasets, i.e., BP4D and DISFA, demonstrate our method achieves the state-of-the-art performance.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "捕获不同面部动作单元（AU）之间的依赖关系对于 AU 检测任务极其重要。许多研究采用基于图的深度学习方法来利用 AU 之间的依赖关系。然而，现实世界数据中 AU 之间的依赖性通常是有噪声的，因此必须考虑不确定性。我们不采用确定性模式，而是提出一种不确定图神经网络（UGN）来学习概率掩模，同时捕获 AU 之间的个体依赖性和不确定性。此外，我们提出了一种基于认知不确定性的自适应加权损失函数，以自适应地改变权重......"
+  },
+  {
+    "title": "Hybrid Message Passing with Performance-driven Structures for Facial Action Unit Detection",
+    "title_en": "Hybrid Message Passing with Performance-driven Structures for Facial Action Unit Detection",
+    "title_zh": "用于面部动作单元检测的性能驱动结构的混合消息传递",
+    "year": 2021,
+    "venue": "CVPR",
+    "authors": [
+      "Tengfei Song",
+      "Zijun Cui",
+      "Wenming Zheng",
+      "Qiang Ji"
+    ],
+    "doi": "10.1109/CVPR46437.2021.00620",
+    "paper_url": "https://aip.seu.edu.cn/wmzheng/main.htm",
+    "source_url": "https://aip.seu.edu.cn/wmzheng/main.htm",
+    "topics": [
+      "情感计算",
+      "脑电情感识别",
+      "EEG-fNIRS双模态",
+      "人工智能与模式识别",
+      "脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W3174724419",
+    "openalex_author_id": "https://openalex.org/A5029771864",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 79,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "official institutional publication list",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "wenming_zheng_65955f23735a",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "情感计算",
+      "脑电情感识别",
+      "EEG-fNIRS双模态",
+      "人工智能与模式识别",
+      "脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wenming_zheng",
+    "scholar_name": "郑文明",
+    "work_title_group": "380d20d8b5cf",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "wenming_zheng",
+      "tengfei_song"
+    ],
+    "scholar_names": [
+      "郑文明",
+      "宋腾飞"
+    ],
+    "source_record_ids": [
+      "wenming_zheng_65955f23735a"
+    ],
+    "scholar_categories": {
+      "wenming_zheng": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "郑文明",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "tengfei_song": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "global_record_id": "dee891877a1670b0",
+    "primary_categories_by_scholar": [
+      "郑文明：情感脑电与多模态生理信号",
+      "宋腾飞：生理情感数据库、基准与综述"
+    ],
+    "dblp_key": "conf/cvpr/SongCZJ21",
+    "abstract_en": "Message passing neural network has been an effective method to represent dependencies among nodes by propagating messages. However, most of message passing algorithms focus on one structure and messages are estimated by one single approach. For real-world data, like facial action units (AUs), the dependencies may vary in terms of different expressions and individuals. In this paper, we propose a novel hybrid message passing neural network with performance-driven structures (HMP-PS), which combines complementary message passing methods and captures more possible structures in a Bayesian manner. Particularly, a performance-driven Monte Carlo Markov Chain sampling method is proposed for generating high performance graph structures. Besides, hybrid message passing is proposed to combine different types of messages, which provide the complementary information. The contribution of each type of message is adaptively adjusted along with different inputs. The experiments on two widely used benchmark datasets, i.e., BP4D and DISFA, validate that our proposed method can achieve the state-of-the-art performance.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "消息传递神经网络是通过传播消息来表示节点之间依赖关系的有效方法。然而，大多数消息传递算法都专注于一种结构，并且消息是通过一种单一方法来估计的。对于现实世界的数据，例如面部动作单元（AU），依赖关系可能因不同的表情和个体而异。在本文中，我们提出了一种新颖的具有性能驱动结构的混合消息传递神经网络（HMP-PS），它结合了互补的消息传递方法并以贝叶斯方式捕获更多可能的结构。特别是，提出了一种性能驱动的蒙特卡罗马尔可夫链采样方法，用于生成..."
+  },
+  {
+    "title": "Dynamic Probabilistic Graph Convolution for Facial Action Unit Intensity Estimation",
+    "title_en": "Dynamic Probabilistic Graph Convolution for Facial Action Unit Intensity Estimation",
+    "title_zh": "用于面部动作单元强度估计的动态概率图卷积",
+    "year": 2021,
+    "venue": "CVPR",
+    "authors": [
+      "Tengfei Song",
+      "Zijun Cui",
+      "Yuru Wang",
+      "Wenming Zheng",
+      "Qiang Ji"
+    ],
+    "doi": "10.1109/CVPR46437.2021.00481",
+    "paper_url": "https://aip.seu.edu.cn/wmzheng/main.htm",
+    "source_url": "https://aip.seu.edu.cn/wmzheng/main.htm",
+    "topics": [
+      "情感计算",
+      "脑电情感识别",
+      "EEG-fNIRS双模态",
+      "人工智能与模式识别",
+      "脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W3178540223",
+    "openalex_author_id": "https://openalex.org/A5029771864",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 22,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "official institutional publication list",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "wenming_zheng_54ac0150b23b",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "情感计算",
+      "脑电情感识别",
+      "EEG-fNIRS双模态",
+      "人工智能与模式识别",
+      "脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wenming_zheng",
+    "scholar_name": "郑文明",
+    "work_title_group": "112e8182c813",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "wenming_zheng",
+      "tengfei_song"
+    ],
+    "scholar_names": [
+      "郑文明",
+      "宋腾飞"
+    ],
+    "source_record_ids": [
+      "wenming_zheng_54ac0150b23b"
+    ],
+    "scholar_categories": {
+      "wenming_zheng": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "郑文明",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "tengfei_song": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "global_record_id": "e6f0e1ed985b9ba7",
+    "primary_categories_by_scholar": [
+      "郑文明：情感脑电与多模态生理信号",
+      "宋腾飞：生理情感数据库、基准与综述"
+    ],
+    "dblp_key": "conf/cvpr/SongCWZJ21",
+    "abstract_en": "Deep learning methods have been widely applied to automatic facial action unit (AU) intensity estimation and achieved the state-of-the-art performance. These methods, however, are mostly appearance-based and fail to exploit the underlying structural information among AUs. In this paper, we propose a novel dynamic probabilistic graph convolution (DPG) model to simultaneously exploit AU appearances, AU dynamics, and their semantic structural dependencies for AU intensity estimation. Firstly, we propose to use Bayesian Network to capture the inherent dependencies among AUs. Secondly, we introduce probabilistic graph convolution that allows to perform graph convolution on the distribution of Bayesian Network structure to extract AU structural features. Finally, we introduce a dynamic deep model based on LSTM to simultaneously combine AU appearance features, AU dynamic features, and AU structural features for AU intensity estimation. In experiments, our method achieves comparable and even better performance with the state-of-the-art methods on two benchmark facial AU intensity estimation databases, i.e., FERA 2015 and DISFA.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "深度学习方法已广泛应用于自动面部动作单元（AU）强度估计并取得了最先进的性能。然而，这些方法大多是基于外观的，无法利用 AU 之间的底层结构信息。在本文中，我们提出了一种新颖的动态概率图卷积（DPG）模型，以同时利用 AU 外观、AU 动态及其语义结构依赖性来进行 AU 强度估计。首先，我们建议使用贝叶斯网络来捕获AU之间的固有依赖性。其次，我们引入概率图卷积，它允许对 Bay 的分布执行图卷积......"
+  },
+  {
+    "title": "Instance-Adaptive Graph for EEG Emotion Recognition",
+    "title_en": "Instance-Adaptive Graph for EEG Emotion Recognition",
+    "title_zh": "脑电图情绪识别的实例自适应图",
+    "year": 2020,
+    "venue": "AAAI",
+    "authors": [
+      "Tengfei Song",
+      "Suyuan Liu",
+      "Wenming Zheng",
+      "Yuan Zong",
+      "Zhen Cui"
+    ],
+    "doi": "10.1609/AAAI.V34I03.5656",
+    "paper_url": "https://aip.seu.edu.cn/wmzheng/main.htm",
+    "source_url": "https://aip.seu.edu.cn/wmzheng/main.htm",
+    "topics": [
+      "情感计算",
+      "脑电情感识别",
+      "EEG-fNIRS双模态",
+      "人工智能与模式识别",
+      "脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "情感计算与情绪理解",
+      "情感理解"
+    ],
+    "verification": "主题筛选候选；纳入候选-重点",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W2997025969",
+    "openalex_author_id": "https://openalex.org/A5029771864",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 132,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "official institutional publication list",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "wenming_zheng_e3889da3959b",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "情感计算",
+      "脑电情感识别",
+      "EEG-fNIRS双模态",
+      "人工智能与模式识别",
+      "脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wenming_zheng",
+    "scholar_name": "郑文明",
+    "work_title_group": "d94e15b073cf",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "wenming_zheng",
+      "wei_long_zheng",
+      "panorama_6ea6272c5bf0",
+      "panorama_ef5ed70a98c0",
+      "tengfei_song"
+    ],
+    "scholar_names": [
+      "郑文明",
+      "郑伟龙",
+      "宗源",
+      "崔振",
+      "宋腾飞"
+    ],
+    "source_record_ids": [
+      "wenming_zheng_e3889da3959b",
+      "wei_long_zheng_e3889da3959b"
+    ],
+    "scholar_categories": {
+      "wenming_zheng": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "郑文明",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "wei_long_zheng": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "郑伟龙",
+        "secondary_tags": [
+          "情感脑机接口",
+          "脑电基础模型",
+          "临床脑电解码",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "panorama_6ea6272c5bf0": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "宗源",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_ef5ed70a98c0": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "崔振",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "tengfei_song": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "global_record_id": "5ffbb0884f7487e4",
+    "primary_categories_by_scholar": [
+      "郑文明：情感脑电与多模态生理信号",
+      "郑伟龙：情感脑电与多模态生理信号",
+      "宗源：情感脑电与多模态生理信号",
+      "崔振：情感脑电与多模态生理信号",
+      "宋腾飞：生理情感数据库、基准与综述"
+    ],
+    "dblp_key": "conf/aaai/SongLZZC20",
+    "pdf_url": "https://doi.org/10.1609/aaai.v34i03.5656",
+    "abstract_en": "To tackle the individual differences and characterize the dynamic relationships among different EEG regions for EEG emotion recognition, in this paper, we propose a novel instance-adaptive graph method (IAG), which employs a more flexible way to construct graphic connections so as to present different graphic representations determined by different input instances. To fit the different EEG pattern, we employ an additional branch to characterize the intrinsic dynamic relationships between different EEG channels. To give a more precise graphic representation, we design the multi-level and multi-graph convolutional operation and the graph coarsening. Furthermore, we present a type of sparse graphic representation to extract more discriminative features. Experiments on two widely-used EEG emotion recognition datasets are conducted to evaluate the proposed model and the experimental results show that our method achieves the state-of-the-art performance.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "为了解决脑电情感识别中的个体差异并表征不同脑电区域之间的动态关系，本文提出了一种新颖的实例自适应图方法（IAG），该方法采用更灵活的方式来构造图形连接，以呈现由不同输入实例确定的不同图形表示。为了适应不同的脑电图模式，我们采用了一个额外的分支来表征不同脑电图通道之间的内在动态关系。为了给出更精确的图形表示，我们设计了多级和多图卷积运算以及图粗化。此外，我们提出了一种稀疏格拉..."
+  },
+  {
+    "title": "EEG Emotion Recognition Using Dynamical Graph Convolutional Neural Networks",
+    "title_en": "EEG Emotion Recognition Using Dynamical Graph Convolutional Neural Networks",
+    "title_zh": "使用动态图卷积神经网络的 EEG 情绪识别",
+    "year": 2020,
+    "venue": "IEEE Transactions on Affective Computing 11(3):532-541",
+    "authors": [
+      "Tengfei Song",
+      "Wenming Zheng",
+      "Peng Song",
+      "Zhen Cui"
+    ],
+    "doi": "10.1109/TAFFC.2018.2817622",
+    "paper_url": "https://oic.seu.edu.cn/oicenglish/2026/0522/c68505a568541/page.htm",
+    "source_url": "https://oic.seu.edu.cn/oicenglish/2026/0522/c68505a568541/page.htm",
+    "topics": [
+      "情感计算",
+      "脑电情感识别",
+      "EEG-fNIRS双模态",
+      "人工智能与模式识别",
+      "脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
+    ],
+    "verification": "主题筛选候选；纳入候选-重点",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [
+      "lu_baoliang__LU_DATA_DREAMER"
+    ],
+    "code_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/",
+      "https://zenodo.org/records/546113"
+    ],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W2790404832",
+    "openalex_author_id": "https://openalex.org/A5029771864",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 1810,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "Official institutional faculty publication page",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "wenming_zheng_cb5791afd8d3",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "情感计算",
+      "脑电情感识别",
+      "EEG-fNIRS双模态",
+      "人工智能与模式识别",
+      "脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wenming_zheng",
+    "scholar_name": "郑文明",
+    "work_title_group": "ccf8e173ec4b",
+    "resource_status": "已关联公开资源入口",
+    "scholar_ids": [
+      "wenming_zheng",
+      "wei_long_zheng",
+      "panorama_ef5ed70a98c0",
+      "tengfei_song"
+    ],
+    "scholar_names": [
+      "郑文明",
+      "郑伟龙",
+      "崔振",
+      "宋腾飞"
+    ],
+    "source_record_ids": [
+      "wenming_zheng_cb5791afd8d3",
+      "wei_long_zheng_cb5791afd8d3"
+    ],
+    "scholar_categories": {
+      "wenming_zheng": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "郑文明",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "wei_long_zheng": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "郑伟龙",
+        "secondary_tags": [
+          "情感脑机接口",
+          "脑电基础模型",
+          "临床脑电解码",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "panorama_ef5ed70a98c0": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "崔振",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "tengfei_song": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "global_record_id": "d25d9ef98a69e243",
+    "primary_categories_by_scholar": [
+      "郑文明：情感脑电与多模态生理信号",
+      "郑伟龙：情感脑电与多模态生理信号",
+      "崔振：情感脑电与多模态生理信号",
+      "宋腾飞：生理情感数据库、基准与综述"
+    ],
+    "dblp_key": "journals/taffco/SongZSC20",
+    "abstract_en": "In this paper, a multichannel EEG emotion recognition method based on a novel dynamical graph convolutional neural networks (DGCNN) is proposed. The basic idea of the proposed EEG emotion recognition method is to use a graph to model the multichannel EEG features and then perform EEG emotion classification based on this model. Different from the traditional graph convolutional neural networks (GCNN) methods, the proposed DGCNN method can dynamically learn the intrinsic relationship between different electroencephalogram (EEG) channels, represented by an adjacency matrix, via training a neural network so as to benefit for more discriminative EEG feature extraction. Then, the learned adjacency matrix is used to learn more discriminative features for improving the EEG emotion recognition. We conduct extensive experiments on the SJTU emotion EEG dataset (SEED) and DREAMER dataset. The experimental results demonstrate that the proposed method achieves better recognition performance than the state-of-the-art methods, in which the average recognition accuracy of 90.4 percent is achieved for subject dependent experiment while 79.95 percent for subject independent cross-validation one on the SEED database, and the average accuracies of 86.23, 84.54 and 85.02 percent are respectively obtained for valence, arousal and dominance classifications on the DREAMER database.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "本文提出了一种基于新型动态图卷积神经网络（DGCNN）的多通道脑电情感识别方法。所提出的脑电情感识别方法的基本思想是使用图对多通道脑电特征进行建模，然后基于该模型进行脑电情感分类。与传统的图卷积神经网络（GCNN）方法不同，所提出的DGCNN方法可以通过训练神经网络动态学习由邻接矩阵表示的不同脑电图（EEG）通道之间的内在关系，从而有利于更具辨别力的脑电图特征提取。然后，学习到的邻接..."
+  },
+  {
+    "title": "Knowledge Augmented Deep Neural Networks for Joint Facial Expression and Action Unit Recognition",
+    "title_en": "Knowledge Augmented Deep Neural Networks for Joint Facial Expression and Action Unit Recognition",
+    "title_zh": "用于联合面部表情和动作单元识别的知识增强深度神经网络",
+    "year": 2020,
+    "venue": "NeurIPS",
+    "authors": [
+      "Zijun Cui",
+      "Tengfei Song",
+      "Yuru Wang",
+      "Qiang Ji"
+    ],
+    "doi": "",
+    "dblp_key": "conf/nips/CuiSWJ20",
+    "paper_url": "https://papers.nips.cc/paper/2020/file/a51fb975227d6640e4fe47854476d133-Paper.pdf",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/conf/nips/CuiSWJ20",
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "cited_by_count": 73,
+    "topics": [
+      "情感理解"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（235/1928）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "tengfei_song_54f3d7915903b1fb",
+    "global_record_id": "54f3d7915903b1fb",
+    "scholar_id": "tengfei_song",
+    "scholar_name": "宋腾飞",
+    "scholar_ids": [
+      "tengfei_song"
+    ],
+    "scholar_names": [
+      "宋腾飞"
+    ],
+    "source_record_ids": [
+      "tengfei_song_54f3d7915903b1fb"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "tengfei_song": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "宋腾飞：脑电情感识别与多模态生理计算"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_affect_rec",
+    "primary_category": "脑电情感识别与多模态生理计算"
+  },
+  {
+    "title": "RGB-D image saliency detection from 3D perspective",
+    "title_en": "RGB-D image saliency detection from 3D perspective",
+    "title_zh": "3D视角下的RGB-D图像显着性检测",
+    "year": 2019,
+    "venue": "Multim. Tools Appl.",
+    "authors": [
+      "Zhengyi Liu",
+      "Tengfei Song",
+      "Feng Xie"
+    ],
+    "doi": "10.1007/S11042-018-6319-4",
+    "dblp_key": "journals/mta/LiuSX19",
+    "paper_url": "https://doi.org/10.1007/S11042-018-6319-4",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/journals/mta/LiuSX19",
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "cited_by_count": 2,
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者PID核验（235/1928）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "tengfei_song_5e5b92355c8b8c26",
+    "global_record_id": "5e5b92355c8b8c26",
+    "scholar_id": "tengfei_song",
+    "scholar_name": "宋腾飞",
+    "scholar_ids": [
+      "tengfei_song"
+    ],
+    "scholar_names": [
+      "宋腾飞"
+    ],
+    "source_record_ids": [
+      "tengfei_song_5e5b92355c8b8c26"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "tengfei_song": {
+        "category_id": "general_ml_biomed",
+        "label": "通用模式识别、临床脑科学与跨领域应用",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "宋腾飞：通用模式识别、临床脑科学与跨领域应用"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "general_ml_biomed",
+    "primary_category": "通用模式识别、临床脑科学与跨领域应用"
+  },
+  {
+    "title": "Sparse Graphic Attention LSTM for EEG Emotion Recognition",
+    "title_en": "Sparse Graphic Attention LSTM for EEG Emotion Recognition",
+    "title_zh": "用于脑电图情绪识别的稀疏图形注意力 LSTM",
+    "year": 2019,
+    "venue": "ICONIP (4)",
+    "authors": [
+      "Suyuan Liu",
+      "Wenming Zheng",
+      "Tengfei Song",
+      "Yuan Zong"
+    ],
+    "doi": "10.1007/978-3-030-36808-1_75",
+    "dblp_key": "conf/iconip/LiuZSZ19",
+    "paper_url": "https://doi.org/10.1007/978-3-030-36808-1_75",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/conf/iconip/LiuZSZ19.html",
+    "openalex_id": "https://openalex.org/W2992762269",
+    "openalex_author_id": "https://openalex.org/A5029771864",
+    "cited_by_count": 20,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [
+      "脑电情感识别",
+      "情感计算与情绪理解",
+      "情感理解"
+    ],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "wenming_zheng_544da69b19379083",
+    "global_record_id": "a070fc37d32d6667",
+    "scholar_id": "wenming_zheng",
+    "scholar_name": "郑文明",
+    "scholar_ids": [
+      "wenming_zheng",
+      "panorama_6ea6272c5bf0",
+      "tengfei_song"
+    ],
+    "scholar_names": [
+      "郑文明",
+      "宗源",
+      "宋腾飞"
+    ],
+    "source_record_ids": [
+      "wenming_zheng_544da69b19379083"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "wenming_zheng": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "郑文明",
+        "secondary_tags": [
+          "脑电情感识别",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_6ea6272c5bf0": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "宗源",
+        "secondary_tags": [
+          "脑电情感识别",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "tengfei_song": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "郑文明：情感脑电与多模态生理信号",
+      "宗源：情感脑电与多模态生理信号",
+      "宋腾飞：脑电情感识别与多模态生理计算"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "MPED: A Multi-Modal Physiological Emotion Database for Discrete Emotion Recognition",
+    "title_en": "MPED: A Multi-Modal Physiological Emotion Database for Discrete Emotion Recognition",
+    "title_zh": "MPED：用于离散情绪识别的多模态生理情绪数据库",
+    "year": 2019,
+    "venue": "IEEE Access",
+    "authors": [
+      "Tengfei Song",
+      "Wenming Zheng",
+      "Cheng Lu",
+      "Yuan Zong",
+      "Xilei Zhang",
+      "Zhen Cui"
+    ],
+    "doi": "10.1109/access.2019.2891579",
+    "paper_url": "https://doi.org/10.1109/access.2019.2891579",
+    "source_url": "https://doi.org/10.1109/access.2019.2891579",
+    "topics": [
+      "情感计算",
+      "脑电情感识别",
+      "EEG-fNIRS双模态",
+      "人工智能与模式识别",
+      "脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "情感计算与情绪理解",
+      "多模态与大语言模型",
+      "情感理解"
+    ],
+    "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [
+      "https://github.com/Tengfei000/MPED"
+    ],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W2911220936",
+    "openalex_author_id": "https://openalex.org/A5029771864",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 382,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "Crossref ORCID exact-match record",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "wenming_zheng_558360a25d4a",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "情感计算",
+      "脑电情感识别",
+      "EEG-fNIRS双模态",
+      "人工智能与模式识别",
+      "脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wenming_zheng",
+    "scholar_name": "郑文明",
+    "work_title_group": "a57b5ec64968",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "wenming_zheng",
+      "panorama_6ea6272c5bf0",
+      "panorama_ef5ed70a98c0",
+      "tengfei_song"
+    ],
+    "scholar_names": [
+      "郑文明",
+      "宗源",
+      "崔振",
+      "宋腾飞"
+    ],
+    "source_record_ids": [
+      "wenming_zheng_558360a25d4a"
+    ],
+    "scholar_categories": {
+      "wenming_zheng": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "郑文明",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "panorama_6ea6272c5bf0": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "宗源",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_ef5ed70a98c0": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "崔振",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "tengfei_song": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "global_record_id": "f07dee2372831f07",
+    "primary_categories_by_scholar": [
+      "郑文明：情感脑电与多模态生理信号",
+      "宗源：情感脑电与多模态生理信号",
+      "崔振：情感脑电与多模态生理信号",
+      "宋腾飞：生理情感数据库、基准与综述"
+    ],
+    "dblp_key": "journals/access/SongZLZZC19",
+    "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/8600701/08606087.pdf",
+    "abstract_en": "To explore human emotions, in this paper, we design and build a multi-modal physiological emotion database, which collects four modal physiological signals, i.e., electroencephalogram (EEG), galvanic skin response, respiration, and electrocardiogram (ECG). To alleviate the influence of culture dependent elicitation materials and evoke desired human emotions, we specifically collect an emotion elicitation material database selected from more than 1500 video clips. By the considerable amount of strict man-made labeling, we elaborately choose 28 videos as standardized elicitation samples, which are assessed by psychological methods. The physiological signals of participants were synchronously recorded when they watched these standardized video clips that described six discrete emotions and neutral emotion. With three types of classification protocols, different feature extraction methods and classifiers (support vector machine and k-NearestNeighbor) were used to recognize the physiological responses of different emotions, which presented the baseline results. Simultaneously, we present a novel attention-long short-term memory (A-LSTM), which strengthens the effectiveness of useful sequences to extract more discriminative features. In addition, correlations between the EEG signals and the participants' ratings are investigated. The database has been made publicly available to encourage other researchers to use it to evaluate their own emotion estimation methods.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "为了探索人类情感，在本文中，我们设计并建立了一个多模态生理情感数据库，该数据库收集四种模态生理信号，即脑电图（EEG）、皮肤电反应、呼吸和心电图（ECG）。为了减轻文化依赖性诱发材料的影响并唤起人们想要的情感，我们专门收集了从1500多个视频片段中筛选出来的情感诱发材料数据库。通过大量严格的人为标注，我们精心挑选了28个视频作为标准化启发样本，并通过心理学方法进行评估。参与者的生理信号同步..."
+  },
+  {
+    "title": "Multi-scale self-searching saliency detection combined with rectangular diffusion",
+    "title_en": "Multi-scale self-searching saliency detection combined with rectangular diffusion",
+    "title_zh": "结合矩形扩散的多尺度自搜索显着性检测",
+    "year": 2017,
+    "venue": "IEEE Conference on Industrial Electronics and Applications (ICIEA)",
+    "authors": [
+      "Tengfei Song",
+      "Zhengyi Liu"
+    ],
+    "doi": "10.1109/iciea.2017.8282829",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/iciea.2017.8282829",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2786895964",
+    "abstract_en": "According to the characteristics of human visual system, a multi-scale self-search saliency detection method combined with the rectangular diffusion is proposed. In this paper, we first measure saliency from foreground and background respectively and then fuse them. In foreground view, we rank superpixels on center point, inner layer rectangle, middle layer rectangle and outer layer rectangle in the image as seed nodes by manifold ranking, which is named rectangular diffusion, and then fuse them. Outer layer rectangle diffusion need to be corrected for it includes little saliency object. In background view, we first sort all the superpixels by their feature weight of CIELab color space, and then drop the least 60% superpixels, which is named self-searching, and last remove superpixels on middle layer rectangle to form background seed point, and then apply manifold ranking to generate saliency map from background view. In comparison experiments on datasets of MSRA-1000, CSSD, ECSSD, THUS-10000 and SED, our method performs well against the state-of-the-art methods. It gets highest precision-recall curve on five datasets, which fully shows its effectiveness.",
+    "abstract_zh": "根据人类视觉系统的特点，提出一种结合矩形扩散的多尺度自搜索显着性检测方法。在本文中，我们首先分别测量前景和背景的显着性，然后将它们融合。在前景视图中，我们通过流形排序将图像中的中心点、内层矩形、中层矩形和外层矩形上的超像素作为种子节点，即矩形扩散，然后将它们融合。外层矩形扩散需要进行校正，因为它包含很少的显着性对象。在背景视图中，我们首先按照 CIELab 颜色空间的特征权重对所有超像素进行排序，然后删除至少 60% 的超像素，这就是名称...",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 0,
+    "topics": [],
+    "verification": "OpenAlex作者实体与机构消歧核验（A5039605632）",
+    "status": "已索引出版记录",
+    "source_kind": "openalex_verified",
+    "record_id": "tengfei_song_88f94ca4f27dbbb5",
+    "global_record_id": "88f94ca4f27dbbb5",
+    "scholar_id": "tengfei_song",
+    "scholar_name": "宋腾飞",
+    "scholar_ids": [
+      "tengfei_song"
+    ],
+    "scholar_names": [
+      "宋腾飞"
+    ],
+    "source_record_ids": [
+      "tengfei_song_88f94ca4f27dbbb5"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "tengfei_song": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "宋腾飞：生理情感数据库、基准与综述"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_affect_bench",
+    "primary_category": "生理情感数据库、基准与综述"
+  }
+]

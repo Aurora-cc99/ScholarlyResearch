@@ -1,0 +1,139 @@
+[
+  {
+    "id": "res_gh_53b51592d9d3",
+    "name": "microsoft/SeqSNN",
+    "name_zh": "microsoft/SeqSNN — 使用脉冲神经网络进行高效且有效的时间序列预测",
+    "type": "code",
+    "url": "https://github.com/microsoft/SeqSNN",
+    "download_url": "https://github.com/microsoft/SeqSNN",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "xiaoqing_zheng",
+    "scholar_name": "郑骁庆",
+    "matched_paper_ids": [
+      "f78a5c3452098306",
+      "16c8e0eb3a211402"
+    ],
+    "related_paper_titles": [
+      "Efficient and Effective Time-Series Forecasting with Spiking Neural Networks"
+    ],
+    "related_paper_titles_zh": [
+      "使用脉冲神经网络进行高效且有效的时间序列预测"
+    ],
+    "evidence_urls": [
+      "http://arxiv.org/abs/2402.01533"
+    ],
+    "description": "论文《使用脉冲神经网络进行高效且有效的时间序列预测》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "xiaoqing_zheng::affect_int_llm",
+      "xuanjing_huang::affective_llm_mllm",
+      "xiaoqing_zheng::general_nlp_ai",
+      "xuanjing_huang::general_foundation"
+    ],
+    "primary_categories": [
+      "郑骁庆：情感大模型、知识推理与评测基准",
+      "黄萱菁：情感大模型、多模态指令微调与共情生成",
+      "郑骁庆：自然语言处理、多模态学习与通用方法",
+      "黄萱菁：通用预训练大模型、视听生成与基础方法"
+    ]
+  },
+  {
+    "id": "res_gh_f4f2f13f0f1b",
+    "name": "microsoft/CoLM",
+    "name_zh": "microsoft/CoLM — 语言模型的模型链学习",
+    "type": "code",
+    "url": "https://github.com/microsoft/CoLM",
+    "download_url": "https://github.com/microsoft/CoLM",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "xiaoqing_zheng",
+    "scholar_name": "郑骁庆",
+    "matched_paper_ids": [
+      "78d7def057f75432"
+    ],
+    "related_paper_titles": [
+      "Chain-of-Model Learning for Language Model"
+    ],
+    "related_paper_titles_zh": [
+      "语言模型的模型链学习"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.52202/085713-2672"
+    ],
+    "description": "论文《语言模型的模型链学习》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "xiaoqing_zheng::general_nlp_ai"
+    ],
+    "primary_categories": [
+      "郑骁庆：自然语言处理、多模态学习与通用方法"
+    ]
+  },
+  {
+    "id": "res_gh_364677ec4d68",
+    "name": "TripTailor (swxkfm/TripTailor)",
+    "name_zh": "TripTailor (swxkfm/TripTailor) — TripTailor：个性化旅行规划的现实基准",
+    "type": "code",
+    "url": "https://github.com/swxkfm/TripTailor",
+    "download_url": "https://github.com/swxkfm/TripTailor",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "xiaoqing_zheng",
+    "scholar_name": "郑骁庆",
+    "matched_paper_ids": [
+      "fd9526d75a5be006"
+    ],
+    "related_paper_titles": [
+      "TripTailor: A Real-World Benchmark for Personalized Travel Planning"
+    ],
+    "related_paper_titles_zh": [
+      "TripTailor：个性化旅行规划的现实基准"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.18653/V1/2025.FINDINGS-ACL.503"
+    ],
+    "description": "论文《TripTailor：个性化旅行规划的现实基准》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "is_dataset_benchmark": true,
+    "dataset_title": "TripTailor (swxkfm/TripTailor)",
+    "scholar_category_ids": [
+      "xiaoqing_zheng::affect_int_llm",
+      "xuanjing_huang::general_foundation"
+    ],
+    "primary_categories": [
+      "郑骁庆：情感大模型、知识推理与评测基准",
+      "黄萱菁：通用预训练大模型、视听生成与基础方法"
+    ]
+  },
+  {
+    "id": "res_gh_ef99808ecc53",
+    "name": "SpikeBERT (Lvchangze/SpikeBERT)",
+    "name_zh": "SpikeBERT (Lvchangze/SpikeBERT) — SpikeBERT：一种通过 BERT 两阶段知识蒸馏训练的 Spikformer 语言",
+    "type": "code",
+    "url": "https://github.com/Lvchangze/SpikeBERT",
+    "download_url": "https://github.com/Lvchangze/SpikeBERT",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "xiaoqing_zheng",
+    "scholar_name": "郑骁庆",
+    "matched_paper_ids": [
+      "875f4520c9273352"
+    ],
+    "related_paper_titles": [
+      "SpikeBERT: A Language Spikformer Trained with Two-Stage Knowledge Distillation from BERT"
+    ],
+    "related_paper_titles_zh": [
+      "SpikeBERT：一种通过 BERT 两阶段知识蒸馏训练的 Spikformer 语言"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.48550/ARXIV.2308.15122"
+    ],
+    "description": "论文《SpikeBERT：一种通过 BERT 两阶段知识蒸馏训练的 Spikformer 语言》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "xiaoqing_zheng::general_nlp_ai",
+      "xuanjing_huang::general_foundation"
+    ],
+    "primary_categories": [
+      "郑骁庆：自然语言处理、多模态学习与通用方法",
+      "黄萱菁：通用预训练大模型、视听生成与基础方法"
+    ]
+  }
+]
