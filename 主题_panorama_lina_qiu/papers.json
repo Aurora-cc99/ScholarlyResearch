@@ -1,111 +1,3987 @@
-{
-  "scholar": {
-    "name_zh": "邱丽娜",
-    "name_en": "Lina Qiu",
-    "affiliation": "华南师范大学",
-    "identity_sources": [
-      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+[
+  {
+    "title": "Multi-Source Domain Generalized Person Re-Identification with Dualstyle Augmentation and Dynamic Memory Classifier",
+    "title_en": "Multi-Source Domain Generalized Person Re-Identification with Dualstyle Augmentation and Dynamic Memory Classifier",
+    "title_zh": "使用双重增强和动态记忆分类器的多源域广义行人重识别",
+    "year": 2026,
+    "venue": "IEEE International Conference on Acoustics Speech and Signal Processing",
+    "authors": [
+      "Lewei He",
+      "Kaiyong Zhang",
+      "Biranchi Panda",
+      "Lina Qiu",
+      "Quanyu Dai",
+      "Jiahui Pan"
     ],
-    "official_homepages": [
-      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    "doi": "10.1109/icassp55912.2026.11461549",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/icassp55912.2026.11461549",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W7155059651",
+    "openalex_id": "https://openalex.org/W7155059651",
+    "openalex_author_id": "https://openalex.org/A5041963828",
+    "cited_by_count": 0,
+    "abstract_en": "Person re-identification (ReID) is a critical task in computer vision, aiming at identifying the same individuals across various, non-overlapping camera views. Traditional ReID approaches, predominantly based on supervised methods, face significant performance decreases when applied across different domains due to different camera views. To address this challenge, we propose DualStyle, a novel approach that integrates two style enhancement techniques to preserve the integrity of images while boosting the model’s generalization capabilities. Furthermore, we propose a dynamic memory classifier, which combines a temporal-adaptive memory update (TAMU) module and a class-specific loss, to refine the non-parametric classifier with better adaptation to inter-domain variations. Extensive experiments validate that our method significantly elevates the model’s ability to generalize across unseen domains, achieving state-of-the-art performance on several major ReID datasets with the mAP increased by 0.9% to 4.3% and the Rank-1 increased by 1.0% to 7.8%.",
+    "abstract_zh": "人员重新识别 (ReID) 是计算机视觉中的一项关键任务，旨在通过各种不重叠的摄像机视图识别同一个人。传统的 ReID 方法主要基于监督方法，当应用于不同领域时，由于相机视图不同，性能会显着下降。为了应对这一挑战，我们提出了 DualStyle，这是一种集成了两种风格增强技术的新颖方法，可以保持图像的完整性，同时提高模型的泛化能力。此外，我们提出了一种动态记忆分类器，它结合了时间自适应记忆更新（TAMU）模块和特定于类的损失，以更好地适应非参数分类器。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5041963828）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_lina_qiu_4230cfbfefa6f8b0",
+    "global_record_id": "a2794d0aebad585c",
+    "scholar_id": "panorama_lina_qiu",
+    "scholar_name": "邱丽娜",
+    "scholar_ids": [
+      "panorama_lina_qiu"
     ],
-    "coverage": {
-      "scope": "2025–2026主题筛选与全量书目扩展",
-      "status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
-      "coverage_status": "仅有代表论文或项目级记录；个人全历史待补核",
-      "available_record_count": 1,
-      "bulk_source_record_count": 0,
-      "themes": [
-        "脑电情感计算与脑机接口"
-      ]
-    },
-    "coverage_notes": "该目录与五位基线学者使用同一论文/资源/分类输出契约。‘可用记录数’表示本轮已取得并保留的书目，不等于未经消歧的个人终身全集；身份待核验、论文团队和同名风险见候选筛选证据。",
-    "id": "panorama_lina_qiu",
-    "folder": "主题_panorama_lina_qiu",
-    "classification": {
-      "method": "按题名及现有项目、资源说明进行主题粗分，用于阅读导航；未逐篇审阅全文，不代表学者官方分类。每条书目只设一个主类别，跨方向信息保留在辅助标签中。",
-      "categories": [
-        {
-          "id": "eeg_foundation",
-          "label": "脑电基础模型与通用解码",
-          "description": "EEG基础模型、跨任务/跨设备泛化、预训练与脑信号解码。",
-          "count": 0
-        },
-        {
-          "id": "eeg_affect",
-          "label": "情感脑电与多模态生理信号",
-          "description": "脑电情感识别、EEG-fNIRS/EEG-MEG及情感计算应用。",
-          "count": 1
-        },
-        {
-          "id": "eeg_benchmark",
-          "label": "脑电基准、数据与评测",
-          "description": "脑电基础模型基准、数据集、可复现评估与跨数据集比较。",
-          "count": 0
-        }
-      ],
-      "review": {
-        "status": "theme_candidate",
-        "source_status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
-        "primary_theme": "脑电情感计算与脑电大模型"
+    "scholar_names": [
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_lina_qiu_4230cfbfefa6f8b0"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_lina_qiu": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
-    "counts": {
-      "bibliographic_records": 1,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [
-        2024
-      ],
-      "unknown_year": 0
-    }
+    "primary_categories_by_scholar": [
+      "邱丽娜：脑电基准、数据与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
   },
-  "papers": [
-    {
-      "title": "SFT-SGAT: 半监督微调自监督图注意力网络,跨受试者EEG情绪识别(SEED 92.04%/SEED-IV 82.76%). Neural Networks",
-      "title_en": "SFT-SGAT: 半监督微调自监督图注意力网络,跨受试者EEG情绪识别(SEED 92.04%/SEED-IV 82.76%). Neural Networks",
-      "title_zh": "SFT-SGAT：半监督自监督图注意力网络，定制脑电图情绪识别（SEED 92.04%/SEED-IV 82.76%）。神经网络",
-      "year": 2024,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "Lina Qiu"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "脑电情感计算与脑机接口"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_lina_qiu_557a5b5d336a",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_lina_qiu",
-      "scholar_name": "邱丽娜",
-      "work_title_group": "7fa7d84ad9fd",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
-    }
-  ]
-}
+  {
+    "title": "Enhanced detection of disorders of consciousness via multi-scale convolutional feature adaptive weighting fusion network and EEG functional connectivity analysis",
+    "title_en": "Enhanced detection of disorders of consciousness via multi-scale convolutional feature adaptive weighting fusion network and EEG functional connectivity analysis",
+    "title_zh": "通过多尺度卷积特征自适应加权融合网络和脑电图功能连接分析增强意识障碍的检测",
+    "year": 2026,
+    "venue": "Biomed. Signal Process. Control.",
+    "authors": [
+      "Lina Qiu",
+      "Xianyue Song",
+      "Zuorui Ying",
+      "Weisen Feng",
+      "Lewei He",
+      "Jiahui Pan"
+    ],
+    "doi": "10.1016/J.BSPC.2026.110205",
+    "dblp_key": "journals/bspc/QiuSYFHP26",
+    "paper_url": "https://doi.org/10.1016/J.BSPC.2026.110205",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/journals/bspc/QiuSYFHP26.html",
+    "openalex_id": "https://openalex.org/W7147279669",
+    "openalex_author_id": "https://openalex.org/A5004503278",
+    "cited_by_count": 0,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 139/8453-3）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_jiahui_pan_57b4dae4a7ee6e9f",
+    "global_record_id": "236cfa717e7eccbf",
+    "scholar_id": "panorama_jiahui_pan",
+    "scholar_name": "潘家辉",
+    "scholar_ids": [
+      "panorama_jiahui_pan",
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "潘家辉",
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_jiahui_pan_57b4dae4a7ee6e9f"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_jiahui_pan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "潘家辉",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_lina_qiu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "潘家辉：脑电基础模型与通用解码",
+      "邱丽娜：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Knowledge-Enhanced Contrastive Learning for Gait Emotion Recognition",
+    "title_en": "Knowledge-Enhanced Contrastive Learning for Gait Emotion Recognition",
+    "title_zh": "用于步态情感识别的知识增强对比学习",
+    "year": 2026,
+    "venue": "IEEE International Conference on Acoustics Speech and Signal Processing",
+    "authors": [
+      "Xiaotong Fan",
+      "Lina Qiu",
+      "Mengxin Xu",
+      "Yan Liang",
+      "Chengju Zhou"
+    ],
+    "doi": "10.1109/icassp55912.2026.11460443",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/icassp55912.2026.11460443",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W7155051555",
+    "openalex_id": "https://openalex.org/W7155051555",
+    "openalex_author_id": "https://openalex.org/A5041963828",
+    "cited_by_count": 0,
+    "abstract_en": "With its non-contact nature and universality across diverse scenarios, gait is gradually emerging as a promising technology for emotion recognition. Recently, self-supervised learning has been applied to gait emotion recognition; however, existing methods fail to make full use of gait’s affective information. To address this issue, the present paper innovatively proposes a contrastive learning framework to mine gait-based emotional features related to emotion recognition. Specifically, we introduce a Spatial Extent Difference Learning(SEDL), which measures the differences in spatial extent between augmented samples to help effectively capture spatially-related emotional features. In addition, we design a Multi-speed Prediction Module(MPM) that predicts various speeds, enabling the emotion representation in temporal dimension. We conducted experiments on the Emotion-Gait dataset, achieving significant improvements across various evaluation protocols and outperforming state-of-the-art approaches, thereby validating the effectiveness and superiority of our proposed framework.",
+    "abstract_zh": "凭借其非接触性和跨不同场景的普遍性，步态逐渐成为一种有前途的情感识别技术。最近，自监督学习被应用于步态情感识别；然而，现有方法未能充分利用步态的情感信息。为了解决这个问题，本文创新性地提出了一种对比学习框架来挖掘与情绪识别相关的基于步态的情绪特征。具体来说，我们引入了空间范围差异学习（SEDL），它测量增强样本之间空间范围的差异，以帮助有效捕获空间相关的情感特征。此外，我们设计了一个多速度预测模块（MPM）...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5041963828）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_lina_qiu_acc671a1be8e1bcd",
+    "global_record_id": "ea642d69efc3136d",
+    "scholar_id": "panorama_lina_qiu",
+    "scholar_name": "邱丽娜",
+    "scholar_ids": [
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_lina_qiu_acc671a1be8e1bcd"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_lina_qiu": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "邱丽娜：脑电基准、数据与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "A Multi-Dimensional Feature Fusion and Multi-Level Domain Adaptation Network for Cross-Subject EEG Emotion Recognition",
+    "title_en": "A Multi-Dimensional Feature Fusion and Multi-Level Domain Adaptation Network for Cross-Subject EEG Emotion Recognition",
+    "title_zh": "用于跨主体脑电情感识别的多维特征融合和多级域适应网络",
+    "year": 2026,
+    "venue": "IEEE International Conference on Acoustics Speech and Signal Processing",
+    "authors": [
+      "Chuwen Xie",
+      "R. R. Chen",
+      "Zhuoyi Huang",
+      "Jiahui Zhang",
+      "Lina Qiu",
+      "Jiahui Pan"
+    ],
+    "doi": "10.1109/icassp55912.2026.11462781",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/icassp55912.2026.11462781",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W7155083830",
+    "openalex_id": "https://openalex.org/W7155083830",
+    "openalex_author_id": "https://openalex.org/A5023225646",
+    "cited_by_count": 1,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [
+      "脑电情感识别",
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5023225646）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_jiahui_pan_9398a6f708047238",
+    "global_record_id": "5b3464c11823294e",
+    "scholar_id": "panorama_jiahui_pan",
+    "scholar_name": "潘家辉",
+    "scholar_ids": [
+      "panorama_jiahui_pan",
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "潘家辉",
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_jiahui_pan_9398a6f708047238"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_jiahui_pan": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "潘家辉",
+        "secondary_tags": [
+          "脑电情感识别",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_lina_qiu": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [
+          "脑电情感识别",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "潘家辉：情感脑电与多模态生理信号",
+      "邱丽娜：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "A Multi-Scale Attention-Based Reconstruction Fusion Network for Motor Imagery Classification",
+    "title_en": "A Multi-Scale Attention-Based Reconstruction Fusion Network for Motor Imagery Classification",
+    "title_zh": "用于运动意象分类的多尺度基于注意力的重建融合网络.. IEEE J Biomed Health Inform",
+    "year": 2026,
+    "venue": "IEEE J. Biomed. Health Informatics",
+    "authors": [
+      "Lina Qiu",
+      "You Hu",
+      "Minjin Wu",
+      "Baiqiang Long",
+      "Tianjian Chen",
+      "Jiahui Pan"
+    ],
+    "doi": "10.1109/jbhi.2026.3668760",
+    "paper_url": "https://doi.org/10.1109/jbhi.2026.3668760",
+    "source_url": "https://doi.org/10.1109/jbhi.2026.3668760",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "脑机接口与神经解码"
+    ],
+    "verification": "Crossref exact/near-exact title and publication-year match; DOI URL preserved",
+    "status": "已核验作品（Crossref DOI）",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W7131811259",
+    "openalex_author_id": "https://openalex.org/A5004503278",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 2,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）；Crossref exact title/year",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jiahui_pan_a79db7ce886d",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jiahui_pan",
+    "scholar_name": "潘家辉",
+    "work_title_group": "cd42d37789e1",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jiahui_pan",
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "潘家辉",
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_jiahui_pan_a79db7ce886d"
+    ],
+    "scholar_categories": {
+      "panorama_jiahui_pan": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "潘家辉",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "panorama_lina_qiu": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "global_record_id": "39649d541b32c473",
+    "primary_categories_by_scholar": [
+      "潘家辉：情感脑电与多模态生理信号",
+      "邱丽娜：脑电基准、数据与评测"
+    ],
+    "dblp_key": "journals/titb/QiuHWLCP26",
+    "abstract_en": "Motor imagery (MI) is a widely used cognitive paradigm in brain-computer interface (BCI) systems, where accurate and efficient MI decoding is essential for real-time human-machine interaction. However, the non-stationary nature and pronounced inter-subject variability of electroencephalography (EEG) signals pose significant challenges to reliable decoding. To address these issues, we propose a multi-scale attention-based reconstruction fusion network (MSARFNet) for MI-EEG decoding. The proposed framework employs parallel multi-scale convolutional branches to extract discriminative spatio-temporal features at different temporal resolutions. An attention-based reconstruction fusion module is then introduced to selectively diminish non-dominant information while promoting effective interaction among multi-scale features. Furthermore, local-global temporal encoding strategy is designed to enhance transient MI-related responses through local temporal context aggregation and subsequently capture long-range temporal dependencies via global temporal modeling. Subject-dependent experiments conducted on the BCI Competition IV 2a and 2b datasets demonstrate that MSARFNet achieves average classification accuracies of 84.64% and 87.96%, respectively, outperforming several state-of-the-art methods. These results indicate that MSARFNet provides an effective and robust solution for EEG-based MI decoding.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "运动想象（MI）是脑机接口（BCI）系统中广泛使用的认知范式，其中准确高效的 MI 解码对于实时人机交互至关重要。然而，脑电图 (EEG) 信号的非平稳性和明显的受试者间变异性对可靠解码提出了重大挑战。为了解决这些问题，我们提出了一种用于 MI-EEG 解码的多尺度基于注意力的重建融合网络（MSARFNet）。所提出的框架采用并行多尺度卷积分支来提取不同时间分辨率下的判别性时空特征。基于注意力的重建融合模块是..."
+  },
+  {
+    "title": "Attention-Based Explicit Reconstruction Fusion Network for Motor Imagery Decoding",
+    "title_en": "Attention-Based Explicit Reconstruction Fusion Network for Motor Imagery Decoding",
+    "title_zh": "用于运动意象解码的基于注意力的显式重建融合网络",
+    "year": 2026,
+    "venue": "IEEE International Conference on Acoustics Speech and Signal Processing",
+    "authors": [
+      "You Hu",
+      "Minjin Wu",
+      "Baiqiang Long",
+      "Tianjian Chen",
+      "Lina Qiu"
+    ],
+    "doi": "10.1109/icassp55912.2026.11462558",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/icassp55912.2026.11462558",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W7155089316",
+    "openalex_id": "https://openalex.org/W7155089316",
+    "openalex_author_id": "https://openalex.org/A5041963828",
+    "cited_by_count": 0,
+    "abstract_en": "Motor imagery (MI) electroencephalography (EEG) signals are highly non-stationary and exhibit substantial inter-subject variability, posing challenges for single-scale feature extraction. Moreover, existing multi-scale fusion methods often rely on simple fusion or attention mechanisms, which limits their ability to effectively emphasize informative features. To address these limitations, this paper proposes an attention-based explicit reconstruction fusion network (AERNet) for MI-EEG decoding. AERNet employs multiple convolutional branches to extract complementary spatio-temporal features at different scales, followed by an attention-based explicit reconstruction fusion module that reorganizes and integrates multi-scale representations. Experiments on two public MI-EEG datasets demonstrate the effectiveness of the proposed method.",
+    "abstract_zh": "运动想象 (MI) 脑电图 (EEG) 信号高度不稳定，并且表现出显着的受试者间变异性，给单尺度特征提取带来了挑战。此外，现有的多尺度融合方法通常依赖于简单的融合或注意力机制，这限制了它们有效强调信息特征的能力。为了解决这些限制，本文提出了一种用于 MI-EEG 解码的基于注意力的显式重建融合网络（AERNet）。 AERNet 采用多个卷积分支来提取不同尺度的互补时空特征，然后采用基于注意力的显式重建融合模块来重新组织和集成多尺度表示。经验...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "脑机接口与神经解码"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5041963828）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_lina_qiu_e50d4c501c6d9039",
+    "global_record_id": "82c1ba6a8926fe6a",
+    "scholar_id": "panorama_lina_qiu",
+    "scholar_name": "邱丽娜",
+    "scholar_ids": [
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_lina_qiu_e50d4c501c6d9039"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_lina_qiu": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "邱丽娜：脑电基准、数据与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "GT-ARN: A Graph-Tokenized Adaptive Retentive Network for EEG Decoding",
+    "title_en": "GT-ARN: A Graph-Tokenized Adaptive Retentive Network for EEG Decoding",
+    "title_zh": "GT-ARN：用于脑电图解码的图标记化自适应记忆网络",
+    "year": 2026,
+    "venue": "IEEE International Conference on Acoustics Speech and Signal Processing",
+    "authors": [
+      "Baiqiang Long",
+      "Tianjian Chen",
+      "You Hu",
+      "Minjin Wu",
+      "Quanlin Chen",
+      "Lina Qiu"
+    ],
+    "doi": "10.1109/icassp55912.2026.11464507",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/icassp55912.2026.11464507",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W7155031309",
+    "openalex_id": "https://openalex.org/W7155031309",
+    "openalex_author_id": "https://openalex.org/A5041963828",
+    "cited_by_count": 0,
+    "abstract_en": "Transformer-based models have shown strong potential for capturing long-range temporal dependencies in EEG signals, but they often neglect intrinsic signal characteristics. Conventional approaches rely solely on self-attention without domain priors or noise suppression, and construct tokens by convolution based on Euclidean proximity, which does not necessarily reflect true inter-channel dependencies. To address these limitations, we propose the Graph-Tokenized Adaptive Retentive Network (GT-ARN), a framework tailored for EEG decoding. GT-ARN introduces a Graph-based Token Extractor (GTE) that captures short-term temporal patterns via one-dimensional convolution and models inter-channel dependencies using dynamic graph convolution. The extracted tokens are processed by an Adaptive Retention Module, which employs a learnable decay factor to flexibly adjust temporal dependency ranges and a gating mechanism to suppress redundant or noise-related tokens. This design yields more informative representations of EEG dynamics. Extensive experiments on two public EEG datasets demonstrate that GT-ARN achieves state-of-the-art decoding performance, validating its effectiveness. The source code of GT-ARN is publicly available at: https://github.com/VerdantE1/GT_ARN",
+    "abstract_zh": "基于Transformer的模型显示出捕获脑电图信号中的长程时间依赖性的强大潜力，但它们经常忽略内在信号特征。传统方法仅依赖自注意力，没有领域先验或噪声抑制，并通过基于欧几里德邻近度的卷积构造令牌，这不一定反映真实的通道间依赖性。为了解决这些限制，我们提出了图标记化自适应记忆网络（GT-ARN），这是一个专为脑电图解码而定制的框架。 GT-ARN 引入了基于图的令牌提取器 (GTE)，它通过一维卷积捕获短期时间模式，并使用动态图卷积对通道间依赖关系进行建模。额外...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "脑机接口与神经解码"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5041963828）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_lina_qiu_7f9246675d136587",
+    "global_record_id": "4e8e9fa3ba63b754",
+    "scholar_id": "panorama_lina_qiu",
+    "scholar_name": "邱丽娜",
+    "scholar_ids": [
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_lina_qiu_7f9246675d136587"
+    ],
+    "resource_ids": [
+      "panorama_lina_qiu__auto_code_3396b284ab"
+    ],
+    "code_urls": [
+      "https://github.com/VerdantE1/GT_ARN"
+    ],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_lina_qiu": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "邱丽娜：脑电基准、数据与评测"
+    ],
+    "resource_status": "已关联公开代码/数据/模型资源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "LF-MHANet: A Driving-Fatigue Detection Network Integrating Learnable Feature Fusion with Multi-Head Attention",
+    "title_en": "LF-MHANet: A Driving-Fatigue Detection Network Integrating Learnable Feature Fusion with Multi-Head Attention",
+    "title_zh": "LF-MHANet：将可学习特征融合与多头注意力相结合的驾驶疲劳检测网络",
+    "year": 2026,
+    "venue": "IEEE International Conference on Acoustics Speech and Signal Processing",
+    "authors": [
+      "Tianjian Chen",
+      "Baiqiang Long",
+      "Junyu Wang",
+      "You Hu",
+      "Minjin Wu",
+      "Lina Qiu"
+    ],
+    "doi": "10.1109/icassp55912.2026.11463238",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/icassp55912.2026.11463238",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W7155055094",
+    "openalex_id": "https://openalex.org/W7155055094",
+    "openalex_author_id": "https://openalex.org/A5041963828",
+    "cited_by_count": 0,
+    "abstract_en": "Driving safety is heavily dependent on the driver’s level of vigilance. Electroencephalogram (EEG), a reliable indicator of brain activity with high temporal resolution, holds great promise for fatigue monitoring. This paper proposes a novel end-to-end deep-learning model, the learnable feature fusion and multi-head attention network (LF-MHANet), for driving-fatigue recognition. The model first employs depthwise separable convolutions to extract deep features from EEG signals, then innovatively applies the Hilbert transform to obtain the feature envelope and fuses it with the original high-frequency details via a learnable adaptive feature fusion module. Subsequently, a multi-head channel-attention module is introduced to adjust feature weights in groups and thereby enhance critical information. Experiments on two public driving datasets demonstrate that LF-MHANet outperforms state-of-the-art models, confirming its effectiveness. Further ablation studies verify the contributions of both the learnable feature fusion and the multi-head attention modules.",
+    "abstract_zh": "驾驶安全在很大程度上取决于驾驶员的警惕程度。脑电图 (EEG) 是一种具有高时间分辨率的大脑活动的可靠指标，在疲劳监测方面具有广阔的前景。本文提出了一种新颖的端到端深度学习模型，即可学习特征融合和多头注意力网络（LF-MHANet），用于驾驶疲劳识别。该模型首先采用深度可分离卷积从脑电信号中提取深层特征，然后创新性地应用希尔伯特变换来获得特征包络，并通过可学习的自适应特征融合模块将其与原始高频细节融合。随后，引入多头通道注意模块来调整特征量......",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5041963828）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_lina_qiu_1696a326cafb301b",
+    "global_record_id": "0f812ffc0f9db60d",
+    "scholar_id": "panorama_lina_qiu",
+    "scholar_name": "邱丽娜",
+    "scholar_ids": [
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_lina_qiu_1696a326cafb301b"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_lina_qiu": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "邱丽娜：脑电基准、数据与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "PA-MEANet: A Pointer-Attention and Manifold-to-Entropy Adaptation Network for Cross-Subject EEG-fNIRS Decoding",
+    "title_en": "PA-MEANet: A Pointer-Attention and Manifold-to-Entropy Adaptation Network for Cross-Subject EEG-fNIRS Decoding",
+    "title_zh": "PA-MEANet：用于跨主题 EEG-fNIRS 解码的指针注意和流形熵适应网络",
+    "year": 2026,
+    "venue": "IEEE Internet of Things Journal",
+    "authors": [
+      "Lina Qiu",
+      "Zixiang Zhou",
+      "Jiahui Pan"
+    ],
+    "doi": "10.1109/jiot.2026.3754495",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/jiot.2026.3754495",
+    "pdf_url": "https://doi.org/10.1109/jiot.2026.3754495",
+    "source_url": "https://openalex.org/W7233837478",
+    "openalex_id": "https://openalex.org/W7233837478",
+    "openalex_author_id": "https://openalex.org/A5004503278",
+    "cited_by_count": 0,
+    "abstract_en": "Hybrid EEG-fNIRS brain-computer interfaces (BCIs) fuse neural electrical activity and hemodynamic metabolic information, offering substantial potential for robust brain-state decoding. However, the practical deployment of such systems is hindered by two critical issues: the inherent physiological asymmetry between electrophysiological and hemodynamic signals, and severe performance degradation under cross-subject settings due to inter-individual distribution shifts. To address these challenges, this paper proposes PA-MEANet, a lightweight multimodal fusion network for cross-subject EEG-fNIRS classification. The framework first employs modality-specific encoders tailored to the distinct temporal-spatial characteristics of EEG and fNIRS. An electrophysiological pointer-attention module (EPAM) is then introduced to exploit the asymmetric cross-modal relationship by using EEG representations as pointers to retrieve task-relevant fNIRS contextual information. A dual-modal gated integrator (DMGI) dynamically regulates the contribution of the retrieved fNIRS context through an EEG residual pathway, thereby enabling task-dependent integration of complementary electrophysiological and hemodynamic information. Furthermore, a two-stage progressive unsupervised domain adaptation strategy—combining Euclidean alignment (EA) at the input level and entropy-minimization-based test-time adaptation (TTA) at the model level—is adopted to mitigate the impact of cross-subject distribution shifts. Extensive leave-one-subject-out (LOSO) experiments on public EEG-fNIRS dataset for motor imagery (MI) and mental arithmetic (MA) tasks demonstrate that PA-MEANet achieves classification accuracies of 75.34% and 77.99%, respectively. Notably, the model maintains a compact architecture with merely 10.4K parameters and 65.98M FLOPs per trial, achieving a favorable balance among decoding performance, cross-subject generalization, and computational efficiency.",
+    "abstract_zh": "混合 EEG-fNIRS 脑机接口 (BCI) 融合了神经电活动和血流动力学代谢信息，为强大的大脑状态解码提供了巨大的潜力。然而，此类系统的实际部署受到两个关键问题的阻碍：电生理信号和血流动力学信号之间固有的生理不对称性，以及由于个体间分布变化导致的跨受试者设置下的严重性能下降。为了应对这些挑战，本文提出了 PA-MEANet，一种用于跨受试者 EEG-fNIRS 分类的轻量级多模态融合网络。该框架首先采用针对 EEG 和 fNIRS 不同时空特征定制的特定模态编码器。一个电...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "脑机接口与神经解码",
+      "多模态与大语言模型",
+      "智能芯片与计算系统"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5004503278）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_jiahui_pan_24ce95e78f97e378",
+    "global_record_id": "403bd531dcb90097",
+    "scholar_id": "panorama_jiahui_pan",
+    "scholar_name": "潘家辉",
+    "scholar_ids": [
+      "panorama_jiahui_pan",
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "潘家辉",
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_jiahui_pan_24ce95e78f97e378"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_jiahui_pan": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "潘家辉",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "多模态与大语言模型",
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_lina_qiu": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "多模态与大语言模型",
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "潘家辉：情感脑电与多模态生理信号",
+      "邱丽娜：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "PDGCN: A progressive dual-branch graph convolution network for EEG emotion recognition",
+    "title_en": "PDGCN: A progressive dual-branch graph convolution network for EEG emotion recognition",
+    "title_zh": "PDGCN：一种用于脑电图情感识别的渐进式双分支图卷积网络.. 神经网络",
+    "year": 2026,
+    "venue": "Neural Networks",
+    "authors": [
+      "Lina Qiu",
+      "Minjin Wu",
+      "You Hu",
+      "Baiqiang Long",
+      "Tianjian Chen",
+      "Jiahui Pan"
+    ],
+    "doi": "10.1016/J.NEUNET.2026.109016",
+    "paper_url": "https://doi.org/10.1016/J.NEUNET.2026.109016",
+    "source_url": "https://dblp.org/rec/journals/nn/QiuWHLCP26.html",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "脑电情感识别",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W7154716982",
+    "openalex_author_id": "https://openalex.org/A5023225646",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 2,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jiahui_pan_ffaeb4c95956",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jiahui_pan",
+    "scholar_name": "潘家辉",
+    "work_title_group": "d8508cbdac87",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jiahui_pan",
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "潘家辉",
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_jiahui_pan_ffaeb4c95956"
+    ],
+    "scholar_categories": {
+      "panorama_jiahui_pan": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "潘家辉",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "panorama_lina_qiu": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑电情感识别",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "global_record_id": "333f0c576b350aca",
+    "primary_categories_by_scholar": [
+      "潘家辉：情感脑电与多模态生理信号",
+      "邱丽娜：情感脑电与多模态生理信号"
+    ],
+    "dblp_key": "journals/nn/QiuWHLCP26"
+  },
+  {
+    "title": "Mutual Information Learning-Based End-to-End Fusion Network for Hybrid EEG-fNIRS Brain-Computer Interface",
+    "title_en": "Mutual Information Learning-Based End-to-End Fusion Network for Hybrid EEG-fNIRS Brain-Computer Interface",
+    "title_zh": "基于互信息学习的混合EEG-fNIRS脑机接口的端到端融合网络",
+    "year": 2025,
+    "venue": "IEEE Trans. Instrum. Meas.",
+    "authors": [
+      "Lina Qiu",
+      "Weisen Feng",
+      "Liangquan Zhong",
+      "Xianyue Song",
+      "Zuorui Ying",
+      "Jiahui Pan"
+    ],
+    "doi": "10.1109/TIM.2025.3604929",
+    "dblp_key": "journals/tim/QiuFZSYP25",
+    "paper_url": "https://doi.org/10.1109/TIM.2025.3604929",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/journals/tim/QiuFZSYP25.html",
+    "openalex_id": "https://openalex.org/W4414054714",
+    "openalex_author_id": "https://openalex.org/A5023225646",
+    "cited_by_count": 10,
+    "abstract_en": "Hybrid brain-computer interfaces (BCIs) integrating electroencephalography (EEG) and functional near-infrared spectroscopy (fNIRS) hold great potential, but effectively fusing their complementary information remains challenging. In this work, we propose a novel end-to-end EEG-fNIRS fusion network, EFMLNet. EFMLNet comprises two personalized feature extractors and a cross-modal mutual information learning module, designed to fully exploit the spatial and temporal characteristics of each modality. This architecture enables efficient extraction and fusion of complementary information from EEG and fNIRS signals. We evaluate EFMLNet through extensive cross-subject experiments on two public BCI datasets, motor imagery (MI) and mental arithmetic (MA), and show that its classification accuracy reaches 76.8% and 76.5%, respectively, surpassing existing fusion methods. These results demonstrate the effectiveness of EFMLNet in improving hybrid BCI performance.",
+    "abstract_zh": "集成脑电图（EEG）和功能性近红外光谱（fNIRS）的混合脑机接口（BCI）具有巨大的潜力，但有效融合它们的互补信息仍然具有挑战性。在这项工作中，我们提出了一种新颖的端到端 EEG-fNIRS 融合网络 EFMLNet。 EFMLNet 包含两个个性化特征提取器和一个跨模态互信息学习模块，旨在充分利用每种模态的空间和时间特征。该架构能够有效地从 EEG 和 fNIRS 信号中提取和融合补充信息。我们通过对两个公共 BCI 数据集、运动想象 (MI) 和心算 (...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "脑机接口与神经解码",
+      "多模态与大语言模型",
+      "智能芯片与计算系统"
+    ],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 139/8453-3）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_jiahui_pan_7a68a02183855a28",
+    "global_record_id": "f4ec7fc86207fd65",
+    "scholar_id": "panorama_jiahui_pan",
+    "scholar_name": "潘家辉",
+    "scholar_ids": [
+      "panorama_jiahui_pan",
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "潘家辉",
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_jiahui_pan_7a68a02183855a28"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_jiahui_pan": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "潘家辉",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "多模态与大语言模型",
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_lina_qiu": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "多模态与大语言模型",
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "潘家辉：情感脑电与多模态生理信号",
+      "邱丽娜：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "HARFormer: A Masked Self-Supervised Transformer-Based Model for Human Activity Recognition With Predicting Somatosensory Tokens",
+    "title_en": "HARFormer: A Masked Self-Supervised Transformer-Based Model for Human Activity Recognition With Predicting Somatosensory Tokens",
+    "title_zh": "HARFormer：一种基于屏蔽自监督 Transformer 的人类活动识别模型，可预测体感标记",
+    "year": 2025,
+    "venue": "IEEE Trans. Instrum. Meas.",
+    "authors": [
+      "Quanlin Chen",
+      "Dehua Lu",
+      "Weisen Feng",
+      "Chunjin Ye",
+      "Lina Qiu",
+      "Jiahui Pan",
+      "Jingcong Li"
+    ],
+    "doi": "10.1109/TIM.2025.3584138",
+    "dblp_key": "journals/tim/ChenLFYQPL25",
+    "paper_url": "https://doi.org/10.1109/TIM.2025.3584138",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/journals/tim/ChenLFYQPL25.html",
+    "openalex_id": "https://openalex.org/W4412030751",
+    "openalex_author_id": "https://openalex.org/A5023225646",
+    "cited_by_count": 14,
+    "abstract_en": "In the realm of pervasive smart media technology, human activity recognition (HAR) stands as a critical functionality, particularly for applications within smart homes, virtual reality and mobile devices. These data can be collected through accelerometers and gyroscopes embedded in smart devices such as smartphones and smartwatches. Traditional HAR algorithms are often highly specialized, being developed for specific datasets and tasks. These methods typically rely on large amounts of high-quality labeled data to achieve optimal performance, but such labeled data is notoriously difficult and expensive to obtain in practice. In contrast, the daily use of smart devices generates a vast amount of unlabeled data as people engage in various activities. If the unlabeled data is properly and effectively utilized that could significantly advance the development of human activity recognition. In this work, we propose a transformer-based framework that first converts continuous human activity data into discrete tokens, which shortens the sequence length while preserving local information. We then construct a somatosensory lexicon, where the model facilitates self-supervised learning by predicting masked somatosensory tokens as a proxy task. After learning useful features through unlabeled proxy tasks, the model requires only a small amount of labeled data for fine-tuning to achieve performance comparable to supervised learning. Experiments on three public datasets (UCI HAR, MHEALTH, UniMiB, SHAR), show that our approach can achieve performance comparable to fully labeled supervised learning, even with minimal labeling. This reduces the need for extensive labeling while maintaining high accuracy, providing a more efficient and scalable solution for human activity recognition in the age of widespread smart technology.",
+    "abstract_zh": "在普及的智能媒体技术领域，人类活动识别 (HAR) 是一项关键功能，特别是对于智能家居、虚拟现实和移动设备中的应用而言。这些数据可以通过智能手机和智能手表等智能设备中嵌入的加速度计和陀螺仪来收集。传统的 HAR 算法通常是高度专业化的，是针对特定数据集和任务而开发的。这些方法通常依赖于大量高质量的标记数据来实现最佳性能，但众所周知，在实践中获取此类标记数据非常困难且昂贵。相比之下，随着人们从事各种活动，智能设备的日常使用会产生大量未标记的数据。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 139/8453-3）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_jiahui_pan_3084d7a8b295cdaf",
+    "global_record_id": "d519c7582f166c84",
+    "scholar_id": "panorama_jiahui_pan",
+    "scholar_name": "潘家辉",
+    "scholar_ids": [
+      "panorama_jiahui_pan",
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "潘家辉",
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_jiahui_pan_3084d7a8b295cdaf"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_jiahui_pan": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "潘家辉",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_lina_qiu": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "潘家辉：脑电基准、数据与评测",
+      "邱丽娜：脑电基准、数据与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "MTADA: A Multi-Task Adversarial Domain Adaptation Network for EEG-Based Cross-Subject Emotion Recognition",
+    "title_en": "MTADA: A Multi-Task Adversarial Domain Adaptation Network for EEG-Based Cross-Subject Emotion Recognition",
+    "title_zh": "MTADA：基于脑电图的跨主体情绪识别的多任务对抗域适应网络",
+    "year": 2025,
+    "venue": "IEEE Trans. Affect. Comput.",
+    "authors": [
+      "Lina Qiu",
+      "Zuorui Ying",
+      "Xianyue Song",
+      "Weisen Feng",
+      "Chengju Zhou",
+      "Jiahui Pan"
+    ],
+    "doi": "10.1109/TAFFC.2025.3595137",
+    "dblp_key": "journals/taffco/QiuYSFZP25",
+    "paper_url": "https://doi.org/10.1109/TAFFC.2025.3595137",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/journals/taffco/QiuYSFZP25.html",
+    "openalex_id": "https://openalex.org/W4412939782",
+    "openalex_author_id": "https://openalex.org/A5023225646",
+    "cited_by_count": 5,
+    "abstract_en": "In electroencephalogram (EEG)-based emotion recognition, the applicability of most current models is limited by inter-subject variability and emotion complexity. This study proposes a multi-task adversarial domain adaptation (MTADA) network to enhance cross-subject emotion recognition performance. The model first employs a domain matching strategy to select the source domain that best matches the target domain. Then, adversarial domain adaptation is used to learn the difference between source and target domains, and a fine-grained joint domain discriminator is constructed to align them by incorporating category information. At the same time, a multi-task learning mechanism is utilized to learn the intrinsic relationships between different emotions and predict multiple emotions simultaneously. We conducted comprehensive experiments on two public datasets, DEAP and FACED. On DEAP, the average accuracies for valence, arousal and dominance are 76.39%, 69.74% and 68.26%, respectively. On FACED, the average accuracies for valence and arousal are 78.90% and 77.95%. When using the subject from DEAP as the source domain to predict the subjects in FACED, the accuracies for valence and arousal are 61.07% and 60.82%. These results show that our MTADA model improves cross-subject emotion recognition and outperforms most state-of-the-art methods, which may provide new approach for EEG-based emotion brain-computer interface systems.",
+    "abstract_zh": "在基于脑电图（EEG）的情绪识别中，大多数当前模型的适用性受到主体间变异性和情绪复杂性的限制。本研究提出了一种多任务对抗域适应（MTADA）网络来增强跨主题情绪识别性能。该模型首先采用域匹配策略来选择与目标域最匹配的源域。然后，使用对抗性域适应来学习源域和目标域之间的差异，并构建细粒度的联合域鉴别器以通过合并类别信息来对齐它们。同时，利用多任务学习机制来学习不同任务之间的内在关系...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "脑电情感识别",
+      "脑机接口与神经解码",
+      "情感计算与情绪理解"
+    ],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 139/8453-3）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_jiahui_pan_d11e46ce0d6b3472",
+    "global_record_id": "84b68330243e97f5",
+    "scholar_id": "panorama_jiahui_pan",
+    "scholar_name": "潘家辉",
+    "scholar_ids": [
+      "panorama_jiahui_pan",
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "潘家辉",
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_jiahui_pan_d11e46ce0d6b3472"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_jiahui_pan": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "潘家辉",
+        "secondary_tags": [
+          "脑电情感识别",
+          "脑机接口与神经解码",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_lina_qiu": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [
+          "脑电情感识别",
+          "脑机接口与神经解码",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "潘家辉：情感脑电与多模态生理信号",
+      "邱丽娜：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "A Novel EEG-Based Parkinson's Disease Detection Model Using Multiscale Convolutional Prototype Networks",
+    "title_en": "A Novel EEG-Based Parkinson's Disease Detection Model Using Multiscale Convolutional Prototype Networks",
+    "title_zh": "使用多尺度卷积原型网络的基于脑电图的新型帕金森病检测模型",
+    "year": 2024,
+    "venue": "IEEE Trans. Instrum. Meas.",
+    "authors": [
+      "Lina Qiu",
+      "Jianping Li",
+      "Liangquan Zhong",
+      "Weisen Feng",
+      "Chengju Zhou",
+      "Jiahui Pan"
+    ],
+    "doi": "10.1109/TIM.2024.3351248",
+    "dblp_key": "journals/tim/QiuLZFZP24",
+    "paper_url": "https://doi.org/10.1109/TIM.2024.3351248",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/journals/tim/QiuLZFZP24.html",
+    "openalex_id": "https://openalex.org/W4390725372",
+    "openalex_author_id": "https://openalex.org/A5023225646",
+    "cited_by_count": 74,
+    "abstract_en": "Objective and accurate detection of Parkinson’s disease (PD) is crucial for timely intervention and treatment. Electroencephalography (EEG) has been proven to characterize PD by measuring brain activity. In recent years, deep learning methods have gained great attention in automated PD detection, but their performance is limited by insufficient data samples. In this article, we propose a novel PD automated detection model named the multiscale convolutional prototype network (MCPNet), which integrates and improves upon multiscale convolutional neural networks (CNNs) and prototype learning. On the one hand, it employs multiscale CNNs to extract brain features from different scales, enhancing feature diversity and utilization. On the other hand, a prototype calibration strategy is introduced to mitigate the effect of data noise on prototype generation, improving the generalization performance of model. Multiple within-dataset and cross-dataset experiments on three different datasets demonstrate the effectiveness of our model in PD detection. The leave-one-subject-out (LOSO) results of within-dataset experiments show that MCPNet achieves an accuracy of 92.5%, a sensitivity of 93.1%, a specificity of 91.9%, and an AUC of 92.4% in cross-subject classification between PD patients and healthy controls. In the cross-dataset classification, the performance of MCPNet is somewhat weakened due to dataset variations. However, this weakening is partially compensated by introducing the prototype calibration strategy. With the introduction of the calibration strategy, the accuracy of cross-dataset classification increases to 90.2%, a 4.0% improvement compared to when it is not used. These results indicate that the proposed model may be a promising tool for automated PD diagnosis.",
+    "abstract_zh": "客观准确地检测帕金森病（PD）对于及时干预和治疗至关重要。脑电图 (EEG) 已被证明可以通过测量大脑活动来表征帕金森病。近年来，深度学习方法在自动化局部放电检测中受到广泛关注，但其性能受到数据样本不足的限制。在本文中，我们提出了一种新颖的 PD 自动检测模型，称为多尺度卷积原型网络（MCPNet），该模型集成并改进了多尺度卷积神经网络（CNN）和原型学习。一方面，它采用多尺度CNN来提取不同尺度的大脑特征，增强特征多样性和利用率。另一方面...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 139/8453-3）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_jiahui_pan_c16630566f413f6b",
+    "global_record_id": "efa0619888c4a65e",
+    "scholar_id": "panorama_jiahui_pan",
+    "scholar_name": "潘家辉",
+    "scholar_ids": [
+      "panorama_jiahui_pan",
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "潘家辉",
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_jiahui_pan_c16630566f413f6b"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_jiahui_pan": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "潘家辉",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_lina_qiu": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "潘家辉：脑电基准、数据与评测",
+      "邱丽娜：脑电基准、数据与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "A Portable and Plug-and-Play Attention Recognition Brain–Computer Interface System Using Convolutional Domain Adaptive Capsule Network",
+    "title_en": "A Portable and Plug-and-Play Attention Recognition Brain–Computer Interface System Using Convolutional Domain Adaptive Capsule Network",
+    "title_zh": "使用卷积域自适应胶囊网络的便携式即插即用注意力识别脑机接口系统",
+    "year": 2024,
+    "venue": "SSRN Electronic Journal",
+    "authors": [
+      "Qian Wu",
+      "Yongjian Chen",
+      "Lina Qiu",
+      "Jiahui Pan"
+    ],
+    "doi": "10.2139/ssrn.4869637",
+    "dblp_key": "",
+    "paper_url": "http://dx.doi.org/10.2139/ssrn.4869637",
+    "pdf_url": "http://dx.doi.org/10.2139/ssrn.4869637",
+    "source_url": "https://openalex.org/W4399766583",
+    "openalex_id": "https://openalex.org/W4399766583",
+    "openalex_author_id": "https://openalex.org/A5041963828",
+    "cited_by_count": 0,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [
+      "脑机接口与神经解码"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5041963828）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_lina_qiu_725da6e4dcf64907",
+    "global_record_id": "9326205ed55d93a9",
+    "scholar_id": "panorama_lina_qiu",
+    "scholar_name": "邱丽娜",
+    "scholar_ids": [
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_lina_qiu_725da6e4dcf64907"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_lina_qiu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "邱丽娜：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Assessing Consciousness in Patients With Disorders of Consciousness Using a Musical Stimulation Paradigm and Verifiable Criteria",
+    "title_en": "Assessing Consciousness in Patients With Disorders of Consciousness Using a Musical Stimulation Paradigm and Verifiable Criteria",
+    "title_zh": "使用音乐刺激范式和可验证标准评估意识障碍患者的意识.. IEEE Trans Neural Syst Rehabil Eng",
+    "year": 2024,
+    "venue": "IEEE Transactions on Neural Systems and Rehabilitation Engineering",
+    "authors": [
+      "Jiahui Pan",
+      "Yue Chen",
+      "Qiuyi Xiao",
+      "Zerong Chen",
+      "Honghua Cai",
+      "Qi You",
+      "Lina Qiu",
+      "Qiuyou Xie"
+    ],
+    "doi": "10.1109/tnsre.2024.3442788",
+    "paper_url": "https://doi.org/10.1109/tnsre.2024.3442788",
+    "source_url": "https://openalex.org/W4401536988",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4401536988",
+    "openalex_author_id": "https://openalex.org/A5023225646",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 7,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jiahui_pan_f608306917e8",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jiahui_pan",
+    "scholar_name": "潘家辉",
+    "work_title_group": "29893c63548f",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jiahui_pan",
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "潘家辉",
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_jiahui_pan_f608306917e8"
+    ],
+    "scholar_categories": {
+      "panorama_jiahui_pan": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "潘家辉",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "panorama_lina_qiu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "global_record_id": "4315be8a2a7a7748",
+    "primary_categories_by_scholar": [
+      "潘家辉：情感脑电与多模态生理信号",
+      "邱丽娜：脑电基础模型与通用解码"
+    ],
+    "pdf_url": "https://doi.org/10.1109/tnsre.2024.3442788",
+    "abstract_en": "Numerous studies have shown that musical stimulation can activate corresponding functional brain areas. Electroencephalogram (EEG) activity during musical stimulation can be used to assess the consciousness states of patients with disorders of consciousness (DOC). In this study, a musical stimulation paradigm and verifiable criteria were used for consciousness assessment. Twenty-nine participants (13 healthy subjects, 6 patients in a minimally conscious state (MCS) and 10 patients in a vegetative state (VS)) were recruited, and EEG signals were collected while participants listened to preferred and relaxing music. Fusion features based on differential entropy (DE), common spatial pattern (CSP), and EEG-based network pattern (ENP) features were extracted from EEG signals, and a convolutional neural network-long short-term memory (CNN-LSTM) model was employed to classify preferred and relaxing music.The results showed that the average classification accuracy for healthy subjects reached 85.58%. For two of the patients in the MCS group, the classification accuracies reached 78.18% and 66.14%, and they were diagnosed with emergence from MCS (EMCS) two months later. The accuracies of three patients in the VS group were 58.18%, 64.32% and 62.05%, with two patients showing slight increases in scale scores. Our study suggests that musical stimulation could be an effective method for consciousness detection, with significant diagnostic implications for patients with DOC.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "大量研究表明，音乐刺激可以激活相应的大脑功能区域。音乐刺激期间的脑电图（EEG）活动可用于评估意识障碍（DOC）患者的意识状态。在这项研究中，使用音乐刺激范式和可验证的标准进行意识评估。招募了 29 名参与者（13 名健康受试者、6 名处于最低意识状态 (MCS) 的患者和 10 名处于植物人状态 (VS) 的患者），并在参与者聆听偏好且轻松的音乐时收集脑电图信号。基于微分熵（DE）、公共空间模式（CS……）的融合特征"
+  },
+  {
+    "title": "An attention-based adaptive spatial-temporal graph convolutional network for long-video ergonomic risk assessment",
+    "title_en": "An attention-based adaptive spatial-temporal graph convolutional network for long-video ergonomic risk assessment",
+    "title_zh": "用于长视频人体工程学风险评估的基于注意力的自适应时空图卷积网络",
+    "year": 2024,
+    "venue": "Eng. Appl. Artif. Intell.",
+    "authors": [
+      "Chengju Zhou",
+      "Jiayu Zeng",
+      "Lina Qiu",
+      "Shuxi Wang",
+      "Pingzhi Liu",
+      "Jiahui Pan"
+    ],
+    "doi": "10.1016/J.ENGAPPAI.2023.107780",
+    "dblp_key": "journals/eaai/ZhouZQWLP24",
+    "paper_url": "https://doi.org/10.1016/J.ENGAPPAI.2023.107780",
+    "pdf_url": "https://doi.org/10.1016/j.engappai.2023.107780",
+    "source_url": "https://dblp.org/rec/journals/eaai/ZhouZQWLP24.html",
+    "openalex_id": "https://openalex.org/W4390569080",
+    "openalex_author_id": "https://openalex.org/A5023225646",
+    "cited_by_count": 13,
+    "abstract_en": "Ergonomic risk assessment (ERA) is commonly used to identify and analyze postures that are detrimental to the health of workers in industrial workplaces, which is vital to prevent work-related musculoskeletal disorders (WMSDs). Among the automatic approaches, algorithms based on graph convolutional networks (GCNs) have shown promising results in ERA using skeleton sequence as input. However, previous GCN-based methods still have certain limitations. First, the separated modeling of spatial and temporal information and the manually pre-defined topology of graph may restrict the representation diversity of the networks. Additionally, RNN-based temporal modeling often incurs high computational costs and fails to capture long-range temporal dependencies, thereby reducing flexibility in describing long videos. To overcome these challenges, in this study, we propose an attention-based adaptive spatial–temporal graph convolutional network (AAST-GCN), aiming to achieve effective and efficient action representation for ERA in long video. First, we employ an alternate modeling strategy to effectively capture the spatial–temporal information, and propose an improved adaptive adjacency matrix scheme to learn various coordination and relations of body-joints, thus enhancing the flexibility to model diverse postures. Furthermore, we introduce an efficient multi-scale temporal convolutional network as a replacement for RNN-based algorithms, enabling the network to extract various granularities of temporal features. Moreover, to make the network focuses on more valuable information, we employ a spatial–temporal interaction attention (STIA) module. Finally, the aforementioned modules are aggregated within a multi-task learning framework, with the action segmentation serving as the auxiliary task to further improve the accuracy of ERA. We conducted the ergonomic risk assessment on the UW-IOM and TUM Kitchen datasets using our network. Extensive experiments conducted on the most popular datasets UW-IOM and TUM Kitchen demonstrated that our proposed AAST-GCN outperforms other GCN-based methods. Ablation studies and visualization also prove the effectiveness of the individual sub-modules.",
+    "abstract_zh": "人体工学风险评估 (ERA) 通常用于识别和分析对工业工作场所工人健康有害的姿势，这对于预防与工作相关的肌肉骨骼疾病 (WMSD) 至关重要。在自动方法中，基于图卷积网络（GCN）的算法在使用骨架序列作为输入的 ERA 中显示出了有希望的结果。然而，之前基于GCN的方法仍然存在一定的局限性。首先，空间和时间信息的分离建模以及手动预定义的图拓扑可能会限制网络的表示多样性。此外，基于 RNN 的时间建模通常会产生较高的计算成本，并且无法捕获长范围的时间深度...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 139/8453-3）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_jiahui_pan_7d84e7f2867b1bdf",
+    "global_record_id": "1168e567a8934fb9",
+    "scholar_id": "panorama_jiahui_pan",
+    "scholar_name": "潘家辉",
+    "scholar_ids": [
+      "panorama_jiahui_pan",
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "潘家辉",
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_jiahui_pan_7d84e7f2867b1bdf"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_jiahui_pan": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "潘家辉",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_lina_qiu": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "潘家辉：脑电基准、数据与评测",
+      "邱丽娜：脑电基准、数据与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "MC-FAW: A Multi-Scale Convolutional Feature Adaptive Weighting Fusion Network for Detecting Disorders of Consciousness",
+    "title_en": "MC-FAW: A Multi-Scale Convolutional Feature Adaptive Weighting Fusion Network for Detecting Disorders of Consciousness",
+    "title_zh": "MC-FAW：用于检测意识障碍的多尺度卷积特征自适应加权融合网络",
+    "year": 2024,
+    "venue": "BIBM",
+    "authors": [
+      "Lina Qiu",
+      "Xianyue Song",
+      "Zuorui Ying",
+      "Weisen Feng",
+      "Liangquan Zhong",
+      "Jiahui Pan"
+    ],
+    "doi": "10.1109/BIBM62325.2024.10822312",
+    "dblp_key": "conf/bibm/QiuSYFZP24",
+    "paper_url": "https://doi.org/10.1109/BIBM62325.2024.10822312",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/conf/bibm/QiuSYFZP24.html",
+    "openalex_id": "https://openalex.org/W4406260055",
+    "openalex_author_id": "https://openalex.org/A5023225646",
+    "cited_by_count": 1,
+    "abstract_en": "The clinical assessment of patients with disorders of consciousness (DoC) still faces challenges due to the lack of objective and accurate methods. To address this issue, this paper proposes a multi-scale convolutional feature adaptive weighting (MC-FAW) fusion network, which aims to integrate multi-scale electroencephalogram (EEG) functional connectivity features to improve the classification performance of consciousness states. Based on resting-state EEG data from 15 healthy controls (HC), 15 patients in a minimally conscious state (MCS), and 17 patients in a vegetative state (VS), the MC-FAW model effectively captures multi-scale features of brain neural activity and dynamically weights these features to achieve a more comprehensive and accurate assessment of consciousness. The classification results demonstrate that this method achieves classification accuracies of 96.54% for distinguishing HC from MCS, 98.47% for HC from VS, and 85.25% for MCS from VS. These results indicate that our method has the potential to improve the objectivity and accuracy of clinical diagnosis, thereby providing important support for clinical decision-making.",
+    "abstract_zh": "由于缺乏客观准确的方法，意识障碍（DoC）患者的临床评估仍面临挑战。针对这一问题，本文提出了一种多尺度卷积特征自适应加权（MC-FAW）融合网络，旨在融合多尺度脑电图（EEG）功能连接特征，以提高意识状态的分类性能。 MC-FAW模型基于15名健康对照（HC）、15名最低意识状态（MCS）患者和17名植物状态（VS）患者的静息态脑电图数据，有效捕捉大脑神经活动的多尺度特征，并对这些特征进行动态加权，以实现更全面、更...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 139/8453-3）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_jiahui_pan_e197e02a80d6f686",
+    "global_record_id": "d328d5f371385174",
+    "scholar_id": "panorama_jiahui_pan",
+    "scholar_name": "潘家辉",
+    "scholar_ids": [
+      "panorama_jiahui_pan",
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "潘家辉",
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_jiahui_pan_e197e02a80d6f686"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_jiahui_pan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "潘家辉",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_lina_qiu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "潘家辉：脑电基础模型与通用解码",
+      "邱丽娜：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "SFT-SGAT: 半监督微调自监督图注意力网络,跨受试者EEG情绪识别(SEED 92.04%/SEED-IV 82.76%). Neural Networks",
+    "title_en": "SFT-SGAT: 半监督微调自监督图注意力网络,跨受试者EEG情绪识别(SEED 92.04%/SEED-IV 82.76%). Neural Networks",
+    "title_zh": "SFT-SGAT：半监督自监督图注意力网络，定制脑电图情绪识别（SEED 92.04%/SEED-IV 82.76%）。神经网络",
+    "year": 2024,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "Lina Qiu"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "脑电情感识别",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_lina_qiu_557a5b5d336a",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_lina_qiu",
+    "scholar_name": "邱丽娜",
+    "work_title_group": "7fa7d84ad9fd",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_lina_qiu_557a5b5d336a"
+    ],
+    "scholar_categories": {
+      "panorama_lina_qiu": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "9d2d2570dc309caf",
+    "primary_categories_by_scholar": [
+      "邱丽娜：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "SFT-SGAT: A semi-supervised fine-tuning self-supervised graph attention network for emotion recognition and consciousness detection",
+    "title_en": "SFT-SGAT: A semi-supervised fine-tuning self-supervised graph attention network for emotion recognition and consciousness detection",
+    "title_zh": "SFT-SGAT：一种用于情感识别和意识检测的半监督微调自监督图注意力网络。神经网络",
+    "year": 2024,
+    "venue": "Neural Networks",
+    "authors": [
+      "Lina Qiu",
+      "Liangquan Zhong",
+      "Jianping Li",
+      "Weisen Feng",
+      "Chengju Zhou",
+      "Jiahui Pan"
+    ],
+    "doi": "10.1016/J.NEUNET.2024.106643",
+    "paper_url": "https://doi.org/10.1016/J.NEUNET.2024.106643",
+    "source_url": "https://dblp.org/rec/journals/nn/QiuZLFZP24.html",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4401817356",
+    "openalex_author_id": "https://openalex.org/A5023225646",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 18,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jiahui_pan_72f532e75b1a",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jiahui_pan",
+    "scholar_name": "潘家辉",
+    "work_title_group": "13ae047c9add",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jiahui_pan",
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "潘家辉",
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_jiahui_pan_72f532e75b1a"
+    ],
+    "scholar_categories": {
+      "panorama_jiahui_pan": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "潘家辉",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "panorama_lina_qiu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "global_record_id": "610fee1e1aa7d15f",
+    "primary_categories_by_scholar": [
+      "潘家辉：情感脑电与多模态生理信号",
+      "邱丽娜：脑电基础模型与通用解码"
+    ],
+    "dblp_key": "journals/nn/QiuZLFZP24"
+  },
+  {
+    "title": "Improved classification performance of EEG-fNIRS multimodal brain-computer interface based on multi-domain features and multi-level progressive learning",
+    "title_en": "Improved classification performance of EEG-fNIRS multimodal brain-computer interface based on multi-domain features and multi-level progressive learning",
+    "title_zh": "基于多领域特征和多层次渐进学习的EEG-fNIRS多模态脑机接口分类性能提升",
+    "year": 2022,
+    "venue": "Frontiers in Human Neuroscience",
+    "authors": [
+      "Lina Qiu",
+      "Yongshi Zhong",
+      "Zhipeng He",
+      "Jiahui Pan"
+    ],
+    "doi": "10.3389/fnhum.2022.973959",
+    "paper_url": "https://doi.org/10.3389/fnhum.2022.973959",
+    "source_url": "https://openalex.org/W4289839329",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "脑机接口与神经解码",
+      "多模态与大语言模型"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4289839329",
+    "openalex_author_id": "https://openalex.org/A5023225646",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 64,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_yiping_zhong_99884d05f4a3",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_yiping_zhong",
+    "scholar_name": "钟毅平",
+    "work_title_group": "8aa75ef45ff6",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_yiping_zhong",
+      "panorama_jiahui_pan",
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "钟毅平",
+      "潘家辉",
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_yiping_zhong_99884d05f4a3"
+    ],
+    "scholar_categories": {
+      "panorama_yiping_zhong": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "钟毅平",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "panorama_jiahui_pan": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "潘家辉",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_lina_qiu": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "global_record_id": "04d5ab010c6c9af4",
+    "primary_categories_by_scholar": [
+      "钟毅平：情感脑电与多模态生理信号",
+      "潘家辉：情感脑电与多模态生理信号",
+      "邱丽娜：情感脑电与多模态生理信号"
+    ],
+    "pdf_url": "https://www.frontiersin.org/articles/10.3389/fnhum.2022.973959/pdf",
+    "abstract_en": "Electroencephalography (EEG) and functional near-infrared spectroscopy (fNIRS) have potentially complementary characteristics that reflect the electrical and hemodynamic characteristics of neural responses, so EEG-fNIRS-based hybrid brain-computer interface (BCI) is the research hotspots in recent years. However, current studies lack a comprehensive systematic approach to properly fuse EEG and fNIRS data and exploit their complementary potential, which is critical for improving BCI performance. To address this issue, this study proposes a novel multimodal fusion framework based on multi-level progressive learning with multi-domain features. The framework consists of a multi-domain feature extraction process for EEG and fNIRS, a feature selection process based on atomic search optimization, and a multi-domain feature fusion process based on multi-level progressive machine learning. The proposed method was validated on EEG-fNIRS-based motor imagery (MI) and mental arithmetic (MA) tasks involving 29 subjects, and the experimental results show that multi-domain features provide better classification performance than single-domain features, and multi-modality provides better classification performance than single-modality. Furthermore, the experimental results and comparison with other methods demonstrated the effectiveness and superiority of the proposed method in EEG and fNIRS information fusion, it can achieve an average classification accuracy of 96.74% in the MI task and 98.42% in the MA task. Our proposed method may provide a general framework for future fusion processing of multimodal brain signals based on EEG-fNIRS.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "脑电图（EEG）和功能性近红外光谱（fNIRS）具有潜在的互补特性，反映神经反应的电学和血流动力学特征，因此基于EEG-fNIRS的混合脑机接口（BCI）是近年来的研究热点。然而，目前的研究缺乏全面的系统方法来正确融合 EEG 和 fNIRS 数据并利用它们的互补潜力，这对于提高 BCI 性能至关重要。为了解决这个问题，本研究提出了一种基于多领域特征的多层次渐进学习的新型多模态融合框架。该框架由多域特征扩展组成..."
+  },
+  {
+    "title": "Parkinson’s disease detection based on multi-pattern analysis and multi-scale convolutional neural networks",
+    "title_en": "Parkinson’s disease detection based on multi-pattern analysis and multi-scale convolutional neural networks",
+    "title_zh": "基于多模式分析和多尺度卷积神经网络的帕金森病检测",
+    "year": 2022,
+    "venue": "Frontiers in Neuroscience",
+    "authors": [
+      "Lina Qiu",
+      "Jianping Li",
+      "Jiahui Pan"
+    ],
+    "doi": "10.3389/fnins.2022.957181",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.3389/fnins.2022.957181",
+    "pdf_url": "https://www.frontiersin.org/articles/10.3389/fnins.2022.957181/pdf",
+    "source_url": "https://openalex.org/W4288033634",
+    "openalex_id": "https://openalex.org/W4288033634",
+    "openalex_author_id": "https://openalex.org/A5023225646",
+    "cited_by_count": 43,
+    "abstract_en": "Parkinson's disease (PD) is a complex neurodegenerative disease. At present, the early diagnosis of PD is still extremely challenging, and there is still a lack of consensus on the brain characterization of PD, and a more efficient and robust PD detection method is urgently needed. In order to further explore the features of PD based on brain activity and achieve effective detection of PD patients (including OFF and ON medications), in this study, a multi-pattern analysis based on brain activation and brain functional connectivity was performed on the brain functional activity of PD patients, and a novel PD detection model based on multi-scale convolutional neural network (MCNN) was proposed. Based on the analysis of power spectral density (PSD) and phase-locked value (PLV) features of multiple frequency bands of two independent resting-state electroencephalography (EEG) datasets, we found that there were significant differences in PSD and PLV between HCs and PD patients (including OFF and ON medications), especially in the β and γ bands, which were very effective for PD detection. Moreover, the combined use of brain activation represented by PSD and functional connectivity patterns represented by PLV can effectively improve the performance of PD detection. Furthermore, our proposed MCNN model shows great potential for automatic PD detection, with cross-validation accuracy, sensitivity, specificity, and area under the receiver operating characteristic curve all above 99%. Our study may help to further understand the characteristics of PD and provide new ideas for future PD diagnosis based on spontaneous EEG activity.",
+    "abstract_zh": "帕金森病（PD）是一种复杂的神经退行性疾病。目前，PD的早期诊断仍然极具挑战性，并且对于PD的脑部表征仍缺乏共识，迫切需要更高效、稳健的PD检测方法。为了进一步探讨基于脑活动的PD特征，实现对PD患者（包括OFF和ON用药）的有效检测，本研究对PD患者的脑功能活动进行基于脑激活和脑功能连接的多模式分析，提出一种基于多尺度卷积神经网络（MCNN）的PD检测模型。基于功率谱密度分析...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5023225646）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_jiahui_pan_0e75133af270d5cd",
+    "global_record_id": "fdacb78b1228b28c",
+    "scholar_id": "panorama_jiahui_pan",
+    "scholar_name": "潘家辉",
+    "scholar_ids": [
+      "panorama_jiahui_pan",
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "潘家辉",
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_jiahui_pan_0e75133af270d5cd"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_jiahui_pan": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "潘家辉",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_lina_qiu": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "潘家辉：脑电基准、数据与评测",
+      "邱丽娜：脑电基准、数据与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "Fusion of EEG-Based Activation, Spatial, and Connection Patterns for Fear Emotion Recognition",
+    "title_en": "Fusion of EEG-Based Activation, Spatial, and Connection Patterns for Fear Emotion Recognition",
+    "title_zh": "基于脑电图的激活、空间和连接模式的融合，用于恐惧情绪识别.. 计算机智能神经科学",
+    "year": 2022,
+    "venue": "Computational Intelligence and Neuroscience",
+    "authors": [
+      "Jiahui Pan",
+      "Fuzhou Yang",
+      "Lina Qiu",
+      "Haiyun Huang"
+    ],
+    "doi": "10.1155/2022/3854513",
+    "paper_url": "https://doi.org/10.1155/2022/3854513",
+    "source_url": "https://openalex.org/W4224145618",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "脑电情感识别",
+      "脑机接口与神经解码",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4224145618",
+    "openalex_author_id": "https://openalex.org/A5023225646",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 14,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jiahui_pan_0ddc9b650f50",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jiahui_pan",
+    "scholar_name": "潘家辉",
+    "work_title_group": "27f7dcc05dc9",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jiahui_pan",
+      "panorama_haiyun_huang",
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "潘家辉",
+      "黄海云",
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_jiahui_pan_0ddc9b650f50"
+    ],
+    "scholar_categories": {
+      "panorama_jiahui_pan": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "潘家辉",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "panorama_haiyun_huang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "黄海云",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑电情感识别",
+          "脑机接口与神经解码",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_lina_qiu": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑电情感识别",
+          "脑机接口与神经解码",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "global_record_id": "15dbc727551793eb",
+    "primary_categories_by_scholar": [
+      "潘家辉：情感脑电与多模态生理信号",
+      "黄海云：情感脑电与多模态生理信号",
+      "邱丽娜：情感脑电与多模态生理信号"
+    ],
+    "pdf_url": "https://downloads.hindawi.com/journals/cin/2022/3854513.pdf",
+    "abstract_en": "At present, emotion recognition based on electroencephalograms (EEGs) has attracted much more attention. Current studies of affective brain-computer interfaces (BCIs) focus on the recognition of happiness and sadness using brain activation patterns. Fear recognition involving brain activities in different spatial distributions and different brain functional networks has been scarcely investigated. In this study, we propose a multifeature fusion method combining energy activation, spatial distribution, and brain functional connection network (BFCN) features for fear emotion recognition. The affective brain pattern was identified by not only the power activation features of differential entropy (DE) but also the spatial distribution features of the common spatial pattern (CSP) and the EEG phase synchronization features of phase lock value (PLV). A total of 15 healthy subjects took part in the experiment, and the average accuracy rate was 85.00% ± 8.13%. The experimental results showed that the fear emotions of subjects were fully stimulated and effectively identified. The proposed fusion method on fear recognition was thus validated and is of great significance to the development of effective emotional BCI systems.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "目前，基于脑电图（EEG）的情绪识别引起了越来越多的关注。目前情感脑机接口（BCIs）的研究重点是利用大脑激活模式来识别快乐和悲伤。涉及不同空间分布和不同大脑功能网络的大脑活动的恐惧识别很少被研究。在本研究中，我们提出了一种结合能量激活、空间分布和脑功能连接网络（BFCN）特征的多特征融合方法，用于恐惧情绪识别。情感大脑模式不仅是通过微分熵的功率激活特征来识别的......"
+  },
+  {
+    "title": "Multi-laboratory performance assessment of diffuse optics instruments: the BitMap exercise",
+    "title_en": "Multi-laboratory performance assessment of diffuse optics instruments: the BitMap exercise",
+    "title_zh": "漫射光学仪器的多实验室性能评估：位图练习",
+    "year": 2022,
+    "venue": "Journal of Biomedical Optics",
+    "authors": [
+      "Pranav Lanka",
+      "Lin Yang",
+      "David Orive-Miguel",
+      "Joshua Deepak Veesa",
+      "Susanna Tagliabue",
+      "Aleh Sudakou",
+      "Saeed Samaei",
+      "Mario Forcione",
+      "Zuzana Kovácsová",
+      "Anurag Behera",
+      "Thomas Gladytz",
+      "Dirk Grosenick",
+      "Lionel Hervé",
+      "Turgut Durduran",
+      "Karolina Bejm",
+      "Magdalena Morawiec",
+      "Michał Kacprzak",
+      "Piotr L. Sawosz",
+      "Anna Gerega",
+      "Adam Liebert",
+      "Antonio Belli",
+      "Ilias Tachtsidis",
+      "Frédéric Lange",
+      "Gemma M. Bale",
+      "Luca Baratelli",
+      "Sylvain Gioux",
+      "Kalyanov Alexander",
+      "Martin Wolf",
+      "Sanathana Konugolu Venkata Sekar",
+      "Marta Zanoletti",
+      "Ileana Pirovano",
+      "Michele Lacerenza",
+      "Lina Qiu",
+      "Edoardo Ferocino",
+      "Giulia Maffeis",
+      "Caterina Amendola",
+      "Lorenzo Colombo",
+      "Lorenzo Frabasile",
+      "Pietro Levoni",
+      "Mauro Buttafava",
+      "Marco Renna",
+      "Laura Di Sieno",
+      "Rebecca Re",
+      "Andrea Farina",
+      "Lorenzo Spinelli",
+      "Alberto D. Dalla Mora",
+      "Davide Contini",
+      "Paola Taroni",
+      "Alberto Tosi",
+      "Alessandro M. Torricelli",
+      "Hamid Dehghani",
+      "Heidrun Wabnitz",
+      "Antonio Pifferi"
+    ],
+    "doi": "10.1117/1.jbo.27.7.074716",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1117/1.jbo.27.7.074716",
+    "pdf_url": "https://doi.org/10.1117/1.jbo.27.7.074716",
+    "source_url": "https://openalex.org/W4282980155",
+    "openalex_id": "https://openalex.org/W4282980155",
+    "openalex_author_id": "https://openalex.org/A5041963828",
+    "cited_by_count": 36,
+    "abstract_en": "SIGNIFICANCE: Multi-laboratory initiatives are essential in performance assessment and standardization-crucial for bringing biophotonics to mature clinical use-to establish protocols and develop reference tissue phantoms that all will allow universal instrument comparison. AIM: The largest multi-laboratory comparison of performance assessment in near-infrared diffuse optics is presented, involving 28 instruments and 12 institutions on a total of eight experiments based on three consolidated protocols (BIP, MEDPHOT, and NEUROPT) as implemented on three kits of tissue phantoms. A total of 20 synthetic indicators were extracted from the dataset, some of them defined here anew. APPROACH: The exercise stems from the Innovative Training Network BitMap funded by the European Commission and expanded to include other European laboratories. A large variety of diffuse optics instruments were considered, based on different approaches (time domain/frequency domain/continuous wave), at various stages of maturity and designed for different applications (e.g., oximetry, spectroscopy, and imaging). RESULTS: This study highlights a substantial difference in hardware performances (e.g., nine decades in responsivity, four decades in dark count rate, and one decade in temporal resolution). Agreement in the estimates of homogeneous optical properties was within 12% of the median value for half of the systems, with a temporal stability of <5 % over 1 h, and day-to-day reproducibility of <3 % . Other tests encompassed linearity, crosstalk, uncertainty, and detection of optical inhomogeneities. CONCLUSIONS: This extensive multi-laboratory exercise provides a detailed assessment of near-infrared Diffuse optical instruments and can be used for reference grading. The dataset-available soon in an open data repository-can be evaluated in multiple ways, for instance, to compare different analysis tools or study the impact of hardware implementations.",
+    "abstract_zh": "意义：多实验室举措对于性能评估和标准化至关重要，这对于将生物光子学引入成熟的临床应用至关重要，以建立协议并开发参考组织模型，所有这些都将允许通用仪器比较。目的：提出近红外漫射光学性能评估的最大的多实验室比较，涉及 28 台仪器和 12 个机构，基于三个综合协议（BIP、MEDPHOT 和 NEUROPT）进行总共八次实验，并在三套组织模型上实施。从数据集中提取了总共 20 个综合指标，其中一些指标在这里重新定义。方法：该练习源于创新培训网络 B...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "智能芯片与计算系统",
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5041963828）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_lina_qiu_5e464af8bcd393f7",
+    "global_record_id": "818b735bafb864b3",
+    "scholar_id": "panorama_lina_qiu",
+    "scholar_name": "邱丽娜",
+    "scholar_ids": [
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_lina_qiu_5e464af8bcd393f7"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_lina_qiu": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [
+          "智能芯片与计算系统",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "邱丽娜：脑电基准、数据与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "Brain-Computer Interfaces for Awareness Detection, Auxiliary Diagnosis, Prognosis, and Rehabilitation in Patients with Disorders of Consciousness",
+    "title_en": "Brain-Computer Interfaces for Awareness Detection, Auxiliary Diagnosis, Prognosis, and Rehabilitation in Patients with Disorders of Consciousness",
+    "title_zh": "用于意识障碍患者的意识检测、辅助诊断、预后和康复的脑机接口.. Semin Neurol",
+    "year": 2022,
+    "venue": "Seminars in Neurology",
+    "authors": [
+      "Jiahui Pan",
+      "Jun Xiao",
+      "Jing Wang",
+      "Fei Wang",
+      "Jingcong Li",
+      "Lina Qiu",
+      "Haibo Di",
+      "Yuanqing Li"
+    ],
+    "doi": "10.1055/a-1900-7261",
+    "paper_url": "https://doi.org/10.1055/a-1900-7261",
+    "source_url": "https://openalex.org/W4285494860",
+    "topics": [
+      "脑机接口与脑信息处理",
+      "情绪调控与意识障碍康复",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "脑机接口与神经解码",
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4285494860",
+    "openalex_author_id": "https://openalex.org/A5100672536",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 13,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "yuanqing_li_9d201f7eb2df",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑机接口与脑信息处理",
+      "情绪调控与意识障碍康复",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "yuanqing_li",
+    "scholar_name": "李远清",
+    "work_title_group": "02151d98977d",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "yuanqing_li",
+      "panorama_jiahui_pan",
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "李远清",
+      "潘家辉",
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "yuanqing_li_9d201f7eb2df"
+    ],
+    "scholar_categories": {
+      "yuanqing_li": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "李远清",
+        "secondary_tags": [
+          "脑机接口与脑信息处理",
+          "情绪调控与意识障碍康复",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "panorama_jiahui_pan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "潘家辉",
+        "secondary_tags": [
+          "脑机接口与脑信息处理",
+          "情绪调控与意识障碍康复",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_lina_qiu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [
+          "脑机接口与脑信息处理",
+          "情绪调控与意识障碍康复",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "global_record_id": "044fdd687035435a",
+    "primary_categories_by_scholar": [
+      "李远清：情感脑电与多模态生理信号",
+      "潘家辉：脑电基础模型与通用解码",
+      "邱丽娜：脑电基础模型与通用解码"
+    ],
+    "pdf_url": "http://www.thieme-connect.de/products/ejournals/pdf/10.1055/a-1900-7261.pdf",
+    "abstract_en": "In recent years, neuroimaging studies have remarkably demonstrated the presence of cognitive motor dissociation in patients with disorders of consciousness (DoC). These findings accelerated the development of brain-computer interfaces (BCIs) as clinical tools for behaviorally unresponsive patients. This article reviews the recent progress of BCIs in patients with DoC and discusses the open challenges. In view of the practical application of BCIs in patients with DoC, four aspects of the relevant literature are introduced: consciousness detection, auxiliary diagnosis, prognosis, and rehabilitation. For each aspect, the paradigm design, brain signal processing methods, and experimental results of representative BCI systems are analyzed. Furthermore, this article provides guidance for BCI design for patients with DoC and discusses practical challenges for future research.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "近年来，神经影像学研究显着证明了意识障碍（DoC）患者存在认知运动分离。这些发现加速了脑机接口（BCIs）的发展，作为治疗行为反应迟钝患者的临床工具。本文回顾了 DoC 患者脑机接口的最新进展，并讨论了面临的挑战。针对脑机接口在DoC患者中的实际应用，从意识检测、辅助诊断、预后、康复四个方面介绍相关文献。每个方面的范式设计、脑信号处理方法、实验结果……"
+  },
+  {
+    "title": "Multi-Modal Integration of EEG-fNIRS for Characterization of Brain Activity Evoked by Preferred Music",
+    "title_en": "Multi-Modal Integration of EEG-fNIRS for Characterization of Brain Activity Evoked by Preferred Music",
+    "title_zh": "EEG-fNIRS 的多模态集成用于表征首选音乐引起的大脑活动。前置神经机器人",
+    "year": 2022,
+    "venue": "Frontiers Neurorobotics",
+    "authors": [
+      "Lina Qiu",
+      "Yongshi Zhong",
+      "Qiuyou Xie",
+      "Zhipeng He",
+      "Xiaoyun Wang",
+      "Yingyue Chen",
+      "Chang'an A. Zhan",
+      "Jiahui Pan"
+    ],
+    "doi": "10.3389/FNBOT.2022.823435",
+    "paper_url": "https://doi.org/10.3389/FNBOT.2022.823435",
+    "source_url": "https://dblp.org/rec/journals/finr/QiuZXHWCZP22.html",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "脑电情感识别",
+      "脑机接口与神经解码",
+      "情感计算与情绪理解",
+      "多模态与大语言模型"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4210767542",
+    "openalex_author_id": "https://openalex.org/A5023225646",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 35,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jiahui_pan_a18a61ece319",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jiahui_pan",
+    "scholar_name": "潘家辉",
+    "work_title_group": "e14761a482e5",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jiahui_pan",
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "潘家辉",
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_jiahui_pan_a18a61ece319"
+    ],
+    "scholar_categories": {
+      "panorama_jiahui_pan": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "潘家辉",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "panorama_lina_qiu": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑电情感识别",
+          "脑机接口与神经解码",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "global_record_id": "da3755fdb5d96cd6",
+    "primary_categories_by_scholar": [
+      "潘家辉：情感脑电与多模态生理信号",
+      "邱丽娜：情感脑电与多模态生理信号"
+    ],
+    "dblp_key": "journals/finr/QiuZXHWCZP22",
+    "pdf_url": "https://www.frontiersin.org/articles/10.3389/fnbot.2022.823435/pdf",
+    "abstract_en": "Music can effectively improve people's emotions, and has now become an effective auxiliary treatment method in modern medicine. With the rapid development of neuroimaging, the relationship between music and brain function has attracted much attention. In this study, we proposed an integrated framework of multi-modal electroencephalogram (EEG) and functional near infrared spectroscopy (fNIRS) from data collection to data analysis to explore the effects of music (especially personal preferred music) on brain activity. During the experiment, each subject was listening to two different kinds of music, namely personal preferred music and neutral music. In analyzing the synchronization signals of EEG and fNIRS, we found that music promotes the activity of the brain (especially the prefrontal lobe), and the activation induced by preferred music is stronger than that of neutral music. For the multi-modal features of EEG and fNIRS, we proposed an improved Normalized-ReliefF method to fuse and optimize them and found that it can effectively improve the accuracy of distinguishing between the brain activity evoked by preferred music and neutral music (up to 98.38%). Our work provides an objective reference based on neuroimaging for the research and application of personalized music therapy.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "音乐可以有效改善人的情绪，现已成为现代医学中有效的辅助治疗方法。随着神经影像学的快速发展，音乐与大脑功能的关系备受关注。在本研究中，我们提出了从数据收集到数据分析的多模态脑电图（EEG）和功能性近红外光谱（fNIRS）的集成框架，以探索音乐（尤其是个人喜欢的音乐）对大脑活动的影响。实验过程中，每个受试者听两种不同的音乐，即个人喜欢的音乐和中性音乐。在分析同步信号时..."
+  },
+  {
+    "title": "A multi-laboratory comparison of photon migration instruments and their performances: the BitMap exercise",
+    "title_en": "A multi-laboratory comparison of photon migration instruments and their performances: the BitMap exercise",
+    "title_zh": "光子迁移仪器及其性能的多实验室比较：BitMap 练习",
+    "year": 2021,
+    "venue": "Optical Tomography and Spectroscopy of Tissue",
+    "authors": [
+      "Sri Lanka",
+      "Pranav Lanka",
+      "Lin Yang",
+      "David Orive-Miguel",
+      "Joshua Deepak Veesa",
+      "Susanna Tagliabue",
+      "Aleh Sudakou",
+      "Saeed Samaei",
+      "Mario Forcione",
+      "Zuzana Kovácsová",
+      "Anurag Behera",
+      "Thomas Gladytz",
+      "Dirk Grosenick",
+      "Lionel Hervé",
+      "Giuseppe Lo Presti",
+      "Lorenzo Cortese",
+      "Turgut Durduran",
+      "Karolina Bejm",
+      "Magdalena Morawiec",
+      "Piotr L. Sawosz",
+      "Michał Kacprzak",
+      "Anna Gerega",
+      "Adam Liebert",
+      "Antonio Belli",
+      "Ilias Tachtsidis",
+      "Frédéric Lange",
+      "Gemma M. Bale",
+      "Luca Baratelli",
+      "Sylvain Gioux",
+      "Alexander L. Kalyanov",
+      "Martin Wolf",
+      "Sanathana Konugolu Venkata Sekar",
+      "Marta Zanoletti",
+      "Ileana Pirovano",
+      "Michele Lacerenza",
+      "Lina Qiu",
+      "Edoardo Ferocino",
+      "Giulia Maffeis",
+      "Caterina Amendola",
+      "Lorenzo Colombo",
+      "Mauro Buttafava",
+      "Marco Renna",
+      "Laura Di Sieno",
+      "Rebecca Re",
+      "Andrea Farina",
+      "Lorenzo Spinelli",
+      "Alberto D. Dalla Mora",
+      "Davide Contini",
+      "Alessandro M. Torricelli",
+      "Alberto Tosi",
+      "Paola Taroni",
+      "Hamid Dehghani",
+      "Heidrun Wabnitz",
+      "Antonio Pifferi"
+    ],
+    "doi": "10.1117/12.2578521",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1117/12.2578521",
+    "pdf_url": "https://discovery.ucl.ac.uk/10129961/1/116390F.pdf",
+    "source_url": "https://openalex.org/W3134621794",
+    "openalex_id": "https://openalex.org/W3134621794",
+    "openalex_author_id": "https://openalex.org/A5041963828",
+    "cited_by_count": 6,
+    "abstract_en": "Performance assessment and standardization are indispensable for instruments of clinical relevance in general and clinical instrumentation based on photon migration/diffuse optics in particular. In this direction, a multi-laboratory exercise was initiated with the aim of assessing and comparing their performances. 29 diffuse optical instruments belonging to 11 partner institutions of a European level Marie Curie Consortium BitMap1 were considered for this exercise. The enrolled instruments covered different approaches (continuous wave, CW; frequency domain, FD; time domain, TD and spatial frequency domain imaging, SFDI) and applications (e.g. mammography, oximetry, functional imaging, tissue spectroscopy). 10 different tests from 3 well-accepted protocols, namely, the MEDPHOT2 , the BIP3 , and the nEUROPt4 protocols were chosen for the exercise and the necessary phantoms kits were circulated across labs and institutions enrolled in the study. A brief outline of the methodology of the exercise is presented here. Mainly, the design of some of the synthetic descriptors, (single numeric values used to summarize the result of a test and facilitate comparison between instruments) for some of the tests will be discussed.. Future actions of the exercise aim at deploying these measurements onto an open data repository and investigating common analysis tools for the whole dataset.",
+    "abstract_zh": "对于一般的临床相关仪器，特别是基于光子迁移/漫射光学的临床仪器来说，性能评估和标准化是必不可少的。在这个方向上，发起了一项多实验室演习，旨在评估和比较他们的表现。本次练习考虑了属于欧洲级别玛丽居里联盟 BitMap1 的 11 个合作机构的 29 台漫射光学仪器。登记的仪器涵盖不同的方法（连续波，CW；频域，FD；时域，TD和空间频域成像，SFDI）和应用（例如乳房X线摄影、血氧测定、功能成像、组织光谱）。来自 3 个表现良好的 10 种不同测试...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5041963828）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_lina_qiu_c03180f2adb50829",
+    "global_record_id": "b785c9d9dfff3c8a",
+    "scholar_id": "panorama_lina_qiu",
+    "scholar_name": "邱丽娜",
+    "scholar_ids": [
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_lina_qiu_c03180f2adb50829"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_lina_qiu": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "邱丽娜：脑电基准、数据与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "Time Domain Diffuse Correlation Spectroscopy for Detecting Human Brain Function: Optimize System on Real Experimental Conditions by Simulation Method",
+    "title_en": "Time Domain Diffuse Correlation Spectroscopy for Detecting Human Brain Function: Optimize System on Real Experimental Conditions by Simulation Method",
+    "title_zh": "检测人脑功能的时域漫相关光谱：通过仿真方法在真实实验条件下优化系统",
+    "year": 2021,
+    "venue": "IEEE photonics journal",
+    "authors": [
+      "Lina Qiu",
+      "Tingzhen Zhang",
+      "Wen Huang",
+      "Weiting Sun",
+      "Xiaoyin Wu",
+      "Huiwen Sun",
+      "Fang Lin",
+      "Jun Li"
+    ],
+    "doi": "10.1109/jphot.2021.3089635",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/jphot.2021.3089635",
+    "pdf_url": "https://ieeexplore.ieee.org/ielx7/4563994/9470958/09456094.pdf",
+    "source_url": "https://openalex.org/W3171388994",
+    "openalex_id": "https://openalex.org/W3171388994",
+    "openalex_author_id": "https://openalex.org/A5041963828",
+    "cited_by_count": 9,
+    "abstract_en": "In order to achieve high-sensitivity time-domain diffuse correlation spectroscopy (TD-DCS) measurement of functional changes in cerebral blood flow, this study applied simulation methods to optimize the TD-DCS system under real experimental conditions (including the consideration of the effects of finite coherence length LCand non-ideal instrument response function IRF). Under a real experimental condition where the incident power is 75 mW, the source-detector distance is 1.0 cm, and the full width at half maxima of the IRF is 160 ps, we used simulation experiments to investigate the relationship between the contrast of the intensity autocorrelation function (g2) in two brain functional states (i.e., baseline and activation) and TD-DCS system parameters (including LC, IRF, source-detector distance, gate opening time and gate width).Our simulation results show that both longer LCand longer integration time are beneficial to a more sensitive detection. With a fixed LCand integration time, the optimal parameters of gate opening time is 800 ps (relative to the peak time of IRF), and gate width is equal to or larger than 800 ps. This study may be useful for guiding the sensitive measurement of human brain functions (e.g., changes in cerebral blood flow) using the TD-DCS technology.",
+    "abstract_zh": "为了实现脑血流功能变化的高灵敏度时域漫相关光谱(TD-DCS)测量，本研究在真实实验条件下(包括考虑有限相干长度LC和非理想仪器响应函数IRF的影响)，应用仿真方法对TD-DCS系统进行优化。在入射功率为75 mW、源探测器距离为1.0 cm、IRF半峰全宽为160 ps的真实实验条件下，我们通过仿真实验研究了两种脑功能状态（即基线和激活）下强度自相关函数（g2）的对比度与TD-DCS系统之间的关系。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5041963828）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_lina_qiu_8963fd24ad9d8de6",
+    "global_record_id": "7f4f8b8ac19661f0",
+    "scholar_id": "panorama_lina_qiu",
+    "scholar_name": "邱丽娜",
+    "scholar_ids": [
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_lina_qiu_8963fd24ad9d8de6"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_lina_qiu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "邱丽娜：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Hybrid asynchronous brain-computer interface for yes/no communication in patients with disorders of consciousness",
+    "title_en": "Hybrid asynchronous brain-computer interface for yes/no communication in patients with disorders of consciousness",
+    "title_zh": "用于意识障碍患者是/否交流的混合异步脑机接口。 J Neural Eng",
+    "year": 2021,
+    "venue": "Journal of Neural Engineering",
+    "authors": [
+      "Jianyong Huang",
+      "Lina Qiu",
+      "Qianmin Lin",
+      "Jun Xiao",
+      "Yuanqiu Huang",
+      "Haiyun Huang",
+      "Xinjie Zhou",
+      "Xiangyu Shi",
+      "Fei Wang",
+      "Yanbin He",
+      "Jiahui Pan"
+    ],
+    "doi": "10.1088/1741-2552/abf00c",
+    "paper_url": "https://doi.org/10.1088/1741-2552/abf00c",
+    "source_url": "https://openalex.org/W3136716651",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "脑机接口与神经解码"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W3136716651",
+    "openalex_author_id": "https://openalex.org/A5023225646",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 39,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jiahui_pan_592b5b062d5a",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jiahui_pan",
+    "scholar_name": "潘家辉",
+    "work_title_group": "d79349837740",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jiahui_pan",
+      "panorama_haiyun_huang",
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "潘家辉",
+      "黄海云",
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_jiahui_pan_592b5b062d5a"
+    ],
+    "scholar_categories": {
+      "panorama_jiahui_pan": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "潘家辉",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "panorama_haiyun_huang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "黄海云",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_lina_qiu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "global_record_id": "03e63faf516a372c",
+    "primary_categories_by_scholar": [
+      "潘家辉：情感脑电与多模态生理信号",
+      "黄海云：脑电基础模型与通用解码",
+      "邱丽娜：脑电基础模型与通用解码"
+    ],
+    "pdf_url": "https://iopscience.iop.org/article/10.1088/1741-2552/abf00c/pdf",
+    "abstract_en": "Abstract Objective. For patients with disorders of consciousness (DOC), such as vegetative state (VS) and minimally conscious state (MCS), communication is challenging. Currently, the communication methods of DOC patients are limited to behavioral responses. However, patients with DOC cannot provide sufficient behavioral responses due to motor impairments and limited attention. In this study, we proposed a hybrid asynchronous brain–computer interface (BCI) system that provides a new communication channel for patients with DOC. Approach. Seven patients with DOC (3 VS and 4 MCS) and eleven healthy subjects participated in our experiment. Each subject was instructed to focus on the square with the Chinese words ‘Yes’ and ‘No’. Then, the BCI system determined the target square with both P300 and steady-state visual evoked potential (SSVEP) detections. For the healthy group, we tested the performance of the hybrid system and the single-modality BCI system. Main results. All healthy subjects achieved significant accuracy (ranging from 72% to 100%) in both the hybrid system and the single modality system. The hybrid asynchronous BCI system outperformed the P300-only and SSVEP-only systems. Furthermore, we employed the asynchronous approach to dynamically collect the electroencephalography signal. Compared with the synchronous system, there was a 21% reduction in the average required rounds and a reduction of 105 s in the online experiment time. This asynchronous system was applied to detect the ‘yes/no’ communication function of seven patients with DOC, and the results showed that three of the patients (3 MCS) not only showed significant accuracies (67 ± 3%) in the online experiment, and their Coma Recovery Scale-Revised scores were also improved compared with the scores before the experiment. This result demonstrated that 3 of 7 patients were able to communicate using our hybrid asynchronous BCI system. Significance. This hybrid asynchronous BCI system can be used as a useful auxiliary bedside tool for simple communication with DOC patients.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "抽象目标。对于患有意识障碍（DOC）的患者，例如植物人状态（VS）和最低意识状态（MCS），沟通具有挑战性。目前，DOC患者的沟通方式仅限于行为反应。然而，DOC 患者由于运动障碍和注意力有限而无法提供足够的行为反应。在这项研究中，我们提出了一种混合异步脑机接口（BCI）系统，为 DOC 患者提供了新的沟通渠道。方法。七名 DOC 患者（3 VS 和 4 MCS）和 11 名健康受试者参加了我们的实验。每个受试者都被指示将注意力集中在正方形上......"
+  },
+  {
+    "title": "MindLink-Eumpy: An Open-Source Python Toolbox for Multimodal Emotion Recognition",
+    "title_en": "MindLink-Eumpy: An Open-Source Python Toolbox for Multimodal Emotion Recognition",
+    "title_zh": "MindLink-Eumpy：用于多模式情绪识别的开源 Python 工具箱.. Front Hum Neurosci",
+    "year": 2021,
+    "venue": "Frontiers in Human Neuroscience",
+    "authors": [
+      "Ruixin Li",
+      "Yan Liang",
+      "Xiaojian Liu",
+      "Bingbing Wang",
+      "Wenxin Huang",
+      "Zhaoxin Cai",
+      "Yaoguang Ye",
+      "Lina Qiu",
+      "Jiahui Pan"
+    ],
+    "doi": "10.3389/fnhum.2021.621493",
+    "paper_url": "https://doi.org/10.3389/fnhum.2021.621493",
+    "source_url": "https://openalex.org/W3131976674",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "脑电情感识别",
+      "情感计算与情绪理解",
+      "多模态与大语言模型"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W3131976674",
+    "openalex_author_id": "https://openalex.org/A5023225646",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 47,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jiahui_pan_4191b566d2bb",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jiahui_pan",
+    "scholar_name": "潘家辉",
+    "work_title_group": "06d606bad8bb",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jiahui_pan",
+      "panorama_lina_qiu",
+      "panorama_yan_liang"
+    ],
+    "scholar_names": [
+      "潘家辉",
+      "邱丽娜",
+      "梁艳"
+    ],
+    "source_record_ids": [
+      "panorama_jiahui_pan_4191b566d2bb"
+    ],
+    "scholar_categories": {
+      "panorama_jiahui_pan": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "潘家辉",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "panorama_lina_qiu": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_yan_liang": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "梁艳",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "global_record_id": "2a3d77d213b1ee53",
+    "primary_categories_by_scholar": [
+      "潘家辉：情感脑电与多模态生理信号",
+      "邱丽娜：情感脑电与多模态生理信号",
+      "梁艳：情感数据集、基准与评测"
+    ],
+    "pdf_url": "https://www.frontiersin.org/articles/10.3389/fnhum.2021.621493/pdf",
+    "abstract_en": "Emotion recognition plays an important role in intelligent human-computer interaction, but the related research still faces the problems of low accuracy and subject dependence. In this paper, an open-source software toolbox called MindLink-Eumpy is developed to recognize emotions by integrating electroencephalogram (EEG) and facial expression information. MindLink-Eumpy first applies a series of tools to automatically obtain physiological data from subjects and then analyzes the obtained facial expression data and EEG data, respectively, and finally fuses the two different signals at a decision level. In the detection of facial expressions, the algorithm used by MindLink-Eumpy is a multitask convolutional neural network (CNN) based on transfer learning technique. In the detection of EEG, MindLink-Eumpy provides two algorithms, including a subject-dependent model based on support vector machine (SVM) and a subject-independent model based on long short-term memory network (LSTM). In the decision-level fusion, weight enumerator and AdaBoost technique are applied to combine the predictions of SVM and CNN. We conducted two offline experiments on the Database for Emotion Analysis Using Physiological Signals (DEAP) dataset and the Multimodal Database for Affect Recognition and Implicit Tagging (MAHNOB-HCI) dataset, respectively, and conducted an online experiment on 15 healthy subjects. The results show that multimodal methods outperform single-modal methods in both offline and online experiments. In the subject-dependent condition, the multimodal method achieved an accuracy of 71.00% in the valence dimension and an accuracy of 72.14% in the arousal dimension. In the subject-independent condition, the LSTM-based method achieved an accuracy of 78.56% in the valence dimension and an accuracy of 77.22% in the arousal dimension. The feasibility and efficiency of MindLink-Eumpy for emotion recognition is thus demonstrated.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "情绪识别在智能人机交互中发挥着重要作用，但相关研究仍面临准确率低和学科依赖性等问题。在本文中，开发了一个名为 MindLink-Eumpy 的开源软件工具箱，通过集成脑电图（EEG）和面部表情信息来识别情绪。 MindLink-Eumpy首先应用一系列工具自动获取受试者的生理数据，然后分别分析获取的面部表情数据和脑电图数据，最后在决策层面融合两种不同的信号。在面部表情的检测中，MindLink-Eumpy 使用的算法是一个多任务..."
+  },
+  {
+    "title": "Discovering high utility-occupancy patterns from uncertain data",
+    "title_en": "Discovering high utility-occupancy patterns from uncertain data",
+    "title_zh": "从不确定的数据中发现高效用占用模式",
+    "year": 2020,
+    "venue": "Information Sciences",
+    "authors": [
+      "Chien‐Ming Chen",
+      "Lili Chen",
+      "Wensheng Gan",
+      "Lina Qiu",
+      "Weiping Ding"
+    ],
+    "doi": "10.1016/j.ins.2020.10.001",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.ins.2020.10.001",
+    "pdf_url": "https://arxiv.org/pdf/2008.08190",
+    "source_url": "https://openalex.org/W3050413979",
+    "openalex_id": "https://openalex.org/W3050413979",
+    "openalex_author_id": "https://openalex.org/A5041963828",
+    "cited_by_count": 112,
+    "abstract_en": "It is widely known that there is a lot of useful information hidden in big data, leading to a new saying that \"data is money.\" Thus, it is prevalent for individuals to mine crucial information for utilization in many real-world applications. In the past, studies have considered frequency. Unfortunately, doing so neglects other aspects, such as utility, interest, or risk. Thus, it is sensible to discover high-utility itemsets (HUIs) in transaction databases while utilizing not only the quantity but also the predefined utility. To find patterns that can represent the supporting transaction, a recent study was conducted to mine high utility-occupancy patterns whose contribution to the utility of the entire transaction is greater than a certain value. Moreover, in realistic applications, patterns may not exist in transactions but be connected to an existence probability. In this paper, a novel algorithm, called High-Utility-Occupancy Pattern Mining in Uncertain databases (UHUOPM), is proposed. The patterns found by the algorithm are called Potential High Utility Occupancy Patterns (PHUOPs). This algorithm divides user preferences into three factors, including support, probability, and utility occupancy. To reduce memory cost and time consumption and to prune the search space in the algorithm as mentioned above, probability-utility-occupancy list (PUO-list) and probability-frequency-utility table (PFU-table) are used, which assist in providing the downward closure property. Furthermore, an original tree structure, called support count tree (SC-tree), is constructed as the search space of the algorithm. Finally, substantial experiments were conducted to evaluate the performance of proposed UHUOPM algorithm on both real-life and synthetic datasets, particularly in terms of effectiveness and efficiency.",
+    "abstract_zh": "众所周知，大数据中隐藏着大量有用的信息，因此产生了“数据就是金钱”的新说法。因此，个人普遍挖掘关键信息以在许多现实世界的应用中使用。过去，研究考虑了频率。不幸的是，这样做忽略了其他方面，例如效用、利息或风险。因此，明智的做法是在事务数据库中发现高效用项集 (HUI)，同时不仅利用数量，而且利用预定义的效用。为了找到可以代表支持交易的模式，最近进行了一项研究来挖掘高效用占用模式，这些模式对整个交易的效用的贡献大于某个......",
+    "abstract_source": "arxiv_api",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5041963828）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_lina_qiu_779eeb993b1a56f6",
+    "global_record_id": "b72fddc259181d63",
+    "scholar_id": "panorama_lina_qiu",
+    "scholar_name": "邱丽娜",
+    "scholar_ids": [
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_lina_qiu_779eeb993b1a56f6"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_lina_qiu": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "邱丽娜：脑电基准、数据与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "Multi-laboratory efforts for the standardization of performance assessment of diffuse optics instruments – the BitMap Exercise",
+    "title_en": "Multi-laboratory efforts for the standardization of performance assessment of diffuse optics instruments – the BitMap Exercise",
+    "title_zh": "漫射光学仪器性能评估标准化的多实验室努力——位图练习",
+    "year": 2020,
+    "venue": "Optics in the Life Sciences",
+    "authors": [
+      "Pranav Lanka",
+      "Lin Yang",
+      "David Orive-Miguel",
+      "Joshua Deepak Veesa",
+      "Susanna Tagliabue",
+      "Aleh Sudakou",
+      "Saeed Samaei",
+      "Mario Forcione",
+      "Zuzana Kovácsová",
+      "Anurag Behera",
+      "Thomas Gladytz",
+      "Dirk Grosenick",
+      "Lionel Hervé",
+      "Giuseppe LoPresti",
+      "Lorenzo Cortese",
+      "Turgut Durduran",
+      "Karolina Bejm",
+      "Magdalena Morawiec",
+      "Michał Kacprzak",
+      "Piotr L. Sawosz",
+      "Anna Grega",
+      "Adam Liebert",
+      "Antonio Belli",
+      "Ilias Tachtsidis",
+      "Frédéric Lange",
+      "Gemma M. Bale",
+      "Luca Baratelli",
+      "Sylvain Gioux",
+      "Kalyanov Alexander",
+      "Martin Wolf",
+      "Sanathana Konugolu Venkata Sekar",
+      "Marta Zanoletti",
+      "Ileana Pirovano",
+      "Michele Lacerenza",
+      "Lina Qiu",
+      "Edoardo Ferocino",
+      "Giulia Maffeis",
+      "Caterina Amendola",
+      "Lorenzo Colombo",
+      "Mauro Buttafava",
+      "Marco Renna",
+      "Laura Di Sieno",
+      "Rebecca Re",
+      "Andrea Farina",
+      "Lorenzo Spinelli",
+      "Alberto D. Dalla Mora",
+      "Davide Contini",
+      "Paola Taroni",
+      "Alberto Tosi",
+      "Alessandro M. Torricelli",
+      "Hamid Dehghani",
+      "Heidrun Wabnitz",
+      "Antonio Pifferi"
+    ],
+    "doi": "10.1364/ots.2020.stu1d.6",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1364/ots.2020.stu1d.6",
+    "pdf_url": "https://opg.optica.org/viewmedia.cfm?uri=OTS-2020-STu1D.6&seq=0",
+    "source_url": "https://openalex.org/W3027302332",
+    "openalex_id": "https://openalex.org/W3027302332",
+    "openalex_author_id": "https://openalex.org/A5041963828",
+    "cited_by_count": 2,
+    "abstract_en": "A multi-laboratory exercise, involving 29 diffuse optical instruments, aimed at performance assessment of diffuse optics instruments on standardized protocols is presented. The overarching methodology and future actions will also be discussed.",
+    "abstract_zh": "提出了一项涉及 29 台漫射光学仪器的多实验室练习，旨在根据标准化协议评估漫射光学仪器的性能。还将讨论总体方法和未来行动。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5041963828）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_lina_qiu_4cd4dd1c08007bdf",
+    "global_record_id": "9e7e37cacddbcb5d",
+    "scholar_id": "panorama_lina_qiu",
+    "scholar_name": "邱丽娜",
+    "scholar_ids": [
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_lina_qiu_4cd4dd1c08007bdf"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_lina_qiu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "邱丽娜：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Enhancing BCI-Based Emotion Recognition Using an Improved Particle Swarm Optimization for Feature Selection",
+    "title_en": "Enhancing BCI-Based Emotion Recognition Using an Improved Particle Swarm Optimization for Feature Selection",
+    "title_zh": "使用改进的粒子群优化进行特征选择来增强基于 BCI 的情绪识别",
+    "year": 2020,
+    "venue": "Sensors",
+    "authors": [
+      "Zina Li",
+      "Lina Qiu",
+      "Ruixin Li",
+      "Zhipeng He",
+      "Jun Xiao",
+      "Yan Liang",
+      "Fei Wang",
+      "Jiahui Pan"
+    ],
+    "doi": "10.3390/S20113028",
+    "dblp_key": "journals/sensors/LiQLHXLWP20",
+    "paper_url": "https://doi.org/10.3390/S20113028",
+    "pdf_url": "https://www.mdpi.com/1424-8220/20/11/3028/pdf?version=1590941843",
+    "source_url": "https://dblp.org/rec/journals/sensors/LiQLHXLWP20.html",
+    "openalex_id": "https://openalex.org/W3029746595",
+    "openalex_author_id": "https://openalex.org/A5023225646",
+    "cited_by_count": 66,
+    "abstract_en": "：Electroencephalogram (EEG) signals have been widely used in emotion recognition. However, the current EEG-based emotion recognition has low accuracy of emotion classification, and its real-time application is limited. In order to address these issues, in this paper, we proposed an improved feature selection algorithm to recognize subjects' emotion states based on EEG signal, and combined this feature selection method to design an online emotion recognition brain-computer interface (BCI) system. Specifically, first, different dimensional features from the time-domain, frequency domain, and time-frequency domain were extracted. Then, a modified particle swarm optimization (PSO) method with multi-stage linearly-decreasing inertia weight (MLDW) was purposed for feature selection. The MLDW algorithm can be used to easily refine the process of decreasing the inertia weight. Finally, the emotion types were classified by the support vector machine classifier. We extracted different features from the EEG data in the DEAP data set collected by 32 subjects to perform two offline experiments. Our results showed that the average accuracy of four-class emotion recognition reached 76.67%. Compared with the latest benchmark, our proposed MLDW-PSO feature selection improves the accuracy of EEG-based emotion recognition. To further validate the efficiency of the MLDW-PSO feature selection method, we developed an online two-class emotion recognition system evoked by Chinese videos, which achieved good performance for 10 healthy subjects with an average accuracy of 89.5%. The effectiveness of our method was thus demonstrated.",
+    "abstract_zh": "：脑电图（EEG）信号已广泛应用于情绪识别。然而，目前基于脑电图的情绪识别的情绪分类准确率较低，其实时应用受到限制。为了解决这些问题，本文提出了一种基于脑电信号的改进特征选择算法来识别受试者的情绪状态，并结合该特征选择方法设计了在线情绪识别脑机接口（BCI）系统。具体来说，首先提取时域、频域、时频域的不同维度特征。然后，一种改进的多级线性递减惯性权重粒子群优化（PSO）方法（MLDW...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "脑电情感识别",
+      "脑机接口与神经解码",
+      "情感计算与情绪理解"
+    ],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 139/8453-3）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_jiahui_pan_486e1c881c5e778f",
+    "global_record_id": "4e1a0f1986c51efa",
+    "scholar_id": "panorama_jiahui_pan",
+    "scholar_name": "潘家辉",
+    "scholar_ids": [
+      "panorama_jiahui_pan",
+      "panorama_lina_qiu",
+      "panorama_yan_liang"
+    ],
+    "scholar_names": [
+      "潘家辉",
+      "邱丽娜",
+      "梁艳"
+    ],
+    "source_record_ids": [
+      "panorama_jiahui_pan_486e1c881c5e778f"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_jiahui_pan": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "潘家辉",
+        "secondary_tags": [
+          "脑电情感识别",
+          "脑机接口与神经解码",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_lina_qiu": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [
+          "脑电情感识别",
+          "脑机接口与神经解码",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "panorama_yan_liang": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "梁艳",
+        "secondary_tags": [
+          "脑电情感识别",
+          "脑机接口与神经解码",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "潘家辉：情感脑电与多模态生理信号",
+      "邱丽娜：情感脑电与多模态生理信号",
+      "梁艳：情感数据集、基准与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Reliability of fNIRS for noninvasive monitoring of brain function and emotion in sheep",
+    "title_en": "Reliability of fNIRS for noninvasive monitoring of brain function and emotion in sheep",
+    "title_zh": "fNIRS 对绵羊脑功能和情绪无创监测的可靠性",
+    "year": 2020,
+    "venue": "Scientific Reports",
+    "authors": [
+      "Matteo Chincarini",
+      "Emanuela Dalla Costa",
+      "Lina Qiu",
+      "Lorenzo Spinelli",
+      "Simona Cannas",
+      "Clara Palestrini",
+      "Elisabetta Canali",
+      "Michela Minero",
+      "Bruno Cozzi",
+      "Nicola Ferri",
+      "Daniele Ancora",
+      "Francesco de Pasquale",
+      "Giorgio Vignola",
+      "Alessandro M. Torricelli"
+    ],
+    "doi": "10.1038/s41598-020-71704-5",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1038/s41598-020-71704-5",
+    "pdf_url": "https://www.nature.com/articles/s41598-020-71704-5.pdf",
+    "source_url": "https://openalex.org/W3083746716",
+    "openalex_id": "https://openalex.org/W3083746716",
+    "openalex_author_id": "https://openalex.org/A5041963828",
+    "cited_by_count": 18,
+    "abstract_en": "The aim of this work was to critically assess if functional near infrared spectroscopy (fNIRS) can be profitably used as a tool for noninvasive recording of brain functions and emotions in sheep. We considered an experimental design including advances in instrumentation (customized wireless multi-distance fNIRS system), more accurate physical modelling (two-layer model for photon diffusion and 3D Monte Carlo simulations), support from neuroanatomical tools (positioning of the fNIRS probe by MRI and DTI data of the very same animals), and rigorous protocols (motor task, startling test) for testing the behavioral response of freely moving sheep. Almost no hemodynamic response was found in the extra-cerebral region in both the motor task and the startling test. In the motor task, as expected we found a canonical hemodynamic response in the cerebral region when sheep were walking. In the startling test, the measured hemodynamic response in the cerebral region was mainly from movement. Overall, these results indicate that with the current setup and probe positioning we are primarily measuring the motor area of the sheep brain, and not probing the too deeply located cortical areas related to processing of emotions.",
+    "abstract_zh": "这项工作的目的是批判性地评估功能性近红外光谱（fNIRS）是否可以作为无创记录绵羊大脑功能和情绪的工具而有利可图。我们考虑的实验设计包括仪器的进步（定制的无线多距离 fNIRS 系统）、更准确的物理建模（光子扩散的两层模型和 3D 蒙特卡罗模拟）、神经解剖工具的支持（通过同一动物的 MRI 和 DTI 数据定位 fNIRS 探头）以及用于测试自由移动的绵羊行为反应的严格协议（运动任务、惊吓测试）。在运动任务和训练任务中，大脑外区域几乎没有发现血流动力学反应。",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "脑机接口与神经解码",
+      "情感计算与情绪理解",
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5041963828）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_lina_qiu_be0895cb4fd4456f",
+    "global_record_id": "10127f8975eb79dc",
+    "scholar_id": "panorama_lina_qiu",
+    "scholar_name": "邱丽娜",
+    "scholar_ids": [
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_lina_qiu_be0895cb4fd4456f"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_lina_qiu": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "情感计算与情绪理解",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "邱丽娜：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "TopHUI: Top-k high-utility itemset mining with negative utility",
+    "title_en": "TopHUI: Top-k high-utility itemset mining with negative utility",
+    "title_zh": "TopHUI：具有负效用的Top-k高效用项集挖掘",
+    "year": 2020,
+    "venue": "IEEE International Conference on Big Data (BigData)",
+    "authors": [
+      "Wensheng Gan",
+      "Shicheng Wan",
+      "Jiahui Chen",
+      "Chien‐Ming Chen",
+      "Lina Qiu"
+    ],
+    "doi": "10.1109/bigdata50022.2020.9378288",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/bigdata50022.2020.9378288",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W3138615649",
+    "openalex_id": "https://openalex.org/W3138615649",
+    "openalex_author_id": "https://openalex.org/A5041963828",
+    "cited_by_count": 36,
+    "abstract_en": "In the field of data science, utility-driven data mining has become an emergent intelligent technique with wide applications. The existing utility mining algorithms usually discover all the patterns satisfying a given minimum utility threshold. However, a huge number of return results is not intuitive, not interpretable, and not easy for users to understand. Besides, it is often difficult and time-consuming for users to set a proper minimum utility threshold that is quite sensitive to the mining results. To address these issues, the problem of top-k high-utility itemset mining has been studied. In this paper, we present an efficient algorithm (named TopHUI) for finding top-k high-utility itemsets from transactional database that contains both positive and negative utility. This algorithm utilizes the positive-and-negative utility-list (PNU-list) to store the compress information, including positive, negative, and remaining utility. Besides, several threshold raising strategies and pruning strategies are proposed to prune the search space. Finally, some extensive experiments were conducted to evaluate the performance of the proposed TopHUI algorithm on both real-life and synthetic datasets, particularly in terms of effectiveness and efficiency.",
+    "abstract_zh": "在数据科学领域，效用驱动的数据挖掘已成为一种新兴的具有广泛应用的智能技术。现有的效用挖掘算法通常会发现满足给定最小效用阈值的所有模式。然而，大量的返回结果不直观、不可解释、不易让用户理解。此外，用户设置适当的最小效用阈值通常是困难且耗时的，该阈值对挖掘结果非常敏感。为了解决这些问题，研究了top-k高效用项集挖掘问题。在本文中，我们提出了一种有效的算法（名为 TopHUI），用于从包含 bo 的事务数据库中查找 top-k 高效用项集。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5041963828）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_lina_qiu_bbf17d2e5840152a",
+    "global_record_id": "61a6d8bcd985b613",
+    "scholar_id": "panorama_lina_qiu",
+    "scholar_name": "邱丽娜",
+    "scholar_ids": [
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_lina_qiu_bbf17d2e5840152a"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_lina_qiu": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "邱丽娜：脑电基准、数据与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "UHUOPM: High Utility Occupancy Pattern Mining in Uncertain Data",
+    "title_en": "UHUOPM: High Utility Occupancy Pattern Mining in Uncertain Data",
+    "title_zh": "UHUOPM：不确定数据中的高效用占用模式挖掘",
+    "year": 2020,
+    "venue": "Conference proceedings/Conference proceedings - IEEE International Conference on Systems, Man, and Cybernetics",
+    "authors": [
+      "Chien‐Ming Chen",
+      "Lili Chen",
+      "Wensheng Gan",
+      "Lina Qiu",
+      "Weiping Ding"
+    ],
+    "doi": "10.1109/smc42975.2020.9282878",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/smc42975.2020.9282878",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W3112622461",
+    "openalex_id": "https://openalex.org/W3112622461",
+    "openalex_author_id": "https://openalex.org/A5041963828",
+    "cited_by_count": 4,
+    "abstract_en": "It is widely known that there is a lot of useful information hidden in big data, and it is prevalent for individuals to mine crucial information for utilization in many real-world applications. To find patterns that can represent the supporting transaction, a recent study was conducted to mine high-utility occupancy patterns whose contribution to the utility of the entire transaction is greater than a certain value. Moreover, in realistic applications, patterns may not exist in transactions but be connected to an existence probability. In this paper, a novel algorithm, called High Utility-Occupancy Pattern Mining in Uncertain databases (UHUOPM), is proposed. The patterns found by this algorithm are called Potential High Utility Occupancy Patterns (PHUOPs). To reduce memory cost and time consumption and to prune the search space in the algorithm as mentioned above, probability-utility-occupancy list (PUO-list) and probability-frequency-utility table (PFU-table) are used. Finally, substantial experiments were conducted to evaluate the performance of proposed UHUOPM algorithm on both real-life and synthetic datasets.",
+    "abstract_zh": "众所周知，大数据中隐藏着大量有用的信息，个人普遍挖掘关键信息以在许多现实世界的应用中利用。为了找到可以代表支持交易的模式，最近进行了一项研究来挖掘高效用占用模式，这些模式对整个交易的效用的贡献大于某个值。此外，在实际应用中，模式可能不存在于交易中，但与存在概率相关。在本文中，提出了一种新颖的算法，称为不确定数据库中的高效用占用模式挖掘（UHUOPM）。该算法发现的模式称为潜在高效用占用模式...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5041963828）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_lina_qiu_607e29fe4c8140bf",
+    "global_record_id": "fb7f86a76e618060",
+    "scholar_id": "panorama_lina_qiu",
+    "scholar_name": "邱丽娜",
+    "scholar_ids": [
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_lina_qiu_607e29fe4c8140bf"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_lina_qiu": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "邱丽娜：脑电基准、数据与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "Optimize Illumination Parameter of Low-Level Laser Therapy for Hemorrhagic Stroke by Monte Carlo Simulation on Visible Human Dataset",
+    "title_en": "Optimize Illumination Parameter of Low-Level Laser Therapy for Hemorrhagic Stroke by Monte Carlo Simulation on Visible Human Dataset",
+    "title_zh": "基于可见光人体数据集的蒙特卡罗模拟优化出血性中风低强度激光治疗的照明参数",
+    "year": 2018,
+    "venue": "IEEE photonics journal",
+    "authors": [
+      "Ting Li",
+      "Pengbo Wang",
+      "Lina Qiu",
+      "Xiang Fang",
+      "Yu Shang"
+    ],
+    "doi": "10.1109/jphot.2018.2834740",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1109/jphot.2018.2834740",
+    "pdf_url": "https://ieeexplore.ieee.org/ielx7/4563994/8340956/08356640.pdf",
+    "source_url": "https://openalex.org/W2801626768",
+    "openalex_id": "https://openalex.org/W2801626768",
+    "openalex_author_id": "https://openalex.org/A5041963828",
+    "cited_by_count": 12,
+    "abstract_en": "Stroke is the second leading cause of death and disability worldwide. The incidence of hemorrhagic stroke increases dramatically with the increasingly aging population. Recently, technology of low-level light/laser therapy (LLLT) is emerging as a novel noninvasive therapeutic approach to treat stroke based on effective photobiomodulation. To obtain optimal therapeutic effects, several LLLT illumination parameters such as beam size and beam type need to be optimized. However, the quantitative optimization of LLLT illumination parameters for stroke therapeutics is impractical to test directly on human subjects. In this paper, we employed a precise voxelized three-dimensional Monte Carlo method (MCVM) to simulate photon propagation within Visible Chinese human (VCH) head at different level of stroke with varied parameters of beams. By evaluation with criteria of the total fluence flux in lesion region and the maximal penetration depth, we found that Gaussian beam with larger or the same size of hemorrhagic region generates the highest and relative homogeneous therapeutic outcomes, while the Top-hat beam performed better when hemorrhagic region is much bigger than beam size. These results demonstrate the great potential of using VCH and MCVM in optimizing LLLT treatment parameters for stroke and in guiding future instrumentation of LLLT on hemorrhagic stroke.",
+    "abstract_zh": "中风是全世界死亡和残疾的第二大原因。随着人口老龄化的加剧，出血性中风的发病率急剧增加。最近，低强度光/激光治疗（LLLT）技术正在成为一种基于有效光生物调节治疗中风的新型非侵入性治疗方法。为了获得最佳治疗效果，需要优化多个 LLLT 照明参数，例如光束尺寸和光束类型。然而，用于中风治疗的 LLLT 照明参数的定量优化对于直接在人类受试者上进行测试是不切实际的。在本文中，我们采用精确体素化三维蒙特卡罗方法（MCVM）来模拟可见光中的光子传播...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5041963828）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_lina_qiu_0852bf72777b7b7d",
+    "global_record_id": "17afa80181f89424",
+    "scholar_id": "panorama_lina_qiu",
+    "scholar_name": "邱丽娜",
+    "scholar_ids": [
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_lina_qiu_0852bf72777b7b7d"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_lina_qiu": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "邱丽娜：脑电基准、数据与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "Using a simulation approach to optimize time-domain diffuse correlation spectroscopy measurement on human head",
+    "title_en": "Using a simulation approach to optimize time-domain diffuse correlation spectroscopy measurement on human head",
+    "title_zh": "使用仿真方法优化人体头部时域漫相关光谱测量",
+    "year": 2018,
+    "venue": "Neurophotonics",
+    "authors": [
+      "Lina Qiu",
+      "Huiyi Cheng",
+      "Alessandro M. Torricelli",
+      "Jun Li"
+    ],
+    "doi": "10.1117/1.nph.5.2.025007",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1117/1.nph.5.2.025007",
+    "pdf_url": "https://www.spiedigitallibrary.org/journals/neurophotonics/volume-5/issue-2/025007/Using-a-simulation-approach-to-optimize-time-domain-diffuse-correlation/10.1117/1.NPh.5.2.025007.pdf",
+    "source_url": "https://openalex.org/W2803149470",
+    "openalex_id": "https://openalex.org/W2803149470",
+    "openalex_author_id": "https://openalex.org/A5041963828",
+    "cited_by_count": 12,
+    "abstract_en": "Time-domain diffuse correlation spectroscopy (TD-DCS) has been recently proposed to improve detection of deep blood flow dynamics in a biological tissue, such as human brain. To obtain a high sensitive measurement, several experimental parameters such as the source-detector (SD) distance, gate opening time, and width need to be considered and optimized. We use a simulation approach to optimize these parameters based on Monte Carlo computations using a realistic human head model. Two cortical regions are investigated including the frontal and temporal lobes. SD distance ranging from 0 to 45 mm, gate opening time from 400 to 1000 ps, and gate width from 50 to 3000 ps are considered. The goal is to find out the optimal combinations of these parameters by which the higher contrast measurement on the cortical dynamics can be achieved. The simulations show that with an acceptable input power of light, the combinations of SD distance ranging from 0 to 15 mm, gate opening time at 700 to 800 ps, and gate width of 800 ps are optimal for achieving higher contrast measurement on the cortical dynamics. The simulation approach and results are helpful for the optimization of TD-DCS experimental design focused on brain functional detection.",
+    "abstract_zh": "最近提出了时域漫相关光谱（TD-DCS）来改进对生物组织（例如人脑）中深层血流动力学的检测。为了获得高灵敏度的测量，需要考虑和优化几个实验参数，例如源-检测器 (SD) 距离、栅极打开时间和宽度。我们使用模拟方法，使用真实的人体头部模型，基于蒙特卡罗计算来优化这些参数。研究了两个皮质区域，包括额叶和颞叶。考虑 SD 距离范围为 0 至 45 mm、栅极打开时间为 400 至 1000 ps、栅极宽度为 50 至 3000 ps。目标是找出这些参数的最佳组合...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5041963828）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_lina_qiu_be808430fab0f506",
+    "global_record_id": "df63bdf758d23933",
+    "scholar_id": "panorama_lina_qiu",
+    "scholar_name": "邱丽娜",
+    "scholar_ids": [
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_lina_qiu_be808430fab0f506"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_lina_qiu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "邱丽娜：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Evaluation of Sheep Anticipatory Response to a Food Reward by Means of Functional Near-Infrared Spectroscopy",
+    "title_en": "Evaluation of Sheep Anticipatory Response to a Food Reward by Means of Functional Near-Infrared Spectroscopy",
+    "title_zh": "通过功能近红外光谱评估绵羊对食物奖励的预期反应",
+    "year": 2018,
+    "venue": "Animals",
+    "authors": [
+      "Matteo Chincarini",
+      "Lina Qiu",
+      "Lorenzo Spinelli",
+      "Alessandro M. Torricelli",
+      "Michela Minero",
+      "Emanuela Dalla Costa",
+      "Massimo Mariscoli",
+      "Nicola Ferri",
+      "Melania Giammarco",
+      "Giorgio Vignola"
+    ],
+    "doi": "10.3390/ani9010011",
+    "dblp_key": "",
+    "paper_url": "http://dx.doi.org/10.3390/ani9010011",
+    "pdf_url": "https://www.mdpi.com/2076-2615/9/1/11/pdf?version=1546055252",
+    "source_url": "https://openalex.org/W2908314590",
+    "openalex_id": "https://openalex.org/W2908314590",
+    "openalex_author_id": "https://openalex.org/A5041963828",
+    "cited_by_count": 23,
+    "abstract_en": "Anticipatory behaviour to an oncoming food reward can be triggered via classical conditioning, implies the activation of neural networks, and may serve to study the emotional state of animals. The aim of this study was to investigate how the anticipatory response to a food reward affects the cerebral cortex activity in sheep. Eight ewes from the same flock were trained to associate a neutral auditory stimulus (water bubble) to the presence of a food reward (maize grains). Once conditioned, sheep were trained to wait 15 s behind a gate before accessing a bucket with food (anticipation phase). For 6 days, sheep were submitted to two sessions of six consecutive trials each. Behavioural reaction was filmed and changes in cortical oxy- and deoxy-hemoglobin concentration ([ΔO2Hb] and [ΔHHb] respectively) following neuronal activation were recorded by functional near infrared spectroscopy (fNIRS). Compared to baseline, during the anticipation phase sheep increased their active behaviour, kept the head oriented to the gate (Wilcoxon’s signed rank test; p ≤ 0.001), and showed more asymmetric ear posture (Wilcoxon’s signed rank test; p ≤ 0.01), most likely reflecting a learnt association and an increased arousal. Results of trial-averaged [ΔO2Hb] and [ΔHHb] within individual sheep showed in almost every sheep a cortical activation during the anticipation phase (Student T-test; p ≤ 0.05). The sheep showed a greater response of the right hemisphere compared to the left hemisphere, possibly indicating a negative affective state, such as frustration. Behavioural and cortical changes observed during anticipation of a food reward reflect a learnt association and an increased arousal, but no clear emotional valence of the sheep subjective experience. Future work should take into consideration possible factors affecting the accurateness of measures, such as probe’s location and scalp vascularization.",
+    "abstract_zh": "对即将到来的食物奖励的预期行为可以通过经典条件反射来触发，这意味着神经网络的激活，并且可以用于研究动物的情绪状态。本研究的目的是调查对食物奖励的预期反应如何影响绵羊的大脑皮层活动。来自同一群的八只母羊接受训练，将中性听觉刺激（水泡）与食物奖励（玉米粒）联系起来。一旦适应了条件，羊就被训练在门后等待 15 秒，然后才能拿到装有食物的桶（预期阶段）。在 6 天的时间里，绵羊接受了两次连续的六次试验。行为反应被拍摄下来，皮质氧和脱氧的变化......",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "脑机接口与神经解码",
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5041963828）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_lina_qiu_e5fbbe82594ab7a1",
+    "global_record_id": "dc3f24055451bfaf",
+    "scholar_id": "panorama_lina_qiu",
+    "scholar_name": "邱丽娜",
+    "scholar_ids": [
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_lina_qiu_e5fbbe82594ab7a1"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_lina_qiu": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "邱丽娜：情感脑电与多模态生理信号"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号"
+  },
+  {
+    "title": "Noninvasive optical estimation of CSF thickness for brain-atrophy monitoring",
+    "title_en": "Noninvasive optical estimation of CSF thickness for brain-atrophy monitoring",
+    "title_zh": "用于脑萎缩监测的脑脊液厚度无创光学估计",
+    "year": 2018,
+    "venue": "Biomedical Optics Express",
+    "authors": [
+      "Daniele Ancora",
+      "Lina Qiu",
+      "Giannis Zacharakis",
+      "Lorenzo Spinelli",
+      "Alessandro M. Torricelli",
+      "Antonio Pifferi"
+    ],
+    "doi": "10.1364/boe.9.004094",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1364/boe.9.004094",
+    "pdf_url": "https://doi.org/10.1364/boe.9.004094",
+    "source_url": "https://openalex.org/W2799846641",
+    "openalex_id": "https://openalex.org/W2799846641",
+    "openalex_author_id": "https://openalex.org/A5041963828",
+    "cited_by_count": 18,
+    "abstract_en": "Dementia disorders are increasingly becoming sources of a broad range of problems, strongly interfering with the normal daily tasks of a growing number of individuals. Such neurodegenerative diseases are often accompanied with progressive brain atrophy that, at late stages, leads to drastically reduced brain dimensions. Currently, this structural change could be followed with X-ray computed tomography (XCT) or magnetic resonance imaging (MRI), but they share numerous disadvantages in terms of usability, invasiveness and costs. In this work, we aim to retrieve information concerning the brain-atrophy stage and its evolution, proposing a novel approach based on non-invasive time-resolved near infra-red (tr-NIR) measurements. For this purpose, we created a set of virtual human-head atlases in which we eroded the brain as it would happen in a clinical brain-atrophy progression. These realistic meshes were used to simulate a longitudinal tr-NIR study, investigating the effects of an increased amount of cerebral spinal fluid (CSF) in the photon diffusion. The analysis of late photons in the time-resolved reflectance curve-obtained via accurate Monte Carlo simulations-exhibited peculiar slope-changes upon CSF layer increase. The visibility of the effect under several measurement conditions suggested good sensitivity to CSF variation, even in the case of real measurement and under different geometrical models. The robustness of the results might promote the technique as a potential indicator of the dementia progression, relying only on fast and non-invasive optical observations.",
+    "abstract_zh": "痴呆症正日益成为一系列问题的根源，严重干扰越来越多的人的正常日常工作。此类神经退行性疾病通常伴有进行性脑萎缩，在晚期会导致大脑尺寸急剧缩小。目前，这种结构变化可以通过 X 射线计算机断层扫描 (XCT) 或磁共振成像 (MRI) 来跟踪，但它们在可用性、侵入性和成本方面存在许多缺点。在这项工作中，我们的目标是检索有关脑萎缩阶段及其演变的信息，提出一种基于非侵入性时间分辨近红外（tr-NIR）测量的新方法。为此，...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5041963828）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_lina_qiu_64a09778a8326aef",
+    "global_record_id": "1078306a9405a551",
+    "scholar_id": "panorama_lina_qiu",
+    "scholar_name": "邱丽娜",
+    "scholar_ids": [
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_lina_qiu_64a09778a8326aef"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_lina_qiu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "邱丽娜：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Effect of 805 nm on reliability of 735/805/850-nm LED involved near-infrared spectroscopy biomedical device",
+    "title_en": "Effect of 805 nm on reliability of 735/805/850-nm LED involved near-infrared spectroscopy biomedical device",
+    "title_zh": "805 nm 对 735/805/850 nm LED 涉及近红外光谱生物医学器件可靠性的影响",
+    "year": 2017,
+    "venue": "Microelectronics Reliability",
+    "authors": [
+      "Yue Zhao",
+      "Lina Qiu",
+      "Ke Zhao",
+      "Kai Li",
+      "Yunlong Sun",
+      "Lingkang Meng",
+      "Zhe Huang",
+      "Ting Li"
+    ],
+    "doi": "10.1016/j.microrel.2017.05.027",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.microrel.2017.05.027",
+    "pdf_url": "http://hdl.handle.net/11311/1090793",
+    "source_url": "https://openalex.org/W2624504520",
+    "openalex_id": "https://openalex.org/W2624504520",
+    "openalex_author_id": "https://openalex.org/A5041963828",
+    "cited_by_count": 7,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5041963828）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_lina_qiu_77a138456055e4d9",
+    "global_record_id": "3ea008b9dbdb20b5",
+    "scholar_id": "panorama_lina_qiu",
+    "scholar_name": "邱丽娜",
+    "scholar_ids": [
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_lina_qiu_77a138456055e4d9"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_lina_qiu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "邱丽娜：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Analytical models for time-domain diffuse correlation spectroscopy for multi-layer and heterogeneous turbid media",
+    "title_en": "Analytical models for time-domain diffuse correlation spectroscopy for multi-layer and heterogeneous turbid media",
+    "title_zh": "多层非均质混浊介质时域漫相关光谱分析模型",
+    "year": 2017,
+    "venue": "Biomedical Optics Express",
+    "authors": [
+      "Jun Li",
+      "Lina Qiu",
+      "Chien‐Sing Poon",
+      "Ulaş Sunar"
+    ],
+    "doi": "10.1364/boe.8.005518",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1364/boe.8.005518",
+    "pdf_url": "https://doi.org/10.1364/boe.8.005518",
+    "source_url": "https://openalex.org/W2767914895",
+    "openalex_id": "https://openalex.org/W2767914895",
+    "openalex_author_id": "https://openalex.org/A5041963828",
+    "cited_by_count": 30,
+    "abstract_en": "A novel approach for time-domain diffuse correlation spectroscopy (TD-DCS) has been recently proposed, which has the unique advantage by simultaneous measurements of optical and dynamical properties in a scattering medium. In this study, analytical models for calculating the time-resolved electric-field autocorrelation function is presented for a multi-layer turbid sample, as well as a semi-infinite medium embedded with a small dynamic heterogeneity. To verify the analytical models, we used Monte Carlo simulations, which demonstrated that the theoretical prediction for the time-resolved autocorrelation function was highly consistent with the Monte Carlo simulation, validating the proposed analytical models. Using these analytical models, we also showed that TD-DCS has a higher sensitivity compared to conventional continuous-wave (CW) DCS for detecting the deeper dynamics. The presented analytical models and simulations can be utilized for quantification of optical and dynamical properties from future TD-DCS experimental data as well as for optimization of the experimental design to achieve maximum contrast for deep tissue dynamics.",
+    "abstract_zh": "最近提出了一种新的时域漫相关光谱（TD-DCS）方法，该方法具有同时测量散射介质中的光学和动力学特性的独特优势。在这项研究中，提出了计算多层混浊样品以及嵌入小动态异质性的半无限介质的时间分辨电场自相关函数的解析模型。为了验证解析模型，我们使用蒙特卡罗模拟，结果表明时间分辨自相关函数的理论预测与蒙特卡罗模拟高度一致，验证了所提出的解析模型。使用这些分析模型，我们...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5041963828）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_lina_qiu_9b40ef390a395370",
+    "global_record_id": "a3bb02f8194cfdf7",
+    "scholar_id": "panorama_lina_qiu",
+    "scholar_name": "邱丽娜",
+    "scholar_ids": [
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_lina_qiu_9b40ef390a395370"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_lina_qiu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "邱丽娜：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Optimal hemoglobin extinction coefficient data set for near-infrared spectroscopy",
+    "title_en": "Optimal hemoglobin extinction coefficient data set for near-infrared spectroscopy",
+    "title_zh": "近红外光谱的最佳血红蛋白消光系数数据集",
+    "year": 2017,
+    "venue": "Biomedical Optics Express",
+    "authors": [
+      "Yue Zhao",
+      "Lina Qiu",
+      "Yunlong Sun",
+      "Chong Huang",
+      "Ting Li"
+    ],
+    "doi": "10.1364/boe.8.005151",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1364/boe.8.005151",
+    "pdf_url": "https://doi.org/10.1364/boe.8.005151",
+    "source_url": "https://openalex.org/W2766085001",
+    "openalex_id": "https://openalex.org/W2766085001",
+    "openalex_author_id": "https://openalex.org/A5041963828",
+    "cited_by_count": 82,
+    "abstract_en": "], Δ[Hb], Δ[tHb]) from optical measurements of Near-infrared spectroscopy (NIRS). There are several different ε data sets which were frequently used in NIRS quantification. A previous study reported that even a small variation in ε could cause a significant difference in hemodynamic measurements. Apparently the selection of an optimal ε data set is important for NIRS. We conducted oxygen-state-varied and blood-concentration-varied model experiments with 57 human blood samples to mimic tissue hemodynamic variations. Seven reported ε data sets were evaluated by comparisons between quantifications and assumed values. We found that the Moaveni et al (1970)' ε data set was the optimal one, the NIRS quantification varied significantly among different ε data sets and parameter Δ[tHb] was most sensitive to ε data sets selection.",
+    "abstract_zh": "]、Δ[Hb]、Δ[tHb]）来自近红外光谱 (NIRS) 的光学测量。 NIRS 定量中经常使用几种不同的 ε 数据集。先前的一项研究报告称，即使 ε 的微小变化也可能导致血流动力学测量结果出现显着差异。显然，最佳 ε 数据集的选择对于 NIRS 很重要。我们对 57 份人体血液样本进行了氧状态变化和血液浓度变化模型实验，以模拟组织血流动力学变化。通过量化和假设值之间的比较来评估七个报告的 ε 数据集。我们发现 Moaveni 等人 (1970) 的 ε 数据集是最佳数据集，NIRS 量化在不同...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5041963828）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_lina_qiu_8e4e1fb843b646dd",
+    "global_record_id": "721d02d92b80d721",
+    "scholar_id": "panorama_lina_qiu",
+    "scholar_name": "邱丽娜",
+    "scholar_ids": [
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_lina_qiu_8e4e1fb843b646dd"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_lina_qiu": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "邱丽娜：脑电基准、数据与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "Characterization of autism spectrum disorder with spontaneous hemodynamic activity",
+    "title_en": "Characterization of autism spectrum disorder with spontaneous hemodynamic activity",
+    "title_zh": "具有自发血流动力学活动的自闭症谱系障碍的特征",
+    "year": 2016,
+    "venue": "Biomedical Optics Express",
+    "authors": [
+      "Jun Li",
+      "Lina Qiu",
+      "Lingyu Xu",
+      "Ernest V. Pedapati",
+      "Craig A. Erickson",
+      "Ulaş Sunar"
+    ],
+    "doi": "10.1364/boe.7.003871",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1364/boe.7.003871",
+    "pdf_url": "https://doi.org/10.1364/boe.7.003871",
+    "source_url": "https://openalex.org/W2528820625",
+    "openalex_id": "https://openalex.org/W2528820625",
+    "openalex_author_id": "https://openalex.org/A5041963828",
+    "cited_by_count": 56,
+    "abstract_en": "and Hb as variables could achieve high accurate classification with sensitivity of 81.6% and specificity of 94.6%. This study demonstrates optical brain imaging has the potential for screening children with risk of ASD.",
+    "abstract_zh": "以Hb和Hb为变量可以实现高精度分类，敏感性为81.6%，特异性为94.6%。这项研究表明光学脑成像具有筛查患有自闭症谱系障碍（ASD）风险的儿童的潜力。",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5041963828）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_lina_qiu_21cd2caef5ceabb2",
+    "global_record_id": "cb5dd4f9df1137c3",
+    "scholar_id": "panorama_lina_qiu",
+    "scholar_name": "邱丽娜",
+    "scholar_ids": [
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_lina_qiu_21cd2caef5ceabb2"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_lina_qiu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "邱丽娜：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "An upgraded camera-based imaging system for mapping venous blood oxygenation in human skin tissue",
+    "title_en": "An upgraded camera-based imaging system for mapping venous blood oxygenation in human skin tissue",
+    "title_zh": "升级版基于摄像头的成像系统，用于绘制人体皮肤组织中的静脉血氧饱和度",
+    "year": 2016,
+    "venue": "Optics Communications",
+    "authors": [
+      "Jun Li",
+      "Xiao Zhang",
+      "Lina Qiu",
+      "Daniel F. Leotta"
+    ],
+    "doi": "10.1016/j.optcom.2016.03.030",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.optcom.2016.03.030",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2298062855",
+    "openalex_id": "https://openalex.org/W2298062855",
+    "openalex_author_id": "https://openalex.org/A5041963828",
+    "cited_by_count": 2,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5041963828）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_lina_qiu_6b6df407730dbb5d",
+    "global_record_id": "b0e5d19ee630af34",
+    "scholar_id": "panorama_lina_qiu",
+    "scholar_name": "邱丽娜",
+    "scholar_ids": [
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_lina_qiu_6b6df407730dbb5d"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_lina_qiu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "邱丽娜：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "fNIRS technology applied on animals: a study on sheep",
+    "title_en": "fNIRS technology applied on animals: a study on sheep",
+    "title_zh": "fNIRS 技术应用于动物：绵羊研究",
+    "year": 2016,
+    "venue": "来源待核",
+    "authors": [
+      "Matteo Chincarini",
+      "Lina Qiu",
+      "Alessandro M. Torricelli",
+      "Michela Minero",
+      "Nicola Ferri",
+      "Isa Fusaro",
+      "Massimo Mariscoli",
+      "Giorgio Vignola"
+    ],
+    "doi": "",
+    "dblp_key": "",
+    "paper_url": "https://air.unimi.it/handle/2434/471453",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W2624057323",
+    "openalex_id": "https://openalex.org/W2624057323",
+    "openalex_author_id": "https://openalex.org/A5041963828",
+    "cited_by_count": 0,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [
+      "脑机接口与神经解码"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5041963828）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_lina_qiu_dc558af2f85a2bba",
+    "global_record_id": "ce63ee97e6f8ea70",
+    "scholar_id": "panorama_lina_qiu",
+    "scholar_name": "邱丽娜",
+    "scholar_ids": [
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_lina_qiu_dc558af2f85a2bba"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_lina_qiu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "邱丽娜：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Optical imaging of the prefrontal activity in joint attention experience",
+    "title_en": "Optical imaging of the prefrontal activity in joint attention experience",
+    "title_zh": "联合注意力体验中前额叶活动的光学成像",
+    "year": 2015,
+    "venue": "Biomedical Optics Express",
+    "authors": [
+      "Lina Qiu",
+      "Xiao Zhang",
+      "Jun Li"
+    ],
+    "doi": "10.1364/boe.6.003437",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1364/boe.6.003437",
+    "pdf_url": "https://doi.org/10.1364/boe.6.003437",
+    "source_url": "https://openalex.org/W2290411713",
+    "openalex_id": "https://openalex.org/W2290411713",
+    "openalex_author_id": "https://openalex.org/A5041963828",
+    "cited_by_count": 3,
+    "abstract_en": "Functional near-infrared spectroscopy (fNIRS) was used to measure the prefrontal activity in joint attention experience. 16 healthy adults participated in the experiment in which 42 optical channels were fixed over the anterior prefrontal cortex (aPFC), dorsolateral prefrontal cortex (DLPFC), inferior frontal gyrus (IFG) and a small anterior portion of the superior temporal gyrus (STG). Video stimuli were used to engender joint or non-joint attention experience in observers. Cortical hemodynamic response and functional connectivity were measured and averaged across all subjects for each stimulus condition. Our data showed the activation in joint attention located in the aPFC and DLPFC bilaterally, but dominantly in the left hemisphere. This observation, together with the previous findings on infants and children, provides a clear developmental scenario on the prefrontal activation associated with joint attention process. In the case of non-joint attention condition, only a small region of the right DLPFC was activated. Functional connectivity was observed to be enhanced, but differently in joint and non-joint attention condition.",
+    "abstract_zh": "功能性近红外光谱（fNIRS）用于测量联合注意力体验中的前额叶活动。 16名健康成年人参与了该实验，其中42个光学通道固定在前额叶皮质（aPFC）、背外侧前额叶皮质（DLPFC）、额下回（IFG）和颞上回（STG）的一小部分前部。视频刺激用于使观察者产生联合或非联合注意力体验。对每种刺激条件下所有受试者的皮质血流动力学反应和功能连接进行测量和平均。我们的数据显示，联合注意力的激活位于双侧 aPFC 和 DLPFC，但主要位于左半球。这...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "脑机接口与神经解码"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5041963828）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_lina_qiu_defa623eabc18191",
+    "global_record_id": "146fc66657509515",
+    "scholar_id": "panorama_lina_qiu",
+    "scholar_name": "邱丽娜",
+    "scholar_ids": [
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_lina_qiu_defa623eabc18191"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_lina_qiu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "邱丽娜：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Temporal correlation of spontaneous hemodynamic activity in language areas measured with functional near-infrared spectroscopy",
+    "title_en": "Temporal correlation of spontaneous hemodynamic activity in language areas measured with functional near-infrared spectroscopy",
+    "title_zh": "用功能近红外光谱测量语言区域自发血流动力学活动的时间相关性",
+    "year": 2014,
+    "venue": "Biomedical Optics Express",
+    "authors": [
+      "Jun Li",
+      "Lina Qiu"
+    ],
+    "doi": "10.1364/boe.5.000587",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1364/boe.5.000587",
+    "pdf_url": "https://doi.org/10.1364/boe.5.000587",
+    "source_url": "https://openalex.org/W2141177267",
+    "openalex_id": "https://openalex.org/W2141177267",
+    "openalex_author_id": "https://openalex.org/A5041963828",
+    "cited_by_count": 24,
+    "abstract_en": "Functional near-infrared spectroscopy (fNIRS) was used to investigate resting state connectivity of language areas including bilateral inferior frontal gyrus (IFG) and superior temporal gyrus (STG). Thirty-two subjects participated in the experiment, including twenty adults and twelve children. Spontaneous hemodynamic fluctuations were recorded, and then intra- and inter-hemispheric temporal correlations of these signals were computed. The correlations of all hemoglobin components were observed significantly higher for adults than children. Moreover, the differences for the STG were more significant than for the IFG. In the adult group, differences in the correlations between males and females were not significant. Our results suggest by measuring resting state intra- and inter-hemispheric correlations, fNIRS is able to provide qualitative and quantitative evaluation on the functioning of the cortical network.",
+    "abstract_zh": "功能性近红外光谱（fNIRS）用于研究语言区域的静息状态连接性，包括双侧额下回（IFG）和颞上回（STG）。三十二名受试者参加了实验，其中包括二十名成人和十二名儿童。记录自发的血流动力学波动，然后计算这些信号的半球内和半球间时间相关性。成人所有血红蛋白成分的相关性明显高于儿童。此外，STG 的差异比 IFG 更显着。在成年组中，男性和女性之间的相关性差异不显着。我们的结果表明我...",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "脑机接口与神经解码"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5041963828）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_lina_qiu_54b8644e68834bcc",
+    "global_record_id": "4e79d4227a6672bb",
+    "scholar_id": "panorama_lina_qiu",
+    "scholar_name": "邱丽娜",
+    "scholar_ids": [
+      "panorama_lina_qiu"
+    ],
+    "scholar_names": [
+      "邱丽娜"
+    ],
+    "source_record_ids": [
+      "panorama_lina_qiu_54b8644e68834bcc"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_lina_qiu": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "邱丽娜",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "邱丽娜：脑电基准、数据与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  }
+]

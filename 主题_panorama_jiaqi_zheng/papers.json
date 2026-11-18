@@ -1,791 +1,2171 @@
-{
-  "scholar": {
-    "name_zh": "郑嘉琪",
-    "name_en": "Jiaqi Zheng",
-    "affiliation": "暨南大学",
-    "identity_sources": [
-      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+[
+  {
+    "title": "Benchmarking Scientific Formula Vocalization in Large Speech Language Models Toward Accessible Learning",
+    "title_en": "Benchmarking Scientific Formula Vocalization in Large Speech Language Models Toward Accessible Learning",
+    "title_zh": "对大型语音语言模型中的科学公式发声进行基准测试以实现无障碍学习",
+    "year": 2027,
+    "venue": "AIED (1)",
+    "authors": [
+      "Xueyi Li",
+      "Tianqiao Liu",
+      "Jiaqi Zheng",
+      "Zitao Liu",
+      "Yongdong Wu",
+      "Weiqi Luo"
     ],
-    "official_homepages": [
-      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    "doi": "10.1007/978-3-032-29744-0_6",
+    "paper_url": "https://doi.org/10.1007/978-3-032-29744-0_6",
+    "source_url": "https://doi.org/10.1007/978-3-032-29744-0_6",
+    "topics": [
+      "情感大模型与多模态基础模型"
     ],
-    "coverage": {
-      "scope": "2025–2026主题筛选与全量书目扩展",
-      "status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
-      "coverage_status": "仅有代表论文或项目级记录；个人全历史待补核",
-      "available_record_count": 16,
-      "bulk_source_record_count": 0,
-      "themes": [
-        "情感大模型与多模态基础模型"
-      ]
-    },
-    "coverage_notes": "该目录与五位基线学者使用同一论文/资源/分类输出契约。‘可用记录数’表示本轮已取得并保留的书目，不等于未经消歧的个人终身全集；身份待核验、论文团队和同名风险见候选筛选证据。",
-    "id": "panorama_jiaqi_zheng",
-    "folder": "主题_panorama_jiaqi_zheng",
-    "classification": {
-      "method": "按题名及现有项目、资源说明进行主题粗分，用于阅读导航；未逐篇审阅全文，不代表学者官方分类。每条书目只设一个主类别，跨方向信息保留在辅助标签中。",
-      "categories": [
-        {
-          "id": "emotion_understanding",
-          "label": "情感理解与多模态推理",
-          "description": "多模态情感识别、情绪原因解释、开放词汇与上下文推理。",
-          "count": 13
-        },
-        {
-          "id": "affective_intelligence",
-          "label": "情感智能、共情与生成",
-          "description": "情感智能、心智理论、共情响应和情感生成。",
-          "count": 2
-        },
-        {
-          "id": "emotion_benchmark",
-          "label": "情感数据集、基准与评测",
-          "description": "情感数据集、评测基准、情感幻觉与可靠性分析。",
-          "count": 1
-        }
-      ],
-      "review": {
-        "status": "theme_candidate",
-        "source_status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
-        "primary_theme": "情感智能与情感大模型"
+    "verification": "Crossref exact/near-exact title and publication-year match; DOI URL preserved",
+    "status": "已核验作品（Crossref DOI）",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W7166060894",
+    "openalex_author_id": "https://openalex.org/A5090756394",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）；Crossref exact title/year",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jiaqi_zheng_cdd648888a46",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测",
+    "secondary_tags": [
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jiaqi_zheng",
+    "scholar_name": "郑嘉琪",
+    "work_title_group": "02a0a3168fd1",
+    "date_note": "书目卷年晚于检索年；保留预先登记/在线发表记录，勿计为已核实2026正式卷年",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jiaqi_zheng"
+    ],
+    "scholar_names": [
+      "郑嘉琪"
+    ],
+    "source_record_ids": [
+      "panorama_jiaqi_zheng_cdd648888a46"
+    ],
+    "scholar_categories": {
+      "panorama_jiaqi_zheng": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "郑嘉琪",
+        "secondary_tags": [
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
       }
     },
-    "counts": {
-      "bibliographic_records": 16,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [
-        2024,
-        2025,
-        2026,
-        2027
-      ],
-      "unknown_year": 0
-    }
+    "global_record_id": "1ec878da23f5580d",
+    "primary_categories_by_scholar": [
+      "郑嘉琪：情感数据集、基准与评测"
+    ],
+    "dblp_key": "conf/aied/LiLZLWL26"
   },
-  "papers": [
-    {
-      "title": "Benchmarking Scientific Formula Vocalization in Large Speech Language Models Toward Accessible Learning",
-      "title_en": "Benchmarking Scientific Formula Vocalization in Large Speech Language Models Toward Accessible Learning",
-      "title_zh": "对大型语音语言模型中的科学公式发声进行基准测试以实现无障碍学习",
-      "year": 2027,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "Jiaqi Zheng"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "情感大模型与多模态基础模型",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jiaqi_zheng_cdd648888a46",
-      "category_id": "emotion_benchmark",
-      "primary_category": "情感数据集、基准与评测",
-      "secondary_tags": [
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jiaqi_zheng",
-      "scholar_name": "郑嘉琪",
-      "work_title_group": "02a0a3168fd1",
-      "date_note": "书目卷年晚于检索年；保留预先登记/在线发表记录，勿计为已核实2026正式卷年",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+  {
+    "title": "Cognition-driven dual-graph fusion with group-level mastery for knowledge tracing",
+    "title_en": "Cognition-driven dual-graph fusion with group-level mastery for knowledge tracing",
+    "title_zh": "认知驱动的双图融合与群体级知识追踪的掌握。信息融合",
+    "year": 2027,
+    "venue": "Information Fusion",
+    "authors": [
+      "Youheng Bai",
+      "Zhiwei Huang",
+      "Jia‐qi Zheng",
+      "Mingliang Hou",
+      "Teng Guo",
+      "Zitao Liu"
+    ],
+    "doi": "10.1016/j.inffus.2026.104800",
+    "paper_url": "https://doi.org/10.1016/j.inffus.2026.104800",
+    "source_url": "https://doi.org/10.1016/j.inffus.2026.104800",
+    "topics": [
+      "情感大模型与多模态基础模型"
+    ],
+    "verification": "Crossref exact/near-exact title and publication-year match; DOI URL preserved",
+    "status": "已核验作品（Crossref DOI）",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W7213862826",
+    "openalex_author_id": "https://openalex.org/A5090756394",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）；Crossref exact title/year",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jiaqi_zheng_d090792415d3",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理",
+    "secondary_tags": [
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jiaqi_zheng",
+    "scholar_name": "郑嘉琪",
+    "work_title_group": "25073c056fe9",
+    "date_note": "书目卷年晚于检索年；保留预先登记/在线发表记录，勿计为已核实2026正式卷年",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jiaqi_zheng"
+    ],
+    "scholar_names": [
+      "郑嘉琪"
+    ],
+    "source_record_ids": [
+      "panorama_jiaqi_zheng_d090792415d3"
+    ],
+    "scholar_categories": {
+      "panorama_jiaqi_zheng": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "郑嘉琪",
+        "secondary_tags": [
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Cognition-driven dual-graph fusion with group-level mastery for knowledge tracing. Information Fusion",
-      "title_en": "Cognition-driven dual-graph fusion with group-level mastery for knowledge tracing. Information Fusion",
-      "title_zh": "认知驱动的双图融合与群体级知识追踪的掌握。信息融合",
-      "year": 2027,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "Jiaqi Zheng"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "情感大模型与多模态基础模型",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jiaqi_zheng_d090792415d3",
-      "category_id": "emotion_understanding",
-      "primary_category": "情感理解与多模态推理",
-      "secondary_tags": [
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jiaqi_zheng",
-      "scholar_name": "郑嘉琪",
-      "work_title_group": "25073c056fe9",
-      "date_note": "书目卷年晚于检索年；保留预先登记/在线发表记录，勿计为已核实2026正式卷年",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "4902b95d213da23e",
+    "primary_categories_by_scholar": [
+      "郑嘉琪：情感理解与多模态推理"
+    ]
+  },
+  {
+    "title": "Supplementary data for \"Multimodal Large Language Models for Educational Resource Generation: A Survey\"",
+    "title_en": "Supplementary data for \"Multimodal Large Language Models for Educational Resource Generation: A Survey\"",
+    "title_zh": "“教育资源生成的多模态大语言模型：调查”的补充数据",
+    "year": 2026,
+    "venue": "来源待核",
+    "authors": [
+      "Tengteng Cheng",
+      "Ziyuan Hu",
+      "Jialu Huang",
+      "Xiaoli Zeng",
+      "Xueyi Li",
+      "Teng Guo",
+      "Jiaqi Zheng",
+      "Mingliang Hou",
+      "Jiliang Tang",
+      "Zitao Liu"
+    ],
+    "doi": "10.5281/ZENODO.20254688",
+    "dblp_key": "data/12/ChengHHZLGZHTL26",
+    "paper_url": "https://doi.org/10.5281/ZENODO.20254688",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/data/12/ChengHHZLGZHTL26.html",
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "cited_by_count": 0,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 369/6190）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_jiaqi_zheng_3f3762523be6ab8e",
+    "global_record_id": "fa3a93f626d02e89",
+    "scholar_id": "panorama_jiaqi_zheng",
+    "scholar_name": "郑嘉琪",
+    "scholar_ids": [
+      "panorama_jiaqi_zheng"
+    ],
+    "scholar_names": [
+      "郑嘉琪"
+    ],
+    "source_record_ids": [
+      "panorama_jiaqi_zheng_3f3762523be6ab8e"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_jiaqi_zheng": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "郑嘉琪",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "COMA: A Collaborative Multi-Role Agent Framework for Automated Lesson Plan Generation",
-      "title_en": "COMA: A Collaborative Multi-Role Agent Framework for Automated Lesson Plan Generation",
-      "title_zh": "COMA：用于自动生成课程计划的协作多角色代理框架",
-      "year": 2026,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "Jiaqi Zheng"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "情感大模型与多模态基础模型",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jiaqi_zheng_45359f9049d0",
-      "category_id": "affective_intelligence",
-      "primary_category": "情感智能、共情与生成",
-      "secondary_tags": [
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jiaqi_zheng",
-      "scholar_name": "郑嘉琪",
-      "work_title_group": "7c9e818389b3",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "primary_categories_by_scholar": [
+      "郑嘉琪：情感数据集、基准与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测"
+  },
+  {
+    "title": "Supplementary Data for \"A Comprehensive Survey on Generative AI for Educational Resource Generation\"",
+    "title_en": "Supplementary Data for \"A Comprehensive Survey on Generative AI for Educational Resource Generation\"",
+    "title_zh": "“教育资源生成人工智能综合调查”的补充数据",
+    "year": 2026,
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "authors": [
+      "Tengteng Cheng",
+      "Ziyuan Hu",
+      "Jialu Huang",
+      "Xiaoli Zeng",
+      "Xueyi Li",
+      "Teng Guo",
+      "Jia‐qi Zheng",
+      "Mingliang Hou",
+      "Jiliang Tang",
+      "Zitao Liu"
+    ],
+    "doi": "10.5281/zenodo.23968196",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.5281/zenodo.23968196",
+    "pdf_url": "https://doi.org/10.5281/zenodo.23968196",
+    "source_url": "https://openalex.org/W7225311575",
+    "openalex_id": "https://openalex.org/W7225311575",
+    "openalex_author_id": "https://openalex.org/A5090756394",
+    "cited_by_count": 0,
+    "abstract_en": "This dataset accompanies the survey \"A Comprehensive Survey on Generative AI for Educational Resource Generation\". It contains the complete coding sheet of the 77 included studies, with requirement categories, forms of expression, enforcement methods, evaluation methods, the highest level of evidence, the level at which each requirement was verified, and a short evidence summary for each study. The codebook with the definitions of all codes is also provided. All counts reported in the article are computed from the coding sheet.",
+    "abstract_zh": "该数据集伴随着“教育资源生成人工智能综合调查”调查。它包含77项纳入研究的完整编码表，包括要求类别、表达形式、执行方法、评估方法、最高证据级别、每项要求验证的级别以及每项研究的简短证据摘要。还提供了包含所有代码定义的代码本。本文中报告的所有计数都是根据编码表计算的。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5090756394）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_jiaqi_zheng_fca7f0575a1d1858",
+    "global_record_id": "e06c644f54badbf4",
+    "scholar_id": "panorama_jiaqi_zheng",
+    "scholar_name": "郑嘉琪",
+    "scholar_ids": [
+      "panorama_jiaqi_zheng"
+    ],
+    "scholar_names": [
+      "郑嘉琪"
+    ],
+    "source_record_ids": [
+      "panorama_jiaqi_zheng_fca7f0575a1d1858"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_jiaqi_zheng": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "郑嘉琪",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "COMA: A Collaborative Multi-Role Agent Framework for Automated Lesson Plan Generation. Www 2026 Proceedings of the ACM Web Conference 2026",
-      "title_en": "COMA: A Collaborative Multi-Role Agent Framework for Automated Lesson Plan Generation. Www 2026 Proceedings of the ACM Web Conference 2026",
-      "title_zh": "COMA：用于自动生成课程计划的协作多角色代理框架. Www 2026 Proceedings of the ACM Web Conference 2026",
-      "year": 2026,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "Jiaqi Zheng"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "情感大模型与多模态基础模型",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jiaqi_zheng_e23e8f50884d",
-      "category_id": "affective_intelligence",
-      "primary_category": "情感智能、共情与生成",
-      "secondary_tags": [
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jiaqi_zheng",
-      "scholar_name": "郑嘉琪",
-      "work_title_group": "f9ee6d6e15eb",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "primary_categories_by_scholar": [
+      "郑嘉琪：情感数据集、基准与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测"
+  },
+  {
+    "title": "Beyond income: How subjective social class shapes well-being through deprivation, control, and system-justifying belief",
+    "title_en": "Beyond income: How subjective social class shapes well-being through deprivation, control, and system-justifying belief",
+    "title_zh": "超越收入：主观社会阶层如何通过剥夺、控制和制度正当化信念塑造福祉",
+    "year": 2026,
+    "venue": "Journal of Psychology in Africa",
+    "authors": [
+      "Jia‐qi Zheng",
+      "CHEN Xuanyu",
+      "Changze Wu"
+    ],
+    "doi": "10.32604/jpa.2026.079106",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.32604/jpa.2026.079106",
+    "pdf_url": "https://www.techscience.com/jpa/online/detail/27643/pdf",
+    "source_url": "https://openalex.org/W7170071153",
+    "openalex_id": "https://openalex.org/W7170071153",
+    "openalex_author_id": "https://openalex.org/A5090756394",
+    "cited_by_count": 0,
+    "abstract_en": "This study examined how subjective social class (SSC) is associated with subjective well-being (SWB) through relative deprivation (RD) and sense of control (SoC), and how this process varies by system-justifying belief (SJB). Using a large-scale social survey (Study 1; males = 54.2%; mean age = 52.99 years) and a questionnaire-based survey (Study 2; females = 63.3%; mean age = 29.14 years), the results showed that SSC was positively associated with SWB and exerted a significant indirect effect through a sequential mediation pathway involving RD and SoC. This indirect effect was stronger among individuals with higher levels of SJB. These findings are consistent with perspectives emphasizing social comparison and cognitive adaptation, suggesting that individuals’ subjective perceptions of social hierarchy shape well-being through both deprivation-related and control-related processes. The results highlight the importance of considering SSC and ideological beliefs when understanding social inequality and psychological well-being.",
+    "abstract_zh": "本研究探讨了主观社会阶层 (SSC) 如何通过相对剥夺 (RD) 和控制感 (SoC) 与主观幸福感 (SWB) 相关联，以及这一过程如何因系统证明信念 (SJB) 而异。通过大规模社会调查（研究1；男性= 54.2%；平均年龄= 52.99岁）和问卷调查（研究2；女性= 63.3%；平均年龄= 29.14岁），结果表明SSC与SWB呈正相关，并通过涉及RD和SoC的序贯中介途径发挥显着的间接效应。这种间接效应在 SJB 水平较高的个体中更为强烈。这些发现与强调社会比较和认知适应的观点一致，表明……",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5090756394）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_jiaqi_zheng_c7928f52c9c188dc",
+    "global_record_id": "982701f9b41b9579",
+    "scholar_id": "panorama_jiaqi_zheng",
+    "scholar_name": "郑嘉琪",
+    "scholar_ids": [
+      "panorama_jiaqi_zheng"
+    ],
+    "scholar_names": [
+      "郑嘉琪"
+    ],
+    "source_record_ids": [
+      "panorama_jiaqi_zheng_c7928f52c9c188dc"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_jiaqi_zheng": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "郑嘉琪",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "Improving Interpretability of Cognitive Diagnosis Models with LLM-based Semantic Augmentation",
-      "title_en": "Improving Interpretability of Cognitive Diagnosis Models with LLM-based Semantic Augmentation",
-      "title_zh": "利用基于法学硕士的语义增强提高认知诊断模型的可解释性",
-      "year": 2026,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "Jiaqi Zheng"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "情感大模型与多模态基础模型",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jiaqi_zheng_3ab2c3fb057d",
-      "category_id": "emotion_understanding",
-      "primary_category": "情感理解与多模态推理",
-      "secondary_tags": [
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jiaqi_zheng",
-      "scholar_name": "郑嘉琪",
-      "work_title_group": "9ec04a127915",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "primary_categories_by_scholar": [
+      "郑嘉琪：情感数据集、基准与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测"
+  },
+  {
+    "title": "Improving Interpretability of Cognitive Diagnosis Models with LLM-based Semantic Augmentation",
+    "title_en": "Improving Interpretability of Cognitive Diagnosis Models with LLM-based Semantic Augmentation",
+    "title_zh": "利用基于大语言模型的语义增强提高认知诊断模型的可解释性",
+    "year": 2026,
+    "venue": "SIGIR",
+    "authors": [
+      "Youheng Bai",
+      "Jiaqi Zheng",
+      "Mingliang Hou",
+      "Teng Guo",
+      "Mi Tian",
+      "Xiangyu Zhao",
+      "Zitao Liu",
+      "Weiqi Luo"
+    ],
+    "doi": "10.1145/3805712.3809573",
+    "paper_url": "https://doi.org/10.1145/3805712.3809573",
+    "source_url": "https://dblp.org/rec/conf/sigir/BaiZHGTZLL26.html",
+    "topics": [
+      "情感大模型与多模态基础模型",
+      "多模态与大语言模型"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W7167958819",
+    "openalex_author_id": "https://openalex.org/A5090756394",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jiaqi_zheng_3ab2c3fb057d",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理",
+    "secondary_tags": [
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jiaqi_zheng",
+    "scholar_name": "郑嘉琪",
+    "work_title_group": "9ec04a127915",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jiaqi_zheng"
+    ],
+    "scholar_names": [
+      "郑嘉琪"
+    ],
+    "source_record_ids": [
+      "panorama_jiaqi_zheng_3ab2c3fb057d"
+    ],
+    "scholar_categories": {
+      "panorama_jiaqi_zheng": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "郑嘉琪",
+        "secondary_tags": [
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "OPERA: Option-level Pedagogical Explanation via Reasoning for Augmented Knowledge Tracing",
-      "title_en": "OPERA: Option-level Pedagogical Explanation via Reasoning for Augmented Knowledge Tracing",
-      "title_zh": "OPERA：通过增强知识追踪推理进行选项级教学解释",
-      "year": 2026,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "Jiaqi Zheng"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "情感大模型与多模态基础模型",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jiaqi_zheng_91483341afe5",
-      "category_id": "emotion_understanding",
-      "primary_category": "情感理解与多模态推理",
-      "secondary_tags": [
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jiaqi_zheng",
-      "scholar_name": "郑嘉琪",
-      "work_title_group": "37be89c5a5e8",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "e7de3e340b343fe3",
+    "primary_categories_by_scholar": [
+      "郑嘉琪：情感理解与多模态推理"
+    ],
+    "dblp_key": "conf/sigir/BaiZHGTZLL26",
+    "pdf_url": "https://doi.org/10.1145/3805712.3809573",
+    "abstract_en": "Cognitive diagnosis aims to infer students' mastery levels over knowledge components from their learning interactions, supporting personalized education applications. However, existing models encode responses as binary correctness labels, discarding information about which specific option a student selected. This input-level information loss limits their ability to distinguish qualitatively different error types. As a result, providing interpretable diagnostic outputs becomes challenging. To address these limitations, we propose SACD, a semantic-augmented cognitive diagnosis framework that integrates LLM-based semantic analysis with student behavioral modeling. SACD comprises the following key components. First, an LLM-based exercise diagnostic generator analyzes exercise content and produces structured semantic annotations for each answer choice, capturing the specific misconceptions each option represents. Second, a kernel-based alignment mechanism projects semantic embeddings and behavioral representations into a unified kernel space, enabling effective fusion of heterogeneous information. Third, an interpretable diagnosis layer predicts student performance and generates fine-grained mastery estimates, which LLMs further process to produce actionable learning plans. Extensive experiments on three real-world datasets demonstrate that SACD achieves superior prediction accuracy while enabling interpretable, actionable diagnostics.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "Cognitive diagnosis aims to infer students' mastery levels over knowledge components from their learning interactions, supporting personalized education applications.然而，现有模型将响应编码为二进制正确性标签，丢弃有关学生选择的特定选项的信息。这种输入级信息丢失限制了它们区分不同质量的错误类型的能力。因此，提供可解释的诊断输出变得具有挑战性。为了解决这些局限性，我们提出了 SACD，这是一种语义增强认知诊断框架，它将基于 LLM 的语义分析与学生行为建模相结合。 SACD comprises the following k..."
+  },
+  {
+    "title": "Exploring the impact of AI tools on filmmakers’ creative satisfaction: the mediating role of creative efficiency and autonomy",
+    "title_en": "Exploring the impact of AI tools on filmmakers’ creative satisfaction: the mediating role of creative efficiency and autonomy",
+    "title_zh": "探讨人工智能工具对电影制片人创意满意度的影响：创意效率和自主性的中介作用",
+    "year": 2026,
+    "venue": "Frontiers in Psychology",
+    "authors": [
+      "Wenyu Jiang",
+      "Jia‐qi Zheng"
+    ],
+    "doi": "10.3389/fpsyg.2026.1802795",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.3389/fpsyg.2026.1802795",
+    "pdf_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1802795/pdf",
+    "source_url": "https://openalex.org/W7164169057",
+    "openalex_id": "https://openalex.org/W7164169057",
+    "openalex_author_id": "https://openalex.org/A5090756394",
+    "cited_by_count": 3,
+    "abstract_en": "This study takes an innovative approach by examining how the functionality of AI tools, human-AI collaboration, and learning cost indirectly affect creative satisfaction through creative efficiency and autonomy from the perspective of filmmakers' satisfaction. By analyzing gender differences, the study reveals distinct preferences between male and female directors in using AI tools for filmmaking. Female directors tend to rely more on the functionality of AI tools and effective collaboration with them, while male directors place greater importance on autonomy during the creative process. The study also identifies four key mediation paths, where functionality indirectly influences creative satisfaction through both creative efficiency and autonomy, and human-AI collaboration indirectly affects creative satisfaction through creative efficiency and autonomy. Finally, the frequency of using generative video tools and the acceptance of new technologies significantly impact creative satisfaction, offering valuable insights for personalized design and AI tool optimization.",
+    "abstract_zh": "本研究采用创新方法，从电影制片人满意度的角度审视人工智能工具的功能、人机协作和学习成本如何通过创意效率和自主性间接影响创意满意度。通过分析性别差异，该研究揭示了男性和女性导演在使用人工智能工具进行电影制作时的不同偏好。女性导演更倾向于依赖人工智能工具的功能以及与人工智能工具的有效协作，而男性导演则更注重创作过程中的自主性。该研究还确定了四个关键的中介路径，其中功能通过创意效率和自动化间接影响创意满意度。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5090756394）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_jiaqi_zheng_0c82857bf5901af9",
+    "global_record_id": "85be886fc0676284",
+    "scholar_id": "panorama_jiaqi_zheng",
+    "scholar_name": "郑嘉琪",
+    "scholar_ids": [
+      "panorama_jiaqi_zheng"
+    ],
+    "scholar_names": [
+      "郑嘉琪"
+    ],
+    "source_record_ids": [
+      "panorama_jiaqi_zheng_0c82857bf5901af9"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_jiaqi_zheng": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "郑嘉琪",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "Fostering Student Subjective Well-Being for the Third Decade of the Twenty-First Century Using PISA: The Macao Perspective",
-      "title_en": "Fostering Student Subjective Well-Being for the Third Decade of the Twenty-First Century Using PISA: The Macao Perspective",
-      "title_zh": "利用 PISA 促进二十一世纪第三个十年的学生主观幸福感：澳门视角",
-      "year": 2025,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "Jiaqi Zheng"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "情感大模型与多模态基础模型",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jiaqi_zheng_198dd7f0225d",
-      "category_id": "emotion_understanding",
-      "primary_category": "情感理解与多模态推理",
-      "secondary_tags": [
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jiaqi_zheng",
-      "scholar_name": "郑嘉琪",
-      "work_title_group": "87460bdcd290",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "primary_categories_by_scholar": [
+      "郑嘉琪：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "An Information-Theoretic Evaluation Framework for Benchmark and Model Diagnosis in Knowledge Tracing",
+    "title_en": "An Information-Theoretic Evaluation Framework for Benchmark and Model Diagnosis in Knowledge Tracing",
+    "title_zh": "知识追踪基准和模型诊断的信息论评估框架",
+    "year": 2026,
+    "venue": "CoRR",
+    "authors": [
+      "Houru Jiang",
+      "Zixi Wang",
+      "Tengteng Cheng",
+      "Xueyi Li",
+      "Mingliang Hou",
+      "Jiaqi Zheng",
+      "Renqiang Luo",
+      "Teng Guo",
+      "Zitao Liu"
+    ],
+    "doi": "10.48550/ARXIV.2610.06988",
+    "dblp_key": "journals/corr/abs-2610-06988",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2610.06988",
+    "pdf_url": "https://arxiv.org/pdf/2610.06988.pdf",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2610-06988.html",
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "cited_by_count": 0,
+    "abstract_en": "Knowledge tracing (KT) models are predominantly evaluated using aggregate metrics such as area under the curve (AUC) and accuracy. However, these global scores obscure where the remaining errors originate and fail to indicate whether a benchmark is approaching saturation. While estimating a global theoretical performance limit is challenging in realistic KT settings, it is possible to quantify local predictability. To address this, we propose an information-theoretic evaluation framework for KT benchmark diagnosis. We use Context Tree Weighting (CTW) on item-response histories and current-item queries as an operational causal uncertainty coordinate, while distinguishing it from the unobserved Local Irreducible Uncertainty (LIU) under the full KT information set. By projecting predictions onto this shared uncertainty coordinate, we evaluate model performance gains across distinct entropy bands rather than only at the global level. Comprehensive evaluations on NIPS Task 3/4 and Algebra 2005 reveal that model improvements are highly non-uniform. Modern KT models show substantial gains in high-entropy regions, and additional item-aware references, log-loss, and equal-frequency analyses support this localization. The framework also flags regions where apparent gains require checks for noise-sensitive behavior. By surfacing these local modeling failures alongside genuine gains, this approach provides a diagnostic tool for studying both residual predictive structure and the limitations of current KT benchmarks and models.",
+    "abstract_zh": "知识追踪 (KT) 模型主要使用曲线下面积 (AUC) 和准确性等聚合指标进行评估。然而，这些全局分数掩盖了剩余错误的根源，并且无法表明基准是否接近饱和。虽然在实际 KT 设置中估计全局理论性能极限具有挑战性，但量化局部可预测性是可能的。为了解决这个问题，我们提出了一种用于 KT 基准诊断的信息论评估框架。我们在项目响应历史和当前项目查询上使用上下文树权重（CTW）作为操作因果不确定性坐标，同时将其与未来下未观察到的局部不可约不确定性（LIU）区分开来。",
+    "abstract_source": "arxiv_api",
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 369/6190）",
+    "status": "预印本记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_jiaqi_zheng_4114440f62021f44",
+    "global_record_id": "67bce1949ad38ca2",
+    "scholar_id": "panorama_jiaqi_zheng",
+    "scholar_name": "郑嘉琪",
+    "scholar_ids": [
+      "panorama_jiaqi_zheng"
+    ],
+    "scholar_names": [
+      "郑嘉琪"
+    ],
+    "source_record_ids": [
+      "panorama_jiaqi_zheng_4114440f62021f44"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_jiaqi_zheng": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "郑嘉琪",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "Unfolding key factors of resilience in ICT cognitive-motivational engagement: Global evidence from machine learning techniques. International Journal of Educational Research",
-      "title_en": "Unfolding key factors of resilience in ICT cognitive-motivational engagement: Global evidence from machine learning techniques. International Journal of Educational Research",
-      "title_zh": "揭示 ICT 认知动机参与中复原力的关键因素：来自机器学习技术的全球证据。国际教育研究杂志",
-      "year": 2025,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "Jiaqi Zheng"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "情感大模型与多模态基础模型",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jiaqi_zheng_aeafffb06cfb",
-      "category_id": "emotion_understanding",
-      "primary_category": "情感理解与多模态推理",
-      "secondary_tags": [
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jiaqi_zheng",
-      "scholar_name": "郑嘉琪",
-      "work_title_group": "34b34769d6f6",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "primary_categories_by_scholar": [
+      "郑嘉琪：情感数据集、基准与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测"
+  },
+  {
+    "title": "COMA: A Collaborative Multi-Role Agent Framework for Automated Lesson Plan Generation",
+    "title_en": "COMA: A Collaborative Multi-Role Agent Framework for Automated Lesson Plan Generation",
+    "title_zh": "COMA：用于自动生成课程计划的协作多角色代理框架",
+    "year": 2026,
+    "venue": "WWW",
+    "authors": [
+      "Xiaoli Zeng",
+      "Ying Zheng",
+      "Shuyan Huang",
+      "Zitao Liu",
+      "Mi Tian",
+      "Mingliang Hou",
+      "Jiaqi Zheng",
+      "Wenzhou Dou"
+    ],
+    "doi": "10.1145/3774904.3792982",
+    "paper_url": "https://doi.org/10.1145/3774904.3792982",
+    "source_url": "https://dblp.org/rec/conf/www/ZengZHLTHZD26.html",
+    "topics": [
+      "情感大模型与多模态基础模型"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W7152378534",
+    "openalex_author_id": "https://openalex.org/A5090756394",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jiaqi_zheng_45359f9049d0",
+    "category_id": "affective_intelligence",
+    "primary_category": "情感智能、共情与生成",
+    "secondary_tags": [
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jiaqi_zheng",
+    "scholar_name": "郑嘉琪",
+    "work_title_group": "7c9e818389b3",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jiaqi_zheng"
+    ],
+    "scholar_names": [
+      "郑嘉琪"
+    ],
+    "source_record_ids": [
+      "panorama_jiaqi_zheng_45359f9049d0"
+    ],
+    "scholar_categories": {
+      "panorama_jiaqi_zheng": {
+        "category_id": "affective_intelligence",
+        "label": "情感智能、共情与生成",
+        "scholar_name": "郑嘉琪",
+        "secondary_tags": [
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "A machine-learning model of academic resilience in the times of the COVID-19 pandemic: Evidence drawn from 79 countries/economies in the PISA 2022 mathematics study. British Journal of Educational Psychology",
-      "title_en": "A machine-learning model of academic resilience in the times of the COVID-19 pandemic: Evidence drawn from 79 countries/economies in the PISA 2022 mathematics study. British Journal of Educational Psychology",
-      "title_zh": "COVID-19 大流行时期学术弹性的机器学习模型：来自 PISA 2022 数学研究中 79 个国家/经济体的证据。英国教育心理学杂志",
-      "year": 2024,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "Jiaqi Zheng"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "情感大模型与多模态基础模型",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jiaqi_zheng_9a9343784b1d",
-      "category_id": "emotion_understanding",
-      "primary_category": "情感理解与多模态推理",
-      "secondary_tags": [
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jiaqi_zheng",
-      "scholar_name": "郑嘉琪",
-      "work_title_group": "2fa7bc6ba14f",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "cdd91bd4a76c363d",
+    "primary_categories_by_scholar": [
+      "郑嘉琪：情感智能、共情与生成"
+    ],
+    "dblp_key": "conf/www/ZengZHLTHZD26"
+  },
+  {
+    "title": "COMA: A Collaborative Multi-Role Agent Framework for Automated Lesson Plan Generation. Www 2026 Proceedings of the ACM Web Conference 2026",
+    "title_en": "COMA: A Collaborative Multi-Role Agent Framework for Automated Lesson Plan Generation. Www 2026 Proceedings of the ACM Web Conference 2026",
+    "title_zh": "COMA：用于自动生成课程计划的协作多角色代理框架。 Www 2026 2026 年 ACM 网络会议论文集",
+    "year": 2026,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "Jiaqi Zheng"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "情感大模型与多模态基础模型"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jiaqi_zheng_e23e8f50884d",
+    "category_id": "affective_intelligence",
+    "primary_category": "情感智能、共情与生成",
+    "secondary_tags": [
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jiaqi_zheng",
+    "scholar_name": "郑嘉琪",
+    "work_title_group": "f9ee6d6e15eb",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jiaqi_zheng"
+    ],
+    "scholar_names": [
+      "郑嘉琪"
+    ],
+    "source_record_ids": [
+      "panorama_jiaqi_zheng_e23e8f50884d"
+    ],
+    "scholar_categories": {
+      "panorama_jiaqi_zheng": {
+        "category_id": "affective_intelligence",
+        "label": "情感智能、共情与生成",
+        "scholar_name": "郑嘉琪",
+        "secondary_tags": [
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "A systematic review of academic resilience in East Asia: Evidence from the large-scale assessment research. Psychology in the Schools",
-      "title_en": "A systematic review of academic resilience in East Asia: Evidence from the large-scale assessment research. Psychology in the Schools",
-      "title_zh": "东亚学术弹性的系统回顾：来自大规模评估研究的证据。学校心理学",
-      "year": 2024,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "Jiaqi Zheng"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "情感大模型与多模态基础模型",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jiaqi_zheng_853ed96a4026",
-      "category_id": "emotion_understanding",
-      "primary_category": "情感理解与多模态推理",
-      "secondary_tags": [
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jiaqi_zheng",
-      "scholar_name": "郑嘉琪",
-      "work_title_group": "1418ce4c660e",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "91e1b1b9f610df8b",
+    "primary_categories_by_scholar": [
+      "郑嘉琪：情感智能、共情与生成"
+    ]
+  },
+  {
+    "title": "OPERA: Option-level Pedagogical Explanation via Reasoning for Augmented Knowledge Tracing",
+    "title_en": "OPERA: Option-level Pedagogical Explanation via Reasoning for Augmented Knowledge Tracing",
+    "title_zh": "OPERA：通过增强知识追踪推理进行选项级教学解释",
+    "year": 2026,
+    "venue": "ACM International Conference on Information and Knowledge Management (CIKM)",
+    "authors": [
+      "Zhiwei Huang",
+      "Xueyi Li",
+      "Jia‐qi Zheng",
+      "Xiangyu Zhao",
+      "Zitao Liu"
+    ],
+    "doi": "10.1145/3799682.3841111",
+    "paper_url": "https://doi.org/10.1145/3799682.3841111",
+    "source_url": "https://openalex.org/W7225108906",
+    "topics": [
+      "情感大模型与多模态基础模型",
+      "多模态与大语言模型"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W7225108906",
+    "openalex_author_id": "https://openalex.org/A5090756394",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jiaqi_zheng_91483341afe5",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理",
+    "secondary_tags": [
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jiaqi_zheng",
+    "scholar_name": "郑嘉琪",
+    "work_title_group": "37be89c5a5e8",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jiaqi_zheng"
+    ],
+    "scholar_names": [
+      "郑嘉琪"
+    ],
+    "source_record_ids": [
+      "panorama_jiaqi_zheng_91483341afe5"
+    ],
+    "scholar_categories": {
+      "panorama_jiaqi_zheng": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "郑嘉琪",
+        "secondary_tags": [
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Identifying key features of resilient students in digital reading: Insights from a machine learning approach. Education and Information Technologies",
-      "title_en": "Identifying key features of resilient students in digital reading: Insights from a machine learning approach. Education and Information Technologies",
-      "title_zh": "识别数字阅读中有弹性的学生的关键特征：来自机器学习方法的见解。教育和信息技术",
-      "year": 2024,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "Jiaqi Zheng"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "情感大模型与多模态基础模型",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jiaqi_zheng_bc68cf444baf",
-      "category_id": "emotion_understanding",
-      "primary_category": "情感理解与多模态推理",
-      "secondary_tags": [
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jiaqi_zheng",
-      "scholar_name": "郑嘉琪",
-      "work_title_group": "75dd10964f6a",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "a2180db7effdd315",
+    "primary_categories_by_scholar": [
+      "郑嘉琪：情感理解与多模态推理"
+    ],
+    "pdf_url": "https://doi.org/10.1145/3799682.3841111",
+    "abstract_en": "Knowledge tracing (KT) aims to predict learners' future performance by modeling their historical interaction data. In real-world educational scenarios, multiple-choice questions are deliberately designed so that each distractor exposes a specific misconception; however, existing KT models rely on randomly initialized ID embeddings and reduce each interaction to a binary correctness label, making it difficult to exploit such option-level diagnostic signals. To address these problems, we propose an option-level pedagogical explanation framework for augmented KT, i.e., OPERA, which combines LLM-based option-level explanation generation, multi-judge quality assurance, and offline semantic embedding injection into existing KT backbones, with all LLM computation confined to one-time offline preprocessing. Experiments on three multiple-choice datasets demonstrate our framework's superior performance in terms of prediction accuracy, consistently improving lightweight ID-based backbones to match or surpass much heavier process-aware models. To encourage reproducible research, we have made our code publicly available at https://pykt.org/.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "知识追踪（KT）旨在通过对学习者的历史交互数据进行建模来预测学习者的未来表现。在现实世界的教育场景中，多项选择题是经过精心设计的，以便每个干扰因素都会暴露出特定的误解；然而，现有的 KT 模型依赖于随机初始化的 ID 嵌入，并将每次交互减少为二进制正确性标签，使得很难利用此类选项级诊断信号。为了解决这些问题，我们提出了一种增强 KT 的选项级教学解释框架，即 OPERA，它结合了基于 LLM 的选项级解释生成、多评判质量保证和离线语义嵌入……"
+  },
+  {
+    "title": "Unfolding key factors of resilience in ICT cognitive-motivational engagement: Global evidence from machine learning techniques",
+    "title_en": "Unfolding key factors of resilience in ICT cognitive-motivational engagement: Global evidence from machine learning techniques",
+    "title_zh": "揭示 ICT 认知动机参与中复原力的关键因素：来自机器学习技术的全球证据",
+    "year": 2025,
+    "venue": "International Journal of Educational Research",
+    "authors": [
+      "Jia‐qi Zheng",
+      "Kwok‐cheung Cheung",
+      "Pou‐seong Sit",
+      "Chi‐chio Lam"
+    ],
+    "doi": "10.1016/j.ijer.2025.102607",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1016/j.ijer.2025.102607",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4409632565",
+    "openalex_id": "https://openalex.org/W4409632565",
+    "openalex_author_id": "https://openalex.org/A5090756394",
+    "cited_by_count": 8,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5090756394）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_jiaqi_zheng_1d3e889a12fea51e",
+    "global_record_id": "b626ec9cd7d2ea42",
+    "scholar_id": "panorama_jiaqi_zheng",
+    "scholar_name": "郑嘉琪",
+    "scholar_ids": [
+      "panorama_jiaqi_zheng"
+    ],
+    "scholar_names": [
+      "郑嘉琪"
+    ],
+    "source_record_ids": [
+      "panorama_jiaqi_zheng_1d3e889a12fea51e"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_jiaqi_zheng": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "郑嘉琪",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
     },
-    {
-      "title": "Insights from Two Decades of PISA-related Studies in the New Century: A Systematic Review. Scandinavian Journal of Educational Research",
-      "title_en": "Insights from Two Decades of PISA-related Studies in the New Century: A Systematic Review. Scandinavian Journal of Educational Research",
-      "title_zh": "新世纪二十年PISA相关研究的见解：系统回顾。斯堪的纳维亚教育研究杂志",
-      "year": 2024,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "Jiaqi Zheng"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "情感大模型与多模态基础模型",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jiaqi_zheng_717aa9f74e3f",
-      "category_id": "emotion_understanding",
-      "primary_category": "情感理解与多模态推理",
-      "secondary_tags": [
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jiaqi_zheng",
-      "scholar_name": "郑嘉琪",
-      "work_title_group": "d133dedb8b9a",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "primary_categories_by_scholar": [
+      "郑嘉琪：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Unfolding key factors of resilience in ICT cognitive-motivational engagement: Global evidence from machine learning techniques. International Journal of Educational Research",
+    "title_en": "Unfolding key factors of resilience in ICT cognitive-motivational engagement: Global evidence from machine learning techniques. International Journal of Educational Research",
+    "title_zh": "揭示 ICT 认知动机参与中复原力的关键因素：来自机器学习技术的全球证据。国际教育研究杂志",
+    "year": 2025,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "Jiaqi Zheng"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "情感大模型与多模态基础模型"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jiaqi_zheng_aeafffb06cfb",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理",
+    "secondary_tags": [
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jiaqi_zheng",
+    "scholar_name": "郑嘉琪",
+    "work_title_group": "34b34769d6f6",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jiaqi_zheng"
+    ],
+    "scholar_names": [
+      "郑嘉琪"
+    ],
+    "source_record_ids": [
+      "panorama_jiaqi_zheng_aeafffb06cfb"
+    ],
+    "scholar_categories": {
+      "panorama_jiaqi_zheng": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "郑嘉琪",
+        "secondary_tags": [
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Multiple pathways to science enjoyment: a fuzzy-set qualitative comparative analysis in TIMSS 2019. International Journal of Science Education",
-      "title_en": "Multiple pathways to science enjoyment: a fuzzy-set qualitative comparative analysis in TIMSS 2019. International Journal of Science Education",
-      "title_zh": "享受科学乐趣的多种途径：TIMSS 2019 中的模糊集定性比较分析。国际科学教育杂志",
-      "year": 2024,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "Jiaqi Zheng"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "情感大模型与多模态基础模型",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jiaqi_zheng_318be9dd86c8",
-      "category_id": "emotion_understanding",
-      "primary_category": "情感理解与多模态推理",
-      "secondary_tags": [
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jiaqi_zheng",
-      "scholar_name": "郑嘉琪",
-      "work_title_group": "0aadc0617cbb",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "c7252917a254c0ca",
+    "primary_categories_by_scholar": [
+      "郑嘉琪：情感理解与多模态推理"
+    ]
+  },
+  {
+    "title": "Fostering Student Subjective Well-Being for the Third Decade of the Twenty-First Century Using PISA: The Macao Perspective",
+    "title_en": "Fostering Student Subjective Well-Being for the Third Decade of the Twenty-First Century Using PISA: The Macao Perspective",
+    "title_zh": "利用 PISA 促进二十一世纪第三个十年的学生主观幸福感：澳门视角",
+    "year": 2025,
+    "venue": "Springer eBooks",
+    "authors": [
+      "Soi‐kei Mak",
+      "Kwok‐cheung Cheung",
+      "Pou‐seong Sit",
+      "Man‐kai Ieong",
+      "Jia‐qi Zheng"
+    ],
+    "doi": "10.1007/978-981-96-8039-9_4",
+    "paper_url": "https://doi.org/10.1007/978-981-96-8039-9_4",
+    "source_url": "https://openalex.org/W4413841635",
+    "topics": [
+      "情感大模型与多模态基础模型"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4413841635",
+    "openalex_author_id": "https://openalex.org/A5090756394",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jiaqi_zheng_198dd7f0225d",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理",
+    "secondary_tags": [
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jiaqi_zheng",
+    "scholar_name": "郑嘉琪",
+    "work_title_group": "87460bdcd290",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jiaqi_zheng"
+    ],
+    "scholar_names": [
+      "郑嘉琪"
+    ],
+    "source_record_ids": [
+      "panorama_jiaqi_zheng_198dd7f0225d"
+    ],
+    "scholar_categories": {
+      "panorama_jiaqi_zheng": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "郑嘉琪",
+        "secondary_tags": [
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "The Effects of Perceptions Toward Interpersonal Relationships on Collaborative Problem-Solving Competence: Comparing Four Ethnic Chinese Communities Assessed in PISA 2015. Asia Pacific Education Researcher",
-      "title_en": "The Effects of Perceptions Toward Interpersonal Relationships on Collaborative Problem-Solving Competence: Comparing Four Ethnic Chinese Communities Assessed in PISA 2015. Asia Pacific Education Researcher",
-      "title_zh": "对人际关系的看法对协作解决问题能力的影响：比较 2015 年 PISA 评估的四个华人社区。亚太教育研究员",
-      "year": 2024,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "Jiaqi Zheng"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "情感大模型与多模态基础模型",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jiaqi_zheng_3641a0b67f6d",
-      "category_id": "emotion_understanding",
-      "primary_category": "情感理解与多模态推理",
-      "secondary_tags": [
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jiaqi_zheng",
-      "scholar_name": "郑嘉琪",
-      "work_title_group": "89018cfcbc6b",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "e017684deefd6f7e",
+    "primary_categories_by_scholar": [
+      "郑嘉琪：情感理解与多模态推理"
+    ]
+  },
+  {
+    "title": "P-MIA: A Profiled-Based Membership Inference Attack on Cognitive Diagnosis Models",
+    "title_en": "P-MIA: A Profiled-Based Membership Inference Attack on Cognitive Diagnosis Models",
+    "title_zh": "P-MIA：对认知诊断模型的基于概要的成员推理攻击",
+    "year": 2025,
+    "venue": "CoRR",
+    "authors": [
+      "Mingliang Hou",
+      "Yinuo Wang",
+      "Teng Guo",
+      "Zitao Liu",
+      "Wenzhou Dou",
+      "Jiaqi Zheng",
+      "Renqiang Luo",
+      "Mi Tian",
+      "Weiqi Luo"
+    ],
+    "doi": "10.48550/ARXIV.2511.04716",
+    "dblp_key": "journals/corr/abs-2511-04716",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2511.04716",
+    "pdf_url": "https://arxiv.org/pdf/2511.04716.pdf",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2511-04716.html",
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "cited_by_count": 0,
+    "abstract_en": "Cognitive diagnosis models (CDMs) are pivotal for creating fine-grained learner profiles in modern intelligent education platforms. However, these models are trained on sensitive student data, raising significant privacy concerns. While membership inference attacks (MIA) have been studied in various domains, their application to CDMs remains a critical research gap, leaving their privacy risks unquantified. This paper is the first to systematically investigate MIA against CDMs. We introduce a novel and realistic grey box threat model that exploits the explainability features of these platforms, where a model's internal knowledge state vectors are exposed to users through visualizations such as radar charts. We demonstrate that these vectors can be accurately reverse-engineered from such visualizations, creating a potent attack surface. Based on this threat model, we propose a profile-based MIA (P-MIA) framework that leverages both the model's final prediction probabilities and the exposed internal knowledge state vectors as features. Extensive experiments on three real-world datasets against mainstream CDMs show that our grey-box attack significantly outperforms standard black-box baselines. Furthermore, we showcase the utility of P-MIA as an auditing tool by successfully evaluating the efficacy of machine unlearning techniques and revealing their limitations.",
+    "abstract_zh": "认知诊断模型（CDM）对于在现代智能教育平台中创建细粒度的学习者档案至关重要。然而，这些模型是根据敏感的学生数据进行训练的，引发了严重的隐私问题。虽然成员推理攻击 (MIA) 已在各个领域进行了研究，但它们在 CDM 中的应用仍然是一个关键的研究空白，导致其隐私风险无法量化。本文是第一篇系统研究针对 CDM 的 MIA 的论文。我们引入了一种新颖且现实的灰盒威胁模型，该模型利用这些平台的可解释性特征，其中模型的内部知识状态向量通过雷达图等可视化效果向用户公开。我们证明这些向量...",
+    "abstract_source": "arxiv_api",
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 369/6190）",
+    "status": "预印本记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_jiaqi_zheng_3761c44099896d90",
+    "global_record_id": "eb69eb48bc2f0a30",
+    "scholar_id": "panorama_jiaqi_zheng",
+    "scholar_name": "郑嘉琪",
+    "scholar_ids": [
+      "panorama_jiaqi_zheng"
+    ],
+    "scholar_names": [
+      "郑嘉琪"
+    ],
+    "source_record_ids": [
+      "panorama_jiaqi_zheng_3761c44099896d90"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_jiaqi_zheng": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "郑嘉琪",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "Unfolding the Moderating Role of Gender in the Relationship Between Teacher Support and Students’ Well-being: Evidence from PISA 2022. Child Indicators Research",
-      "title_en": "Unfolding the Moderating Role of Gender in the Relationship Between Teacher Support and Students’ Well-being: Evidence from PISA 2022. Child Indicators Research",
-      "title_zh": "揭示性别在教师支持与学生福祉之间关系中的调节作用：来自 PISA 2022 的证据。儿童指标研究",
-      "year": 2024,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "Jiaqi Zheng"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "情感大模型与多模态基础模型",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jiaqi_zheng_60d2fa66578d",
-      "category_id": "emotion_understanding",
-      "primary_category": "情感理解与多模态推理",
-      "secondary_tags": [
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jiaqi_zheng",
-      "scholar_name": "郑嘉琪",
-      "work_title_group": "5648a0b9f3c4",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "primary_categories_by_scholar": [
+      "郑嘉琪：情感数据集、基准与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测"
+  },
+  {
+    "title": "PrivacyCD: Hierarchical Unlearning for Protecting Student Privacy in Cognitive Diagnosis",
+    "title_en": "PrivacyCD: Hierarchical Unlearning for Protecting Student Privacy in Cognitive Diagnosis",
+    "title_zh": "PrivacyCD：认知诊断中保护学生隐私的分层忘却",
+    "year": 2025,
+    "venue": "CoRR",
+    "authors": [
+      "Mingliang Hou",
+      "Yinuo Wang",
+      "Teng Guo",
+      "Zitao Liu",
+      "Wenzhou Dou",
+      "Jiaqi Zheng",
+      "Renqiang Luo",
+      "Mi Tian",
+      "Weiqi Luo"
+    ],
+    "doi": "10.48550/ARXIV.2511.03966",
+    "dblp_key": "journals/corr/abs-2511-03966",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2511.03966",
+    "pdf_url": "https://arxiv.org/pdf/2511.03966",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2511-03966.html",
+    "openalex_id": "https://openalex.org/W4416023434",
+    "openalex_author_id": "https://openalex.org/A5090756394",
+    "cited_by_count": 2,
+    "abstract_en": "The need to remove specific student data from cognitive diagnosis (CD) models has become a pressing requirement, driven by users' growing assertion of their \"right to be forgotten\". However, existing CD models are largely designed without privacy considerations and lack effective data unlearning mechanisms. Directly applying general purpose unlearning algorithms is suboptimal, as they struggle to balance unlearning completeness, model utility, and efficiency when confronted with the unique heterogeneous structure of CD models. To address this, our paper presents the first systematic study of the data unlearning problem for CD models, proposing a novel and efficient algorithm: hierarchical importanceguided forgetting (HIF). Our key insight is that parameter importance in CD models exhibits distinct layer wise characteristics. HIF leverages this via an innovative smoothing mechanism that combines individual and layer, level importance, enabling a more precise distinction of parameters associated with the data to be unlearned. Experiments on three real world datasets show that HIF significantly outperforms baselines on key metrics, offering the first effective solution for CD models to respond to user data removal requests and for deploying high-performance, privacy preserving AI systems",
+    "abstract_zh": "由于用户越来越主张自己的“被遗忘权”，从认知诊断（CD）模型中删除特定学生数据的需求已成为迫切的要求。然而，现有的CD模型在设计时很大程度上没有考虑隐私问题，并且缺乏有效的数据遗忘机制。直接应用通用的消除学习算法并不是最理想的，因为当面对 CD 模型独特的异构结构时，它们很难平衡消除学习的完整性、模型实用性和效率。为了解决这个问题，我们的论文首次系统地研究了 CD 模型的数据遗忘问题，提出了一种新颖且有效的算法：层次重要性引导遗忘（HIF）。我们的主要见解是...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 369/6190）",
+    "status": "预印本记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_jiaqi_zheng_f5a55e65b3d19af4",
+    "global_record_id": "1cdaa872a3faa3d4",
+    "scholar_id": "panorama_jiaqi_zheng",
+    "scholar_name": "郑嘉琪",
+    "scholar_ids": [
+      "panorama_jiaqi_zheng"
+    ],
+    "scholar_names": [
+      "郑嘉琪"
+    ],
+    "source_record_ids": [
+      "panorama_jiaqi_zheng_f5a55e65b3d19af4"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_jiaqi_zheng": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "郑嘉琪",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "Unraveling the relationship between ESCS and digital reading performance: A multilevel mediation analysis of ICT-related psychological needs. Education and Information Technologies",
-      "title_en": "Unraveling the relationship between ESCS and digital reading performance: A multilevel mediation analysis of ICT-related psychological needs. Education and Information Technologies",
-      "title_zh": "揭示 ESCS 与数字阅读表现之间的关系：ICT 相关心理需求的多层次中介分析。教育和信息技术",
-      "year": 2024,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "Jiaqi Zheng"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "情感大模型与多模态基础模型",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jiaqi_zheng_5cc8cb0b96db",
-      "category_id": "emotion_understanding",
-      "primary_category": "情感理解与多模态推理",
-      "secondary_tags": [
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jiaqi_zheng",
-      "scholar_name": "郑嘉琪",
-      "work_title_group": "63d43fb70c2d",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
-    }
-  ]
-}
+    "primary_categories_by_scholar": [
+      "郑嘉琪：情感数据集、基准与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测"
+  },
+  {
+    "title": "A systematic review of academic resilience in East Asia: Evidence from the large-scale assessment research. Psychology in the Schools",
+    "title_en": "A systematic review of academic resilience in East Asia: Evidence from the large-scale assessment research. Psychology in the Schools",
+    "title_zh": "东亚学术弹性的系统回顾：来自大规模评估研究的证据。学校心理学",
+    "year": 2024,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "Jiaqi Zheng"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "情感大模型与多模态基础模型"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jiaqi_zheng_853ed96a4026",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理",
+    "secondary_tags": [
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jiaqi_zheng",
+    "scholar_name": "郑嘉琪",
+    "work_title_group": "1418ce4c660e",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jiaqi_zheng"
+    ],
+    "scholar_names": [
+      "郑嘉琪"
+    ],
+    "source_record_ids": [
+      "panorama_jiaqi_zheng_853ed96a4026"
+    ],
+    "scholar_categories": {
+      "panorama_jiaqi_zheng": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "郑嘉琪",
+        "secondary_tags": [
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "c986e1c979343ac4",
+    "primary_categories_by_scholar": [
+      "郑嘉琪：情感理解与多模态推理"
+    ]
+  },
+  {
+    "title": "The Effects of Perceptions Toward Interpersonal Relationships on Collaborative Problem-Solving Competence: Comparing Four Ethnic Chinese Communities Assessed in PISA 2015. Asia Pacific Education Researcher",
+    "title_en": "The Effects of Perceptions Toward Interpersonal Relationships on Collaborative Problem-Solving Competence: Comparing Four Ethnic Chinese Communities Assessed in PISA 2015. Asia Pacific Education Researcher",
+    "title_zh": "对人际关系的看法对协作解决问题能力的影响：比较 2015 年 PISA 评估的四个华人社区。亚太教育研究员",
+    "year": 2024,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "Jiaqi Zheng"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "情感大模型与多模态基础模型"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jiaqi_zheng_3641a0b67f6d",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理",
+    "secondary_tags": [
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jiaqi_zheng",
+    "scholar_name": "郑嘉琪",
+    "work_title_group": "89018cfcbc6b",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jiaqi_zheng"
+    ],
+    "scholar_names": [
+      "郑嘉琪"
+    ],
+    "source_record_ids": [
+      "panorama_jiaqi_zheng_3641a0b67f6d"
+    ],
+    "scholar_categories": {
+      "panorama_jiaqi_zheng": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "郑嘉琪",
+        "secondary_tags": [
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "6bf74bb2810ed0e7",
+    "primary_categories_by_scholar": [
+      "郑嘉琪：情感理解与多模态推理"
+    ]
+  },
+  {
+    "title": "Unraveling the relationship between ESCS and digital reading performance: A multilevel mediation analysis of ICT-related psychological needs",
+    "title_en": "Unraveling the relationship between ESCS and digital reading performance: A multilevel mediation analysis of ICT-related psychological needs",
+    "title_zh": "揭示 ESCS 与数字阅读表现之间的关系：ICT 相关心理需求的多层次中介分析",
+    "year": 2024,
+    "venue": "Educ. Inf. Technol.",
+    "authors": [
+      "Jiaqi Zheng",
+      "Kwok-cheung Cheung",
+      "Pou-seong Sit",
+      "Chi-chio Lam"
+    ],
+    "doi": "10.1007/S10639-024-12458-9",
+    "dblp_key": "journals/eait/ZhengCSL24",
+    "paper_url": "https://doi.org/10.1007/S10639-024-12458-9",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/journals/eait/ZhengCSL24.html",
+    "openalex_id": "https://openalex.org/W4391028368",
+    "openalex_author_id": "https://openalex.org/A5090756394",
+    "cited_by_count": 12,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 369/6190）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_jiaqi_zheng_344457353886d27d",
+    "global_record_id": "d64604ab16cdbed4",
+    "scholar_id": "panorama_jiaqi_zheng",
+    "scholar_name": "郑嘉琪",
+    "scholar_ids": [
+      "panorama_jiaqi_zheng"
+    ],
+    "scholar_names": [
+      "郑嘉琪"
+    ],
+    "source_record_ids": [
+      "panorama_jiaqi_zheng_344457353886d27d"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_jiaqi_zheng": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "郑嘉琪",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "郑嘉琪：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Unraveling the relationship between ESCS and digital reading performance: A multilevel mediation analysis of ICT-related psychological needs. Education and Information Technologies",
+    "title_en": "Unraveling the relationship between ESCS and digital reading performance: A multilevel mediation analysis of ICT-related psychological needs. Education and Information Technologies",
+    "title_zh": "揭示 ESCS 与数字阅读表现之间的关系：ICT 相关心理需求的多层次中介分析。教育和信息技术",
+    "year": 2024,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "Jiaqi Zheng"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "情感大模型与多模态基础模型"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jiaqi_zheng_5cc8cb0b96db",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理",
+    "secondary_tags": [
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jiaqi_zheng",
+    "scholar_name": "郑嘉琪",
+    "work_title_group": "63d43fb70c2d",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jiaqi_zheng"
+    ],
+    "scholar_names": [
+      "郑嘉琪"
+    ],
+    "source_record_ids": [
+      "panorama_jiaqi_zheng_5cc8cb0b96db"
+    ],
+    "scholar_categories": {
+      "panorama_jiaqi_zheng": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "郑嘉琪",
+        "secondary_tags": [
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "f7c6ba1a34941a07",
+    "primary_categories_by_scholar": [
+      "郑嘉琪：情感理解与多模态推理"
+    ]
+  },
+  {
+    "title": "Unfolding the Moderating Role of Gender in the Relationship Between Teacher Support and Students’ Well-being: Evidence from PISA 2022",
+    "title_en": "Unfolding the Moderating Role of Gender in the Relationship Between Teacher Support and Students’ Well-being: Evidence from PISA 2022",
+    "title_zh": "揭示性别在教师支持与学生福祉之间关系中的调节作用：来自 PISA 2022 的证据",
+    "year": 2024,
+    "venue": "Child Indicators Research",
+    "authors": [
+      "Ya-di Yang",
+      "Jia‐qi Zheng"
+    ],
+    "doi": "10.1007/s12187-024-10172-z",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1007/s12187-024-10172-z",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4403232051",
+    "openalex_id": "https://openalex.org/W4403232051",
+    "openalex_author_id": "https://openalex.org/A5090756394",
+    "cited_by_count": 10,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5090756394）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_jiaqi_zheng_876f68371666f382",
+    "global_record_id": "fc0d99bc09ee5e3e",
+    "scholar_id": "panorama_jiaqi_zheng",
+    "scholar_name": "郑嘉琪",
+    "scholar_ids": [
+      "panorama_jiaqi_zheng"
+    ],
+    "scholar_names": [
+      "郑嘉琪"
+    ],
+    "source_record_ids": [
+      "panorama_jiaqi_zheng_876f68371666f382"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_jiaqi_zheng": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "郑嘉琪",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "郑嘉琪：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Unfolding the Moderating Role of Gender in the Relationship Between Teacher Support and Students’ Well-being: Evidence from PISA 2022. Child Indicators Research",
+    "title_en": "Unfolding the Moderating Role of Gender in the Relationship Between Teacher Support and Students’ Well-being: Evidence from PISA 2022. Child Indicators Research",
+    "title_zh": "揭示性别在教师支持与学生福祉之间关系中的调节作用：来自 PISA 2022 的证据。儿童指标研究",
+    "year": 2024,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "Jiaqi Zheng"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "情感大模型与多模态基础模型"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jiaqi_zheng_60d2fa66578d",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理",
+    "secondary_tags": [
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jiaqi_zheng",
+    "scholar_name": "郑嘉琪",
+    "work_title_group": "5648a0b9f3c4",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jiaqi_zheng"
+    ],
+    "scholar_names": [
+      "郑嘉琪"
+    ],
+    "source_record_ids": [
+      "panorama_jiaqi_zheng_60d2fa66578d"
+    ],
+    "scholar_categories": {
+      "panorama_jiaqi_zheng": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "郑嘉琪",
+        "secondary_tags": [
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "08b1d11692c9730f",
+    "primary_categories_by_scholar": [
+      "郑嘉琪：情感理解与多模态推理"
+    ]
+  },
+  {
+    "title": "Identifying key features of resilient students in digital reading: Insights from a machine learning approach",
+    "title_en": "Identifying key features of resilient students in digital reading: Insights from a machine learning approach",
+    "title_zh": "识别数字阅读中适应力强的学生的关键特征：机器学习方法的见解",
+    "year": 2024,
+    "venue": "Educ. Inf. Technol.",
+    "authors": [
+      "Jiaqi Zheng",
+      "Kwok-cheung Cheung",
+      "Pou-seong Sit"
+    ],
+    "doi": "10.1007/S10639-023-11908-0",
+    "dblp_key": "journals/eait/ZhengCS24",
+    "paper_url": "https://doi.org/10.1007/S10639-023-11908-0",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/journals/eait/ZhengCS24.html",
+    "openalex_id": "https://openalex.org/W4379014030",
+    "openalex_author_id": "https://openalex.org/A5090756394",
+    "cited_by_count": 31,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者身份核验记录（PID: 369/6190）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_jiaqi_zheng_e4f9c423798feaf4",
+    "global_record_id": "dbb6770b05b8e67f",
+    "scholar_id": "panorama_jiaqi_zheng",
+    "scholar_name": "郑嘉琪",
+    "scholar_ids": [
+      "panorama_jiaqi_zheng"
+    ],
+    "scholar_names": [
+      "郑嘉琪"
+    ],
+    "source_record_ids": [
+      "panorama_jiaqi_zheng_e4f9c423798feaf4"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_jiaqi_zheng": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "郑嘉琪",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "郑嘉琪：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Identifying key features of resilient students in digital reading: Insights from a machine learning approach. Education and Information Technologies",
+    "title_en": "Identifying key features of resilient students in digital reading: Insights from a machine learning approach. Education and Information Technologies",
+    "title_zh": "识别数字阅读中有弹性的学生的关键特征：来自机器学习方法的见解。教育和信息技术",
+    "year": 2024,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "Jiaqi Zheng"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "情感大模型与多模态基础模型"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jiaqi_zheng_bc68cf444baf",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理",
+    "secondary_tags": [
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jiaqi_zheng",
+    "scholar_name": "郑嘉琪",
+    "work_title_group": "75dd10964f6a",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jiaqi_zheng"
+    ],
+    "scholar_names": [
+      "郑嘉琪"
+    ],
+    "source_record_ids": [
+      "panorama_jiaqi_zheng_bc68cf444baf"
+    ],
+    "scholar_categories": {
+      "panorama_jiaqi_zheng": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "郑嘉琪",
+        "secondary_tags": [
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "68ed1d2fa237a614",
+    "primary_categories_by_scholar": [
+      "郑嘉琪：情感理解与多模态推理"
+    ]
+  },
+  {
+    "title": "Multiple pathways to science enjoyment: a fuzzy-set qualitative comparative analysis in TIMSS 2019. International Journal of Science Education",
+    "title_en": "Multiple pathways to science enjoyment: a fuzzy-set qualitative comparative analysis in TIMSS 2019. International Journal of Science Education",
+    "title_zh": "享受科学乐趣的多种途径：TIMSS 2019 中的模糊集定性比较分析。国际科学教育杂志",
+    "year": 2024,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "Jiaqi Zheng"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "情感大模型与多模态基础模型"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jiaqi_zheng_318be9dd86c8",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理",
+    "secondary_tags": [
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jiaqi_zheng",
+    "scholar_name": "郑嘉琪",
+    "work_title_group": "0aadc0617cbb",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jiaqi_zheng"
+    ],
+    "scholar_names": [
+      "郑嘉琪"
+    ],
+    "source_record_ids": [
+      "panorama_jiaqi_zheng_318be9dd86c8"
+    ],
+    "scholar_categories": {
+      "panorama_jiaqi_zheng": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "郑嘉琪",
+        "secondary_tags": [
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "2adfbe9c67f3c0e6",
+    "primary_categories_by_scholar": [
+      "郑嘉琪：情感理解与多模态推理"
+    ]
+  },
+  {
+    "title": "Insights from Two Decades of PISA-related Studies in the New Century: A Systematic Review. Scandinavian Journal of Educational Research",
+    "title_en": "Insights from Two Decades of PISA-related Studies in the New Century: A Systematic Review. Scandinavian Journal of Educational Research",
+    "title_zh": "新世纪二十年PISA相关研究的见解：系统回顾。斯堪的纳维亚教育研究杂志",
+    "year": 2024,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "Jiaqi Zheng"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "情感大模型与多模态基础模型"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jiaqi_zheng_717aa9f74e3f",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理",
+    "secondary_tags": [
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jiaqi_zheng",
+    "scholar_name": "郑嘉琪",
+    "work_title_group": "d133dedb8b9a",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jiaqi_zheng"
+    ],
+    "scholar_names": [
+      "郑嘉琪"
+    ],
+    "source_record_ids": [
+      "panorama_jiaqi_zheng_717aa9f74e3f"
+    ],
+    "scholar_categories": {
+      "panorama_jiaqi_zheng": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "郑嘉琪",
+        "secondary_tags": [
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "25d60bcb01642b95",
+    "primary_categories_by_scholar": [
+      "郑嘉琪：情感理解与多模态推理"
+    ]
+  },
+  {
+    "title": "A machine-learning model of academic resilience in the times of the COVID-19 pandemic: Evidence drawn from 79 countries/economies in the PISA 2022 mathematics study. British Journal of Educational Psychology",
+    "title_en": "A machine-learning model of academic resilience in the times of the COVID-19 pandemic: Evidence drawn from 79 countries/economies in the PISA 2022 mathematics study. British Journal of Educational Psychology",
+    "title_zh": "COVID-19 大流行时期学术弹性的机器学习模型：来自 PISA 2022 数学研究中 79 个国家/经济体的证据。英国教育心理学杂志",
+    "year": 2024,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "Jiaqi Zheng"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "情感大模型与多模态基础模型"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jiaqi_zheng_9a9343784b1d",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理",
+    "secondary_tags": [
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jiaqi_zheng",
+    "scholar_name": "郑嘉琪",
+    "work_title_group": "2fa7bc6ba14f",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jiaqi_zheng"
+    ],
+    "scholar_names": [
+      "郑嘉琪"
+    ],
+    "source_record_ids": [
+      "panorama_jiaqi_zheng_9a9343784b1d"
+    ],
+    "scholar_categories": {
+      "panorama_jiaqi_zheng": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "郑嘉琪",
+        "secondary_tags": [
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "7b88742a3a41b486",
+    "primary_categories_by_scholar": [
+      "郑嘉琪：情感理解与多模态推理"
+    ]
+  },
+  {
+    "title": "A machine‐learning model of academic resilience in the times of the COVID ‐19 pandemic: Evidence drawn from 79 countries/economies in the PISA 2022 mathematics study",
+    "title_en": "A machine‐learning model of academic resilience in the times of the COVID ‐19 pandemic: Evidence drawn from 79 countries/economies in the PISA 2022 mathematics study",
+    "title_zh": "COVID-19 大流行时期学术弹性的机器学习模型：PISA 2022 数学研究中来自 79 个国家/经济体的证据",
+    "year": 2024,
+    "venue": "British Journal of Educational Psychology",
+    "authors": [
+      "Kwok‐cheung Cheung",
+      "Pou‐seong Sit",
+      "Jia‐qi Zheng",
+      "Chi‐chio Lam",
+      "Soi‐kei Mak",
+      "Man‐kai Ieong"
+    ],
+    "doi": "10.1111/bjep.12715",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1111/bjep.12715",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4402719996",
+    "openalex_id": "https://openalex.org/W4402719996",
+    "openalex_author_id": "https://openalex.org/A5090756394",
+    "cited_by_count": 29,
+    "abstract_en": "BACKGROUND: Given that students from socio-economically disadvantaged family backgrounds are more likely to suffer from low academic performance, there is an interest in identifying features of academic resilience, which may mitigate the relationship between disadvantaged socio-economic status and academic performance. AIMS: This study sought to combine machine learning and explainable artificial intelligence (XAI) technique to identify key features of academic resilience in mathematics learning during COVID-19. MATERIALS AND METHODS: Based on PISA 2022 data in 79 countries/economies, the random forest model coupled with Shapley additive explanations (SHAP) value technique not only uncovered the key features of academic resilience but also examined the contributions of each key feature. RESULTS: Findings indicated that 35 features were identified in the classification of academically resilient and non-academically resilient students, which largely validated the previous academic resilient framework. Notably, gender differences were shown in the distribution of some key features. Research findings also indicated that resilient students tended to have a stable emotional state, high levels of self-efficacy, low levels of truancy and positive future aspirations. DISCUSSION: This study has established a research paradigm essentially methodological in nature to bridge the gap between psychological theories and big data in the field of educational psychology. CONCLUSION: To sum up, our study shed light on the issues of education equity and quality from a global perspective in the times of the COVID-19 pandemic.",
+    "abstract_zh": "背景：鉴于来自社会经济弱势家庭背景的学生更有可能出现学业成绩低下的问题，因此有兴趣确定学业弹性的特征，这可能会减轻弱势社会经济地位与学业成绩之间的关系。目的：本研究试图将机器学习和可解释的人工智能 (XAI) 技术结合起来，以确定 COVID-19 期间数学学习中学术弹性的关键特征。材料和方法：基于 79 个国家/经济体的 PISA 2022 数据，随机森林模型与 Shapley 附加解释 (SHAP) 值技术相结合，不仅揭示了学术弹性的关键特征，而且......",
+    "abstract_source": "openalex_verified",
+    "topics": [
+      "情感计算与情绪理解"
+    ],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5090756394）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_jiaqi_zheng_ca142afc7a6886ef",
+    "global_record_id": "11ec4ebb6f3d084b",
+    "scholar_id": "panorama_jiaqi_zheng",
+    "scholar_name": "郑嘉琪",
+    "scholar_ids": [
+      "panorama_jiaqi_zheng"
+    ],
+    "scholar_names": [
+      "郑嘉琪"
+    ],
+    "source_record_ids": [
+      "panorama_jiaqi_zheng_ca142afc7a6886ef"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_jiaqi_zheng": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "郑嘉琪",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "郑嘉琪：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "A systematic review of academic resilience in East Asia: Evidence from the large‐scale assessment research",
+    "title_en": "A systematic review of academic resilience in East Asia: Evidence from the large‐scale assessment research",
+    "title_zh": "东亚学术弹性的系统回顾：来自大规模评估研究的证据",
+    "year": 2023,
+    "venue": "Psychology in the Schools",
+    "authors": [
+      "Jia‐qi Zheng",
+      "Kwok‐cheung Cheung",
+      "Pou‐seong Sit"
+    ],
+    "doi": "10.1002/pits.23109",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1002/pits.23109",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4388972554",
+    "openalex_id": "https://openalex.org/W4388972554",
+    "openalex_author_id": "https://openalex.org/A5090756394",
+    "cited_by_count": 16,
+    "abstract_en": "Abstract Although academic resilience is of great concern to contemporary educational practitioners, there is no consensus on its measurement. Furthermore, protective factors characterized by East Asian societal contexts remain ambiguous. This systematic review aims to offer an overview of the operational definitions, statistical methodology, and protective factors of academic resilience identified in East Asian countries/economies. With a focus on large‐scale assessment (LSA) research, three databases (i.e., Web of Science, CNKI, and AiritiLibary) were searched and returned 31 peer‐reviewed studies over the last decade. Results indicated that the definition‐driven method was commonly adopted in international LSA studies (e.g., Programme for the International Student Assessment) to measure academic resilience, and the research conducted in national/regional LSA (e.g., China Education Panel Survey) tended to use the process‐driven approach. Logistic regression was the most frequently data analysis technique utilized in the definition‐driven approach, while structural equation modeling and mediation/moderation analyses accounted for the largest proportion of the process‐driven methods. Our study shed light on the methodological issues of academic resilience in LSA. Additionally, it highlights the aspiration of educational researchers to identify Asian‐specific protective factors from the social‐ecological perspective to propose appropriate interventions fostering academic resilience.",
+    "abstract_zh": "摘要 尽管学术弹性受到当代教育从业者的高度关注，但对其测量方法尚未达成共识。此外，以东亚社会背景为特征的保护因素仍然不明确。本系统综述旨在概述东亚国家/经济体学术弹性的操作定义、统计方法和保护因素。以大规模评估（LSA）研究为重点，检索了三个数据库（即 Web of Science、CNKI 和 AiritiLibary），返回了过去十年中 31 项同行评审的研究。结果表明，定义驱动的方法在国际 LSA 研究中普遍采用（例如，Program for...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5090756394）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_jiaqi_zheng_4c59ef8e2954233b",
+    "global_record_id": "420f2494b972ae00",
+    "scholar_id": "panorama_jiaqi_zheng",
+    "scholar_name": "郑嘉琪",
+    "scholar_ids": [
+      "panorama_jiaqi_zheng"
+    ],
+    "scholar_names": [
+      "郑嘉琪"
+    ],
+    "source_record_ids": [
+      "panorama_jiaqi_zheng_4c59ef8e2954233b"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_jiaqi_zheng": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "郑嘉琪",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "郑嘉琪：情感数据集、基准与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测"
+  },
+  {
+    "title": "The Effects of Perceptions Toward Interpersonal Relationships on Collaborative Problem-Solving Competence: Comparing Four Ethnic Chinese Communities Assessed in PISA 2015",
+    "title_en": "The Effects of Perceptions Toward Interpersonal Relationships on Collaborative Problem-Solving Competence: Comparing Four Ethnic Chinese Communities Assessed in PISA 2015",
+    "title_zh": "对人际关系的看法对协作解决问题能力的影响：比较 2015 年 PISA 评估的四个华人社区",
+    "year": 2023,
+    "venue": "The Asia-Pacific Education Researcher",
+    "authors": [
+      "Jia‐qi Zheng",
+      "Kwok‐cheung Cheung",
+      "Pou‐seong Sit"
+    ],
+    "doi": "10.1007/s40299-023-00744-y",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1007/s40299-023-00744-y",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4377014137",
+    "openalex_id": "https://openalex.org/W4377014137",
+    "openalex_author_id": "https://openalex.org/A5090756394",
+    "cited_by_count": 12,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5090756394）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_jiaqi_zheng_af51568e3f40d6c1",
+    "global_record_id": "d86a27d27803b8e0",
+    "scholar_id": "panorama_jiaqi_zheng",
+    "scholar_name": "郑嘉琪",
+    "scholar_ids": [
+      "panorama_jiaqi_zheng"
+    ],
+    "scholar_names": [
+      "郑嘉琪"
+    ],
+    "source_record_ids": [
+      "panorama_jiaqi_zheng_af51568e3f40d6c1"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_jiaqi_zheng": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "郑嘉琪",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "郑嘉琪：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Multiple pathways to science enjoyment: a fuzzy-set qualitative comparative analysis in TIMSS 2019",
+    "title_en": "Multiple pathways to science enjoyment: a fuzzy-set qualitative comparative analysis in TIMSS 2019",
+    "title_zh": "科学享受的多种途径：TIMSS 2019 中的模糊集定性比较分析",
+    "year": 2023,
+    "venue": "International Journal of Science Education",
+    "authors": [
+      "Jia‐qi Zheng",
+      "Lihua Tan"
+    ],
+    "doi": "10.1080/09500693.2023.2272604",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1080/09500693.2023.2272604",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4388042749",
+    "openalex_id": "https://openalex.org/W4388042749",
+    "openalex_author_id": "https://openalex.org/A5090756394",
+    "cited_by_count": 3,
+    "abstract_en": "Cultivating students’ enjoyment of science is one of the significant aims of science education. However, it seems challenging to achieve this goal in most countries or economies. Using the Trends in International Mathematics and Science Study (TIMSS) 2019 Hong Kong data, this study aims to identify multiple configurations of school conditions to develop students’ science enjoyment with a School Analytics model. A fuzzy-set Qualitative Comparative Analysis (fsQCA) was employed to capture the potential asymmetric relationships and measure multiple combinations of different conditions. Results indicated that no single school condition was necessary or sufficient for high enjoyment of science (ES). While lacking instructional clarity was a sufficient condition for low enjoyment of science (∼ES). Three different configurations resulted in ES and ∼ES respectively. The combination of supportive school discipline and high instructional clarity jointly constituted a crucial science learning environment for developing science enjoyment in Hong Kong secondary schools. Under this environment, the effectiveness of science investigation was further discussed to enhance science enjoyment. Our study enlightens educational practitioners to improve students’ science enjoyment with multiple combinations of school conditions.",
+    "abstract_zh": "培养学生对科学的享受是科学教育的重要目的之一。然而，在大多数国家或经济体中实现这一目标似乎具有挑战性。本研究利用2019年国际数学与科学研究趋势（TIMSS）香港数据，旨在通过学校分析模型确定学校条件的多种配置，以培养学生的科学享受。采用模糊集定性比较分析（fsQCA）来捕获潜在的不对称关系并测量不同条件的多种组合。结果表明，没有任何单一学校条件对于高度享受科学（ES）是必要或充分的。虽然缺乏教学清晰度是一个不足...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5090756394）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_jiaqi_zheng_355c0be0e7d9f98b",
+    "global_record_id": "54cfd23ac31878af",
+    "scholar_id": "panorama_jiaqi_zheng",
+    "scholar_name": "郑嘉琪",
+    "scholar_ids": [
+      "panorama_jiaqi_zheng"
+    ],
+    "scholar_names": [
+      "郑嘉琪"
+    ],
+    "source_record_ids": [
+      "panorama_jiaqi_zheng_355c0be0e7d9f98b"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_jiaqi_zheng": {
+        "category_id": "emotion_understanding",
+        "label": "情感理解与多模态推理",
+        "scholar_name": "郑嘉琪",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "郑嘉琪：情感理解与多模态推理"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_understanding",
+    "primary_category": "情感理解与多模态推理"
+  },
+  {
+    "title": "Insights from Two Decades of PISA-related Studies in the New Century: A Systematic Review",
+    "title_en": "Insights from Two Decades of PISA-related Studies in the New Century: A Systematic Review",
+    "title_zh": "新世纪二十年PISA相关研究的系统回顾",
+    "year": 2022,
+    "venue": "Scandinavian Journal of Educational Research",
+    "authors": [
+      "Jia‐qi Zheng",
+      "Kwok‐cheung Cheung",
+      "Pou‐seong Sit"
+    ],
+    "doi": "10.1080/00313831.2022.2148273",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.1080/00313831.2022.2148273",
+    "pdf_url": "",
+    "source_url": "https://openalex.org/W4310348456",
+    "openalex_id": "https://openalex.org/W4310348456",
+    "openalex_author_id": "https://openalex.org/A5090756394",
+    "cited_by_count": 22,
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5090756394）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_jiaqi_zheng_2c0bbe3fb9445c0d",
+    "global_record_id": "1faa281bfdd82095",
+    "scholar_id": "panorama_jiaqi_zheng",
+    "scholar_name": "郑嘉琪",
+    "scholar_ids": [
+      "panorama_jiaqi_zheng"
+    ],
+    "scholar_names": [
+      "郑嘉琪"
+    ],
+    "source_record_ids": [
+      "panorama_jiaqi_zheng_2c0bbe3fb9445c0d"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_jiaqi_zheng": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "郑嘉琪",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "郑嘉琪：情感数据集、基准与评测"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测"
+  }
+]

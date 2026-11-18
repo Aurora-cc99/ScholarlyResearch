@@ -1,1822 +1,2701 @@
-{
-  "scholar": {
-    "name_zh": "王晶",
-    "name_en": "Jing Wang",
-    "affiliation": "北京交通大学",
-    "identity_sources": [
-      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+[
+  {
+    "title": "A Robot-Led Intervention for Emotion Regulation: from Expression to Reappraisal",
+    "title_en": "A Robot-Led Intervention for Emotion Regulation: from Expression to Reappraisal",
+    "title_zh": "机器人主导的情绪调节干预：从表达到重新评估",
+    "year": 2026,
+    "venue": "IEEE Transactions on Affective Computing",
+    "authors": [
+      "Guy Laban",
+      "Julie Wang",
+      "Hatice Güneş"
     ],
-    "official_homepages": [
-      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    "doi": "10.1109/taffc.2026.3657604",
+    "paper_url": "https://doi.org/10.1109/taffc.2026.3657604",
+    "source_url": "https://doi.org/10.1109/taffc.2026.3657604",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "情感计算与情绪理解",
+      "多模态与大语言模型"
     ],
-    "coverage": {
-      "scope": "2025–2026主题筛选与全量书目扩展",
-      "status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
-      "coverage_status": "作者作品集/论文包已扩展；仍需身份消歧与覆盖审计",
-      "available_record_count": 34,
-      "bulk_source_record_count": 1,
-      "themes": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ]
-    },
-    "coverage_notes": "该目录与五位基线学者使用同一论文/资源/分类输出契约。‘可用记录数’表示本轮已取得并保留的书目，不等于未经消歧的个人终身全集；身份待核验、论文团队和同名风险见候选筛选证据。",
-    "id": "panorama_jing_wang",
-    "folder": "主题_panorama_jing_wang",
-    "classification": {
-      "method": "按题名及现有项目、资源说明进行主题粗分，用于阅读导航；未逐篇审阅全文，不代表学者官方分类。每条书目只设一个主类别，跨方向信息保留在辅助标签中。",
-      "categories": [
-        {
-          "id": "eeg_foundation",
-          "label": "脑电基础模型与通用解码",
-          "description": "EEG基础模型、跨任务/跨设备泛化、预训练与脑信号解码。",
-          "count": 0
-        },
-        {
-          "id": "eeg_affect",
-          "label": "情感脑电与多模态生理信号",
-          "description": "脑电情感识别、EEG-fNIRS/EEG-MEG及情感计算应用。",
-          "count": 34
-        },
-        {
-          "id": "eeg_benchmark",
-          "label": "脑电基准、数据与评测",
-          "description": "脑电基础模型基准、数据集、可复现评估与跨数据集比较。",
-          "count": 0
-        }
-      ],
-      "review": {
-        "status": "theme_candidate",
-        "source_status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
-        "primary_theme": "脑电情感计算与脑电大模型"
+    "verification": "Crossref exact title match; DOI URL preserved",
+    "status": "已核验作品（Crossref DOI）",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W7125808183",
+    "openalex_author_id": "https://openalex.org/A5124001843",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 20,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）；Crossref exact title",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jing_wang_1af8261ac5c5",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jing_wang",
+    "scholar_name": "王晶",
+    "work_title_group": "e860ab8faa6b",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jing_wang"
+    ],
+    "scholar_names": [
+      "王晶"
+    ],
+    "source_record_ids": [
+      "panorama_jing_wang_1af8261ac5c5"
+    ],
+    "scholar_categories": {
+      "panorama_jing_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王晶",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
       }
     },
-    "counts": {
-      "bibliographic_records": 34,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [
-        2016,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "unknown_year": 0
-    }
+    "global_record_id": "717767a8925f27fd",
+    "primary_categories_by_scholar": [
+      "王晶：情感脑电与多模态生理信号"
+    ],
+    "abstract_en": "Emotion regulation (ER) is a crucial skill for managing emotions in everyday life, yet finding a constructive and accessible method to practice ER remains challenging due to cognitive demands. In this study, we explore how regular interactions with a social robot, conducted in a structured yet familiar environment within university halls and departments, can provide effective support for practising ER via cognitive reappraisal. Twenty-one students participated in a five-session study at a university hall or department in the U.K., where the robot (QTrobot, LuxAI), powered by a large language model (GPT 3.5) facilitated structured conversations, encouraging the students to reinterpret emotionally charged situations that they shared with the robot. Quantitative and qualitative results indicate significant improvements in ER, with participants reporting better understanding and control of their emotions, significant changes in constructive ER tendencies and positive effects on mood and sentiment after each session. The findings also demonstrate that repeated interactions with the robot encouraged greater emotional expression, including longer speech disclosures, increased use of affective language, and heightened facial arousal. Notably, expression peaked during key reappraisal moments, particularly when participants were prompted to reinterpret negative experiences. The qualitative feedback further highlighted how the robot fostered introspection and provided a supportive space for discussing emotions, enabling participants to confront long-avoided emotional challenges. These findings demonstrate the potential of robots to effectively assist in ER in familiar environments, offering both emotional support and cognitive guidance",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "情绪调节（ER）是日常生活中管理情绪的一项关键技能，但由于认知需求，寻找一种建设性且易于理解的方法来练习 ER 仍然具有挑战性。在这项研究中，我们探讨了如何在大学礼堂和院系内结构化且熟悉的环境中与社交机器人进行定期互动，如何通过认知重新评估为实践 ER 提供有效支持。 21 名学生参加了在英国大学礼堂或系进行的为期五节的研究，其中由大型语言模型 (GPT 3.5) 驱动的机器人（QTrobot、LuxAI）促进了结构化对话，鼓励学生重新解释情感......"
   },
-  "papers": [
-    {
-      "title": "A Robot-Led Intervention for Emotion Regulation: from Expression to Reappraisal",
-      "title_en": "A Robot-Led Intervention for Emotion Regulation: from Expression to Reappraisal",
-      "title_zh": "机器人主导的情绪调节干预：从表达到重新评估",
-      "year": 2026,
-      "venue": "IEEE Transactions on Affective Computing",
-      "authors": [
-        "Jing Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jing_wang_1af8261ac5c5",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jing_wang",
-      "scholar_name": "王晶",
-      "work_title_group": "e860ab8faa6b",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+  {
+    "title": "Hierarchical fusion based quality-aware multimodal sentiment analysis for missing modalities",
+    "title_en": "Hierarchical fusion based quality-aware multimodal sentiment analysis for missing modalities",
+    "title_zh": "基于分层融合的质量感知多模态情感分析缺失模态",
+    "year": 2026,
+    "venue": "Multimedia Systems",
+    "authors": [
+      "Jing Wang"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "情感计算与情绪理解",
+      "多模态与大语言模型"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jing_wang_2b1b52276ecd",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jing_wang",
+    "scholar_name": "王晶",
+    "work_title_group": "bc218918b51d",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jing_wang"
+    ],
+    "scholar_names": [
+      "王晶"
+    ],
+    "source_record_ids": [
+      "panorama_jing_wang_2b1b52276ecd"
+    ],
+    "scholar_categories": {
+      "panorama_jing_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王晶",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Enhanced Emotion-Aware Contrastive Adaptation Networks for Source-Free Cross-Corpus Speech Emotion Recognition",
-      "title_en": "Enhanced Emotion-Aware Contrastive Adaptation Networks for Source-Free Cross-Corpus Speech Emotion Recognition",
-      "title_zh": "增强型情感感知对比适应网络，用于无源跨语料库语音情感识别",
-      "year": 2026,
-      "venue": "IEEE Transactions on Affective Computing",
-      "authors": [
-        "Jing Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jing_wang_c9c7620437f0",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jing_wang",
-      "scholar_name": "王晶",
-      "work_title_group": "c8ae5ad9ca9b",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "92a5036e6b3e4649",
+    "primary_categories_by_scholar": [
+      "王晶：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Implicit Aspect-Based Sentiment Analysis: A Systematic Review",
+    "title_en": "Implicit Aspect-Based Sentiment Analysis: A Systematic Review",
+    "title_zh": "基于隐式方面的情感分析：系统回顾",
+    "year": 2026,
+    "venue": "ACM Computing Surveys",
+    "authors": [
+      "Jing Wang"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jing_wang_67aedf950c45",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jing_wang",
+    "scholar_name": "王晶",
+    "work_title_group": "ea82c545f73e",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jing_wang"
+    ],
+    "scholar_names": [
+      "王晶"
+    ],
+    "source_record_ids": [
+      "panorama_jing_wang_67aedf950c45"
+    ],
+    "scholar_categories": {
+      "panorama_jing_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王晶",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Hierarchical fusion based quality-aware multimodal sentiment analysis for missing modalities",
-      "title_en": "Hierarchical fusion based quality-aware multimodal sentiment analysis for missing modalities",
-      "title_zh": "基于分层融合的质量感知多模态情感分析缺失模态",
-      "year": 2026,
-      "venue": "Multimedia Systems",
-      "authors": [
-        "Jing Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jing_wang_2b1b52276ecd",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jing_wang",
-      "scholar_name": "王晶",
-      "work_title_group": "bc218918b51d",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "89c9c7cf7bf89d01",
+    "primary_categories_by_scholar": [
+      "王晶：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Enhanced Emotion-Aware Contrastive Adaptation Networks for Source-Free Cross-Corpus Speech Emotion Recognition",
+    "title_en": "Enhanced Emotion-Aware Contrastive Adaptation Networks for Source-Free Cross-Corpus Speech Emotion Recognition",
+    "title_zh": "增强型情感感知对比适应网络，用于无源跨语料库语音情感识别",
+    "year": 2026,
+    "venue": "IEEE Transactions on Affective Computing",
+    "authors": [
+      "Yan Zhao",
+      "Jincen Wang",
+      "Cheng Lu",
+      "Sunan LI",
+      "Fan Liu",
+      "Björn Wolfgang Schuller",
+      "Wenming Zheng",
+      "Yuan Zong"
+    ],
+    "doi": "10.1109/taffc.2026.3746232",
+    "paper_url": "https://doi.org/10.1109/taffc.2026.3746232",
+    "source_url": "https://openalex.org/W7223243012",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W7223243012",
+    "openalex_author_id": "https://openalex.org/A5027316177",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jing_wang_c9c7620437f0",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jing_wang",
+    "scholar_name": "王晶",
+    "work_title_group": "c8ae5ad9ca9b",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jing_wang",
+      "panorama_6ea6272c5bf0"
+    ],
+    "scholar_names": [
+      "王晶",
+      "宗源"
+    ],
+    "source_record_ids": [
+      "panorama_jing_wang_c9c7620437f0"
+    ],
+    "scholar_categories": {
+      "panorama_jing_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王晶",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "panorama_6ea6272c5bf0": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "宗源",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "Implicit Aspect-Based Sentiment Analysis: A Systematic Review",
-      "title_en": "Implicit Aspect-Based Sentiment Analysis: A Systematic Review",
-      "title_zh": "基于隐式方面的情感分析：系统回顾",
-      "year": 2026,
-      "venue": "ACM Computing Surveys",
-      "authors": [
-        "Jing Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jing_wang_67aedf950c45",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jing_wang",
-      "scholar_name": "王晶",
-      "work_title_group": "ea82c545f73e",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "c3db135185d5bfaa",
+    "primary_categories_by_scholar": [
+      "王晶：情感脑电与多模态生理信号",
+      "宗源：脑电基准、数据与评测"
+    ],
+    "pdf_url": "https://doi.org/10.1109/taffc.2026.3746232",
+    "abstract_en": "Speech emotion recognition (SER) remains challenging when the training (source) and testing (target) data are drawn from different speech corpora, a setting commonly referred to as cross-corpus SER. Although domain adaptation (DA) methods show promise for mitigating this domain shift, many conventional unsupervised DA methods require access to labeled source speech data, limiting their applicability in privacy-sensitive scenarios, e.g., patient recordings from different hospitals. To address this limitation, we investigate a stricter setting of cross-corpus SER, i.e., source-free cross-corpus SER, aligned with the source-free DA (SFDA) paradigm. In this setting, no source speech data are accessible and only a pre-trained source SER model is available. Building on our prior ECAN (emotion-aware contrastive adaptation network), we propose E$^{2}$CAN, an enhanced emotion-aware contrastive adaptation network tailored to source-free cross-corpus SER. To evaluate E$^{2}$CAN, we establish an evaluation protocol on five widely-used speech corpora: CASIA, EmoDB, EMOVO, eNTERFACE, and IEMOCAP, and compare against seven recent state-of-the-art SFDA methods. Experiments demonstrate the effectiveness and superiority of E$^{2}$CAN in addressing source-free cross-corpus SER.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "当训练（源）和测试（目标）数据来自不同的语音语料库时，语音情感识别 (SER) 仍然具有挑战性，这种设置通常称为跨语料库 SER。尽管域适应（DA）方法显示出缓解这种域转移的希望，但许多传统的无监督 DA 方法需要访问标记的源语音数据，限制了它们在隐私敏感场景中的适用性，例如来自不同医院的患者录音。为了解决这个限制，我们研究了更严格的跨语料库 SER 设置，即无源跨语料库 SER，与无源 DA (SFDA) 范式保持一致。在此设置中，没有源语音数据被记录..."
+  },
+  {
+    "title": "SHARP: Structure-aware heterogeneous attention with rotational processing for conversational sentiment quadruple analysis",
+    "title_en": "SHARP: Structure-aware heterogeneous attention with rotational processing for conversational sentiment quadruple analysis",
+    "title_zh": "SHARP：具有旋转处理的结构感知异构注意力，用于会话情感四重分析",
+    "year": 2026,
+    "venue": "Expert Systems with Applications",
+    "authors": [
+      "Jing Wang"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jing_wang_c7caf38891ef",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jing_wang",
+    "scholar_name": "王晶",
+    "work_title_group": "cdd530841a25",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jing_wang"
+    ],
+    "scholar_names": [
+      "王晶"
+    ],
+    "source_record_ids": [
+      "panorama_jing_wang_c7caf38891ef"
+    ],
+    "scholar_categories": {
+      "panorama_jing_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王晶",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "SHARP: Structure-aware heterogeneous attention with rotational processing for conversational sentiment quadruple analysis",
-      "title_en": "SHARP: Structure-aware heterogeneous attention with rotational processing for conversational sentiment quadruple analysis",
-      "title_zh": "SHARP：具有旋转处理的结构感知异构注意力，用于会话情感四重分析",
-      "year": 2026,
-      "venue": "Expert Systems with Applications",
-      "authors": [
-        "Jing Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jing_wang_c7caf38891ef",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jing_wang",
-      "scholar_name": "王晶",
-      "work_title_group": "cdd530841a25",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "85617be9b0453439",
+    "primary_categories_by_scholar": [
+      "王晶：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Multimodal Sentiment Analysis Based on Text Augmentation With Adaptive Gating and Hierarchical Fusion",
+    "title_en": "Multimodal Sentiment Analysis Based on Text Augmentation With Adaptive Gating and Hierarchical Fusion",
+    "title_zh": "基于自适应门控和分层融合的文本增强的多模态情感分析",
+    "year": 2025,
+    "venue": "2025 10th International Conference on Information Science, Computer Technology and Transportation (ISCTT)",
+    "authors": [
+      "Jing Wang"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "情感计算与情绪理解",
+      "多模态与大语言模型"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jing_wang_d77c41b83431",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jing_wang",
+    "scholar_name": "王晶",
+    "work_title_group": "3c907997fbf3",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jing_wang"
+    ],
+    "scholar_names": [
+      "王晶"
+    ],
+    "source_record_ids": [
+      "panorama_jing_wang_d77c41b83431"
+    ],
+    "scholar_categories": {
+      "panorama_jing_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王晶",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "A Mixture of Experts with Encoder-Decoder for Cross-Subject EEG Emotion Recognition",
-      "title_en": "A Mixture of Experts with Encoder-Decoder for Cross-Subject EEG Emotion Recognition",
-      "title_zh": "专家与编码器-解码器的混合，用于跨主题脑电图情绪识别",
-      "year": 2025,
-      "venue": "2025 China Automation Congress (CAC)",
-      "authors": [
-        "Jing Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jing_wang_56060197cc8f",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jing_wang",
-      "scholar_name": "王晶",
-      "work_title_group": "4f7d3be907cf",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "222b20c8091dcfbc",
+    "primary_categories_by_scholar": [
+      "王晶：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Two-stream Dynamic Heterogeneous Graph Recurrent Neural Network for Multi-label Multi-modal Emotion Recognition",
+    "title_en": "Two-stream Dynamic Heterogeneous Graph Recurrent Neural Network for Multi-label Multi-modal Emotion Recognition",
+    "title_zh": "两流动态用于多标签多模态情感识别的异构图递归神经网络",
+    "year": 2025,
+    "venue": "IEEE Transactions on Affective Computing ( IEEE TAFFC ), 2025 [PDF]",
+    "authors": [
+      "Jing Wang",
+      "Zhiyang Feng",
+      "Xiaojun Ning",
+      "Youfang Lin",
+      "Badong Chen",
+      "Ziyu Jia"
+    ],
+    "doi": "10.1109/taffc.2025.3561439",
+    "paper_url": "https://ieeexplore.ieee.org/document/10966018",
+    "source_url": "https://ieeexplore.ieee.org/document/10966018",
+    "topics": [
+      "脑电基础大模型",
+      "EEG表征对齐",
+      "脑电微调",
+      "情感计算与情绪理解",
+      "多模态与大语言模型"
+    ],
+    "verification": "主题筛选候选；重点纳入",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4409494577",
+    "openalex_author_id": "https://openalex.org/A5065497921",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 22,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "Official author publication page",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "ziyu_jia_f51bd86d8ebb",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电基础大模型",
+      "EEG表征对齐",
+      "脑电微调"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "ziyu_jia",
+    "scholar_name": "贾子瑜",
+    "work_title_group": "425007345009",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "ziyu_jia",
+      "panorama_jing_wang"
+    ],
+    "scholar_names": [
+      "贾子瑜",
+      "王晶"
+    ],
+    "source_record_ids": [
+      "ziyu_jia_f51bd86d8ebb",
+      "panorama_jing_wang_f51bd86d8ebb"
+    ],
+    "scholar_categories": {
+      "ziyu_jia": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "贾子瑜",
+        "secondary_tags": [
+          "脑电基础大模型",
+          "EEG表征对齐",
+          "脑电微调"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "panorama_jing_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王晶",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "A Multimodal Semantic Adversarial Alignment Approach for Sentiment Analysis",
-      "title_en": "A Multimodal Semantic Adversarial Alignment Approach for Sentiment Analysis",
-      "title_zh": "用于情感分析的多模态语义对抗对齐方法",
-      "year": 2025,
-      "venue": "2025 International Conference on Virtual Reality and Visualization (ICVRV)",
-      "authors": [
-        "Jing Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jing_wang_6fb49bf769b4",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jing_wang",
-      "scholar_name": "王晶",
-      "work_title_group": "5c4c0c905801",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "2d165db5a405ee2c",
+    "primary_categories_by_scholar": [
+      "贾子瑜：情感脑电与多模态生理信号",
+      "王晶：情感脑电与多模态生理信号"
+    ],
+    "abstract_en": "The study of the relationship between emotions and physiological signals of subjects under multimedia stimulation is an emerging field, and many important advances are made. However, there are still some challenges: 1) How to effectively utilize the complementarity among spatial-spectral-temporal domain information. 2) How to employ the heterogeneity and the correlation among multi-modal physiological signals simultaneously. 3) How to improve the robustness of the model dealing with missing channels. 4) How to model the dependency among different emotions. In this paper, we propose a novel two-stream Dynamic Heterogeneous Graph Recurrent Neural Network called DHGRNN. Specifically, DHGRNN consists of a spatial-temporal stream, a spatial-spectral stream, a fusion layer, and a multi-label classifier. Each stream is composed of a graph transformer network, evolved graph convolutional neural network, and gated recurrent units. We propose a graph-based two-stream structure to fuse the information of the spatial-spectral-temporal domain simultaneously. Graph transformer network and evolved graph convolutional neural network are used to model the heterogeneity and correlation of multi-modal physiological signals, respectively. To deal with the problem of robustness in the face of missing channel data, we transform it into the problem of dynamic graphs and use a dynamic graph neural network to improve the robustness. In addition, we propose a multi-label classifier to model the dependency among different emotion dimensions. Experiments on three public datasets demonstrate that our proposed model outperforms existing state-of-the-art methods.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "多媒体刺激下受试者情绪与生理信号关系的研究是一个新兴领域，并取得了许多重要进展。然而，仍然存在一些挑战：1）如何有效利用空间-谱-时域信息之间的互补性。 2）如何同时利用多模态生理信号之间的异质性和相关性。 3）如何提高模型处理缺失通道的鲁棒性。 4）如何建模不同情绪之间的依赖关系。在本文中，我们提出了一种新颖的双流动态异构图循环神经网络，称为 DHGRNN。具体来说，DHGRNN..."
+  },
+  {
+    "title": "Cross-modality fusion with EEG and text for enhanced emotion detection in English writing",
+    "title_en": "Cross-modality fusion with EEG and text for enhanced emotion detection in English writing",
+    "title_zh": "脑电图和文本的跨模态融合增强英语写作中的情绪检测",
+    "year": 2025,
+    "venue": "Frontiers in Neurorobotics",
+    "authors": [
+      "Jing Wang"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "脑电情感识别",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jing_wang_2b026d2027fc",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jing_wang",
+    "scholar_name": "王晶",
+    "work_title_group": "334865755167",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jing_wang"
+    ],
+    "scholar_names": [
+      "王晶"
+    ],
+    "source_record_ids": [
+      "panorama_jing_wang_2b026d2027fc"
+    ],
+    "scholar_categories": {
+      "panorama_jing_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王晶",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "A Study of Dependency Graph Convolutional Networks Enhanced Sentiment Support Words for Aspect‐Level Sentiment Analysis",
-      "title_en": "A Study of Dependency Graph Convolutional Networks Enhanced Sentiment Support Words for Aspect‐Level Sentiment Analysis",
-      "title_zh": "用于方面级情感分析的依赖图卷积网络增强情感支持词的研究",
-      "year": 2025,
-      "venue": "Concurrency and Computation: Practice and Experience",
-      "authors": [
-        "Jing Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jing_wang_95d9096205c6",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jing_wang",
-      "scholar_name": "王晶",
-      "work_title_group": "731f01cf7780",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "e7d9d265fde97d49",
+    "primary_categories_by_scholar": [
+      "王晶：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Act to See, See to Act: Diffusion-Driven Perception-Action Interplay for Adaptive Policies",
+    "title_en": "Act to See, See to Act: Diffusion-Driven Perception-Action Interplay for Adaptive Policies",
+    "title_zh": "行动观察，观察行动：适应性政策的扩散驱动的感知与行动相互作用",
+    "year": 2025,
+    "venue": "arXiv preprint",
+    "authors": [
+      "Jing Wang"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jing_wang_05bf52e3ba32",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jing_wang",
+    "scholar_name": "王晶",
+    "work_title_group": "b6830d83ce37",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jing_wang"
+    ],
+    "scholar_names": [
+      "王晶"
+    ],
+    "source_record_ids": [
+      "panorama_jing_wang_05bf52e3ba32"
+    ],
+    "scholar_categories": {
+      "panorama_jing_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王晶",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Act to See, See to Act: Diffusion-Driven Perception-Action Interplay for Adaptive Policies",
-      "title_en": "Act to See, See to Act: Diffusion-Driven Perception-Action Interplay for Adaptive Policies",
-      "title_zh": "行动观察，观察行动：适应性政策的扩散驱动的感知与行动相互作用",
-      "year": 2025,
-      "venue": "arXiv preprint",
-      "authors": [
-        "Jing Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jing_wang_05bf52e3ba32",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jing_wang",
-      "scholar_name": "王晶",
-      "work_title_group": "b6830d83ce37",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "fb4dbac03f2d2706",
+    "primary_categories_by_scholar": [
+      "王晶：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "A Study of Dependency Graph Convolutional Networks Enhanced Sentiment Support Words for Aspect‐Level Sentiment Analysis",
+    "title_en": "A Study of Dependency Graph Convolutional Networks Enhanced Sentiment Support Words for Aspect‐Level Sentiment Analysis",
+    "title_zh": "用于方面级情感分析的依赖图卷积网络增强情感支持词的研究",
+    "year": 2025,
+    "venue": "Concurrency and Computation: Practice and Experience",
+    "authors": [
+      "Jing Wang"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jing_wang_95d9096205c6",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jing_wang",
+    "scholar_name": "王晶",
+    "work_title_group": "731f01cf7780",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jing_wang"
+    ],
+    "scholar_names": [
+      "王晶"
+    ],
+    "source_record_ids": [
+      "panorama_jing_wang_95d9096205c6"
+    ],
+    "scholar_categories": {
+      "panorama_jing_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王晶",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Cross-modality fusion with EEG and text for enhanced emotion detection in English writing",
-      "title_en": "Cross-modality fusion with EEG and text for enhanced emotion detection in English writing",
-      "title_zh": "脑电图和文本的跨模态融合增强英语写作中的情绪检测",
-      "year": 2025,
-      "venue": "Frontiers in Neurorobotics",
-      "authors": [
-        "Jing Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jing_wang_2b026d2027fc",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jing_wang",
-      "scholar_name": "王晶",
-      "work_title_group": "334865755167",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "e9aeda33baea40be",
+    "primary_categories_by_scholar": [
+      "王晶：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "A Multimodal Semantic Adversarial Alignment Approach for Sentiment Analysis",
+    "title_en": "A Multimodal Semantic Adversarial Alignment Approach for Sentiment Analysis",
+    "title_zh": "用于情感分析的多模态语义对抗对齐方法",
+    "year": 2025,
+    "venue": "2025 International Conference on Virtual Reality and Visualization (ICVRV)",
+    "authors": [
+      "Jing Wang"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "情感计算与情绪理解",
+      "多模态与大语言模型"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jing_wang_6fb49bf769b4",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jing_wang",
+    "scholar_name": "王晶",
+    "work_title_group": "5c4c0c905801",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jing_wang"
+    ],
+    "scholar_names": [
+      "王晶"
+    ],
+    "source_record_ids": [
+      "panorama_jing_wang_6fb49bf769b4"
+    ],
+    "scholar_categories": {
+      "panorama_jing_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王晶",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "MT-EfficientNetV2: A Multi-Temporal Scale Fusion EEG Emotion Recognition Method Based on Recurrence Plots",
-      "title_en": "MT-EfficientNetV2: A Multi-Temporal Scale Fusion EEG Emotion Recognition Method Based on Recurrence Plots",
-      "title_zh": "MT-EfficientNetV2：一种基于递归图的多时间尺度融合脑电情感识别方法",
-      "year": 2025,
-      "venue": "IEEE Access",
-      "authors": [
-        "Jing Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jing_wang_da2f3a3ae648",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jing_wang",
-      "scholar_name": "王晶",
-      "work_title_group": "64fb7d72b65f",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "6d142d755a5e0b09",
+    "primary_categories_by_scholar": [
+      "王晶：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "A Mixture of Experts with Encoder-Decoder for Cross-Subject EEG Emotion Recognition",
+    "title_en": "A Mixture of Experts with Encoder-Decoder for Cross-Subject EEG Emotion Recognition",
+    "title_zh": "专家与编码器-解码器的混合，用于跨主题脑电图情绪识别",
+    "year": 2025,
+    "venue": "2025 China Automation Congress (CAC)",
+    "authors": [
+      "Jing Wang"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "脑电情感识别",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jing_wang_56060197cc8f",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jing_wang",
+    "scholar_name": "王晶",
+    "work_title_group": "4f7d3be907cf",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jing_wang"
+    ],
+    "scholar_names": [
+      "王晶"
+    ],
+    "source_record_ids": [
+      "panorama_jing_wang_56060197cc8f"
+    ],
+    "scholar_categories": {
+      "panorama_jing_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王晶",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Multimodal Sentiment Analysis Based on Text Augmentation With Adaptive Gating and Hierarchical Fusion",
-      "title_en": "Multimodal Sentiment Analysis Based on Text Augmentation With Adaptive Gating and Hierarchical Fusion",
-      "title_zh": "基于自适应门控和分层融合的文本增强的多模态情感分析",
-      "year": 2025,
-      "venue": "2025 10th International Conference on Information Science, Computer Technology and Transportation (ISCTT)",
-      "authors": [
-        "Jing Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jing_wang_d77c41b83431",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jing_wang",
-      "scholar_name": "王晶",
-      "work_title_group": "3c907997fbf3",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "76a9200d16ec7063",
+    "primary_categories_by_scholar": [
+      "王晶：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "MT-EfficientNetV2: A Multi-Temporal Scale Fusion EEG Emotion Recognition Method Based on Recurrence Plots",
+    "title_en": "MT-EfficientNetV2: A Multi-Temporal Scale Fusion EEG Emotion Recognition Method Based on Recurrence Plots",
+    "title_zh": "MT-EfficientNetV2：一种基于递归图的多时间尺度融合脑电情感识别方法",
+    "year": 2025,
+    "venue": "IEEE Access",
+    "authors": [
+      "Jing Wang"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "脑电情感识别",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jing_wang_da2f3a3ae648",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jing_wang",
+    "scholar_name": "王晶",
+    "work_title_group": "64fb7d72b65f",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jing_wang"
+    ],
+    "scholar_names": [
+      "王晶"
+    ],
+    "source_record_ids": [
+      "panorama_jing_wang_da2f3a3ae648"
+    ],
+    "scholar_categories": {
+      "panorama_jing_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王晶",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Two-Stream Dynamic Heterogeneous Graph Recurrent Neural Network for Multi-Label Multi-Modal Emotion Recognition",
-      "title_en": "Two-Stream Dynamic Heterogeneous Graph Recurrent Neural Network for Multi-Label Multi-Modal Emotion Recognition",
-      "title_zh": "两流动态用于多标签多模态情感识别的异构图递归神经网络",
-      "year": 2025,
-      "venue": "IEEE Transactions on Affective Computing ( IEEE TAFFC ), 2025 [PDF]",
-      "authors": [
-        "Jing Wang",
-        "Zhiyang Feng",
-        "Xiaojun Ning",
-        "Youfang Lin",
-        "Badong Chen",
-        "Ziyu Jia"
-      ],
-      "doi": "",
-      "paper_url": "https://ieeexplore.ieee.org/document/10966018",
-      "source_url": "https://ieeexplore.ieee.org/document/10966018",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "panorama_jing_wang_f51bd86d8ebb",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jing_wang",
-      "scholar_name": "王晶",
-      "work_title_group": "425007345009",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "3f21366c0e0a9a2c",
+    "primary_categories_by_scholar": [
+      "王晶：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "A comparative study of machine learning models for sentiment analysis of transboundary rivers news media articles",
+    "title_en": "A comparative study of machine learning models for sentiment analysis of transboundary rivers news media articles",
+    "title_zh": "跨界河流新闻媒体文章情感分析的机器学习模型比较研究",
+    "year": 2024,
+    "venue": "Soft Computing",
+    "authors": [
+      "Jing Wang"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jing_wang_90ec32e3b038",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jing_wang",
+    "scholar_name": "王晶",
+    "work_title_group": "ca8b53098c6b",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jing_wang"
+    ],
+    "scholar_names": [
+      "王晶"
+    ],
+    "source_record_ids": [
+      "panorama_jing_wang_90ec32e3b038"
+    ],
+    "scholar_categories": {
+      "panorama_jing_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王晶",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "A comparative study of machine learning models for sentiment analysis of transboundary rivers news media articles",
-      "title_en": "A comparative study of machine learning models for sentiment analysis of transboundary rivers news media articles",
-      "title_zh": "跨界河流新闻媒体文章情感分析的机器学习模型比较研究",
-      "year": 2024,
-      "venue": "Soft Computing",
-      "authors": [
-        "Jing Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jing_wang_90ec32e3b038",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jing_wang",
-      "scholar_name": "王晶",
-      "work_title_group": "ca8b53098c6b",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "5cfb471f468668df",
+    "primary_categories_by_scholar": [
+      "王晶：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Advancing Head and Neck Cancer Survival Prediction via Multi-Label Learning and Deep Model Interpretation",
+    "title_en": "Advancing Head and Neck Cancer Survival Prediction via Multi-Label Learning and Deep Model Interpretation",
+    "title_zh": "通过多标签学习和深度模型解释推进头颈癌生存预测",
+    "year": 2024,
+    "venue": "arXiv preprint",
+    "authors": [
+      "Jing Wang"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jing_wang_9f69d247d383",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jing_wang",
+    "scholar_name": "王晶",
+    "work_title_group": "ce10145ab505",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jing_wang"
+    ],
+    "scholar_names": [
+      "王晶"
+    ],
+    "source_record_ids": [
+      "panorama_jing_wang_9f69d247d383"
+    ],
+    "scholar_categories": {
+      "panorama_jing_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王晶",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Advancing Head and Neck Cancer Survival Prediction via Multi-Label Learning and Deep Model Interpretation",
-      "title_en": "Advancing Head and Neck Cancer Survival Prediction via Multi-Label Learning and Deep Model Interpretation",
-      "title_zh": "通过多标签学习和深度模型解释推进头颈癌生存预测",
-      "year": 2024,
-      "venue": "arXiv preprint",
-      "authors": [
-        "Jing Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jing_wang_9f69d247d383",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jing_wang",
-      "scholar_name": "王晶",
-      "work_title_group": "ce10145ab505",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "a006b9c4972adacc",
+    "primary_categories_by_scholar": [
+      "王晶：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Multi-source Selective Graph Domain Adaptation Network for cross-subject EEG emotion recognition",
+    "title_en": "Multi-source Selective Graph Domain Adaptation Network for cross-subject EEG emotion recognition",
+    "title_zh": "用于跨主体脑电情感识别的多源选择性图域适应网络",
+    "year": 2024,
+    "venue": "Neural Networks",
+    "authors": [
+      "Jing Wang",
+      "Xiaojun Ning",
+      "Wei Xu",
+      "Yunze Li",
+      "Ziyu Jia",
+      "Youfang Lin"
+    ],
+    "doi": "10.1016/j.neunet.2024.106742",
+    "paper_url": "https://doi.org/10.1016/j.neunet.2024.106742",
+    "source_url": "https://openalex.org/W4402773829",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "脑电情感识别",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4402773829",
+    "openalex_author_id": "https://openalex.org/A5065497921",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 60,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jing_wang_20713fd73613",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jing_wang",
+    "scholar_name": "王晶",
+    "work_title_group": "f5c485d92483",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jing_wang",
+      "ziyu_jia"
+    ],
+    "scholar_names": [
+      "王晶",
+      "贾子瑜"
+    ],
+    "source_record_ids": [
+      "panorama_jing_wang_20713fd73613"
+    ],
+    "scholar_categories": {
+      "panorama_jing_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王晶",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "ziyu_jia": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "贾子瑜",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑电情感识别",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "Multi-source Selective Graph Domain Adaptation Network for cross-subject EEG emotion recognition",
-      "title_en": "Multi-source Selective Graph Domain Adaptation Network for cross-subject EEG emotion recognition",
-      "title_zh": "用于跨主体脑电情感识别的多源选择性图域适应网络",
-      "year": 2024,
-      "venue": "Neural Networks",
-      "authors": [
-        "Jing Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jing_wang_20713fd73613",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jing_wang",
-      "scholar_name": "王晶",
-      "work_title_group": "f5c485d92483",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "3b36878366d338d9",
+    "primary_categories_by_scholar": [
+      "王晶：情感脑电与多模态生理信号",
+      "贾子瑜：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "A Reinforcement Learning Based Two-Stage Model for Emotion Cause Pair Extraction",
+    "title_en": "A Reinforcement Learning Based Two-Stage Model for Emotion Cause Pair Extraction",
+    "title_zh": "基于强化学习的情绪原因对提取两阶段模型",
+    "year": 2023,
+    "venue": "IEEE Transactions on Affective Computing",
+    "authors": [
+      "Jing Wang"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "情感计算与情绪理解",
+      "强化学习与决策优化"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jing_wang_96a818d77e0f",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jing_wang",
+    "scholar_name": "王晶",
+    "work_title_group": "4874d1f4a2e0",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jing_wang"
+    ],
+    "scholar_names": [
+      "王晶"
+    ],
+    "source_record_ids": [
+      "panorama_jing_wang_96a818d77e0f"
+    ],
+    "scholar_categories": {
+      "panorama_jing_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王晶",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "A Channel Selection Method for Motor Imagery EEG Based on Fisher Score of OVR-CSP",
-      "title_en": "A Channel Selection Method for Motor Imagery EEG Based on Fisher Score of OVR-CSP",
-      "title_zh": "基于OVR-CSP Fisher评分的运动想象脑电通道选择方法",
-      "year": 2023,
-      "venue": "2023 11th International Winter Conference on Brain-Computer Interface (BCI)",
-      "authors": [
-        "Jing Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jing_wang_431967249c28",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jing_wang",
-      "scholar_name": "王晶",
-      "work_title_group": "17ca973d76cf",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "6bff0a60ebcb471e",
+    "primary_categories_by_scholar": [
+      "王晶：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "A Channel Selection Method for Motor Imagery EEG Based on Fisher Score of OVR-CSP",
+    "title_en": "A Channel Selection Method for Motor Imagery EEG Based on Fisher Score of OVR-CSP",
+    "title_zh": "基于OVR-CSP Fisher评分的运动想象脑电通道选择方法",
+    "year": 2023,
+    "venue": "2023 11th International Winter Conference on Brain-Computer Interface (BCI)",
+    "authors": [
+      "Jing Wang"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "脑机接口与神经解码"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jing_wang_431967249c28",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jing_wang",
+    "scholar_name": "王晶",
+    "work_title_group": "17ca973d76cf",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jing_wang"
+    ],
+    "scholar_names": [
+      "王晶"
+    ],
+    "source_record_ids": [
+      "panorama_jing_wang_431967249c28"
+    ],
+    "scholar_categories": {
+      "panorama_jing_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王晶",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "A Novel Deep Transfer Learning Framework Integrating General and Domain-Specific Features for EEG-Based Brain-Computer Interface",
-      "title_en": "A Novel Deep Transfer Learning Framework Integrating General and Domain-Specific Features for EEG-Based Brain-Computer Interface",
-      "title_zh": "一种新颖的深度迁移学习框架，集成了基于脑电图的脑机接口的通用和特定领域特征",
-      "year": 2023,
-      "venue": "(untitled)",
-      "authors": [
-        "Jing Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jing_wang_a47cc4016948",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jing_wang",
-      "scholar_name": "王晶",
-      "work_title_group": "1954cc2469b4",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "f5072cf1608cf967",
+    "primary_categories_by_scholar": [
+      "王晶：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Charged vacancy in graphene: interplay between Landau levels and atomic collapse resonances",
+    "title_en": "Charged vacancy in graphene: interplay between Landau levels and atomic collapse resonances",
+    "title_zh": "石墨烯中的带电空位：朗道能级与原子塌陷共振之间的相互作用",
+    "year": 2023,
+    "venue": "arXiv preprint",
+    "authors": [
+      "Jing Wang"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jing_wang_2d37c33ddb4b",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jing_wang",
+    "scholar_name": "王晶",
+    "work_title_group": "7b9d2bf4a8aa",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jing_wang"
+    ],
+    "scholar_names": [
+      "王晶"
+    ],
+    "source_record_ids": [
+      "panorama_jing_wang_2d37c33ddb4b"
+    ],
+    "scholar_categories": {
+      "panorama_jing_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王晶",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "A Reinforcement Learning Based Two-Stage Model for Emotion Cause Pair Extraction",
-      "title_en": "A Reinforcement Learning Based Two-Stage Model for Emotion Cause Pair Extraction",
-      "title_zh": "基于强化学习的情绪原因对提取两阶段模型",
-      "year": 2023,
-      "venue": "IEEE Transactions on Affective Computing",
-      "authors": [
-        "Jing Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jing_wang_96a818d77e0f",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jing_wang",
-      "scholar_name": "王晶",
-      "work_title_group": "4874d1f4a2e0",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "66026bc897ede493",
+    "primary_categories_by_scholar": [
+      "王晶：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Improving EEG-based Emotion Recognition by Fusing Time-Frequency and Spatial Representations",
+    "title_en": "Improving EEG-based Emotion Recognition by Fusing Time-Frequency and Spatial Representations",
+    "title_zh": "通过融合时频和空间表示来改进基于脑电图的情绪识别",
+    "year": 2023,
+    "venue": "ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "authors": [
+      "Jing Wang"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "脑电情感识别",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jing_wang_40cb04d43bd8",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jing_wang",
+    "scholar_name": "王晶",
+    "work_title_group": "8c9f1d046937",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jing_wang"
+    ],
+    "scholar_names": [
+      "王晶"
+    ],
+    "source_record_ids": [
+      "panorama_jing_wang_40cb04d43bd8"
+    ],
+    "scholar_categories": {
+      "panorama_jing_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王晶",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Charged vacancy in graphene: interplay between Landau levels and atomic collapse resonances",
-      "title_en": "Charged vacancy in graphene: interplay between Landau levels and atomic collapse resonances",
-      "title_zh": "石墨烯中的带电空位：朗道能级与原子塌陷共振之间的相互作用",
-      "year": 2023,
-      "venue": "arXiv preprint",
-      "authors": [
-        "Jing Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jing_wang_2d37c33ddb4b",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jing_wang",
-      "scholar_name": "王晶",
-      "work_title_group": "7b9d2bf4a8aa",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "c34f25c08eec3a20",
+    "primary_categories_by_scholar": [
+      "王晶：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "A Novel Deep Transfer Learning Framework Integrating General and Domain-Specific Features for EEG-Based Brain-Computer Interface",
+    "title_en": "A Novel Deep Transfer Learning Framework Integrating General and Domain-Specific Features for EEG-Based Brain-Computer Interface",
+    "title_zh": "一种新颖的深度迁移学习框架，集成了基于脑电图的脑机接口的通用和特定领域特征",
+    "year": 2023,
+    "venue": "(untitled)",
+    "authors": [
+      "Jing Wang"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "脑机接口与神经解码"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jing_wang_a47cc4016948",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jing_wang",
+    "scholar_name": "王晶",
+    "work_title_group": "1954cc2469b4",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jing_wang"
+    ],
+    "scholar_names": [
+      "王晶"
+    ],
+    "source_record_ids": [
+      "panorama_jing_wang_a47cc4016948"
+    ],
+    "scholar_categories": {
+      "panorama_jing_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王晶",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "HICEM: A High-Coverage Emotion Model for Artificial Emotional Intelligence",
-      "title_en": "HICEM: A High-Coverage Emotion Model for Artificial Emotional Intelligence",
-      "title_zh": "HICEM：人工情绪智能的高覆盖率情绪模型",
-      "year": 2023,
-      "venue": "IEEE Transactions on Affective Computing",
-      "authors": [
-        "Benjamin Wortman",
-        "James Z. Wang"
-      ],
-      "doi": "10.1109/taffc.2023.3324902",
-      "paper_url": "https://doi.org/10.1109/taffc.2023.3324902",
-      "source_url": "https://doi.org/10.1109/taffc.2023.3324902",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W4387665615",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 24,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jing_wang_afb591fd81a5",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jing_wang",
-      "scholar_name": "王晶",
-      "work_title_group": "82cdea8f4743",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "87c166e37e91e8bc",
+    "primary_categories_by_scholar": [
+      "王晶：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "HICEM: A High-Coverage Emotion Model for Artificial Emotional Intelligence",
+    "title_en": "HICEM: A High-Coverage Emotion Model for Artificial Emotional Intelligence",
+    "title_zh": "HICEM：人工情绪智能的高覆盖率情绪模型",
+    "year": 2023,
+    "venue": "IEEE Transactions on Affective Computing",
+    "authors": [
+      "Benjamin Wortman",
+      "James Z. Wang"
+    ],
+    "doi": "10.1109/taffc.2023.3324902",
+    "paper_url": "https://doi.org/10.1109/taffc.2023.3324902",
+    "source_url": "https://doi.org/10.1109/taffc.2023.3324902",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4387665615",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 24,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jing_wang_afb591fd81a5",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jing_wang",
+    "scholar_name": "王晶",
+    "work_title_group": "82cdea8f4743",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jing_wang"
+    ],
+    "scholar_names": [
+      "王晶"
+    ],
+    "source_record_ids": [
+      "panorama_jing_wang_afb591fd81a5"
+    ],
+    "scholar_categories": {
+      "panorama_jing_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王晶",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Improving EEG-based Emotion Recognition by Fusing Time-Frequency and Spatial Representations",
-      "title_en": "Improving EEG-based Emotion Recognition by Fusing Time-Frequency and Spatial Representations",
-      "title_zh": "通过融合时频和空间表示来改进基于脑电图的情绪识别",
-      "year": 2023,
-      "venue": "ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
-      "authors": [
-        "Jing Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jing_wang_40cb04d43bd8",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jing_wang",
-      "scholar_name": "王晶",
-      "work_title_group": "8c9f1d046937",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "b22c4326d457c2c9",
+    "primary_categories_by_scholar": [
+      "王晶：情感脑电与多模态生理信号"
+    ],
+    "dblp_key": "journals/taffco/WortmanW24"
+  },
+  {
+    "title": "Effects of the interplay between fermionic interactions and disorders in the nodal-line superconductors",
+    "title_en": "Effects of the interplay between fermionic interactions and disorders in the nodal-line superconductors",
+    "title_zh": "费米子相互作用与节线超导体紊乱之间相互作用的影响",
+    "year": 2022,
+    "venue": "Eur. Phys. J. Plus 138: 607 (2023)",
+    "authors": [
+      "Jing Wang"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jing_wang_8ff6d1ecebdd",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jing_wang",
+    "scholar_name": "王晶",
+    "work_title_group": "6db0312683d8",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jing_wang"
+    ],
+    "scholar_names": [
+      "王晶"
+    ],
+    "source_record_ids": [
+      "panorama_jing_wang_8ff6d1ecebdd"
+    ],
+    "scholar_categories": {
+      "panorama_jing_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王晶",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "EEG Channel Selection Methods for Motor Imagery in Brain Computer Interface",
-      "title_en": "EEG Channel Selection Methods for Motor Imagery in Brain Computer Interface",
-      "title_zh": "脑机接口中运动想象的脑电通道选择方法",
-      "year": 2022,
-      "venue": "2022 10th International Winter Conference on Brain-Computer Interface (BCI)",
-      "authors": [
-        "Jing Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jing_wang_a1e6f522089f",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jing_wang",
-      "scholar_name": "王晶",
-      "work_title_group": "0d886d6b62ba",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "066464fe75b54d42",
+    "primary_categories_by_scholar": [
+      "王晶：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "EEG Channel Selection Methods for Motor Imagery in Brain Computer Interface",
+    "title_en": "EEG Channel Selection Methods for Motor Imagery in Brain Computer Interface",
+    "title_zh": "脑机接口中运动想象的脑电通道选择方法",
+    "year": 2022,
+    "venue": "2022 10th International Winter Conference on Brain-Computer Interface (BCI)",
+    "authors": [
+      "Jing Wang"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "脑机接口与神经解码"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jing_wang_a1e6f522089f",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jing_wang",
+    "scholar_name": "王晶",
+    "work_title_group": "0d886d6b62ba",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jing_wang"
+    ],
+    "scholar_names": [
+      "王晶"
+    ],
+    "source_record_ids": [
+      "panorama_jing_wang_a1e6f522089f"
+    ],
+    "scholar_categories": {
+      "panorama_jing_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王晶",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Effects of the interplay between fermionic interactions and disorders in the nodal-line superconductors",
-      "title_en": "Effects of the interplay between fermionic interactions and disorders in the nodal-line superconductors",
-      "title_zh": "费米子相互作用与节线超导体紊乱之间相互作用的影响",
-      "year": 2022,
-      "venue": "Eur. Phys. J. Plus 138: 607 (2023)",
-      "authors": [
-        "Jing Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jing_wang_8ff6d1ecebdd",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jing_wang",
-      "scholar_name": "王晶",
-      "work_title_group": "6db0312683d8",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "10f463f08f06f112",
+    "primary_categories_by_scholar": [
+      "王晶：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "TEDT: Transformer-Based Encoding–Decoding Translation Network for Multimodal Sentiment Analysis",
+    "title_en": "TEDT: Transformer-Based Encoding–Decoding Translation Network for Multimodal Sentiment Analysis",
+    "title_zh": "TEDT：用于多模态情感分析的基于 Transformer 的编解码翻译网络",
+    "year": 2022,
+    "venue": "Cognitive Computation",
+    "authors": [
+      "Jing Wang"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "情感计算与情绪理解",
+      "多模态与大语言模型"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jing_wang_af82b7c69ab2",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jing_wang",
+    "scholar_name": "王晶",
+    "work_title_group": "8016bece24ca",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jing_wang"
+    ],
+    "scholar_names": [
+      "王晶"
+    ],
+    "source_record_ids": [
+      "panorama_jing_wang_af82b7c69ab2"
+    ],
+    "scholar_categories": {
+      "panorama_jing_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王晶",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "TEDT: Transformer-Based Encoding–Decoding Translation Network for Multimodal Sentiment Analysis",
-      "title_en": "TEDT: Transformer-Based Encoding–Decoding Translation Network for Multimodal Sentiment Analysis",
-      "title_zh": "TEDT：用于多模态情感分析的基于 Transformer 的编解码翻译网络",
-      "year": 2022,
-      "venue": "Cognitive Computation",
-      "authors": [
-        "Jing Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jing_wang_af82b7c69ab2",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jing_wang",
-      "scholar_name": "王晶",
-      "work_title_group": "8016bece24ca",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "0b0078c803333b6b",
+    "primary_categories_by_scholar": [
+      "王晶：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Application of Multiple Neural Networks in Aspect Sentiment Analysis",
+    "title_en": "Application of Multiple Neural Networks in Aspect Sentiment Analysis",
+    "title_zh": "多重神经网络在方面情感分析中的应用",
+    "year": 2021,
+    "venue": "2021 IEEE 6th International Conference on Cloud Computing and Big Data Analytics (ICCCBDA)",
+    "authors": [
+      "Jing Wang"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jing_wang_266b3624a154",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jing_wang",
+    "scholar_name": "王晶",
+    "work_title_group": "d6c54b6e880a",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jing_wang"
+    ],
+    "scholar_names": [
+      "王晶"
+    ],
+    "source_record_ids": [
+      "panorama_jing_wang_266b3624a154"
+    ],
+    "scholar_categories": {
+      "panorama_jing_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王晶",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "A Personalized Channel Selection and Spatial filtering Model for Brain-Computer Interface",
-      "title_en": "A Personalized Channel Selection and Spatial filtering Model for Brain-Computer Interface",
-      "title_zh": "脑机接口的个性化频道选择和空间过滤模型",
-      "year": 2021,
-      "venue": "2021 10th International Conference on Bioinformatics and Biomedical Science",
-      "authors": [
-        "Jing Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jing_wang_c31143731e8a",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jing_wang",
-      "scholar_name": "王晶",
-      "work_title_group": "6be64338a93f",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "3f7004731696d21b",
+    "primary_categories_by_scholar": [
+      "王晶：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Multi-task Learning Network based on Attention for Aspect-Based Sentiment Analysis",
+    "title_en": "Multi-task Learning Network based on Attention for Aspect-Based Sentiment Analysis",
+    "title_zh": "基于注意力的多任务学习网络进行基于方面的情感分析",
+    "year": 2021,
+    "venue": "Journal of Physics: Conference Series",
+    "authors": [
+      "Jing Wang"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jing_wang_f896f6b05e93",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jing_wang",
+    "scholar_name": "王晶",
+    "work_title_group": "1e223c8f3079",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jing_wang"
+    ],
+    "scholar_names": [
+      "王晶"
+    ],
+    "source_record_ids": [
+      "panorama_jing_wang_f896f6b05e93"
+    ],
+    "scholar_categories": {
+      "panorama_jing_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王晶",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Application of Multiple Neural Networks in Aspect Sentiment Analysis",
-      "title_en": "Application of Multiple Neural Networks in Aspect Sentiment Analysis",
-      "title_zh": "多重神经网络在方面情感分析中的应用",
-      "year": 2021,
-      "venue": "2021 IEEE 6th International Conference on Cloud Computing and Big Data Analytics (ICCCBDA)",
-      "authors": [
-        "Jing Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jing_wang_266b3624a154",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jing_wang",
-      "scholar_name": "王晶",
-      "work_title_group": "d6c54b6e880a",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "cf3ef09f4f57cf2d",
+    "primary_categories_by_scholar": [
+      "王晶：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "A Personalized Channel Selection and Spatial filtering Model for Brain-Computer Interface",
+    "title_en": "A Personalized Channel Selection and Spatial filtering Model for Brain-Computer Interface",
+    "title_zh": "脑机接口的个性化频道选择和空间过滤模型",
+    "year": 2021,
+    "venue": "2021 10th International Conference on Bioinformatics and Biomedical Science",
+    "authors": [
+      "Jing Wang"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "脑机接口与神经解码"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jing_wang_c31143731e8a",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jing_wang",
+    "scholar_name": "王晶",
+    "work_title_group": "6be64338a93f",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jing_wang"
+    ],
+    "scholar_names": [
+      "王晶"
+    ],
+    "source_record_ids": [
+      "panorama_jing_wang_c31143731e8a"
+    ],
+    "scholar_categories": {
+      "panorama_jing_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王晶",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "EEGG: An analytic brain-computer interface algorithm",
-      "title_en": "EEGG: An analytic brain-computer interface algorithm",
-      "title_zh": "EEGG：一种分析脑机接口算法",
-      "year": 2021,
-      "venue": "(untitled)",
-      "authors": [
-        "Jing Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jing_wang_d0b5cd62611b",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jing_wang",
-      "scholar_name": "王晶",
-      "work_title_group": "e2e8068aad66",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "26d1f7f25a089c4a",
+    "primary_categories_by_scholar": [
+      "王晶：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "EEGG: An analytic brain-computer interface algorithm",
+    "title_en": "EEGG: An analytic brain-computer interface algorithm",
+    "title_zh": "EEGG：一种分析脑机接口算法",
+    "year": 2021,
+    "venue": "(untitled)",
+    "authors": [
+      "Jing Wang"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "脑机接口与神经解码"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jing_wang_d0b5cd62611b",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jing_wang",
+    "scholar_name": "王晶",
+    "work_title_group": "e2e8068aad66",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jing_wang"
+    ],
+    "scholar_names": [
+      "王晶"
+    ],
+    "source_record_ids": [
+      "panorama_jing_wang_d0b5cd62611b"
+    ],
+    "scholar_categories": {
+      "panorama_jing_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王晶",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Multi-task Learning Network based on Attention for Aspect-Based Sentiment Analysis",
-      "title_en": "Multi-task Learning Network based on Attention for Aspect-Based Sentiment Analysis",
-      "title_zh": "基于注意力的多任务学习网络进行基于方面的情感分析",
-      "year": 2021,
-      "venue": "Journal of Physics: Conference Series",
-      "authors": [
-        "Jing Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jing_wang_f896f6b05e93",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jing_wang",
-      "scholar_name": "王晶",
-      "work_title_group": "1e223c8f3079",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "7382ba516da3d4cb",
+    "primary_categories_by_scholar": [
+      "王晶：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "SST-EmotionNet: Spatial-Spectral-Temporal based Attention 3D Dense Network for EEG Emotion Recognition",
+    "title_en": "SST-EmotionNet: Spatial-Spectral-Temporal based Attention 3D Dense Network for EEG Emotion Recognition",
+    "title_zh": "SST-EmotionNet：用于脑电图情绪识别的基于空间-频谱-时间的注意力3D密集网络",
+    "year": 2020,
+    "venue": "28th ACM International Conference on Multimedia ( ACM MM 2020, CCF A ) [PDF] [Code] [Slides]",
+    "authors": [
+      "Ziyu Jia",
+      "Youfang Lin",
+      "Xiyang Cai",
+      "Haobin Chen",
+      "Haijun Gou",
+      "Jing Wang"
+    ],
+    "doi": "10.1145/3394171.3413724",
+    "paper_url": "https://dl.acm.org/doi/abs/10.1145/3394171.3413724",
+    "source_url": "https://dl.acm.org/doi/abs/10.1145/3394171.3413724",
+    "topics": [
+      "脑电基础大模型",
+      "EEG表征对齐",
+      "脑电微调",
+      "脑电情感识别",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；重点纳入",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [
+      "ziyu_jia__R006"
+    ],
+    "code_urls": [
+      "https://github.com/ziyujia/SST-EmotionNet"
+    ],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W3093125198",
+    "openalex_author_id": "https://openalex.org/A5065497921",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 203,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "Official author publication page",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "ziyu_jia_ee28843aa94a",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电基础大模型",
+      "EEG表征对齐",
+      "脑电微调"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "ziyu_jia",
+    "scholar_name": "贾子瑜",
+    "work_title_group": "3f8dd0fc1241",
+    "resource_status": "已关联公开入口；具体访问范围见资源说明",
+    "scholar_ids": [
+      "ziyu_jia",
+      "panorama_jing_wang"
+    ],
+    "scholar_names": [
+      "贾子瑜",
+      "王晶"
+    ],
+    "source_record_ids": [
+      "ziyu_jia_ee28843aa94a",
+      "panorama_jing_wang_ee28843aa94a"
+    ],
+    "scholar_categories": {
+      "ziyu_jia": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "贾子瑜",
+        "secondary_tags": [
+          "脑电基础大模型",
+          "EEG表征对齐",
+          "脑电微调"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "panorama_jing_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王晶",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "SST-EmotionNet: Spatial-Spectral-Temporal based Attention 3D Dense Network for EEG Emotion Recognition",
-      "title_en": "SST-EmotionNet: Spatial-Spectral-Temporal based Attention 3D Dense Network for EEG Emotion Recognition",
-      "title_zh": "SST-EmotionNet：用于脑电图情绪识别的基于空间-频谱-时间的注意力3D密集网络",
-      "year": 2020,
-      "venue": "28th ACM International Conference on Multimedia ( ACM MM 2020, CCF A ) [PDF] [Code] [Slides]",
-      "authors": [
-        "Ziyu Jia",
-        "Youfang Lin",
-        "Xiyang Cai",
-        "Haobin Chen",
-        "Haijun Gou",
-        "Jing Wang"
-      ],
-      "doi": "",
-      "paper_url": "https://dl.acm.org/doi/abs/10.1145/3394171.3413724",
-      "source_url": "https://dl.acm.org/doi/abs/10.1145/3394171.3413724",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "panorama_jing_wang_ee28843aa94a",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jing_wang",
-      "scholar_name": "王晶",
-      "work_title_group": "3f8dd0fc1241",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "213ff8766c24e071",
+    "primary_categories_by_scholar": [
+      "贾子瑜：情感脑电与多模态生理信号",
+      "王晶：情感脑电与多模态生理信号"
+    ],
+    "abstract_en": "Multimedia stimulation of brain activities has not only become an emerging field for intensive research, but also achieves important progress in the electroencephalogram (EEG) emotion classification based on brain activities. However, how to make full use of different EEG features and the discriminative local patterns among the features for different emotions is challenging. Existing models ignore the complementarity among the spatial-spectral-temporal features and discriminative local patterns in all features, which limits the classification ability of the models to a certain extent. In this paper, we propose a novel spatial-spectral-temporal based attention 3D dense network, named SST-EmotionNet, for EEG emotion recognition. The main advantage of the SST-EmotionNet is the simultaneous integration of spatial-spectral-temporal features in a unified network framework. Meanwhile, a 3D attention mechanism is designed to adaptively explore discriminative local patterns. Extensive experiments on two real-world datasets demonstrate that the SST-EmotionNet outperforms the state-of-the-art baselines.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "大脑活动的多媒体刺激不仅成为深入研究的新兴领域，而且在基于大脑活动的脑电图（EEG）情绪分类方面取得了重要进展。然而，如何充分利用不同的脑电图特征以及不同情绪特征之间的区分性局部模式是具有挑战性的。现有模型忽略了空间-光谱-时间特征之间的互补性以及所有特征中具有判别性的局部模式，这在一定程度上限制了模型的分类能力。在本文中，我们提出了一种新颖的基于空间-光谱-时间的注意力 3D 密集网络，名为 SST-Emot..."
+  },
+  {
+    "title": "Massive scalar counterpart of gravitational waves in scalarized neutron star binaries",
+    "title_en": "Massive scalar counterpart of gravitational waves in scalarized neutron star binaries",
+    "title_zh": "标量中子星双星中引力波的大质量标量对应物",
+    "year": 2019,
+    "venue": "Eur. Phys. J. C (2017) 77:641",
+    "authors": [
+      "Jing Wang"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jing_wang_2a8b264c613e",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jing_wang",
+    "scholar_name": "王晶",
+    "work_title_group": "f7699550bca5",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jing_wang"
+    ],
+    "scholar_names": [
+      "王晶"
+    ],
+    "source_record_ids": [
+      "panorama_jing_wang_2a8b264c613e"
+    ],
+    "scholar_categories": {
+      "panorama_jing_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王晶",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Massive scalar counterpart of gravitational waves in scalarized neutron star binaries",
-      "title_en": "Massive scalar counterpart of gravitational waves in scalarized neutron star binaries",
-      "title_zh": "标量中子星双星中引力波的大质量标量对应物",
-      "year": 2019,
-      "venue": "Eur. Phys. J. C (2017) 77:641",
-      "authors": [
-        "Jing Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jing_wang_2a8b264c613e",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jing_wang",
-      "scholar_name": "王晶",
-      "work_title_group": "f7699550bca5",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "815481832afecbb2",
+    "primary_categories_by_scholar": [
+      "王晶：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "The Prevalence of Type III Disc Breaks in HI-rich and Low-spin Galaxies",
+    "title_en": "The Prevalence of Type III Disc Breaks in HI-rich and Low-spin Galaxies",
+    "title_zh": "富含 HI 和低自旋星系中 III 型盘破裂的普遍性",
+    "year": 2018,
+    "venue": "arXiv preprint",
+    "authors": [
+      "Jing Wang"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jing_wang_6435e5d03d7d",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jing_wang",
+    "scholar_name": "王晶",
+    "work_title_group": "9fafe11bff1c",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jing_wang"
+    ],
+    "scholar_names": [
+      "王晶"
+    ],
+    "source_record_ids": [
+      "panorama_jing_wang_6435e5d03d7d"
+    ],
+    "scholar_categories": {
+      "panorama_jing_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王晶",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Predicting the Probability Density Function of Music Emotion Using Emotion Space Mapping",
-      "title_en": "Predicting the Probability Density Function of Music Emotion Using Emotion Space Mapping",
-      "title_zh": "使用情感空间映射预测音乐情感的概率密度函数",
-      "year": 2018,
-      "venue": "IEEE Transactions on Affective Computing",
-      "authors": [
-        "Jing Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jing_wang_f38e3a3b3611",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jing_wang",
-      "scholar_name": "王晶",
-      "work_title_group": "d583e28542b5",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "9c43be6ad413286c",
+    "primary_categories_by_scholar": [
+      "王晶：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Predicting the Probability Density Function of Music Emotion Using Emotion Space Mapping",
+    "title_en": "Predicting the Probability Density Function of Music Emotion Using Emotion Space Mapping",
+    "title_zh": "使用情感空间映射预测音乐情感的概率密度函数",
+    "year": 2018,
+    "venue": "IEEE Transactions on Affective Computing",
+    "authors": [
+      "Jing Wang"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jing_wang_f38e3a3b3611",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jing_wang",
+    "scholar_name": "王晶",
+    "work_title_group": "d583e28542b5",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jing_wang"
+    ],
+    "scholar_names": [
+      "王晶"
+    ],
+    "source_record_ids": [
+      "panorama_jing_wang_f38e3a3b3611"
+    ],
+    "scholar_categories": {
+      "panorama_jing_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王晶",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "The Prevalence of Type III Disc Breaks in HI-rich and Low-spin Galaxies",
-      "title_en": "The Prevalence of Type III Disc Breaks in HI-rich and Low-spin Galaxies",
-      "title_zh": "富含 HI 和低自旋星系中 III 型盘破裂的普遍性",
-      "year": 2018,
-      "venue": "arXiv preprint",
-      "authors": [
-        "Jing Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jing_wang_6435e5d03d7d",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jing_wang",
-      "scholar_name": "王晶",
-      "work_title_group": "9fafe11bff1c",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "e7c8eb5821f8a961",
+    "primary_categories_by_scholar": [
+      "王晶：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Toward a hybrid brain-computer interface based on repetitive visual stimuli with missing events",
+    "title_en": "Toward a hybrid brain-computer interface based on repetitive visual stimuli with missing events",
+    "title_zh": "基于重复视觉刺激和缺失事件的混合脑机接口",
+    "year": 2016,
+    "venue": "Journal of NeuroEngineering and Rehabilitation",
+    "authors": [
+      "Jing Wang"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "脑机接口与神经解码"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_jing_wang_e87e2770b3c5",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_jing_wang",
+    "scholar_name": "王晶",
+    "work_title_group": "7307d0989047",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_jing_wang"
+    ],
+    "scholar_names": [
+      "王晶"
+    ],
+    "source_record_ids": [
+      "panorama_jing_wang_e87e2770b3c5"
+    ],
+    "scholar_categories": {
+      "panorama_jing_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王晶",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Toward a hybrid brain-computer interface based on repetitive visual stimuli with missing events",
-      "title_en": "Toward a hybrid brain-computer interface based on repetitive visual stimuli with missing events",
-      "title_zh": "基于重复视觉刺激和缺失事件的混合脑机接口",
-      "year": 2016,
-      "venue": "Journal of NeuroEngineering and Rehabilitation",
-      "authors": [
-        "Jing Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_jing_wang_e87e2770b3c5",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "情感大模型与多模态基础模型"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_jing_wang",
-      "scholar_name": "王晶",
-      "work_title_group": "7307d0989047",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
-    }
-  ]
-}
+    "global_record_id": "44256b5009bdbaf3",
+    "primary_categories_by_scholar": [
+      "王晶：情感脑电与多模态生理信号"
+    ]
+  }
+]

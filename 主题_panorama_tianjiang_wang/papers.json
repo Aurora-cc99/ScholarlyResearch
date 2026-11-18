@@ -1,311 +1,443 @@
-{
-  "scholar": {
-    "name_zh": "王天江",
-    "name_en": "Tianjiang Wang",
-    "affiliation": "华中科技大学",
-    "identity_sources": [
-      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+[
+  {
+    "title": "A Hybrid EEG-EMG System for Brain-Computer Interface-Based Unmanned Aerial Vehicle Control",
+    "title_en": "A Hybrid EEG-EMG System for Brain-Computer Interface-Based Unmanned Aerial Vehicle Control",
+    "title_zh": "基于脑机接口的无人机控制的脑电-肌电混合系统",
+    "year": 2026,
+    "venue": "2026 9th International Conference on Advanced Algorithms and Control Engineering (ICAACE)",
+    "authors": [
+      "Ting Wang",
+      "Lei Cao",
+      "Yan Huang",
+      "Yilin Dong"
     ],
-    "official_homepages": [
-      "local://中国985_211高校情感计算与脑电方向学者全景名单.md"
+    "doi": "10.1109/icaace69793.2026.11509238",
+    "paper_url": "https://doi.org/10.1109/icaace69793.2026.11509238",
+    "source_url": "https://doi.org/10.1109/icaace69793.2026.11509238",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "脑机接口与神经解码"
     ],
-    "coverage": {
-      "scope": "2025–2026主题筛选与全量书目扩展",
-      "status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
-      "coverage_status": "仅有代表论文或项目级记录；个人全历史待补核",
-      "available_record_count": 5,
-      "bulk_source_record_count": 0,
-      "themes": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ]
-    },
-    "coverage_notes": "该目录与五位基线学者使用同一论文/资源/分类输出契约。‘可用记录数’表示本轮已取得并保留的书目，不等于未经消歧的个人终身全集；身份待核验、论文团队和同名风险见候选筛选证据。",
-    "id": "panorama_tianjiang_wang",
-    "folder": "主题_panorama_tianjiang_wang",
-    "classification": {
-      "method": "按题名及现有项目、资源说明进行主题粗分，用于阅读导航；未逐篇审阅全文，不代表学者官方分类。每条书目只设一个主类别，跨方向信息保留在辅助标签中。",
-      "categories": [
-        {
-          "id": "eeg_foundation",
-          "label": "脑电基础模型与通用解码",
-          "description": "EEG基础模型、跨任务/跨设备泛化、预训练与脑信号解码。",
-          "count": 0
-        },
-        {
-          "id": "eeg_affect",
-          "label": "情感脑电与多模态生理信号",
-          "description": "脑电情感识别、EEG-fNIRS/EEG-MEG及情感计算应用。",
-          "count": 5
-        },
-        {
-          "id": "eeg_benchmark",
-          "label": "脑电基准、数据与评测",
-          "description": "脑电基础模型基准、数据集、可复现评估与跨数据集比较。",
-          "count": 0
-        }
-      ],
-      "review": {
-        "status": "theme_candidate",
-        "source_status": "中国985/211高校全景名单导入；论文条目待逐篇来源核验",
-        "primary_theme": "脑电情感计算与脑电大模型"
+    "verification": "Crossref exact/near-exact title and publication-year match; DOI URL preserved",
+    "status": "已核验作品（Crossref DOI）",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W7161141408",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）；Crossref exact title/year",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_tianjiang_wang_fef277f3d873",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_tianjiang_wang",
+    "scholar_name": "王天江",
+    "work_title_group": "1b8fa9945e94",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_tianjiang_wang"
+    ],
+    "scholar_names": [
+      "王天江"
+    ],
+    "source_record_ids": [
+      "panorama_tianjiang_wang_fef277f3d873"
+    ],
+    "scholar_categories": {
+      "panorama_tianjiang_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王天江",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
       }
     },
-    "counts": {
-      "bibliographic_records": 5,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [
-        2004,
-        2020,
-        2023,
-        2024,
-        2026
-      ],
-      "unknown_year": 0
-    }
+    "global_record_id": "5c063ab35f61ace5",
+    "primary_categories_by_scholar": [
+      "王天江：情感脑电与多模态生理信号"
+    ],
+    "abstract_en": "Reliable and intuitive control of unmanned aerial vehicles (UAVs) remains a major challenge for brain-computer interface (BCI) systems, particularly in dynamic real-world environments. Steady-state visually evoked potential (SSVEP) based BCI has high precision, however, it may cause visual tiredness; while Electromyography (EMG) provides additional information of motor related signals which can improve the adaptability of the performance for BCI especially on the dynamic tasks. Therefore, this hybrid BCI protocol provides a reliable framework for UAV control by integrating the two physiological Electroencephalography (EEG) and EMG signals. The evaluation experiment indicated that hybrid EEG-EMG control obtained higher accuracy than unimodal methods, and the errors caused by the incorrect perception can be decreased.",
+    "abstract_source": "openalex_doi",
+    "abstract_zh": "无人机（UAV）的可靠和直观控制仍然是脑机接口（BCI）系统的主要挑战，特别是在动态的现实环境中。基于稳态视觉诱发电位（SSVEP）的BCI精度较高，但可能会导致视觉疲劳；而肌电图（EMG）提供了运动相关信号的附加信息，可以提高BCI性能的适应性，特别是在动态任务上。因此，这种混合 BCI 协议通过集成两种生理脑电图 (EEG) 和 EMG 信号，为无人机控制提供了可靠的框架。评估实验表明混合EEG-..."
   },
-  "papers": [
-    {
-      "title": "A Hybrid EEG-EMG System for Brain-Computer Interface-Based Unmanned Aerial Vehicle Control",
-      "title_en": "A Hybrid EEG-EMG System for Brain-Computer Interface-Based Unmanned Aerial Vehicle Control",
-      "title_zh": "基于脑机接口的无人机控制的脑电-肌电混合系统",
-      "year": 2026,
-      "venue": "2026 9th International Conference on Advanced Algorithms and Control Engineering (ICAACE)",
-      "authors": [
-        "Tianjiang Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_tianjiang_wang_fef277f3d873",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_tianjiang_wang",
-      "scholar_name": "王天江",
-      "work_title_group": "1b8fa9945e94",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+  {
+    "title": "Backing Design for Coil-only EMAT using Nickel-powder Epoxy Composite",
+    "title_en": "Backing Design for Coil-only EMAT using Nickel-powder Epoxy Composite",
+    "title_zh": "使用镍粉环氧复合材料的纯线圈 EMAT 背衬设计",
+    "year": 2026,
+    "venue": "e-Journal of Nondestructive Testing",
+    "authors": [
+      "Yini Song",
+      "Kai WANG",
+      "Yiru Xiao",
+      "Jun Tu",
+      "Bo Feng",
+      "Yihua Kang"
+    ],
+    "doi": "10.58286/32917",
+    "dblp_key": "",
+    "paper_url": "https://doi.org/10.58286/32917",
+    "pdf_url": "https://www.ndt.net/article/ecndt2026/papers/ECNDT_2026_ID_131.pdf",
+    "source_url": "https://openalex.org/W7167235292",
+    "openalex_id": "https://openalex.org/W7167235292",
+    "openalex_author_id": "https://openalex.org/A5139979100",
+    "cited_by_count": 0,
+    "abstract_en": "Coil-only magnetostrictive Lamb-wave detection employs a nickel sheet both as the waveguide and as an integral part of the ultrasonic excitation structure, but this configuration often produces multiple echo pulses that obscure interpretation. To mitigate unwanted reflections, we coated the nickel substrate with 5 mm-wide strips of nickelpowder epoxy composite at the excitation edge. For direct comparison, we applied pure epoxy strips of identical width at the same locations. Following band-pass filtering and baseline correction, we computed the RMS energy within the reflection window. Energy absorption ratios relative to an uncoated control show that the nickel-powder composite attenuates Lamb-wave energy two to three times more effectively than pure epoxy. Viscoelastic damping in the epoxy resin combined with scattering at metal–polymer interfaces drives this enhanced dissipation. These results clarify the key absorption mechanisms and inform the design of high-efficiency backing materials for Lamb-wave transduction in thin plates.",
+    "abstract_zh": "仅线圈磁致伸缩兰姆波检测采用镍片作为波导和超声激励结构的组成部分，但这种配置通常会产生多个回波脉冲，从而模糊解释。为了减轻不必要的反射，我们在激励边缘处用 5 毫米宽的镍粉环氧复合材料条涂覆镍基板。为了直接比较，我们在相同位置应用了相同宽度的纯环氧树脂条。经过带通滤波和基线校正后，我们计算了反射窗口内的 RMS 能量。相对于未涂层对照的能量吸收比表明，镍粉复合材料衰减兰姆波能量的效率高出两到三倍……",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5139979100）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "panorama_tianjiang_wang_ed23460b061ad005",
+    "global_record_id": "c7f2a87cd927b5d9",
+    "scholar_id": "panorama_tianjiang_wang",
+    "scholar_name": "王天江",
+    "scholar_ids": [
+      "panorama_tianjiang_wang"
+    ],
+    "scholar_names": [
+      "王天江"
+    ],
+    "source_record_ids": [
+      "panorama_tianjiang_wang_ed23460b061ad005"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "panorama_tianjiang_wang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "王天江",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
     },
-    {
-      "title": "Efficient Channel Attention Based Hybrid Networks for EEG Emotion Recognition",
-      "title_en": "Efficient Channel Attention Based Hybrid Networks for EEG Emotion Recognition",
-      "title_zh": "基于高效通道注意力的混合网络用于脑电图情绪识别",
-      "year": 2024,
-      "venue": "2024 IEEE 7th International Conference on Information Systems and Computer Aided Education (ICISCAE)",
-      "authors": [
-        "Tianjiang Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_tianjiang_wang_494990444040",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_tianjiang_wang",
-      "scholar_name": "王天江",
-      "work_title_group": "5b6a3b3a5c1f",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "primary_categories_by_scholar": [
+      "王天江：脑电基础模型与通用解码"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码"
+  },
+  {
+    "title": "Efficient Channel Attention Based Hybrid Networks for EEG Emotion Recognition",
+    "title_en": "Efficient Channel Attention Based Hybrid Networks for EEG Emotion Recognition",
+    "title_zh": "基于高效通道注意力的混合网络用于脑电图情绪识别",
+    "year": 2024,
+    "venue": "2024 IEEE 7th International Conference on Information Systems and Computer Aided Education (ICISCAE)",
+    "authors": [
+      "Tianjiang Wang"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "脑电情感识别",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_tianjiang_wang_494990444040",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_tianjiang_wang",
+    "scholar_name": "王天江",
+    "work_title_group": "5b6a3b3a5c1f",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_tianjiang_wang"
+    ],
+    "scholar_names": [
+      "王天江"
+    ],
+    "source_record_ids": [
+      "panorama_tianjiang_wang_494990444040"
+    ],
+    "scholar_categories": {
+      "panorama_tianjiang_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王天江",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Exploring the Role of Visual Guidance in Motor Imagery-Based Brain-Computer Interface: An EEG Microstate-Specific Functional Connectivity Study",
-      "title_en": "Exploring the Role of Visual Guidance in Motor Imagery-Based Brain-Computer Interface: An EEG Microstate-Specific Functional Connectivity Study",
-      "title_zh": "探索视觉引导在基于运动想象的脑机接口中的作用：脑电图微状态特定功能连接研究",
-      "year": 2023,
-      "venue": "Bioengineering",
-      "authors": [
-        "Tianjiang Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_tianjiang_wang_cd83c3284028",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_tianjiang_wang",
-      "scholar_name": "王天江",
-      "work_title_group": "26f7afb63eac",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "b29a6706c0d048d1",
+    "primary_categories_by_scholar": [
+      "王天江：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Exploring the Role of Visual Guidance in Motor Imagery-Based Brain-Computer Interface: An EEG Microstate-Specific Functional Connectivity Study",
+    "title_en": "Exploring the Role of Visual Guidance in Motor Imagery-Based Brain-Computer Interface: An EEG Microstate-Specific Functional Connectivity Study",
+    "title_zh": "探索视觉引导在基于运动想象的脑机接口中的作用：脑电图微状态特定功能连接研究",
+    "year": 2023,
+    "venue": "Bioengineering",
+    "authors": [
+      "Tianjun Wang",
+      "Yun-Hsuan Chen",
+      "Mohamad Sawan"
+    ],
+    "doi": "10.3390/bioengineering10030281",
+    "paper_url": "https://doi.org/10.3390/bioengineering10030281",
+    "source_url": "https://doi.org/10.3390/bioengineering10030281",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "脑机接口与神经解码"
+    ],
+    "verification": "Crossref exact/near-exact title and publication-year match; DOI URL preserved；题名、年份和作者字段已写入论文详情页",
+    "status": "已核验作品（Crossref/DOI）",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4321496509",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "Crossref works API（题名/年份/作者匹配）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_tianjiang_wang_cd83c3284028",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_tianjiang_wang",
+    "scholar_name": "王天江",
+    "work_title_group": "26f7afb63eac",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_tianjiang_wang"
+    ],
+    "scholar_names": [
+      "王天江"
+    ],
+    "source_record_ids": [
+      "panorama_tianjiang_wang_cd83c3284028"
+    ],
+    "scholar_categories": {
+      "panorama_tianjiang_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王天江",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Fingerprint Enhancement, Minutiae Extraction and Matching Techniques",
-      "title_en": "Fingerprint Enhancement, Minutiae Extraction and Matching Techniques",
-      "title_zh": "指纹增强、细节提取和匹配技术",
-      "year": 2020,
-      "venue": "Journal of Computer and Communications",
-      "authors": [
-        "Tianjiang Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_tianjiang_wang_ab74dc4b8df9",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_tianjiang_wang",
-      "scholar_name": "王天江",
-      "work_title_group": "754169705132",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "f42936f9a6b815b6",
+    "primary_categories_by_scholar": [
+      "王天江：情感脑电与多模态生理信号"
+    ],
+    "abstract_en": "Motor imagery-based brain-computer interfaces (BCI) have been widely recognized as beneficial tools for rehabilitation applications. Moreover, visually guided motor imagery was introduced to improve the rehabilitation impact. However, the reported results to support these techniques remain unsatisfactory. Electroencephalography (EEG) signals can be represented by a sequence of a limited number of topographies (microstates). To explore the dynamic brain activation patterns, we conducted EEG microstate and microstate-specific functional connectivity analyses on EEG data under motor imagery (MI), motor execution (ME), and guided MI (GMI) conditions. By comparing sixteen microstate parameters, the brain activation patterns induced by GMI show more similarities to ME than MI from a microstate perspective. The mean duration and duration of microstate four are proposed as biomarkers to evaluate motor condition. A support vector machine (SVM) classifier trained with microstate parameters achieved average accuracies of 80.27% and 66.30% for ME versus MI and GMI classification, respectively. Further, functional connectivity patterns showed a strong relationship with microstates. Key node analysis shows clear switching of key node distribution between brain areas among different microstates. The neural mechanism of the switching pattern is discussed. While microstate analysis indicates similar brain dynamics between GMI and ME, graph theory-based microstate-specific functional connectivity analysis implies that visual guidance may reduce the functional integration of the brain network during MI. Thus, we proposed that combined MI and GMI for BCI can improve neurorehabilitation effects. The present findings provide insights for understanding the neural mechanism of microstates, the role of visual guidance in MI tasks, and the experimental basis for developing new BCI-aided rehabilitation systems.",
+    "abstract_source": "openalex_doi",
+    "pdf_url": "https://www.mdpi.com/2306-5354/10/3/281/pdf?version=1677205008",
+    "abstract_zh": "基于运动想象的脑机接口（BCI）已被广泛认为是康复应用的有益工具。此外，引入视觉引导运动想象来改善康复效果。然而，支持这些技术的报告结果仍然不能令人满意。脑电图 (EEG) 信号可以通过一系列有限数量的地形（微观状态）来表示。为了探索动态大脑激活模式，我们在运动想象（MI）、运动执行（ME）和引导 MI（GMI）条件下对脑电图数据进行了脑电图微状态和微状态特定的功能连接分析。通过比较十六个微观状态参数，..."
+  },
+  {
+    "title": "Fingerprint Enhancement, Minutiae Extraction and Matching Techniques",
+    "title_en": "Fingerprint Enhancement, Minutiae Extraction and Matching Techniques",
+    "title_zh": "指纹增强、细节提取和匹配技术",
+    "year": 2020,
+    "venue": "Journal of Computer and Communications",
+    "authors": [
+      "Tianjiang Wang"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_tianjiang_wang_ab74dc4b8df9",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_tianjiang_wang",
+    "scholar_name": "王天江",
+    "work_title_group": "754169705132",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_tianjiang_wang"
+    ],
+    "scholar_names": [
+      "王天江"
+    ],
+    "source_record_ids": [
+      "panorama_tianjiang_wang_ab74dc4b8df9"
+    ],
+    "scholar_categories": {
+      "panorama_tianjiang_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王天江",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "An efficient rhythmic component expression and weighting synthesis strategy for classifying motor imagery EEG in a brain–computer interface",
-      "title_en": "An efficient rhythmic component expression and weighting synthesis strategy for classifying motor imagery EEG in a brain–computer interface",
-      "title_zh": "一种有效的节律成分表达和加权合成策略，用于对脑机接口中的运动想象脑电图进行分类",
-      "year": 2004,
-      "venue": "Journal of Neural Engineering",
-      "authors": [
-        "Tianjiang Wang"
-      ],
-      "doi": "",
-      "paper_url": "",
-      "source_url": "",
-      "topics": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能",
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": true,
-      "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
-      "translation_source": "离线术语规则辅助译名；保留英文题名供人工复核",
-      "record_id": "panorama_tianjiang_wang_f3ff22098007",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "脑电情感计算与脑机接口",
-        "情感理解与情感智能"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "panorama_tianjiang_wang",
-      "scholar_name": "王天江",
-      "work_title_group": "fb31ac66c3bc",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
-    }
-  ]
-}
+    "global_record_id": "cab8d85eec0bd0da",
+    "primary_categories_by_scholar": [
+      "王天江：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "An efficient rhythmic component expression and weighting synthesis strategy for classifying motor imagery EEG in a brain–computer interface",
+    "title_en": "An efficient rhythmic component expression and weighting synthesis strategy for classifying motor imagery EEG in a brain–computer interface",
+    "title_zh": "一种有效的节律成分表达和加权合成策略，用于对脑机接口中的运动想象脑电图进行分类",
+    "year": 2004,
+    "venue": "Journal of Neural Engineering",
+    "authors": [
+      "Tianjiang Wang"
+    ],
+    "doi": "",
+    "paper_url": "",
+    "source_url": "",
+    "topics": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "脑机接口与神经解码"
+    ],
+    "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": true,
+    "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "panorama_tianjiang_wang_f3ff22098007",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "panorama_tianjiang_wang",
+    "scholar_name": "王天江",
+    "work_title_group": "fb31ac66c3bc",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "panorama_tianjiang_wang"
+    ],
+    "scholar_names": [
+      "王天江"
+    ],
+    "source_record_ids": [
+      "panorama_tianjiang_wang_f3ff22098007"
+    ],
+    "scholar_categories": {
+      "panorama_tianjiang_wang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "王天江",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "32a54fbfb5f31935",
+    "primary_categories_by_scholar": [
+      "王天江：情感脑电与多模态生理信号"
+    ]
+  }
+]

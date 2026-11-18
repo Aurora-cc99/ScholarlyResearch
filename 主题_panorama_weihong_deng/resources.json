@@ -1,1 +1,406 @@
-[]
+[
+  {
+    "id": "panorama_weihong_deng__auto_code_cfe6dea8d1",
+    "name": "Generalizable Facial Expression Recognition — 开源代码 (zyh-uaiaaaa/Generalizable-FER)",
+    "name_zh": "通用面部表情识别 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/zyh-uaiaaaa/Generalizable-FER",
+    "download_url": "https://github.com/zyh-uaiaaaa/Generalizable-FER",
+    "access": "public",
+    "related_paper_titles": [
+      "Generalizable Facial Expression Recognition"
+    ],
+    "related_paper_titles_zh": [
+      "通用面部表情识别"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/zyh-uaiaaaa/Generalizable-FER",
+      "https://doi.org/10.1007/978-3-031-72630-9_14"
+    ],
+    "description": "从论文《Generalizable Facial Expression Recognition》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "panorama_weihong_deng",
+    "scholar_name": "邓伟洪",
+    "matched_paper_ids": [
+      "panorama_weihong_deng_bcc0d94f8f6c"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "panorama_weihong_deng::eeg_affect"
+    ],
+    "primary_categories": [
+      "邓伟洪：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "panorama_weihong_deng__auto_code_37129e54c1",
+    "name": "SwinFace: A Multi-task Transformer for Face Recognition, Expression Recognition, Age Estimation and Attribute Estimation — 开源代码 (lxq1000/SwinFace)",
+    "name_zh": "SwinFace：用于人脸识别、表情识别、年龄估计和属性估计的多任务转换器 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/lxq1000/SwinFace",
+    "download_url": "https://github.com/lxq1000/SwinFace",
+    "access": "public",
+    "related_paper_titles": [
+      "SwinFace: A Multi-task Transformer for Face Recognition, Expression Recognition, Age Estimation and Attribute Estimation"
+    ],
+    "related_paper_titles_zh": [
+      "SwinFace：用于人脸识别、表情识别、年龄估计和属性估计的多任务转换器"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/lxq1000/SwinFace",
+      "https://doi.org/10.1109/tcsvt.2023.3304724"
+    ],
+    "description": "从论文《SwinFace: A Multi-task Transformer for Face Recognition, Expression Recognition, Age Estimation and Attribute Estimation》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "panorama_weihong_deng",
+    "scholar_name": "邓伟洪",
+    "matched_paper_ids": [
+      "panorama_weihong_deng_2d202827eda8"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "panorama_weihong_deng::eeg_affect"
+    ],
+    "primary_categories": [
+      "邓伟洪：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "panorama_weihong_deng__auto_code_6d514ae0cf",
+    "name": "Learn From All: Erasing Attention Consistency for Noisy Label Facial Expression Recognition — 开源代码 (zyh-uaiaaaa/Erasing-Attention-Consistency)",
+    "name_zh": "向所有人学习：消除噪声标签面部表情识别的注意力一致性 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/zyh-uaiaaaa/Erasing-Attention-Consistency",
+    "download_url": "https://github.com/zyh-uaiaaaa/Erasing-Attention-Consistency",
+    "access": "public",
+    "related_paper_titles": [
+      "Learn From All: Erasing Attention Consistency for Noisy Label Facial Expression Recognition"
+    ],
+    "related_paper_titles_zh": [
+      "向所有人学习：消除噪声标签面部表情识别的注意力一致性"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/zyh-uaiaaaa/Erasing-Attention-Consistency",
+      "https://doi.org/10.1007/978-3-031-19809-0_24"
+    ],
+    "description": "从论文《Learn From All: Erasing Attention Consistency for Noisy Label Facial Expression Recognition》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "panorama_weihong_deng",
+    "scholar_name": "邓伟洪",
+    "matched_paper_ids": [
+      "panorama_weihong_deng_ff34583d82ec"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "panorama_weihong_deng::eeg_affect"
+    ],
+    "primary_categories": [
+      "邓伟洪：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "panorama_weihong_deng__auto_code_f66f27c49e",
+    "name": "Augmented Geometric Distillation for Data-Free Incremental Person ReID — 开源代码 (eddielyc/Augmented-Geometric-Distillation)",
+    "name_zh": "用于无数据增量行人再识别的增强几何蒸馏 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/eddielyc/Augmented-Geometric-Distillation",
+    "download_url": "https://github.com/eddielyc/Augmented-Geometric-Distillation",
+    "access": "public",
+    "related_paper_titles": [
+      "Augmented Geometric Distillation for Data-Free Incremental Person ReID"
+    ],
+    "related_paper_titles_zh": [
+      "用于无数据增量行人再识别的增强几何蒸馏"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/eddielyc/Augmented-Geometric-Distillation",
+      "https://doi.org/10.1109/cvpr52688.2022.00718"
+    ],
+    "description": "从论文《Augmented Geometric Distillation for Data-Free Incremental Person ReID》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "panorama_weihong_deng",
+    "scholar_name": "邓伟洪",
+    "matched_paper_ids": [
+      "panorama_weihong_deng_b48c2fc69a76"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "panorama_weihong_deng::eeg_affect"
+    ],
+    "primary_categories": [
+      "邓伟洪：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "panorama_weihong_deng__auto_code_a3d5796619",
+    "name": "Representative Forgery Mining for Fake Face Detection — 开源代码 (crywang/RFM)",
+    "name_zh": "Representative Forgery Mining for Fake Face Detection — 开源代码",
+    "type": "code",
+    "url": "https://github.com/crywang/RFM",
+    "download_url": "https://github.com/crywang/RFM",
+    "access": "public",
+    "related_paper_titles": [
+      "Representative Forgery Mining for Fake Face Detection"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/crywang/RFM",
+      "https://doi.org/10.1109/cvpr46437.2021.01468"
+    ],
+    "description": "从论文《Representative Forgery Mining for Fake Face Detection》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "panorama_weihong_deng",
+    "scholar_name": "邓伟洪",
+    "matched_paper_ids": [
+      "panorama_weihong_deng_934ff8f5089f8f17"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "panorama_weihong_deng::eeg_foundation"
+    ],
+    "primary_categories": [
+      "邓伟洪：脑电基础模型与通用解码"
+    ]
+  },
+  {
+    "id": "panorama_weihong_deng__auto_code_aef449b991",
+    "name": "Domain Generalization via Shuffled Style Assembly for Face Anti-Spoofing — 开源代码 (wangzhuo2019/SSAN)",
+    "name_zh": "Domain Generalization via Shuffled Style Assembly for Face Anti-Spoofing — 开源代码",
+    "type": "code",
+    "url": "https://github.com/wangzhuo2019/SSAN",
+    "download_url": "https://github.com/wangzhuo2019/SSAN",
+    "access": "public",
+    "related_paper_titles": [
+      "Domain Generalization via Shuffled Style Assembly for Face Anti-Spoofing"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/wangzhuo2019/SSAN",
+      "https://doi.org/10.1109/cvpr52688.2022.00409"
+    ],
+    "description": "从论文《Domain Generalization via Shuffled Style Assembly for Face Anti-Spoofing》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "panorama_weihong_deng",
+    "scholar_name": "邓伟洪",
+    "matched_paper_ids": [
+      "panorama_weihong_deng_6d8d9cac1a9b152a"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "panorama_weihong_deng::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "邓伟洪：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "panorama_weihong_deng__auto_code_6e8415a430",
+    "name": "Enhancing Generalization of Universal Adversarial Perturbation through Gradient Aggregation — 开源代码 (liuxuannan/Stochastic-Gradient-Aggregation)",
+    "name_zh": "Enhancing Generalization of Universal Adversarial Perturbation through Gradient Aggregation — 开源代码",
+    "type": "code",
+    "url": "https://github.com/liuxuannan/Stochastic-Gradient-Aggregation",
+    "download_url": "https://github.com/liuxuannan/Stochastic-Gradient-Aggregation",
+    "access": "public",
+    "related_paper_titles": [
+      "Enhancing Generalization of Universal Adversarial Perturbation through Gradient Aggregation"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/liuxuannan/Stochastic-Gradient-Aggregation",
+      "https://doi.org/10.1109/iccv51070.2023.00409"
+    ],
+    "description": "从论文《Enhancing Generalization of Universal Adversarial Perturbation through Gradient Aggregation》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "panorama_weihong_deng",
+    "scholar_name": "邓伟洪",
+    "matched_paper_ids": [
+      "panorama_weihong_deng_c368e9fb6bff9ab2"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "panorama_weihong_deng::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "邓伟洪：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "panorama_weihong_deng__auto_code_f84523faad",
+    "name": "Faceptor: A Generalist Model for Face Perception — 开源代码 (lxq1000/Faceptor)",
+    "name_zh": "Faceptor: A Generalist Model for Face Perception — 开源代码",
+    "type": "code",
+    "url": "https://github.com/lxq1000/Faceptor",
+    "download_url": "https://github.com/lxq1000/Faceptor",
+    "access": "public",
+    "related_paper_titles": [
+      "Faceptor: A Generalist Model for Face Perception"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/lxq1000/Faceptor",
+      "https://doi.org/10.1007/978-3-031-72754-2_14"
+    ],
+    "description": "从论文《Faceptor: A Generalist Model for Face Perception》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "panorama_weihong_deng",
+    "scholar_name": "邓伟洪",
+    "matched_paper_ids": [
+      "panorama_weihong_deng_56fb5327d51f0fcc"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "panorama_weihong_deng::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "邓伟洪：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "panorama_weihong_deng__auto_code_970eb11f5f",
+    "name": "Semi-Supervised 2D Human Pose Estimation Driven by Position Inconsistency Pseudo Label Correction Module — 开源代码 (hlz0606/SSPCM)",
+    "name_zh": "Semi-Supervised 2D Human Pose Estimation Driven by Position Inconsistency Pseudo Label Correction Module — 开源代码",
+    "type": "code",
+    "url": "https://github.com/hlz0606/SSPCM",
+    "download_url": "https://github.com/hlz0606/SSPCM",
+    "access": "public",
+    "related_paper_titles": [
+      "Semi-Supervised 2D Human Pose Estimation Driven by Position Inconsistency Pseudo Label Correction Module"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/hlz0606/SSPCM",
+      "https://doi.org/10.1109/cvpr52729.2023.00074"
+    ],
+    "description": "从论文《Semi-Supervised 2D Human Pose Estimation Driven by Position Inconsistency Pseudo Label Correction Module》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "panorama_weihong_deng",
+    "scholar_name": "邓伟洪",
+    "matched_paper_ids": [
+      "panorama_weihong_deng_28cbe29d62dd7792"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "panorama_weihong_deng::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "邓伟洪：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "panorama_weihong_deng__auto_code_e85dc870b7",
+    "name": "DH-AUG: DH Forward Kinematics Model Driven Augmentation for 3D Human Pose Estimation — 开源代码 (hlz0606/DH-AUG-DH-Forward-Kinematics-Model-Driven-Augmentation-for-3D-Human-Pose-Estimation)",
+    "name_zh": "DH-AUG: DH Forward Kinematics Model Driven Augmentation for 3D Human Pose Estimation — 开源代码",
+    "type": "code",
+    "url": "https://github.com/hlz0606/DH-AUG-DH-Forward-Kinematics-Model-Driven-Augmentation-for-3D-Human-Pose-Estimation",
+    "download_url": "https://github.com/hlz0606/DH-AUG-DH-Forward-Kinematics-Model-Driven-Augmentation-for-3D-Human-Pose-Estimation",
+    "access": "public",
+    "related_paper_titles": [
+      "DH-AUG: DH Forward Kinematics Model Driven Augmentation for 3D Human Pose Estimation"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/hlz0606/DH-AUG-DH-Forward-Kinematics-Model-Driven-Augmentation-for-3D-Human-Pose-Estimation",
+      "https://doi.org/10.1007/978-3-031-20068-7_25"
+    ],
+    "description": "从论文《DH-AUG: DH Forward Kinematics Model Driven Augmentation for 3D Human Pose Estimation》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "panorama_weihong_deng",
+    "scholar_name": "邓伟洪",
+    "matched_paper_ids": [
+      "panorama_weihong_deng_80a3e50a0a881b30"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "panorama_weihong_deng::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "邓伟洪：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "panorama_weihong_deng__auto_code_3467e6e150",
+    "name": "Towards Interactive Deepfake Analysis — 开源代码 (lxq1000/DFA-Instruct)",
+    "name_zh": "Towards Interactive Deepfake Analysis — 开源代码",
+    "type": "code",
+    "url": "https://github.com/lxq1000/DFA-Instruct",
+    "download_url": "https://github.com/lxq1000/DFA-Instruct",
+    "access": "public",
+    "related_paper_titles": [
+      "Towards Interactive Deepfake Analysis"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/lxq1000/DFA-Instruct",
+      "https://doi.org/10.1109/icassp49660.2025.10888337"
+    ],
+    "description": "从论文《Towards Interactive Deepfake Analysis》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "panorama_weihong_deng",
+    "scholar_name": "邓伟洪",
+    "matched_paper_ids": [
+      "panorama_weihong_deng_aeece77eb5d5b73e"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "panorama_weihong_deng::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "邓伟洪：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "panorama_weihong_deng__auto_code_30ad23a8f1",
+    "name": "Generative Model With Coordinate Metric Learning for Object Recognition Based on 3D Models — 开源代码 (wangyida/gm-cml)",
+    "name_zh": "Generative Model With Coordinate Metric Learning for Object Recognition Based on 3D Models — 开源代码",
+    "type": "code",
+    "url": "https://github.com/wangyida/gm-cml",
+    "download_url": "https://github.com/wangyida/gm-cml",
+    "access": "public",
+    "related_paper_titles": [
+      "Generative Model With Coordinate Metric Learning for Object Recognition Based on 3D Models"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/wangyida/gm-cml",
+      "https://doi.org/10.1109/tip.2018.2858553"
+    ],
+    "description": "从论文《Generative Model With Coordinate Metric Learning for Object Recognition Based on 3D Models》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "panorama_weihong_deng",
+    "scholar_name": "邓伟洪",
+    "matched_paper_ids": [
+      "panorama_weihong_deng_5e06665cce7e4a8b"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "panorama_weihong_deng::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "邓伟洪：脑电基准、数据与评测"
+    ]
+  }
+]
