@@ -1,0 +1,35 @@
+[
+  {
+    "id": "res_gh_f65d54270ed7",
+    "name": "BENDR (BERT-inspired Neural Data Representations)",
+    "name_zh": "BENDR 海量脑电对比自监督预训练模型官方仓库",
+    "type": "code",
+    "url": "https://github.com/SPOClab-ca/BENDR",
+    "download_url": "https://github.com/SPOClab-ca/BENDR",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "demetres_kostas",
+    "scholar_name": "Demetres Kostas",
+    "matched_paper_ids": [
+      "3d9bc36637f1c4ad"
+    ],
+    "related_paper_titles": [
+      "BENDR: using transformers and a contrastive self-supervised learning task to learn from massive amounts of EEG data"
+    ],
+    "related_paper_titles_zh": [
+      "BENDR：使用 Transformer 和对比自监督学习任务从大量脑电图数据中学习"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.48550/ARXIV.2101.12037"
+    ],
+    "description": "早期开创性脑电 Transformer 对比自监督预训练基础模型 BENDR 官方代码。",
+    "verification": "代表作与官方项目仓库人工交叉核验",
+    "scholar_category_ids": [
+      "demetres_kostas::eeg_foundation",
+      "frank_rudzicz::eeg_foundation"
+    ],
+    "primary_categories": [
+      "Demetres Kostas：脑电基础大模型与自监督预训练",
+      "Frank Rudzicz：脑电基础大模型与自监督预训练"
+    ]
+  }
+]

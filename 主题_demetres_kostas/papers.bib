@@ -1,0 +1,63 @@
+@misc{demetres_kostas_927979b1783e9718,
+  title = {Cyborgolgy: Foundation, Bitwise Entropy and the duality of Gaia and Ouran's},
+  author = {Demetres Kostas},
+  year = {2026},
+  doi = {10.2139/ssrn.7355663},
+  url = {https://doi.org/10.2139/ssrn.7355663},
+  howpublished = {SSRN Electronic Journal},
+  annotation = {中文辅助译名：机器人学：基础、按位熵以及盖亚和樱兰的二元性},
+}
+
+@misc{demetres_kostas_2ea92e4f62d7884c,
+  title = {On the Difficulty of Training Deep Neural Networks with Raw Encephalography Data},
+  author = {Demetres Kostas},
+  year = {2022},
+  url = {http://hdl.handle.net/1807/125310},
+  howpublished = {学术期刊/会议},
+  annotation = {中文辅助译名：浅谈原始脑电图数据训练深度神经网络的难度},
+  abstract = {A call for deep neural networks (DNN) to permeate all classification problems has found its way to brain computer interface (BCI) applications. Despite this interest, the “depth” of DNNs in this field is a troublesome concept, and it appears uncon-vincing that the available data is being put to effective use. This dissertation centres around these questions by proposing ways to effectively treat the myriad recording contexts that are a necessary aspect of BCI applications. I argue that acknowledging these different contexts as domains of classification is an important step. Through doing so, I demonstrate that it is possible to develop deeper networks that make more effective use of available data as well as make use of the otherwise detrimental sensitivity DNNs exhibit to these domains. As a result of the latter, extensions are made into neuroscientific applications of DNNs. Finally, I argue for and propose an alternative path to pre-training extremely large DNNs inspired by language modelling rather than the extensions of successes in computer vision which have tended to be favoured. Finally, I describe the open source software library developed in support of this work, that enables similar work to continue in the future.},
+}
+
+@misc{demetres_kostas_3d9bc36637f1c4ad,
+  title = {BENDR: using transformers and a contrastive self-supervised learning task to learn from massive amounts of EEG data},
+  author = {Stephane Aroca-Ouellette and Demetres Kostas and Frank Rudzicz},
+  year = {2021},
+  doi = {10.48550/ARXIV.2101.12037},
+  url = {https://doi.org/10.48550/ARXIV.2101.12037},
+  howpublished = {CoRR},
+  annotation = {中文辅助译名：BENDR：使用 Transformer 和对比自监督学习任务从大量脑电图数据中学习},
+  abstract = {Deep neural networks (DNNs) used for brain–computer interface (BCI) classification are commonly expected to learn general features when trained across a variety of contexts, such that these features could be fine-tuned to specific contexts. While some success is found in such an approach, we suggest that this interpretation is limited and an alternative would better leverage the newly (publicly) available massive electroencephalography (EEG) datasets. We consider how to adapt techniques and architectures used for language modeling (LM) that appear capable of ingesting awesome amounts of data toward the development of encephalography modeling with DNNs in the same vein. We specifically adapt an approach effectively used for automatic speech recognition, which similarly (to LMs) uses a self-supervised training objective to learn compressed representations of raw data signals. After adaptation to EEG, we find that a single pre-trained model is capable of modeling completely novel raw EEG sequences recorded with differing hardware, and different subjects performing different tasks. Furthermore, both the internal representations of this model and the entire architecture can be fine-tuned to a variety of downstream BCI and EEG classification tasks, outperforming prior work in more task-specific (sleep stage classification) self-supervision.},
+}
+
+@misc{demetres_kostas_8ba442e190b9fc1d,
+  title = {Thinker invariance: enabling deep neural networks for BCI across more people},
+  author = {Demetres Kostas and Frank Rudzicz},
+  year = {2020},
+  doi = {10.1088/1741-2552/abb7a7},
+  url = {https://doi.org/10.1088/1741-2552/abb7a7},
+  howpublished = {Journal of Neural Engineering},
+  annotation = {中文辅助译名：思考者不变性：为更多人的 BCI 提供深度神经网络},
+  abstract = {OBJECTIVE: Most deep neural networks (DNNs) used as brain computer interfaces (BCI) classifiers are rarely viable for more than one person and are relatively shallow compared to the state-of-the-art in the wider machine learning literature. The goal of this work is to frame these as a unified challenge and reconsider how transfer learning is used to overcome these difficulties. APPROACH: We present two variations of a holistic approach to transfer learning with DNNs for BCI that rely on a deeper network called TIDNet. Our approaches use multiple subjects for training in the interest of creating a more universal classifier that is applicable for new (unseen) subjects. The first approach is purely subject-invariant and the second targets specific subjects, without loss of generality. We use five publicly accessible datasets covering a range of tasks and compare our approaches to state-of-the-art alternatives in detail. MAIN RESULTS: We observe that TIDNet in conjunction with our training augmentations is more consistent when compared to shallower baselines, and in some cases exhibits large and significant improvements, for instance motor imagery classification improvements of over 8%. Furthermore, we show that our suggested multi-domain learning (MDL) strategy strongly outperforms simply fine-tuned general models when targeting specific subjects, while remaining more generalizable to still unseen subjects. SIGNIFICANCE: TIDNet in combination with a data alignment-based training},
+}
+
+@misc{demetres_kostas_94b35df23611aae7,
+  title = {DN3: An open-source Python library for large-scale raw neurophysiology data assimilation for more flexible and standardized deep learning},
+  author = {Demetres Kostas and Frank Rudzicz},
+  year = {2020},
+  doi = {10.1101/2020.12.17.423197},
+  url = {https://doi.org/10.1101/2020.12.17.423197},
+  howpublished = {bioRxiv (Cold Spring Harbor Laboratory)},
+  annotation = {中文辅助译名：DN3：一个开源 Python 库，用于大规模原始神经生理学数据同化，以实现更灵活和标准化的深度学习},
+  abstract = {We propose an open-source Python library, called DN3, designed to accelerate deep learning (DL) analysis with encephalographic data. This library focuses on making experimentation rapid and reproducible and facilitates the integration of both public and private datasets. Furthermore, DN3 is designed in the interest of validating DL processes that include, but are not limited to, classification and regression across many datasets to prove capacity for generalization. We explore the effectiveness of this library by presenting a general scheme for person disambiguation called T-Vectors inspired by speech recognition. These are single vectors created by typically short, though arbitrary in length, electro-encephalographic (EEG) data sequences that uniquely identify users relative to others. T-Vectors were trained by classifying nearly 1000 people using as little as 1 second-long sequences and generalize effectively to users never seen during training. Generalized performance is demonstrated on two commonly used and publicly accessible motor imagery task datasets, which are notorious for intra- and inter-subject signal variability. According to these datasets, subjects can be identified with accuracies as high as 97.7% by simply adopting the label of the nearest neighbouring T-Vectors, with no dependence on task performed and little dependence on recording session, even when sessions are separated by days. Visualization of the T-Vectors from both datasets show no conflation of sub},
+}
+
+@misc{demetres_kostas_5c88d458a023cfcd,
+  title = {Machine learning for MEG during speech tasks},
+  author = {Demetres Kostas and Elizabeth W. Pang and Frank Rudzicz},
+  year = {2019},
+  doi = {10.1038/s41598-019-38612-9},
+  url = {https://doi.org/10.1038/s41598-019-38612-9},
+  howpublished = {Scientific Reports},
+  annotation = {中文辅助译名：语音任务期间 MEG 的机器学习},
+  abstract = {We consider whether a deep neural network trained with raw MEG data can be used to predict the age of children performing a verb-generation task, a monosyllable speech-elicitation task, and a multi-syllabic speech-elicitation task. Furthermore, we argue that the network makes predictions on the grounds of differences in speech development. Previous work has explored taking 'deep' neural networks (DNNs) designed for, or trained with, images to classify encephalographic recordings with some success, but this does little to acknowledge the structure of these data. Simple neural networks have been used extensively to classify data expressed as features, but require extensive feature engineering and pre-processing. We present novel DNNs trained using raw magnetoencephalography (MEG) and electroencephalography (EEG) recordings that mimic the feature-engineering pipeline. We highlight criteria the networks use, including relative weighting of channels and preferred spectro-temporal characteristics of re-weighted channels. Our data feature 92 subjects aged 4-18, recorded using a 151-channel MEG system. Our proposed model scores over 95% mean cross-validation accuracy distinguishing above and below 10 years of age in single trials of un-seen subjects, and can classify publicly available EEG with state-of-the-art accuracy.},
+}

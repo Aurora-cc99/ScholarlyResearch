@@ -223,11 +223,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "gao_xiaorong",
-      "ziyu_jia"
+      "ziyu_jia",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "高小榕",
-      "贾子瑜"
+      "贾子瑜",
+      "钟子平"
     ],
     "source_record_ids": [
       "gao_xiaorong_f7c266b782ab"
@@ -255,16 +257,30 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "fd5a557a763e2ef4",
     "primary_categories_by_scholar": [
       "高小榕：情感脑电与多模态生理信号",
-      "贾子瑜：脑电基准、数据与评测"
+      "贾子瑜：脑电基准、数据与评测",
+      "钟子平：生理情感数据库、基准与综述"
     ],
     "abstract_en": "Steady-state visual evoked potential-based brain-computer interfaces (SSVEP-BCIs) hold significant promise for enabling high-speed human-computer interaction in real-world scenarios. However, existing frequency-domain decoding methods treat frequency spectrum features (the real and imaginary spectrum features) as a single feature without considering their unique spatial and spectral characteristics, resulting in insufficient generalizable features and limited classification accuracy in cross-subject scenarios. To address this issue, we propose a Dual-Branch Attention-Based Frequency Domain Network (DB-AFDNet) to independently decode real and imaginary spectral components, aiming to acquire more discriminative and generalizable features for cross-subject applications. Specifically, we construct inter-branch attention similarity constraints to encourage the two branches to have similar attention properties, promoting to learn the consensus characteristics in the dual branches. Furthermore, we propose intra-branch orthogonality constraints to explore branch-specific discriminative features to learn generalizable features. Experimental studies on two public datasets, the Benchmark and Beta datasets, demonstrate that DB-AFDNet outperforms state-of-the-art methods in cross-subject classification, achieving a relative improvement of 1.36$\\%$ and 1.45$\\%$, respectively.",
     "abstract_source": "openalex_verified",
-    "abstract_zh": "基于稳态视觉诱发电位的脑机接口（SSVEP-BCIs）对于在现实场景中实现高速人机交互具有重大前景。 However, existing frequency-domain decoding methods treat frequency spectrum features (the real and imaginary spectrum features) as a single feature without considering their unique spatial and spectral characteristics, resulting in insufficient generalizable features and limited classification accuracy in cross-subject scenarios. To address this issue, we propose a Dual-Branch Attention-Based Frequency Domain Network (DB-AFDNet) to independently decode real and imaginary spectral components, aiming to acquire m..."
+    "abstract_zh": "基于稳态视觉诱发电位的脑机接口（SSVEP-BCIs）对于在现实场景中实现高速人机交互具有重大前景。 However, existing frequency-domain decoding methods treat frequency spectrum features (the real and imaginary spectrum features) as a single feature without considering their unique spatial and spectral characteristics, resulting in insufficient generalizable features and limited classification accuracy in cross-subject scenarios. To address this issue, we propose a Dual-Branch Attention-Based Frequency Domain Network (DB-AFDNet) to independently decode real and imaginary spectral components, aiming to acquire m...",
+    "dblp_key": "journals/titb/YangWJWZWGJW26"
   },
   {
     "title": "Fuzzy Alignment Resolves Visual Representations From 1024-Channel Brain Recordings",
@@ -1780,7 +1796,8 @@
     "topics": [
       "脑电基础大模型",
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5000766901）",
     "status": "已索引出版/会议记录",
@@ -4018,10 +4035,12 @@
     "work_title_group": "e18af5092ccc",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "gao_xiaorong"
+      "gao_xiaorong",
+      "cuntai_guan"
     ],
     "scholar_names": [
-      "高小榕"
+      "高小榕",
+      "关存太"
     ],
     "source_record_ids": [
       "gao_xiaorong_3cd09a2bc5aa"
@@ -4037,11 +4056,25 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_bci_decode",
+        "label": "脑机接口、神经解码与情感脑电",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑电情感识别",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "61064bea4b1d239a",
     "primary_categories_by_scholar": [
-      "高小榕：情感脑电与多模态生理信号"
+      "高小榕：情感脑电与多模态生理信号",
+      "关存太：脑机接口、神经解码与情感脑电"
     ],
     "pdf_url": "https://ieeexplore.ieee.org/ielx7/7333/4359219/10500372.pdf",
     "abstract_en": "This study embarks on a comprehensive investigation of the effectiveness of repetitive transcranial direct current stimulation (tDCS)-based neuromodulation in augmenting steady-state visual evoked potential (SSVEP) brain-computer interfaces (BCIs), alongside exploring pertinent electroencephalography (EEG) biomarkers for assessing brain states and evaluating tDCS efficacy. EEG data were garnered across three distinct task modes (eyes open, eyes closed, and SSVEP stimulation) and two neuromodulation patterns (sham-tDCS and anodal-tDCS). Brain arousal and brain functional connectivity were measured by extracting features of fractal EEG and information flow gain, respectively. Anodal-tDCS led to diminished offsets and enhanced information flow gains, indicating improvements in both brain arousal and brain information transmission capacity. Additionally, anodal-tDCS markedly enhanced SSVEP-BCIs performance as evidenced by increased amplitudes and accuracies, whereas sham-tDCS exhibited lesser efficacy. This study proffers invaluable insights into the application of neuromodulation methods for bolstering BCI performance, and concurrently authenticates two potent electrophysiological markers for multifaceted characterization of brain states.",
@@ -6944,10 +6977,12 @@
     "scholar_id": "gao_xiaorong",
     "scholar_name": "高小榕",
     "scholar_ids": [
-      "gao_xiaorong"
+      "gao_xiaorong",
+      "bo_hong_thu"
     ],
     "scholar_names": [
-      "高小榕"
+      "高小榕",
+      "洪波"
     ],
     "source_record_ids": [
       "gao_xiaorong_b3b3f2638cb091fa"
@@ -6964,10 +6999,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "bo_hong_thu": {
+        "category_id": "eeg_bci_decode",
+        "label": "脑机接口、神经解码与情感脑电",
+        "scholar_name": "洪波",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "高小榕：脑电基础模型与通用解码"
+      "高小榕：脑电基础模型与通用解码",
+      "洪波：脑机接口、神经解码与情感脑电"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -9308,7 +9352,8 @@
       "脑电情感计算",
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -10828,11 +10873,15 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "gao_xiaorong",
-      "wang_yijun"
+      "wang_yijun",
+      "dan_zhang_thu",
+      "bo_hong_thu"
     ],
     "scholar_names": [
       "高小榕",
-      "王毅军"
+      "王毅军",
+      "张丹",
+      "洪波"
     ],
     "source_record_ids": [
       "gao_xiaorong_71540c8b746d",
@@ -10860,12 +10909,38 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "dan_zhang_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "张丹",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "bo_hong_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "洪波",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "2a6819ec2e026628",
     "primary_categories_by_scholar": [
       "高小榕：情感脑电与多模态生理信号",
-      "王毅军：情感脑电与多模态生理信号"
+      "王毅军：情感脑电与多模态生理信号",
+      "张丹：脑电基础大模型与自监督预训练",
+      "洪波：脑电基础大模型与自监督预训练"
     ],
     "pdf_url": "https://ieeexplore.ieee.org/ielx7/7333/9363468/09430520.pdf",
     "abstract_en": "Conventional visual BCIs, in which control channels are tagged with stimulation patterns to elicit distinguishable brain patterns, has made impressive progress in terms of the information transfer rates (ITRs). However, less development has been seen with respect to user experience and complexity of the technical setup. The requirement to tag each of targets by a unique stimulus substantially limits the flexibility of conventional visual BCI systems. A method for decoding the targets in the environment flexibly was therefore proposed in the present study. A BCI speller with thirteen symbols drawn on paper was developed. The symbols were interspersed with four flickers with distinct frequencies, but the user did not have to gaze at flickers. Rather, subjects could spell a sequence by looking at the symbols on the paper. In a cue-guided spelling task, the average offline and online accuracies reached 89.3± 7.3% and 90.3± 6.9% for 13 subjects, corresponding to ITRs of 43.0± 7.4 bit/min and 43.8± 6.8 bit/min. In an additional free-spelling task for seven out of thirteen subjects, an accuracy of 92.3± 3.1% and an ITR of 45.6± 3.3 bit/min were achieved. Analysis of a simulated online system showed the possibility to reach an average ITR of 105.8 bit/min by reducing the epoch duration from 4 to 1 second. Reliable BCI control is possible by gazing at targets in the environment instead of dedicated stimuli which encode control channels. The proposed method can drastically reduce the technical effort for visual BCIs and thereby advance their applications outside the laboratory.",
@@ -12275,11 +12350,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "wang_yijun",
-      "gao_xiaorong"
+      "gao_xiaorong",
+      "dan_zhang_thu"
     ],
     "scholar_names": [
       "王毅军",
-      "高小榕"
+      "高小榕",
+      "张丹"
     ],
     "source_record_ids": [
       "wang_yijun_b84024170adf"
@@ -12307,12 +12384,25 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "dan_zhang_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "张丹",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "ab2ab55cc31dc738",
     "primary_categories_by_scholar": [
       "王毅军：情感脑电与多模态生理信号",
-      "高小榕：脑电基础模型与通用解码"
+      "高小榕：脑电基础模型与通用解码",
+      "张丹：脑电基础大模型与自监督预训练"
     ],
     "pdf_url": "https://www.mdpi.com/2079-9292/8/12/1554/pdf?version=1576573767",
     "abstract_en": "The feasibility of a steady-state visual evoked potential (SSVEP) brain–computer interface (BCI) with a single-flicker stimulus for multiple-target decoding has been demonstrated in a number of recent studies. The single-flicker BCIs have mainly employed the direction information for encoding the targets, i.e., different targets are placed at different spatial directions relative to the flicker stimulus. The present study explored whether visual eccentricity information can also be used to encode targets for the purpose of increasing the number of targets in the single-flicker BCIs. A total number of 16 targets were encoded, placed at eight spatial directions, and two eccentricities (2.5° and 5°) relative to a 12 Hz flicker stimulus. Whereas distinct SSVEP topographies were elicited when participants gazed at targets of different directions, targets of different eccentricities were mainly represented by different signal-to-noise ratios (SNRs). Using a canonical correlation analysis-based classification algorithm, simultaneous decoding of both direction and eccentricity information was achieved, with an offline 16-class accuracy of 66.8 ± 16.4% averaged over 12 participants and a best individual accuracy of 90.0%. Our results demonstrate a single-flicker BCI with a substantially increased target number towards practical applications.",
@@ -13638,11 +13728,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "gao_xiaorong",
-      "wang_yijun"
+      "wang_yijun",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "高小榕",
-      "王毅军"
+      "王毅军",
+      "钟子平"
     ],
     "source_record_ids": [
       "gao_xiaorong_7bf3c036996f"
@@ -13670,12 +13762,25 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "136a1dbdeb69acec",
     "primary_categories_by_scholar": [
       "高小榕：情感脑电与多模态生理信号",
-      "王毅军：脑电基准、数据与评测"
+      "王毅军：脑电基准、数据与评测",
+      "钟子平：生理情感数据库、基准与综述"
     ],
     "pdf_url": "http://europepmc.org/pmc/articles/PMC5783827",
     "abstract_en": "OBJECTIVE: This study proposes and evaluates a novel data-driven spatial filtering approach for enhancing steady-state visual evoked potentials (SSVEPs) detection toward a high-speed brain-computer interface (BCI) speller. METHODS: Task-related component analysis (TRCA), which can enhance reproducibility of SSVEPs across multiple trials, was employed to improve the signal-to-noise ratio (SNR) of SSVEP signals by removing background electroencephalographic (EEG) activities. An ensemble method was further developed to integrate TRCA filters corresponding to multiple stimulation frequencies. This study conducted a comparison of BCI performance between the proposed TRCA-based method and an extended canonical correlation analysis (CCA)-based method using a 40-class SSVEP dataset recorded from 12 subjects. An online BCI speller was further implemented using a cue-guided target selection task with 20 subjects and a free-spelling task with 10 of the subjects. RESULTS: The offline comparison results indicate that the proposed TRCA-based approach can significantly improve the classification accuracy compared with the extended CCA-based method. Furthermore, the online BCI speller achieved averaged information transfer rates (ITRs) of 325.33 ± 38.17 bits/min with the cue-guided task and 198.67 ± 50.48 bits/min with the free-spelling task. CONCLUSION: This study validated the efficiency of the proposed TRCA-based method in implementing a high-speed SSVEP-based BCI. SIGNIFICANCE: The high-speed SSVEP-based BCIs using the TRCA method have great potential for various applications in communication and control.",
@@ -15243,11 +15348,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "gao_xiaorong",
-      "wang_yijun"
+      "wang_yijun",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "高小榕",
-      "王毅军"
+      "王毅军",
+      "钟子平"
     ],
     "source_record_ids": [
       "gao_xiaorong_397bb944f905"
@@ -15275,12 +15382,25 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "b78383cb3ee4365c",
     "primary_categories_by_scholar": [
       "高小榕：情感脑电与多模态生理信号",
-      "王毅军：脑电基础模型与通用解码"
+      "王毅军：脑电基础模型与通用解码",
+      "钟子平：脑电情感识别与多模态生理计算"
     ],
     "pdf_url": "https://www.pnas.org/content/pnas/112/44/E6058.full.pdf",
     "abstract_en": "The past 20 years have witnessed unprecedented progress in brain-computer interfaces (BCIs). However, low communication rates remain key obstacles to BCI-based communication in humans. This study presents an electroencephalogram-based BCI speller that can achieve information transfer rates (ITRs) up to 5.32 bits per second, the highest ITRs reported in BCI spellers using either noninvasive or invasive methods. Based on extremely high consistency of frequency and phase observed between visual flickering signals and the elicited single-trial steady-state visual evoked potentials, this study developed a synchronous modulation and demodulation paradigm to implement the speller. Specifically, this study proposed a new joint frequency-phase modulation method to tag 40 characters with 0.5-s-long flickering signals and developed a user-specific target identification algorithm using individual calibration data. The speller achieved high ITRs in online spelling tasks. This study demonstrates that BCIs can provide a truly naturalistic high-speed communication channel using noninvasively recorded brain activities.",
@@ -15435,11 +15555,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "wang_yijun",
-      "gao_xiaorong"
+      "gao_xiaorong",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "王毅军",
-      "高小榕"
+      "高小榕",
+      "钟子平"
     ],
     "source_record_ids": [
       "wang_yijun_462e93c8ac5f"
@@ -15467,12 +15589,25 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "11de1e3dc923b12d",
     "primary_categories_by_scholar": [
       "王毅军：情感脑电与多模态生理信号",
-      "高小榕：脑电基准、数据与评测"
+      "高小榕：脑电基准、数据与评测",
+      "钟子平：生理情感数据库、基准与综述"
     ],
     "pdf_url": "https://iopscience.iop.org/article/10.1088/1741-2560/12/4/046008/pdf",
     "abstract_en": "OBJECTIVE: Recently, canonical correlation analysis (CCA) has been widely used in steady-state visual evoked potential (SSVEP)-based brain-computer interfaces (BCIs) due to its high efficiency, robustness, and simple implementation. However, a method with which to make use of harmonic SSVEP components to enhance the CCA-based frequency detection has not been well established. APPROACH: This study proposed a filter bank canonical correlation analysis (FBCCA) method to incorporate fundamental and harmonic frequency components to improve the detection of SSVEPs. A 40-target BCI speller based on frequency coding (frequency range: 8-15.8 Hz, frequency interval: 0.2 Hz) was used for performance evaluation. To optimize the filter bank design, three methods (M1: sub-bands with equally spaced bandwidths; M2: sub-bands corresponding to individual harmonic frequency bands; M3: sub-bands covering multiple harmonic frequency bands) were proposed for comparison. Classification accuracy and information transfer rate (ITR) of the three FBCCA methods and the standard CCA method were estimated using an offline dataset from 12 subjects. Furthermore, an online BCI speller adopting the optimal FBCCA method was tested with a group of 10 subjects. MAIN RESULTS: The FBCCA methods significantly outperformed the standard CCA method. The method M3 achieved the highest classification performance. At a spelling rate of ∼33.3 characters/min, the online BCI speller obtained an average ITR of 151.18 ± 20.34 bits min(-1). SIGNIFICANCE: By incorporating the fundamental and harmonic SSVEP components in target identification, the proposed FBCCA method significantly improves the performance of the SSVEP-based BCI, and thereby facilitates its practical applications such as high-speed spelling.",
@@ -15779,11 +15914,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "gao_xiaorong",
-      "wang_yijun"
+      "wang_yijun",
+      "bo_hong_thu"
     ],
     "scholar_names": [
       "高小榕",
-      "王毅军"
+      "王毅军",
+      "洪波"
     ],
     "source_record_ids": [
       "gao_xiaorong_bd7ae6d29234",
@@ -15811,12 +15948,26 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "bo_hong_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "洪波",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑机接口与神经解码",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "074a75216f41017b",
     "primary_categories_by_scholar": [
       "高小榕：情感脑电与多模态生理信号",
-      "王毅军：情感脑电与多模态生理信号"
+      "王毅军：情感脑电与多模态生理信号",
+      "洪波：脑电基础大模型与自监督预训练"
     ],
     "abstract_en": "Over the past several decades, electroencephalogram (EEG)-based brain-computer interfaces (BCIs) have attracted attention from researchers in the field of neuroscience, neural engineering, and clinical rehabilitation. While the performance of BCI systems has improved, they do not yet support widespread usage. Recently, visual and auditory BCI systems have become popular because of their high communication speeds, little user training, and low user variation. However, building robust and practical BCI systems from physiological and technical knowledge of neural modulation of visual and auditory brain responses remains a challenging problem. In this paper, we review the current state and future challenges of visual and auditory BCI systems. First, we describe a new taxonomy based on the multiple access methods used in telecommunication systems. Then, we discuss the challenges of translating current technology into real-life practices and outline potential avenues to address them. Specifically, this review aims to provide useful guidelines for exploring new paradigms and methodologies to improve the current visual and auditory BCI technology.",
     "abstract_source": "openalex_verified",
@@ -15877,10 +16028,12 @@
     "work_title_group": "801cdbda1876",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "gao_xiaorong"
+      "gao_xiaorong",
+      "bo_hong_thu"
     ],
     "scholar_names": [
-      "高小榕"
+      "高小榕",
+      "洪波"
     ],
     "source_record_ids": [
       "gao_xiaorong_a0a04cc00697"
@@ -15896,12 +16049,25 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "bo_hong_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "洪波",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "6d599432d3a667eb",
     "primary_categories_by_scholar": [
-      "高小榕：情感脑电与多模态生理信号"
-    ]
+      "高小榕：情感脑电与多模态生理信号",
+      "洪波：脑电基础大模型与自监督预训练"
+    ],
+    "dblp_key": "journals/chinaf/ChenPZGTCFHG014"
   },
   {
     "title": "Probabilistic Common Spatial Patterns for Multichannel EEG Analysis",
@@ -16306,11 +16472,13 @@
     "scholar_name": "高小榕",
     "scholar_ids": [
       "gao_xiaorong",
-      "wang_yijun"
+      "wang_yijun",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "高小榕",
-      "王毅军"
+      "王毅军",
+      "钟子平"
     ],
     "source_record_ids": [
       "gao_xiaorong_fffd045c95bfae80"
@@ -16339,11 +16507,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "高小榕：脑电基础模型与通用解码",
-      "王毅军：脑电基础模型与通用解码"
+      "王毅军：脑电基础模型与通用解码",
+      "钟子平：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -16584,7 +16763,7 @@
       "Bo Hong",
       "Shangkai Gao"
     ],
-    "doi": "",
+    "doi": "10.1109/TBME.2010.2068571",
     "paper_url": "https://www.wikidata.org/entity/Q44776690",
     "source_url": "https://www.wikidata.org/entity/Q44776690",
     "topics": [
@@ -16602,7 +16781,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 226,
     "publication_types": "",
     "candidate_source": true,
     "source_kind": "CSAuthors author bibliography",
@@ -16621,10 +16800,12 @@
     "work_title_group": "42ad2cffc1d8",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "gao_xiaorong"
+      "gao_xiaorong",
+      "bo_hong_thu"
     ],
     "scholar_names": [
-      "高小榕"
+      "高小榕",
+      "洪波"
     ],
     "source_record_ids": [
       "gao_xiaorong_5ee84a86053c"
@@ -16640,12 +16821,29 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "bo_hong_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "洪波",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "f334538ed0445468",
     "primary_categories_by_scholar": [
-      "高小榕：情感脑电与多模态生理信号"
-    ]
+      "高小榕：情感脑电与多模态生理信号",
+      "洪波：脑电基础大模型与自监督预训练"
+    ],
+    "dblp_key": "journals/tbe/JiaGHG11",
+    "abstract_en": "Frequency coding has been the traditional method implemented in steady-state visual evoked potential (SSVEP)-based brain--computer interfaces (BCI). However, it is limited in terms of possible target numbers and, consequently, inappropriate for certain applications involving liquid crystal display (LCD) with multiple stimuli. This paper proposes an innovative coding method for SSVEP that, through a combination of frequency and phase, increases the number of targets, thus it improves the information transfer rate (ITR). With this method, a BCI system with 15 targets was developed using three stimulus frequencies, which is five times as many targets as the traditional method. Additionally, this paper defines the concept of reference phase, and decodes the EEG by means of Fourier coefficient projections onto the reference phase directions. Through the optimization of lead position, reference phase, data segment length, and harmonic components, the average ITR exceeded 60 bits/min in a simulated online test with ten subjects.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "频率编码是基于稳态视觉诱发电位（SSVEP）的脑机接口（BCI）中实现的传统方法。然而，它在可能的目标数量方面受到限制，因此不适合涉及具有多种刺激的液晶显示器 (LCD) 的某些应用。本文提出了一种创新的SSVEP编码方法，通过频率和相位的组合，增加目标数量，从而提高信息传输率（ITR）。通过这种方法，使用三种刺激频率开发了具有 15 个目标的 BCI 系统，这是传统方法的五倍。此外，本文定义了参考阶段的概念，..."
   },
   {
     "title": "A high-speed BCI based on code modulation VEP",
@@ -16699,11 +16897,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "gao_xiaorong",
-      "wang_yijun"
+      "wang_yijun",
+      "bo_hong_thu"
     ],
     "scholar_names": [
       "高小榕",
-      "王毅军"
+      "王毅军",
+      "洪波"
     ],
     "source_record_ids": [
       "gao_xiaorong_af6cace44bad"
@@ -16731,12 +16931,25 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bo_hong_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "洪波",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "99560858651e614b",
     "primary_categories_by_scholar": [
       "高小榕：情感脑电与多模态生理信号",
-      "王毅军：脑电基础模型与通用解码"
+      "王毅军：脑电基础模型与通用解码",
+      "洪波：脑电基础大模型与自监督预训练"
     ],
     "pdf_url": "https://iopscience.iop.org/article/10.1088/1741-2560/8/2/025015/pdf",
     "abstract_en": "Recently, electroencephalogram-based brain-computer interfaces (BCIs) have attracted much attention in the fields of neural engineering and rehabilitation due to their noninvasiveness. However, the low communication speed of current BCI systems greatly limits their practical application. In this paper, we present a high-speed BCI based on code modulation of visual evoked potentials (c-VEP). Thirty-two target stimuli were modulated by a time-shifted binary pseudorandom sequence. A multichannel identification method based on canonical correlation analysis (CCA) was used for target identification. The online system achieved an average information transfer rate (ITR) of 108 ± 12 bits min(-1) on five subjects with a maximum ITR of 123 bits min(-1) for a single subject.",
@@ -16779,10 +16992,12 @@
     "scholar_id": "gao_xiaorong",
     "scholar_name": "高小榕",
     "scholar_ids": [
-      "gao_xiaorong"
+      "gao_xiaorong",
+      "bo_hong_thu"
     ],
     "scholar_names": [
-      "高小榕"
+      "高小榕",
+      "洪波"
     ],
     "source_record_ids": [
       "gao_xiaorong_03d588e51b05f4d8"
@@ -16801,10 +17016,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bo_hong_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "洪波",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "高小榕：脑电基础模型与通用解码"
+      "高小榕：脑电基础模型与通用解码",
+      "洪波：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -17042,11 +17268,13 @@
     "scholar_name": "高小榕",
     "scholar_ids": [
       "gao_xiaorong",
-      "wang_yijun"
+      "wang_yijun",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "高小榕",
-      "王毅军"
+      "王毅军",
+      "钟子平"
     ],
     "source_record_ids": [
       "gao_xiaorong_e483529d2e9bcac6"
@@ -17075,11 +17303,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "高小榕：脑电基准、数据与评测",
-      "王毅军：脑电基准、数据与评测"
+      "王毅军：脑电基准、数据与评测",
+      "钟子平：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -17119,10 +17358,12 @@
     "scholar_id": "gao_xiaorong",
     "scholar_name": "高小榕",
     "scholar_ids": [
-      "gao_xiaorong"
+      "gao_xiaorong",
+      "bo_hong_thu"
     ],
     "scholar_names": [
-      "高小榕"
+      "高小榕",
+      "洪波"
     ],
     "source_record_ids": [
       "gao_xiaorong_d08c4ede6aae5cac"
@@ -17139,10 +17380,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "bo_hong_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "洪波",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "高小榕：脑电基础模型与通用解码"
+      "高小榕：脑电基础模型与通用解码",
+      "洪波：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -17325,10 +17575,14 @@
     "scholar_id": "gao_xiaorong",
     "scholar_name": "高小榕",
     "scholar_ids": [
-      "gao_xiaorong"
+      "gao_xiaorong",
+      "dan_zhang_thu",
+      "bo_hong_thu"
     ],
     "scholar_names": [
-      "高小榕"
+      "高小榕",
+      "张丹",
+      "洪波"
     ],
     "source_record_ids": [
       "gao_xiaorong_81b7cb4d9bd9f03a"
@@ -17347,10 +17601,32 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "dan_zhang_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "张丹",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "bo_hong_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "洪波",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "高小榕：脑电基础模型与通用解码"
+      "高小榕：脑电基础模型与通用解码",
+      "张丹：脑电基础大模型与自监督预训练",
+      "洪波：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -17392,10 +17668,12 @@
     "scholar_id": "gao_xiaorong",
     "scholar_name": "高小榕",
     "scholar_ids": [
-      "gao_xiaorong"
+      "gao_xiaorong",
+      "bo_hong_thu"
     ],
     "scholar_names": [
-      "高小榕"
+      "高小榕",
+      "洪波"
     ],
     "source_record_ids": [
       "gao_xiaorong_1be3a7a36e6c28f1"
@@ -17414,10 +17692,21 @@
         ],
         "confidence": "low",
         "note": ""
+      },
+      "bo_hong_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "洪波",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "高小榕：脑电基础模型与通用解码"
+      "高小榕：脑电基础模型与通用解码",
+      "洪波：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -17474,11 +17763,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "panorama_yixuan_ku",
-      "gao_xiaorong"
+      "gao_xiaorong",
+      "bo_hong_thu"
     ],
     "scholar_names": [
       "库逸轩",
-      "高小榕"
+      "高小榕",
+      "洪波"
     ],
     "source_record_ids": [
       "panorama_yixuan_ku_6d69d821b428"
@@ -17506,12 +17797,25 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bo_hong_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "洪波",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "3f19ba743bef1002",
     "primary_categories_by_scholar": [
       "库逸轩：情感脑电与多模态生理信号",
-      "高小榕：情感脑电与多模态生理信号"
+      "高小榕：情感脑电与多模态生理信号",
+      "洪波：脑电基础大模型与自监督预训练"
     ]
   },
   {
@@ -17550,10 +17854,12 @@
     "scholar_id": "gao_xiaorong",
     "scholar_name": "高小榕",
     "scholar_ids": [
-      "gao_xiaorong"
+      "gao_xiaorong",
+      "bo_hong_thu"
     ],
     "scholar_names": [
-      "高小榕"
+      "高小榕",
+      "洪波"
     ],
     "source_record_ids": [
       "gao_xiaorong_2ff667ade93a8423"
@@ -17572,10 +17878,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bo_hong_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "洪波",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "高小榕：脑电基础模型与通用解码"
+      "高小榕：脑电基础模型与通用解码",
+      "洪波：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -17632,11 +17949,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "gao_xiaorong",
-      "wang_yijun"
+      "wang_yijun",
+      "bo_hong_thu"
     ],
     "scholar_names": [
       "高小榕",
-      "王毅军"
+      "王毅军",
+      "洪波"
     ],
     "source_record_ids": [
       "gao_xiaorong_723228fadfb9"
@@ -17664,16 +17983,30 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bo_hong_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "洪波",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "fc5663767bb49fee",
     "primary_categories_by_scholar": [
       "高小榕：情感脑电与多模态生理信号",
-      "王毅军：脑电基础模型与通用解码"
+      "王毅军：脑电基础模型与通用解码",
+      "洪波：脑电基础大模型与自监督预训练"
     ],
     "abstract_en": "A brain computer interface (BCI) translates human intentions into control signals to establish a direct communication channel between the human brain and external devices. Because a BCI does not depend on the brain's normal output pathways of peripheral nerves and muscles, it can provide a new communication channel to people with severe motor disabilities. Electroencephalograms (EEGs) recorded from the surface of the scalp are widely used in current BCIs for their non-invasive nature and easy applications. Among EEG based BCIs, systems based on visual evoked potentials (VEPs) have received widespread attention in recent decades. We described the three stimulus modulation approaches used in current VEP based BCIs: time modulation (t-VEP), frequency modulation (f-VEP), and pseudorandom code modulation (c-VEP). We then carried out a detailed comparison of system performance between an f-VEP BCI and a c-VEP BCI. The results show that an f-VEP BCI has the advantage of little or no training and simple system configuration, while the c-VEP based BCI has a higher communication speed. The stimulus modulation design is the crux of VEP based BCI systems.",
     "abstract_source": "openalex_verified",
-    "abstract_zh": "脑机接口（BCI）将人类意图转化为控制信号，在人脑和外部设备之间建立直接通信通道。由于脑机接口不依赖于大脑周围神经和肌肉的正常输出通路，因此它可以为患有严重运动障碍的人提供新的沟通渠道。从头皮表面记录的脑电图（EEG）因其非侵入性和易于应用而广泛应用于当前的脑机接口中。在基于脑电图的脑机接口中，基于视觉诱发电位（VEP）的系统近几十年来受到了广泛的关注。我们描述了 c 中使用的三种刺激调制方法..."
+    "abstract_zh": "脑机接口（BCI）将人类意图转化为控制信号，在人脑和外部设备之间建立直接通信通道。由于脑机接口不依赖于大脑周围神经和肌肉的正常输出通路，因此它可以为患有严重运动障碍的人提供新的沟通渠道。从头皮表面记录的脑电图（EEG）因其非侵入性和易于应用而广泛应用于当前的脑机接口中。在基于脑电图的脑机接口中，基于视觉诱发电位（VEP）的系统近几十年来受到了广泛的关注。我们描述了 c 中使用的三种刺激调制方法...",
+    "dblp_key": "journals/cim/BinGWHG09"
   },
   {
     "title": "An independent brain-computer interface based on covert shifts of non-spatial visual attention",
@@ -17711,10 +18044,12 @@
     "scholar_id": "gao_xiaorong",
     "scholar_name": "高小榕",
     "scholar_ids": [
-      "gao_xiaorong"
+      "gao_xiaorong",
+      "dan_zhang_thu"
     ],
     "scholar_names": [
-      "高小榕"
+      "高小榕",
+      "张丹"
     ],
     "source_record_ids": [
       "gao_xiaorong_3a63b567d52f5e8f"
@@ -17733,10 +18068,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "dan_zhang_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "张丹",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "高小榕：脑电基础模型与通用解码"
+      "高小榕：脑电基础模型与通用解码",
+      "张丹：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -17778,11 +18124,13 @@
     "scholar_name": "高小榕",
     "scholar_ids": [
       "gao_xiaorong",
-      "wang_yijun"
+      "wang_yijun",
+      "bo_hong_thu"
     ],
     "scholar_names": [
       "高小榕",
-      "王毅军"
+      "王毅军",
+      "洪波"
     ],
     "source_record_ids": [
       "gao_xiaorong_69b7f03703d715f4"
@@ -17811,11 +18159,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bo_hong_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "洪波",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "高小榕：脑电基础模型与通用解码",
-      "王毅军：脑电基础模型与通用解码"
+      "王毅军：脑电基础模型与通用解码",
+      "洪波：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -17857,10 +18216,12 @@
     "scholar_id": "gao_xiaorong",
     "scholar_name": "高小榕",
     "scholar_ids": [
-      "gao_xiaorong"
+      "gao_xiaorong",
+      "bo_hong_thu"
     ],
     "scholar_names": [
-      "高小榕"
+      "高小榕",
+      "洪波"
     ],
     "source_record_ids": [
       "gao_xiaorong_d669252dd47883ce"
@@ -17879,10 +18240,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bo_hong_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "洪波",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "高小榕：脑电基础模型与通用解码"
+      "高小榕：脑电基础模型与通用解码",
+      "洪波：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -17924,10 +18296,12 @@
     "scholar_id": "gao_xiaorong",
     "scholar_name": "高小榕",
     "scholar_ids": [
-      "gao_xiaorong"
+      "gao_xiaorong",
+      "bo_hong_thu"
     ],
     "scholar_names": [
-      "高小榕"
+      "高小榕",
+      "洪波"
     ],
     "source_record_ids": [
       "gao_xiaorong_6ede596a5209cc15"
@@ -17946,10 +18320,21 @@
         ],
         "confidence": "low",
         "note": ""
+      },
+      "bo_hong_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "洪波",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "高小榕：脑电基础模型与通用解码"
+      "高小榕：脑电基础模型与通用解码",
+      "洪波：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -18055,10 +18440,12 @@
     "scholar_id": "gao_xiaorong",
     "scholar_name": "高小榕",
     "scholar_ids": [
-      "gao_xiaorong"
+      "gao_xiaorong",
+      "bo_hong_thu"
     ],
     "scholar_names": [
-      "高小榕"
+      "高小榕",
+      "洪波"
     ],
     "source_record_ids": [
       "gao_xiaorong_f59ec7be183074d6"
@@ -18077,10 +18464,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bo_hong_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "洪波",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "高小榕：脑电基础模型与通用解码"
+      "高小榕：脑电基础模型与通用解码",
+      "洪波：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -18121,10 +18519,12 @@
     "scholar_id": "gao_xiaorong",
     "scholar_name": "高小榕",
     "scholar_ids": [
-      "gao_xiaorong"
+      "gao_xiaorong",
+      "bo_hong_thu"
     ],
     "scholar_names": [
-      "高小榕"
+      "高小榕",
+      "洪波"
     ],
     "source_record_ids": [
       "gao_xiaorong_c63f36cd9702cf6f"
@@ -18143,10 +18543,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bo_hong_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "洪波",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "高小榕：脑电基础模型与通用解码"
+      "高小榕：脑电基础模型与通用解码",
+      "洪波：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -18257,10 +18668,12 @@
     "scholar_id": "gao_xiaorong",
     "scholar_name": "高小榕",
     "scholar_ids": [
-      "gao_xiaorong"
+      "gao_xiaorong",
+      "bo_hong_thu"
     ],
     "scholar_names": [
-      "高小榕"
+      "高小榕",
+      "洪波"
     ],
     "source_record_ids": [
       "gao_xiaorong_a3b59111abfaf95f"
@@ -18279,10 +18692,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bo_hong_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "洪波",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "高小榕：脑电基础模型与通用解码"
+      "高小榕：脑电基础模型与通用解码",
+      "洪波：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -18337,10 +18761,12 @@
     "work_title_group": "6107aad956c1",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "gao_xiaorong"
+      "gao_xiaorong",
+      "bo_hong_thu"
     ],
     "scholar_names": [
-      "高小榕"
+      "高小榕",
+      "洪波"
     ],
     "source_record_ids": [
       "gao_xiaorong_fce78105ffd6"
@@ -18356,15 +18782,29 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "bo_hong_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "洪波",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "1e3d8998d39b64ba",
     "primary_categories_by_scholar": [
-      "高小榕：情感脑电与多模态生理信号"
+      "高小榕：情感脑电与多模态生理信号",
+      "洪波：脑电基础大模型与自监督预训练"
     ],
     "abstract_en": "In most current motor-imagery-based brain-computer interfaces (BCIs), machine learning is carried out in two consecutive stages: feature extraction and feature classification. Feature extraction has focused on automatic learning of spatial filters, with little or no attention being paid to optimization of parameters for temporal filters that still require time-consuming, ad hoc manual tuning. In this paper, we present a new algorithm termed iterative spatio-spectral patterns learning (ISSPL) that employs statistical learning theory to perform automatic learning of spatio-spectral filters. In ISSPL, spectral filters and the classifier are simultaneously parameterized for optimization to achieve good generalization performance. A detailed derivation and theoretical analysis of ISSPL are given. Experimental results on two datasets show that the proposed algorithm can correctly identify the discriminative frequency bands, demonstrating the algorithm's superiority over contemporary approaches in classification performance.",
     "abstract_source": "openalex_verified",
-    "abstract_zh": "在当前大多数基于运动想象的脑机接口（BCI）中，机器学习分两个连续阶段进行：特征提取和特征分类。特征提取侧重于空间滤波器的自动学习，很少或根本没有关注时间滤波器参数的优化，而时间滤波器仍然需要耗时的临时手动调整。在本文中，我们提出了一种称为迭代空间频谱模式学习（ISSPL）的新算法，该算法采用统计学习理论来执行空间频谱滤波器的自动学习。在 ISSPL 中，光谱滤波器和分类器同时参数化以进行优化，以实现......"
+    "abstract_zh": "在当前大多数基于运动想象的脑机接口（BCI）中，机器学习分两个连续阶段进行：特征提取和特征分类。特征提取侧重于空间滤波器的自动学习，很少或根本没有关注时间滤波器参数的优化，而时间滤波器仍然需要耗时的临时手动调整。在本文中，我们提出了一种称为迭代空间频谱模式学习（ISSPL）的新算法，该算法采用统计学习理论来执行空间频谱滤波器的自动学习。在 ISSPL 中，光谱滤波器和分类器同时参数化以进行优化，以实现......",
+    "dblp_key": "journals/tbe/WuGHG08"
   },
   {
     "title": "Study on connectivity between coherent central rhythm and electromyographic activities",
@@ -18472,11 +18912,15 @@
     "scholar_name": "高小榕",
     "scholar_ids": [
       "gao_xiaorong",
-      "wang_yijun"
+      "wang_yijun",
+      "dan_zhang_thu",
+      "bo_hong_thu"
     ],
     "scholar_names": [
       "高小榕",
-      "王毅军"
+      "王毅军",
+      "张丹",
+      "洪波"
     ],
     "source_record_ids": [
       "gao_xiaorong_4015931e56ee7764"
@@ -18507,11 +18951,35 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "dan_zhang_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "张丹",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "bo_hong_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "洪波",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "高小榕：脑电基础模型与通用解码",
-      "王毅军：脑电基础模型与通用解码"
+      "王毅军：脑电基础模型与通用解码",
+      "张丹：脑电基础大模型与自监督预训练",
+      "洪波：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -18678,11 +19146,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "wang_yijun",
-      "gao_xiaorong"
+      "gao_xiaorong",
+      "bo_hong_thu"
     ],
     "scholar_names": [
       "王毅军",
-      "高小榕"
+      "高小榕",
+      "洪波"
     ],
     "source_record_ids": [
       "wang_yijun_81c6516118a3"
@@ -18710,12 +19180,25 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bo_hong_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "洪波",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "bcc637b539b4bcd7",
     "primary_categories_by_scholar": [
       "王毅军：情感脑电与多模态生理信号",
-      "高小榕：脑电基础模型与通用解码"
+      "高小榕：脑电基础模型与通用解码",
+      "洪波：脑电基础大模型与自监督预训练"
     ],
     "abstract_en": "A simple electroencephalogram (EEG) electrode layout is proposed to implement a motor imagery based brain–computer interface (BCI). The design was derived from investigation of EEG synchronisation in the motor cortex. A significant improvement in BCI performance was obtained in the new system.",
     "abstract_source": "openalex_verified",
@@ -18774,11 +19257,15 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "gao_xiaorong",
-      "wang_yijun"
+      "wang_yijun",
+      "dan_zhang_thu",
+      "bo_hong_thu"
     ],
     "scholar_names": [
       "高小榕",
-      "王毅军"
+      "王毅军",
+      "张丹",
+      "洪波"
     ],
     "source_record_ids": [
       "gao_xiaorong_36c57e8a7594",
@@ -18806,17 +19293,44 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "dan_zhang_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "张丹",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "bo_hong_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "洪波",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "d509d5a7d14ebcb6",
     "primary_categories_by_scholar": [
       "高小榕：情感脑电与多模态生理信号",
-      "王毅军：情感脑电与多模态生理信号"
+      "王毅军：情感脑电与多模态生理信号",
+      "张丹：脑电基础大模型与自监督预训练",
+      "洪波：脑电基础大模型与自监督预训练"
     ],
     "pdf_url": "https://downloads.hindawi.com/journals/cin/2007/039714.pdf",
     "abstract_en": "For a robust brain-computer interface (BCI) system based on motor imagery (MI), it should be able to tell when the subject is not concentrating on MI tasks (the \"idle state\") so that real MI tasks could be extracted accurately. Moreover, because of the diversity of idle state, detecting idle state without training samples is as important as classifying MI tasks. In this paper, we propose an algorithm for solving this problem. A three-class classifier was constructed by combining two two-class classifiers, one specified for idle-state detection and the other for these two MI tasks. Common spatial subspace decomposition (CSSD) was used to extract the features of event-related desynchronization (ERD) in two motor imagery tasks. Then Fisher discriminant analysis (FDA) was employed in the design of two two-class classifiers for completion of detecting each task, respectively. The algorithm successfully provided a way to solve the problem of \"idle-state detection without training samples.\" The algorithm was applied to the dataset IVc from BCI competition III. A final result with mean square error of 0.30 was obtained on the testing set. This is the winning algorithm in BCI competition III. In addition, the algorithm was also validated by applying to the EEG data of an MI experiment including \"idle\" task.",
     "abstract_source": "openalex_verified",
-    "abstract_zh": "对于基于运动想象（MI）的鲁棒脑机接口（BCI）系统，它应该能够判断受试者何时没有专注于 MI 任务（“空闲状态”），以便能够准确地提取真实的 MI 任务。此外，由于空闲状态的多样性，在没有训练样本的情况下检测空闲状态与对 MI 任务进行分类一样重要。在本文中，我们提出了一种解决该问题的算法。通过组合两个两类分类器构建了一个三类分类器，一个指定用于空闲状态检测，另一个指定用于这两个 MI 任务。使用公共空间子空间分解（CSSD）来提取与事件相关的去同步的特征......"
+    "abstract_zh": "对于基于运动想象（MI）的鲁棒脑机接口（BCI）系统，它应该能够判断受试者何时没有专注于 MI 任务（“空闲状态”），以便能够准确地提取真实的 MI 任务。此外，由于空闲状态的多样性，在没有训练样本的情况下检测空闲状态与对 MI 任务进行分类一样重要。在本文中，我们提出了一种解决该问题的算法。通过组合两个两类分类器构建了一个三类分类器，一个指定用于空闲状态检测，另一个指定用于这两个 MI 任务。使用公共空间子空间分解（CSSD）来提取与事件相关的去同步的特征......",
+    "dblp_key": "journals/cin/ZhangWGHG07"
   },
   {
     "title": "Implementation of a Brain-Computer Interface Based on Three States of Motor Imagery",
@@ -18854,11 +19368,13 @@
     "scholar_name": "高小榕",
     "scholar_ids": [
       "gao_xiaorong",
-      "wang_yijun"
+      "wang_yijun",
+      "bo_hong_thu"
     ],
     "scholar_names": [
       "高小榕",
-      "王毅军"
+      "王毅军",
+      "洪波"
     ],
     "source_record_ids": [
       "gao_xiaorong_3ecd0c7f4023ec0d"
@@ -18887,11 +19403,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bo_hong_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "洪波",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "高小榕：脑电基础模型与通用解码",
-      "王毅军：脑电基础模型与通用解码"
+      "王毅军：脑电基础模型与通用解码",
+      "洪波：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -18912,7 +19439,7 @@
       "Shangkai Gao"
     ],
     "doi": "10.1007/978-3-540-73216-7_13",
-    "dblp_key": "",
+    "dblp_key": "conf/hci/JiaXHGZG07",
     "paper_url": "https://doi.org/10.1007/978-3-540-73216-7_13",
     "pdf_url": "",
     "source_url": "https://openalex.org/W1570376787",
@@ -18934,10 +19461,12 @@
     "scholar_id": "gao_xiaorong",
     "scholar_name": "高小榕",
     "scholar_ids": [
-      "gao_xiaorong"
+      "gao_xiaorong",
+      "bo_hong_thu"
     ],
     "scholar_names": [
-      "高小榕"
+      "高小榕",
+      "洪波"
     ],
     "source_record_ids": [
       "gao_xiaorong_ee6537d175a71fd0"
@@ -18956,10 +19485,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bo_hong_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "洪波",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "高小榕：脑电基础模型与通用解码"
+      "高小榕：脑电基础模型与通用解码",
+      "洪波：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -19057,7 +19597,7 @@
       "Shangkai Gao"
     ],
     "doi": "10.1109/iembs.2006.4397617",
-    "dblp_key": "",
+    "dblp_key": "conf/embc/ZhangWHGG06",
     "paper_url": "https://doi.org/10.1109/iembs.2006.4397617",
     "pdf_url": "",
     "source_url": "https://openalex.org/W2148311027",
@@ -19080,10 +19620,12 @@
     "scholar_id": "gao_xiaorong",
     "scholar_name": "高小榕",
     "scholar_ids": [
-      "gao_xiaorong"
+      "gao_xiaorong",
+      "bo_hong_thu"
     ],
     "scholar_names": [
-      "高小榕"
+      "高小榕",
+      "洪波"
     ],
     "source_record_ids": [
       "gao_xiaorong_b163a14790a3acbb"
@@ -19103,10 +19645,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bo_hong_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "洪波",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "高小榕：脑电基础模型与通用解码"
+      "高小榕：脑电基础模型与通用解码",
+      "洪波：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -19148,11 +19702,13 @@
     "scholar_name": "高小榕",
     "scholar_ids": [
       "gao_xiaorong",
-      "wang_yijun"
+      "wang_yijun",
+      "bo_hong_thu"
     ],
     "scholar_names": [
       "高小榕",
-      "王毅军"
+      "王毅军",
+      "洪波"
     ],
     "source_record_ids": [
       "gao_xiaorong_401589ffd1e22384"
@@ -19181,11 +19737,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bo_hong_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "洪波",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "高小榕：脑电基础模型与通用解码",
-      "王毅军：脑电基础模型与通用解码"
+      "王毅军：脑电基础模型与通用解码",
+      "洪波：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -19920,7 +20487,7 @@
       "Shangkai Gao",
       "Fusheng Yang"
     ],
-    "doi": "",
+    "doi": "10.1109/TBME.2004.826699",
     "paper_url": "https://www.wikidata.org/entity/Q30937815",
     "source_url": "https://www.wikidata.org/entity/Q30937815",
     "topics": [
@@ -19938,7 +20505,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 283,
     "publication_types": "",
     "candidate_source": true,
     "source_kind": "CSAuthors author bibliography",
@@ -19957,10 +20524,12 @@
     "work_title_group": "67fec52bf6da",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "gao_xiaorong"
+      "gao_xiaorong",
+      "bo_hong_thu"
     ],
     "scholar_names": [
-      "高小榕"
+      "高小榕",
+      "洪波"
     ],
     "source_record_ids": [
       "gao_xiaorong_44e657447c67"
@@ -19976,13 +20545,30 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "bo_hong_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "洪波",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "cef3ce83e048eaaa",
     "primary_categories_by_scholar": [
-      "高小榕：情感脑电与多模态生理信号"
+      "高小榕：情感脑电与多模态生理信号",
+      "洪波：脑电基础大模型与自监督预训练"
     ],
-    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名"
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "dblp_key": "journals/tbe/XuGHMGY04",
+    "abstract_en": "An algorithm based on independent component analysis (ICA) is introduced for P300 detection. After ICA decomposition, P300-related independent components are selected according to the a priori knowledge of P300 spatio-temporal pattern, and clear P300 peak is reconstructed by back projection of ICA. Applied to the dataset IIb of BCI Competition 2003, the algorithm achieved an accuracy of 100% in P300 detection within five repetitions.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "引入了一种基于独立成分分析（ICA）的算法用于P300检测。 ICA分解后，根据P300时空模式的先验知识选择与P300相关的独立分量，并通过ICA反投影重建清晰的P300峰。应用于2003年BCI竞赛的IIb数据集上，该算法在5次重复内实现了P300检测的100%准确率。"
   },
   {
     "title": "BCI competition 2003-data set IV: An algorithm based on CSSD and FDA for classifying single-trial EEG",

@@ -5,7 +5,7 @@
 - **身份/单位**：Tsinghua University School of Biomedical Engineering
 - **英文姓名**：Xiaorong Gao · **ORCID**：[0000-0003-0499-2740](https://orcid.org/0000-0003-0499-2740)
 - **外部身份依据**：[身份源1](https://bme.tsinghua.edu.cn/en/info/1073/1131.htm) · [身份源2](https://bme.tsinghua.edu.cn/info/1118/1478.htm) · [身份源3](https://orcid.org/0000-0003-0499-2740) · [身份源4](https://openalex.org/A5000766901)
-- **本轮核验书目记录**：**250** 条（其中含中英文摘要 **194** 条）；**开源资源入口**：**2** 条；**已关联资源的论文**：**2** 篇。
+- **本轮核验书目记录**：**250** 条（其中含中英文摘要 **196** 条）；**开源资源入口**：**2** 条；**已关联资源的论文**：**2** 篇。
 
 [论文分类目录](论文分类目录.md) · [按年份查看全部论文](全部论文.md) · [论文CSV](papers.csv) · [BibTeX](papers.bib) · [代码与项目](代码与项目.md) · [数据集与模型](数据集与模型.md) · [资源CSV](resources.csv) · [核验与缺口](核验与缺口.md) · [返回总导航](../README_总导航.md)
 

@@ -1,0 +1,1026 @@
+[
+  {
+    "title": "MOON: Generative MLLM-based Multimodal Representation Learning for E-commerce Product Understanding",
+    "title_en": "MOON: Generative MLLM-based Multimodal Representation Learning for E-commerce Product Understanding",
+    "title_zh": "MOON：基于生成 MLLM 的多模态表示学习，用于电子商务产品理解",
+    "year": 2026,
+    "venue": "WSDM",
+    "authors": [
+      "Zhanheng Nie",
+      "Pengjie Wang",
+      "Daoze Zhang",
+      "Jian Xu",
+      "Yuan Gao",
+      "Bo Zheng",
+      "Jun Song",
+      "Jianyu Liu",
+      "Wanxian Guan",
+      "Chenghan Fu"
+    ],
+    "doi": "10.1145/3773966.3777958",
+    "dblp_key": "conf/wsdm/ZhangFNLGGS00026",
+    "paper_url": "https://doi.org/10.1145/3773966.3777958",
+    "pdf_url": "https://doi.org/10.1145/3773966.3777958",
+    "source_url": "https://dblp.org/rec/conf/wsdm/ZhangFNLGGS00026",
+    "abstract_en": "With the rapid advancement of e-commerce, exploring general representations rather than task-specific ones has attracted increasing research attention. For product understanding, although existing discriminative dual-flow architectures drive progress in this field, they inherently struggle to model the many-to-one alignment between multiple images and texts of products. Therefore, we argue that generative Multimodal Large Language Models (MLLMs) hold significant potential for improving product representation learning. Nevertheless, achieving this goal still remains non-trivial due to several key challenges: the lack of multimodal and aspect-aware modeling modules in typical LLMs; the common presence of background noise in product images; and the absence of a standard benchmark for evaluation. To address these issues, we propose the first generative MLLM-based model named MOON for product representation learning. Our method (1) employs a guided Mixture-of-Experts (MoE) module for targeted modeling of multimodal and aspect-specific product content; (2) effectively detects core semantic regions in product images to mitigate the distraction and interference caused by background noise; and (3) introduces the specialized negative sampling strategy to increase the difficulty and diversity of negative samples. In addition, we release a large-scale multimodal benchmark MBE for various product understanding tasks. Experimentally, our model demonstrates competitive zero-shot performance on both our benchmark and the public dataset, showcasing strong generalization across various downstream tasks, including cross-modal retrieval, product classification, and attribute prediction. Furthermore, the case study and visualization illustrate the effectiveness of MOON for product understanding.",
+    "abstract_zh": "随着电子商务的快速发展，探索一般表示而不是特定任务的表示引起了越来越多的研究关注。对于产品理解，尽管现有的判别式双流架构推动了该领域的进步，但它们本质上难以对产品的多个图像和文本之间的多对一对齐进行建模。因此，我们认为生成式多模态大语言模型（MLLM）在改进产品表示学习方面具有巨大潜力。尽管如此，由于几个关键挑战，实现这一目标仍然很重要：典型的大语言模型缺乏多模式和方面感知建模模块；产品图像中普遍存在背景噪音；一个...",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 15,
+    "topics": [
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（369/7105）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "daoze_zhang_054d160d3ba95962",
+    "global_record_id": "054d160d3ba95962",
+    "scholar_id": "daoze_zhang",
+    "scholar_name": "张道泽",
+    "scholar_ids": [
+      "daoze_zhang"
+    ],
+    "scholar_names": [
+      "张道泽"
+    ],
+    "source_record_ids": [
+      "daoze_zhang_054d160d3ba95962"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "daoze_zhang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "张道泽",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张道泽：脑电基础大模型与自监督预训练"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础大模型与自监督预训练"
+  },
+  {
+    "title": "MOON2.0: Dynamic Modality-balanced Multimodal Representation Learning for E-commerce Product Understanding",
+    "title_en": "MOON2.0: Dynamic Modality-balanced Multimodal Representation Learning for E-commerce Product Understanding",
+    "title_zh": "MOON2.0：用于电子商务产品理解的动态模态平衡多模态表示学习",
+    "year": 2026,
+    "venue": "CVPR",
+    "authors": [
+      "Junxian Wu",
+      "Bo Zheng",
+      "Daoze Zhang",
+      "Jian Xu",
+      "Wanxian Guan",
+      "Pengjie Wang",
+      "Zhanheng Nie",
+      "Chenghan Fu"
+    ],
+    "doi": "10.48550/arxiv.2511.12449",
+    "dblp_key": "conf/cvpr/NieFZWGWXZ26",
+    "paper_url": "https://arxiv.org/abs/2511.12449",
+    "pdf_url": "https://arxiv.org/pdf/2511.12449",
+    "source_url": "https://dblp.org/rec/conf/cvpr/NieFZWGWXZ26",
+    "abstract_en": "Recent Multimodal Large Language Models (MLLMs) have significantly advanced e-commerce product understanding. However, they still face three challenges: (i) the modality imbalance induced by modality mixed training; (ii) underutilization of the intrinsic alignment relationships among visual and textual information within a product; and (iii) limited handling of noise in e-commerce multimodal data. To address these, we propose MOON2.0, a dynamic modality-balanced MultimOdal representation learning framework for e-commerce prOduct uNderstanding. It comprises: (1) a Modality-driven Mixture-of-Experts (MoE) that adaptively processes input samples by their modality composition, enabling Multimodal Joint Learning to mitigate the modality imbalance; (2) a Dual-level Alignment method to better leverage semantic alignment properties inside individual products; and (3) an MLLM-based Image-text Co-augmentation strategy that integrates textual enrichment with visual expansion, coupled with Dynamic Sample Filtering to improve training data quality. We further release MBE2.0, a co-augmented Multimodal representation Benchmark for E-commerce representation learning and evaluation at https://huggingface.co/datasets/ZHNie/MBE2.0. Experiments show that MOON2.0 delivers state-of-the-art zero-shot performance on MBE2.0 and multiple public datasets. Furthermore, attention-based heatmap visualization provides qualitative evidence of improved multimodal alignment of MOON2.0.",
+    "abstract_zh": "最近的多模式大型语言模型（MLLM）显着提高了电子商务产品的理解。然而，他们仍然面临三个挑战：（i）模态混合训练引起的模态不平衡； (ii) 未充分利用产品内视觉和文本信息之间的内在对齐关系； (iii) 对电子商务多模式数据中的噪音处理有限。为了解决这些问题，我们提出了 MOON2.0，一种用于电子商务产品理解的动态模态平衡多模态表示学习框架。它包括：（1）模态驱动的专家混合（MoE），通过模态组成自适应地处理输入样本，使多模态联合学习能够减轻模态不平衡......",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 5,
+    "topics": [
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（369/7105）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "daoze_zhang_49dff947529c0014",
+    "global_record_id": "49dff947529c0014",
+    "scholar_id": "daoze_zhang",
+    "scholar_name": "张道泽",
+    "scholar_ids": [
+      "daoze_zhang"
+    ],
+    "scholar_names": [
+      "张道泽"
+    ],
+    "source_record_ids": [
+      "daoze_zhang_49dff947529c0014"
+    ],
+    "resource_ids": [
+      "res_ds_403238327fcf"
+    ],
+    "code_urls": [],
+    "data_urls": [
+      "https://huggingface.co/datasets/ZHNie/MBE2.0"
+    ],
+    "model_urls": [],
+    "scholar_categories": {
+      "daoze_zhang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "张道泽",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张道泽：脑电基础大模型与自监督预训练"
+    ],
+    "resource_status": "已关联公开资源入口",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础大模型与自监督预训练"
+  },
+  {
+    "title": "MOON3.0: Reasoning-aware Multimodal Representation Learning for E-commerce Product Understanding",
+    "title_en": "MOON3.0: Reasoning-aware Multimodal Representation Learning for E-commerce Product Understanding",
+    "title_zh": "MOON3.0：用于电子商务产品理解的推理感知多模态表示学习",
+    "year": 2026,
+    "venue": "CoRR",
+    "authors": [
+      "Chuan Yu",
+      "Daoze Zhang",
+      "Wanxian Guan",
+      "Chenghan Fu",
+      "Bowen Wan",
+      "Bo Zheng",
+      "Jian Xu",
+      "Zhanheng Nie",
+      "Junxian Wu"
+    ],
+    "doi": "10.48550/ARXIV.2604.00513",
+    "dblp_key": "journals/corr/abs-2604-00513",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2604.00513",
+    "pdf_url": "https://arxiv.org/pdf/2604.00513",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2604-00513",
+    "abstract_en": "With the rapid growth of e-commerce, exploring general representations rather than task-specific ones has attracted increasing attention. Although recent multimodal large language models (MLLMs) have driven significant progress in product understanding, they are typically employed as feature extractors that implicitly encode product information into global embeddings, thereby limiting their ability to capture fine-grained attributes. Therefore, we argue that leveraging the reasoning capabilities of MLLMs to explicitly model fine-grained product attributes holds significant potential. Nevertheless, achieving this goal remains non-trivial due to several key challenges: (i) long-context reasoning tends to dilute the model's attention to salient information in the raw input; (ii) supervised fine-tuning (SFT) primarily encourages rigid imitation, limiting the exploration of effective reasoning strategies; and (iii) fine-grained details are progressively attenuated during forward propagation. To address these issues, we propose MOON3.0, the first reasoning-aware MLLM-based model for product representation learning. Our method (1) employs a multi-head modality fusion module to adaptively integrate raw signals; (2) incorporates a joint contrastive and reinforcement learning framework to autonomously explore more effective reasoning strategies; and (3) introduces a fine-grained residual enhancement module to progressively preserve local details throughout the network. Additionally, we release a large-scale multimodal e-commerce benchmark MBE3.0. Experimentally, our model demonstrates state-of-the-art zero-shot performance across various downstream tasks on both our benchmark and public datasets.",
+    "abstract_zh": "随着电子商务的快速发展，探索通用表示而不是特定任务的表示越来越引起人们的关注。尽管最近的多模态大语言模型（MLLM）在产品理解方面取得了重大进展，但它们通常用作特征提取器，将产品信息隐式编码到全局嵌入中，从而限制了它们捕获细粒度属性的能力。因此，我们认为利用 MLLM 的推理能力来显式建模细粒度的产品属性具有巨大的潜力。然而，由于几个关键挑战，实现这一目标仍然很重要：（i）长上下文推理往往会稀释模型对显着特征的注意力......",
+    "abstract_source": "arxiv_api",
+    "cited_by_count": 0,
+    "topics": [
+      "多模态与大语言模型",
+      "强化学习与决策优化"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（369/7105）",
+    "status": "预印本（arXiv/CoRR）",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "daoze_zhang_2f8fb92cc1085a9c",
+    "global_record_id": "2f8fb92cc1085a9c",
+    "scholar_id": "daoze_zhang",
+    "scholar_name": "张道泽",
+    "scholar_ids": [
+      "daoze_zhang"
+    ],
+    "scholar_names": [
+      "张道泽"
+    ],
+    "source_record_ids": [
+      "daoze_zhang_2f8fb92cc1085a9c"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "daoze_zhang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "张道泽",
+        "secondary_tags": [
+          "多模态与大语言模型",
+          "强化学习与决策优化"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张道泽：脑电基础大模型与自监督预训练"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础大模型与自监督预训练"
+  },
+  {
+    "title": "Sharper and Faster mean Better: Towards More Efficient Vision-Language Model for Hour-scale Long Video Understanding",
+    "title_en": "Sharper and Faster mean Better: Towards More Efficient Vision-Language Model for Hour-scale Long Video Understanding",
+    "title_zh": "更清晰、更快意味着更好：为小时级长视频理解建立更高效的视觉语言模型",
+    "year": 2025,
+    "venue": "ACL (1)",
+    "authors": [
+      "Daoze Zhang",
+      "Jintao Huang",
+      "Yuze Zhao",
+      "Yingda Chen"
+    ],
+    "doi": "10.18653/V1/2025.ACL-LONG.222",
+    "dblp_key": "conf/acl/ZhangZHC25",
+    "paper_url": "https://doi.org/10.18653/V1/2025.ACL-LONG.222",
+    "pdf_url": "https://aclanthology.org/2025.acl-long.222.pdf",
+    "source_url": "https://dblp.org/rec/conf/acl/ZhangZHC25",
+    "abstract_en": "Despite existing multimodal language models showing impressive performance on the video understanding task, extremely long videos still pose significant challenges to language model's context length, memory consumption, and computational complexity.To address these issues, we propose a vision-language model named Sophia for long video understanding, which can efficiently handle hour-scale long videos.First, we employ a Shot-adaptive Frame Pruning technique, which naturally segments long videos into multiple camera shots, to more sharply identify and focus on the frames relevant to the query.Additionally, we introduce a Hierarchical Attention mechanism to effectively model the long-term temporal dependencies between video frames, which achieves a time and space complexity of O(N ) w.r.t. the input sequence length N while theoretically maintaining the global modeling efficiency.Experimentally, our Sophia exhibits competitive performance compared to existing video understanding baselines across various benchmarks for long video understanding with reduced time and memory consumption.The model code and weights are available at this repository.",
+    "abstract_zh": "尽管现有的多模态语言模型在视频理解任务上显示出令人印象深刻的性能，但极长的视频仍然对语言模型的上下文长度、内存消耗和计算复杂性提出了重大挑战。为了解决这些问题，我们提出了一种名为 Sophia 的长视频理解视觉语言模型，它可以有效地处理小时级的长视频。首先，我们采用镜头自适应帧剪枝技术，该技术可以自然地将长视频分割成多个摄像机镜头，以更清晰地识别和关注与查询相关的帧。此外，我们引入了一种分层注意力机制可以有效地模拟视频帧之间的长期时间依赖性，从而实现...",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 7,
+    "topics": [
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（369/7105）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "daoze_zhang_9adee620d6f54b3d",
+    "global_record_id": "9adee620d6f54b3d",
+    "scholar_id": "daoze_zhang",
+    "scholar_name": "张道泽",
+    "scholar_ids": [
+      "daoze_zhang"
+    ],
+    "scholar_names": [
+      "张道泽"
+    ],
+    "source_record_ids": [
+      "daoze_zhang_9adee620d6f54b3d"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "daoze_zhang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "张道泽",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张道泽：脑电基础大模型与自监督预训练"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础大模型与自监督预训练"
+  },
+  {
+    "title": "Deep Learning-Powered Electrical Brain Signals Analysis: Advancing Neurological Diagnostics",
+    "title_en": "Deep Learning-Powered Electrical Brain Signals Analysis: Advancing Neurological Diagnostics",
+    "title_zh": "深度学习驱动的脑电信号分析：推进神经诊断",
+    "year": 2025,
+    "venue": "CoRR",
+    "authors": [
+      "Zhizhang Yuan",
+      "Fanqi Shen",
+      "Yuxin Liu",
+      "Jiahe Li",
+      "Xin Chen",
+      "Junru Chen",
+      "Meng Li",
+      "Fang Zhao",
+      "Daoze Zhang",
+      "Yang Yang"
+    ],
+    "doi": "10.48550/ARXIV.2502.17213",
+    "dblp_key": "journals/corr/abs-2502-17213",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2502.17213",
+    "pdf_url": "https://arxiv.org/pdf/2502.17213",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2502-17213",
+    "abstract_en": "Neurological disorders pose major global health challenges, driving advances in brain signal analysis. Scalp electroencephalography (EEG) and intracranial EEG (iEEG) are widely used for diagnosis and monitoring. However, dataset heterogeneity and task variations hinder the development of robust deep learning solutions. This review systematically examines recent advances in deep learning approaches for EEG/iEEG-based neurological diagnostics, focusing on applications across 7 neurological conditions using 46 datasets. For each condition, we review representative methods and their quantitative results, integrating performance comparisons with analyses of data usage, model design, and task-specific adaptations, while highlighting the role of pre-trained multi-task models in achieving scalable, generalizable solutions. Finally, we propose a standardized benchmark to evaluate models across diverse datasets and improve reproducibility, emphasizing how recent innovations are transforming neurological diagnostics toward intelligent, adaptable healthcare systems.",
+    "abstract_zh": "神经系统疾病构成了全球健康的重大挑战，推动了大脑信号分析的进步。头皮脑电图（EEG）和颅内脑电图（iEEG）广泛用于诊断和监测。然而，数据集异构性和任务变化阻碍了强大的深度学习解决方案的开发。本综述系统地研究了基于 EEG/iEEG 的神经系统诊断的深度学习方法的最新进展，重点关注使用 46 个数据集在 7 种神经系统疾病中的应用。对于每种情况，我们回顾了代表性方法及其定量结果，将性能比较与数据使用分析、模型设计和特定于任务的适应相结合，同时强调了...",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 16,
+    "topics": [
+      "脑电基础大模型"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（369/7105）",
+    "status": "预印本（arXiv/CoRR）",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "daoze_zhang_16ce2e485d73220f",
+    "global_record_id": "16ce2e485d73220f",
+    "scholar_id": "daoze_zhang",
+    "scholar_name": "张道泽",
+    "scholar_ids": [
+      "daoze_zhang"
+    ],
+    "scholar_names": [
+      "张道泽"
+    ],
+    "source_record_ids": [
+      "daoze_zhang_16ce2e485d73220f"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "daoze_zhang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "张道泽",
+        "secondary_tags": [
+          "脑电基础大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张道泽：脑电基础大模型与自监督预训练"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础大模型与自监督预训练"
+  },
+  {
+    "title": "MOON Embedding: Multimodal Representation Learning for E-commerce Search Advertising",
+    "title_en": "MOON Embedding: Multimodal Representation Learning for E-commerce Search Advertising",
+    "title_zh": "MOON Embedding：电子商务搜索广告的多模态表示学习",
+    "year": 2025,
+    "venue": "CoRR",
+    "authors": [
+      "Jianyu Liu",
+      "Pengjie Wang",
+      "Xiang Zhang",
+      "Jian Xu",
+      "Daoze Zhang",
+      "Yueran Liu",
+      "Bo Zheng",
+      "Yukang Lin",
+      "Wanxian Guan",
+      "Chenghan Fu",
+      "Zhanheng Nie"
+    ],
+    "doi": "10.48550/ARXIV.2511.11305",
+    "dblp_key": "journals/corr/abs-2511-11305",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2511.11305",
+    "pdf_url": "https://arxiv.org/pdf/2511.11305",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2511-11305",
+    "abstract_en": "We introduce MOON, our comprehensive set of sustainable iterative practices for multimodal representation learning for e-commerce applications. MOON has already been fully deployed across all stages of Taobao search advertising system, including retrieval, relevance, ranking, and so on. The performance gains are particularly significant on click-through rate (CTR) prediction task, which achieves an overall +20.00% online CTR improvement. Over the past three years, this project has delivered the largest improvement on CTR prediction task and undergone five full-scale iterations. Throughout the exploration and iteration of our MOON, we have accumulated valuable insights and practical experience that we believe will benefit the research community. MOON contains a three-stage training paradigm of \"Pretraining, Post-training, and Application\", allowing effective integration of multimodal representations with downstream tasks. Notably, to bridge the misalignment between the objectives of multimodal representation learning and downstream training, we define the exchange rate to quantify how effectively improvements in an intermediate metric can translate into downstream gains. Through this analysis, we identify the image-based search recall as a critical intermediate metric guiding the optimization of multimodal models. Over three years and five iterations, MOON has evolved along four critical dimensions: data processing, training strategy, model architecture, and downstream application. The lessons and insights gained through the iterative improvements will also be shared. As part of our exploration into scaling effects in the e-commerce field, we further conduct a systematic study of the scaling laws governing multimodal representation learning, examining multiple factors such as the number of training tokens, negative samples, and the length of user behavior sequences.",
+    "abstract_zh": "我们介绍 MOON，这是我们针对电子商务应用程序的多模式表示学习的一套全面的可持续迭代实践。 MOON已经全面部署在淘宝搜索广告系统的各个阶段，包括检索、相关性、排名等。在点击率 (CTR) 预测任务上，性能提升尤其显着，在线点击率整体提高了 20.00%。三年来，该项目在CTR预测任务上实现了最大的改进，并经历了五次全面迭代。在我们对 MOON 的探索和迭代过程中，我们积累了宝贵的见解和实践经验，我们相信这将有利于研究界……",
+    "abstract_source": "arxiv_api",
+    "cited_by_count": 0,
+    "topics": [
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（369/7105）",
+    "status": "预印本（arXiv/CoRR）",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "daoze_zhang_eb951695f1bd517e",
+    "global_record_id": "eb951695f1bd517e",
+    "scholar_id": "daoze_zhang",
+    "scholar_name": "张道泽",
+    "scholar_ids": [
+      "daoze_zhang"
+    ],
+    "scholar_names": [
+      "张道泽"
+    ],
+    "source_record_ids": [
+      "daoze_zhang_eb951695f1bd517e"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "daoze_zhang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "张道泽",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张道泽：脑电基础大模型与自监督预训练"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础大模型与自监督预训练"
+  },
+  {
+    "title": "PD3: A Project Duplication Detection Framework via Adapted Multi-Agent Debate",
+    "title_en": "PD3: A Project Duplication Detection Framework via Adapted Multi-Agent Debate",
+    "title_zh": "PD3：通过自适应多智能体辩论的项目重复检测框架",
+    "year": 2025,
+    "venue": "CoRR",
+    "authors": [
+      "Zhengxuan Jiang",
+      "Junru Chen",
+      "Yang Yang",
+      "Daoze Zhang",
+      "Zeguo Fei",
+      "Yueci Yang",
+      "Xuanwen Huang",
+      "Xin Chen",
+      "Xiang Yuan",
+      "Dezheng Bao",
+      "Chutian Yu"
+    ],
+    "doi": "10.48550/ARXIV.2505.17492",
+    "dblp_key": "journals/corr/abs-2505-17492",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2505.17492",
+    "pdf_url": "https://arxiv.org/pdf/2505.17492",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2505-17492",
+    "abstract_en": "Project duplication detection is critical for project quality assessment because it helps avoid investment in repeated proposals. Existing methods usually cast it as ranking and rely on surface matching or direct large language models judging, often missing practical needs in set-level reference selection. We recast the task as many-to-many reference set selection, which requires broad candidate information and fair decomposed comparison under context limits. We propose PD$^3$, a framework for Project Duplication Detection via adapted multi-agent Debate. PD$^3$ combines local multi-agent debate with global round-robin scheduling to retrieve the relevant project set. Theoretically, this scheduler guarantees fair comparison through balanced exposure and comparison context. PD$^3$ also produces quantitative duplication scores and qualitative overlap feedback. On 800+ real-world power projects, PD$^3$ outperforms the strongest baselines by 4.05% in relevant reference selection and 9.77% in duplication score generation. We deploy Review Dingdang, an online platform, which has helped save $13.44 million across 442 new projects.",
+    "abstract_zh": "项目重复检测对于项目质量评估至关重要，因为它有助于避免对重复提案的投资。现有的方法通常将其视为排序，依赖于表面匹配或直接大语言模型判断，往往忽略了集合级参考选择的实际需求。我们将任务重新定义为多对多参考集选择，这需要广泛的候选信息和上下文限制下的公平分解比较。我们提出 PD$^3$，这是一个通过适应的多智能体辩论进行项目重复检测的框架。 PD$^3$ 将本地多智能体辩论与全局循环调度相结合，检索相关项目集。理论上，这个调度器通过平衡的 e... 来保证公平比较。",
+    "abstract_source": "arxiv_api",
+    "cited_by_count": 0,
+    "topics": [
+      "强化学习与决策优化"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（369/7105）",
+    "status": "预印本（arXiv/CoRR）",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "daoze_zhang_416256faa57aebc5",
+    "global_record_id": "416256faa57aebc5",
+    "scholar_id": "daoze_zhang",
+    "scholar_name": "张道泽",
+    "scholar_ids": [
+      "daoze_zhang"
+    ],
+    "scholar_names": [
+      "张道泽"
+    ],
+    "source_record_ids": [
+      "daoze_zhang_416256faa57aebc5"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "daoze_zhang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "张道泽",
+        "secondary_tags": [
+          "强化学习与决策优化"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张道泽：脑电基础大模型与自监督预训练"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础大模型与自监督预训练"
+  },
+  {
+    "title": "Re2: A Consistency-ensured Dataset for Full-stage Peer Review and Multi-turn Rebuttal Discussions",
+    "title_en": "Re2: A Consistency-ensured Dataset for Full-stage Peer Review and Multi-turn Rebuttal Discussions",
+    "title_zh": "Re2：用于全阶段同行评审和多轮反驳讨论的确保一致性的数据集",
+    "year": 2025,
+    "venue": "CoRR",
+    "authors": [
+      "Dezheng Bao",
+      "Yang Yang",
+      "Sihang Du",
+      "Zhijian Bao",
+      "Kuangling Zhang",
+      "Zhiyi Zhao",
+      "Daoze Zhang"
+    ],
+    "doi": "10.48550/ARXIV.2505.07920",
+    "dblp_key": "journals/corr/abs-2505-07920",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2505.07920",
+    "pdf_url": "https://arxiv.org/pdf/2505.07920",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2505-07920",
+    "abstract_en": "Peer review is a critical component of scientific progress in the fields like AI, but the rapid increase in submission volume has strained the reviewing system, which inevitably leads to reviewer shortages and declines review quality. Besides the growing research popularity, another key factor in this overload is the repeated resubmission of substandard manuscripts, largely due to the lack of effective tools for authors to self-evaluate their work before submission. Large Language Models (LLMs) show great promise in assisting both authors and reviewers, and their performance is fundamentally limited by the quality of the peer review data. However, existing peer review datasets face three major limitations: (1) limited data diversity, (2) inconsistent and low-quality data due to the use of revised rather than initial submissions, and (3) insufficient support for tasks involving rebuttal and reviewer-author interactions. To address these challenges, we introduce the largest consistency-ensured peer review and rebuttal dataset named Re^2, which comprises 19,926 initial submissions, 70,668 review comments, and 53,818 rebuttals from 24 conferences and 21 workshops on OpenReview. Moreover, the rebuttal and discussion stage is framed as a multi-turn conversation paradigm to support both traditional static review tasks and dynamic interactive LLM assistants, providing more practical guidance for authors to refine their manuscripts and helping alleviate the growing review burden. Our data and code are available in https://anonymous.4open.science/r/ReviewBench_anon/.",
+    "abstract_zh": "同行评审是人工智能等领域科学进步的重要组成部分，但投稿量的快速增加给评审系统带来了压力，这不可避免地导致评审员短缺和评审质量下降。除了研究日益受欢迎之外，造成这种过载的另一个关键因素是不合格稿件的反复重新提交，这很大程度上是由于作者在提交之前缺乏有效的工具来自我评估自己的作品。大型语言模型（LLM）在帮助作者和审稿人方面显示出巨大的前景，但它们的性能从根本上受到同行评审数据质量的限制。然而，现有的同行评审数据集面临三个主要限制：（1）数据多样性有限，（2）......",
+    "abstract_source": "arxiv_api",
+    "cited_by_count": 0,
+    "topics": [
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（369/7105）",
+    "status": "预印本（arXiv/CoRR）",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "daoze_zhang_e5855e4984afbddb",
+    "global_record_id": "e5855e4984afbddb",
+    "scholar_id": "daoze_zhang",
+    "scholar_name": "张道泽",
+    "scholar_ids": [
+      "daoze_zhang"
+    ],
+    "scholar_names": [
+      "张道泽"
+    ],
+    "source_record_ids": [
+      "daoze_zhang_e5855e4984afbddb"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "daoze_zhang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "张道泽",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张道泽：脑电基础大模型与自监督预训练"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础大模型与自监督预训练"
+  },
+  {
+    "title": "SWIFT: A Scalable Lightweight Infrastructure for Fine-Tuning",
+    "title_en": "SWIFT: A Scalable Lightweight Infrastructure for Fine-Tuning",
+    "title_zh": "SWIFT：用于微调的可扩展轻量级基础设施",
+    "year": 2025,
+    "venue": "AAAI",
+    "authors": [
+      "Yuze Zhao",
+      "Yingda Chen",
+      "Zeyinzi Jiang",
+      "Daoze Zhang",
+      "Xingjun Wang",
+      "Yunlin Mao",
+      "Baole Ai",
+      "Jintao Huang",
+      "Jinghan Hu",
+      "Zhikai Wu",
+      "Wenmeng Zhou",
+      "Ang Wang"
+    ],
+    "doi": "10.1609/AAAI.V39I28.35383",
+    "dblp_key": "conf/aaai/ZhaoHHWMZJWAWZC25",
+    "paper_url": "https://doi.org/10.1609/AAAI.V39I28.35383",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/35383/37538",
+    "source_url": "https://dblp.org/rec/conf/aaai/ZhaoHHWMZJWAWZC25",
+    "abstract_en": "Recent development in Large Language Models (LLMs) and Multi-modal Large Language Models (MLLMs) have achieved superior performance and generalization capabilities, covered extensive areas of traditional tasks. However, existing large model training frameworks support only a limited number of models and techniques, particularly lacking in support for new models, which makes fine-tuning LLMs challenging for most developers. Therefore, we develop SWIFT, a customizable one-stop infrastructure for large models. With support of over 350+ LLMs and 80+ MLLMs, SWIFT stands as the open-source framework that provide the most comprehensive support for fine-tuning large models. In particular, it is the first training framework that provides systematic support for MLLMs. Moreover, SWIFT integrates post-training processes such as inference, evaluation, and quantization, to facilitate fast adoptions of large models in various application scenarios, offering helpful utilities like benchmark comparisons among different training techniques.",
+    "abstract_zh": "大型语言模型（LLM）和多模态大型语言模型（MLLM）的最新发展已经实现了卓越的性能和泛化能力，涵盖了传统任务的广泛领域。然而，现有的大型模型训练框架仅支持有限数量的模型和技术，尤其缺乏对新模型的支持，这使得LLM的微调对大多数开发人员来说具有挑战性。因此，我们开发了SWIFT，这是一个针对大型模型的可定制的一站式基础设施。 SWIFT 拥有 350 多个 LLM 和 80 多个 MLLM 的支持，是为大型模型微调提供最全面支持的开源框架。特别是，它是第一个提供系统化的培训框架...",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 507,
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者PID核验（369/7105）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "daoze_zhang_b7b63ecdb1f777ae",
+    "global_record_id": "b7b63ecdb1f777ae",
+    "scholar_id": "daoze_zhang",
+    "scholar_name": "张道泽",
+    "scholar_ids": [
+      "daoze_zhang"
+    ],
+    "scholar_names": [
+      "张道泽"
+    ],
+    "source_record_ids": [
+      "daoze_zhang_b7b63ecdb1f777ae"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "daoze_zhang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "张道泽",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张道泽：脑电基础大模型与自监督预训练"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础大模型与自监督预训练"
+  },
+  {
+    "title": "Minimum Tuning to Unlock Long Output from LLMs with High Quality Data as the Key",
+    "title_en": "Minimum Tuning to Unlock Long Output from LLMs with High Quality Data as the Key",
+    "title_zh": "以高质量数据为关键的最小调整以释放大语言模型的长输出",
+    "year": 2024,
+    "venue": "CoRR",
+    "authors": [
+      "Daoze Zhang",
+      "Yuze Zhao",
+      "Yingda Chen",
+      "Yunlin Mao",
+      "Jintao Huang",
+      "Xingjun Wang"
+    ],
+    "doi": "10.48550/ARXIV.2410.10210",
+    "dblp_key": "journals/corr/abs-2410-10210",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2410.10210",
+    "pdf_url": "https://arxiv.org/pdf/2410.10210",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2410-10210",
+    "abstract_en": "As large language models rapidly evolve to support longer context, there is a notable disparity in their capability to generate output at greater lengths. Recent study suggests that the primary cause for this imbalance may arise from the lack of data with long-output during alignment training. In light of this observation, attempts are made to re-align foundation models with data that fills the gap, which result in models capable of generating lengthy output when instructed. In this paper, we explore the impact of data-quality in tuning a model for long output, and the possibility of doing so from the starting points of human-aligned (instruct or chat) models. With careful data curation, we show that it possible to achieve similar performance improvement in our tuned models, with only a small fraction of training data instances and compute. In addition, we assess the generalizability of such approaches by applying our tuning-recipes to several models. our findings suggest that, while capacities for generating long output vary across different models out-of-the-box, our approach to tune them with high-quality data using lite compute, consistently yields notable improvement across all models we experimented on. We have made public our curated dataset for tuning long-writing capability, the implementations of model tuning and evaluation, as well as the fine-tuned models, all of which can be openly-accessed.",
+    "abstract_zh": "随着大型语言模型迅速发展以支持更长的上下文，它们生成更大长度输出的能力存在显着差异。最近的研究表明，造成这种不平衡的主要原因可能是对齐训练期间缺乏长输出数据。根据这一观察结果，人们尝试将基础模型与填补空白的数据重新对齐，从而使模型能够在收到指示时生成冗长的输出。在本文中，我们探讨了数据质量在调整模型以实现长输出方面的影响，以及从人类对齐（指导或聊天）模型的起点进行此操作的可能性。通过仔细的数据管理，我们表明可以实现类似的性能...",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 0,
+    "topics": [
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（369/7105）",
+    "status": "预印本（arXiv/CoRR）",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "daoze_zhang_06150039cebc41a2",
+    "global_record_id": "06150039cebc41a2",
+    "scholar_id": "daoze_zhang",
+    "scholar_name": "张道泽",
+    "scholar_ids": [
+      "daoze_zhang"
+    ],
+    "scholar_names": [
+      "张道泽"
+    ],
+    "source_record_ids": [
+      "daoze_zhang_06150039cebc41a2"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "daoze_zhang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "张道泽",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张道泽：脑电基础大模型与自监督预训练"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础大模型与自监督预训练"
+  },
+  {
+    "title": "Brant-2: Foundation Model for Brain Signals",
+    "title_en": "Brant-2: Foundation Model for Brain Signals",
+    "title_zh": "Brant-2：大脑信号的基础模型",
+    "year": 2024,
+    "venue": "CoRR",
+    "authors": [
+      "Junru Chen",
+      "Daoze Zhang",
+      "Yang Yang",
+      "Zhizhang Yuan",
+      "Gefei Gu"
+    ],
+    "doi": "10.48550/ARXIV.2402.10251",
+    "dblp_key": "journals/corr/abs-2402-10251",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2402.10251",
+    "pdf_url": "https://arxiv.org/pdf/2402.10251",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2402-10251",
+    "abstract_en": "Neural electrical activity is fundamental to brain function, underlying a range of cognitive and behavioral processes, including movement, perception, decision-making, and consciousness. Abnormal patterns of neural signaling often indicate the presence of underlying brain diseases. The variability among individuals, the diverse array of clinical symptoms from various brain disorders, and the limited availability of diagnostic classifications, have posed significant barriers to formulating reliable model of neural signals for diverse application contexts. Here, we present BrainWave, the first foundation model for both invasive and non-invasive neural recordings, pretrained on more than 40,000 hours of electrical brain recordings (13.79 TB of data) from approximately 16,000 individuals. Our analysis show that BrainWave outperforms all other competing models and consistently achieves state-of-the-art performance in the diagnosis and identification of neurological disorders. We also demonstrate robust capabilities of BrainWave in enabling zero-shot transfer learning across varying recording conditions and brain diseases, as well as few-shot classification without fine-tuning, suggesting that BrainWave learns highly generalizable representations of neural signals. We hence believe that open-sourcing BrainWave will facilitate a wide range of clinical applications in medicine, paving the way for AI-driven approaches to investigate brain disorders and advance neuroscience research.",
+    "abstract_zh": "神经电活动是大脑功能的基础，是一系列认知和行为过程的基础，包括运动、感知、决策和意识。神经信号传导的异常模式通常表明存在潜在的脑部疾病。个体之间的差异、各种脑部疾病的多种临床症状以及诊断分类的有限可用性，都对为不同的应用环境制定可靠的神经信号模型造成了重大障碍。在这里，我们推出 BrainWave，这是第一个针对侵入性和非侵入性神经记录的基础模型，经过超过 40,000 小时的脑电记录（13.79 TB...",
+    "abstract_source": "arxiv_api",
+    "cited_by_count": 0,
+    "topics": [
+      "脑电基础大模型",
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（369/7105）",
+    "status": "预印本（arXiv/CoRR）",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "daoze_zhang_304360f48408de6c",
+    "global_record_id": "304360f48408de6c",
+    "scholar_id": "daoze_zhang",
+    "scholar_name": "张道泽",
+    "scholar_ids": [
+      "daoze_zhang"
+    ],
+    "scholar_names": [
+      "张道泽"
+    ],
+    "source_record_ids": [
+      "daoze_zhang_304360f48408de6c"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "daoze_zhang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "张道泽",
+        "secondary_tags": [
+          "脑电基础大模型",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张道泽：脑电基础大模型与自监督预训练"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础大模型与自监督预训练"
+  },
+  {
+    "title": "Brant-X: A Unified Physiological Signal Alignment Framework",
+    "title_en": "Brant-X: A Unified Physiological Signal Alignment Framework",
+    "title_zh": "Brant-X：统一的生理信号对齐框架",
+    "year": 2024,
+    "venue": "KDD",
+    "authors": [
+      "Junru Chen",
+      "Zhizhang Yuan",
+      "Kerui Chen",
+      "Yang Yang",
+      "Daoze Zhang"
+    ],
+    "doi": "10.1145/3637528.3671953",
+    "dblp_key": "conf/kdd/ZhangYCC024",
+    "paper_url": "https://doi.org/10.1145/3637528.3671953",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/conf/kdd/ZhangYCC024",
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "cited_by_count": 0,
+    "topics": [
+      "脑电基础大模型"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（369/7105）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "daoze_zhang_cad32d93e78bcb3b",
+    "global_record_id": "cad32d93e78bcb3b",
+    "scholar_id": "daoze_zhang",
+    "scholar_name": "张道泽",
+    "scholar_ids": [
+      "daoze_zhang"
+    ],
+    "scholar_names": [
+      "张道泽"
+    ],
+    "source_record_ids": [
+      "daoze_zhang_cad32d93e78bcb3b"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "daoze_zhang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "张道泽",
+        "secondary_tags": [
+          "脑电基础大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张道泽：脑电基础大模型与自监督预训练"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础大模型与自监督预训练"
+  },
+  {
+    "title": "DMNet: Self-comparison Driven Model for Subject-independent Seizure Detection",
+    "title_en": "DMNet: Self-comparison Driven Model for Subject-independent Seizure Detection",
+    "title_zh": "DMNet：用于独立于受试者的癫痫检测的自我比较驱动模型",
+    "year": 2024,
+    "venue": "NeurIPS",
+    "authors": [
+      "Yin Zhang",
+      "Lvbin Ma",
+      "Daoze Zhang",
+      "Shihao Tu",
+      "Linfeng Cao",
+      "Yang Yang",
+      "Junru Chen"
+    ],
+    "doi": "",
+    "dblp_key": "conf/nips/TuCZCMZ024",
+    "paper_url": "",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/conf/nips/TuCZCMZ024",
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "cited_by_count": 0,
+    "topics": [
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（369/7105）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "daoze_zhang_18169bf7e72dc55e",
+    "global_record_id": "18169bf7e72dc55e",
+    "scholar_id": "daoze_zhang",
+    "scholar_name": "张道泽",
+    "scholar_ids": [
+      "daoze_zhang"
+    ],
+    "scholar_names": [
+      "张道泽"
+    ],
+    "source_record_ids": [
+      "daoze_zhang_18169bf7e72dc55e"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "daoze_zhang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "张道泽",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张道泽：脑电基础大模型与自监督预训练"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础大模型与自监督预训练"
+  },
+  {
+    "title": "Brant: Foundation Model for Intracranial Neural Signal",
+    "title_en": "Brant: Foundation Model for Intracranial Neural Signal",
+    "title_zh": "布兰特：颅内神经信号的基础模型",
+    "year": 2023,
+    "venue": "NeurIPS",
+    "authors": [
+      "Yang Yang",
+      "Yafeng Li",
+      "Daoze Zhang",
+      "Zhizhang Yuan",
+      "Junru Chen",
+      "Jingjing Wang"
+    ],
+    "doi": "10.52202/075280-1144",
+    "dblp_key": "conf/nips/ZhangY0CWL23",
+    "paper_url": "https://doi.org/10.52202/075280-1144",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/conf/nips/ZhangY0CWL23",
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "cited_by_count": 126,
+    "topics": [
+      "脑电基础大模型"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（369/7105）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "daoze_zhang_6b716251bc1b94b5",
+    "global_record_id": "6b716251bc1b94b5",
+    "scholar_id": "daoze_zhang",
+    "scholar_name": "张道泽",
+    "scholar_ids": [
+      "daoze_zhang"
+    ],
+    "scholar_names": [
+      "张道泽"
+    ],
+    "source_record_ids": [
+      "daoze_zhang_6b716251bc1b94b5"
+    ],
+    "resource_ids": [
+      "res_md_abacdd48ab12"
+    ],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [
+      "https://zju-brainnet.github.io/Brant.github.io/"
+    ],
+    "scholar_categories": {
+      "daoze_zhang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "张道泽",
+        "secondary_tags": [
+          "脑电基础大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张道泽：脑电基础大模型与自监督预训练"
+    ],
+    "resource_status": "已关联公开资源入口",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础大模型与自监督预训练"
+  },
+  {
+    "title": "PPi: Pretraining Brain Signal Model for Patient-independent Seizure Detection",
+    "title_en": "PPi: Pretraining Brain Signal Model for Patient-independent Seizure Detection",
+    "title_zh": "PPi：用于独立于患者的癫痫发作检测的预训练脑信号模型",
+    "year": 2023,
+    "venue": "NeurIPS",
+    "authors": [
+      "Yang Yang",
+      "Yafeng Li",
+      "Daoze Zhang",
+      "Zhizhang Yuan",
+      "Junru Chen"
+    ],
+    "doi": "10.52202/075280-3047",
+    "dblp_key": "conf/nips/YuanZ0CL23",
+    "paper_url": "https://doi.org/10.52202/075280-3047",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/conf/nips/YuanZ0CL23",
+    "abstract_en": "",
+    "abstract_zh": "",
+    "abstract_source": "",
+    "cited_by_count": 13,
+    "topics": [
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（369/7105）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "daoze_zhang_0b88862a2ffbbb28",
+    "global_record_id": "0b88862a2ffbbb28",
+    "scholar_id": "daoze_zhang",
+    "scholar_name": "张道泽",
+    "scholar_ids": [
+      "daoze_zhang"
+    ],
+    "scholar_names": [
+      "张道泽"
+    ],
+    "source_record_ids": [
+      "daoze_zhang_0b88862a2ffbbb28"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "daoze_zhang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "张道泽",
+        "secondary_tags": [
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张道泽：脑电基础大模型与自监督预训练"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础大模型与自监督预训练"
+  }
+]

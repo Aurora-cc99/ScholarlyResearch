@@ -18,7 +18,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计",
     "status": "候选条目/需按作者主页继续核验",
@@ -103,7 +104,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计",
     "status": "候选条目/需按作者主页继续核验",
@@ -355,7 +357,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -437,7 +441,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计",
     "status": "候选条目/需按作者主页继续核验",
@@ -1132,7 +1138,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1215,7 +1222,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1547,7 +1555,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1628,7 +1637,7 @@
       "Xiaolan Fu"
     ],
     "doi": "10.1016/j.neucom.2025.129891",
-    "dblp_key": "",
+    "dblp_key": "journals/ijon/LiWWZF25",
     "paper_url": "https://doi.org/10.1016/j.neucom.2025.129891",
     "pdf_url": "http://dx.doi.org/10.2139/ssrn.4913517",
     "source_url": "https://openalex.org/W4408542742",
@@ -1639,7 +1648,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5015329251）",
     "status": "已索引出版/会议记录",
@@ -1650,10 +1660,12 @@
     "scholar_id": "fu_xiaolan",
     "scholar_name": "傅小兰",
     "scholar_ids": [
-      "fu_xiaolan"
+      "fu_xiaolan",
+      "su_jing_wang"
     ],
     "scholar_names": [
-      "傅小兰"
+      "傅小兰",
+      "王苏菁"
     ],
     "source_record_ids": [
       "fu_xiaolan_8b90bff431e1b57c"
@@ -1672,10 +1684,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "su_jing_wang": {
+        "category_id": "multimodal_emotion",
+        "label": "多模态情感理解、面部表情与语音情绪",
+        "scholar_name": "王苏菁",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "傅小兰：情感脑电与多模态生理信号"
+      "傅小兰：情感脑电与多模态生理信号",
+      "王苏菁：多模态情感理解、面部表情与语音情绪"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -1933,7 +1957,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2020,7 +2045,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2687,7 +2713,8 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2770,7 +2797,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2858,7 +2886,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2895,10 +2925,12 @@
     "work_title_group": "827e82aa80bf",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "fu_xiaolan"
+      "fu_xiaolan",
+      "su_jing_wang"
     ],
     "scholar_names": [
-      "傅小兰"
+      "傅小兰",
+      "王苏菁"
     ],
     "source_record_ids": [
       "fu_xiaolan_816a8b2a8969"
@@ -2917,15 +2949,32 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "su_jing_wang": {
+        "category_id": "multimodal_emotion",
+        "label": "多模态情感理解、面部表情与语音情绪",
+        "scholar_name": "王苏菁",
+        "secondary_tags": [
+          "情感理解与社会认知",
+          "心理计算与情绪研究",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "35332a47b56cfeb0",
     "primary_categories_by_scholar": [
-      "傅小兰：情感脑电与多模态生理信号"
+      "傅小兰：情感脑电与多模态生理信号",
+      "王苏菁：多模态情感理解、面部表情与语音情绪"
     ],
     "abstract_en": "Micro-expressions (MEs) are brief, involuntary facial movements critical for detecting lies, drawing growing interest in psychology and computer science. However, annotating ME can burden human coders with excessive time commitment and overwhelming information that compromises coding reliability and efficiency. Such difficulties in data annotation also led to the small sample size problem and hindered the development of ME analysis. Specifically, our psychological research highlights the complexities involved in human annotation of key frames. To facilitate the annotating process of ME, we proposed the Micro-Expression Key Frame Inference (ME-KFI) problem, aiming to identify MEs’ temporal locations from a single frame, reducing manual annotation effort. We propose a Micro-Expression Contrastive Identification Annotation (MECIA) method as a solution to ME-KFI, including three modules: a contrastive module, an identification module, and an annotation module, corresponding to the three steps of manual annotation. The network’s outputs infer the key frame of ME clips. MECIA demonstrates superior performance over random baselines on SAMM and CAS(ME)$^{2}$databases and maintains comparable recognition accuracy with ground-truth clips.",
     "abstract_source": "openalex_verified",
-    "abstract_zh": "微表情 (ME) 是一种短暂的、无意识的面部运动，对于检测谎言至关重要，引起了人们对心理学和计算机科学越来越多的兴趣。然而，注释 ME 可能会给人类编码人员带来过多的时间投入和大量信息，从而损害编码的可靠性和效率。数据标注的困难也导致了样本量过小的问题，阻碍了ME分析的发展。具体来说，我们的心理学研究强调了关键帧的人工注释所涉及的复杂性。为了促进ME的注释过程，我们提出了微表达式关键帧推理（ME-KFI）问题，旨在识别ME的时间逻辑..."
+    "abstract_zh": "微表情 (ME) 是一种短暂的、无意识的面部运动，对于检测谎言至关重要，引起了人们对心理学和计算机科学越来越多的兴趣。然而，注释 ME 可能会给人类编码人员带来过多的时间投入和大量信息，从而损害编码的可靠性和效率。数据标注的困难也导致了样本量过小的问题，阻碍了ME分析的发展。具体来说，我们的心理学研究强调了关键帧的人工注释所涉及的复杂性。为了促进ME的注释过程，我们提出了微表达式关键帧推理（ME-KFI）问题，旨在识别ME的时间逻辑...",
+    "dblp_key": "journals/taffco/WangMLZDSF25"
   },
   {
     "title": "Could Micro-Expressions Be Quantified? Electromyography Gives Affirmative Evidence",
@@ -2950,7 +2999,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2985,10 +3036,12 @@
     "work_title_group": "93983abc00d4",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "fu_xiaolan"
+      "fu_xiaolan",
+      "su_jing_wang"
     ],
     "scholar_names": [
-      "傅小兰"
+      "傅小兰",
+      "王苏菁"
     ],
     "source_record_ids": [
       "fu_xiaolan_2badac45fbbc"
@@ -3007,16 +3060,33 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "su_jing_wang": {
+        "category_id": "multimodal_emotion",
+        "label": "多模态情感理解、面部表情与语音情绪",
+        "scholar_name": "王苏菁",
+        "secondary_tags": [
+          "情感理解与社会认知",
+          "心理计算与情绪研究",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "e6d06cbe7e3bcde1",
     "primary_categories_by_scholar": [
-      "傅小兰：情感脑电与多模态生理信号"
+      "傅小兰：情感脑电与多模态生理信号",
+      "王苏菁：多模态情感理解、面部表情与语音情绪"
     ],
     "pdf_url": "https://arxiv.org/pdf/2409.00017",
     "abstract_en": "Micro-expressions (MEs) are brief, subtle facial expressions that reveal concealed emotions, offering key behavioral cues for social interaction. Characterized by short duration, low intensity, and spontaneity, MEs have been mostly studied through subjective coding, lacking objective, quantitative indicators. This paper explores ME characteristics using facial electromyography (EMG), analyzing data from 147 macro-expressions (MaEs) and 233 MEs collected from 35 participants. First, regarding external characteristics, we demonstrate that MEs are short in duration and low in intensity. Precisely, we proposed an EMG-based indicator, the percentage of maximum voluntary contraction (MVC%), to measure ME intensity. Moreover, we provided precise interval estimations of ME intensity and duration, with MVC% ranging from 7% to 9.2% and the duration ranging from 307 ms to 327 ms. This research facilitates fine-grained ME quantification. Second, regarding the internal characteristics, we confirm that MEs are less controllable and consciously recognized compared to MaEs, as shown by participants' responses and self-reports. This study provides a theoretical basis for research on ME mechanisms and real-life applications. Third, building on our previous work, we present CASMEMG, the first public ME database including EMG signals, providing a robust foundation for studying micro-expression mechanisms and movement dynamics through physiological signals.",
     "abstract_source": "openalex_verified",
-    "abstract_zh": "微表情 (ME) 是一种简短、微妙的面部表情，可以揭示隐藏的情绪，为社交互动提供关键的行为线索。 ME具有持续时间短、强度低、自发性等特点，目前多通过主观编码进行研究，缺乏客观、量化的指标。本文利用面部肌电图 (EMG) 探索 ME 特征，分析从 35 名参与者收集的 147 个宏观表情 (MaE) 和 233 个 ME 的数据。首先，关于外部特征，我们证明ME持续时间短、强度低。准确地说，我们提出了一个基于肌电图的指标，即最大自主收缩百分比（MVC%），来衡量..."
+    "abstract_zh": "微表情 (ME) 是一种简短、微妙的面部表情，可以揭示隐藏的情绪，为社交互动提供关键的行为线索。 ME具有持续时间短、强度低、自发性等特点，目前多通过主观编码进行研究，缺乏客观、量化的指标。本文利用面部肌电图 (EMG) 探索 ME 特征，分析从 35 名参与者收集的 147 个宏观表情 (MaE) 和 233 个 ME 的数据。首先，关于外部特征，我们证明ME持续时间短、强度低。准确地说，我们提出了一个基于肌电图的指标，即最大自主收缩百分比（MVC%），来衡量...",
+    "dblp_key": "journals/taffco/LiLWDWF25"
   },
   {
     "title": "Psychology and neuroscience interactions: Roles, challenges, and breakthroughs",
@@ -3103,7 +3173,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -4083,7 +4154,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -4168,7 +4240,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -4537,7 +4610,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -4752,7 +4826,8 @@
     "abstract_zh": "摘要：本研究运用三水平元分析技术系统探讨儿童期创伤与共情的及其调节因素。通过文献检索与筛选，获得46项研究和352个效应量，共包含23039名被试。元分析结果发现，儿童期创伤与共情存在显着负相关(r = -0.076)。儿童期创伤存在类型期调节作用，躯体忽视(r = -0.095)与情感忽视(r = -0.128)均与共情显着负相关，而躯体虐待(r = 0.005)、情感虐待(r = -0.051)和性虐待(r = -0.058)均与共情相关不显着。共情成分均存在调节作用，在认知共情中，儿童时期创伤与观点采择(r = -0.127)显着负相关，而与幻想(r = -0.044)相关不明显; 在情感共情中，儿童期创伤与共情关注(r=-0.148)显着负相关，而与个人痛苦(r=0.153)显着正相关。本研究首次系统比较了不同类型儿童期创伤与共情的关系以及儿童期创伤在共情中各要素的影响，并提出了培养共情的建议。",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5015329251）",
     "status": "已索引出版/会议记录",
@@ -4818,7 +4893,8 @@
     "abstract_zh": "人们有时会故意改变面部表情来掩盖自己的真实情绪。目前，针对蒙面表情识别的研究相对较少。面具表情的有效识别有助于识别欺骗和谎言，具有重要的应用价值。传统的机器学习方法需要手动设计特征提取算法，在面部表情识别方面性能较差。本研究基于卷积神经网络（包括 VGGNet、GoogLeNet、ResNet 和 MobileNet）进行蒙版表情识别。数据增强和正则化用于提高网络的性能。蒙面表情的识别率已经显着...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5015329251）",
     "status": "已索引出版/会议记录",
@@ -4880,7 +4956,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -5044,7 +5121,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5015329251）",
     "status": "已索引出版/会议记录",
@@ -5252,7 +5330,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -5522,7 +5601,7 @@
       "Xiaolan Fu"
     ],
     "doi": "10.1145/3552465.3555038",
-    "dblp_key": "",
+    "dblp_key": "conf/fme/LuLWDWF22",
     "paper_url": "https://doi.org/10.1145/3552465.3555038",
     "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3552465.3555038",
     "source_url": "https://openalex.org/W4297330265",
@@ -5533,7 +5612,8 @@
     "abstract_zh": "微表情是个人在试图隐藏真实情绪时所表现出的面部表情。它在测谎和国家安全等领域具有潜在的应用。一般认为，微表情具有三个本质特征：持续时间短、强度低、局部不对称。以往的研究大多基于持续时间短的特点来研究微表情。据我们所知，尚未对低强度特性进行实证研究。在本文中，我们首次利用面部肌电图来研究微表情的低强度特征。在我们的实验中，从受试者身上引出微表情，并同时收集他们的……",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5015329251）",
     "status": "已索引出版/会议记录",
@@ -5544,10 +5624,12 @@
     "scholar_id": "fu_xiaolan",
     "scholar_name": "傅小兰",
     "scholar_ids": [
-      "fu_xiaolan"
+      "fu_xiaolan",
+      "su_jing_wang"
     ],
     "scholar_names": [
-      "傅小兰"
+      "傅小兰",
+      "王苏菁"
     ],
     "source_record_ids": [
       "fu_xiaolan_b7cbdeaba058a014"
@@ -5566,10 +5648,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "su_jing_wang": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "王苏菁",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "傅小兰：情感脑电与多模态生理信号"
+      "傅小兰：情感脑电与多模态生理信号",
+      "王苏菁：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -5655,7 +5749,7 @@
       "Xiaolan Fu"
     ],
     "doi": "10.1109/tpami.2022.3174895",
-    "dblp_key": "",
+    "dblp_key": "journals/pami/LiDLWYMLHF23",
     "paper_url": "https://doi.org/10.1109/tpami.2022.3174895",
     "pdf_url": "",
     "source_url": "https://openalex.org/W4280528148",
@@ -5666,7 +5760,8 @@
     "abstract_zh": "微表情（ME）是一种重要的非语言交流线索，可以揭示一个人的真实情绪状态。微表达分析（MEA）的发展在过去十年才引起人们的关注。然而，小样本问题限制了深度学习在 MEA 上的使用。此外，ME样本分布在六个不同的数据库中，导致数据库偏差。而且ME数据库开发比较复杂。在本文中，我们介绍一个大规模自发ME数据库：CAS(ME)3。本文的贡献总结如下：（1）CAS（ME）3提供了约80小时的视频，超过8,000,000帧，包括手动标记的1,109个ME和3,490个宏表达式。如此大的样本量可以让...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5015329251）",
     "status": "已索引出版/会议记录",
@@ -5677,10 +5772,12 @@
     "scholar_id": "fu_xiaolan",
     "scholar_name": "傅小兰",
     "scholar_ids": [
-      "fu_xiaolan"
+      "fu_xiaolan",
+      "su_jing_wang"
     ],
     "scholar_names": [
-      "傅小兰"
+      "傅小兰",
+      "王苏菁"
     ],
     "source_record_ids": [
       "fu_xiaolan_c412a6501e974929"
@@ -5701,10 +5798,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "su_jing_wang": {
+        "category_id": "multimodal_emotion",
+        "label": "多模态情感理解、面部表情与语音情绪",
+        "scholar_name": "王苏菁",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "傅小兰：情感脑电与多模态生理信号"
+      "傅小兰：情感脑电与多模态生理信号",
+      "王苏菁：多模态情感理解、面部表情与语音情绪"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -5729,7 +5838,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -5958,7 +6068,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -6046,7 +6157,8 @@
     "abstract_zh": "面部表情识别在理解人们的情感以及社会互动中起着至关重要的作用。据多次报道，重度抑郁症（MDD）患者在识别面部表情方面存在障碍。本研究旨在调查两种表达不同情绪的面部表情之间的混淆效应，并比较重度抑郁症患者和健康对照者对每种情绪对的混淆效应的差异。参与者被要求在两种选择的强制选择范式中判断每种面部表情的情绪类别。六种基本情绪（即快乐、恐惧、悲伤、愤怒、惊讶和厌恶）成对进行检查，产生 15 种情绪组合...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5015329251）",
     "status": "已索引出版/会议记录",
@@ -6241,7 +6353,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5015329251）",
     "status": "已索引出版/会议记录",
@@ -6296,7 +6409,7 @@
       "Xiaolan Fu"
     ],
     "doi": "10.1109/tip.2021.3064258",
-    "dblp_key": "",
+    "dblp_key": "journals/tip/WangHLF21",
     "paper_url": "https://doi.org/10.1109/tip.2021.3064258",
     "pdf_url": "",
     "source_url": "https://openalex.org/W3141012605",
@@ -6307,7 +6420,8 @@
     "abstract_zh": "微表情识别是微表情分析的基本步骤。本文提出了一种基于卷积神经网络（CNN）的新型网络，用于发现长视频中的多尺度自发微表情间隔。我们将该网络命名为微表情识别网络（MESNet）。它由三个模块组成。第一个模块是2+1D时空卷积网络，它使用2D卷积来提取空间特征，使用1D卷积来提取时间特征。第二个模块是剪辑提议网络，它给出了一些提议的微表情剪辑。最后一个模块是分类回归网络，它将建议的剪辑分类为微表情或非微表情，并进一步回归它们......",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5015329251）",
     "status": "已索引出版/会议记录",
@@ -6318,10 +6432,12 @@
     "scholar_id": "fu_xiaolan",
     "scholar_name": "傅小兰",
     "scholar_ids": [
-      "fu_xiaolan"
+      "fu_xiaolan",
+      "su_jing_wang"
     ],
     "scholar_names": [
-      "傅小兰"
+      "傅小兰",
+      "王苏菁"
     ],
     "source_record_ids": [
       "fu_xiaolan_cf25c62cae0d4874"
@@ -6342,10 +6458,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "su_jing_wang": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "王苏菁",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "傅小兰：情感脑电与多模态生理信号"
+      "傅小兰：情感脑电与多模态生理信号",
+      "王苏菁：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -6376,7 +6504,8 @@
     "abstract_zh": "出于某些目的，人类有时会故意改变面部表情来掩盖真实的情绪。这种蒙面的面部表情很少被记录下来。在本研究中，我们构建了一个面部表情数据库，要求参与者观看情绪视频片段并做出与情绪背景一致或不一致的特定面部表情，并将其命名为蒙面面部表情数据库（MFED）。招募了 24 名参与者并进行了熟悉六种基本面部表情的培训。他们被要求在六种基本情绪背景下展示六种表情，从而产生 36 种组合。 783 个情感视频剪辑，包括 36 个（6 x 6）类别...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5015329251）",
     "status": "已索引出版/会议记录",
@@ -6443,7 +6572,8 @@
     "abstract_zh": "摘要：自第二届面部微表情大挑战赛（MEGC 2019）以来，微表情识别最近引起了心理学和计算机视觉界越来越多的关注。与原始的特征差异（FD）分析不同，本文提出了一种新颖的特征差异时空域权重分析（TSW-FD）来实现微表情识别。实验结果表明，与CASME II和SMIC-E-HS中的FD相比，TSW-FD的F1-Score提高了17.86%和24.21%。",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5015329251）",
     "status": "已索引出版/会议记录",
@@ -6719,7 +6849,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -6941,7 +7072,8 @@
     "abstract_source": "",
     "topics": [
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5015329251）",
     "status": "已索引出版/会议记录",
@@ -7792,7 +7924,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5015329251）",
     "status": "已索引出版/会议记录",
@@ -7914,7 +8047,7 @@
       "Xiaolan Fu"
     ],
     "doi": "10.1016/j.neucom.2018.05.107",
-    "dblp_key": "",
+    "dblp_key": "journals/ijon/WangLLYOHXF18",
     "paper_url": "https://doi.org/10.1016/j.neucom.2018.05.107",
     "pdf_url": "",
     "source_url": "https://openalex.org/W2808064875",
@@ -7925,7 +8058,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5015329251）",
     "status": "已索引出版/会议记录",
@@ -7936,10 +8070,12 @@
     "scholar_id": "fu_xiaolan",
     "scholar_name": "傅小兰",
     "scholar_ids": [
-      "fu_xiaolan"
+      "fu_xiaolan",
+      "su_jing_wang"
     ],
     "scholar_names": [
-      "傅小兰"
+      "傅小兰",
+      "王苏菁"
     ],
     "source_record_ids": [
       "fu_xiaolan_d74f5b912b06da3d"
@@ -7958,10 +8094,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "su_jing_wang": {
+        "category_id": "multimodal_emotion",
+        "label": "多模态情感理解、面部表情与语音情绪",
+        "scholar_name": "王苏菁",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "傅小兰：情感脑电与多模态生理信号"
+      "傅小兰：情感脑电与多模态生理信号",
+      "王苏菁：多模态情感理解、面部表情与语音情绪"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -7991,7 +8139,8 @@
     "abstract_zh": "面部表情是人类表达情感的重要非语言行为。它是人类情感研究中最普遍的情感指标。最近，抑郁症患者如何处理情绪信息引起了人们的广泛兴趣。先前的研究发现，患有重度抑郁症（MDD）的人识别面部表情的能力受到损害。例如，他们识别负面表达的速度较慢，并表现出负面偏见。此外，抑郁症患者与情绪相关的大脑区域存在结构或功能异常。因此，抑郁症患者可能无法准确识别社交互动中面部表情的细微变化。作为微妙变化的一种特殊形式...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5015329251）",
     "status": "已索引出版/会议记录",
@@ -8056,7 +8205,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -8093,10 +8244,12 @@
     "work_title_group": "9ec804e483aa",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "fu_xiaolan"
+      "fu_xiaolan",
+      "su_jing_wang"
     ],
     "scholar_names": [
-      "傅小兰"
+      "傅小兰",
+      "王苏菁"
     ],
     "source_record_ids": [
       "fu_xiaolan_27b4769b35c9"
@@ -8115,15 +8268,32 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "su_jing_wang": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "王苏菁",
+        "secondary_tags": [
+          "情感理解与社会认知",
+          "心理计算与情绪研究",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "5b49c3a418288a1d",
     "primary_categories_by_scholar": [
-      "傅小兰：情感脑电与多模态生理信号"
+      "傅小兰：情感脑电与多模态生理信号",
+      "王苏菁：视觉感知、语音信号与通用人工智能"
     ],
     "abstract_en": "Deception is a very common phenomenon and its detection can be beneficial to our daily lives. Compared with other deception cues, micro-expression has shown great potential as a promising cue for deception detection. The spotting and recognition of micro-expression from long videos may significantly aid both law enforcement officers and researchers. However, database that contains both micro-expression and macro-expression in long videos is still not publicly available. To facilitate development in this field, we present a new database, Chinese Academy of Sciences Macro-Expressions and Micro-Expressions (CAS(ME)2), which provides both macro-expressions and micro-expressions in two parts (A and B). Part A contains 87 long videos that contain spontaneous macro-expressions and micro-expressions. Part B includes 300 cropped spontaneous macro-expression samples and 57 micro-expression samples. The emotion labels are based on a combination of action units (AUs), self-reported emotion for every facial movement, and the emotion types of emotion-evoking videos. Local Binary Pattern (LBP) was employed for the spotting and recognition of macro-expressions and micro-expressions and the results were reported as a baseline evaluation. The CAS(ME)2database offers both long videos and cropped expression samples, which may aid researchers in developing efficient algorithms for the spotting and recognition of macro-expressions and micro-expressions.",
     "abstract_source": "openalex_verified",
-    "abstract_zh": "欺骗是一种非常普遍的现象，其检测对我们的日常生活有益。与其他欺骗线索相比，微表情作为欺骗检测的有希望的线索显示出巨大的潜力。从长视频中发现和识别微表情可能会极大地帮助执法人员和研究人员。然而，包含长视频中的微表情和宏观表情的数据库仍然没有公开。为了促进这一领域的发展，我们推出了一个新的数据库，中国科学院宏表达式和微表达式（CAS（ME）2），它提供了宏表达式和微表达式两部分（A和..."
+    "abstract_zh": "欺骗是一种非常普遍的现象，其检测对我们的日常生活有益。与其他欺骗线索相比，微表情作为欺骗检测的有希望的线索显示出巨大的潜力。从长视频中发现和识别微表情可能会极大地帮助执法人员和研究人员。然而，包含长视频中的微表情和宏观表情的数据库仍然没有公开。为了促进这一领域的发展，我们推出了一个新的数据库，中国科学院宏表达式和微表达式（CAS（ME）2），它提供了宏表达式和微表达式两部分（A和...",
+    "dblp_key": "journals/taffco/QuWYLWF18"
   },
   {
     "title": "SMEConvNet: A Convolutional Neural Network for Spotting Spontaneous Facial Micro-Expression From Long Videos",
@@ -8150,7 +8320,8 @@
     "abstract_zh": "微表情是一种微妙的、不自觉的面部表情，可以揭示人类隐藏的情感。发现微表情是指定位微表情发生的时刻，这是微表情识别的第一步。之前微表情识别的工作重点是从短视频中识别微表情，并使用手工制作的特征。在本文中，我们提出了一种从长视频中发现微表情的方法。具体来说，设计了一种名为微表情识别卷积网络的新型卷积神经网络，用于从视频片段中提取特征，这是深度学习首次用于微表情识别。然后，特征矩阵处理...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5015329251）",
     "status": "已索引出版/会议记录",
@@ -8218,7 +8389,8 @@
     "abstract_zh": "对面部表情的感知可以让一个人更好地理解、预测和调节自己的状态，以适应不同的社交场合。本研究调查了个人对自己面部表情的意识以及表情持续时间和强度在两种自我参考模式（实时条件和视频回顾条件）下的影响。参与者被要求在意识到任何面部动作后立即做出反应。结果显示，实时条件下的知晓率为57.79%，视频审核条件下的知晓率为75.92%。知晓率受强度和（或）持续时间的影响。个人意识到自己的强度阈值......",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5015329251）",
     "status": "已索引出版/会议记录",
@@ -8353,7 +8525,8 @@
     "abstract_zh": "面部表情识别是由人类的分布式神经系统介导的，涉及多个双边区域。人类可以识别六种基本的面部表情（恐惧、悲伤、惊讶、快乐、愤怒和厌恶）；然而，在快速呈现中，恐惧的面孔和惊讶的面孔很容易混淆。面部表情识别系统的功能组织体现了这两种情绪之间的区别，本研究对此进行了研究。包括右侧海马旁回 (BA 30)、梭状回和杏仁核的核心系统负责介导恐惧和惊讶的视觉识别。我们发现，恐惧的面孔会引起左侧楔前叶、中颞叶的更大活动……",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5015329251）",
     "status": "已索引出版/会议记录",
@@ -8413,7 +8586,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -8497,7 +8671,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -8532,10 +8707,12 @@
     "work_title_group": "e4661443ba66",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "fu_xiaolan"
+      "fu_xiaolan",
+      "su_jing_wang"
     ],
     "scholar_names": [
-      "傅小兰"
+      "傅小兰",
+      "王苏菁"
     ],
     "source_record_ids": [
       "fu_xiaolan_e9fefc552aa2"
@@ -8554,12 +8731,29 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "su_jing_wang": {
+        "category_id": "multimodal_emotion",
+        "label": "多模态情感理解、面部表情与语音情绪",
+        "scholar_name": "王苏菁",
+        "secondary_tags": [
+          "情感理解与社会认知",
+          "心理计算与情绪研究",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "8d33a068bd413b40",
     "primary_categories_by_scholar": [
-      "傅小兰：情感脑电与多模态生理信号"
-    ]
+      "傅小兰：情感脑电与多模态生理信号",
+      "王苏菁：多模态情感理解、面部表情与语音情绪"
+    ],
+    "dblp_key": "conf/accv/WangWF16"
   },
   {
     "title": "Suppression of Alpha Oscillation During Micro-expression Recognition",
@@ -8581,7 +8775,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -8668,7 +8863,8 @@
     "abstract_zh": "\\n\\t群体研究表明微表情与诱骗紧密相关，如何利用微表情进行诱骗检测是微表情研究的一个重要领域。通过对诱骗与诱骗检测的基本概念、微表情作为诱骗检测线索的理论及相关应用等的较全面阐述，解读了微表情作为诱骗检测的情绪线索具有嗅觉和一定的有效性，且对比其他生理、认知的诱骗线索检测针对微表情在诱骗检测中的应用的争议，指出未来应进一步研究诱骗是否伴随着微表情、微表情训练能否促进诱骗检测能力、如何提高微表情实验室研究的外部效度、个体差异对微表情利用的影响等核心问题，并指出了可能存在的途径。",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5015329251）",
     "status": "已索引出版/会议记录",
@@ -8797,7 +8993,8 @@
     "abstract_zh": "面部微表情是一种短暂的不自觉的面部运动，可以揭示人们试图隐藏的真实情感。传统的自发微表情识别方法过度依赖复杂的手工特征设计，识别率不足以满足实际应用的需要。在本文中，我们提出了一种用于自发微表情识别的双时间尺度卷积神经网络（DTSCNN）。 DTSCNN 是一个双流网络。 DTSCNN采用不同的码流来适应不同帧率的微表情视频片段。 DSTCNN的每个流都由独立的浅层网络组成，以避免过拟合问题。与此同时，我们为网络提供光流......",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5015329251）",
     "status": "已索引出版/会议记录",
@@ -8861,7 +9058,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -8953,7 +9151,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5015329251）",
     "status": "已索引出版/会议记录",
@@ -9530,7 +9729,8 @@
     "abstract_zh": "背景/研究背景：老年人对情绪面部表情的分类不如年轻人那么准确，尤其是负面情绪。尽管在解读面部表情情绪方面与年龄相关的障碍已有充分记录，但造成这种缺陷的原因却知之甚少。这项研究通过评估这种与年龄相关的分类缺陷对呈现时间的依赖性，研究了其潜在机制。方法：30 名年轻人（19-27 岁）和 31 名年长者（68-78 岁）中国成年人被要求对面部表情中的六种基本情绪进行分类，每种情绪在接触中性面部表情之前和之后持续 120、200、600 或 1000 毫秒。结果：缩短了演示时间...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5015329251）",
     "status": "已索引出版/会议记录",
@@ -9586,7 +9786,7 @@
       "Xiaolan Fu"
     ],
     "doi": "10.1016/j.neucom.2016.05.083",
-    "dblp_key": "",
+    "dblp_key": "journals/ijon/WangYSZF16",
     "paper_url": "https://doi.org/10.1016/j.neucom.2016.05.083",
     "pdf_url": "",
     "source_url": "https://openalex.org/W2413757304",
@@ -9597,7 +9797,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5082301986）",
     "status": "已索引出版/会议记录",
@@ -9609,11 +9810,13 @@
     "scholar_name": "赵国英",
     "scholar_ids": [
       "guoying_zhao",
-      "fu_xiaolan"
+      "fu_xiaolan",
+      "su_jing_wang"
     ],
     "scholar_names": [
       "赵国英",
-      "傅小兰"
+      "傅小兰",
+      "王苏菁"
     ],
     "source_record_ids": [
       "guoying_zhao_25c271b0a27c948f"
@@ -9642,11 +9845,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "su_jing_wang": {
+        "category_id": "multimodal_emotion",
+        "label": "多模态情感理解、面部表情与语音情绪",
+        "scholar_name": "王苏菁",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "赵国英：情感理解与多模态推理",
-      "傅小兰：情感脑电与多模态生理信号"
+      "傅小兰：情感脑电与多模态生理信号",
+      "王苏菁：多模态情感理解、面部表情与语音情绪"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "emotion_understanding",
@@ -9860,7 +10075,7 @@
       "Xiaolan Fu"
     ],
     "doi": "10.1016/j.neucom.2016.12.034",
-    "dblp_key": "",
+    "dblp_key": "journals/ijon/WangWQLF17",
     "paper_url": "https://doi.org/10.1016/j.neucom.2016.12.034",
     "pdf_url": "",
     "source_url": "https://openalex.org/W2567449792",
@@ -9880,10 +10095,12 @@
     "scholar_id": "fu_xiaolan",
     "scholar_name": "傅小兰",
     "scholar_ids": [
-      "fu_xiaolan"
+      "fu_xiaolan",
+      "su_jing_wang"
     ],
     "scholar_names": [
-      "傅小兰"
+      "傅小兰",
+      "王苏菁"
     ],
     "source_record_ids": [
       "fu_xiaolan_640e85813946cde0"
@@ -9900,10 +10117,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "su_jing_wang": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "王苏菁",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "傅小兰：脑电基础模型与通用解码"
+      "傅小兰：脑电基础模型与通用解码",
+      "王苏菁：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -9994,11 +10220,15 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
-    "resource_ids": [],
+    "resource_ids": [
+      "res_ds_2b1225f68b37"
+    ],
     "code_urls": [],
     "data_urls": [
       "http://casme.psych.ac.cn/casme/e2"
@@ -10029,14 +10259,16 @@
     "scholar_id": "fu_xiaolan",
     "scholar_name": "傅小兰",
     "work_title_group": "45d0f754a245",
-    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
       "fu_xiaolan",
-      "guoying_zhao"
+      "guoying_zhao",
+      "su_jing_wang"
     ],
     "scholar_names": [
       "傅小兰",
-      "赵国英"
+      "赵国英",
+      "王苏菁"
     ],
     "source_record_ids": [
       "fu_xiaolan_988b58081e9c"
@@ -10070,16 +10302,33 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "su_jing_wang": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "王苏菁",
+        "secondary_tags": [
+          "情感理解与社会认知",
+          "心理计算与情绪研究",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "393bfb943fc970d5",
     "primary_categories_by_scholar": [
       "傅小兰：情感脑电与多模态生理信号",
-      "赵国英：情感理解与多模态推理"
+      "赵国英：情感理解与多模态推理",
+      "王苏菁：视觉感知、语音信号与通用人工智能"
     ],
     "abstract_en": "Micro-expressions are brief facial movements characterized by short duration, involuntariness and low intensity. Recognition of spontaneous facial micro-expressions is a great challenge. In this paper, we propose a simple yet effective Main Directional Mean Optical-flow (MDMO) feature for micro-expression recognition. We apply a robust optical flow method on micro-expression video clips and partition the facial area into regions of interest (ROIs) based partially on action units. The MDMO is a ROI-based, normalized statistic feature that considers both local statistic motion information and its spatial location. One of the significant characteristics of MDMO is that its feature dimension is small. The length of a MDMO feature vector is 36 × 2 = 72, where 36 is the number of ROIs. Furthermore, to reduce the influence of noise due to head movements, we propose an optical-flow-driven method to align all frames of a micro-expression video clip. Finally, a SVM classifier with the proposed MDMO feature is adopted for micro-expression recognition. Experimental results on three spontaneous micro-expression databases, namely SMIC, CASME and CASME II, show that the MDMO can achieve better performance than two state-of-the-art baseline features, i.e., LBP-TOP and HOOF.",
     "abstract_source": "openalex_verified",
-    "abstract_zh": "微表情是短暂的面部动作，其特点是持续时间短、不由自主、强度低。识别自发的面部微表情是一个巨大的挑战。在本文中，我们提出了一种简单而有效的用于微表情识别的主方向平均光流（MDMO）特征。我们对微表情视频剪辑应用鲁棒的光流方法，并部分基于动作单元将面部区域划分为感兴趣区域（ROI）。 MDMO是一种基于ROI的归一化统计特征，它同时考虑局部统计运动信息及其空间位置。 MDMO 的显着特征之一是其特征维度是..."
+    "abstract_zh": "微表情是短暂的面部动作，其特点是持续时间短、不由自主、强度低。识别自发的面部微表情是一个巨大的挑战。在本文中，我们提出了一种简单而有效的用于微表情识别的主方向平均光流（MDMO）特征。我们对微表情视频剪辑应用鲁棒的光流方法，并部分基于动作单元将面部区域划分为感兴趣区域（ROI）。 MDMO是一种基于ROI的归一化统计特征，它同时考虑局部统计运动信息及其空间位置。 MDMO 的显着特征之一是其特征维度是...",
+    "dblp_key": "journals/taffco/LiuZYWZF16"
   },
   {
     "title": "Differences of Affective Learning with Own-Race and Other-Race Faces: An Eye-Tracking Study",
@@ -10176,7 +10425,7 @@
       "Xiaolan Fu"
     ],
     "doi": "10.1007/978-3-319-39513-5_5",
-    "dblp_key": "",
+    "dblp_key": "conf/hci/QuWYF16",
     "paper_url": "https://doi.org/10.1007/978-3-319-39513-5_5",
     "pdf_url": "",
     "source_url": "https://openalex.org/W2502450975",
@@ -10187,7 +10436,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5015329251）",
     "status": "已索引出版/会议记录",
@@ -10198,10 +10448,12 @@
     "scholar_id": "fu_xiaolan",
     "scholar_name": "傅小兰",
     "scholar_ids": [
-      "fu_xiaolan"
+      "fu_xiaolan",
+      "su_jing_wang"
     ],
     "scholar_names": [
-      "傅小兰"
+      "傅小兰",
+      "王苏菁"
     ],
     "source_record_ids": [
       "fu_xiaolan_e6d380fba646efb8"
@@ -10222,10 +10474,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "su_jing_wang": {
+        "category_id": "multimodal_emotion",
+        "label": "多模态情感理解、面部表情与语音情绪",
+        "scholar_name": "王苏菁",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "傅小兰：情感脑电与多模态生理信号"
+      "傅小兰：情感脑电与多模态生理信号",
+      "王苏菁：多模态情感理解、面部表情与语音情绪"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -10372,7 +10636,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -10462,7 +10727,8 @@
     "abstract_zh": "众所周知，记忆在编码和巩固时会受到情绪刺激的调节。例如，快乐的面孔比具有某些其他表情的面孔能更好地识别身份。然而，文献中仍不清楚检索时面部表情的影响。为了将检索时表情的潜在影响与早期阶段的影响区分开来，我们让参与者在标准的旧/新识别任务中学习中性面孔，但在记忆检索时操纵面部表情。结果显示了面部表情的明显影响，其中快乐的测试面孔比愤怒的测试面孔更容易被识别。由于更大的图像相似，这种效果不太可能......",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5015329251）",
     "status": "已索引出版/会议记录",
@@ -10527,7 +10793,8 @@
     "abstract_zh": "大多数面部表情识别研究使用静态、正面和持久的表情刺激。关于从不同角度识别稍纵即逝的表情的研究很少。为了研究持续时间和视角如何共同影响表情识别，我们采用了具有两种不同视角（四分之三视角和侧面视角）的表情，并将它们短暂地展示给参与者。表达式的持续时间为以下之一：20、40、80、120、160、200、240 或 280 毫秒。实验1中，我们使用静态面部表情；在实验2中，我们通过在情绪表达前后添加两个中性表达来添加动态信息。结果显示，交互作用...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5015329251）",
     "status": "已索引出版/会议记录",
@@ -10587,7 +10854,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -10665,7 +10933,7 @@
       "Chunguang Zhou"
     ],
     "doi": "10.1007/978-3-319-16178-5_23",
-    "dblp_key": "",
+    "dblp_key": "conf/eccv/WangYZFZ14",
     "paper_url": "https://doi.org/10.1007/978-3-319-16178-5_23",
     "pdf_url": "",
     "source_url": "https://openalex.org/W565148957",
@@ -10676,7 +10944,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5082301986）",
     "status": "已索引出版/会议记录",
@@ -10688,11 +10957,13 @@
     "scholar_name": "赵国英",
     "scholar_ids": [
       "guoying_zhao",
-      "fu_xiaolan"
+      "fu_xiaolan",
+      "su_jing_wang"
     ],
     "scholar_names": [
       "赵国英",
-      "傅小兰"
+      "傅小兰",
+      "王苏菁"
     ],
     "source_record_ids": [
       "guoying_zhao_02a05c858b2357ab"
@@ -10721,11 +10992,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "su_jing_wang": {
+        "category_id": "multimodal_emotion",
+        "label": "多模态情感理解、面部表情与语音情绪",
+        "scholar_name": "王苏菁",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "赵国英：情感理解与多模态推理",
-      "傅小兰：情感脑电与多模态生理信号"
+      "傅小兰：情感脑电与多模态生理信号",
+      "王苏菁：多模态情感理解、面部表情与语音情绪"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "emotion_understanding",
@@ -10759,7 +11042,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -10799,12 +11083,16 @@
     "scholar_ids": [
       "jianhua_tao",
       "guoying_zhao",
-      "fu_xiaolan"
+      "fu_xiaolan",
+      "su_jing_wang",
+      "xiaobai_li"
     ],
     "scholar_names": [
       "陶建华",
       "赵国英",
-      "傅小兰"
+      "傅小兰",
+      "王苏菁",
+      "李晓白"
     ],
     "source_record_ids": [
       "jianhua_tao_0d6d46aa82dd"
@@ -10856,13 +11144,45 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "su_jing_wang": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "王苏菁",
+        "secondary_tags": [
+          "情感计算",
+          "语音与对话",
+          "多模态情感理解",
+          "人机交互",
+          "情感智能",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "xiaobai_li": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "李晓白",
+        "secondary_tags": [
+          "情感计算",
+          "语音与对话",
+          "多模态情感理解",
+          "人机交互",
+          "情感智能",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "b4cc6375805a2fcf",
     "primary_categories_by_scholar": [
       "陶建华：情感脑电与多模态生理信号",
       "赵国英：情感理解与多模态推理",
-      "傅小兰：情感脑电与多模态生理信号"
+      "傅小兰：情感脑电与多模态生理信号",
+      "王苏菁：视觉感知、语音信号与通用人工智能",
+      "李晓白：视觉感知、语音信号与通用人工智能"
     ],
     "dblp_key": "journals/tip/WangYLZZFYT15",
     "abstract_en": "Micro-expressions are brief involuntary facial expressions that reveal genuine emotions and, thus, help detect lies. Because of their many promising applications, they have attracted the attention of researchers from various fields. Recent research reveals that two perceptual color spaces (CIELab and CIELuv) provide useful information for expression recognition. This paper is an extended version of our International Conference on Pattern Recognition paper, in which we propose a novel color space model, tensor independent color space (TICS), to help recognize micro-expressions. In this paper, we further show that CIELab and CIELuv are also helpful in recognizing micro-expressions, and we indicate why these three color spaces achieve better performance. A micro-expression color video clip is treated as a fourth-order tensor, i.e., a four-dimension array. The first two dimensions are the spatial information, the third is the temporal information, and the fourth is the color information. We transform the fourth dimension from RGB into TICS, in which the color components are as independent as possible. The combination of dynamic texture and independent color components achieves a higher accuracy than does that of RGB. In addition, we define a set of regions of interests (ROIs) based on the facial action coding system and calculated the dynamic texture histograms for each ROI. Experiments are conducted on two micro-expression databases, CASME and CASME 2, and the results show that the performances for TICS, CIELab, and CIELuv are better than those for RGB or gray.",
@@ -10883,7 +11203,7 @@
       "Xiaolan Fu"
     ],
     "doi": "10.1016/j.neucom.2015.09.046",
-    "dblp_key": "",
+    "dblp_key": "journals/ijon/YuLWFF16",
     "paper_url": "https://doi.org/10.1016/j.neucom.2015.09.046",
     "pdf_url": "",
     "source_url": "https://openalex.org/W1793578775",
@@ -10903,10 +11223,12 @@
     "scholar_id": "fu_xiaolan",
     "scholar_name": "傅小兰",
     "scholar_ids": [
-      "fu_xiaolan"
+      "fu_xiaolan",
+      "su_jing_wang"
     ],
     "scholar_names": [
-      "傅小兰"
+      "傅小兰",
+      "王苏菁"
     ],
     "source_record_ids": [
       "fu_xiaolan_1c4b4b8567c0e278"
@@ -10923,10 +11245,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "su_jing_wang": {
+        "category_id": "affect_dataset_eval",
+        "label": "情感理解数据集、评测基准与综述",
+        "scholar_name": "王苏菁",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "傅小兰：脑电基础模型与通用解码"
+      "傅小兰：脑电基础模型与通用解码",
+      "王苏菁：情感理解数据集、评测基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -11074,7 +11405,7 @@
       "Xiaolan Fu"
     ],
     "doi": "10.1007/978-3-319-16178-5_20",
-    "dblp_key": "",
+    "dblp_key": "conf/eccv/YanWCZF14",
     "paper_url": "https://doi.org/10.1007/978-3-319-16178-5_20",
     "pdf_url": "",
     "source_url": "https://openalex.org/W302577434",
@@ -11085,7 +11416,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5082301986）",
     "status": "已索引出版/会议记录",
@@ -11097,11 +11429,13 @@
     "scholar_name": "赵国英",
     "scholar_ids": [
       "guoying_zhao",
-      "fu_xiaolan"
+      "fu_xiaolan",
+      "su_jing_wang"
     ],
     "scholar_names": [
       "赵国英",
-      "傅小兰"
+      "傅小兰",
+      "王苏菁"
     ],
     "source_record_ids": [
       "guoying_zhao_7b45f6bc614e5545"
@@ -11130,11 +11464,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "su_jing_wang": {
+        "category_id": "multimodal_emotion",
+        "label": "多模态情感理解、面部表情与语音情绪",
+        "scholar_name": "王苏菁",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "赵国英：情感理解与多模态推理",
-      "傅小兰：情感脑电与多模态生理信号"
+      "傅小兰：情感脑电与多模态生理信号",
+      "王苏菁：多模态情感理解、面部表情与语音情绪"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "emotion_understanding",
@@ -11517,7 +11863,7 @@
       "Xiaolan Fu"
     ],
     "doi": "10.1109/tip.2013.2297020",
-    "dblp_key": "",
+    "dblp_key": "journals/tip/WangYYZF14",
     "paper_url": "https://doi.org/10.1109/tip.2013.2297020",
     "pdf_url": "",
     "source_url": "https://openalex.org/W2019045907",
@@ -11537,10 +11883,12 @@
     "scholar_id": "fu_xiaolan",
     "scholar_name": "傅小兰",
     "scholar_ids": [
-      "fu_xiaolan"
+      "fu_xiaolan",
+      "su_jing_wang"
     ],
     "scholar_names": [
-      "傅小兰"
+      "傅小兰",
+      "王苏菁"
     ],
     "source_record_ids": [
       "fu_xiaolan_94824debb0011ef7"
@@ -11557,10 +11905,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "su_jing_wang": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "王苏菁",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "傅小兰：脑电基准、数据与评测"
+      "傅小兰：脑电基准、数据与评测",
+      "王苏菁：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -11655,7 +12012,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -11798,7 +12156,7 @@
       "Xiaolan Fu"
     ],
     "doi": "10.1016/j.neucom.2014.01.029",
-    "dblp_key": "",
+    "dblp_key": "journals/ijon/YanWLWF14",
     "paper_url": "https://doi.org/10.1016/j.neucom.2014.01.029",
     "pdf_url": "",
     "source_url": "https://openalex.org/W2166626612",
@@ -11809,7 +12167,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5015329251）",
     "status": "已索引出版/会议记录",
@@ -11820,10 +12179,12 @@
     "scholar_id": "fu_xiaolan",
     "scholar_name": "傅小兰",
     "scholar_ids": [
-      "fu_xiaolan"
+      "fu_xiaolan",
+      "su_jing_wang"
     ],
     "scholar_names": [
-      "傅小兰"
+      "傅小兰",
+      "王苏菁"
     ],
     "source_record_ids": [
       "fu_xiaolan_f4d3d8c707db649a"
@@ -11842,10 +12203,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "su_jing_wang": {
+        "category_id": "multimodal_emotion",
+        "label": "多模态情感理解、面部表情与语音情绪",
+        "scholar_name": "王苏菁",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "傅小兰：情感脑电与多模态生理信号"
+      "傅小兰：情感脑电与多模态生理信号",
+      "王苏菁：多模态情感理解、面部表情与语音情绪"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -11928,7 +12301,7 @@
       "Xiaolan Fu"
     ],
     "doi": "10.1109/icpr.2014.800",
-    "dblp_key": "",
+    "dblp_key": "conf/icpr/WangYLZF14",
     "paper_url": "https://doi.org/10.1109/icpr.2014.800",
     "pdf_url": "",
     "source_url": "https://openalex.org/W2044459166",
@@ -11939,7 +12312,8 @@
     "abstract_zh": "微表情是一种短暂的不自觉的面部表情，可以揭示真实的情绪并有助于识别谎言。由于其在各个领域的前景广阔的应用，它引起了心理学家和计算机科学家（尤其是计算机视觉和模式识别方面）的兴趣。最近的研究表明，颜色可以为表情识别提供有用的信息。在本文中，我们提出了一种新颖的颜色空间模型，即张量独立颜色空间（TICS），用于增强微表情识别的性能。将微表情彩色视频片段视为四阶张量，即四维数组。前两个维度是空间信息，第三个维度是...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5082301986）",
     "status": "已索引出版/会议记录",
@@ -11951,11 +12325,15 @@
     "scholar_name": "赵国英",
     "scholar_ids": [
       "guoying_zhao",
-      "fu_xiaolan"
+      "fu_xiaolan",
+      "su_jing_wang",
+      "xiaobai_li"
     ],
     "scholar_names": [
       "赵国英",
-      "傅小兰"
+      "傅小兰",
+      "王苏菁",
+      "李晓白"
     ],
     "source_record_ids": [
       "guoying_zhao_ae872b31d86bde7d"
@@ -11984,11 +12362,35 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "su_jing_wang": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "王苏菁",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "xiaobai_li": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "李晓白",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "赵国英：情感理解与多模态推理",
-      "傅小兰：情感脑电与多模态生理信号"
+      "傅小兰：情感脑电与多模态生理信号",
+      "王苏菁：视觉感知、语音信号与通用人工智能",
+      "李晓白：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "emotion_understanding",
@@ -12171,7 +12573,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5082301986）",
     "status": "已索引出版/会议记录",
@@ -12183,11 +12586,15 @@
     "scholar_name": "赵国英",
     "scholar_ids": [
       "guoying_zhao",
-      "fu_xiaolan"
+      "fu_xiaolan",
+      "su_jing_wang",
+      "xiaobai_li"
     ],
     "scholar_names": [
       "赵国英",
-      "傅小兰"
+      "傅小兰",
+      "王苏菁",
+      "李晓白"
     ],
     "source_record_ids": [
       "guoying_zhao_22f87df04fe9cdbf"
@@ -12220,11 +12627,37 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "su_jing_wang": {
+        "category_id": "multimodal_emotion",
+        "label": "多模态情感理解、面部表情与语音情绪",
+        "scholar_name": "王苏菁",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "医学影像与脑疾病诊断",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "xiaobai_li": {
+        "category_id": "multimodal_emotion",
+        "label": "多模态情感理解、面部表情与语音情绪",
+        "scholar_name": "李晓白",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "医学影像与脑疾病诊断",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "赵国英：情感数据集、基准与评测",
-      "傅小兰：情感脑电与多模态生理信号"
+      "傅小兰：情感脑电与多模态生理信号",
+      "王苏菁：多模态情感理解、面部表情与语音情绪",
+      "李晓白：多模态情感理解、面部表情与语音情绪"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "emotion_benchmark",
@@ -12438,7 +12871,7 @@
       "Xiaolan Fu"
     ],
     "doi": "10.1007/s11063-013-9288-7",
-    "dblp_key": "",
+    "dblp_key": "journals/npl/WangCYCF14",
     "paper_url": "https://doi.org/10.1007/s11063-013-9288-7",
     "pdf_url": "",
     "source_url": "https://openalex.org/W2003802155",
@@ -12449,7 +12882,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5015329251）",
     "status": "已索引出版/会议记录",
@@ -12460,10 +12894,12 @@
     "scholar_id": "fu_xiaolan",
     "scholar_name": "傅小兰",
     "scholar_ids": [
-      "fu_xiaolan"
+      "fu_xiaolan",
+      "su_jing_wang"
     ],
     "scholar_names": [
-      "傅小兰"
+      "傅小兰",
+      "王苏菁"
     ],
     "source_record_ids": [
       "fu_xiaolan_025abebf4bd85823"
@@ -12482,10 +12918,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "su_jing_wang": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "王苏菁",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "傅小兰：情感脑电与多模态生理信号"
+      "傅小兰：情感脑电与多模态生理信号",
+      "王苏菁：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -12642,7 +13090,8 @@
     "abstract_zh": "使用加纳的快速分类任务，现有研究证明了面部身份和面部表情识别中存在不对称干扰。看来表达很难干扰身份识别。然而，身份和表达的可区分性是一个潜在的混杂变量，在现有的研究中尚未得到仔细检查。在当前的工作中，我们通过匹配身份中的面部形状（长或圆形）和匹配面部表情中的嘴（张开或闭合）来操纵身份和表情的可辨别性。发现了从身份到表达（实验 1）或从表达到身份（实验 2）的加纳干扰。在两个方向上也发现了干扰（实验......",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5015329251）",
     "status": "已索引出版/会议记录",
@@ -12709,7 +13158,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5015329251）",
     "status": "已索引出版/会议记录",
@@ -12976,10 +13426,12 @@
     "scholar_id": "fu_xiaolan",
     "scholar_name": "傅小兰",
     "scholar_ids": [
-      "fu_xiaolan"
+      "fu_xiaolan",
+      "su_jing_wang"
     ],
     "scholar_names": [
-      "傅小兰"
+      "傅小兰",
+      "王苏菁"
     ],
     "source_record_ids": [
       "fu_xiaolan_9244b8894e1f4240"
@@ -12996,10 +13448,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "su_jing_wang": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "王苏菁",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "傅小兰：脑电基础模型与通用解码"
+      "傅小兰：脑电基础模型与通用解码",
+      "王苏菁：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -13216,7 +13677,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5015329251）",
     "status": "已索引出版/会议记录",
@@ -13480,7 +13942,7 @@
       "Xiaolan Fu"
     ],
     "doi": "10.1109/fg.2013.6553799",
-    "dblp_key": "",
+    "dblp_key": "conf/fgr/YanWLWF13",
     "paper_url": "https://doi.org/10.1109/fg.2013.6553799",
     "pdf_url": "",
     "source_url": "https://openalex.org/W1983014650",
@@ -13492,7 +13954,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5015329251）",
     "status": "已索引出版/会议记录",
@@ -13503,10 +13966,12 @@
     "scholar_id": "fu_xiaolan",
     "scholar_name": "傅小兰",
     "scholar_ids": [
-      "fu_xiaolan"
+      "fu_xiaolan",
+      "su_jing_wang"
     ],
     "scholar_names": [
-      "傅小兰"
+      "傅小兰",
+      "王苏菁"
     ],
     "source_record_ids": [
       "fu_xiaolan_f79bb9a21d0a680b"
@@ -13526,10 +13991,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "su_jing_wang": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "王苏菁",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "医学影像与脑疾病诊断",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "傅小兰：情感脑电与多模态生理信号"
+      "傅小兰：情感脑电与多模态生理信号",
+      "王苏菁：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -13558,7 +14036,8 @@
     "abstract_zh": "目的：本研究的目的是探讨表情持续时间对微表情识别的影响，微表情与欺骗密切相关。方法：在两项实验中，参与者会短暂（20 至 300 毫秒）看到六种基本表情之一，然后被要求识别该表情。结果：结果显示，参与者对微表情的识别能力随着表情持续时间的延长而增强，在 200 毫秒时达到转折点，然后趋于平稳。结果还表明，练习可以提高参与者的表现。结论：本研究结果表明，微表情持续时间的适当上限可能约为...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5015329251）",
     "status": "已索引出版/会议记录",
@@ -14065,7 +14544,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -14818,7 +15298,8 @@
     "abstract_zh": "微是一种持续时间延迟1/25秒至1/5秒的非常快速的表情，表达了人试图催促与的真实情感。论文系统整理已公开发表的微表情相关研究报告，针对关注于测量微表情识别能力的早期表情研究、目前基于微表情训练工具(METT)的微表情识别应用研究以及刚刚萌芽的微表情表情表达研究进行总结分析，明确以往研究中存在的问题，建议未来研究应探讨METT在不同文化中的有效性，研究微表情表达的基本特点和主要影响因素，并关注发展自动化的微表情识别工具。本文提出，基于微表情的自动谎言识别系统将是微表情研究未来的应用方向之一。",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5015329251）",
     "status": "已索引出版/会议记录",
@@ -15972,7 +16453,8 @@
     "abstract_zh": "注视方向对面部表情感知的影响越来越受到心理学家的关注，但它们对计算机科学中面部表情识别的影响却被忽视了。在目前的心理学研究中，我们研究了注视方向对面部表情感知的影响，并重点关注面部表情的社会主导作用。实验 1 和 2 使用自我评估模型 (SAM) 检查了凝视对中性、快乐、愤怒和厌恶面部表情的支配性、愉悦性和唤醒性评估的影响。实验3考察了注视方向对面部表情感知效率的影响。结果表明（a）直视...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5015329251）",
     "status": "已索引出版/会议记录",

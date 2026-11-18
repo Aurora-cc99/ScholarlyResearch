@@ -1,0 +1,41 @@
+[
+  {
+    "id": "res_gh_8efefadd7cca",
+    "name": "MERBench & MER Challenge Suite",
+    "name_zh": "MERBench 多模态情感识别统一基准与挑战赛代码库（中科院自动化所）",
+    "type": "code",
+    "url": "https://github.com/ZeroQiaoba/MERBench",
+    "download_url": "https://github.com/ZeroQiaoba/MERBench",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "bin_liu_casia",
+    "scholar_name": "刘斌",
+    "matched_paper_ids": [
+      "93bfd31e9e2ddf5a"
+    ],
+    "related_paper_titles": [
+      "MERBench: A Unified Evaluation Benchmark for Multimodal Emotion Recognition"
+    ],
+    "related_paper_titles_zh": [
+      "MERBench：多模态情绪识别的统一评估基准"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1109/tpami.2026.3653457"
+    ],
+    "description": "中科院自动化所刘斌团队 MER 系列多模态情感识别与鲁棒性评测基准，关联 MER2023/2024 数据集。",
+    "verification": "代表作与官方项目仓库人工交叉核验",
+    "is_dataset_benchmark": true,
+    "dataset_title": "MERBench & MER Challenge Suite",
+    "scholar_category_ids": [
+      "licai_sun::emotion_benchmark",
+      "zheng_lian::eeg_benchmark",
+      "jianhua_tao::eeg_benchmark",
+      "bin_liu_casia::llm_benchmark_data"
+    ],
+    "primary_categories": [
+      "孙立才：情感数据集、基准与评测",
+      "连政：脑电基准、数据与评测",
+      "陶建华：脑电基准、数据与评测",
+      "刘斌：情感与大模型评测基准、数据集及综述"
+    ]
+  }
+]

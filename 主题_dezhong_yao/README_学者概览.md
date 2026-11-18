@@ -5,7 +5,7 @@
 - **身份/单位**：University of Electronic Science and Technology of China; Sichuan Institute for Brain Science and Brain-inspired Intelligence
 - **英文姓名**：Dezhong Yao · **ORCID**：[0000-0002-8042-879X](https://orcid.org/0000-0002-8042-879X) · **DBLP**：[93/5633](https://dblp.org/pid/93/5633.html)
 - **外部身份依据**：[身份源1](https://faculty.uestc.edu.cn/yaodezhong) · [身份源2](https://www.neuro.uestc.edu.cn/bci/member/yao/yao.html) · [身份源3](https://www.ccf.org.cn/Media_list/YEF/2026-05-02/888563.shtml) · [身份源4](https://orcid.org/0000-0002-8042-879X) · [身份源5](https://dblp.org/pid/93/5633.html) · [身份源6](https://openalex.org/A5018644308)
-- **本轮核验书目记录**：**437** 条（其中含中英文摘要 **280** 条）；**开源资源入口**：**5** 条；**已关联资源的论文**：**7** 篇。
+- **本轮核验书目记录**：**437** 条（其中含中英文摘要 **281** 条）；**开源资源入口**：**5** 条；**已关联资源的论文**：**7** 篇。
 
 [论文分类目录](论文分类目录.md) · [按年份查看全部论文](全部论文.md) · [论文CSV](papers.csv) · [BibTeX](papers.bib) · [代码与项目](代码与项目.md) · [数据集与模型](数据集与模型.md) · [资源CSV](resources.csv) · [核验与缺口](核验与缺口.md) · [返回总导航](../README_总导航.md)
 

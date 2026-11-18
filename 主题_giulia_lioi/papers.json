@@ -1799,7 +1799,8 @@
       "脑电基础大模型",
       "脑机接口与神经解码",
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-论文团队",
     "status": "候选条目/需按作者主页继续核验",
@@ -4995,10 +4996,12 @@
     "work_title_group": "27115bd0df84",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "giulia_lioi"
+      "giulia_lioi",
+      "fabien_lotte"
     ],
     "scholar_names": [
-      "朱莉娅·廖伊"
+      "朱莉娅·廖伊",
+      "Fabien Lotte"
     ],
     "source_record_ids": [
       "giulia_lioi_6a27074688f2"
@@ -5015,11 +5018,26 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "fabien_lotte": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "Fabien Lotte",
+        "secondary_tags": [
+          "EEG基础模型",
+          "神经信号跨设置泛化",
+          "脑电临床迁移",
+          "脑机接口与神经解码",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "6dd9de3f43ae9fc7",
     "primary_categories_by_scholar": [
-      "朱莉娅·廖伊：脑电基础模型与通用解码"
+      "朱莉娅·廖伊：脑电基础模型与通用解码",
+      "Fabien Lotte：脑电情感识别与多模态生理计算"
     ],
     "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2020/03/27/397729.full.pdf",
     "abstract_en": "ABSTRACT Neurofeedback (NF) allows to exert self-regulation over specific aspects of one’s own brain activity by returning information extracted in real-time from brain activity measures. These measures are usually acquired from a single modality, most commonly electroencephalography (EEG) or functional magnetic resonance imaging (fMRI). EEG-fMRI-neurofeedback (EEG-fMRI-NF) is a new approach that consists in providing a NF based simultaneously on EEG and fMRI signals. By exploiting the complementarity of these two modalities, EEG-fMRI-NF opens a new spectrum of possibilities for defining bimodal NF targets that could be more robust, flexible and effective than unimodal ones. Since EEG-fMRI-NF allows for a richer amount of information to be fed back, the question arises of how to represent the EEG and fMRI features simultaneously in order to allow the subject to achieve better self-regulation. In this work, we propose to represent EEG and fMRI features in a single bimodal feedback (integrated feedback). We introduce two integrated feedback strategies for EEG-fMRI-NF and compare their early effects on a motor imagery task with a between-group design. The BiDim group (n=10) was shown a two-dimensional (2D) feedback in which each dimension depicted the information from one modality. The UniDim group (n=10) was shown a one-dimensional (1D) feedback that integrated both types of information even further by merging them into one. Online fMRI activations were significantly higher in the UniDim group than in the BiDim group, which suggests that the 1D feedback is easier to control than the 2D feedback. However subjects from the BiDim group produced more specific BOLD activations with a notably stronger activation in the right superior parietal lobe (BiDim > UniDim, p < 0.001, uncorrected). These results suggest that the 2D feedback encourages subjects to explore their strategies to recruit more specific brain patterns. To summarize, our study shows that 1D and 2D integrated feedbacks are effective but also appear to be complementary and could therefore be used in a bimodal NF training program. Altogether, our study paves the way to novel integrated feedback strategies for the development of flexible and effective bimodal NF paradigms that fully exploits bimodal information and are adapted to clinical applications.",

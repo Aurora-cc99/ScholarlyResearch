@@ -1,0 +1,129 @@
+[
+  {
+    "id": "res_gh_fd4f3a86d7b5",
+    "name": "emg2qwerty (facebookresearch/emg2qwerty)",
+    "name_zh": "emg2qwerty (facebookresearch/emg2qwerty) — emg2qwerty：具有使用表面肌电图进行触摸打字基线的大型数据集",
+    "type": "code",
+    "url": "https://github.com/facebookresearch/emg2qwerty",
+    "download_url": "https://github.com/facebookresearch/emg2qwerty",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "alexandre_gramfort",
+    "scholar_name": "Alexandre Gramfort",
+    "matched_paper_ids": [
+      "a7eafde5485107bc"
+    ],
+    "related_paper_titles": [
+      "emg2qwerty: A Large Dataset with Baselines for Touch Typing using Surface Electromyography"
+    ],
+    "related_paper_titles_zh": [
+      "emg2qwerty：具有使用表面肌电图进行触摸打字基线的大型数据集"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.52202/079017-2899"
+    ],
+    "description": "论文《emg2qwerty：具有使用表面肌电图进行触摸打字基线的大型数据集》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "is_dataset_benchmark": true,
+    "dataset_title": "emg2qwerty (facebookresearch/emg2qwerty)",
+    "scholar_category_ids": [
+      "alexandre_gramfort::eeg_foundation"
+    ],
+    "primary_categories": [
+      "Alexandre Gramfort：脑电基础大模型与自监督预训练"
+    ]
+  },
+  {
+    "id": "res_gh_44b9d9b0bd48",
+    "name": "POT (PythonOT/POT)",
+    "name_zh": "POT (PythonOT/POT) — POT：Python 最优传输",
+    "type": "code",
+    "url": "https://github.com/PythonOT/POT",
+    "download_url": "https://github.com/PythonOT/POT",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "alexandre_gramfort",
+    "scholar_name": "Alexandre Gramfort",
+    "matched_paper_ids": [
+      "32508b45e1f9ebfa"
+    ],
+    "related_paper_titles": [
+      "POT: Python Optimal Transport"
+    ],
+    "related_paper_titles_zh": [
+      "POT：Python 最优传输"
+    ],
+    "evidence_urls": [
+      "https://hal.science/hal-03264013v1/document"
+    ],
+    "description": "论文《POT：Python 最优传输》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "alexandre_gramfort::eeg_foundation"
+    ],
+    "primary_categories": [
+      "Alexandre Gramfort：脑电基础大模型与自监督预训练"
+    ]
+  },
+  {
+    "id": "res_gh_93e45d5c214d",
+    "name": "SKADA-Bench (scikit-adaptation/skada-bench)",
+    "name_zh": "SKADA-Bench (scikit-adaptation/skada-bench) — SKADA-Bench：对无监督域适应方法进行基准测试，并在多种模式上进行实际验证",
+    "type": "code",
+    "url": "https://github.com/scikit-adaptation/skada-bench",
+    "download_url": "https://github.com/scikit-adaptation/skada-bench",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "alexandre_gramfort",
+    "scholar_name": "Alexandre Gramfort",
+    "matched_paper_ids": [
+      "d0ac968b3f3bfdff",
+      "ae8f1da90611860f"
+    ],
+    "related_paper_titles": [
+      "SKADA-Bench: Benchmarking Unsupervised Domain Adaptation Methods with Realistic Validation On Diverse Modalities"
+    ],
+    "related_paper_titles_zh": [
+      "SKADA-Bench：对无监督域适应方法进行基准测试，并在多种模式上进行实际验证"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.5281/zenodo.19220815"
+    ],
+    "description": "论文《SKADA-Bench：对无监督域适应方法进行基准测试，并在多种模式上进行实际验证》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "alexandre_gramfort::eeg_foundation"
+    ],
+    "primary_categories": [
+      "Alexandre Gramfort：脑电基础大模型与自监督预训练"
+    ]
+  },
+  {
+    "id": "res_gh_5cd7164822fb",
+    "name": "pierreablin/tlnmf",
+    "name_zh": "pierreablin/tlnmf — 具有变换学习的 NMF 正交流形拟牛顿算法",
+    "type": "code",
+    "url": "https://github.com/pierreablin/tlnmf",
+    "download_url": "https://github.com/pierreablin/tlnmf",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "alexandre_gramfort",
+    "scholar_name": "Alexandre Gramfort",
+    "matched_paper_ids": [
+      "f1d137f17967df02"
+    ],
+    "related_paper_titles": [
+      "A Quasi-Newton Algorithm on the Orthogonal Manifold for NMF with Transform Learning"
+    ],
+    "related_paper_titles_zh": [
+      "具有变换学习的 NMF 正交流形拟牛顿算法"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1109/ICASSP.2019.8683291"
+    ],
+    "description": "论文《具有变换学习的 NMF 正交流形拟牛顿算法》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "alexandre_gramfort::eeg_foundation"
+    ],
+    "primary_categories": [
+      "Alexandre Gramfort：脑电基础大模型与自监督预训练"
+    ]
+  }
+]

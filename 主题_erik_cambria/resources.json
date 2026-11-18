@@ -1,0 +1,101 @@
+[
+  {
+    "id": "res_gh_62e5d7470dcd",
+    "name": "Xillv/Chimera",
+    "name_zh": "Xillv/Chimera — 探索基于多模态方面的情感分析的认知和审美因果关系",
+    "type": "code",
+    "url": "https://github.com/Xillv/Chimera",
+    "download_url": "https://github.com/Xillv/Chimera",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "erik_cambria",
+    "scholar_name": "Erik Cambria",
+    "matched_paper_ids": [
+      "4afaf658b792d566"
+    ],
+    "related_paper_titles": [
+      "Exploring Cognitive and Aesthetic Causality for Multimodal Aspect-Based Sentiment Analysis"
+    ],
+    "related_paper_titles_zh": [
+      "探索基于多模态方面的情感分析的认知和审美因果关系"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1109/TAFFC.2025.3565506"
+    ],
+    "description": "论文《探索基于多模态方面的情感分析的认知和审美因果关系》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "erik_cambria::affect_int_llm"
+    ],
+    "primary_categories": [
+      "Erik Cambria：情感大模型、知识推理与评测基准"
+    ]
+  },
+  {
+    "id": "res_gh_3dfa3554f635",
+    "name": "trueBatty/MLKF",
+    "name_zh": "trueBatty/MLKF — 两个头脑比一个更好：通过多大语言模型知识融合进行零样本认知推理",
+    "type": "code",
+    "url": "https://github.com/trueBatty/MLKF",
+    "download_url": "https://github.com/trueBatty/MLKF",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "erik_cambria",
+    "scholar_name": "Erik Cambria",
+    "matched_paper_ids": [
+      "b046624726a2ac8d"
+    ],
+    "related_paper_titles": [
+      "Two Heads are Better than One: Zero-shot Cognitive Reasoning via Multi-LLM Knowledge Fusion"
+    ],
+    "related_paper_titles_zh": [
+      "两个头脑比一个更好：通过多大语言模型知识融合进行零样本认知推理"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1145/3627673.3679744"
+    ],
+    "description": "论文《两个头脑比一个更好：通过多大语言模型知识融合进行零样本认知推理》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "erik_cambria::general_nlp_ai",
+      "guodong_zhou::general_nlp_ai"
+    ],
+    "primary_categories": [
+      "Erik Cambria：自然语言处理、多模态学习与通用方法",
+      "周国栋：自然语言处理、多模态学习与通用方法"
+    ]
+  },
+  {
+    "id": "res_ds_91b7cc995a2d",
+    "name": "SenticNet Commonsense Affective Knowledge Base",
+    "name_zh": "SenticNet 常识情感极性与细粒度情绪知识库",
+    "type": "dataset",
+    "url": "https://sentic.net/downloads/",
+    "download_url": "https://sentic.net/downloads/",
+    "access": "官方资源主页/申请下载",
+    "scholar_id": "erik_cambria",
+    "scholar_name": "Erik Cambria",
+    "matched_paper_ids": [
+      "0b91664d9807f24e"
+    ],
+    "related_paper_titles": [
+      "SenticNet 4: A Semantic Resource for Sentiment Analysis Based on Conceptual Primitives"
+    ],
+    "related_paper_titles_zh": [
+      "SenticNet 4：基于概念原语的情感分析语义资源"
+    ],
+    "evidence_urls": [
+      "https://opus.bibliothek.uni-augsburg.de/opus4/frontdoor/index/index/docId/72175"
+    ],
+    "description": "南洋理工大学 Erik Cambria 团队持续维护的神经符号情感知识库与词典。",
+    "verification": "代表作与官方项目仓库人工交叉核验",
+    "scholar_category_ids": [
+      "soujanya_poria::sentiment_nlp",
+      "bjorn_schuller::general_nlp_ai",
+      "erik_cambria::general_nlp_ai"
+    ],
+    "primary_categories": [
+      "Soujanya Poria：文本情感分析、情绪原因与认知语义",
+      "Björn W. Schuller：自然语言处理、多模态学习与通用方法",
+      "Erik Cambria：自然语言处理、多模态学习与通用方法"
+    ]
+  }
+]

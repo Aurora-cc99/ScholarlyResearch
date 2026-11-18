@@ -1,0 +1,412 @@
+[
+  {
+    "id": "res_gh_3e620e9b99ae",
+    "name": "ADAST (emadeldeen24/ADAST)",
+    "name_zh": "ADAST (emadeldeen24/ADAST) — ADAST：基于脑电图的跨域睡眠分期框架，具有迭代自我训练功能",
+    "type": "code",
+    "url": "https://github.com/emadeldeen24/ADAST",
+    "download_url": "https://github.com/emadeldeen24/ADAST",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "cuntai_guan",
+    "scholar_name": "关存太",
+    "matched_paper_ids": [
+      "889b2c066fe85db2",
+      "75ef11f258b1f429"
+    ],
+    "related_paper_titles": [
+      "ADAST: Attentive Cross-domain EEG-based Sleep Staging Framework with Iterative Self-Training"
+    ],
+    "related_paper_titles_zh": [
+      "ADAST：基于脑电图的跨域睡眠分期框架，具有迭代自我训练功能"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1109/TETCI.2022.3189695"
+    ],
+    "description": "论文《ADAST：基于脑电图的跨域睡眠分期框架，具有迭代自我训练功能》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "xiaoli_li::eeg_affect",
+      "cuntai_guan::eeg_foundation"
+    ],
+    "primary_categories": [
+      "李小俚：情感脑电与多模态生理信号",
+      "关存太：脑电基础大模型与自监督预训练"
+    ]
+  },
+  {
+    "id": "res_gh_6f672a1c4685",
+    "name": "TSception (deepBrains/TSception)",
+    "name_zh": "TSception (deepBrains/TSception) — TSception：使用脑电进行情感检测的深度学习框架",
+    "type": "code",
+    "url": "https://github.com/deepBrains/TSception",
+    "download_url": "https://github.com/deepBrains/TSception",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "cuntai_guan",
+    "scholar_name": "关存太",
+    "matched_paper_ids": [
+      "cc2c8c83fbc43794"
+    ],
+    "related_paper_titles": [
+      "TSception: A Deep Learning Framework for Emotion Detection Using EEG"
+    ],
+    "related_paper_titles_zh": [
+      "TSception：使用脑电进行情感检测的深度学习框架"
+    ],
+    "evidence_urls": [
+      "https://yi-ding-cs.github.io/publications/"
+    ],
+    "description": "论文《TSception：使用脑电进行情感检测的深度学习框架》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "yi_ding::eeg_affect",
+      "cuntai_guan::eeg_foundation"
+    ],
+    "primary_categories": [
+      "Yi Ding（中文名待核验）：情感脑电与多模态生理信号",
+      "关存太：脑电基础大模型与自监督预训练"
+    ]
+  },
+  {
+    "id": "res_gh_4c3a39801457",
+    "name": "MT-UDA (jacobzhaoziyuan/MT-UDA)",
+    "name_zh": "MT-UDA (jacobzhaoziyuan/MT-UDA) — MT-UDA：利用有限的源标签实现无监督的跨模态医学图像分割",
+    "type": "code",
+    "url": "https://github.com/jacobzhaoziyuan/MT-UDA",
+    "download_url": "https://github.com/jacobzhaoziyuan/MT-UDA",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "cuntai_guan",
+    "scholar_name": "关存太",
+    "matched_paper_ids": [
+      "489eb216568d27af"
+    ],
+    "related_paper_titles": [
+      "MT-UDA: Towards Unsupervised Cross-modality Medical Image Segmentation with Limited Source Labels"
+    ],
+    "related_paper_titles_zh": [
+      "MT-UDA：利用有限的源标签实现无监督的跨模态医学图像分割"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1007/978-3-030-87193-2_28"
+    ],
+    "description": "论文《MT-UDA：利用有限的源标签实现无监督的跨模态医学图像分割》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "cuntai_guan::eeg_foundation"
+    ],
+    "primary_categories": [
+      "关存太：脑电基础大模型与自监督预训练"
+    ]
+  },
+  {
+    "id": "res_gh_e5aa3368ca37",
+    "name": "sucv/Visual_to_EEG_Cross_Modal_KD_for_CER",
+    "name_zh": "sucv/Visual_to_EEG_Cross_Modal_KD_for_CER — 用于连续情绪识别的视觉到脑电图跨模态知识蒸馏",
+    "type": "code",
+    "url": "https://github.com/sucv/Visual_to_EEG_Cross_Modal_KD_for_CER",
+    "download_url": "https://github.com/sucv/Visual_to_EEG_Cross_Modal_KD_for_CER",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "cuntai_guan",
+    "scholar_name": "关存太",
+    "matched_paper_ids": [
+      "d175c7a70f573622"
+    ],
+    "related_paper_titles": [
+      "Visual-to-EEG cross-modal knowledge distillation for continuous emotion recognition"
+    ],
+    "related_paper_titles_zh": [
+      "用于连续情绪识别的视觉到脑电图跨模态知识蒸馏"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1016/J.PATCOG.2022.108833"
+    ],
+    "description": "论文《用于连续情绪识别的视觉到脑电图跨模态知识蒸馏》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "cuntai_guan::eeg_bci_decode"
+    ],
+    "primary_categories": [
+      "关存太：脑机接口、神经解码与情感脑电"
+    ]
+  },
+  {
+    "id": "res_gh_83ad65b444eb",
+    "name": "LE-UDA (jacobzhaoziyuan/LE-UDA)",
+    "name_zh": "LE-UDA (jacobzhaoziyuan/LE-UDA) — LE-UDA：用于医学图像分割的标签高效无监督域适应",
+    "type": "code",
+    "url": "https://github.com/jacobzhaoziyuan/LE-UDA",
+    "download_url": "https://github.com/jacobzhaoziyuan/LE-UDA",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "cuntai_guan",
+    "scholar_name": "关存太",
+    "matched_paper_ids": [
+      "211fd02b367b97e1"
+    ],
+    "related_paper_titles": [
+      "LE-UDA: Label-Efficient Unsupervised Domain Adaptation for Medical Image Segmentation"
+    ],
+    "related_paper_titles_zh": [
+      "LE-UDA：用于医学图像分割的标签高效无监督域适应"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1109/TMI.2022.3214766"
+    ],
+    "description": "论文《LE-UDA：用于医学图像分割的标签高效无监督域适应》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "cuntai_guan::eeg_foundation"
+    ],
+    "primary_categories": [
+      "关存太：脑电基础大模型与自监督预训练"
+    ]
+  },
+  {
+    "id": "res_gh_1c73a0655f99",
+    "name": "GeometricBCI/Tensor-CSPNet-and-Graph-CSPNet",
+    "name_zh": "GeometricBCI/Tensor-CSPNet-and-Graph-CSPNet — 用于运动意象分类的 SPD 流形图神经网络：时频分析的视角",
+    "type": "code",
+    "url": "https://github.com/GeometricBCI/Tensor-CSPNet-and-Graph-CSPNet",
+    "download_url": "https://github.com/GeometricBCI/Tensor-CSPNet-and-Graph-CSPNet",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "cuntai_guan",
+    "scholar_name": "关存太",
+    "matched_paper_ids": [
+      "b24b111ea458eb5a"
+    ],
+    "related_paper_titles": [
+      "Graph Neural Networks on SPD Manifolds for Motor Imagery Classification: A Perspective From the Time-Frequency Analysis"
+    ],
+    "related_paper_titles_zh": [
+      "用于运动意象分类的 SPD 流形图神经网络：时频分析的视角"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1109/TNNLS.2023.3307470"
+    ],
+    "description": "论文《用于运动意象分类的 SPD 流形图神经网络：时频分析的视角》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "cuntai_guan::eeg_foundation"
+    ],
+    "primary_categories": [
+      "关存太：脑电基础大模型与自监督预训练"
+    ]
+  },
+  {
+    "id": "res_gh_8f0f5c3dc647",
+    "name": "emadeldeen24/CA-TCC",
+    "name_zh": "emadeldeen24/CA-TCC — 用于半监督时间序列分类的自监督对比表示学习",
+    "type": "code",
+    "url": "https://github.com/emadeldeen24/CA-TCC",
+    "download_url": "https://github.com/emadeldeen24/CA-TCC",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "cuntai_guan",
+    "scholar_name": "关存太",
+    "matched_paper_ids": [
+      "1014730f757dae55"
+    ],
+    "related_paper_titles": [
+      "Self-Supervised Contrastive Representation Learning for Semi-Supervised Time-Series Classification"
+    ],
+    "related_paper_titles_zh": [
+      "用于半监督时间序列分类的自监督对比表示学习"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1109/TPAMI.2023.3308189"
+    ],
+    "description": "论文《用于半监督时间序列分类的自监督对比表示学习》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "cuntai_guan::eeg_foundation"
+    ],
+    "primary_categories": [
+      "关存太：脑电基础大模型与自监督预训练"
+    ]
+  },
+  {
+    "id": "res_gh_0660e35739e5",
+    "name": "emadeldeen24/TS-TCC",
+    "name_zh": "emadeldeen24/TS-TCC — 通过时间和上下文对比进行时间序列表示学习",
+    "type": "code",
+    "url": "https://github.com/emadeldeen24/TS-TCC",
+    "download_url": "https://github.com/emadeldeen24/TS-TCC",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "cuntai_guan",
+    "scholar_name": "关存太",
+    "matched_paper_ids": [
+      "8e464f29f82fae24"
+    ],
+    "related_paper_titles": [
+      "Time-Series Representation Learning via Temporal and Contextual Contrasting"
+    ],
+    "related_paper_titles_zh": [
+      "通过时间和上下文对比进行时间序列表示学习"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.24963/IJCAI.2021/324"
+    ],
+    "description": "论文《通过时间和上下文对比进行时间序列表示学习》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "cuntai_guan::eeg_foundation"
+    ],
+    "primary_categories": [
+      "关存太：脑电基础大模型与自监督预训练"
+    ]
+  },
+  {
+    "id": "res_gh_f9436df197d1",
+    "name": "FBCNet (ravikiran-mane/FBCNet)",
+    "name_zh": "FBCNet (ravikiran-mane/FBCNet) — FBCNet：用于脑机接口的多视图卷积神经网络",
+    "type": "code",
+    "url": "https://github.com/ravikiran-mane/FBCNet",
+    "download_url": "https://github.com/ravikiran-mane/FBCNet",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "cuntai_guan",
+    "scholar_name": "关存太",
+    "matched_paper_ids": [
+      "24685784858565d7"
+    ],
+    "related_paper_titles": [
+      "FBCNet: A Multi-view Convolutional Neural Network for Brain-Computer Interface"
+    ],
+    "related_paper_titles_zh": [
+      "FBCNet：用于脑机接口的多视图卷积神经网络"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.48550/ARXIV.2104.01233"
+    ],
+    "description": "论文《FBCNet：用于脑机接口的多视图卷积神经网络》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "cuntai_guan::eeg_foundation"
+    ],
+    "primary_categories": [
+      "关存太：脑电基础大模型与自监督预训练"
+    ]
+  },
+  {
+    "id": "res_gh_c103764fa717",
+    "name": "EEGDM (jhpuah/EEGDM)",
+    "name_zh": "EEGDM (jhpuah/EEGDM) — EEGDM：通过生成扩散模型进行脑电图表征学习",
+    "type": "code",
+    "url": "https://github.com/jhpuah/EEGDM",
+    "download_url": "https://github.com/jhpuah/EEGDM",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "cuntai_guan",
+    "scholar_name": "关存太",
+    "matched_paper_ids": [
+      "b884d5f79555e047"
+    ],
+    "related_paper_titles": [
+      "EEGDM: EEG Representation Learning via Generative Diffusion Model"
+    ],
+    "related_paper_titles_zh": [
+      "EEGDM：通过生成扩散模型进行脑电图表征学习"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.48550/ARXIV.2508.14086"
+    ],
+    "description": "论文《EEGDM：通过生成扩散模型进行脑电图表征学习》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "cuntai_guan::eeg_foundation"
+    ],
+    "primary_categories": [
+      "关存太：脑电基础大模型与自监督预训练"
+    ]
+  },
+  {
+    "id": "res_gh_b4b4e372ee67",
+    "name": "emadeldeen24/AttnSleep",
+    "name_zh": "emadeldeen24/AttnSleep — 基于注意力的深度学习方法，通过单通道脑电图进行睡眠阶段分类",
+    "type": "code",
+    "url": "https://github.com/emadeldeen24/AttnSleep",
+    "download_url": "https://github.com/emadeldeen24/AttnSleep",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "cuntai_guan",
+    "scholar_name": "关存太",
+    "matched_paper_ids": [
+      "301108c09dc99366"
+    ],
+    "related_paper_titles": [
+      "An Attention-Based Deep Learning Approach for Sleep Stage Classification With Single-Channel EEG"
+    ],
+    "related_paper_titles_zh": [
+      "基于注意力的深度学习方法，通过单通道脑电图进行睡眠阶段分类"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1109/tnsre.2021.3076234"
+    ],
+    "description": "论文《基于注意力的深度学习方法，通过单通道脑电图进行睡眠阶段分类》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "cuntai_guan::eeg_foundation"
+    ],
+    "primary_categories": [
+      "关存太：脑电基础大模型与自监督预训练"
+    ]
+  },
+  {
+    "id": "res_gh_4162fdf9dbed",
+    "name": "yi-ding-cs/EEG-PatchFormer",
+    "name_zh": "yi-ding-cs/EEG-PatchFormer — 使用 Transformer 从时空脑电图块中解码人类注意力状态",
+    "type": "code",
+    "url": "https://github.com/yi-ding-cs/EEG-PatchFormer",
+    "download_url": "https://github.com/yi-ding-cs/EEG-PatchFormer",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "cuntai_guan",
+    "scholar_name": "关存太",
+    "matched_paper_ids": [
+      "43d1bbdd322b56e3"
+    ],
+    "related_paper_titles": [
+      "Decoding Human Attentive States from Spatial-temporal EEG Patches Using Transformers"
+    ],
+    "related_paper_titles_zh": [
+      "使用 Transformer 从时空脑电图块中解码人类注意力状态"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1109/embc58623.2025.11254148"
+    ],
+    "description": "论文《使用 Transformer 从时空脑电图块中解码人类注意力状态》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "cuntai_guan::eeg_foundation"
+    ],
+    "primary_categories": [
+      "关存太：脑电基础大模型与自监督预训练"
+    ]
+  },
+  {
+    "id": "res_gh_f2d3d462485b",
+    "name": "LGGNet (Local-Global-Graph Network for BCI)",
+    "name_zh": "LGGNet 脑机接口局部-全局图神经网络官方代码",
+    "type": "code",
+    "url": "https://github.com/yi-ding-cs/LGGNet",
+    "download_url": "https://github.com/yi-ding-cs/LGGNet",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "cuntai_guan",
+    "scholar_name": "关存太",
+    "matched_paper_ids": [
+      "e0d8c59e1c9c7298"
+    ],
+    "related_paper_titles": [
+      "LGGNet: Learning From Local-Global-Graph Representations for Brain-Computer Interface"
+    ],
+    "related_paper_titles_zh": [
+      "LGGNet：从脑机接口的局部全局图表示中学习"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1109/TNNLS.2023.3236635"
+    ],
+    "description": "南洋理工大学关存太团队 LGGNet 情绪与认知脑电图表示学习开源代码。",
+    "verification": "代表作与官方项目仓库人工交叉核验",
+    "scholar_category_ids": [
+      "yi_ding::eeg_affect",
+      "cuntai_guan::eeg_foundation"
+    ],
+    "primary_categories": [
+      "Yi Ding：情感脑电与多模态生理信号",
+      "关存太：脑电基础大模型与自监督预训练"
+    ]
+  }
+]
