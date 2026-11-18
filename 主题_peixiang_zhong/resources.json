@@ -1,0 +1,33 @@
+[
+  {
+    "id": "res_gh_9aaf7bd793f9",
+    "name": "RGNN for EEG Emotion Recognition",
+    "name_zh": "RGNN 正则化图神经网络脑电情绪识别代码",
+    "type": "code",
+    "url": "https://github.com/zhongpeixiang/RGNN",
+    "download_url": "https://github.com/zhongpeixiang/RGNN",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "peixiang_zhong",
+    "scholar_name": "钟培祥",
+    "matched_paper_ids": [
+      "e405ffbc012e7e0d"
+    ],
+    "related_paper_titles": [
+      "EEG-Based Emotion Recognition Using Regularized Graph Neural Networks"
+    ],
+    "related_paper_titles_zh": [
+      "使用正则化图神经网络进行基于脑电图的情绪识别"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1109/TAFFC.2020.2994159"
+    ],
+    "description": "IEEE TAFFC 高被引脑电情感识别 RGNN 模型官方代码。",
+    "verification": "代表作与官方项目仓库人工交叉核验",
+    "scholar_category_ids": [
+      "peixiang_zhong::eeg_affect_bench"
+    ],
+    "primary_categories": [
+      "钟培祥：生理情感数据库、基准与综述"
+    ]
+  }
+]

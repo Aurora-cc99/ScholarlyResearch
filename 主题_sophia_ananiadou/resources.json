@@ -1,0 +1,577 @@
+[
+  {
+    "id": "res_gh_be798e5f0df2",
+    "name": "LongDocFACTScore (jbshp/LongDocFACTScore)",
+    "name_zh": "LongDocFACTScore (jbshp/LongDocFACTScore) — LongDocFACTScore：评估长文档抽象摘要的真实性",
+    "type": "code",
+    "url": "https://github.com/jbshp/LongDocFACTScore",
+    "download_url": "https://github.com/jbshp/LongDocFACTScore",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "matched_paper_ids": [
+      "e83353e66e3b5a08"
+    ],
+    "related_paper_titles": [
+      "LongDocFACTScore: Evaluating the Factuality of Long Document Abstractive Summarisation"
+    ],
+    "related_paper_titles_zh": [
+      "LongDocFACTScore：评估长文档抽象摘要的真实性"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.63317/2imwtg5z7gdw"
+    ],
+    "description": "论文《LongDocFACTScore：评估长文档抽象摘要的真实性》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "sophia_ananiadou::general_foundation"
+    ],
+    "primary_categories": [
+      "Sophia Ananiadou：通用预训练大模型、视听生成与基础方法"
+    ]
+  },
+  {
+    "id": "res_gh_a0c4ad7f43a4",
+    "name": "FinBen (The-FinAI/PIXIU)",
+    "name_zh": "FinBen (The-FinAI/PIXIU) — FinBen：大型语言模型的整体金融基准",
+    "type": "code",
+    "url": "https://github.com/The-FinAI/PIXIU",
+    "download_url": "https://github.com/The-FinAI/PIXIU",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "matched_paper_ids": [
+      "e08febde399632db"
+    ],
+    "related_paper_titles": [
+      "FinBen: A Holistic Financial Benchmark for Large Language Models"
+    ],
+    "related_paper_titles_zh": [
+      "FinBen：大型语言模型的整体金融基准"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.52202/079017-3033"
+    ],
+    "description": "论文《FinBen：大型语言模型的整体金融基准》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "is_dataset_benchmark": true,
+    "dataset_title": "FinBen (The-FinAI/PIXIU)",
+    "scholar_category_ids": [
+      "sophia_ananiadou::llm_benchmark_data",
+      "zhiwei_liu_man::llm_benchmark_data",
+      "kailai_yang::llm_benchmark_data"
+    ],
+    "primary_categories": [
+      "Sophia Ananiadou：情感与大模型评测基准、数据集及综述",
+      "刘志威：情感与大模型评测基准、数据集及综述",
+      "杨凯莱：情感与大模型评测基准、数据集及综述"
+    ]
+  },
+  {
+    "id": "res_gh_22804b492730",
+    "name": "DeepEventMine (aistairc/DeepEventMine)",
+    "name_zh": "DeepEventMine (aistairc/DeepEventMine) — DeepEventMine：从生物医学文本中提取端到端神经嵌套事件",
+    "type": "code",
+    "url": "https://github.com/aistairc/DeepEventMine",
+    "download_url": "https://github.com/aistairc/DeepEventMine",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "matched_paper_ids": [
+      "b50457060b2e7802"
+    ],
+    "related_paper_titles": [
+      "DeepEventMine: end-to-end neural nested event extraction from biomedical texts"
+    ],
+    "related_paper_titles_zh": [
+      "DeepEventMine：从生物医学文本中提取端到端神经嵌套事件"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1093/BIOINFORMATICS/BTAA540"
+    ],
+    "description": "论文《DeepEventMine：从生物医学文本中提取端到端神经嵌套事件》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "sophia_ananiadou::general_foundation"
+    ],
+    "primary_categories": [
+      "Sophia Ananiadou：通用预训练大模型、视听生成与基础方法"
+    ]
+  },
+  {
+    "id": "res_gh_c53cf0368082",
+    "name": "c-zrv/uncertainty_components",
+    "name_zh": "c-zrv/uncertainty_components — 利用不确定性对生物医学文献中的证据进行链接和排序以进行模型管理",
+    "type": "code",
+    "url": "https://github.com/c-zrv/uncertainty_components",
+    "download_url": "https://github.com/c-zrv/uncertainty_components",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "matched_paper_ids": [
+      "ff69b62d35b83848"
+    ],
+    "related_paper_titles": [
+      "Using uncertainty to link and rank evidence from biomedical literature for model curation"
+    ],
+    "related_paper_titles_zh": [
+      "利用不确定性对生物医学文献中的证据进行链接和排序以进行模型管理"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1093/BIOINFORMATICS/BTX466"
+    ],
+    "description": "论文《利用不确定性对生物医学文献中的证据进行链接和排序以进行模型管理》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "sophia_ananiadou::llm_benchmark_data"
+    ],
+    "primary_categories": [
+      "Sophia Ananiadou：情感与大模型评测基准、数据集及综述"
+    ]
+  },
+  {
+    "id": "res_gh_aecd6ef535ce",
+    "name": "SteveKGYang/SCCL",
+    "name_zh": "SteveKGYang/SCCL — 用于对话中情绪识别的集群级对比学习",
+    "type": "code",
+    "url": "https://github.com/SteveKGYang/SCCL",
+    "download_url": "https://github.com/SteveKGYang/SCCL",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "matched_paper_ids": [
+      "48f740c7496dc122"
+    ],
+    "related_paper_titles": [
+      "Cluster-Level Contrastive Learning for Emotion Recognition in Conversations"
+    ],
+    "related_paper_titles_zh": [
+      "用于对话中情绪识别的集群级对比学习"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1109/TAFFC.2023.3243463"
+    ],
+    "description": "论文《用于对话中情绪识别的集群级对比学习》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "sophia_ananiadou::llm_benchmark_data",
+      "kailai_yang::llm_benchmark_data"
+    ],
+    "primary_categories": [
+      "Sophia Ananiadou：情感与大模型评测基准、数据集及综述",
+      "杨凯莱：情感与大模型评测基准、数据集及综述"
+    ]
+  },
+  {
+    "id": "res_gh_058a3d6f1944",
+    "name": "SteveKGYang/VAD-VAE",
+    "name_zh": "SteveKGYang/VAD-VAE — 用于对话中情绪识别的解缠变分自动编码器",
+    "type": "code",
+    "url": "https://github.com/SteveKGYang/VAD-VAE",
+    "download_url": "https://github.com/SteveKGYang/VAD-VAE",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "matched_paper_ids": [
+      "95008db36369dd16"
+    ],
+    "related_paper_titles": [
+      "Disentangled Variational Autoencoder for Emotion Recognition in Conversations"
+    ],
+    "related_paper_titles_zh": [
+      "用于对话中情绪识别的解缠变分自动编码器"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1109/TAFFC.2023.3280038"
+    ],
+    "description": "论文《用于对话中情绪识别的解缠变分自动编码器》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "sophia_ananiadou::llm_benchmark_data",
+      "kailai_yang::llm_benchmark_data"
+    ],
+    "primary_categories": [
+      "Sophia Ananiadou：情感与大模型评测基准、数据集及综述",
+      "杨凯莱：情感与大模型评测基准、数据集及综述"
+    ]
+  },
+  {
+    "id": "res_gh_91acf85318d7",
+    "name": "Divide-and-Conquer (qwerfdsaplking/MC-Fake)",
+    "name_zh": "Divide-and-Conquer (qwerfdsaplking/MC-Fake) — 分而治之：社交媒体上虚假新闻检测的用户后交互网络",
+    "type": "code",
+    "url": "https://github.com/qwerfdsaplking/MC-Fake",
+    "download_url": "https://github.com/qwerfdsaplking/MC-Fake",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "matched_paper_ids": [
+      "09587e63ecee4bd2"
+    ],
+    "related_paper_titles": [
+      "Divide-and-Conquer: Post-User Interaction Network for Fake News Detection on Social Media"
+    ],
+    "related_paper_titles_zh": [
+      "分而治之：社交媒体上虚假新闻检测的用户后交互网络"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1145/3485447.3512163"
+    ],
+    "description": "论文《分而治之：社交媒体上虚假新闻检测的用户后交互网络》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "sophia_ananiadou::llm_benchmark_data"
+    ],
+    "primary_categories": [
+      "Sophia Ananiadou：情感与大模型评测基准、数据集及综述"
+    ]
+  },
+  {
+    "id": "res_gh_27bc6f81777e",
+    "name": "SteveKGYang/BHG",
+    "name_zh": "SteveKGYang/BHG — 我们需要二分图来增强常识知识的情感推理",
+    "type": "code",
+    "url": "https://github.com/SteveKGYang/BHG",
+    "download_url": "https://github.com/SteveKGYang/BHG",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "matched_paper_ids": [
+      "4313c8eb1295cc82"
+    ],
+    "related_paper_titles": [
+      "A Bipartite Graph is All We Need for Enhancing Emotional Reasoning with Commonsense Knowledge"
+    ],
+    "related_paper_titles_zh": [
+      "我们需要二分图来增强常识知识的情感推理"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1145/3583780.3614758"
+    ],
+    "description": "论文《我们需要二分图来增强常识知识的情感推理》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "sophia_ananiadou::llm_benchmark_data",
+      "kailai_yang::llm_benchmark_data"
+    ],
+    "primary_categories": [
+      "Sophia Ananiadou：情感与大模型评测基准、数据集及综述",
+      "杨凯莱：情感与大模型评测基准、数据集及综述"
+    ]
+  },
+  {
+    "id": "res_gh_db773e2c6735",
+    "name": "MentaLLaMA (SteveKGYang/MentaLLaMA)",
+    "name_zh": "MentaLLaMA (SteveKGYang/MentaLLaMA) — MentaLLaMA：使用大型语言模型对社交媒体进行可解释的心理健康分析",
+    "type": "code",
+    "url": "https://github.com/SteveKGYang/MentaLLaMA",
+    "download_url": "https://github.com/SteveKGYang/MentaLLaMA",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "matched_paper_ids": [
+      "2104d2c2c8562f47"
+    ],
+    "related_paper_titles": [
+      "MentaLLaMA: Interpretable Mental Health Analysis on Social Media with Large Language Models"
+    ],
+    "related_paper_titles_zh": [
+      "MentaLLaMA：使用大型语言模型对社交媒体进行可解释的心理健康分析"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1145/3589334.3648137"
+    ],
+    "description": "论文《MentaLLaMA：使用大型语言模型对社交媒体进行可解释的心理健康分析》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "sophia_ananiadou::affective_llm_mllm",
+      "kailai_yang::affective_llm_mllm"
+    ],
+    "primary_categories": [
+      "Sophia Ananiadou：情感大模型、多模态指令微调与共情生成",
+      "杨凯莱：情感大模型、多模态指令微调与共情生成"
+    ]
+  },
+  {
+    "id": "res_gh_997592f5532d",
+    "name": "SuicidEmoji (TianlinZhang668/SuicidEmoji)",
+    "name_zh": "SuicidEmoji (TianlinZhang668/SuicidEmoji) — SuicidEmoji：衍生表情符号数据集和自杀相关社交内容的任务",
+    "type": "code",
+    "url": "https://github.com/TianlinZhang668/SuicidEmoji",
+    "download_url": "https://github.com/TianlinZhang668/SuicidEmoji",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "matched_paper_ids": [
+      "48de91572ee38d25"
+    ],
+    "related_paper_titles": [
+      "SuicidEmoji: Derived Emoji Dataset and Tasks for Suicide-Related Social Content"
+    ],
+    "related_paper_titles_zh": [
+      "SuicidEmoji：衍生表情符号数据集和自杀相关社交内容的任务"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1145/3626772.3657852"
+    ],
+    "description": "论文《SuicidEmoji：衍生表情符号数据集和自杀相关社交内容的任务》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "is_dataset_benchmark": true,
+    "dataset_title": "SuicidEmoji (TianlinZhang668/SuicidEmoji)",
+    "scholar_category_ids": [
+      "sophia_ananiadou::general_foundation",
+      "kailai_yang::general_foundation"
+    ],
+    "primary_categories": [
+      "Sophia Ananiadou：通用预训练大模型、视听生成与基础方法",
+      "杨凯莱：通用预训练大模型、视听生成与基础方法"
+    ]
+  },
+  {
+    "id": "res_gh_b352def53643",
+    "name": "EmoLLMs (lzw108/EmoLLMs)",
+    "name_zh": "EmoLLMs (lzw108/EmoLLMs) — EmoLLMs：一系列用于综合情感分析的情感大语言模型和注释工具",
+    "type": "code",
+    "url": "https://github.com/lzw108/EmoLLMs",
+    "download_url": "https://github.com/lzw108/EmoLLMs",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "matched_paper_ids": [
+      "d84ad0e000955a02",
+      "13c815166136f084"
+    ],
+    "related_paper_titles": [
+      "EmoLLMs: A Series of Emotional Large Language Models and Annotation Tools for Comprehensive Affective Analysis"
+    ],
+    "related_paper_titles_zh": [
+      "EmoLLMs：一系列用于综合情感分析的情感大语言模型和注释工具"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1145/3637528.3671552"
+    ],
+    "description": "论文《EmoLLMs：一系列用于综合情感分析的情感大语言模型和注释工具》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "is_dataset_benchmark": true,
+    "scholar_category_ids": [
+      "sophia_ananiadou::general_foundation",
+      "zhiwei_liu_man::general_foundation",
+      "kailai_yang::general_foundation"
+    ],
+    "primary_categories": [
+      "Sophia Ananiadou：通用预训练大模型、视听生成与基础方法",
+      "刘志威：通用预训练大模型、视听生成与基础方法",
+      "杨凯莱：通用预训练大模型、视听生成与基础方法"
+    ]
+  },
+  {
+    "id": "res_gh_fddf5b31e51b",
+    "name": "FMDLlama (lzw108/FMD)",
+    "name_zh": "FMDLlama (lzw108/FMD) — FMDLLama：基于大语言模型的金融错误信息检测",
+    "type": "code",
+    "url": "https://github.com/lzw108/FMD",
+    "download_url": "https://github.com/lzw108/FMD",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "matched_paper_ids": [
+      "e5de4f4e387e3f8f",
+      "b6830247ca5f9735"
+    ],
+    "related_paper_titles": [
+      "FMDLlama: Financial Misinformation Detection Based on Large Language Models"
+    ],
+    "related_paper_titles_zh": [
+      "FMDLLama：基于大语言模型的金融错误信息检测"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1145/3701716.3715599"
+    ],
+    "description": "论文《FMDLLama：基于大语言模型的金融错误信息检测》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "sophia_ananiadou::general_foundation",
+      "zhiwei_liu_man::general_foundation",
+      "kailai_yang::general_foundation"
+    ],
+    "primary_categories": [
+      "Sophia Ananiadou：通用预训练大模型、视听生成与基础方法",
+      "刘志威：通用预训练大模型、视听生成与基础方法",
+      "杨凯莱：通用预训练大模型、视听生成与基础方法"
+    ]
+  },
+  {
+    "id": "res_gh_d5212e213cde",
+    "name": "RAEmoLLM (lzw108/RAEmoLLM)",
+    "name_zh": "RAEmoLLM (lzw108/RAEmoLLM) — RAEmoLLM：使用基于情感信息的上下文学习进行跨域错误信息检测的检索增强大语言模型",
+    "type": "code",
+    "url": "https://github.com/lzw108/RAEmoLLM",
+    "download_url": "https://github.com/lzw108/RAEmoLLM",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "matched_paper_ids": [
+      "ae01bbf7338b298b"
+    ],
+    "related_paper_titles": [
+      "RAEmoLLM: Retrieval Augmented LLMs for Cross-Domain Misinformation Detection Using In-Context Learning Based on Emotional Information"
+    ],
+    "related_paper_titles_zh": [
+      "RAEmoLLM：使用基于情感信息的上下文学习进行跨域错误信息检测的检索增强大语言模型"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.18653/V1/2025.ACL-LONG.806"
+    ],
+    "description": "论文《RAEmoLLM：使用基于情感信息的上下文学习进行跨域错误信息检测的检索增强大语言模型》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "sophia_ananiadou::general_foundation",
+      "zhiwei_liu_man::general_foundation",
+      "kailai_yang::general_foundation"
+    ],
+    "primary_categories": [
+      "Sophia Ananiadou：通用预训练大模型、视听生成与基础方法",
+      "刘志威：通用预训练大模型、视听生成与基础方法",
+      "杨凯莱：通用预训练大模型、视听生成与基础方法"
+    ]
+  },
+  {
+    "id": "res_gh_13579fc1b868",
+    "name": "ConspEmoLLM (lzw108/ConspEmoLLM)",
+    "name_zh": "ConspEmoLLM (lzw108/ConspEmoLLM) — ConspEmoLLM：使用基于情感的大语言模型检测阴谋论",
+    "type": "code",
+    "url": "https://github.com/lzw108/ConspEmoLLM",
+    "download_url": "https://github.com/lzw108/ConspEmoLLM",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "matched_paper_ids": [
+      "13c815166136f084",
+      "78fa62e9afc2def2"
+    ],
+    "related_paper_titles": [
+      "ConspEmoLLM: Conspiracy Theory Detection Using an Emotion-Based Large Language Model"
+    ],
+    "related_paper_titles_zh": [
+      "ConspEmoLLM：使用基于情感的大语言模型检测阴谋论"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.3233/FAIA241060"
+    ],
+    "description": "论文《ConspEmoLLM：使用基于情感的大语言模型检测阴谋论》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "sophia_ananiadou::general_foundation",
+      "zhiwei_liu_man::general_foundation",
+      "kailai_yang::general_foundation"
+    ],
+    "primary_categories": [
+      "Sophia Ananiadou：通用预训练大模型、视听生成与基础方法",
+      "刘志威：通用预训练大模型、视听生成与基础方法",
+      "杨凯莱：通用预训练大模型、视听生成与基础方法"
+    ]
+  },
+  {
+    "id": "res_gh_dd78d71f5344",
+    "name": "MMAFFBen (lzw108/MMAFFBen)",
+    "name_zh": "MMAFFBen (lzw108/MMAFFBen) — MMAFFBen：用于评估 LLM 和 VLM 的多语言和多模式情感分析基准",
+    "type": "code",
+    "url": "https://github.com/lzw108/MMAFFBen",
+    "download_url": "https://github.com/lzw108/MMAFFBen",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "matched_paper_ids": [
+      "1166b7b4e04e6bfd"
+    ],
+    "related_paper_titles": [
+      "MMAFFBen: A Multilingual and Multimodal Affective Analysis Benchmark for Evaluating LLMs and VLMs"
+    ],
+    "related_paper_titles_zh": [
+      "MMAFFBen：用于评估 LLM 和 VLM 的多语言和多模式情感分析基准"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.48550/ARXIV.2505.24423"
+    ],
+    "description": "论文《MMAFFBen：用于评估 LLM 和 VLM 的多语言和多模式情感分析基准》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "is_dataset_benchmark": true,
+    "dataset_title": "MMAFFBen (lzw108/MMAFFBen)",
+    "scholar_category_ids": [
+      "sophia_ananiadou::general_foundation",
+      "zhiwei_liu_man::general_foundation",
+      "kailai_yang::general_foundation"
+    ],
+    "primary_categories": [
+      "Sophia Ananiadou：通用预训练大模型、视听生成与基础方法",
+      "刘志威：通用预训练大模型、视听生成与基础方法",
+      "杨凯莱：通用预训练大模型、视听生成与基础方法"
+    ]
+  },
+  {
+    "id": "res_gh_1a880a49bf10",
+    "name": "RAAR (lzw108/RAAR)",
+    "name_zh": "RAAR (lzw108/RAAR) — RAAR：用于跨域错误信息检测的检索增强代理推理",
+    "type": "code",
+    "url": "https://github.com/lzw108/RAAR",
+    "download_url": "https://github.com/lzw108/RAAR",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "matched_paper_ids": [
+      "af54f5502abbd674"
+    ],
+    "related_paper_titles": [
+      "RAAR: Retrieval Augmented Agentic Reasoning for Cross-Domain Misinformation Detection"
+    ],
+    "related_paper_titles_zh": [
+      "RAAR：用于跨域错误信息检测的检索增强代理推理"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.48550/ARXIV.2601.04853"
+    ],
+    "description": "论文《RAAR：用于跨域错误信息检测的检索增强代理推理》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "sophia_ananiadou::llm_benchmark_data",
+      "zhiwei_liu_man::llm_benchmark_data"
+    ],
+    "primary_categories": [
+      "Sophia Ananiadou：情感与大模型评测基准、数据集及综述",
+      "刘志威：情感与大模型评测基准、数据集及综述"
+    ]
+  },
+  {
+    "id": "res_gh_768f38a097c0",
+    "name": "MisSpans (lzw108/MisSpans)",
+    "name_zh": "MisSpans (lzw108/MisSpans) — MisSpans：跨域假新闻中的细粒度错误跨度识别",
+    "type": "code",
+    "url": "https://github.com/lzw108/MisSpans",
+    "download_url": "https://github.com/lzw108/MisSpans",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "sophia_ananiadou",
+    "scholar_name": "Sophia Ananiadou",
+    "matched_paper_ids": [
+      "da01a97e8baccf77"
+    ],
+    "related_paper_titles": [
+      "MisSpans: Fine-Grained False Span Identification in Cross-Domain Fake News"
+    ],
+    "related_paper_titles_zh": [
+      "MisSpans：跨域假新闻中的细粒度错误跨度识别"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.48550/ARXIV.2601.04857"
+    ],
+    "description": "论文《MisSpans：跨域假新闻中的细粒度错误跨度识别》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "sophia_ananiadou::llm_benchmark_data",
+      "zhiwei_liu_man::llm_benchmark_data"
+    ],
+    "primary_categories": [
+      "Sophia Ananiadou：情感与大模型评测基准、数据集及综述",
+      "刘志威：情感与大模型评测基准、数据集及综述"
+    ]
+  }
+]

@@ -224,7 +224,9 @@
       "LLM情感理解",
       "情感计算与情绪理解",
       "多模态与大语言模型",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感大模型",
+      "情感智能"
     ],
     "verification": "主题筛选候选；方法/基准候选",
     "status": "候选条目/需按作者主页继续核验",
@@ -329,7 +331,8 @@
       "情感智能评测",
       "心理理论驱动基准",
       "LLM情感理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感大模型"
     ],
     "verification": "主题筛选候选；方法/基准候选；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -480,11 +483,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "sahand_sabour",
-      "minlie_huang"
+      "minlie_huang",
+      "rada_mihalcea"
     ],
     "scholar_names": [
       "Sahand Sabour",
-      "黄民烈"
+      "黄民烈",
+      "Rada Mihalcea"
     ],
     "source_record_ids": [
       "sahand_sabour_1e4a6ac70818"
@@ -514,12 +519,26 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "rada_mihalcea": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "Rada Mihalcea",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "low",
+        "note": ""
       }
     },
     "global_record_id": "ed56c8798cc9e89b",
     "primary_categories_by_scholar": [
       "Sahand Sabour：情感数据集、基准与评测",
-      "黄民烈：情感脑电与多模态生理信号"
+      "黄民烈：情感脑电与多模态生理信号",
+      "Rada Mihalcea：视觉感知、语音信号与通用人工智能"
     ],
     "pdf_url": "https://arxiv.org/pdf/2502.07663",
     "abstract_en": "AI systems are increasingly intertwined with daily life, assisting users with various tasks and guiding decision-making. This integration introduces risks of AI-driven manipulation, where such systems may exploit users' cognitive biases and emotional vulnerabilities to steer them toward harmful outcomes. Through a randomized between-subjects experiment with 233 participants, we examined human susceptibility to such manipulation in financial (e.g., purchases) and emotional (e.g., conflict resolution) decision-making contexts. Participants interacted with one of three AI agents: a neutral agent (NA) optimizing for user benefit without explicit influence, a manipulative agent (MA) designed to covertly influence beliefs and behaviors, or a strategy-enhanced manipulative agent (SEMA) equipped with established psychological tactics, allowing it to select and apply them adaptively during interactions to reach its hidden objectives. By analyzing participants' preference ratings, we found significant susceptibility to AI-driven manipulation. Particularly across both decision-making domains, interacting with the manipulative agents significantly increased the odds of rating hidden incentives higher than optimal options (Financial, MA: OR=5.24, SEMA: OR=7.96; Emotional, MA: OR=5.52, SEMA: OR=5.71) compared to the NA group. Notably, we found no clear evidence that employing psychological strategies (SEMA) was overall more effective than simple manipulative objectives (MA) on our primary outcomes. Hence, AI-driven manipulation could become widespread even without requiring sophisticated tactics and expertise. While our findings are preliminary and derived from hypothetical, low-stakes scenarios, we highlight a critical vulnerability in human-AI interactions, emphasizing the need for ethical safeguards and regulatory frameworks to protect human autonomy.",
@@ -580,10 +599,12 @@
     "work_title_group": "556a80127149",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "sahand_sabour"
+      "sahand_sabour",
+      "rada_mihalcea"
     ],
     "scholar_names": [
-      "Sahand Sabour"
+      "Sahand Sabour",
+      "Rada Mihalcea"
     ],
     "source_record_ids": [
       "sahand_sabour_3a0172a71cb6"
@@ -600,16 +621,30 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "rada_mihalcea": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "Rada Mihalcea",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "29289fcb4a711c89",
     "primary_categories_by_scholar": [
-      "Sahand Sabour：情感数据集、基准与评测"
+      "Sahand Sabour：情感数据集、基准与评测",
+      "Rada Mihalcea：视觉感知、语音信号与通用人工智能"
     ],
     "pdf_url": "https://arxiv.org/pdf/2505.22981",
     "abstract_en": "User studies are central to user experience research, yet recruiting participant is expensive, slow, and limited in diversity. Recent work has explored using Large Language Models as simulated users, but doubts about fidelity have hindered practical adoption. We deepen this line of research by asking whether scale itself can enable useful simulation, even if not perfectly accurate. We introduce Crowdsourcing Simulated User Agents, a method that recruits generative agents from billion-scale profile assets to act as study participants. Unlike handcrafted simulations, agents are treated as recruitable, screenable, and engageable across UX research stages. To ground this method, we demonstrate a game prototyping study with hundreds of simulated players, comparing their insights against a 10-participant local user study and a 20-participant crowdsourcing study with humans. We find a clear scaling effect: as the number of simulated user agents increases, coverage of human findings rises smoothly and plateaus around 90\\%. 12.8 simulated agents are as useful as one locally recruited human, and 3.2 agents are as useful as one crowdsourced human. Results show that while individual agents are imperfect, aggregated simulations produce representative and actionable insights comparable to real users. Professional designers further rated these insights as balancing fidelity, cost, time efficiency, and usefulness. Finally, we release an agent crowdsourcing toolkit with a modular open-source pipeline and a curated pool of profiles synced from ongoing simulation research, to lower the barrier for researchers to adopt simulated participants. Together, this work contributes a validated method and reusable toolkit that expand the options for conducting scalable and practical UX studies.",
     "abstract_source": "openalex_verified",
-    "abstract_zh": "用户研究是用户体验研究的核心，但招募参与者成本高昂、缓慢且多样性有限。最近的工作探索了使用大型语言模型作为模拟用户，但对保真度的怀疑阻碍了实际采用。我们通过询问尺度本身是否可以实现有用的模拟（即使不完全准确）来深化这一研究方向。我们引入了众包模拟用户代理，这是一种从数十亿规模的档案资产中招募生成代理来充当研究参与者的方法。与手工模拟不同，代理在用户体验研究阶段被视为可招募、可筛选和可参与的。为了证实这种方法，我们演示了..."
+    "abstract_zh": "用户研究是用户体验研究的核心，但招募参与者成本高昂、缓慢且多样性有限。最近的工作探索了使用大型语言模型作为模拟用户，但对保真度的怀疑阻碍了实际采用。我们通过询问尺度本身是否可以实现有用的模拟（即使不完全准确）来深化这一研究方向。我们引入了众包模拟用户代理，这是一种从数十亿规模的档案资产中招募生成代理来充当研究参与者的方法。与手工模拟不同，代理在用户体验研究阶段被视为可招募、可筛选和可参与的。为了证实这种方法，我们演示了...",
+    "dblp_key": "journals/corr/abs-2505-22981"
   },
   {
     "title": "Enhanced large language models for effective screening of depression and anxiety",
@@ -634,7 +669,9 @@
       "LLM情感理解",
       "情感计算与情绪理解",
       "多模态与大语言模型",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感大模型",
+      "情感智能"
     ],
     "verification": "主题筛选候选；方法/基准候选",
     "status": "候选条目/需按作者主页继续核验",
@@ -968,7 +1005,8 @@
       "心理理论驱动基准",
       "LLM情感理解",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感智能"
     ],
     "verification": "主题筛选候选；方法/基准候选",
     "status": "候选条目/需按作者主页继续核验",
@@ -1005,14 +1043,16 @@
     "scholar_id": "sahand_sabour",
     "scholar_name": "Sahand Sabour",
     "work_title_group": "be31e3996d72",
-    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
       "sahand_sabour",
-      "minlie_huang"
+      "minlie_huang",
+      "rada_mihalcea"
     ],
     "scholar_names": [
       "Sahand Sabour",
-      "黄民烈"
+      "黄民烈",
+      "Rada Mihalcea"
     ],
     "source_record_ids": [
       "sahand_sabour_1c93c9e92033",
@@ -1046,12 +1086,28 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "rada_mihalcea": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "Rada Mihalcea",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解",
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "情感智能"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "f8ae588926f715f2",
     "primary_categories_by_scholar": [
       "Sahand Sabour：情感数据集、基准与评测",
-      "黄民烈：脑电基准、数据与评测"
+      "黄民烈：脑电基准、数据与评测",
+      "Rada Mihalcea：视觉感知、语音信号与通用人工智能"
     ],
     "pdf_url": "https://aclanthology.org/2024.acl-long.326.pdf",
     "abstract_en": "Sahand Sabour, Siyang Liu, Zheyuan Zhang, June Liu, Jinfeng Zhou, Alvionna Sunaryo, Tatia Lee, Rada Mihalcea, Minlie Huang. Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2024.",
@@ -1080,7 +1136,8 @@
       "情感智能评测",
       "心理理论驱动基准",
       "LLM情感理解",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；方法/基准候选",
     "status": "候选条目/需按作者主页继续核验",
@@ -1117,11 +1174,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "sahand_sabour",
-      "minlie_huang"
+      "minlie_huang",
+      "rada_mihalcea"
     ],
     "scholar_names": [
       "Sahand Sabour",
-      "黄民烈"
+      "黄民烈",
+      "Rada Mihalcea"
     ],
     "source_record_ids": [
       "sahand_sabour_69f1de90298f"
@@ -1151,12 +1210,27 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "rada_mihalcea": {
+        "category_id": "sentiment_nlp",
+        "label": "文本情感分析、情绪原因与认知语义",
+        "scholar_name": "Rada Mihalcea",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解",
+          "情感计算与情绪理解",
+          "情感智能"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "0602856a93ab321f",
     "primary_categories_by_scholar": [
       "Sahand Sabour：情感数据集、基准与评测",
-      "黄民烈：脑电基础模型与通用解码"
+      "黄民烈：脑电基础模型与通用解码",
+      "Rada Mihalcea：文本情感分析、情绪原因与认知语义"
     ],
     "pdf_url": "https://aclanthology.org/2023.emnlp-main.944.pdf",
     "abstract_en": "We propose task-adaptive tokenization 1 as a way to adapt the generation pipeline to the specifics of a downstream task and enhance long-form generation in mental health.Inspired by insights from cognitive science, our task-adaptive tokenizer samples variable segmentations from multiple outcomes, with sampling probabilities optimized based on taskspecific data.We introduce a strategy for building a specialized vocabulary and introduce a vocabulary merging protocol that allows for the integration of task-specific tokens into the pre-trained model's tokenization step.Through extensive experiments on psychological question-answering tasks in both Chinese and English, we find that our task-adaptive tokenization approach brings a significant improvement in generation performance while using up to 60% fewer tokens.Preliminary experiments point to promising results when using our tokenization approach with very large language models.",
@@ -1196,7 +1270,8 @@
       "情感智能评测",
       "心理理论驱动基准",
       "LLM情感理解",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感大模型"
     ],
     "verification": "主题筛选候选；方法/基准候选；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1407,7 +1482,8 @@
       "情感智能评测",
       "心理理论驱动基准",
       "LLM情感理解",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；方法/基准候选",
     "status": "候选条目/需按作者主页继续核验",
@@ -1616,7 +1692,8 @@
       "情感智能评测",
       "心理理论驱动基准",
       "LLM情感理解",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；方法/基准候选",
     "status": "候选条目/需按作者主页继续核验",
@@ -1722,7 +1799,8 @@
       "心理理论驱动基准",
       "LLM情感理解",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感智能"
     ],
     "verification": "主题筛选候选；方法/基准候选",
     "status": "候选条目/需按作者主页继续核验",
@@ -1830,7 +1908,8 @@
       "情感智能评测",
       "心理理论驱动基准",
       "LLM情感理解",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；方法/基准候选；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1937,7 +2016,8 @@
       "情感智能评测",
       "心理理论驱动基准",
       "LLM情感理解",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；方法/基准候选",
     "status": "候选条目/需按作者主页继续核验",
@@ -2050,7 +2130,8 @@
       "情感智能评测",
       "心理理论驱动基准",
       "LLM情感理解",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；方法/基准候选",
     "status": "候选条目/需按作者主页继续核验",
@@ -2153,7 +2234,8 @@
       "情感智能评测",
       "心理理论驱动基准",
       "LLM情感理解",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；方法/基准候选；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",

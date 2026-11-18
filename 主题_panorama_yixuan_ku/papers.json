@@ -336,7 +336,8 @@
       "情感理解与情感智能",
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1032,7 +1033,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5047127089）",
     "status": "已索引出版/会议记录",
@@ -2301,7 +2303,8 @@
     "topics": [
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2929,7 +2932,8 @@
     "abstract_zh": "当人类在免提路线上走得更远时，自动驾驶汽车是不可或缺的。尽管现有文献强调，如果自动驾驶汽车以类似人类的方式驾驶，其接受度将会提高，但很少有研究提供从乘客座椅角度的自然体验来检验当前自动驾驶汽车的人性化。本研究根据 69 名参与者在真实道路场景中的反馈，测试了人工智能驾驶员是否可以为乘客创造类似人类的乘车体验。我们为自动驾驶设计了基于乘坐体验的非语言图灵测试版本。参与者作为乘客乘坐自动驾驶汽车（由人类或人工智能驾驶员驾驶），并判断驾驶员是否是人类...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5047127089）",
     "status": "已索引出版/会议记录",
@@ -8620,10 +8624,12 @@
     "work_title_group": "bcaff3ffb843",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "panorama_yixuan_ku"
+      "panorama_yixuan_ku",
+      "bo_hong_thu"
     ],
     "scholar_names": [
-      "库逸轩"
+      "库逸轩",
+      "洪波"
     ],
     "source_record_ids": [
       "panorama_yixuan_ku_5be037f8c9e9"
@@ -8639,11 +8645,24 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "bo_hong_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "洪波",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "571e38aa26b4e778",
     "primary_categories_by_scholar": [
-      "库逸轩：情感脑电与多模态生理信号"
+      "库逸轩：情感脑电与多模态生理信号",
+      "洪波：脑电基础大模型与自监督预训练"
     ],
     "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0036410&type=printable",
     "abstract_en": "Abacus experts are able to mentally calculate multi-digit numbers rapidly. Some behavioral and neuroimaging studies have suggested a visuospatial and visuomotor strategy during abacus mental calculation. However, no study up to now has attempted to dissociate temporally the visuospatial neural process from the visuomotor neural process during abacus mental calculation. In the present study, an abacus expert performed the mental addition tasks (8-digit and 4-digit addends presented in visual or auditory modes) swiftly and accurately. The 100% correct rates in this expert's task performance were significantly higher than those of ordinary subjects performing 1-digit and 2-digit addition tasks. ERPs, EEG source localizations, and fMRI results taken together suggested visuospatial and visuomotor processes were sequentially arranged during the abacus mental addition with visual addends and could be dissociated from each other temporally. The visuospatial transformation of the numbers, in which the superior parietal lobule was most likely involved, might occur first (around 380 ms) after the onset of the stimuli. The visuomotor processing, in which the superior/middle frontal gyri were most likely involved, might occur later (around 440 ms). Meanwhile, fMRI results suggested that neural networks involved in the abacus mental addition with auditory stimuli were similar to those in the visual abacus mental addition. The most prominently activated brain areas in both conditions included the bilateral superior parietal lobules (BA 7) and bilateral middle frontal gyri (BA 6). These results suggest a supra-modal brain network in abacus mental addition, which may develop from normal mental calculation networks.",
@@ -8701,11 +8720,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "panorama_yixuan_ku",
-      "gao_xiaorong"
+      "gao_xiaorong",
+      "bo_hong_thu"
     ],
     "scholar_names": [
       "库逸轩",
-      "高小榕"
+      "高小榕",
+      "洪波"
     ],
     "source_record_ids": [
       "panorama_yixuan_ku_6d69d821b428"
@@ -8733,12 +8754,25 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bo_hong_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "洪波",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "3f19ba743bef1002",
     "primary_categories_by_scholar": [
       "库逸轩：情感脑电与多模态生理信号",
-      "高小榕：情感脑电与多模态生理信号"
+      "高小榕：情感脑电与多模态生理信号",
+      "洪波：脑电基础大模型与自监督预训练"
     ]
   },
   {
@@ -8868,10 +8902,12 @@
     "work_title_group": "8599b1cdba7f",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "panorama_yixuan_ku"
+      "panorama_yixuan_ku",
+      "bo_hong_thu"
     ],
     "scholar_names": [
-      "库逸轩"
+      "库逸轩",
+      "洪波"
     ],
     "source_record_ids": [
       "panorama_yixuan_ku_cdd5bdee86c2"
@@ -8887,11 +8923,24 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "bo_hong_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "洪波",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "74d5524cd003b3a9",
     "primary_categories_by_scholar": [
-      "库逸轩：情感脑电与多模态生理信号"
+      "库逸轩：情感脑电与多模态生理信号",
+      "洪波：脑电基础大模型与自监督预训练"
     ],
     "pdf_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3343365"
   },
@@ -8950,10 +8999,12 @@
     "work_title_group": "86741312eacf",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "panorama_yixuan_ku"
+      "panorama_yixuan_ku",
+      "bo_hong_thu"
     ],
     "scholar_names": [
-      "库逸轩"
+      "库逸轩",
+      "洪波"
     ],
     "source_record_ids": [
       "panorama_yixuan_ku_938f838103fd"
@@ -8969,11 +9020,25 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "bo_hong_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "洪波",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "脑机接口与神经解码",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "9faa69904e74cf96",
     "primary_categories_by_scholar": [
-      "库逸轩：情感脑电与多模态生理信号"
+      "库逸轩：情感脑电与多模态生理信号",
+      "洪波：脑电基础大模型与自监督预训练"
     ],
     "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0000771&type=printable",
     "abstract_en": "Our previous studies on scalp-recorded event-related potentials (ERPs) showed that somatosensory N140 evoked by a tactile vibration in working memory tasks was enhanced when human subjects expected a coming visual stimulus that had been paired with the tactile stimulus. The results suggested that such enhancement represented the cortical activities involved in tactile-visual crossmodal association. In the present study, we further hypothesized that the enhancement represented the neural activities in somatosensory and frontal cortices in the crossmodal association. By applying independent component analysis (ICA) to the ERP data, we found independent components (ICs) located in the medial prefrontal cortex (around the anterior cingulate cortex, ACC) and the primary somatosensory cortex (SI). The activity represented by the IC in SI cortex showed enhancement in expectation of the visual stimulus. Such differential activity thus suggested the participation of SI cortex in the task-related crossmodal association. Further, the coherence analysis and the Granger causality spectral analysis of the ICs showed that SI cortex appeared to cooperate with ACC in attention and perception of the tactile stimulus in crossmodal association. The results of our study support with new evidence an important idea in cortical neurophysiology: higher cognitive operations develop from the modality-specific sensory cortices (in the present study, SI cortex) that are involved in sensation and perception of various stimuli.",

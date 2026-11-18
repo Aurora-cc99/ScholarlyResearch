@@ -24,7 +24,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感大模型"
     ],
     "verification": "Crossref exact title match; DOI URL preserved",
     "status": "已核验作品（Crossref DOI）",
@@ -189,7 +190,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "Crossref exact title match; DOI URL preserved",
     "status": "已核验作品（Crossref DOI）",
@@ -277,7 +280,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "Crossref exact/near-exact title and publication-year match; DOI URL preserved",
     "status": "已核验作品（Crossref DOI）",
@@ -437,7 +441,8 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "Crossref exact title match; DOI URL preserved",
     "status": "已核验作品（Crossref DOI）",
@@ -597,7 +602,8 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -674,7 +680,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -819,15 +826,18 @@
     "authors": [
       "Yingming Gao"
     ],
-    "doi": "",
-    "paper_url": "",
+    "doi": "10.1109/TAFFC.2025.3632304",
+    "paper_url": "https://doi.org/10.1109/TAFFC.2025.3632304",
     "source_url": "",
     "topics": [
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能",
+      "多模态与大语言模型"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -839,7 +849,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 3,
     "publication_types": "",
     "candidate_source": true,
     "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
@@ -860,10 +870,12 @@
     "work_title_group": "a05c60e635ed",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "panorama_yingming_gao"
+      "panorama_yingming_gao",
+      "wanzeng_kong"
     ],
     "scholar_names": [
-      "高英明"
+      "高英明",
+      "孔万增"
     ],
     "source_record_ids": [
       "panorama_yingming_gao_24d93e7aef86"
@@ -880,12 +892,32 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "wanzeng_kong": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "孔万增",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "e2a11a318cd798ac",
     "primary_categories_by_scholar": [
-      "高英明：情感脑电与多模态生理信号"
-    ]
+      "高英明：情感脑电与多模态生理信号",
+      "孔万增：生理情感数据库、基准与综述"
+    ],
+    "dblp_key": "journals/taffco/HaoMGLK26",
+    "abstract_en": "Understanding emotional states is fundamental to advancing next-generation AI systems with human-like attributes. Combining the complementary strengths of electroencephalog raphy (EEG) and facial expressions holds great promise for advancing multimodal emotion recognition (MER). EEG provides objective measurements of neural activity, while facial expressions convey rich, externally observable emotional cues. However, existing joint learning frameworks often fall short of fully exploiting the synergy between these modalities. Two key challenges remain unresolved: (1) insufficient cross-modal alignment and interaction prior to fusion which limits the semantic complementarity between modalities; and (2) modality unreliability caused by temporal fluctuations in signal quality and inconsistencies in emotional semantics. To address these limitations, we propose a novel framework that integrates a Step-wise Prompts (SwiP) module with an Uncertainty-Aware Dynamic Fusion (UADF) mechanism. SwiP enables progressive, fine-grained interaction by introducing sequential facial features as visual prompts to guide EEG representation learning, thereby enhancing cross modal complementarity. UADF dynamically adjusts modality contributions through a token- and modality-level uncertainty estimation scheme, enabling the model to selectively emphasize informative inputs and suppress noisy or irrelevant signals. Extensive experiments on benchmark datasets demonstrate that our method achieves state-of-the-art performance, consistently outperforming competitive baselines in both accuracy and stability. These results highlight the potential of our framework as a robust and generalizable solution for real-world affective computing applications.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "了解情绪状态对于推进具有类人属性的下一代人工智能系统至关重要。将脑电图 (EEG) 和面部表情的互补优势相结合，为推进多模态情感识别 (MER) 带来了巨大希望。脑电图提供了神经活动的客观测量，而面部表情传达了丰富的、外部可观察到的情绪线索。然而，现有的联合学习框架往往无法充分利用这些模式之间的协同作用。两个关键挑战仍未解决：（1）融合前的跨模态对齐和交互不足，限制了模态之间的语义互补性； (2)由时间引起的模态不可靠性..."
   },
   {
     "title": "ASER: Attribute-Serialized Emotion Recognition With Generative Multi-Task Learning",
@@ -912,7 +944,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "Crossref exact title match; DOI URL preserved",
     "status": "已核验作品（Crossref DOI）",
@@ -997,7 +1030,9 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "Crossref exact title match; DOI URL preserved",
     "status": "已核验作品（Crossref DOI）",
@@ -1151,7 +1186,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1235,7 +1271,9 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "脑电基础大模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1338,7 +1376,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1490,7 +1529,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1567,7 +1607,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1719,7 +1760,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1796,7 +1838,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1949,7 +1992,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2027,7 +2071,8 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2104,7 +2149,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2180,7 +2226,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2262,7 +2310,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2363,7 +2412,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2453,15 +2503,16 @@
     "authors": [
       "Yingming Gao"
     ],
-    "doi": "",
-    "paper_url": "",
+    "doi": "10.1007/S10044-023-01136-0",
+    "paper_url": "https://doi.org/10.1007/S10044-023-01136-0",
     "source_url": "",
     "topics": [
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2473,7 +2524,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 24,
     "publication_types": "",
     "candidate_source": true,
     "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
@@ -2494,10 +2545,12 @@
     "work_title_group": "105d46305fdb",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "panorama_yingming_gao"
+      "panorama_yingming_gao",
+      "wanzeng_kong"
     ],
     "scholar_names": [
-      "高英明"
+      "高英明",
+      "孔万增"
     ],
     "source_record_ids": [
       "panorama_yingming_gao_888d5e5de138"
@@ -2514,12 +2567,29 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "wanzeng_kong": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "孔万增",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "e1599b518eae0c2b",
     "primary_categories_by_scholar": [
-      "高英明：情感脑电与多模态生理信号"
-    ]
+      "高英明：情感脑电与多模态生理信号",
+      "孔万增：脑电情感识别与多模态生理计算"
+    ],
+    "dblp_key": "journals/paa/MengZMGK23"
   },
   {
     "title": "Semi-supervised Multimodal Emotion Recognition with Consensus Decision-making and Label Correction",
@@ -2546,7 +2616,9 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2721,7 +2793,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2798,7 +2871,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2867,15 +2941,16 @@
     "authors": [
       "Yingming Gao"
     ],
-    "doi": "",
-    "paper_url": "",
+    "doi": "10.1016/J.BSPC.2022.103873",
+    "paper_url": "https://doi.org/10.1016/J.BSPC.2022.103873",
     "source_url": "",
     "topics": [
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2887,7 +2962,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 40,
     "publication_types": "",
     "candidate_source": true,
     "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
@@ -2908,10 +2983,12 @@
     "work_title_group": "b9b924abb090",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "panorama_yingming_gao"
+      "panorama_yingming_gao",
+      "wanzeng_kong"
     ],
     "scholar_names": [
-      "高英明"
+      "高英明",
+      "孔万增"
     ],
     "source_record_ids": [
       "panorama_yingming_gao_a955214fd6a0"
@@ -2928,12 +3005,30 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "wanzeng_kong": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "孔万增",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "a0d39a73de03002e",
     "primary_categories_by_scholar": [
-      "高英明：情感脑电与多模态生理信号"
-    ]
+      "高英明：情感脑电与多模态生理信号",
+      "孔万增：脑电情感识别与多模态生理计算"
+    ],
+    "dblp_key": "journals/bspc/MengHGKL22",
+    "pdf_url": "https://doi.org/10.2139/ssrn.3995235"
   },
   {
     "title": "Single-trial EEG emotion recognition using Granger Causality/Transfer Entropy analysis",
@@ -2952,7 +3047,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3028,7 +3124,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3104,7 +3201,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3173,14 +3271,15 @@
     "authors": [
       "Yingming Gao"
     ],
-    "doi": "",
-    "paper_url": "",
+    "doi": "10.1109/TAFFC.2016.2628787",
+    "paper_url": "https://doi.org/10.1109/TAFFC.2016.2628787",
     "source_url": "",
     "topics": [
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3192,7 +3291,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 196,
     "publication_types": "",
     "candidate_source": true,
     "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
@@ -3213,10 +3312,12 @@
     "work_title_group": "9e69a449fde5",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "panorama_yingming_gao"
+      "panorama_yingming_gao",
+      "sicheng_zhao"
     ],
     "scholar_names": [
-      "高英明"
+      "高英明",
+      "赵思成"
     ],
     "source_record_ids": [
       "panorama_yingming_gao_4f7084e7855d"
@@ -3233,12 +3334,31 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "sicheng_zhao": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "赵思成",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "情感计算与情绪理解",
+          "情感智能"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "c36caab4fddf56c3",
     "primary_categories_by_scholar": [
-      "高英明：情感脑电与多模态生理信号"
-    ]
+      "高英明：情感脑电与多模态生理信号",
+      "赵思成：视觉感知、语音信号与通用人工智能"
+    ],
+    "dblp_key": "journals/taffco/ZhaoYGDC18",
+    "abstract_en": "Images can convey rich semantics and induce various emotions to viewers. Most existing works on affective image analysis focused on predicting the dominant emotions for the majority of viewers. However, such dominant emotion is often insufficient in real-world applications, as the emotions that are induced by an image are highly subjective and different with respect to different viewers. In this paper, we propose to predict the personalized emotion perceptions of images for each individual viewer. Different types of factors that may affect personalized image emotion perceptions, including visual content, social context, temporal evolution, and location influence, are jointly investigated. Rolling multi-task hypergraph learning (RMTHG) is presented to consistently combine these factors and a learning algorithm is designed for automatic optimization. For evaluation, we set up a large scale image emotion dataset from Flickr, named Image-Emotion-Social-Net, on both dimensional and categorical emotion representations with over 1 million images and about 8,000 users. Experiments conducted on this dataset demonstrate that the proposed method can achieve significant performance gains on personalized emotion classification, as compared to several state-of-the-art approaches.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "图像可以传达丰富的语义，诱发观看者的各种情感。大多数现有的情感图像分析工作都集中于预测大多数观众的主导情绪。然而，这种主导情感在现实世界的应用中通常是不够的，因为图像引发的情感是高度主观的，并且对于不同的观看者来说是不同的。在本文中，我们建议预测每个观看者对图像的个性化情感感知。共同研究了可能影响个性化图像情感感知的不同类型的因素，包括视觉内容、社会背景、时间演变和位置影响。滚动多任务超图学习（RMTHG）是..."
   },
   {
     "title": "Combining brain-computer interface with virtual reality: Review and prospect",
@@ -3409,7 +3529,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3485,7 +3606,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",

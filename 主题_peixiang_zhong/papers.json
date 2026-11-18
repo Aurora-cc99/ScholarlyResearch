@@ -1,0 +1,977 @@
+[
+  {
+    "title": "Toward Knowledge-Enriched Conversational Recommendation Systems",
+    "title_en": "Toward Knowledge-Enriched Conversational Recommendation Systems",
+    "title_zh": "迈向知识丰富的会话推荐系统",
+    "year": 2022,
+    "venue": "Workshop on NLP for Conversational AI (NLP4ConvAI)",
+    "authors": [
+      "Tong Zhang",
+      "Yong Liu",
+      "Boyang Li",
+      "Peixiang Zhong",
+      "Chen Zhang",
+      "Hao Wang",
+      "Chunyan Miao"
+    ],
+    "doi": "10.18653/v1/2022.nlp4convai-1.17",
+    "dblp_key": "conf/acl-convai/ZhangLLZZWM22",
+    "paper_url": "https://doi.org/10.18653/v1/2022.nlp4convai-1.17",
+    "pdf_url": "https://aclanthology.org/2022.nlp4convai-1.17.pdf",
+    "source_url": "https://openalex.org/W4285308692",
+    "openalex_id": "https://openalex.org/W4285308692",
+    "openalex_author_id": "https://openalex.org/A5100378800",
+    "cited_by_count": 26,
+    "abstract_en": "Conversational Recommendation Systems recommend items through language based interactions with users.In order to generate naturalistic conversations and effectively utilize knowledge graphs (KGs) containing background information, we propose a novel Bag-of-Entities loss, which encourages the generated utterances to mention concepts related to the item being recommended, such as the genre or director of a movie.We also propose an alignment loss to further integrate KG entities into the response generation network.Experiments on the large-scale REDIAL dataset demonstrate that the proposed system consistently outperforms state-of-the-art baselines.",
+    "abstract_zh": "会话推荐系统通过与用户基于语言的交互来推荐项目。为了生成自然对话并有效利用包含背景信息的知识图谱（KG），我们提出了一种新颖的实体袋损失，它鼓励生成的话语提及与推荐项目相关的概念，例如电影的类型或导演。我们还提出了一种对齐损失，以进一步将 KG 实体集成到响应生成网络中。大规模 REDIAL 数据集上的实验表明，所提出的系统一致优于最先进的基线。",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100378800）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "tong_zhang_e432c8dcb951bb33",
+    "global_record_id": "39de691e9c0a2c6c",
+    "scholar_id": "tong_zhang",
+    "scholar_name": "张通",
+    "scholar_ids": [
+      "tong_zhang",
+      "peixiang_zhong"
+    ],
+    "scholar_names": [
+      "张通",
+      "钟培祥"
+    ],
+    "source_record_ids": [
+      "tong_zhang_e432c8dcb951bb33"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "tong_zhang": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "张通",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      },
+      "peixiang_zhong": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟培祥",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张通：脑电基准、数据与评测",
+      "钟培祥：生理情感数据库、基准与综述"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "EEG-Based Emotion Recognition Using Regularized Graph Neural Networks",
+    "title_en": "EEG-Based Emotion Recognition Using Regularized Graph Neural Networks",
+    "title_zh": "使用正则化图神经网络进行基于脑电图的情绪识别",
+    "year": 2022,
+    "venue": "IEEE Trans. Affect. Comput.",
+    "authors": [
+      "Peixiang Zhong",
+      "Chunyan Miao",
+      "Di Wang"
+    ],
+    "doi": "10.1109/TAFFC.2020.2994159",
+    "dblp_key": "journals/taffco/ZhongWM22",
+    "paper_url": "https://doi.org/10.1109/TAFFC.2020.2994159",
+    "pdf_url": "https://arxiv.org/pdf/1907.07835",
+    "source_url": "https://dblp.org/rec/journals/taffco/ZhongWM22",
+    "abstract_en": "Electroencephalography (EEG) measures the neuronal activities in different brain regions via electrodes. Many existing studies on EEG-based emotion recognition do not fully exploit the topology of EEG channels. In this article, we propose a regularized graph neural network (RGNN) for EEG-based emotion recognition. RGNN considers the biological topology among different brain regions to capture both local and global relations among different EEG channels. Specifically, we model the inter-channel relations in EEG signals via an adjacency matrix in a graph neural network where the connection and sparseness of the adjacency matrix are inspired by neuroscience theories of human brain organization. In addition, we propose two regularizers, namely node-wise domain adversarial training (NodeDAT) and emotion-aware distribution learning (EmotionDL), to better handle cross-subject EEG variations and noisy labels, respectively. Extensive experiments on two public datasets, SEED, and SEED-IV, demonstrate the superior performance of our model than state-of-the-art models in most experimental settings. Moreover, ablation studies show that the proposed adjacency matrix and two regularizers contribute consistent and significant gain to the performance of our RGNN model. Finally, investigations on the neuronal activities reveal important brain regions and inter-channel relations for EEG-based emotion recognition.",
+    "abstract_zh": "脑电图（EEG）通过电极测量不同大脑区域的神经元活动。许多现有的基于脑电图的情感识别研究并没有充分利用脑电图通道的拓扑结构。在本文中，我们提出了一种用于基于脑电图的情绪识别的正则化图神经网络（RGNN）。 RGNN 考虑不同大脑区域之间的生物拓扑，以捕获不同脑电图通道之间的局部和全局关系。具体来说，我们通过图神经网络中的邻接矩阵对脑电图信号中的通道间关系进行建模，其中邻接矩阵的连接和稀疏性受到人脑组织的神经科学理论的启发。此外，我们提出了两个正则化器，即......",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 1051,
+    "topics": [
+      "脑电情感识别",
+      "情感理解"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（159/2744）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "peixiang_zhong_e405ffbc012e7e0d",
+    "global_record_id": "e405ffbc012e7e0d",
+    "scholar_id": "peixiang_zhong",
+    "scholar_name": "钟培祥",
+    "scholar_ids": [
+      "peixiang_zhong"
+    ],
+    "scholar_names": [
+      "钟培祥"
+    ],
+    "source_record_ids": [
+      "peixiang_zhong_e405ffbc012e7e0d"
+    ],
+    "resource_ids": [
+      "res_gh_9aaf7bd793f9"
+    ],
+    "code_urls": [
+      "https://github.com/zhongpeixiang/RGNN"
+    ],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html"
+    ],
+    "model_urls": [],
+    "scholar_categories": {
+      "peixiang_zhong": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟培祥",
+        "secondary_tags": [
+          "脑电情感识别",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "钟培祥：生理情感数据库、基准与综述"
+    ],
+    "resource_status": "已关联公开资源入口",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_affect_bench",
+    "primary_category": "生理情感数据库、基准与综述"
+  },
+  {
+    "title": "Keyword-Guided Neural Conversational Model",
+    "title_en": "Keyword-Guided Neural Conversational Model",
+    "title_zh": "关键词引导神经对话模型",
+    "year": 2021,
+    "venue": "AAAI",
+    "authors": [
+      "Peixiang Zhong",
+      "Chunyan Miao",
+      "Hao Wang",
+      "Yong Liu"
+    ],
+    "doi": "10.1609/AAAI.V35I16.17712",
+    "dblp_key": "conf/aaai/ZhongLWM21",
+    "paper_url": "https://doi.org/10.1609/AAAI.V35I16.17712",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/17712/17519",
+    "source_url": "https://dblp.org/rec/conf/aaai/ZhongLWM21",
+    "abstract_en": "We study the problem of imposing conversational goals/keywords on open-domain conversational agents, where the agent is required to lead the conversation to a target keyword smoothly and fast. Solving this problem enables the application of conversational agents in many real-world scenarios, e.g., recommendation and psychotherapy. The dominant paradigm for tackling this problem is to 1) train a next-turn keyword classifier, and 2) train a keyword-augmented response retrieval model. However, existing approaches in this paradigm have two limitations: 1) the training and evaluation datasets for next-turn keyword classification are directly extracted from conversations without human annotations, thus, they are noisy and have low correlation with human judgements, and 2) during keyword transition, the agents solely rely on the similarities between word embeddings to move closer to the target keyword, which may not reflect how humans converse. In this paper, we assume that human conversations are grounded on commonsense and propose a keyword-guided neural conversational model that can leverage external commonsense knowledge graphs (CKG) for both keyword transition and response retrieval. Automatic evaluations suggest that commonsense improves the performance of both next-turn keyword prediction and keyword-augmented response retrieval. In addition, both self-play and human evaluations show that our model produces responses with smoother keyword transition and reaches the target keyword faster than competitive baselines.",
+    "abstract_zh": "我们研究了将会话目标/关键字强加于开放域会话代理的问题，其中代理需要平稳快速地将会话引导至目标关键字。解决这个问题使得对话代理能够在许多现实场景中应用，例如推荐和心理治疗。解决这个问题的主要范例是 1) 训练下一回合关键词分类器，2) 训练关键词增强响应检索模型。然而，这种范式中的现有方法有两个局限性：1）用于下一回合关键词分类的训练和评估数据集是直接从没有人工注释的对话中提取的，因此，它们是嘈杂的并且与......",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 43,
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者PID核验（159/2744）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "peixiang_zhong_693468e793f8fa31",
+    "global_record_id": "693468e793f8fa31",
+    "scholar_id": "peixiang_zhong",
+    "scholar_name": "钟培祥",
+    "scholar_ids": [
+      "peixiang_zhong"
+    ],
+    "scholar_names": [
+      "钟培祥"
+    ],
+    "source_record_ids": [
+      "peixiang_zhong_693468e793f8fa31"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "peixiang_zhong": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟培祥",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "钟培祥：生理情感数据库、基准与综述"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_affect_bench",
+    "primary_category": "生理情感数据库、基准与综述"
+  },
+  {
+    "title": "Towards humanized open-domain conversational agents",
+    "title_en": "Towards humanized open-domain conversational agents",
+    "title_zh": "迈向人性化的开放域对话代理",
+    "year": 2021,
+    "venue": "学术期刊/会议",
+    "authors": [
+      "Peixiang Zhong"
+    ],
+    "doi": "10.32657/10356/147791",
+    "dblp_key": "phd/sg/Zhong21",
+    "paper_url": "https://doi.org/10.32657/10356/147791",
+    "pdf_url": "https://dr.ntu.edu.sg/bitstream/10356/147791/2/Thesis%20%2836%29.pdf",
+    "source_url": "https://dblp.org/rec/phd/sg/Zhong21",
+    "abstract_en": "Language is the hallmark of humanity. Conversation or dialogue is a fundamental arena of language and one of the most commonly used forms by humans. In the field of artificial intelligence (AI) or, more specifically, natural language processing (NLP), a conversational agent (CA), also known as a dialogue system (DS), is an intelligent machine that can converse with humans in natural language. There are primarily three types of CAs: task-oriented CAs, question-answering (QA) systems, and open-domain CAs. In this thesis, we focus on open-domain CAs, also known as chatbots, which are designed to chat with users in any topics engagingly with the aim of establishing long-term relationships. Open-domain CAs are essential in modern conversational user interfaces and have been adopted in numerous business domains such as personal assistant, customer support, education, and healthcare. Building a human-level open-domain CA has been one of the major milestones in AI research. However, existing open-domain CAs often fail to model the intrinsic traits of humans and exhibit the following limitations: 1) they lack emotional intelligence and cannot generate or recognize emotions in conversations, which often lead to dull or generic responses; 2) they lack commonsense knowledge and often produce incoherent or unrelated responses; 3) they lack persona and often produce inconsistent responses; and 4) they lack empathy and often produce non-empathetic responses. Addressing the aforementioned limitations is important for bridging the gap between existing CAs and human-level CAs. These intrinsic traits of humans have been empirically shown to improve the performance of CAs on various tasks, e.g., user satisfaction in customer support, user trust and engagement in education, and mental health of participants in healthcare. Humanization is the process of attributing human traits to an entity. In this thesis, we propose to address the limitations by humanizing open-domain CAs with the following human traits: emotion, commonsense, persona, and empathy. Our thesis makes a step towards humanized open-domain CAs. Specifically, to humanize CAs with emotion and commonsense, we first propose an emotional open-domain CA that can generate natural and emotional responses. We then incorporate commonsense into emotional CAs and propose a conversational emotion recognition model and a commonsense-aware emotional response generation model. Experimental results show that both emotion and commonsense improve response quality and human ratings. In addition, emotion and commonsense are shown to have complementary effects in conversational emotion recognition and generation. To humanize CAs with persona and empathy, we propose a persona-based empathetic CA and investigate the impact of persona and empathy on response quality. Experimental results show that both persona and empathy consistently improve response quality and human ratings. In addition, we investigate the impact of persona on empathetic responding and our results suggest that persona has a larger impact on empathetic conversations than non-empathetic ones. Finally, we propose a humanized open-domain CA (HCA) that possesses all the proposed human traits simultaneously: emotion, commonsense, persona, and empathy. HCA aims to address the aforementioned limitations altogether. Specifically, we adopt a pretrain-and-finetune paradigm to develop a retrieval-based HCA in a multi-task learning setting. Experimental results show that the multi-task performance of HCA is better than its single-task performance, and our HCA outperforms the state-of-the-art CAs for response retrieval across multiple evaluation datasets. Our case study shows that our proposed HCA can demonstrate multiple human traits and produce consistent, informative, and empathetic responses.",
+    "abstract_zh": "语言是人类的标志。对话或对话是语言的基本领域，也是人类最常用的形式之一。在人工智能（AI）或更具体地自然语言处理（NLP）领域，会话智能体（CA），也称为对话系统（DS），是一种可以用自然语言与人类对话的智能机器。 CA 主要分为三种类型：面向任务的 CA、问答 (QA) 系统和开放域 CA。在本论文中，我们重点关注开放域 CA，也称为聊天机器人，它们旨在与用户就任何主题进行互动聊天，以建立长期关系。开放域 CA 在现代对话中至关重要......",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 2,
+    "topics": [
+      "情感理解",
+      "情感智能"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（159/2744）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "peixiang_zhong_bacc27f488ba6dbf",
+    "global_record_id": "bacc27f488ba6dbf",
+    "scholar_id": "peixiang_zhong",
+    "scholar_name": "钟培祥",
+    "scholar_ids": [
+      "peixiang_zhong"
+    ],
+    "scholar_names": [
+      "钟培祥"
+    ],
+    "source_record_ids": [
+      "peixiang_zhong_bacc27f488ba6dbf"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "peixiang_zhong": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟培祥",
+        "secondary_tags": [
+          "情感理解",
+          "情感智能"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "钟培祥：生理情感数据库、基准与综述"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_affect_bench",
+    "primary_category": "生理情感数据库、基准与综述"
+  },
+  {
+    "title": "ACT: an Attentive Convolutional Transformer for Efficient Text Classification",
+    "title_en": "ACT: an Attentive Convolutional Transformer for Efficient Text Classification",
+    "title_zh": "ACT：用于高效文本分类的细心卷积Transformer",
+    "year": 2021,
+    "venue": "AAAI",
+    "authors": [
+      "Kezhi Mao",
+      "Xuefeng Yang",
+      "Simon See",
+      "Yunfeng Liu",
+      "Peixiang Zhong",
+      "Jianxiong Yin",
+      "Dongzhe Wang",
+      "Pengfei Li"
+    ],
+    "doi": "10.1609/AAAI.V35I15.17566",
+    "dblp_key": "conf/aaai/LiZMWYLYS21",
+    "paper_url": "https://doi.org/10.1609/AAAI.V35I15.17566",
+    "pdf_url": "https://doi.org/10.1609/aaai.v35i15.17566",
+    "source_url": "https://dblp.org/rec/conf/aaai/LiZMWYLYS21",
+    "abstract_en": "Recently, Transformer has been demonstrating promising performance in many NLP tasks and showing a trend of replacing Recurrent Neural Network (RNN). Meanwhile, less attention is drawn to Convolutional Neural Network (CNN) due to its weak ability in capturing sequential and long-distance dependencies, although it has excellent local feature extraction capability. In this paper, we introduce an Attentive Convolutional Transformer (ACT) that takes the advantages of both Transformer and CNN for efficient text classification. Specifically, we propose a novel attentive convolution mechanism that utilizes the semantic meaning of convolutional filters attentively to transform text from complex word space to a more informative convolutional filter space where important n-grams are captured. ACT is able to capture both local and global dependencies effectively while preserving sequential information. Experiments on various text classification tasks and detailed analyses show that ACT is a lightweight, fast, and effective universal text classifier, outperforming CNNs, RNNs, and attentive models including Transformer.",
+    "abstract_zh": "最近，Transformer 在许多 NLP 任务中展现出了可喜的性能，并呈现出取代循环神经网络（RNN）的趋势。与此同时，卷积神经网络（CNN）尽管具有出色的局部特征提取能力，但由于其捕获顺序和长距离依赖性的能力较弱而较少受到关注。在本文中，我们介绍了一种注意力卷积变换器（ACT），它利用 Transformer 和 CNN 的优点来实现高效的文本分类。具体来说，我们提出了一种新颖的关注卷积机制，该机制关注地利用卷积过滤器的语义将文本从复杂的单词空间转换为信息更丰富的卷积过滤器......",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 54,
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者PID核验（159/2744）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "peixiang_zhong_2edeff763ea01cbf",
+    "global_record_id": "2edeff763ea01cbf",
+    "scholar_id": "peixiang_zhong",
+    "scholar_name": "钟培祥",
+    "scholar_ids": [
+      "peixiang_zhong"
+    ],
+    "scholar_names": [
+      "钟培祥"
+    ],
+    "source_record_ids": [
+      "peixiang_zhong_2edeff763ea01cbf"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "peixiang_zhong": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "钟培祥",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "钟培祥：脑电情感识别与多模态生理计算"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_affect_rec",
+    "primary_category": "脑电情感识别与多模态生理计算"
+  },
+  {
+    "title": "CARE: Commonsense-Aware Emotional Response Generation with Latent Concepts",
+    "title_en": "CARE: Commonsense-Aware Emotional Response Generation with Latent Concepts",
+    "title_zh": "CARE：具有潜在概念的常识性情绪反应生成",
+    "year": 2021,
+    "venue": "AAAI",
+    "authors": [
+      "Hao Wang",
+      "Di Wang",
+      "Chen Zhang",
+      "Chunyan Miao",
+      "Peixiang Zhong",
+      "Pengfei Li"
+    ],
+    "doi": "10.1609/AAAI.V35I16.17713",
+    "dblp_key": "conf/aaai/ZhongWLZWM21",
+    "paper_url": "https://doi.org/10.1609/AAAI.V35I16.17713",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/17713/17520",
+    "source_url": "https://dblp.org/rec/conf/aaai/ZhongWLZWM21",
+    "abstract_en": "Rationality and emotion are two fundamental elements of humans. Endowing agents with rationality and emotion has been one of the major milestones in AI. However, in the field of conversational AI, most existing models only specialize in one aspect and neglect the other, which often leads to dull or unrelated responses. In this paper, we hypothesize that combining rationality and emotion into conversational agents can improve response quality. To test the hypothesis, we focus on one fundamental aspect of rationality, i.e., commonsense, and propose CARE, a novel model for commonsense-aware emotional response generation. Specifically, we first propose a framework to learn and construct commonsense-aware emotional latent concepts of the response given an input message and a desired emotion. We then propose three methods to collaboratively incorporate the latent concepts into response generation. Experimental results on two large-scale datasets support our hypothesis and show that our model can produce more accurate and commonsense-aware emotional responses and achieve better human ratings than state-of-the-art models that only specialize in one aspect.",
+    "abstract_zh": "理性和情感是人类的两个基本要素。赋予智能体理性和情感一直是人工智能的重要里程碑之一。然而，在对话式人工智能领域，大多数现有模型只专注于某一方面而忽略了另一方面，这往往会导致反应迟钝或无关。在本文中，我们假设将理性和情感结合到会话代理中可以提高响应质量。为了检验这一假设，我们关注理性的一个基本方面，即常识，并提出 CARE，一种用于生成常识意识情绪反应的新模型。具体来说，我们首先提出一个框架来学习和构建响应的常识性情感潜在概念......",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 45,
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者PID核验（159/2744）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "peixiang_zhong_399d1768ad147450",
+    "global_record_id": "399d1768ad147450",
+    "scholar_id": "peixiang_zhong",
+    "scholar_name": "钟培祥",
+    "scholar_ids": [
+      "peixiang_zhong"
+    ],
+    "scholar_names": [
+      "钟培祥"
+    ],
+    "source_record_ids": [
+      "peixiang_zhong_399d1768ad147450"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "peixiang_zhong": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟培祥",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "钟培祥：生理情感数据库、基准与综述"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_affect_bench",
+    "primary_category": "生理情感数据库、基准与综述"
+  },
+  {
+    "title": "KECRS: Towards Knowledge-Enriched Conversational Recommendation System",
+    "title_en": "KECRS: Towards Knowledge-Enriched Conversational Recommendation System",
+    "title_zh": "KECRS：迈向知识丰富的会话推荐系统",
+    "year": 2021,
+    "venue": "arXiv (Cornell University)",
+    "authors": [
+      "Tong Zhang",
+      "Yong Liu",
+      "Peixiang Zhong",
+      "Chen Zhang",
+      "Wang, Hao",
+      "Chunyan Miao"
+    ],
+    "doi": "10.48550/arxiv.2105.08261",
+    "dblp_key": "journals/corr/abs-2105-08261",
+    "paper_url": "http://arxiv.org/abs/2105.08261",
+    "pdf_url": "https://arxiv.org/pdf/2105.08261",
+    "source_url": "https://openalex.org/W3163631185",
+    "openalex_id": "https://openalex.org/W3163631185",
+    "openalex_author_id": "https://openalex.org/A5100378800",
+    "cited_by_count": 32,
+    "abstract_en": "The chit-chat-based conversational recommendation systems (CRS) provide item recommendations to users through natural language interactions. To better understand user's intentions, external knowledge graphs (KG) have been introduced into chit-chat-based CRS. However, existing chit-chat-based CRS usually generate repetitive item recommendations, and they cannot properly infuse knowledge from KG into CRS to generate informative responses. To remedy these issues, we first reformulate the conversational recommendation task to highlight that the recommended items should be new and possibly interested by users. Then, we propose the Knowledge-Enriched Conversational Recommendation System (KECRS). Specifically, we develop the Bag-of-Entity (BOE) loss and the infusion loss to better integrate KG with CRS for generating more diverse and informative responses. BOE loss provides an additional supervision signal to guide CRS to learn from both human-written utterances and KG. Infusion loss bridges the gap between the word embeddings and entity embeddings by minimizing distances of the same words in these two embeddings. Moreover, we facilitate our study by constructing a high-quality KG, \\ie The Movie Domain Knowledge Graph (TMDKG). Experimental results on a large-scale dataset demonstrate that KECRS outperforms state-of-the-art chit-chat-based CRS, in terms of both recommendation accuracy and response generation quality.",
+    "abstract_zh": "基于聊天的会话推荐系统（CRS）通过自然语言交互向用户提供项目推荐。为了更好地理解用户的意图，基于闲聊的 CRS 中引入了外部知识图谱 (KG)。然而，现有的基于闲聊的 CRS 通常会生成重复的项目推荐，并且无法正确地将 KG 中的知识注入 CRS 中以生成信息丰富的响应。为了解决这些问题，我们首先重新制定会话推荐任务，以强调推荐的项目应该是新的并且可能是用户感兴趣的。然后，我们提出了知识丰富的会话推荐系统（KECRS）。斯...",
+    "abstract_source": "openalex_verified",
+    "topics": [],
+    "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100378800）",
+    "status": "预印本记录",
+    "source_kind": "openalex_verified",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "record_id": "tong_zhang_e4a3ce025da7aa71",
+    "global_record_id": "bd64e6d4ecc5cad5",
+    "scholar_id": "tong_zhang",
+    "scholar_name": "张通",
+    "scholar_ids": [
+      "tong_zhang",
+      "peixiang_zhong"
+    ],
+    "scholar_names": [
+      "张通",
+      "钟培祥"
+    ],
+    "source_record_ids": [
+      "tong_zhang_e4a3ce025da7aa71"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "tong_zhang": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "张通",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      },
+      "peixiang_zhong": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟培祥",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "张通：脑电基准、数据与评测",
+      "钟培祥：生理情感数据库、基准与综述"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测"
+  },
+  {
+    "title": "Endowing Empathetic Conversational Models with Personas",
+    "title_en": "Endowing Empathetic Conversational Models with Personas",
+    "title_zh": "赋予同理心对话模型人物角色",
+    "year": 2020,
+    "venue": "arXiv (Cornell University)",
+    "authors": [
+      "Peixiang Zhong",
+      "Yan Zhu",
+      "Yong Liu",
+      "Chen Zhang",
+      "Hao Wang",
+      "Zaiqing Nie",
+      "Chunyan Miao"
+    ],
+    "doi": "",
+    "dblp_key": "",
+    "paper_url": "http://ui.adsabs.harvard.edu/abs/2020arXiv200412316Z/abstract",
+    "pdf_url": "http://ui.adsabs.harvard.edu/abs/2020arXiv200412316Z/abstract",
+    "source_url": "https://openalex.org/W3017923703",
+    "abstract_en": "Empathetic conversational models have been shown to improve user satisfaction and task outcomes in numerous domains. In Psychology, persona has been shown to be highly correlated to personality, which in turn influences empathy. In addition, our empirical analysis also suggests that persona plays an important role in empathetic conversations. To this end, we propose a new task towards persona-based empathetic conversations and present the first empirical study on the impacts of persona on empathetic responding. Specifically, we first present a novel large-scale multi-domain dataset for persona-based empathetic conversations. We then propose CoBERT, an efficient BERT-based response selection model that obtains the state-of-the-art performance on our dataset. Finally, we conduct extensive experiments to investigate the impacts of persona on empathetic responding. Notably, our results show that persona improves empathetic responding more when CoBERT is trained on empathetic conversations than non-empathetic ones, establishing an empirical link between persona and empathy in human conversations.",
+    "abstract_zh": "事实证明，同理心对话模型可以提高许多领域的用户满意度和任务成果。在心理学中，角色已被证明与个性高度相关，进而影响同理心。此外，我们的实证分析还表明，角色在共情对话中发挥着重要作用。为此，我们提出了一项基于角色的共情对话的新任务，并提出了第一个关于角色对共情反应影响的实证研究。具体来说，我们首先提出了一种新颖的大规模多域数据集，用于基于角色的移情对话。然后，我们提出了 CoBERT，一种基于 BERT 的高效响应选择模型，可以获得最先进的性能...",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 3,
+    "topics": [
+      "情感智能"
+    ],
+    "verification": "OpenAlex作者实体与机构消歧核验（A5083996480）",
+    "status": "预印本",
+    "source_kind": "openalex_verified",
+    "record_id": "peixiang_zhong_a1453cb3ec2141ba",
+    "global_record_id": "a1453cb3ec2141ba",
+    "scholar_id": "peixiang_zhong",
+    "scholar_name": "钟培祥",
+    "scholar_ids": [
+      "peixiang_zhong"
+    ],
+    "scholar_names": [
+      "钟培祥"
+    ],
+    "source_record_ids": [
+      "peixiang_zhong_a1453cb3ec2141ba"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "peixiang_zhong": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟培祥",
+        "secondary_tags": [
+          "情感智能"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "钟培祥：生理情感数据库、基准与综述"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_affect_bench",
+    "primary_category": "生理情感数据库、基准与综述"
+  },
+  {
+    "title": "Endowing Empathetic Dialogue Systems with Personas",
+    "title_en": "Endowing Empathetic Dialogue Systems with Personas",
+    "title_zh": "赋予同理心对话系统人物角色",
+    "year": 2020,
+    "venue": "CoRR",
+    "authors": [
+      "Chunyan Miao",
+      "Zaiqing Nie",
+      "Yan Sun",
+      "Peixiang Zhong",
+      "Hao Wang",
+      "Chen Zhang",
+      "Yong Liu"
+    ],
+    "doi": "10.48550/ARXIV.2004.12316",
+    "dblp_key": "journals/corr/abs-2004-12316",
+    "paper_url": "https://doi.org/10.48550/ARXIV.2004.12316",
+    "pdf_url": "https://arxiv.org/abs/2004.12316",
+    "source_url": "https://dblp.org/rec/journals/corr/abs-2004-12316",
+    "abstract_en": "Empathetic dialogue systems have been shown to improve user satisfaction and task outcomes in numerous domains. In Psychology, persona has been shown to be highly correlated to personality, which in turn influences empathy. In addition, our empirical analysis also suggests that persona plays an important role in empathetic dialogues. To this end, we propose a new task to endow empathetic dialogue systems with personas and present the first empirical study on the impacts of persona on empathetic responding. Specifically, we first present a novel large-scale multi-domain dataset for empathetic dialogues with personas. We then propose CoBERT, an efficient BERT-based response selection model that obtains the state-of-the-art performance on our dataset. Finally, we conduct extensive experiments to investigate the impacts of persona on empathetic responding. Notably, our results show that persona improves empathetic responding more when CoBERT is trained on empathetic dialogues than non-empathetic ones, establishing an empirical link between persona and empathy in human dialogues.",
+    "abstract_zh": "事实证明，同理心对话系统可以提高许多领域的用户满意度和任务成果。在心理学中，角色已被证明与个性高度相关，进而影响同理心。此外，我们的实证分析还表明，人物角色在移情对话中发挥着重要作用。为此，我们提出了一项新任务，为共情对话系统赋予角色，并提出第一个关于角色对共情反应影响的实证研究。具体来说，我们首先提出了一个新颖的大规模多领域数据集，用于与角色进行移情对话。然后，我们提出了 CoBERT，一种基于 BERT 的高效响应选择模型，它在我们的……上获得了最先进的性能。",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 9,
+    "topics": [
+      "情感智能"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（159/2744）",
+    "status": "预印本（arXiv/CoRR）",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "peixiang_zhong_72839950318a0656",
+    "global_record_id": "72839950318a0656",
+    "scholar_id": "peixiang_zhong",
+    "scholar_name": "钟培祥",
+    "scholar_ids": [
+      "peixiang_zhong"
+    ],
+    "scholar_names": [
+      "钟培祥"
+    ],
+    "source_record_ids": [
+      "peixiang_zhong_72839950318a0656"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "peixiang_zhong": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟培祥",
+        "secondary_tags": [
+          "情感智能"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "钟培祥：生理情感数据库、基准与综述"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_affect_bench",
+    "primary_category": "生理情感数据库、基准与综述"
+  },
+  {
+    "title": "Towards Persona-Based Empathetic Conversational Models",
+    "title_en": "Towards Persona-Based Empathetic Conversational Models",
+    "title_zh": "迈向基于角色的移情对话模型",
+    "year": 2020,
+    "venue": "EMNLP (1)",
+    "authors": [
+      "Chen Zhang",
+      "Chunyan Miao",
+      "Hao Wang",
+      "Peixiang Zhong",
+      "Yong Liu"
+    ],
+    "doi": "10.18653/V1/2020.EMNLP-MAIN.531",
+    "dblp_key": "conf/emnlp/ZhongZWLM20",
+    "paper_url": "https://doi.org/10.18653/V1/2020.EMNLP-MAIN.531",
+    "pdf_url": "https://aclanthology.org/2020.emnlp-main.531.pdf",
+    "source_url": "https://dblp.org/rec/conf/emnlp/ZhongZWLM20",
+    "abstract_en": "Empathetic conversational models have been shown to improve user satisfaction and task outcomes in numerous domains.In Psychology, persona has been shown to be highly correlated to personality, which in turn influences empathy.In addition, our empirical analysis also suggests that persona plays an important role in empathetic conversations.To this end, we propose a new task towards persona-based empathetic conversations and present the first empirical study on the impact of persona on empathetic responding.Specifically, we first present a novel large-scale multi-domain dataset for persona-based empathetic conversations.We then propose CoBERT, an efficient BERT-based response selection model that obtains the state-of-the-art performance on our dataset.Finally, we conduct extensive experiments to investigate the impact of persona on empathetic responding.Notably, our results show that persona improves empathetic responding more when CoBERT is trained on empathetic conversations than non-empathetic ones, establishing an empirical link between persona and empathy in human conversations.",
+    "abstract_zh": "共情对话模型已被证明可以提高许多领域的用户满意度和任务结果。在心理学中，角色已被证明与人格高度相关，进而影响共情。此外，我们的实证分析还表明角色在共情对话中发挥着重要作用。为此，我们提出了一项基于角色的共情对话的新任务，并提出了第一个关于角色对共情反应影响的实证研究。具体来说，我们首先提出了一种新颖的大规模共情对话模型。基于角色的移情对话的多域数据集。然后，我们提出了 CoBERT，一种基于 BERT 的高效响应选择模型，可在...",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 180,
+    "topics": [
+      "情感智能"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（159/2744）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "peixiang_zhong_af3e0b1b9a030158",
+    "global_record_id": "af3e0b1b9a030158",
+    "scholar_id": "peixiang_zhong",
+    "scholar_name": "钟培祥",
+    "scholar_ids": [
+      "peixiang_zhong"
+    ],
+    "scholar_names": [
+      "钟培祥"
+    ],
+    "source_record_ids": [
+      "peixiang_zhong_af3e0b1b9a030158"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "peixiang_zhong": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟培祥",
+        "secondary_tags": [
+          "情感智能"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "钟培祥：生理情感数据库、基准与综述"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_affect_bench",
+    "primary_category": "生理情感数据库、基准与综述"
+  },
+  {
+    "title": "Convolutional Transformer with Sentiment-aware Attention for Sentiment Analysis",
+    "title_en": "Convolutional Transformer with Sentiment-aware Attention for Sentiment Analysis",
+    "title_zh": "用于情感分析的具有情感感知注意力的卷积Transformer",
+    "year": 2020,
+    "venue": "IJCNN",
+    "authors": [
+      "Jiaheng Zhang",
+      "Pengfei Li",
+      "Kezhi Mao",
+      "Peixiang Zhong"
+    ],
+    "doi": "10.1109/IJCNN48605.2020.9206796",
+    "dblp_key": "conf/ijcnn/LiZZM20",
+    "paper_url": "https://doi.org/10.1109/IJCNN48605.2020.9206796",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/conf/ijcnn/LiZZM20",
+    "abstract_en": "Given certain data available for training, the keys to improving a sentiment analysis system lie in developing a good model that is capable of capturing both local and global features of texts, as well as incorporating external knowledge into the model effectively. In this paper, we propose a multi-window Convolutional Transformer (ConvTransformer) that takes the advantages of both Transformer and CNN for sentiment analysis. The proposed ConvTransformer is able to capture important local n-gram features effectively while preserving sequential information of texts. Furthermore, we propose a sentiment-aware attention mechanism to incorporate the sentiment intensity information of each word by utilizing an external knowledge base, SentiWordNet. The sentiment-aware attention mechanism takes both sentiment and position information of each token into consideration when computing attention weights, resulting in a global feature for final classification. Comparing with CNN, RNN and attention-based baseline models, our model achieves the best performance on multiple sentiment analysis datasets.",
+    "abstract_zh": "给定一定的可用于训练的数据，改进情感分析系统的关键在于开发一个良好的模型，该模型能够捕获文本的局部和全局特征，并有效地将外部知识融入到模型中。在本文中，我们提出了一种多窗口卷积变换器（ConvTransformer），它利用 Transformer 和 CNN 的优点进行情感分析。所提出的 ConvTransformer 能够有效捕获重要的局部 n-gram 特征，同时保留文本的顺序信息。此外，我们提出了一种情感感知注意力机制，通过利用外部知识库 SentiWordNet 来合并每个单词的情感强度信息......",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 11,
+    "topics": [
+      "情感理解"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（159/2744）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "peixiang_zhong_7bdade6b02b375e2",
+    "global_record_id": "7bdade6b02b375e2",
+    "scholar_id": "peixiang_zhong",
+    "scholar_name": "钟培祥",
+    "scholar_ids": [
+      "peixiang_zhong"
+    ],
+    "scholar_names": [
+      "钟培祥"
+    ],
+    "source_record_ids": [
+      "peixiang_zhong_7bdade6b02b375e2"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "peixiang_zhong": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟培祥",
+        "secondary_tags": [
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "钟培祥：生理情感数据库、基准与综述"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_affect_bench",
+    "primary_category": "生理情感数据库、基准与综述"
+  },
+  {
+    "title": "An Affect-Rich Neural Conversational Model with Biased Attention and Weighted Cross-Entropy Loss",
+    "title_en": "An Affect-Rich Neural Conversational Model with Biased Attention and Weighted Cross-Entropy Loss",
+    "title_zh": "具有偏置注意力和加权交叉熵损失的情感丰富的神经对话模型",
+    "year": 2019,
+    "venue": "AAAI",
+    "authors": [
+      "Di Wang",
+      "Chunyan Miao",
+      "Peixiang Zhong"
+    ],
+    "doi": "10.1609/AAAI.V33I01.33017492",
+    "dblp_key": "conf/aaai/Zhong0M19",
+    "paper_url": "https://doi.org/10.1609/AAAI.V33I01.33017492",
+    "pdf_url": "https://doi.org/10.1609/aaai.v33i01.33017492",
+    "source_url": "https://dblp.org/rec/conf/aaai/Zhong0M19",
+    "abstract_en": "Affect conveys important implicit information in human communication. Having the capability to correctly express affect during human-machine conversations is one of the major milestones in artificial intelligence. In recent years, extensive research on open-domain neural conversational models has been conducted. However, embedding affect into such models is still under explored. In this paper, we propose an endto-end affect-rich open-domain neural conversational model that produces responses not only appropriate in syntax and semantics, but also with rich affect. Our model extends the Seq2Seq model and adopts VAD (Valence, Arousal and Dominance) affective notations to embed each word with affects. In addition, our model considers the effect of negators and intensifiers via a novel affective attention mechanism, which biases attention towards affect-rich words in input sentences. Lastly, we train our model with an affect-incorporated objective function to encourage the generation of affect-rich words in the output responses. Evaluations based on both perplexity and human evaluations show that our model outperforms the state-of-the-art baseline model of comparable size in producing natural and affect-rich responses.",
+    "abstract_zh": "情感在人类交流中传达重要的隐性信息。能够在人机对话中正确表达情感是人工智能的主要里程碑之一。近年来，人们对开放域神经会话模型进行了广泛的研究。然而，将情感嵌入到此类模型中仍在探索中。在本文中，我们提出了一种端到端的情感丰富的开放域神经会话模型，该模型产生的响应不仅适合语法和语义，而且具有丰富的情感。我们的模型扩展了 Seq2Seq 模型，并采用 VAD（Valence、Arousal 和 Dominance）情感符号来嵌入每个单词的情感。此外，我们的模型考虑了效果......",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 101,
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者PID核验（159/2744）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "peixiang_zhong_633cc8aaaddbfa47",
+    "global_record_id": "633cc8aaaddbfa47",
+    "scholar_id": "peixiang_zhong",
+    "scholar_name": "钟培祥",
+    "scholar_ids": [
+      "peixiang_zhong"
+    ],
+    "scholar_names": [
+      "钟培祥"
+    ],
+    "source_record_ids": [
+      "peixiang_zhong_633cc8aaaddbfa47"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "peixiang_zhong": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "钟培祥",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "钟培祥：脑电情感识别与多模态生理计算"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_affect_rec",
+    "primary_category": "脑电情感识别与多模态生理计算"
+  },
+  {
+    "title": "Knowledge-Enriched Transformer for Emotion Detection in Textual Conversations",
+    "title_en": "Knowledge-Enriched Transformer for Emotion Detection in Textual Conversations",
+    "title_zh": "用于文本对话中情绪检测的知识丰富的转换器",
+    "year": 2019,
+    "venue": "EMNLP/IJCNLP (1)",
+    "authors": [
+      "Chunyan Miao",
+      "Peixiang Zhong",
+      "Di Wang"
+    ],
+    "doi": "10.18653/V1/D19-1016",
+    "dblp_key": "conf/emnlp/ZhongWM19",
+    "paper_url": "https://doi.org/10.18653/V1/D19-1016",
+    "pdf_url": "https://www.aclweb.org/anthology/D19-1016.pdf",
+    "source_url": "https://dblp.org/rec/conf/emnlp/ZhongWM19",
+    "abstract_en": "Messages in human conversations inherently convey emotions. The task of detecting emotions in textual conversations leads to a wide range of applications such as opinion mining in social networks. However, enabling machines to analyze emotions in conversations is challenging, partly because humans often rely on the context and commonsense knowledge to express emotions. In this paper, we address these challenges by proposing a Knowledge-Enriched Transformer (KET), where contextual utterances are interpreted using hierarchical self-attention and external commonsense knowledge is dynamically leveraged using a context-aware affective graph attention mechanism. Experiments on multiple textual conversation datasets demonstrate that both context and commonsense knowledge are consistently beneficial to the emotion detection performance. In addition, the experimental results show that our KET model outperforms the state-of-the-art models on most of the tested datasets in F1 score.",
+    "abstract_zh": "人类对话中的信息本质上传达情感。检测文本对话中的情绪的任务带来了广泛的应用，例如社交网络中的意见挖掘。然而，让机器分析对话中的情绪具有挑战性，部分原因是人类经常依赖上下文和常识知识来表达情绪。在本文中，我们通过提出知识丰富的Transformer（KET）来解决这些挑战，其中使用分层自我注意来解释上下文话语，并使用上下文感知情感图注意机制动态地利用外部常识知识。对多个文本对话数据集的实验表明，上下文和...",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 374,
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者PID核验（159/2744）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "peixiang_zhong_53366b52e097ba22",
+    "global_record_id": "53366b52e097ba22",
+    "scholar_id": "peixiang_zhong",
+    "scholar_name": "钟培祥",
+    "scholar_ids": [
+      "peixiang_zhong"
+    ],
+    "scholar_names": [
+      "钟培祥"
+    ],
+    "source_record_ids": [
+      "peixiang_zhong_53366b52e097ba22"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "peixiang_zhong": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟培祥",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "钟培祥：生理情感数据库、基准与综述"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_affect_bench",
+    "primary_category": "生理情感数据库、基准与综述"
+  },
+  {
+    "title": "ntuer at SemEval-2019 Task 3: Emotion Classification with Word and Sentence Representations in RCNN",
+    "title_en": "ntuer at SemEval-2019 Task 3: Emotion Classification with Word and Sentence Representations in RCNN",
+    "title_zh": "ntuer 在 SemEval-2019 任务 3：RCNN 中使用单词和句子表示进行情感分类",
+    "year": 2019,
+    "venue": "SemEval@NAACL-HLT",
+    "authors": [
+      "Chunyan Miao",
+      "Peixiang Zhong"
+    ],
+    "doi": "10.18653/V1/S19-2048",
+    "dblp_key": "conf/semeval/ZhongM19",
+    "paper_url": "https://doi.org/10.18653/V1/S19-2048",
+    "pdf_url": "https://www.aclweb.org/anthology/S19-2048.pdf",
+    "source_url": "https://dblp.org/rec/conf/semeval/ZhongM19",
+    "abstract_en": "In this paper we present our model on the task of emotion detection in textual conversations in SemEval-2019.Our model extends the Recurrent Convolutional Neural Network (RCNN) by using external fine-tuned word representations and DeepMoji sentence representations.We also explored several other competitive pre-trained word and sentence representations including ELMo, BERT and InferSent but found inferior performance.In addition, we conducted extensive sensitivity analysis, which empirically shows that our model is relatively robust to hyper-parameters.Our model requires no handcrafted features or emotion lexicons but achieved good performance with a micro-F1 score of 0.7463.",
+    "abstract_zh": "在本文中，我们在 SemEval-2019 中提出了关于文本对话中的情感检测任务的模型。我们的模型通过使用外部微调的单词表示和 DeepMoji 句子表示扩展了循环卷积神经网络（RCNN）。我们还探索了其他几种有竞争力的预训练单词和句子表示，包括 ELMo、BERT 和 InferSent，但发现性能较差。此外，我们进行了广泛的敏感性分析，经验表明我们的模型对于超参数。我们的模型不需要手工制作的特征或情感词典，但取得了良好的性能，微 F1 分数为 0.7463。",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 15,
+    "topics": [
+      "脑电基础大模型"
+    ],
+    "verification": "DBLP官方SPARQL作者PID核验（159/2744）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "peixiang_zhong_37e19016ba5bfaec",
+    "global_record_id": "37e19016ba5bfaec",
+    "scholar_id": "peixiang_zhong",
+    "scholar_name": "钟培祥",
+    "scholar_ids": [
+      "peixiang_zhong"
+    ],
+    "scholar_names": [
+      "钟培祥"
+    ],
+    "source_record_ids": [
+      "peixiang_zhong_37e19016ba5bfaec"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [
+      "https://alt.qcri.org/semeval2018/"
+    ],
+    "model_urls": [],
+    "scholar_categories": {
+      "peixiang_zhong": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "钟培祥",
+        "secondary_tags": [
+          "脑电基础大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "钟培祥：脑电情感识别与多模态生理计算"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "eeg_affect_rec",
+    "primary_category": "脑电情感识别与多模态生理计算"
+  },
+  {
+    "title": "PAD: Privacy-preserving data dissemination in mobile social networks",
+    "title_en": "PAD: Privacy-preserving data dissemination in mobile social networks",
+    "title_zh": "PAD：移动社交网络中的隐私保护数据传播",
+    "year": 2014,
+    "venue": "ICCS",
+    "authors": [
+      "Rongxing Lu",
+      "Peixiang Zhong"
+    ],
+    "doi": "10.1109/ICCS.2014.7024802",
+    "dblp_key": "conf/iccoms/ZhongL14",
+    "paper_url": "https://doi.org/10.1109/ICCS.2014.7024802",
+    "pdf_url": "",
+    "source_url": "https://dblp.org/rec/conf/iccoms/ZhongL14",
+    "abstract_en": "In this paper, to simultaneously protect the location privacy of each mobile user and improve the performance of the data dissemination process in the mobile social network (MSN), we propose a privacy-preserving data dissemination (PAD) protocol by utilizing the Paillier cryptosystem and its homomorphic property. With PAD protocol, the delivery ratio of the MSN will be improved by selecting several active relay users to help deliver the data, meanwhile, the location privacy of each user against the source user will be protected. Detailed security analysis shows the security of the PAD protocol. Furthermore, massive simulation and evaluation prove the efficiency of our proposed PAD protocol in terms of delivery ratio.",
+    "abstract_zh": "在本文中，为了同时保护每个移动用户的位置隐私并提高移动社交网络（MSN）中数据传播过程的性能，我们利用Paillier密码系统及其同态性质提出了一种隐私保护数据传播（PAD）协议。利用PAD协议，通过选择多个活跃的中继用户来帮助传递数据，可以提高MSN的传递率，同时，可以保护每个用户针对源用户的位置隐私。详细的安全分析表明了PAD协议的安全性。此外，大量的仿真和评估证明了我们提出的 PAD 协议在传输率方面的效率。",
+    "abstract_source": "openalex_verified",
+    "cited_by_count": 7,
+    "topics": [],
+    "verification": "DBLP官方SPARQL作者PID核验（159/2744）",
+    "status": "已索引出版/会议记录",
+    "source_kind": "dblp_sparql_verified",
+    "record_id": "peixiang_zhong_e8cc77f7180524b3",
+    "global_record_id": "e8cc77f7180524b3",
+    "scholar_id": "peixiang_zhong",
+    "scholar_name": "钟培祥",
+    "scholar_ids": [
+      "peixiang_zhong"
+    ],
+    "scholar_names": [
+      "钟培祥"
+    ],
+    "source_record_ids": [
+      "peixiang_zhong_e8cc77f7180524b3"
+    ],
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "scholar_categories": {
+      "peixiang_zhong": {
+        "category_id": "general_ml_biomed",
+        "label": "通用模式识别、临床脑科学与跨领域应用",
+        "scholar_name": "钟培祥",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
+      }
+    },
+    "primary_categories_by_scholar": [
+      "钟培祥：通用模式识别、临床脑科学与跨领域应用"
+    ],
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源",
+    "translation_source": "中文辅助机器译名（Google GTX + 领域术语校正）；非作者官方中文题名",
+    "category_id": "general_ml_biomed",
+    "primary_category": "通用模式识别、临床脑科学与跨领域应用"
+  }
+]

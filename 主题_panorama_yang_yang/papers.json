@@ -95,7 +95,9 @@
       "脑电情感识别",
       "脑机接口与神经解码",
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -339,7 +341,8 @@
       "脑电情感识别",
       "脑机接口与神经解码",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -416,7 +419,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -493,7 +497,9 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感大模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -720,7 +726,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -796,7 +803,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -879,7 +887,9 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -916,14 +926,16 @@
     "scholar_id": "panorama_yang_yang",
     "scholar_name": "杨洋",
     "work_title_group": "5b9fc4e15d21",
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
       "panorama_yang_yang",
-      "ziyu_jia"
+      "ziyu_jia",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "杨洋",
-      "贾子瑜"
+      "贾子瑜",
+      "钟子平"
     ],
     "source_record_ids": [
       "panorama_yang_yang_9b5532015b19"
@@ -954,16 +966,33 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "6cf0aacf12e5a9aa",
     "primary_categories_by_scholar": [
       "杨洋：情感脑电与多模态生理信号",
-      "贾子瑜：情感脑电与多模态生理信号"
+      "贾子瑜：情感脑电与多模态生理信号",
+      "钟子平：生理情感数据库、基准与综述"
     ],
     "abstract_en": "Due to the inherent non-stationarity and individual differences present in electroencephalogram (EEG) signals, developing a generalizable model that performs well on new subjects is challenging in EEG-based emotion recognition. Most existing domain adaptation (DA) methods typically mitigate these discrepancies by aligning the marginal distributions of domain feature representations. However, when there is a significant difference in the class-conditional distribution between domain features and labels, the domain-invariant features learned by aligning marginal distributions may have limited discriminative ability for unlabeled target instances or even prove counterproductive. To address this issue, we propose a Neighborhood Semantic Aware Learning-based Dynamic Graph Attention Convolution (NSAL-DGAT) approach that learns target semantic information by considering the inter-domain semantic topological structure, thereby improving classifier adaptation for target instances. Specifically, the proposed NSAL framework is designed to capitalize on the insight that after domain feature alignment, some target samples and their neighboring source samples exhibit similar semantics. By leveraging the neighborhood topological structure, we extract and incorporate semantic target features to train a more transferable classifier. Besides, we implement an entropy weighting mechanism to emphasize representative target semantic information, encouraging target instances to prioritize high-confidence individuals within the source neighborhood. We have conducted extensive experiments on the public SEED dataset and our collected the Hearing-Impaired EEG Dataset (HIED). The experimental results underscore the efficacy of our proposed NSAL-DGAT approach, showcasing state-of-the-art accuracy in subject-dependent as well as subject-independent scenarios. The source code is available at https://github.com/YYingDL/NSAL-DGAT.",
     "abstract_source": "openalex_verified",
-    "abstract_zh": "由于脑电图 (EEG) 信号存在固有的非平稳性和个体差异，开发一种在新对象上表现良好的通用模型在基于脑电图的情绪识别中具有挑战性。大多数现有的域适应（DA）方法通常通过对齐域特征表示的边缘分布来减轻这些差异。然而，当域特征和标签之间的类条件分布存在显着差异时，通过对齐边缘分布学习到的域不变特征对于未标记的目标实例的区分能力可能有限，甚至适得其反。为了解决这个问题..."
+    "abstract_zh": "由于脑电图 (EEG) 信号存在固有的非平稳性和个体差异，开发一种在新对象上表现良好的通用模型在基于脑电图的情绪识别中具有挑战性。大多数现有的域适应（DA）方法通常通过对齐域特征表示的边缘分布来减轻这些差异。然而，当域特征和标签之间的类条件分布存在显着差异时，通过对齐边缘分布学习到的域不变特征对于未标记的目标实例的区分能力可能有限，甚至适得其反。为了解决这个问题...",
+    "dblp_key": "journals/taffco/YangWSJWJW25"
   },
   {
     "title": "Coarse-to-Fine Open-Set Semantic Adaptation for EEG Emotion Recognition in 6G-Oriented Semantic Communication Systems",
@@ -982,7 +1011,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1133,7 +1163,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1426,7 +1457,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1584,7 +1616,9 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1754,7 +1788,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1906,7 +1941,9 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1983,7 +2020,9 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2060,7 +2099,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2136,7 +2176,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2295,7 +2336,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2373,7 +2415,8 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2449,7 +2492,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2670,7 +2714,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2948,8 +2993,8 @@
     "authors": [
       "Yang Yang"
     ],
-    "doi": "",
-    "paper_url": "",
+    "doi": "10.1109/ACCESS.2016.2637409",
+    "paper_url": "https://doi.org/10.1109/ACCESS.2016.2637409",
     "source_url": "",
     "topics": [
       "脑电情感计算与脑机接口",
@@ -2967,7 +3012,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 89,
     "publication_types": "",
     "candidate_source": true,
     "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
@@ -2988,10 +3033,12 @@
     "work_title_group": "24b85d143d84",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "panorama_yang_yang"
+      "panorama_yang_yang",
+      "haixian_wang"
     ],
     "scholar_names": [
-      "杨洋"
+      "杨洋",
+      "王海贤"
     ],
     "source_record_ids": [
       "panorama_yang_yang_cee791fed9bf"
@@ -3008,12 +3055,31 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "haixian_wang": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "王海贤",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "6e3fc137bb93f960",
     "primary_categories_by_scholar": [
-      "杨洋：情感脑电与多模态生理信号"
-    ]
+      "杨洋：情感脑电与多模态生理信号",
+      "王海贤：脑电情感识别与多模态生理计算"
+    ],
+    "dblp_key": "journals/access/GeYWLGLYW17",
+    "pdf_url": "https://doi.org/10.1109/access.2016.2637409",
+    "abstract_en": "With the development of the wearable brain-computer interface (BCI), a few-channel BCI system is necessary for its application to daily life. In this paper, we proposed a bimodal BCI system that uses only a few channels of electroencephalograph (EEG) and functional near-infrared spectroscopy (fNIRS) signals to obtain relatively high accuracy. We developed new approaches for signal acquisition and signal processing to improve the performance of this few-channel BCI system. At the signal acquisition stage, source analysis was applied for both EEG and fNIRS signals to select the optimal channels for bimodal signal collection. At the feature extraction stage, phase-space reconstruction was applied to the selected three-channel EEG signals to expand them into multichannel signals, thus allowing the use of the traditional effective common spatial pattern to extract EEG features. For the fNIRS signal, the Hurst exponents for the selected ten channels were calculated and composed of the fNIRS data feature. At the classification stage, EEG and fNIRS features were joined and classified with the support vector machine. The averaged classification accuracy of 12 participants was 81.2% for the bimodal EEG-fNIRS signals, which was significantly higher than that for either single modality.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "随着可穿戴脑机接口（BCI）的发展，少通道脑机接口系统是其应用到日常生活中所必需的。在本文中，我们提出了一种双模态 BCI 系统，该系统仅使用脑电图 (EEG) 和功能性近红外光谱 (fNIRS) 信号的几个通道来获得相对较高的精度。我们开发了新的信号采集和信号处理方法，以提高这种少通道 BCI 系统的性能。在信号采集阶段，对 EEG 和 fNIRS 信号进行源分析，以选择双模态信号采集的最佳通道。在特征提取阶段，对选定的三通道脑电图信号应用相空间重建，以..."
   },
   {
     "title": "Improved Neural Regeneration with Olfactory Ensheathing Cell Inoculated PLGA Scaffolds in Spinal Cord Injury Adult Rats",
@@ -3159,8 +3225,8 @@
     "authors": [
       "Yang Yang"
     ],
-    "doi": "",
-    "paper_url": "",
+    "doi": "10.1109/ciis.2017.19",
+    "paper_url": "https://doi.org/10.1109/ciis.2017.19",
     "source_url": "",
     "topics": [
       "脑电情感计算与脑机接口",
@@ -3178,7 +3244,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 3,
     "publication_types": "",
     "candidate_source": true,
     "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
@@ -3199,10 +3265,12 @@
     "work_title_group": "efdd5d996f1c",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "panorama_yang_yang"
+      "panorama_yang_yang",
+      "haixian_wang"
     ],
     "scholar_names": [
-      "杨洋"
+      "杨洋",
+      "王海贤"
     ],
     "source_record_ids": [
       "panorama_yang_yang_163f41e81491"
@@ -3219,12 +3287,29 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "haixian_wang": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "王海贤",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "6317c7de39fbf913",
     "primary_categories_by_scholar": [
-      "杨洋：情感脑电与多模态生理信号"
-    ]
+      "杨洋：情感脑电与多模态生理信号",
+      "王海贤：脑电情感识别与多模态生理计算"
+    ],
+    "abstract_en": "We developed a highly accurate, few-channel, bimodal electroencephalograph (EEG) and near-infrared spectroscopy (NIRS) brain-computer interface (BCI) system by developing new methods for signal processing and feature extraction. For data processing, we performed source analysis of EEG and NIRS signals to select the best channels from which to build a few-channel system. For EEG feature extraction, we used phase space reconstruction to convert EEG few-channel signals into multichannel signals, facilitating the extraction of EEG features by common spatial pattern. The Hurst exponent of the selected 10 channels constituted the extracted NIRS data feature. For pattern classification, we fused EEG and NIRS features together and used the support vector machine classification method. The average accuracy of bimodal EEG-NIRS was significantly higher than that of either EEG or NIRS as unimodal techniques.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "我们通过开发信号处理和特征提取的新方法，开发了高精度、少通道、双模态脑电图（EEG）和近红外光谱（NIRS）脑机接口（BCI）系统。对于数据处理，我们对 EEG 和 NIRS 信号进行了源分析，以选择构建多通道系统的最佳通道。对于脑电图特征提取，我们使用相空间重构将脑电图少通道信号转换为多通道信号，便于通过共同的空间模式提取脑电图特征。所选 10 个通道的 Hurst 指数构成了提取的 NIRS 数据特征。对于模式分类，我们将 EEG 和 NIRS 特征融合在一起，并使用支持..."
   },
   {
     "title": "Lucky gene 5-HTTLPR and postpartum depression: A systematic review",
@@ -3711,8 +3796,8 @@
     "authors": [
       "Yang Yang"
     ],
-    "doi": "",
-    "paper_url": "",
+    "doi": "10.1109/ICARCV.2012.6485382",
+    "paper_url": "https://doi.org/10.1109/ICARCV.2012.6485382",
     "source_url": "",
     "topics": [
       "脑电情感计算与脑机接口",
@@ -3724,13 +3809,15 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://www.bbci.de/competition/iii/"
+    ],
     "model_urls": [],
     "openalex_id": "",
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 17,
     "publication_types": "",
     "candidate_source": true,
     "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
@@ -3751,10 +3838,12 @@
     "work_title_group": "908b3614943d",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "panorama_yang_yang"
+      "panorama_yang_yang",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "杨洋"
+      "杨洋",
+      "俞祝良"
     ],
     "source_record_ids": [
       "panorama_yang_yang_a244d6dc98f6"
@@ -3771,12 +3860,30 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "354e3f0ddbbd8530",
     "primary_categories_by_scholar": [
-      "杨洋：情感脑电与多模态生理信号"
-    ]
+      "杨洋：情感脑电与多模态生理信号",
+      "俞祝良：生理情感数据库、基准与综述"
+    ],
+    "dblp_key": "conf/icarcv/ZhouYY12",
+    "abstract_en": "Modern Brain-computer interface (BCI) technique is essentially based on the classification of the brain signals. The sparse representation classification (SRC) method has been studied for classifying EEG signals of the motor imagery based BCI. The dictionary used in the SRC method is the simple combination of feature vectors which are extracted from the EEG signal-trials by common spatial pattern (CSP) algorithm. In this paper, we propose a method to learn a new dictionary with smaller size and more discriminative ability for the classification. The proposed method, discriminative dictionary learning (DDL), is based on minimizing an objective function containing a reconstructive term and a discriminative term. We apply an iterative scheme to the optimization and transform it to a series of mixed ℓ1-ℓ2 optimizations, which are solved based on separable surrogate functions (SSF) technique. We evaluate the proposed method using the dataset from BCI competition III. The experimental results show that the proposed method outperforms the SRC method.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "现代脑机接口（BCI）技术本质上是基于大脑信号的分类。研究了稀疏表示分类（SRC）方法，用于对基于脑机接口的运动想象的脑电信号进行分类。 SRC方法中使用的字典是通过公共空间模式（CSP）算法从EEG信号试验中提取的特征向量的简单组合。在本文中，我们提出了一种学习新字典的方法，该字典具有更小的尺寸和更强的分类判别能力。所提出的方法，判别字典学习（DDL），基于最小化包含重构项和判别项的目标函数。我们应用迭代方案..."
   },
   {
     "title": "Pitch envelope based frame level score reweighed algorithm for emotion robust speaker recognition",
@@ -3794,7 +3901,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -4022,7 +4130,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",

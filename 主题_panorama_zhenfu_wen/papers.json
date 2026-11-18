@@ -1471,12 +1471,14 @@
     "authors": [
       "Zhenfu Wen"
     ],
-    "doi": "",
-    "paper_url": "",
+    "doi": "10.1101/2024.10.26.24316166",
+    "paper_url": "https://doi.org/10.1101/2024.10.26.24316166",
     "source_url": "",
     "topics": [
       "脑电情感计算与脑机接口",
-      "情感理解与情感智能"
+      "情感理解与情感智能",
+      "脑电基础大模型",
+      "医学影像与脑疾病诊断"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1488,7 +1490,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 2,
     "publication_types": "",
     "candidate_source": true,
     "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
@@ -1508,10 +1510,12 @@
     "work_title_group": "d2d7c3dfaa99",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "panorama_zhenfu_wen"
+      "panorama_zhenfu_wen",
+      "zhuliang_yu"
     ],
     "scholar_names": [
-      "温珍福"
+      "温珍福",
+      "俞祝良"
     ],
     "source_record_ids": [
       "panorama_zhenfu_wen_dffd5cbd4d19"
@@ -1527,12 +1531,30 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "脑电基础大模型",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "052db2bbf7ed2446",
     "primary_categories_by_scholar": [
-      "温珍福：情感脑电与多模态生理信号"
-    ]
+      "温珍福：情感脑电与多模态生理信号",
+      "俞祝良：生理情感数据库、基准与综述"
+    ],
+    "pdf_url": "https://doi.org/10.1101/2024.10.26.24316166",
+    "abstract_en": "Background Accurate and scalable sleep assessment is essential for the diagnosis of sleep disorders and the advancement of personalized sleep medicine. Current clinical practice relies predominantly on in-laboratory polysomnography (PSG) followed by manual sleep stage scoring. This process is labor-intensive, costly, and difficult to scale to large populations or long-term monitoring scenarios. Methods We introduce SleepGPT, the first sleep stage language model designed to model the sequential dynamics of sleep macrostructure. SleepGPT was pretrained in a self-supervised manner on over 5.8 million expert-annotated sleep stage labels derived from 5,793 whole-night PSG recordings. The model was evaluated as a plug-in module across multiple state-of-the-art sleep staging architectures and as a sequence-level representation backbone for sleep disorder diagnosis using Transformer-based models. Performance was assessed across multiple publicly available and independent clinical datasets. Findings Across diverse sleep staging benchmarks (total N = 1,320,654 epochs), SleepGPT consistently improved the performance of existing state-of-the-art models and enabled high-accuracy staging from low-density wearable EEG recordings ( N = 120,095), approaching PSG-level performance. When embedded into a sequence-level Transformer diagnostic framework, SleepGPT accurately identified abnormal sleep stage dynamics and Type-1 narcolepsy across multiple clinical cohorts (total N = 685). Attention-based analyses revealed interpretable alterations in sleep macrostructure associated with diagnostic labels. Interpretation These results demonstrate that SleepGPT functions as a general-purpose foundation model for sleep stage sequence modeling. By capturing the temporal organization of sleep at the macrostructural level, SleepGPT enables scalable, interpretable, and clinically translatable solutions for automated sleep staging and diagnosis of sleep disorders. Notably, operating on sleep stage sequences rather than raw physiological signals may reduce device sensitivity and site-specific variability, supporting more robust deployment across heterogeneous recording settings, including wearable and real-world sleep monitoring. Funding Details regarding funding supporting this work and all studies involved are provided in the acknowledgements section.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "背景 准确且可扩展的睡眠评估对于睡眠障碍的诊断和个性化睡眠医学的进步至关重要。目前的临床实践主要依赖于实验室多导睡眠图（PSG），然后是手动睡眠阶段评分。这个过程是劳动密集型的、成本高昂的，并且难以扩展到大量人群或长期监测场景。方法 我们引入了 SleepGPT，这是第一个睡眠阶段语言模型，旨在模拟睡眠宏观结构的顺序动态。 SleepGPT 以自我监督的方式对来自 5,793 个整夜 PSG 录音的超过 580 万个专家注释的睡眠阶段标签进行了预训练。该模型被评估为跨多个标准的插件模块..."
   },
   {
     "title": "Gray matter associations with extinction-induced neural activation in patients with anxiety disorders",
@@ -1802,7 +1824,8 @@
       "情感理解与情感智能",
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2579,7 +2602,8 @@
     "topics": [
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 51/2525-1）",
     "status": "已索引出版/会议记录",
@@ -3438,11 +3462,13 @@
     "scholar_name": "李远清",
     "scholar_ids": [
       "yuanqing_li",
-      "panorama_zhenfu_wen"
+      "panorama_zhenfu_wen",
+      "zhuliang_yu"
     ],
     "scholar_names": [
       "李远清",
-      "温珍福"
+      "温珍福",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_56e911091dbe14ea"
@@ -3471,11 +3497,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "李远清：脑电基准、数据与评测",
-      "温珍福：脑电基准、数据与评测"
+      "温珍福：脑电基准、数据与评测",
+      "俞祝良：生理情感数据库、基准与综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -3683,11 +3720,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "yuanqing_li",
-      "panorama_zhenfu_wen"
+      "panorama_zhenfu_wen",
+      "zhuliang_yu"
     ],
     "scholar_names": [
       "李远清",
-      "温珍福"
+      "温珍福",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_c98e8a2976c6"
@@ -3721,12 +3760,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与脑信息处理",
+          "情绪调控与意识障碍康复",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "eab3faea14449126",
     "primary_categories_by_scholar": [
       "李远清：情感脑电与多模态生理信号",
-      "温珍福：脑电基础模型与通用解码"
+      "温珍福：脑电基础模型与通用解码",
+      "俞祝良：脑电情感识别与多模态生理计算"
     ],
     "dblp_key": "journals/neuroimage/WenYYL19"
   },
@@ -3747,7 +3802,9 @@
       "情感理解与情感智能",
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",

@@ -146,7 +146,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -296,7 +297,7 @@
     "source_url": "https://dblp.org/rec/journals/corr/abs-2608-28018.html",
     "openalex_id": "",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 2,
     "abstract_en": "Knowledge-intensive reasoning requires Large Language Models (LLMs) to ground answers in provided evidence. When evidence is insufficient, it is desirable that models abstain rather than confidently generating unsupported answers. Existing abstention methods rely on uncertainty estimation or evidence sufficiency checks, but neither tests whether the reasoning process for generation, driven by the interaction of provided evidence and the model's internal memory parameters, is actually grounded in the evidence. A key contributing factor is that entity mentions in context activate memorised associations, causing models to generate plausible responses ungrounded in evidence. We propose Twin Worlds (TW), a framework for improving reliability in knowledge-intensive reasoning through equivariance-based abstention: unlike invariance, which requires outputs to remain unchanged, equivariance requires outputs to transform correspondingly under entity substitutions. A model grounded in the evidence should produce answers that shift consistently when entities are substituted while their relations are preserved. TW constructs multiple worlds via typed substitutions of the original input that preserve relational structure while reducing parametric priors, and uses equivariance violations as an abstention signal. Across four benchmarks and three model backbones, TW identifies when answers are not reliably grounded in the provided evidence and outperforms uncertainty- and sufficiency-based baselines.",
     "abstract_zh": "知识密集型推理需要大型语言模型 (LLM) 在提供的证据中提供答案。当证据不足时，模型最好放弃，而不是自信地生成不受支持的答案。现有的弃权方法依赖于不确定性估计或证据充分性检查，但都没有测试由提供的证据和模型的内部记忆参数的相互作用驱动的生成推理过程是否真正以证据为基础。一个关键的影响因素是上下文中提到的实体会激活记忆的关联，从而导致模型生成没有证据基础的看似合理的响应。我们提出 Twin Worlds (TW)，一个提高可靠性的框架......",
     "abstract_source": "arxiv_api",
@@ -310,10 +311,12 @@
     "scholar_id": "panorama_xiaochu_zhang",
     "scholar_name": "张效初",
     "scholar_ids": [
-      "panorama_xiaochu_zhang"
+      "panorama_xiaochu_zhang",
+      "erik_cambria"
     ],
     "scholar_names": [
-      "张效初"
+      "张效初",
+      "Erik Cambria"
     ],
     "source_record_ids": [
       "panorama_xiaochu_zhang_305c9f2d73db028c"
@@ -330,10 +333,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "erik_cambria": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Erik Cambria",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "张效初：脑电基准、数据与评测"
+      "张效初：脑电基准、数据与评测",
+      "Erik Cambria：自然语言处理、多模态学习与通用方法"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -522,7 +534,9 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感大模型",
+      "情感智能"
     ],
     "verification": "Crossref exact title match; DOI URL preserved",
     "status": "已核验作品（Crossref DOI）",
@@ -604,7 +618,8 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -701,10 +716,12 @@
     "scholar_id": "panorama_xiaochu_zhang",
     "scholar_name": "张效初",
     "scholar_ids": [
-      "panorama_xiaochu_zhang"
+      "panorama_xiaochu_zhang",
+      "erik_cambria"
     ],
     "scholar_names": [
-      "张效初"
+      "张效初",
+      "Erik Cambria"
     ],
     "source_record_ids": [
       "panorama_xiaochu_zhang_18458bd7930ac9c0"
@@ -721,10 +738,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "erik_cambria": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Erik Cambria",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "张效初：脑电基准、数据与评测"
+      "张效初：脑电基准、数据与评测",
+      "Erik Cambria：自然语言处理、多模态学习与通用方法"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -970,7 +996,8 @@
     "topics": [
       "脑机接口与神经解码",
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5076650647）",
     "status": "已索引出版/会议记录",
@@ -1492,7 +1519,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1569,7 +1597,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1654,7 +1683,9 @@
       "脑电情感识别",
       "脑机接口与神经解码",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1752,7 +1783,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1901,7 +1933,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2849,7 +2882,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2926,7 +2960,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -4024,7 +4059,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -4816,13 +4852,14 @@
     "source_url": "https://dblp.org/rec/journals/corr/abs-2506-06987.html",
     "openalex_id": "",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 26,
     "abstract_en": "Metaphors are pervasive in communication, making them crucial for natural language processing (NLP). Previous research on automatic metaphor processing predominantly relies on training data consisting of English samples, which often reflect Western European or North American biases. This cultural skew can lead to an overestimation of model performance and contributions to NLP progress. However, the impact of cultural bias on metaphor processing, particularly in multimodal contexts, remains largely unexplored. To address this gap, we introduce MultiMM, a Multicultural Multimodal Metaphor dataset designed for cross-cultural studies of metaphor in Chinese and English. MultiMM consists of 8,461 text-image advertisement pairs, each accompanied by fine-grained annotations, providing a deeper understanding of multimodal metaphors beyond a single cultural domain. Additionally, we propose Sentiment-Enriched Metaphor Detection (SEMD), a baseline model that integrates sentiment embeddings to enhance metaphor comprehension across cultural backgrounds. Experimental results validate the effectiveness of SEMD on metaphor detection and sentiment analysis tasks. We hope this work increases awareness of cultural bias in NLP research and contributes to the development of fairer and more inclusive language models. Our dataset and code are available at https://github.com/DUTIR-YSQ/MultiMM.",
     "abstract_zh": "隐喻在交流中普遍存在，这使得它们对于自然语言处理（NLP）至关重要。先前关于自动隐喻处理的研究主要依赖于由英语样本组成的训练数据，这通常反映了西欧或北美的偏见。这种文化偏差可能会导致对模型性能和对 NLP 进步的贡献的高估。然而，文化偏见对隐喻处理的影响，特别是在多模态环境中，在很大程度上仍未得到探索。为了解决这一差距，我们引入了 MultiMM，这是一个多文化多模态隐喻数据集，专为中文和英语隐喻的跨文化研究而设计。 MultiMM 由 8,461 个文本-图像广告对组成，每个广告对都附有...",
     "abstract_source": "arxiv_api",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 20/2941-1）",
     "status": "预印本记录",
@@ -4833,10 +4870,12 @@
     "scholar_id": "panorama_xiaochu_zhang",
     "scholar_name": "张效初",
     "scholar_ids": [
-      "panorama_xiaochu_zhang"
+      "panorama_xiaochu_zhang",
+      "hongfei_lin"
     ],
     "scholar_names": [
-      "张效初"
+      "张效初",
+      "林鸿飞"
     ],
     "source_record_ids": [
       "panorama_xiaochu_zhang_8dacffccbb565860"
@@ -4862,12 +4901,25 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "hongfei_lin": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "林鸿飞",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "张效初：脑电基准、数据与评测"
+      "张效初：脑电基准、数据与评测",
+      "林鸿飞：视觉感知、语音信号与通用人工智能"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "eeg_benchmark",
     "primary_category": "脑电基准、数据与评测"
   },
@@ -5228,10 +5280,12 @@
     "scholar_id": "panorama_xiaochu_zhang",
     "scholar_name": "张效初",
     "scholar_ids": [
-      "panorama_xiaochu_zhang"
+      "panorama_xiaochu_zhang",
+      "fali_li"
     ],
     "scholar_names": [
-      "张效初"
+      "张效初",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_xiaochu_zhang_c0bcad509f9615fa"
@@ -5248,10 +5302,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "李发礼",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "张效初：脑电基础模型与通用解码"
+      "张效初：脑电基础模型与通用解码",
+      "李发礼：脑电情感识别与多模态生理计算"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -5535,7 +5598,8 @@
     "abstract_zh": "摘要 随着世界范围内独生子女家庭的增加，了解无兄弟姐妹成长（GWS）对人类健康的影响至关重要，但关于GWS对人类大脑影响的了解有限。此外，现有研究报告了 GWS 与心理健康之间的矛盾关联，这很可能是由于不匹配的混杂因素和被忽视的成长环境造成的。在这里，我们利用混杂因素匹配良好的 2,305 对有或没有兄弟姐妹的个体，全面研究了 GWS 对成人大脑结构、功能和行为变化的影响，以及从 GWS、生长环境到大脑和行为的通路。我们的研究结果发现了新的关联，包括 GWS 与...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5076650647）",
     "status": "已索引出版/会议记录",
@@ -5816,7 +5880,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -6574,12 +6639,13 @@
     "source_url": "https://dblp.org/rec/journals/corr/abs-2407-14049.html",
     "openalex_id": "",
     "openalex_author_id": "",
-    "cited_by_count": 0,
-    "abstract_en": "Key Point Analysis (KPA) aims for quantitative summarization that provides key points (KPs) as succinct textual summaries and quantities measuring their prevalence. KPA studies for arguments and reviews have been reported in the literature. A majority of KPA studies for reviews adopt supervised learning to extract short sentences as KPs before matching KPs to review comments for quantification of KP prevalence. Recent abstractive approaches still generate KPs based on sentences, often leading to KPs with overlapping and hallucinated opinions, and inaccurate quantification. In this paper, we propose Prompted Aspect Key Point Analysis (PAKPA) for quantitative review summarization. PAKPA employs aspect sentiment analysis and prompted in-context learning with Large Language Models (LLMs) to generate and quantify KPs grounded in aspects for business entities, which achieves faithful KPs with accurate quantification, and removes the need for large amounts of annotated data for supervised training. Experiments on the popular review dataset Yelp and the aspect-oriented review summarization dataset SPACE show that our framework achieves state-of-the-art performance. Source code and data are available at: https://github.com/antangrocket1312/PAKPA",
+    "cited_by_count": 15,
+    "abstract_en": "Key Point Analysis (KPA) aims for quantitative summarization that provides key points (KPs) as succinct textual summaries and quantities measuring their prevalence.KPA studies for arguments and reviews have been reported in the literature.A majority of KPA studies for reviews adopt supervised learning to extract short sentences as KPs before matching KPs to review comments for quantification of KP prevalence.Recent abstractive approaches still generate KPs based on sentences, often leading to KPs with overlapping and hallucinated opinions, and inaccurate quantification.In this paper, we propose Prompted Aspect Key Point Analysis (PAKPA) for quantitative review summarization.PAKPA employs aspect sentiment analysis and prompted in-context learning with Large Language Models (LLMs) to generate and quantify KPs grounded in aspects for business entities, which achieves faithful KPs with accurate quantification, and removes the need for large amounts of annotated data for supervised training.Experiments on the popular review dataset Yelp and the aspect-oriented review summarization dataset SPACE show that our framework achieves state-of-the-art performance.Source code and data are available at: https://github.com/ antangrocket1312/PAKPA Key Point Prevalence Matching Comments Friendly and helpful staff.46 From the minute I walked in the door the staff has treated me with such kindness and respect, there are not enough words I can say of how much gratitude I have for the staff here.It's a fine hotel, pretty basic, and all of the staff members we encountered were quite friendly.Excellent location for business travelers.37 Its a great location for business travelers since I can stay here and always be going the opposite way of traffic.*This hotel has an IDEAL location, the shuttle was perfect, and we got a great deal on priceline.Clean and comfortable rooms.32 *You will enjoy the breathtaking views from your spacious, clean and comfortable room.The rooms were nice and clean and the bed was comfortable.Convenient and helpful shuttle service.12 *This hotel has an IDEAL location, the shuttle was perfect, and we got a great deal on priceline.I would also like to give a shout out to the terrific shuttle drivers Jeff and Rod who were so great to my family group.Amazing view of Vanderbilt football stadium or The Parthenon.10 *You will enjoy the breathtaking views from your spacious, clean and comfortable room.Then the surprise came when we opened the curtains to see a full on view of the Vanderbilt football stadium.",
     "abstract_zh": "关键点分析 (KPA) 旨在进行定量总结，提供关键点 (KP) 作为简洁的文本摘要和衡量其流行程度的数量。 KPA 的论证和评论研究已在文献中报道过。大多数用于评论的 KPA 研究采用监督学习来提取短句作为 KP，然后将 KP 与评论评论进行匹配以量化 KP 流行率。最近的抽象方法仍然基于句子生成 KP，通常导致 KP 具有重叠和幻觉的观点，以及不准确的量化。在本文中，我们提出了提示方面关键点分析（PAKPA）来进行定量评审总结。 PAKPA 采用方面情感分析并提示上下文...",
-    "abstract_source": "arxiv_api",
+    "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 20/2941-1）",
     "status": "预印本记录",
@@ -6590,10 +6656,12 @@
     "scholar_id": "panorama_xiaochu_zhang",
     "scholar_name": "张效初",
     "scholar_ids": [
-      "panorama_xiaochu_zhang"
+      "panorama_xiaochu_zhang",
+      "erik_cambria"
     ],
     "scholar_names": [
-      "张效初"
+      "张效初",
+      "Erik Cambria"
     ],
     "source_record_ids": [
       "panorama_xiaochu_zhang_c94e4e230ee24e23"
@@ -6616,12 +6684,24 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "erik_cambria": {
+        "category_id": "affect_int_llm",
+        "label": "情感大模型、知识推理与评测基准",
+        "scholar_name": "Erik Cambria",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "张效初：情感脑电与多模态生理信号"
+      "张效初：情感脑电与多模态生理信号",
+      "Erik Cambria：情感大模型、知识推理与评测基准"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "eeg_affect",
     "primary_category": "情感脑电与多模态生理信号"
   },
@@ -7232,7 +7312,8 @@
     "abstract_zh": "关键点分析（KPA）最初是为了总结论点，将包含显着观点的短句提取为关键点（KP），并量化其流行程度作为显着性分数。最近，KPA被应用于总结评论，但研究仍然依赖于基于句子的KP提取和匹配，这导致了两个问题：基于句子的提取可能会导致相同方面观点重叠的KP，而基于句子的KP与评论评论的匹配可能不准确，导致为了解决上述问题，在本文中，我们提出了基于方面的关键点分析（ABKPA），这是一种用于定量评论总结的新颖框架。利用现成的基于方面的...",
     "abstract_source": "openalex_doi",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 20/2941-1）",
     "status": "已索引出版/会议记录",
@@ -7291,7 +7372,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -7994,7 +8076,8 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -8353,7 +8436,8 @@
     "abstract_zh": "智能手机已成为现代生活不可或缺的一部分，引发人们对其对心理健康（尤其是年轻人）心理健康影响的担忧。然而，之前的研究得出了不一致的结果，这可能是由于忽略了线下和线上交流之间相互作用的可能性。为了探索不同沟通模式（线上与线下）和沟通类型（私人与公共）之间的潜在相互作用，我们采用经验抽样方法在 21 天内跟踪了 418 名日本人，并使用多层次模型和心理测量网络模型对数据进行了分析。研究结果表明，数字化使用对幸福感和孤独感只有很小的直接影响，尤其是通过公共（一对多）在线……",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5076650647）",
     "status": "已索引出版/会议记录",
@@ -8813,7 +8897,8 @@
     "abstract_source": "openalex_doi",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感大模型"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 20/2941-1）",
     "status": "已索引出版/会议记录",
@@ -8942,7 +9027,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -9686,7 +9772,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5076650647）",
     "status": "已索引出版/会议记录",
@@ -10006,7 +10093,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -10523,7 +10611,8 @@
     "abstract_zh": "对带有观点的文本进行情感分析和观点挖掘是自然语言处理中的重要任务。系统功能语言学中的评价框架是一种分析表达情感和观点的语言模式的理论。然而，手工标注评价需要语言学专业知识，而且成本高昂且耗时。在本文中，我们研究如何自动识别和标记评价文本片段。我们将问题表述为序列标记问题，并提出了一种新颖的方法，即自适应评价（A 2 ），该方法采用任务和用于序列评估标记的预训练语言模型上的情感适配器。对用户评论、博客和微博的实验表明，A 2 优于基线模型并实现了...",
     "abstract_source": "openalex_doi",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 20/2941-1）",
     "status": "已索引出版/会议记录",
@@ -10585,7 +10674,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -10802,7 +10892,8 @@
     "abstract_zh": "数字技术，特别是智能手机，已成为现代生活不可或缺的一部分，引发了人们对其对心理健康（尤其是年轻人）心理健康影响的担忧。先前的研究得出了不一致的结果，可能是由于过分强调智能手机使用与心理健康之间的联系，而忽略了面对面沟通时间等混杂变量，以及不同类型的数字使用之间缺乏差异。时间位移假说表明，数字媒体时间可能会减少面对面互动等有益活动的时间，突出数字和非数字元素之间的相互作用。然而，这一假设的有效性尚未得到证实……",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5076650647）",
     "status": "预印本记录",
@@ -12089,7 +12180,8 @@
     "abstract_zh": "摘要 社交媒体提供了一个基础设施，用户可以在其中以前所未有的速度共享数据，而无需担心存储和处理。社交媒体数据呈指数级增长，现在人们对从社交媒体数据中提取任何有用的信息以应用于各个领域产生了极大的兴趣。目前，有多种工具可用于分析大量社交媒体数据。然而，这些工具没有考虑社交媒体数据的多样性，而是将社交媒体视为具有相似特征的统一数据源。因此，这些工具缺乏根据社交媒体数据的不同特征动态处理和分析社交媒体数据的灵活性。在本文中，我们开发了“大社交数据作为服务......",
     "abstract_source": "openalex_doi",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 20/2941-1）",
     "status": "已索引出版/会议记录",
@@ -12285,7 +12377,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -13998,7 +14091,8 @@
     "abstract_zh": "背景和目的 甲基苯丙胺 (MA) 是一种精神兴奋剂，与 MA 使用障碍 (MUD) 患者的高复发率相关。长期使用 MA 与 MUD 患者的精神障碍、执行功能障碍、攻击行为和冲动有关。然而，尚未研究确定哪些因素可能与复发更密切相关。因此，我们的目的是调查可能影响 MA 复发的心理因素和 MA 使用史。方法 这项横断面研究包括 168 名男性 MUD 患者（MUD 组）和 65 名健康男性居民（对照组）。每个患者都通过执行功能障碍、精神病理症状、冲动等自我报告措施进行评估。",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5076650647）",
     "status": "已索引出版/会议记录",
@@ -14854,7 +14948,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -15300,7 +15395,8 @@
     "abstract_zh": "城市化对心理健康来说是一个日益严峻的环境挑战。在这里，我们调查了来自中国和欧洲的年轻人（总计 n = 3,867）的城市气质与大脑结构和功能、神经心理学和精神疾病症状的相关性。我们开发了遥感卫星测量（UrbanSat）来量化地球上任何一点的人口密度。 UrbanSat 对城市性的估计与大脑体积、皮质表面积以及内侧前额叶皮质和小脑的大脑网络连接相关。 UrbanSat 还与换位思考和抑郁症状相关，这是由神经变量介导的。当儿童时期接触城市对小脑的影响最大时，...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5076650647）",
     "status": "已索引出版/会议记录",
@@ -15819,7 +15915,8 @@
     "abstract_zh": "2019新型冠状病毒病（COVID-19）的爆发增加了人们对在这种严重压力情况下的心理健康，特别是抑郁症状的关注。先前的研究表明认知偏差与抑郁程度有关。在这里，我们使用行为和脑成像分析来确定 COVID-19 大流行是否以及如何影响非临床抑郁人群中当前认知偏差与未来抑郁程度以及潜在神经基础之间的关系。一项超出预期的结果表明，在 COVID-19 大流行期间，更多的负面记忆偏差与非临床抑郁症参与者未来抑郁指数的更大下降有关，这可能是由于……",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5076650647）",
     "status": "已索引出版/会议记录",
@@ -16406,7 +16503,9 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -17099,7 +17198,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -17283,7 +17383,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5076650647）",
     "status": "已索引出版/会议记录",
@@ -18496,7 +18597,8 @@
     "abstract_zh": "感知面部的背景视觉场景为面部表情处理提供上下文信息。一类背景信息，即语言上下文，对面部表情处理具有至关重要的影响。目前的研究旨在通过记录事件相关电位（ERP）来研究语言环境对面部表情处理的影响。实验一采用面部表情分类任务来研究不同语言环境对情感和非情感面部处理的影响。实验二采用任务无关范式来研究语言语境对面部表情处理的影响是否是强制性的。结果发现（1）语言...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5076650647）",
     "status": "已索引出版/会议记录",
@@ -18627,7 +18729,8 @@
     "abstract_zh": "摘要 城市化，即城市地区生活的影响，是心理健康面临的最大环境挑战之一。虽然城市化在不同的社会文化条件和地理位置上可能有所不同，但全球不同地区可能存在共同特征。了解城市化与人类大脑和行为的这些常见和特定关系将有助于评估城市化对精神障碍的影响，特别是在儿童和青少年时期，预防和早期干预可能是最有效的。我们根据卫星遥感数据构建了与人口密度地面数据高度相关的城市化因素。这个因素，“UrbanSat”...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5076650647）",
     "status": "预印本记录",
@@ -21081,7 +21184,8 @@
     "abstract_zh": "基于深度学习的视觉情感分析需要大量数据集进行训练。来自社交网络的数据集很受欢迎，但噪音很大，因为以这种方式收集的一些图像被错误标记。因此，有必要对数据集进行细化。基于对此类数据集的观察，我们提出了一种基于形容词-名词对（ANP）和标签的情感的细化算法。我们首先通过 ANP 和标签之间的情感矛盾来确定不可靠的标记图像。如果具有正面和负面情绪的标签数量相等，则删除这些图像。剩余的图像根据标签情绪的多数投票再次标记。此外，我们通过共同改进传统的深度学习模型...",
     "abstract_source": "openalex_doi",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 20/2941-1）",
     "status": "已索引出版/会议记录",
@@ -22007,7 +22111,8 @@
     "abstract_zh": "卷积神经网络（CNN）已广泛用于文本分类。基于单词的 CNN 和基于字符的 CNN 在 Twitter 情感分类方面都表现出了良好的性能。大多数关于 CNN 的研究都是针对英语 Twitter 情感分析，由于缺乏非英语资源，独立于语言的情感分类仍然是一项具有挑战性的任务。最近有几项工作使用基于字符的 CNN 来应对语言无关的挑战。出于单词级和字符级深层特征包含互补信息的直觉，我们提出了一种混合单词字符 CNN，用于与语言无关的 Twitter 情感分类。字字符 CNN 包含两个卷积...",
     "abstract_source": "openalex_doi",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 20/2941-1）",
     "status": "已索引出版/会议记录",
@@ -22671,7 +22776,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5076650647）",
     "status": "已索引出版/会议记录",
@@ -24977,7 +25083,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 20/2941-1）",
     "status": "已索引出版/会议记录",
@@ -26465,7 +26572,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 20/2941-1）",
     "status": "已索引出版/会议记录",
