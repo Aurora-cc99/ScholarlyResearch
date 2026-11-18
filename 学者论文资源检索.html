@@ -14,6 +14,8 @@ header p{margin:5px 0;color:#d2e4eb;font-size:14px}
 .wrap{max-width:1370px;margin:auto;padding:22px}
 .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
 .stat{background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px 18px}
+.stat.clickable{cursor:pointer;transition:border-color .15s,transform .15s,box-shadow .15s}
+.stat.clickable:hover{border-color:var(--accent);transform:translateY(-1px);box-shadow:0 4px 12px rgba(7,92,112,.1)}
 .stat b{display:block;font-size:25px;color:var(--accent)}
 .stat span{font-size:12px;color:var(--muted)}
 .panel{padding:20px;background:#fff;border:1px solid var(--line);border-radius:10px;margin-top:18px}
@@ -79,14 +81,17 @@ summary{cursor:pointer}
 .dataset-intro{background:linear-gradient(135deg,#f7fbfc,#eef6f8)}
 .dataset-toolbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
 .dataset-toolbar strong{color:var(--accent)}
-.dataset-grid{grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
-.dataset-card{border:1px solid #cddfe5;background:#fff;padding:18px;border-radius:10px}
-.dataset-tile{position:relative;min-height:190px;display:flex;flex-direction:column;justify-content:space-between;cursor:pointer;transition:transform .16s ease,box-shadow .16s ease,border-color .16s ease}
-.dataset-hit-area{position:absolute;inset:0;z-index:4;border-radius:inherit;opacity:0;cursor:pointer}
+.dataset-grid{grid-template-columns:repeat(auto-fill,minmax(265px,1fr));gap:16px}
+.dataset-grid>.empty{grid-column:1/-1}
+.dataset-card{border:1px solid #cddfe5;background:#fff;padding:18px;border-radius:10px;min-width:0;overflow-wrap:anywhere;word-break:break-word}
+.dataset-tile{position:relative;min-height:195px;display:flex;flex-direction:column;justify-content:space-between;cursor:pointer;transition:transform .16s ease,box-shadow .16s ease,border-color .16s ease}
 .dataset-tile:hover,.dataset-tile:focus-within{transform:translateY(-2px);border-color:#76aebb;box-shadow:0 8px 20px rgba(24,45,58,.12)}
-.dataset-card h2{margin:0 0 5px;font-size:17px;line-height:1.45}
+.dataset-card h2{margin:0 0 6px;font-size:17px;line-height:1.45}
 .dataset-name{color:var(--ink)}
-.dataset-name:hover{text-decoration:none;color:var(--accent)}
+.dataset-name:hover{text-decoration:underline;color:var(--accent)}
+.dataset-foot{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;margin-top:12px;padding-top:10px;border-top:1px dashed #e1ecef;font-size:12.5px}
+.ds-pill{display:inline-flex;align-items:center;gap:4px;padding:2px 9px;border-radius:999px;background:#e6f4f7;border:1px solid #b5dce4;color:#08586b;font-size:12px;margin:3px 6px 3px 0}
+.ds-pill:hover{background:#d3edf2;text-decoration:none}
 .detail-nav{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:10px}
 .detail-nav .back{display:inline-block}
 .dataset-detail-title{margin-top:10px}
@@ -193,8 +198,8 @@ summary{cursor:pointer}
   <section class="panel detail-view" id="detailView" hidden></section>
   <div class="footer">本页采用自动分片技术，支持离线浏览与在线毫秒级检索（涵盖全部 155 位学者全历史论文、双语摘要与开源资源）；外部出版页和下载链接需联网访问。</div>
 </main>
-<script src="data/db-meta.js?v=20261118v2"></script>
-<script src="app-common.js?v=20261118v2"></script>
+<script src="data/db-meta.js?v=20261118v3"></script>
+<script src="app-common.js?v=20261118v3"></script>
 <script>
 (async function () {
   'use strict';
@@ -205,20 +210,38 @@ summary{cursor:pointer}
     $('cards').innerHTML = '<div class="empty">未能加载数据库元文件 <code>data/db-meta.js</code>，请确认 <code>data/</code> 目录完整。</div>';
     return;
   }
+
+  // Allow switching tabs immediately even while the 9 paper shards are still downloading!
+  const initHash = typeof location === 'undefined' ? '' : String(location.hash || '');
+  let pendingMode = initHash === '#datasets' ? 'datasets' : initHash === '#resources' ? 'resources' : 'papers';
+  const syncPreloadTabs = m => {
+    pendingMode = m;
+    $('papersTab').classList.toggle('active', m === 'papers');
+    $('resourcesTab').classList.toggle('active', m === 'resources');
+    $('datasetsTab').classList.toggle('active', m === 'datasets');
+    $('datasetIntro').hidden = m !== 'datasets';
+  };
+  syncPreloadTabs(pendingMode);
+  $('papersTab').onclick = () => syncPreloadTabs('papers');
+  $('resourcesTab').onclick = () => syncPreloadTabs('resources');
+  $('datasetsTab').onclick = () => syncPreloadTabs('datasets');
+
   if (typeof C.loadAllPaperShards !== 'function' || typeof C.loadAbstract !== 'function') {
-    const verSuffix = (typeof location !== 'undefined' && location.protocol === 'file:') ? '' : '?v=20261118v2';
+    const verSuffix = (typeof location !== 'undefined' && location.protocol === 'file:') ? '' : '?v=20261118v3';
     let _p = null;
-    C.loadAllPaperShards = function (targetDb) {
+    C.loadAllPaperShards = function (targetDb, onProg) {
       if (!targetDb || targetDb._shardsLoaded || !(targetDb.shards && Array.isArray(targetDb.shards.papers) && targetDb.shards.papers.length)) {
         if (targetDb) { targetDb._shardsLoaded = true; C.prepareDb(targetDb); }
         return Promise.resolve(targetDb);
       }
       if (_p) return _p;
+      let done = 0;
+      const tot = targetDb.shards.papers.length;
       _p = Promise.all(targetDb.shards.papers.map(src => new Promise((res, rej) => {
         const sc = document.createElement('script');
         sc.src = src + verSuffix;
         sc.async = true;
-        sc.onload = () => res();
+        sc.onload = () => { done++; if (typeof onProg === 'function') onProg(done, tot); res(); };
         sc.onerror = () => rej(new Error('Failed to load shard: ' + src));
         document.head.appendChild(sc);
       }))).then(() => {
@@ -253,7 +276,12 @@ summary{cursor:pointer}
     };
   }
   try {
-    await C.loadAllPaperShards(db);
+    await C.loadAllPaperShards(db, (done, total) => {
+      const first = $('cards') && $('cards').firstElementChild;
+      if (first && first.classList && first.classList.contains('empty')) {
+        first.textContent = `正在加载论文与数据集分片（${done} / ${total}）…`;
+      }
+    });
   } catch (err) {
     $('cards').innerHTML = '<div class="empty">加载论文分片数据失败：' + String(err.message || err) + '</div>';
     return;
@@ -276,23 +304,38 @@ summary{cursor:pointer}
   const activePapers = db._activePapers;
   const datasets = buildDatasetIndex(db);
   const pageSize = 25;
-  let mode = 'papers';
+  let mode = pendingMode;
   let page = 0;
   let datasetPage = 0;
   let filtered = [];
   let datasetFiltered = [];
   let datasetViewId = null;
 
-  // Render top KPI statistics
+  // Update tab button labels with total counts
+  $('papersTab').textContent = `论文目录（${activePapers.length}）`;
+  $('resourcesTab').textContent = `代码 / 数据 / 模型（${db.resources.length}）`;
+  $('datasetsTab').textContent = `数据集总览（${datasets.length}）`;
+
+  // Render top KPI statistics (clickable to jump directly to Papers / Resources / Datasets cards!)
   const st = $('stats');
   [
-    [db.scholars.length, '分别核实身份的学者'],
-    [activePapers.length, '跨学者合并后的书目记录'],
-    [db.resources.length, '开源代码 / 数据 / 模型入口'],
-    [datasets.length, '规范化去重数据集']
-  ].forEach(([n, label]) => {
-    const d = el('div', 'stat');
+    [db.scholars.length, '分别核实身份的学者', null],
+    [activePapers.length, '跨学者合并后的书目记录（点击浏览）', 'papers'],
+    [db.resources.length, '开源代码 / 数据 / 模型入口（点击浏览）', 'resources'],
+    [datasets.length, '规范化去重数据集卡片（点击浏览）', 'datasets']
+  ].forEach(([n, label, targetMode]) => {
+    const d = el('div', targetMode ? 'stat clickable' : 'stat');
     d.append(el('b', '', String(n)), el('span', '', label));
+    if (targetMode) {
+      d.setAttribute('role', 'button');
+      d.tabIndex = 0;
+      d.addEventListener('click', () => {
+        setMode(targetMode, true);
+        if (typeof window.scrollTo === 'function' && $('tabs')) {
+          window.scrollTo({ top: $('tabs').offsetTop - 12, behavior: 'smooth' });
+        }
+      });
+    }
     st.append(d);
   });
 
@@ -563,15 +606,43 @@ summary{cursor:pointer}
     const sid = $('scholar').value;
     const category = $('category').value;
     const av = $('availability').value;
+    const topic = $('topic').value;
+    const lo = Number($('from').value) || 0;
+    const hi = Number($('to').value) || 9999;
     if (sid && !d.scholar_ids.some(id => scholarSelectionMatches(db, id, sid))) return false;
     if (category && !d.category_ids.includes(category)) return false;
-    if (av === 'code' && !d.resource_types.some(x => ['code', 'software', 'repository'].includes(x))) return false;
-    if (av === 'model' && !d.resource_types.some(x => ['model', 'weights'].includes(x))) return false;
-    if (av === 'data' && !d.urls.length) return false;
-    if (av === 'linked' && !d.papers.length) return false;
+    if (topic && !(d.topics && d.topics.includes(topic))) return false;
+    if ((lo || hi !== 9999) && !(d.years && d.years.some(y => y >= lo && y <= hi))) return false;
+    if (av === 'code' && !d.has_code && !d.resource_types.some(x => ['code', 'software', 'repository'].includes(x))) return false;
+    if (av === 'model' && !d.has_model && !d.resource_types.some(x => ['model', 'weights'].includes(x))) return false;
+    if (av === 'data' && !d.urls.length && !d.resource_ids.length) return false;
+    if (av === 'linked' && !d.papers.length && !d.resource_ids.length) return false;
     if (av === 'unlinked' && d.papers.length) return false;
     if (!words.length) return true;
     return words.every(w => d._search.includes(w) || (searchAliases[w] && searchAliases[w](d._search)));
+  }
+
+  function sortDatasets(arr) {
+    const sortMode = $('sort').value;
+    return [...arr].sort((a, b) => {
+      if (sortMode === 'title_asc') {
+        return a._displayName.localeCompare(b._displayName, 'zh-CN');
+      }
+      if (sortMode === 'year_asc') {
+        const ya = (a.years && a.years.length) ? a.years[0] : 9999;
+        const yb = (b.years && b.years.length) ? b.years[0] : 9999;
+        if (ya !== yb) return ya - yb;
+      }
+      if (sortMode === 'resource_first') {
+        const ra = (a.has_code ? 2 : 0) + (a.has_model ? 2 : 0) + (a.urls.length ? 1 : 0);
+        const rb = (b.has_code ? 2 : 0) + (b.has_model ? 2 : 0) + (b.urls.length ? 1 : 0);
+        if (rb !== ra) return rb - ra;
+      }
+      return b.papers.length - a.papers.length ||
+        (b.latest_year || 0) - (a.latest_year || 0) ||
+        b.scholar_names.length - a.scholar_names.length ||
+        a._displayName.localeCompare(b._displayName, 'zh-CN');
+    });
   }
 
   function paperOK(p, words, respectPaperOnlyFilters) {
@@ -638,7 +709,7 @@ summary{cursor:pointer}
       b.title = `${y} 年：${c} 条（点击筛选该年份）`;
       if (c > 0) {
         b.addEventListener('click', () => {
-          if (mode !== 'papers') setMode('papers', false);
+          if (mode === 'resources') setMode('papers', false);
           $('from').value = String(y);
           $('to').value = String(y);
           apply();
@@ -718,17 +789,26 @@ summary{cursor:pointer}
       el('span', 'tag', `${d.papers.length}篇关联论文`),
       el('span', 'tag', `${d.scholar_names.length}位学者`)
     );
+    if (d.platform_tag) stats.append(el('span', 'tag', d.platform_tag));
+    if (d.has_code) stats.append(el('span', 'tag', '含开源代码'));
     if (d.occurrences > 1) stats.append(el('span', 'dataset-duplicate', `合并 ${d.occurrences} 处引用`));
     top.append(stats);
     if (d.scholar_names.length) {
       const namesPreview = d.scholar_names.slice(0, 6).join('；') + (d.scholar_names.length > 6 ? ` 等${d.scholar_names.length}位` : '');
       top.append(el('p', 'muted', '涉及学者：' + namesPreview));
     }
-    const bottom = el('div', 'muted', '点击查看下载入口与全部关联论文 →');
-    const hit = el('a', 'dataset-hit-area', '');
-    hit.href = href;
-    hit.setAttribute('aria-label', '查看数据集：' + name);
-    c.append(top, bottom, hit);
+    const bottom = el('div', 'dataset-foot');
+    const detailLink = el('a', '', '查看数据集与关联论文 →');
+    detailLink.href = href;
+    bottom.append(detailLink);
+    if (d.url && /^https?:\/\/\S+$/i.test(d.url)) {
+      const extLink = el('a', 'muted', '数据主页 ↗');
+      extLink.href = d.url;
+      extLink.target = '_blank';
+      extLink.rel = 'noopener noreferrer';
+      bottom.append(extLink);
+    }
+    c.append(top, bottom);
     return c;
   }
 
@@ -763,6 +843,17 @@ summary{cursor:pointer}
     list(p.data_urls).forEach((u, i) => addLink(l, u, list(p.data_urls).length > 1 ? '数据' + (i + 1) : '数据集'));
     list(p.model_urls).forEach((u, i) => addLink(l, u, list(p.model_urls).length > 1 ? '权重' + (i + 1) : '模型权重'));
     if (l.children.length) c.append(l);
+
+    const matchedDs = (db._datasetsByPaperGid && db._datasetsByPaperGid.get(String(gid))) || [];
+    if (matchedDs.length) {
+      const dsRow = el('div', '');
+      matchedDs.slice(0, 5).forEach(dsObj => {
+        const dsA = el('a', 'ds-pill', '数据集：' + datasetDisplayName(dsObj));
+        dsA.href = '数据集详情.html#dataset=' + encodeURIComponent(dsObj.id) + '&return=' + returnState({ record_id: gid });
+        dsRow.append(dsA);
+      });
+      c.append(dsRow);
+    }
 
     if (p.date_note) c.append(el('div', 'note', p.date_note));
     if (!list(p.resource_ids).length && !list(p.code_urls).length && !list(p.data_urls).length && !list(p.model_urls).length) {
@@ -836,6 +927,12 @@ summary{cursor:pointer}
       if (v) c.append(el('p', 'muted', label + '：' + joined(v)));
     }
     const l = el('div', 'links');
+    const linkedDsObj = db._datasetByResourceId && db._datasetByResourceId.get(String(r.id));
+    if (linkedDsObj) {
+      const dsCardA = el('a', 'ds-pill', `查看数据集卡片（${linkedDsObj.papers.length}篇关联论文）→`);
+      dsCardA.href = '数据集详情.html#dataset=' + encodeURIComponent(linkedDsObj.id) + '&return=' + returnState({ resource_id: r.id, mode: 'resources' });
+      l.append(dsCardA);
+    }
     addLink(l, r.url, '资源主页');
     if (r.download_url && r.download_url !== r.url) addLink(l, r.download_url, '下载 / 申请');
     list(r.evidence_urls).slice(0, 5).forEach(u => {
@@ -856,12 +953,20 @@ summary{cursor:pointer}
     $('resourcesTab').classList.toggle('active', m === 'resources');
     $('datasetsTab').classList.toggle('active', m === 'datasets');
     $('datasetIntro').hidden = m !== 'datasets';
-    const isPapers = m === 'papers';
-    $('topic').disabled = !isPapers;
-    $('from').disabled = !isPapers;
-    $('to').disabled = !isPapers;
-    $('sort').disabled = !isPapers;
-    if (triggerApply !== false) apply();
+    const supportsPaperFilters = (m === 'papers' || m === 'datasets');
+    $('topic').disabled = !supportsPaperFilters;
+    $('from').disabled = !supportsPaperFilters;
+    $('to').disabled = !supportsPaperFilters;
+    $('sort').disabled = !supportsPaperFilters;
+    if (triggerApply !== false) {
+      if (typeof history !== 'undefined' && typeof history.replaceState === 'function' && typeof location !== 'undefined') {
+        const targetHash = m === 'datasets' ? '#datasets' : m === 'resources' ? '#resources' : '';
+        if ((location.hash || '') !== targetHash && !String(location.hash || '').startsWith('#paper=')) {
+          try { history.replaceState(null, '', location.pathname + (location.search || '') + targetHash); } catch (e) {}
+        }
+      }
+      apply();
+    }
   }
 
   function restoreReturnState() {
@@ -880,13 +985,15 @@ summary{cursor:pointer}
       if (![...$('category').options].some(o => o.value === $('category').value)) {
         $('category').value = '';
       }
-      setMode(st.mode === 'datasets' ? 'datasets' : st.mode === 'resources' ? 'resources' : 'papers', false);
-      // Clean ?return= from URL bar so manual browser reloads don't reset future interactions
+      const restoredMode = st.mode === 'datasets' ? 'datasets' : st.mode === 'resources' ? 'resources' : 'papers';
+      setMode(restoredMode, false);
+      // Clean ?return= from URL bar while preserving #datasets / #resources hash across browser refreshes
       if (typeof history !== 'undefined' && typeof history.replaceState === 'function') {
         try {
           params.delete('return');
           const qs = params.toString();
-          history.replaceState(null, '', location.pathname + (qs ? '?' + qs : '') + (location.hash || ''));
+          const modeHash = location.hash || (restoredMode === 'datasets' ? '#datasets' : restoredMode === 'resources' ? '#resources' : '');
+          history.replaceState(null, '', location.pathname + (qs ? '?' + qs : '') + modeHash);
         } catch (e) {}
       }
       return st;
@@ -1046,7 +1153,7 @@ summary{cursor:pointer}
     if (mode === 'papers') {
       filtered = sortPapers(ps);
     } else if (mode === 'datasets') {
-      datasetFiltered = datasets.filter(d => datasetMatch(d, words));
+      datasetFiltered = sortDatasets(datasets.filter(d => datasetMatch(d, words)));
     } else {
       const sid = $('scholar').value;
       const av = $('availability').value;
@@ -1055,7 +1162,7 @@ summary{cursor:pointer}
         if (sid && !list(r.scholar_id).some(id => scholarSelectionMatches(db, id, sid))) return false;
         if (category && !list(r.scholar_category_ids).includes(category)) return false;
         if (av === 'code' && !['code', 'software', 'repository'].includes(r.type)) return false;
-        if (av === 'data' && !(r.type === 'dataset' || (r.type === 'collection' && /dataset|数据集|data|数据/i.test(String(r.name || '') + ' ' + String(r.name_zh || ''))))) return false;
+        if (av === 'data' && !(r.type === 'dataset' || r.is_dataset_benchmark || (r.type === 'collection' && /dataset|数据集|data|数据/i.test(String(r.name || '') + ' ' + String(r.name_zh || ''))))) return false;
         if (av === 'model' && !['model', 'weights'].includes(r.type)) return false;
         if (av === 'linked' && !linkedPapersForResource(db, r, true).length) return false;
         if (av === 'unlinked' && linkedPapersForResource(db, r, true).length) return false;
@@ -1115,6 +1222,7 @@ summary{cursor:pointer}
   $('datasetSummary').textContent = `共 ${datasets.length} 个规范化去重数据集；重复引用已自动合并，点击卡片可查看下载入口与全部关联论文。`;
   updateCategories();
   const restored = restoreReturnState();
+  if (!restored) setMode(pendingMode, false);
   apply();
   if (restored && restored.page !== undefined) {
     const sourceLen = mode === 'datasets' ? datasetFiltered.length : filtered.length;

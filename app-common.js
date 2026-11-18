@@ -94,16 +94,84 @@
 
   const knownDatasetNames = {
     'https://osf.io/pq7vb/': '2020 International BCI Competition',
-    'https://bcmi.sjtu.edu.cn/home/seed/': 'SEED 情感脑电数据集系列 (SJTU BCMI)',
+    'https://bcmi.sjtu.edu.cn/home/seed/': 'SEED 情感脑电数据集 (SJTU BCMI)',
+    'https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html': 'SEED-IV 四分类情感脑电数据集 (SJTU BCMI)',
+    'https://bcmi.sjtu.edu.cn/home/seed/seed-v.html': 'SEED-V 五分类情感脑电数据集 (SJTU BCMI)',
+    'https://bcmi.sjtu.edu.cn/home/seed/seed-vii.html': 'SEED-VII 七分类连续情感脑电数据集 (SJTU BCMI)',
+    'https://bcmi.sjtu.edu.cn/home/seed/seed-vig.html': 'SEED-VIG 驾驶警觉度脑电数据集 (SJTU BCMI)',
     'https://bcmi.sjtu.edu.cn/applicationform/apply_form/': 'SJTU BCMI 数据集许可申请入口',
-    'https://nda.nih.gov/general-query.html': 'NIMH Data Archive (NDA)',
-    'https://ida.loni.usc.edu/login.jsp?project=adni&page=home': 'ADNI (LONI Image & Data Archive)',
-    'https://sleeptight.isr.uc.pt/': 'ISRUC-Sleep / SleepTight Dataset',
-    'https://sleeptight.isr.uc.pt/?page_id=48': 'ISRUC-Sleep / SleepTight 下载页',
-    'https://mahnob-db.eu/hci-tagging/': 'MAHNOB-HCI Tagging Database',
+    'https://www.eecs.qmul.ac.uk/mmv/datasets/deap/': 'DEAP 多模态生理与脑电情感数据集',
+    'https://zenodo.org/records/546113': 'DREAMER 便携脑电与心电情感数据集',
+    'https://www.eecs.qmul.ac.uk/mmv/datasets/amigos/': 'AMIGOS 群体与个体情感生理数据集',
+    'https://mahnob-db.eu/hci-tagging/': 'MAHNOB-HCI 多模态情感数据库',
     'http://mahnob-db.eu/hci-tagging/accounts/register/': 'MAHNOB-HCI Tagging Database (注册申请)',
+    'https://www.synapse.org/#!synapse:syn50614194': 'FACED 细粒度情感脑电数据集 (Tsinghua)',
+    'https://github.com/tengfei000/mped': 'MPED 多模态生理情绪数据库 (SEU)',
+    'http://modma.lzu.edu.cn/data/index/': 'MODMA 多模态精神障碍脑电数据集 (LZU)',
+    'https://www.bbci.de/competition/iv/': 'BCI Competition IV 脑机接口竞赛数据集',
+    'https://www.bbci.de/competition/iii/': 'BCI Competition III 脑机接口竞赛数据集',
+    'https://physionet.org/content/eegmmidb/1.0.0/': 'PhysioNet EEGMMIDB 运动想象脑电数据集',
+    'https://physionet.org/content/sleep-edfx/1.0.0/': 'Sleep-EDF / Sleep-EDFX 睡眠脑电数据集',
+    'https://sleeptight.isr.uc.pt/': 'ISRUC-Sleep 睡眠分期脑电数据集',
+    'https://sleeptight.isr.uc.pt/?page_id=48': 'ISRUC-Sleep / SleepTight 下载页',
+    'https://sleepdata.org/datasets/shhs': 'SHHS 睡眠心脏健康研究队列',
+    'http://ceams-carsm.ca/mass/': 'MASS 蒙特利尔睡眠脑电档案库',
+    'https://physionet.org/content/chbmit/1.0.0/': 'CHB-MIT 儿童癫痫头皮脑电数据集',
+    'https://isip.piconepress.com/projects/nedc/html/tuh_eeg/': 'TUH EEG 坦普尔大学临床脑电语料库',
+    'https://bci.med.tsinghua.edu.cn/download.html': 'Tsinghua SSVEP / BETA 稳态视觉诱发脑电基准集',
+    'http://bnci-horizon-2020.eu/database/data-sets': 'BNCI Horizon 2020 脑机接口公开库',
+    'https://nda.nih.gov/general-query.html': 'NIMH Data Archive (NDA)',
+    'https://adni.loni.usc.edu/data-samples/adni-data/': 'ADNI 阿尔茨海默病神经影像数据集',
+    'https://ida.loni.usc.edu/login.jsp?project=adni&page=home': 'ADNI 阿尔茨海默病神经影像数据集',
+    'https://fcon_1000.projects.nitrc.org/indi/abide/': 'ABIDE 自闭症脑影像交换数据集',
+    'https://fcon_1000.projects.nitrc.org/indi/adhd200/': 'ADHD-200 注意缺陷多动障碍脑影像集',
+    'https://www.humanconnectome.org/study/hcp-young-adult': 'HCP 人类连接组计划脑影像数据集',
+    'https://www.ukbiobank.ac.uk/': 'UK Biobank 英国生物银行队列',
+    'http://braintumorsegmentation.org/': 'BraTS 脑肿瘤医学影像分割基准集',
+    'https://physionet.org/content/mitdb/1.0.0/': 'MIT-BIH 心律失常心电数据集',
+    'https://physionet.org/content/mimiciv/': 'MIMIC-III / MIMIC-IV 重症临床数据库',
     'https://bicr-resource.atr.jp/srpbsopen/': 'SRPBS Open Dataset (ATR)',
-    'https://image-net.org/': 'ImageNet',
+    'https://sail.usc.edu/iemocap/': 'IEMOCAP 多模态情感对话数据集',
+    'https://affective-meld.github.io/': 'MELD 多方对话多模态情感数据集',
+    'http://multicomp.cs.cmu.edu/resources/cmu-mosei-dataset/': 'CMU-MOSEI 多模态情感与情绪强度数据集',
+    'http://multicomp.cs.cmu.edu/resources/cmu-mosi-dataset/': 'CMU-MOSI 多模态观点情感数据集',
+    'https://ecs.utdallas.edu/research/researchlabs/msp-lab/msp-podcast.html': 'MSP-Podcast 自然语音情感语料库',
+    'https://zenodo.org/records/1188976': 'RAVDESS 视听情绪语音与歌唱数据集',
+    'http://emodb.bilderbar.info/': 'EMO-DB 柏林德语情感语音库',
+    'http://kahlan.eps.surrey.ac.uk/savee/': 'SAVEE 视听英语情感语音库',
+    'https://github.com/cheyneycomputerscience/crema-d': 'CREMA-D 众包多模态情感演员数据集',
+    'http://casme.psych.ac.cn/casme/e2': 'CASME II / CAS(ME)² 自发微表情数据集',
+    'http://www2.docm.mmu.ac.uk/staff/m.yap/dataset.php': 'SAMM 自发微表情动作数据集',
+    'https://ibug.doc.ic.ac.uk/resources/aff-wild2/': 'Aff-Wild2 自然场景连续情感行为数据集',
+    'http://mohammadmahoor.com/affectnet/': 'AffectNet 大规模面部表情情感数据集',
+    'http://www.whdeng.cn/raf/model1.html': 'RAF-DB 真实世界人脸表情数据库',
+    'https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data': 'FER2013 面部表情识别挑战赛数据集',
+    'https://dfew-dataset.github.io/': 'DFEW / MAFW 动态面部表情视频数据集',
+    'http://yanran.li/dailydialog': 'DailyDialog 日常多轮对话情绪数据集',
+    'https://github.com/facebookresearch/empatheticdialogues': 'EmpatheticDialogues 共情对话数据集',
+    'https://github.com/thu-coai/emotional-support-conversation': 'ESConv 情绪支持对话数据集 (THU CoAI)',
+    'https://www.garrickorchard.com/datasets/n-mnist': 'N-MNIST / N-Caltech101 神经形态视觉数据集',
+    'https://research.ibm.com/interactive/dvsgesture/': 'DVS128 Gesture 事件相机手势识别数据集',
+    'https://figshare.com/articles/dataset/cifar10-dvs_new/4724671': 'CIFAR10-DVS 神经形态事件流数据集',
+    'https://zenkelab.org/resources/spiking-heidelberg-datasets-shd/': 'SHD 脉冲海德堡语音数字数据集',
+    'https://image-net.org/': 'ImageNet 大规模视觉识别基准',
+    'https://cocodataset.org/': 'MS-COCO 通用目标检测与图文基准',
+    'https://www.cs.toronto.edu/~kriz/cifar.html': 'CIFAR-10 / CIFAR-100 图像分类基准',
+    'https://github.com/zalandoresearch/fashion-mnist': 'Fashion-MNIST 图像分类数据集',
+    'https://www.cvlibs.net/datasets/kitti/': 'KITTI 自动驾驶与三维视觉基准集',
+    'https://github.com/linfeng-tang/msrs': 'MSRS 红外与可见光图像融合数据集',
+    'https://figshare.com/articles/dataset/tno_image_fusion_dataset/1008029': 'TNO 多波段红外图像融合数据集',
+    'https://hltsingapore.github.io/esd/': 'ESD 多语种情感语音合成数据集',
+    'https://www.openslr.org/33/': 'AISHELL 中文开源语音识别语料库',
+    'https://datashare.ed.ac.uk/handle/10283/3443': 'VCTK 多说话人英语语音语料库',
+    'https://www.openslr.org/12': 'LibriSpeech / LibriTTS 英语语音语料库',
+    'https://alt.qcri.org/semeval2018/': 'SemEval 国际语义与情感评测数据集',
+    'https://gluebenchmark.com/': 'GLUE / SST-2 自然语言理解评测基准',
+    'https://rajpurkar.github.io/squad-explorer/': 'SQuAD 机器阅读理解问答基准',
+    'http://yann.lecun.com/exdb/mnist/': 'MNIST 手写数字识别基准集',
+    'https://www.crcv.ucf.edu/data/ucf101.php': 'UCF101 / HMDB51 人体动作识别视频集',
+    'https://zheng-lab-anu.github.io/project/project_reid.html': 'Market-1501 / CUHK03 行人重识别基准',
+    'https://openneuro.org/': 'OpenNeuro 开放神经影像与脑电数据平台',
     'http://predict.cs.unm.edu/': 'PRED+CT EEG Repository (UNM)',
     'http://vgl.ict.usc.edu/data/lightstage/': 'USC ICT LightStage Data',
     'https://www.enterface.net/enterface06/': 'eNTERFACE 2006 Emotion Database',
@@ -111,8 +179,40 @@
     'https://raw.githubusercontent.com/albertmentat/labram-at-scale/main/data_manifests/pretraining/datasets.csv': 'LaBraM-at-Scale 预训练数据集清单'
   };
 
+  function canonicalizeDatasetUrl(rawUrl) {
+    const u = String(rawUrl || '').trim();
+    if (!u) return '';
+    const l = u.toLowerCase();
+    if (/ida\.loni\.usc\.edu\/.*project=adni|adni\.loni\.usc\.edu/i.test(l)) return 'https://adni.loni.usc.edu/data-samples/adni-data/';
+    if (/eecs\.qmul\.ac\.uk\/mmv\/datasets\/amigos/i.test(l)) return 'https://www.eecs.qmul.ac.uk/mmv/datasets/amigos/';
+    if (/eecs\.qmul\.ac\.uk\/mmv\/datasets\/deap/i.test(l)) return 'https://www.eecs.qmul.ac.uk/mmv/datasets/deap/';
+    if (/bbci\.de\/competition\/iv\/?(?:download\/index\.html|#download)?$/i.test(l)) return 'https://www.bbci.de/competition/iv/';
+    if (/bcmi\.sjtu\.edu\.cn\/home\/seed\/?(?:index\.html|seed\.html)?$/i.test(l)) return 'https://bcmi.sjtu.edu.cn/home/seed/';
+    if (/^https?:\/\/(?:www\.)?mahnob-db\.eu\/?(?:hci-tagging\/?)?$/i.test(l)) return 'https://mahnob-db.eu/hci-tagging/';
+    if (/^https?:\/\/bci\.med\.tsinghua\.edu\.cn\/download\.html$/i.test(l)) return 'https://bci.med.tsinghua.edu.cn/download.html';
+    return u;
+  }
+
+  function datasetPlatformTag(u) {
+    const l = String(u || '').toLowerCase();
+    if (!l) return '申请/论文内说明';
+    if (l.includes('huggingface.co')) return 'Hugging Face';
+    if (l.includes('physionet.org')) return 'PhysioNet';
+    if (l.includes('openneuro.org')) return 'OpenNeuro';
+    if (l.includes('zenodo.org')) return 'Zenodo';
+    if (l.includes('osf.io')) return 'OSF';
+    if (l.includes('figshare.com')) return 'Figshare';
+    if (l.includes('bcmi.sjtu.edu.cn')) return 'SJTU BCMI';
+    if (l.includes('kaggle.com')) return 'Kaggle';
+    if (l.includes('synapse.org')) return 'Synapse';
+    if (l.includes('nitrc.org')) return 'NITRC';
+    if (l.includes('sleepdata.org')) return 'NSRR SleepData';
+    if (l.includes('github.com') || l.includes('github.io')) return 'GitHub';
+    return '官方数据主页';
+  }
+
   function datasetNameFromUrl(u) {
-    const raw = String(u || '').trim();
+    const raw = canonicalizeDatasetUrl(u);
     if (!raw) return '未命名数据集';
     const lower = raw.toLowerCase();
     const lowerSlash = lower.replace(/\/+$/, '') + '/';
@@ -306,6 +406,8 @@
     const byName = new Map();
     const byUrl = new Map();
 
+    const scholarById = new Map(db.scholars.map(s => [s.id, s]));
+
     const addPaperToDataset = (d, p) => {
       if (!p) return;
       const gid = String(p.global_record_id || p.record_id || '');
@@ -313,6 +415,9 @@
       d._paperMap.set(gid, p);
       list(p.scholar_names).forEach(x => d.scholars.add(x));
       list(p.scholar_ids).forEach(x => d.scholar_ids.add(x));
+      list(p.topics).forEach(x => d.topics.add(x));
+      if (list(p.code_urls).length) d.has_code = true;
+      if (list(p.model_urls).length) d.has_model = true;
       Object.entries(p.scholar_categories || {}).forEach(([sid, v]) => {
         if (v && v.category_id && v.category_id !== '__legacy_compat__') {
           d.scholar_ids.add(sid);
@@ -322,9 +427,10 @@
     };
 
     const ensure = (nameZh, name, url, resource, paper) => {
-      const label = String(nameZh || name || url || '数据集').trim();
-      const canonical = String(url || '').trim();
-      const rawNames = [nameZh, name, label]
+      const canonical = canonicalizeDatasetUrl(url);
+      const knownLabel = canonical ? (knownDatasetNames[canonical.toLowerCase()] || knownDatasetNames[canonical.toLowerCase().replace(/\/+$/, '') + '/'] || '') : '';
+      const label = String(knownLabel || nameZh || name || canonical || '数据集').trim();
+      const rawNames = [knownLabel, nameZh, name, label]
         .filter(Boolean)
         .map(x => String(x).trim())
         .filter(x => x && !genericDatasetName(x));
@@ -343,6 +449,9 @@
           access_notes: new Set(),
           resource_ids: new Set(),
           resource_types: new Set(),
+          topics: new Set(),
+          has_code: false,
+          has_model: false,
           _paperMap: new Map(),
           scholars: new Set(),
           scholar_ids: new Set(),
@@ -355,7 +464,9 @@
       nameKeys.forEach(k => byName.set(k, d));
       if (urlKey) byUrl.set(urlKey, d);
 
-      if (nameZh && !genericDatasetName(nameZh)) {
+      if (knownLabel) {
+        d.name_zh = knownLabel;
+      } else if (nameZh && !genericDatasetName(nameZh)) {
         d.name_zh = String(nameZh).trim();
       } else if (genericDatasetName(d.name_zh) && name && !genericDatasetName(name)) {
         d.name_zh = String(name).trim();
@@ -367,9 +478,14 @@
         d.urls.add(canonical);
         if (!d.url) d.url = canonical;
       }
+      if (url && String(url).trim()) d.urls.add(String(url).trim());
       if (resource) {
         if (resource.id) d.resource_ids.add(resource.id);
-        if (resource.type) d.resource_types.add(resource.type);
+        if (resource.type) {
+          d.resource_types.add(resource.type);
+          if (['code', 'software', 'repository'].includes(resource.type)) d.has_code = true;
+          if (['model', 'weights'].includes(resource.type)) d.has_model = true;
+        }
         if (resource.download_url) d.urls.add(String(resource.download_url).trim());
         if (resource.description) d.descriptions.add(String(resource.description).trim());
         if (resource.access) d.access_notes.add(String(resource.access).trim());
@@ -386,12 +502,15 @@
 
     const datasetResources = db.resources.filter(r =>
       r.type === 'dataset' ||
+      r.is_dataset_benchmark ||
       (r.type === 'collection' && /dataset|数据集|data|数据/i.test(String(r.name || '') + ' ' + String(r.name_zh || '')))
     );
 
     for (const r of datasetResources) {
       const papers = linkedPapersForResource(db, r, true);
-      const d = ensure(r.name_zh, r.name, r.url || r.download_url, r, null);
+      const dNameZh = r.dataset_title || r.name_zh;
+      const dNameEn = r.dataset_title || r.name;
+      const d = ensure(dNameZh, dNameEn, r.url || r.download_url, r, null);
       papers.forEach(p => addPaperToDataset(d, p));
       if (!papers.length && list(r.related_paper_titles).length) {
         for (const t of list(r.related_paper_titles)) {
@@ -416,16 +535,33 @@
         String(a.title_zh || a.title || '').localeCompare(String(b.title_zh || b.title || ''), 'zh-CN') ||
         String(a.title || '').localeCompare(String(b.title || ''), 'en')
       );
+      // If a standalone dataset resource has 0 matched papers, include its scholar's categories so category filter doesn't hide it
+      if (!d.category_ids.size && d.scholar_ids.size) {
+        for (const sid of d.scholar_ids) {
+          const sch = scholarById.get(sid);
+          if (sch && sch.classification && Array.isArray(sch.classification.categories)) {
+            sch.classification.categories.forEach(c => d.category_ids.add(sid + '::' + c.id));
+          }
+        }
+      }
+      const years = [...new Set(finalPapers.map(p => Number(p.year)).filter(y => y >= 1970 && y <= 2030))].sort((a, b) => a - b);
+      const urlsArr = [...d.urls].filter(Boolean);
       const item = {
         id: d.id,
         name_zh: d.name_zh,
         name: d.name,
-        url: d.url,
-        urls: [...d.urls].filter(Boolean),
+        url: d.url || urlsArr[0] || '',
+        urls: urlsArr,
+        platform_tag: datasetPlatformTag(d.url || urlsArr[0] || ''),
         descriptions: [...d.descriptions].filter(Boolean),
         access_notes: [...d.access_notes].filter(Boolean),
         resource_ids: [...d.resource_ids],
         resource_types: [...d.resource_types],
+        has_code: d.has_code,
+        has_model: d.has_model,
+        topics: [...d.topics],
+        years,
+        latest_year: years.length ? years[years.length - 1] : 0,
         papers: finalPapers,
         paper_ids: finalPapers.map(p => p.global_record_id || p.record_id),
         scholar_names: [...d.scholars],
@@ -438,16 +574,37 @@
         item._displayName,
         item.name_zh,
         item.name,
+        item.platform_tag,
         ...item.urls,
         ...item.descriptions,
+        ...item.topics,
         ...item.scholar_names,
         ...item.papers.map(p => (p.title_zh || '') + ' ' + (p.title || ''))
       ].join(' ').toLowerCase();
       return item;
-    }).sort((a, b) => a._displayName.localeCompare(b._displayName, 'zh-CN'));
+    }).sort((a, b) =>
+      b.papers.length - a.papers.length ||
+      b.scholar_names.length - a.scholar_names.length ||
+      a._displayName.localeCompare(b._displayName, 'zh-CN')
+    );
+
+    const dsByPaperGid = new Map();
+    const dsByResId = new Map();
+    for (const ds of result) {
+      for (const gid of ds.paper_ids) {
+        const k = String(gid);
+        if (!dsByPaperGid.has(k)) dsByPaperGid.set(k, []);
+        dsByPaperGid.get(k).push(ds);
+      }
+      for (const rid of ds.resource_ids) {
+        dsByResId.set(String(rid), ds);
+      }
+    }
 
     db._datasets = result;
     db._datasetById = new Map(result.map(d => [d.id, d]));
+    db._datasetsByPaperGid = dsByPaperGid;
+    db._datasetByResourceId = dsByResId;
     return result;
   }
 
@@ -455,7 +612,7 @@
     return '文档浏览.html?doc=' + encodeURIComponent(docPath);
   }
 
-  const CACHE_VER = '20261118v2';
+  const CACHE_VER = '20261118v3';
   function withCacheVer(src) {
     const s = String(src || '');
     if (!s || (typeof location !== 'undefined' && location.protocol === 'file:')) return s;
@@ -463,7 +620,7 @@
   }
 
   let _shardsLoadPromise = null;
-  function loadAllPaperShards(db) {
+  function loadAllPaperShards(db, onProgress) {
     if (!db) return Promise.reject(new Error('Missing SCHOLAR_DB'));
     if (db._shardsLoaded || !(db.shards && Array.isArray(db.shards.papers) && db.shards.papers.length)) {
       db._shardsLoaded = true;
@@ -476,11 +633,19 @@
       prepareDb(db);
       return Promise.resolve(db);
     }
+    let doneCount = 0;
+    const total = db.shards.papers.length;
     _shardsLoadPromise = Promise.all(db.shards.papers.map(src => new Promise((resolve, reject) => {
       const s = document.createElement('script');
       s.src = withCacheVer(src);
       s.async = true;
-      s.onload = () => resolve();
+      s.onload = () => {
+        doneCount++;
+        if (typeof onProgress === 'function') {
+          try { onProgress(doneCount, total); } catch (e) {}
+        }
+        resolve();
+      };
       s.onerror = () => reject(new Error('Failed to load shard: ' + src));
       document.head.appendChild(s);
     }))).then(() => {

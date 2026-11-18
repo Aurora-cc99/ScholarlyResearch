@@ -43,8 +43,8 @@ header p{margin:5px 0 0;color:#d2e4eb;font-size:14px}
   <p>数据集名称、下载/申请入口及使用该数据集的全部论文</p>
 </header>
 <main id="app"><div class="card"><div class="empty">正在加载数据集…</div></div></main>
-<script src="data/db-meta.js?v=20261118v2"></script>
-<script src="app-common.js?v=20261118v2"></script>
+<script src="data/db-meta.js?v=20261118v3"></script>
+<script src="app-common.js?v=20261118v3"></script>
 <script>
 (async function () {
   'use strict';
@@ -56,7 +56,7 @@ header p{margin:5px 0 0;color:#d2e4eb;font-size:14px}
     return;
   }
   if (typeof C.loadAllPaperShards !== 'function') {
-    const verSuffix = (typeof location !== 'undefined' && location.protocol === 'file:') ? '' : '?v=20261118v2';
+    const verSuffix = (typeof location !== 'undefined' && location.protocol === 'file:') ? '' : '?v=20261118v3';
     C.loadAllPaperShards = function (targetDb) {
       if (!targetDb || targetDb._shardsLoaded || !(targetDb.shards && Array.isArray(targetDb.shards.papers) && targetDb.shards.papers.length)) {
         if (targetDb) { targetDb._shardsLoaded = true; C.prepareDb(targetDb); }
