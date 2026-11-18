@@ -140,7 +140,8 @@
       "lu_baoliang__LU_DATA_MonitoringErrP",
       "lu_baoliang__LU_DATA_EEGDenoiseNet",
       "lu_baoliang__LU_DATA_I-CARE",
-      "lu_baoliang__LU_DATA_ScaleInventory"
+      "lu_baoliang__LU_DATA_ScaleInventory",
+      "lu_baoliang__LU_COLLECTION_523"
     ],
     "status": "预印本；未确认正式会议",
     "verification": "前轮逐篇核验的论文/官方会场来源；详见evidence_urls",
@@ -181,7 +182,8 @@
       "https://sleeptight.isr.uc.pt/?page_id=48",
       "https://github.com/ncclabsustech/EEGdenoiseNet",
       "https://physionet.org/content/i-care/2.1/",
-      "https://raw.githubusercontent.com/AlbertMentat/LaBraM-at-Scale/main/data_manifests/pretraining/datasets.csv"
+      "https://raw.githubusercontent.com/AlbertMentat/LaBraM-at-Scale/main/data_manifests/pretraining/datasets.csv",
+      "https://github.com/AlbertMentat/LaBraM-at-Scale"
     ],
     "model_urls": [],
     "resource_status": "已关联公开入口；具体访问范围见资源说明",
@@ -820,7 +822,9 @@
     "status": "已核验作品（Crossref DOI）",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W7155036610",
     "openalex_author_id": "https://openalex.org/A5056335002",
@@ -2123,7 +2127,8 @@
     ],
     "code_urls": [],
     "data_urls": [
-      "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/"
+      "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "https://bcmi.sjtu.edu.cn/home/lubaoliang/"
     ],
     "model_urls": [],
     "openalex_id": "",
@@ -2203,7 +2208,8 @@
     ],
     "code_urls": [],
     "data_urls": [
-      "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/"
+      "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "https://bcmi.sjtu.edu.cn/home/lubaoliang/"
     ],
     "model_urls": [],
     "openalex_id": "",
@@ -2289,7 +2295,8 @@
     ],
     "code_urls": [],
     "data_urls": [
-      "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/"
+      "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "https://bcmi.sjtu.edu.cn/home/lubaoliang/"
     ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W7128307468",
@@ -2500,7 +2507,11 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W4405936033",
     "openalex_author_id": "https://openalex.org/A5040440605",
@@ -2896,7 +2907,9 @@
     ],
     "code_urls": [],
     "data_urls": [
-      "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/"
+      "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "https://bcmi.sjtu.edu.cn/home/seed/",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html"
     ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W4411270266",
@@ -4571,7 +4584,9 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W4408353380",
     "openalex_author_id": "https://openalex.org/A5056335002",
@@ -6029,7 +6044,8 @@
     ],
     "code_urls": [],
     "data_urls": [
-      "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/"
+      "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "https://bcmi.sjtu.edu.cn/home/seed/"
     ],
     "model_urls": [],
     "openalex_id": "",
@@ -6132,7 +6148,8 @@
     ],
     "code_urls": [],
     "data_urls": [
-      "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/"
+      "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "https://bcmi.sjtu.edu.cn/home/seed/"
     ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W4412082223",
@@ -6988,7 +7005,10 @@
     "scholar_name": "吕宝粮",
     "work_title_group": "6c597c55fddb",
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html"
+    ],
     "model_urls": [],
     "scholar_ids": [
       "lu_baoliang",
@@ -7471,7 +7491,11 @@
     "status": "DBLP来源记录/待核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "https://isip.piconepress.com/projects/nedc/html/tuh_eeg/"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W4392903634",
     "openalex_author_id": "https://openalex.org/A5040440605",
@@ -7887,7 +7911,11 @@
     "scholar_name": "吕宝粮",
     "work_title_group": "a513138a7482",
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/"
+    ],
     "model_urls": [],
     "scholar_ids": [
       "lu_baoliang",
@@ -8513,7 +8541,9 @@
     "scholar_name": "吕宝粮",
     "work_title_group": "098c02ff5950",
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/"
+    ],
     "model_urls": [],
     "scholar_ids": [
       "lu_baoliang",
@@ -9002,7 +9032,9 @@
     "scholar_name": "吕宝粮",
     "work_title_group": "d9caf5d0f475",
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-vig.html"
+    ],
     "model_urls": [],
     "scholar_ids": [
       "lu_baoliang",
@@ -9686,7 +9718,10 @@
     "scholar_name": "吕宝粮",
     "work_title_group": "7f924ccff0f5",
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html"
+    ],
     "model_urls": [],
     "scholar_ids": [
       "lu_baoliang",
@@ -10034,7 +10069,12 @@
     "status": "DBLP来源记录/待核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html",
+      "https://zenodo.org/records/546113",
+      "https://image-net.org/"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W4394939004",
     "openalex_author_id": "https://openalex.org/A5040440605",
@@ -10200,7 +10240,9 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W4392904106",
     "openalex_author_id": "https://openalex.org/A5040440605",
@@ -10935,7 +10977,11 @@
     "code_urls": [
       "https://github.com/XuanhaoLiu/MoGE"
     ],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W4406259984",
     "openalex_author_id": "https://openalex.org/A5040440605",
@@ -12858,7 +12904,10 @@
     "status": "DBLP来源记录/待核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W4313036139",
     "openalex_author_id": "https://openalex.org/A5040440605",
@@ -13441,7 +13490,13 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html",
+      "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/",
+      "https://zenodo.org/records/546113"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W4388038274",
     "openalex_author_id": "https://openalex.org/A5040440605",
@@ -15731,7 +15786,9 @@
     "status": "DBLP来源记录/待核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W4226471750",
     "openalex_author_id": "https://openalex.org/A5040440605",
@@ -15915,7 +15972,13 @@
     "code_urls": [
       "https://github.com/Jielin-Qiu/DCCA_Emotion_Recognition"
     ],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html",
+      "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/",
+      "https://zenodo.org/records/546113"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W3159301005",
     "openalex_author_id": "https://openalex.org/A5040440605",
@@ -16827,7 +16890,11 @@
     "scholar_name": "吕宝粮",
     "work_title_group": "47c41abfc5eb",
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html"
+    ],
     "model_urls": [],
     "scholar_ids": [
       "lu_baoliang"
@@ -16919,7 +16986,10 @@
     ],
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html"
+    ],
     "model_urls": [],
     "scholar_categories": {
       "lu_baoliang": {
@@ -17100,7 +17170,11 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html",
+      "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W3014163061",
     "openalex_author_id": "https://openalex.org/A5040440605",
@@ -17674,7 +17748,9 @@
     "status": "DBLP来源记录/待核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-vig.html"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W4312527101",
     "openalex_author_id": "https://openalex.org/A5040440605",
@@ -17962,7 +18038,10 @@
     "status": "DBLP来源记录/待核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W4226548933",
     "openalex_author_id": "https://openalex.org/A5040440605",
@@ -18333,7 +18412,9 @@
     ],
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html"
+    ],
     "model_urls": [],
     "scholar_categories": {
       "lu_baoliang": {
@@ -20035,7 +20116,12 @@
     "scholar_name": "吕宝粮",
     "work_title_group": "00cb6bb62352",
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html",
+      "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/"
+    ],
     "model_urls": [],
     "scholar_ids": [
       "lu_baoliang"
@@ -20136,7 +20222,9 @@
     "scholar_name": "吕宝粮",
     "work_title_group": "647966b8764b",
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/"
+    ],
     "model_urls": [],
     "scholar_ids": [
       "lu_baoliang"
@@ -21844,7 +21932,9 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W3175715598",
     "openalex_author_id": "https://openalex.org/A5040440605",
@@ -22912,7 +23002,9 @@
     "scholar_name": "吕宝粮",
     "work_title_group": "1d9f3743cfcd",
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html"
+    ],
     "model_urls": [],
     "scholar_ids": [
       "lu_baoliang"
@@ -23637,7 +23729,9 @@
     "scholar_name": "吕宝粮",
     "work_title_group": "82f54743b941",
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-vig.html"
+    ],
     "model_urls": [],
     "scholar_ids": [
       "lu_baoliang"
@@ -23839,7 +23933,10 @@
     "scholar_name": "吕宝粮",
     "work_title_group": "465c6bb44869",
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/",
+      "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/"
+    ],
     "model_urls": [],
     "scholar_ids": [
       "lu_baoliang"
@@ -23912,7 +24009,10 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/",
+      "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/"
+    ],
     "model_urls": [],
     "openalex_id": "",
     "openalex_author_id": "",
@@ -24358,7 +24458,10 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/",
+      "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W2962905870",
     "openalex_author_id": "https://openalex.org/A5040440605",
@@ -25066,7 +25169,9 @@
     "scholar_name": "吕宝粮",
     "work_title_group": "1b08048d8500",
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-vig.html"
+    ],
     "model_urls": [],
     "scholar_ids": [
       "lu_baoliang"
@@ -25219,7 +25324,9 @@
     "status": "DBLP来源记录/待核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W2945331847",
     "openalex_author_id": "https://openalex.org/A5040440605",
@@ -25571,7 +25678,9 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W2945585469",
     "openalex_author_id": "https://openalex.org/A5040440605",
@@ -25784,7 +25893,9 @@
     "scholar_name": "吕宝粮",
     "work_title_group": "8feedcc89d4f",
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/"
+    ],
     "model_urls": [],
     "scholar_ids": [
       "lu_baoliang",
@@ -25879,7 +25990,13 @@
     "code_urls": [
       "https://github.com/Jielin-Qiu/DCCA_Emotion_Recognition"
     ],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html",
+      "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/",
+      "https://zenodo.org/records/546113"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W2968088593",
     "openalex_author_id": "https://openalex.org/A5056335002",
@@ -27598,7 +27715,9 @@
     "scholar_name": "吕宝粮",
     "work_title_group": "0654ccbc1193",
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-vig.html"
+    ],
     "model_urls": [],
     "scholar_ids": [
       "lu_baoliang",
@@ -28728,7 +28847,10 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/",
+      "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W2898664946",
     "openalex_author_id": "https://openalex.org/A5040440605",
@@ -32151,7 +32273,9 @@
     "scholar_name": "吕宝粮",
     "work_title_group": "32c80a463286",
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/"
+    ],
     "model_urls": [],
     "scholar_ids": [
       "lu_baoliang",
@@ -32412,7 +32536,10 @@
     "scholar_name": "吕宝粮",
     "work_title_group": "ef5d3f0ff256",
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/",
+      "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/"
+    ],
     "model_urls": [],
     "scholar_ids": [
       "lu_baoliang",
@@ -34454,7 +34581,10 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/",
+      "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/"
+    ],
     "model_urls": [],
     "openalex_id": "",
     "openalex_author_id": "",
@@ -34692,7 +34822,9 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/"
+    ],
     "model_urls": [],
     "openalex_id": "",
     "openalex_author_id": "",

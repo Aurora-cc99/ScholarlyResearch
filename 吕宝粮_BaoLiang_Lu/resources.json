@@ -137,7 +137,9 @@
       "吕宝粮：脑电基准、数据与评测",
       "姜维邦：脑电基准、数据与评测",
       "郑伟龙：脑电基准、数据与评测"
-    ]
+    ],
+    "is_dataset_benchmark": true,
+    "dataset_title": "SEED-OLF — A Novel EEG Dataset With Olfactory Stimulation for Emotion Recogn"
   },
   {
     "id": "lu_baoliang__R004",
@@ -3502,10 +3504,16 @@
     "scholar_name": "吕宝粮",
     "related_paper_titles_zh": [],
     "name_zh": "LaBraM at Scale 523-dataset metadata",
-    "matched_paper_ids": [],
+    "matched_paper_ids": [
+      "90c97dd02a2947b3"
+    ],
     "unmatched_titles": [],
-    "scholar_category_ids": [],
-    "primary_categories": [],
+    "scholar_category_ids": [
+      "lu_baoliang::eeg_foundation"
+    ],
+    "primary_categories": [
+      "吕宝粮：脑电基础模型与通用解码"
+    ],
     "evidence_labels": [
       "GitHub 代码仓库"
     ]

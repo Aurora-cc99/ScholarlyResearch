@@ -656,7 +656,9 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://adni.loni.usc.edu/data-samples/adni-data/"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W7154499387",
     "openalex_author_id": "https://openalex.org/A5038486986",
@@ -1019,7 +1021,9 @@
     "code_urls": [
       "https://github.com/ncclab-sustech/omni-eegbench"
     ],
-    "data_urls": [],
+    "data_urls": [
+      "https://github.com/ncclab-sustech/omni-eegbench"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W7163194613",
     "openalex_author_id": "https://openalex.org/A5038486986",
@@ -1275,7 +1279,11 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html",
+      "https://www.synapse.org/#!Synapse:syn50614194"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W4412722179",
     "openalex_author_id": "https://openalex.org/A5038486986",
@@ -2111,7 +2119,9 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://www.synapse.org/#!Synapse:syn50614194"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W4387940421",
     "openalex_author_id": "https://openalex.org/A5038486986",
@@ -2630,7 +2640,9 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W3199638068",
     "openalex_author_id": "https://openalex.org/A5038486986",
@@ -2795,7 +2807,9 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W3168716205",
     "openalex_author_id": "https://openalex.org/A5038486986",
@@ -2879,7 +2893,9 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W3081994989",
     "openalex_author_id": "https://openalex.org/A5038486986",

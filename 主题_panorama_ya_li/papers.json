@@ -3338,7 +3338,10 @@
     "code_urls": [
       "https://github.com/ultramarineX/DashFusion"
     ],
-    "data_urls": [],
+    "data_urls": [
+      "http://multicomp.cs.cmu.edu/resources/cmu-mosei-dataset/",
+      "http://multicomp.cs.cmu.edu/resources/cmu-mosi-dataset/"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W4411408309",
     "openalex_author_id": "https://openalex.org/A5112613657",
@@ -6550,7 +6553,9 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://sail.usc.edu/iemocap/"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W4392904442",
     "openalex_author_id": "https://openalex.org/A5100343662",
@@ -6860,10 +6865,14 @@
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计",
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [
-      "jiang_dongmei__R006"
+      "jiang_dongmei__R006",
+      "jiang_dongmei__R011"
     ],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://liyan4ai.github.io/aves-dataset/",
+      "https://jsj.nwpu.edu.cn/enweb/FACULTY/Department_of_Computer_Information_Engineering.htm"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W4401452744",
     "openalex_author_id": "",
@@ -13308,7 +13317,9 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "http://www.whdeng.cn/RAF/model1.html"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W2942109599",
     "openalex_author_id": "https://openalex.org/A5001973434",
@@ -13937,7 +13948,9 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://sail.usc.edu/iemocap/"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W2942837495",
     "openalex_author_id": "https://openalex.org/A5001973434",
@@ -14656,7 +14669,9 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://physionet.org/content/sleep-edfx/1.0.0/"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W2810453816",
     "openalex_author_id": "https://openalex.org/A5100672536",
@@ -15433,7 +15448,9 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://sail.usc.edu/iemocap/"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W2892921685",
     "openalex_author_id": "https://openalex.org/A5001973434",

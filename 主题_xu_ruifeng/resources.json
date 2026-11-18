@@ -427,10 +427,17 @@
       "论文主页/PDF",
       "项目主页/资源说明"
     ],
-    "matched_paper_ids": [],
+    "matched_paper_ids": [
+      "844a22b825a9a509",
+      "a1f9880b694ab1ca"
+    ],
     "unmatched_titles": [],
-    "scholar_category_ids": [],
-    "primary_categories": []
+    "scholar_category_ids": [
+      "xu_ruifeng::eeg_affect"
+    ],
+    "primary_categories": [
+      "徐睿峰：情感脑电与多模态生理信号"
+    ]
   },
   {
     "id": "xu_ruifeng__R012",
@@ -615,7 +622,9 @@
     ],
     "primary_categories": [
       "徐睿峰：脑电基准、数据与评测"
-    ]
+    ],
+    "is_dataset_benchmark": true,
+    "dataset_title": "MoZIP — A Multilingual Benchmark to Evaluate Large Language Models in Int"
   },
   {
     "id": "xu_ruifeng__auto_code_9ae4f6ff3b",
@@ -997,8 +1006,8 @@
   },
   {
     "id": "xu_ruifeng__auto_dataset_51db2dc5a4",
-    "name": "II-Bench: An Image Implication Understanding Benchmark for Multimodal Large Language Models — 开源数据集 (m-a-p/II-Bench)",
-    "name_zh": "II-Bench: An Image Implication Understanding Benchmark for Multimodal Large Language Models — 开源数据集",
+    "name": "II-Bench (m-a-p/II-Bench)",
+    "name_zh": "II-Bench (m-a-p/II-Bench)",
     "type": "dataset",
     "url": "https://huggingface.co/datasets/m-a-p/II-Bench",
     "download_url": "https://huggingface.co/datasets/m-a-p/II-Bench",

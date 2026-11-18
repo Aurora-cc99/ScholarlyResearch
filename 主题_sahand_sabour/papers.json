@@ -972,9 +972,13 @@
     ],
     "verification": "主题筛选候选；方法/基准候选",
     "status": "候选条目/需按作者主页继续核验",
-    "resource_ids": [],
+    "resource_ids": [
+      "sahand_sabour__R002"
+    ],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://huggingface.co/datasets/SahandSab/EmoBench"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W4402683994",
     "openalex_author_id": "https://openalex.org/A5084758279",
@@ -1618,7 +1622,9 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://github.com/thu-coai/Emotional-Support-Conversation"
+    ],
     "model_urls": [],
     "openalex_id": "",
     "openalex_author_id": "",
@@ -1722,7 +1728,9 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://github.com/thu-coai/Emotional-Support-Conversation"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W4385572601",
     "openalex_author_id": "https://openalex.org/A5084758279",
@@ -1832,7 +1840,9 @@
     "code_urls": [
       "https://github.com/Sahandfer/CEM"
     ],
-    "data_urls": [],
+    "data_urls": [
+      "https://github.com/facebookresearch/EmpatheticDialogues"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W3200833038",
     "openalex_author_id": "https://openalex.org/A5084758279",
@@ -2149,7 +2159,9 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://github.com/facebookresearch/EmpatheticDialogues"
+    ],
     "model_urls": [],
     "openalex_id": "",
     "openalex_author_id": "",

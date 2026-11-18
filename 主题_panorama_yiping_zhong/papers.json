@@ -94,7 +94,11 @@
     "status": "已核验作品（Crossref DOI）",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://sail.usc.edu/iemocap/",
+      "http://multicomp.cs.cmu.edu/resources/cmu-mosei-dataset/",
+      "http://multicomp.cs.cmu.edu/resources/cmu-mosi-dataset/"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W7212259101",
     "openalex_author_id": "",
@@ -1484,7 +1488,10 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/",
+      "https://zenodo.org/records/546113"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W4224930828",
     "openalex_author_id": "https://openalex.org/A5023225646",
@@ -1803,7 +1810,10 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/",
+      "https://zenodo.org/records/546113"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W3215947932",
     "openalex_author_id": "https://openalex.org/A5023225646",

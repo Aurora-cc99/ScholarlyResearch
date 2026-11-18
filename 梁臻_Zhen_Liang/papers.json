@@ -409,7 +409,10 @@
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
       "liang_zhen__LIANG_CODE_PAA",
-      "liang_zhen__LIANG_DATA_MDD_PAA"
+      "liang_zhen__LIANG_DATA_MDD_PAA",
+      "liang_zhen__LIANG_EXT_SEED",
+      "liang_zhen__LIANG_EXT_SEED-IV",
+      "liang_zhen__LIANG_EXT_SEED-V"
     ],
     "status": "预印本/非正式版本",
     "verification": "DBLP候选已用官方作者目录、目标ORCID、作者论文机构或作者仓库作正向身份核验",
@@ -439,7 +442,11 @@
       "https://github.com/WuCB-BCI/PAA"
     ],
     "data_urls": [
-      "https://figshare.com/articles/dataset/EEG_Data_New/4244171/1"
+      "https://figshare.com/articles/dataset/EEG_Data_New/4244171/1",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/"
     ],
     "model_urls": [],
     "resource_status": "已关联公开代码/数据/模型资源",
@@ -516,7 +523,9 @@
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
-      "liang_zhen__LIANG_DATA_NeuroLong"
+      "liang_zhen__LIANG_DATA_NeuroLong",
+      "liang_zhen__LIANG_EXT_SEED",
+      "liang_zhen__LIANG_EXT_DEAP"
     ],
     "status": "预印本/非正式版本",
     "verification": "DBLP候选已用官方作者目录、目标ORCID、作者论文机构或作者仓库作正向身份核验",
@@ -543,7 +552,10 @@
     "work_title_group": "2f0dafddc352",
     "code_urls": [],
     "data_urls": [
-      "https://arxiv.org/html/2609.24324v1"
+      "https://arxiv.org/html/2609.24324v1",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/",
+      "https://bcmi.sjtu.edu.cn/home/seed/"
     ],
     "model_urls": [],
     "resource_status": "已关联公开入口；具体访问范围见资源说明",
@@ -697,7 +709,10 @@
       "情感计算与情绪理解"
     ],
     "resource_ids": [
-      "liang_zhen__LIANG_CODE_MAT"
+      "liang_zhen__LIANG_CODE_MAT",
+      "liang_zhen__LIANG_EXT_SEED",
+      "liang_zhen__LIANG_EXT_SEED-IV",
+      "liang_zhen__LIANG_EXT_SEED-V"
     ],
     "status": "作者官方仓库声明TAFFC2026已接收/early access；提供IEEE DOI，卷期待补",
     "verification": "作者仓库论文引用、arXiv版本已核验；本轮IEEE站未全文打开",
@@ -725,7 +740,12 @@
     "code_urls": [
       "https://github.com/WuCB-BCI/MAT"
     ],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/"
+    ],
     "model_urls": [],
     "resource_status": "已关联公开代码/数据/模型资源",
     "scholar_ids": [
@@ -1278,7 +1298,9 @@
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
       "liang_zhen__LIANG_CODE_EEGDancer",
-      "liang_zhen__LIANG_DATA_LTNE"
+      "liang_zhen__LIANG_DATA_LTNE",
+      "liang_zhen__LIANG_EXT_SEED",
+      "liang_zhen__LIANG_EXT_SEED-IV"
     ],
     "status": "预印本/非正式版本",
     "verification": "DBLP候选已用官方作者目录、目标ORCID、作者论文机构或作者仓库作正向身份核验",
@@ -1308,7 +1330,10 @@
       "https://github.com/ZhaoZ77/EEGDancer"
     ],
     "data_urls": [
-      "https://arxiv.org/abs/2606.05855"
+      "https://arxiv.org/abs/2606.05855",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/"
     ],
     "model_urls": [],
     "resource_status": "已关联公开入口；具体访问范围见资源说明",
@@ -1516,7 +1541,10 @@
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
-      "liang_zhen__LIANG_CODE_PL-DCP"
+      "liang_zhen__LIANG_CODE_PL-DCP",
+      "liang_zhen__LIANG_EXT_SEED",
+      "liang_zhen__LIANG_EXT_SEED-IV",
+      "liang_zhen__LIANG_EXT_SEED-V"
     ],
     "status": "DBLP收录记录；发表状态以出版页面为准",
     "verification": "DBLP候选已用官方作者目录、目标ORCID、作者论文机构或作者仓库作正向身份核验",
@@ -1560,7 +1588,12 @@
     "code_urls": [
       "https://github.com/WuCB-BCI/PL_DCP"
     ],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/"
+    ],
     "model_urls": [],
     "resource_status": "已关联公开代码/数据/模型资源",
     "scholar_ids": [
@@ -1986,7 +2019,10 @@
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
-      "liang_zhen__LIANG_CODE_McdPL"
+      "liang_zhen__LIANG_CODE_McdPL",
+      "liang_zhen__LIANG_EXT_SEED",
+      "liang_zhen__LIANG_EXT_SEED-IV",
+      "liang_zhen__LIANG_EXT_SEED-V"
     ],
     "status": "预印本/非正式版本",
     "verification": "DBLP候选已用官方作者目录、目标ORCID、作者论文机构或作者仓库作正向身份核验",
@@ -2016,7 +2052,12 @@
     "code_urls": [
       "https://github.com/WuCB-BCI/Mcd_PL"
     ],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/"
+    ],
     "model_urls": [],
     "resource_status": "已关联公开代码/数据/模型资源",
     "scholar_ids": [
@@ -2961,7 +3002,11 @@
       "情感计算与情绪理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
-    "resource_ids": [],
+    "resource_ids": [
+      "liang_zhen__LIANG_EXT_SEED",
+      "liang_zhen__LIANG_EXT_SEED-IV",
+      "liang_zhen__LIANG_EXT_SEED-V"
+    ],
     "status": "已核验作品（ORCID/DOI）",
     "verification": "DBLP候选已用官方作者目录、目标ORCID、作者论文机构或作者仓库作正向身份核验；已用ORCID 0000-0001-7992-7965 DOI作品记录补充核验",
     "source_type": "official_dblp_sparql",
@@ -3012,7 +3057,13 @@
     "scholar_name": "梁臻",
     "work_title_group": "fdb15bd09ca0",
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/",
+      "https://www.synapse.org/#!Synapse:syn50614194"
+    ],
     "model_urls": [],
     "scholar_ids": [
       "liang_zhen",
@@ -3596,7 +3647,10 @@
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
-      "liang_zhen__LIANG_CODE_EEG-SCMM"
+      "liang_zhen__LIANG_CODE_EEG-SCMM",
+      "liang_zhen__LIANG_EXT_SEED",
+      "liang_zhen__LIANG_EXT_SEED-IV",
+      "liang_zhen__LIANG_EXT_DEAP"
     ],
     "status": "DBLP收录记录；发表状态以出版页面为准",
     "verification": "DBLP候选已用官方作者目录、目标ORCID、作者论文机构或作者仓库作正向身份核验",
@@ -3634,7 +3688,12 @@
     "code_urls": [
       "https://github.com/Kyler-RL/SCMM"
     ],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/",
+      "https://bcmi.sjtu.edu.cn/home/seed/"
+    ],
     "model_urls": [],
     "resource_status": "已关联公开代码/数据/模型资源",
     "scholar_ids": [
@@ -3722,7 +3781,10 @@
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
-      "liang_zhen__LIANG_CODE_EEGMatch"
+      "liang_zhen__LIANG_CODE_EEGMatch",
+      "liang_zhen__LIANG_EXT_SEED",
+      "liang_zhen__LIANG_EXT_SEED-IV",
+      "liang_zhen__LIANG_EXT_SEED-V"
     ],
     "status": "已核验作品（ORCID/DOI）",
     "verification": "ORCID 0000-0001-7992-7965 作品记录；精确题名/DOI保留",
@@ -3775,7 +3837,12 @@
     "code_urls": [
       "https://github.com/KAZABANA/EEGMatch"
     ],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/"
+    ],
     "model_urls": [],
     "resource_status": "已关联公开代码/数据/模型资源",
     "scholar_ids": [
@@ -3991,7 +4058,10 @@
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
-      "liang_zhen__LIANG_CODE_MAT"
+      "liang_zhen__LIANG_CODE_MAT",
+      "liang_zhen__LIANG_EXT_SEED",
+      "liang_zhen__LIANG_EXT_SEED-IV",
+      "liang_zhen__LIANG_EXT_SEED-V"
     ],
     "status": "预印本/非正式版本",
     "verification": "DBLP候选已用官方作者目录、目标ORCID、作者论文机构或作者仓库作正向身份核验",
@@ -4021,7 +4091,12 @@
     "code_urls": [
       "https://github.com/WuCB-BCI/MAT"
     ],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/"
+    ],
     "model_urls": [],
     "resource_status": "已关联公开代码/数据/模型资源",
     "scholar_ids": [
@@ -4711,7 +4786,10 @@
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
-      "liang_zhen__auto_code_2b4d833015"
+      "liang_zhen__auto_code_2b4d833015",
+      "liang_zhen__LIANG_EXT_SEED",
+      "liang_zhen__LIANG_EXT_DEAP",
+      "liang_zhen__LIANG_EXT_MAHNOB-HCI"
     ],
     "status": "已核验作品（ORCID/DOI）",
     "verification": "ORCID 0000-0001-7992-7965 作品记录；精确题名/DOI保留",
@@ -4768,7 +4846,13 @@
     "code_urls": [
       "https://github.com/infinite-tao/TAS-Net"
     ],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/",
+      "https://mahnob-db.eu/",
+      "https://bcmi.sjtu.edu.cn/home/seed/",
+      "https://mahnob-db.eu/hci-tagging/"
+    ],
     "model_urls": [],
     "scholar_ids": [
       "liang_zhen",
@@ -5398,7 +5482,9 @@
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
-      "liang_zhen__auto_code_0567dc4d46"
+      "liang_zhen__auto_code_0567dc4d46",
+      "liang_zhen__LIANG_EXT_SEED",
+      "liang_zhen__LIANG_EXT_DEAP"
     ],
     "status": "DBLP收录记录；发表状态以出版页面为准",
     "verification": "DBLP候选已用官方作者目录、目标ORCID、作者论文机构或作者仓库作正向身份核验",
@@ -5449,7 +5535,11 @@
     "code_urls": [
       "https://github.com/ThreePoundUniverse/MACTN"
     ],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/",
+      "https://bcmi.sjtu.edu.cn/home/seed/"
+    ],
     "model_urls": [],
     "scholar_ids": [
       "liang_zhen",
@@ -5846,7 +5936,10 @@
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
-      "liang_zhen__LIANG_CODE_PL-DCP"
+      "liang_zhen__LIANG_CODE_PL-DCP",
+      "liang_zhen__LIANG_EXT_SEED",
+      "liang_zhen__LIANG_EXT_SEED-IV",
+      "liang_zhen__LIANG_EXT_SEED-V"
     ],
     "status": "预印本/非正式版本",
     "verification": "DBLP候选已用官方作者目录、目标ORCID、作者论文机构或作者仓库作正向身份核验",
@@ -5876,7 +5969,12 @@
     "code_urls": [
       "https://github.com/WuCB-BCI/PL_DCP"
     ],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-v.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/"
+    ],
     "model_urls": [],
     "resource_status": "已关联公开代码/数据/模型资源",
     "scholar_ids": [
@@ -6576,7 +6674,10 @@
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
-      "liang_zhen__LIANG_CODE_EEG-SCMM"
+      "liang_zhen__LIANG_CODE_EEG-SCMM",
+      "liang_zhen__LIANG_EXT_SEED",
+      "liang_zhen__LIANG_EXT_SEED-IV",
+      "liang_zhen__LIANG_EXT_DEAP"
     ],
     "status": "预印本/非正式版本",
     "verification": "DBLP候选已用官方作者目录、目标ORCID、作者论文机构或作者仓库作正向身份核验",
@@ -6605,7 +6706,12 @@
     "code_urls": [
       "https://github.com/Kyler-RL/SCMM"
     ],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/",
+      "https://bcmi.sjtu.edu.cn/home/seed/"
+    ],
     "model_urls": [],
     "resource_status": "已关联公开代码/数据/模型资源",
     "scholar_ids": [
@@ -6682,7 +6788,9 @@
       "情感计算与情绪理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
-    "resource_ids": [],
+    "resource_ids": [
+      "liang_zhen__LIANG_EXT_SEED"
+    ],
     "status": "DBLP收录记录；发表状态以出版页面为准",
     "verification": "逐论文DBLP作者签名的ORCID/机构与官方职业履历相符，非混合PID整体归属",
     "source_type": "official_dblp_sparql",
@@ -6714,7 +6822,10 @@
     "scholar_name": "梁臻",
     "work_title_group": "fade43581dbe",
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/"
+    ],
     "model_urls": [],
     "scholar_ids": [
       "liang_zhen",
@@ -7030,7 +7141,9 @@
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
-      "liang_zhen__LIANG_CODE_PR-PL"
+      "liang_zhen__LIANG_CODE_PR-PL",
+      "liang_zhen__LIANG_EXT_SEED",
+      "liang_zhen__LIANG_EXT_SEED-IV"
     ],
     "status": "已核验作品（ORCID/DOI）",
     "verification": "ORCID 0000-0001-7992-7965 作品记录；精确题名/DOI保留",
@@ -7084,7 +7197,11 @@
     "code_urls": [
       "https://github.com/KAZABANA/PR-PL"
     ],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/"
+    ],
     "model_urls": [],
     "resource_status": "已关联公开代码/数据/模型资源",
     "scholar_ids": [
@@ -8272,7 +8389,10 @@
       "情感计算与情绪理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
-    "resource_ids": [],
+    "resource_ids": [
+      "liang_zhen__LIANG_EXT_SEED",
+      "liang_zhen__LIANG_EXT_SEED-IV"
+    ],
     "status": "预印本/非正式版本",
     "verification": "DBLP候选已用官方作者目录、目标ORCID、作者论文机构或作者仓库作正向身份核验",
     "source_type": "official_dblp_sparql",
@@ -8300,7 +8420,11 @@
     "scholar_name": "梁臻",
     "work_title_group": "fdb15bd09ca0",
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/"
+    ],
     "model_urls": [],
     "scholar_ids": [
       "liang_zhen",
@@ -8621,7 +8745,9 @@
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
-      "liang_zhen__LIANG_CODE_EEGMatch"
+      "liang_zhen__LIANG_CODE_EEGMatch",
+      "liang_zhen__LIANG_EXT_SEED",
+      "liang_zhen__LIANG_EXT_SEED-IV"
     ],
     "status": "预印本/非正式版本",
     "verification": "DBLP候选已用官方作者目录、目标ORCID、作者论文机构或作者仓库作正向身份核验",
@@ -8651,7 +8777,11 @@
     "code_urls": [
       "https://github.com/KAZABANA/EEGMatch"
     ],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html",
+      "https://bcmi.sjtu.edu.cn/home/seed/"
+    ],
     "model_urls": [],
     "resource_status": "已关联公开代码/数据/模型资源",
     "scholar_ids": [
@@ -9549,7 +9679,11 @@
       "强化学习与决策优化"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
-    "resource_ids": [],
+    "resource_ids": [
+      "liang_zhen__LIANG_EXT_SEED",
+      "liang_zhen__LIANG_EXT_DEAP",
+      "liang_zhen__LIANG_EXT_MAHNOB-HCI"
+    ],
     "status": "预印本/非正式版本",
     "verification": "DBLP候选已用官方作者目录、目标ORCID、作者论文机构或作者仓库作正向身份核验",
     "source_type": "official_dblp_sparql",
@@ -9577,7 +9711,13 @@
     "scholar_name": "梁臻",
     "work_title_group": "d170d52609aa",
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/",
+      "https://mahnob-db.eu/",
+      "https://bcmi.sjtu.edu.cn/home/seed/",
+      "https://mahnob-db.eu/hci-tagging/"
+    ],
     "model_urls": [],
     "scholar_ids": [
       "liang_zhen"
@@ -12824,7 +12964,11 @@
       "脑电情感识别",
       "情感计算与情绪理解"
     ],
-    "resource_ids": [],
+    "resource_ids": [
+      "liang_zhen__LIANG_EXT_SEED",
+      "liang_zhen__LIANG_EXT_DEAP",
+      "liang_zhen__LIANG_EXT_MAHNOB-HCI"
+    ],
     "status": "作者官方发表目录记录；年/状态按原目录保留",
     "verification": "官方作者目录；书目字段自动解析，原文保存以便校对",
     "source_type": "official_author_list",
@@ -12854,7 +12998,13 @@
     "scholar_name": "梁臻",
     "work_title_group": "53bb6f26ee8a",
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/",
+      "https://mahnob-db.eu/",
+      "https://bcmi.sjtu.edu.cn/home/seed/",
+      "https://mahnob-db.eu/hci-tagging/"
+    ],
     "model_urls": [],
     "scholar_ids": [
       "liang_zhen",

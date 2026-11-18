@@ -41,7 +41,9 @@
     ],
     "primary_categories": [
       "连政：脑电基准、数据与评测"
-    ]
+    ],
+    "is_dataset_benchmark": true,
+    "dataset_title": "EmoBench-M — Benchmarking Emotional Intelligence for Multimodal Large Language"
   },
   {
     "id": "zheng_lian__R002",
@@ -179,7 +181,9 @@
     ],
     "primary_categories": [
       "连政：脑电基准、数据与评测"
-    ]
+    ],
+    "is_dataset_benchmark": true,
+    "dataset_title": "EmoTrans — A Benchmark for Understanding, Reasoning, and Predicting Emotion "
   },
   {
     "id": "zheng_lian__auto_code_62feba43a2",
@@ -460,8 +464,8 @@
   },
   {
     "id": "zheng_lian__auto_dataset_e3237f0244",
-    "name": "MER 2025: When Affective Computing Meets Large Language Models — 开源数据集 (MERChallenge/MER2025)",
-    "name_zh": "MER 2025：当情感计算遇到大型语言模型时 — 开源数据集",
+    "name": "Hugging Face / MERChallenge/MER2025",
+    "name_zh": "Hugging Face / MERChallenge/MER2025",
     "type": "dataset",
     "url": "https://huggingface.co/datasets/MERChallenge/MER2025",
     "download_url": "https://huggingface.co/datasets/MERChallenge/MER2025",
@@ -586,7 +590,9 @@
       "连政：脑电基准、数据与评测",
       "刘瑞：情感数据集、基准与评测",
       "邢晓芬：情感脑电与多模态生理信号"
-    ]
+    ],
+    "is_dataset_benchmark": true,
+    "dataset_title": "Emotion and Intent Joint Understanding in Multimodal Conversation: A Benchm"
   },
   {
     "id": "zheng_lian__auto_code_65493054af",
@@ -803,6 +809,8 @@
     ],
     "primary_categories": [
       "连政：脑电基准、数据与评测"
-    ]
+    ],
+    "is_dataset_benchmark": true,
+    "dataset_title": "MMAR — A Challenging Benchmark for Deep Reasoning in Speech, Audio, Musi"
   }
 ]
