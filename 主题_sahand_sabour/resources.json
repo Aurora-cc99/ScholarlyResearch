@@ -12,8 +12,7 @@
     "related_paper_titles": [],
     "evidence_urls": [
       "https://github.com/Sahandfer/EmoBench",
-      "https://arxiv.org/abs/2402.12071",
-      "https://github.com/Sahandfer/EmoBench"
+      "https://arxiv.org/abs/2402.12071"
     ],
     "verification": "候选来源；未执行下载或训练",
     "notes": "需核对身份归属和许可证",
@@ -60,5 +59,80 @@
     "unmatched_titles": [],
     "scholar_category_ids": [],
     "primary_categories": []
+  },
+  {
+    "id": "sahand_sabour__auto_code_7ac10dc218",
+    "name": "COKE: A Cognitive Knowledge Graph for Machine Theory of Mind — 开源代码 (jincenziwu/COKE)",
+    "name_zh": "COKE：机器心理理论的认知知识图 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/jincenziwu/COKE",
+    "download_url": "https://github.com/jincenziwu/COKE",
+    "access": "public",
+    "related_paper_titles": [
+      "COKE: A Cognitive Knowledge Graph for Machine Theory of Mind"
+    ],
+    "related_paper_titles_zh": [
+      "COKE：机器心理理论的认知知识图"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/jincenziwu/COKE",
+      "https://doi.org/10.18653/v1/2024.acl-long.848"
+    ],
+    "description": "从论文《COKE: A Cognitive Knowledge Graph for Machine Theory of Mind》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "sahand_sabour",
+    "scholar_name": "Sahand Sabour",
+    "matched_paper_ids": [
+      "sahand_sabour_2de3a6502758"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "sahand_sabour::emotion_benchmark",
+      "minlie_huang::eeg_affect"
+    ],
+    "primary_categories": [
+      "Sahand Sabour：情感数据集、基准与评测",
+      "黄民烈：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "sahand_sabour__auto_code_8099983767",
+    "name": "PAL: Persona-Augmented Emotional Support Conversation Generation — 开源代码 (chengjl19/PAL)",
+    "name_zh": "PAL：角色增强情感支持对话生成 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/chengjl19/PAL",
+    "download_url": "https://github.com/chengjl19/PAL",
+    "access": "public",
+    "related_paper_titles": [
+      "PAL: Persona-Augmented Emotional Support Conversation Generation"
+    ],
+    "related_paper_titles_zh": [
+      "PAL：角色增强情感支持对话生成"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/chengjl19/PAL",
+      "https://www.semanticscholar.org/paper/9eff5a7db649052882733bd38044ec69b2b55b35",
+      "https://doi.org/10.48550/arXiv.2212.09235"
+    ],
+    "description": "从论文《PAL: Persona-Augmented Emotional Support Conversation Generation》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "sahand_sabour",
+    "scholar_name": "Sahand Sabour",
+    "matched_paper_ids": [
+      "sahand_sabour_3cf358fc6714"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "sahand_sabour::emotion_benchmark",
+      "minlie_huang::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "Sahand Sabour：情感数据集、基准与评测",
+      "黄民烈：脑电基准、数据与评测"
+    ]
   }
 ]

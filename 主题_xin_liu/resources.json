@@ -14,7 +14,6 @@
     ],
     "evidence_urls": [
       "https://psychology.sjtu.edu.cn/xsdt/555.html",
-      "https://psychology.sjtu.edu.cn/xsdt/555.html",
       "https://arxiv.org/abs/2505.11405",
       "https://psychology.sjtu.edu.cn/tsml/524.html",
       "https://linuxsino.github.io/"
@@ -24,7 +23,7 @@
     "scholar_id": "xin_liu",
     "scholar_name": "刘鑫",
     "related_paper_titles_zh": [
-      "EmotionHallucer: Evaluating Emotion Hallucinations in Multimodal Large Language Models"
+      "EmotionHallucer：评估多模态大语言模型中的情绪幻觉"
     ],
     "evidence_labels": [
       "作者/机构主页",
@@ -38,10 +37,16 @@
     ],
     "unmatched_titles": [],
     "scholar_category_ids": [
-      "xin_liu::emotion_benchmark"
+      "xin_liu::emotion_benchmark",
+      "jianhua_tao::eeg_benchmark",
+      "guoying_zhao::emotion_benchmark",
+      "fu_xiaolan::eeg_affect"
     ],
     "primary_categories": [
-      "情感数据集、基准与评测"
+      "刘鑫：情感数据集、基准与评测",
+      "陶建华：脑电基准、数据与评测",
+      "赵国英：情感数据集、基准与评测",
+      "傅小兰：情感脑电与多模态生理信号"
     ]
   },
   {
@@ -58,7 +63,6 @@
     "evidence_urls": [
       "https://arxiv.org/abs/2505.11405",
       "https://psychology.sjtu.edu.cn/xsdt/555.html",
-      "https://arxiv.org/abs/2505.11405",
       "https://psychology.sjtu.edu.cn/tsml/524.html",
       "https://linuxsino.github.io/"
     ],
@@ -94,7 +98,6 @@
       "https://psychology.sjtu.edu.cn/tsml/524.html",
       "https://psychology.sjtu.edu.cn/xsdt/555.html",
       "https://arxiv.org/abs/2505.11405",
-      "https://psychology.sjtu.edu.cn/tsml/524.html",
       "https://linuxsino.github.io/"
     ],
     "verification": "候选来源；未执行下载或训练",
@@ -129,8 +132,7 @@
       "https://linuxsino.github.io/",
       "https://psychology.sjtu.edu.cn/xsdt/555.html",
       "https://arxiv.org/abs/2505.11405",
-      "https://psychology.sjtu.edu.cn/tsml/524.html",
-      "https://linuxsino.github.io/"
+      "https://psychology.sjtu.edu.cn/tsml/524.html"
     ],
     "verification": "候选来源；未执行下载或训练",
     "notes": "需核对身份归属和许可证",
@@ -148,5 +150,1079 @@
     "unmatched_titles": [],
     "scholar_category_ids": [],
     "primary_categories": []
+  },
+  {
+    "id": "xin_liu__auto_code_e9c9080dfe",
+    "name": "EmotionHallucer: Evaluating Emotion Hallucinations in Multimodal Large Language Models — 开源代码 (xxtars/EmotionHallucer)",
+    "name_zh": "EmotionHallucer：多模态大语言模型情绪幻觉评测 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/xxtars/EmotionHallucer",
+    "download_url": "https://github.com/xxtars/EmotionHallucer",
+    "access": "public",
+    "related_paper_titles": [
+      "EmotionHallucer: Evaluating Emotion Hallucinations in Multimodal Large Language Models"
+    ],
+    "related_paper_titles_zh": [
+      "EmotionHallucer：多模态大语言模型情绪幻觉评测"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/xxtars/EmotionHallucer",
+      "https://arxiv.org/abs/2505.11405",
+      "https://doi.org/10.48550/ARXIV.2505.11405"
+    ],
+    "description": "从论文《EmotionHallucer: Evaluating Emotion Hallucinations in Multimodal Large Language Models》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "xin_liu",
+    "scholar_name": "刘鑫",
+    "matched_paper_ids": [
+      "xin_liu_a728cfb009bd"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "xin_liu::emotion_benchmark",
+      "jianhua_tao::eeg_benchmark",
+      "guoying_zhao::emotion_benchmark",
+      "fu_xiaolan::eeg_affect"
+    ],
+    "primary_categories": [
+      "刘鑫：情感数据集、基准与评测",
+      "陶建华：脑电基准、数据与评测",
+      "赵国英：情感数据集、基准与评测",
+      "傅小兰：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "xin_liu__auto_code_170ad9df55",
+    "name": "DIC-DDA: Learned Asymmetric Distributed Image Compression via Dual Domain Alignment — 开源代码 (lixianghuitju/DIC-DDA)",
+    "name_zh": "DIC-DDA: Learned Asymmetric Distributed Image Compression via Dual Domain Alignment — 开源代码",
+    "type": "code",
+    "url": "https://github.com/lixianghuitju/DIC-DDA",
+    "download_url": "https://github.com/lixianghuitju/DIC-DDA",
+    "access": "public",
+    "related_paper_titles": [
+      "DIC-DDA: Learned Asymmetric Distributed Image Compression via Dual Domain Alignment"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/lixianghuitju/DIC-DDA",
+      "https://doi.org/10.1109/TIP.2026.3680017"
+    ],
+    "description": "从论文《DIC-DDA: Learned Asymmetric Distributed Image Compression via Dual Domain Alignment》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "xin_liu",
+    "scholar_name": "刘鑫",
+    "matched_paper_ids": [
+      "xin_liu_079c6ae63cd57924"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "xin_liu::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "刘鑫：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "xin_liu__auto_code_e0dbf8589a",
+    "name": "EMO-LLaMA: Enhancing Facial Emotion Understanding with Instruction Tuning — 开源代码 (xxtars/EMO-LLaMA)",
+    "name_zh": "EMO-LLaMA: Enhancing Facial Emotion Understanding with Instruction Tuning — 开源代码",
+    "type": "code",
+    "url": "https://github.com/xxtars/EMO-LLaMA",
+    "download_url": "https://github.com/xxtars/EMO-LLaMA",
+    "access": "public",
+    "related_paper_titles": [
+      "EMO-LLaMA: Enhancing Facial Emotion Understanding with Instruction Tuning"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/xxtars/EMO-LLaMA",
+      "https://doi.org/10.1007/S11263-026-02918-9"
+    ],
+    "description": "从论文《EMO-LLaMA: Enhancing Facial Emotion Understanding with Instruction Tuning》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "xin_liu",
+    "scholar_name": "刘鑫",
+    "matched_paper_ids": [
+      "xin_liu_2ac6e1e04dfc5ce6"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "xin_liu::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "刘鑫：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "xin_liu__auto_code_f579c3679c",
+    "name": "Insights from Visual Cognition: Understanding Human Action Dynamics with Overall Glance and Refined Gaze Transformer — 开源代码 (linuxsino/OG-ReG)",
+    "name_zh": "Insights from Visual Cognition: Understanding Human Action Dynamics with Overall Glance and Refined Gaze Transformer — 开源代码",
+    "type": "code",
+    "url": "https://github.com/linuxsino/OG-ReG",
+    "download_url": "https://github.com/linuxsino/OG-ReG",
+    "access": "public",
+    "related_paper_titles": [
+      "Insights from Visual Cognition: Understanding Human Action Dynamics with Overall Glance and Refined Gaze Transformer"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/linuxsino/OG-ReG",
+      "https://doi.org/10.48550/ARXIV.2604.06783"
+    ],
+    "description": "从论文《Insights from Visual Cognition: Understanding Human Action Dynamics with Overall Glance and Refined Gaze Transformer》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "xin_liu",
+    "scholar_name": "刘鑫",
+    "matched_paper_ids": [
+      "xin_liu_a1d383f86c9e74bc"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "xin_liu::emotion_understanding"
+    ],
+    "primary_categories": [
+      "刘鑫：情感理解与多模态推理"
+    ]
+  },
+  {
+    "id": "xin_liu__auto_code_4769acb9d5",
+    "name": "MSF-Mamba: Motion-Aware State Fusion Mamba for Efficient Micro-Gesture Recognition — 开源代码 (Leedeng/MSF-Mamba)",
+    "name_zh": "MSF-Mamba: Motion-Aware State Fusion Mamba for Efficient Micro-Gesture Recognition — 开源代码",
+    "type": "code",
+    "url": "https://github.com/Leedeng/MSF-Mamba",
+    "download_url": "https://github.com/Leedeng/MSF-Mamba",
+    "access": "public",
+    "related_paper_titles": [
+      "MSF-Mamba: Motion-Aware State Fusion Mamba for Efficient Micro-Gesture Recognition"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/Leedeng/MSF-Mamba",
+      "https://doi.org/10.1109/TMM.2026.3668511"
+    ],
+    "description": "从论文《MSF-Mamba: Motion-Aware State Fusion Mamba for Efficient Micro-Gesture Recognition》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "xin_liu",
+    "scholar_name": "刘鑫",
+    "matched_paper_ids": [
+      "xin_liu_bd690698131e8185"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "xin_liu::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "刘鑫：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "xin_liu__auto_code_c4eeb464ce",
+    "name": "Multi-Granularity Facial Emotional Representation With Unlabeled Data and Textual Supervision — 开源代码 (yuankaishen2001/MGFER)",
+    "name_zh": "Multi-Granularity Facial Emotional Representation With Unlabeled Data and Textual Supervision — 开源代码",
+    "type": "code",
+    "url": "https://github.com/yuankaishen2001/MGFER",
+    "download_url": "https://github.com/yuankaishen2001/MGFER",
+    "access": "public",
+    "related_paper_titles": [
+      "Multi-Granularity Facial Emotional Representation With Unlabeled Data and Textual Supervision"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/yuankaishen2001/MGFER",
+      "https://doi.org/10.1109/TIP.2026.3675883"
+    ],
+    "description": "从论文《Multi-Granularity Facial Emotional Representation With Unlabeled Data and Textual Supervision》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "xin_liu",
+    "scholar_name": "刘鑫",
+    "matched_paper_ids": [
+      "xin_liu_268500e421f93e73"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "xin_liu::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "刘鑫：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "xin_liu__auto_code_4ef3c96311",
+    "name": "A Simple Yet Effective Network Based on Vision Transformer for Camouflaged Object and Salient Object Detection — 开源代码 (linuxsino/SENet)",
+    "name_zh": "A Simple Yet Effective Network Based on Vision Transformer for Camouflaged Object and Salient Object Detection — 开源代码",
+    "type": "code",
+    "url": "https://github.com/linuxsino/SENet",
+    "download_url": "https://github.com/linuxsino/SENet",
+    "access": "public",
+    "related_paper_titles": [
+      "A Simple Yet Effective Network Based on Vision Transformer for Camouflaged Object and Salient Object Detection"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/linuxsino/SENet",
+      "https://doi.org/10.1109/TIP.2025.3528347"
+    ],
+    "description": "从论文《A Simple Yet Effective Network Based on Vision Transformer for Camouflaged Object and Salient Object Detection》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "xin_liu",
+    "scholar_name": "刘鑫",
+    "matched_paper_ids": [
+      "xin_liu_4a09df60abea7c05"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "xin_liu::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "刘鑫：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "xin_liu__auto_code_87f102dcde",
+    "name": "Advancing Generalizable Remote Physiological Measurement Through the Integration of Explicit and Implicit Prior Knowledge — 开源代码 (keke-nice/Greip)",
+    "name_zh": "Advancing Generalizable Remote Physiological Measurement Through the Integration of Explicit and Implicit Prior Knowledge — 开源代码",
+    "type": "code",
+    "url": "https://github.com/keke-nice/Greip",
+    "download_url": "https://github.com/keke-nice/Greip",
+    "access": "public",
+    "related_paper_titles": [
+      "Advancing Generalizable Remote Physiological Measurement Through the Integration of Explicit and Implicit Prior Knowledge"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/keke-nice/Greip",
+      "https://doi.org/10.1109/TIP.2025.3576490"
+    ],
+    "description": "从论文《Advancing Generalizable Remote Physiological Measurement Through the Integration of Explicit and Implicit Prior Knowledge》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "xin_liu",
+    "scholar_name": "刘鑫",
+    "matched_paper_ids": [
+      "xin_liu_d03b6ce5fbb8b3b4"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "xin_liu::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "刘鑫：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "xin_liu__auto_code_e986917e1f",
+    "name": "AutoLUT: LUT-Based Image Super-Resolution with Automatic Sampling and Adaptive Residual Learning — 开源代码 (SuperKenVery/AutoLUT)",
+    "name_zh": "AutoLUT: LUT-Based Image Super-Resolution with Automatic Sampling and Adaptive Residual Learning — 开源代码",
+    "type": "code",
+    "url": "https://github.com/SuperKenVery/AutoLUT",
+    "download_url": "https://github.com/SuperKenVery/AutoLUT",
+    "access": "public",
+    "related_paper_titles": [
+      "AutoLUT: LUT-Based Image Super-Resolution with Automatic Sampling and Adaptive Residual Learning"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/SuperKenVery/AutoLUT",
+      "https://openaccess.thecvf.com/content/CVPR2025/html/Xu_AutoLUT_LUT-Based_Image_Super-Resolution_with_Automatic_Sampling_and_Adaptive_Residual_CVPR_2025_paper.html",
+      "https://doi.org/10.1109/CVPR52734.2025.02154"
+    ],
+    "description": "从论文《AutoLUT: LUT-Based Image Super-Resolution with Automatic Sampling and Adaptive Residual Learning》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "xin_liu",
+    "scholar_name": "刘鑫",
+    "matched_paper_ids": [
+      "xin_liu_4609a9740eff97cf"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "xin_liu::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "刘鑫：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "xin_liu__auto_code_77abbd818d",
+    "name": "CAT+: Investigating and Enhancing Audio-Visual Understanding in Large Language Models — 开源代码 (rikeilong/Bay-CAT)",
+    "name_zh": "CAT+: Investigating and Enhancing Audio-Visual Understanding in Large Language Models — 开源代码",
+    "type": "code",
+    "url": "https://github.com/rikeilong/Bay-CAT",
+    "download_url": "https://github.com/rikeilong/Bay-CAT",
+    "access": "public",
+    "related_paper_titles": [
+      "CAT+: Investigating and Enhancing Audio-Visual Understanding in Large Language Models"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/rikeilong/Bay-CAT",
+      "https://doi.org/10.1109/TPAMI.2025.3582389"
+    ],
+    "description": "从论文《CAT+: Investigating and Enhancing Audio-Visual Understanding in Large Language Models》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "xin_liu",
+    "scholar_name": "刘鑫",
+    "matched_paper_ids": [
+      "xin_liu_d5d3ea8b0b2ac931"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "xin_liu::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "刘鑫：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "xin_liu__auto_code_e4599272ec",
+    "name": "DEEMO: De-identity Multimodal Emotion Recognition and Reasoning — 开源代码 (Leedeng/DEEMO)",
+    "name_zh": "DEEMO: De-identity Multimodal Emotion Recognition and Reasoning — 开源代码",
+    "type": "code",
+    "url": "https://github.com/Leedeng/DEEMO",
+    "download_url": "https://github.com/Leedeng/DEEMO",
+    "access": "public",
+    "related_paper_titles": [
+      "DEEMO: De-identity Multimodal Emotion Recognition and Reasoning"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/Leedeng/DEEMO",
+      "https://doi.org/10.1145/3746027.3755411"
+    ],
+    "description": "从论文《DEEMO: De-identity Multimodal Emotion Recognition and Reasoning》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "xin_liu",
+    "scholar_name": "刘鑫",
+    "matched_paper_ids": [
+      "xin_liu_b617d4d1daafe46a"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "xin_liu::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "刘鑫：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "xin_liu__auto_code_cfa6c8d6d1",
+    "name": "DiffFAS: Face Anti-spoofing via Generative Diffusion Models — 开源代码 (murphytju/DiffFAS)",
+    "name_zh": "DiffFAS: Face Anti-spoofing via Generative Diffusion Models — 开源代码",
+    "type": "code",
+    "url": "https://github.com/murphytju/DiffFAS",
+    "download_url": "https://github.com/murphytju/DiffFAS",
+    "access": "public",
+    "related_paper_titles": [
+      "DiffFAS: Face Anti-spoofing via Generative Diffusion Models"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/murphytju/DiffFAS",
+      "https://doi.org/10.1007/978-3-031-72949-2_9"
+    ],
+    "description": "从论文《DiffFAS: Face Anti-spoofing via Generative Diffusion Models》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "xin_liu",
+    "scholar_name": "刘鑫",
+    "matched_paper_ids": [
+      "xin_liu_0307a20ca7834c6f"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "xin_liu::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "刘鑫：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "xin_liu__auto_code_6361137ec6",
+    "name": "Distribution-Specific Learning for Joint Salient and Camouflaged Object Detection — 开源代码 (linuxsino/JoNet)",
+    "name_zh": "Distribution-Specific Learning for Joint Salient and Camouflaged Object Detection — 开源代码",
+    "type": "code",
+    "url": "https://github.com/linuxsino/JoNet",
+    "download_url": "https://github.com/linuxsino/JoNet",
+    "access": "public",
+    "related_paper_titles": [
+      "Distribution-Specific Learning for Joint Salient and Camouflaged Object Detection"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/linuxsino/JoNet",
+      "https://doi.org/10.48550/ARXIV.2508.06063"
+    ],
+    "description": "从论文《Distribution-Specific Learning for Joint Salient and Camouflaged Object Detection》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "xin_liu",
+    "scholar_name": "刘鑫",
+    "matched_paper_ids": [
+      "xin_liu_e27b335c926b6b1a"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "xin_liu::emotion_understanding"
+    ],
+    "primary_categories": [
+      "刘鑫：情感理解与多模态推理"
+    ]
+  },
+  {
+    "id": "xin_liu__auto_code_0d2edc4ed4",
+    "name": "Dynamic Collaboration of Multi-Language Models based on Minimal Complete Semantic Units — 开源代码 (Fanye12/DDS)",
+    "name_zh": "Dynamic Collaboration of Multi-Language Models based on Minimal Complete Semantic Units — 开源代码",
+    "type": "code",
+    "url": "https://github.com/Fanye12/DDS",
+    "download_url": "https://github.com/Fanye12/DDS",
+    "access": "public",
+    "related_paper_titles": [
+      "Dynamic Collaboration of Multi-Language Models based on Minimal Complete Semantic Units"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/Fanye12/DDS",
+      "https://doi.org/10.48550/ARXIV.2508.18763"
+    ],
+    "description": "从论文《Dynamic Collaboration of Multi-Language Models based on Minimal Complete Semantic Units》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "xin_liu",
+    "scholar_name": "刘鑫",
+    "matched_paper_ids": [
+      "xin_liu_0747120c574e02fb"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "xin_liu::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "刘鑫：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "xin_liu__auto_code_c2291f330e",
+    "name": "FEALLM: Advancing Facial Emotion Analysis in Multimodal Large Language Models with Emotional Synergy and Reasoning — 开源代码 (953206211/FEALLM)",
+    "name_zh": "FEALLM: Advancing Facial Emotion Analysis in Multimodal Large Language Models with Emotional Synergy and Reasoning — 开源代码",
+    "type": "code",
+    "url": "https://github.com/953206211/FEALLM",
+    "download_url": "https://github.com/953206211/FEALLM",
+    "access": "public",
+    "related_paper_titles": [
+      "FEALLM: Advancing Facial Emotion Analysis in Multimodal Large Language Models with Emotional Synergy and Reasoning"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/953206211/FEALLM",
+      "https://doi.org/10.48550/ARXIV.2505.13419"
+    ],
+    "description": "从论文《FEALLM: Advancing Facial Emotion Analysis in Multimodal Large Language Models with Emotional Synergy and Reasoning》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "xin_liu",
+    "scholar_name": "刘鑫",
+    "matched_paper_ids": [
+      "xin_liu_c998cce59892b7d5"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "xin_liu::emotion_benchmark",
+      "panorama_6ea6272c5bf0::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "刘鑫：情感数据集、基准与评测",
+      "宗源：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "xin_liu__auto_code_9babc4872e",
+    "name": "FSBench: A Figure Skating Benchmark for Advancing Artistic Sports Understanding — 开源代码 (Moomin-Fin/Ano)",
+    "name_zh": "FSBench: A Figure Skating Benchmark for Advancing Artistic Sports Understanding — 开源代码",
+    "type": "code",
+    "url": "https://github.com/Moomin-Fin/Ano",
+    "download_url": "https://github.com/Moomin-Fin/Ano",
+    "access": "public",
+    "related_paper_titles": [
+      "FSBench: A Figure Skating Benchmark for Advancing Artistic Sports Understanding"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/Moomin-Fin/Ano",
+      "https://doi.org/10.48550/ARXIV.2504.19514"
+    ],
+    "description": "从论文《FSBench: A Figure Skating Benchmark for Advancing Artistic Sports Understanding》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "xin_liu",
+    "scholar_name": "刘鑫",
+    "matched_paper_ids": [
+      "xin_liu_feceecdb27983452"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "xin_liu::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "刘鑫：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "xin_liu__auto_code_3b9f143cfc",
+    "name": "HAODiff: Human-Aware One-Step Diffusion via Dual-Prompt Guidance — 开源代码 (gobunu/HAODiff)",
+    "name_zh": "HAODiff: Human-Aware One-Step Diffusion via Dual-Prompt Guidance — 开源代码",
+    "type": "code",
+    "url": "https://github.com/gobunu/HAODiff",
+    "download_url": "https://github.com/gobunu/HAODiff",
+    "access": "public",
+    "related_paper_titles": [
+      "HAODiff: Human-Aware One-Step Diffusion via Dual-Prompt Guidance"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/gobunu/HAODiff",
+      "http://papers.nips.cc/paper_files/paper/2025/hash/4cfd33a5a12d92eb198885d3253a0b5e-Abstract-Conference.html",
+      "https://doi.org/10.48550/ARXIV.2505.19742"
+    ],
+    "description": "从论文《HAODiff: Human-Aware One-Step Diffusion via Dual-Prompt Guidance》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "xin_liu",
+    "scholar_name": "刘鑫",
+    "matched_paper_ids": [
+      "xin_liu_4cf300e25694ddb3"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "xin_liu::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "刘鑫：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "xin_liu__auto_code_c7226b388e",
+    "name": "NTIRE 2025 Challenge on Image Super-Resolution (⨉4): Methods and Results — 开源代码 (zhengchen1999/NTIRE2025_ImageSR_x4)",
+    "name_zh": "NTIRE 2025 Challenge on Image Super-Resolution (⨉4): Methods and Results — 开源代码",
+    "type": "code",
+    "url": "https://github.com/zhengchen1999/NTIRE2025_ImageSR_x4",
+    "download_url": "https://github.com/zhengchen1999/NTIRE2025_ImageSR_x4",
+    "access": "public",
+    "related_paper_titles": [
+      "NTIRE 2025 Challenge on Image Super-Resolution (⨉4): Methods and Results"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/zhengchen1999/NTIRE2025_ImageSR_x4",
+      "https://doi.org/10.48550/ARXIV.2504.14582"
+    ],
+    "description": "从论文《NTIRE 2025 Challenge on Image Super-Resolution (⨉4): Methods and Results》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "xin_liu",
+    "scholar_name": "刘鑫",
+    "matched_paper_ids": [
+      "xin_liu_b34473d14a9f74bd"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "xin_liu::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "刘鑫：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "xin_liu__auto_code_f56ac31d1c",
+    "name": "4K-Resolution Photo Exposure Correction at 125 FPS with ~8K Parameters — 开源代码 (Zhou-Yijie/MSLTNet)",
+    "name_zh": "4K-Resolution Photo Exposure Correction at 125 FPS with ~8K Parameters — 开源代码",
+    "type": "code",
+    "url": "https://github.com/Zhou-Yijie/MSLTNet",
+    "download_url": "https://github.com/Zhou-Yijie/MSLTNet",
+    "access": "public",
+    "related_paper_titles": [
+      "4K-Resolution Photo Exposure Correction at 125 FPS with ~8K Parameters"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/Zhou-Yijie/MSLTNet",
+      "https://doi.org/10.1109/WACV57701.2024.00161"
+    ],
+    "description": "从论文《4K-Resolution Photo Exposure Correction at 125 FPS with ~8K Parameters》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "xin_liu",
+    "scholar_name": "刘鑫",
+    "matched_paper_ids": [
+      "xin_liu_eabac366fcb4bc5e"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "xin_liu::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "刘鑫：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "xin_liu__auto_code_6175a2f4c9",
+    "name": "Answering Diverse Questions via Text Attached with Key Audio-Visual Clues — 开源代码 (rikeilong/MCD-forAVQA)",
+    "name_zh": "Answering Diverse Questions via Text Attached with Key Audio-Visual Clues — 开源代码",
+    "type": "code",
+    "url": "http://github.com/rikeilong/MCD-forAVQA",
+    "download_url": "http://github.com/rikeilong/MCD-forAVQA",
+    "access": "public",
+    "related_paper_titles": [
+      "Answering Diverse Questions via Text Attached with Key Audio-Visual Clues"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "http://github.com/rikeilong/MCD-forAVQA",
+      "https://doi.org/10.48550/ARXIV.2403.06679"
+    ],
+    "description": "从论文《Answering Diverse Questions via Text Attached with Key Audio-Visual Clues》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "xin_liu",
+    "scholar_name": "刘鑫",
+    "matched_paper_ids": [
+      "xin_liu_263db0095c359e19"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "xin_liu::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "刘鑫：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "xin_liu__auto_code_7bb8b0824e",
+    "name": "From Recognition to Prediction: Leveraging Sequence Reasoning for Action Anticipation — 开源代码 (linuxsino/ARR)",
+    "name_zh": "From Recognition to Prediction: Leveraging Sequence Reasoning for Action Anticipation — 开源代码",
+    "type": "code",
+    "url": "https://github.com/linuxsino/ARR",
+    "download_url": "https://github.com/linuxsino/ARR",
+    "access": "public",
+    "related_paper_titles": [
+      "From Recognition to Prediction: Leveraging Sequence Reasoning for Action Anticipation"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/linuxsino/ARR",
+      "https://doi.org/10.48550/ARXIV.2408.02769"
+    ],
+    "description": "从论文《From Recognition to Prediction: Leveraging Sequence Reasoning for Action Anticipation》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "xin_liu",
+    "scholar_name": "刘鑫",
+    "matched_paper_ids": [
+      "xin_liu_d591eae33ed59284"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "xin_liu::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "刘鑫：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "xin_liu__auto_code_101c51c956",
+    "name": "Multi-Channel Fused Lasso for Motion Detection in Dynamic Video Scenarios — 开源代码 (linuxsino/MCFL)",
+    "name_zh": "Multi-Channel Fused Lasso for Motion Detection in Dynamic Video Scenarios — 开源代码",
+    "type": "code",
+    "url": "https://github.com/linuxsino/MCFL",
+    "download_url": "https://github.com/linuxsino/MCFL",
+    "access": "public",
+    "related_paper_titles": [
+      "Multi-Channel Fused Lasso for Motion Detection in Dynamic Video Scenarios"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/linuxsino/MCFL",
+      "https://doi.org/10.1109/TCE.2023.3341908"
+    ],
+    "description": "从论文《Multi-Channel Fused Lasso for Motion Detection in Dynamic Video Scenarios》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "xin_liu",
+    "scholar_name": "刘鑫",
+    "matched_paper_ids": [
+      "xin_liu_5a461be54903d632"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "xin_liu::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "刘鑫：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "xin_liu__auto_code_526286fbba",
+    "name": "rPPG-MAE: Self-Supervised Pretraining With Masked Autoencoders for Remote Physiological Measurements — 开源代码 (linuxsino/rPPG-MAE)",
+    "name_zh": "rPPG-MAE: Self-Supervised Pretraining With Masked Autoencoders for Remote Physiological Measurements — 开源代码",
+    "type": "code",
+    "url": "https://github.com/linuxsino/rPPG-MAE",
+    "download_url": "https://github.com/linuxsino/rPPG-MAE",
+    "access": "public",
+    "related_paper_titles": [
+      "rPPG-MAE: Self-Supervised Pretraining With Masked Autoencoders for Remote Physiological Measurements",
+      "rPPG-MAE: Self-supervised Pre-training with Masked Autoencoders for Remote Physiological Measurement"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/linuxsino/rPPG-MAE",
+      "https://doi.org/10.1109/TMM.2024.3363660"
+    ],
+    "description": "从论文《rPPG-MAE: Self-Supervised Pretraining With Masked Autoencoders for Remote Physiological Measurements》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "xin_liu",
+    "scholar_name": "刘鑫",
+    "matched_paper_ids": [
+      "xin_liu_4874cd8d11bcf006",
+      "xin_liu_8dd46b1ad624310d"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "xin_liu::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "刘鑫：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "xin_liu__auto_code_03e2afe60a",
+    "name": "Unsupervised HDR Image and Video Tone Mapping via Contrastive Learning — 开源代码 (cao-cong/UnCLTMO)",
+    "name_zh": "Unsupervised HDR Image and Video Tone Mapping via Contrastive Learning — 开源代码",
+    "type": "code",
+    "url": "https://github.com/cao-cong/UnCLTMO",
+    "download_url": "https://github.com/cao-cong/UnCLTMO",
+    "access": "public",
+    "related_paper_titles": [
+      "Unsupervised HDR Image and Video Tone Mapping via Contrastive Learning"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/cao-cong/UnCLTMO",
+      "https://doi.org/10.1109/TCSVT.2023.3290351"
+    ],
+    "description": "从论文《Unsupervised HDR Image and Video Tone Mapping via Contrastive Learning》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "xin_liu",
+    "scholar_name": "刘鑫",
+    "matched_paper_ids": [
+      "xin_liu_19070c1b987b33e5"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "xin_liu::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "刘鑫：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "xin_liu__auto_code_f329fbe864",
+    "name": "Consistency Regularization for Deep Face Anti-Spoofing — 开源代码 (clks-wzz/EPCR)",
+    "name_zh": "Consistency Regularization for Deep Face Anti-Spoofing — 开源代码",
+    "type": "code",
+    "url": "https://github.com/clks-wzz/EPCR",
+    "download_url": "https://github.com/clks-wzz/EPCR",
+    "access": "public",
+    "related_paper_titles": [
+      "Consistency Regularization for Deep Face Anti-Spoofing"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/clks-wzz/EPCR",
+      "https://doi.org/10.1109/TIFS.2023.3235581"
+    ],
+    "description": "从论文《Consistency Regularization for Deep Face Anti-Spoofing》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "xin_liu",
+    "scholar_name": "刘鑫",
+    "matched_paper_ids": [
+      "xin_liu_a0c574fedfd9279d"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "xin_liu::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "刘鑫：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "xin_liu__auto_code_35b41287e7",
+    "name": "Recaptured Raw Screen Image and Video Demoiréing via Channel and Spatial Modulations — 开源代码 (tju-chengyijia/VD_raw)",
+    "name_zh": "Recaptured Raw Screen Image and Video Demoiréing via Channel and Spatial Modulations — 开源代码",
+    "type": "code",
+    "url": "https://github.com/tju-chengyijia/VD_raw",
+    "download_url": "https://github.com/tju-chengyijia/VD_raw",
+    "access": "public",
+    "related_paper_titles": [
+      "Recaptured Raw Screen Image and Video Demoiréing via Channel and Spatial Modulations"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/tju-chengyijia/VD_raw",
+      "http://papers.nips.cc/paper_files/paper/2023/hash/7f05193e5487287a890df7fbc3554427-Abstract-Conference.html",
+      "https://doi.org/10.48550/ARXIV.2310.20332"
+    ],
+    "description": "从论文《Recaptured Raw Screen Image and Video Demoiréing via Channel and Spatial Modulations》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "xin_liu",
+    "scholar_name": "刘鑫",
+    "matched_paper_ids": [
+      "xin_liu_f042e84e0c0e50b8"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "xin_liu::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "刘鑫：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "xin_liu__auto_code_50adfb0be8",
+    "name": "SMG: A Micro-gesture Dataset Towards Spontaneous Body Gestures for Emotional Stress State Analysis — 开源代码 (mikecheninoulu/SMG)",
+    "name_zh": "SMG: A Micro-gesture Dataset Towards Spontaneous Body Gestures for Emotional Stress State Analysis — 开源代码",
+    "type": "code",
+    "url": "https://github.com/mikecheninoulu/SMG",
+    "download_url": "https://github.com/mikecheninoulu/SMG",
+    "access": "public",
+    "related_paper_titles": [
+      "SMG: A Micro-gesture Dataset Towards Spontaneous Body Gestures for Emotional Stress State Analysis"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/mikecheninoulu/SMG",
+      "https://doi.org/10.1007/S11263-023-01761-6"
+    ],
+    "description": "从论文《SMG: A Micro-gesture Dataset Towards Spontaneous Body Gestures for Emotional Stress State Analysis》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "xin_liu",
+    "scholar_name": "刘鑫",
+    "matched_paper_ids": [
+      "xin_liu_71f7da7d1d75cf3b"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "xin_liu::emotion_benchmark",
+      "guoying_zhao::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "刘鑫：情感数据集、基准与评测",
+      "赵国英：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "xin_liu__auto_code_bbaf903e22",
+    "name": "CdCLR: Clip-Driven Contrastive Learning for Skeleton-Based Action Recognition — 开源代码 (Erich-G/CdCLRI)",
+    "name_zh": "CdCLR: Clip-Driven Contrastive Learning for Skeleton-Based Action Recognition — 开源代码",
+    "type": "code",
+    "url": "https://github.com/Erich-G/CdCLRI",
+    "download_url": "https://github.com/Erich-G/CdCLRI",
+    "access": "public",
+    "related_paper_titles": [
+      "CdCLR: Clip-Driven Contrastive Learning for Skeleton-Based Action Recognition"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/Erich-G/CdCLRI",
+      "https://doi.org/10.1109/VCIP56404.2022.10008837"
+    ],
+    "description": "从论文《CdCLR: Clip-Driven Contrastive Learning for Skeleton-Based Action Recognition》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "xin_liu",
+    "scholar_name": "刘鑫",
+    "matched_paper_ids": [
+      "xin_liu_fe3486a41fd71814"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "xin_liu::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "刘鑫：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "xin_liu__auto_code_2c4a090232",
+    "name": "NTIRE 2022 Challenge on Super-Resolution and Quality Enhancement of Compressed Video: Dataset, Methods and Results — 开源代码 (RenYang-home/LDV_dataset)",
+    "name_zh": "NTIRE 2022 Challenge on Super-Resolution and Quality Enhancement of Compressed Video: Dataset, Methods and Results — 开源代码",
+    "type": "code",
+    "url": "https://github.com/RenYang-home/LDV_dataset",
+    "download_url": "https://github.com/RenYang-home/LDV_dataset",
+    "access": "public",
+    "related_paper_titles": [
+      "NTIRE 2022 Challenge on Super-Resolution and Quality Enhancement of Compressed Video: Dataset, Methods and Results"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/RenYang-home/LDV_dataset",
+      "https://doi.org/10.48550/ARXIV.2204.09314"
+    ],
+    "description": "从论文《NTIRE 2022 Challenge on Super-Resolution and Quality Enhancement of Compressed Video: Dataset, Methods and Results》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "xin_liu",
+    "scholar_name": "刘鑫",
+    "matched_paper_ids": [
+      "xin_liu_3de945d4b53e6223"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "xin_liu::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "刘鑫：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "xin_liu__auto_code_9b9783478f",
+    "name": "NTIRE 2022 Challenge on Super-Resolution and Quality Enhancement of Compressed Video: Dataset, Methods and Results — 开源代码 (RenYang-home/NTIRE22_VEnh_SR)",
+    "name_zh": "NTIRE 2022 Challenge on Super-Resolution and Quality Enhancement of Compressed Video: Dataset, Methods and Results — 开源代码",
+    "type": "code",
+    "url": "https://github.com/RenYang-home/NTIRE22_VEnh_SR",
+    "download_url": "https://github.com/RenYang-home/NTIRE22_VEnh_SR",
+    "access": "public",
+    "related_paper_titles": [
+      "NTIRE 2022 Challenge on Super-Resolution and Quality Enhancement of Compressed Video: Dataset, Methods and Results"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/RenYang-home/NTIRE22_VEnh_SR",
+      "https://doi.org/10.48550/ARXIV.2204.09314"
+    ],
+    "description": "从论文《NTIRE 2022 Challenge on Super-Resolution and Quality Enhancement of Compressed Video: Dataset, Methods and Results》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "xin_liu",
+    "scholar_name": "刘鑫",
+    "matched_paper_ids": [
+      "xin_liu_3de945d4b53e6223"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "xin_liu::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "刘鑫：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "xin_liu__auto_code_adbccc0808",
+    "name": "MMPD: Multi-Domain Mobile Video Physiology Dataset — 开源代码 (THU-CS-PI/MMPD_rPPG_dataset)",
+    "name_zh": "MMPD: Multi-Domain Mobile Video Physiology Dataset — 开源代码",
+    "type": "code",
+    "url": "https://github.com/THU-CS-PI/MMPD_rPPG_dataset",
+    "download_url": "https://github.com/THU-CS-PI/MMPD_rPPG_dataset",
+    "access": "public",
+    "related_paper_titles": [
+      "MMPD: Multi-Domain Mobile Video Physiology Dataset"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/THU-CS-PI/MMPD_rPPG_dataset",
+      "https://doi.org/10.1109/embc40787.2023.10340857"
+    ],
+    "description": "从论文《MMPD: Multi-Domain Mobile Video Physiology Dataset》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "xin_liu",
+    "scholar_name": "刘鑫",
+    "matched_paper_ids": [
+      "xin_liu_803c024a6effc5a4"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "xin_liu::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "刘鑫：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "xin_liu__auto_code_599278228d",
+    "name": "Objects do not disappear: Video object detection by single-frame object location anticipation — 开源代码 (L-KID/Video-object-detection-by-location-anticipation)",
+    "name_zh": "Objects do not disappear: Video object detection by single-frame object location anticipation — 开源代码",
+    "type": "code",
+    "url": "https://github.com/L-KID/Video-object-detection-by-location-anticipation",
+    "download_url": "https://github.com/L-KID/Video-object-detection-by-location-anticipation",
+    "access": "public",
+    "related_paper_titles": [
+      "Objects do not disappear: Video object detection by single-frame object location anticipation"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/L-KID/Video-object-detection-by-location-anticipation",
+      "https://doi.org/10.1109/iccv51070.2023.00640"
+    ],
+    "description": "从论文《Objects do not disappear: Video object detection by single-frame object location anticipation》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "xin_liu",
+    "scholar_name": "刘鑫",
+    "matched_paper_ids": [
+      "xin_liu_be9df0f68766f99b"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "xin_liu::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "刘鑫：情感数据集、基准与评测"
+    ]
   }
 ]

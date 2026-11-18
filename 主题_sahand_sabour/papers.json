@@ -1,1394 +1,2230 @@
-{
-  "scholar": {
-    "name_zh": "Sahand Sabour",
-    "name_en": "Sahand Sabour",
-    "affiliation": "EmoBench作者；现任单位待个人主页补核",
-    "identity_sources": [
-      "https://arxiv.org/abs/2402.12071",
-      "https://github.com/Sahandfer/EmoBench"
+[
+  {
+    "title": "Human preferences are susceptible to covertly misaligned AI advice",
+    "title_en": "Human preferences are susceptible to covertly misaligned AI advice",
+    "title_zh": "人类偏好容易受到隐性失调的人工智能建议的影响",
+    "year": 2026,
+    "venue": "Proceedings of the National Academy of Sciences",
+    "authors": [
+      "Sahand Sabour",
+      "June M. Liu",
+      "Siyang Liu",
+      "Chris Z. Yao",
+      "Shiyao Cui",
+      "Wen Zhang",
+      "Xuanming Zhang",
+      "Yaru Cao",
+      "Advait Bhat",
+      "Jian Guan",
+      "Wei Wu",
+      "Rada Mihalcea",
+      "Hongning Wang",
+      "Tim Althoff",
+      "Tatia M.C. Lee",
+      "Minlie Huang"
     ],
-    "official_homepages": [
-      "https://arxiv.org/abs/2402.12071",
-      "https://github.com/Sahandfer/EmoBench"
+    "doi": "10.1073/pnas.2600684123",
+    "paper_url": "https://doi.org/10.1073/pnas.2600684123",
+    "source_url": "https://doi.org/10.1073/pnas.2600684123",
+    "topics": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解",
+      "情感计算与情绪理解"
     ],
-    "coverage": {
-      "scope": "2025–2026主题筛选与全量书目扩展",
-      "status": "方法/基准候选",
-      "coverage_status": "作者作品集/论文包已扩展；仍需身份消歧与覆盖审计",
-      "available_record_count": 22,
-      "bulk_source_record_count": 22,
-      "themes": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ]
-    },
-    "coverage_notes": "该目录与五位基线学者使用同一论文/资源/分类输出契约。‘可用记录数’表示本轮已取得并保留的书目，不等于未经消歧的个人终身全集；身份待核验、论文团队和同名风险见候选筛选证据。",
-    "id": "sahand_sabour",
-    "folder": "主题_sahand_sabour",
-    "classification": {
-      "method": "按题名及现有项目、资源说明进行主题粗分，用于阅读导航；未逐篇审阅全文，不代表学者官方分类。每条书目只设一个主类别，跨方向信息保留在辅助标签中。",
-      "categories": [
-        {
-          "id": "emotion_understanding",
-          "label": "情感理解与多模态推理",
-          "description": "多模态情感识别、情绪原因解释、开放词汇与上下文推理。",
-          "count": 0
-        },
-        {
-          "id": "affective_intelligence",
-          "label": "情感智能、共情与生成",
-          "description": "情感智能、心智理论、共情响应和情感生成。",
-          "count": 0
-        },
-        {
-          "id": "emotion_benchmark",
-          "label": "情感数据集、基准与评测",
-          "description": "情感数据集、评测基准、情感幻觉与可靠性分析。",
-          "count": 22
-        }
-      ],
-      "review": {
-        "status": "theme_candidate",
-        "source_status": "方法/基准候选",
-        "primary_theme": "情感智能与情感大模型"
+    "verification": "主题筛选候选；方法/基准候选；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W7213039236",
+    "openalex_author_id": "https://openalex.org/A5084758279",
+    "semantic_scholar_id": "353fc7a4e39b7830075e491b0be26a00fb9b921f",
+    "semantic_scholar_author_id": "2106627931",
+    "cited_by_count": 4,
+    "publication_types": [
+      "JournalArticle"
+    ],
+    "candidate_source": false,
+    "source_kind": "OpenAlex作品记录",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "sahand_sabour_eb8e053b2e48",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测",
+    "secondary_tags": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "sahand_sabour",
+    "scholar_name": "Sahand Sabour",
+    "work_title_group": "b6eb0cf98567",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "sahand_sabour"
+    ],
+    "scholar_names": [
+      "Sahand Sabour"
+    ],
+    "source_record_ids": [
+      "sahand_sabour_eb8e053b2e48"
+    ],
+    "scholar_categories": {
+      "sahand_sabour": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "Sahand Sabour",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
       }
     },
-    "counts": {
-      "bibliographic_records": 22,
-      "resource_entries": 2,
-      "papers_with_linked_resources": 0,
-      "types": {
-        "code": 1,
-        "dataset": 1
-      },
-      "years": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "unknown_year": 0
-    }
+    "global_record_id": "18e372a69c8ee745",
+    "primary_categories_by_scholar": [
+      "Sahand Sabour：情感数据集、基准与评测"
+    ],
+    "pdf_url": "https://doi.org/10.1073/pnas.2600684123",
+    "abstract_en": "AI assistants are increasingly used as advisors to guide decisions, yet little is known about how people evaluate such advice when the advisor’s underlying intent conflicts with their interests. We examine how covert misalignment shapes choices in a randomized experiment ( N = 233 participants; 699 observations) in which participants rated financial or emotional decisions before and after consulting one of three AI advisors: a neutral advisor, a misaligned advisor with a hidden objective to promote an inferior option, or a strategy-enhanced misaligned advisor additionally equipped with established tactics of covert influence. Across both domains, exposure to misaligned advisors shifted preferences away from optimal options and toward inferior alternatives, increasing the odds of preferring the incentivized (inferior) option over the optimal option by ≈5 to 8 times (up to +38 percentage points). Adding explicit influence strategies did not reliably strengthen these effects. Notably, participants continued to rate misaligned advisors as helpful, revealing a systematic disconnect between susceptibility to misaligned advice and subjective evaluations of advisor quality. These findings have implications for the design and governance of AI-mediated advice.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "人工智能助手越来越多地被用作指导决策的顾问，但当顾问的潜在意图与他们的利益发生冲突时，人们如何评估此类建议却知之甚少。我们在一项随机实验（N = 233 名参与者；699 个观察结果）中研究了隐性错位如何塑造选择，其中参与者在咨询三名人工智能顾问之前和之后对财务或情感决策进行评分：中立顾问、具有隐性目标以促进劣质选择的错位顾问，或额外配备既定隐性影响策略的策略增强错位顾问。在这两个领域，接触不一致的顾问的偏好发生了变化……"
   },
-  "papers": [
-    {
-      "title": "CandorMD: An AI-Assisted Audio Simulation and Feedback System for Training Clinicians for Medical Error Disclosure",
-      "title_en": "CandorMD: An AI-Assisted Audio Simulation and Feedback System for Training Clinicians for Medical Error Disclosure",
-      "title_zh": "CandorMD：人工智能辅助音频模拟和反馈系统，用于培训临床医生进行医疗错误披露",
-      "year": 2026,
-      "venue": "arXiv (Cornell University)",
-      "authors": [
-        "Inna Wanyin Lin",
-        "Sahand Sabour",
-        "Hong Sng",
-        "Maxine Chan",
-        "Minlie Huang",
-        "Andrew White",
-        "Tim Althoff"
-      ],
-      "doi": "10.48550/arxiv.2605.20701",
-      "paper_url": "https://arxiv.org/abs/2605.20701",
-      "source_url": "https://arxiv.org/abs/2605.20701",
-      "topics": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解",
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "verification": "主题筛选候选；方法/基准候选；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W7162039229",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "c83fb1deb7e4afbd6d697345e8ee3ff6595ddc57",
-      "semantic_scholar_author_id": "2106627931",
-      "cited_by_count": 0,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "candidate_source": false,
-      "source_kind": "OpenAlex作品记录",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "sahand_sabour_75cec92c3a0c",
-      "category_id": "emotion_benchmark",
-      "primary_category": "情感数据集、基准与评测",
-      "secondary_tags": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "sahand_sabour",
-      "scholar_name": "Sahand Sabour",
-      "work_title_group": "90532c901ea2",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+  {
+    "title": "CandorMD: An AI-Assisted Audio Simulation and Feedback System for Training Clinicians for Medical Error Disclosure",
+    "title_en": "CandorMD: An AI-Assisted Audio Simulation and Feedback System for Training Clinicians for Medical Error Disclosure",
+    "title_zh": "CandorMD：人工智能辅助音频模拟和反馈系统，用于培训临床医生进行医疗错误披露",
+    "year": 2026,
+    "venue": "arXiv (Cornell University)",
+    "authors": [
+      "Inna Wanyin Lin",
+      "Sahand Sabour",
+      "Hong Sng",
+      "Maxine Chan",
+      "Minlie Huang",
+      "Andrew White",
+      "Tim Althoff"
+    ],
+    "doi": "10.48550/arxiv.2605.20701",
+    "paper_url": "https://arxiv.org/abs/2605.20701",
+    "source_url": "https://arxiv.org/abs/2605.20701",
+    "topics": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；方法/基准候选；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W7162039229",
+    "openalex_author_id": "https://openalex.org/A5084758279",
+    "semantic_scholar_id": "c83fb1deb7e4afbd6d697345e8ee3ff6595ddc57",
+    "semantic_scholar_author_id": "2106627931",
+    "cited_by_count": 2,
+    "publication_types": [
+      "JournalArticle"
+    ],
+    "candidate_source": false,
+    "source_kind": "OpenAlex作品记录",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "sahand_sabour_75cec92c3a0c",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测",
+    "secondary_tags": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "sahand_sabour",
+    "scholar_name": "Sahand Sabour",
+    "work_title_group": "90532c901ea2",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "sahand_sabour",
+      "minlie_huang"
+    ],
+    "scholar_names": [
+      "Sahand Sabour",
+      "黄民烈"
+    ],
+    "source_record_ids": [
+      "sahand_sabour_75cec92c3a0c"
+    ],
+    "scholar_categories": {
+      "sahand_sabour": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "Sahand Sabour",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "minlie_huang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "黄民烈",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "Human preferences are susceptible to covertly misaligned AI advice",
-      "title_en": "Human preferences are susceptible to covertly misaligned AI advice",
-      "title_zh": "人类偏好容易受到隐性失调的人工智能建议的影响",
-      "year": 2026,
-      "venue": "Proceedings of the National Academy of Sciences",
-      "authors": [
-        "Sahand Sabour",
-        "June M. Liu",
-        "Siyang Liu",
-        "Chris Z. Yao",
-        "Shiyao Cui",
-        "Wen Zhang",
-        "Xuanming Zhang",
-        "Yaru Cao",
-        "Advait Bhat",
-        "Jian Guan",
-        "Wei Wu",
-        "Rada Mihalcea",
-        "Hongning Wang",
-        "Tim Althoff",
-        "Tatia M.C. Lee",
-        "Minlie Huang"
-      ],
-      "doi": "10.1073/pnas.2600684123",
-      "paper_url": "https://doi.org/10.1073/pnas.2600684123",
-      "source_url": "https://doi.org/10.1073/pnas.2600684123",
-      "topics": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解",
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "verification": "主题筛选候选；方法/基准候选；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W7213039236",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "353fc7a4e39b7830075e491b0be26a00fb9b921f",
-      "semantic_scholar_author_id": "2106627931",
-      "cited_by_count": 0,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "candidate_source": false,
-      "source_kind": "OpenAlex作品记录",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "sahand_sabour_eb8e053b2e48",
-      "category_id": "emotion_benchmark",
-      "primary_category": "情感数据集、基准与评测",
-      "secondary_tags": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "sahand_sabour",
-      "scholar_name": "Sahand Sabour",
-      "work_title_group": "b6eb0cf98567",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "ef2642f7e7f34a84",
+    "primary_categories_by_scholar": [
+      "Sahand Sabour：情感数据集、基准与评测",
+      "黄民烈：情感脑电与多模态生理信号"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.20701",
+    "abstract_en": "Clinicians are expected to disclose harmful medical errors to patients and families in line with ethical, regulatory, and patient care standards, yet these conversations remain challenging because of their emotional complexity and limited training opportunities. Most physicians still learn primarily through lectures and observation, while static video tools-though available-are underused, lack adaptability across specialties, and deliver delayed, generic feedback. These gaps restrict skill development, reduce self-efficacy, and contribute to avoidance of disclosure conversations, ultimately compromising patient care and eroding trust. To address these needs, we designed CandorMD -- an AI-assisted simulation system that provides real-time practice, actionable feedback, and diverse practice environments tailored to individual learning needs. We conducted semi-structured interviews with physicians, risk managers, patient advocates, and communication experts to understand current practices, identify gaps, and collect feedback on CandorMD. Based on these insights, we present findings and design recommendations for the future of AI-supported medical communication training.",
+    "abstract_source": "openalex_verified",
+    "dblp_key": "journals/corr/abs-2605-20701",
+    "abstract_zh": "临床医生应该根据道德、监管和患者护理标准向患者和家属披露有害的医疗错误，但由于情感复杂性和培训机会有限，这些对话仍然具有挑战性。大多数医生仍然主要通过讲座和观察来学习，而静态视频工具（尽管可用）未得到充分利用，缺乏跨专业的适应性，并且提供延迟的通用反馈。这些差距限制了技能发展，降低了自我效能，并导致避免披露对话，最终损害患者护理并削弱信任。为了满足这些需求，我们设计了 CandorMD——一个 AI-ass..."
+  },
+  {
+    "title": "PatientAct: Theory-Grounded Mental Health Client Simulation",
+    "title_en": "PatientAct: Theory-Grounded Mental Health Client Simulation",
+    "title_zh": "PatientAct：基于理论的心理健康客户模拟",
+    "year": 2026,
+    "venue": "Findings of the Association for Computational Linguistics: EMNLP (Findings of EMNLP)",
+    "authors": [
+      "Sahand Sabour",
+      "TszYam NG",
+      "Yaqian Chen",
+      "Guanqun Bi",
+      "Jialu Zhao",
+      "Minlie Huang"
+    ],
+    "doi": "10.18653/2026.findings-emnlp.1572",
+    "paper_url": "https://doi.org/10.18653/2026.findings-emnlp.1572",
+    "source_url": "https://doi.org/10.18653/2026.findings-emnlp.1572",
+    "topics": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解",
+      "情感计算与情绪理解",
+      "多模态与大语言模型",
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "主题筛选候选；方法/基准候选",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W7203448219",
+    "openalex_author_id": "https://openalex.org/A5084758279",
+    "semantic_scholar_id": "8d50fa9c3e749d78ee245dcf4deec59dfc804391",
+    "semantic_scholar_author_id": "2106627931",
+    "cited_by_count": 4,
+    "publication_types": [
+      "JournalArticle"
+    ],
+    "candidate_source": false,
+    "source_kind": "Semantic Scholar author works",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "sahand_sabour_64446698a699",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测",
+    "secondary_tags": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "sahand_sabour",
+    "scholar_name": "Sahand Sabour",
+    "work_title_group": "76c553f5555b",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "sahand_sabour",
+      "minlie_huang"
+    ],
+    "scholar_names": [
+      "Sahand Sabour",
+      "黄民烈"
+    ],
+    "source_record_ids": [
+      "sahand_sabour_64446698a699",
+      "minlie_huang_64446698a699"
+    ],
+    "scholar_categories": {
+      "sahand_sabour": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "Sahand Sabour",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "minlie_huang": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "黄民烈",
+        "secondary_tags": [
+          "情感智能与情感大模型",
+          "情感对话与心理支持",
+          "大语言模型对齐与强化学习",
+          "社会智能与安全评测",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "PatientAct: Theory-Grounded Mental Health Client Simulation",
-      "title_en": "PatientAct: Theory-Grounded Mental Health Client Simulation",
-      "title_zh": "PatientAct：基于理论的心理健康客户模拟",
-      "year": 2026,
-      "venue": "Findings of the Association for Computational Linguistics: EMNLP (Findings of EMNLP)",
-      "authors": [
-        "Sahand Sabour",
-        "TszYam NG",
-        "Yaqian Chen",
-        "Guanqun Bi",
-        "Minlie Huang"
-      ],
-      "doi": "10.18653/2026.findings-emnlp.1572",
-      "paper_url": "https://doi.org/10.18653/2026.findings-emnlp.1572",
-      "source_url": "https://doi.org/10.18653/2026.findings-emnlp.1572",
-      "topics": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解",
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "verification": "主题筛选候选；方法/基准候选",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W7203448219",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "8d50fa9c3e749d78ee245dcf4deec59dfc804391",
-      "semantic_scholar_author_id": "2106627931",
-      "cited_by_count": 2,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "sahand_sabour_64446698a699",
-      "category_id": "emotion_benchmark",
-      "primary_category": "情感数据集、基准与评测",
-      "secondary_tags": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "sahand_sabour",
-      "scholar_name": "Sahand Sabour",
-      "work_title_group": "76c553f5555b",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "61e8f95832050c43",
+    "primary_categories_by_scholar": [
+      "Sahand Sabour：情感数据集、基准与评测",
+      "黄民烈：脑电基准、数据与评测"
+    ],
+    "pdf_url": "https://aclanthology.org/2026.findings-emnlp.1572.pdf",
+    "abstract_en": "LLM-based simulated clients are increasingly used to train novice counselors, evaluate LLM therapists, and generate synthetic data.However, current simulators produce overly cooperative clients that disclose too readily, accept therapeutic reframes without resistance, and resolve core issues within a single session.We trace these issues to profiles that lack causal depth and behavioral mechanisms that treat all content as equally accessible.We present PATIENTACT, a framework for client simulation grounded in established clinical theories.Our profiles integrate the 5Ps clinical case formulation, providing causal depth without tying the design to any single therapeutic modality.During simulation, profiles include a dynamic memory layer in which items carry trust thresholds (e.g., symptoms are available early, whereas formative memories require a sustained therapeutic alliance).At each turn, we model the client's emotional reaction and behavior before generating a response.If the therapist approaches gated content, PATIEN-TACT expresses resistance in terms of quantity, content, and style rather than defaulting to cooperation or a single resistance pattern.We evaluate our framework on 40 clinical situations and demonstrate that it generates diverse profiles with high clinical plausibility.Moreover, PATIENTACT significantly outperforms the baselines, yielding substantial gains in resistance quality and behavioral realism.Our code and data are publicly available via github.com/Sahandfer/PatientHub.",
+    "abstract_source": "openalex_verified",
+    "dblp_key": "journals/corr/abs-2608-12750",
+    "abstract_zh": "基于大语言模型的模拟客户越来越多地用于培训新手咨询师、评估大语言模型治疗师并生成综合数据。然而，当前的模拟器会产生过度合作的客户，这些客户太容易透露，毫无抵抗力地接受治疗重构，并在一次会议中解决核心问题。我们将这些问题追溯到缺乏因果深度和行为机制的档案，将所有内容视为平等可访问的。我们提出了 PATIENTACT，一个基于既定临床理论的客户模拟框架。我们的档案整合了 5P 临床案例制定，提供因果深度，而不将设计与任何单一治疗方式联系起来。在模拟过程中..."
+  },
+  {
+    "title": "PatientHub: A Unified Framework for Patient Simulation",
+    "title_en": "PatientHub: A Unified Framework for Patient Simulation",
+    "title_zh": "PatientHub：患者模拟的统一框架",
+    "year": 2026,
+    "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+    "authors": [
+      "Sahand Sabour",
+      "NG TszYam",
+      "Minlie Huang"
+    ],
+    "doi": "10.48550/arXiv.2602.11684",
+    "paper_url": "https://www.semanticscholar.org/paper/73afff113a6b85c3f0465fe397c73f522bdeba7c",
+    "source_url": "https://www.semanticscholar.org/paper/73afff113a6b85c3f0465fe397c73f522bdeba7c",
+    "topics": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解",
+      "多模态与大语言模型"
+    ],
+    "verification": "主题筛选候选；方法/基准候选；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W7128812844",
+    "openalex_author_id": "https://openalex.org/A5084758279",
+    "semantic_scholar_id": "73afff113a6b85c3f0465fe397c73f522bdeba7c",
+    "semantic_scholar_author_id": "2106627931",
+    "cited_by_count": 6,
+    "publication_types": [
+      "JournalArticle",
+      "Conference"
+    ],
+    "candidate_source": false,
+    "source_kind": "Semantic Scholar author works",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "sahand_sabour_bb01bc5d35a6",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测",
+    "secondary_tags": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "sahand_sabour",
+    "scholar_name": "Sahand Sabour",
+    "work_title_group": "83dae141578a",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "sahand_sabour",
+      "minlie_huang"
+    ],
+    "scholar_names": [
+      "Sahand Sabour",
+      "黄民烈"
+    ],
+    "source_record_ids": [
+      "sahand_sabour_bb01bc5d35a6"
+    ],
+    "scholar_categories": {
+      "sahand_sabour": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "Sahand Sabour",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "minlie_huang": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "黄民烈",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "PatientHub: A Unified Framework for Patient Simulation",
-      "title_en": "PatientHub: A Unified Framework for Patient Simulation",
-      "title_zh": "PatientHub：患者模拟的统一框架",
-      "year": 2026,
-      "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
-      "authors": [
-        "Sahand Sabour",
-        "NG TszYam",
-        "Minlie Huang"
-      ],
-      "doi": "10.48550/arXiv.2602.11684",
-      "paper_url": "https://www.semanticscholar.org/paper/73afff113a6b85c3f0465fe397c73f522bdeba7c",
-      "source_url": "https://www.semanticscholar.org/paper/73afff113a6b85c3f0465fe397c73f522bdeba7c",
-      "topics": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解",
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "verification": "主题筛选候选；方法/基准候选；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W7128812844",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "73afff113a6b85c3f0465fe397c73f522bdeba7c",
-      "semantic_scholar_author_id": "2106627931",
-      "cited_by_count": 5,
-      "publication_types": [
-        "JournalArticle",
-        "Conference"
-      ],
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "sahand_sabour_bb01bc5d35a6",
-      "category_id": "emotion_benchmark",
-      "primary_category": "情感数据集、基准与评测",
-      "secondary_tags": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "sahand_sabour",
-      "scholar_name": "Sahand Sabour",
-      "work_title_group": "83dae141578a",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "43a21046993be249",
+    "primary_categories_by_scholar": [
+      "Sahand Sabour：情感数据集、基准与评测",
+      "黄民烈：脑电基准、数据与评测"
+    ],
+    "pdf_url": "https://aclanthology.org/2026.emnlp-demos.76.pdf",
+    "abstract_en": "As Large Language Models increasingly power role-playing applications, simulating patients has become a valuable tool for training counselors and scaling therapeutic assessment.However, prior work remains fragmented: existing approaches rely on incompatible, nonstandardized profiles, prompts, and evaluation metrics, hindering reproducibility, fair comparison, and reuse.We introduce PatientHub, a unified and modular framework that standardizes the creation, simulation, and evaluation of LLM-based patients.Our framework provides 16 patient simulators, a graph-based orchestrator for multi-turn, multi-session interactions, and a configurable LLM-as-a-judge evaluator that supports multiple rubric types.Via our command-line interface, users can generate patient profiles, run simulations, and apply rubric-driven evaluation at the turn and session level.To demonstrate PatientHub's utility, we compare several supported simulators under a shared interaction protocol and showcase its extensibility by prototyping a new simulator variant with minimal additional code.By consolidating existing work into a single reproducible pipeline, our framework eliminates much of the infrastructure overhead that currently fragments this research and accelerates the development of new methods.",
+    "abstract_source": "openalex_verified",
+    "dblp_key": "journals/corr/abs-2602-11684",
+    "abstract_zh": "随着大型语言模型日益为角色扮演应用程序提供动力，模拟患者已成为培训咨询师和扩展治疗评估的宝贵工具。然而，之前的工作仍然支离破碎：现有方法依赖于不兼容、非标准化的配置文件、提示和评估指标，阻碍了再现性、公平比较和重用。我们引入 PatientHub，一个统一的模块化框架，可标准化基于 LLM 的患者的创建、模拟和评估。我们的框架提供 16 个患者模拟器，一个基于图形的编排器用于多回合、多会话交互，以及支持多个评分标准的可配置 LLM 作为法官评估器..."
+  },
+  {
+    "title": "Human Decision-making is Susceptible to AI-driven Manipulation",
+    "title_en": "Human Decision-making is Susceptible to AI-driven Manipulation",
+    "title_zh": "人类决策容易受到人工智能驱动的操纵的影响",
+    "year": 2025,
+    "venue": "arXiv (Cornell University)",
+    "authors": [
+      "Sahand Sabour",
+      "June M. Liu",
+      "Siyang Liu",
+      "Yao, Chris Z.",
+      "Shiyao Cui",
+      "Xuanming Zhang",
+      "Zhang, Wen",
+      "Yaru Cao",
+      "Advait Bhat",
+      "Guan, Jian",
+      "Wu, Wei",
+      "Rada F. Mihalcea",
+      "Wang, Hongning",
+      "Tim Althoff",
+      "Tatia M. C. Lee",
+      "Minlie Huang"
+    ],
+    "doi": "10.48550/arxiv.2502.07663",
+    "paper_url": "http://arxiv.org/abs/2502.07663",
+    "source_url": "http://arxiv.org/abs/2502.07663",
+    "topics": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；方法/基准候选；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4407425790",
+    "openalex_author_id": "https://openalex.org/A5084758279",
+    "semantic_scholar_id": "a20c2e50aaec0c0603a19f79cf20e9bd41f711d7",
+    "semantic_scholar_author_id": "2106627931",
+    "cited_by_count": 51,
+    "publication_types": [
+      "JournalArticle"
+    ],
+    "candidate_source": false,
+    "source_kind": "OpenAlex作品记录",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "sahand_sabour_1e4a6ac70818",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测",
+    "secondary_tags": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "sahand_sabour",
+    "scholar_name": "Sahand Sabour",
+    "work_title_group": "5a7b2cef68c0",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "sahand_sabour",
+      "minlie_huang"
+    ],
+    "scholar_names": [
+      "Sahand Sabour",
+      "黄民烈"
+    ],
+    "source_record_ids": [
+      "sahand_sabour_1e4a6ac70818"
+    ],
+    "scholar_categories": {
+      "sahand_sabour": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "Sahand Sabour",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "minlie_huang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "黄民烈",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "Enhanced large language models for effective screening of depression and anxiety",
-      "title_en": "Enhanced large language models for effective screening of depression and anxiety",
-      "title_zh": "增强大语言模型，用于有效筛查抑郁和焦虑",
-      "year": 2025,
-      "venue": "Communications Medicine",
-      "authors": [
-        "June M. Liu",
-        "Mengxia Gao",
-        "Sahand Sabour",
-        "Zhuang Chen",
-        "Minlie Huang",
-        "Tatia M.C. Lee"
-      ],
-      "doi": "10.1038/s43856-025-01158-1",
-      "paper_url": "https://doi.org/10.1038/s43856-025-01158-1",
-      "source_url": "https://doi.org/10.1038/s43856-025-01158-1",
-      "topics": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解",
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "verification": "主题筛选候选；方法/基准候选",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W4415930197",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "91db9ec546ed1e9371db1a84e7112924e7536177",
-      "semantic_scholar_author_id": "2106627931",
-      "cited_by_count": 26,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "candidate_source": false,
-      "source_kind": "OpenAlex作品记录",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "sahand_sabour_ae29afb77343",
-      "category_id": "emotion_benchmark",
-      "primary_category": "情感数据集、基准与评测",
-      "secondary_tags": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "sahand_sabour",
-      "scholar_name": "Sahand Sabour",
-      "work_title_group": "c6858919d9bf",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "ed56c8798cc9e89b",
+    "primary_categories_by_scholar": [
+      "Sahand Sabour：情感数据集、基准与评测",
+      "黄民烈：情感脑电与多模态生理信号"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2502.07663",
+    "abstract_en": "AI systems are increasingly intertwined with daily life, assisting users with various tasks and guiding decision-making. This integration introduces risks of AI-driven manipulation, where such systems may exploit users' cognitive biases and emotional vulnerabilities to steer them toward harmful outcomes. Through a randomized between-subjects experiment with 233 participants, we examined human susceptibility to such manipulation in financial (e.g., purchases) and emotional (e.g., conflict resolution) decision-making contexts. Participants interacted with one of three AI agents: a neutral agent (NA) optimizing for user benefit without explicit influence, a manipulative agent (MA) designed to covertly influence beliefs and behaviors, or a strategy-enhanced manipulative agent (SEMA) equipped with established psychological tactics, allowing it to select and apply them adaptively during interactions to reach its hidden objectives. By analyzing participants' preference ratings, we found significant susceptibility to AI-driven manipulation. Particularly across both decision-making domains, interacting with the manipulative agents significantly increased the odds of rating hidden incentives higher than optimal options (Financial, MA: OR=5.24, SEMA: OR=7.96; Emotional, MA: OR=5.52, SEMA: OR=5.71) compared to the NA group. Notably, we found no clear evidence that employing psychological strategies (SEMA) was overall more effective than simple manipulative objectives (MA) on our primary outcomes. Hence, AI-driven manipulation could become widespread even without requiring sophisticated tactics and expertise. While our findings are preliminary and derived from hypothetical, low-stakes scenarios, we highlight a critical vulnerability in human-AI interactions, emphasizing the need for ethical safeguards and regulatory frameworks to protect human autonomy.",
+    "abstract_source": "openalex_verified",
+    "dblp_key": "journals/corr/abs-2502-07663",
+    "abstract_zh": "人工智能系统越来越多地与日常生活交织在一起，帮助用户完成各种任务并指导决策。这种集成引入了人工智能驱动的操纵风险，此类系统可能会利用用户的认知偏见和情感脆弱性来引导他们走向有害的结果。通过对 233 名参与者进行的随机受试者间实验，我们研究了人类在财务（例如购买）和情感（例如冲突解决）决策环境中对此类操纵的敏感性。参与者与三个人工智能代理之一进行交互：一个在没有明确影响的情况下为用户利益进行优化的中立代理（NA），一个旨在控制..."
+  },
+  {
+    "title": "Free Lunch for User Experience: Crowdsourcing Agents for Scalable User Studies",
+    "title_en": "Free Lunch for User Experience: Crowdsourcing Agents for Scalable User Studies",
+    "title_zh": "用户体验免费午餐：用于可扩展用户研究的众包代理",
+    "year": 2025,
+    "venue": "arXiv (Cornell University)",
+    "authors": [
+      "Siyang Liu",
+      "Sahand Sabour",
+      "Xiaoyang Wang",
+      "Rada F. Mihalcea"
+    ],
+    "doi": "10.48550/arxiv.2505.22981",
+    "paper_url": "http://arxiv.org/abs/2505.22981",
+    "source_url": "http://arxiv.org/abs/2505.22981",
+    "topics": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解"
+    ],
+    "verification": "主题筛选候选；方法/基准候选；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4416608728",
+    "openalex_author_id": "https://openalex.org/A5084758279",
+    "semantic_scholar_id": "188e53719a069cfb8136b50928bc6620a29bf5b4",
+    "semantic_scholar_author_id": "2106627931",
+    "cited_by_count": 3,
+    "publication_types": [
+      "JournalArticle"
+    ],
+    "candidate_source": false,
+    "source_kind": "OpenAlex作品记录",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "sahand_sabour_3a0172a71cb6",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测",
+    "secondary_tags": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "sahand_sabour",
+    "scholar_name": "Sahand Sabour",
+    "work_title_group": "556a80127149",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "sahand_sabour"
+    ],
+    "scholar_names": [
+      "Sahand Sabour"
+    ],
+    "source_record_ids": [
+      "sahand_sabour_3a0172a71cb6"
+    ],
+    "scholar_categories": {
+      "sahand_sabour": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "Sahand Sabour",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Free Lunch for User Experience: Crowdsourcing Agents for Scalable User Studies",
-      "title_en": "Free Lunch for User Experience: Crowdsourcing Agents for Scalable User Studies",
-      "title_zh": "用户体验免费午餐：用于可扩展用户研究的众包代理",
-      "year": 2025,
-      "venue": "arXiv (Cornell University)",
-      "authors": [
-        "Siyang Liu",
-        "Sahand Sabour",
-        "Xiaoyang Wang",
-        "Rada F. Mihalcea"
-      ],
-      "doi": "10.48550/arxiv.2505.22981",
-      "paper_url": "http://arxiv.org/abs/2505.22981",
-      "source_url": "http://arxiv.org/abs/2505.22981",
-      "topics": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解",
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "verification": "主题筛选候选；方法/基准候选；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W4416608728",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "188e53719a069cfb8136b50928bc6620a29bf5b4",
-      "semantic_scholar_author_id": "2106627931",
-      "cited_by_count": 0,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "candidate_source": false,
-      "source_kind": "OpenAlex作品记录",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "sahand_sabour_3a0172a71cb6",
-      "category_id": "emotion_benchmark",
-      "primary_category": "情感数据集、基准与评测",
-      "secondary_tags": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "sahand_sabour",
-      "scholar_name": "Sahand Sabour",
-      "work_title_group": "556a80127149",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "29289fcb4a711c89",
+    "primary_categories_by_scholar": [
+      "Sahand Sabour：情感数据集、基准与评测"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2505.22981",
+    "abstract_en": "User studies are central to user experience research, yet recruiting participant is expensive, slow, and limited in diversity. Recent work has explored using Large Language Models as simulated users, but doubts about fidelity have hindered practical adoption. We deepen this line of research by asking whether scale itself can enable useful simulation, even if not perfectly accurate. We introduce Crowdsourcing Simulated User Agents, a method that recruits generative agents from billion-scale profile assets to act as study participants. Unlike handcrafted simulations, agents are treated as recruitable, screenable, and engageable across UX research stages. To ground this method, we demonstrate a game prototyping study with hundreds of simulated players, comparing their insights against a 10-participant local user study and a 20-participant crowdsourcing study with humans. We find a clear scaling effect: as the number of simulated user agents increases, coverage of human findings rises smoothly and plateaus around 90\\%. 12.8 simulated agents are as useful as one locally recruited human, and 3.2 agents are as useful as one crowdsourced human. Results show that while individual agents are imperfect, aggregated simulations produce representative and actionable insights comparable to real users. Professional designers further rated these insights as balancing fidelity, cost, time efficiency, and usefulness. Finally, we release an agent crowdsourcing toolkit with a modular open-source pipeline and a curated pool of profiles synced from ongoing simulation research, to lower the barrier for researchers to adopt simulated participants. Together, this work contributes a validated method and reusable toolkit that expand the options for conducting scalable and practical UX studies.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "用户研究是用户体验研究的核心，但招募参与者成本高昂、缓慢且多样性有限。最近的工作探索了使用大型语言模型作为模拟用户，但对保真度的怀疑阻碍了实际采用。我们通过询问尺度本身是否可以实现有用的模拟（即使不完全准确）来深化这一研究方向。我们引入了众包模拟用户代理，这是一种从数十亿规模的档案资产中招募生成代理来充当研究参与者的方法。与手工模拟不同，代理在用户体验研究阶段被视为可招募、可筛选和可参与的。为了证实这种方法，我们演示了..."
+  },
+  {
+    "title": "Enhanced large language models for effective screening of depression and anxiety",
+    "title_en": "Enhanced large language models for effective screening of depression and anxiety",
+    "title_zh": "增强大语言模型，用于有效筛查抑郁和焦虑",
+    "year": 2025,
+    "venue": "Communications Medicine",
+    "authors": [
+      "June M. Liu",
+      "Mengxia Gao",
+      "Sahand Sabour",
+      "Zhuang Chen",
+      "Minlie Huang",
+      "Tatia M.C. Lee"
+    ],
+    "doi": "10.1038/s43856-025-01158-1",
+    "paper_url": "https://doi.org/10.1038/s43856-025-01158-1",
+    "source_url": "https://doi.org/10.1038/s43856-025-01158-1",
+    "topics": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解",
+      "情感计算与情绪理解",
+      "多模态与大语言模型",
+      "医学影像与脑疾病诊断"
+    ],
+    "verification": "主题筛选候选；方法/基准候选",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4415930197",
+    "openalex_author_id": "https://openalex.org/A5084758279",
+    "semantic_scholar_id": "91db9ec546ed1e9371db1a84e7112924e7536177",
+    "semantic_scholar_author_id": "2106627931",
+    "cited_by_count": 35,
+    "publication_types": [
+      "JournalArticle"
+    ],
+    "candidate_source": false,
+    "source_kind": "OpenAlex作品记录",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "sahand_sabour_ae29afb77343",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测",
+    "secondary_tags": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "sahand_sabour",
+    "scholar_name": "Sahand Sabour",
+    "work_title_group": "c6858919d9bf",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "sahand_sabour",
+      "minlie_huang"
+    ],
+    "scholar_names": [
+      "Sahand Sabour",
+      "黄民烈"
+    ],
+    "source_record_ids": [
+      "sahand_sabour_ae29afb77343"
+    ],
+    "scholar_categories": {
+      "sahand_sabour": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "Sahand Sabour",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "minlie_huang": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "黄民烈",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解",
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "Human Decision-making is Susceptible to AI-driven Manipulation",
-      "title_en": "Human Decision-making is Susceptible to AI-driven Manipulation",
-      "title_zh": "人类决策容易受到人工智能驱动的操纵的影响",
-      "year": 2025,
-      "venue": "arXiv (Cornell University)",
-      "authors": [
-        "Sahand Sabour",
-        "June M. Liu",
-        "Siyang Liu",
-        "Yao, Chris Z.",
-        "Shiyao Cui",
-        "Xuanming Zhang",
-        "Zhang, Wen",
-        "Yaru Cao",
-        "Advait Bhat",
-        "Guan, Jian",
-        "Wu, Wei",
-        "Rada F. Mihalcea",
-        "Wang, Hongning",
-        "Tim Althoff",
-        "Tatia M. C. Lee",
-        "Minlie Huang"
-      ],
-      "doi": "10.48550/arxiv.2502.07663",
-      "paper_url": "http://arxiv.org/abs/2502.07663",
-      "source_url": "http://arxiv.org/abs/2502.07663",
-      "topics": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解",
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "verification": "主题筛选候选；方法/基准候选；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W4407425790",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "a20c2e50aaec0c0603a19f79cf20e9bd41f711d7",
-      "semantic_scholar_author_id": "2106627931",
-      "cited_by_count": 0,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "candidate_source": false,
-      "source_kind": "OpenAlex作品记录",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "sahand_sabour_1e4a6ac70818",
-      "category_id": "emotion_benchmark",
-      "primary_category": "情感数据集、基准与评测",
-      "secondary_tags": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "sahand_sabour",
-      "scholar_name": "Sahand Sabour",
-      "work_title_group": "5a7b2cef68c0",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "1e077fe61411f3ec",
+    "primary_categories_by_scholar": [
+      "Sahand Sabour：情感数据集、基准与评测",
+      "黄民烈：脑电基准、数据与评测"
+    ],
+    "pdf_url": "https://www.nature.com/articles/s43856-025-01158-1.pdf",
+    "abstract_en": "Depressive and anxiety disorders are widespread, necessitating timely identification and management. These conditions manifest through various emotional and behavioral symptoms, such as persistent sadness and excessive worry. When left undiagnosed and untreated, these disorders can cause severe consequences, including increased risk of suicide and substantial socioeconomic burden. Recent advances in Large Language Models (LLMs) offer potential solutions, yet high costs and ethical concerns about training data remain challenges. This paper introduces a pipeline for synthesizing clinical interviews, resulting in 1,157 interactive dialogues (PsyInterview), and presents EmoScan, an LLM-based emotional disorder screening system. EmoScan distinguishes between coarse (e.g., anxiety or depressive disorders) and fine disorders (e.g., major depressive disorders) and conducts high-quality interviews. Evaluations show that EmoScan exceeds the performance of base models and other LLMs like GPT-4 in screening emotional disorders (F1-score = 0.7467). It also delivers superior explanations (BERTScore=0.9408) and demonstrates robust generalizability (F1-score of 0.67 on an external dataset). Furthermore, EmoScan outperforms baselines in interviewing skills, as validated by automated ratings and human evaluations. This work highlights the importance of scalable data-generative pipelines for developing effective mental health LLM tools. Liu, Gao et al. develop EmoScan, an LLM-based system to screen for emotional disorders. Findings reveal that EmoScan effectively screens for emotional disorders with high accuracy and can provide detailed explanations, enhancing transparency and trust in automated mental health assessments. Depression and anxiety are common but often hard to detect. This study explores the potential of artificial intelligence (AI) for identification. We used a type of advanced AI that understands and writes human-like text, known as a large language models (LLMs), to automatically create a large collection of realistic conversations between a psychiatrist and a client. We named this collection of simulated interviews “PsyInterview”. Using this data, we trained a new AI system called EmoScan to capture the signs of emotional disorders. EmoScan can screen for depression and anxiety by having a short, text-based conversation with a person. Our evaluation showed that EmoScan is more accurate at identifying these signs and explaining its reasoning compared to other popular AIs. It also conducts high-quality interviews. This work shows how LLMs can help improve mental health care by making screening faster and more accessible, especially where expert resources are limited.",
+    "abstract_source": "openalex_verified",
+    "dblp_key": "journals/corr/abs-2501-08769",
+    "abstract_zh": "抑郁症和焦虑症很普遍，需要及时识别和治疗。这些情况通过各种情绪和行为症状表现出来，例如持续悲伤和过度担忧。如果未经诊断和治疗，这些疾病可能会造成严重后果，包括自杀风险增加和沉重的社会经济负担。大型语言模型 (LLM) 的最新进展提供了潜在的解决方案，但训练数据的高成本和道德问题仍然是挑战。本文介绍了一个综合临床访谈的流程，产生 1,157 个交互式对话 (PsyInterview)，并介绍了 EmoScan，一种基于大语言模型的情感..."
+  },
+  {
+    "title": "CharacterGLM: Customizing Social Characters with Large Language Models",
+    "title_en": "CharacterGLM: Customizing Social Characters with Large Language Models",
+    "title_zh": "CharacterGLM：使用大型语言模型定制社交角色",
+    "year": 2024,
+    "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    "authors": [
+      "Jinfeng Zhou",
+      "Zhuang Chen",
+      "Dazhen Wan",
+      "Bosi Wen",
+      "Yi Song",
+      "Jifan Yu",
+      "Yongkang Huang",
+      "Pei Ke",
+      "Guanqun Bi",
+      "Libiao Peng",
+      "JiaMing Yang",
+      "Xiyao Xiao",
+      "Sahand Sabour",
+      "Xiaohan Zhang",
+      "Wenjing Hou",
+      "Yi-Jia Zhang",
+      "Yuxiao Dong",
+      "Hongning Wang",
+      "Jie Tang",
+      "Minlie Huang"
+    ],
+    "doi": "10.18653/v1/2024.emnlp-industry.107",
+    "paper_url": "https://doi.org/10.18653/v1/2024.emnlp-industry.107",
+    "source_url": "https://doi.org/10.18653/v1/2024.emnlp-industry.107",
+    "topics": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解"
+    ],
+    "verification": "主题筛选候选；方法/基准候选；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4404783534",
+    "openalex_author_id": "https://openalex.org/A5084758279",
+    "semantic_scholar_id": "312342ff6bc4101f94a501a0ee60729536debcdd",
+    "semantic_scholar_author_id": "2106627931",
+    "cited_by_count": 94,
+    "publication_types": [
+      "JournalArticle",
+      "Conference"
+    ],
+    "candidate_source": false,
+    "source_kind": "OpenAlex作品记录",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "sahand_sabour_f492c230e112",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测",
+    "secondary_tags": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "sahand_sabour",
+    "scholar_name": "Sahand Sabour",
+    "work_title_group": "f07092a9f6eb",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "sahand_sabour",
+      "minlie_huang"
+    ],
+    "scholar_names": [
+      "Sahand Sabour",
+      "黄民烈"
+    ],
+    "source_record_ids": [
+      "sahand_sabour_f492c230e112"
+    ],
+    "scholar_categories": {
+      "sahand_sabour": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "Sahand Sabour",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "minlie_huang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "黄民烈",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解"
+        ],
+        "confidence": "low",
+        "note": ""
+      }
     },
-    {
-      "title": "CharacterGLM: Customizing Social Characters with Large Language Models",
-      "title_en": "CharacterGLM: Customizing Social Characters with Large Language Models",
-      "title_zh": "CharacterGLM：使用大型语言模型定制社交角色",
-      "year": 2024,
-      "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
-      "authors": [
-        "Jinfeng Zhou",
-        "Zhuang Chen",
-        "Dazhen Wan",
-        "Bosi Wen",
-        "Yi Song",
-        "Jifan Yu",
-        "Yongkang Huang",
-        "Pei Ke",
-        "Guanqun Bi",
-        "Libiao Peng",
-        "JiaMing Yang",
-        "Xiyao Xiao",
-        "Sahand Sabour",
-        "Xiaohan Zhang",
-        "Wenjing Hou",
-        "Yi-Jia Zhang",
-        "Yuxiao Dong",
-        "Hongning Wang",
-        "Jie Tang",
-        "Minlie Huang"
-      ],
-      "doi": "10.18653/v1/2024.emnlp-industry.107",
-      "paper_url": "https://doi.org/10.18653/v1/2024.emnlp-industry.107",
-      "source_url": "https://doi.org/10.18653/v1/2024.emnlp-industry.107",
-      "topics": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解",
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "verification": "主题筛选候选；方法/基准候选；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W4404783534",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "312342ff6bc4101f94a501a0ee60729536debcdd",
-      "semantic_scholar_author_id": "2106627931",
-      "cited_by_count": 0,
-      "publication_types": [
-        "JournalArticle",
-        "Conference"
-      ],
-      "candidate_source": false,
-      "source_kind": "OpenAlex作品记录",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "sahand_sabour_f492c230e112",
-      "category_id": "emotion_benchmark",
-      "primary_category": "情感数据集、基准与评测",
-      "secondary_tags": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "sahand_sabour",
-      "scholar_name": "Sahand Sabour",
-      "work_title_group": "f07092a9f6eb",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "2b111904cbfa2946",
+    "primary_categories_by_scholar": [
+      "Sahand Sabour：情感数据集、基准与评测",
+      "黄民烈：脑电基础模型与通用解码"
+    ],
+    "pdf_url": "https://aclanthology.org/2024.emnlp-industry.107.pdf",
+    "abstract_en": "Jinfeng Zhou, Zhuang Chen, Dazhen Wan, Bosi Wen, Yi Song, Jifan Yu, Yongkang Huang, Pei Ke, Guanqun Bi, Libiao Peng, JiaMing Yang, Xiyao Xiao, Sahand Sabour, Xiaohan Zhang, Wenjing Hou, Yijia Zhang, Yuxiao Dong, Hongning Wang, Jie Tang, Minlie Huang. Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing: Industry Track. 2024.",
+    "abstract_source": "openalex_verified",
+    "dblp_key": "conf/emnlp/Zhou0WWSYHKBPYX24",
+    "abstract_zh": "周金峰、陈壮、万大震、文博斯、宋毅、余继凡、黄永康、裴克、毕冠群、彭力标、杨家明、肖希耀、Sahand Sabour、张晓涵、侯文静、张一佳、董宇晓、王洪宁、唐杰、黄敏烈。 2024 年自然语言处理经验方法会议论文集：行业轨道。 2024 年。"
+  },
+  {
+    "title": "COKE: A Cognitive Knowledge Graph for Machine Theory of Mind",
+    "title_en": "COKE: A Cognitive Knowledge Graph for Machine Theory of Mind",
+    "title_zh": "COKE：机器心理理论的认知知识图",
+    "year": 2024,
+    "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+    "authors": [
+      "Jincenzi Wu",
+      "Zhuang Chen",
+      "Jiawen Deng",
+      "Sahand Sabour",
+      "Helen M. L. Meng",
+      "Minlie Huang"
+    ],
+    "doi": "10.18653/v1/2024.acl-long.848",
+    "paper_url": "https://doi.org/10.18653/v1/2024.acl-long.848",
+    "source_url": "https://doi.org/10.18653/v1/2024.acl-long.848",
+    "topics": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；方法/基准候选；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [
+      "sahand_sabour__auto_code_7ac10dc218"
+    ],
+    "code_urls": [
+      "https://github.com/jincenziwu/COKE"
+    ],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4402671525",
+    "openalex_author_id": "https://openalex.org/A5084758279",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 45,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "OpenAlex作品记录",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "sahand_sabour_2de3a6502758",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测",
+    "secondary_tags": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "sahand_sabour",
+    "scholar_name": "Sahand Sabour",
+    "work_title_group": "6c992ba7065d",
+    "resource_status": "已关联公开代码/数据/模型资源",
+    "scholar_ids": [
+      "sahand_sabour",
+      "minlie_huang"
+    ],
+    "scholar_names": [
+      "Sahand Sabour",
+      "黄民烈"
+    ],
+    "source_record_ids": [
+      "sahand_sabour_2de3a6502758"
+    ],
+    "scholar_categories": {
+      "sahand_sabour": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "Sahand Sabour",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "minlie_huang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "黄民烈",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "COKE: A Cognitive Knowledge Graph for Machine Theory of Mind",
-      "title_en": "COKE: A Cognitive Knowledge Graph for Machine Theory of Mind",
-      "title_zh": "COKE：机器心理理论的认知知识图",
-      "year": 2024,
-      "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
-      "authors": [
-        "Jincenzi Wu",
-        "Zhuang Chen",
-        "Jiawen Deng",
-        "Sahand Sabour",
-        "Helen M. L. Meng",
-        "Minlie Huang"
-      ],
-      "doi": "10.18653/v1/2024.acl-long.848",
-      "paper_url": "https://doi.org/10.18653/v1/2024.acl-long.848",
-      "source_url": "https://doi.org/10.18653/v1/2024.acl-long.848",
-      "topics": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解",
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "verification": "主题筛选候选；方法/基准候选；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W4402671525",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": false,
-      "source_kind": "OpenAlex作品记录",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "sahand_sabour_2de3a6502758",
-      "category_id": "emotion_benchmark",
-      "primary_category": "情感数据集、基准与评测",
-      "secondary_tags": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "sahand_sabour",
-      "scholar_name": "Sahand Sabour",
-      "work_title_group": "6c992ba7065d",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "2f616e2bd9ce26cf",
+    "primary_categories_by_scholar": [
+      "Sahand Sabour：情感数据集、基准与评测",
+      "黄民烈：情感脑电与多模态生理信号"
+    ],
+    "pdf_url": "https://aclanthology.org/2024.acl-long.848.pdf",
+    "abstract_en": "Theory of mind (ToM) refers to humans' ability to understand and infer the desires, beliefs, and intentions of others.The acquisition of ToM plays a key role in humans' social cognition and interpersonal relations.Though indispensable for social intelligence, ToM is still lacking for modern AI and NLP systems since they cannot access the human mental state and cognitive process beneath the training corpus.To empower AI systems with the ToM ability and narrow the gap between them and humans, in this paper, we propose COKE: the first cognitive knowledge graph for machine theory of mind, formalizing cognitive processes as a chained structure.Specifically, COKE formalizes ToM as a collection of 45k+ manually verified cognitive chains that characterize human mental activities and subsequent behavioral/affective responses when facing specific social circumstances.In addition, we further generalize COKE using LLMs and build a powerful generation model COLM tailored for cognitive reasoning.Experimental results in both automatic and human evaluation demonstrate the high quality of COKE, the superior ToM ability of COLM, and its potential to significantly enhance social applications.We release our code and data at https://github.com/jincenziwu/COKE.",
+    "abstract_source": "openalex_verified",
+    "dblp_key": "conf/acl/Wu0DSMH24",
+    "abstract_zh": "心智理论（ToM）是指人类理解和推断他人的欲望、信仰和意图的能力。ToM的获得在人类的社会认知和人际关系中起着关键作用。尽管ToM对于社会智能来说是不可或缺的，但现代AI和NLP系统仍然缺乏ToM，因为它们无法获取训练语料库下的人类心理状态和认知过程。为了赋予人工智能系统ToM能力，缩小它们与人类之间的差距，在本文中，我们提出COKE：机器心智理论的第一个认知知识图，将认知过程形式化为链式结构。具体来说，COKE 将 ToM 形式化为...的集合"
+  },
+  {
+    "title": "EmoBench: Evaluating the Emotional Intelligence of Large Language Models",
+    "title_en": "EmoBench: Evaluating the Emotional Intelligence of Large Language Models",
+    "title_zh": "EmoBench：大语言模型情感智能评估",
+    "year": 2024,
+    "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+    "authors": [
+      "Sahand Sabour",
+      "Siyang Liu",
+      "Zheyuan Zhang",
+      "June M. Liu",
+      "Jinfeng Zhou",
+      "Alvionna S. Sunaryo",
+      "Juanzi Li",
+      "Tatia M. C. Lee",
+      "Rada Mihalcea",
+      "Minlie Huang"
+    ],
+    "doi": "10.18653/v1/2024.acl-long.326",
+    "paper_url": "https://doi.org/10.18653/v1/2024.acl-long.326",
+    "source_url": "https://doi.org/10.18653/v1/2024.acl-long.326",
+    "topics": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解",
+      "情感计算与情绪理解",
+      "多模态与大语言模型"
+    ],
+    "verification": "主题筛选候选；方法/基准候选",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4402683994",
+    "openalex_author_id": "https://openalex.org/A5084758279",
+    "semantic_scholar_id": "3cdc18cf052823b535796a7cd01be51048ab4b4a",
+    "semantic_scholar_author_id": "2106627931",
+    "cited_by_count": 252,
+    "publication_types": [
+      "JournalArticle",
+      "Conference"
+    ],
+    "candidate_source": false,
+    "source_kind": "Semantic Scholar author works",
+    "record_id": "sahand_sabour_1c93c9e92033",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测",
+    "secondary_tags": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "sahand_sabour",
+    "scholar_name": "Sahand Sabour",
+    "work_title_group": "be31e3996d72",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "sahand_sabour",
+      "minlie_huang"
+    ],
+    "scholar_names": [
+      "Sahand Sabour",
+      "黄民烈"
+    ],
+    "source_record_ids": [
+      "sahand_sabour_1c93c9e92033",
+      "minlie_huang_1c93c9e92033"
+    ],
+    "scholar_categories": {
+      "sahand_sabour": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "Sahand Sabour",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "minlie_huang": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "黄民烈",
+        "secondary_tags": [
+          "情感智能与情感大模型",
+          "情感对话与心理支持",
+          "大语言模型对齐与强化学习",
+          "社会智能与安全评测",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "EmoBench: Evaluating the Emotional Intelligence of Large Language Models",
-      "title_en": "EmoBench: Evaluating the Emotional Intelligence of Large Language Models",
-      "title_zh": "EmoBench：大语言模型情感智能评估",
-      "year": 2024,
-      "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
-      "authors": [
-        "Sahand Sabour",
-        "Siyang Liu",
-        "Zheyuan Zhang",
-        "June Liu",
-        "Jinfeng Zhou",
-        "Alvionna S. Sunaryo",
-        "Tatia Lee",
-        "Rada F. Mihalcea",
-        "Minlie Huang"
-      ],
-      "doi": "10.18653/v1/2024.acl-long.326",
-      "paper_url": "https://doi.org/10.18653/v1/2024.acl-long.326",
-      "source_url": "https://doi.org/10.18653/v1/2024.acl-long.326",
-      "topics": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解",
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "verification": "主题筛选候选；方法/基准候选",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W4402683994",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "3cdc18cf052823b535796a7cd01be51048ab4b4a",
-      "semantic_scholar_author_id": "2106627931",
-      "cited_by_count": 114,
-      "publication_types": [
-        "JournalArticle",
-        "Conference"
-      ],
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "record_id": "sahand_sabour_1c93c9e92033",
-      "category_id": "emotion_benchmark",
-      "primary_category": "情感数据集、基准与评测",
-      "secondary_tags": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "sahand_sabour",
-      "scholar_name": "Sahand Sabour",
-      "work_title_group": "be31e3996d72",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "f8ae588926f715f2",
+    "primary_categories_by_scholar": [
+      "Sahand Sabour：情感数据集、基准与评测",
+      "黄民烈：脑电基准、数据与评测"
+    ],
+    "pdf_url": "https://aclanthology.org/2024.acl-long.326.pdf",
+    "abstract_en": "Sahand Sabour, Siyang Liu, Zheyuan Zhang, June Liu, Jinfeng Zhou, Alvionna Sunaryo, Tatia Lee, Rada Mihalcea, Minlie Huang. Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2024.",
+    "abstract_source": "openalex_verified",
+    "dblp_key": "conf/acl/Sabour0ZLZSLMH24",
+    "abstract_zh": "Sahand Sabour、Siyang Liu、Zheyuan 张、June Liu、Jinfeng Zhou、Alvionna Sunaryo、Tatia Lee、Rada Mihalcea、Minlie Huang。计算语言学协会第 62 届年会论文集（第一卷：长论文）。 2024 年。"
+  },
+  {
+    "title": "Task-Adaptive Tokenization: Enhancing Long-Form Text Generation Efficacy in Mental Health and Beyond",
+    "title_en": "Task-Adaptive Tokenization: Enhancing Long-Form Text Generation Efficacy in Mental Health and Beyond",
+    "title_zh": "任务自适应标记化：增强心理健康及其他领域的长文本生成效率",
+    "year": 2023,
+    "venue": "Conference on Empirical Methods in Natural Language Processing",
+    "authors": [
+      "Siyang Liu",
+      "Nai-Hao Deng",
+      "Sahand Sabour",
+      "Yilin Jia",
+      "Minlie Huang",
+      "R. Mihalcea"
+    ],
+    "doi": "10.18653/v1/2023.emnlp-main.944",
+    "paper_url": "https://www.semanticscholar.org/paper/9a4f929b44345b9d547f8d2e1700caaab99237c0",
+    "source_url": "https://www.semanticscholar.org/paper/9a4f929b44345b9d547f8d2e1700caaab99237c0",
+    "topics": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；方法/基准候选",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4389524211",
+    "openalex_author_id": "https://openalex.org/A5084758279",
+    "semantic_scholar_id": "9a4f929b44345b9d547f8d2e1700caaab99237c0",
+    "semantic_scholar_author_id": "2106627931",
+    "cited_by_count": 44,
+    "publication_types": [
+      "JournalArticle",
+      "Conference"
+    ],
+    "candidate_source": false,
+    "source_kind": "OpenAlex作品记录",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "sahand_sabour_69f1de90298f",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测",
+    "secondary_tags": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "sahand_sabour",
+    "scholar_name": "Sahand Sabour",
+    "work_title_group": "770d279491d2",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "sahand_sabour",
+      "minlie_huang"
+    ],
+    "scholar_names": [
+      "Sahand Sabour",
+      "黄民烈"
+    ],
+    "source_record_ids": [
+      "sahand_sabour_69f1de90298f"
+    ],
+    "scholar_categories": {
+      "sahand_sabour": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "Sahand Sabour",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "minlie_huang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "黄民烈",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "CharacterGLM: Customizing Chinese Conversational AI Characters with Large Language Models",
-      "title_en": "CharacterGLM: Customizing Chinese Conversational AI Characters with Large Language Models",
-      "title_zh": "CharacterGLM：使用大型语言模型定制中文会话人工智能字符",
-      "year": 2023,
-      "venue": "arXiv (Cornell University)",
-      "authors": [
-        "Jinfeng Zhou",
-        "Zhuang Chen",
-        "Dazhen Wan",
-        "Bosi Wen",
-        "Yi Fan Song",
-        "Jifan Yu",
-        "Yongkang Huang",
-        "Libiao Peng",
-        "Jiaming Yang",
-        "Xiyao Xiao",
-        "Sahand Sabour",
-        "Xiaohan Zhang",
-        "Hou, Wenjing",
-        "Yi-Jia Zhang",
-        "Yuxiao Dong",
-        "Jie Tang",
-        "Minlie Huang"
-      ],
-      "doi": "10.48550/arxiv.2311.16832",
-      "paper_url": "http://arxiv.org/abs/2311.16832",
-      "source_url": "http://arxiv.org/abs/2311.16832",
-      "topics": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解",
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "verification": "主题筛选候选；方法/基准候选；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W4389156999",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "9032bcddd7fa81f0546376141a9b95fa7393a066",
-      "semantic_scholar_author_id": "2106627931",
-      "cited_by_count": 0,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "candidate_source": false,
-      "source_kind": "OpenAlex作品记录",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "sahand_sabour_c5f58ee7418e",
-      "category_id": "emotion_benchmark",
-      "primary_category": "情感数据集、基准与评测",
-      "secondary_tags": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "sahand_sabour",
-      "scholar_name": "Sahand Sabour",
-      "work_title_group": "667af1a8d74d",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "0602856a93ab321f",
+    "primary_categories_by_scholar": [
+      "Sahand Sabour：情感数据集、基准与评测",
+      "黄民烈：脑电基础模型与通用解码"
+    ],
+    "pdf_url": "https://aclanthology.org/2023.emnlp-main.944.pdf",
+    "abstract_en": "We propose task-adaptive tokenization 1 as a way to adapt the generation pipeline to the specifics of a downstream task and enhance long-form generation in mental health.Inspired by insights from cognitive science, our task-adaptive tokenizer samples variable segmentations from multiple outcomes, with sampling probabilities optimized based on taskspecific data.We introduce a strategy for building a specialized vocabulary and introduce a vocabulary merging protocol that allows for the integration of task-specific tokens into the pre-trained model's tokenization step.Through extensive experiments on psychological question-answering tasks in both Chinese and English, we find that our task-adaptive tokenization approach brings a significant improvement in generation performance while using up to 60% fewer tokens.Preliminary experiments point to promising results when using our tokenization approach with very large language models.",
+    "abstract_source": "openalex_verified",
+    "dblp_key": "conf/emnlp/0003DSJHM23",
+    "abstract_zh": "我们提出任务自适应标记化 1 作为一种使生成管道适应下游任务的具体情况并增强心理健康的长格式生成的方法。受认知科学见解的启发，我们的任务自适应标记化器从多个结果中采样可变分段，并根据特定于任务的数据优化采样概率。我们引入了一种构建专门词汇的策略，并引入了词汇合并协议，该协议允许将特定于任务的标记集成到预训练模型的标记化中步骤。通过对中文和英文心理问答任务的大量实验，我们发现我们的任务适应..."
+  },
+  {
+    "title": "CharacterGLM: Customizing Chinese Conversational AI Characters with Large Language Models",
+    "title_en": "CharacterGLM: Customizing Chinese Conversational AI Characters with Large Language Models",
+    "title_zh": "CharacterGLM：使用大型语言模型定制中文会话人工智能字符",
+    "year": 2023,
+    "venue": "arXiv (Cornell University)",
+    "authors": [
+      "Jinfeng Zhou",
+      "Zhuang Chen",
+      "Dazhen Wan",
+      "Bosi Wen",
+      "Yi Fan Song",
+      "Jifan Yu",
+      "Yongkang Huang",
+      "Libiao Peng",
+      "Jiaming Yang",
+      "Xiyao Xiao",
+      "Sahand Sabour",
+      "Xiaohan Zhang",
+      "Hou, Wenjing",
+      "Yi-Jia Zhang",
+      "Yuxiao Dong",
+      "Jie Tang",
+      "Minlie Huang"
+    ],
+    "doi": "10.48550/arxiv.2311.16832",
+    "paper_url": "http://arxiv.org/abs/2311.16832",
+    "source_url": "http://arxiv.org/abs/2311.16832",
+    "topics": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；方法/基准候选；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4389156999",
+    "openalex_author_id": "https://openalex.org/A5084758279",
+    "semantic_scholar_id": "9032bcddd7fa81f0546376141a9b95fa7393a066",
+    "semantic_scholar_author_id": "2106627931",
+    "cited_by_count": 133,
+    "publication_types": [
+      "JournalArticle"
+    ],
+    "candidate_source": false,
+    "source_kind": "OpenAlex作品记录",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "sahand_sabour_c5f58ee7418e",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测",
+    "secondary_tags": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "sahand_sabour",
+    "scholar_name": "Sahand Sabour",
+    "work_title_group": "667af1a8d74d",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "sahand_sabour",
+      "minlie_huang"
+    ],
+    "scholar_names": [
+      "Sahand Sabour",
+      "黄民烈"
+    ],
+    "source_record_ids": [
+      "sahand_sabour_c5f58ee7418e"
+    ],
+    "scholar_categories": {
+      "sahand_sabour": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "Sahand Sabour",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "minlie_huang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "黄民烈",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "COKE: A Cognitive Knowledge Graph for Machine Theory of Mind",
-      "title_en": "COKE: A Cognitive Knowledge Graph for Machine Theory of Mind",
-      "title_zh": "COKE：机器心理理论的认知知识图",
-      "year": 2023,
-      "venue": "Annual Meeting of the Association for Computational Linguistics",
-      "authors": [
-        "Jincenzi Wu",
-        "Zhuang Chen",
-        "Jia-Wen Deng",
-        "Sahand Sabour",
-        "Helen M. Meng",
-        "Min-Lie Huang"
-      ],
-      "doi": "10.48550/arXiv.2305.05390",
-      "paper_url": "https://www.semanticscholar.org/paper/83fe73b5f35ab77444b80e2bf6fbd66b55531ad1",
-      "source_url": "https://www.semanticscholar.org/paper/83fe73b5f35ab77444b80e2bf6fbd66b55531ad1",
-      "topics": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解",
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "verification": "主题筛选候选；方法/基准候选；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "83fe73b5f35ab77444b80e2bf6fbd66b55531ad1",
-      "semantic_scholar_author_id": "2106627931",
-      "cited_by_count": 39,
-      "publication_types": [
-        "JournalArticle",
-        "Conference"
-      ],
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "sahand_sabour_53556041411d",
-      "category_id": "emotion_benchmark",
-      "primary_category": "情感数据集、基准与评测",
-      "secondary_tags": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "sahand_sabour",
-      "scholar_name": "Sahand Sabour",
-      "work_title_group": "6c992ba7065d",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "2e29f1956c1b9545",
+    "primary_categories_by_scholar": [
+      "Sahand Sabour：情感数据集、基准与评测",
+      "黄民烈：脑电基础模型与通用解码"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2311.16832",
+    "abstract_en": "In this paper, we present CharacterGLM, a series of models built upon ChatGLM, with model sizes ranging from 6B to 66B parameters. Our CharacterGLM is designed for generating Character-based Dialogues (CharacterDial), which aims to equip a conversational AI system with character customization for satisfying people's inherent social desires and emotional needs. On top of CharacterGLM, we can customize various AI characters or social agents by configuring their attributes (identities, interests, viewpoints, experiences, achievements, social relationships, etc.) and behaviors (linguistic features, emotional expressions, interaction patterns, etc.). Our model outperforms most mainstream close-source large langauge models, including the GPT series, especially in terms of consistency, human-likeness, and engagement according to manual evaluations. We will release our 6B version of CharacterGLM and a subset of training data to facilitate further research development in the direction of character-based dialogue generation.",
+    "abstract_source": "openalex_verified",
+    "dblp_key": "journals/corr/abs-2311-16832",
+    "abstract_zh": "在本文中，我们提出了CharacterGLM，这是一系列基于ChatGLM 构建的模型，模型大小从6B 到66B 参数不等。我们的CharacterGLM旨在生成基于角色的对话（CharacterDial），旨在为对话式AI系统配备角色定制功能，以满足人们固有的社交欲望和情感需求。在CharacterGLM之上，我们可以通过配置各种AI角色或社交代理的属性（身份、兴趣、观点、经验、成就、社会关系等）和行为（语言特征、情绪表达、交互模式等）来定制各种AI角色或社交代理。我们的模型优于大多数主流的近似模型..."
+  },
+  {
+    "title": "COKE: A Cognitive Knowledge Graph for Machine Theory of Mind",
+    "title_en": "COKE: A Cognitive Knowledge Graph for Machine Theory of Mind",
+    "title_zh": "COKE：机器心理理论的认知知识图",
+    "year": 2023,
+    "venue": "Annual Meeting of the Association for Computational Linguistics",
+    "authors": [
+      "Jincenzi Wu",
+      "Zhuang Chen",
+      "Jia-Wen Deng",
+      "Sahand Sabour",
+      "Helen M. Meng",
+      "Min-Lie Huang"
+    ],
+    "doi": "10.48550/arXiv.2305.05390",
+    "paper_url": "https://www.semanticscholar.org/paper/83fe73b5f35ab77444b80e2bf6fbd66b55531ad1",
+    "source_url": "https://www.semanticscholar.org/paper/83fe73b5f35ab77444b80e2bf6fbd66b55531ad1",
+    "topics": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；方法/基准候选；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "83fe73b5f35ab77444b80e2bf6fbd66b55531ad1",
+    "semantic_scholar_author_id": "2106627931",
+    "cited_by_count": 39,
+    "publication_types": [
+      "JournalArticle",
+      "Conference"
+    ],
+    "candidate_source": false,
+    "source_kind": "Semantic Scholar author works",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "sahand_sabour_53556041411d",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测",
+    "secondary_tags": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "sahand_sabour",
+    "scholar_name": "Sahand Sabour",
+    "work_title_group": "6c992ba7065d",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "sahand_sabour",
+      "minlie_huang"
+    ],
+    "scholar_names": [
+      "Sahand Sabour",
+      "黄民烈"
+    ],
+    "source_record_ids": [
+      "sahand_sabour_53556041411d"
+    ],
+    "scholar_categories": {
+      "sahand_sabour": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "Sahand Sabour",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "minlie_huang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "黄民烈",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "Task-Adaptive Tokenization: Enhancing Long-Form Text Generation Efficacy in Mental Health and Beyond",
-      "title_en": "Task-Adaptive Tokenization: Enhancing Long-Form Text Generation Efficacy in Mental Health and Beyond",
-      "title_zh": "任务自适应标记化：增强心理健康及其他领域的长文本生成效率",
-      "year": 2023,
-      "venue": "Conference on Empirical Methods in Natural Language Processing",
-      "authors": [
-        "Siyang Liu",
-        "Nai-Hao Deng",
-        "Sahand Sabour",
-        "Yilin Jia",
-        "Minlie Huang",
-        "R. Mihalcea"
-      ],
-      "doi": "10.18653/v1/2023.emnlp-main.944",
-      "paper_url": "https://www.semanticscholar.org/paper/9a4f929b44345b9d547f8d2e1700caaab99237c0",
-      "source_url": "https://www.semanticscholar.org/paper/9a4f929b44345b9d547f8d2e1700caaab99237c0",
-      "topics": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解",
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "verification": "主题筛选候选；方法/基准候选",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W4389524211",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "9a4f929b44345b9d547f8d2e1700caaab99237c0",
-      "semantic_scholar_author_id": "2106627931",
-      "cited_by_count": 37,
-      "publication_types": [
-        "JournalArticle",
-        "Conference"
-      ],
-      "candidate_source": false,
-      "source_kind": "OpenAlex作品记录",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "sahand_sabour_69f1de90298f",
-      "category_id": "emotion_benchmark",
-      "primary_category": "情感数据集、基准与评测",
-      "secondary_tags": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "sahand_sabour",
-      "scholar_name": "Sahand Sabour",
-      "work_title_group": "770d279491d2",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "604c789825f7c478",
+    "primary_categories_by_scholar": [
+      "Sahand Sabour：情感数据集、基准与评测",
+      "黄民烈：情感脑电与多模态生理信号"
+    ],
+    "dblp_key": "journals/corr/abs-2305-05390",
+    "abstract_en": "Theory of mind (ToM) refers to humans' ability to understand and infer the desires, beliefs, and intentions of others. The acquisition of ToM plays a key role in humans' social cognition and interpersonal relations. Though indispensable for social intelligence, ToM is still lacking for modern AI and NLP systems since they cannot access the human mental state and cognitive process beneath the training corpus. To empower AI systems with the ToM ability and narrow the gap between them and humans, in this paper, we propose COKE: the first cognitive knowledge graph for machine theory of mind. Specifically, COKE formalizes ToM as a collection of 45k+ manually verified cognitive chains that characterize human mental activities and subsequent behavioral/affective responses when facing specific social circumstances. In addition, we further generalize COKE using LLMs and build a powerful generation model COLM tailored for cognitive reasoning. Experimental results in both automatic and human evaluation demonstrate the high quality of COKE, the superior ToM ability of COLM, and its potential to significantly enhance social applications.",
+    "abstract_source": "arxiv_api",
+    "pdf_url": "https://arxiv.org/pdf/2305.05390.pdf",
+    "abstract_zh": "心智理论 (ToM) 是指人类理解和推断他人的愿望、信念和意图的能力。 ToM的获得对于人类的社会认知和人际关系起着关键作用。虽然 ToM 对于社交智能来说是不可或缺的，但现代人工智能和自然语言处理系统仍然缺乏 ToM，因为它们无法访问训练语料库下的人类心理状态和认知过程。为了赋予人工智能系统ToM能力，缩小它们与人类之间的差距，在本文中，我们提出了COKE：第一个机器心理理论的认知知识图谱。具体来说，COKE 将 ToM 形式化为 45k+ 条手动验证的认知链的集合，这些认知链的特征..."
+  },
+  {
+    "title": "A chatbot for mental health support: exploring the impact of Emohaa on reducing mental distress in China",
+    "title_en": "A chatbot for mental health support: exploring the impact of Emohaa on reducing mental distress in China",
+    "title_zh": "心理健康支持聊天机器人：探索 Emohaa 对减少中国精神困扰的影响",
+    "year": 2022,
+    "venue": "Frontiers in Digital Health",
+    "authors": [
+      "Sahand Sabour",
+      "Wen Zhang",
+      "Xi-Yao Xiao",
+      "Yuwei Zhang",
+      "Yinhe Zheng",
+      "Jiaxin Wen",
+      "Jia-Lu Zhao",
+      "Minlie Huang"
+    ],
+    "doi": "10.3389/fdgth.2023.1133987",
+    "paper_url": "https://www.semanticscholar.org/paper/582b7de8b289863f80ac3bc674bb2917ba61e18b",
+    "source_url": "https://www.semanticscholar.org/paper/582b7de8b289863f80ac3bc674bb2917ba61e18b",
+    "topics": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；方法/基准候选",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4377565325",
+    "openalex_author_id": "https://openalex.org/A5084758279",
+    "semantic_scholar_id": "582b7de8b289863f80ac3bc674bb2917ba61e18b",
+    "semantic_scholar_author_id": "2106627931",
+    "cited_by_count": 158,
+    "publication_types": [
+      "JournalArticle"
+    ],
+    "candidate_source": false,
+    "source_kind": "Semantic Scholar author works",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "sahand_sabour_591afbe4601b",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测",
+    "secondary_tags": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "sahand_sabour",
+    "scholar_name": "Sahand Sabour",
+    "work_title_group": "0aa40d0ccffc",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "sahand_sabour",
+      "minlie_huang"
+    ],
+    "scholar_names": [
+      "Sahand Sabour",
+      "黄民烈"
+    ],
+    "source_record_ids": [
+      "sahand_sabour_591afbe4601b",
+      "minlie_huang_591afbe4601b"
+    ],
+    "scholar_categories": {
+      "sahand_sabour": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "Sahand Sabour",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "minlie_huang": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "黄民烈",
+        "secondary_tags": [
+          "情感智能与情感大模型",
+          "情感对话与心理支持",
+          "大语言模型对齐与强化学习",
+          "社会智能与安全评测",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "A chatbot for mental health support: exploring the impact of Emohaa on reducing mental distress in China",
-      "title_en": "A chatbot for mental health support: exploring the impact of Emohaa on reducing mental distress in China",
-      "title_zh": "心理健康支持聊天机器人：探索 Emohaa 对减少中国精神困扰的影响",
-      "year": 2022,
-      "venue": "Frontiers in Digital Health",
-      "authors": [
-        "Sahand Sabour",
-        "Wen Zhang",
-        "Xi-Yao Xiao",
-        "Yuwei Zhang",
-        "Yinhe Zheng",
-        "Jiaxin Wen",
-        "Jia-Lu Zhao",
-        "Minlie Huang"
-      ],
-      "doi": "10.3389/fdgth.2023.1133987",
-      "paper_url": "https://www.semanticscholar.org/paper/582b7de8b289863f80ac3bc674bb2917ba61e18b",
-      "source_url": "https://www.semanticscholar.org/paper/582b7de8b289863f80ac3bc674bb2917ba61e18b",
-      "topics": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解",
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "verification": "主题筛选候选；方法/基准候选",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W4377565325",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "582b7de8b289863f80ac3bc674bb2917ba61e18b",
-      "semantic_scholar_author_id": "2106627931",
-      "cited_by_count": 125,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "sahand_sabour_591afbe4601b",
-      "category_id": "emotion_benchmark",
-      "primary_category": "情感数据集、基准与评测",
-      "secondary_tags": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "sahand_sabour",
-      "scholar_name": "Sahand Sabour",
-      "work_title_group": "0aa40d0ccffc",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "50b6237aa55b15b4",
+    "primary_categories_by_scholar": [
+      "Sahand Sabour：情感数据集、基准与评测",
+      "黄民烈：脑电基准、数据与评测"
+    ],
+    "pdf_url": "https://www.frontiersin.org/articles/10.3389/fdgth.2023.1133987/pdf",
+    "abstract_en": "Introduction The growing demand for mental health support has highlighted the importance of conversational agents as human supporters worldwide and in China. These agents could increase availability and reduce the relative costs of mental health support. The provided support can be divided into two main types: cognitive and emotional. Existing work on this topic mainly focuses on constructing agents that adopt Cognitive Behavioral Therapy (CBT) principles. Such agents operate based on pre-defined templates and exercises to provide cognitive support. However, research on emotional support using such agents is limited. In addition, most of the constructed agents operate in English, highlighting the importance of conducting such studies in China. To this end, we introduce Emohaa, a conversational agent that provides cognitive support through CBT-Bot exercises and guided conversations. It also emotionally supports users through ES-Bot, enabling them to vent their emotional problems. In this study, we analyze the effectiveness of Emohaa in reducing symptoms of mental distress. Methods and Results Following the RCT design, the current study randomly assigned participants into three groups: Emohaa (CBT-Bot), Emohaa (Full), and control. With both Intention-To-Treat ( N = 247 ) and PerProtocol ( N = 134 ) analyses, the results demonstrated that compared to the control group, participants who used two types of Emohaa experienced considerably more significant improvements in symptoms of mental distress, including depression ( F [ 2 , 244 ] = 6.26 , p = 0.002 ), negative affect ( F [ 2 , 244 ] = 6.09 , p = 0.003 ), and insomnia ( F [ 2 , 244 ] = 3.69 , p = 0.026 ). Discussion Based on the obtained results and participants’ satisfaction with the platform, we concluded that Emohaa is a practical and effective tool for reducing mental distress.",
+    "abstract_source": "openalex_verified",
+    "dblp_key": "journals/fdgth/SabourZXZZWZH23",
+    "abstract_zh": "简介 对心理健康支持的需求不断增长，凸显了对话代理作为全球和中国人类支持者的重要性。这些药物可以增加心理健康支持的可用性并降低相对成本。提供的支持可分为两种主要类型：认知和情感。该主题的现有工作主要集中于构建采用认知行为疗法（CBT）原则的代理。此类代理根据预定义的模板和练习进行操作，以提供认知支持。然而，使用此类药物进行情感支持的研究有限。此外，大多数构建的代理都以英语运行，突出..."
+  },
+  {
+    "title": "Rethinking and Refining the Distinct Metric",
+    "title_en": "Rethinking and Refining the Distinct Metric",
+    "title_zh": "重新思考和完善独特指标",
+    "year": 2022,
+    "venue": "Annual Meeting of the Association for Computational Linguistics",
+    "authors": [
+      "Siyang Liu",
+      "Sahand Sabour",
+      "Yinhe Zheng",
+      "Pei Ke",
+      "Xiao-Yan Zhu",
+      "Minlie Huang"
+    ],
+    "doi": "10.48550/arXiv.2202.13587",
+    "paper_url": "https://www.semanticscholar.org/paper/d73d3a82da0bc93be238c286abfd06722247d298",
+    "source_url": "https://www.semanticscholar.org/paper/d73d3a82da0bc93be238c286abfd06722247d298",
+    "topics": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解"
+    ],
+    "verification": "主题筛选候选；方法/基准候选；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4225518699",
+    "openalex_author_id": "https://openalex.org/A5084758279",
+    "semantic_scholar_id": "d73d3a82da0bc93be238c286abfd06722247d298",
+    "semantic_scholar_author_id": "2106627931",
+    "cited_by_count": 58,
+    "publication_types": [
+      "JournalArticle",
+      "Conference"
+    ],
+    "candidate_source": false,
+    "source_kind": "Semantic Scholar author works",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "sahand_sabour_0e3eeac76422",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测",
+    "secondary_tags": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "sahand_sabour",
+    "scholar_name": "Sahand Sabour",
+    "work_title_group": "d758245659b8",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "sahand_sabour",
+      "minlie_huang"
+    ],
+    "scholar_names": [
+      "Sahand Sabour",
+      "黄民烈"
+    ],
+    "source_record_ids": [
+      "sahand_sabour_0e3eeac76422"
+    ],
+    "scholar_categories": {
+      "sahand_sabour": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "Sahand Sabour",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "minlie_huang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "黄民烈",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "AugESC: Dialogue Augmentation with Large Language Models for Emotional Support Conversation",
-      "title_en": "AugESC: Dialogue Augmentation with Large Language Models for Emotional Support Conversation",
-      "title_zh": "AugESC：用于情感支持对话的大语言模型的对话增强",
-      "year": 2022,
-      "venue": "Annual Meeting of the Association for Computational Linguistics",
-      "authors": [
-        "Chujie Zheng",
-        "Sahand Sabour",
-        "Jiaxin Wen",
-        "Zheng Zhang",
-        "Min-Lie Huang"
-      ],
-      "doi": "10.18653/v1/2023.findings-acl.99",
-      "paper_url": "https://www.semanticscholar.org/paper/de4635e95259118a545fdc0682407f416c16086a",
-      "source_url": "https://www.semanticscholar.org/paper/de4635e95259118a545fdc0682407f416c16086a",
-      "topics": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解",
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "verification": "主题筛选候选；方法/基准候选",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W4385572601",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "de4635e95259118a545fdc0682407f416c16086a",
-      "semantic_scholar_author_id": "2106627931",
-      "cited_by_count": 138,
-      "publication_types": [
-        "JournalArticle",
-        "Conference"
-      ],
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "sahand_sabour_6139f56bc8cc",
-      "category_id": "emotion_benchmark",
-      "primary_category": "情感数据集、基准与评测",
-      "secondary_tags": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "sahand_sabour",
-      "scholar_name": "Sahand Sabour",
-      "work_title_group": "68f220c48ac5",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "c44b1df2e2d2c815",
+    "primary_categories_by_scholar": [
+      "Sahand Sabour：情感数据集、基准与评测",
+      "黄民烈：脑电基础模型与通用解码"
+    ],
+    "pdf_url": "https://aclanthology.org/2022.acl-short.86.pdf",
+    "abstract_en": "Distinct-n score (Li et al., 2016) is a widely used automatic metric for evaluating diversity in language generation tasks.However, we observed that the original approach for calculating distinct scores has evident biases that tend to assign higher penalties to longer sequences.We refine the calculation of distinct scores by scaling the number of distinct tokens based on their expectations.We provide both empirical and theoretical evidence to show that our method effectively removes the biases existing in the original distinct score.Our experiments show that our proposed metric, Expectation-Adjusted Distinct (EAD), correlates better with human judgment in evaluating response diversity.To foster future research, we provide an example implementation at https://github.com/lsy641/ Expectation-Adjusted-Distinct.",
+    "abstract_source": "openalex_verified",
+    "dblp_key": "journals/corr/abs-2202-13587",
+    "abstract_zh": "Distinct-n 分数（Li et al., 2016）是一种广泛使用的自动度量，用于评估语言生成任务中的多样性。然而，我们观察到，计算不同分数的原始方法存在明显的偏差，往往会对较长的序列分配更高的惩罚。我们通过根据期望缩放不同标记的数量来改进不同分数的计算。我们提供了经验和理论证据来表明，我们的方法有效地消除了原始不同分数中存在的偏差。我们的实验表明，我们提出的指标，期望调整独特 (EAD) 在评估响应多样性时与人类判断更好地相关。为了..."
+  },
+  {
+    "title": "AugESC: Large-scale Data Augmentation for Emotional Support Conversation with Pre-trained Language Models",
+    "title_en": "AugESC: Large-scale Data Augmentation for Emotional Support Conversation with Pre-trained Language Models",
+    "title_zh": "AugESC：使用预先训练的语言模型进行情感支持对话的大规模数据增强",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+      "Chujie Zheng",
+      "Sahand Sabour",
+      "Jiaxin Wen",
+      "Minlie Huang"
+    ],
+    "doi": "10.48550/arXiv.2202.13047",
+    "paper_url": "https://www.semanticscholar.org/paper/25eba922c7076e1a8a0a86fd0eed2bfcdbe0bbc3",
+    "source_url": "https://www.semanticscholar.org/paper/25eba922c7076e1a8a0a86fd0eed2bfcdbe0bbc3",
+    "topics": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；方法/基准候选",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "25eba922c7076e1a8a0a86fd0eed2bfcdbe0bbc3",
+    "semantic_scholar_author_id": "2106627931",
+    "cited_by_count": 17,
+    "publication_types": [
+      "JournalArticle"
+    ],
+    "candidate_source": false,
+    "source_kind": "Semantic Scholar author works",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "sahand_sabour_6f546164b18a",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测",
+    "secondary_tags": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "sahand_sabour",
+    "scholar_name": "Sahand Sabour",
+    "work_title_group": "8f9907cd90bb",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "sahand_sabour",
+      "minlie_huang"
+    ],
+    "scholar_names": [
+      "Sahand Sabour",
+      "黄民烈"
+    ],
+    "source_record_ids": [
+      "sahand_sabour_6f546164b18a"
+    ],
+    "scholar_categories": {
+      "sahand_sabour": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "Sahand Sabour",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "minlie_huang": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "黄民烈",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "AugESC: Large-scale Data Augmentation for Emotional Support Conversation with Pre-trained Language Models",
-      "title_en": "AugESC: Large-scale Data Augmentation for Emotional Support Conversation with Pre-trained Language Models",
-      "title_zh": "AugESC：使用预先训练的语言模型进行情感支持对话的大规模数据增强",
-      "year": 2022,
-      "venue": "arXiv.org",
-      "authors": [
-        "Chujie Zheng",
-        "Sahand Sabour",
-        "Jiaxin Wen",
-        "Minlie Huang"
-      ],
-      "doi": "10.48550/arXiv.2202.13047",
-      "paper_url": "https://www.semanticscholar.org/paper/25eba922c7076e1a8a0a86fd0eed2bfcdbe0bbc3",
-      "source_url": "https://www.semanticscholar.org/paper/25eba922c7076e1a8a0a86fd0eed2bfcdbe0bbc3",
-      "topics": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解",
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "verification": "主题筛选候选；方法/基准候选",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "25eba922c7076e1a8a0a86fd0eed2bfcdbe0bbc3",
-      "semantic_scholar_author_id": "2106627931",
-      "cited_by_count": 17,
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "sahand_sabour_6f546164b18a",
-      "category_id": "emotion_benchmark",
-      "primary_category": "情感数据集、基准与评测",
-      "secondary_tags": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "sahand_sabour",
-      "scholar_name": "Sahand Sabour",
-      "work_title_group": "8f9907cd90bb",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "cf580ae93d080384",
+    "primary_categories_by_scholar": [
+      "Sahand Sabour：情感数据集、基准与评测",
+      "黄民烈：脑电基准、数据与评测"
+    ],
+    "dblp_key": "journals/corr/abs-2202-13047",
+    "abstract_en": "Crowdsourced dialogue corpora are usually limited in scale and topic coverage due to the expensive cost of data curation. This would hinder the generalization of downstream dialogue models to open-domain topics. In this work, we leverage large language models for dialogue augmentation in the task of emotional support conversation (ESC). By treating dialogue augmentation as a dialogue completion task, we prompt a fine-tuned language model to complete full dialogues from available dialogue posts of various topics, which are then postprocessed based on heuristics. Applying this approach, we construct AugESC, an augmented dataset for the ESC task, which largely extends the scale and topic coverage of the crowdsourced ESConv corpus. Through comprehensive human evaluation, we demonstrate that our approach is superior to strong baselines of dialogue augmentation and that AugESC has comparable dialogue quality to the crowdsourced corpus. We also conduct human interactive evaluation and prove that post-training on AugESC improves downstream dialogue models' generalization ability to open-domain topics. These results suggest the utility of AugESC and highlight the potential of large language models in improving data-scarce dialogue generation tasks.",
+    "abstract_source": "arxiv_api",
+    "pdf_url": "https://arxiv.org/pdf/2202.13047.pdf",
+    "abstract_zh": "由于数据管理成本高昂，众包对话语料库的规模和主题覆盖范围通常受到限制。这将阻碍下游对话模型对开放领域主题的泛化。在这项工作中，我们利用大型语言模型在情感支持对话（ESC）任务中进行对话增强。通过将对话增强视为对话完成任务，我们促使微调的语言模型从各种主题的可用对话帖子中完成完整的对话，然后根据启发式进行后处理。应用这种方法，我们构建了 AugESC，一个 ESC 任务的增强数据集，它很大程度上扩展了规模和主题覆盖范围……"
+  },
+  {
+    "title": "AugESC: Dialogue Augmentation with Large Language Models for Emotional Support Conversation",
+    "title_en": "AugESC: Dialogue Augmentation with Large Language Models for Emotional Support Conversation",
+    "title_zh": "AugESC：用于情感支持对话的大语言模型的对话增强",
+    "year": 2022,
+    "venue": "Annual Meeting of the Association for Computational Linguistics",
+    "authors": [
+      "Chujie Zheng",
+      "Sahand Sabour",
+      "Jiaxin Wen",
+      "Zheng Zhang",
+      "Min-Lie Huang"
+    ],
+    "doi": "10.18653/v1/2023.findings-acl.99",
+    "paper_url": "https://www.semanticscholar.org/paper/de4635e95259118a545fdc0682407f416c16086a",
+    "source_url": "https://www.semanticscholar.org/paper/de4635e95259118a545fdc0682407f416c16086a",
+    "topics": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解",
+      "情感计算与情绪理解",
+      "多模态与大语言模型"
+    ],
+    "verification": "主题筛选候选；方法/基准候选",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4385572601",
+    "openalex_author_id": "https://openalex.org/A5084758279",
+    "semantic_scholar_id": "de4635e95259118a545fdc0682407f416c16086a",
+    "semantic_scholar_author_id": "2106627931",
+    "cited_by_count": 170,
+    "publication_types": [
+      "JournalArticle",
+      "Conference"
+    ],
+    "candidate_source": false,
+    "source_kind": "Semantic Scholar author works",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "sahand_sabour_6139f56bc8cc",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测",
+    "secondary_tags": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "sahand_sabour",
+    "scholar_name": "Sahand Sabour",
+    "work_title_group": "68f220c48ac5",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "sahand_sabour",
+      "minlie_huang"
+    ],
+    "scholar_names": [
+      "Sahand Sabour",
+      "黄民烈"
+    ],
+    "source_record_ids": [
+      "sahand_sabour_6139f56bc8cc",
+      "minlie_huang_6139f56bc8cc"
+    ],
+    "scholar_categories": {
+      "sahand_sabour": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "Sahand Sabour",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "minlie_huang": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "黄民烈",
+        "secondary_tags": [
+          "情感智能与情感大模型",
+          "情感对话与心理支持",
+          "大语言模型对齐与强化学习",
+          "社会智能与安全评测",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "CEM: Commonsense-Aware Empathetic Response Generation",
-      "title_en": "CEM: Commonsense-Aware Empathetic Response Generation",
-      "title_zh": "CEM：常识意识移情响应生成",
-      "year": 2022,
-      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
-      "authors": [
-        "Sahand Sabour",
-        "Chujie Zheng",
-        "Minlie Huang"
-      ],
-      "doi": "10.1609/aaai.v36i10.21373",
-      "paper_url": "https://doi.org/10.1609/aaai.v36i10.21373",
-      "source_url": "https://doi.org/10.1609/aaai.v36i10.21373",
-      "topics": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解",
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "verification": "主题筛选候选；方法/基准候选；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W3200833038",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": false,
-      "source_kind": "OpenAlex作品记录",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "sahand_sabour_d57e7497819a",
-      "category_id": "emotion_benchmark",
-      "primary_category": "情感数据集、基准与评测",
-      "secondary_tags": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "sahand_sabour",
-      "scholar_name": "Sahand Sabour",
-      "work_title_group": "1dfa4dd3a2ff",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "7d69f2c9b0bf2b91",
+    "primary_categories_by_scholar": [
+      "Sahand Sabour：情感数据集、基准与评测",
+      "黄民烈：脑电基准、数据与评测"
+    ],
+    "pdf_url": "https://aclanthology.org/2023.findings-acl.99.pdf",
+    "abstract_en": "Crowdsourced dialogue corpora are usually limited in scale and topic coverage due to the expensive cost of data curation.This would hinder the generalization of downstream dialogue models to open-domain topics.In this work, we leverage large language models for dialogue augmentation in the task of emotional support conversation (ESC).By treating dialogue augmentation as a dialogue completion task, we prompt a fine-tuned language model to complete full dialogues from available dialogue posts of various topics, which are then postprocessed based on heuristics.Applying this approach, we construct AUGESC, an augmented dataset for the ESC task, which largely extends the scale and topic coverage of the crowdsourced ESConv corpus.Through comprehensive human evaluation, we demonstrate that our approach is superior to strong baselines of dialogue augmentation and that AUGESC has comparable dialogue quality to the crowdsourced corpus.We also conduct human interactive evaluation and prove that post-training on AUGESC improves downstream dialogue models' generalization ability to open-domain topics.These results suggest the utility of AUGESC and highlight the potential of large language models in improving data-scarce dialogue generation tasks. 1",
+    "abstract_source": "openalex_verified",
+    "dblp_key": "conf/acl/ZhengSW0H23",
+    "abstract_zh": "由于数据管理成本高昂，众包对话语料库通常在规模和主题覆盖范围上受到限制。这将阻碍下游对话模型向开放领域主题的推广。在这项工作中，我们在情感支持对话（ESC）任务中利用大型语言模型进行对话增强。通过将对话增强视为对话完成任务，我们促使微调的语言模型从各种主题的可用对话帖子中完成完整的对话，然后基于启发式进行后处理。方法，我们构建了 AUGESC，一个 ESC 任务的增强数据集，它很大程度上扩展了...的规模和主题覆盖范围。"
+  },
+  {
+    "title": "CEM: Commonsense-Aware Empathetic Response Generation",
+    "title_en": "CEM: Commonsense-Aware Empathetic Response Generation",
+    "title_zh": "CEM：常识意识移情响应生成",
+    "year": 2022,
+    "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "authors": [
+      "Sahand Sabour",
+      "Chujie Zheng",
+      "Minlie Huang"
+    ],
+    "doi": "10.1609/aaai.v36i10.21373",
+    "paper_url": "https://doi.org/10.1609/aaai.v36i10.21373",
+    "source_url": "https://doi.org/10.1609/aaai.v36i10.21373",
+    "topics": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；方法/基准候选；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [
+      "minlie_huang__R001"
+    ],
+    "code_urls": [
+      "https://github.com/Sahandfer/CEM"
+    ],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W3200833038",
+    "openalex_author_id": "https://openalex.org/A5084758279",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 246,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "OpenAlex作品记录",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "sahand_sabour_d57e7497819a",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测",
+    "secondary_tags": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "sahand_sabour",
+    "scholar_name": "Sahand Sabour",
+    "work_title_group": "1dfa4dd3a2ff",
+    "resource_status": "已关联公开代码/数据/模型资源",
+    "scholar_ids": [
+      "sahand_sabour",
+      "minlie_huang"
+    ],
+    "scholar_names": [
+      "Sahand Sabour",
+      "黄民烈"
+    ],
+    "source_record_ids": [
+      "sahand_sabour_d57e7497819a"
+    ],
+    "scholar_categories": {
+      "sahand_sabour": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "Sahand Sabour",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "minlie_huang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "黄民烈",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "PAL: Persona-Augmented Emotional Support Conversation Generation",
-      "title_en": "PAL: Persona-Augmented Emotional Support Conversation Generation",
-      "title_zh": "PAL：角色增强情感支持对话生成",
-      "year": 2022,
-      "venue": "Annual Meeting of the Association for Computational Linguistics",
-      "authors": [
-        "Jiale Cheng",
-        "Sahand Sabour",
-        "Hao Sun",
-        "Zhuang Chen",
-        "Min-Lie Huang"
-      ],
-      "doi": "10.48550/arXiv.2212.09235",
-      "paper_url": "https://www.semanticscholar.org/paper/9eff5a7db649052882733bd38044ec69b2b55b35",
-      "source_url": "https://www.semanticscholar.org/paper/9eff5a7db649052882733bd38044ec69b2b55b35",
-      "topics": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解",
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "verification": "主题筛选候选；方法/基准候选",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W4385572353",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 70,
-      "publication_types": "",
-      "candidate_source": false,
-      "source_kind": "OpenAlex作品记录",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "sahand_sabour_3cf358fc6714",
-      "category_id": "emotion_benchmark",
-      "primary_category": "情感数据集、基准与评测",
-      "secondary_tags": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "sahand_sabour",
-      "scholar_name": "Sahand Sabour",
-      "work_title_group": "b8f7f3d75604",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "dd8326986aebb99d",
+    "primary_categories_by_scholar": [
+      "Sahand Sabour：情感数据集、基准与评测",
+      "黄民烈：情感脑电与多模态生理信号"
+    ],
+    "pdf_url": "https://doi.org/10.1609/aaai.v36i10.21373",
+    "abstract_en": "A key trait of daily conversations between individuals is the ability to express empathy towards others, and exploring ways to implement empathy is a crucial step towards human-like dialogue systems. Previous approaches on this topic mainly focus on detecting and utilizing the user’s emotion for generating empathetic responses. However, since empathy includes both aspects of affection and cognition, we argue that in addition to identifying the user’s emotion, cognitive understanding of the user’s situation should also be considered. To this end, we propose a novel approach for empathetic response generation, which leverages commonsense to draw more information about the user’s situation and uses this additional information to further enhance the empathy expression in generated responses. We evaluate our approach on EMPATHETICDIALOGUES, which is a widely-used benchmark dataset for empathetic response generation. Empirical results demonstrate that our approach outperforms the baseline models in both automatic and human evaluations and can generate more informative and empathetic responses. Our code is available at https://github.com/Sahandfer/CEM.",
+    "abstract_source": "openalex_verified",
+    "dblp_key": "conf/aaai/SabourZH22",
+    "abstract_zh": "人与人之间日常对话的一个关键特征是能够表达对他人的同理心，而探索实现同理心的方法是迈向类人对话系统的关键一步。先前关于该主题的方法主要集中于检测和利用用户的情绪来产生同理心响应。然而，由于同理心包括情感和认知两个方面，我们认为除了识别用户的情感外，还应该考虑对用户情境的认知理解。为此，我们提出了一种产生同理心响应的新方法，该方法利用常识来获取有关用户情况的更多信息并......"
+  },
+  {
+    "title": "PAL: Persona-Augmented Emotional Support Conversation Generation",
+    "title_en": "PAL: Persona-Augmented Emotional Support Conversation Generation",
+    "title_zh": "PAL：角色增强情感支持对话生成",
+    "year": 2022,
+    "venue": "Annual Meeting of the Association for Computational Linguistics",
+    "authors": [
+      "Jiale Cheng",
+      "Sahand Sabour",
+      "Hao Sun",
+      "Zhuang Chen",
+      "Min-Lie Huang"
+    ],
+    "doi": "10.48550/arXiv.2212.09235",
+    "paper_url": "https://www.semanticscholar.org/paper/9eff5a7db649052882733bd38044ec69b2b55b35",
+    "source_url": "https://www.semanticscholar.org/paper/9eff5a7db649052882733bd38044ec69b2b55b35",
+    "topics": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；方法/基准候选",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [
+      "sahand_sabour__auto_code_8099983767"
+    ],
+    "code_urls": [
+      "https://github.com/chengjl19/PAL"
+    ],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4385572353",
+    "openalex_author_id": "https://openalex.org/A5084758279",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 90,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "OpenAlex作品记录",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "sahand_sabour_3cf358fc6714",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测",
+    "secondary_tags": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "sahand_sabour",
+    "scholar_name": "Sahand Sabour",
+    "work_title_group": "b8f7f3d75604",
+    "resource_status": "已关联公开代码/数据/模型资源",
+    "scholar_ids": [
+      "sahand_sabour",
+      "minlie_huang"
+    ],
+    "scholar_names": [
+      "Sahand Sabour",
+      "黄民烈"
+    ],
+    "source_record_ids": [
+      "sahand_sabour_3cf358fc6714",
+      "sahand_sabour_3cf358fc6714__dup1",
+      "minlie_huang_3cf358fc6714"
+    ],
+    "scholar_categories": {
+      "sahand_sabour": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "Sahand Sabour",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "minlie_huang": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "黄民烈",
+        "secondary_tags": [
+          "情感智能与情感大模型",
+          "情感对话与心理支持",
+          "大语言模型对齐与强化学习",
+          "社会智能与安全评测",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "PAL: Persona-Augmented Emotional Support Conversation Generation",
-      "title_en": "PAL: Persona-Augmented Emotional Support Conversation Generation",
-      "title_zh": "PAL：角色增强情感支持对话生成",
-      "year": 2022,
-      "venue": "Annual Meeting of the Association for Computational Linguistics",
-      "authors": [
-        "Jiale Cheng",
-        "Sahand Sabour",
-        "Hao Sun",
-        "Zhuang Chen",
-        "Min-Lie Huang"
-      ],
-      "doi": "10.48550/arXiv.2212.09235",
-      "paper_url": "https://www.semanticscholar.org/paper/9eff5a7db649052882733bd38044ec69b2b55b35",
-      "source_url": "https://www.semanticscholar.org/paper/9eff5a7db649052882733bd38044ec69b2b55b35",
-      "topics": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解",
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "verification": "主题筛选候选；方法/基准候选",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "9eff5a7db649052882733bd38044ec69b2b55b35",
-      "semantic_scholar_author_id": "2106627931",
-      "cited_by_count": 70,
-      "publication_types": [
-        "JournalArticle",
-        "Conference"
-      ],
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "sahand_sabour_3cf358fc6714__dup1",
-      "category_id": "emotion_benchmark",
-      "primary_category": "情感数据集、基准与评测",
-      "secondary_tags": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "sahand_sabour",
-      "scholar_name": "Sahand Sabour",
-      "work_title_group": "b8f7f3d75604",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "284b153c344217ef",
+    "primary_categories_by_scholar": [
+      "Sahand Sabour：情感数据集、基准与评测",
+      "黄民烈：脑电基准、数据与评测"
+    ],
+    "pdf_url": "https://aclanthology.org/2023.findings-acl.34.pdf",
+    "abstract_en": "Due to the lack of human resources for mental health support, there is an increasing demand for employing conversational agents for support.Recent work has demonstrated the effectiveness of dialogue models in providing emotional support.As previous studies have demonstrated that seekers' persona is an important factor for effective support, we investigate whether there are benefits to modeling such information in dialogue models for support.In this paper, our empirical analysis verifies that persona has an important impact on emotional support.Therefore, we propose a framework for dynamically inferring and modeling seekers' persona.We first train a model for inferring the seeker's persona from the conversation history.Accordingly, we propose PAL, a model that leverages persona information and, in conjunction with our strategybased controllable generation method, provides personalized emotional support.Automatic and manual evaluations demonstrate that PAL achieves state-of-the-art results, outperforming the baselines on the studied benchmark.Our code and data are publicly available at https://github.com/chengjl19/PAL.",
+    "abstract_source": "openalex_verified",
+    "dblp_key": "conf/acl/ChengS0CH23",
+    "abstract_zh": "由于心理健康支持人力资源的缺乏，使用对话代理提供支持的需求越来越大。最近的工作证明了对话模型在提供情感支持方面的有效性。由于之前的研究表明寻求者的角色是有效支持的重要因素，因此我们研究在对话模型中建模此类信息是否有利于支持。在本文中，我们的实证分析验证了角色对情感支持有重要影响。因此，我们提出了一个动态推断和建模寻求者角色的框架。首先训练一个模型来推断搜索者的性格..."
+  },
+  {
+    "title": "Towards Emotional Support Dialog Systems",
+    "title_en": "Towards Emotional Support Dialog Systems",
+    "title_zh": "走向情感支持对话系统",
+    "year": 2021,
+    "venue": "Annual Meeting of the Association for Computational Linguistics",
+    "authors": [
+      "Siyang Liu",
+      "Chujie Zheng",
+      "O. Demasi",
+      "Sahand Sabour",
+      "Yu Li",
+      "Zhou Yu",
+      "Yong Jiang",
+      "Minlie Huang"
+    ],
+    "doi": "10.18653/v1/2021.acl-long.269",
+    "paper_url": "https://www.semanticscholar.org/paper/96e7f77ed0101ac3c7c4dc41601563ce0bc8889b",
+    "source_url": "https://www.semanticscholar.org/paper/96e7f77ed0101ac3c7c4dc41601563ce0bc8889b",
+    "topics": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；方法/基准候选",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W3174116563",
+    "openalex_author_id": "https://openalex.org/A5084758279",
+    "semantic_scholar_id": "96e7f77ed0101ac3c7c4dc41601563ce0bc8889b",
+    "semantic_scholar_author_id": "2106627931",
+    "cited_by_count": 695,
+    "publication_types": [
+      "JournalArticle",
+      "Conference",
+      "Review"
+    ],
+    "candidate_source": false,
+    "source_kind": "OpenAlex作品记录",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "sahand_sabour_fd84401de819",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测",
+    "secondary_tags": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "sahand_sabour",
+    "scholar_name": "Sahand Sabour",
+    "work_title_group": "0f34b0907f54",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "sahand_sabour",
+      "minlie_huang"
+    ],
+    "scholar_names": [
+      "Sahand Sabour",
+      "黄民烈"
+    ],
+    "source_record_ids": [
+      "sahand_sabour_fd84401de819"
+    ],
+    "scholar_categories": {
+      "sahand_sabour": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "Sahand Sabour",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "minlie_huang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "黄民烈",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "Rethinking and Refining the Distinct Metric",
-      "title_en": "Rethinking and Refining the Distinct Metric",
-      "title_zh": "重新思考和完善独特指标",
-      "year": 2022,
-      "venue": "Annual Meeting of the Association for Computational Linguistics",
-      "authors": [
-        "Siyang Liu",
-        "Sahand Sabour",
-        "Yinhe Zheng",
-        "Pei Ke",
-        "Xiao-Yan Zhu",
-        "Minlie Huang"
-      ],
-      "doi": "10.48550/arXiv.2202.13587",
-      "paper_url": "https://www.semanticscholar.org/paper/d73d3a82da0bc93be238c286abfd06722247d298",
-      "source_url": "https://www.semanticscholar.org/paper/d73d3a82da0bc93be238c286abfd06722247d298",
-      "topics": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解",
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "verification": "主题筛选候选；方法/基准候选；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W4225518699",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "d73d3a82da0bc93be238c286abfd06722247d298",
-      "semantic_scholar_author_id": "2106627931",
-      "cited_by_count": 42,
-      "publication_types": [
-        "JournalArticle",
-        "Conference"
-      ],
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "sahand_sabour_0e3eeac76422",
-      "category_id": "emotion_benchmark",
-      "primary_category": "情感数据集、基准与评测",
-      "secondary_tags": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "sahand_sabour",
-      "scholar_name": "Sahand Sabour",
-      "work_title_group": "d758245659b8",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "f0ed7ea69e12a9f8",
+    "primary_categories_by_scholar": [
+      "Sahand Sabour：情感数据集、基准与评测",
+      "黄民烈：情感脑电与多模态生理信号"
+    ],
+    "pdf_url": "https://aclanthology.org/2021.acl-long.269.pdf",
+    "abstract_en": "Siyang Liu, Chujie Zheng, Orianna Demasi, Sahand Sabour, Yu Li, Zhou Yu, Yong Jiang, Minlie Huang. Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers). 2021.",
+    "abstract_source": "openalex_verified",
+    "dblp_key": "conf/acl/LiuZDSLYJH20",
+    "abstract_zh": "刘思扬，郑楚杰，Orianna Demasi，Sahand Sabour，李宇，周宇，蒋勇，黄敏烈。第59届计算语言学协会年会暨第11届国际自然语言处理联合会议论文集（第一卷：长论文）。 2021 年。"
+  },
+  {
+    "title": "CEM: Commonsense-aware Empathetic Response Generation",
+    "title_en": "CEM: Commonsense-aware Empathetic Response Generation",
+    "title_zh": "CEM：常识意识移情响应生成",
+    "year": 2021,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "authors": [
+      "Sahand Sabour",
+      "Chujie Zheng",
+      "Minlie Huang"
+    ],
+    "doi": "10.48550/arXiv.2109.05739",
+    "paper_url": "https://www.semanticscholar.org/paper/a68c4ff941dfe4a80754b3e62906a35407c292aa",
+    "source_url": "https://www.semanticscholar.org/paper/a68c4ff941dfe4a80754b3e62906a35407c292aa",
+    "topics": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；方法/基准候选；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "a68c4ff941dfe4a80754b3e62906a35407c292aa",
+    "semantic_scholar_author_id": "2106627931",
+    "cited_by_count": 223,
+    "publication_types": [
+      "JournalArticle",
+      "Conference"
+    ],
+    "candidate_source": false,
+    "source_kind": "Semantic Scholar author works",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "sahand_sabour_884062bc85b5",
+    "category_id": "emotion_benchmark",
+    "primary_category": "情感数据集、基准与评测",
+    "secondary_tags": [
+      "情感智能评测",
+      "心理理论驱动基准",
+      "LLM情感理解"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "sahand_sabour",
+    "scholar_name": "Sahand Sabour",
+    "work_title_group": "1dfa4dd3a2ff",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "sahand_sabour",
+      "minlie_huang"
+    ],
+    "scholar_names": [
+      "Sahand Sabour",
+      "黄民烈"
+    ],
+    "source_record_ids": [
+      "sahand_sabour_884062bc85b5"
+    ],
+    "scholar_categories": {
+      "sahand_sabour": {
+        "category_id": "emotion_benchmark",
+        "label": "情感数据集、基准与评测",
+        "scholar_name": "Sahand Sabour",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "minlie_huang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "黄民烈",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "CEM: Commonsense-aware Empathetic Response Generation",
-      "title_en": "CEM: Commonsense-aware Empathetic Response Generation",
-      "title_zh": "CEM：常识意识移情响应生成",
-      "year": 2021,
-      "venue": "AAAI Conference on Artificial Intelligence",
-      "authors": [
-        "Sahand Sabour",
-        "Chujie Zheng",
-        "Minlie Huang"
-      ],
-      "doi": "10.48550/arXiv.2109.05739",
-      "paper_url": "https://www.semanticscholar.org/paper/a68c4ff941dfe4a80754b3e62906a35407c292aa",
-      "source_url": "https://www.semanticscholar.org/paper/a68c4ff941dfe4a80754b3e62906a35407c292aa",
-      "topics": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解",
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "verification": "主题筛选候选；方法/基准候选；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "a68c4ff941dfe4a80754b3e62906a35407c292aa",
-      "semantic_scholar_author_id": "2106627931",
-      "cited_by_count": 223,
-      "publication_types": [
-        "JournalArticle",
-        "Conference"
-      ],
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "sahand_sabour_884062bc85b5",
-      "category_id": "emotion_benchmark",
-      "primary_category": "情感数据集、基准与评测",
-      "secondary_tags": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "sahand_sabour",
-      "scholar_name": "Sahand Sabour",
-      "work_title_group": "1dfa4dd3a2ff",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
-    },
-    {
-      "title": "Towards Emotional Support Dialog Systems",
-      "title_en": "Towards Emotional Support Dialog Systems",
-      "title_zh": "走向情感支持对话系统",
-      "year": 2021,
-      "venue": "Annual Meeting of the Association for Computational Linguistics",
-      "authors": [
-        "Siyang Liu",
-        "Chujie Zheng",
-        "O. Demasi",
-        "Sahand Sabour",
-        "Yu Li",
-        "Zhou Yu",
-        "Yong Jiang",
-        "Minlie Huang"
-      ],
-      "doi": "10.18653/v1/2021.acl-long.269",
-      "paper_url": "https://www.semanticscholar.org/paper/96e7f77ed0101ac3c7c4dc41601563ce0bc8889b",
-      "source_url": "https://www.semanticscholar.org/paper/96e7f77ed0101ac3c7c4dc41601563ce0bc8889b",
-      "topics": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解",
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "verification": "主题筛选候选；方法/基准候选",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W3174116563",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "96e7f77ed0101ac3c7c4dc41601563ce0bc8889b",
-      "semantic_scholar_author_id": "2106627931",
-      "cited_by_count": 569,
-      "publication_types": [
-        "JournalArticle",
-        "Conference",
-        "Review"
-      ],
-      "candidate_source": false,
-      "source_kind": "OpenAlex作品记录",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "sahand_sabour_fd84401de819",
-      "category_id": "emotion_benchmark",
-      "primary_category": "情感数据集、基准与评测",
-      "secondary_tags": [
-        "情感智能评测",
-        "心理理论驱动基准",
-        "LLM情感理解"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "sahand_sabour",
-      "scholar_name": "Sahand Sabour",
-      "work_title_group": "0f34b0907f54",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
-    }
-  ]
-}
+    "global_record_id": "04d0bef60173127a",
+    "primary_categories_by_scholar": [
+      "Sahand Sabour：情感数据集、基准与评测",
+      "黄民烈：情感脑电与多模态生理信号"
+    ],
+    "dblp_key": "journals/corr/abs-2109-05739",
+    "abstract_en": "A key trait of daily conversations between individuals is the ability to express empathy towards others, and exploring ways to implement empathy is a crucial step towards human-like dialogue systems. Previous approaches on this topic mainly focus on detecting and utilizing the user's emotion for generating empathetic responses. However, since empathy includes both aspects of affection and cognition, we argue that in addition to identifying the user's emotion, cognitive understanding of the user's situation should also be considered. To this end, we propose a novel approach for empathetic response generation, which leverages commonsense to draw more information about the user's situation and uses this additional information to further enhance the empathy expression in generated responses. We evaluate our approach on EmpatheticDialogues, which is a widely-used benchmark dataset for empathetic response generation. Empirical results demonstrate that our approach outperforms the baseline models in both automatic and human evaluations and can generate more informative and empathetic responses.",
+    "abstract_source": "arxiv_api",
+    "pdf_url": "https://arxiv.org/pdf/2109.05739.pdf",
+    "abstract_zh": "人与人之间日常对话的一个关键特征是能够表达对他人的同理心，而探索实现同理心的方法是迈向类人对话系统的关键一步。先前关于该主题的方法主要集中于检测和利用用户的情绪来生成同理心响应。然而，由于同理心包括情感和认知两个方面，我们认为除了识别用户的情感外，还应该考虑对用户情境的认知理解。为此，我们提出了一种产生同理心响应的新方法，该方法利用常识来获取有关用户情况的更多信息并......"
+  }
+]

@@ -35,7 +35,7 @@
       "ziyu_jia::eeg_foundation"
     ],
     "primary_categories": [
-      "脑电基础模型与通用解码"
+      "贾子瑜：脑电基础模型与通用解码"
     ]
   },
   {
@@ -74,7 +74,7 @@
       "ziyu_jia::eeg_foundation"
     ],
     "primary_categories": [
-      "脑电基础模型与通用解码"
+      "贾子瑜：脑电基础模型与通用解码"
     ]
   },
   {
@@ -113,7 +113,7 @@
       "ziyu_jia::eeg_affect"
     ],
     "primary_categories": [
-      "情感脑电与多模态生理信号"
+      "贾子瑜：情感脑电与多模态生理信号"
     ]
   },
   {
@@ -152,7 +152,7 @@
       "ziyu_jia::eeg_foundation"
     ],
     "primary_categories": [
-      "脑电基础模型与通用解码"
+      "贾子瑜：脑电基础模型与通用解码"
     ]
   },
   {
@@ -191,7 +191,7 @@
       "ziyu_jia::eeg_foundation"
     ],
     "primary_categories": [
-      "脑电基础模型与通用解码"
+      "贾子瑜：脑电基础模型与通用解码"
     ]
   },
   {
@@ -227,10 +227,12 @@
     ],
     "unmatched_titles": [],
     "scholar_category_ids": [
-      "ziyu_jia::eeg_affect"
+      "ziyu_jia::eeg_affect",
+      "panorama_jing_wang::eeg_affect"
     ],
     "primary_categories": [
-      "情感脑电与多模态生理信号"
+      "贾子瑜：情感脑电与多模态生理信号",
+      "王晶：情感脑电与多模态生理信号"
     ]
   },
   {
@@ -269,7 +271,7 @@
       "ziyu_jia::eeg_foundation"
     ],
     "primary_categories": [
-      "脑电基础模型与通用解码"
+      "贾子瑜：脑电基础模型与通用解码"
     ]
   },
   {
@@ -284,7 +286,6 @@
     "author_relation": "主题筛选候选记录",
     "related_paper_titles": [],
     "evidence_urls": [
-      "https://yi-ding-cs.github.io/publications/",
       "https://yi-ding-cs.github.io/publications/"
     ],
     "verification": "候选来源；未执行下载或训练",
@@ -300,5 +301,413 @@
     "unmatched_titles": [],
     "scholar_category_ids": [],
     "primary_categories": []
+  },
+  {
+    "id": "ziyu_jia__auto_code_f394cc06ef",
+    "name": "CodeBrain: Bridging Decoupled Tokenizer and Multi-Scale Architecture for EEG Foundation Model — 开源代码 (jingyingma01/CodeBrain)",
+    "name_zh": "CodeBrain：桥接解耦分词器和 EEG 基础模型的多尺度架构 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/jingyingma01/CodeBrain",
+    "download_url": "https://github.com/jingyingma01/CodeBrain",
+    "access": "public",
+    "related_paper_titles": [
+      "CodeBrain: Bridging Decoupled Tokenizer and Multi-Scale Architecture for EEG Foundation Model"
+    ],
+    "related_paper_titles_zh": [
+      "CodeBrain：桥接解耦分词器和 EEG 基础模型的多尺度架构"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/jingyingma01/CodeBrain",
+      "https://openreview.net/forum?id=msJgEkjwh5",
+      "https://doi.org/10.48550/arxiv.2506.09110"
+    ],
+    "description": "从论文《CodeBrain: Bridging Decoupled Tokenizer and Multi-Scale Architecture for EEG Foundation Model》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "ziyu_jia",
+    "scholar_name": "贾子瑜",
+    "matched_paper_ids": [
+      "ziyu_jia_723ee16fac6d"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "ziyu_jia::eeg_foundation"
+    ],
+    "primary_categories": [
+      "贾子瑜：脑电基础模型与通用解码"
+    ]
+  },
+  {
+    "id": "ziyu_jia__auto_code_0a22974d13",
+    "name": "EmotionKD: A Cross-Modal Knowledge Distillation Framework for Emotion Recognition Based on Physiological Signals — 开源代码 (YuchengLiu-Alex/EmotionKD)",
+    "name_zh": "EmotionKD：基于生理信号的情绪识别的跨模态知识蒸馏框架 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/YuchengLiu-Alex/EmotionKD",
+    "download_url": "https://github.com/YuchengLiu-Alex/EmotionKD",
+    "access": "public",
+    "related_paper_titles": [
+      "EmotionKD: A Cross-Modal Knowledge Distillation Framework for Emotion Recognition Based on Physiological Signals"
+    ],
+    "related_paper_titles_zh": [
+      "EmotionKD：基于生理信号的情绪识别的跨模态知识蒸馏框架"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/YuchengLiu-Alex/EmotionKD",
+      "https://dl.acm.org/doi/10.1145/3581783.3612277",
+      "https://doi.org/10.1145/3581783.3612277"
+    ],
+    "description": "从论文《EmotionKD: A Cross-Modal Knowledge Distillation Framework for Emotion Recognition Based on Physiological Signals》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "ziyu_jia",
+    "scholar_name": "贾子瑜",
+    "matched_paper_ids": [
+      "ziyu_jia_590bd5dbdeb8"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "ziyu_jia::eeg_affect"
+    ],
+    "primary_categories": [
+      "贾子瑜：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "ziyu_jia__auto_code_74e8d09a72",
+    "name": "Multi-modal physiological signals based squeeze-and-excitation network with domain adversarial learning for sleep staging — 开源代码 (xiyangcai/SEN-DAL)",
+    "name_zh": "基于多模态生理信号的挤压和激励网络，具有用于睡眠分期的领域对抗学习 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/xiyangcai/SEN-DAL",
+    "download_url": "https://github.com/xiyangcai/SEN-DAL",
+    "access": "public",
+    "related_paper_titles": [
+      "Multi-modal physiological signals based squeeze-and-excitation network with domain adversarial learning for sleep staging"
+    ],
+    "related_paper_titles_zh": [
+      "基于多模态生理信号的挤压和激励网络，具有用于睡眠分期的领域对抗学习"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/xiyangcai/SEN-DAL",
+      "https://ieeexplore.ieee.org/document/9668945",
+      "https://doi.org/10.1109/jsen.2022.3140383"
+    ],
+    "description": "从论文《Multi-modal physiological signals based squeeze-and-excitation network with domain adversarial learning for sleep staging》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "ziyu_jia",
+    "scholar_name": "贾子瑜",
+    "matched_paper_ids": [
+      "ziyu_jia_b9e0bd9a6df9"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "ziyu_jia::eeg_foundation"
+    ],
+    "primary_categories": [
+      "贾子瑜：脑电基础模型与通用解码"
+    ]
+  },
+  {
+    "id": "ziyu_jia__auto_code_859b82b8f5",
+    "name": "SleepPrintNet: A Multivariate Multimodal Neural Network based on Physiological Time-series for Automatic Sleep Staging — 开源代码 (xiyangcai/SleepPrintNet.Impact)",
+    "name_zh": "SleepPrintNet：基于生理时间序列的用于自动睡眠分级的多元多模态神经网络 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/xiyangcai/SleepPrintNet.Impact",
+    "download_url": "https://github.com/xiyangcai/SleepPrintNet.Impact",
+    "access": "public",
+    "related_paper_titles": [
+      "SleepPrintNet: A Multivariate Multimodal Neural Network based on Physiological Time-series for Automatic Sleep Staging"
+    ],
+    "related_paper_titles_zh": [
+      "SleepPrintNet：基于生理时间序列的用于自动睡眠分级的多元多模态神经网络"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/xiyangcai/SleepPrintNet.Impact",
+      "https://ieeexplore.ieee.org/document/9357954",
+      "https://doi.org/10.1109/tai.2021.3060350"
+    ],
+    "description": "从论文《SleepPrintNet: A Multivariate Multimodal Neural Network based on Physiological Time-series for Automatic Sleep Staging》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "ziyu_jia",
+    "scholar_name": "贾子瑜",
+    "matched_paper_ids": [
+      "ziyu_jia_9a385cbdfc25"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "ziyu_jia::eeg_foundation"
+    ],
+    "primary_categories": [
+      "贾子瑜：脑电基础模型与通用解码"
+    ]
+  },
+  {
+    "id": "ziyu_jia__auto_code_84192dc5ab",
+    "name": "Exploiting Interactivity and Heterogeneity for Sleep Stage Classification Via Heterogeneous Graph Neural Network — 开源代码 (zhouyh310/SleepHGNN)",
+    "name_zh": "Exploiting Interactivity and Heterogeneity for Sleep Stage Classification Via Heterogeneous Graph Neural Network — 开源代码",
+    "type": "code",
+    "url": "https://github.com/zhouyh310/SleepHGNN",
+    "download_url": "https://github.com/zhouyh310/SleepHGNN",
+    "access": "public",
+    "related_paper_titles": [
+      "Exploiting Interactivity and Heterogeneity for Sleep Stage Classification Via Heterogeneous Graph Neural Network"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/zhouyh310/SleepHGNN",
+      "https://doi.org/10.1109/icassp49357.2023.10095397"
+    ],
+    "description": "从论文《Exploiting Interactivity and Heterogeneity for Sleep Stage Classification Via Heterogeneous Graph Neural Network》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "ziyu_jia",
+    "scholar_name": "贾子瑜",
+    "matched_paper_ids": [
+      "ziyu_jia_9e8294bf2e06963a"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "ziyu_jia::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "贾子瑜：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "ziyu_jia__auto_code_a56baf90d7",
+    "name": "PersoMoni: A Comprehensive Video-Based Benchmark Dataset for Fine-Grained Personality Assessment With 15 Trait Dimensions — 开源代码 (QIcita/PersoMoni)",
+    "name_zh": "PersoMoni: A Comprehensive Video-Based Benchmark Dataset for Fine-Grained Personality Assessment With 15 Trait Dimensions — 开源代码",
+    "type": "code",
+    "url": "https://github.com/QIcita/PersoMoni",
+    "download_url": "https://github.com/QIcita/PersoMoni",
+    "access": "public",
+    "related_paper_titles": [
+      "PersoMoni: A Comprehensive Video-Based Benchmark Dataset for Fine-Grained Personality Assessment With 15 Trait Dimensions"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/QIcita/PersoMoni",
+      "https://doi.org/10.1109/taffc.2026.3698795"
+    ],
+    "description": "从论文《PersoMoni: A Comprehensive Video-Based Benchmark Dataset for Fine-Grained Personality Assessment With 15 Trait Dimensions》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "ziyu_jia",
+    "scholar_name": "贾子瑜",
+    "matched_paper_ids": [
+      "ziyu_jia_2e61de689aba035c"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "ziyu_jia::eeg_affect"
+    ],
+    "primary_categories": [
+      "贾子瑜：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "ziyu_jia__auto_code_6c40d0cff1",
+    "name": "BrainSleepNet: Learning Multivariate EEG Representation for Automatic Sleep Staging — 开源代码 (ziyujia/sleep)",
+    "name_zh": "BrainSleepNet: Learning Multivariate EEG Representation for Automatic Sleep Staging — 开源代码",
+    "type": "code",
+    "url": "https://github.com/ziyujia/sleep",
+    "download_url": "https://github.com/ziyujia/sleep",
+    "access": "public",
+    "related_paper_titles": [
+      "BrainSleepNet: Learning Multivariate EEG Representation for Automatic Sleep Staging"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/ziyujia/sleep",
+      "https://doi.org/10.1109/bibm49941.2020.9313459"
+    ],
+    "description": "从论文《BrainSleepNet: Learning Multivariate EEG Representation for Automatic Sleep Staging》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "ziyu_jia",
+    "scholar_name": "贾子瑜",
+    "matched_paper_ids": [
+      "ziyu_jia_c1687fbda929cd49"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "ziyu_jia::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "贾子瑜：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "ziyu_jia__auto_code_4cfafda822",
+    "name": "ST-USleepNet: A Spatial-Temporal Coupling Prominence Network for Multi-Channel Sleep Staging — 开源代码 (Majy-Yuji/ST-USleepNet)",
+    "name_zh": "ST-USleepNet: A Spatial-Temporal Coupling Prominence Network for Multi-Channel Sleep Staging — 开源代码",
+    "type": "code",
+    "url": "https://github.com/Majy-Yuji/ST-USleepNet",
+    "download_url": "https://github.com/Majy-Yuji/ST-USleepNet",
+    "access": "public",
+    "related_paper_titles": [
+      "ST-USleepNet: A Spatial-Temporal Coupling Prominence Network for Multi-Channel Sleep Staging"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/Majy-Yuji/ST-USleepNet",
+      "https://doi.org/10.24963/ijcai.2025/466"
+    ],
+    "description": "从论文《ST-USleepNet: A Spatial-Temporal Coupling Prominence Network for Multi-Channel Sleep Staging》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "ziyu_jia",
+    "scholar_name": "贾子瑜",
+    "matched_paper_ids": [
+      "ziyu_jia_8b4c2c81a1099b84"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "ziyu_jia::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "贾子瑜：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "ziyu_jia__auto_code_7b5cb2be79",
+    "name": "A Domain Adversarial Learning Framework for Major Depression Disorder Diagnosis — 开源代码 (shaozheliu/MDD-DAL)",
+    "name_zh": "A Domain Adversarial Learning Framework for Major Depression Disorder Diagnosis — 开源代码",
+    "type": "code",
+    "url": "https://github.com/shaozheliu/MDD-DAL",
+    "download_url": "https://github.com/shaozheliu/MDD-DAL",
+    "access": "public",
+    "related_paper_titles": [
+      "A Domain Adversarial Learning Framework for Major Depression Disorder Diagnosis"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/shaozheliu/MDD-DAL",
+      "https://doi.org/10.1109/icassp49660.2025.10890636"
+    ],
+    "description": "从论文《A Domain Adversarial Learning Framework for Major Depression Disorder Diagnosis》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "ziyu_jia",
+    "scholar_name": "贾子瑜",
+    "matched_paper_ids": [
+      "ziyu_jia_e7d89422d0af9f2d"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "ziyu_jia::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "贾子瑜：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "ziyu_jia__auto_code_08cc0295b6",
+    "name": "Two-Stream Squeeze-and-Excitation Network for Multi-modal Sleep Staging — 开源代码 (xiyangcai/TS-SEN)",
+    "name_zh": "Two-Stream Squeeze-and-Excitation Network for Multi-modal Sleep Staging — 开源代码",
+    "type": "code",
+    "url": "https://github.com/xiyangcai/TS-SEN",
+    "download_url": "https://github.com/xiyangcai/TS-SEN",
+    "access": "public",
+    "related_paper_titles": [
+      "Two-Stream Squeeze-and-Excitation Network for Multi-modal Sleep Staging"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/xiyangcai/TS-SEN",
+      "https://doi.org/10.1109/bibm52615.2021.9669375"
+    ],
+    "description": "从论文《Two-Stream Squeeze-and-Excitation Network for Multi-modal Sleep Staging》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "ziyu_jia",
+    "scholar_name": "贾子瑜",
+    "matched_paper_ids": [
+      "ziyu_jia_f4ad2b28a7bb360f"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "ziyu_jia::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "贾子瑜：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "ziyu_jia__auto_code_01f1b38bca",
+    "name": "Motor Imagery Spatial–Temporal Cross-Fusion Classification Based on fNIRS-Informed EEG Source Space and Brain-Atlas Constraints — 开源代码 (useflf/MI-ESI)",
+    "name_zh": "Motor Imagery Spatial–Temporal Cross-Fusion Classification Based on fNIRS-Informed EEG Source Space and Brain-Atlas Constraints — 开源代码",
+    "type": "code",
+    "url": "https://github.com/useflf/MI-ESI",
+    "download_url": "https://github.com/useflf/MI-ESI",
+    "access": "public",
+    "related_paper_titles": [
+      "Motor Imagery Spatial–Temporal Cross-Fusion Classification Based on fNIRS-Informed EEG Source Space and Brain-Atlas Constraints"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/useflf/MI-ESI",
+      "https://doi.org/10.1109/tce.2026.3697375"
+    ],
+    "description": "从论文《Motor Imagery Spatial–Temporal Cross-Fusion Classification Based on fNIRS-Informed EEG Source Space and Brain-Atlas Constraints》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "ziyu_jia",
+    "scholar_name": "贾子瑜",
+    "matched_paper_ids": [
+      "ziyu_jia_ce93a0a5adc4e6e7"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "ziyu_jia::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "贾子瑜：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "ziyu_jia__auto_code_27e9dc87d4",
+    "name": "A New Dual-Attention Multi-Node Fusion Network for EEG-fNIRS Motor Imagery Classification — 开源代码 (useflf/DAMFNet)",
+    "name_zh": "A New Dual-Attention Multi-Node Fusion Network for EEG-fNIRS Motor Imagery Classification — 开源代码",
+    "type": "code",
+    "url": "https://github.com/useflf/DAMFNet",
+    "download_url": "https://github.com/useflf/DAMFNet",
+    "access": "public",
+    "related_paper_titles": [
+      "A New Dual-Attention Multi-Node Fusion Network for EEG-fNIRS Motor Imagery Classification"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/useflf/DAMFNet",
+      "https://doi.org/10.1109/jbhi.2026.3706103"
+    ],
+    "description": "从论文《A New Dual-Attention Multi-Node Fusion Network for EEG-fNIRS Motor Imagery Classification》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "ziyu_jia",
+    "scholar_name": "贾子瑜",
+    "matched_paper_ids": [
+      "ziyu_jia_c33186f76824f1aa"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "ziyu_jia::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "贾子瑜：脑电基准、数据与评测"
+    ]
   }
 ]

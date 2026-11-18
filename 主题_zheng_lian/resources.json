@@ -15,7 +15,6 @@
     "evidence_urls": [
       "https://emo-gml.github.io/",
       "https://www.computer.org/digital-library/journals/ta/tac-multimodal-reasoning-language",
-      "https://emo-gml.github.io/",
       "https://faculty.tongji.edu.cn/lianzheng/zh_CN/zhym/1011973/list/index.htm",
       "https://aclanthology.org/people/zheng-lian/"
     ],
@@ -41,7 +40,7 @@
       "zheng_lian::eeg_benchmark"
     ],
     "primary_categories": [
-      "脑电基准、数据与评测"
+      "连政：脑电基准、数据与评测"
     ]
   },
   {
@@ -56,7 +55,6 @@
     "author_relation": "主题筛选候选记录",
     "related_paper_titles": [],
     "evidence_urls": [
-      "https://www.computer.org/digital-library/journals/ta/tac-multimodal-reasoning-language",
       "https://www.computer.org/digital-library/journals/ta/tac-multimodal-reasoning-language",
       "https://emo-gml.github.io/",
       "https://faculty.tongji.edu.cn/lianzheng/zh_CN/zhym/1011973/list/index.htm",
@@ -94,7 +92,6 @@
       "https://faculty.tongji.edu.cn/lianzheng/zh_CN/zhym/1011973/list/index.htm",
       "https://www.computer.org/digital-library/journals/ta/tac-multimodal-reasoning-language",
       "https://emo-gml.github.io/",
-      "https://faculty.tongji.edu.cn/lianzheng/zh_CN/zhym/1011973/list/index.htm",
       "https://aclanthology.org/people/zheng-lian/"
     ],
     "verification": "候选来源；未执行下载或训练",
@@ -148,5 +145,664 @@
     "unmatched_titles": [],
     "scholar_category_ids": [],
     "primary_categories": []
+  },
+  {
+    "id": "zheng_lian__auto_code_28ec1293aa",
+    "name": "EmoTrans: A Benchmark for Understanding, Reasoning, and Predicting Emotion Transitions in Multimodal LLMs — 开源代码 (Emo-gml/EmoTrans)",
+    "name_zh": "EmoTrans：多模态法学硕士中理解、推理和预测情绪转变的基准 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/Emo-gml/EmoTrans",
+    "download_url": "https://github.com/Emo-gml/EmoTrans",
+    "access": "public",
+    "related_paper_titles": [
+      "EmoTrans: A Benchmark for Understanding, Reasoning, and Predicting Emotion Transitions in Multimodal LLMs"
+    ],
+    "related_paper_titles_zh": [
+      "EmoTrans：多模态法学硕士中理解、推理和预测情绪转变的基准"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/Emo-gml/EmoTrans",
+      "https://doi.org/10.48550/ARXIV.2604.23348"
+    ],
+    "description": "从论文《EmoTrans: A Benchmark for Understanding, Reasoning, and Predicting Emotion Transitions in Multimodal LLMs》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zheng_lian",
+    "scholar_name": "连政",
+    "matched_paper_ids": [
+      "zheng_lian_3a9a346851fd"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zheng_lian::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "连政：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "zheng_lian__auto_code_62feba43a2",
+    "name": "Adversarial Training and Gradient Optimization for Partially Deepfake Audio Localization — 开源代码 (Little-dingding/ATGO)",
+    "name_zh": "部分 Deepfake 音频定位的对抗训练和梯度优化 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/Little-dingding/ATGO",
+    "download_url": "https://github.com/Little-dingding/ATGO",
+    "access": "public",
+    "related_paper_titles": [
+      "Adversarial Training and Gradient Optimization for Partially Deepfake Audio Localization"
+    ],
+    "related_paper_titles_zh": [
+      "部分 Deepfake 音频定位的对抗训练和梯度优化"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/Little-dingding/ATGO",
+      "https://doi.org/10.1109/icassp49660.2025.10890470"
+    ],
+    "description": "从论文《Adversarial Training and Gradient Optimization for Partially Deepfake Audio Localization》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zheng_lian",
+    "scholar_name": "连政",
+    "matched_paper_ids": [
+      "zheng_lian_1a725e18cd90"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zheng_lian::eeg_benchmark",
+      "jianhua_tao::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "连政：脑电基准、数据与评测",
+      "陶建华：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "zheng_lian__auto_code_3616e301df",
+    "name": "Learning Transferable Facial Emotion Representations from Large-Scale Semantically Rich Captions — 开源代码 (sunlicai/EmoCapCLIP)",
+    "name_zh": "从大规模语义丰富的字幕中学习可转移的面部情感表示 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/sunlicai/EmoCapCLIP",
+    "download_url": "https://github.com/sunlicai/EmoCapCLIP",
+    "access": "public",
+    "related_paper_titles": [
+      "Learning Transferable Facial Emotion Representations from Large-Scale Semantically Rich Captions"
+    ],
+    "related_paper_titles_zh": [
+      "从大规模语义丰富的字幕中学习可转移的面部情感表示"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/sunlicai/EmoCapCLIP",
+      "https://doi.org/10.48550/ARXIV.2507.21015"
+    ],
+    "description": "从论文《Learning Transferable Facial Emotion Representations from Large-Scale Semantically Rich Captions》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zheng_lian",
+    "scholar_name": "连政",
+    "matched_paper_ids": [
+      "zheng_lian_74f934529847"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zheng_lian::eeg_benchmark",
+      "licai_sun::emotion_benchmark",
+      "wenming_zheng::eeg_affect"
+    ],
+    "primary_categories": [
+      "连政：脑电基准、数据与评测",
+      "孙立才：情感数据集、基准与评测",
+      "郑文明：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "zheng_lian__auto_code_7c77409181",
+    "name": "Feature-Based Dual Visual Feature Extraction Model for Compound Multimodal Emotion Recognition — 开源代码 (MyGitHub-ax/8th_ABAW)",
+    "name_zh": "基于特征的复合多模态情感识别双视觉特征提取模型 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/MyGitHub-ax/8th_ABAW",
+    "download_url": "https://github.com/MyGitHub-ax/8th_ABAW",
+    "access": "public",
+    "related_paper_titles": [
+      "Feature-Based Dual Visual Feature Extraction Model for Compound Multimodal Emotion Recognition"
+    ],
+    "related_paper_titles_zh": [
+      "基于特征的复合多模态情感识别双视觉特征提取模型"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/MyGitHub-ax/8th_ABAW",
+      "https://doi.org/10.48550/ARXIV.2503.17453"
+    ],
+    "description": "从论文《Feature-Based Dual Visual Feature Extraction Model for Compound Multimodal Emotion Recognition》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zheng_lian",
+    "scholar_name": "连政",
+    "matched_paper_ids": [
+      "zheng_lian_bb255a4b1270"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zheng_lian::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "连政：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "zheng_lian__auto_code_3a7036e152",
+    "name": "Hardness-Aware Dynamic Curriculum Learning for Robust Multimodal Emotion Recognition with Missing Modalities — 开源代码 (HARDY-MER/HARDY-MER)",
+    "name_zh": "用于缺失模态的鲁棒多模态情感识别的硬度感知动态课程学习 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/HARDY-MER/HARDY-MER",
+    "download_url": "https://github.com/HARDY-MER/HARDY-MER",
+    "access": "public",
+    "related_paper_titles": [
+      "Hardness-Aware Dynamic Curriculum Learning for Robust Multimodal Emotion Recognition with Missing Modalities"
+    ],
+    "related_paper_titles_zh": [
+      "用于缺失模态的鲁棒多模态情感识别的硬度感知动态课程学习"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/HARDY-MER/HARDY-MER",
+      "https://doi.org/10.1145/3746027.3755605"
+    ],
+    "description": "从论文《Hardness-Aware Dynamic Curriculum Learning for Robust Multimodal Emotion Recognition with Missing Modalities》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zheng_lian",
+    "scholar_name": "连政",
+    "matched_paper_ids": [
+      "zheng_lian_0b7f9c09f7d1"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zheng_lian::eeg_benchmark",
+      "panorama_e298ea16b5bc::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "连政：脑电基准、数据与评测",
+      "刘瑞：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "zheng_lian__auto_code_b64583a808",
+    "name": "ALLM4ADD: Unlocking the Capabilities of Audio Large Language Models for Audio Deepfake Detection — 开源代码 (ucas-hao/qwen_audio_for_add)",
+    "name_zh": "ALLM4ADD：解锁用于音频 Deepfake 检测的音频大语言模型的功能 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/ucas-hao/qwen_audio_for_add",
+    "download_url": "https://github.com/ucas-hao/qwen_audio_for_add",
+    "access": "public",
+    "related_paper_titles": [
+      "ALLM4ADD: Unlocking the Capabilities of Audio Large Language Models for Audio Deepfake Detection",
+      "𝒜LLM4ADD: Unlocking the Capabilities of Audio Large Language Models for Audio Deepfake Detection"
+    ],
+    "related_paper_titles_zh": [
+      "ALLM4ADD：解锁用于音频 Deepfake 检测的音频大语言模型的功能"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/ucas-hao/qwen_audio_for_add",
+      "https://doi.org/10.1145/3746027.3755851"
+    ],
+    "description": "从论文《ALLM4ADD: Unlocking the Capabilities of Audio Large Language Models for Audio Deepfake Detection》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zheng_lian",
+    "scholar_name": "连政",
+    "matched_paper_ids": [
+      "zheng_lian_db16b7eb6135",
+      "zheng_lian_f8d4470dbba3fcb0"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zheng_lian::eeg_benchmark",
+      "jianhua_tao::eeg_affect",
+      "jianhua_tao::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "连政：脑电基准、数据与评测",
+      "陶建华：情感脑电与多模态生理信号",
+      "陶建华：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "zheng_lian__auto_code_c2630d5866",
+    "name": "MEIJU - The 1st Multimodal Emotion and Intent Joint Understanding Challenge — 开源代码 (AI-S2-Lab/MEIJU2025-baseline)",
+    "name_zh": "MEIJU - 第一个多模态情感和意图联合理解挑战 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/AI-S2-Lab/MEIJU2025-baseline",
+    "download_url": "https://github.com/AI-S2-Lab/MEIJU2025-baseline",
+    "access": "public",
+    "related_paper_titles": [
+      "MEIJU - The 1st Multimodal Emotion and Intent Joint Understanding Challenge"
+    ],
+    "related_paper_titles_zh": [
+      "MEIJU - 第一个多模态情感和意图联合理解挑战"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/AI-S2-Lab/MEIJU2025-baseline",
+      "https://doi.org/10.1109/icassp49660.2025.10890352"
+    ],
+    "description": "从论文《MEIJU - The 1st Multimodal Emotion and Intent Joint Understanding Challenge》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zheng_lian",
+    "scholar_name": "连政",
+    "matched_paper_ids": [
+      "zheng_lian_aa890a9b1ecd"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zheng_lian::eeg_benchmark",
+      "panorama_e298ea16b5bc::emotion_understanding",
+      "panorama_xiaofen_xing::eeg_affect"
+    ],
+    "primary_categories": [
+      "连政：脑电基准、数据与评测",
+      "刘瑞：情感理解与多模态推理",
+      "邢晓芬：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "zheng_lian__auto_code_31682bdcc9",
+    "name": "MER 2025: When Affective Computing Meets Large Language Models — 开源代码 (zeroQiaoba/MERTools)",
+    "name_zh": "MER 2025：当情感计算遇到大型语言模型时 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/zeroQiaoba/MERTools",
+    "download_url": "https://github.com/zeroQiaoba/MERTools",
+    "access": "public",
+    "related_paper_titles": [
+      "MER 2025: When Affective Computing Meets Large Language Models",
+      "MER 2024: Semi-Supervised Learning, Noise Robustness, and Open-Vocabulary Multimodal Emotion Recognition"
+    ],
+    "related_paper_titles_zh": [
+      "MER 2025：当情感计算遇到大型语言模型时"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/zeroQiaoba/MERTools",
+      "https://doi.org/10.1145/3746027.3762007"
+    ],
+    "description": "从论文《MER 2025: When Affective Computing Meets Large Language Models》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zheng_lian",
+    "scholar_name": "连政",
+    "matched_paper_ids": [
+      "zheng_lian_83373cb06f4d",
+      "licai_sun_58677b9a0e82"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zheng_lian::eeg_benchmark",
+      "jianhua_tao::eeg_affect",
+      "guoying_zhao::emotion_understanding",
+      "xin_liu::emotion_benchmark",
+      "panorama_ya_li::eeg_benchmark",
+      "panorama_e298ea16b5bc::emotion_benchmark",
+      "licai_sun::emotion_understanding"
+    ],
+    "primary_categories": [
+      "连政：脑电基准、数据与评测",
+      "陶建华：情感脑电与多模态生理信号",
+      "赵国英：情感理解与多模态推理",
+      "刘鑫：情感数据集、基准与评测",
+      "李雅：脑电基准、数据与评测",
+      "刘瑞：情感数据集、基准与评测",
+      "孙立才：情感理解与多模态推理"
+    ]
+  },
+  {
+    "id": "zheng_lian__auto_dataset_e3237f0244",
+    "name": "MER 2025: When Affective Computing Meets Large Language Models — 开源数据集 (MERChallenge/MER2025)",
+    "name_zh": "MER 2025：当情感计算遇到大型语言模型时 — 开源数据集",
+    "type": "dataset",
+    "url": "https://huggingface.co/datasets/MERChallenge/MER2025",
+    "download_url": "https://huggingface.co/datasets/MERChallenge/MER2025",
+    "access": "public",
+    "related_paper_titles": [
+      "MER 2025: When Affective Computing Meets Large Language Models"
+    ],
+    "related_paper_titles_zh": [
+      "MER 2025：当情感计算遇到大型语言模型时"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://huggingface.co/datasets/MERChallenge/MER2025",
+      "https://doi.org/10.1145/3746027.3762007"
+    ],
+    "description": "从论文《MER 2025: When Affective Computing Meets Large Language Models》原始摘要/预印本说明自动提取并核验的公开 dataset 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zheng_lian",
+    "scholar_name": "连政",
+    "matched_paper_ids": [
+      "zheng_lian_83373cb06f4d"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zheng_lian::eeg_benchmark",
+      "jianhua_tao::eeg_affect",
+      "guoying_zhao::emotion_understanding",
+      "xin_liu::emotion_benchmark",
+      "panorama_ya_li::eeg_benchmark",
+      "panorama_e298ea16b5bc::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "连政：脑电基准、数据与评测",
+      "陶建华：情感脑电与多模态生理信号",
+      "赵国英：情感理解与多模态推理",
+      "刘鑫：情感数据集、基准与评测",
+      "李雅：脑电基准、数据与评测",
+      "刘瑞：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "zheng_lian__auto_code_d8425df7f8",
+    "name": "MER 2025: When Affective Computing Meets Large Language Models — 开源代码 (cai-cong/MER25_personality)",
+    "name_zh": "MER 2025：当情感计算遇到大型语言模型时 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/cai-cong/MER25_personality",
+    "download_url": "https://github.com/cai-cong/MER25_personality",
+    "access": "public",
+    "related_paper_titles": [
+      "MER 2025: When Affective Computing Meets Large Language Models"
+    ],
+    "related_paper_titles_zh": [
+      "MER 2025：当情感计算遇到大型语言模型时"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/cai-cong/MER25_personality",
+      "https://doi.org/10.1145/3746027.3762007"
+    ],
+    "description": "从论文《MER 2025: When Affective Computing Meets Large Language Models》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zheng_lian",
+    "scholar_name": "连政",
+    "matched_paper_ids": [
+      "zheng_lian_83373cb06f4d"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zheng_lian::eeg_benchmark",
+      "jianhua_tao::eeg_affect",
+      "guoying_zhao::emotion_understanding",
+      "xin_liu::emotion_benchmark",
+      "panorama_ya_li::eeg_benchmark",
+      "panorama_e298ea16b5bc::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "连政：脑电基准、数据与评测",
+      "陶建华：情感脑电与多模态生理信号",
+      "赵国英：情感理解与多模态推理",
+      "刘鑫：情感数据集、基准与评测",
+      "李雅：脑电基准、数据与评测",
+      "刘瑞：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "zheng_lian__auto_code_c2a1771c76",
+    "name": "Emotion and Intent Joint Understanding in Multimodal Conversation: A Benchmarking Dataset — 开源代码 (MC-EIU/MC-EIU)",
+    "name_zh": "多模态对话中的情感和意图联合理解：基准数据集 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/MC-EIU/MC-EIU",
+    "download_url": "https://github.com/MC-EIU/MC-EIU",
+    "access": "public",
+    "related_paper_titles": [
+      "Emotion and Intent Joint Understanding in Multimodal Conversation: A Benchmarking Dataset"
+    ],
+    "related_paper_titles_zh": [
+      "多模态对话中的情感和意图联合理解：基准数据集"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/MC-EIU/MC-EIU",
+      "http://arxiv.org/abs/2407.02751",
+      "https://doi.org/10.48550/arxiv.2407.02751"
+    ],
+    "description": "从论文《Emotion and Intent Joint Understanding in Multimodal Conversation: A Benchmarking Dataset》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zheng_lian",
+    "scholar_name": "连政",
+    "matched_paper_ids": [
+      "zheng_lian_0ffda2a3303d"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zheng_lian::eeg_benchmark",
+      "panorama_e298ea16b5bc::emotion_benchmark",
+      "panorama_xiaofen_xing::eeg_affect"
+    ],
+    "primary_categories": [
+      "连政：脑电基准、数据与评测",
+      "刘瑞：情感数据集、基准与评测",
+      "邢晓芬：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "zheng_lian__auto_code_65493054af",
+    "name": "Contrastive Learning Based Modality-Invariant Feature Acquisition for Robust Multimodal Emotion Recognition With Missing Modalities — 开源代码 (ZhuoYulang/CIF-MMIN)",
+    "name_zh": "基于对比学习的模态不变特征获取，用于具有缺失模态的鲁棒多模态情感识别 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/ZhuoYulang/CIF-MMIN",
+    "download_url": "https://github.com/ZhuoYulang/CIF-MMIN",
+    "access": "public",
+    "related_paper_titles": [
+      "Contrastive Learning Based Modality-Invariant Feature Acquisition for Robust Multimodal Emotion Recognition With Missing Modalities"
+    ],
+    "related_paper_titles_zh": [
+      "基于对比学习的模态不变特征获取，用于具有缺失模态的鲁棒多模态情感识别"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/ZhuoYulang/CIF-MMIN",
+      "https://doi.org/10.1109/taffc.2024.3378570"
+    ],
+    "description": "从论文《Contrastive Learning Based Modality-Invariant Feature Acquisition for Robust Multimodal Emotion Recognition With Missing Modalities》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zheng_lian",
+    "scholar_name": "连政",
+    "matched_paper_ids": [
+      "zheng_lian_df51000baf6c"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zheng_lian::eeg_benchmark",
+      "panorama_e298ea16b5bc::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "连政：脑电基准、数据与评测",
+      "刘瑞：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "zheng_lian__auto_code_3b572c3f80",
+    "name": "Learning Noise-Robust Joint Representation for Multimodal Emotion Recognition under Incomplete Data Scenarios — 开源代码 (WooyoohL/Noise-robust_MER)",
+    "name_zh": "学习不完整数据场景下多模态情感识别的噪声鲁棒联合表示 — 开源代码",
+    "type": "code",
+    "url": "https://github.com/WooyoohL/Noise-robust_MER",
+    "download_url": "https://github.com/WooyoohL/Noise-robust_MER",
+    "access": "public",
+    "related_paper_titles": [
+      "Learning Noise-Robust Joint Representation for Multimodal Emotion Recognition under Incomplete Data Scenarios",
+      "Learning Noise-Robust Joint Representation for Multimodal Emotion Recognition under Realistic Incomplete Data Scenarios"
+    ],
+    "related_paper_titles_zh": [
+      "学习不完整数据场景下多模态情感识别的噪声鲁棒联合表示"
+    ],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/WooyoohL/Noise-robust_MER",
+      "https://doi.org/10.1145/3689092.3689411"
+    ],
+    "description": "从论文《Learning Noise-Robust Joint Representation for Multimodal Emotion Recognition under Incomplete Data Scenarios》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zheng_lian",
+    "scholar_name": "连政",
+    "matched_paper_ids": [
+      "zheng_lian_43c38dfdb54c",
+      "zheng_lian_d828262d0c24ee4d"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zheng_lian::eeg_benchmark",
+      "panorama_e298ea16b5bc::emotion_benchmark",
+      "zheng_lian::eeg_affect"
+    ],
+    "primary_categories": [
+      "连政：脑电基准、数据与评测",
+      "刘瑞：情感数据集、基准与评测",
+      "连政：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "id": "zheng_lian__auto_code_076a2e6834",
+    "name": "Maestro: Reinforcement Learning to Orchestrate Hierarchical Model-Skill Ensembles — 开源代码 (jinyangwu/Maestro)",
+    "name_zh": "Maestro: Reinforcement Learning to Orchestrate Hierarchical Model-Skill Ensembles — 开源代码",
+    "type": "code",
+    "url": "https://github.com/jinyangwu/Maestro",
+    "download_url": "https://github.com/jinyangwu/Maestro",
+    "access": "public",
+    "related_paper_titles": [
+      "Maestro: Reinforcement Learning to Orchestrate Hierarchical Model-Skill Ensembles"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/jinyangwu/Maestro",
+      "https://doi.org/10.48550/ARXIV.2605.22177"
+    ],
+    "description": "从论文《Maestro: Reinforcement Learning to Orchestrate Hierarchical Model-Skill Ensembles》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zheng_lian",
+    "scholar_name": "连政",
+    "matched_paper_ids": [
+      "zheng_lian_c6de5e5625615e5c"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zheng_lian::eeg_benchmark",
+      "jianhua_tao::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "连政：脑电基准、数据与评测",
+      "陶建华：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "zheng_lian__auto_code_64d2547af4",
+    "name": "OPID: On-Policy Skill Distillation for Agentic Reinforcement Learning — 开源代码 (jinyangwu/OPID)",
+    "name_zh": "OPID: On-Policy Skill Distillation for Agentic Reinforcement Learning — 开源代码",
+    "type": "code",
+    "url": "https://github.com/jinyangwu/OPID",
+    "download_url": "https://github.com/jinyangwu/OPID",
+    "access": "public",
+    "related_paper_titles": [
+      "OPID: On-Policy Skill Distillation for Agentic Reinforcement Learning"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/jinyangwu/OPID",
+      "https://doi.org/10.48550/ARXIV.2606.26790"
+    ],
+    "description": "从论文《OPID: On-Policy Skill Distillation for Agentic Reinforcement Learning》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zheng_lian",
+    "scholar_name": "连政",
+    "matched_paper_ids": [
+      "zheng_lian_8cd1a638a9969125"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zheng_lian::eeg_foundation",
+      "jianhua_tao::eeg_foundation"
+    ],
+    "primary_categories": [
+      "连政：脑电基础模型与通用解码",
+      "陶建华：脑电基础模型与通用解码"
+    ]
+  },
+  {
+    "id": "zheng_lian__auto_code_f5e43d8b38",
+    "name": "SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning — 开源代码 (jinyangwu/SEED)",
+    "name_zh": "SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning — 开源代码",
+    "type": "code",
+    "url": "https://github.com/jinyangwu/SEED",
+    "download_url": "https://github.com/jinyangwu/SEED",
+    "access": "public",
+    "related_paper_titles": [
+      "SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/jinyangwu/SEED",
+      "https://doi.org/10.48550/ARXIV.2607.14777"
+    ],
+    "description": "从论文《SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zheng_lian",
+    "scholar_name": "连政",
+    "matched_paper_ids": [
+      "zheng_lian_fdcb42e2815c1256"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zheng_lian::eeg_foundation",
+      "jianhua_tao::eeg_foundation"
+    ],
+    "primary_categories": [
+      "连政：脑电基础模型与通用解码",
+      "陶建华：脑电基础模型与通用解码"
+    ]
+  },
+  {
+    "id": "zheng_lian__auto_code_9bc3bfc33c",
+    "name": "MMAR: A Challenging Benchmark for Deep Reasoning in Speech, Audio, Music, and Their Mix — 开源代码 (ddlBoJack/MMAR)",
+    "name_zh": "MMAR: A Challenging Benchmark for Deep Reasoning in Speech, Audio, Music, and Their Mix — 开源代码",
+    "type": "code",
+    "url": "https://github.com/ddlBoJack/MMAR",
+    "download_url": "https://github.com/ddlBoJack/MMAR",
+    "access": "public",
+    "related_paper_titles": [
+      "MMAR: A Challenging Benchmark for Deep Reasoning in Speech, Audio, Music, and Their Mix"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/ddlBoJack/MMAR",
+      "http://papers.nips.cc/paper_files/paper/2025/hash/610a7d6507d55be70c6d13d0b663227d-Abstract-Datasets_and_Benchmarks_Track.html",
+      "https://doi.org/10.48550/ARXIV.2505.13032"
+    ],
+    "description": "从论文《MMAR: A Challenging Benchmark for Deep Reasoning in Speech, Audio, Music, and Their Mix》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zheng_lian",
+    "scholar_name": "连政",
+    "matched_paper_ids": [
+      "zheng_lian_47924f5e5f70fc42"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zheng_lian::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "连政：脑电基准、数据与评测"
+    ]
   }
 ]

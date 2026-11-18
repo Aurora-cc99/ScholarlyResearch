@@ -9,7 +9,9 @@
     "access": "以原始项目页面为准",
     "description": "候选学者主题资源入口",
     "author_relation": "主题筛选候选记录",
-    "related_paper_titles": [],
+    "related_paper_titles": [
+      "Why We Feel: Breaking Boundaries in Emotional Reasoning with Multimodal Large Language Models"
+    ],
     "evidence_urls": [
       "https://github.com/Lum1104/EIBench",
       "https://directory.tacoma.uw.edu/node/1433",
@@ -25,10 +27,16 @@
       "项目主页/资源说明",
       "作者/机构主页"
     ],
-    "matched_paper_ids": [],
+    "matched_paper_ids": [
+      "zhi_qi_cheng_144ee7c340d1"
+    ],
     "unmatched_titles": [],
-    "scholar_category_ids": [],
-    "primary_categories": []
+    "scholar_category_ids": [
+      "zhi_qi_cheng::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "Zhi-Qi Cheng：情感数据集、基准与评测"
+    ]
   },
   {
     "id": "zhi_qi_cheng__R002",
@@ -42,7 +50,6 @@
     "author_relation": "主题筛选候选记录",
     "related_paper_titles": [],
     "evidence_urls": [
-      "https://directory.tacoma.uw.edu/node/1433",
       "https://directory.tacoma.uw.edu/node/1433",
       "https://faculty.washington.edu/zhiqics/"
     ],
@@ -60,5 +67,802 @@
     "unmatched_titles": [],
     "scholar_category_ids": [],
     "primary_categories": []
+  },
+  {
+    "id": "zhi_qi_cheng__auto_code_99e99ea3a7",
+    "name": "Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond — 开源代码 (matrix-agent/awesome-agentic-world-modeling)",
+    "name_zh": "Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond — 开源代码",
+    "type": "code",
+    "url": "https://github.com/matrix-agent/awesome-agentic-world-modeling",
+    "download_url": "https://github.com/matrix-agent/awesome-agentic-world-modeling",
+    "access": "public",
+    "related_paper_titles": [
+      "Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/matrix-agent/awesome-agentic-world-modeling",
+      "https://doi.org/10.48550/ARXIV.2604.22748"
+    ],
+    "description": "从论文《Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zhi_qi_cheng",
+    "scholar_name": "Zhi-Qi Cheng",
+    "matched_paper_ids": [
+      "zhi_qi_cheng_131ad31cb4fdbc5e"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zhi_qi_cheng::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "Zhi-Qi Cheng：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "zhi_qi_cheng__auto_code_c0c1b0e451",
+    "name": "ATSS: Detecting AI-Generated Videos via Anomalous Temporal Self-Similarity — 开源代码 (hwang-cs-ime/ATSS)",
+    "name_zh": "ATSS: Detecting AI-Generated Videos via Anomalous Temporal Self-Similarity — 开源代码",
+    "type": "code",
+    "url": "https://github.com/hwang-cs-ime/ATSS",
+    "download_url": "https://github.com/hwang-cs-ime/ATSS",
+    "access": "public",
+    "related_paper_titles": [
+      "ATSS: Detecting AI-Generated Videos via Anomalous Temporal Self-Similarity"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/hwang-cs-ime/ATSS",
+      "https://doi.org/10.48550/ARXIV.2604.04029"
+    ],
+    "description": "从论文《ATSS: Detecting AI-Generated Videos via Anomalous Temporal Self-Similarity》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zhi_qi_cheng",
+    "scholar_name": "Zhi-Qi Cheng",
+    "matched_paper_ids": [
+      "zhi_qi_cheng_30e2a1bdd547bd3c"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zhi_qi_cheng::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "Zhi-Qi Cheng：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "zhi_qi_cheng__auto_code_e3ebc09ad0",
+    "name": "Language-Conditioned World Modeling for Visual Navigation — 开源代码 (UWMILab/LCVN)",
+    "name_zh": "Language-Conditioned World Modeling for Visual Navigation — 开源代码",
+    "type": "code",
+    "url": "https://github.com/UWMILab/LCVN",
+    "download_url": "https://github.com/UWMILab/LCVN",
+    "access": "public",
+    "related_paper_titles": [
+      "Language-Conditioned World Modeling for Visual Navigation"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/UWMILab/LCVN",
+      "https://doi.org/10.48550/ARXIV.2603.26741"
+    ],
+    "description": "从论文《Language-Conditioned World Modeling for Visual Navigation》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zhi_qi_cheng",
+    "scholar_name": "Zhi-Qi Cheng",
+    "matched_paper_ids": [
+      "zhi_qi_cheng_c378fb3c79cc7d86"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zhi_qi_cheng::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "Zhi-Qi Cheng：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "zhi_qi_cheng__auto_code_664d982c10",
+    "name": "MTOR: Generalizable AI-Generated Video Detection with Multimodal Semantics and Temporal Over-Regularity — 开源代码 (hwang-cs-ime/MTOR)",
+    "name_zh": "MTOR: Generalizable AI-Generated Video Detection with Multimodal Semantics and Temporal Over-Regularity — 开源代码",
+    "type": "code",
+    "url": "https://github.com/hwang-cs-ime/MTOR",
+    "download_url": "https://github.com/hwang-cs-ime/MTOR",
+    "access": "public",
+    "related_paper_titles": [
+      "MTOR: Generalizable AI-Generated Video Detection with Multimodal Semantics and Temporal Over-Regularity"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/hwang-cs-ime/MTOR",
+      "https://doi.org/10.48550/ARXIV.2610.06378"
+    ],
+    "description": "从论文《MTOR: Generalizable AI-Generated Video Detection with Multimodal Semantics and Temporal Over-Regularity》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zhi_qi_cheng",
+    "scholar_name": "Zhi-Qi Cheng",
+    "matched_paper_ids": [
+      "zhi_qi_cheng_0fd21d225d932a6b"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zhi_qi_cheng::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "Zhi-Qi Cheng：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "zhi_qi_cheng__auto_code_6467320a83",
+    "name": "Overcoming Joint Intractability with Lossless Hierarchical Speculative Decoding — 开源代码 (ZhouYuxuanYX/Hierarchical-Speculative-Decoding)",
+    "name_zh": "Overcoming Joint Intractability with Lossless Hierarchical Speculative Decoding — 开源代码",
+    "type": "code",
+    "url": "https://github.com/ZhouYuxuanYX/Hierarchical-Speculative-Decoding",
+    "download_url": "https://github.com/ZhouYuxuanYX/Hierarchical-Speculative-Decoding",
+    "access": "public",
+    "related_paper_titles": [
+      "Overcoming Joint Intractability with Lossless Hierarchical Speculative Decoding"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/ZhouYuxuanYX/Hierarchical-Speculative-Decoding",
+      "https://doi.org/10.48550/ARXIV.2601.05724"
+    ],
+    "description": "从论文《Overcoming Joint Intractability with Lossless Hierarchical Speculative Decoding》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zhi_qi_cheng",
+    "scholar_name": "Zhi-Qi Cheng",
+    "matched_paper_ids": [
+      "zhi_qi_cheng_03b670b8547a9bba"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zhi_qi_cheng::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "Zhi-Qi Cheng：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "zhi_qi_cheng__auto_code_635203211e",
+    "name": "Towards UnifiedWorldModels for Visual Navigation via Memory-Augmented Planning and Foresight — 开源代码 (UWMILab/UniWM)",
+    "name_zh": "Towards UnifiedWorldModels for Visual Navigation via Memory-Augmented Planning and Foresight — 开源代码",
+    "type": "code",
+    "url": "https://github.com/UWMILab/UniWM",
+    "download_url": "https://github.com/UWMILab/UniWM",
+    "access": "public",
+    "related_paper_titles": [
+      "Towards UnifiedWorldModels for Visual Navigation via Memory-Augmented Planning and Foresight",
+      "Unified World Models: Memory-Augmented Planning and Foresight for Visual Navigation"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/UWMILab/UniWM",
+      "https://doi.org/10.1007/978-3-032-37553-7_16"
+    ],
+    "description": "从论文《Towards UnifiedWorldModels for Visual Navigation via Memory-Augmented Planning and Foresight》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zhi_qi_cheng",
+    "scholar_name": "Zhi-Qi Cheng",
+    "matched_paper_ids": [
+      "zhi_qi_cheng_019ac8a4c471d927",
+      "zhi_qi_cheng_2b76fb86c9d1a036"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zhi_qi_cheng::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "Zhi-Qi Cheng：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "zhi_qi_cheng__auto_code_ca27b596bc",
+    "name": "GoViG: Goal-Conditioned Visual Navigation Instruction Generation — 开源代码 (F1y1113/GoViG)",
+    "name_zh": "GoViG: Goal-Conditioned Visual Navigation Instruction Generation — 开源代码",
+    "type": "code",
+    "url": "https://github.com/F1y1113/GoViG",
+    "download_url": "https://github.com/F1y1113/GoViG",
+    "access": "public",
+    "related_paper_titles": [
+      "GoViG: Goal-Conditioned Visual Navigation Instruction Generation"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/F1y1113/GoViG",
+      "https://doi.org/10.48550/ARXIV.2508.09547"
+    ],
+    "description": "从论文《GoViG: Goal-Conditioned Visual Navigation Instruction Generation》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zhi_qi_cheng",
+    "scholar_name": "Zhi-Qi Cheng",
+    "matched_paper_ids": [
+      "zhi_qi_cheng_a588f59ab79c2f63"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zhi_qi_cheng::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "Zhi-Qi Cheng：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "zhi_qi_cheng__auto_code_4ac8b79272",
+    "name": "HCMA: Hierarchical Cross-model Alignment for Grounded Text-to-Image Generation — 开源代码 (hwang-cs-ime/HCMA)",
+    "name_zh": "HCMA: Hierarchical Cross-model Alignment for Grounded Text-to-Image Generation — 开源代码",
+    "type": "code",
+    "url": "https://github.com/hwang-cs-ime/HCMA",
+    "download_url": "https://github.com/hwang-cs-ime/HCMA",
+    "access": "public",
+    "related_paper_titles": [
+      "HCMA: Hierarchical Cross-model Alignment for Grounded Text-to-Image Generation"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/hwang-cs-ime/HCMA",
+      "https://doi.org/10.48550/ARXIV.2505.06512"
+    ],
+    "description": "从论文《HCMA: Hierarchical Cross-model Alignment for Grounded Text-to-Image Generation》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zhi_qi_cheng",
+    "scholar_name": "Zhi-Qi Cheng",
+    "matched_paper_ids": [
+      "zhi_qi_cheng_d94ea0d58b1c2206"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zhi_qi_cheng::emotion_understanding"
+    ],
+    "primary_categories": [
+      "Zhi-Qi Cheng：情感理解与多模态推理"
+    ]
+  },
+  {
+    "id": "zhi_qi_cheng__auto_code_d3f761801a",
+    "name": "LEAF: Unveiling two sides of the same coin in semi-supervised facial expression recognition — 开源代码 (zfkarl/LEAF)",
+    "name_zh": "LEAF: Unveiling two sides of the same coin in semi-supervised facial expression recognition — 开源代码",
+    "type": "code",
+    "url": "https://github.com/zfkarl/LEAF",
+    "download_url": "https://github.com/zfkarl/LEAF",
+    "access": "public",
+    "related_paper_titles": [
+      "LEAF: Unveiling two sides of the same coin in semi-supervised facial expression recognition"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/zfkarl/LEAF",
+      "https://doi.org/10.1016/J.CVIU.2025.104451"
+    ],
+    "description": "从论文《LEAF: Unveiling two sides of the same coin in semi-supervised facial expression recognition》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zhi_qi_cheng",
+    "scholar_name": "Zhi-Qi Cheng",
+    "matched_paper_ids": [
+      "zhi_qi_cheng_ed4971e4c13c1d2a"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zhi_qi_cheng::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "Zhi-Qi Cheng：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "zhi_qi_cheng__auto_code_e9665bdd8f",
+    "name": "MaxSup: Overcoming Representation Collapse in Label Smoothing — 开源代码 (ZhouYuxuanYX/Maximum-Suppression-Regularization)",
+    "name_zh": "MaxSup: Overcoming Representation Collapse in Label Smoothing — 开源代码",
+    "type": "code",
+    "url": "https://github.com/ZhouYuxuanYX/Maximum-Suppression-Regularization",
+    "download_url": "https://github.com/ZhouYuxuanYX/Maximum-Suppression-Regularization",
+    "access": "public",
+    "related_paper_titles": [
+      "MaxSup: Overcoming Representation Collapse in Label Smoothing"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/ZhouYuxuanYX/Maximum-Suppression-Regularization",
+      "http://papers.nips.cc/paper_files/paper/2025/hash/ec0707dee9db289906dfc38bd673415f-Abstract-Conference.html",
+      "https://doi.org/10.48550/ARXIV.2502.15798"
+    ],
+    "description": "从论文《MaxSup: Overcoming Representation Collapse in Label Smoothing》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zhi_qi_cheng",
+    "scholar_name": "Zhi-Qi Cheng",
+    "matched_paper_ids": [
+      "zhi_qi_cheng_bba331317aeee294"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zhi_qi_cheng::emotion_understanding"
+    ],
+    "primary_categories": [
+      "Zhi-Qi Cheng：情感理解与多模态推理"
+    ]
+  },
+  {
+    "id": "zhi_qi_cheng__auto_code_7003560b22",
+    "name": "Refined Temporal Pyramidal Compression-and-Amplification Transformer for 3D Human Pose Estimation — 开源代码 (hbing-l/RTPCA)",
+    "name_zh": "Refined Temporal Pyramidal Compression-and-Amplification Transformer for 3D Human Pose Estimation — 开源代码",
+    "type": "code",
+    "url": "https://github.com/hbing-l/RTPCA",
+    "download_url": "https://github.com/hbing-l/RTPCA",
+    "access": "public",
+    "related_paper_titles": [
+      "Refined Temporal Pyramidal Compression-and-Amplification Transformer for 3D Human Pose Estimation"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/hbing-l/RTPCA",
+      "https://doi.org/10.1109/ICME59968.2025.11209103"
+    ],
+    "description": "从论文《Refined Temporal Pyramidal Compression-and-Amplification Transformer for 3D Human Pose Estimation》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zhi_qi_cheng",
+    "scholar_name": "Zhi-Qi Cheng",
+    "matched_paper_ids": [
+      "zhi_qi_cheng_651bd81aa48bd150"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zhi_qi_cheng::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "Zhi-Qi Cheng：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "zhi_qi_cheng__auto_code_41178b0086",
+    "name": "UMETTS: A Unified Framework for Emotional Text-to-Speech Synthesis with Multimodal Prompts — 开源代码 (KTTRCDL/UMETTS)",
+    "name_zh": "UMETTS: A Unified Framework for Emotional Text-to-Speech Synthesis with Multimodal Prompts — 开源代码",
+    "type": "code",
+    "url": "https://github.com/KTTRCDL/UMETTS",
+    "download_url": "https://github.com/KTTRCDL/UMETTS",
+    "access": "public",
+    "related_paper_titles": [
+      "UMETTS: A Unified Framework for Emotional Text-to-Speech Synthesis with Multimodal Prompts",
+      "MM-TTS: A Unified Framework for Multimodal, Prompt-Induced Emotional Text-to-Speech Synthesis"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/KTTRCDL/UMETTS",
+      "https://doi.org/10.1109/ICASSP49660.2025.10889012"
+    ],
+    "description": "从论文《UMETTS: A Unified Framework for Emotional Text-to-Speech Synthesis with Multimodal Prompts》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zhi_qi_cheng",
+    "scholar_name": "Zhi-Qi Cheng",
+    "matched_paper_ids": [
+      "zhi_qi_cheng_035348d87a74d565",
+      "zhi_qi_cheng_2346f381c0a7ffde"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zhi_qi_cheng::emotion_understanding"
+    ],
+    "primary_categories": [
+      "Zhi-Qi Cheng：情感理解与多模态推理"
+    ]
+  },
+  {
+    "id": "zhi_qi_cheng__auto_code_92bb26371b",
+    "name": "DCPT: Darkness Clue-Prompted Tracking in Nighttime UAVs — 开源代码 (bearyi26/DCPT)",
+    "name_zh": "DCPT: Darkness Clue-Prompted Tracking in Nighttime UAVs — 开源代码",
+    "type": "code",
+    "url": "https://github.com/bearyi26/DCPT",
+    "download_url": "https://github.com/bearyi26/DCPT",
+    "access": "public",
+    "related_paper_titles": [
+      "DCPT: Darkness Clue-Prompted Tracking in Nighttime UAVs"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/bearyi26/DCPT",
+      "https://doi.org/10.1109/ICRA57147.2024.10610544"
+    ],
+    "description": "从论文《DCPT: Darkness Clue-Prompted Tracking in Nighttime UAVs》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zhi_qi_cheng",
+    "scholar_name": "Zhi-Qi Cheng",
+    "matched_paper_ids": [
+      "zhi_qi_cheng_1b2877d324c61fb9"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zhi_qi_cheng::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "Zhi-Qi Cheng：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "zhi_qi_cheng__auto_code_50d5c2f999",
+    "name": "FlexEdit: Marrying Free-Shape Masks to VLLM for Flexible Image Editing — 开源代码 (A-new-b/flex_edit)",
+    "name_zh": "FlexEdit: Marrying Free-Shape Masks to VLLM for Flexible Image Editing — 开源代码",
+    "type": "code",
+    "url": "https://github.com/A-new-b/flex_edit",
+    "download_url": "https://github.com/A-new-b/flex_edit",
+    "access": "public",
+    "related_paper_titles": [
+      "FlexEdit: Marrying Free-Shape Masks to VLLM for Flexible Image Editing"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/A-new-b/flex_edit",
+      "https://doi.org/10.48550/ARXIV.2408.12429"
+    ],
+    "description": "从论文《FlexEdit: Marrying Free-Shape Masks to VLLM for Flexible Image Editing》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zhi_qi_cheng",
+    "scholar_name": "Zhi-Qi Cheng",
+    "matched_paper_ids": [
+      "zhi_qi_cheng_2236404dfb73c778"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zhi_qi_cheng::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "Zhi-Qi Cheng：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "zhi_qi_cheng__auto_code_c6f79d9365",
+    "name": "IVAC-P2L: Leveraging Irregular Repetition Priors for Improving Video Action Counting — 开源代码 (hwang-cs-ime/IVAC-P2L)",
+    "name_zh": "IVAC-P2L: Leveraging Irregular Repetition Priors for Improving Video Action Counting — 开源代码",
+    "type": "code",
+    "url": "https://github.com/hwang-cs-ime/IVAC-P2L",
+    "download_url": "https://github.com/hwang-cs-ime/IVAC-P2L",
+    "access": "public",
+    "related_paper_titles": [
+      "IVAC-P2L: Leveraging Irregular Repetition Priors for Improving Video Action Counting"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/hwang-cs-ime/IVAC-P2L",
+      "https://doi.org/10.48550/ARXIV.2403.11959"
+    ],
+    "description": "从论文《IVAC-P2L: Leveraging Irregular Repetition Priors for Improving Video Action Counting》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zhi_qi_cheng",
+    "scholar_name": "Zhi-Qi Cheng",
+    "matched_paper_ids": [
+      "zhi_qi_cheng_9c841f72755ade02"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zhi_qi_cheng::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "Zhi-Qi Cheng：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "zhi_qi_cheng__auto_code_1cedd6cbe0",
+    "name": "ProS: Prompting-to-Simulate Generalized Knowledge for Universal Cross-Domain Retrieval — 开源代码 (fangkaipeng/ProS)",
+    "name_zh": "ProS: Prompting-to-Simulate Generalized Knowledge for Universal Cross-Domain Retrieval — 开源代码",
+    "type": "code",
+    "url": "https://github.com/fangkaipeng/ProS",
+    "download_url": "https://github.com/fangkaipeng/ProS",
+    "access": "public",
+    "related_paper_titles": [
+      "ProS: Prompting-to-Simulate Generalized Knowledge for Universal Cross-Domain Retrieval"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/fangkaipeng/ProS",
+      "https://doi.org/10.1109/CVPR52733.2024.01637"
+    ],
+    "description": "从论文《ProS: Prompting-to-Simulate Generalized Knowledge for Universal Cross-Domain Retrieval》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zhi_qi_cheng",
+    "scholar_name": "Zhi-Qi Cheng",
+    "matched_paper_ids": [
+      "zhi_qi_cheng_6cd8bc8ef6b52340"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zhi_qi_cheng::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "Zhi-Qi Cheng：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "zhi_qi_cheng__auto_code_62ab8c0eee",
+    "name": "SZTU-CMU at MER2024: Improving Emotion-LLaMA with Conv-Attention for Multimodal Emotion Recognition — 开源代码 (ZebangCheng/Emotion-LLaMA)",
+    "name_zh": "SZTU-CMU at MER2024: Improving Emotion-LLaMA with Conv-Attention for Multimodal Emotion Recognition — 开源代码",
+    "type": "code",
+    "url": "https://github.com/ZebangCheng/Emotion-LLaMA",
+    "download_url": "https://github.com/ZebangCheng/Emotion-LLaMA",
+    "access": "public",
+    "related_paper_titles": [
+      "SZTU-CMU at MER2024: Improving Emotion-LLaMA with Conv-Attention for Multimodal Emotion Recognition"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/ZebangCheng/Emotion-LLaMA",
+      "https://doi.org/10.48550/ARXIV.2408.10500"
+    ],
+    "description": "从论文《SZTU-CMU at MER2024: Improving Emotion-LLaMA with Conv-Attention for Multimodal Emotion Recognition》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zhi_qi_cheng",
+    "scholar_name": "Zhi-Qi Cheng",
+    "matched_paper_ids": [
+      "zhi_qi_cheng_6984b6e65f034888"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zhi_qi_cheng::emotion_understanding"
+    ],
+    "primary_categories": [
+      "Zhi-Qi Cheng：情感理解与多模态推理"
+    ]
+  },
+  {
+    "id": "zhi_qi_cheng__auto_code_244d7dc3b9",
+    "name": "DAMO-StreamNet: Optimizing Streaming Perception in Autonomous Driving — 开源代码 (zhiqic/DAMO-StreamNet)",
+    "name_zh": "DAMO-StreamNet: Optimizing Streaming Perception in Autonomous Driving — 开源代码",
+    "type": "code",
+    "url": "https://github.com/zhiqic/DAMO-StreamNet",
+    "download_url": "https://github.com/zhiqic/DAMO-StreamNet",
+    "access": "public",
+    "related_paper_titles": [
+      "DAMO-StreamNet: Optimizing Streaming Perception in Autonomous Driving"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/zhiqic/DAMO-StreamNet",
+      "https://doi.org/10.48550/ARXIV.2303.17144"
+    ],
+    "description": "从论文《DAMO-StreamNet: Optimizing Streaming Perception in Autonomous Driving》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zhi_qi_cheng",
+    "scholar_name": "Zhi-Qi Cheng",
+    "matched_paper_ids": [
+      "zhi_qi_cheng_9dce493bd13cd44b"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zhi_qi_cheng::emotion_understanding"
+    ],
+    "primary_categories": [
+      "Zhi-Qi Cheng：情感理解与多模态推理"
+    ]
+  },
+  {
+    "id": "zhi_qi_cheng__auto_code_b91b02bc77",
+    "name": "HDFormer: High-order Directed Transformer for 3D Human Pose Estimation — 开源代码 (hyer/HDFormer)",
+    "name_zh": "HDFormer: High-order Directed Transformer for 3D Human Pose Estimation — 开源代码",
+    "type": "code",
+    "url": "https://github.com/hyer/HDFormer",
+    "download_url": "https://github.com/hyer/HDFormer",
+    "access": "public",
+    "related_paper_titles": [
+      "HDFormer: High-order Directed Transformer for 3D Human Pose Estimation"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/hyer/HDFormer",
+      "https://doi.org/10.48550/ARXIV.2302.01825"
+    ],
+    "description": "从论文《HDFormer: High-order Directed Transformer for 3D Human Pose Estimation》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zhi_qi_cheng",
+    "scholar_name": "Zhi-Qi Cheng",
+    "matched_paper_ids": [
+      "zhi_qi_cheng_262989a208eeef81"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zhi_qi_cheng::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "Zhi-Qi Cheng：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "zhi_qi_cheng__auto_code_6b690b51a3",
+    "name": "Implicit Temporal Modeling with Learnable Alignment for Video Recognition — 开源代码 (Francis-Rings/ILA)",
+    "name_zh": "Implicit Temporal Modeling with Learnable Alignment for Video Recognition — 开源代码",
+    "type": "code",
+    "url": "https://github.com/Francis-Rings/ILA",
+    "download_url": "https://github.com/Francis-Rings/ILA",
+    "access": "public",
+    "related_paper_titles": [
+      "Implicit Temporal Modeling with Learnable Alignment for Video Recognition"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/Francis-Rings/ILA",
+      "https://doi.org/10.48550/ARXIV.2304.10465"
+    ],
+    "description": "从论文《Implicit Temporal Modeling with Learnable Alignment for Video Recognition》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zhi_qi_cheng",
+    "scholar_name": "Zhi-Qi Cheng",
+    "matched_paper_ids": [
+      "zhi_qi_cheng_c6643fe67fa731e7"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zhi_qi_cheng::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "Zhi-Qi Cheng：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "zhi_qi_cheng__auto_code_1ef774b35d",
+    "name": "KeyPosS: Plug-and-Play Facial Landmark Detection through GPS-Inspired True-Range Multilateration — 开源代码 (zhiqic/KeyPosS)",
+    "name_zh": "KeyPosS: Plug-and-Play Facial Landmark Detection through GPS-Inspired True-Range Multilateration — 开源代码",
+    "type": "code",
+    "url": "https://github.com/zhiqic/KeyPosS",
+    "download_url": "https://github.com/zhiqic/KeyPosS",
+    "access": "public",
+    "related_paper_titles": [
+      "KeyPosS: Plug-and-Play Facial Landmark Detection through GPS-Inspired True-Range Multilateration"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/zhiqic/KeyPosS",
+      "https://doi.org/10.48550/ARXIV.2305.16437"
+    ],
+    "description": "从论文《KeyPosS: Plug-and-Play Facial Landmark Detection through GPS-Inspired True-Range Multilateration》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zhi_qi_cheng",
+    "scholar_name": "Zhi-Qi Cheng",
+    "matched_paper_ids": [
+      "zhi_qi_cheng_ee7a8beddaf93bc6"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zhi_qi_cheng::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "Zhi-Qi Cheng：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "zhi_qi_cheng__auto_code_8cae3538c3",
+    "name": "PoSynDA: Multi-Hypothesis Pose Synthesis Domain Adaptation for Robust 3D Human Pose Estimation — 开源代码 (hbing-l/PoSynDA)",
+    "name_zh": "PoSynDA: Multi-Hypothesis Pose Synthesis Domain Adaptation for Robust 3D Human Pose Estimation — 开源代码",
+    "type": "code",
+    "url": "https://github.com/hbing-l/PoSynDA",
+    "download_url": "https://github.com/hbing-l/PoSynDA",
+    "access": "public",
+    "related_paper_titles": [
+      "PoSynDA: Multi-Hypothesis Pose Synthesis Domain Adaptation for Robust 3D Human Pose Estimation"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/hbing-l/PoSynDA",
+      "https://doi.org/10.48550/ARXIV.2308.09678"
+    ],
+    "description": "从论文《PoSynDA: Multi-Hypothesis Pose Synthesis Domain Adaptation for Robust 3D Human Pose Estimation》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zhi_qi_cheng",
+    "scholar_name": "Zhi-Qi Cheng",
+    "matched_paper_ids": [
+      "zhi_qi_cheng_2171f9a1361b7aae"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zhi_qi_cheng::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "Zhi-Qi Cheng：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "zhi_qi_cheng__auto_code_b9edd273b7",
+    "name": "Tracking with Human-Intent Reasoning — 开源代码 (jiawen-zhu/TrackGPT)",
+    "name_zh": "Tracking with Human-Intent Reasoning — 开源代码",
+    "type": "code",
+    "url": "https://github.com/jiawen-zhu/TrackGPT",
+    "download_url": "https://github.com/jiawen-zhu/TrackGPT",
+    "access": "public",
+    "related_paper_titles": [
+      "Tracking with Human-Intent Reasoning"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/jiawen-zhu/TrackGPT",
+      "https://doi.org/10.48550/ARXIV.2312.17448"
+    ],
+    "description": "从论文《Tracking with Human-Intent Reasoning》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zhi_qi_cheng",
+    "scholar_name": "Zhi-Qi Cheng",
+    "matched_paper_ids": [
+      "zhi_qi_cheng_24382e9b121d4a66"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zhi_qi_cheng::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "Zhi-Qi Cheng：情感数据集、基准与评测"
+    ]
+  },
+  {
+    "id": "zhi_qi_cheng__auto_code_78ee92423e",
+    "name": "Rethinking Spatial Invariance of Convolutional Networks for Object Counting — 开源代码 (zhiqic/Rethinking-Counting)",
+    "name_zh": "Rethinking Spatial Invariance of Convolutional Networks for Object Counting — 开源代码",
+    "type": "code",
+    "url": "https://github.com/zhiqic/Rethinking-Counting",
+    "download_url": "https://github.com/zhiqic/Rethinking-Counting",
+    "access": "public",
+    "related_paper_titles": [
+      "Rethinking Spatial Invariance of Convolutional Networks for Object Counting"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/zhiqic/Rethinking-Counting",
+      "https://doi.org/10.48550/ARXIV.2206.05253"
+    ],
+    "description": "从论文《Rethinking Spatial Invariance of Convolutional Networks for Object Counting》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "zhi_qi_cheng",
+    "scholar_name": "Zhi-Qi Cheng",
+    "matched_paper_ids": [
+      "zhi_qi_cheng_80787648b3f16861"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "zhi_qi_cheng::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "Zhi-Qi Cheng：情感数据集、基准与评测"
+    ]
   }
 ]

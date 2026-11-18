@@ -37,7 +37,7 @@
       "wei_long_zheng::eeg_affect"
     ],
     "primary_categories": [
-      "情感脑电与多模态生理信号"
+      "郑伟龙：情感脑电与多模态生理信号"
     ]
   },
   {
@@ -78,7 +78,7 @@
       "wei_long_zheng::eeg_affect"
     ],
     "primary_categories": [
-      "情感脑电与多模态生理信号"
+      "郑伟龙：情感脑电与多模态生理信号"
     ]
   },
   {
@@ -119,7 +119,7 @@
       "wei_long_zheng::eeg_affect"
     ],
     "primary_categories": [
-      "情感脑电与多模态生理信号"
+      "郑伟龙：情感脑电与多模态生理信号"
     ]
   },
   {
@@ -157,10 +157,12 @@
     ],
     "unmatched_titles": [],
     "scholar_category_ids": [
+      "lu_baoliang::eeg_affect",
       "wei_long_zheng::eeg_affect"
     ],
     "primary_categories": [
-      "情感脑电与多模态生理信号"
+      "吕宝粮：情感脑电与多模态生理信号",
+      "郑伟龙：情感脑电与多模态生理信号"
     ]
   },
   {
@@ -177,7 +179,6 @@
       "MindCross: Fast New Subject Adaptation with Limited Data for Cross-subject Video Reconstruction from Brain Signals"
     ],
     "evidence_urls": [
-      "https://bcmi.sjtu.edu.cn/home/zhengweilong/",
       "https://bcmi.sjtu.edu.cn/home/zhengweilong/",
       "https://bcmi.sjtu.edu.cn/member.cn.html"
     ],
@@ -201,7 +202,7 @@
       "wei_long_zheng::eeg_affect"
     ],
     "primary_categories": [
-      "情感脑电与多模态生理信号"
+      "郑伟龙：情感脑电与多模态生理信号"
     ]
   },
   {
@@ -242,7 +243,7 @@
       "wei_long_zheng::eeg_benchmark"
     ],
     "primary_categories": [
-      "脑电基准、数据与评测"
+      "郑伟龙：脑电基准、数据与评测"
     ]
   },
   {
@@ -283,7 +284,7 @@
       "wei_long_zheng::eeg_benchmark"
     ],
     "primary_categories": [
-      "脑电基准、数据与评测"
+      "郑伟龙：脑电基准、数据与评测"
     ]
   },
   {
@@ -324,7 +325,7 @@
       "wei_long_zheng::eeg_benchmark"
     ],
     "primary_categories": [
-      "脑电基准、数据与评测"
+      "郑伟龙：脑电基准、数据与评测"
     ]
   },
   {
@@ -365,7 +366,7 @@
       "wei_long_zheng::eeg_benchmark"
     ],
     "primary_categories": [
-      "脑电基准、数据与评测"
+      "郑伟龙：脑电基准、数据与评测"
     ]
   },
   {
@@ -406,7 +407,7 @@
       "wei_long_zheng::eeg_benchmark"
     ],
     "primary_categories": [
-      "脑电基准、数据与评测"
+      "郑伟龙：脑电基准、数据与评测"
     ]
   },
   {
@@ -447,7 +448,73 @@
       "wei_long_zheng::eeg_benchmark"
     ],
     "primary_categories": [
-      "脑电基准、数据与评测"
+      "郑伟龙：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "wei_long_zheng__auto_code_6f83f3e759",
+    "name": "Double Domain Converter Transformer For Improving EEG-Based Emotion Recognition from Video to Game Scenarios — 开源代码 (AlbertMentat/DDCT)",
+    "name_zh": "Double Domain Converter Transformer For Improving EEG-Based Emotion Recognition from Video to Game Scenarios — 开源代码",
+    "type": "code",
+    "url": "https://github.com/AlbertMentat/DDCT",
+    "download_url": "https://github.com/AlbertMentat/DDCT",
+    "access": "public",
+    "related_paper_titles": [
+      "Double Domain Converter Transformer For Improving EEG-Based Emotion Recognition from Video to Game Scenarios"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/AlbertMentat/DDCT",
+      "https://doi.org/10.1109/ICASSP49660.2025.10889052"
+    ],
+    "description": "从论文《Double Domain Converter Transformer For Improving EEG-Based Emotion Recognition from Video to Game Scenarios》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "wei_long_zheng",
+    "scholar_name": "郑伟龙",
+    "matched_paper_ids": [
+      "wei_long_zheng_0bb046aa5510ad72"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "wei_long_zheng::eeg_foundation"
+    ],
+    "primary_categories": [
+      "郑伟龙：脑电基础模型与通用解码"
+    ]
+  },
+  {
+    "id": "wei_long_zheng__auto_code_79c64df24c",
+    "name": "FuseAnyPart: Diffusion-Driven Facial Parts Swapping via Multiple Reference Images — 开源代码 (Thomas-wyh/FuseAnyPart)",
+    "name_zh": "FuseAnyPart: Diffusion-Driven Facial Parts Swapping via Multiple Reference Images — 开源代码",
+    "type": "code",
+    "url": "https://github.com/Thomas-wyh/FuseAnyPart",
+    "download_url": "https://github.com/Thomas-wyh/FuseAnyPart",
+    "access": "public",
+    "related_paper_titles": [
+      "FuseAnyPart: Diffusion-Driven Facial Parts Swapping via Multiple Reference Images"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/Thomas-wyh/FuseAnyPart",
+      "https://doi.org/10.48550/ARXIV.2410.22771"
+    ],
+    "description": "从论文《FuseAnyPart: Diffusion-Driven Facial Parts Swapping via Multiple Reference Images》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "wei_long_zheng",
+    "scholar_name": "郑伟龙",
+    "matched_paper_ids": [
+      "wei_long_zheng_cd485f664856e5cf"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "wei_long_zheng::eeg_foundation"
+    ],
+    "primary_categories": [
+      "郑伟龙：脑电基础模型与通用解码"
     ]
   }
 ]

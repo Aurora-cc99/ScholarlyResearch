@@ -1,1363 +1,2901 @@
-{
-  "scholar": {
-    "name_zh": "姜维邦",
-    "name_en": "Wei-Bang Jiang",
-    "affiliation": "NeuroLM论文团队；与吕宝粮现有资源关联",
-    "identity_sources": [
-      "https://arxiv.org/abs/2409.12866"
+[
+  {
+    "title": "Du-IN Chinese word-reading sEEG (Zheng et al., NeurIPS 2024): authors' preprocessed 3-s epochs, 12 subjects, 61 words",
+    "title_en": "Du-IN Chinese word-reading sEEG (Zheng et al., NeurIPS 2024): authors' preprocessed 3-s epochs, 12 subjects, 61 words",
+    "title_zh": "Du-IN 中文读字 sEEG（Zheng 等人，NeurIPS） 2024）：作者预处理的 3 秒时期，12 个受试者，61 个单词",
+    "year": 2026,
+    "venue": "UC San Diego",
+    "authors": [
+      "Hui Zheng",
+      "Haiteng Wang",
+      "Wei-Bang Jiang",
+      "Zhongtao Chen",
+      "Li He",
+      "Pei-Yang Lin",
+      "Peng-Hu Wei",
+      "Guo-Guang Zhao",
+      "Yunzhe Liu"
     ],
-    "official_homepages": [
-      "https://arxiv.org/abs/2409.12866"
+    "doi": "10.82901/nemar.nm000365",
+    "paper_url": "https://doi.org/10.82901/nemar.nm000365",
+    "source_url": "https://doi.org/10.82901/nemar.nm000365",
+    "topics": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言",
+      "脑机接口与神经解码"
     ],
-    "coverage": {
-      "scope": "2025–2026主题筛选与全量书目扩展",
-      "status": "已在现有吕宝粮资源范围内-补充作者档案",
-      "coverage_status": "作者作品集/论文包已扩展；仍需身份消歧与覆盖审计",
-      "available_record_count": 24,
-      "bulk_source_record_count": 23,
-      "themes": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ]
-    },
-    "coverage_notes": "该目录与五位基线学者使用同一论文/资源/分类输出契约。‘可用记录数’表示本轮已取得并保留的书目，不等于未经消歧的个人终身全集；身份待核验、论文团队和同名风险见候选筛选证据。",
-    "id": "wei_bang_jiang",
-    "folder": "主题_wei_bang_jiang",
-    "classification": {
-      "method": "按题名及现有项目、资源说明进行主题粗分，用于阅读导航；未逐篇审阅全文，不代表学者官方分类。每条书目只设一个主类别，跨方向信息保留在辅助标签中。",
-      "categories": [
-        {
-          "id": "eeg_foundation",
-          "label": "脑电基础模型与通用解码",
-          "description": "EEG基础模型、跨任务/跨设备泛化、预训练与脑信号解码。",
-          "count": 9
-        },
-        {
-          "id": "eeg_affect",
-          "label": "情感脑电与多模态生理信号",
-          "description": "脑电情感识别、EEG-fNIRS/EEG-MEG及情感计算应用。",
-          "count": 12
-        },
-        {
-          "id": "eeg_benchmark",
-          "label": "脑电基准、数据与评测",
-          "description": "脑电基础模型基准、数据集、可复现评估与跨数据集比较。",
-          "count": 3
-        }
-      ],
-      "review": {
-        "status": "theme_candidate",
-        "source_status": "已在现有吕宝粮资源范围内-补充作者档案",
-        "primary_theme": "脑电情感计算与脑电大模型"
+    "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W7221036388",
+    "openalex_author_id": "https://openalex.org/A5075803600",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "dataset",
+    "candidate_source": false,
+    "source_kind": "OpenAlex作品记录",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "wei_bang_jiang_9e836381504c",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码",
+    "secondary_tags": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wei_bang_jiang",
+    "scholar_name": "姜维邦",
+    "work_title_group": "9df59090ec58",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "wei_bang_jiang"
+    ],
+    "scholar_names": [
+      "姜维邦"
+    ],
+    "source_record_ids": [
+      "wei_bang_jiang_9e836381504c"
+    ],
+    "scholar_categories": {
+      "wei_bang_jiang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "姜维邦",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
       }
     },
-    "counts": {
-      "bibliographic_records": 24,
-      "resource_entries": 0,
-      "papers_with_linked_resources": 0,
-      "types": {},
-      "years": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "unknown_year": 1
-    }
+    "global_record_id": "c7ea76f9fdb82cb7",
+    "primary_categories_by_scholar": [
+      "姜维邦：脑电基础模型与通用解码"
+    ],
+    "pdf_url": "https://doi.org/10.82901/nemar.nm000365"
   },
-  "papers": [
-    {
-      "title": "Du-IN Chinese word-reading sEEG (Zheng et al., NeurIPS 2024): authors' preprocessed 3-s epochs, 12 subjects, 61 words",
-      "title_en": "Du-IN Chinese word-reading sEEG (Zheng et al., NeurIPS 2024): authors' preprocessed 3-s epochs, 12 subjects, 61 words",
-      "title_zh": "Du-IN 中文读字 sEEG（Zheng 等人，NeurIPS） 2024）：作者预处理的 3 秒时期，12 个受试者，61 个单词",
-      "year": 2026,
-      "venue": "UC San Diego",
-      "authors": [
-        "Hui Zheng",
-        "Haiteng Wang",
-        "Wei-Bang Jiang",
-        "Zhongtao Chen",
-        "Li He",
-        "Pei-Yang Lin",
-        "Peng-Hu Wei",
-        "Guo-Guang Zhao",
-        "Yunzhe Liu"
-      ],
-      "doi": "10.82901/nemar.nm000365",
-      "paper_url": "https://doi.org/10.82901/nemar.nm000365",
-      "source_url": "https://doi.org/10.82901/nemar.nm000365",
-      "topics": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言",
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W7221036388",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "dataset",
-      "candidate_source": false,
-      "source_kind": "OpenAlex作品记录",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "wei_bang_jiang_9e836381504c",
-      "category_id": "eeg_foundation",
-      "primary_category": "脑电基础模型与通用解码",
-      "secondary_tags": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "wei_bang_jiang",
-      "scholar_name": "姜维邦",
-      "work_title_group": "9df59090ec58",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+  {
+    "title": "LaBraM: A General Large Model for EEG Representation Learning",
+    "title_en": "LaBraM: A General Large Model for EEG Representation Learning",
+    "title_zh": "LaBraM：脑电图表示学习的通用大型模型",
+    "year": 2026,
+    "venue": "CRC Press eBooks",
+    "authors": [
+      "Wei-Bang Jiang",
+      "Bao‐Liang Lu",
+      "Li-Ming Zhao"
+    ],
+    "doi": "10.1201/9781003616719-11",
+    "paper_url": "https://doi.org/10.1201/9781003616719-11",
+    "source_url": "https://doi.org/10.1201/9781003616719-11",
+    "topics": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言",
+      "脑电情感识别",
+      "脑电基础大模型",
+      "脑机接口与神经解码",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W7161563254",
+    "openalex_author_id": "https://openalex.org/A5075803600",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 1,
+    "publication_types": "book-chapter",
+    "candidate_source": false,
+    "source_kind": "OpenAlex作品记录",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "wei_bang_jiang_016ea5742910",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码",
+    "secondary_tags": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wei_bang_jiang",
+    "scholar_name": "姜维邦",
+    "work_title_group": "a6415c04fbe6",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "wei_bang_jiang"
+    ],
+    "scholar_names": [
+      "姜维邦"
+    ],
+    "source_record_ids": [
+      "wei_bang_jiang_016ea5742910"
+    ],
+    "scholar_categories": {
+      "wei_bang_jiang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "姜维邦",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "LaBraM: A General Large Model for EEG Representation Learning",
-      "title_en": "LaBraM: A General Large Model for EEG Representation Learning",
-      "title_zh": "LaBraM：脑电图表示学习的通用大型模型",
-      "year": 2026,
-      "venue": "CRC Press eBooks",
-      "authors": [
-        "Wei-Bang Jiang",
-        "Bao‐Liang Lu",
-        "Li-Ming Zhao"
-      ],
-      "doi": "10.1201/9781003616719-11",
-      "paper_url": "https://doi.org/10.1201/9781003616719-11",
-      "source_url": "https://doi.org/10.1201/9781003616719-11",
-      "topics": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言",
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W7161563254",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "book-chapter",
-      "candidate_source": false,
-      "source_kind": "OpenAlex作品记录",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "wei_bang_jiang_016ea5742910",
-      "category_id": "eeg_foundation",
-      "primary_category": "脑电基础模型与通用解码",
-      "secondary_tags": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "wei_bang_jiang",
-      "scholar_name": "姜维邦",
-      "work_title_group": "a6415c04fbe6",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "ebdf6fc42a371d48",
+    "primary_categories_by_scholar": [
+      "姜维邦：脑电基础模型与通用解码"
+    ],
+    "abstract_en": "Most existing deep learning models for electroencephalogram (EEG) analysis are tailored to specific datasets and brain-computer interface (BCI) applications, restricting their scalability, perceptual capacity, and generalization ability. Inspired by the remarkable success of Large Language Models (LLMs) in natural language processing, we explore the development of Large EEG Models (LEMs) that can achieve universal EEG understanding through large-scale unsupervised pre-training and subsequent task-specific fine-tuning. Unlike text data, EEG signals are limited in quantity and exhibit diverse structures, such as varying electrode configurations, unequal sequence lengths, heterogeneous experimental protocols, and low signal-to-noise ratios. To address these challenges, we introduce the Large Brain Model (LaBraM), a unified foundation model for EEG. LaBraM achieves cross-dataset learning by segmenting EEG recordings into channel-wise patches and employing vector-quantized neural spectrum prediction to build a semantically meaningful neural tokenizer that compresses continuous EEG patches into discrete representations. A Transformer backbone is then pre-trained to reconstruct masked neural codes, enabling deep semantic understanding of EEG dynamics. Trained on approximately 2,500 hours of data from over 20 EEG datasets, LaBraM demonstrates strong generalization across multiple downstream tasks—including abnormality detection, event classification, emotion recognition, and gait prediction—consistently surpassing state-of-the-art baselines in each domain.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "大多数现有的脑电图（EEG）分析深度学习模型都是针对特定数据集和脑机接口（BCI）应用量身定制的，限制了其可扩展性、感知能力和泛化能力。受大型语言模型（LLM）在自然语言处理方面取得的巨大成功的启发，我们探索了大型脑电图模型（LEM）的开发，该模型可以通过大规模无监督预训练和后续特定任务的微调来实现普遍的脑电图理解。与文本数据不同，脑电图信号数量有限，并且表现出不同的结构，例如不同的电极配置、不等的序列长度、异构实验……"
+  },
+  {
+    "title": "SEED-OLF: A Novel EEG Dataset With Olfactory Stimulation for Emotion Recognition",
+    "title_en": "SEED-OLF: A Novel EEG Dataset With Olfactory Stimulation for Emotion Recognition",
+    "title_zh": "SEED-OLF：一种新颖的脑电图数据集，具有用于情绪识别的嗅觉刺激。 IEEE 传输。影响。计算。 17（2）：2257-2273（2026）",
+    "year": 2026,
+    "venue": "IEEE Trans. Affect. Comput.",
+    "authors": [
+      "Jian-Ming Zhang",
+      "Wei-Bang Jiang",
+      "Wei-Long Zheng",
+      "Bao-Liang Lu"
+    ],
+    "doi": "10.1109/TAFFC.2026.3662364",
+    "paper_url": "https://doi.org/10.1109/TAFFC.2026.3662364",
+    "source_url": "https://doi.org/10.1109/TAFFC.2026.3662364",
+    "topics": [
+      "脑电情感计算与脑电大模型",
+      "情感脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "脑电情感识别",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [
+      "lu_baoliang__R003",
+      "lu_baoliang__LU_DATA_SEED-OLF"
+    ],
+    "code_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/"
+    ],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W7128307468",
+    "openalex_author_id": "https://openalex.org/A5075803600",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 2,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "official institutional profile or publication list",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "lu_baoliang_c9381246fc48",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测",
+    "secondary_tags": [
+      "官方作品集"
+    ],
+    "classification_basis": "根据题名、来源类型与现有脑电主题分类进行粗分；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "全景名单/DBLP补充条目，需在作者主页或出版商页面进一步核验。",
+    "scholar_id": "lu_baoliang",
+    "scholar_name": "吕宝粮",
+    "work_title_group": "b18695af7461",
+    "resource_status": "已关联公开入口；具体访问范围见资源说明",
+    "scholar_ids": [
+      "lu_baoliang",
+      "wei_bang_jiang",
+      "wei_long_zheng"
+    ],
+    "scholar_names": [
+      "吕宝粮",
+      "姜维邦",
+      "郑伟龙"
+    ],
+    "source_record_ids": [
+      "lu_baoliang_c9381246fc48",
+      "wei_bang_jiang_c9381246fc48",
+      "wei_long_zheng_c9381246fc48"
+    ],
+    "scholar_categories": {
+      "lu_baoliang": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "吕宝粮",
+        "secondary_tags": [
+          "官方作品集"
+        ],
+        "confidence": "candidate",
+        "note": "全景名单/DBLP补充条目，需在作者主页或出版商页面进一步核验。"
+      },
+      "wei_bang_jiang": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "姜维邦",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "wei_long_zheng": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "郑伟龙",
+        "secondary_tags": [
+          "情感脑机接口",
+          "脑电基础模型",
+          "临床脑电解码",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "SEED-OLF: A Novel EEG Dataset With Olfactory Stimulation for Emotion Recognition",
-      "title_en": "SEED-OLF: A Novel EEG Dataset With Olfactory Stimulation for Emotion Recognition",
-      "title_zh": "SEED-OLF：基于嗅觉刺激的新型脑电情绪识别数据集",
-      "year": 2026,
-      "venue": "IEEE Transactions on Affective Computing",
-      "authors": [
-        "Jian-Ming Zhang",
-        "Wei-Bang Jiang",
-        "Wei-Long Zheng",
-        "Bao-Liang Lu"
-      ],
-      "doi": "10.1109/TAFFC.2026.3662364",
-      "paper_url": "https://www.semanticscholar.org/paper/fd271a79e5112b79399d612eca0db7fcdbb2b3cb",
-      "source_url": "https://www.semanticscholar.org/paper/fd271a79e5112b79399d612eca0db7fcdbb2b3cb",
-      "topics": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言",
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W7128307468",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "fd271a79e5112b79399d612eca0db7fcdbb2b3cb",
-      "semantic_scholar_author_id": "2152123927",
-      "cited_by_count": 1,
-      "publication_types": "article",
-      "candidate_source": false,
-      "source_kind": "OpenAlex作品记录",
-      "record_id": "wei_bang_jiang_c9381246fc48",
-      "category_id": "eeg_benchmark",
-      "primary_category": "脑电基准、数据与评测",
-      "secondary_tags": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "wei_bang_jiang",
-      "scholar_name": "姜维邦",
-      "work_title_group": "ffb6154af77f",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "695e4d7074bc57ae",
+    "primary_categories_by_scholar": [
+      "吕宝粮：脑电基准、数据与评测",
+      "姜维邦：脑电基准、数据与评测",
+      "郑伟龙：脑电基准、数据与评测"
+    ],
+    "dblp_key": "journals/taffco/ZhangJZL26"
+  },
+  {
+    "title": "Towards Robust Multimodal Physiological Foundation Models: Handling Arbitrary Missing Modalities",
+    "title_en": "Towards Robust Multimodal Physiological Foundation Models: Handling Arbitrary Missing Modalities",
+    "title_zh": "迈向稳健的多模态生理基础模型：处理任意缺失模态",
+    "year": 2025,
+    "venue": "arXiv (Cornell University)",
+    "authors": [
+      "Wei-Bang Jiang",
+      "Fu, Xi",
+      "Ding, Yi",
+      "Cuntai Guan"
+    ],
+    "doi": "10.48550/arxiv.2504.19596",
+    "paper_url": "https://doi.org/10.48550/arxiv.2504.19596",
+    "source_url": "https://doi.org/10.48550/arxiv.2504.19596",
+    "topics": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言",
+      "脑电情感识别",
+      "脑电基础大模型",
+      "情感计算与情绪理解",
+      "多模态与大语言模型"
+    ],
+    "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4416899465",
+    "openalex_author_id": "https://openalex.org/A5075803600",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 24,
+    "publication_types": "preprint",
+    "candidate_source": false,
+    "source_kind": "OpenAlex作品记录",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "wei_bang_jiang_543d76fa5cc6",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码",
+    "secondary_tags": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wei_bang_jiang",
+    "scholar_name": "姜维邦",
+    "work_title_group": "678783c248db",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "wei_bang_jiang",
+      "yi_ding"
+    ],
+    "scholar_names": [
+      "姜维邦",
+      "Yi Ding"
+    ],
+    "source_record_ids": [
+      "wei_bang_jiang_543d76fa5cc6"
+    ],
+    "scholar_categories": {
+      "wei_bang_jiang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "姜维邦",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "yi_ding": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "Yi Ding",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言",
+          "脑电情感识别",
+          "脑电基础大模型",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "Hierarchical Emotion Transformer for Multimodal Joint Emotion Category and Intensity Recognition",
-      "title_en": "Hierarchical Emotion Transformer for Multimodal Joint Emotion Category and Intensity Recognition",
-      "title_zh": "用于多模态联合情感类别和强度识别的分层情感变换器。",
-      "year": 2025,
-      "venue": "Lecture notes in computer science",
-      "authors": [
-        "Tian-Fang Ma",
-        "Wei-Bang Jiang",
-        "Wei‐Long Zheng",
-        "Bao‐Liang Lu"
-      ],
-      "doi": "10.1007/978-981-95-4367-0_5",
-      "paper_url": "https://doi.org/10.1007/978-981-95-4367-0_5",
-      "source_url": "https://doi.org/10.1007/978-981-95-4367-0_5",
-      "topics": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言",
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W4416464608",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "83f1b8d2b3404bcf60d5a5d48ed0acea741869a8",
-      "semantic_scholar_author_id": "2152123927",
-      "cited_by_count": 0,
-      "publication_types": "conference-paper",
-      "candidate_source": false,
-      "source_kind": "OpenAlex作品记录",
-      "record_id": "wei_bang_jiang_7ae36c838d67",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "wei_bang_jiang",
-      "scholar_name": "姜维邦",
-      "work_title_group": "0da23cd2f67c",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "962dcdf34cdc7e01",
+    "primary_categories_by_scholar": [
+      "姜维邦：脑电基础模型与通用解码",
+      "Yi Ding：脑电基准、数据与评测"
+    ],
+    "dblp_key": "journals/corr/abs-2504-19596",
+    "pdf_url": "https://arxiv.org/pdf/2504.19596",
+    "abstract_en": "Multimodal physiological signals, such as EEG, ECG, EOG, and EMG, are crucial for healthcare and brain-computer interfaces. While existing methods rely on specialized architectures and dataset-specific fusion strategies, they struggle to learn universal representations that generalize across datasets and handle missing modalities at inference time. To address these issues, we propose PhysioOmni, a foundation model for multimodal physiological signal analysis that models both homogeneous and heterogeneous features to decouple multimodal signals and extract generic representations while maintaining compatibility with arbitrary missing modalities. PhysioOmni trains a decoupled multimodal tokenizer, enabling masked signal pre-training via modality-invariant and modality-specific objectives. To ensure adaptability to diverse and incomplete modality combinations, the pre-trained encoders undergo resilient fine-tuning with prototype alignment on downstream datasets. Extensive experiments on four downstream tasks, emotion recognition, sleep stage classification, motor prediction, and mental workload detection, demonstrate that PhysioOmni achieves state-of-the-art performance while maintaining strong robustness to missing modalities. Our code and model weights will be released.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "脑电图、心电图、眼电图和肌电图等多模态生理信号对于医疗保健和脑机接口至关重要。虽然现有方法依赖于专门的架构和特定于数据集的融合策略，但它们很难学习跨数据集泛化的通用表示并在推理时处理缺失的模式。为了解决这些问题，我们提出了 PhysioOmni，这是一种多模态生理信号分析的基础模型，它可以对同质和异质特征进行建模，以解耦多模态信号并提取通用表示，同时保持与任意缺失模态的兼容性。 PhysioOmni 训练解耦的多模态标记..."
+  },
+  {
+    "title": "Hierarchical Emotion Transformer for Multimodal Joint Emotion Category and Intensity Recognition",
+    "title_en": "Hierarchical Emotion Transformer for Multimodal Joint Emotion Category and Intensity Recognition",
+    "title_zh": "用于多模态联合情感类别和强度识别的分层情感变换器。",
+    "year": 2025,
+    "venue": "Lecture notes in computer science",
+    "authors": [
+      "Tian-Fang Ma",
+      "Wei-Bang Jiang",
+      "Wei‐Long Zheng",
+      "Bao‐Liang Lu"
+    ],
+    "doi": "10.1007/978-981-95-4367-0_5",
+    "paper_url": "https://doi.org/10.1007/978-981-95-4367-0_5",
+    "source_url": "https://doi.org/10.1007/978-981-95-4367-0_5",
+    "topics": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言",
+      "情感计算与情绪理解",
+      "多模态与大语言模型"
+    ],
+    "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4416464608",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "83f1b8d2b3404bcf60d5a5d48ed0acea741869a8",
+    "semantic_scholar_author_id": "2152123927",
+    "cited_by_count": 0,
+    "publication_types": "conference-paper",
+    "candidate_source": false,
+    "source_kind": "OpenAlex作品记录",
+    "record_id": "wei_bang_jiang_7ae36c838d67",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wei_bang_jiang",
+    "scholar_name": "姜维邦",
+    "work_title_group": "0da23cd2f67c",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "wei_bang_jiang"
+    ],
+    "scholar_names": [
+      "姜维邦"
+    ],
+    "source_record_ids": [
+      "wei_bang_jiang_7ae36c838d67"
+    ],
+    "scholar_categories": {
+      "wei_bang_jiang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "姜维邦",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Multi-Scale Attention-Based Dense Spatial-Temporal Model for Emotion Induction in Response to Olfactory Stimuli",
-      "title_en": "Multi-Scale Attention-Based Dense Spatial-Temporal Model for Emotion Induction in Response to Olfactory Stimuli",
-      "title_zh": "用于响应嗅觉刺激的情绪诱导的基于多尺度注意的密集时空模型。",
-      "year": 2025,
-      "venue": "IEEE International Conference on Acoustics Speech and Signal Processing",
-      "authors": [
-        "Jianming Zhang",
-        "Wei-Bang Jiang",
-        "Wei‐Long Zheng",
-        "Bao‐Liang Lu"
-      ],
-      "doi": "10.1109/icassp49660.2025.10890298",
-      "paper_url": "https://doi.org/10.1109/icassp49660.2025.10890298",
-      "source_url": "https://doi.org/10.1109/icassp49660.2025.10890298",
-      "topics": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言",
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W4408353157",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "525296275699d8eff50946f590ce6cb46ac0297c",
-      "semantic_scholar_author_id": "2152123927",
-      "cited_by_count": 0,
-      "publication_types": "conference-paper",
-      "candidate_source": false,
-      "source_kind": "OpenAlex作品记录",
-      "record_id": "wei_bang_jiang_02dad4e3884b",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "wei_bang_jiang",
-      "scholar_name": "姜维邦",
-      "work_title_group": "4ac343168fcd",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "e24fd56a258d0d96",
+    "primary_categories_by_scholar": [
+      "姜维邦：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "Hierarchical Emotion Transformer for Multimodal Joint Emotion Category and Intensity Recognition",
+    "title_en": "Hierarchical Emotion Transformer for Multimodal Joint Emotion Category and Intensity Recognition",
+    "title_zh": "用于多模态联合情感类别和强度识别的分层情感转换器。 ICONIP (1) 2025: 64-75",
+    "year": 2025,
+    "venue": "ICONIP (1)",
+    "authors": [
+      "Tian-Fang Ma",
+      "Wei-Bang Jiang",
+      "Wei-Long Zheng",
+      "Bao-Liang Lu"
+    ],
+    "doi": "10.1007/978-981-95-4367-0_5",
+    "paper_url": "https://doi.org/10.1007/978-981-95-4367-0_5",
+    "source_url": "https://doi.org/10.1007/978-981-95-4367-0_5",
+    "topics": [
+      "脑电情感计算与脑电大模型",
+      "情感脑机接口",
+      "脑电情感计算与脑机接口",
+      "情感理解与情感智能",
+      "情感大模型与多模态基础模型",
+      "情感计算与情绪理解",
+      "多模态与大语言模型"
+    ],
+    "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4416464608",
+    "openalex_author_id": "https://openalex.org/A5075803600",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "official institutional profile or publication list",
+    "dblp_key": "conf/iconip/MaJZL25",
+    "translation_source": "Google Translate 批量中文辅助译名；非作者官方中文题名",
+    "record_id": "lu_baoliang_2099b5a453b9",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "全景名单补充",
+      "DBLP来源恢复"
+    ],
+    "classification_basis": "根据题名、来源类型与现有脑电主题分类进行粗分；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "全景名单/DBLP补充条目，需在作者主页或出版商页面进一步核验。",
+    "scholar_id": "lu_baoliang",
+    "scholar_name": "吕宝粮",
+    "work_title_group": "38aafaa8920e",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "lu_baoliang",
+      "wei_bang_jiang",
+      "wei_long_zheng"
+    ],
+    "scholar_names": [
+      "吕宝粮",
+      "姜维邦",
+      "郑伟龙"
+    ],
+    "source_record_ids": [
+      "lu_baoliang_2099b5a453b9"
+    ],
+    "scholar_categories": {
+      "lu_baoliang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "吕宝粮",
+        "secondary_tags": [
+          "全景名单补充",
+          "DBLP来源恢复"
+        ],
+        "confidence": "candidate",
+        "note": "全景名单/DBLP补充条目，需在作者主页或出版商页面进一步核验。"
+      },
+      "wei_bang_jiang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "姜维邦",
+        "secondary_tags": [
+          "脑电情感计算与脑电大模型",
+          "情感脑机接口",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "wei_long_zheng": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "郑伟龙",
+        "secondary_tags": [
+          "脑电情感计算与脑电大模型",
+          "情感脑机接口",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "NeuroLM: A Universal Multi-task Foundation Model for Bridging the Gap between Language and EEG Signals",
-      "title_en": "NeuroLM: A Universal Multi-task Foundation Model for Bridging the Gap between Language and EEG Signals",
-      "title_zh": "NeuroLM：连接语言与脑电信号的通用多任务基础模型",
-      "year": 2025,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "Wei-Bang Jiang"
-      ],
-      "doi": "",
-      "paper_url": "https://arxiv.org/abs/2409.12866",
-      "source_url": "https://arxiv.org/abs/2409.12866",
-      "topics": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言",
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": false,
-      "source_kind": "代表论文/官方页面",
-      "record_id": "wei_bang_jiang_9f7a2e4f621b",
-      "category_id": "eeg_foundation",
-      "primary_category": "脑电基础模型与通用解码",
-      "secondary_tags": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "wei_bang_jiang",
-      "scholar_name": "姜维邦",
-      "work_title_group": "96b19e7e9603",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "112a267049bfef3c",
+    "primary_categories_by_scholar": [
+      "吕宝粮：情感脑电与多模态生理信号",
+      "姜维邦：脑电基础模型与通用解码",
+      "郑伟龙：脑电基础模型与通用解码"
+    ]
+  },
+  {
+    "title": "Multi-Scale Attention-Based Dense Spatial-Temporal Model for Emotion Induction in Response to Olfactory Stimuli",
+    "title_en": "Multi-Scale Attention-Based Dense Spatial-Temporal Model for Emotion Induction in Response to Olfactory Stimuli",
+    "title_zh": "用于响应嗅觉刺激的情绪诱导的基于多尺度注意的密集时空模型。",
+    "year": 2025,
+    "venue": "IEEE International Conference on Acoustics Speech and Signal Processing",
+    "authors": [
+      "Jianming Zhang",
+      "Wei-Bang Jiang",
+      "Wei‐Long Zheng",
+      "Bao‐Liang Lu"
+    ],
+    "doi": "10.1109/icassp49660.2025.10890298",
+    "paper_url": "https://doi.org/10.1109/icassp49660.2025.10890298",
+    "source_url": "https://doi.org/10.1109/icassp49660.2025.10890298",
+    "topics": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言",
+      "脑电情感识别",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4408353157",
+    "openalex_author_id": "https://openalex.org/A5075803600",
+    "semantic_scholar_id": "525296275699d8eff50946f590ce6cb46ac0297c",
+    "semantic_scholar_author_id": "2152123927",
+    "cited_by_count": 1,
+    "publication_types": "conference-paper",
+    "candidate_source": false,
+    "source_kind": "OpenAlex作品记录",
+    "record_id": "wei_bang_jiang_02dad4e3884b",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wei_bang_jiang",
+    "scholar_name": "姜维邦",
+    "work_title_group": "4ac343168fcd",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "wei_bang_jiang",
+      "lu_baoliang",
+      "wei_long_zheng"
+    ],
+    "scholar_names": [
+      "姜维邦",
+      "吕宝粮",
+      "郑伟龙"
+    ],
+    "source_record_ids": [
+      "wei_bang_jiang_02dad4e3884b"
+    ],
+    "scholar_categories": {
+      "wei_bang_jiang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "姜维邦",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "lu_baoliang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "吕宝粮",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言",
+          "脑电情感识别",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "wei_long_zheng": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "郑伟龙",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言",
+          "脑电情感识别",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "SEED-VII: A Multimodal Dataset of Six Basic Emotions With Continuous Labels for Emotion Recognition",
-      "title_en": "SEED-VII: A Multimodal Dataset of Six Basic Emotions With Continuous Labels for Emotion Recognition",
-      "title_zh": "SEED-VII：面向情绪识别、带连续标签的六种基本情绪多模态数据集",
-      "year": 2025,
-      "venue": "IEEE Transactions on Affective Computing",
-      "authors": [
-        "Wei-Bang Jiang",
-        "Xuan-Hao Liu",
-        "Wei-Long Zheng",
-        "Bao-Liang Lu"
-      ],
-      "doi": "10.1109/TAFFC.2024.3485057",
-      "paper_url": "https://www.semanticscholar.org/paper/d7c721bc91664702ba4ba46898491e27573b6c5a",
-      "source_url": "https://www.semanticscholar.org/paper/d7c721bc91664702ba4ba46898491e27573b6c5a",
-      "topics": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言",
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W4403674916",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "d7c721bc91664702ba4ba46898491e27573b6c5a",
-      "semantic_scholar_author_id": "2152123927",
-      "cited_by_count": 109,
-      "publication_types": "article",
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "人工校正辅助译名，非官方",
-      "record_id": "wei_bang_jiang_d169eca259ba",
-      "category_id": "eeg_benchmark",
-      "primary_category": "脑电基准、数据与评测",
-      "secondary_tags": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "wei_bang_jiang",
-      "scholar_name": "姜维邦",
-      "work_title_group": "5bf73685fea7",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "640d3cef061fb3b6",
+    "primary_categories_by_scholar": [
+      "姜维邦：情感脑电与多模态生理信号",
+      "吕宝粮：情感脑电与多模态生理信号",
+      "郑伟龙：情感脑电与多模态生理信号"
+    ],
+    "dblp_key": "conf/icassp/ZhangJZL25",
+    "abstract_en": "Affective Brain-Computer Interfaces (aBCIs) have attracted growing attention due to their potential for decoding human emotional states through electroencephalogram (EEG) signals. However, existing deep learning models often struggle to fully capture both the spatial and temporal dependencies in EEG data, resulting in suboptimal performance in emotion classification. To address these challenges, we propose a novel Multi-Scale Attention-Based Dense Spatial-Temporal Model (MSADM). This model leverages temporal attention, multi-scale dense feature extraction, and attention-based feature fusion to effectively capture and enhance the complicated spatial-temporal dependencies within EEG data, thereby improving the representations. Furthermore, we introduce a new olfactory-based emotion induction paradigm, which effectively mitigates the limitations of traditional visual and auditory stimuli by providing more stable and sustained emotional responses. We also present a novel EEG dataset involving 32 subjects, developed through a pilot study to select appropriate olfactory stimuli. Experimental results demonstrate that our model significantly outperforms existing methods across multiple metrics, demonstrating the effectiveness of both the proposed model and emotion induction paradigm. This study underscores the potential of olfactory stimuli and advanced spatial-temporal modeling techniques for enhancing the robustness and performance of emotion recognition.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "情感脑机接口（aBCIs）因其通过脑电图（EEG）信号解码人类情绪状态的潜力而受到越来越多的关注。然而，现有的深度学习模型通常难以完全捕获脑电图数据中的空间和时间依赖性，导致情绪分类的性能不佳。为了应对这些挑战，我们提出了一种新颖的基于多尺度注意力的密集时空模型（MSADM）。该模型利用时间注意力、多尺度密集特征提取和基于注意力的特征融合来有效捕获和增强脑电图数据中复杂的时空依赖性，从而..."
+  },
+  {
+    "title": "NeuroLM: A Universal Multi-task Foundation Model for Bridging the Gap between Language and EEG Signals",
+    "title_en": "NeuroLM: A Universal Multi-task Foundation Model for Bridging the Gap between Language and EEG Signals",
+    "title_zh": "NeuroLM：连接语言与脑电信号的通用多任务基础模型",
+    "year": 2025,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "Wei-Bang Jiang"
+    ],
+    "doi": "",
+    "paper_url": "https://arxiv.org/abs/2409.12866",
+    "source_url": "https://arxiv.org/abs/2409.12866",
+    "topics": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言",
+      "脑电基础大模型"
+    ],
+    "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "代表论文/官方页面",
+    "record_id": "wei_bang_jiang_9f7a2e4f621b",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码",
+    "secondary_tags": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wei_bang_jiang",
+    "scholar_name": "姜维邦",
+    "work_title_group": "96b19e7e9603",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "wei_bang_jiang"
+    ],
+    "scholar_names": [
+      "姜维邦"
+    ],
+    "source_record_ids": [
+      "wei_bang_jiang_9f7a2e4f621b"
+    ],
+    "scholar_categories": {
+      "wei_bang_jiang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "姜维邦",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Towards Robust Multimodal Physiological Foundation Models: Handling Arbitrary Missing Modalities",
-      "title_en": "Towards Robust Multimodal Physiological Foundation Models: Handling Arbitrary Missing Modalities",
-      "title_zh": "迈向稳健的多模态生理基础模型：处理任意缺失模态",
-      "year": 2025,
-      "venue": "arXiv (Cornell University)",
-      "authors": [
-        "Wei-Bang Jiang",
-        "Fu, Xi",
-        "Ding, Yi",
-        "Cuntai Guan"
-      ],
-      "doi": "10.48550/arxiv.2504.19596",
-      "paper_url": "https://doi.org/10.48550/arxiv.2504.19596",
-      "source_url": "https://doi.org/10.48550/arxiv.2504.19596",
-      "topics": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言",
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W4416899465",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "",
-      "semantic_scholar_author_id": "",
-      "cited_by_count": 0,
-      "publication_types": "preprint",
-      "candidate_source": false,
-      "source_kind": "OpenAlex作品记录",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "wei_bang_jiang_543d76fa5cc6",
-      "category_id": "eeg_foundation",
-      "primary_category": "脑电基础模型与通用解码",
-      "secondary_tags": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "wei_bang_jiang",
-      "scholar_name": "姜维邦",
-      "work_title_group": "678783c248db",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "b400053acdf05e80",
+    "primary_categories_by_scholar": [
+      "姜维邦：脑电基础模型与通用解码"
+    ],
+    "abstract_en": "Large Language models have achieved impressive performance in automated software engineering. Extensive efforts have been made to evaluate the abilities of code LLMs in various aspects, with an increasing number of benchmarks and evaluation frameworks proposed. Apart from the most sought-after capability of code generation, the capability of code comprehension is being granted growing attention. Nevertheless, existing works assessing the code comprehension capability of LLMs exhibit varied limitations. Evaluation frameworks like CRUXEval and REval usually focus on code reasoning tasks over a certain input case, leading to a limited range of execution traces covered, resulting in a loss in code semantics examined and the inability to assess the comprehensive understanding of LLMs concerning the target program. To tackle these challenges, we propose SpecEval, a novel black-box evaluation framework to evaluate code comprehension in LLMs via program specifications. Inspired by the idea that specifications can act as a comprehensive articulation of program behaviors concerning all possible execution traces, we employ formalized program specifications to represent program semantics and perform comprehensive evaluations. In particular, four specification-related tasks are designed meticulously to assess the capability of LLMs from basic to advanced levels. Counterfactual analysis is further conducted to study the performance variance of LLMs under semantics-preserving perturbations. Systematic experiments are conducted on six state-of-the-art LLMs. Extensive experimental results present a below-satisfactory performance of LLMs on specification-related tasks, revealing the limitations of existing LLMs in terms of articulating program semantics with formal specifications. Counterfactual analysis also reveals the sensitivity of LLMs towards semantic-preserving perturbations.",
+    "abstract_source": "arxiv_api",
+    "pdf_url": "https://arxiv.org/pdf/2409.12866.pdf",
+    "abstract_zh": "大型语言模型在自动化软件工程中取得了令人印象深刻的性能。人们在各个方面对代码大语言模型的能力进行了广泛的评估，提出了越来越多的基准和评估框架。除了最受欢迎的代码生成能力之外，代码理解能力也越来越受到关注。然而，评估大语言模型代码理解能力的现有工作表现出不同的局限性。像 CRUXEval 和 REval 这样的评估框架通常专注于特定输入情况下的代码推理任务，导致覆盖的执行轨迹范围有限，从而导致代码损失。"
+  },
+  {
+    "title": "SEED-VII: A Multimodal Dataset of Six Basic Emotions With Continuous Labels for Emotion Recognition",
+    "title_en": "SEED-VII: A Multimodal Dataset of Six Basic Emotions With Continuous Labels for Emotion Recognition",
+    "title_zh": "SEED-VII：面向情绪识别、带连续标签的六种基本情绪多模态数据集",
+    "year": 2025,
+    "venue": "IEEE Transactions on Affective Computing",
+    "authors": [
+      "Wei-Bang Jiang",
+      "Xuan-Hao Liu",
+      "Wei-Long Zheng",
+      "Bao-Liang Lu"
+    ],
+    "doi": "10.1109/TAFFC.2024.3485057",
+    "paper_url": "https://www.semanticscholar.org/paper/d7c721bc91664702ba4ba46898491e27573b6c5a",
+    "source_url": "https://www.semanticscholar.org/paper/d7c721bc91664702ba4ba46898491e27573b6c5a",
+    "topics": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言",
+      "脑电情感识别",
+      "情感计算与情绪理解",
+      "多模态与大语言模型"
+    ],
+    "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4403674916",
+    "openalex_author_id": "https://openalex.org/A5040440605",
+    "semantic_scholar_id": "d7c721bc91664702ba4ba46898491e27573b6c5a",
+    "semantic_scholar_author_id": "2152123927",
+    "cited_by_count": 132,
+    "publication_types": "article",
+    "candidate_source": false,
+    "source_kind": "Semantic Scholar author works",
+    "translation_source": "人工校正辅助译名，非官方",
+    "record_id": "wei_bang_jiang_d169eca259ba",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测",
+    "secondary_tags": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wei_bang_jiang",
+    "scholar_name": "姜维邦",
+    "work_title_group": "5bf73685fea7",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "wei_bang_jiang",
+      "wei_long_zheng",
+      "lu_baoliang"
+    ],
+    "scholar_names": [
+      "姜维邦",
+      "郑伟龙",
+      "吕宝粮"
+    ],
+    "source_record_ids": [
+      "wei_bang_jiang_d169eca259ba",
+      "wei_long_zheng_d169eca259ba"
+    ],
+    "scholar_categories": {
+      "wei_bang_jiang": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "姜维邦",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "wei_long_zheng": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "郑伟龙",
+        "secondary_tags": [
+          "情感脑机接口",
+          "脑电基础模型",
+          "临床脑电解码",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "lu_baoliang": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "吕宝粮",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "CEMOAE: A Dynamic Autoencoder with Masked Channel Modeling for Robust EEG-Based Emotion Recognition",
-      "title_en": "CEMOAE: A Dynamic Autoencoder with Masked Channel Modeling for Robust EEG-Based Emotion Recognition",
-      "title_zh": "CEMOAE：具有掩蔽通道建模的动态自动编码器,用于基于脑电图的鲁棒情绪识别。",
-      "year": 2024,
-      "venue": "IEEE International Conference on Acoustics Speech and Signal Processing",
-      "authors": [
-        "Yu-Ting Lan",
-        "Wei-Bang Jiang",
-        "Wei‐Long Zheng",
-        "Bao‐Liang Lu"
-      ],
-      "doi": "10.1109/icassp48485.2024.10447463",
-      "paper_url": "https://doi.org/10.1109/icassp48485.2024.10447463",
-      "source_url": "https://doi.org/10.1109/icassp48485.2024.10447463",
-      "topics": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言",
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W4392904106",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "48d4efbf52b7a4f95f969e2aa725dc9b89861732",
-      "semantic_scholar_author_id": "2152123927",
-      "cited_by_count": 0,
-      "publication_types": "conference-paper",
-      "candidate_source": false,
-      "source_kind": "OpenAlex作品记录",
-      "record_id": "wei_bang_jiang_5e67db3cd994",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "wei_bang_jiang",
-      "scholar_name": "姜维邦",
-      "work_title_group": "963f1776089f",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "256450ae74a342d0",
+    "primary_categories_by_scholar": [
+      "姜维邦：脑电基准、数据与评测",
+      "郑伟龙：脑电基准、数据与评测",
+      "吕宝粮：脑电基准、数据与评测"
+    ],
+    "dblp_key": "journals/taffco/JiangLZL25",
+    "abstract_en": "Recognizing emotions from physiological signals is a topic that has garnered widespread interest, and research continues to develop novel techniques for perceiving emotions. However, the emergence of deep learning has highlighted the need for comprehensive and high-quality emotional datasets that enable the accurate decoding of human emotions. To systematically explore human emotions, we develop a multimodal dataset consisting of six basic (happiness, sadness, fear, disgust, surprise, and anger) emotions and the neutral emotion, named SEED-VII. This multimodal dataset includes electroencephalography (EEG) and eye movement signals. The seven emotions in SEED-VII are elicited by 80 different videos and fully investigated with continuous labels that indicate the intensity levels of the corresponding emotions. Additionally, we propose a novel Multimodal Adaptive Emotion Transformer (MAET), that can flexibly process both unimodal and multimodal inputs. Adversarial training is utilized in the MAET to mitigate subject discrepancies, which enhances domain generalization. Our extensive experiments, encompassing both subject-dependent and cross-subject conditions, demonstrate the superior performance of the MAET in terms of handling various inputs. Continuous labels are used to filter the data with high emotional intensity, and this strategy is proven to be effective for attaining improved emotion recognition performance. Furthermore, complementary properties between the EEG signals and eye movements and stable neural patterns of the seven emotions are observed.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "从生理信号中识别情绪是一个引起广泛兴趣的话题，并且研究不断开发用于感知情绪的新技术。然而，深度学习的出现凸显了对全面、高质量的情感数据集的需求，以实现人类情感的准确解码。为了系统地探索人类情绪，我们开发了一个多模态数据集，由六种基本情绪（快乐、悲伤、恐惧、厌恶、惊讶和愤怒）和中性情绪组成，命名为 SEED-VII。该多模态数据集包括脑电图 (EEG) 和眼动信号。 SEED-VII 中的七种情绪是由 80 种不同的情绪引发的..."
+  },
+  {
+    "title": "Large Brain Model for Learning Generic Representations with Tremendous EEG Data in BCI",
+    "title_en": "Large Brain Model for Learning Generic Representations with Tremendous EEG Data in BCI",
+    "title_zh": "利用海量脑电数据学习脑机接口通用表征的大脑模型",
+    "year": 2024,
+    "venue": "arXiv (Cornell University)",
+    "authors": [
+      "Wei-Bang Jiang",
+      "Liming Zhao",
+      "Bao‐Liang Lu"
+    ],
+    "doi": "10.48550/arxiv.2405.18765",
+    "paper_url": "https://doi.org/10.48550/arxiv.2405.18765",
+    "source_url": "https://doi.org/10.48550/arxiv.2405.18765",
+    "topics": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言",
+      "脑电情感识别",
+      "脑电基础大模型",
+      "脑机接口与神经解码",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [
+      "lu_baoliang__LU_CODE_LaBraM"
+    ],
+    "code_urls": [
+      "https://github.com/935963004/LaBraM"
+    ],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4399198086",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "cff0f8be64b0edfcaa2cae956851380ae04294be",
+    "semantic_scholar_author_id": "2152123927",
+    "cited_by_count": 0,
+    "publication_types": "preprint",
+    "candidate_source": false,
+    "source_kind": "OpenAlex作品记录",
+    "record_id": "wei_bang_jiang_195ff2021655",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码",
+    "secondary_tags": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wei_bang_jiang",
+    "scholar_name": "姜维邦",
+    "work_title_group": "640886fc8717",
+    "resource_status": "已关联公开代码/数据/模型资源",
+    "scholar_ids": [
+      "wei_bang_jiang"
+    ],
+    "scholar_names": [
+      "姜维邦"
+    ],
+    "source_record_ids": [
+      "wei_bang_jiang_195ff2021655"
+    ],
+    "scholar_categories": {
+      "wei_bang_jiang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "姜维邦",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Du-IN-v2: Unleashing the Power of Vector Quantization for Decoding Cognitive States from Intracranial Neural Signals",
-      "title_en": "Du-IN-v2: Unleashing the Power of Vector Quantization for Decoding Cognitive States from Intracranial Neural Signals",
-      "title_zh": "Du-IN-v2：释放矢量量化的力量，从颅内神经信号中解码认知状态",
-      "year": 2024,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "authors": [
-        "Hui Wen Zheng",
-        "Haiteng Wang",
-        "Wei-Bang Jiang",
-        "Zhongtao Chen",
-        "He Li",
-        "Pei-Yang Lin",
-        "Peng-Hu Wei",
-        "Guoguang Zhao",
-        "Yunzhe Liu"
-      ],
-      "doi": "10.1101/2024.10.16.618686",
-      "paper_url": "https://doi.org/10.1101/2024.10.16.618686",
-      "source_url": "https://doi.org/10.1101/2024.10.16.618686",
-      "topics": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言",
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W4403543598",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "241a2d07d1574bb04e4a33ec6934493c44f28263",
-      "semantic_scholar_author_id": "2152123927",
-      "cited_by_count": 0,
-      "publication_types": "preprint",
-      "candidate_source": false,
-      "source_kind": "OpenAlex作品记录",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "wei_bang_jiang_2ddc53f15578",
-      "category_id": "eeg_foundation",
-      "primary_category": "脑电基础模型与通用解码",
-      "secondary_tags": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "wei_bang_jiang",
-      "scholar_name": "姜维邦",
-      "work_title_group": "b544b5c31a88",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "6a152ab94f79906a",
+    "primary_categories_by_scholar": [
+      "姜维邦：脑电基础模型与通用解码"
+    ],
+    "abstract_en": "The current electroencephalogram (EEG) based deep learning models are typically designed for specific datasets and applications in brain-computer interaction (BCI), limiting the scale of the models and thus diminishing their perceptual capabilities and generalizability. Recently, Large Language Models (LLMs) have achieved unprecedented success in text processing, prompting us to explore the capabilities of Large EEG Models (LEMs). We hope that LEMs can break through the limitations of different task types of EEG datasets, and obtain universal perceptual capabilities of EEG signals through unsupervised pre-training. Then the models can be fine-tuned for different downstream tasks. However, compared to text data, the volume of EEG datasets is generally small and the format varies widely. For example, there can be mismatched numbers of electrodes, unequal length data samples, varied task designs, and low signal-to-noise ratio. To overcome these challenges, we propose a unified foundation model for EEG called Large Brain Model (LaBraM). LaBraM enables cross-dataset learning by segmenting the EEG signals into EEG channel patches. Vector-quantized neural spectrum prediction is used to train a semantically rich neural tokenizer that encodes continuous raw EEG channel patches into compact neural codes. We then pre-train neural Transformers by predicting the original neural codes for the masked EEG channel patches. The LaBraMs were pre-trained on about 2,500 hours of various types of EEG signals from around 20 datasets and validated on multiple different types of downstream tasks. Experiments on abnormal detection, event type classification, emotion recognition, and gait prediction show that our LaBraM outperforms all compared SOTA methods in their respective fields. Our code is available at https://github.com/935963004/LaBraM.",
+    "abstract_source": "arxiv_api",
+    "pdf_url": "https://arxiv.org/pdf/2405.18765.pdf",
+    "abstract_zh": "当前基于脑电图（EEG）的深度学习模型通常是针对脑机交互（BCI）中的特定数据集和应用而设计的，限制了模型的规模，从而削弱了其感知能力和泛化性。最近，大型语言模型（LLM）在文本处理方面取得了前所未有的成功，促使我们探索大型脑电图模型（LEM）的能力。我们希望LEM能够突破不同任务类型脑电数据集的限制，通过无监督的预训练获得脑电信号的通用感知能力。然后可以针对不同的下游任务对模型进行微调。然而，共..."
+  },
+  {
+    "title": "Functional Emotion Transformer for EEG-Assisted Cross-Modal Emotion Recognition",
+    "title_en": "Functional Emotion Transformer for EEG-Assisted Cross-Modal Emotion Recognition",
+    "title_zh": "用于脑电图辅助跨模态情绪识别的功能情绪转换器。",
+    "year": 2024,
+    "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+    "authors": [
+      "Wei-Bang Jiang",
+      "Zi-Yi Li",
+      "Wei-Long Zheng",
+      "Bao-Liang Lu"
+    ],
+    "doi": "10.1109/ICASSP48485.2024.10446937",
+    "paper_url": "https://www.semanticscholar.org/paper/45504ed660e8dac34a7821ffb67bdb076d949a0b",
+    "source_url": "https://www.semanticscholar.org/paper/45504ed660e8dac34a7821ffb67bdb076d949a0b",
+    "topics": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言",
+      "脑电情感识别",
+      "脑电基础大模型",
+      "情感计算与情绪理解",
+      "多模态与大语言模型"
+    ],
+    "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4392909597",
+    "openalex_author_id": "https://openalex.org/A5040440605",
+    "semantic_scholar_id": "45504ed660e8dac34a7821ffb67bdb076d949a0b",
+    "semantic_scholar_author_id": "2152123927",
+    "cited_by_count": 28,
+    "publication_types": "conference-paper",
+    "candidate_source": false,
+    "source_kind": "OpenAlex作品记录",
+    "record_id": "wei_bang_jiang_680233091b68",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wei_bang_jiang",
+    "scholar_name": "姜维邦",
+    "work_title_group": "8a6f90e27f70",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "wei_bang_jiang",
+      "wei_long_zheng",
+      "lu_baoliang"
+    ],
+    "scholar_names": [
+      "姜维邦",
+      "郑伟龙",
+      "吕宝粮"
+    ],
+    "source_record_ids": [
+      "wei_bang_jiang_680233091b68",
+      "wei_long_zheng_680233091b68"
+    ],
+    "scholar_categories": {
+      "wei_bang_jiang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "姜维邦",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "wei_long_zheng": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "郑伟龙",
+        "secondary_tags": [
+          "情感脑机接口",
+          "脑电基础模型",
+          "临床脑电解码",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "lu_baoliang": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "吕宝粮",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言",
+          "脑电情感识别",
+          "脑电基础大模型",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "Du-IN: Discrete units-guided mask modeling for decoding speech from Intracranial Neural signals",
-      "title_en": "Du-IN: Discrete units-guided mask modeling for decoding speech from Intracranial Neural signals",
-      "title_zh": "Du-IN：用于从颅内神经信号中解码语音的离散单元引导掩模建模",
-      "year": 2024,
-      "venue": "Neural Information Processing Systems",
-      "authors": [
-        "Zhongtao Chen",
-        "Li He",
-        "Wei-Bang Jiang",
-        "Peiyang Lin",
-        "Yunzhe Liu",
-        "Haiteng Wang",
-        "Peng-Hu Wei",
-        "Guo-Guang Zhao",
-        "Hui Zheng"
-      ],
-      "doi": "10.48550/arXiv.2405.11459",
-      "paper_url": "https://www.semanticscholar.org/paper/4f323301ff854d2e715bfe92b56eccad2479b216",
-      "source_url": "https://www.semanticscholar.org/paper/4f323301ff854d2e715bfe92b56eccad2479b216",
-      "topics": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言",
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W4415796995",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "4f323301ff854d2e715bfe92b56eccad2479b216",
-      "semantic_scholar_author_id": "2152123927",
-      "cited_by_count": 23,
-      "publication_types": "conference-paper",
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "wei_bang_jiang_135b887ba57c",
-      "category_id": "eeg_foundation",
-      "primary_category": "脑电基础模型与通用解码",
-      "secondary_tags": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "wei_bang_jiang",
-      "scholar_name": "姜维邦",
-      "work_title_group": "7ce97e18f95e",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "becb35dbf7cdbb83",
+    "primary_categories_by_scholar": [
+      "姜维邦：情感脑电与多模态生理信号",
+      "郑伟龙：情感脑电与多模态生理信号",
+      "吕宝粮：脑电基准、数据与评测"
+    ],
+    "dblp_key": "conf/icassp/JiangLZL24",
+    "abstract_en": "Multimodal emotion recognition based on electroencephalography (EEG) and eye movements has attracted increasing attention due to their high performance and complementary properties. However, there are two challenges that hinder its practical applications: the inconvenient EEG data collection and high-cost data annotation. In contrast, eye movements are convenient to obtain and process in real scenarios. To combine high performance of EEG and easy setups of eye tracking, we propose a novel EEG-assisted Contrastive Learning Framework with a Functional Emotion Transformer (ECO-FET) for cross-modal emotion recognition. ECO-FET leverages both the functional brain connectivity and the spectral-spatial-temporal domain of EEG signals simultaneously, which dramatically benefit the learning of eye movements. The whole process consists of three phases: pre-training, test, and fine-tuning. ECO-FET exploits the complementary information provided by multiple modalities during pre-training in order to improve the performance of unimodal models. In the pre-training phase, unlabeled EEG and eye movement data are fed into the model to contrastively learn the emotional latent representations between the two modalities, while in the test phase, eye movements and few labeled EEG samples are used to predict different emotions. Experimental results on three public datasets demonstrate that ECO-FET surpasses the state-of-the-art dramatically.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "基于脑电图（EEG）和眼动的多模态情感识别由于其高性能和互补特性而引起了越来越多的关注。然而，有两个挑战阻碍了其实际应用：脑电数据采集不方便和数据注释成本高。相比之下，眼动在真实场景中更容易获取和处理。为了将脑电图的高性能和眼动追踪的简单设置结合起来，我们提出了一种新颖的脑电图辅助对比学习框架和功能情绪转换器（ECO-FET），用于跨模式情绪识别。 ECO-FET 利用功能性大脑连接和光谱空间..."
+  },
+  {
+    "title": "Large Brain Model for Learning Generic Representations with Tremendous EEG Data in BCI",
+    "title_en": "Large Brain Model for Learning Generic Representations with Tremendous EEG Data in BCI",
+    "title_zh": "用于学习BCI中大量EEG数据的通用表示的大脑模型。",
+    "year": 2024,
+    "venue": "CoRR",
+    "authors": [
+      "Wei-Bang Jiang",
+      "Li-Ming Zhao",
+      "Bao-Liang Lu"
+    ],
+    "doi": "10.48550/ARXIV.2405.18765",
+    "paper_url": "https://doi.org/10.48550/arxiv.2405.18765",
+    "source_url": "https://doi.org/10.48550/arxiv.2405.18765",
+    "topics": [
+      "未分类",
+      "脑电情感识别",
+      "脑电基础大模型",
+      "脑机接口与神经解码",
+      "情感计算与情绪理解"
+    ],
+    "verification": "DBLP作者索引快照；与官方作品集并行保留，待逐条身份核验",
+    "status": "DBLP来源记录/待核验",
+    "resource_ids": [
+      "lu_baoliang__LU_CODE_LaBraM"
+    ],
+    "code_urls": [
+      "https://github.com/935963004/LaBraM"
+    ],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4399198086",
+    "openalex_author_id": "https://openalex.org/A5075803600",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 572,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "DBLP",
+    "dblp_key": "journals/corr/abs-2405-18765",
+    "translation_source": "中文辅助机器译名，已做术语规则校正；非作者官方中文题名",
+    "record_id": "lu_baoliang_c924abc9538f",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "全景名单补充",
+      "DBLP来源恢复"
+    ],
+    "classification_basis": "根据题名、来源类型与现有脑电主题分类进行粗分；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "全景名单/DBLP补充条目，需在作者主页或出版商页面进一步核验。",
+    "scholar_id": "lu_baoliang",
+    "scholar_name": "吕宝粮",
+    "work_title_group": "640886fc8717",
+    "resource_status": "已关联公开代码/数据/模型资源",
+    "scholar_ids": [
+      "lu_baoliang",
+      "wei_bang_jiang"
+    ],
+    "scholar_names": [
+      "吕宝粮",
+      "姜维邦"
+    ],
+    "source_record_ids": [
+      "lu_baoliang_c924abc9538f"
+    ],
+    "scholar_categories": {
+      "lu_baoliang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "吕宝粮",
+        "secondary_tags": [
+          "全景名单补充",
+          "DBLP来源恢复"
+        ],
+        "confidence": "candidate",
+        "note": "全景名单/DBLP补充条目，需在作者主页或出版商页面进一步核验。"
+      },
+      "wei_bang_jiang": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "姜维邦",
+        "secondary_tags": [
+          "未分类",
+          "脑电情感识别",
+          "脑电基础大模型",
+          "脑机接口与神经解码",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "Functional Emotion Transformer for EEG-Assisted Cross-Modal Emotion Recognition",
-      "title_en": "Functional Emotion Transformer for EEG-Assisted Cross-Modal Emotion Recognition",
-      "title_zh": "用于脑电图辅助跨模态情绪识别的功能情绪转换器。",
-      "year": 2024,
-      "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
-      "authors": [
-        "Wei-Bang Jiang",
-        "Zi-Yi Li",
-        "Wei-Long Zheng",
-        "Bao-Liang Lu"
-      ],
-      "doi": "10.1109/ICASSP48485.2024.10446937",
-      "paper_url": "https://www.semanticscholar.org/paper/45504ed660e8dac34a7821ffb67bdb076d949a0b",
-      "source_url": "https://www.semanticscholar.org/paper/45504ed660e8dac34a7821ffb67bdb076d949a0b",
-      "topics": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言",
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W4392909597",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "45504ed660e8dac34a7821ffb67bdb076d949a0b",
-      "semantic_scholar_author_id": "2152123927",
-      "cited_by_count": 21,
-      "publication_types": "conference-paper",
-      "candidate_source": false,
-      "source_kind": "OpenAlex作品记录",
-      "record_id": "wei_bang_jiang_680233091b68",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "wei_bang_jiang",
-      "scholar_name": "姜维邦",
-      "work_title_group": "8a6f90e27f70",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "f05d7ca2ba9ac796",
+    "primary_categories_by_scholar": [
+      "吕宝粮：情感脑电与多模态生理信号",
+      "姜维邦：脑电基准、数据与评测"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2405.18765",
+    "abstract_en": "The current electroencephalogram (EEG) based deep learning models are typically designed for specific datasets and applications in brain-computer interaction (BCI), limiting the scale of the models and thus diminishing their perceptual capabilities and generalizability. Recently, Large Language Models (LLMs) have achieved unprecedented success in text processing, prompting us to explore the capabilities of Large EEG Models (LEMs). We hope that LEMs can break through the limitations of different task types of EEG datasets, and obtain universal perceptual capabilities of EEG signals through unsupervised pre-training. Then the models can be fine-tuned for different downstream tasks. However, compared to text data, the volume of EEG datasets is generally small and the format varies widely. For example, there can be mismatched numbers of electrodes, unequal length data samples, varied task designs, and low signal-to-noise ratio. To overcome these challenges, we propose a unified foundation model for EEG called Large Brain Model (LaBraM). LaBraM enables cross-dataset learning by segmenting the EEG signals into EEG channel patches. Vector-quantized neural spectrum prediction is used to train a semantically rich neural tokenizer that encodes continuous raw EEG channel patches into compact neural codes. We then pre-train neural Transformers by predicting the original neural codes for the masked EEG channel patches. The LaBraMs were pre-trained on about 2,500 hours of various types of EEG signals from around 20 datasets and validated on multiple different types of downstream tasks. Experiments on abnormal detection, event type classification, emotion recognition, and gait prediction show that our LaBraM outperforms all compared SOTA methods in their respective fields. Our code is available at https://github.com/935963004/LaBraM.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "当前基于脑电图（EEG）的深度学习模型通常是针对脑机交互（BCI）中的特定数据集和应用而设计的，限制了模型的规模，从而削弱了其感知能力和泛化性。最近，大型语言模型（LLM）在文本处理方面取得了前所未有的成功，促使我们探索大型脑电图模型（LEM）的能力。我们希望LEM能够突破不同任务类型脑电数据集的限制，通过无监督的预训练获得脑电信号的通用感知能力。然后可以针对不同的下游任务对模型进行微调。然而，共..."
+  },
+  {
+    "title": "CEMOAE: A Dynamic Autoencoder with Masked Channel Modeling for Robust EEG-Based Emotion Recognition",
+    "title_en": "CEMOAE: A Dynamic Autoencoder with Masked Channel Modeling for Robust EEG-Based Emotion Recognition",
+    "title_zh": "CEMOAE：具有掩蔽通道建模的动态自动编码器,用于基于脑电图的鲁棒情绪识别。",
+    "year": 2024,
+    "venue": "IEEE International Conference on Acoustics Speech and Signal Processing",
+    "authors": [
+      "Yu-Ting Lan",
+      "Wei-Bang Jiang",
+      "Wei‐Long Zheng",
+      "Bao‐Liang Lu"
+    ],
+    "doi": "10.1109/icassp48485.2024.10447463",
+    "paper_url": "https://doi.org/10.1109/icassp48485.2024.10447463",
+    "source_url": "https://doi.org/10.1109/icassp48485.2024.10447463",
+    "topics": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言",
+      "脑电情感识别",
+      "脑电基础大模型",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4392904106",
+    "openalex_author_id": "https://openalex.org/A5040440605",
+    "semantic_scholar_id": "48d4efbf52b7a4f95f969e2aa725dc9b89861732",
+    "semantic_scholar_author_id": "2152123927",
+    "cited_by_count": 15,
+    "publication_types": "conference-paper",
+    "candidate_source": false,
+    "source_kind": "OpenAlex作品记录",
+    "record_id": "wei_bang_jiang_5e67db3cd994",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wei_bang_jiang",
+    "scholar_name": "姜维邦",
+    "work_title_group": "963f1776089f",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "wei_bang_jiang",
+      "lu_baoliang",
+      "wei_long_zheng"
+    ],
+    "scholar_names": [
+      "姜维邦",
+      "吕宝粮",
+      "郑伟龙"
+    ],
+    "source_record_ids": [
+      "wei_bang_jiang_5e67db3cd994"
+    ],
+    "scholar_categories": {
+      "wei_bang_jiang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "姜维邦",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "lu_baoliang": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "吕宝粮",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言",
+          "脑电情感识别",
+          "脑电基础大模型",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "wei_long_zheng": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "郑伟龙",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言",
+          "脑电情感识别",
+          "脑电基础大模型",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "Large Brain Model for Learning Generic Representations with Tremendous EEG Data in BCI",
-      "title_en": "Large Brain Model for Learning Generic Representations with Tremendous EEG Data in BCI",
-      "title_zh": "利用海量脑电数据学习脑机接口通用表征的大脑模型",
-      "year": 2024,
-      "venue": "arXiv (Cornell University)",
-      "authors": [
-        "Wei-Bang Jiang",
-        "Liming Zhao",
-        "Bao‐Liang Lu"
-      ],
-      "doi": "10.48550/arxiv.2405.18765",
-      "paper_url": "https://doi.org/10.48550/arxiv.2405.18765",
-      "source_url": "https://doi.org/10.48550/arxiv.2405.18765",
-      "topics": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言",
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W4399198086",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "cff0f8be64b0edfcaa2cae956851380ae04294be",
-      "semantic_scholar_author_id": "2152123927",
-      "cited_by_count": 0,
-      "publication_types": "preprint",
-      "candidate_source": false,
-      "source_kind": "OpenAlex作品记录",
-      "record_id": "wei_bang_jiang_195ff2021655",
-      "category_id": "eeg_foundation",
-      "primary_category": "脑电基础模型与通用解码",
-      "secondary_tags": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "wei_bang_jiang",
-      "scholar_name": "姜维邦",
-      "work_title_group": "640886fc8717",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "ca25baeb4fec214a",
+    "primary_categories_by_scholar": [
+      "姜维邦：情感脑电与多模态生理信号",
+      "吕宝粮：脑电基准、数据与评测",
+      "郑伟龙：脑电基准、数据与评测"
+    ],
+    "dblp_key": "conf/icassp/LanJZL24",
+    "abstract_en": "Emotion recognition through electroencephalography (EEG) has been an area of active research, but the inherent sensitivity of EEG signals to noise and artifacts poses significant challenges, especially in real-world settings. These complications often necessitate the removal of corrupted channels, making it crucial to develop robust models capable of maintaining performance even when few channels are available. To address this, we propose the Corrupted EMOtion AutoEncoder (CEMOAE), an innovative approach that leverages masked channel modeling to maintain robust performance, achieved through three components: masked autoencoder pretraining for robust representation learning, random masked auxiliary task for implicit modeling of channel corruption, and masked auto-repair to explicitly narrow the data distribution gap between high-quality and corrupted EEG signals. Specifically, we first pretrain a masked autoencoder with the dynamic masking strategy for feature extractor initialization and channel recovery. During the finetuning stage, we mask EEG data using the auxiliary task to mimic real-world EEG corruption. We then employ the pretrained autoencoder to repair these signals and finetune the feature extractor for emotion recognition. Experiments on the SEED dataset demonstrate that CEMOAE achieves SOTA performance for emotion recognition under the random channel corruption simulation, validating the effectiveness of the proposed techniques.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "通过脑电图 (EEG) 进行情绪识别一直是一个活跃的研究领域，但脑电图信号对噪声和伪影的固有敏感性带来了重大挑战，尤其是在现实环境中。这些复杂情况通常需要删除损坏的通道，因此开发即使在可用通道很少的情况下也能保持性能的稳健模型至关重要。为了解决这个问题，我们提出了 Corrupted EMOtion AutoEncoder (CEMOAE)，这是一种利用屏蔽通道建模来保持鲁棒性能的创新方法，通过三个组件实现：用于鲁棒表示学习的屏蔽自动编码器预训练、随机屏蔽辅助..."
+  },
+  {
+    "title": "Du-IN-v2: Unleashing the Power of Vector Quantization for Decoding Cognitive States from Intracranial Neural Signals",
+    "title_en": "Du-IN-v2: Unleashing the Power of Vector Quantization for Decoding Cognitive States from Intracranial Neural Signals",
+    "title_zh": "Du-IN-v2：释放矢量量化的力量，从颅内神经信号中解码认知状态",
+    "year": 2024,
+    "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+    "authors": [
+      "Hui Wen Zheng",
+      "Haiteng Wang",
+      "Wei-Bang Jiang",
+      "Zhongtao Chen",
+      "He Li",
+      "Pei-Yang Lin",
+      "Peng-Hu Wei",
+      "Guoguang Zhao",
+      "Yunzhe Liu"
+    ],
+    "doi": "10.1101/2024.10.16.618686",
+    "paper_url": "https://doi.org/10.1101/2024.10.16.618686",
+    "source_url": "https://doi.org/10.1101/2024.10.16.618686",
+    "topics": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言",
+      "脑电基础大模型",
+      "脑机接口与神经解码"
+    ],
+    "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4403543598",
+    "openalex_author_id": "https://openalex.org/A5075803600",
+    "semantic_scholar_id": "241a2d07d1574bb04e4a33ec6934493c44f28263",
+    "semantic_scholar_author_id": "2152123927",
+    "cited_by_count": 0,
+    "publication_types": "preprint",
+    "candidate_source": false,
+    "source_kind": "OpenAlex作品记录",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "wei_bang_jiang_2ddc53f15578",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码",
+    "secondary_tags": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wei_bang_jiang",
+    "scholar_name": "姜维邦",
+    "work_title_group": "b544b5c31a88",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "wei_bang_jiang"
+    ],
+    "scholar_names": [
+      "姜维邦"
+    ],
+    "source_record_ids": [
+      "wei_bang_jiang_2ddc53f15578"
+    ],
+    "scholar_categories": {
+      "wei_bang_jiang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "姜维邦",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "MoGE: Mixture of Graph Experts for Cross-subject Emotion Recognition via Decomposing EEG",
-      "title_en": "MoGE: Mixture of Graph Experts for Cross-subject Emotion Recognition via Decomposing EEG",
-      "title_zh": "MoGE：通过分解脑电图进行跨被试情绪识别的图专家混合。",
-      "year": 2024,
-      "venue": "IEEE International Conference on Bioinformatics and Biomedicine (BIBM)",
-      "authors": [
-        "Xuan-Hao Liu",
-        "Wei-Bang Jiang",
-        "Wei‐Long Zheng",
-        "Bao‐Liang Lu"
-      ],
-      "doi": "10.1109/bibm62325.2024.10822354",
-      "paper_url": "https://doi.org/10.1109/bibm62325.2024.10822354",
-      "source_url": "https://doi.org/10.1109/bibm62325.2024.10822354",
-      "topics": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言",
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W4406259984",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "5a5932cc494794ea14baa419c0ca28efdb97199f",
-      "semantic_scholar_author_id": "2152123927",
-      "cited_by_count": 0,
-      "publication_types": "conference-paper",
-      "candidate_source": false,
-      "source_kind": "OpenAlex作品记录",
-      "record_id": "wei_bang_jiang_0b6d61e4c087",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "wei_bang_jiang",
-      "scholar_name": "姜维邦",
-      "work_title_group": "9f117e30c6d2",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "b1110a7adceb449c",
+    "primary_categories_by_scholar": [
+      "姜维邦：脑电基础模型与通用解码"
+    ],
+    "pdf_url": "https://doi.org/10.1101/2024.10.16.618686",
+    "abstract_en": "While invasive brain-computer interfaces have shown promise for high-performance speech decoding under medical use, the potential of intracranial stereoElectroEncephaloGraphy (sEEG), which causes less damage to patients, remains underexplored. With the rapid progress in representation learning, leveraging abundant pure recordings to further enhance speech decoding becomes increasingly attractive. However, some popular methods pre-train temporal models based on brain-level tokens, overlooking the brain's desynchronization nature; others pre-train spatial-temporal models based on channel-level tokens, yet fail to evaluate them on more challenging tasks, e.g., speech decoding, which demands intricate processing in specific brain regions. To tackle these issues, we introduce a general pre-training framework for speech decoding -- Du-IN-v2, which can extract contextual embeddings based on region-level tokens through discrete codex-guided mask modeling. To further push its limits, we propose Decoupling Product Quantization (DPQ), where different codexes are designed to extract different parts of brain dynamics. Our model achieves SOTA performance on both the 61-word classification task and the 49-syllable sequence classification task, surpassing all baselines. Model comparison and ablation studies reveal that our design choices, including (i) temporal modeling based on region-level tokens by utilizing 1D depthwise convolution to fuse channels in vSMC and STG regions and (ii) self-supervision by discrete decoupling codex-guided mask modeling, significantly contribute to these performances. Collectively, our approach, inspired by neuroscience findings, capitalizing on region-level representations from specific brain regions, is suitable for invasive brain modeling. It marks a promising neuro-inspired AI approach in BCI.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "虽然侵入式脑机接口已显示出在医疗用途中实现高性能语音解码的前景，但对患者造成较小伤害的颅内立体脑电图 (sEEG) 的潜力仍未得到充分开发。随着表征学习的快速进展，利用丰富的纯录音来进一步增强语音解码变得越来越有吸引力。然而，一些流行的方法基于大脑级别的标记来预训练时间模型，忽略了大脑的去同步性质；其他人基于通道级标记预训练时空模型，但无法在更具挑战性的任务上评估它们，例如语音解码，这需要集成..."
+  },
+  {
+    "title": "Du-IN: Discrete units-guided mask modeling for decoding speech from Intracranial Neural signals",
+    "title_en": "Du-IN: Discrete units-guided mask modeling for decoding speech from Intracranial Neural signals",
+    "title_zh": "Du-IN：用于从颅内神经信号中解码语音的离散单元引导掩模建模",
+    "year": 2024,
+    "venue": "Neural Information Processing Systems",
+    "authors": [
+      "Zhongtao Chen",
+      "Li He",
+      "Wei-Bang Jiang",
+      "Peiyang Lin",
+      "Yunzhe Liu",
+      "Haiteng Wang",
+      "Peng-Hu Wei",
+      "Guo-Guang Zhao",
+      "Hui Zheng"
+    ],
+    "doi": "10.48550/arXiv.2405.11459",
+    "paper_url": "https://www.semanticscholar.org/paper/4f323301ff854d2e715bfe92b56eccad2479b216",
+    "source_url": "https://www.semanticscholar.org/paper/4f323301ff854d2e715bfe92b56eccad2479b216",
+    "topics": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言",
+      "脑电基础大模型",
+      "脑机接口与神经解码"
+    ],
+    "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4415796995",
+    "openalex_author_id": "https://openalex.org/A5075803600",
+    "semantic_scholar_id": "4f323301ff854d2e715bfe92b56eccad2479b216",
+    "semantic_scholar_author_id": "2152123927",
+    "cited_by_count": 25,
+    "publication_types": "conference-paper",
+    "candidate_source": false,
+    "source_kind": "Semantic Scholar author works",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "wei_bang_jiang_135b887ba57c",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码",
+    "secondary_tags": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wei_bang_jiang",
+    "scholar_name": "姜维邦",
+    "work_title_group": "7ce97e18f95e",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "wei_bang_jiang"
+    ],
+    "scholar_names": [
+      "姜维邦"
+    ],
+    "source_record_ids": [
+      "wei_bang_jiang_135b887ba57c"
+    ],
+    "scholar_categories": {
+      "wei_bang_jiang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "姜维邦",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "NeuroLM: A Universal Multi-task Foundation Model for Bridging the Gap between Language and EEG Signals",
-      "title_en": "NeuroLM: A Universal Multi-task Foundation Model for Bridging the Gap between Language and EEG Signals",
-      "title_zh": "NeuroLM：连接语言与脑电信号的通用多任务基础模型",
-      "year": 2024,
-      "venue": "arXiv (Cornell University)",
-      "authors": [
-        "Wei-Bang Jiang",
-        "Yansen Wang",
-        "Bao‐Liang Lu",
-        "Li, Dongsheng"
-      ],
-      "doi": "10.48550/arxiv.2409.00101",
-      "paper_url": "https://doi.org/10.48550/arxiv.2409.00101",
-      "source_url": "https://doi.org/10.48550/arxiv.2409.00101",
-      "topics": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言",
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W4402953029",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "9f041275cb5d7ef4a39bd89ea8b8729af8895734",
-      "semantic_scholar_author_id": "2152123927",
-      "cited_by_count": 0,
-      "publication_types": "preprint",
-      "candidate_source": false,
-      "source_kind": "OpenAlex作品记录",
-      "record_id": "wei_bang_jiang_ce5bfcddb5bd",
-      "category_id": "eeg_foundation",
-      "primary_category": "脑电基础模型与通用解码",
-      "secondary_tags": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "wei_bang_jiang",
-      "scholar_name": "姜维邦",
-      "work_title_group": "96b19e7e9603",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "401b29f879d0c513",
+    "primary_categories_by_scholar": [
+      "姜维邦：脑电基础模型与通用解码"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2405.11459",
+    "abstract_en": "Invasive brain-computer interfaces with Electrocorticography (ECoG) have shown promise for high-performance speech decoding in medical applications, but less damaging methods like intracranial stereo-electroencephalography (sEEG) remain underexplored. With rapid advances in representation learning, leveraging abundant recordings to enhance speech decoding is increasingly attractive. However, popular methods often pre-train temporal models based on brain-level tokens, overlooking that brain activities in different regions are highly desynchronized during tasks. Alternatively, they pre-train spatial-temporal models based on channel-level tokens but fail to evaluate them on challenging tasks like speech decoding, which requires intricate processing in specific language-related areas. To address this issue, we collected a well-annotated Chinese word-reading sEEG dataset targeting language-related brain networks from 12 subjects. Using this benchmark, we developed the Du-IN model, which extracts contextual embeddings based on region-level tokens through discrete codex-guided mask modeling. Our model achieves state-of-the-art performance on the 61-word classification task, surpassing all baselines. Model comparisons and ablation studies reveal that our design choices, including (i) temporal modeling based on region-level tokens by utilizing 1D depthwise convolution to fuse channels in the ventral sensorimotor cortex (vSMC) and superior temporal gyrus (STG) and (ii) self-supervision through discrete codex-guided mask modeling, significantly contribute to this performance. Overall, our approach -- inspired by neuroscience findings and capitalizing on region-level representations from specific brain regions -- is suitable for invasive brain modeling and represents a promising neuro-inspired AI approach in brain-computer interfaces.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "带有皮质脑电图 (ECoG) 的侵入式脑机接口已在医疗应用中显示出高性能语音解码的前景，但颅内立体脑电图 (sEEG) 等破坏性较小的方法仍未得到充分探索。随着表征学习的快速发展，利用丰富的录音来增强语音解码越来越有吸引力。然而，流行的方法通常基于大脑级别的标记来预训练时间模型，忽略了任务期间不同区域的大脑活动高度不同步。或者，他们基于通道级标记预训练时空模型，但无法在具有挑战性的任务上对其进行评估..."
+  },
+  {
+    "title": "MoGE: Mixture of Graph Experts for Cross-subject Emotion Recognition via Decomposing EEG",
+    "title_en": "MoGE: Mixture of Graph Experts for Cross-subject Emotion Recognition via Decomposing EEG",
+    "title_zh": "MoGE：通过分解脑电图进行跨被试情绪识别的图专家混合。",
+    "year": 2024,
+    "venue": "IEEE International Conference on Bioinformatics and Biomedicine (BIBM)",
+    "authors": [
+      "Xuan-Hao Liu",
+      "Wei-Bang Jiang",
+      "Wei‐Long Zheng",
+      "Bao‐Liang Lu"
+    ],
+    "doi": "10.1109/bibm62325.2024.10822354",
+    "paper_url": "https://doi.org/10.1109/bibm62325.2024.10822354",
+    "source_url": "https://doi.org/10.1109/bibm62325.2024.10822354",
+    "topics": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言",
+      "脑电情感识别",
+      "情感计算与情绪理解",
+      "智能芯片与计算系统"
+    ],
+    "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [
+      "wei_bang_jiang__auto_code_e12c6ea30d"
+    ],
+    "code_urls": [
+      "https://github.com/XuanhaoLiu/MoGE"
+    ],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4406259984",
+    "openalex_author_id": "https://openalex.org/A5040440605",
+    "semantic_scholar_id": "5a5932cc494794ea14baa419c0ca28efdb97199f",
+    "semantic_scholar_author_id": "2152123927",
+    "cited_by_count": 24,
+    "publication_types": "conference-paper",
+    "candidate_source": false,
+    "source_kind": "OpenAlex作品记录",
+    "record_id": "wei_bang_jiang_0b6d61e4c087",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wei_bang_jiang",
+    "scholar_name": "姜维邦",
+    "work_title_group": "9f117e30c6d2",
+    "resource_status": "已关联公开代码/数据/模型资源",
+    "scholar_ids": [
+      "wei_bang_jiang",
+      "lu_baoliang",
+      "wei_long_zheng"
+    ],
+    "scholar_names": [
+      "姜维邦",
+      "吕宝粮",
+      "郑伟龙"
+    ],
+    "source_record_ids": [
+      "wei_bang_jiang_0b6d61e4c087"
+    ],
+    "scholar_categories": {
+      "wei_bang_jiang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "姜维邦",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "lu_baoliang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "吕宝粮",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "wei_long_zheng": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "郑伟龙",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "REmoNet: Reducing Emotional Label Noise via Multi-regularized Self-supervision",
-      "title_en": "REmoNet: Reducing Emotional Label Noise via Multi-regularized Self-supervision",
-      "title_zh": "REmoNet：通过多重正则化自我监督减少情感标签噪声。",
-      "year": 2024,
-      "venue": "ACM International Conference on Multimedia (ACM MM)",
-      "authors": [
-        "Wei-Bang Jiang",
-        "Yu-Ting Lan",
-        "Bao‐Liang Lu"
-      ],
-      "doi": "10.1145/3664647.3681406",
-      "paper_url": "https://doi.org/10.1145/3664647.3681406",
-      "source_url": "https://doi.org/10.1145/3664647.3681406",
-      "topics": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言",
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W4403792458",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "23c9506775027574f30e32ba63945cdfacaa1188",
-      "semantic_scholar_author_id": "2152123927",
-      "cited_by_count": 0,
-      "publication_types": "conference-paper",
-      "candidate_source": false,
-      "source_kind": "OpenAlex作品记录",
-      "record_id": "wei_bang_jiang_0a091d86dce5",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "wei_bang_jiang",
-      "scholar_name": "姜维邦",
-      "work_title_group": "9a8a845f010e",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "362fd6dfc3ff8233",
+    "primary_categories_by_scholar": [
+      "姜维邦：情感脑电与多模态生理信号",
+      "吕宝粮：情感脑电与多模态生理信号",
+      "郑伟龙：情感脑电与多模态生理信号"
+    ],
+    "dblp_key": "conf/bibm/LiuJZL24",
+    "abstract_en": "Decoding emotions of previously unseen subjects from electroencephalography (EEG) signals is challenging due to the inter-subject variability. Domain Generalization (DG) methods aim to mitigate the domain shift among different subjects. Once trained, a DG model can be directly deployed on new subjects without any calibration phase. While existing DG studies on cross-subject emotion recognition mainly focus on the design of loss function for domain alignment or regularization, we introduce Sparse Mixture of Graph Experts (MoGE) model to explore DG issues from a new perspective, i.e. the design of the neural architecture. In the MoGE model, routers allocate each EEG channel to a specialized expert, thereby facilitating the decomposition of the intricate brain into distinct functional areas. Extensive experiments on three public datasets demonstrate that compared to other DG methods, our MoGE model trained with empirical risk minimization (ERM) achieves the state-of-the-art (SOTA) accuracies, 88.0%, 74.3%, and 81.8% on SEED, SEED-IV, and SEED-V datasets, respectively. Our code is available at https://github.com/XuanhaoLiu/MoGE.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "由于受试者之间存在差异，从脑电图 (EEG) 信号中解码以前未见过的受试者的情绪具有挑战性。领域泛化（DG）方法旨在减轻不同主题之间的领域转移。经过训练后，DG 模型可以直接部署在新受试者上，无需任何校准阶段。虽然现有的跨主题情感识别 DG 研究主要集中在域对齐或正则化的损失函数设计上，但我们引入稀疏混合图专家（MoGE）模型从新的角度（即神经架构的设计）探讨 DG 问题。在 MoGE 模型中，路由器将每个 EEG 通道分配给专门的扩展..."
+  },
+  {
+    "title": "NeuroLM: A Universal Multi-task Foundation Model for Bridging the Gap between Language and EEG Signals",
+    "title_en": "NeuroLM: A Universal Multi-task Foundation Model for Bridging the Gap between Language and EEG Signals",
+    "title_zh": "NeuroLM：连接语言与脑电信号的通用多任务基础模型",
+    "year": 2024,
+    "venue": "arXiv (Cornell University)",
+    "authors": [
+      "Wei-Bang Jiang",
+      "Yansen Wang",
+      "Bao‐Liang Lu",
+      "Li, Dongsheng"
+    ],
+    "doi": "10.48550/arxiv.2409.00101",
+    "paper_url": "https://doi.org/10.48550/arxiv.2409.00101",
+    "source_url": "https://doi.org/10.48550/arxiv.2409.00101",
+    "topics": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言",
+      "脑电基础大模型",
+      "多模态与大语言模型"
+    ],
+    "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4402953029",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "9f041275cb5d7ef4a39bd89ea8b8729af8895734",
+    "semantic_scholar_author_id": "2152123927",
+    "cited_by_count": 0,
+    "publication_types": "preprint",
+    "candidate_source": false,
+    "source_kind": "OpenAlex作品记录",
+    "record_id": "wei_bang_jiang_ce5bfcddb5bd",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码",
+    "secondary_tags": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wei_bang_jiang",
+    "scholar_name": "姜维邦",
+    "work_title_group": "96b19e7e9603",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "wei_bang_jiang"
+    ],
+    "scholar_names": [
+      "姜维邦"
+    ],
+    "source_record_ids": [
+      "wei_bang_jiang_ce5bfcddb5bd"
+    ],
+    "scholar_categories": {
+      "wei_bang_jiang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "姜维邦",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Elastic Graph Transformer Networks for EEG-Based Emotion Recognition",
-      "title_en": "Elastic Graph Transformer Networks for EEG-Based Emotion Recognition",
-      "title_zh": "用于基于EEG的情绪识别的弹性图变换器网络。",
-      "year": 2023,
-      "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
-      "authors": [
-        "Wei-Bang Jiang",
-        "Xue Yan",
-        "Wei-Long Zheng",
-        "Bao-Liang Lu"
-      ],
-      "doi": "10.1109/ICASSP49357.2023.10096511",
-      "paper_url": "https://www.semanticscholar.org/paper/e83aaf7e3030f12ed2aa18c9f17f274546694b8d",
-      "source_url": "https://www.semanticscholar.org/paper/e83aaf7e3030f12ed2aa18c9f17f274546694b8d",
-      "topics": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言",
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W4372260286",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "e83aaf7e3030f12ed2aa18c9f17f274546694b8d",
-      "semantic_scholar_author_id": "2152123927",
-      "cited_by_count": 30,
-      "publication_types": "conference-paper",
-      "candidate_source": false,
-      "source_kind": "OpenAlex作品记录",
-      "record_id": "wei_bang_jiang_b9e9a763c24b",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "wei_bang_jiang",
-      "scholar_name": "姜维邦",
-      "work_title_group": "49d460b4d568",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "69984d05e888ffcb",
+    "primary_categories_by_scholar": [
+      "姜维邦：脑电基础模型与通用解码"
+    ],
+    "abstract_en": "Recent advancements for large-scale pre-training with neural signals such as electroencephalogram (EEG) have shown promising results, significantly boosting the development of brain-computer interfaces (BCIs) and healthcare. However, these pre-trained models often require full fine-tuning on each downstream task to achieve substantial improvements, limiting their versatility and usability, and leading to considerable resource wastage. To tackle these challenges, we propose NeuroLM, the first multi-task foundation model that leverages the capabilities of Large Language Models (LLMs) by regarding EEG signals as a foreign language, endowing the model with multi-task learning and inference capabilities. Our approach begins with learning a text-aligned neural tokenizer through vector-quantized temporal-frequency prediction, which encodes EEG signals into discrete neural tokens. These EEG tokens, generated by the frozen vector-quantized (VQ) encoder, are then fed into an LLM that learns causal EEG information via multi-channel autoregression. Consequently, NeuroLM can understand both EEG and language modalities. Finally, multi-task instruction tuning adapts NeuroLM to various downstream tasks. We are the first to demonstrate that, by specific incorporation with LLMs, NeuroLM unifies diverse EEG tasks within a single model through instruction tuning. The largest variant NeuroLM-XL has record-breaking 1.7B parameters for EEG signal processing, and is pre-trained on a large-scale corpus comprising approximately 25,000-hour EEG data. When evaluated on six diverse downstream datasets, NeuroLM showcases the huge potential of this multi-task learning paradigm.",
+    "abstract_source": "arxiv_api",
+    "pdf_url": "https://arxiv.org/pdf/2409.00101.pdf",
+    "abstract_zh": "脑电图（EEG）等神经信号大规模预训练的最新进展已显示出可喜的结果，显着促进了脑机接口（BCIs）和医疗保健的发展。然而，这些预先训练的模型通常需要对每个下游任务进行全面微调才能实现实质性改进，限制了它们的多功能性和可用性，并导致相当大的资源浪费。为了应对这些挑战，我们提出了 NeuroLM，这是第一个多任务基础模型，它通过将脑电图信号视为外语，利用大语言模型 (LLM) 的功能，赋予模型多任务学习和推理能力..."
+  },
+  {
+    "title": "NeuroLM: A Universal Multi-task Foundation Model for Bridging the Gap between Language and EEG Signals",
+    "title_en": "NeuroLM: A Universal Multi-task Foundation Model for Bridging the Gap between Language and EEG Signals",
+    "title_zh": "NeuroLM：用于弥合语言和脑电图信号之间差距的通用多任务基础模型。",
+    "year": 2024,
+    "venue": "CoRR",
+    "authors": [
+      "Wei-Bang Jiang",
+      "Yansen Wang",
+      "Bao-Liang Lu",
+      "Dongsheng Li"
+    ],
+    "doi": "10.48550/ARXIV.2409.00101",
+    "paper_url": "https://doi.org/10.48550/arxiv.2409.00101",
+    "source_url": "https://doi.org/10.48550/arxiv.2409.00101",
+    "topics": [
+      "未分类",
+      "脑电基础大模型",
+      "多模态与大语言模型"
+    ],
+    "verification": "DBLP作者索引快照；与官方作品集并行保留，待逐条身份核验",
+    "status": "DBLP来源记录/待核验",
+    "resource_ids": [
+      "lu_baoliang__LU_CODE_LU25-NeuroLM",
+      "lu_baoliang__LU_DATA_SEED",
+      "lu_baoliang__LU_DATA_SEED-IV",
+      "lu_baoliang__LU_DATA_SEED-V",
+      "lu_baoliang__LU_DATA_SEED-GER",
+      "lu_baoliang__LU_DATA_SEED-FRA",
+      "lu_baoliang__LU_DATA_TUEG",
+      "lu_baoliang__LU_DATA_TUAB",
+      "lu_baoliang__LU_DATA_TUEV",
+      "lu_baoliang__LU_DATA_TUSL",
+      "lu_baoliang__LU_DATA_HMC",
+      "lu_baoliang__LU_DATA_EEGMAT",
+      "lu_baoliang__LU_DATA_EEGMMIDB",
+      "lu_baoliang__LU_DATA_Siena",
+      "lu_baoliang__LU_DATA_BCI-IV-1",
+      "lu_baoliang__LU_DATA_SPIS",
+      "lu_baoliang__LU_DATA_RestingState2017",
+      "lu_baoliang__LU_DATA_RawEEG2020",
+      "lu_baoliang__LU_DATA_Emobrain",
+      "lu_baoliang__LU_DATA_GraspLift",
+      "lu_baoliang__LU_DATA_InriaBCI",
+      "lu_baoliang__LU_DATA_BI2015a",
+      "lu_baoliang__LU_DATA_OpenWebText",
+      "lu_baoliang__LU_DATA_NeuroLMPrivate"
+    ],
+    "code_urls": [
+      "https://github.com/935963004/NeuroLM"
+    ],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/ApplicationForm/apply_form/",
+      "https://isip.piconepress.com/projects/tuh_eeg/html/downloads.shtml",
+      "https://physionet.org/content/hmc-sleep-staging/1.1/",
+      "https://physionet.org/content/eegmat/1.0.0/",
+      "https://physionet.org/content/eegmmidb/1.0.0/",
+      "https://physionet.org/content/siena-scalp-eeg/1.0.0/",
+      "https://www.bbci.de/competition/iv/download/index.html",
+      "https://github.com/mastaneht/SPIS-Resting-State-Dataset",
+      "https://dataverse.tdl.org/dataverse/rsed2017",
+      "https://doi.org/10.18738/T8/SS2NHB",
+      "https://www.enterface.net/enterface06/",
+      "https://www.kaggle.com/competitions/grasp-and-lift-eeg-detection/data",
+      "https://www.kaggle.com/competitions/inria-bci-challenge/data",
+      "https://zenodo.org/records/3266929",
+      "https://huggingface.co/datasets/Skylion007/openwebtext",
+      "https://arxiv.org/html/2409.00101v3"
+    ],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4402953029",
+    "openalex_author_id": "https://openalex.org/A5075803600",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 93,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "DBLP",
+    "dblp_key": "journals/corr/abs-2409-00101",
+    "translation_source": "中文辅助机器译名，已做术语规则校正；非作者官方中文题名",
+    "record_id": "lu_baoliang_311d26ccee9b",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "全景名单补充",
+      "DBLP来源恢复"
+    ],
+    "classification_basis": "根据题名、来源类型与现有脑电主题分类进行粗分；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "全景名单/DBLP补充条目，需在作者主页或出版商页面进一步核验。",
+    "scholar_id": "lu_baoliang",
+    "scholar_name": "吕宝粮",
+    "work_title_group": "96b19e7e9603",
+    "resource_status": "已关联公开入口；具体访问范围见资源说明",
+    "scholar_ids": [
+      "lu_baoliang",
+      "wei_bang_jiang"
+    ],
+    "scholar_names": [
+      "吕宝粮",
+      "姜维邦"
+    ],
+    "source_record_ids": [
+      "lu_baoliang_311d26ccee9b"
+    ],
+    "scholar_categories": {
+      "lu_baoliang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "吕宝粮",
+        "secondary_tags": [
+          "全景名单补充",
+          "DBLP来源恢复"
+        ],
+        "confidence": "candidate",
+        "note": "全景名单/DBLP补充条目，需在作者主页或出版商页面进一步核验。"
+      },
+      "wei_bang_jiang": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "姜维邦",
+        "secondary_tags": [
+          "未分类",
+          "脑电基础大模型",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "Identifying sex differences in EEG-based emotion recognition using graph convolutional network with attention mechanism",
-      "title_en": "Identifying sex differences in EEG-based emotion recognition using graph convolutional network with attention mechanism",
-      "title_zh": "使用具有注意机制的图卷积网络识别基于脑电图的情绪识别中的性别差异",
-      "year": 2023,
-      "venue": "Journal of Neural Engineering",
-      "authors": [
-        "Dan Peng",
-        "Wei‐Long Zheng",
-        "Luyu Liu",
-        "Wei-Bang Jiang",
-        "Ziyi Li",
-        "Yong Lu",
-        "Bao‐Liang Lu"
-      ],
-      "doi": "10.1088/1741-2552/ad085a",
-      "paper_url": "https://doi.org/10.1088/1741-2552/ad085a",
-      "source_url": "https://doi.org/10.1088/1741-2552/ad085a",
-      "topics": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言",
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W4388038274",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "add9baa7fb9520d0104723211cd6b6124830c51d",
-      "semantic_scholar_author_id": "2152123927",
-      "cited_by_count": 0,
-      "publication_types": "article",
-      "candidate_source": false,
-      "source_kind": "OpenAlex作品记录",
-      "record_id": "wei_bang_jiang_83c490d257d9",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "wei_bang_jiang",
-      "scholar_name": "姜维邦",
-      "work_title_group": "59454266b292",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "686ca40838e0a64d",
+    "primary_categories_by_scholar": [
+      "吕宝粮：情感脑电与多模态生理信号",
+      "姜维邦：脑电基准、数据与评测"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2409.00101",
+    "abstract_en": "Recent advancements for large-scale pre-training with neural signals such as electroencephalogram (EEG) have shown promising results, significantly boosting the development of brain-computer interfaces (BCIs) and healthcare. However, these pre-trained models often require full fine-tuning on each downstream task to achieve substantial improvements, limiting their versatility and usability, and leading to considerable resource wastage. To tackle these challenges, we propose NeuroLM, the first multi-task foundation model that leverages the capabilities of Large Language Models (LLMs) by regarding EEG signals as a foreign language, endowing the model with multi-task learning and inference capabilities. Our approach begins with learning a text-aligned neural tokenizer through vector-quantized temporal-frequency prediction, which encodes EEG signals into discrete neural tokens. These EEG tokens, generated by the frozen vector-quantized (VQ) encoder, are then fed into an LLM that learns causal EEG information via multi-channel autoregression. Consequently, NeuroLM can understand both EEG and language modalities. Finally, multi-task instruction tuning adapts NeuroLM to various downstream tasks. We are the first to demonstrate that, by specific incorporation with LLMs, NeuroLM unifies diverse EEG tasks within a single model through instruction tuning. The largest variant NeuroLM-XL has record-breaking 1.7B parameters for EEG signal processing, and is pre-trained on a large-scale corpus comprising approximately 25,000-hour EEG data. When evaluated on six diverse downstream datasets, NeuroLM showcases the huge potential of this multi-task learning paradigm.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "脑电图（EEG）等神经信号大规模预训练的最新进展已显示出可喜的结果，显着促进了脑机接口（BCIs）和医疗保健的发展。然而，这些预先训练的模型通常需要对每个下游任务进行全面微调才能实现实质性改进，限制了它们的多功能性和可用性，并导致相当大的资源浪费。为了应对这些挑战，我们提出了 NeuroLM，这是第一个多任务基础模型，它通过将脑电图信号视为外语，利用大语言模型 (LLM) 的功能，赋予模型多任务学习和推理能力..."
+  },
+  {
+    "title": "REmoNet: Reducing Emotional Label Noise via Multi-regularized Self-supervision",
+    "title_en": "REmoNet: Reducing Emotional Label Noise via Multi-regularized Self-supervision",
+    "title_zh": "REmoNet：通过多重正则化自我监督减少情感标签噪声。",
+    "year": 2024,
+    "venue": "ACM International Conference on Multimedia (ACM MM)",
+    "authors": [
+      "Wei-Bang Jiang",
+      "Yu-Ting Lan",
+      "Bao‐Liang Lu"
+    ],
+    "doi": "10.1145/3664647.3681406",
+    "paper_url": "https://doi.org/10.1145/3664647.3681406",
+    "source_url": "https://doi.org/10.1145/3664647.3681406",
+    "topics": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4403792458",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "23c9506775027574f30e32ba63945cdfacaa1188",
+    "semantic_scholar_author_id": "2152123927",
+    "cited_by_count": 0,
+    "publication_types": "conference-paper",
+    "candidate_source": false,
+    "source_kind": "OpenAlex作品记录",
+    "record_id": "wei_bang_jiang_0a091d86dce5",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wei_bang_jiang",
+    "scholar_name": "姜维邦",
+    "work_title_group": "9a8a845f010e",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "wei_bang_jiang"
+    ],
+    "scholar_names": [
+      "姜维邦"
+    ],
+    "source_record_ids": [
+      "wei_bang_jiang_0a091d86dce5"
+    ],
+    "scholar_categories": {
+      "wei_bang_jiang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "姜维邦",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
     },
-    {
-      "title": "Multimodal Adaptive Emotion Transformer with Flexible Modality Inputs on A Novel Dataset with Continuous Labels",
-      "title_en": "Multimodal Adaptive Emotion Transformer with Flexible Modality Inputs on A Novel Dataset with Continuous Labels",
-      "title_zh": "具有灵活模态输入的多模态自适应情绪Transformer与连续标签新数据集",
-      "year": 2023,
-      "venue": "ACM International Conference on Multimedia (ACM MM)",
-      "authors": [
-        "Wei-Bang Jiang",
-        "Xuan-Hao Liu",
-        "Wei‐Long Zheng",
-        "Bao‐Liang Lu"
-      ],
-      "doi": "10.1145/3581783.3613797",
-      "paper_url": "https://doi.org/10.1145/3581783.3613797",
-      "source_url": "https://doi.org/10.1145/3581783.3613797",
-      "topics": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言",
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W4387969614",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "a08b89ea7269be93bbe0d7f5f8493471b4d1c39c",
-      "semantic_scholar_author_id": "2152123927",
-      "cited_by_count": 0,
-      "publication_types": "conference-paper",
-      "candidate_source": false,
-      "source_kind": "OpenAlex作品记录",
-      "record_id": "wei_bang_jiang_e264df0864cb",
-      "category_id": "eeg_benchmark",
-      "primary_category": "脑电基准、数据与评测",
-      "secondary_tags": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "wei_bang_jiang",
-      "scholar_name": "姜维邦",
-      "work_title_group": "3f12f6bb1a3d",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "7d228b19a0e3787e",
+    "primary_categories_by_scholar": [
+      "姜维邦：情感脑电与多模态生理信号"
+    ]
+  },
+  {
+    "title": "REmoNet: Reducing Emotional Label Noise via Multi-regularized Self-supervision",
+    "title_en": "REmoNet: Reducing Emotional Label Noise via Multi-regularized Self-supervision",
+    "title_zh": "REmoNet：通过多重正则化自我监督减少情感标签噪声。",
+    "year": 2024,
+    "venue": "ACM Multimedia",
+    "authors": [
+      "Wei-Bang Jiang",
+      "Yu-Ting Lan",
+      "Bao-Liang Lu"
+    ],
+    "doi": "10.1145/3664647.3681406",
+    "paper_url": "https://doi.org/10.1145/3664647.3681406",
+    "source_url": "https://doi.org/10.1145/3664647.3681406",
+    "topics": [
+      "未分类",
+      "脑电情感识别",
+      "脑电基础大模型",
+      "情感计算与情绪理解"
+    ],
+    "verification": "DBLP作者索引快照；与官方作品集并行保留，待逐条身份核验",
+    "status": "DBLP来源记录/待核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4403792458",
+    "openalex_author_id": "https://openalex.org/A5040440605",
+    "semantic_scholar_id": "",
+    "semantic_scholar_author_id": "",
+    "cited_by_count": 15,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "DBLP",
+    "dblp_key": "conf/mm/JiangLL24",
+    "translation_source": "中文辅助机器译名，已做术语规则校正；非作者官方中文题名",
+    "record_id": "lu_baoliang_ae0215f4d079",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "全景名单补充",
+      "DBLP来源恢复"
+    ],
+    "classification_basis": "根据题名、来源类型与现有脑电主题分类进行粗分；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "全景名单/DBLP补充条目，需在作者主页或出版商页面进一步核验。",
+    "scholar_id": "lu_baoliang",
+    "scholar_name": "吕宝粮",
+    "work_title_group": "9a8a845f010e",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "lu_baoliang",
+      "wei_bang_jiang"
+    ],
+    "scholar_names": [
+      "吕宝粮",
+      "姜维邦"
+    ],
+    "source_record_ids": [
+      "lu_baoliang_ae0215f4d079"
+    ],
+    "scholar_categories": {
+      "lu_baoliang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "吕宝粮",
+        "secondary_tags": [
+          "全景名单补充",
+          "DBLP来源恢复"
+        ],
+        "confidence": "candidate",
+        "note": "全景名单/DBLP补充条目，需在作者主页或出版商页面进一步核验。"
+      },
+      "wei_bang_jiang": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "姜维邦",
+        "secondary_tags": [
+          "未分类",
+          "脑电情感识别",
+          "脑电基础大模型",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "Two-Stream Spectral-Temporal Denoising Network for End-to-End Robust EEG-Based Emotion Recognition",
-      "title_en": "Two-Stream Spectral-Temporal Denoising Network for End-to-End Robust EEG-Based Emotion Recognition",
-      "title_zh": "用于端到端基于脑电图的鲁棒情绪识别的双流谱时域去噪网络。",
-      "year": 2023,
-      "venue": "Lecture notes in computer science",
-      "authors": [
-        "Xuan-Hao Liu",
-        "Wei-Bang Jiang",
-        "Wei‐Long Zheng",
-        "Bao‐Liang Lu"
-      ],
-      "doi": "10.1007/978-981-99-8067-3_14",
-      "paper_url": "https://doi.org/10.1007/978-981-99-8067-3_14",
-      "source_url": "https://doi.org/10.1007/978-981-99-8067-3_14",
-      "topics": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言",
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W4388691578",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "3df184111a2d571fcc50976b7aaafba0de5347ea",
-      "semantic_scholar_author_id": "2152123927",
-      "cited_by_count": 0,
-      "publication_types": "conference-paper",
-      "candidate_source": false,
-      "source_kind": "OpenAlex作品记录",
-      "record_id": "wei_bang_jiang_5f25e357b524",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "wei_bang_jiang",
-      "scholar_name": "姜维邦",
-      "work_title_group": "daccdec824a1",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "d90a230c12a4b4bd",
+    "primary_categories_by_scholar": [
+      "吕宝粮：情感脑电与多模态生理信号",
+      "姜维邦：脑电基准、数据与评测"
+    ],
+    "abstract_en": "Emotion recognition based on electroencephalogram (EEG) has garnered increasing attention in recent years due to non-invasiveness and high reliability of EEG measurements. Despite the promising performance achieved by numerous existing methods, several challenges persist. Firstly, there is the challenge of emotional label noise, stemming from the assumption that emotions remain consistently evoked and stable throughout the entirety of video observation. Such an assumption proves difficult to uphold in practical experimental settings, leading to discrepancies between EEG signals and anticipated emotional states. In addition, there's a need for comprehensive capture of temporal-spatial-spectral characteristics of EEG signals and cope with low signal-to-noise ratio (SNR) issues. To tackle these challenges, we propose a comprehensive pipeline named REmoNet, which leverages novel self-supervised techniques and multi-regularized co-learning. Two self-supervised methods, including masked channel modeling via temporal-spectral transformation and emotion contrastive learning, are introduced to facilitate the comprehensive understanding and extraction of emotion-relevant EEG representations during pre-training. Additionally, fine-tuning with multi-regularized co-learning exploits feature-dependent information through intrinsic similarity, resulting in mitigating emotional label noise. Experimental evaluations on two public datasets demonstrate that our proposed approach, REmoNet, surpasses existing state-of-the-art methods, showcasing its effectiveness in simultaneously addressing raw EEG signals and noisy emotional labels.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "近年来，基于脑电图（EEG）的情绪识别由于脑电图测量的非侵入性和高可靠性而受到越来越多的关注。尽管许多现有方法取得了令人鼓舞的性能，但仍然存在一些挑战。首先，存在情绪标签噪音的挑战，源于这样的假设：情绪在整个视频观察过程中保持一致的诱发和稳定。事实证明，这种假设在实际实验环境中很难成立，导致脑电图信号与预期情绪状态之间存在差异。此外，还需要全面捕获时空光谱……"
+  },
+  {
+    "title": "Multimodal Adaptive Emotion Transformer with Flexible Modality Inputs on A Novel Dataset with Continuous Labels",
+    "title_en": "Multimodal Adaptive Emotion Transformer with Flexible Modality Inputs on A Novel Dataset with Continuous Labels",
+    "title_zh": "具有灵活模态输入的多模态自适应情绪Transformer与连续标签新数据集",
+    "year": 2023,
+    "venue": "ACM International Conference on Multimedia (ACM MM)",
+    "authors": [
+      "Wei-Bang Jiang",
+      "Xuan-Hao Liu",
+      "Wei‐Long Zheng",
+      "Bao‐Liang Lu"
+    ],
+    "doi": "10.1145/3581783.3613797",
+    "paper_url": "https://doi.org/10.1145/3581783.3613797",
+    "source_url": "https://doi.org/10.1145/3581783.3613797",
+    "topics": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言",
+      "脑电情感识别",
+      "情感计算与情绪理解",
+      "多模态与大语言模型"
+    ],
+    "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [
+      "lu_baoliang__LU_CODE_MAET"
+    ],
+    "code_urls": [
+      "https://github.com/935963004/MAET"
+    ],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4387969614",
+    "openalex_author_id": "https://openalex.org/A5040440605",
+    "semantic_scholar_id": "a08b89ea7269be93bbe0d7f5f8493471b4d1c39c",
+    "semantic_scholar_author_id": "2152123927",
+    "cited_by_count": 86,
+    "publication_types": "conference-paper",
+    "candidate_source": false,
+    "source_kind": "OpenAlex作品记录",
+    "record_id": "wei_bang_jiang_e264df0864cb",
+    "category_id": "eeg_benchmark",
+    "primary_category": "脑电基准、数据与评测",
+    "secondary_tags": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wei_bang_jiang",
+    "scholar_name": "姜维邦",
+    "work_title_group": "3f12f6bb1a3d",
+    "resource_status": "已关联公开代码/数据/模型资源",
+    "scholar_ids": [
+      "wei_bang_jiang",
+      "lu_baoliang",
+      "wei_long_zheng"
+    ],
+    "scholar_names": [
+      "姜维邦",
+      "吕宝粮",
+      "郑伟龙"
+    ],
+    "source_record_ids": [
+      "wei_bang_jiang_e264df0864cb"
+    ],
+    "scholar_categories": {
+      "wei_bang_jiang": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "姜维邦",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "lu_baoliang": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "吕宝粮",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "wei_long_zheng": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "郑伟龙",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "Increasing the Stability of EEG-based Emotion Recognition with a Variant of Neural Processes",
-      "title_en": "Increasing the Stability of EEG-based Emotion Recognition with a Variant of Neural Processes",
-      "title_zh": "利用神经过程的变体提高基于EEG的情绪识别的稳定性。",
-      "year": 2022,
-      "venue": "International Joint Conference on Neural Networks (IJCNN)",
-      "authors": [
-        "Yankai Liu",
-        "Wei-Bang Jiang",
-        "Bao‐Liang Lu"
-      ],
-      "doi": "10.1109/ijcnn55064.2022.9892825",
-      "paper_url": "https://doi.org/10.1109/ijcnn55064.2022.9892825",
-      "source_url": "https://doi.org/10.1109/ijcnn55064.2022.9892825",
-      "topics": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言",
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W4312274705",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "8f513caf67d7a086aaf13c9171d5f25470579482",
-      "semantic_scholar_author_id": "2152123927",
-      "cited_by_count": 0,
-      "publication_types": "conference-paper",
-      "candidate_source": false,
-      "source_kind": "OpenAlex作品记录",
-      "record_id": "wei_bang_jiang_62f1a9446ffd",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "wei_bang_jiang",
-      "scholar_name": "姜维邦",
-      "work_title_group": "9179dd4d8db7",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "c60238bdf403b987",
+    "primary_categories_by_scholar": [
+      "姜维邦：脑电基准、数据与评测",
+      "吕宝粮：脑电基准、数据与评测",
+      "郑伟龙：脑电基准、数据与评测"
+    ],
+    "dblp_key": "conf/mm/JiangLZL23",
+    "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3581783.3613797",
+    "abstract_en": "Emotion recognition from physiological signals is a topic of widespread interest, and researchers continue to develop novel techniques for perceiving emotions. However, the emergence of deep learning has highlighted the need for high-quality emotional datasets to accurately decode human emotions. In this study, we present a novel multimodal emotion dataset that incorporates electroencephalography (EEG) and eye movement signals to systematically explore human emotions. Seven basic emotions (happy, sad, fear, disgust, surprise, anger, and neutral) are elicited by a large number of 80 videos and fully investigated with continuous labels that indicate the intensity of the corresponding emotions. Additionally, we propose a novel Multimodal Adaptive Emotion Transformer (MAET), that can flexibly process both unimodal and multimodal inputs. Adversarial training is utilized in MAET to mitigate subject discrepancy, which enhances domain generalization. Our extensive experiments, encompassing both subject-dependent and cross-subject conditions, demonstrate MAET's superior performance in handling various inputs. The filtering of data for high emotional evocation using continuous labels proved to be effective in the experiments. Furthermore, the complementary properties between EEG and eye movements are observed. Our code is available at https://github.com/935963004/MAET.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "从生理信号中进行情绪识别是一个广泛关注的话题，研究人员不断开发用于感知情绪的新技术。然而，深度学习的出现凸显了对高质量情感数据集来准确解码人类情感的需求。在这项研究中，我们提出了一种新颖的多模态情感数据集，该数据集结合了脑电图（EEG）和眼动信号来系统地探索人类情感。通过大量 80 个视频引出七种基本情绪（快乐、悲伤、恐惧、厌恶、惊讶、愤怒和中性），并通过连续标签进行充分调查，表明相应情绪的强度......"
+  },
+  {
+    "title": "Identifying sex differences in EEG-based emotion recognition using graph convolutional network with attention mechanism",
+    "title_en": "Identifying sex differences in EEG-based emotion recognition using graph convolutional network with attention mechanism",
+    "title_zh": "使用具有注意机制的图卷积网络识别基于脑电图的情绪识别中的性别差异",
+    "year": 2023,
+    "venue": "Journal of Neural Engineering",
+    "authors": [
+      "Dan Peng",
+      "Wei‐Long Zheng",
+      "Luyu Liu",
+      "Wei-Bang Jiang",
+      "Ziyi Li",
+      "Yong Lu",
+      "Bao‐Liang Lu"
+    ],
+    "doi": "10.1088/1741-2552/ad085a",
+    "paper_url": "https://doi.org/10.1088/1741-2552/ad085a",
+    "source_url": "https://doi.org/10.1088/1741-2552/ad085a",
+    "topics": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言",
+      "脑电情感识别",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4388038274",
+    "openalex_author_id": "https://openalex.org/A5040440605",
+    "semantic_scholar_id": "add9baa7fb9520d0104723211cd6b6124830c51d",
+    "semantic_scholar_author_id": "2152123927",
+    "cited_by_count": 21,
+    "publication_types": "article",
+    "candidate_source": false,
+    "source_kind": "OpenAlex作品记录",
+    "record_id": "wei_bang_jiang_83c490d257d9",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wei_bang_jiang",
+    "scholar_name": "姜维邦",
+    "work_title_group": "59454266b292",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "wei_bang_jiang",
+      "lu_baoliang",
+      "wei_long_zheng"
+    ],
+    "scholar_names": [
+      "姜维邦",
+      "吕宝粮",
+      "郑伟龙"
+    ],
+    "source_record_ids": [
+      "wei_bang_jiang_83c490d257d9"
+    ],
+    "scholar_categories": {
+      "wei_bang_jiang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "姜维邦",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "lu_baoliang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "吕宝粮",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言",
+          "脑电情感识别",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "wei_long_zheng": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "郑伟龙",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言",
+          "脑电情感识别",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "Discriminating Surprise and Anger from EEG and Eye Movements with a Graph Network",
-      "title_en": "Discriminating Surprise and Anger from EEG and Eye Movements with a Graph Network",
-      "title_zh": "用图网络从脑电图和眼动中区分惊讶和愤怒。",
-      "year": 2021,
-      "venue": "IEEE International Conference on Bioinformatics and Biomedicine (BIBM)",
-      "authors": [
-        "Wei-Bang Jiang",
-        "Li-Ming Zhao",
-        "Ping Yi Guo",
-        "Bao‐Liang Lu"
-      ],
-      "doi": "10.1109/bibm52615.2021.9669637",
-      "paper_url": "https://doi.org/10.1109/bibm52615.2021.9669637",
-      "source_url": "https://doi.org/10.1109/bibm52615.2021.9669637",
-      "topics": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言",
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W4206238148",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "e8c3f7ddec0a44926f4d910052cedd68f75d89b3",
-      "semantic_scholar_author_id": "2152123927",
-      "cited_by_count": 0,
-      "publication_types": "conference-paper",
-      "candidate_source": false,
-      "source_kind": "OpenAlex作品记录",
-      "record_id": "wei_bang_jiang_7deedf9eb79a",
-      "category_id": "eeg_foundation",
-      "primary_category": "脑电基础模型与通用解码",
-      "secondary_tags": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "wei_bang_jiang",
-      "scholar_name": "姜维邦",
-      "work_title_group": "4e72a933292d",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "ae21bcb467aaffbb",
+    "primary_categories_by_scholar": [
+      "姜维邦：情感脑电与多模态生理信号",
+      "吕宝粮：情感脑电与多模态生理信号",
+      "郑伟龙：情感脑电与多模态生理信号"
+    ],
+    "abstract_en": "Abstract Objective . Sex differences in emotions have been widely perceived via self-reports, peripheral physiological signals and brain imaging techniques. However, how sex differences are reflected in the electroencephalography (EEG) neural patterns of emotions remains unresolved. In this paper, we detect sex differences in emotional EEG patterns, investigate the consistency of such differences in various emotion datasets across cultures, and study how sex as a factor affects the performance of EEG-based emotion recognition models. Approach . We thoroughly assess sex differences in emotional EEG patterns on five public datasets, including SEED, SEED-IV, SEED-V, DEAP and DREAMER, systematically examine the sex-specific EEG patterns for happy, sad, fearful, disgusted and neutral emotions, and implement deep learning models for sex-specific emotion recognition. Main results . (1) Sex differences exist in various emotion types and both Western and Eastern cultures; (2) The emotion patterns of females are more stable than those of males, and the patterns of happiness from females are in sharp contrast with the patterns of sadness, fear and disgust, while the energy levels are more balanced for males; (3) The key features for emotion recognition are mainly located at the frontal and temporal sites for females and distributed more evenly over the whole brain for males, and (4) the same-sex emotion recognition models outperform the corresponding cross-sex models. Significance . These findings extend efforts to characterize sex differences in emotional brain activation, provide new physiological evidence for sex-specific emotion processing, and reinforce the message that sex differences should be carefully considered in affective research and precision medicine.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "抽象目标。人们通过自我报告、外周生理信号和大脑成像技术广泛认识到情绪上的性别差异。然而，性别差异如何反映在情绪的脑电图（EEG）神经模式中仍然悬而未决。在本文中，我们检测情绪脑电图模式中的性别差异，研究跨文化的各种情绪数据集中这种差异的一致性，并研究性别作为一个因素如何影响基于脑电图的情绪识别模型的性能。方法 。我们在五个公共数据集（包括 SEED、SEED-IV、SEED-V、DEAP 和 DREAMER）上全面评估了情绪脑电图模式的性别差异，系统地..."
+  },
+  {
+    "title": "Two-Stream Spectral-Temporal Denoising Network for End-to-End Robust EEG-Based Emotion Recognition",
+    "title_en": "Two-Stream Spectral-Temporal Denoising Network for End-to-End Robust EEG-Based Emotion Recognition",
+    "title_zh": "用于端到端基于脑电图的鲁棒情绪识别的双流谱时域去噪网络。",
+    "year": 2023,
+    "venue": "Lecture notes in computer science",
+    "authors": [
+      "Xuan-Hao Liu",
+      "Wei-Bang Jiang",
+      "Wei‐Long Zheng",
+      "Bao‐Liang Lu"
+    ],
+    "doi": "10.1007/978-981-99-8067-3_14",
+    "paper_url": "https://doi.org/10.1007/978-981-99-8067-3_14",
+    "source_url": "https://doi.org/10.1007/978-981-99-8067-3_14",
+    "topics": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言",
+      "脑电情感识别",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4388691578",
+    "openalex_author_id": "https://openalex.org/A5075803600",
+    "semantic_scholar_id": "3df184111a2d571fcc50976b7aaafba0de5347ea",
+    "semantic_scholar_author_id": "2152123927",
+    "cited_by_count": 6,
+    "publication_types": "conference-paper",
+    "candidate_source": false,
+    "source_kind": "OpenAlex作品记录",
+    "record_id": "wei_bang_jiang_5f25e357b524",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wei_bang_jiang",
+    "scholar_name": "姜维邦",
+    "work_title_group": "daccdec824a1",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "wei_bang_jiang",
+      "lu_baoliang",
+      "wei_long_zheng"
+    ],
+    "scholar_names": [
+      "姜维邦",
+      "吕宝粮",
+      "郑伟龙"
+    ],
+    "source_record_ids": [
+      "wei_bang_jiang_5f25e357b524"
+    ],
+    "scholar_categories": {
+      "wei_bang_jiang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "姜维邦",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "lu_baoliang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "吕宝粮",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言",
+          "脑电情感识别",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "wei_long_zheng": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "郑伟龙",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言",
+          "脑电情感识别",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "Emotion Transformer Fusion: Complementary Representation Properties of EEG and Eye Movements on Recognizing Anger and Surprise",
-      "title_en": "Emotion Transformer Fusion: Complementary Representation Properties of EEG and Eye Movements on Recognizing Anger and Surprise",
-      "title_zh": "情感Transformer融合:脑电图和眼动在识别愤怒和惊讶时的互补表示特性。",
-      "year": 2021,
-      "venue": "IEEE International Conference on Bioinformatics and Biomedicine (BIBM)",
-      "authors": [
-        "Yiting Wang",
-        "Wei-Bang Jiang",
-        "Rui Li",
-        "Bao‐Liang Lu"
-      ],
-      "doi": "10.1109/bibm52615.2021.9669556",
-      "paper_url": "https://doi.org/10.1109/bibm52615.2021.9669556",
-      "source_url": "https://doi.org/10.1109/bibm52615.2021.9669556",
-      "topics": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言",
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "https://openalex.org/W4206694574",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "599f674f26bf5b4d6677c8a2c7f9e0e9e16f719b",
-      "semantic_scholar_author_id": "2152123927",
-      "cited_by_count": 0,
-      "publication_types": "conference-paper",
-      "candidate_source": false,
-      "source_kind": "OpenAlex作品记录",
-      "record_id": "wei_bang_jiang_387b9278a839",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "wei_bang_jiang",
-      "scholar_name": "姜维邦",
-      "work_title_group": "a3c821a62880",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
+    "global_record_id": "d017975ccf5006d3",
+    "primary_categories_by_scholar": [
+      "姜维邦：情感脑电与多模态生理信号",
+      "吕宝粮：情感脑电与多模态生理信号",
+      "郑伟龙：情感脑电与多模态生理信号"
+    ],
+    "dblp_key": "conf/iconip/LiuJZL23"
+  },
+  {
+    "title": "Elastic Graph Transformer Networks for EEG-Based Emotion Recognition",
+    "title_en": "Elastic Graph Transformer Networks for EEG-Based Emotion Recognition",
+    "title_zh": "用于基于EEG的情绪识别的弹性图变换器网络。",
+    "year": 2023,
+    "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+    "authors": [
+      "Wei-Bang Jiang",
+      "Xue Yan",
+      "Wei-Long Zheng",
+      "Bao-Liang Lu"
+    ],
+    "doi": "10.1109/ICASSP49357.2023.10096511",
+    "paper_url": "https://www.semanticscholar.org/paper/e83aaf7e3030f12ed2aa18c9f17f274546694b8d",
+    "source_url": "https://www.semanticscholar.org/paper/e83aaf7e3030f12ed2aa18c9f17f274546694b8d",
+    "topics": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言",
+      "脑电情感识别",
+      "情感计算与情绪理解",
+      "多模态与大语言模型"
+    ],
+    "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4372260286",
+    "openalex_author_id": "https://openalex.org/A5040440605",
+    "semantic_scholar_id": "e83aaf7e3030f12ed2aa18c9f17f274546694b8d",
+    "semantic_scholar_author_id": "2152123927",
+    "cited_by_count": 38,
+    "publication_types": "conference-paper",
+    "candidate_source": false,
+    "source_kind": "OpenAlex作品记录",
+    "record_id": "wei_bang_jiang_b9e9a763c24b",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wei_bang_jiang",
+    "scholar_name": "姜维邦",
+    "work_title_group": "49d460b4d568",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "wei_bang_jiang",
+      "wei_long_zheng",
+      "lu_baoliang"
+    ],
+    "scholar_names": [
+      "姜维邦",
+      "郑伟龙",
+      "吕宝粮"
+    ],
+    "source_record_ids": [
+      "wei_bang_jiang_b9e9a763c24b",
+      "wei_long_zheng_b9e9a763c24b"
+    ],
+    "scholar_categories": {
+      "wei_bang_jiang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "姜维邦",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "wei_long_zheng": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "郑伟龙",
+        "secondary_tags": [
+          "情感脑机接口",
+          "脑电基础模型",
+          "临床脑电解码",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "lu_baoliang": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "吕宝粮",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
     },
-    {
-      "title": "Network for End-to-End Robust EEG-Based Emotion Recognition",
-      "title_en": "Network for End-to-End Robust EEG-Based Emotion Recognition",
-      "title_zh": "用于端到端鲁棒基于脑电图的情绪识别的网络",
-      "year": null,
-      "venue": "论文/预印本页面",
-      "authors": [
-        "Xuan-Hao Liu",
-        "Wei-Bang Jiang",
-        "Wei-Long Zheng",
-        "Bao-Liang Lu"
-      ],
-      "doi": "",
-      "paper_url": "https://www.semanticscholar.org/paper/60be9acd3e4cc2f44da48ea7a09940d6797c0e6a",
-      "source_url": "https://www.semanticscholar.org/paper/60be9acd3e4cc2f44da48ea7a09940d6797c0e6a",
-      "topics": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言",
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
-      "status": "候选条目/需按作者主页继续核验",
-      "resource_ids": [],
-      "code_urls": [],
-      "data_urls": [],
-      "model_urls": [],
-      "openalex_id": "",
-      "openalex_author_id": "",
-      "semantic_scholar_id": "60be9acd3e4cc2f44da48ea7a09940d6797c0e6a",
-      "semantic_scholar_author_id": "2152123927",
-      "cited_by_count": 0,
-      "publication_types": "",
-      "candidate_source": false,
-      "source_kind": "Semantic Scholar author works",
-      "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
-      "record_id": "wei_bang_jiang_af0918dcd401",
-      "category_id": "eeg_affect",
-      "primary_category": "情感脑电与多模态生理信号",
-      "secondary_tags": [
-        "EEG语言模型",
-        "脑电基础模型",
-        "脑电到语言"
-      ],
-      "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
-      "classification_confidence": "candidate",
-      "classification_note": "主题候选层；身份和完整书目需后续核验。",
-      "scholar_id": "wei_bang_jiang",
-      "scholar_name": "姜维邦",
-      "work_title_group": "f7aeeaa084e0",
-      "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索"
-    }
-  ]
-}
+    "global_record_id": "79f9284273b3f3ac",
+    "primary_categories_by_scholar": [
+      "姜维邦：情感脑电与多模态生理信号",
+      "郑伟龙：情感脑电与多模态生理信号",
+      "吕宝粮：脑电基准、数据与评测"
+    ],
+    "dblp_key": "conf/icassp/JiangYZL23",
+    "abstract_en": "Electroencephalogram (EEG) has been applied in emotion recognition due to excellent temporal resolution with less competitive spatial resolution. This leads to the consequence that the majority of EEG-based emotion recognition models emphasize on exploiting temporal features while ignoring the efficient information provided by spatial resolution. To extract more informative representations, we propose an elastic Graph Transformer network for emotion recognition (EmoGT) inspired by the advantages of Transformer in time-series analysis and the superior performance of graph convolutional networks in topological analysis. Moreover, it is able to be flexibly expanded to cope with multimodal inputs by employing specially designed structures. Experimental results on 3 public datasets demonstrate that our models outperform the state-of-the-art results by 3% on average in both single and multimodal cases, indicating the effectiveness of utilizing temporal and spatial information simultaneously.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "脑电图（EEG）因其出色的时间分辨率和较弱的空间分辨率而被应用于情绪识别。这导致大多数基于脑电图的情感识别模型强调利用时间特征，而忽略了空间分辨率提供的有效信息。为了提取更多信息表示，我们受到 Transformer 在时间序列分析中的优势以及图卷积网络在拓扑分析中的优越性能的启发，提出了一种用于情感识别的弹性图 Transformer 网络（EmoGT）。而且，它能够灵活扩展以应对多模态输入……"
+  },
+  {
+    "title": "Increasing the Stability of EEG-based Emotion Recognition with a Variant of Neural Processes",
+    "title_en": "Increasing the Stability of EEG-based Emotion Recognition with a Variant of Neural Processes",
+    "title_zh": "利用神经过程的变体提高基于EEG的情绪识别的稳定性。",
+    "year": 2022,
+    "venue": "International Joint Conference on Neural Networks (IJCNN)",
+    "authors": [
+      "Yankai Liu",
+      "Wei-Bang Jiang",
+      "Bao‐Liang Lu"
+    ],
+    "doi": "10.1109/ijcnn55064.2022.9892825",
+    "paper_url": "https://doi.org/10.1109/ijcnn55064.2022.9892825",
+    "source_url": "https://doi.org/10.1109/ijcnn55064.2022.9892825",
+    "topics": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言",
+      "脑电情感识别",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4312274705",
+    "openalex_author_id": "https://openalex.org/A5040440605",
+    "semantic_scholar_id": "8f513caf67d7a086aaf13c9171d5f25470579482",
+    "semantic_scholar_author_id": "2152123927",
+    "cited_by_count": 8,
+    "publication_types": "conference-paper",
+    "candidate_source": false,
+    "source_kind": "OpenAlex作品记录",
+    "record_id": "wei_bang_jiang_62f1a9446ffd",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wei_bang_jiang",
+    "scholar_name": "姜维邦",
+    "work_title_group": "9179dd4d8db7",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "wei_bang_jiang",
+      "lu_baoliang"
+    ],
+    "scholar_names": [
+      "姜维邦",
+      "吕宝粮"
+    ],
+    "source_record_ids": [
+      "wei_bang_jiang_62f1a9446ffd"
+    ],
+    "scholar_categories": {
+      "wei_bang_jiang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "姜维邦",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "lu_baoliang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "吕宝粮",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言",
+          "脑电情感识别",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "global_record_id": "fd54fe737c1f963e",
+    "primary_categories_by_scholar": [
+      "姜维邦：情感脑电与多模态生理信号",
+      "吕宝粮：情感脑电与多模态生理信号"
+    ],
+    "dblp_key": "conf/ijcnn/LiuJL22",
+    "abstract_en": "Electroencephalography (EEG) signals provide an incredible promising access to decode human emotions in affective computing. Many approaches have been applied to building EEG-based affective models and much endeavor is made to improve the performance of affective models, where test data has similar quality as training data. However, due to the strong sensitivity of EEG to external factors such as body movement and electromagnetic interference, EEG signals usually have a lot of noise and subjects have to remain as motionless as possible in a quiet environment, which is difficult to be satisfied in real applications and severely influences the user experience. To deal with this problem, a common way is to drop those channels with intensive noise. However, this results in the loss of critical information and neither existing machine learning (ML) nor deep learning (DL) approaches can handle this situation well, especially when too many channels are missed. In this paper, we propose a robust variant of the neural processes model and evaluate the stability of our model under various circumstances to simulate random data corruption in real applications. We conduct two categories of experiments by controlling the number and the places of missing channels separately and compare with classical ML and DL models. The results demonstrate that the performance of our model significantly outperforms the existing models, even using only five channels. We also explore the critical brain regions in the current EEG electrode distribution. Final performance manifests our model has extreme stability in dealing with intractable situations and sheds light on the widespread usage of portable EEG-based affective computing.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "脑电图 (EEG) 信号为在情感计算中解码人类情感提供了令人难以置信的有前景的途径。许多方法已被应用于构建基于脑电图的情感模型，并且人们付出了很多努力来提高情感模型的性能，其中测试数据与训练数据具有相似的质量。然而，由于脑电图对身体运动、电磁干扰等外界因素具有很强的敏感性，脑电图信号通常具有很大的噪声，受试者必须在安静的环境中尽可能保持静止，这在实际应用中很难满足，严重影响用户体验。为了解决这个问题，一个通讯..."
+  },
+  {
+    "title": "Emotion Transformer Fusion: Complementary Representation Properties of EEG and Eye Movements on Recognizing Anger and Surprise",
+    "title_en": "Emotion Transformer Fusion: Complementary Representation Properties of EEG and Eye Movements on Recognizing Anger and Surprise",
+    "title_zh": "情感Transformer融合:脑电图和眼动在识别愤怒和惊讶时的互补表示特性。",
+    "year": 2021,
+    "venue": "IEEE International Conference on Bioinformatics and Biomedicine (BIBM)",
+    "authors": [
+      "Yiting Wang",
+      "Wei-Bang Jiang",
+      "Rui Li",
+      "Bao‐Liang Lu"
+    ],
+    "doi": "10.1109/bibm52615.2021.9669556",
+    "paper_url": "https://doi.org/10.1109/bibm52615.2021.9669556",
+    "source_url": "https://doi.org/10.1109/bibm52615.2021.9669556",
+    "topics": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言",
+      "脑电情感识别",
+      "情感计算与情绪理解",
+      "多模态与大语言模型",
+      "智能芯片与计算系统"
+    ],
+    "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4206694574",
+    "openalex_author_id": "https://openalex.org/A5040440605",
+    "semantic_scholar_id": "599f674f26bf5b4d6677c8a2c7f9e0e9e16f719b",
+    "semantic_scholar_author_id": "2152123927",
+    "cited_by_count": 54,
+    "publication_types": "conference-paper",
+    "candidate_source": false,
+    "source_kind": "OpenAlex作品记录",
+    "record_id": "wei_bang_jiang_387b9278a839",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wei_bang_jiang",
+    "scholar_name": "姜维邦",
+    "work_title_group": "a3c821a62880",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "wei_bang_jiang",
+      "lu_baoliang"
+    ],
+    "scholar_names": [
+      "姜维邦",
+      "吕宝粮"
+    ],
+    "source_record_ids": [
+      "wei_bang_jiang_387b9278a839"
+    ],
+    "scholar_categories": {
+      "wei_bang_jiang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "姜维邦",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "lu_baoliang": {
+        "category_id": "eeg_benchmark",
+        "label": "脑电基准、数据与评测",
+        "scholar_name": "吕宝粮",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "global_record_id": "0d99b06ea6bb24fe",
+    "primary_categories_by_scholar": [
+      "姜维邦：情感脑电与多模态生理信号",
+      "吕宝粮：脑电基准、数据与评测"
+    ],
+    "dblp_key": "conf/bibm/WangJLL21",
+    "abstract_en": "Emotion recognition plays an important role in di-agnosing and treating many mental disorders as well as affective computing. Among six basic emotions, anger and surprise are relatively hard to be elicited in lab settings, and the complementary representation properties of encephalography (EEG) and eye movement signals on recognizing anger and surprise emotions remain unknown. Although the transformer architecture has the ability of parallelism which avoids many sequential operations as recurrent and convolutional layers, the knowledge of its performance and effectiveness on multimodal emotion recognition from EEG and eye movement signals is limited. To tackle these issues, we elaborately design the experiment and stimuli materials to effectively elicit surprise, anger, and neutral emotions, and propose an Emotion Transformer Fusion (ETF) model based on pure attention mechanism. Results of extensive experiments with multiple models on our dataset indicate that the complementary information of EEG and eye movements significantly improves the performance of discriminating anger, surprise and neutral emotions. Meanwhile, our proposed architecture outperforms baseline models with higher parallelism, which proves the capability of Transformer based architecture on multimodal emotion recognition with EEG and eye movement signals.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "情绪识别在诊断和治疗许多精神疾病以及情感计算中发挥着重要作用。在六种基本情绪中，愤怒和惊讶在实验室环境中相对难以引出，并且脑电图（EEG）和眼动信号在识别愤怒和惊讶情绪方面的互补表征特性仍然未知。尽管 Transformer 架构具有并行能力，避免了循环层和卷积层等许多顺序操作，但对其在脑电图和眼动信号多模态情感识别上的性能和有效性的了解仍然有限。针对这些问题，我们精心设计..."
+  },
+  {
+    "title": "Discriminating Surprise and Anger from EEG and Eye Movements with a Graph Network",
+    "title_en": "Discriminating Surprise and Anger from EEG and Eye Movements with a Graph Network",
+    "title_zh": "用图网络从脑电图和眼动中区分惊讶和愤怒。",
+    "year": 2021,
+    "venue": "IEEE International Conference on Bioinformatics and Biomedicine (BIBM)",
+    "authors": [
+      "Wei-Bang Jiang",
+      "Li-Ming Zhao",
+      "Ping Yi Guo",
+      "Bao‐Liang Lu"
+    ],
+    "doi": "10.1109/bibm52615.2021.9669637",
+    "paper_url": "https://doi.org/10.1109/bibm52615.2021.9669637",
+    "source_url": "https://doi.org/10.1109/bibm52615.2021.9669637",
+    "topics": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言",
+      "脑电情感识别",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "https://openalex.org/W4206238148",
+    "openalex_author_id": "https://openalex.org/A5040440605",
+    "semantic_scholar_id": "e8c3f7ddec0a44926f4d910052cedd68f75d89b3",
+    "semantic_scholar_author_id": "2152123927",
+    "cited_by_count": 22,
+    "publication_types": "conference-paper",
+    "candidate_source": false,
+    "source_kind": "OpenAlex作品记录",
+    "record_id": "wei_bang_jiang_7deedf9eb79a",
+    "category_id": "eeg_foundation",
+    "primary_category": "脑电基础模型与通用解码",
+    "secondary_tags": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wei_bang_jiang",
+    "scholar_name": "姜维邦",
+    "work_title_group": "4e72a933292d",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "wei_bang_jiang",
+      "lu_baoliang"
+    ],
+    "scholar_names": [
+      "姜维邦",
+      "吕宝粮"
+    ],
+    "source_record_ids": [
+      "wei_bang_jiang_7deedf9eb79a"
+    ],
+    "scholar_categories": {
+      "wei_bang_jiang": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础模型与通用解码",
+        "scholar_name": "姜维邦",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "lu_baoliang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "吕宝粮",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言",
+          "脑电情感识别",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      }
+    },
+    "global_record_id": "eeb1da8429310872",
+    "primary_categories_by_scholar": [
+      "姜维邦：脑电基础模型与通用解码",
+      "吕宝粮：情感脑电与多模态生理信号"
+    ],
+    "dblp_key": "conf/bibm/JiangZGL21",
+    "abstract_en": "Emotion recognition based on EEG and eye movement signals has been studied extensively due to the reliability and stability of signals. The separability of four basic emotions, happy, sad, disgust and fear, has been systematically studied in the existing work. However, there is less research on the emotions of anger and surprise since they are more difficult to be elicited in lab settings. This paper investigates the discrimination ability of EEG and eye movement signals for surprise and anger. To this end, we design a stimulus paradigm that can effectively elicit surprise and anger. We propose a novel Graph Convolutional Network with Channel Attention (GCNCA) to classify three emotions, anger, surprise and neutrality. Experimental results indicate that: a) the proposed GCNCA model has an excellent classification accuracy of 86.47% using EEG and 84.22% using eye movement signals, which are better than other baseline methods; b) EEG and eye movements have a good ability to discriminate surprise and anger, while EEG performs better than eye movements; c) the high-frequency bands of EEG are more distinguishable on classifying surprise and anger than the low-frequency bands; d) there are some differences in neural patterns between surprise and anger, meanwhile critical channels and channel connections of EEG are found.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "由于信号的可靠性和稳定性，基于脑电图和眼动信号的情绪识别已被广泛研究。现有的工作已经系统地研究了快乐、悲伤、厌恶和恐惧四种基本情绪的可分离性。然而，对愤怒和惊讶情绪的研究较少，因为它们在实验室环境中更难引发。本文研究了脑电图和眼动信号对惊讶和愤怒的辨别能力。为此，我们设计了一种能够有效引发惊讶和愤怒的刺激范式。我们提出了一种新颖的带有通道注意力的图卷积网络（GCNCA）来对三种情绪进行分类，..."
+  },
+  {
+    "title": "Network for End-to-End Robust EEG-Based Emotion Recognition",
+    "title_en": "Network for End-to-End Robust EEG-Based Emotion Recognition",
+    "title_zh": "用于端到端鲁棒基于脑电图的情绪识别的网络",
+    "year": null,
+    "venue": "论文/预印本页面",
+    "authors": [
+      "Xuan-Hao Liu",
+      "Wei-Bang Jiang",
+      "Wei-Long Zheng",
+      "Bao-Liang Lu"
+    ],
+    "doi": "",
+    "paper_url": "https://www.semanticscholar.org/paper/60be9acd3e4cc2f44da48ea7a09940d6797c0e6a",
+    "source_url": "https://www.semanticscholar.org/paper/60be9acd3e4cc2f44da48ea7a09940d6797c0e6a",
+    "topics": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言",
+      "脑电情感识别",
+      "情感计算与情绪理解"
+    ],
+    "verification": "主题筛选候选；已在现有吕宝粮资源范围内-补充作者档案；批量作者作品扩展记录",
+    "status": "候选条目/需按作者主页继续核验",
+    "resource_ids": [],
+    "code_urls": [],
+    "data_urls": [],
+    "model_urls": [],
+    "openalex_id": "",
+    "openalex_author_id": "",
+    "semantic_scholar_id": "60be9acd3e4cc2f44da48ea7a09940d6797c0e6a",
+    "semantic_scholar_author_id": "2152123927",
+    "cited_by_count": 0,
+    "publication_types": "",
+    "candidate_source": false,
+    "source_kind": "Semantic Scholar author works",
+    "translation_source": "中文辅助机器译名；Google Translate public endpoint；未逐篇人工审校",
+    "record_id": "wei_bang_jiang_af0918dcd401",
+    "category_id": "eeg_affect",
+    "primary_category": "情感脑电与多模态生理信号",
+    "secondary_tags": [
+      "EEG语言模型",
+      "脑电基础模型",
+      "脑电到语言"
+    ],
+    "classification_basis": "按候选论文题名、项目资源和主题筛选归类；未逐篇全文审阅。",
+    "classification_confidence": "candidate",
+    "classification_note": "主题候选层；身份和完整书目需后续核验。",
+    "scholar_id": "wei_bang_jiang",
+    "scholar_name": "姜维邦",
+    "work_title_group": "f7aeeaa084e0",
+    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "scholar_ids": [
+      "wei_bang_jiang"
+    ],
+    "scholar_names": [
+      "姜维邦"
+    ],
+    "source_record_ids": [
+      "wei_bang_jiang_af0918dcd401"
+    ],
+    "scholar_categories": {
+      "wei_bang_jiang": {
+        "category_id": "eeg_affect",
+        "label": "情感脑电与多模态生理信号",
+        "scholar_name": "姜维邦",
+        "secondary_tags": [
+          "EEG语言模型",
+          "脑电基础模型",
+          "脑电到语言"
+        ],
+        "confidence": "candidate",
+        "note": "主题候选层；身份和完整书目需后续核验。"
+      }
+    },
+    "global_record_id": "78b5eca8e482728b",
+    "primary_categories_by_scholar": [
+      "姜维邦：情感脑电与多模态生理信号"
+    ]
+  }
+]

@@ -1,1 +1,167 @@
-[]
+[
+  {
+    "id": "panorama_ya_li__auto_dataset_b650881c93",
+    "name": "A Benchmark for Localizing Code and Non-Code Issues in Software Projects — 开源数据集 (somethingone/MULocBench)",
+    "name_zh": "A Benchmark for Localizing Code and Non-Code Issues in Software Projects — 开源数据集",
+    "type": "dataset",
+    "url": "https://huggingface.co/datasets/somethingone/MULocBench",
+    "download_url": "https://huggingface.co/datasets/somethingone/MULocBench",
+    "access": "public",
+    "related_paper_titles": [
+      "A Benchmark for Localizing Code and Non-Code Issues in Software Projects"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://huggingface.co/datasets/somethingone/MULocBench",
+      "https://doi.org/10.48550/ARXIV.2509.25242"
+    ],
+    "description": "从论文《A Benchmark for Localizing Code and Non-Code Issues in Software Projects》原始摘要/预印本说明自动提取并核验的公开 dataset 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "panorama_ya_li",
+    "scholar_name": "李雅",
+    "matched_paper_ids": [
+      "panorama_ya_li_3d8a84fe9fb1ab4c"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "panorama_ya_li::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "李雅：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "panorama_ya_li__auto_code_2d6376be02",
+    "name": "ChemEval: A Comprehensive Multi-Level Chemical Evaluation for Large Language Models — 开源代码 (USTC-StarTeam/ChemEval)",
+    "name_zh": "ChemEval: A Comprehensive Multi-Level Chemical Evaluation for Large Language Models — 开源代码",
+    "type": "code",
+    "url": "https://github.com/USTC-StarTeam/ChemEval",
+    "download_url": "https://github.com/USTC-StarTeam/ChemEval",
+    "access": "public",
+    "related_paper_titles": [
+      "ChemEval: A Comprehensive Multi-Level Chemical Evaluation for Large Language Models"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/USTC-StarTeam/ChemEval",
+      "https://doi.org/10.48550/ARXIV.2409.13989"
+    ],
+    "description": "从论文《ChemEval: A Comprehensive Multi-Level Chemical Evaluation for Large Language Models》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "panorama_ya_li",
+    "scholar_name": "李雅",
+    "matched_paper_ids": [
+      "panorama_ya_li_9d726e3f869e749d"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "panorama_ya_li::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "李雅：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "panorama_ya_li__auto_code_f7d829b07e",
+    "name": "OpenTracer: A Dynamic Transaction Trace Analyzer for Smart Contract Invariant Generation and Beyond — 开源代码 (jeffchen006/OpenTracer)",
+    "name_zh": "OpenTracer: A Dynamic Transaction Trace Analyzer for Smart Contract Invariant Generation and Beyond — 开源代码",
+    "type": "code",
+    "url": "https://github.com/jeffchen006/OpenTracer",
+    "download_url": "https://github.com/jeffchen006/OpenTracer",
+    "access": "public",
+    "related_paper_titles": [
+      "OpenTracer: A Dynamic Transaction Trace Analyzer for Smart Contract Invariant Generation and Beyond"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/jeffchen006/OpenTracer",
+      "https://doi.org/10.1145/3691620.3695361"
+    ],
+    "description": "从论文《OpenTracer: A Dynamic Transaction Trace Analyzer for Smart Contract Invariant Generation and Beyond》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "panorama_ya_li",
+    "scholar_name": "李雅",
+    "matched_paper_ids": [
+      "panorama_ya_li_9aeba669732834a4"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "panorama_ya_li::eeg_foundation"
+    ],
+    "primary_categories": [
+      "李雅：脑电基础模型与通用解码"
+    ]
+  },
+  {
+    "id": "panorama_ya_li__auto_dataset_dc33b68fda",
+    "name": "EqBench: A Dataset of Equivalent and Non-equivalent Program Pairs — 开源数据集 (osf.io/93s5b)",
+    "name_zh": "EqBench: A Dataset of Equivalent and Non-equivalent Program Pairs — 开源数据集",
+    "type": "dataset",
+    "url": "https://osf.io/93s5b",
+    "download_url": "https://osf.io/93s5b",
+    "access": "public",
+    "related_paper_titles": [
+      "EqBench: A Dataset of Equivalent and Non-equivalent Program Pairs"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://osf.io/93s5b",
+      "https://doi.org/10.1109/MSR52588.2021.00084"
+    ],
+    "description": "从论文《EqBench: A Dataset of Equivalent and Non-equivalent Program Pairs》原始摘要/预印本说明自动提取并核验的公开 dataset 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "panorama_ya_li",
+    "scholar_name": "李雅",
+    "matched_paper_ids": [
+      "panorama_ya_li_8c272a489f80f5a1"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "panorama_ya_li::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "李雅：脑电基准、数据与评测"
+    ]
+  },
+  {
+    "id": "panorama_ya_li__auto_code_2cbee4d0fb",
+    "name": "SynParaSpeech: Automated Synthesis of Paralinguistic Datasets for Speech Generation and Understanding — 开源代码 (ShawnPi233/SynParaSpeech)",
+    "name_zh": "SynParaSpeech: Automated Synthesis of Paralinguistic Datasets for Speech Generation and Understanding — 开源代码",
+    "type": "code",
+    "url": "https://github.com/ShawnPi233/SynParaSpeech",
+    "download_url": "https://github.com/ShawnPi233/SynParaSpeech",
+    "access": "public",
+    "related_paper_titles": [
+      "SynParaSpeech: Automated Synthesis of Paralinguistic Datasets for Speech Generation and Understanding"
+    ],
+    "related_paper_titles_zh": [],
+    "author_relation": "论文摘要或官方预印本备注中明确声明的作者公开开源入口。",
+    "evidence_urls": [
+      "https://github.com/ShawnPi233/SynParaSpeech",
+      "https://doi.org/10.1109/icassp55912.2026.11461682"
+    ],
+    "description": "从论文《SynParaSpeech: Automated Synthesis of Paralinguistic Datasets for Speech Generation and Understanding》原始摘要/预印本说明自动提取并核验的公开 code 链接。",
+    "verification": "2026-11-18 摘要开源链接自动提取与归属关联",
+    "notes": "",
+    "scholar_id": "panorama_ya_li",
+    "scholar_name": "李雅",
+    "matched_paper_ids": [
+      "panorama_ya_li_a2b6e6328b41d5e2"
+    ],
+    "unmatched_titles": [],
+    "scholar_category_ids": [
+      "panorama_ya_li::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "李雅：脑电基准、数据与评测"
+    ]
+  }
+]
