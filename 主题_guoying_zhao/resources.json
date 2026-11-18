@@ -130,7 +130,9 @@
     ],
     "primary_categories": [
       "赵国英：情感理解与多模态推理"
-    ]
+    ],
+    "is_dataset_benchmark": true,
+    "dataset_title": "Mark o Savic, Guoying Zhao . Oulu Remote-photoplethysmography Presentation "
   },
   {
     "id": "guoying_zhao__R004",
@@ -575,10 +577,21 @@
       "项目主页/资源说明",
       "项目主页/资源说明"
     ],
-    "matched_paper_ids": [],
+    "matched_paper_ids": [
+      "89388900fd8514e5",
+      "d9db8386df8308ba",
+      "6c3de275b755d183",
+      "eea68b42e3a0de94"
+    ],
     "unmatched_titles": [],
-    "scholar_category_ids": [],
-    "primary_categories": []
+    "scholar_category_ids": [
+      "guoying_zhao::emotion_understanding",
+      "guoying_zhao::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "赵国英：情感理解与多模态推理",
+      "赵国英：情感数据集、基准与评测"
+    ]
   },
   {
     "id": "guoying_zhao__R016",
@@ -608,10 +621,21 @@
       "项目主页/资源说明",
       "项目主页/资源说明"
     ],
-    "matched_paper_ids": [],
+    "matched_paper_ids": [
+      "89388900fd8514e5",
+      "d9db8386df8308ba",
+      "6c3de275b755d183",
+      "eea68b42e3a0de94"
+    ],
     "unmatched_titles": [],
-    "scholar_category_ids": [],
-    "primary_categories": []
+    "scholar_category_ids": [
+      "guoying_zhao::emotion_understanding",
+      "guoying_zhao::emotion_benchmark"
+    ],
+    "primary_categories": [
+      "赵国英：情感理解与多模态推理",
+      "赵国英：情感数据集、基准与评测"
+    ]
   },
   {
     "id": "guoying_zhao__auto_code_6fe0c6b0ab",
@@ -825,7 +849,9 @@
     ],
     "primary_categories": [
       "赵国英：情感数据集、基准与评测"
-    ]
+    ],
+    "is_dataset_benchmark": true,
+    "dataset_title": "FingerVeinSyn-5M — A Million-Scale Dataset and Benchmark for Finger Vein Recognition"
   },
   {
     "id": "guoying_zhao__auto_code_d00c716e13",
@@ -1241,7 +1267,9 @@
     ],
     "primary_categories": [
       "赵国英：情感数据集、基准与评测"
-    ]
+    ],
+    "is_dataset_benchmark": true,
+    "dataset_title": "Flexible-Modal Face Anti-Spoofing: A Benchmark"
   },
   {
     "id": "guoying_zhao__auto_code_e249a36e15",

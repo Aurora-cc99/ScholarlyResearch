@@ -3264,7 +3264,10 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/",
+      "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W4416197779",
     "openalex_author_id": "https://openalex.org/A5032137316",
@@ -5567,7 +5570,10 @@
     ],
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://physionet.org/content/sleep-edfx/1.0.0/",
+      "https://sleepdata.org/datasets/shhs"
+    ],
     "model_urls": [],
     "scholar_categories": {
       "ming_dong": {
@@ -6166,7 +6172,9 @@
     ],
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://www.humanconnectome.org/study/hcp-young-adult"
+    ],
     "model_urls": [],
     "scholar_categories": {
       "ming_dong": {
@@ -7661,7 +7669,9 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://image-net.org/"
+    ],
     "model_urls": [],
     "openalex_id": "",
     "openalex_author_id": "",
@@ -11456,7 +11466,10 @@
     ],
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/",
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html"
+    ],
     "model_urls": [],
     "scholar_categories": {
       "ming_dong": {
@@ -11764,7 +11777,9 @@
     ],
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://fcon_1000.projects.nitrc.org/indi/abide/"
+    ],
     "model_urls": [],
     "scholar_categories": {
       "ming_dong": {
@@ -13146,7 +13161,9 @@
     "code_urls": [
       "https://github.com/Cooper-Gu/S2Net"
     ],
-    "data_urls": [],
+    "data_urls": [
+      "http://braintumorsegmentation.org/"
+    ],
     "model_urls": [],
     "scholar_categories": {
       "ming_dong": {
@@ -14900,7 +14917,9 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://physionet.org/content/chbmit/1.0.0/"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W4405491669",
     "openalex_author_id": "https://openalex.org/A5082279530",
@@ -18756,7 +18775,9 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/seed-vig.html"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W4401437775",
     "openalex_author_id": "https://openalex.org/A5082279530",
@@ -18984,7 +19005,9 @@
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
-      "liang_zhen__auto_code_0567dc4d46"
+      "liang_zhen__auto_code_0567dc4d46",
+      "liang_zhen__LIANG_EXT_SEED",
+      "liang_zhen__LIANG_EXT_DEAP"
     ],
     "status": "DBLP收录记录；发表状态以出版页面为准",
     "verification": "DBLP候选已用官方作者目录、目标ORCID、作者论文机构或作者仓库作正向身份核验",
@@ -19035,7 +19058,11 @@
     "code_urls": [
       "https://github.com/ThreePoundUniverse/MACTN"
     ],
-    "data_urls": [],
+    "data_urls": [
+      "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+      "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/",
+      "https://bcmi.sjtu.edu.cn/home/seed/"
+    ],
     "model_urls": [],
     "scholar_ids": [
       "liang_zhen",
@@ -24858,7 +24885,9 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://bci.med.tsinghua.edu.cn/download.html"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W4313140752",
     "openalex_author_id": "https://openalex.org/A5082279530",
@@ -26956,7 +26985,9 @@
     ],
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/"
+    ],
     "model_urls": [],
     "scholar_categories": {
       "ming_dong": {
@@ -27700,7 +27731,9 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://www.bbci.de/competition/iii/"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W4323364254",
     "openalex_author_id": "https://openalex.org/A5082279530",
@@ -30480,7 +30513,9 @@
     ],
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://physionet.org/content/sleep-edfx/1.0.0/"
+    ],
     "model_urls": [],
     "scholar_categories": {
       "ming_dong": {
@@ -33788,7 +33823,9 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://physionet.org/content/sleep-edfx/1.0.0/"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W4313454600",
     "openalex_author_id": "https://openalex.org/A5032137316",

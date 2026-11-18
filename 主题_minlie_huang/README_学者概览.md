@@ -5,7 +5,7 @@
 - **身份/单位**：清华大学计算机科学与技术系、人工智能研究院；CoAI交互式人工智能课题组
 - **英文姓名**：Minlie Huang · **ORCID**：[0000-0001-7111-1849](https://orcid.org/0000-0001-7111-1849) · **DBLP**：[47/6668](https://dblp.org/pid/47/6668.html)
 - **外部身份依据**：[身份源1](https://coai.cs.tsinghua.edu.cn/hml) · [身份源2](https://www.cs.tsinghua.edu.cn/csen/info/1312/4387.htm) · [身份源3](https://coai.cs.tsinghua.edu.cn/hw-ai/publications.html) · [身份源4](https://orcid.org/0000-0001-7111-1849) · [身份源5](https://dblp.org/pid/47/6668.html) · [身份源6](https://openalex.org/A5044042138) · [身份源7](https://openalex.org/A5160103003)
-- **本轮核验书目记录**：**447** 条（其中含中英文摘要 **388** 条）；**开源资源入口**：**87** 条；**已关联资源的论文**：**92** 篇。
+- **本轮核验书目记录**：**447** 条（其中含中英文摘要 **388** 条）；**开源资源入口**：**87** 条；**已关联资源的论文**：**93** 篇。
 
 [论文分类目录](论文分类目录.md) · [按年份查看全部论文](全部论文.md) · [论文CSV](papers.csv) · [BibTeX](papers.bib) · [代码与项目](代码与项目.md) · [数据集与模型](数据集与模型.md) · [资源CSV](resources.csv) · [核验与缺口](核验与缺口.md) · [返回总导航](../README_总导航.md)
 

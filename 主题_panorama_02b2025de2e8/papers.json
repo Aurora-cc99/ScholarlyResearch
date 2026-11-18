@@ -305,7 +305,10 @@
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "http://casme.psych.ac.cn/casme/e2",
+      "http://www2.docm.mmu.ac.uk/STAFF/M.Yap/dataset.php"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W7147563543",
     "openalex_author_id": "https://openalex.org/A5027316177",
@@ -608,7 +611,9 @@
     "code_urls": [
       "https://github.com/DY9910/MFMC"
     ],
-    "data_urls": [],
+    "data_urls": [
+      "https://mahnob-db.eu/hci-tagging/"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W7162105824",
     "openalex_author_id": "https://openalex.org/A5049516313",
@@ -1160,7 +1165,9 @@
     "code_urls": [
       "https://github.com/APAL-SEU/AVI6"
     ],
-    "data_urls": [],
+    "data_urls": [
+      "https://github.com/APAL-SEU/AVI6"
+    ],
     "model_urls": [],
     "scholar_categories": {
       "wenming_zheng": {
@@ -1960,7 +1967,9 @@
     ],
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://www.eecs.qmul.ac.uk/mmv/datasets/amigos/"
+    ],
     "model_urls": [],
     "scholar_categories": {
       "panorama_02b2025de2e8": {
@@ -2357,7 +2366,9 @@
     "code_urls": [
       "https://github.com/cwi-dis/CEAP-360VR-Dataset"
     ],
-    "data_urls": [],
+    "data_urls": [
+      "https://github.com/cwi-dis/CEAP-360VR-Dataset"
+    ],
     "model_urls": [],
     "scholar_categories": {
       "panorama_02b2025de2e8": {

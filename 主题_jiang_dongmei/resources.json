@@ -251,7 +251,9 @@
     "primary_categories": [
       "蒋冬梅：脑电基准、数据与评测",
       "李雅：脑电基准、数据与评测"
-    ]
+    ],
+    "is_dataset_benchmark": true,
+    "dataset_title": "AVES — An Audio-Visual Emotion Stream Dataset for Temporal Emotion Detec"
   },
   {
     "id": "jiang_dongmei__R007",
@@ -429,10 +431,18 @@
       "项目主页/资源说明",
       "项目主页/资源说明"
     ],
-    "matched_paper_ids": [],
+    "matched_paper_ids": [
+      "835af14096975c3c"
+    ],
     "unmatched_titles": [],
-    "scholar_category_ids": [],
-    "primary_categories": []
+    "scholar_category_ids": [
+      "jiang_dongmei::eeg_benchmark",
+      "panorama_ya_li::eeg_benchmark"
+    ],
+    "primary_categories": [
+      "蒋冬梅：脑电基准、数据与评测",
+      "李雅：脑电基准、数据与评测"
+    ]
   },
   {
     "id": "jiang_dongmei__R012",

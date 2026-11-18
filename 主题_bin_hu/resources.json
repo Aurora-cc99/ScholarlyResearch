@@ -136,7 +136,9 @@
     ],
     "primary_categories": [
       "胡斌：脑电基准、数据与评测"
-    ]
+    ],
+    "is_dataset_benchmark": true,
+    "dataset_title": "MODMA dataset: a Multi-modal Open Dataset for Mental-disorder Analysis"
   },
   {
     "id": "bin_hu__R004",
@@ -953,8 +955,8 @@
   },
   {
     "id": "bin_hu__auto_dataset_58a4eb5cc0",
-    "name": "MODF-SIR: A Multi-agent Omni-modal Distilled Framework for Social Intelligence Reasoning — 开源数据集 (Harry-1234/IntentRouterTrain)",
-    "name_zh": "MODF-SIR: A Multi-agent Omni-modal Distilled Framework for Social Intelligence Reasoning — 开源数据集",
+    "name": "MODF-SIR (Harry-1234/IntentRouterTrain)",
+    "name_zh": "MODF-SIR (Harry-1234/IntentRouterTrain)",
     "type": "dataset",
     "url": "https://huggingface.co/datasets/Harry-1234/IntentRouterTrain",
     "download_url": "https://huggingface.co/datasets/Harry-1234/IntentRouterTrain",

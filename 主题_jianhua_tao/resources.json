@@ -300,8 +300,8 @@
   },
   {
     "id": "jianhua_tao__auto_dataset_b1a3c93af8",
-    "name": "SceneFake: An initial dataset and benchmarks for scene fake audio detection — 开源数据集 (record/7663324)",
-    "name_zh": "SceneFake：场景假音频检测的初始数据集和基准 — 开源数据集",
+    "name": "SceneFake 数据集",
+    "name_zh": "SceneFake 数据集",
     "type": "dataset",
     "url": "https://zenodo.org/record/7663324",
     "download_url": "https://zenodo.org/record/7663324",
@@ -405,8 +405,8 @@
   },
   {
     "id": "jianhua_tao__auto_dataset_ad113fd9fb",
-    "name": "Half-Truth: A Partially Fake Audio Detection Dataset — 开源数据集 (records/10377492)",
-    "name_zh": "半真半假：部分虚假的音频检测数据集 — 开源数据集",
+    "name": "Half-Truth 数据集",
+    "name_zh": "Half-Truth 数据集",
     "type": "dataset",
     "url": "https://zenodo.org/records/10377492",
     "download_url": "https://zenodo.org/records/10377492",
@@ -634,7 +634,9 @@
     ],
     "primary_categories": [
       "陶建华：脑电基准、数据与评测"
-    ]
+    ],
+    "is_dataset_benchmark": true,
+    "dataset_title": "MINT — a Multi-modal Image and Narrative Text Dubbing Dataset for Foley "
   },
   {
     "id": "jianhua_tao__auto_code_71fcedfb58",
@@ -671,8 +673,8 @@
   },
   {
     "id": "jianhua_tao__auto_dataset_44b3267516",
-    "name": "System Fingerprints Detection for DeepFake Audio: An Initial Dataset and Investigation — 开源数据集 (records/13318702)",
-    "name_zh": "System Fingerprints Detection for DeepFake Audio: An Initial Dataset and Investigation — 开源数据集",
+    "name": "System Fingerprints Detection for DeepFake… (Zenodo 13318702)",
+    "name_zh": "System Fingerprints Detection for DeepFake… (Zenodo 13318702)",
     "type": "dataset",
     "url": "https://zenodo.org/records/13318702",
     "download_url": "https://zenodo.org/records/13318702",
@@ -704,8 +706,8 @@
   },
   {
     "id": "jianhua_tao__auto_dataset_44319ab269",
-    "name": "System Fingerprints Detection for DeepFake Audio: An Initial Dataset and Investigation — 开源数据集 (records/13340666)",
-    "name_zh": "System Fingerprints Detection for DeepFake Audio: An Initial Dataset and Investigation — 开源数据集",
+    "name": "System Fingerprints Detection for DeepFake… (Zenodo 13340666)",
+    "name_zh": "System Fingerprints Detection for DeepFake… (Zenodo 13340666)",
     "type": "dataset",
     "url": "https://zenodo.org/records/13340666",
     "download_url": "https://zenodo.org/records/13340666",
