@@ -455,6 +455,13 @@
     return '文档浏览.html?doc=' + encodeURIComponent(docPath);
   }
 
+  const CACHE_VER = '20261118v2';
+  function withCacheVer(src) {
+    const s = String(src || '');
+    if (!s || (typeof location !== 'undefined' && location.protocol === 'file:')) return s;
+    return s + (s.includes('?') ? '&' : '?') + 'v=' + CACHE_VER;
+  }
+
   let _shardsLoadPromise = null;
   function loadAllPaperShards(db) {
     if (!db) return Promise.reject(new Error('Missing SCHOLAR_DB'));
@@ -471,7 +478,7 @@
     }
     _shardsLoadPromise = Promise.all(db.shards.papers.map(src => new Promise((resolve, reject) => {
       const s = document.createElement('script');
-      s.src = src;
+      s.src = withCacheVer(src);
       s.async = true;
       s.onload = () => resolve();
       s.onerror = () => reject(new Error('Failed to load shard: ' + src));
@@ -507,7 +514,7 @@
     if (!_loadedAbsBuckets.has(bKey)) {
       _loadedAbsBuckets.set(bKey, new Promise(resolve => {
         const s = document.createElement('script');
-        s.src = 'data/abstracts/bucket-' + bKey + '.js';
+        s.src = withCacheVer('data/abstracts/bucket-' + bKey + '.js');
         s.async = true;
         s.onload = () => resolve();
         s.onerror = () => resolve();

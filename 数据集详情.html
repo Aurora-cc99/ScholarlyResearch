@@ -43,8 +43,8 @@ header p{margin:5px 0 0;color:#d2e4eb;font-size:14px}
   <p>数据集名称、下载/申请入口及使用该数据集的全部论文</p>
 </header>
 <main id="app"><div class="card"><div class="empty">正在加载数据集…</div></div></main>
-<script src="data/db-meta.js"></script>
-<script src="app-common.js"></script>
+<script src="data/db-meta.js?v=20261118v2"></script>
+<script src="app-common.js?v=20261118v2"></script>
 <script>
 (async function () {
   'use strict';
@@ -54,6 +54,29 @@ header p{margin:5px 0 0;color:#d2e4eb;font-size:14px}
   if (!db || !C) {
     app.innerHTML = '<div class="card"><div class="empty">未能加载数据库元文件 <code>data/db-meta.js</code>。</div></div>';
     return;
+  }
+  if (typeof C.loadAllPaperShards !== 'function') {
+    const verSuffix = (typeof location !== 'undefined' && location.protocol === 'file:') ? '' : '?v=20261118v2';
+    C.loadAllPaperShards = function (targetDb) {
+      if (!targetDb || targetDb._shardsLoaded || !(targetDb.shards && Array.isArray(targetDb.shards.papers) && targetDb.shards.papers.length)) {
+        if (targetDb) { targetDb._shardsLoaded = true; C.prepareDb(targetDb); }
+        return Promise.resolve(targetDb);
+      }
+      return Promise.all(targetDb.shards.papers.map(src => new Promise((res, rej) => {
+        const sc = document.createElement('script');
+        sc.src = src + verSuffix;
+        sc.async = true;
+        sc.onload = () => res();
+        sc.onerror = () => rej(new Error('Failed to load shard: ' + src));
+        document.head.appendChild(sc);
+      }))).then(() => {
+        targetDb._shardsLoaded = true;
+        targetDb._prepared = false;
+        targetDb._datasets = null;
+        C.prepareDb(targetDb);
+        return targetDb;
+      });
+    };
   }
   try {
     await C.loadAllPaperShards(db);

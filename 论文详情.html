@@ -44,8 +44,8 @@ a:hover{text-decoration:underline}
     <div class="empty">正在加载论文信息…</div>
   </section>
 </main>
-<script src="data/db-meta.js"></script>
-<script src="app-common.js"></script>
+<script src="data/db-meta.js?v=20261118v2"></script>
+<script src="app-common.js?v=20261118v2"></script>
 <script>
 (async function () {
   'use strict';
@@ -55,6 +55,50 @@ a:hover{text-decoration:underline}
   if (!db || !C) {
     d.innerHTML = '<div class="empty">未能加载数据库元文件 <code>data/db-meta.js</code>。</div>';
     return;
+  }
+  if (typeof C.loadAllPaperShards !== 'function' || typeof C.loadAbstract !== 'function') {
+    const verSuffix = (typeof location !== 'undefined' && location.protocol === 'file:') ? '' : '?v=20261118v2';
+    C.loadAllPaperShards = function (targetDb) {
+      if (!targetDb || targetDb._shardsLoaded || !(targetDb.shards && Array.isArray(targetDb.shards.papers) && targetDb.shards.papers.length)) {
+        if (targetDb) { targetDb._shardsLoaded = true; C.prepareDb(targetDb); }
+        return Promise.resolve(targetDb);
+      }
+      return Promise.all(targetDb.shards.papers.map(src => new Promise((res, rej) => {
+        const sc = document.createElement('script');
+        sc.src = src + verSuffix;
+        sc.async = true;
+        sc.onload = () => res();
+        sc.onerror = () => rej(new Error('Failed to load shard: ' + src));
+        document.head.appendChild(sc);
+      }))).then(() => {
+        targetDb._shardsLoaded = true;
+        targetDb._prepared = false;
+        targetDb._datasets = null;
+        C.prepareDb(targetDb);
+        return targetDb;
+      });
+    };
+    const _absBuckets = new Map();
+    C.loadAbstract = function (targetDb, gid) {
+      const id = String(gid || '');
+      if (!id) return Promise.resolve(null);
+      if (window.SCHOLAR_ABSTRACTS && window.SCHOLAR_ABSTRACTS[id]) return Promise.resolve(window.SCHOLAR_ABSTRACTS[id]);
+      let h = 0;
+      for (let i = 0; i < id.length; i++) h = ((h * 31) + id.charCodeAt(i)) >>> 0;
+      const bCnt = (targetDb && targetDb.shards && targetDb.shards.abstractBucketCount) || 16;
+      const bKey = String(h % bCnt).padStart(2, '0');
+      if (!_absBuckets.has(bKey)) {
+        _absBuckets.set(bKey, new Promise(res => {
+          const sc = document.createElement('script');
+          sc.src = 'data/abstracts/bucket-' + bKey + '.js' + verSuffix;
+          sc.async = true;
+          sc.onload = () => res();
+          sc.onerror = () => res();
+          document.head.appendChild(sc);
+        }));
+      }
+      return _absBuckets.get(bKey).then(() => (window.SCHOLAR_ABSTRACTS && window.SCHOLAR_ABSTRACTS[id]) || null);
+    };
   }
   try {
     await C.loadAllPaperShards(db);
