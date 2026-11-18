@@ -21,7 +21,9 @@
       "多模态学习",
       "自监督学习",
       "多模态大模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；纳入（情感视觉与多模态基础模型）；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -173,7 +175,8 @@
       "多模态大模型",
       "情感计算与情绪理解",
       "多模态与大语言模型",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入（情感视觉与多模态基础模型）",
     "status": "候选条目/需按作者主页继续核验",
@@ -209,16 +212,18 @@
     "scholar_id": "licai_sun",
     "scholar_name": "孙立才",
     "work_title_group": "276bea9eb58e",
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
-      "jianhua_tao"
+      "jianhua_tao",
+      "bin_liu_casia"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
-      "陶建华"
+      "陶建华",
+      "刘斌"
     ],
     "source_record_ids": [
       "licai_sun_ebe0e5a8daf1",
@@ -275,13 +280,29 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "bin_liu_casia": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "4785c099b6e65ddd",
     "primary_categories_by_scholar": [
       "孙立才：情感理解与多模态推理",
       "连政：脑电基准、数据与评测",
-      "陶建华：情感脑电与多模态生理信号"
+      "陶建华：情感脑电与多模态生理信号",
+      "刘斌：情感与大模型评测基准、数据集及综述"
     ],
     "dblp_key": "journals/ai/SunLWCSLT26",
     "pdf_url": "https://doi.org/10.1016/j.artint.2026.104643",
@@ -314,13 +335,20 @@
       "自监督学习",
       "多模态大模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入（情感视觉与多模态基础模型）",
     "status": "候选条目/需按作者主页继续核验",
-    "resource_ids": [],
-    "code_urls": [],
-    "data_urls": [],
+    "resource_ids": [
+      "res_gh_8efefadd7cca"
+    ],
+    "code_urls": [
+      "https://github.com/ZeroQiaoba/MERBench"
+    ],
+    "data_urls": [
+      "https://github.com/ZeroQiaoba/MERBench"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W7123360857",
     "openalex_author_id": "https://openalex.org/A5027572653",
@@ -346,16 +374,18 @@
     "scholar_id": "licai_sun",
     "scholar_name": "孙立才",
     "work_title_group": "30fe42011151",
-    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
-      "jianhua_tao"
+      "jianhua_tao",
+      "bin_liu_casia"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
-      "陶建华"
+      "陶建华",
+      "刘斌"
     ],
     "source_record_ids": [
       "licai_sun_210603ff8177",
@@ -413,13 +443,29 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "bin_liu_casia": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "93bfd31e9e2ddf5a",
     "primary_categories_by_scholar": [
       "孙立才：情感数据集、基准与评测",
       "连政：脑电基准、数据与评测",
-      "陶建华：脑电基准、数据与评测"
+      "陶建华：脑电基准、数据与评测",
+      "刘斌：情感与大模型评测基准、数据集及综述"
     ],
     "dblp_key": "journals/pami/LianSRGSCLT26",
     "pdf_url": "https://arxiv.org/pdf/2401.03429",
@@ -611,7 +657,9 @@
       "自监督学习",
       "多模态大模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感大模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入（情感视觉与多模态基础模型）",
     "status": "候选条目/需按作者主页继续核验",
@@ -621,7 +669,9 @@
     "code_urls": [
       "https://github.com/zeroQiaoba/AffectGPT"
     ],
-    "data_urls": [],
+    "data_urls": [
+      "https://github.com/zeroQiaoba/AffectGPT"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W4406950238",
     "openalex_author_id": "https://openalex.org/A5027572653",
@@ -647,18 +697,24 @@
     "scholar_id": "licai_sun",
     "scholar_name": "孙立才",
     "work_title_group": "66550cd4dd96",
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
       "jianhua_tao",
-      "panorama_e298ea16b5bc"
+      "panorama_e298ea16b5bc",
+      "bin_liu_casia",
+      "xiaojiang_peng",
+      "zebang_cheng"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
       "陶建华",
-      "刘瑞"
+      "刘瑞",
+      "刘斌",
+      "彭小江",
+      "程泽邦"
     ],
     "source_record_ids": [
       "licai_sun_9d098495a468",
@@ -730,6 +786,51 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bin_liu_casia": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "xiaojiang_peng": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "彭小江",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zebang_cheng": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "程泽邦",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "4a5f4b88e0ba692c",
@@ -737,7 +838,10 @@
       "孙立才：情感数据集、基准与评测",
       "连政：脑电基准、数据与评测",
       "陶建华：脑电基准、数据与评测",
-      "刘瑞：情感数据集、基准与评测"
+      "刘瑞：情感数据集、基准与评测",
+      "刘斌：通用预训练大模型、视听生成与基础方法",
+      "彭小江：通用预训练大模型、视听生成与基础方法",
+      "程泽邦：通用预训练大模型、视听生成与基础方法"
     ],
     "dblp_key": "journals/corr/abs-2501-16566",
     "pdf_url": "https://arxiv.org/pdf/2501.16566",
@@ -776,7 +880,8 @@
     "abstract_source": "arxiv_api",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 241/3466）",
     "status": "预印本记录",
@@ -789,12 +894,16 @@
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
-      "jianhua_tao"
+      "jianhua_tao",
+      "xiaojiang_peng",
+      "zebang_cheng"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
-      "陶建华"
+      "陶建华",
+      "彭小江",
+      "程泽邦"
     ],
     "source_record_ids": [
       "licai_sun_e8898c88e7fee48f"
@@ -836,12 +945,38 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "xiaojiang_peng": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "彭小江",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zebang_cheng": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "程泽邦",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "孙立才：情感数据集、基准与评测",
       "连政：情感脑电与多模态生理信号",
-      "陶建华：情感脑电与多模态生理信号"
+      "陶建华：情感脑电与多模态生理信号",
+      "彭小江：情感与大模型评测基准、数据集及综述",
+      "程泽邦：情感与大模型评测基准、数据集及综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "emotion_benchmark",
@@ -880,7 +1015,8 @@
       "情感大模型与多模态基础模型",
       "arXiv exact match",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入",
     "status": "候选条目/需按作者主页继续核验",
@@ -920,12 +1056,16 @@
     "scholar_ids": [
       "jianhua_tao",
       "licai_sun",
-      "zheng_lian"
+      "zheng_lian",
+      "xiaojiang_peng",
+      "zebang_cheng"
     ],
     "scholar_names": [
       "陶建华",
       "孙立才",
-      "连政"
+      "连政",
+      "彭小江",
+      "程泽邦"
     ],
     "source_record_ids": [
       "jianhua_tao_f02db6d4166b"
@@ -977,13 +1117,45 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "xiaojiang_peng": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "彭小江",
+        "secondary_tags": [
+          "情感计算",
+          "语音与对话",
+          "多模态情感理解",
+          "人机交互",
+          "情感智能",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zebang_cheng": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "程泽邦",
+        "secondary_tags": [
+          "情感计算",
+          "语音与对话",
+          "多模态情感理解",
+          "人机交互",
+          "情感智能",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "3c7d67e1311fb664",
     "primary_categories_by_scholar": [
       "陶建华：情感脑电与多模态生理信号",
       "孙立才：情感数据集、基准与评测",
-      "连政：情感脑电与多模态生理信号"
+      "连政：情感脑电与多模态生理信号",
+      "彭小江：情感与大模型评测基准、数据集及综述",
+      "程泽邦：情感与大模型评测基准、数据集及综述"
     ],
     "dblp_key": "conf/iclr/LianSCCCZJMMPT26",
     "abstract_en": "Descriptive Multimodal Emotion Recognition (DMER) has garnered increasing research attention. Unlike traditional discriminative paradigms that rely on predefined emotion taxonomies, DMER aims to describe human emotional state using free-form natural language, enabling finer-grained and more interpretable emotion representations. However, this free-form prediction paradigm introduces new challenges regarding its evaluation. Previous works depend on ground-truth descriptions, but emotions are inherently tied to diverse human behaviors, and generating a comprehensive and accurate description is inherently demanding. Other researchers reformulate this problem into a more tractable human preference learning task, but pairwise preference annotation involves substantial manual effort. This leads to a question: can we leverage multimodal LLMs (MLLMs) to achieve more cost-efficient preference annotation? To answer this, we propose EmoPrefer, a pioneering work exploring the potential of LLMs in decoding human emotion preferences. Specifically, we construct the first emotion preference dataset, EmoPrefer-Data, featuring high-quality preference annotations from experts. Additionally, we introduce EmoPrefer-Bench, which evaluates the performance of various MLLMs and prompting techniques in preference prediction, while also revealing new strategies to enhance their performance. To the best of our knowledge, this is the first work exploring the capabilities of LLMs in understanding human emotion preferences. Our work advances the field of DMER and lays the foundation for more intelligent human-computer interaction.",
@@ -1049,12 +1221,14 @@
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
-      "jianhua_tao"
+      "jianhua_tao",
+      "bin_liu_casia"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
-      "陶建华"
+      "陶建华",
+      "刘斌"
     ],
     "source_record_ids": [
       "licai_sun_126f9e1650c9",
@@ -1111,13 +1285,27 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "bin_liu_casia": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "39852792c9e1abc0",
     "primary_categories_by_scholar": [
       "孙立才：情感理解与多模态推理",
       "连政：脑电基准、数据与评测",
-      "陶建华：情感脑电与多模态生理信号"
+      "陶建华：情感脑电与多模态生理信号",
+      "刘斌：情感与大模型评测基准、数据集及综述"
     ],
     "dblp_key": "journals/pami/LianXCSLFT26",
     "pdf_url": "https://arxiv.org/pdf/2211.04774",
@@ -1218,7 +1406,9 @@
       "自监督学习",
       "多模态大模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感大模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入（情感视觉与多模态基础模型）",
     "status": "候选条目/需按作者主页继续核验",
@@ -1256,16 +1446,18 @@
     "scholar_id": "licai_sun",
     "scholar_name": "孙立才",
     "work_title_group": "d2250de8cc3b",
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
-      "jianhua_tao"
+      "jianhua_tao",
+      "bin_liu_casia"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
-      "陶建华"
+      "陶建华",
+      "刘斌"
     ],
     "source_record_ids": [
       "licai_sun_0da05f3d2a0e",
@@ -1323,13 +1515,29 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "bin_liu_casia": {
+        "category_id": "affective_llm_mllm",
+        "label": "情感大模型、多模态指令微调与共情生成",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "5eda188b9859a3d8",
     "primary_categories_by_scholar": [
       "孙立才：情感数据集、基准与评测",
       "连政：脑电基准、数据与评测",
-      "陶建华：脑电基准、数据与评测"
+      "陶建华：脑电基准、数据与评测",
+      "刘斌：情感大模型、多模态指令微调与共情生成"
     ],
     "dblp_key": "journals/inffus/LianSSCWGLT24",
     "pdf_url": "https://arxiv.org/pdf/2312.04293",
@@ -1401,12 +1609,14 @@
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
-      "jianhua_tao"
+      "jianhua_tao",
+      "bin_liu_casia"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
-      "陶建华"
+      "陶建华",
+      "刘斌"
     ],
     "source_record_ids": [
       "licai_sun_c916aa279663",
@@ -1463,13 +1673,29 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "bin_liu_casia": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "a1436e9b450852f2",
     "primary_categories_by_scholar": [
       "孙立才：情感理解与多模态推理",
       "连政：脑电基准、数据与评测",
-      "陶建华：情感脑电与多模态生理信号"
+      "陶建华：情感脑电与多模态生理信号",
+      "刘斌：情感与大模型评测基准、数据集及综述"
     ],
     "dblp_key": "journals/corr/abs-2403-15044",
     "pdf_url": "https://arxiv.org/pdf/2403.15044",
@@ -1500,7 +1726,8 @@
       "自监督学习",
       "多模态大模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入（情感视觉与多模态基础模型）",
     "status": "候选条目/需按作者主页继续核验",
@@ -1510,7 +1737,9 @@
     "code_urls": [
       "https://github.com/zeroQiaoba/AffectGPT"
     ],
-    "data_urls": [],
+    "data_urls": [
+      "https://github.com/zeroQiaoba/AffectGPT"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W4400601101",
     "openalex_author_id": "https://openalex.org/A5027572653",
@@ -1536,16 +1765,18 @@
     "scholar_id": "licai_sun",
     "scholar_name": "孙立才",
     "work_title_group": "d8276c2a48e7",
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
-      "jianhua_tao"
+      "jianhua_tao",
+      "bin_liu_casia"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
-      "陶建华"
+      "陶建华",
+      "刘斌"
     ],
     "source_record_ids": [
       "licai_sun_137f6c565fca",
@@ -1602,13 +1833,29 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "bin_liu_casia": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "1288ac7513388446",
     "primary_categories_by_scholar": [
       "孙立才：情感数据集、基准与评测",
       "连政：脑电基准、数据与评测",
-      "陶建华：脑电基准、数据与评测"
+      "陶建华：脑电基准、数据与评测",
+      "刘斌：情感与大模型评测基准、数据集及综述"
     ],
     "dblp_key": "journals/corr/abs-2407-07653",
     "pdf_url": "https://arxiv.org/pdf/2407.07653",
@@ -1679,12 +1926,14 @@
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
-      "jianhua_tao"
+      "jianhua_tao",
+      "bin_liu_casia"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
-      "陶建华"
+      "陶建华",
+      "刘斌"
     ],
     "source_record_ids": [
       "licai_sun_441da23107fa",
@@ -1737,13 +1986,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bin_liu_casia": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "7ef7430345ed142c",
     "primary_categories_by_scholar": [
       "孙立才：情感理解与多模态推理",
       "连政：脑电基准、数据与评测",
-      "陶建华：脑电基准、数据与评测"
+      "陶建华：脑电基准、数据与评测",
+      "刘斌：通用预训练大模型、视听生成与基础方法"
     ],
     "dblp_key": "conf/muse/ChenYXWSSL0ZZ024",
     "pdf_url": "https://doi.org/10.1145/3689062.3689080",
@@ -1771,7 +2035,8 @@
       "多模态学习",
       "自监督学习",
       "多模态大模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入（情感视觉与多模态基础模型）",
     "status": "候选条目/需按作者主页继续核验",
@@ -1807,16 +2072,18 @@
     "scholar_id": "licai_sun",
     "scholar_name": "孙立才",
     "work_title_group": "b6c0bedd1db0",
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
-      "jianhua_tao"
+      "jianhua_tao",
+      "bin_liu_casia"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
-      "陶建华"
+      "陶建华",
+      "刘斌"
     ],
     "source_record_ids": [
       "licai_sun_c2144f2a8dc8",
@@ -1873,13 +2140,29 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "bin_liu_casia": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "e2de4aba4f871060",
     "primary_categories_by_scholar": [
       "孙立才：情感理解与多模态推理",
       "连政：脑电基准、数据与评测",
-      "陶建华：情感脑电与多模态生理信号"
+      "陶建华：情感脑电与多模态生理信号",
+      "刘斌：通用预训练大模型、视听生成与基础方法"
     ],
     "dblp_key": "journals/inffus/SunLLT24",
     "pdf_url": "https://arxiv.org/pdf/2401.05698",
@@ -1922,7 +2205,9 @@
       "自监督学习",
       "多模态大模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；纳入（情感视觉与多模态基础模型）",
     "status": "候选条目/需按作者主页继续核验",
@@ -1958,20 +2243,26 @@
     "scholar_id": "licai_sun",
     "scholar_name": "孙立才",
     "work_title_group": "e8f40ab0ba51",
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
       "jianhua_tao",
       "guoying_zhao",
-      "panorama_e298ea16b5bc"
+      "panorama_e298ea16b5bc",
+      "bjorn_schuller",
+      "erik_cambria",
+      "bin_liu_casia"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
       "陶建华",
       "赵国英",
-      "刘瑞"
+      "刘瑞",
+      "Björn W. Schuller",
+      "Erik Cambria",
+      "刘斌"
     ],
     "source_record_ids": [
       "licai_sun_58677b9a0e82",
@@ -2056,6 +2347,51 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bjorn_schuller": {
+        "category_id": "affect_int_llm",
+        "label": "情感大模型、知识推理与评测基准",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "erik_cambria": {
+        "category_id": "affect_int_llm",
+        "label": "情感大模型、知识推理与评测基准",
+        "scholar_name": "Erik Cambria",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "bin_liu_casia": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "a3f1cbb3df31d82b",
@@ -2064,7 +2400,10 @@
       "连政：脑电基准、数据与评测",
       "陶建华：情感脑电与多模态生理信号",
       "赵国英：情感理解与多模态推理",
-      "刘瑞：情感数据集、基准与评测"
+      "刘瑞：情感数据集、基准与评测",
+      "Björn W. Schuller：情感大模型、知识推理与评测基准",
+      "Erik Cambria：情感大模型、知识推理与评测基准",
+      "刘斌：情感与大模型评测基准、数据集及综述"
     ],
     "dblp_key": "conf/mrac/LianSSWZCGZMCYL24",
     "pdf_url": "https://doi.org/10.1145/3689092.3689959",
@@ -2135,12 +2474,14 @@
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
-      "jianhua_tao"
+      "jianhua_tao",
+      "bin_liu_casia"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
-      "陶建华"
+      "陶建华",
+      "刘斌"
     ],
     "source_record_ids": [
       "licai_sun_1c8d4f9e94e9",
@@ -2193,13 +2534,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bin_liu_casia": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "bfaa74c71cae04af",
     "primary_categories_by_scholar": [
       "孙立才：情感理解与多模态推理",
       "连政：脑电基准、数据与评测",
-      "陶建华：脑电基准、数据与评测"
+      "陶建华：脑电基准、数据与评测",
+      "刘斌：通用预训练大模型、视听生成与基础方法"
     ],
     "dblp_key": "conf/muse/WenYCSXSLLZZ024",
     "pdf_url": "https://doi.org/10.1145/3689062.3689087",
@@ -2242,7 +2598,8 @@
       "自监督学习",
       "多模态大模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入（情感视觉与多模态基础模型）",
     "status": "候选条目/需按作者主页继续核验",
@@ -2278,20 +2635,22 @@
     "scholar_id": "licai_sun",
     "scholar_name": "孙立才",
     "work_title_group": "1697b0732ec9",
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
       "jianhua_tao",
       "panorama_ya_li",
-      "panorama_e298ea16b5bc"
+      "panorama_e298ea16b5bc",
+      "bin_liu_casia"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
       "陶建华",
       "李雅",
-      "刘瑞"
+      "刘瑞",
+      "刘斌"
     ],
     "source_record_ids": [
       "licai_sun_bb800715a844",
@@ -2379,6 +2738,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bin_liu_casia": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "02f8bf3e5293f7bd",
@@ -2387,7 +2761,8 @@
       "连政：脑电基准、数据与评测",
       "陶建华：情感脑电与多模态生理信号",
       "李雅：情感脑电与多模态生理信号",
-      "刘瑞：情感数据集、基准与评测"
+      "刘瑞：情感数据集、基准与评测",
+      "刘斌：情感与大模型评测基准、数据集及综述"
     ],
     "dblp_key": "conf/icml/00040S0CG0CZY0025",
     "pdf_url": "https://arxiv.org/pdf/2410.01495",
@@ -2419,7 +2794,9 @@
       "多模态学习",
       "自监督学习",
       "多模态大模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；纳入（情感视觉与多模态基础模型）；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2455,12 +2832,14 @@
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
-      "jianhua_tao"
+      "jianhua_tao",
+      "bin_liu_casia"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
-      "陶建华"
+      "陶建华",
+      "刘斌"
     ],
     "source_record_ids": [
       "licai_sun_0e475868c6a9",
@@ -2517,13 +2896,29 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "bin_liu_casia": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "d875b187c000b82d",
     "primary_categories_by_scholar": [
       "孙立才：情感理解与多模态推理",
       "连政：脑电基准、数据与评测",
-      "陶建华：情感脑电与多模态生理信号"
+      "陶建华：情感脑电与多模态生理信号",
+      "刘斌：情感与大模型评测基准、数据集及综述"
     ],
     "dblp_key": "journals/taffco/SunLWHXSLT25",
     "pdf_url": "https://arxiv.org/pdf/2401.00416",
@@ -2561,7 +2956,9 @@
     "abstract_source": "arxiv_api",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感大模型",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 241/3466）",
     "status": "预印本记录",
@@ -2574,12 +2971,14 @@
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
-      "jianhua_tao"
+      "jianhua_tao",
+      "bin_liu_casia"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
-      "陶建华"
+      "陶建华",
+      "刘斌"
     ],
     "source_record_ids": [
       "licai_sun_7184ea40c0c419bb"
@@ -2627,14 +3026,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bin_liu_casia": {
+        "category_id": "affective_llm_mllm",
+        "label": "情感大模型、多模态指令微调与共情生成",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "情感大模型",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "孙立才：情感数据集、基准与评测",
       "连政：情感脑电与多模态生理信号",
-      "陶建华：情感脑电与多模态生理信号"
+      "陶建华：情感脑电与多模态生理信号",
+      "刘斌：情感大模型、多模态指令微调与共情生成"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "emotion_benchmark",
     "primary_category": "情感数据集、基准与评测"
   },
@@ -2697,12 +3110,14 @@
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
-      "jianhua_tao"
+      "jianhua_tao",
+      "bin_liu_casia"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
-      "陶建华"
+      "陶建华",
+      "刘斌"
     ],
     "source_record_ids": [
       "licai_sun_a90cbbed3d77",
@@ -2755,13 +3170,28 @@
         ],
         "confidence": "low",
         "note": ""
+      },
+      "bin_liu_casia": {
+        "category_id": "affective_llm_mllm",
+        "label": "情感大模型、多模态指令微调与共情生成",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "189f5388761efe2e",
     "primary_categories_by_scholar": [
       "孙立才：情感理解与多模态推理",
       "连政：脑电基准、数据与评测",
-      "陶建华：脑电基础模型与通用解码"
+      "陶建华：脑电基础模型与通用解码",
+      "刘斌：情感大模型、多模态指令微调与共情生成"
     ],
     "dblp_key": "conf/muse/SunWXLSLT23",
     "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3606039.3613108",
@@ -2794,7 +3224,8 @@
       "多模态学习",
       "自监督学习",
       "多模态大模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入（情感视觉与多模态基础模型）；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2833,12 +3264,14 @@
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
-      "jianhua_tao"
+      "jianhua_tao",
+      "bin_liu_casia"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
-      "陶建华"
+      "陶建华",
+      "刘斌"
     ],
     "source_record_ids": [
       "licai_sun_a4ac8bc709b7",
@@ -2891,13 +3324,29 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bin_liu_casia": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "c32a9d2da6a3fd90",
     "primary_categories_by_scholar": [
       "孙立才：情感理解与多模态推理",
       "连政：脑电基准、数据与评测",
-      "陶建华：脑电基准、数据与评测"
+      "陶建华：脑电基准、数据与评测",
+      "刘斌：情感与大模型评测基准、数据集及综述"
     ],
     "dblp_key": "conf/mm/XuCSLLCSXT23",
     "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3581783.3612868",
@@ -2926,7 +3375,9 @@
       "自监督学习",
       "多模态大模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；纳入（情感视觉与多模态基础模型）",
     "status": "候选条目/需按作者主页继续核验",
@@ -2962,12 +3413,14 @@
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
-      "jianhua_tao"
+      "jianhua_tao",
+      "bin_liu_casia"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
-      "陶建华"
+      "陶建华",
+      "刘斌"
     ],
     "source_record_ids": [
       "licai_sun_9f0df75f5fd0",
@@ -3026,13 +3479,29 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "bin_liu_casia": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "d2bc55d5ad40255b",
     "primary_categories_by_scholar": [
       "孙立才：情感理解与多模态推理",
       "连政：脑电基准、数据与评测",
-      "陶建华：情感脑电与多模态生理信号"
+      "陶建华：情感脑电与多模态生理信号",
+      "刘斌：情感与大模型评测基准、数据集及综述"
     ],
     "dblp_key": "journals/taffco/SunLLT24",
     "pdf_url": "https://arxiv.org/pdf/2208.07589",
@@ -3073,7 +3542,8 @@
       "自监督学习",
       "多模态大模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入（情感视觉与多模态基础模型）",
     "status": "候选条目/需按作者主页继续核验",
@@ -3109,12 +3579,14 @@
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
-      "jianhua_tao"
+      "jianhua_tao",
+      "bin_liu_casia"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
-      "陶建华"
+      "陶建华",
+      "刘斌"
     ],
     "source_record_ids": [
       "licai_sun_38c65756c4fa",
@@ -3171,13 +3643,29 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "bin_liu_casia": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "021959737932c32a",
     "primary_categories_by_scholar": [
       "孙立才：情感理解与多模态推理",
       "连政：脑电基准、数据与评测",
-      "陶建华：情感脑电与多模态生理信号"
+      "陶建华：情感脑电与多模态生理信号",
+      "刘斌：通用预训练大模型、视听生成与基础方法"
     ],
     "dblp_key": "journals/corr/abs-2306-15401",
     "pdf_url": "https://arxiv.org/pdf/2306.15401",
@@ -3245,12 +3733,14 @@
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
-      "jianhua_tao"
+      "jianhua_tao",
+      "bin_liu_casia"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
-      "陶建华"
+      "陶建华",
+      "刘斌"
     ],
     "source_record_ids": [
       "licai_sun_f06652e26e74",
@@ -3304,13 +3794,29 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bin_liu_casia": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "4c9ba1a350e79d9a",
     "primary_categories_by_scholar": [
       "孙立才：情感理解与多模态推理",
       "连政：脑电基准、数据与评测",
-      "陶建华：情感脑电与多模态生理信号"
+      "陶建华：情感脑电与多模态生理信号",
+      "刘斌：情感与大模型评测基准、数据集及综述"
     ],
     "dblp_key": "conf/eccv/SunLLTSCH22",
     "pdf_url": "https://arxiv.org/pdf/2207.11389",
@@ -3344,7 +3850,8 @@
       "自监督学习",
       "多模态大模型",
       "情感计算与情绪理解",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入（情感视觉与多模态基础模型）",
     "status": "候选条目/需按作者主页继续核验",
@@ -3380,12 +3887,14 @@
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
-      "jianhua_tao"
+      "jianhua_tao",
+      "bin_liu_casia"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
-      "陶建华"
+      "陶建华",
+      "刘斌"
     ],
     "source_record_ids": [
       "licai_sun_347f895c15be",
@@ -3443,13 +3952,29 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "bin_liu_casia": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "b326787819c4cd65",
     "primary_categories_by_scholar": [
       "孙立才：情感理解与多模态推理",
       "连政：脑电基准、数据与评测",
-      "陶建华：情感脑电与多模态生理信号"
+      "陶建华：情感脑电与多模态生理信号",
+      "刘斌：情感与大模型评测基准、数据集及综述"
     ],
     "dblp_key": "conf/interspeech/SunL0L0SCWC23",
     "pdf_url": "https://arxiv.org/pdf/2203.13617",
@@ -3515,12 +4040,14 @@
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
-      "jianhua_tao"
+      "jianhua_tao",
+      "bin_liu_casia"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
-      "陶建华"
+      "陶建华",
+      "刘斌"
     ],
     "source_record_ids": [
       "licai_sun_467f4ef10c9d",
@@ -3577,13 +4104,29 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "bin_liu_casia": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "69ae3d1e5ea9deac",
     "primary_categories_by_scholar": [
       "孙立才：情感理解与多模态推理",
       "连政：脑电基准、数据与评测",
-      "陶建华：情感脑电与多模态生理信号"
+      "陶建华：情感脑电与多模态生理信号",
+      "刘斌：情感与大模型评测基准、数据集及综述"
     ],
     "dblp_key": "journals/pami/LianCSLT23",
     "pdf_url": "https://arxiv.org/pdf/2203.02177",
@@ -3611,7 +4154,9 @@
       "多模态学习",
       "自监督学习",
       "多模态大模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；纳入（情感视觉与多模态基础模型）",
     "status": "候选条目/需按作者主页继续核验",
@@ -3649,16 +4194,18 @@
     "scholar_id": "licai_sun",
     "scholar_name": "孙立才",
     "work_title_group": "fd9bc40203bf",
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
-      "jianhua_tao"
+      "jianhua_tao",
+      "bin_liu_casia"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
-      "陶建华"
+      "陶建华",
+      "刘斌"
     ],
     "source_record_ids": [
       "licai_sun_f849ab8daedb",
@@ -3715,13 +4262,29 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "bin_liu_casia": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "08f8276939bc6279",
     "primary_categories_by_scholar": [
       "孙立才：情感理解与多模态推理",
       "连政：脑电基准、数据与评测",
-      "陶建华：情感脑电与多模态生理信号"
+      "陶建华：情感脑电与多模态生理信号",
+      "刘斌：情感与大模型评测基准、数据集及综述"
     ],
     "dblp_key": "journals/corr/abs-2307-02227",
     "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3581783.3612365",
@@ -3764,7 +4327,8 @@
       "自监督学习",
       "多模态大模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入（情感视觉与多模态基础模型）；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3801,13 +4365,19 @@
       "licai_sun",
       "zheng_lian",
       "guoying_zhao",
-      "jianhua_tao"
+      "jianhua_tao",
+      "bjorn_schuller",
+      "erik_cambria",
+      "bin_liu_casia"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
       "赵国英",
-      "陶建华"
+      "陶建华",
+      "Björn W. Schuller",
+      "Erik Cambria",
+      "刘斌"
     ],
     "source_record_ids": [
       "licai_sun_eca71349ff48",
@@ -3874,6 +4444,51 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bjorn_schuller": {
+        "category_id": "affect_int_llm",
+        "label": "情感大模型、知识推理与评测基准",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "erik_cambria": {
+        "category_id": "affect_int_llm",
+        "label": "情感大模型、知识推理与评测基准",
+        "scholar_name": "Erik Cambria",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "bin_liu_casia": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "ba39e186e138c075",
@@ -3881,7 +4496,10 @@
       "孙立才：情感理解与多模态推理",
       "连政：脑电基准、数据与评测",
       "赵国英：情感理解与多模态推理",
-      "陶建华：情感脑电与多模态生理信号"
+      "陶建华：情感脑电与多模态生理信号",
+      "Björn W. Schuller：情感大模型、知识推理与评测基准",
+      "Erik Cambria：情感大模型、知识推理与评测基准",
+      "刘斌：情感与大模型评测基准、数据集及综述"
     ],
     "dblp_key": "journals/corr/abs-2304-08981",
     "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3581783.3612836",
@@ -3916,7 +4534,8 @@
     "topics": [
       "情感计算与情绪理解",
       "多模态与大语言模型",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 241/3466）",
     "status": "预印本记录",
@@ -3929,12 +4548,14 @@
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
-      "jianhua_tao"
+      "jianhua_tao",
+      "bin_liu_casia"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
-      "陶建华"
+      "陶建华",
+      "刘斌"
     ],
     "source_record_ids": [
       "licai_sun_3b245a9e6e8b09f7"
@@ -3979,12 +4600,26 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bin_liu_casia": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "智能芯片与计算系统",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "孙立才：情感数据集、基准与评测",
       "连政：情感脑电与多模态生理信号",
-      "陶建华：情感脑电与多模态生理信号"
+      "陶建华：情感脑电与多模态生理信号",
+      "刘斌：情感与大模型评测基准、数据集及综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "emotion_benchmark",
@@ -4012,7 +4647,8 @@
       "多模态学习",
       "自监督学习",
       "多模态大模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入（情感视觉与多模态基础模型）",
     "status": "候选条目/需按作者主页继续核验",
@@ -4048,12 +4684,14 @@
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
-      "jianhua_tao"
+      "jianhua_tao",
+      "bin_liu_casia"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
-      "陶建华"
+      "陶建华",
+      "刘斌"
     ],
     "source_record_ids": [
       "licai_sun_c788b517f2c5",
@@ -4110,13 +4748,29 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "bin_liu_casia": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "2e6e500bb4ded134",
     "primary_categories_by_scholar": [
       "孙立才：情感理解与多模态推理",
       "连政：脑电基准、数据与评测",
-      "陶建华：情感脑电与多模态生理信号"
+      "陶建华：情感脑电与多模态生理信号",
+      "刘斌：情感与大模型评测基准、数据集及综述"
     ],
     "dblp_key": "conf/mm/WangLSLTF22",
     "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3551876.3554810",
@@ -4148,7 +4802,8 @@
       "自监督学习",
       "多模态大模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入（情感视觉与多模态基础模型）",
     "status": "候选条目/需按作者主页继续核验",
@@ -4184,12 +4839,14 @@
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
-      "jianhua_tao"
+      "jianhua_tao",
+      "bin_liu_casia"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
-      "陶建华"
+      "陶建华",
+      "刘斌"
     ],
     "source_record_ids": [
       "licai_sun_b2e853d3c811",
@@ -4246,13 +4903,29 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "bin_liu_casia": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "083aaf4966ac331d",
     "primary_categories_by_scholar": [
       "孙立才：情感理解与多模态推理",
       "连政：脑电基准、数据与评测",
-      "陶建华：情感脑电与多模态生理信号"
+      "陶建华：情感脑电与多模态生理信号",
+      "刘斌：情感与大模型评测基准、数据集及综述"
     ],
     "dblp_key": "conf/mm/HeSL0TWC22",
     "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3551876.3554811",
@@ -4300,12 +4973,14 @@
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
-      "jianhua_tao"
+      "jianhua_tao",
+      "bin_liu_casia"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
-      "陶建华"
+      "陶建华",
+      "刘斌"
     ],
     "source_record_ids": [
       "licai_sun_4db9ed5bfe6e8b34"
@@ -4347,12 +5022,24 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bin_liu_casia": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "孙立才：情感理解与多模态推理",
       "连政：情感脑电与多模态生理信号",
-      "陶建华：情感脑电与多模态生理信号"
+      "陶建华：情感脑电与多模态生理信号",
+      "刘斌：情感与大模型评测基准、数据集及综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "emotion_understanding",
@@ -4395,12 +5082,14 @@
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
-      "jianhua_tao"
+      "jianhua_tao",
+      "bin_liu_casia"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
-      "陶建华"
+      "陶建华",
+      "刘斌"
     ],
     "source_record_ids": [
       "licai_sun_c77cd03151c89c9f"
@@ -4437,14 +5126,23 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "bin_liu_casia": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘斌",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "孙立才：情感数据集、基准与评测",
       "连政：脑电基准、数据与评测",
-      "陶建华：脑电基准、数据与评测"
+      "陶建华：脑电基准、数据与评测",
+      "刘斌：情感与大模型评测基准、数据集及综述"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "emotion_benchmark",
     "primary_category": "情感数据集、基准与评测"
   },
@@ -4478,7 +5176,8 @@
     "abstract_source": "arxiv_api",
     "topics": [
       "情感计算与情绪理解",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 241/3466）",
     "status": "预印本记录",
@@ -4491,12 +5190,14 @@
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
-      "jianhua_tao"
+      "jianhua_tao",
+      "bin_liu_casia"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
-      "陶建华"
+      "陶建华",
+      "刘斌"
     ],
     "source_record_ids": [
       "licai_sun_783310abbbb9265a"
@@ -4538,12 +5239,25 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bin_liu_casia": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "智能芯片与计算系统",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "孙立才：情感数据集、基准与评测",
       "连政：情感脑电与多模态生理信号",
-      "陶建华：情感脑电与多模态生理信号"
+      "陶建华：情感脑电与多模态生理信号",
+      "刘斌：情感与大模型评测基准、数据集及综述"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "emotion_benchmark",
@@ -4574,7 +5288,8 @@
       "自监督学习",
       "多模态大模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入（情感视觉与多模态基础模型）",
     "status": "候选条目/需按作者主页继续核验",
@@ -4610,12 +5325,14 @@
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
-      "jianhua_tao"
+      "jianhua_tao",
+      "bin_liu_casia"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
-      "陶建华"
+      "陶建华",
+      "刘斌"
     ],
     "source_record_ids": [
       "licai_sun_898980608308",
@@ -4672,13 +5389,29 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "bin_liu_casia": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "7f44e768f358ced6",
     "primary_categories_by_scholar": [
       "孙立才：情感理解与多模态推理",
       "连政：脑电基准、数据与评测",
-      "陶建华：情感脑电与多模态生理信号"
+      "陶建华：情感脑电与多模态生理信号",
+      "刘斌：情感与大模型评测基准、数据集及综述"
     ],
     "dblp_key": "conf/mm/CaiHSLLTXW21",
     "abstract_en": "Automatic estimation of emotional state has a wide application in human-computer interaction. In this paper, we present our solutions for the MuSe-Stress and MuSe-Physio sub-challenge of Multimodal Sentiment Analysis (MuSe 2021). The goal of these two sub-challenges is to perform continuous emotion predictions from people in stressed dispositions. To this end, we first extract both handcrafted features and deep representations from multiple modalities. Then, we explore the Long Short-Term Memory network and Transformer Encoder with Multimodal Multi-head Attention to model the complex temporal dependencies in the sequence. Finally, we adopt the early fusion, late fusion and model fusion to boost the model's performance by exploiting complementary information from different modalities. Our method achieves CCC of 0.6648, 0.3054 and 0.5781 for valence, arousal and arousal plus EDA (anno12_EDA). The results of valence and anno12_EDA outperform the baseline system with corresponding CCC of 0.5614 and 0.4908, and both rank Top3 in these challenges.",
@@ -4791,7 +5524,8 @@
       "自监督学习",
       "多模态大模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入（情感视觉与多模态基础模型）",
     "status": "候选条目/需按作者主页继续核验",
@@ -4827,12 +5561,14 @@
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
-      "jianhua_tao"
+      "jianhua_tao",
+      "bin_liu_casia"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
-      "陶建华"
+      "陶建华",
+      "刘斌"
     ],
     "source_record_ids": [
       "licai_sun_afca16a05542",
@@ -4889,13 +5625,29 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "bin_liu_casia": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "b1f3eba92e98e478",
     "primary_categories_by_scholar": [
       "孙立才：情感理解与多模态推理",
       "连政：脑电基准、数据与评测",
-      "陶建华：情感脑电与多模态生理信号"
+      "陶建华：情感脑电与多模态生理信号",
+      "刘斌：通用预训练大模型、视听生成与基础方法"
     ],
     "dblp_key": "conf/mm/SunXLLTWC21",
     "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3475957.3484456",
@@ -4924,7 +5676,8 @@
       "自监督学习",
       "多模态大模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入（情感视觉与多模态基础模型）",
     "status": "候选条目/需按作者主页继续核验",
@@ -4963,12 +5716,14 @@
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
-      "jianhua_tao"
+      "jianhua_tao",
+      "bin_liu_casia"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
-      "陶建华"
+      "陶建华",
+      "刘斌"
     ],
     "source_record_ids": [
       "licai_sun_c887544b2cac",
@@ -5025,13 +5780,29 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "bin_liu_casia": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "759136e9a16686f4",
     "primary_categories_by_scholar": [
       "孙立才：情感理解与多模态推理",
       "连政：脑电基准、数据与评测",
-      "陶建华：情感脑电与多模态生理信号"
+      "陶建华：情感脑电与多模态生理信号",
+      "刘斌：通用预训练大模型、视听生成与基础方法"
     ],
     "dblp_key": "conf/icassp/SunLTL21",
     "abstract_en": "Speech Emotion Recognition (SER) requires a thorough understanding of both the linguistic content of an utterance (i.e., textual information) and how the speaker utters it (i.e., acoustic information). The one vital challenge in SER is how to effectively fuse these two kinds of information. In this paper, we propose a novel Multimodal Cross- and Self-Attention Network (MCSAN) to tackle this problem. The core of MCSAN is to employ the parallel cross- and self-attention modules to explicitly model both inter- and intra-modal interactions of audio and text. Specifically, the cross-attention module utilizes the cross-attention mechanism to guide one modality to attend to the other modality and update the features accordingly. Similarly, the self-attention module employs the self-attention mechanism to propagate information within each modality. We evaluate MCSAN on two benchmark datasets, IEMOCAP and MELD. Experimental results demonstrate that our proposed model achieves state-of-the-art performance on both datasets.",
@@ -5060,7 +5831,8 @@
       "自监督学习",
       "多模态大模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入（情感视觉与多模态基础模型）",
     "status": "候选条目/需按作者主页继续核验",
@@ -5096,12 +5868,14 @@
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
-      "jianhua_tao"
+      "jianhua_tao",
+      "bin_liu_casia"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
-      "陶建华"
+      "陶建华",
+      "刘斌"
     ],
     "source_record_ids": [
       "licai_sun_3c0381ff153c",
@@ -5158,13 +5932,29 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "bin_liu_casia": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "767106876e9c442c",
     "primary_categories_by_scholar": [
       "孙立才：情感理解与多模态推理",
       "连政：脑电基准、数据与评测",
-      "陶建华：情感脑电与多模态生理信号"
+      "陶建华：情感脑电与多模态生理信号",
+      "刘斌：通用预训练大模型、视听生成与基础方法"
     ],
     "dblp_key": "conf/mm/SunLTLN20",
     "abstract_en": "Automatic perception and understanding of human emotion or sentiment has a wide range of applications and has attracted increasing attention nowadays. The Multimodal Sentiment Analysis in Real-life Media (MuSe) 2020 provides a testing bed for recognizing human emotion or sentiment from multiple modalities (audio, video, and text) in the wild scenario. In this paper, we present our solutions to the MuSe-Wild sub-challenge of MuSe 2020. The goal of this sub-challenge is to perform continuous emotion (arousal and valence) predictions on a car review database, Muse-CaR. To this end, we first extract both handcrafted features and deep representations from multiple modalities. Then, we utilize the Long Short-Term Memory (LSTM) recurrent neural network as well as the self-attention mechanism to model the complex temporal dependencies in the sequence. The Concordance Correlation Coefficient (CCC) loss is employed to guide the model to learn local variations and the global trend of emotion simultaneously. Finally, two fusion strategies, early fusion and late fusion, are adopted to further boost the model's performance by exploiting complementary information from different modalities. Our proposed method achieves CCC of 0.4726 and 0.5996 for arousal and valence respectively on the test set, which outperforms the baseline system with corresponding CCC of 0.2834 and 0.2431.",

@@ -5,7 +5,7 @@
 - **身份/单位**：University of Oulu CMVS; collaboration with Prof. Guoying Zhao; PhD supervised by Prof. Jianhua Tao
 - **英文姓名**：Licai Sun · **ORCID**：[0000-0002-7944-3458](https://orcid.org/0000-0002-7944-3458) · **DBLP**：[241/3466](https://dblp.org/pid/241/3466.html)
 - **外部身份依据**：[身份源1](https://sunlicai.github.io/) · [身份源2](https://orcid.org/0000-0002-7944-3458) · [身份源3](https://dblp.org/pid/241/3466.html) · [身份源4](https://openalex.org/A5027572653)
-- **本轮核验书目记录**：**44** 条（其中含中英文摘要 **41** 条）；**开源资源入口**：**7** 条；**已关联资源的论文**：**12** 篇。
+- **本轮核验书目记录**：**44** 条（其中含中英文摘要 **41** 条）；**开源资源入口**：**7** 条；**已关联资源的论文**：**13** 篇。
 
 [论文分类目录](论文分类目录.md) · [按年份查看全部论文](全部论文.md) · [论文CSV](papers.csv) · [BibTeX](papers.bib) · [代码与项目](代码与项目.md) · [数据集与模型](数据集与模型.md) · [资源CSV](resources.csv) · [核验与缺口](核验与缺口.md) · [返回总导航](../README_总导航.md)
 

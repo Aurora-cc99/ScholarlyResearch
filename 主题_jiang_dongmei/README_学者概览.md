@@ -5,7 +5,7 @@
 - **身份/单位**：西北工业大学计算机学院；音频语音与语言处理实验室
 - **英文姓名**：Dongmei Jiang · **ORCID**：[0000-0002-6238-8499](https://orcid.org/0000-0002-6238-8499) · **DBLP**：[47/1926](https://dblp.org/pid/47/1926.html)
 - **外部身份依据**：[身份源1](https://jsj.nwpu.edu.cn/enweb/FACULTY/Department_of_Computer_Information_Engineering.htm) · [身份源2](https://dblp.org/pid/47/1926.html) · [身份源3](https://www.ais.cn/mentor/mentorDetail/1c553246-50cd-11eb-94db-a85e45a23623) · [身份源4](https://orcid.org/0000-0002-6238-8499) · [身份源5](https://openalex.org/A5102021514) · [身份源6](https://openalex.org/A5130249128)
-- **本轮核验书目记录**：**239** 条（其中含中英文摘要 **179** 条）；**开源资源入口**：**29** 条；**已关联资源的论文**：**25** 篇。
+- **本轮核验书目记录**：**239** 条（其中含中英文摘要 **180** 条）；**开源资源入口**：**29** 条；**已关联资源的论文**：**25** 篇。
 
 [论文分类目录](论文分类目录.md) · [按年份查看全部论文](全部论文.md) · [论文CSV](papers.csv) · [BibTeX](papers.bib) · [代码与项目](代码与项目.md) · [数据集与模型](数据集与模型.md) · [资源CSV](resources.csv) · [核验与缺口](核验与缺口.md) · [返回总导航](../README_总导航.md)
 

@@ -265,7 +265,8 @@
       "脑电基础大模型",
       "情感计算与情绪理解",
       "多模态与大语言模型",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感大模型"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2146,7 +2147,9 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感大模型",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100669549）",
     "status": "已索引出版/会议记录",
@@ -2616,7 +2619,8 @@
       "脑电情感计算",
       "脑电基础大模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感大模型"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3625,7 +3629,9 @@
       "脑电解码与脑机接口",
       "脑电情感计算",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -4204,7 +4210,8 @@
     "abstract_zh": "目的：尽管青少年友谊中 NSSI 传染的经验证据已被记录，但具体机制仍知之甚少。本研究采用纵向设计来调查青少年同伴群体中的NSSI对其自身NSSI行为的影响。此外，该研究还考察了自尊的中介作用以及 NSSI 传染发生的具体条件。方法：该研究涉及 163 个友谊二人组中的 326 名青少年（平均年龄 = 13.5 岁，59.2% 为女性）。在基线（T1）时评估 NSSI 行为、自尊、自我同情、述情障碍和个人痛苦，并在三个月后再次评估 NSSI 行为（T2）。交叉滞后的演员-合作伙伴交互...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100669549）",
     "status": "已索引出版/会议记录",
@@ -5209,7 +5216,9 @@
       "脑电解码与脑机接口",
       "脑电情感计算",
       "脑电基础大模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页",
     "status": "候选条目/需按作者主页继续核验",
@@ -6025,7 +6034,8 @@
       "脑电解码与脑机接口",
       "脑电情感计算",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页",
     "status": "候选条目/需按作者主页继续核验",
@@ -7079,7 +7089,8 @@
       "脑电解码与脑机接口",
       "脑电情感计算",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -7197,12 +7208,14 @@
     "scholar_ids": [
       "huiguang_he",
       "ming_dong",
-      "minpeng_xu"
+      "minpeng_xu",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "何晖光",
       "明东",
-      "许敏鹏"
+      "许敏鹏",
+      "钟子平"
     ],
     "source_record_ids": [
       "huiguang_he_5815a9e8ce23"
@@ -7242,16 +7255,29 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "862b0cb284e94000",
     "primary_categories_by_scholar": [
       "何晖光：情感脑电与多模态生理信号",
       "明东：脑电基础模型与通用解码",
-      "许敏鹏：脑电基础模型与通用解码"
+      "许敏鹏：脑电基础模型与通用解码",
+      "钟子平：脑电情感识别与多模态生理计算"
     ],
-    "abstract_en": "Objective. The state of vigilance is crucial for effective performance in brain-computer interface (BCI) tasks, and therefore, it is essential to investigate vigilance levels in BCI tasks. Despite this, most studies have focused on vigilance levels in driving tasks rather than on BCI tasks, and the electroencephalogram (EEG) patterns of vigilance states in different BCI tasks remain unclear. This study aimed to identify similarities and differences in EEG patterns and performances of vigilance estimation in different BCI tasks and sessions.Approach.To achieve this, we built a steady-state visual evoked potential-based BCI system and a rapid serial visual presentation-based BCI system and recruited 18 participants to carry out four BCI experimental sessions over four days.Main results. Our findings demonstrate that specific neural patterns for high and low vigilance levels are relatively stable across sessions. Differential entropy features significantly differ between different vigilance levels in all frequency bands and between BCI tasks in the delta and theta frequency bands, with the theta frequency band features playing a critical role in vigilance estimation. Additionally, prefrontal, temporal, and occipital regions are more relevant to the vigilance state in BCI tasks. Our results suggest that cross-session vigilance estimation is more accurate than cross-task estimation.Significance.Our study clarifies the underlying mechanisms of vigilance state in two BCI tasks and provides a foundation for further research in vigilance estimation in BCI applications.",
-    "abstract_source": "pubmed_verified",
+    "abstract_en": "Objective. The state of vigilance is crucial for effective performance in brain-computer interface (BCI) tasks, and therefore, it is essential to investigate vigilance levels in BCI tasks. Despite this, most studies have focused on vigilance levels in driving tasks rather than on BCI tasks, and the electroencephalogram (EEG) patterns of vigilance states in different BCI tasks remain unclear. This study aimed to identify similarities and differences in EEG patterns and performances of vigilance estimation in different BCI tasks and sessions. Approach. To achieve this, we built a steady-state visual evoked potential-based BCI system and a rapid serial visual presentation-based BCI system and recruited 18 participants to carry out four BCI experimental sessions over four days. Main results. Our findings demonstrate that specific neural patterns for high and low vigilance levels are relatively stable across sessions. Differential entropy features significantly differ between different vigilance levels in all frequency bands and between BCI tasks in the delta and theta frequency bands, with the theta frequency band features playing a critical role in vigilance estimation. Additionally, prefrontal, temporal, and occipital regions are more relevant to the vigilance state in BCI tasks. Our results suggest that cross-session vigilance estimation is more accurate than cross-task estimation. Significance. Our study clarifies the underlying mechanisms of vigilance state in two BCI tasks and provides a foundation for further research in vigilance estimation in BCI applications.",
+    "abstract_source": "openalex_verified",
     "abstract_zh": "客观。警惕状态对于脑机接口（BCI）任务的有效执行至关重要，因此，研究 BCI 任务中的警惕水平至关重要。尽管如此，大多数研究都集中在驾驶任务中的警惕水平，而不是 BCI 任务，并且不同 BCI 任务中警惕状态的脑电图 (EEG) 模式仍不清楚。本研究旨在确定不同 BCI 任务和会话中脑电图模式和警觉性评估表现的相似性和差异。方法。为了实现这一目标，我们构建了一个基于稳态视觉诱发电位的 BCI 系统和一个基于快速串行视觉呈现的 BCI 系统并记录了..."
   },
   {
@@ -7319,13 +7345,15 @@
       "minpeng_xu",
       "ming_dong",
       "huiguang_he",
-      "panorama_shouyan_wang"
+      "panorama_shouyan_wang",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "许敏鹏",
       "明东",
       "何晖光",
-      "王守岩"
+      "王守岩",
+      "钟子平"
     ],
     "source_record_ids": [
       "minpeng_xu_afe8adfd0356"
@@ -7389,6 +7417,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "c4ce25156436cf96",
@@ -7396,7 +7439,8 @@
       "许敏鹏：情感脑电与多模态生理信号",
       "明东：脑电基础模型与通用解码",
       "何晖光：脑电基础模型与通用解码",
-      "王守岩：脑电基础模型与通用解码"
+      "王守岩：脑电基础模型与通用解码",
+      "钟子平：脑电情感识别与多模态生理计算"
     ],
     "dblp_key": "journals/eswa/WangQWZWHXJM23"
   },
@@ -8531,7 +8575,8 @@
       "脑电情感计算",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -8611,7 +8656,8 @@
       "脑电基础大模型",
       "脑机接口与神经解码",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "DBLP作者索引快照；与官方作品集并行保留，待逐条身份核验",
     "status": "DBLP来源记录/待核验",
@@ -8716,7 +8762,8 @@
       "脑电解码与脑机接口",
       "脑电情感计算",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -9175,7 +9222,8 @@
       "脑电解码与脑机接口",
       "脑电情感计算",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -10284,7 +10332,8 @@
       "脑电解码与脑机接口",
       "脑电情感计算",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页",
     "status": "候选条目/需按作者主页继续核验",
@@ -10788,7 +10837,8 @@
       "脑电解码与脑机接口",
       "脑电情感计算",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -11295,7 +11345,8 @@
       "脑电解码与脑机接口",
       "脑电情感计算",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -12704,7 +12755,8 @@
       "脑电解码与脑机接口",
       "脑电情感计算",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -12789,7 +12841,9 @@
       "脑电解码与脑机接口",
       "脑电情感计算",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -13111,7 +13165,8 @@
       "脑电解码与脑机接口",
       "脑电情感计算",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -13680,7 +13735,8 @@
       "脑电解码与脑机接口",
       "脑电情感计算",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -13799,7 +13855,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -14790,7 +14847,8 @@
       "脑电解码与脑机接口",
       "脑电情感计算",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -14871,7 +14929,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -15065,7 +15124,8 @@
       "脑电解码与脑机接口",
       "脑电情感计算",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -16565,7 +16625,8 @@
       "脑电解码与脑机接口",
       "脑电情感计算",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",

@@ -22,7 +22,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "Crossref exact/near-exact title and publication-year match; DOI URL preserved",
     "status": "已核验作品（Crossref DOI）",
@@ -241,7 +242,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "Crossref exact/near-exact title and publication-year match; DOI URL preserved；题名、年份和作者字段已写入论文详情页",
     "status": "已核验作品（Crossref/DOI）",
@@ -407,7 +409,8 @@
     "abstract_source": "",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 47/1926）",
     "status": "已索引出版/会议记录",
@@ -597,8 +600,8 @@
     "authors": [
       "Dongmei Jiang"
     ],
-    "doi": "",
-    "paper_url": "",
+    "doi": "10.1016/J.INFFUS.2025.104053",
+    "paper_url": "https://doi.org/10.1016/J.INFFUS.2025.104053",
     "source_url": "",
     "topics": [
       "视听情感识别",
@@ -608,7 +611,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -620,7 +624,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 5,
     "publication_types": "",
     "candidate_source": true,
     "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
@@ -644,10 +648,12 @@
     "work_title_group": "77c543c35827",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "jiang_dongmei"
+      "jiang_dongmei",
+      "erik_cambria"
     ],
     "scholar_names": [
-      "蒋冬梅"
+      "蒋冬梅",
+      "Erik Cambria"
     ],
     "source_record_ids": [
       "jiang_dongmei_4fbdc480c597"
@@ -667,12 +673,29 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "erik_cambria": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Erik Cambria",
+        "secondary_tags": [
+          "视听情感识别",
+          "语音情感计算",
+          "多模态情感分析",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "low",
+        "note": ""
       }
     },
     "global_record_id": "965d0a3219cff88d",
     "primary_categories_by_scholar": [
-      "蒋冬梅：情感脑电与多模态生理信号"
-    ]
+      "蒋冬梅：情感脑电与多模态生理信号",
+      "Erik Cambria：自然语言处理、多模态学习与通用方法"
+    ],
+    "dblp_key": "journals/inffus/HuangJZCLC26"
   },
   {
     "title": "Efficient Adversarial Training via Criticality-Aware Fine-Tuning",
@@ -771,10 +794,12 @@
     "scholar_id": "jiang_dongmei",
     "scholar_name": "蒋冬梅",
     "scholar_ids": [
-      "jiang_dongmei"
+      "jiang_dongmei",
+      "shiguang_shan"
     ],
     "scholar_names": [
-      "蒋冬梅"
+      "蒋冬梅",
+      "山世光"
     ],
     "source_record_ids": [
       "jiang_dongmei_3183817b3f5a959a"
@@ -791,10 +816,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "shiguang_shan": {
+        "category_id": "multimodal_emotion",
+        "label": "多模态情感理解、面部表情与语音情绪",
+        "scholar_name": "山世光",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "蒋冬梅：脑电基础模型与通用解码"
+      "蒋冬梅：脑电基础模型与通用解码",
+      "山世光：多模态情感理解、面部表情与语音情绪"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -963,7 +997,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1053,7 +1088,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "Crossref exact title match; DOI URL preserved",
     "status": "已核验作品（Crossref DOI）",
@@ -1277,7 +1314,9 @@
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
       "多模态与大语言模型",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "Crossref exact title match; DOI URL preserved",
     "status": "已核验作品（Crossref DOI）",
@@ -1503,7 +1542,7 @@
     "source_url": "https://dblp.org/rec/journals/pr/ChangZJS26.html",
     "openalex_id": "https://openalex.org/W7172223836",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 2,
     "abstract_en": "Understanding gaze behavior is a fundamental aspect of human social perception and a challenging problem in computer vision. Social gaze encompass not only where a person is looking but also how their gaze functions within a social context to establish connections, regulate conversations, and convey meaning. Existing social gaze analysis methods either primarily focus on detecting the spatial location of gaze targets while overlooking contextual cues, or rely exclusively on semantic representations, neglecting the spatial consistency between gaze targets and social gaze patterns. To bridge this gap, we propose CoSI-Gaze(CoSI), a Context-Spatial Integration framework for joint gaze target detection and social gaze prediction. To balance the contributions of contextual information and spatial consistency, CoSI estimates the reliability of gaze target predictions and adaptively adjusts this reliability in the integration process. To evaluate the framework’s ability to understand social gaze behaviors, we introduce DyGaze, the first dataset of dyadic interactions annotated with both gaze targets and five social gaze patterns (mutual, shared, single, miss, and void). Extensive experiments demonstrate that CoSI achieves state-of-the-art performance across DyGaze and other gaze pattern prediction benchmarks.",
     "abstract_zh": "理解注视行为是人类社会感知的一个基本方面，也是计算机视觉中的一个具有挑战性的问题。社交凝视不仅包括一个人正在看的地方，还包括他们的凝视如何在社会环境中发挥作用，以建立联系、调节对话和传达意义。现有的社交注视分析方法要么主要侧重于检测注视目标的空间位置，而忽略上下文线索，要么完全依赖语义表示，忽略注视目标和社交注视模式之间的空间一致性。为了弥补这一差距，我们提出了 CoSI-Gaze（CoSI），这是一种用于联合注视目标检测和社交注视预测的上下文空间集成框架。为了平衡...",
     "abstract_source": "openalex_doi",
@@ -1517,10 +1556,12 @@
     "scholar_id": "jiang_dongmei",
     "scholar_name": "蒋冬梅",
     "scholar_ids": [
-      "jiang_dongmei"
+      "jiang_dongmei",
+      "shiguang_shan"
     ],
     "scholar_names": [
-      "蒋冬梅"
+      "蒋冬梅",
+      "山世光"
     ],
     "source_record_ids": [
       "jiang_dongmei_7a1f6a085ef5498a"
@@ -1537,10 +1578,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "shiguang_shan": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "山世光",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "蒋冬梅：脑电基准、数据与评测"
+      "蒋冬梅：脑电基准、数据与评测",
+      "山世光：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -1931,7 +1981,8 @@
     "topics": [
       "情感计算与情绪理解",
       "多模态与大语言模型",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 47/1926）",
     "status": "已索引出版/会议记录",
@@ -2166,10 +2217,12 @@
     "scholar_id": "jiang_dongmei",
     "scholar_name": "蒋冬梅",
     "scholar_ids": [
-      "jiang_dongmei"
+      "jiang_dongmei",
+      "shiguang_shan"
     ],
     "scholar_names": [
-      "蒋冬梅"
+      "蒋冬梅",
+      "山世光"
     ],
     "source_record_ids": [
       "jiang_dongmei_37ba2aadb99bde23"
@@ -2188,10 +2241,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "shiguang_shan": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "山世光",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "蒋冬梅：脑电基准、数据与评测"
+      "蒋冬梅：脑电基准、数据与评测",
+      "山世光：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -2436,7 +2500,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 47/1926）",
     "status": "已索引出版/会议记录",
@@ -3573,7 +3638,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3740,7 +3806,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -4164,7 +4231,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -5047,7 +5115,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5102021514）",
     "status": "已索引出版/会议记录",
@@ -5183,7 +5252,8 @@
     "abstract_zh": "面部动作单元 (AU) 专注于一套全面的原子面部肌肉运动，用于人类表达理解。基于监督学习，可以从 AU 所在的局部补丁中实现有区别的 AU 表示。不幸的是，准确的 AU 定位和表征受到大量手动注释的挑战，这限制了 AU 识别在现实场景中的性能。在本研究中，我们提出了一种端到端自监督 AU 表示学习模型（SsupAU），用于从未标记的面部视频中学习 AU 表示。具体来说，使用自动编码器将输入面分解为六个组件：五个照片几何有意义的组件，以及 2D 流场 AU...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 47/1926）",
     "status": "已索引出版/会议记录",
@@ -5249,13 +5319,14 @@
     "source_url": "https://dblp.org/rec/conf/icmcs/LiangZHJS24.html",
     "openalex_id": "https://openalex.org/W4402979801",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 1,
     "abstract_en": "Facial action unit (AU) detection is an essential technique for fine-grained facial expression analysis. To improve the detection performance, the associations among different action units within the detection network should be exploited. In light of this, we propose to exploit the semantic corrections between AUs and improve the detection accuracy via a novel AU prompt framework. Specifically, we incorporate a pre-trained text encoder to extract the textual embeddings for AU descriptions. Then, we treat these embeddings as semantic prompts and feed them into a vision-language cross-attention module to capture the relations among AUs. The cross-attention module will adaptively aggregate the spatial features of a face image encoder, and finally generate discriminative features for each AU. Extensive experiments on BP4D, DISFA, and GFT datasets demonstrate that the proposed framework outperforms state-of-the-art methods in both within-dataset and cross-dataset settings.",
     "abstract_zh": "面部动作单元（AU）检测是细粒度面部表情分析的一项重要技术。为了提高检测性能，应利用检测网络内不同动作单元之间的关联。有鉴于此，我们建议利用 AU 之间的语义校正，并通过新颖的 AU 提示框架提高检测精度。具体来说，我们结合了一个预先训练的文本编码器来提取 AU 描述的文本嵌入。然后，我们将这些嵌入视为语义提示，并将它们输入视觉语言交叉注意模块以捕获 AU 之间的关系。交叉注意力模块将自适应地聚合面部图像编码器的空间特征，并最终...",
     "abstract_source": "openalex_doi",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 47/1926）",
     "status": "已索引出版/会议记录",
@@ -5266,10 +5337,12 @@
     "scholar_id": "jiang_dongmei",
     "scholar_name": "蒋冬梅",
     "scholar_ids": [
-      "jiang_dongmei"
+      "jiang_dongmei",
+      "shiguang_shan"
     ],
     "scholar_names": [
-      "蒋冬梅"
+      "蒋冬梅",
+      "山世光"
     ],
     "source_record_ids": [
       "jiang_dongmei_474dcf5c1f5551d1"
@@ -5289,10 +5362,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "shiguang_shan": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "山世光",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "蒋冬梅：脑电基准、数据与评测"
+      "蒋冬梅：脑电基准、数据与评测",
+      "山世光：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -5382,7 +5468,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计",
     "status": "候选条目/需按作者主页继续核验",
@@ -5420,10 +5507,12 @@
     "work_title_group": "103341f75c31",
     "resource_status": "已关联公开入口；具体访问范围见资源说明",
     "scholar_ids": [
-      "jiang_dongmei"
+      "jiang_dongmei",
+      "lei_xie_nwpu"
     ],
     "scholar_names": [
-      "蒋冬梅"
+      "蒋冬梅",
+      "谢磊"
     ],
     "source_record_ids": [
       "jiang_dongmei_4803ad5489bb"
@@ -5443,11 +5532,27 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "lei_xie_nwpu": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "谢磊",
+        "secondary_tags": [
+          "视听情感识别",
+          "语音情感计算",
+          "多模态情感分析",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "184fbbad6deca256",
     "primary_categories_by_scholar": [
-      "蒋冬梅：情感脑电与多模态生理信号"
+      "蒋冬梅：情感脑电与多模态生理信号",
+      "谢磊：视觉感知、语音信号与通用人工智能"
     ],
     "dblp_key": "journals/corr/abs-2409-05015",
     "pdf_url": "https://arxiv.org/pdf/2409.05015",
@@ -5567,7 +5672,9 @@
     "abstract_source": "arxiv_api",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 47/1926）",
     "status": "预印本记录",
@@ -5701,7 +5808,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -5933,7 +6041,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计",
     "status": "候选条目/需按作者主页继续核验",
@@ -6193,7 +6302,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感大模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -6565,7 +6676,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -6659,7 +6771,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计",
     "status": "候选条目/需按作者主页继续核验",
@@ -7176,7 +7289,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 47/1926）",
     "status": "已索引出版/会议记录",
@@ -7309,7 +7423,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -7321,7 +7437,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 62,
     "publication_types": "",
     "candidate_source": true,
     "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
@@ -7346,11 +7462,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "jiang_dongmei",
-      "xu_ruifeng"
+      "xu_ruifeng",
+      "bin_liang_cuhk"
     ],
     "scholar_names": [
       "蒋冬梅",
-      "徐睿峰"
+      "徐睿峰",
+      "梁斌"
     ],
     "source_record_ids": [
       "jiang_dongmei_c7203f6fe2eb"
@@ -7385,12 +7503,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bin_liang_cuhk": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "梁斌",
+        "secondary_tags": [
+          "视听情感识别",
+          "语音情感计算",
+          "多模态情感分析",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "3d83508bdf4f327d",
     "primary_categories_by_scholar": [
       "蒋冬梅：情感脑电与多模态生理信号",
-      "徐睿峰：情感脑电与多模态生理信号"
+      "徐睿峰：情感脑电与多模态生理信号",
+      "梁斌：情感与大模型评测基准、数据集及综述"
     ],
     "dblp_key": "journals/taffco/TuLJX23",
     "abstract_en": "Emotion recognition in conversations (ERC) needs to detect the emotion of each utterance in conversations. However, it is difficult for machines to recognize the emotion of utterances like humans, partly because of the lack of commonsense knowledge. Despite existing efforts gradually incorporate knowledge in ERC, they can not adaptively adjust knowledge according to different utterances and their context. In this article, we propose a knowledge selection framework SKSEC (SelectKnowledge in light ofSentimentEmotion andContext). In the SKSEC framework, first, external knowledge is eliminated by three Knowledge Elimination (KE) modules. More concretely, In word-level KE, the concept knowledge different from the sentiment corresponding to the word in utterances is randomly eliminated. In utterance- or context-level KE, If the similarity between the knowledge representation and the emotion label representation of the current utterance or its context is less than the preset threshold, the knowledge will be eliminated. Then we refine the weight of knowledge using two Graph ATtention (GAT) mechanisms. Specifically, In Sentics GAT, we employ a dimensional emotion model to measure words in utterances and their corresponding knowledge and adjust the weight of knowledge according to their emotional similarity. In Semantics GAT, the weight of knowledge is adjusted according to the semantic similarity between context and incorporated knowledge. Finally, we feed the selected knowledge to the most advanced models to evaluate the quality of knowledge. The experimental results show that the SKSEC framework can effectively improve the performance of the model by eliminating and refining external knowledge in different size and domain datasets.",
@@ -7473,8 +7607,8 @@
     "authors": [
       "Dongmei Jiang"
     ],
-    "doi": "",
-    "paper_url": "",
+    "doi": "10.1109/TAFFC.2022.3232166",
+    "paper_url": "https://doi.org/10.1109/TAFFC.2022.3232166",
     "source_url": "",
     "topics": [
       "视听情感识别",
@@ -7483,7 +7617,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -7495,7 +7631,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 32,
     "publication_types": "",
     "candidate_source": true,
     "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
@@ -7519,10 +7655,12 @@
     "work_title_group": "75c587a2589e",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "jiang_dongmei"
+      "jiang_dongmei",
+      "erik_cambria"
     ],
     "scholar_names": [
-      "蒋冬梅"
+      "蒋冬梅",
+      "Erik Cambria"
     ],
     "source_record_ids": [
       "jiang_dongmei_a79e39850a92"
@@ -7542,12 +7680,32 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "erik_cambria": {
+        "category_id": "affective_hci_emp",
+        "label": "情感智能交互、共情对话与社会信号",
+        "scholar_name": "Erik Cambria",
+        "secondary_tags": [
+          "视听情感识别",
+          "语音情感计算",
+          "多模态情感分析",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "a6ae7024f3dacfbb",
     "primary_categories_by_scholar": [
-      "蒋冬梅：情感脑电与多模态生理信号"
-    ]
+      "蒋冬梅：情感脑电与多模态生理信号",
+      "Erik Cambria：情感智能交互、共情对话与社会信号"
+    ],
+    "dblp_key": "journals/taffco/JiangWWTC23",
+    "abstract_en": "Emotion recognition in conversations (ERC) has wide applications in medical care, human-computer interaction, and other fields. Unlike the general task of emotion analysis, humans usually rely on context and commonsense knowledge to convey emotions in conversations. Only when the model can connect and fully utilize a large-scale commonsense knowledge base, it can better understand latent contents in conversations. Unfortunately, there is no available knowledge selection mechanism to address such knowledge needs and to make sure the system is not flooded with irrelevant commonsense knowledge. Therefore, we propose an AutoML strategy based on emotion congruent effect to select suitable knowledge and models, called AutoML-Emo. Global exploration and local exploitation-based selection mechanisms (G&LESM) are used for automatic knowledge selection. The transformer-based architecture search (TAS) is applied to model selection, the selected transformer-based model is employed to incorporate knowledge and capture context information in conversations. The experimental results show that AutoML-Emo can effectively enhance external knowledge in different sizes and domain datasets. Moreover, the selected transformer-based model derived from TAS is superior to the most advanced models.",
+    "abstract_source": "openalex_verified",
+    "abstract_zh": "对话中的情绪识别（ERC）在医疗、人机交互等领域有着广泛的应用。与情感分析的一般任务不同，人类通常依靠上下文和常识知识来在对话中传达情感。只有当模型能够连接并充分利用大规模常识知识库时，才能更好地理解对话中的潜在内容。不幸的是，没有可用的知识选择机制来满足此类知识需求并确保系统不会被不相关的常识知识淹没。因此，我们提出了一种基于情感一致性效应来选择合适的知识和模型的AutoML策略，称为AutoML-Emo。全球探索"
   },
   {
     "title": "HiT-MST: Dynamic facial expression recognition with hierarchical transformers and multi-scale spatiotemporal aggregation",
@@ -7571,7 +7729,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 47/1926）",
     "status": "已索引出版/会议记录",
@@ -7838,7 +7997,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -7928,7 +8088,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -8088,7 +8250,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 47/1926）",
     "status": "已索引出版/会议记录",
@@ -8152,7 +8315,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计",
     "status": "候选条目/需按作者主页继续核验",
@@ -8369,7 +8533,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -8463,7 +8628,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 47/1926）",
     "status": "已索引出版/会议记录",
@@ -8535,7 +8701,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 47/1926）",
     "status": "已索引出版/会议记录",
@@ -8601,7 +8768,8 @@
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
       "多模态与大语言模型",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -8762,7 +8930,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -8992,7 +9161,8 @@
     "abstract_zh": "由于图像形成过程中三维信息的丢失，从图像序列中进行自动面部表情分析以进行连续情绪识别是一项非常具有挑战性的任务。最先进的技术依赖于估计动态纹理特征和卷积神经网络特征来导出时空特征。尽管取得了巨大成功，但这些特征对微面部肌肉变形不敏感，并且受到身份、面部姿势、照明变化和自遮挡的影响。在这项工作中，我们认为从图像序列中检索描述自然面部肌肉变形的 3D 面部时空信息，提供了一种语义上且有效的表示方式，并且...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 47/1926）",
     "status": "已索引出版/会议记录",
@@ -9252,7 +9422,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -9349,7 +9520,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -9651,7 +9823,8 @@
     "abstract_zh": "抑郁症已成为危害人类健康的主要心理疾病之一。情感计算社区的研究人员正在支持开发可靠的抑郁症严重程度估计系统，从多种模式（语音、面部、文本）协助医生进行诊断。然而，有限的注释数据已成为制约抑郁症筛查研究的主要瓶颈，尤其是在使用深度学习模型时。为了缓解这个问题，在这项工作中，我们建议使用深度卷积生成对抗网络（DCGAN）进行特征增强，以改进语音的抑郁严重程度估计。据我们所知，这种方法是首次尝试应用......",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 47/1926）",
     "status": "已索引出版/会议记录",
@@ -9812,7 +9985,9 @@
     "abstract_zh": "心理健康应用越来越有兴趣使用视听和生理测量来检测人的情绪状态，其中重要的研究旨在检测情景情绪状态。可穿戴设备和先进信号的出现吸引了研究人员探索检测连续的情绪类别序列（称为情绪流），以了解心理健康状况。目前，还没有建立用于实验情绪流的数据库。在本文中，我们做出了两项贡献。首先，我们收集了社交游戏场景下的多模态 EMOtion Stream（MEMOS）数据库。玩家的音频视频记录是通过手机和对齐的电子设备进行的。",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 47/1926）",
     "status": "已索引出版/会议记录",
@@ -10155,7 +10330,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -10406,7 +10582,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5102021514）",
     "status": "已索引出版/会议记录",
@@ -10680,7 +10857,8 @@
     "topics": [
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 47/1926）",
     "status": "已索引出版/会议记录",
@@ -11158,7 +11336,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -11384,7 +11563,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -11497,7 +11678,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -11610,7 +11793,9 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -11704,7 +11889,9 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -11862,7 +12049,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计",
     "status": "候选条目/需按作者主页继续核验",
@@ -11958,7 +12146,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入",
     "status": "候选条目/需按作者主页继续核验",
@@ -11998,12 +12187,16 @@
     "scholar_ids": [
       "jianhua_tao",
       "panorama_ya_li",
-      "jiang_dongmei"
+      "jiang_dongmei",
+      "shiguang_shan",
+      "bjorn_schuller"
     ],
     "scholar_names": [
       "陶建华",
       "李雅",
-      "蒋冬梅"
+      "蒋冬梅",
+      "山世光",
+      "Björn W. Schuller"
     ],
     "source_record_ids": [
       "jianhua_tao_b5e9eb447f16",
@@ -12053,13 +12246,45 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "shiguang_shan": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "山世光",
+        "secondary_tags": [
+          "情感计算",
+          "语音与对话",
+          "多模态情感理解",
+          "人机交互",
+          "情感智能",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "bjorn_schuller": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "情感计算",
+          "语音与对话",
+          "多模态情感理解",
+          "人机交互",
+          "情感智能",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "ed3c2aa9028d1e77",
     "primary_categories_by_scholar": [
       "陶建华：情感脑电与多模态生理信号",
       "李雅：情感脑电与多模态生理信号",
-      "蒋冬梅：情感脑电与多模态生理信号"
+      "蒋冬梅：情感脑电与多模态生理信号",
+      "山世光：视觉感知、语音信号与通用人工智能",
+      "Björn W. Schuller：自然语言处理、多模态学习与通用方法"
     ],
     "pdf_url": "https://opus.bibliothek.uni-augsburg.de/opus4/files/45049/45049.pdf",
     "abstract_en": "This paper introduces baselines for the Multimodal Emotion Recognition Challenge (MEC) 2017, which is a part of the first Asian Conference on Affective Computing and Intelligent Interaction (ACII Asia) 2018. The aim of MEC 2017 is to improve the performance of emotion recognition in real-world conditions. The Chinese Natural Audio-Visual Emotion Database (CHEAVD) 2.0 is utilized as the challenge database, which is an extension of CHEAVD as released in MEC 2016. MEC 2017 has three sub-challenges and 31 teams participate in either all or part of them. 27 teams, 16 teams and 17 teams participate in audio (only), video (only) and multimodal emotion recognition sub-challenges, respectively. Baseline scores of the audio (only) and the video (only) sub-challenges are generated from Support Vector Machines (SVM) where audio features and video features are considered separately. In the multimodal sub-challenge, feature-level fusion and decision-level fusion are both utilized. The baselines of the audio (only), the video (only) and the multimodal sub-challenges are 39.2%, 21.7% and 35.7% in macro average precision.",
@@ -12113,7 +12338,9 @@
     ],
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://dcapswoz.ict.usc.edu/"
+    ],
     "model_urls": [],
     "scholar_categories": {
       "jiang_dongmei": {
@@ -12157,13 +12384,16 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://dcapswoz.ict.usc.edu/"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W2786906276",
     "openalex_author_id": "https://openalex.org/A5102021514",
@@ -12604,7 +12834,9 @@
     ],
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://dcapswoz.ict.usc.edu/"
+    ],
     "model_urls": [],
     "scholar_categories": {
       "jiang_dongmei": {
@@ -12914,7 +13146,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入",
     "status": "候选条目/需按作者主页继续核验",
@@ -12954,12 +13187,16 @@
     "scholar_ids": [
       "jianhua_tao",
       "jiang_dongmei",
-      "panorama_ya_li"
+      "panorama_ya_li",
+      "shiguang_shan",
+      "bjorn_schuller"
     ],
     "scholar_names": [
       "陶建华",
       "蒋冬梅",
-      "李雅"
+      "李雅",
+      "山世光",
+      "Björn W. Schuller"
     ],
     "source_record_ids": [
       "jianhua_tao_9d18dcbc6cfc",
@@ -13012,13 +13249,45 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "shiguang_shan": {
+        "category_id": "multimodal_emotion",
+        "label": "多模态情感理解、面部表情与语音情绪",
+        "scholar_name": "山世光",
+        "secondary_tags": [
+          "情感计算",
+          "语音与对话",
+          "多模态情感理解",
+          "人机交互",
+          "情感智能",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "bjorn_schuller": {
+        "category_id": "affect_int_llm",
+        "label": "情感大模型、知识推理与评测基准",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "情感计算",
+          "语音与对话",
+          "多模态情感理解",
+          "人机交互",
+          "情感智能",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "d9adb7bd19670d53",
     "primary_categories_by_scholar": [
       "陶建华：情感脑电与多模态生理信号",
       "蒋冬梅：情感脑电与多模态生理信号",
-      "李雅：情感脑电与多模态生理信号"
+      "李雅：情感脑电与多模态生理信号",
+      "山世光：多模态情感理解、面部表情与语音情绪",
+      "Björn W. Schuller：情感大模型、知识推理与评测基准"
     ],
     "dblp_key": "conf/ccpr/LiTSSJJ16"
   },
@@ -13244,7 +13513,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -13396,7 +13666,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -13557,7 +13829,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -13980,10 +14254,12 @@
     "scholar_id": "jiang_dongmei",
     "scholar_name": "蒋冬梅",
     "scholar_ids": [
-      "jiang_dongmei"
+      "jiang_dongmei",
+      "lei_xie_nwpu"
     ],
     "scholar_names": [
-      "蒋冬梅"
+      "蒋冬梅",
+      "谢磊"
     ],
     "source_record_ids": [
       "jiang_dongmei_6b67af818fceb0df"
@@ -14003,10 +14279,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "lei_xie_nwpu": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "谢磊",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "蒋冬梅：情感脑电与多模态生理信号"
+      "蒋冬梅：情感脑电与多模态生理信号",
+      "谢磊：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -14040,7 +14328,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 47/1926）",
     "status": "已索引出版/会议记录",
@@ -14215,10 +14504,12 @@
     "scholar_id": "jiang_dongmei",
     "scholar_name": "蒋冬梅",
     "scholar_ids": [
-      "jiang_dongmei"
+      "jiang_dongmei",
+      "lei_xie_nwpu"
     ],
     "scholar_names": [
-      "蒋冬梅"
+      "蒋冬梅",
+      "谢磊"
     ],
     "source_record_ids": [
       "jiang_dongmei_9a6ef1d73f0ce6b4"
@@ -14237,10 +14528,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "lei_xie_nwpu": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "谢磊",
+        "secondary_tags": [
+          "脑电基础大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "蒋冬梅：脑电基础模型与通用解码"
+      "蒋冬梅：脑电基础模型与通用解码",
+      "谢磊：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -14338,7 +14640,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电基础大模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计",
     "status": "候选条目/需按作者主页继续核验",
@@ -14676,7 +14979,8 @@
     "abstract_zh": "摘要：本文提出了一种基于动态贝叶斯网络 (DBN) 的 MPEG-4 兼容 3D 面部动画合成方法，由连续情感空间中的（评估、激活）值驱动。对于每种情绪，首先使用具有两个输入流的 Cohn-Kanade (CK) 数据库训练状态同步 DBN 模型 (SS_DBN)：(i) 带注释的（评估、激活）值，以及 (ii) 提取的面部图像序列的面部动作参数 (FAP)。然后给定输入（评估、激活）序列，通过最大似然估计 (MLE) 标准估计最佳 FAP 序列，然后用于构建符合 MPEG-4 的 3D 面部动画。与最先进的方法相比，m...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 47/1926）",
     "status": "已索引出版/会议记录",
@@ -14743,7 +15047,8 @@
     "abstract_zh": "提出了一种用于视听情感识别的三流动态贝叶斯网络（DBN）模型（T_AsyDBN），其中两个音频流在状态级上同步，而在可控约束下与视觉流异步。提取MFCC特征和局部韵律特征作为音频特征，同时提取维度几何特征以及面部动作单元系数作为视觉特征。情感识别实验表明，通过调整异步约束，T_AsyDBN表现更好与两流视听DBN模型（Asy_DBN）相比，平均识别率从52.14%提高到63.71%。",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5102021514）",
     "status": "已索引出版/会议记录",
@@ -14806,7 +15111,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -15327,7 +15633,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -15418,7 +15725,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计",
     "status": "候选条目/需按作者主页继续核验",
@@ -15581,7 +15889,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5102021514）",
     "status": "已索引出版/会议记录",
@@ -15646,7 +15955,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -15752,10 +16062,12 @@
     "scholar_id": "jiang_dongmei",
     "scholar_name": "蒋冬梅",
     "scholar_ids": [
-      "jiang_dongmei"
+      "jiang_dongmei",
+      "lei_xie_nwpu"
     ],
     "scholar_names": [
-      "蒋冬梅"
+      "蒋冬梅",
+      "谢磊"
     ],
     "source_record_ids": [
       "jiang_dongmei_cf1cc42c65e73e59"
@@ -15774,10 +16086,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "lei_xie_nwpu": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "谢磊",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "蒋冬梅：脑电基准、数据与评测"
+      "蒋冬梅：脑电基准、数据与评测",
+      "谢磊：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -15815,10 +16138,12 @@
     "scholar_id": "jiang_dongmei",
     "scholar_name": "蒋冬梅",
     "scholar_ids": [
-      "jiang_dongmei"
+      "jiang_dongmei",
+      "lei_xie_nwpu"
     ],
     "scholar_names": [
-      "蒋冬梅"
+      "蒋冬梅",
+      "谢磊"
     ],
     "source_record_ids": [
       "jiang_dongmei_f8f37fbebda17452"
@@ -15835,10 +16160,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "lei_xie_nwpu": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "谢磊",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "蒋冬梅：脑电基础模型与通用解码"
+      "蒋冬梅：脑电基础模型与通用解码",
+      "谢磊：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -16055,7 +16389,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计",
     "status": "候选条目/需按作者主页继续核验",

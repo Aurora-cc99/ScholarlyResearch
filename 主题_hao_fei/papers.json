@@ -59,11 +59,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "hao_fei",
-      "panorama_59d1207a515b"
+      "panorama_59d1207a515b",
+      "xiaocheng_feng"
     ],
     "scholar_names": [
       "郝飞",
-      "秦兵"
+      "秦兵",
+      "冯骁骋"
     ],
     "source_record_ids": [
       "hao_fei_3a0d2e71f201"
@@ -94,12 +96,27 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "xiaocheng_feng": {
+        "category_id": "affect_int_llm",
+        "label": "情感大模型、知识推理与评测基准",
+        "scholar_name": "冯骁骋",
+        "secondary_tags": [
+          "情感理解与多模态情感分析",
+          "情感智能与情感大模型",
+          "多模态基础模型",
+          "多模态与大语言模型",
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "aa5eb02f9727cf5c",
     "primary_categories_by_scholar": [
       "郝飞：情感理解与多模态推理",
-      "秦兵：脑电基础模型与通用解码"
+      "秦兵：脑电基础模型与通用解码",
+      "冯骁骋：情感大模型、知识推理与评测基准"
     ],
     "dblp_key": "journals/tacl/HuangFFFLYQFNQ26",
     "abstract_en": "Abstract Large Language Models (LLMs) exhibit unique strengths arising from differences in model architecture, training data, and strategies. Ensemble learning has been explored to leverage these complementary strengths through decision-level sharing (i.e.,Decision Ensemble), which combines the predictions from multiple LLMs. However, such methods integrate only shallow decisions and overlook the exchange of deeper levels of information within the internal representations of LLMs, such as problem understanding, world knowledge, and latent reasoning patterns. In this work, we propose Representation Ensemble (RISE), a novel ensemble framework that enables cross-LLM representation sharing for richer information exchange. To address challenges of representation-level interaction caused by layer misalignment and latent-space incompatibility across LLMs, we introduce a representation alignment method based on relational similarity measures and an orthogonal latent-space transformation. Experimental results show that (1) RISE achieves performance competitive with existing decision ensemble methods, and (2) RISE is strongly complementary to decision ensemble, with their combination boosting collaboration gains by 14%–41%. Finally, we further compare ensemble of small LLMs to a single larger LLM and to model merging and composition approaches, and find that ensemble learning consistently generalizes well without additional training.",
@@ -846,7 +863,9 @@
       "情感智能与情感大模型",
       "多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；已核验：Oxford senior postdoctoral researcher；NUS为历史任职",
     "status": "候选条目/需按作者主页继续核验",
@@ -1699,7 +1718,9 @@
       "情感智能与情感大模型",
       "多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；已核验：Oxford senior postdoctoral researcher；NUS为历史任职；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2562,7 +2583,9 @@
       "多模态基础模型",
       "情感计算与情绪理解",
       "多模态与大语言模型",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感大模型",
+      "情感智能"
     ],
     "verification": "主题筛选候选；已核验：Oxford senior postdoctoral researcher；NUS为历史任职；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -5141,7 +5164,9 @@
       "情感智能与情感大模型",
       "多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感大模型",
+      "情感智能"
     ],
     "verification": "主题筛选候选；已核验：Oxford senior postdoctoral researcher；NUS为历史任职",
     "status": "候选条目/需按作者主页继续核验",
@@ -5178,12 +5203,14 @@
     "scholar_id": "hao_fei",
     "scholar_name": "郝飞",
     "work_title_group": "c307ffbbcad7",
-    "resource_status": "已关联公开入口；具体访问范围见资源说明",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
-      "hao_fei"
+      "hao_fei",
+      "erik_cambria"
     ],
     "scholar_names": [
-      "郝飞"
+      "郝飞",
+      "Erik Cambria"
     ],
     "source_record_ids": [
       "hao_fei_4ab721ab12e6"
@@ -5200,11 +5227,27 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "erik_cambria": {
+        "category_id": "affect_int_llm",
+        "label": "情感大模型、知识推理与评测基准",
+        "scholar_name": "Erik Cambria",
+        "secondary_tags": [
+          "情感理解与多模态情感分析",
+          "情感智能与情感大模型",
+          "多模态基础模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "情感大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "dc6f2cb2f4c9baae",
     "primary_categories_by_scholar": [
-      "郝飞：情感数据集、基准与评测"
+      "郝飞：情感数据集、基准与评测",
+      "Erik Cambria：情感大模型、知识推理与评测基准"
     ],
     "dblp_key": "conf/www/ZhangM0HLC025",
     "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3696410.3714739",
@@ -6948,7 +6991,8 @@
       "情感智能与情感大模型",
       "多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：Oxford senior postdoctoral researcher；NUS为历史任职；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -7216,7 +7260,8 @@
       "情感智能与情感大模型",
       "多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感智能"
     ],
     "verification": "主题筛选候选；已核验：Oxford senior postdoctoral researcher；NUS为历史任职；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -7228,7 +7273,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 2,
     "publication_types": "",
     "candidate_source": false,
     "source_kind": "Crossref ORCID exact-match record",
@@ -7249,10 +7294,12 @@
     "work_title_group": "6a4dc4d4d78e",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "hao_fei"
+      "hao_fei",
+      "erik_cambria"
     ],
     "scholar_names": [
-      "郝飞"
+      "郝飞",
+      "Erik Cambria"
     ],
     "source_record_ids": [
       "hao_fei_ad08aa4853eb"
@@ -7269,11 +7316,27 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "erik_cambria": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Erik Cambria",
+        "secondary_tags": [
+          "情感理解与多模态情感分析",
+          "情感智能与情感大模型",
+          "多模态基础模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "情感智能"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "a15a04a60ffad97d",
     "primary_categories_by_scholar": [
-      "郝飞：情感智能、共情与生成"
+      "郝飞：情感智能、共情与生成",
+      "Erik Cambria：自然语言处理、多模态学习与通用方法"
     ],
     "dblp_key": "conf/mm/Zhang0HLCZ25",
     "abstract_en": "The Ava-MERG Challenge at ACM Multimedia 2025 explores avatar-based multimodal empathetic response generation by advancing dialogue systems that respond with emotional awareness across text, speech, and talking-face video. To support this goal, we constructed a high-quality dataset featuring aligned multimodal responses in diverse conversational scenarios. The challenge comprises two progressively complex subtasks centering around multimodal-aware empathetic response generation. We aim to promote research in empathetic AI and affective computing.",
@@ -7306,7 +7369,8 @@
       "情感智能与情感大模型",
       "多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：Oxford senior postdoctoral researcher；NUS为历史任职；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -7339,10 +7403,14 @@
     "work_title_group": "1ecb876db6a3",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "hao_fei"
+      "hao_fei",
+      "soujanya_poria",
+      "erik_cambria"
     ],
     "scholar_names": [
-      "郝飞"
+      "郝飞",
+      "Soujanya Poria",
+      "Erik Cambria"
     ],
     "source_record_ids": [
       "hao_fei_deb2cb3068c0"
@@ -7359,11 +7427,43 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "soujanya_poria": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "Soujanya Poria",
+        "secondary_tags": [
+          "情感理解与多模态情感分析",
+          "情感智能与情感大模型",
+          "多模态基础模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "erik_cambria": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Erik Cambria",
+        "secondary_tags": [
+          "情感理解与多模态情感分析",
+          "情感智能与情感大模型",
+          "多模态基础模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "0493f4bc5cdc1979",
     "primary_categories_by_scholar": [
-      "郝飞：情感理解与多模态推理"
+      "郝飞：情感理解与多模态推理",
+      "Soujanya Poria：视觉感知、语音信号与通用人工智能",
+      "Erik Cambria：自然语言处理、多模态学习与通用方法"
     ],
     "dblp_key": "conf/mm/001000W0PCLH25",
     "abstract_en": "Understanding fine-grained sentiment dynamics in human conversations is a central goal for next-generation artificial intelligence, especially in scenarios where interactions are rich in both modalities and context. To advance research in this area, we organize the Multimodal Conversational Aspect-based Sentiment Analysis (MCABSA) challenge to the community of aspect-based sentiment analysis. The MCABSA challenge introduces two novel subtasks: 1) Panoptic Sentiment Sextuple Extraction, panoramically recognizing holder, target, aspect, opinion, sentiment, and rationale from multi-turn, multi-party multimodal dialogue; and 2) Sentiment Flipping Analysis, detecting the dynamic sentiment transformation throughout the conversation along with the causal reasons. To support these tasks, we present the PanoSent dataset, a high-quality, large-scale benchmark featuring multi-turn, multi-party dialogues annotated with both explicit and implicit sentiment elements across text, image, audio, and video modalities. PanoSent offers extensive real-world scenario coverage, providing a comprehensive testbed for multimodal conversational sentiment analysis. The challenge has attracted widespread participation from both academia and industry, with over 30 teams registered and more than 100 successful submissions. In this paper, we introduce the task, dataset, and evaluation settings, summarize the systems of the top teams, and discuss the findings of the participants. Further details of the challenge can be found at https://panosent.github.io/MM25-challenge.",
@@ -7617,12 +7717,14 @@
     "scholar_id": "hao_fei",
     "scholar_name": "郝飞",
     "work_title_group": "d2b5127f34eb",
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
-      "hao_fei"
+      "hao_fei",
+      "xipeng_qiu"
     ],
     "scholar_names": [
-      "郝飞"
+      "郝飞",
+      "邱锡鹏"
     ],
     "source_record_ids": [
       "hao_fei_c6f5a416df49"
@@ -7639,11 +7741,27 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "xipeng_qiu": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "邱锡鹏",
+        "secondary_tags": [
+          "情感理解与多模态情感分析",
+          "情感智能与情感大模型",
+          "多模态基础模型",
+          "多模态与大语言模型",
+          "强化学习与决策优化",
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "020985c630a84012",
     "primary_categories_by_scholar": [
-      "郝飞：情感理解与多模态推理"
+      "郝飞：情感理解与多模态推理",
+      "邱锡鹏：通用预训练大模型、视听生成与基础方法"
     ],
     "dblp_key": "journals/corr/abs-2501-16629",
     "pdf_url": "https://arxiv.org/pdf/2501.16629",
@@ -7767,7 +7885,8 @@
       "情感智能与情感大模型",
       "多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感智能"
     ],
     "verification": "主题筛选候选；已核验：Oxford senior postdoctoral researcher；NUS为历史任职；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -7779,7 +7898,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 1,
     "publication_types": "",
     "candidate_source": false,
     "source_kind": "Crossref ORCID exact-match record",
@@ -7800,10 +7919,14 @@
     "work_title_group": "326a959a8698",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "hao_fei"
+      "hao_fei",
+      "bjorn_schuller",
+      "erik_cambria"
     ],
     "scholar_names": [
-      "郝飞"
+      "郝飞",
+      "Björn W. Schuller",
+      "Erik Cambria"
     ],
     "source_record_ids": [
       "hao_fei_5553cd139492"
@@ -7820,11 +7943,43 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "bjorn_schuller": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "情感理解与多模态情感分析",
+          "情感智能与情感大模型",
+          "多模态基础模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "情感智能"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "erik_cambria": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Erik Cambria",
+        "secondary_tags": [
+          "情感理解与多模态情感分析",
+          "情感智能与情感大模型",
+          "多模态基础模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "情感智能"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "91a45ac23a5e8010",
     "primary_categories_by_scholar": [
-      "郝飞：情感智能、共情与生成"
+      "郝飞：情感智能、共情与生成",
+      "Björn W. Schuller：自然语言处理、多模态学习与通用方法",
+      "Erik Cambria：自然语言处理、多模态学习与通用方法"
     ],
     "dblp_key": "conf/mm/0001000L00SLC25",
     "abstract_en": "The 1st Workshop on Cognition-oriented Multimodal Affective and Empathetic Computing (CogMAEC) was held at ACM Multimedia 2025. It focused on moving emotional AI beyond basic recognition toward deeper cognitive understanding. While traditional multimodal affective computing has emphasized simple emotion detection, the rise of multimodal large language models (MLLMs) has spurred interest in modeling how emotions emerge and evolve in context. The workshop gathered researchers on emotion reasoning, multimodal understanding, and human-computer empathy, exploring how machines can not only recognize emotions but also explain their causes and simulate human-like affective reasoning. The program featured invited talks, oral presentations, and posters spanning perception, interaction, causal modeling, and cognitive grounding. CogMAEC provided a platform to connect researchers across disciplines and foster future work on cognitively aware affective computing. Materials are available at https://CogMAEC.github.io/MM2025.",
@@ -7847,7 +8002,7 @@
       "Min Li",
       "Libo Qin"
     ],
-    "doi": "",
+    "doi": "10.1609/AAAI.V39I22.34538",
     "paper_url": "https://arxiv.org/abs/2412.12932",
     "source_url": "https://arxiv.org/abs/2412.12932",
     "topics": [
@@ -7872,7 +8027,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 77,
     "publication_types": "",
     "candidate_source": false,
     "source_kind": "Official author publication page",
@@ -7891,12 +8046,14 @@
     "scholar_id": "hao_fei",
     "scholar_name": "郝飞",
     "work_title_group": "6d5ae3f51869",
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
-      "hao_fei"
+      "hao_fei",
+      "xiaocheng_feng"
     ],
     "scholar_names": [
-      "郝飞"
+      "郝飞",
+      "冯骁骋"
     ],
     "source_record_ids": [
       "hao_fei_b04d680bd92e"
@@ -7913,16 +8070,31 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "xiaocheng_feng": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "冯骁骋",
+        "secondary_tags": [
+          "情感理解与多模态情感分析",
+          "情感智能与情感大模型",
+          "多模态基础模型",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "f58c55fa9ab755b2",
     "primary_categories_by_scholar": [
-      "郝飞：情感数据集、基准与评测"
+      "郝飞：情感数据集、基准与评测",
+      "冯骁骋：自然语言处理、多模态学习与通用方法"
     ],
     "abstract_en": "Large Vision-Language Models (LVLMs) have recently demonstrated amazing success in multi-modal tasks, including advancements in Multi-modal Chain-of-Thought (MCoT) reasoning. Despite these successes, current benchmarks still follow a traditional paradigm with multi-modal input and text-modal output, which leads to significant drawbacks such as missing visual operations and vague expressions. Motivated by this, we introduce a novel Chain of Multi-modal Thought (CoMT) benchmark to address these limitations. Different from the traditional MCoT benchmark, CoMT requires both multi-modal input and multi-modal reasoning output, aiming to mimic human-like reasoning that inherently integrates visual operation. Specifically, CoMT consists of four categories: (1) Visual Creation, (2) Visual Deletion, (3) Visual Update, and (4) Visual Selection to comprehensively explore complex visual operations and concise expression in real scenarios. We evaluate various LVLMs and strategies on CoMT, revealing some key insights into the capabilities and limitations of the current approaches. We hope that CoMT can inspire more research on introducing multi-modal generation into the reasoning process.",
     "abstract_source": "arxiv_api",
     "pdf_url": "https://arxiv.org/pdf/2412.12932.pdf",
-    "abstract_zh": "大型视觉语言模型 (LVLM) 最近在多模态任务中取得了惊人的成功，包括多模态思维链 (MCoT) 推理方面的进步。尽管取得了这些成功，当前的基准测试仍然遵循多模态输入和文本模态输出的传统范式，这导致了视觉操作缺失和表达模糊等重大缺陷。受此启发，我们引入了一种新颖的多模式思维链（CoMT）基准来解决这些限制。与传统的 MCoT 基准不同，CoMT 需要多模态输入和多模态推理输出，旨在模仿本质上集成视觉的类人推理..."
+    "abstract_zh": "大型视觉语言模型 (LVLM) 最近在多模态任务中取得了惊人的成功，包括多模态思维链 (MCoT) 推理方面的进步。尽管取得了这些成功，当前的基准测试仍然遵循多模态输入和文本模态输出的传统范式，这导致了视觉操作缺失和表达模糊等重大缺陷。受此启发，我们引入了一种新颖的多模式思维链（CoMT）基准来解决这些限制。与传统的 MCoT 基准不同，CoMT 需要多模态输入和多模态推理输出，旨在模仿本质上集成视觉的类人推理...",
+    "dblp_key": "conf/aaai/ChengCZ0FCL025"
   },
   {
     "title": "David vs. Goliath: Cost-Efficient Financial QA via Cascaded Multi-Agent Reasoning",
@@ -8131,7 +8303,8 @@
       "情感理解与多模态情感分析",
       "情感智能与情感大模型",
       "多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：Oxford senior postdoctoral researcher；NUS为历史任职；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -8791,12 +8964,14 @@
     "scholar_id": "hao_fei",
     "scholar_name": "郝飞",
     "work_title_group": "3ea008029062",
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
-      "hao_fei"
+      "hao_fei",
+      "xipeng_qiu"
     ],
     "scholar_names": [
-      "郝飞"
+      "郝飞",
+      "邱锡鹏"
     ],
     "source_record_ids": [
       "hao_fei_d34609a38bd1"
@@ -8813,11 +8988,26 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "xipeng_qiu": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "邱锡鹏",
+        "secondary_tags": [
+          "情感理解与多模态情感分析",
+          "情感智能与情感大模型",
+          "多模态基础模型",
+          "多模态与大语言模型",
+          "强化学习与决策优化"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "fc8208a1391ed587",
     "primary_categories_by_scholar": [
-      "郝飞：情感智能、共情与生成"
+      "郝飞：情感智能、共情与生成",
+      "邱锡鹏：通用预训练大模型、视听生成与基础方法"
     ],
     "dblp_key": "conf/mm/FuH0HSQN25",
     "abstract_en": "The alt-text generation task produces concise, context-relevant descriptions of images, enabling blind and low-vision users to access online images. Despite the capabilities of large vision-language models, alt-text generation performance remains limited due to noisy user annotations, inconsistent standards, and MLLMs' insensitivity to contextual information. Previous efforts to fine-tune MLLMs using supervised fine-tuning (SFT) have struggled, as SFT relies on accurate target annotations, which are often flawed in user-generated alt-text. To address this, we propose Multi-faceted Cross-modal Direct Preference Optimization (MCM-DPO), which improves alt-text generation by learning to identify better options in preference pairs without requiring precise annotations. MCM-DPO optimizes preferences across single, paired, and multi-preference dimensions, covering textual, visual, and cross-modal factors. In light of the scarcity of high-quality annotated and preference-labeled datasets for alt-text, we constructed two large-scale, high-quality datasets named TAlt and PAlt, sourced from Twitter and Pinterest. These datasets include 202k annotated alt-text samples and 18k preference pairs that cover diverse preference dimensions, aiming to support further research in this domain. Experimental results show that our proposed MCM-DPO method consistently outperforms both DPO and SFT, establishing a new state of the art in alt-text generation. We release the code and data here: https://github.com/LVUGAI/MCM-DPO",
@@ -10283,7 +10473,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 5,
     "publication_types": "",
     "candidate_source": false,
     "source_kind": "Official author publication page",
@@ -10302,12 +10492,14 @@
     "scholar_id": "hao_fei",
     "scholar_name": "郝飞",
     "work_title_group": "c8f35e6fea3a",
-    "resource_status": "已关联公开入口；具体访问范围见资源说明",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
-      "hao_fei"
+      "hao_fei",
+      "erik_cambria"
     ],
     "scholar_names": [
-      "郝飞"
+      "郝飞",
+      "Erik Cambria"
     ],
     "source_record_ids": [
       "hao_fei_c4402a78cf58"
@@ -10324,11 +10516,25 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "erik_cambria": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Erik Cambria",
+        "secondary_tags": [
+          "情感理解与多模态情感分析",
+          "情感智能与情感大模型",
+          "多模态基础模型",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "4907933a567414cf",
     "primary_categories_by_scholar": [
-      "郝飞：情感理解与多模态推理"
+      "郝飞：情感理解与多模态推理",
+      "Erik Cambria：自然语言处理、多模态学习与通用方法"
     ],
     "dblp_key": "conf/emnlp/XuZJZCZF25",
     "abstract_en": "Enabling digital humans to express rich emotions has significant applications in dialogue systems, gaming, and other interactive scenarios. While recent advances in talking head synthesis have achieved impressive results in lip synchronization, they tend to overlook the rich and dynamic nature of facial expressions. To fill this critical gap, we introduce an end-to-end text-to-expression model that explicitly focuses on emotional dynamics. Our model learns expressive facial variations in a continuous latent space and generates expressions that are diverse, fluid, and emotionally coherent. To support this task, we introduce EmoAva, a large-scale and high-quality dataset containing 15,000 text-3D expression pairs. Extensive experiments on both existing datasets and EmoAva demonstrate that our method significantly outperforms baselines across multiple evaluation metrics, marking a significant advancement in the field.",
@@ -11219,7 +11425,8 @@
       "情感理解与多模态情感分析",
       "情感智能与情感大模型",
       "多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：Oxford senior postdoctoral researcher；NUS为历史任职",
     "status": "候选条目/需按作者主页继续核验",
@@ -11338,10 +11545,12 @@
     "scholar_id": "hao_fei",
     "scholar_name": "郝飞",
     "scholar_ids": [
-      "hao_fei"
+      "hao_fei",
+      "erik_cambria"
     ],
     "scholar_names": [
-      "郝飞"
+      "郝飞",
+      "Erik Cambria"
     ],
     "source_record_ids": [
       "hao_fei_87eefda8b2220417"
@@ -11360,10 +11569,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "erik_cambria": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Erik Cambria",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "郝飞：情感数据集、基准与评测"
+      "郝飞：情感数据集、基准与评测",
+      "Erik Cambria：自然语言处理、多模态学习与通用方法"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "emotion_benchmark",
@@ -12878,7 +13098,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 81/3569-1）",
     "status": "已索引出版/会议记录",
@@ -13028,7 +13249,8 @@
       "情感理解与多模态情感分析",
       "情感智能与情感大模型",
       "多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：Oxford senior postdoctoral researcher；NUS为历史任职；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -13569,7 +13791,9 @@
       "情感智能与情感大模型",
       "多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感大模型",
+      "情感智能"
     ],
     "verification": "主题筛选候选；已核验：Oxford senior postdoctoral researcher；NUS为历史任职；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -13581,7 +13805,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 57,
     "publication_types": "",
     "candidate_source": false,
     "source_kind": "Official author publication page",
@@ -13602,10 +13826,12 @@
     "work_title_group": "7c895c8e8774",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "hao_fei"
+      "hao_fei",
+      "erik_cambria"
     ],
     "scholar_names": [
-      "郝飞"
+      "郝飞",
+      "Erik Cambria"
     ],
     "source_record_ids": [
       "hao_fei_c50b3ae5c43d"
@@ -13622,11 +13848,27 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "erik_cambria": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Erik Cambria",
+        "secondary_tags": [
+          "情感理解与多模态情感分析",
+          "情感智能与情感大模型",
+          "多模态基础模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "情感大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "07412ce7211a228c",
     "primary_categories_by_scholar": [
-      "郝飞：情感智能、共情与生成"
+      "郝飞：情感智能、共情与生成",
+      "Erik Cambria：自然语言处理、多模态学习与通用方法"
     ],
     "dblp_key": "conf/acl/000100L0C24",
     "abstract_en": "This paper introduces EmpathyEar, a pioneering open-source, avatar-based multimodal empathetic chatbot, to fill the gap in traditional text-only empathetic response generation (ERG) systems. Leveraging the advancements of a large language model, combined with multimodal encoders and generators, EmpathyEar supports user inputs in any combination of text, sound, and vision, and produces multimodal empathetic responses, offering users, not just textual responses but also digital avatars with talking faces and synchronized speeches. A series of emotion-aware instruction-tuning is performed for comprehensive emotional understanding and generation capabilities. In this way, EmpathyEar provides users with responses that achieve a deeper emotional resonance, closely emulating human-like empathy. The system paves the way for the next emotional intelligence, for which we open-source the code for public access.",
@@ -14283,7 +14525,9 @@
       "多模态基础模型",
       "情感计算与情绪理解",
       "多模态与大语言模型",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感大模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：Oxford senior postdoctoral researcher；NUS为历史任职",
     "status": "候选条目/需按作者主页继续核验",
@@ -14474,7 +14718,9 @@
       "情感智能与情感大模型",
       "多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感大模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：Oxford senior postdoctoral researcher；NUS为历史任职；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -14511,12 +14757,16 @@
     "scholar_id": "hao_fei",
     "scholar_name": "郝飞",
     "work_title_group": "ab63f3856b37",
-    "resource_status": "已关联公开入口；具体访问范围见资源说明",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
-      "hao_fei"
+      "hao_fei",
+      "soujanya_poria",
+      "erik_cambria"
     ],
     "scholar_names": [
-      "郝飞"
+      "郝飞",
+      "Soujanya Poria",
+      "Erik Cambria"
     ],
     "source_record_ids": [
       "hao_fei_f3805417b274"
@@ -14533,11 +14783,43 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "soujanya_poria": {
+        "category_id": "multimodal_emotion",
+        "label": "多模态情感理解、面部表情与语音情绪",
+        "scholar_name": "Soujanya Poria",
+        "secondary_tags": [
+          "情感理解与多模态情感分析",
+          "情感智能与情感大模型",
+          "多模态基础模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "情感大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "erik_cambria": {
+        "category_id": "affect_int_llm",
+        "label": "情感大模型、知识推理与评测基准",
+        "scholar_name": "Erik Cambria",
+        "secondary_tags": [
+          "情感理解与多模态情感分析",
+          "情感智能与情感大模型",
+          "多模态基础模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "情感大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "d9cc9359ee01cb24",
     "primary_categories_by_scholar": [
-      "郝飞：情感数据集、基准与评测"
+      "郝飞：情感数据集、基准与评测",
+      "Soujanya Poria：多模态情感理解、面部表情与语音情绪",
+      "Erik Cambria：情感大模型、知识推理与评测基准"
     ],
     "dblp_key": "conf/mm/Luo0LWLPCLH24",
     "pdf_url": "https://doi.org/10.1145/3664647.3680705",
@@ -14583,7 +14865,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 66,
     "publication_types": "",
     "candidate_source": false,
     "source_kind": "Official author publication page",
@@ -14602,12 +14884,14 @@
     "scholar_id": "hao_fei",
     "scholar_name": "郝飞",
     "work_title_group": "2d072cd4f9ac",
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
-      "hao_fei"
+      "hao_fei",
+      "zhiyuan_liu"
     ],
     "scholar_names": [
-      "郝飞"
+      "郝飞",
+      "刘知远"
     ],
     "source_record_ids": [
       "hao_fei_c4b162d112f8"
@@ -14624,11 +14908,25 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "zhiyuan_liu": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘知远",
+        "secondary_tags": [
+          "情感理解与多模态情感分析",
+          "情感智能与情感大模型",
+          "多模态基础模型",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "bfc4ed9570716b4e",
     "primary_categories_by_scholar": [
-      "郝飞：情感智能、共情与生成"
+      "郝飞：情感智能、共情与生成",
+      "刘知远：通用预训练大模型、视听生成与基础方法"
     ],
     "dblp_key": "journals/corr/abs-2405-12564",
     "abstract_en": "Language Models (LMs) excel in understanding textual descriptions of proteins, as evident in biomedical question-answering tasks. However, their capability falters with raw protein data, such as amino acid sequences, due to a deficit in pretraining on such data. Conversely, Protein Language Models (PLMs) can understand and convert protein data into high-quality representations, but struggle to process texts. To address their limitations, we introduce ProtT3, a framework for Protein-to-Text Generation for Text-based Protein Understanding. ProtT3 empowers an LM to understand protein sequences of amino acids by incorporating a PLM as its protein understanding module, enabling effective protein-to-text generation. This collaboration between PLM and LM is facilitated by a cross-modal projector (i.e., Q-Former) that bridges the modality gap between the PLM's representation space and the LM's input space. Unlike previous studies focusing on protein property prediction and protein-text retrieval, we delve into the largely unexplored field of protein-to-text generation. To facilitate comprehensive benchmarks and promote future research, we establish quantitative evaluations for protein-text modeling tasks, including protein captioning, protein question-answering, and protein-text retrieval. Our experiments show that ProtT3 substantially surpasses current baselines, with ablation studies further highlighting the efficacy of its core components. Our code is available at https://github.com/acharkq/ProtT3.",
@@ -15537,7 +15835,8 @@
       "情感理解与多模态情感分析",
       "情感智能与情感大模型",
       "多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：Oxford senior postdoctoral researcher；NUS为历史任职；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -15640,10 +15939,12 @@
     "scholar_id": "hao_fei",
     "scholar_name": "郝飞",
     "scholar_ids": [
-      "hao_fei"
+      "hao_fei",
+      "zhiyuan_liu"
     ],
     "scholar_names": [
-      "郝飞"
+      "郝飞",
+      "刘知远"
     ],
     "source_record_ids": [
       "hao_fei_74ec08641f3ce0ee"
@@ -15666,12 +15967,23 @@
         ],
         "confidence": "low",
         "note": ""
+      },
+      "zhiyuan_liu": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘知远",
+        "secondary_tags": [
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "郝飞：情感理解与多模态推理"
+      "郝飞：情感理解与多模态推理",
+      "刘知远：通用预训练大模型、视听生成与基础方法"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "emotion_understanding",
     "primary_category": "情感理解与多模态推理"
   },
@@ -16011,7 +16323,8 @@
       "情感理解与多模态情感分析",
       "情感智能与情感大模型",
       "多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：Oxford senior postdoctoral researcher；NUS为历史任职；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -16276,7 +16589,8 @@
       "情感理解与多模态情感分析",
       "情感智能与情感大模型",
       "多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：Oxford senior postdoctoral researcher；NUS为历史任职；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -16527,7 +16841,8 @@
       "情感智能与情感大模型",
       "多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：Oxford senior postdoctoral researcher；NUS为历史任职；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -16773,7 +17088,8 @@
       "情感理解与多模态情感分析",
       "情感智能与情感大模型",
       "多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：Oxford senior postdoctoral researcher；NUS为历史任职；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -17085,12 +17401,14 @@
     "scholar_id": "hao_fei",
     "scholar_name": "郝飞",
     "work_title_group": "2b5262654032",
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
-      "hao_fei"
+      "hao_fei",
+      "zhiyuan_liu"
     ],
     "scholar_names": [
-      "郝飞"
+      "郝飞",
+      "刘知远"
     ],
     "source_record_ids": [
       "hao_fei_734959290e89"
@@ -17107,11 +17425,25 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "zhiyuan_liu": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘知远",
+        "secondary_tags": [
+          "情感理解与多模态情感分析",
+          "情感智能与情感大模型",
+          "多模态基础模型",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "d1a3441b3d15b401",
     "primary_categories_by_scholar": [
-      "郝飞：情感理解与多模态推理"
+      "郝飞：情感理解与多模态推理",
+      "刘知远：通用预训练大模型、视听生成与基础方法"
     ],
     "dblp_key": "conf/emnlp/LiuLL00K0C23",
     "abstract_en": "Language Models (LMs) have demonstrated impressive molecule understanding ability on various 1D text-related tasks. However, they inherently lack 2D graph perception - a critical ability of human professionals in comprehending molecules' topological structures. To bridge this gap, we propose MolCA: Molecular Graph-Language Modeling with Cross-Modal Projector and Uni-Modal Adapter. MolCA enables an LM (e.g., Galactica) to understand both text- and graph-based molecular contents via the cross-modal projector. Specifically, the cross-modal projector is implemented as a Q-Former to connect a graph encoder's representation space and an LM's text space. Further, MolCA employs a uni-modal adapter (i.e., LoRA) for the LM's efficient adaptation to downstream tasks. Unlike previous studies that couple an LM with a graph encoder via cross-modal contrastive learning, MolCA retains the LM's ability of open-ended text generation and augments it with 2D graph information. To showcase its effectiveness, we extensively benchmark MolCA on tasks of molecule captioning, IUPAC name prediction, and molecule-text retrieval, on which MolCA significantly outperforms the baselines. Our codes and checkpoints can be found at https://github.com/acharkq/MolCA.",
@@ -17180,12 +17512,14 @@
     "scholar_id": "hao_fei",
     "scholar_name": "郝飞",
     "work_title_group": "edf29a14bcf7",
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
-      "hao_fei"
+      "hao_fei",
+      "zhiyuan_liu"
     ],
     "scholar_names": [
-      "郝飞"
+      "郝飞",
+      "刘知远"
     ],
     "source_record_ids": [
       "hao_fei_b6631a4b9050"
@@ -17202,11 +17536,25 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "zhiyuan_liu": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘知远",
+        "secondary_tags": [
+          "情感理解与多模态情感分析",
+          "情感智能与情感大模型",
+          "多模态基础模型",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "de9a68024117c041",
     "primary_categories_by_scholar": [
-      "郝飞：情感理解与多模态推理"
+      "郝飞：情感理解与多模态推理",
+      "刘知远：通用预训练大模型、视听生成与基础方法"
     ],
     "dblp_key": "conf/nips/Zhang0Y00LC23",
     "abstract_en": "While developing a new multimodal LLM (MLLM) by pre-training on tremendous image-text pairs from scratch can be exceedingly resource-consuming, connecting an existing LLM with a comparatively lightweight visual prompt generator (VPG) becomes a feasible paradigm. However, further tuning the VPG part of the MLLM still suffers from indispensable computational costs, i.e., requiring thousands of GPU hours and millions of training data. One alternative solution is to transfer an existing VPG from any existing MLLMs for the target MLLM. In this work, we for the first time investigate the VPG transferability across LLMs, and explore a solution to reduce the cost of VPG transfer. We first study the VPG transfer across different LLM sizes (e.g., small-to-large), and across different LLM types, through which we diagnose the key factors to maximize the transfer efficiency. Based on our observation, we design a two-stage transfer framework named VPGTrans, which is simple yet highly effective. Through extensive experiments, we demonstrate that VPGTrans helps significantly speed up the transfer learning process without compromising performance. Remarkably, it helps achieve the VPG transfer from BLIP-2 OPT$_\\text{2.7B}$ to BLIP-2 OPT$_\\text{6.7B}$ with over 10 times speed-up and 10.7% training data compared with connecting a VPG to OPT$_\\text{6.7B}$ from scratch. Further, a series of intriguing findings and potential rationales behind them are provided and discussed. Finally, we showcase the practical value of our VPGTrans approach, by customizing two novel MLLMs, including VL-LLaMA and VL-Vicuna, with recently released LLaMA and Vicuna LLMs.",
@@ -17236,7 +17584,8 @@
       "情感理解与多模态情感分析",
       "情感智能与情感大模型",
       "多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：Oxford senior postdoctoral researcher；NUS为历史任职；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -17326,7 +17675,8 @@
       "情感理解与多模态情感分析",
       "情感智能与情感大模型",
       "多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：Oxford senior postdoctoral researcher；NUS为历史任职；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -17412,7 +17762,8 @@
       "情感理解与多模态情感分析",
       "情感智能与情感大模型",
       "多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：Oxford senior postdoctoral researcher；NUS为历史任职；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -17673,7 +18024,8 @@
       "情感理解与多模态情感分析",
       "情感智能与情感大模型",
       "多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：Oxford senior postdoctoral researcher；NUS为历史任职；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -18077,7 +18429,8 @@
       "情感理解与多模态情感分析",
       "情感智能与情感大模型",
       "多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：Oxford senior postdoctoral researcher；NUS为历史任职；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -18167,7 +18520,8 @@
       "情感理解与多模态情感分析",
       "情感智能与情感大模型",
       "多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：Oxford senior postdoctoral researcher；NUS为历史任职；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -18498,7 +18852,8 @@
       "情感理解与多模态情感分析",
       "情感智能与情感大模型",
       "多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：Oxford senior postdoctoral researcher；NUS为历史任职；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -18667,7 +19022,7 @@
       "Suncong Zheng"
     ],
     "doi": "10.18653/v1/2022.acl-long.159",
-    "dblp_key": "",
+    "dblp_key": "conf/acl/HanLCLSZFZ22",
     "paper_url": "https://doi.org/10.18653/v1/2022.acl-long.159",
     "pdf_url": "https://aclanthology.org/2022.acl-long.159.pdf",
     "source_url": "https://openalex.org/W4285239586",
@@ -18687,10 +19042,12 @@
     "scholar_id": "hao_fei",
     "scholar_name": "郝飞",
     "scholar_ids": [
-      "hao_fei"
+      "hao_fei",
+      "zhiyuan_liu"
     ],
     "scholar_names": [
-      "郝飞"
+      "郝飞",
+      "刘知远"
     ],
     "source_record_ids": [
       "hao_fei_eba878e8e40b6a60"
@@ -18707,10 +19064,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "zhiyuan_liu": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘知远",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "郝飞：情感理解与多模态推理"
+      "郝飞：情感理解与多模态推理",
+      "刘知远：通用预训练大模型、视听生成与基础方法"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "emotion_understanding",
@@ -19366,7 +19732,8 @@
       "情感理解与多模态情感分析",
       "情感智能与情感大模型",
       "多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：Oxford senior postdoctoral researcher；NUS为历史任职；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -19452,7 +19819,8 @@
       "情感理解与多模态情感分析",
       "情感智能与情感大模型",
       "多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：Oxford senior postdoctoral researcher；NUS为历史任职；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -21476,7 +21844,8 @@
       "情感理解与多模态情感分析",
       "情感智能与情感大模型",
       "多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：Oxford senior postdoctoral researcher；NUS为历史任职；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -23351,7 +23720,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5055815455）",
     "status": "已索引出版/会议记录",

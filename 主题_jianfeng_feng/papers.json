@@ -1028,7 +1028,9 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "Crossref exact title match; DOI URL preserved",
     "status": "已核验作品（Crossref DOI）",
@@ -1755,7 +1757,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份已核验；公开目录/代表作范围已接入，非全部生涯作品；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2632,7 +2635,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份已核验；公开目录/代表作范围已接入，非全部生涯作品；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3352,7 +3356,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份已核验；公开目录/代表作范围已接入，非全部生涯作品；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3457,7 +3463,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 17,
     "publication_types": "",
     "candidate_source": true,
     "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
@@ -3481,10 +3487,12 @@
     "work_title_group": "832dcdfc2fc9",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "jianfeng_feng"
+      "jianfeng_feng",
+      "quanying_liu"
     ],
     "scholar_names": [
-      "冯建峰"
+      "冯建峰",
+      "刘泉影"
     ],
     "source_record_ids": [
       "jianfeng_feng_5c7309ba08cf"
@@ -3504,11 +3512,27 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "quanying_liu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "刘泉影",
+        "secondary_tags": [
+          "计算系统生物学",
+          "脑科学与脑疾病计算",
+          "脑启发智能",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "fbeeb9b616f51675",
     "primary_categories_by_scholar": [
-      "冯建峰：情感脑电与多模态生理信号"
+      "冯建峰：情感脑电与多模态生理信号",
+      "刘泉影：脑电基础大模型与自监督预训练"
     ],
     "dblp_key": "journals/corr/abs-2512-21881",
     "abstract_en": "Foundation models are emerging as a powerful paradigm for fMRI analysis, but current approaches face a dual bottleneck of data- and training-efficiency. Atlas-based methods aggregate voxel signals into fixed regions of interest, reducing data dimensionality but discarding fine-grained spatial details, and requiring extremely large cohorts to train effectively as general-purpose foundation models. Atlas-free methods, on the other hand, operate directly on voxel-level information - preserving spatial fidelity but are prohibitively memory- and compute-intensive, making large-scale pre-training infeasible. We introduce SLIM-Brain (Sample-efficient, Low-memory fMRI Foundation Model for Human Brain), a new atlas-free foundation model that simultaneously improves both data- and training-efficiency. SLIM-Brain adopts a two-stage adaptive design: (i) a lightweight temporal extractor captures global context across full sequences and ranks data windows by saliency, and (ii) a 4D hierarchical encoder (Hiera-JEPA) learns fine-grained voxel-level representations only from the top-$k$ selected windows, while deleting about 70% masked patches. Extensive experiments across seven public benchmarks show that SLIM-Brain establishes new state-of-the-art performance on diverse tasks, while requiring only 4 thousand pre-training sessions and approximately 30% of GPU memory comparing to traditional voxel-level methods.",
@@ -3692,7 +3716,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 3,
     "publication_types": "",
     "candidate_source": true,
     "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
@@ -3716,10 +3740,14 @@
     "work_title_group": "8b8a24e78328",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "jianfeng_feng"
+      "jianfeng_feng",
+      "xiaoqing_zheng",
+      "xuanjing_huang"
     ],
     "scholar_names": [
-      "冯建峰"
+      "冯建峰",
+      "郑骁庆",
+      "黄萱菁"
     ],
     "source_record_ids": [
       "jianfeng_feng_e6ca2b0ef21d"
@@ -3739,11 +3767,43 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "xiaoqing_zheng": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "郑骁庆",
+        "secondary_tags": [
+          "计算系统生物学",
+          "脑科学与脑疾病计算",
+          "脑启发智能",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "xuanjing_huang": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "黄萱菁",
+        "secondary_tags": [
+          "计算系统生物学",
+          "脑科学与脑疾病计算",
+          "脑启发智能",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "29e66858b821f360",
     "primary_categories_by_scholar": [
-      "冯建峰：情感脑电与多模态生理信号"
+      "冯建峰：情感脑电与多模态生理信号",
+      "郑骁庆：自然语言处理、多模态学习与通用方法",
+      "黄萱菁：通用预训练大模型、视听生成与基础方法"
     ],
     "dblp_key": "journals/corr/abs-2403-11183",
     "abstract_en": "Deciphering natural language from brain activity through non-invasive devices remains a formidable challenge. Previous non-invasive decoders either require multiple experiments with identical stimuli to pinpoint cortical regions and enhance signal-to-noise ratios in brain activity, or they are limited to discerning basic linguistic elements such as letters and words. We propose a novel approach to decoding continuous language from single-trial non-invasive fMRI recordings, in which a three-dimensional convolutional network augmented with information bottleneck is developed to automatically identify responsive voxels to stimuli, and a character-based decoder is designed for the semantic reconstruction of continuous language characterized by inherent character structures. The resulting decoder can produce intelligible textual sequences that faithfully capture the meaning of perceived speech both within and across subjects, while existing decoders exhibit significantly inferior performance in cross-subject contexts. The ability to decode continuous language from single trials across subjects demonstrates the promising applications of non-invasive language brain-computer interfaces in both healthcare and neuroscience.",
@@ -5384,7 +5444,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "脉冲神经网络与类脑计算"
+      "脉冲神经网络与类脑计算",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5080019095）",
     "status": "已索引出版/会议记录",
@@ -7731,7 +7792,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "脑电基础大模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5080019095）",
     "status": "已索引出版/会议记录",
@@ -7872,7 +7934,8 @@
     "abstract_zh": "尽管经过多年的努力，面部表情识别（FER）仍然是一项具有挑战性的任务，因为视角和人体姿势的变化以及与表情相关的面部部位的排除。在这项工作中，我们建议为 FER 学习有效的全局感受野和类敏感度量，即 GCNet，其中包含类敏感度量学习模块（CSMLM）和移动扩张模块（MDM）。 CSMLM充分利用人脸的变异来提取类别敏感且空间一致的特征，以提高FER的有效性。 MDM 利用级联扩张卷积层来实现全局感受野。然而，直接在给定的卷积序列上添加膨胀卷积层......",
     "abstract_source": "openalex_doi",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 19/6212）",
     "status": "已索引出版/会议记录",
@@ -8879,7 +8942,8 @@
     "abstract_zh": "背景 童年创伤事件是精神病理学的危险因素，但需要大规模研究儿童创伤事件与成年期心理健康和认知的关系，以及大脑如何参与其中。方法 通过单变量相关分析，对来自英国生物银行数据集的 19,535 名 45-79 岁参与者进行单变量相关分析，调查儿童创伤事件（如虐待和忽视，由英国生物银行数据库中的“童年创伤”问题定义）与大脑功能连接、心理健康问题和认知表现之间的关联。在第二个版本中，结果在同一数据集的 17,747 名独立参与者中得到了重复。研究结果 童年创伤事件...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5080019095）",
     "status": "已索引出版/会议记录",
@@ -8945,7 +9009,8 @@
       "计算精神病学",
       "脑科学与类脑智能",
       "数字孪生脑",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份已核验；公开目录/代表作范围已接入，非全部生涯作品；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -10638,7 +10703,8 @@
       "计算精神病学",
       "脑科学与类脑智能",
       "数字孪生脑",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份已核验；公开目录/代表作范围已接入，非全部生涯作品；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -12685,7 +12751,8 @@
       "计算精神病学",
       "脑科学与类脑智能",
       "数字孪生脑",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份已核验；公开目录/代表作范围已接入，非全部生涯作品；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -13897,7 +13964,8 @@
       "计算精神病学",
       "脑科学与类脑智能",
       "数字孪生脑",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份已核验；公开目录/代表作范围已接入，非全部生涯作品；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -17494,7 +17562,8 @@
       "计算精神病学",
       "脑科学与类脑智能",
       "数字孪生脑",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份已核验；公开目录/代表作范围已接入，非全部生涯作品；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -18867,7 +18936,8 @@
       "情感大模型与多模态基础模型",
       "计算精神病学",
       "脑科学与类脑智能",
-      "数字孪生脑"
+      "数字孪生脑",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份已核验；公开目录/代表作范围已接入，非全部生涯作品；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -19337,7 +19407,8 @@
     "abstract_zh": "新证据表明，2019 年冠状病毒病 (COVID-19) 大流行正在对全球的心理健康产生负面影响。迫切需要采取干预措施来减轻大流行的心理影响。正念练习是否可以预防大流行危机带来的有害情绪影响仍然未知。我们调查了中国 COVID-19 疫情期间正念训练对心理健康的影响。我们假设，正念练习者可能比非练习者表现出更少的与大流行相关的痛苦、抑郁、焦虑和压力，并且更频繁的练习将与大流行期间心理健康的改善相关。因此，我们评估了大流行-...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5080019095）",
     "status": "已索引出版/会议记录",
@@ -19625,7 +19696,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份已核验；公开目录/代表作范围已接入，非全部生涯作品；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -22799,7 +22871,8 @@
       "脑科学与类脑智能",
       "数字孪生脑",
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份已核验；公开目录/代表作范围已接入，非全部生涯作品；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -28699,7 +28772,8 @@
       "脑科学与类脑智能",
       "数字孪生脑",
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份已核验；公开目录/代表作范围已接入，非全部生涯作品；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -33092,7 +33166,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份已核验；公开目录/代表作范围已接入，非全部生涯作品；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -34847,11 +34922,15 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "yuanqing_li",
-      "jianfeng_feng"
+      "jianfeng_feng",
+      "cuntai_guan",
+      "zhuliang_yu"
     ],
     "scholar_names": [
       "李远清",
-      "冯建峰"
+      "冯建峰",
+      "关存太",
+      "俞祝良"
     ],
     "source_record_ids": [
       "yuanqing_li_3f254d318ece"
@@ -34885,12 +34964,44 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "脑机接口与脑信息处理",
+          "情绪调控与意识障碍康复",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhuliang_yu": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "俞祝良",
+        "secondary_tags": [
+          "脑机接口与脑信息处理",
+          "情绪调控与意识障碍康复",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "医学影像与脑疾病诊断"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "ddd7827422574b7c",
     "primary_categories_by_scholar": [
       "李远清：情感脑电与多模态生理信号",
-      "冯建峰：脑电基准、数据与评测"
+      "冯建峰：脑电基准、数据与评测",
+      "关存太：脑电基础大模型与自监督预训练",
+      "俞祝良：生理情感数据库、基准与综述"
     ],
     "dblp_key": "journals/tbe/LiNYGFG09",
     "abstract_en": "Multivariate pattern analysis approaches toward detection of brain regions from fMRI data have been gaining attention recently. In this study, we introduce an iterative sparse-representation-based algorithm for detection of voxels in functional MRI (fMRI) data with task relevant information. In each iteration of the algorithm, a linear programming problem is solved and a sparse weight vector is subsequently obtained. The final weight vector is the mean of those obtained in all iterations. The characteristics of our algorithm are as follows: 1) the weight vector (output) is sparse; 2) the magnitude of each entry of the weight vector represents the significance of its corresponding variable or feature in a classification or regression problem; and 3) due to the convergence of this algorithm, a stable weight vector is obtained. To demonstrate the validity of our algorithm and illustrate its application, we apply the algorithm to the Pittsburgh Brain Activity Interpretation Competition 2007 functional fMRI dataset for selecting the voxels, which are the most relevant to the tasks of the subjects. Based on this dataset, the aforementioned characteristics of our algorithm are analyzed, and a comparison between our method with the univariate general-linear-model-based statistical parametric mapping is performed. Using our method, a combination of voxels are selected based on the principle of effective/sparse representation of a task. Data analysis results in this paper show that this combination of voxels is suitable for decoding tasks and demonstrate the effectiveness of our method.",

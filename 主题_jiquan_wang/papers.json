@@ -23,7 +23,8 @@
       "情感/心理/临床",
       "普适计算/可穿戴",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感智能"
     ],
     "resource_ids": [
       "pan_gang__pan_data_tuningmind_private"
@@ -1521,11 +1522,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "jiquan_wang",
-      "yi_ding"
+      "yi_ding",
+      "cuntai_guan"
     ],
     "scholar_names": [
       "王继权",
-      "Yi Ding"
+      "Yi Ding",
+      "关存太"
     ],
     "source_record_ids": [
       "jiquan_wang_2d39021171c8"
@@ -1556,12 +1559,27 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "EEG基础模型",
+          "脑电解码",
+          "跨任务泛化",
+          "脑电基础大模型",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "fddbed0b8f8e1c4f",
     "primary_categories_by_scholar": [
       "王继权：脑电基础模型与通用解码",
-      "Yi Ding：脑电基准、数据与评测"
+      "Yi Ding：脑电基准、数据与评测",
+      "关存太：脑电基础大模型与自监督预训练"
     ],
     "dblp_key": "journals/corr/abs-2610-03546",
     "pdf_url": "https://arxiv.org/pdf/2610.03546",
@@ -2732,7 +2750,8 @@
       "脑电解码",
       "跨任务泛化",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已在现有潘纲资源范围内-补充作者档案；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",

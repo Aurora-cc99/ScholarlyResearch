@@ -278,7 +278,8 @@
       "脑机接口与神经解码",
       "情感计算与情绪理解",
       "多模态与大语言模型",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感大模型"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 47/6668）",
     "status": "已索引出版/会议记录",
@@ -2323,7 +2324,9 @@
       "LLM情感理解",
       "情感计算与情绪理解",
       "多模态与大语言模型",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感大模型",
+      "情感智能"
     ],
     "verification": "主题筛选候选；方法/基准候选",
     "status": "候选条目/需按作者主页继续核验",
@@ -2428,7 +2431,8 @@
       "情感智能评测",
       "心理理论驱动基准",
       "LLM情感理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感大模型"
     ],
     "verification": "主题筛选候选；方法/基准候选；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3435,7 +3439,9 @@
     "abstract_source": "openalex_doi",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感大模型",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 47/6668）",
     "status": "已索引出版/会议记录",
@@ -3760,10 +3766,12 @@
     "scholar_id": "minlie_huang",
     "scholar_name": "黄民烈",
     "scholar_ids": [
-      "minlie_huang"
+      "minlie_huang",
+      "dan_zhang_thu"
     ],
     "scholar_names": [
-      "黄民烈"
+      "黄民烈",
+      "张丹"
     ],
     "source_record_ids": [
       "minlie_huang_f731024bedd2a3a1"
@@ -3780,10 +3788,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "dan_zhang_thu": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "张丹",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "黄民烈：脑电基准、数据与评测"
+      "黄民烈：脑电基准、数据与评测",
+      "张丹：脑电基础大模型与自监督预训练"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -4639,11 +4656,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "sahand_sabour",
-      "minlie_huang"
+      "minlie_huang",
+      "rada_mihalcea"
     ],
     "scholar_names": [
       "Sahand Sabour",
-      "黄民烈"
+      "黄民烈",
+      "Rada Mihalcea"
     ],
     "source_record_ids": [
       "sahand_sabour_1e4a6ac70818"
@@ -4673,12 +4692,26 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "rada_mihalcea": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "Rada Mihalcea",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "low",
+        "note": ""
       }
     },
     "global_record_id": "ed56c8798cc9e89b",
     "primary_categories_by_scholar": [
       "Sahand Sabour：情感数据集、基准与评测",
-      "黄民烈：情感脑电与多模态生理信号"
+      "黄民烈：情感脑电与多模态生理信号",
+      "Rada Mihalcea：视觉感知、语音信号与通用人工智能"
     ],
     "pdf_url": "https://arxiv.org/pdf/2502.07663",
     "abstract_en": "AI systems are increasingly intertwined with daily life, assisting users with various tasks and guiding decision-making. This integration introduces risks of AI-driven manipulation, where such systems may exploit users' cognitive biases and emotional vulnerabilities to steer them toward harmful outcomes. Through a randomized between-subjects experiment with 233 participants, we examined human susceptibility to such manipulation in financial (e.g., purchases) and emotional (e.g., conflict resolution) decision-making contexts. Participants interacted with one of three AI agents: a neutral agent (NA) optimizing for user benefit without explicit influence, a manipulative agent (MA) designed to covertly influence beliefs and behaviors, or a strategy-enhanced manipulative agent (SEMA) equipped with established psychological tactics, allowing it to select and apply them adaptively during interactions to reach its hidden objectives. By analyzing participants' preference ratings, we found significant susceptibility to AI-driven manipulation. Particularly across both decision-making domains, interacting with the manipulative agents significantly increased the odds of rating hidden incentives higher than optimal options (Financial, MA: OR=5.24, SEMA: OR=7.96; Emotional, MA: OR=5.52, SEMA: OR=5.71) compared to the NA group. Notably, we found no clear evidence that employing psychological strategies (SEMA) was overall more effective than simple manipulative objectives (MA) on our primary outcomes. Hence, AI-driven manipulation could become widespread even without requiring sophisticated tactics and expertise. While our findings are preliminary and derived from hypothetical, low-stakes scenarios, we highlight a critical vulnerability in human-AI interactions, emphasizing the need for ethical safeguards and regulatory frameworks to protect human autonomy.",
@@ -4854,7 +4887,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 47/6668）",
     "status": "已索引出版/会议记录",
@@ -5602,7 +5636,9 @@
       "LLM情感理解",
       "情感计算与情绪理解",
       "多模态与大语言模型",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感大模型",
+      "情感智能"
     ],
     "verification": "主题筛选候选；方法/基准候选",
     "status": "候选条目/需按作者主页继续核验",
@@ -9876,10 +9912,12 @@
     "scholar_id": "minlie_huang",
     "scholar_name": "黄民烈",
     "scholar_ids": [
-      "minlie_huang"
+      "minlie_huang",
+      "rui_yan_ruc"
     ],
     "scholar_names": [
-      "黄民烈"
+      "黄民烈",
+      "严睿"
     ],
     "source_record_ids": [
       "minlie_huang_bcdc11084d3ecc8c"
@@ -9898,10 +9936,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "rui_yan_ruc": {
+        "category_id": "affect_int_llm",
+        "label": "情感大模型、知识推理与评测基准",
+        "scholar_name": "严睿",
+        "secondary_tags": [
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "黄民烈：脑电基准、数据与评测"
+      "黄民烈：脑电基准、数据与评测",
+      "严睿：情感大模型、知识推理与评测基准"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -12167,10 +12216,12 @@
     "scholar_id": "minlie_huang",
     "scholar_name": "黄民烈",
     "scholar_ids": [
-      "minlie_huang"
+      "minlie_huang",
+      "xipeng_qiu"
     ],
     "scholar_names": [
-      "黄民烈"
+      "黄民烈",
+      "邱锡鹏"
     ],
     "source_record_ids": [
       "minlie_huang_0c3130bdc091159b"
@@ -12187,10 +12238,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "xipeng_qiu": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "邱锡鹏",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "黄民烈：脑电基础模型与通用解码"
+      "黄民烈：脑电基础模型与通用解码",
+      "邱锡鹏：通用预训练大模型、视听生成与基础方法"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -12658,7 +12718,8 @@
       "心理理论驱动基准",
       "LLM情感理解",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感智能"
     ],
     "verification": "主题筛选候选；方法/基准候选",
     "status": "候选条目/需按作者主页继续核验",
@@ -12695,14 +12756,16 @@
     "scholar_id": "sahand_sabour",
     "scholar_name": "Sahand Sabour",
     "work_title_group": "be31e3996d72",
-    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
       "sahand_sabour",
-      "minlie_huang"
+      "minlie_huang",
+      "rada_mihalcea"
     ],
     "scholar_names": [
       "Sahand Sabour",
-      "黄民烈"
+      "黄民烈",
+      "Rada Mihalcea"
     ],
     "source_record_ids": [
       "sahand_sabour_1c93c9e92033",
@@ -12736,12 +12799,28 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "rada_mihalcea": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "Rada Mihalcea",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解",
+          "情感计算与情绪理解",
+          "多模态与大语言模型",
+          "情感智能"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "f8ae588926f715f2",
     "primary_categories_by_scholar": [
       "Sahand Sabour：情感数据集、基准与评测",
-      "黄民烈：脑电基准、数据与评测"
+      "黄民烈：脑电基准、数据与评测",
+      "Rada Mihalcea：视觉感知、语音信号与通用人工智能"
     ],
     "pdf_url": "https://aclanthology.org/2024.acl-long.326.pdf",
     "abstract_en": "Sahand Sabour, Siyang Liu, Zheyuan Zhang, June Liu, Jinfeng Zhou, Alvionna Sunaryo, Tatia Lee, Rada Mihalcea, Minlie Huang. Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2024.",
@@ -12778,7 +12857,8 @@
       "大模型",
       "情感计算与情绪理解",
       "多模态与大语言模型",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感智能"
     ],
     "verification": "主题筛选候选；已核验：清华大学计算机系/人工智能研究院教授；CoAI负责人",
     "status": "候选条目/需按作者主页继续核验",
@@ -13660,7 +13740,8 @@
     "abstract_zh": "最近，方面情感四边形预测在基于方面的情感分析领域受到了广泛关注。现有研究通过预训练的生成语言模型提取四元组，将原始句子解释为模板化目标序列。然而，以前的工作只关注生成什么，而忽略不生成什么。我们认为考虑负样本也会带来潜在的好处。在这项工作中，我们提出了一种与模板无关的方法来控制令牌级别的生成，这促进了原始学习并减少了错误同时。具体来说，我们引入蒙特卡罗 dropout 来理解预训练语言模型的内置不确定性，获取噪声和错误。W...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 47/6668）",
     "status": "预印本记录",
@@ -14410,7 +14491,8 @@
       "情感智能评测",
       "心理理论驱动基准",
       "LLM情感理解",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；方法/基准候选",
     "status": "候选条目/需按作者主页继续核验",
@@ -14447,11 +14529,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "sahand_sabour",
-      "minlie_huang"
+      "minlie_huang",
+      "rada_mihalcea"
     ],
     "scholar_names": [
       "Sahand Sabour",
-      "黄民烈"
+      "黄民烈",
+      "Rada Mihalcea"
     ],
     "source_record_ids": [
       "sahand_sabour_69f1de90298f"
@@ -14481,12 +14565,27 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "rada_mihalcea": {
+        "category_id": "sentiment_nlp",
+        "label": "文本情感分析、情绪原因与认知语义",
+        "scholar_name": "Rada Mihalcea",
+        "secondary_tags": [
+          "情感智能评测",
+          "心理理论驱动基准",
+          "LLM情感理解",
+          "情感计算与情绪理解",
+          "情感智能"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "0602856a93ab321f",
     "primary_categories_by_scholar": [
       "Sahand Sabour：情感数据集、基准与评测",
-      "黄民烈：脑电基础模型与通用解码"
+      "黄民烈：脑电基础模型与通用解码",
+      "Rada Mihalcea：文本情感分析、情绪原因与认知语义"
     ],
     "pdf_url": "https://aclanthology.org/2023.emnlp-main.944.pdf",
     "abstract_en": "We propose task-adaptive tokenization 1 as a way to adapt the generation pipeline to the specifics of a downstream task and enhance long-form generation in mental health.Inspired by insights from cognitive science, our task-adaptive tokenizer samples variable segmentations from multiple outcomes, with sampling probabilities optimized based on taskspecific data.We introduce a strategy for building a specialized vocabulary and introduce a vocabulary merging protocol that allows for the integration of task-specific tokens into the pre-trained model's tokenization step.Through extensive experiments on psychological question-answering tasks in both Chinese and English, we find that our task-adaptive tokenization approach brings a significant improvement in generation performance while using up to 60% fewer tokens.Preliminary experiments point to promising results when using our tokenization approach with very large language models.",
@@ -14621,7 +14720,8 @@
     "abstract_zh": "我们提出任务自适应标记化作为一种 使生成管道适应下游任务的具体情况并增强心理健康的长格式生成的方法。受认知科学见解的启发，我们的任务自适应分词器从多个结果中对变量分段进行采样，并根据特定任务的数据优化采样概率。我们引入了一种构建专门词汇的策略，并引入了词汇合并协议，该协议允许将特定于任务的标记集成到预训练模型的标记化步骤中。通过对中文和英文心理问答任务的广泛实验，我们发现我们的任务自适应标记化方法带来了显着的效果...",
     "abstract_source": "arxiv_api",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 47/6668）",
     "status": "预印本记录",
@@ -14632,10 +14732,12 @@
     "scholar_id": "minlie_huang",
     "scholar_name": "黄民烈",
     "scholar_ids": [
-      "minlie_huang"
+      "minlie_huang",
+      "rada_mihalcea"
     ],
     "scholar_names": [
-      "黄民烈"
+      "黄民烈",
+      "Rada Mihalcea"
     ],
     "source_record_ids": [
       "minlie_huang_32748262ef9f1974"
@@ -14654,10 +14756,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "rada_mihalcea": {
+        "category_id": "sentiment_nlp",
+        "label": "文本情感分析、情绪原因与认知语义",
+        "scholar_name": "Rada Mihalcea",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感智能"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "黄民烈：脑电基础模型与通用解码"
+      "黄民烈：脑电基础模型与通用解码",
+      "Rada Mihalcea：文本情感分析、情绪原因与认知语义"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -16075,7 +16189,8 @@
       "情感智能评测",
       "心理理论驱动基准",
       "LLM情感理解",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感大模型"
     ],
     "verification": "主题筛选候选；方法/基准候选；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -18841,7 +18956,8 @@
       "情感智能评测",
       "心理理论驱动基准",
       "LLM情感理解",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；方法/基准候选",
     "status": "候选条目/需按作者主页继续核验",
@@ -19361,7 +19477,8 @@
     "abstract_zh": "对心理健康支持的需求不断增长，凸显了对话代理作为全球和中国人类支持者的重要性。这些药物可以增加心理健康支持的可用性并降低相对成本。提供的支持可分为两种主要类型：认知支持和情感支持。该主题的现有工作主要集中于构建采用认知行为疗法（CBT）原则的代理。此类代理根据预定义的模板和练习进行操作，以提供认知支持。然而，使用此类药物进行情感支持的研究有限。此外，大多数构建的代理都以英语运行，凸显了在中国进行此类研究的重要性。我...",
     "abstract_source": "arxiv_api",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 47/6668）",
     "status": "预印本记录",
@@ -19815,7 +19932,8 @@
       "情感智能评测",
       "心理理论驱动基准",
       "LLM情感理解",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；方法/基准候选",
     "status": "候选条目/需按作者主页继续核验",
@@ -19921,7 +20039,8 @@
       "心理理论驱动基准",
       "LLM情感理解",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感智能"
     ],
     "verification": "主题筛选候选；方法/基准候选",
     "status": "候选条目/需按作者主页继续核验",
@@ -20306,7 +20425,8 @@
       "情感智能评测",
       "心理理论驱动基准",
       "LLM情感理解",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；方法/基准候选；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -20524,7 +20644,8 @@
     "abstract_zh": "许多对话情感分析研究仅关注话语层面的情感。因此，这些模型并未针对对话级情绪检测进行优化，即预测整个对话的情绪类别。更重要的是，这些模型无法从整个对话提供的上下文中受益。在现实应用中，对话的注释可以是细粒度的，包括话语级标签（例如说话者类型、意图类别和情感类别）和对话级标签（例如用户满意度和情感曲线类别）。在本文中，我们提出了一种基于上下文的分层注意力胶囊（Chat-Capsule）模型，该模型对话语级和对话级情感及其相互关系进行建模。在对话框数据集上...",
     "abstract_source": "arxiv_api",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 47/6668）",
     "status": "预印本记录",
@@ -20699,7 +20820,8 @@
     "abstract_zh": "人类的语言表达是基于对情境的主观解释而不是客观真实条件，这意味着说话者的性格和经过认知处理后的情绪对会话产生重要影响。然而，大多数现有的对话式人工智能数据集都忽略了人类的个性和情感，或者只考虑了其中的一部分。尽管大规模预训练语言模型已被广泛使用，但对话系统很难理解说话者的个性和情绪。为了在对话生成过程中同时考虑个性和情感，我们提出了 CPED，一个大规模的中文个性化和情感对话数据集，它由多源知识组成。",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 47/6668）",
     "status": "预印本记录",
@@ -20711,11 +20833,13 @@
     "scholar_name": "黄民烈",
     "scholar_ids": [
       "minlie_huang",
-      "panorama_xiaofen_xing"
+      "panorama_xiaofen_xing",
+      "yirong_chen"
     ],
     "scholar_names": [
       "黄民烈",
-      "邢晓芬"
+      "邢晓芬",
+      "陈逸嵘"
     ],
     "source_record_ids": [
       "minlie_huang_dd62c6f0a29c129d"
@@ -20750,13 +20874,25 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "yirong_chen": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "陈逸嵘",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "黄民烈：脑电基准、数据与评测",
-      "邢晓芬：脑电基准、数据与评测"
+      "邢晓芬：脑电基准、数据与评测",
+      "陈逸嵘：情感与大模型评测基准、数据集及综述"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "eeg_benchmark",
     "primary_category": "脑电基准、数据与评测"
   },
@@ -21155,7 +21291,8 @@
       "情感智能评测",
       "心理理论驱动基准",
       "LLM情感理解",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；方法/基准候选",
     "status": "候选条目/需按作者主页继续核验",
@@ -21281,7 +21418,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 604,
     "publication_types": "",
     "candidate_source": false,
     "source_kind": "official author publication page",
@@ -21306,10 +21443,12 @@
     "work_title_group": "99d55c4764cc",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "minlie_huang"
+      "minlie_huang",
+      "zhiyuan_liu"
     ],
     "scholar_names": [
-      "黄民烈"
+      "黄民烈",
+      "刘知远"
     ],
     "source_record_ids": [
       "minlie_huang_f4dfa3e8c892"
@@ -21330,15 +21469,31 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "zhiyuan_liu": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘知远",
+        "secondary_tags": [
+          "情感智能与情感大模型",
+          "情感对话与心理支持",
+          "大语言模型对齐与强化学习",
+          "社会智能与安全评测",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "bd07970040d615a0",
     "primary_categories_by_scholar": [
-      "黄民烈：脑电基准、数据与评测"
+      "黄民烈：脑电基准、数据与评测",
+      "刘知远：通用预训练大模型、视听生成与基础方法"
     ],
     "dblp_key": "conf/acl/GuHLH22",
-    "abstract_en": "Prompts for pre-trained language models (PLMs) have shown remarkable performance by bridging the gap between pre-training tasks and various downstream tasks. Among these methods, prompt tuning, which freezes PLMs and only tunes soft prompts, provides an efficient and effective solution for adapting large-scale PLMs to downstream tasks. However, prompt tuning is yet to be fully explored. In our pilot experiments, we find that prompt tuning performs comparably with conventional full-model fine-tuning when downstream data are sufficient, whereas it performs much worse under few-shot learning settings, which may hinder the application of prompt tuning in practice. We attribute this low performance to the manner of initializing soft prompts. Therefore, in this work, we propose to pre-train prompts by adding soft prompts into the pre-training stage to obtain a better initialization. We name this Pre-trained Prompt Tuning framework \"PPT\". To ensure the generalization of PPT, we formulate similar classification tasks into a unified task form and pre-train soft prompts for this unified task. Extensive experiments show that tuning pre-trained prompts for downstream tasks can reach or even outperform full-model fine-tuning under both full-data and few-shot settings. Our approach is effective and efficient for using large-scale PLMs in practice.",
-    "abstract_source": "arxiv_api",
+    "abstract_en": "Prompts for pre-trained language models (PLMs) have shown remarkable performance by bridging the gap between pre-training tasks and various downstream tasks.Among these methods, prompt tuning, which freezes PLMs and only tunes soft prompts, provides an efficient and effective solution for adapting largescale PLMs to downstream tasks.However, prompt tuning is yet to be fully explored.In our pilot experiments, we find that prompt tuning performs comparably with conventional full-model tuning when downstream data are sufficient, whereas it is much worse under fewshot learning settings, which may hinder the application of prompt tuning.We attribute this low performance to the manner of initializing soft prompts.Therefore, in this work, we propose to pre-train prompts by adding soft prompts into the pre-training stage to obtain a better initialization.We name this Pretrained Prompt Tuning framework \"PPT\".To ensure the generalization of PPT, we formulate similar classification tasks into a unified task form and pre-train soft prompts for this unified task.Extensive experiments show that tuning pre-trained prompts for downstream tasks can reach or even outperform full-model fine-tuning under both full-data and few-shot settings.Our approach is effective and efficient for using large-scale PLMs in practice.The code is publicly available at https:// github.com/thu-coai/PPT.",
+    "abstract_source": "openalex_verified",
     "pdf_url": "https://arxiv.org/pdf/2109.04332.pdf",
     "abstract_zh": "预训练语言模型 (PLM) 的提示通过弥合预训练任务和各种下游任务之间的差距，表现出了卓越的性能。在这些方法中，提示调优（冻结PLM并仅调整软提示）为大规模PLM适应下游任务提供了高效且有效的解决方案。然而，即时调整尚未得到充分探索。在我们的试点实验中，我们发现，当下游数据足够时，即时调优的性能与传统的全模型微调相当，而在少样本学习设置下，它的表现要差得多，这可能会阻碍即时调优在实践中的应用。我们将这种低性能归因于..."
   },
@@ -22911,11 +23066,15 @@
     "scholar_name": "黄民烈",
     "scholar_ids": [
       "minlie_huang",
-      "panorama_ruihua_song"
+      "panorama_ruihua_song",
+      "zhiyuan_liu",
+      "xipeng_qiu"
     ],
     "scholar_names": [
       "黄民烈",
-      "宋睿华"
+      "宋睿华",
+      "刘知远",
+      "邱锡鹏"
     ],
     "source_record_ids": [
       "minlie_huang_ece3584478fb5a27"
@@ -22940,11 +23099,29 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "zhiyuan_liu": {
+        "category_id": "affective_llm_mllm",
+        "label": "情感大模型、多模态指令微调与共情生成",
+        "scholar_name": "刘知远",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      },
+      "xipeng_qiu": {
+        "category_id": "affective_llm_mllm",
+        "label": "情感大模型、多模态指令微调与共情生成",
+        "scholar_name": "邱锡鹏",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
       "黄民烈：脑电基准、数据与评测",
-      "宋睿华：脑电基准、数据与评测"
+      "宋睿华：脑电基准、数据与评测",
+      "刘知远：情感大模型、多模态指令微调与共情生成",
+      "邱锡鹏：情感大模型、多模态指令微调与共情生成"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -23139,7 +23316,8 @@
       "情感智能评测",
       "心理理论驱动基准",
       "LLM情感理解",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；方法/基准候选",
     "status": "候选条目/需按作者主页继续核验",
@@ -23351,7 +23529,8 @@
       "情感智能评测",
       "心理理论驱动基准",
       "LLM情感理解",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；方法/基准候选；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -23589,10 +23768,12 @@
     "scholar_id": "minlie_huang",
     "scholar_name": "黄民烈",
     "scholar_ids": [
-      "minlie_huang"
+      "minlie_huang",
+      "zhiyuan_liu"
     ],
     "scholar_names": [
-      "黄民烈"
+      "黄民烈",
+      "刘知远"
     ],
     "source_record_ids": [
       "minlie_huang_a15acbb9987692be"
@@ -23613,12 +23794,21 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "zhiyuan_liu": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘知远",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "黄民烈：脑电基础模型与通用解码"
+      "黄民烈：脑电基础模型与通用解码",
+      "刘知远：通用预训练大模型、视听生成与基础方法"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "eeg_foundation",
     "primary_category": "脑电基础模型与通用解码"
   },
@@ -23676,10 +23866,12 @@
     "scholar_id": "minlie_huang",
     "scholar_name": "黄民烈",
     "scholar_ids": [
-      "minlie_huang"
+      "minlie_huang",
+      "zhiyuan_liu"
     ],
     "scholar_names": [
-      "黄民烈"
+      "黄民烈",
+      "刘知远"
     ],
     "source_record_ids": [
       "minlie_huang_f1493af9c0734556"
@@ -23700,12 +23892,21 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "zhiyuan_liu": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘知远",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "黄民烈：脑电基准、数据与评测"
+      "黄民烈：脑电基准、数据与评测",
+      "刘知远：情感与大模型评测基准、数据集及综述"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "eeg_benchmark",
     "primary_category": "脑电基准、数据与评测"
   },
@@ -23861,7 +24062,7 @@
     "source_url": "https://dblp.org/rec/journals/corr/abs-2112-13610.html",
     "openalex_id": "",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 32,
     "abstract_en": "Realizing general-purpose language intelligence has been a longstanding goal for natural language processing, where standard evaluation benchmarks play a fundamental and guiding role. We argue that for general-purpose language intelligence evaluation, the benchmark itself needs to be comprehensive and systematic. To this end, we propose CUGE, a Chinese Language Understanding and Generation Evaluation benchmark with the following features: (1) Hierarchical benchmark framework, where datasets are principally selected and organized with a language capability-task-dataset hierarchy. (2) Multi-level scoring strategy, where different levels of model performance are provided based on the hierarchical framework. To facilitate CUGE, we provide a public leaderboard that can be customized to support flexible model judging criteria. Evaluation results on representative pre-trained language models indicate ample room for improvement towards general-purpose language intelligence. CUGE is publicly available at cuge.baai.ac.cn.",
     "abstract_zh": "实现通用语言智能一直是自然语言处理的长期目标，其中标准评估基准发挥着基础性和指导性作用。我们认为，对于通用语言智力评估，基准本身需要全面和系统。为此，我们提出了CUGE，一种汉语理解和生成评估基准，具有以下特征：（1）分层基准框架，其中数据集主要按照语言能力-任务-数据集层次结构进行选择和组织。 (2)多级评分策略，基于层次框架提供不同级别的模型性能。为了方便 CUGE，我们提供了一个 pub...",
     "abstract_source": "arxiv_api",
@@ -23875,10 +24076,16 @@
     "scholar_id": "minlie_huang",
     "scholar_name": "黄民烈",
     "scholar_ids": [
-      "minlie_huang"
+      "minlie_huang",
+      "rui_yan_ruc",
+      "xiaojun_wan",
+      "zhiyuan_liu"
     ],
     "scholar_names": [
-      "黄民烈"
+      "黄民烈",
+      "严睿",
+      "万小军",
+      "刘知远"
     ],
     "source_record_ids": [
       "minlie_huang_b168e370cf82c585"
@@ -23895,10 +24102,37 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "rui_yan_ruc": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "严睿",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      },
+      "xiaojun_wan": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "万小军",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zhiyuan_liu": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘知远",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "黄民烈：脑电基准、数据与评测"
+      "黄民烈：脑电基准、数据与评测",
+      "严睿：自然语言处理、多模态学习与通用方法",
+      "万小军：自然语言处理、多模态学习与通用方法",
+      "刘知远：通用预训练大模型、视听生成与基础方法"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -24210,10 +24444,12 @@
     "scholar_id": "minlie_huang",
     "scholar_name": "黄民烈",
     "scholar_ids": [
-      "minlie_huang"
+      "minlie_huang",
+      "zhiyuan_liu"
     ],
     "scholar_names": [
-      "黄民烈"
+      "黄民烈",
+      "刘知远"
     ],
     "source_record_ids": [
       "minlie_huang_8d0c2bc893630f13"
@@ -24230,10 +24466,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "zhiyuan_liu": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘知远",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "黄民烈：脑电基础模型与通用解码"
+      "黄民烈：脑电基础模型与通用解码",
+      "刘知远：通用预训练大模型、视听生成与基础方法"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -27833,7 +28078,7 @@
     "source_url": "https://dblp.org/rec/conf/ijcnlp/YuWLHLTHL20.html",
     "openalex_id": "https://openalex.org/W3114716327",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 10,
     "abstract_en": "Jifan Yu, Chenyu Wang, Gan Luo, Lei Hou, Juanzi Li, Jie Tang, Minlie Huang, Zhiyuan Liu. Proceedings of the 1st Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 10th International Joint Conference on Natural Language Processing. 2020.",
     "abstract_zh": "于纪凡、王晨宇、罗甘、侯磊、李娟子、唐杰、黄敏烈、刘志远。计算语言学协会亚太分会第一届会议暨第十届自然语言处理国际联合会议论文集。 2020.",
     "abstract_source": "openalex_doi",
@@ -27849,10 +28094,12 @@
     "scholar_id": "minlie_huang",
     "scholar_name": "黄民烈",
     "scholar_ids": [
-      "minlie_huang"
+      "minlie_huang",
+      "zhiyuan_liu"
     ],
     "scholar_names": [
-      "黄民烈"
+      "黄民烈",
+      "刘知远"
     ],
     "source_record_ids": [
       "minlie_huang_e1b7c1c470ed68c5"
@@ -27871,10 +28118,21 @@
         ],
         "confidence": "low",
         "note": ""
+      },
+      "zhiyuan_liu": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘知远",
+        "secondary_tags": [
+          "强化学习与决策优化"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "黄民烈：脑电基础模型与通用解码"
+      "黄民烈：脑电基础模型与通用解码",
+      "刘知远：通用预训练大模型、视听生成与基础方法"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -28079,7 +28337,8 @@
       "大模型",
       "情感智能",
       "对话系统",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：清华大学计算机系/人工智能研究院教授；CoAI负责人",
     "status": "候选条目/需按作者主页继续核验",
@@ -28180,7 +28439,8 @@
     "abstract_zh": "旨在形式化证明神经网络预测行为的鲁棒性验证已成为理解模型行为和获得安全保证的重要工具。然而，以前的方法通常只能处理具有相对简单架构的神经网络。在本文中，我们考虑 Transformer 的鲁棒性验证问题。 Transformer 具有复杂的自注意力层，这给验证带来了许多挑战，包括交叉非线性和交叉位置依赖性，这些在以前的工作中尚未讨论过。我们解决了这些挑战，并为 Transformer 开发了第一个稳健性验证算法。通过我们的方法计算出的经过认证的稳健性界限非常重要......",
     "abstract_source": "arxiv_api",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 47/6668）",
     "status": "已索引出版/会议记录",
@@ -28425,7 +28685,8 @@
       "大模型",
       "情感智能",
       "对话系统",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：清华大学计算机系/人工智能研究院教授；CoAI负责人；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -29552,7 +29813,8 @@
       "大模型",
       "情感智能",
       "对话系统",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：清华大学计算机系/人工智能研究院教授；CoAI负责人",
     "status": "候选条目/需按作者主页继续核验",
@@ -30409,7 +30671,8 @@
     "abstract_zh": "大多数现有的预训练语言表示模型都忽略了考虑文本的语言知识，而这可以促进 NLP 任务中的语言理解。为了有利于情感分析中的下游任务，我们提出了一种名为 SentiLARE 的新型语言表示模型，它将包括词性标签和情感极性（从 SentiWordNet 推断）在内的词级语言知识引入到预训练模型中。我们首先提出了一种上下文感知的情感注意力机制，通过查询 SentiWordNet 来获取每个单词及其词性标签的情感极性。然后，我们设计了一种新的预训练任务，称为标签感知掩码语言模型来构建知识感知语言表示。 ...",
     "abstract_source": "arxiv_api",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 47/6668）",
     "status": "预印本记录",
@@ -30860,7 +31123,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 888,
     "publication_types": "",
     "candidate_source": false,
     "source_kind": "official author publication page",
@@ -30882,12 +31145,14 @@
     "scholar_id": "minlie_huang",
     "scholar_name": "黄民烈",
     "work_title_group": "600c07930854",
-    "resource_status": "已关联公开入口；具体访问范围见资源说明",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
-      "minlie_huang"
+      "minlie_huang",
+      "bing_liu_uic"
     ],
     "scholar_names": [
-      "黄民烈"
+      "黄民烈",
+      "刘兵"
     ],
     "source_record_ids": [
       "minlie_huang_7aed3dc40c44"
@@ -30908,11 +31173,27 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "bing_liu_uic": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "刘兵",
+        "secondary_tags": [
+          "情感智能与情感大模型",
+          "情感对话与心理支持",
+          "大语言模型对齐与强化学习",
+          "社会智能与安全评测",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能"
+        ],
+        "confidence": "low",
+        "note": ""
       }
     },
     "global_record_id": "7fdf5fc2a9c0a4a2",
     "primary_categories_by_scholar": [
-      "黄民烈：脑电基准、数据与评测"
+      "黄民烈：脑电基准、数据与评测",
+      "刘兵：视觉感知、语音信号与通用人工智能"
     ],
     "dblp_key": "conf/aaai/ZhouHZZL18",
     "abstract_en": "Perception and expression of emotion are key factors to the success of dialogue systems or conversational agents. However, this problem has not been studied in large-scale conversation generation so far. In this paper, we propose Emotional Chatting Machine (ECM) that can generate appropriate responses not only in content (relevant and grammatical) but also in emotion (emotionally consistent). To the best of our knowledge, this is the first work that addresses the emotion factor in large-scale conversation generation. ECM addresses the factor using three new mechanisms that respectively (1) models the high-level abstraction of emotion expressions by embedding emotion categories, (2) captures the change of implicit internal emotion states, and (3) uses explicit emotion expressions with an external emotion vocabulary. Experiments show that the proposed model can generate responses appropriate not only in content but also in emotion.",
@@ -31789,10 +32070,12 @@
     "scholar_id": "minlie_huang",
     "scholar_name": "黄民烈",
     "scholar_ids": [
-      "minlie_huang"
+      "minlie_huang",
+      "erik_cambria"
     ],
     "scholar_names": [
-      "黄民烈"
+      "黄民烈",
+      "Erik Cambria"
     ],
     "source_record_ids": [
       "minlie_huang_4a9a8d787a7aba33"
@@ -31809,10 +32092,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "erik_cambria": {
+        "category_id": "affective_hci_emp",
+        "label": "情感智能交互、共情对话与社会信号",
+        "scholar_name": "Erik Cambria",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "黄民烈：脑电基础模型与通用解码"
+      "黄民烈：脑电基础模型与通用解码",
+      "Erik Cambria：情感智能交互、共情对话与社会信号"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -32811,7 +33103,8 @@
       "大模型",
       "情感智能",
       "对话系统",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：清华大学计算机系/人工智能研究院教授；CoAI负责人",
     "status": "候选条目/需按作者主页继续核验",
@@ -33264,7 +33557,8 @@
       "大模型",
       "情感智能",
       "对话系统",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：清华大学计算机系/人工智能研究院教授；CoAI负责人",
     "status": "候选条目/需按作者主页继续核验",
@@ -34691,7 +34985,8 @@
       "大模型",
       "情感智能",
       "对话系统",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：清华大学计算机系/人工智能研究院教授；CoAI负责人",
     "status": "候选条目/需按作者主页继续核验",
@@ -34791,7 +35086,8 @@
       "大模型",
       "情感智能",
       "对话系统",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：清华大学计算机系/人工智能研究院教授；CoAI负责人",
     "status": "候选条目/需按作者主页继续核验",
@@ -34989,7 +35285,8 @@
       "情感智能",
       "对话系统",
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：清华大学计算机系/人工智能研究院教授；CoAI负责人",
     "status": "候选条目/需按作者主页继续核验",
@@ -35088,7 +35385,8 @@
       "大模型",
       "情感智能",
       "对话系统",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：清华大学计算机系/人工智能研究院教授；CoAI负责人",
     "status": "候选条目/需按作者主页继续核验",
@@ -35244,7 +35542,8 @@
       "情感大模型与多模态基础模型",
       "自然语言处理",
       "大模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：清华大学计算机系/人工智能研究院教授；CoAI负责人；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -35436,7 +35735,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 47/6668）",
     "status": "已索引出版/会议记录",
@@ -35925,7 +36225,8 @@
       "情感大模型与多模态基础模型",
       "自然语言处理",
       "大模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：清华大学计算机系/人工智能研究院教授；CoAI负责人；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -36487,7 +36788,8 @@
       "大模型",
       "情感智能",
       "对话系统",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：清华大学计算机系/人工智能研究院教授；CoAI负责人",
     "status": "候选条目/需按作者主页继续核验",

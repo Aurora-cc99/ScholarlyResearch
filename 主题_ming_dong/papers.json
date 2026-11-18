@@ -1169,7 +1169,8 @@
     "topics": [
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5032137316）",
     "status": "已索引出版/会议记录",
@@ -2439,11 +2440,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "minpeng_xu",
-      "ming_dong"
+      "ming_dong",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "许敏鹏",
-      "明东"
+      "明东",
+      "钟子平"
     ],
     "source_record_ids": [
       "minpeng_xu_0b48160b6cce"
@@ -2477,12 +2480,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "c4d9de1f2a32aee8",
     "primary_categories_by_scholar": [
       "许敏鹏：情感脑电与多模态生理信号",
-      "明东：脑电基准、数据与评测"
+      "明东：脑电基准、数据与评测",
+      "钟子平：生理情感数据库、基准与综述"
     ],
     "dblp_key": "journals/tbe/SunMWHJXYM26",
     "abstract_en": "Event-related potential (ERP)-based brain-computer interface (BCI) systems are approaching sub-microvolt-level resolution, enabling detailed decoding of sophisticated cognitive processes. This progress has increased the demand for robust classifiers. Current algorithms encounter two fundamental challenges when decoding ERPs: data scarcity and class imbalance. To address these challenges, we propose a joint-shrinkage pattern matching (JSPM) algorithm consisting of two modules. First, a novel joint-shrinkage spatial filter is constructed by integrating shrinkage-based regularization with the $\\mathcal{{l}}_{2,{\\bm{p}}}$-norm. This regularization approach effectively bridges the gap between complex structured regularization and implementation simplicity, which introduces automated regularization to enhance module robustness under data-scarce conditions. The $\\mathcal{{l}}_{2,{\\bm{p}}}$-norm provides a flexible feature distance measurement, enabling adaptation to data quality variability. Second, a weighted template matching module mitigates decision boundary shift caused by class imbalance. Using error-related potentials (ErrPs) as representative signals, we validated the algorithm through comprehensive comparisons. JSPM significantly outperformed 14 state-of-the-art classifiers on one self-collected and two public ErrP datasets. With only 40 imbalanced training samples, it achieved up to 14.84% higher average balanced accuracy (bAcc) than competing methods, maintaining a 4.88% average bAcc advantage over its nearest competitor. Notably, JSPM significantly enhanced inter-class discriminability for ErrP features with approximately 1 μV amplitude, achieving a maximum bAcc enhancement of 8.80% compared to deep learning methods. Overall, JSPM effectively addresses small-sample and imbalanced ERP decoding in BCI systems, facilitating the transition from laboratory research to real-world applications.",
@@ -3258,7 +3277,8 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -5192,7 +5212,8 @@
     "abstract_source": "pubmed_verified",
     "topics": [
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 18/1277）",
     "status": "已索引出版/会议记录",
@@ -7035,7 +7056,8 @@
       "脑电情感识别",
       "脑电基础大模型",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 18/1277）",
     "status": "已索引出版/会议记录",
@@ -7109,7 +7131,8 @@
     "topics": [
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 18/1277）",
     "status": "已索引出版/会议记录",
@@ -7401,7 +7424,8 @@
       "脑机接口与神经解码",
       "情感计算与情绪理解",
       "智能芯片与计算系统",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -7413,7 +7437,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 163,
     "publication_types": "",
     "candidate_source": true,
     "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
@@ -7436,10 +7460,12 @@
     "work_title_group": "c89182afecde",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "ming_dong"
+      "ming_dong",
+      "xun_chen_ustc"
     ],
     "scholar_names": [
-      "明东"
+      "明东",
+      "陈勋"
     ],
     "source_record_ids": [
       "ming_dong_b7f0879268c8"
@@ -7458,11 +7484,27 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "xun_chen_ustc": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "陈勋",
+        "secondary_tags": [
+          "情感脑机接口",
+          "脑机医疗器械与神经调控",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑电情感识别"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "0265345926b9fc05",
     "primary_categories_by_scholar": [
-      "明东：情感脑电与多模态生理信号"
+      "明东：情感脑电与多模态生理信号",
+      "陈勋：脑电基础大模型与自监督预训练"
     ],
     "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11931852/",
     "abstract_en": "Brain-computer interfaces (BCIs) represent an emerging technology that facilitates direct communication between the brain and external devices. In recent years, numerous review articles have explored various aspects of BCIs, including their fundamental principles, technical advancements, and applications in specific domains. However, these reviews often focus on signal processing, hardware development, or limited applications such as motor rehabilitation or communication. This paper aims to offer a comprehensive review of recent electroencephalogram (EEG)-based BCI applications in the medical field across 8 critical areas, encompassing rehabilitation, daily communication, epilepsy, cerebral resuscitation, sleep, neurodegenerative diseases, anesthesiology, and emotion recognition. Moreover, the current challenges and future trends of BCIs were also discussed, including personal privacy and ethical concerns, network security vulnerabilities, safety issues, and biocompatibility.",
@@ -7590,7 +7632,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 18/1277）",
     "status": "已索引出版/会议记录",
@@ -7927,7 +7970,8 @@
     "abstract_zh": "长期太空飞行对宇航员的身心健康构成重大挑战，导致骨质疏松、肌肉萎缩、心血管功能障碍等生理问题，以及抑郁、焦虑、社交退缩、认知能力下降等心理问题。随着太空任务持续时间的不断增加，上述挑战不容忽视。因此，确定有效的监管措施至关重要。本文简要回顾了国内外关于减轻航空环境中生理和心理风险策略的最新研究成果。包括肌肉骨骼、心血管和心理问题的应对策略，例如运动……",
     "abstract_source": "pubmed_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "PubMed原始XML目标作者姓名与机构核验记录",
     "status": "已索引出版/会议记录",
@@ -8032,11 +8076,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "minpeng_xu",
-      "ming_dong"
+      "ming_dong",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "许敏鹏",
-      "明东"
+      "明东",
+      "钟子平"
     ],
     "source_record_ids": [
       "minpeng_xu_976950be6b7f"
@@ -8070,12 +8116,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "b1bea6465a57a828",
     "primary_categories_by_scholar": [
       "许敏鹏：情感脑电与多模态生理信号",
-      "明东：脑电基础模型与通用解码"
+      "明东：脑电基础模型与通用解码",
+      "钟子平：脑电情感识别与多模态生理计算"
     ],
     "dblp_key": "journals/tase/MeiCLHXWYJXM25",
     "abstract_en": "Objective: Because of the non-stationary nature of electroencephalogram (EEG) signals, traditional non-invasive brain-computer interfaces (BCIs) usually only produce discrete commands, limiting their ability to control external devices continuously. This study proposes a novel BCI control strategy mapping multiple discrete commands to continuous motion, enabling real-time manipulation of a drone in four degrees of freedom (DOF).Methods: Our strategy used the fast steady state visual evoked potential (SSVEP) encoding and decoding method to convert user intentions into the drone’s flight status in near real-time. Simultaneously, the drone’s live video was embedded into the SSVEP stimuli, providing users with a first-person perspective control experience.Results: In drone control experiments, participants successfully maneuvered the drone through complex path-following tasks in simulated and physical scenarios. The mean flight trajectory bias ratio was measured as 0.81, with a mean flight smoothness of -3.31 (measured by spectral arc length) and mean Fitts’s throughput of 9.18 bits/min. Notably, the brain-to-hand ratio (BHR) for all metrics approached 1, indicating that our non-invasive control system achieved comparable performance to manual control systems.Conclusion: These results suggest the effectiveness of our proposed BCI control strategy that maps discrete commands to continuous motion and extends the capabilities of non-invasive BCIs in continuous control scenarios.Significance: This study significantly advances the applications of BCI and propels human-machine interaction towards a more direct realm.",
@@ -9774,7 +9836,7 @@
     "source_url": "https://dblp.org/rec/journals/inffus/WangMLCM25.html",
     "openalex_id": "https://openalex.org/W4406807125",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 26,
     "abstract_en": "",
     "abstract_zh": "",
     "abstract_source": "",
@@ -9791,10 +9853,12 @@
     "scholar_id": "ming_dong",
     "scholar_name": "明东",
     "scholar_ids": [
-      "ming_dong"
+      "ming_dong",
+      "erik_cambria"
     ],
     "scholar_names": [
-      "明东"
+      "明东",
+      "Erik Cambria"
     ],
     "source_record_ids": [
       "ming_dong_73ea5581c8fc3ef6"
@@ -9814,10 +9878,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "erik_cambria": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Erik Cambria",
+        "secondary_tags": [
+          "脑机接口与神经解码",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "明东：情感脑电与多模态生理信号"
+      "明东：情感脑电与多模态生理信号",
+      "Erik Cambria：自然语言处理、多模态学习与通用方法"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -9977,11 +10053,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "ming_dong",
-      "minpeng_xu"
+      "minpeng_xu",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "明东",
-      "许敏鹏"
+      "许敏鹏",
+      "钟子平"
     ],
     "source_record_ids": [
       "ming_dong_6e47bb377962"
@@ -10015,12 +10093,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "情感脑机接口",
+          "脑机医疗器械与神经调控",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "0be861d7440e1329",
     "primary_categories_by_scholar": [
       "明东：情感脑电与多模态生理信号",
-      "许敏鹏：脑电基础模型与通用解码"
+      "许敏鹏：脑电基础模型与通用解码",
+      "钟子平：脑电情感识别与多模态生理计算"
     ],
     "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12202250/",
     "abstract_en": "Magnetoencephalography (MEG) delivers high spatial resolution and superior detection performance for high-frequency signals compared to Electroencephalography (EEG). Therefore, researchers can leverage MEG for high-frequency steady-state asymmetric visual evoked potential (SSaVEP). Current SSaVEP encoding typically uses low-frequency stimulation with relatively large stimulus areas, hindering the applicability of this encoding method in user-friendly brain-computer interface (BCI) systems. This study introduces an ultra critical flicker frequency (ultra-CFF) single-frequency-SDMA steady-state asymmetric visual evoked field (SSaVEF) encoding powered by MEG and presents an eight-command SSaVEF-BCI system. The BCI system features a 60 Hz SSVEF visual stimulus landmark and eight visual targets spaced 45° apart. Ten participants took part in the offline experiments, during which data from 41 channels in the occipital region were collected. This study analyzed the spatiotemporal characteristics, frequency-space characteristics, signal-to-noise ratio, and other features of the SSaVEF signals. We also evaluated the system's performance using the multi-DCPM algorithm. Using the multi-DCPM algorithm, the system achieved an impressive average classification accuracy of 81.65% with 4-s length data. With a data length of 1 s, the system achieved an average Information Transfer Rate (ITR) of 32.05 bits/min, with the highest individual ITR reached an astonishing 64.45 bits/min. This study represents the exploration of a high-frequency spatial encoding SSVEF-BCI system based on MEG. The results demonstrate MEG's feasibility and potential of applying MEG in such BCI systems, providing both theoretical and practical value for the further development and implementation of future BCI systems.",
@@ -10339,14 +10433,16 @@
     "scholar_id": "minpeng_xu",
     "scholar_name": "许敏鹏",
     "work_title_group": "c17c1978ec68",
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
       "minpeng_xu",
-      "ming_dong"
+      "ming_dong",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "许敏鹏",
-      "明东"
+      "明东",
+      "钟子平"
     ],
     "source_record_ids": [
       "minpeng_xu_ec025f1a7849"
@@ -10380,12 +10476,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "9db88c879d5f918e",
     "primary_categories_by_scholar": [
       "许敏鹏：情感脑电与多模态生理信号",
-      "明东：情感脑电与多模态生理信号"
+      "明东：情感脑电与多模态生理信号",
+      "钟子平：生理情感数据库、基准与综述"
     ],
     "dblp_key": "journals/nn/PanWHSMYXJM25",
     "abstract_en": "Motor imagery (MI) refers to the mental simulation of movements without physical execution, and it can be captured using electroencephalography (EEG). This area has garnered significant research interest due to its substantial potential in brain-computer interface (BCI) applications, especially for individuals with physical disabilities. However, accurate classification of MI EEG signals remains a major challenge due to their non-stationary nature, low signal-to-noise ratio, and sensitivity to both external and physiological noise. Traditional classification methods, such as common spatial pattern (CSP), often assume that the data is stationary and Gaussian, which limits their applicability in real-world scenarios where these assumptions do not hold. These challenges highlight the need for more robust methods to improve classification accuracy in MI-BCI systems. To address these issues, this study introduces a Riemannian geometry-based spatial filtering (RSF) method that projects EEG signals into a lower-dimensional subspace, maximizing the Riemannian distance between covariance matrices from different classes. By leveraging the inherent geometric properties of EEG data, RSF enhances the discriminative power of the features while maintaining robustness against noise. The performance of RSF was evaluated in combination with ten commonly used MI decoding algorithms, including CSP with linear discriminant analysis (CSP-LDA), Filter Bank CSP (FBCSP), Minimum Distance to Riemannian Mean (MDM), Tangent Space Mapping (TSM), EEGNet, ShallowConvNet (sCNN), DeepConvNet (dCNN), FBCNet, Graph-CSPNet, and LMDA-Net, using six publicly available MI-BCI datasets. The results demonstrate that RSF significantly improves classification accuracy and reduces computational time, particularly for deep learning models with high computational complexity. These findings underscore the potential of RSF as an effective spatial filtering approach for MI EEG classification, providing new insights and opportunities for the development of robust MI-BCI systems. The code for this research is available at https://github.com/PLC-TJU/RSF.",
@@ -11445,7 +11557,8 @@
     "abstract_source": "openalex_doi",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 18/1277）",
     "status": "已索引出版/会议记录",
@@ -11515,7 +11628,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -12212,11 +12326,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "ming_dong",
-      "minpeng_xu"
+      "minpeng_xu",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "明东",
-      "许敏鹏"
+      "许敏鹏",
+      "钟子平"
     ],
     "source_record_ids": [
       "ming_dong_7323fb3d5c28"
@@ -12250,12 +12366,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "情感脑机接口",
+          "脑机医疗器械与神经调控",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "2c70461b70ed8257",
     "primary_categories_by_scholar": [
       "明东：情感脑电与多模态生理信号",
-      "许敏鹏：脑电基准、数据与评测"
+      "许敏鹏：脑电基准、数据与评测",
+      "钟子平：生理情感数据库、基准与综述"
     ],
     "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12501431/",
     "abstract_en": "Objective: Advancing high-speed steady-state visually evoked potential (SSVEP)-based brain-computer interface (BCI) systems requires effective electroencephalogram (EEG) decoding through deep learning. However, challenges persist due to data sparsity and the unclear neural basis of most augmentation techniques. Furthermore, effective processing of dynamic EEG signals and accommodating augmented data require a more sophisticated model tailored to the unique characteristics of EEG signals. Approach: This study introduces background EEG mixing (BGMix), a novel data augmentation technique grounded in neural principles that enhances training samples by replacing background noise between different classes. Building on this, we propose the augment EEG Transformer (AETF), a Transformer-based model designed to capture the temporal, spatial, and frequential features of EEG signals, leveraging the advantages of Transformer architectures. Main results: Experimental evaluations of 2 publicly available SSVEP datasets show the efficacy of the BGMix strategy and the AETF model. The BGMix approach notably improved the average classification accuracy of 4 distinct deep learning models, with increases ranging from 11.06% to 21.39% and 4.81% to 25.17% in the respective datasets. Furthermore, the AETF model outperformed state-of-the-art baseline models, excelling with short training data lengths and achieving the highest information transfer rates (ITRs) of 205.82 ± 15.81 bits/min and 240.03 ± 14.91 bits/min on the 2 datasets. Significance: This study introduces a novel EEG augmentation method and a new approach to designing deep learning models informed by the neural processes of EEG. These innovations significantly improve the performance and practicality of high-speed SSVEP-based BCI systems.",
@@ -14282,7 +14414,9 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -15419,7 +15553,8 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -15713,11 +15848,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "ming_dong",
-      "minpeng_xu"
+      "minpeng_xu",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "明东",
-      "许敏鹏"
+      "许敏鹏",
+      "钟子平"
     ],
     "source_record_ids": [
       "ming_dong_d2edb9aa5191"
@@ -15751,15 +15888,31 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "情感脑机接口",
+          "脑机医疗器械与神经调控",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "b129b66c67fb72ea",
     "primary_categories_by_scholar": [
       "明东：情感脑电与多模态生理信号",
-      "许敏鹏：脑电基准、数据与评测"
+      "许敏鹏：脑电基准、数据与评测",
+      "钟子平：脑电情感识别与多模态生理计算"
     ],
-    "abstract_en": "Objective. Magnetoencephalography (MEG) shares a comparable time resolution with electroencephalography. However, MEG excels in spatial resolution, enabling it to capture even the subtlest and weakest brain signals for brain-computer interfaces (BCIs). Leveraging MEG's capabilities, specifically with optically pumped magnetometers (OPM-MEG), proves to be a promising avenue for advancing MEG-BCIs, owing to its exceptional sensitivity and portability. This study harnesses the power of high-frequency steady-state visual evoked fields (SSVEFs) to build an MEG-BCI system that is flickering-imperceptible, user-friendly, and highly accurate.Approach.We have constructed a nine-command BCI that operates on high-frequency SSVEF (58-62 Hz with a 0.5 Hz interval) stimulation. We achieved this by placing the light source inside and outside the magnetic shielding room, ensuring compliance with non-magnetic and visual stimulus presentation requirements. Five participants took part in offline experiments, during which we collected six-channel multi-dimensional MEG signals along both the vertical (Z-axis) and tangential (Y-axis) components. Our approach leveraged the ensemble task-related component analysis algorithm for SSVEF identification and system performance evaluation.Main Results.The offline average accuracy of our proposed system reached an impressive 92.98% when considering multi-dimensional conjoint analysis using data from both theZandYaxes. Our method achieved a theoretical average information transfer rate (ITR) of 58.36 bits min-1with a data length of 0.7 s, and the highest individual ITR reached an impressive 63.75 bits min-1.Significance.This study marks the first exploration of high-frequency SSVEF-BCI based on OPM-MEG. These results underscore the potential and feasibility of MEG in detecting subtle brain signals, offering both theoretical insights and practical value in advancing the development and application of MEG in BCI systems.",
-    "abstract_source": "pubmed_verified",
+    "abstract_en": "Objective . Magnetoencephalography (MEG) shares a comparable time resolution with electroencephalography. However, MEG excels in spatial resolution, enabling it to capture even the subtlest and weakest brain signals for brain-computer interfaces (BCIs). Leveraging MEG’s capabilities, specifically with optically pumped magnetometers (OPM-MEG), proves to be a promising avenue for advancing MEG-BCIs, owing to its exceptional sensitivity and portability. This study harnesses the power of high-frequency steady-state visual evoked fields (SSVEFs) to build an MEG-BCI system that is flickering-imperceptible, user-friendly, and highly accurate. Approach. We have constructed a nine-command BCI that operates on high-frequency SSVEF (58–62 Hz with a 0.5 Hz interval) stimulation. We achieved this by placing the light source inside and outside the magnetic shielding room, ensuring compliance with non-magnetic and visual stimulus presentation requirements. Five participants took part in offline experiments, during which we collected six-channel multi-dimensional MEG signals along both the vertical ( Z -axis) and tangential ( Y -axis) components. Our approach leveraged the ensemble task-related component analysis algorithm for SSVEF identification and system performance evaluation. Main Results. The offline average accuracy of our proposed system reached an impressive 92.98% when considering multi-dimensional conjoint analysis using data from both the Z and Y axes. Our method achieved a theoretical average information transfer rate (ITR) of 58.36 bits min −1 with a data length of 0.7 s, and the highest individual ITR reached an impressive 63.75 bits min −1 . Significance. This study marks the first exploration of high-frequency SSVEF-BCI based on OPM-MEG. These results underscore the potential and feasibility of MEG in detecting subtle brain signals, offering both theoretical insights and practical value in advancing the development and application of MEG in BCI systems.",
+    "abstract_source": "openalex_verified",
     "abstract_zh": "客观。脑磁图（MEG）与脑电图具有相当的时间分辨率。然而，MEG 在空间分辨率方面表现出色，使其能够捕获脑机接口 (BCI) 中最微妙和最微弱的大脑信号。利用 MEG 的功能，特别是光泵磁力计 (OPM-MEG)，由于其卓越的灵敏度和便携性，被证明是推进 MEG-BCIs 的一个有前途的途径。这项研究利用高频稳态视觉诱发场 (SSVEF) 的力量来构建一个闪烁难以察觉、用户友好且高度准确的 MEG-BCI 系统。方法。我们构建了一个可操作的九命令 BCI 系统。"
   },
   {
@@ -16774,7 +16927,8 @@
     "abstract_zh": "随着载人航天目标的逐步实现，宇航员的身心健康成为核心关注点。近年来大量研究表明，航天特殊环境（ASE）会导致宇航员认知功能的改变。然而，这些改变背后的神经元活动的适应性变化仍不清楚。本研究利用动物模型和双光子成像技术，研究模拟航天复合环境（SSCE）下小鼠海马CA1区锥体神经元活动特征和同步性的适应性变化。结果表明，随着建模时间的延长，活跃锥体神经元的数量......",
     "abstract_source": "openalex_doi",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 18/1277）",
     "status": "已索引出版/会议记录",
@@ -16840,7 +16994,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "多模态与大语言模型",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "脑机接口与神经解码"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -17230,7 +17385,8 @@
     "abstract_zh": "身体运动是人类交流的重要渠道，在自动情绪识别中发挥着至关重要的作用。这项工作提出了一种多尺度时空网络，它捕获全身运动传达的粗粒度和细粒度情感信息，并解码情感和身体运动之间的复杂映射。所提出的方法由三个主要部分组成。首先，提出了一种基于伪能量模型的尺度选择算法，该算法引导我们的网络不仅关注长期的宏观身体表情，而且关注短期的微妙姿势变化。其次，我们提出了一种分层时空网络，可以联合处理姿势协方差矩阵和 3D 姿势图像...",
     "abstract_source": "openalex_doi",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 18/1277）",
     "status": "已索引出版/会议记录",
@@ -18129,7 +18285,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -19001,7 +19158,8 @@
       "脑电/脑机接口",
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -19131,7 +19289,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -19927,7 +20086,8 @@
     "abstract_zh": "研究表明，中长期太空飞行可能会对宇航员的情绪和社交功能产生不利影响。情绪调节可以显着影响宇航员的健康、表现、任务安全和成功。然而，随着飞行时间的增加，太空飞行期间情绪和社会表现的潜在变化及其潜在机制仍有待研究，有针对性的治疗和预防干预措施尚未确定。我们在模拟空间复杂环境（SSCE）中评估了小鼠情绪和社会功能随时间延长的变化，同时监测了脑组织中血管内皮生长因子（VEGF）、m...",
     "abstract_source": "pubmed_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "PubMed原始XML目标作者姓名与机构核验记录",
     "status": "已索引出版/会议记录",
@@ -20222,7 +20382,8 @@
     "abstract_source": "openalex_doi",
     "topics": [
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 18/1277）",
     "status": "已索引出版/会议记录",
@@ -21400,7 +21561,8 @@
     "abstract_source": "openalex_doi",
     "topics": [
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 18/1277）",
     "status": "已索引出版/会议记录",
@@ -21899,11 +22061,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "ming_dong",
-      "minpeng_xu"
+      "minpeng_xu",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "明东",
-      "许敏鹏"
+      "许敏鹏",
+      "钟子平"
     ],
     "source_record_ids": [
       "ming_dong_c439808e9b97"
@@ -21937,15 +22101,31 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "情感脑机接口",
+          "脑机医疗器械与神经调控",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "d6b1d4b8be080a1d",
     "primary_categories_by_scholar": [
       "明东：情感脑电与多模态生理信号",
-      "许敏鹏：脑电基准、数据与评测"
+      "许敏鹏：脑电基准、数据与评测",
+      "钟子平：生理情感数据库、基准与综述"
     ],
-    "abstract_en": "Objective. Steady-state visual evoked potential (SSVEP)-based brain-computer interface (BCI) is a promising technology that can achieve high information transfer rate (ITR) with supervised algorithms such as ensemble task-related component analysis (eTRCA) and task-discriminant component analysis (TDCA). However, training individual models requires a tedious and time-consuming calibration process, which hinders the real-life use of SSVEP-BCIs. A recent data augmentation method, called source aliasing matrix estimation (SAME), can generate new EEG samples from a few calibration trials. But SAME does not exploit the information across stimuli as well as only reduces the number of calibration trials per command, so it still has some limitations.Approach. This study proposes an extended version of SAME, called multi-stimulus SAME (msSAME), which exploits the similarity of the aliasing matrix across frequencies to enhance the performance of SSVEP-BCI with insufficient calibration trials. We also propose a semi-supervised approach based on msSAME that can further reduce the number of SSVEP frequencies needed for calibration. We evaluate our method on two public datasets, Benchmark and BETA, and an online experiment.Main results. The results show that msSAME outperforms SAME for both eTRCA and TDCA on the public datasets. Moreover, the semi-supervised msSAME-based method achieves comparable performance to the fully calibrated methods and outperforms the conventional free-calibrated methods. Remarkably, our method only needs 24 s to calibrate 40 targets in the online experiment and achieves an average ITR of 213.8 bits min-1with a peak of 242.6 bits min-1.Significance. This study significantly reduces the calibration effort for individual SSVEP-BCIs, which is beneficial for developing practical plug-and-play SSVEP-BCIs.",
-    "abstract_source": "pubmed_verified",
+    "abstract_en": "Objective. Steady-state visual evoked potential (SSVEP)-based brain-computer interface (BCI) is a promising technology that can achieve high information transfer rate (ITR) with supervised algorithms such as ensemble task-related component analysis (eTRCA) and task-discriminant component analysis (TDCA). However, training individual models requires a tedious and time-consuming calibration process, which hinders the real-life use of SSVEP-BCIs. A recent data augmentation method, called source aliasing matrix estimation (SAME), can generate new EEG samples from a few calibration trials. But SAME does not exploit the information across stimuli as well as only reduces the number of calibration trials per command, so it still has some limitations. Approach. This study proposes an extended version of SAME, called multi-stimulus SAME (msSAME), which exploits the similarity of the aliasing matrix across frequencies to enhance the performance of SSVEP-BCI with insufficient calibration trials. We also propose a semi-supervised approach based on msSAME that can further reduce the number of SSVEP frequencies needed for calibration. We evaluate our method on two public datasets, Benchmark and BETA, and an online experiment. Main results. The results show that msSAME outperforms SAME for both eTRCA and TDCA on the public datasets. Moreover, the semi-supervised msSAME-based method achieves comparable performance to the fully calibrated methods and outperforms the conventional free-calibrated methods. Remarkably, our method only needs 24 s to calibrate 40 targets in the online experiment and achieves an average ITR of 213.8 bits min−1 with a peak of 242.6 bits min−1. Significance. This study significantly reduces the calibration effort for individual SSVEP-BCIs, which is beneficial for developing practical plug-and-play SSVEP-BCIs.",
+    "abstract_source": "openalex_verified",
     "abstract_zh": "客观。基于稳态视觉诱发电位（SSVEP）的脑机接口（BCI）是一种很有前途的技术，可以通过集成任务相关成分分析（eTRCA）和任务判别成分分析（TDCA）等监督算法实现高信息传输率（ITR）。然而，训练单个模型需要繁琐且耗时的校准过程，这阻碍了 SSVEP-BCIs 的实际使用。最近的一种数据增强方法，称为源混叠矩阵估计（SAME），可以通过一些校准试验生成新的脑电图样本。但 SAME 不会利用跨刺激的信息，并且只会减少校准次数..."
   },
   {
@@ -22776,7 +22956,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -23107,11 +23288,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "ming_dong",
-      "minpeng_xu"
+      "minpeng_xu",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "明东",
-      "许敏鹏"
+      "许敏鹏",
+      "钟子平"
     ],
     "source_record_ids": [
       "ming_dong_7bfee71a68b3"
@@ -23145,12 +23328,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "情感脑机接口",
+          "脑机医疗器械与神经调控",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑电情感识别"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "c0c8a64e6928e7a3",
     "primary_categories_by_scholar": [
       "明东：情感脑电与多模态生理信号",
-      "许敏鹏：情感脑电与多模态生理信号"
+      "许敏鹏：情感脑电与多模态生理信号",
+      "钟子平：脑电情感识别与多模态生理计算"
     ],
     "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10213214/",
     "abstract_en": "The rhythmic visual stimulation (RVS)-induced oscillatory brain responses, namely steady-state visual evoked potentials (SSVEPs), have been widely used as a biomarker in studies of neural processing based on the assumption that they would not affect cognition. However, recent studies have suggested that the generation of SSVEPs might be attributed to neural entrainment and thus could impact brain functions. But their neural and behavioral effects are yet to be explored. No study has reported the SSVEP influence on functional cerebral asymmetry (FCA). We propose a novel lateralized visual discrimination paradigm to test the SSVEP effects on visuospatial selective attention by FCA analyses. Thirty-eight participants covertly shifted their attention to a target triangle appearing in either the lower-left or -right visual field (LVF or RVF), and judged its orientation. Meanwhile, participants were exposed to a series of task-independent RVSs at different frequencies, including 0 (no RVS), 10, 15, and 40-Hz. As a result, it showed that target discrimination accuracy and reaction time (RT) varied significantly across RVS frequency. Furthermore, attentional asymmetries differed for the 40-Hz condition relative to the 10-Hz condition as indexed by enhanced RT bias to the right visual field, and larger Pd EEG component for attentional suppression. Our results demonstrated that RVSs had frequency-specific effects on left-right attentional asymmetries in both behavior and neural activities. These findings provided new insights into the functional role of SSVEP on FCAs.",
@@ -23687,11 +23886,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "ming_dong",
-      "minpeng_xu"
+      "minpeng_xu",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "明东",
-      "许敏鹏"
+      "许敏鹏",
+      "钟子平"
     ],
     "source_record_ids": [
       "ming_dong_fa419313a901"
@@ -23725,15 +23926,31 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "情感脑机接口",
+          "脑机医疗器械与神经调控",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "ae5beeb533d44c22",
     "primary_categories_by_scholar": [
       "明东：情感脑电与多模态生理信号",
-      "许敏鹏：脑电基础模型与通用解码"
+      "许敏鹏：脑电基础模型与通用解码",
+      "钟子平：脑电情感识别与多模态生理计算"
     ],
-    "abstract_en": "Objective. Brain-computer interfaces (BCIs) have recently made significant strides in expanding their instruction set, which has attracted wide attention from researchers. The number of targets and commands is a key indicator of how well BCIs can decode the brain's intentions. No studies have reported a BCI system with over 200 targets.Approach. This study developed the first high-speed BCI system with up to 216 targets that were encoded by a combination of electroencephalography features, including P300, motion visual evoked potential (mVEP), and steady-state visual evoked potential (SSVEP). Specifically, the hybrid BCI paradigm used the time-frequency division multiple access strategy to elaborately tag targets with P300 and mVEP of different time windows, along with SSVEP of different frequencies. The hybrid features were then decoded by task-discriminant component analysis and linear discriminant analysis. Ten subjects participated in the offline and online cued-guided spelling experiments. Other ten subjects took part in online free-spelling experiments.Main results.The offline results showed that the mVEP and P300 components were prominent in the central, parietal, and occipital regions, while the most distinct SSVEP feature was in the occipital region. The online cued-guided spelling and free-spelling results showed that the proposed BCI system achieved an average accuracy of 85.37% ± 7.49% and 86.00% ± 5.98% for the 216-target classification, resulting in an average information transfer rate (ITR) of 302.83 ± 39.20 bits min-1and 204.47 ± 37.56 bits min-1, respectively. Notably, the peak ITR could reach up to 367.83 bits min-1.Significance.This study developed the first high-speed BCI system with more than 200 targets, which holds promise for extending BCI's application scenarios.",
-    "abstract_source": "pubmed_verified",
+    "abstract_en": "Objective. Brain-computer interfaces (BCIs) have recently made significant strides in expanding their instruction set, which has attracted wide attention from researchers. The number of targets and commands is a key indicator of how well BCIs can decode the brain’s intentions. No studies have reported a BCI system with over 200 targets. Approach. This study developed the first high-speed BCI system with up to 216 targets that were encoded by a combination of electroencephalography features, including P300, motion visual evoked potential (mVEP), and steady-state visual evoked potential (SSVEP). Specifically, the hybrid BCI paradigm used the time-frequency division multiple access strategy to elaborately tag targets with P300 and mVEP of different time windows, along with SSVEP of different frequencies. The hybrid features were then decoded by task-discriminant component analysis and linear discriminant analysis. Ten subjects participated in the offline and online cued-guided spelling experiments. Other ten subjects took part in online free-spelling experiments. Main results. The offline results showed that the mVEP and P300 components were prominent in the central, parietal, and occipital regions, while the most distinct SSVEP feature was in the occipital region. The online cued-guided spelling and free-spelling results showed that the proposed BCI system achieved an average accuracy of 85.37% ± 7.49% and 86.00% ± 5.98% for the 216-target classification, resulting in an average information transfer rate (ITR) of 302.83 ± 39.20 bits min−1 and 204.47 ± 37.56 bits min−1, respectively. Notably, the peak ITR could reach up to 367.83 bits min−1. Significance. This study developed the first high-speed BCI system with more than 200 targets, which holds promise for extending BCI’s application scenarios.",
+    "abstract_source": "openalex_verified",
     "abstract_zh": "客观。脑机接口（BCIs）最近在扩展其指令集方面取得了重大进展，引起了研究人员的广泛关注。目标和命令的数量是脑机接口解码大脑意图的能力的关键指标。尚无研究报告具有超过 200 个目标的 BCI 系统。方法。这项研究开发了第一个高速 BCI 系统，具有多达 216 个目标，这些目标由脑电图特征组合编码，包括 P300、运动视觉诱发电位 (mVEP) 和稳态视觉诱发电位 (SSVEP)。具体来说，混合BCI范例使用时频分多址策略来..."
   },
   {
@@ -24329,7 +24546,8 @@
       "情感大模型与多模态基础模型",
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -24365,11 +24583,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "ming_dong",
-      "minpeng_xu"
+      "minpeng_xu",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "明东",
-      "许敏鹏"
+      "许敏鹏",
+      "钟子平"
     ],
     "source_record_ids": [
       "ming_dong_d4c266e59dcf"
@@ -24403,12 +24623,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "情感脑机接口",
+          "脑机医疗器械与神经调控",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑电情感识别"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "2d9658013989d088",
     "primary_categories_by_scholar": [
       "明东：情感脑电与多模态生理信号",
-      "许敏鹏：情感脑电与多模态生理信号"
+      "许敏鹏：情感脑电与多模态生理信号",
+      "钟子平：生理情感数据库、基准与综述"
     ],
     "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10641882/",
     "abstract_en": "upper limb and proposes a multi-branch fusion convolutional neural network(MF-CNN) that combines raw EEG signals and two-dimensional time-frequency maps. Compared to single CNN branch algorithms, MF-CNN shows improved decoding accuracy and has potential applications in motor function rehabilitation training after stroke. Wang et al. proposes an approach that combines an improved lasso with relief-f for feature extraction and selection in EEG signals. The method effectively extracts wavelet packet entropy features and topological features of brain function network, leading to high classification accuracy. Experimental results on two public EEG datasets demonstrate the effectiveness of this approach, and the average classification accuracy aboves 90%. This technology has potential applications in MI-BCI medical, rehabilitation, and other fields. Chen et al. proposes a layered spindle detection algorithm that combines the Morlet wavelet, root mean square(RMS) method, and an improved k-means algorithm to improve the accuracy and speed of detecting spindles during sleep. The algorithm demonstrates better performance stability, achieving higher precision, recall, specificity, accuracy, and F1-score compared to other methods. It provides an effective tool for automatic spindle detection and improves detection efficiency. Li et al. proposes a coherence-based graph convolutional network(C-GCN) method for extracting features and functional connectivity information from EEG signals in a MI-BCI. The C-GCN method achieves reliable and stable classification performance, with a maximum accuracy of 96.85%. The analysis of EEG data from SCI patients and healthy subjects provides an effective theoretical basis for the rehabilitation treatment of SCI patients. Xu et al. proposes a method for analyzing EEG signals during sleep stages using phase-locked value(PLV) to construct a functional connection network and investigates brain interaction. The α frequency band(8-13Hz) achieves the best classification effect with an accuracy of 92.59%. The proposed algorithm enhances sleep staging performance and promotes the development of EEG sleep staging systems. Tang et al. presents a modified sequential backward floating search(SBFS) approach for channel selection in MI-BCIs. The proposed method improves the time complexity of SBFS by selecting symmetrical channel pairs based on the EEG channel map. Experimental results on four BCI datasets demonstrate that the SBFS method achieves higher classification accuracy compared to using all channels or conventional MI channels, outperforming state-of-the-art selection methods. Huang et al. proposes a dual attentive fusion model(DAFM) for EEG-based BCI classification. Experimental results on four datasets demonstrate that the proposed method outperforms state-of-the-art approaches, highlighting the effectiveness of the DAFM in enhancing feature expression. Yang et al. explores effective EEG features for recognizing different valence emotions. First-order difference, second-order difference, high-frequency power, and high-frequency differential entropy features performe well in emotion recognition. These findings provide valuable guidance for EEG-based emotion recognition feature extraction and selection. Wen et al. proposes future directions for cross-task EEG signal analysis research, including increasing sample size, exploring feature extraction and classification simultaneously, subdividing tasks, and investigating cross-task regression models. Conducting research in these areas can advance cross-task EEG analysis to a higher level. In addition, the research topic is innovative in the motion paradigm of BCIs. Liu et al. proposes movement intention encoding paradigm based on sequential finger movement, showing potential for expanding the instruction set of MI-BCIs. Offline and online experiments are conducted, demonstrating the feasibility of the proposed paradigm. Xiao et al. presents a novel v-BCI paradigm using weak and small stimuli to achieve nine instructions, and demonstrates higher information transfer rate and feasibility for widespread use. Huang et al. presents a wireless group-synchronized neural recording system for real-time multi-subject BCI analysis, achieves high signal correlation, low noise, and high information transfer rate. Bai et al. presents a hybrid BCI system combining P300 and steady-state visually evoked potential(SSVEP) for improved spelling accuracy and speed.",
@@ -24917,11 +25153,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "minpeng_xu",
-      "ming_dong"
+      "ming_dong",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "许敏鹏",
-      "明东"
+      "明东",
+      "钟子平"
     ],
     "source_record_ids": [
       "minpeng_xu_21cf5b0c3f8e"
@@ -24955,12 +25193,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "0f1fb06c0cce0424",
     "primary_categories_by_scholar": [
       "许敏鹏：情感脑电与多模态生理信号",
-      "明东：脑电基准、数据与评测"
+      "明东：脑电基准、数据与评测",
+      "钟子平：生理情感数据库、基准与综述"
     ],
     "dblp_key": "journals/tbe/LuoXZXJM23",
     "abstract_en": "OBJECTIVE: Currently, ensemble task-related component analysis (eTRCA) and task discriminative component analysis (TDCA) are the state-of-the-art algorithms for steady-state visual evoked potential (SSVEP)-based brain-computer interfaces (BCIs). However, training the BCIs requires multiple calibration trials. With insufficient calibration data, the accuracy of the BCI will degrade, or even become invalid with only one calibration trial. However, collecting a large amount of electroencephalography (EEG) data for calibration is a time-consuming and laborious process, which hinders the practical use of eTRCA and TDCA. METHODS: This study proposed a novel method, namely Source Aliasing Matrix Estimation (SAME), to augment the calibration data for SSVEP-BCIs. SAME could generate artificial EEG trials with the featured SSVEPs. Its effectiveness was evaluated using two public datasets (i.e., Benchmark, BETA). RESULTS: When combined with SAME, both eTRCA and TDCA had significantly improved performance with a limited number of calibration data. Specifically, SAME increased the average accuracy of eTRCA and TDCA by about 12% and 3%, respectively, with as few as two calibration trials. Notably, SAME enabled eTRCA and TDCA to work well with a single calibration trial, achieving an average accuracy >90% for the Benchmark dataset and >70% for the BETA dataset with 1-second EEG. CONCLUSION: SAME is an effective method for SSVEP-BCIs to augment the calibration data, thereby significantly enhancing the performance of eTRCA and TDCA. SIGNIFICANCE: We propose a new data-augmentation method that is compatible with the state-of-the-art algorithms of SSVEP-based BCIs. It can significantly reduce the efforts required to calibrate SSVEP-BCIs, which is promising for the development of practical BCIs.",
@@ -25329,7 +25583,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -25647,11 +25902,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "ming_dong",
-      "minpeng_xu"
+      "minpeng_xu",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "明东",
-      "许敏鹏"
+      "许敏鹏",
+      "钟子平"
     ],
     "source_record_ids": [
       "ming_dong_2a88cba036f4"
@@ -25685,12 +25942,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "情感脑机接口",
+          "脑机医疗器械与神经调控",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑电基础大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "3ec12fe765772853",
     "primary_categories_by_scholar": [
       "明东：脑电基准、数据与评测",
-      "许敏鹏：脑电基准、数据与评测"
+      "许敏鹏：脑电基准、数据与评测",
+      "钟子平：生理情感数据库、基准与综述"
     ],
     "abstract_en": "UNLABELLED: Objective.Deep learning (DL) models have been proven to be effective in decoding motor imagery (MI) signals in Electroencephalogram (EEG) data. However, DL models' success relies heavily on large amounts of training data, whereas EEG data collection is laborious and time-consuming. Recently, cross-dataset transfer learning has emerged as a promising approach to meet the data requirements of DL models. Nevertheless, transferring knowledge across datasets involving different MI tasks remains a significant challenge in cross-dataset transfer learning, limiting the full utilization of valuable data resources. APPROACH: This study proposes a pre-training-based cross-dataset transfer learning method inspired by Hard Parameter Sharing in multi-task learning. Different datasets with distinct MI paradigms are considered as different tasks, classified with shared feature extraction layers and individual task-specific layers to allow cross-dataset classification with one unified model. Then, Pre-training and fine-tuning are employed to transfer knowledge across datasets. We also designed four fine-tuning schemes and conducted extensive experiments on them. MAIN RESULTS: The results showed that compared to models without pre-training, models with pre-training achieved a maximum increase in accuracy of 7.76%. Moreover, when limited training data were available, the pre-training method significantly improved DL model's accuracy by 27.34% at most. The experiments also revealed that pre-trained models exhibit faster convergence and remarkable robustness. The training time per subject could be reduced by up to 102.83 s, and the variance of classification accuracy decreased by 75.22% at best. SIGNIFICANCE: This study represents the first comprehensive investigation of the cross-dataset transfer learning method between two datasets with different MI tasks. The proposed pre-training method requires only minimal fine-tuning data when applying DL models to new MI paradigms, making MI-Brain-computer interface more practical and user-friendly.",
     "abstract_source": "pubmed_verified",
@@ -26101,12 +26374,14 @@
     "scholar_ids": [
       "huiguang_he",
       "ming_dong",
-      "minpeng_xu"
+      "minpeng_xu",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "何晖光",
       "明东",
-      "许敏鹏"
+      "许敏鹏",
+      "钟子平"
     ],
     "source_record_ids": [
       "huiguang_he_5815a9e8ce23"
@@ -26146,16 +26421,29 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "862b0cb284e94000",
     "primary_categories_by_scholar": [
       "何晖光：情感脑电与多模态生理信号",
       "明东：脑电基础模型与通用解码",
-      "许敏鹏：脑电基础模型与通用解码"
+      "许敏鹏：脑电基础模型与通用解码",
+      "钟子平：脑电情感识别与多模态生理计算"
     ],
-    "abstract_en": "Objective. The state of vigilance is crucial for effective performance in brain-computer interface (BCI) tasks, and therefore, it is essential to investigate vigilance levels in BCI tasks. Despite this, most studies have focused on vigilance levels in driving tasks rather than on BCI tasks, and the electroencephalogram (EEG) patterns of vigilance states in different BCI tasks remain unclear. This study aimed to identify similarities and differences in EEG patterns and performances of vigilance estimation in different BCI tasks and sessions.Approach.To achieve this, we built a steady-state visual evoked potential-based BCI system and a rapid serial visual presentation-based BCI system and recruited 18 participants to carry out four BCI experimental sessions over four days.Main results. Our findings demonstrate that specific neural patterns for high and low vigilance levels are relatively stable across sessions. Differential entropy features significantly differ between different vigilance levels in all frequency bands and between BCI tasks in the delta and theta frequency bands, with the theta frequency band features playing a critical role in vigilance estimation. Additionally, prefrontal, temporal, and occipital regions are more relevant to the vigilance state in BCI tasks. Our results suggest that cross-session vigilance estimation is more accurate than cross-task estimation.Significance.Our study clarifies the underlying mechanisms of vigilance state in two BCI tasks and provides a foundation for further research in vigilance estimation in BCI applications.",
-    "abstract_source": "pubmed_verified",
+    "abstract_en": "Objective. The state of vigilance is crucial for effective performance in brain-computer interface (BCI) tasks, and therefore, it is essential to investigate vigilance levels in BCI tasks. Despite this, most studies have focused on vigilance levels in driving tasks rather than on BCI tasks, and the electroencephalogram (EEG) patterns of vigilance states in different BCI tasks remain unclear. This study aimed to identify similarities and differences in EEG patterns and performances of vigilance estimation in different BCI tasks and sessions. Approach. To achieve this, we built a steady-state visual evoked potential-based BCI system and a rapid serial visual presentation-based BCI system and recruited 18 participants to carry out four BCI experimental sessions over four days. Main results. Our findings demonstrate that specific neural patterns for high and low vigilance levels are relatively stable across sessions. Differential entropy features significantly differ between different vigilance levels in all frequency bands and between BCI tasks in the delta and theta frequency bands, with the theta frequency band features playing a critical role in vigilance estimation. Additionally, prefrontal, temporal, and occipital regions are more relevant to the vigilance state in BCI tasks. Our results suggest that cross-session vigilance estimation is more accurate than cross-task estimation. Significance. Our study clarifies the underlying mechanisms of vigilance state in two BCI tasks and provides a foundation for further research in vigilance estimation in BCI applications.",
+    "abstract_source": "openalex_verified",
     "abstract_zh": "客观。警惕状态对于脑机接口（BCI）任务的有效执行至关重要，因此，研究 BCI 任务中的警惕水平至关重要。尽管如此，大多数研究都集中在驾驶任务中的警惕水平，而不是 BCI 任务，并且不同 BCI 任务中警惕状态的脑电图 (EEG) 模式仍不清楚。本研究旨在确定不同 BCI 任务和会话中脑电图模式和警觉性评估表现的相似性和差异。方法。为了实现这一目标，我们构建了一个基于稳态视觉诱发电位的 BCI 系统和一个基于快速串行视觉呈现的 BCI 系统并记录了..."
   },
   {
@@ -26410,11 +26698,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "ming_dong",
-      "minpeng_xu"
+      "minpeng_xu",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "明东",
-      "许敏鹏"
+      "许敏鹏",
+      "钟子平"
     ],
     "source_record_ids": [
       "ming_dong_27ae8636c267"
@@ -26448,15 +26738,31 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "情感脑机接口",
+          "脑机医疗器械与神经调控",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "655544e90974d401",
     "primary_categories_by_scholar": [
       "明东：情感脑电与多模态生理信号",
-      "许敏鹏：脑电基准、数据与评测"
+      "许敏鹏：脑电基准、数据与评测",
+      "钟子平：生理情感数据库、基准与综述"
     ],
-    "abstract_en": "Objective.Currently, steady-state visual evoked potentials (SSVEPs)-based brain-computer interfaces (BCIs) have achieved the highest interaction accuracy and speed among all BCI paradigms. However, its decoding efficacy depends deeply on the number of training samples, and the system performance would have a dramatic drop when the training dataset decreased to a small size. To date, no study has been reported to incorporate the unsupervised learning information from testing trails into the construction of supervised classification model, which is a potential way to mitigate the overfitting effect of limited samples.Approach.This study proposed a novel method for SSVEPs detection, i.e. cyclic shift trials (CSTs), which could combine unsupervised learning information from test trials and supervised learning information from train trials. Furthermore, since SSVEPs are time-locked and phase-locked to the onset of specific flashes, CST could also expand training samples on the basis of its regularity and periodicity. In order to verify the effectiveness of CST, we designed an online SSVEP-BCI system, and tested this system combined CST with two common classification algorithms, i.e. extended canonical correlation analysis and ensemble task-related component analysis.Main results.CST could significantly enhance the signal to noise ratios of SSVEPs and improve the performance of systems especially for the condition of few training samples and short stimulus time. The online information transfer rate could reach up to 236.19 bits min-1using 36 s calibration time of only one training sample for each category.Significance.The proposed CST method can take full advantages of supervised learning information from training samples and unsupervised learning information of testing samples. Furthermore, it is a data expansion technique, which can enhance the SSVEP characteristics and reduce dependence on sample size. Above all, CST is a promising method to improve the performance of SSVEP-based BCI without any additional experimental burden.",
-    "abstract_source": "pubmed_verified",
+    "abstract_en": "Objective. Currently, steady-state visual evoked potentials (SSVEPs)-based brain-computer interfaces (BCIs) have achieved the highest interaction accuracy and speed among all BCI paradigms. However, its decoding efficacy depends deeply on the number of training samples, and the system performance would have a dramatic drop when the training dataset decreased to a small size. To date, no study has been reported to incorporate the unsupervised learning information from testing trails into the construction of supervised classification model, which is a potential way to mitigate the overfitting effect of limited samples. Approach. This study proposed a novel method for SSVEPs detection, i.e. cyclic shift trials (CSTs), which could combine unsupervised learning information from test trials and supervised learning information from train trials. Furthermore, since SSVEPs are time-locked and phase-locked to the onset of specific flashes, CST could also expand training samples on the basis of its regularity and periodicity. In order to verify the effectiveness of CST, we designed an online SSVEP-BCI system, and tested this system combined CST with two common classification algorithms, i.e. extended canonical correlation analysis and ensemble task-related component analysis. Main results. CST could significantly enhance the signal to noise ratios of SSVEPs and improve the performance of systems especially for the condition of few training samples and short stimulus time. The online information transfer rate could reach up to 236.19 bits min −1 using 36 s calibration time of only one training sample for each category. Significance. The proposed CST method can take full advantages of supervised learning information from training samples and unsupervised learning information of testing samples. Furthermore, it is a data expansion technique, which can enhance the SSVEP characteristics and reduce dependence on sample size. Above all, CST is a promising method to improve the performance of SSVEP-based BCI without any additional experimental burden.",
+    "abstract_source": "openalex_verified",
     "abstract_zh": "目的：目前，基于稳态视觉诱发电位（SSVEP）的脑机接口（BCI）已经在所有 BCI 范式中实现了最高的交互精度和速度。然而，其解码效率很大程度上取决于训练样本的数量，当训练数据集减小到较小规模时，系统性能会急剧下降。迄今为止，还没有研究报道将测试轨迹中的无监督学习信息纳入监督分类模型的构建中，这是减轻有限样本过拟合效应的潜在方法。本研究提出了一种新的 SSVEP 检测方法，即循环..."
   },
   {
@@ -26587,13 +26893,15 @@
       "minpeng_xu",
       "ming_dong",
       "huiguang_he",
-      "panorama_shouyan_wang"
+      "panorama_shouyan_wang",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "许敏鹏",
       "明东",
       "何晖光",
-      "王守岩"
+      "王守岩",
+      "钟子平"
     ],
     "source_record_ids": [
       "minpeng_xu_afe8adfd0356"
@@ -26657,6 +26965,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "c4ce25156436cf96",
@@ -26664,7 +26987,8 @@
       "许敏鹏：情感脑电与多模态生理信号",
       "明东：脑电基础模型与通用解码",
       "何晖光：脑电基础模型与通用解码",
-      "王守岩：脑电基础模型与通用解码"
+      "王守岩：脑电基础模型与通用解码",
+      "钟子平：脑电情感识别与多模态生理计算"
     ],
     "dblp_key": "journals/eswa/WangQWZWHXJM23"
   },
@@ -26964,7 +27288,8 @@
     "topics": [
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 18/1277）",
     "status": "预印本记录",
@@ -27635,7 +27960,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -28539,11 +28865,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "ming_dong",
-      "minpeng_xu"
+      "minpeng_xu",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "明东",
-      "许敏鹏"
+      "许敏鹏",
+      "钟子平"
     ],
     "source_record_ids": [
       "ming_dong_cffb42b5d841"
@@ -28577,12 +28905,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "情感脑机接口",
+          "脑机医疗器械与神经调控",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "6f5e8ece0d24be8b",
     "primary_categories_by_scholar": [
       "明东：情感脑电与多模态生理信号",
-      "许敏鹏：脑电基础模型与通用解码"
+      "许敏鹏：脑电基础模型与通用解码",
+      "钟子平：脑电情感识别与多模态生理计算"
     ],
     "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9927724/",
     "abstract_en": "Brain-computer interface (BCI) can establish a direct communications pathway between the human brain and the external devices, which is independent of peripheral nerves and muscles. Compared with invasive BCI, non-invasive BCI has the advantages of low cost, low risk, and ease of operation. In recent years, using non-invasive BCI technology to control devices has gradually evolved into a new type of human-computer interaction manner. Moreover, the control strategy for BCI is an essential component of this manner. First, this study introduced how the brain control techniques were developed and classified. Second, the basic characteristics of direct and shared control strategies were thoroughly explained. And then the benefits and drawbacks of these two strategies were compared and further analyzed. Finally, the development direction and application prospects for non-invasive brain control strategies were suggested. 脑机接口是指不依赖于外周神经和肌肉，在人脑与外部设备之间建立起一条直接的信息交流通路。相较于侵入式脑机接口，非侵入式脑机接口具有低成本、低风险、易操作等优势。近年来，利用非侵入式脑机接口技术对外设进行控制逐渐成为一种新型人机交互方式，而脑机接口控制策略是该方式的重要组成部分。本文首先介绍了脑控策略的分类和发展，其次详细描述了直接和共享两种控制策略的基本特点，再次对比分析这两种脑控策略的优缺点，最后对非侵入式脑控策略发展方向和应用前景进行了分析与展望。.",
@@ -30247,11 +30591,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "minpeng_xu",
-      "ming_dong"
+      "ming_dong",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "许敏鹏",
-      "明东"
+      "明东",
+      "钟子平"
     ],
     "source_record_ids": [
       "minpeng_xu_4b50662e79b0"
@@ -30285,12 +30631,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "43178ab2c473abe2",
     "primary_categories_by_scholar": [
       "许敏鹏：情感脑电与多模态生理信号",
-      "明东：脑电基础模型与通用解码"
+      "明东：脑电基础模型与通用解码",
+      "钟子平：脑电情感识别与多模态生理计算"
     ],
     "dblp_key": "conf/ijcai/0005WXGYCXJM22"
   },
@@ -32071,7 +32433,8 @@
     "abstract_zh": "长期太空飞行已被证明会导致宇航员运动、心血管和内分泌功能等身体损伤。但情绪和社交互动等心理影响尚不清楚。此外，关于它们对认知功能的影响也存在相互矛盾的说法。因此，在这项研究中，我们将小鼠（18-21 克）置于模拟微重力和社会隔离 (SM+SI) 下 28 天，并检查其对情绪、社交互动和认知功能的影响。我们发现，四个星期的 SM+SI 暴露会导致情绪和特定的社交障碍，这可能与内侧前额叶皮层神经元的损失和树突棘密度的降低有关。没想到，SM+SI增强了短线和长线...",
     "abstract_source": "pubmed_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "PubMed原始XML目标作者姓名与机构核验记录",
     "status": "已索引出版/会议记录",
@@ -33401,11 +33764,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "minpeng_xu",
-      "ming_dong"
+      "ming_dong",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "许敏鹏",
-      "明东"
+      "明东",
+      "钟子平"
     ],
     "source_record_ids": [
       "minpeng_xu_8e1154b98d6b"
@@ -33439,12 +33804,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "90b130816d8078a3",
     "primary_categories_by_scholar": [
       "许敏鹏：情感脑电与多模态生理信号",
-      "明东：脑电基准、数据与评测"
+      "明东：脑电基准、数据与评测",
+      "钟子平：生理情感数据库、基准与综述"
     ],
     "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9927346/",
     "abstract_en": "Brain-computer interface (BCI) systems based on steady-state visual evoked potential (SSVEP) have become one of the major paradigms in BCI research due to their high signal-to-noise ratio and short training time required by users. Fast and accurate decoding of SSVEP features is a crucial step in SSVEP-BCI research. However, the current researches lack a systematic overview of SSVEP decoding algorithms and analyses of the connections and differences between them, so it is difficult for researchers to choose the optimum algorithm under different situations. To address this problem, this paper focuses on the progress of SSVEP decoding algorithms in recent years and divides them into two categories-trained and non-trained-based on whether training data are needed. This paper also explains the fundamental theories and application scopes of decoding algorithms such as canonical correlation analysis (CCA), task-related component analysis (TRCA) and the extended algorithms, concludes the commonly used strategies for processing decoding algorithms, and discusses the challenges and opportunities in this field in the end. 基于稳态视觉诱发电位（SSVEP）的脑-机接口（BCI）系统具有信噪比高、用户所需训练时间短等优势，已成为主流范式之一。对SSVEP特征快速精准解码是SSVEP-BCI系统研究的关键步骤。然而，当前研究中缺少对SSVEP解码算法系统的梳理，以及对算法间联系与差异的分析，使研究者难以在特定情况下选择最优的算法。针对此问题，本文总结了近年来SSVEP解码算法的研究进展，分为无训练和有训练算法两大类，介绍了典型相关分析（CCA）和任务相关成分分析（TRCA）等解码算法及其改进算法的基本原理和适用范围，接着介绍了解码算法中常用的处理设计策略，最后讨论了SSVEP解码算法的机遇与挑战。.",
@@ -34554,7 +34935,8 @@
       "脑电情感识别",
       "脑机接口与神经解码",
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -34788,11 +35170,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "ming_dong",
-      "minpeng_xu"
+      "minpeng_xu",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "明东",
-      "许敏鹏"
+      "许敏鹏",
+      "钟子平"
     ],
     "source_record_ids": [
       "ming_dong_a40adc124360"
@@ -34826,12 +35210,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "情感脑机接口",
+          "脑机医疗器械与神经调控",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "b83ea3c8fbf0e740",
     "primary_categories_by_scholar": [
       "明东：情感脑电与多模态生理信号",
-      "许敏鹏：脑电基准、数据与评测"
+      "许敏鹏：脑电基准、数据与评测",
+      "钟子平：生理情感数据库、基准与综述"
     ],
     "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9927778/",
     "abstract_en": "Error self-detection based on error-related potentials (ErrP) is promising to improve the practicability of brain-computer interface systems. But the single trial recognition of ErrP is still a challenge that hinters the development of this technology. To assess the performance of different algorithms on decoding ErrP, this paper test four kinds of linear discriminant analysis algorithms, two kinds of support vector machines, logistic regression, and discriminative canonical pattern matching (DCPM) on two open accessed datasets. All algorithms were evaluated by their classification accuracies and their generalization ability on different sizes of training sets. The study results show that DCPM has the best performance. This study shows a comprehensive comparison of different algorithms on ErrP classification, which could give guidance for the selection of ErrP algorithm. 基于错误相关电位（ErrP）的错误自检测有助于改善脑-机接口系统的实用性。但单试次 ErrP 信号的准确识别仍是阻碍这一技术发展的难题。为了衡量不同算法解码 ErrP 信号的能力，本文使用两个不同的公开数据集，对研究与相关应用中常见的 4 种线性判别分析算法、2种支持向量机、逻辑回归以及判别典型模式匹配（DCPM）共 8 个算法展开对比。文中主要分析了算法的分类正确率和算法性能随训练集样本数量的变化情况。实验结果表明 DCPM 具有最佳的综合性能。本研究揭示了各算法性能与训练样本数目和 ErrP 试验范式间的相互影响，为研究与实际应用中 ErrP 解码算法的选择提供参考。.",
@@ -35893,11 +36293,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "ming_dong",
-      "minpeng_xu"
+      "minpeng_xu",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "明东",
-      "许敏鹏"
+      "许敏鹏",
+      "钟子平"
     ],
     "source_record_ids": [
       "ming_dong_c8bdcb32ec85"
@@ -35931,12 +36333,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "情感脑机接口",
+          "脑机医疗器械与神经调控",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "ef557e7e025d8b1f",
     "primary_categories_by_scholar": [
       "明东：情感脑电与多模态生理信号",
-      "许敏鹏：脑电基准、数据与评测"
+      "许敏鹏：脑电基准、数据与评测",
+      "钟子平：生理情感数据库、基准与综述"
     ],
     "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8448813/",
     "abstract_en": "[This corrects the article DOI: 10.1007/s11571-021-09676-z.].",
@@ -36934,11 +37352,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "ming_dong",
-      "minpeng_xu"
+      "minpeng_xu",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "明东",
-      "许敏鹏"
+      "许敏鹏",
+      "钟子平"
     ],
     "source_record_ids": [
       "ming_dong_0533c2d4d239"
@@ -36972,12 +37392,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "情感脑机接口",
+          "脑机医疗器械与神经调控",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "9df80841a86060ae",
     "primary_categories_by_scholar": [
       "明东：情感脑电与多模态生理信号",
-      "许敏鹏：脑电基准、数据与评测"
+      "许敏鹏：脑电基准、数据与评测",
+      "钟子平：生理情感数据库、基准与综述"
     ],
     "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8286913/",
     "abstract_en": "A brain-computer interface (BCI) can connect humans and machines directly and has achieved successful applications in the past few decades. Many new BCI paradigms and algorithms have been developed in recent years. Therefore, it is necessary to review new progress in BCIs. This paper summarizes progress for EEG-based BCIs from the perspective of encoding paradigms and decoding algorithms, which are two key elements of BCI systems. Encoding paradigms are grouped by their underlying neural meachanisms, namely sensory- and motor-related, vision-related, cognition-related and hybrid paradigms. Decoding algorithms are reviewed in four categories, namely decomposition algorithms, Riemannian geometry, deep learning and transfer learning. This review will provide a comprehensive overview of both modern primary paradigms and algorithms, making it helpful for those who are developing BCI systems.",
@@ -37866,7 +38302,8 @@
     "abstract_source": "openalex_doi",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 18/1277）",
     "status": "已索引出版/会议记录",
@@ -38442,11 +38879,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "ming_dong",
-      "minpeng_xu"
+      "minpeng_xu",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "明东",
-      "许敏鹏"
+      "许敏鹏",
+      "钟子平"
     ],
     "source_record_ids": [
       "ming_dong_254f3afd3ab1"
@@ -38480,15 +38919,31 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "情感脑机接口",
+          "脑机医疗器械与神经调控",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑电基础大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "3bc791d3c9617142",
     "primary_categories_by_scholar": [
       "明东：脑电基准、数据与评测",
-      "许敏鹏：脑电基准、数据与评测"
+      "许敏鹏：脑电基准、数据与评测",
+      "钟子平：生理情感数据库、基准与综述"
     ],
-    "abstract_en": "Objective. Recently, transfer learning (TL) and deep learning (DL) have been introduced to solve intra- and inter-subject variability problems in brain-computer interfaces (BCIs). However, current TL and DL algorithms are usually validated within a single dataset, assuming that data of the test subjects are acquired under the same condition as that of training (source) subjects. This assumption is generally violated in practice because of different acquisition systems and experimental settings across studies and datasets. Thus, the generalization ability of these algorithms needs further validations in a cross-dataset scenario, which is closer to the actual situation. This study compared the transfer performance of pre-trained deep-learning models with different preprocessing strategies in a cross-dataset scenario.Approach. This study used four publicly available motor imagery datasets, each was successively selected as a source dataset, and the others were used as target datasets. EEGNet and ShallowConvNet with four preprocessing strategies, namely channel normalization, trial normalization, Euclidean alignment, and Riemannian alignment, were trained with the source dataset. The transfer performance of pre-trained models was validated on the target datasets. This study also used adaptive batch normalization (AdaBN) for reducing interval covariate shift across datasets. This study compared the transfer performance of using the four preprocessing strategies and that of a baseline approach based on manifold embedded knowledge transfer (MEKT). This study also explored the possibility and performance of fusing MEKT and EEGNet.Main results. The results show that DL models with alignment strategies had significantly better transfer performance than the other two preprocessing strategies. As an unsupervised domain adaptation method, AdaBN could also significantly improve the transfer performance of DL models. The transfer performance of DL models that combined AdaBN and alignment strategies significantly outperformed MEKT. Moreover, the generalizability of EEGNet models that combined AdaBN and alignment strategies could be further improved via the domain adaptation step in MEKT, achieving the best generalization ability among multiple datasets (BNCI2014001: 0.788, PhysionetMI: 0.679, Weibo2014: 0.753, Cho2017: 0.650).Significance. The combination of alignment strategies and AdaBN could easily improve the generalizability of DL models without fine-tuning. This study may provide new insights into the design of transfer neural networks for BCIs by separating source and target batch normalization layers in the domain adaptation process.",
-    "abstract_source": "pubmed_verified",
+    "abstract_en": "Objective . Recently, transfer learning (TL) and deep learning (DL) have been introduced to solve intra- and inter-subject variability problems in brain-computer interfaces (BCIs). However, current TL and DL algorithms are usually validated within a single dataset, assuming that data of the test subjects are acquired under the same condition as that of training (source) subjects. This assumption is generally violated in practice because of different acquisition systems and experimental settings across studies and datasets. Thus, the generalization ability of these algorithms needs further validations in a cross-dataset scenario, which is closer to the actual situation. This study compared the transfer performance of pre-trained deep-learning models with different preprocessing strategies in a cross-dataset scenario. Approach . This study used four publicly available motor imagery datasets, each was successively selected as a source dataset, and the others were used as target datasets. EEGNet and ShallowConvNet with four preprocessing strategies, namely channel normalization, trial normalization, Euclidean alignment, and Riemannian alignment, were trained with the source dataset. The transfer performance of pre-trained models was validated on the target datasets. This study also used adaptive batch normalization (AdaBN) for reducing interval covariate shift across datasets. This study compared the transfer performance of using the four preprocessing strategies and that of a baseline approach based on manifold embedded knowledge transfer (MEKT). This study also explored the possibility and performance of fusing MEKT and EEGNet. Main results . The results show that DL models with alignment strategies had significantly better transfer performance than the other two preprocessing strategies. As an unsupervised domain adaptation method, AdaBN could also significantly improve the transfer performance of DL models. The transfer performance of DL models that combined AdaBN and alignment strategies significantly outperformed MEKT. Moreover, the generalizability of EEGNet models that combined AdaBN and alignment strategies could be further improved via the domain adaptation step in MEKT, achieving the best generalization ability among multiple datasets (BNCI2014001: 0.788, PhysionetMI: 0.679, Weibo2014: 0.753, Cho2017: 0.650). Significance . The combination of alignment strategies and AdaBN could easily improve the generalizability of DL models without fine-tuning. This study may provide new insights into the design of transfer neural networks for BCIs by separating source and target batch normalization layers in the domain adaptation process.",
+    "abstract_source": "openalex_verified",
     "abstract_zh": "客观。最近，迁移学习（TL）和深度学习（DL）被引入来解决脑机接口（BCI）中的主体内和主体间变异性问题。然而，当前的 TL 和 DL 算法通常在单个数据集中进行验证，假设测试对象的数据是在与训练（源）对象相同的条件下获取的。由于研究和数据集的采集系统和实验设置不同，这一假设在实践中通常会被违反。因此，这些算法的泛化能力需要在跨数据集场景下进一步验证，更接近实际情况。这项研究比较了..."
   },
   {
@@ -38552,11 +39007,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "ming_dong",
-      "minpeng_xu"
+      "minpeng_xu",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "明东",
-      "许敏鹏"
+      "许敏鹏",
+      "钟子平"
     ],
     "source_record_ids": [
       "ming_dong_f15b73a0b4ba"
@@ -38590,15 +39047,31 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "情感脑机接口",
+          "脑机医疗器械与神经调控",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "2cf29a0e1f219692",
     "primary_categories_by_scholar": [
       "明东：情感脑电与多模态生理信号",
-      "许敏鹏：脑电基准、数据与评测"
+      "许敏鹏：脑电基准、数据与评测",
+      "钟子平：生理情感数据库、基准与综述"
     ],
-    "abstract_en": "Objective.P300s are one of the most studied event-related potentials (ERPs), which have been widely used for brain-computer interfaces (BCIs). Thus, fast and accurate recognition of P300s is an important issue for BCI study. Recently, there emerges a lot of novel classification algorithms for P300-speller. Among them, discriminative canonical pattern matching (DCPM) has been proven to work effectively, in which discriminative spatial pattern (DSP) filter can significantly enhance the spatial features of P300s. However, the pattern of ERPs in space varies with time, which was not taken into consideration in the traditional DCPM algorithm.Approach.In this study, we developed an advanced version of DCPM, i.e. multi-window DCPM, which contained a series of time-dependent DSP filters to fine-tune the extraction of spatial ERP features. To verify its effectiveness, 25 subjects were recruited and they were asked to conduct the typical P300-speller experiment.Main results.As a result, multi-window DCPM achieved the character recognition accuracy of 91.84% with only five training characters, which was significantly better than the traditional DCPM algorithm. Furthermore, it was also compared with eight other popular methods, including SWLDA, SKLDA, STDA, BLDA, xDAWN, HDCA, sHDCA and EEGNet. The results showed multi-window DCPM preformed the best, especially using a small calibration dataset. The proposed algorithm was applied to the BCI Controlled Robot Contest of P300 paradigm in 2019 World Robot Conference, and won the first place.Significance.These results demonstrate that multi-window DCPM is a promising method for improving the performance and enhancing the practicability of P300-speller.",
-    "abstract_source": "pubmed_verified",
+    "abstract_en": "Objective. P300s are one of the most studied event-related potentials (ERPs), which have been widely used for brain–computer interfaces (BCIs). Thus, fast and accurate recognition of P300s is an important issue for BCI study. Recently, there emerges a lot of novel classification algorithms for P300-speller. Among them, discriminative canonical pattern matching (DCPM) has been proven to work effectively, in which discriminative spatial pattern (DSP) filter can significantly enhance the spatial features of P300s. However, the pattern of ERPs in space varies with time, which was not taken into consideration in the traditional DCPM algorithm. Approach. In this study, we developed an advanced version of DCPM, i.e. multi-window DCPM, which contained a series of time-dependent DSP filters to fine-tune the extraction of spatial ERP features. To verify its effectiveness, 25 subjects were recruited and they were asked to conduct the typical P300-speller experiment. Main results. As a result, multi-window DCPM achieved the character recognition accuracy of 91.84% with only five training characters, which was significantly better than the traditional DCPM algorithm. Furthermore, it was also compared with eight other popular methods, including SWLDA, SKLDA, STDA, BLDA, xDAWN, HDCA, sHDCA and EEGNet. The results showed multi-window DCPM preformed the best, especially using a small calibration dataset. The proposed algorithm was applied to the BCI Controlled Robot Contest of P300 paradigm in 2019 World Robot Conference, and won the first place. Significance. These results demonstrate that multi-window DCPM is a promising method for improving the performance and enhancing the practicability of P300-speller.",
+    "abstract_source": "openalex_verified",
     "abstract_zh": "Objective.P300 是研究最多的事件相关电位 (ERP) 之一，已广泛用于脑机接口 (BCI)。因此，快速准确地识别P300是BCI研究的一个重要问题。最近，出现了许多新颖的P300-speller分类算法。其中，判别性规范模式匹配（DCPM）已被证明是有效的，其中判别性空间模式（DSP）滤波器可以显着增强P300的空间特征。然而，ERP在空间上的模式随时间变化，这在传统的DCPM算法中没有考虑到。方法。在这项研究中，我们开发了一种高级版本..."
   },
   {
@@ -38882,12 +39355,14 @@
     "scholar_ids": [
       "wang_yijun",
       "ming_dong",
-      "minpeng_xu"
+      "minpeng_xu",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "王毅军",
       "明东",
-      "许敏鹏"
+      "许敏鹏",
+      "钟子平"
     ],
     "source_record_ids": [
       "wang_yijun_8e0c5ac1a68f"
@@ -38927,16 +39402,29 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "201b7845cb1c0728",
     "primary_categories_by_scholar": [
       "王毅军：情感脑电与多模态生理信号",
       "明东：脑电基础模型与通用解码",
-      "许敏鹏：脑电基础模型与通用解码"
+      "许敏鹏：脑电基础模型与通用解码",
+      "钟子平：脑电情感识别与多模态生理计算"
     ],
-    "abstract_en": "Objective.The speed of visual brain-computer interfaces (v-BCIs) has been greatly improved in recent years. However, the traditional v-BCI paradigms require users to directly gaze at the intensive flickering items, which would cause severe problems such as visual fatigue and excessive visual resource consumption in practical applications. Therefore, it is imperative to develop a user-friendly v-BCI.Approach.According to the retina-cortical relationship, this study developed a novel BCI paradigm to detect the fixation point of eyes using a small visual stimulus that subtended only 0.6° in visual angle and was out of the central visual field. Specifically, the visual stimulus was treated as a landmark to judge the eccentricity and polar angle of the fixation point. Sixteen different fixation points were selected around the visual landmark, i.e. different combinations of two eccentricities (2° and 4°) and eight polar angles (0,π4,π2,3π4,π,5π4,3π2and7π4). Twelve subjects participated in this study, and they were asked to gaze at one out of the 16 points for each trial. A multi-class discriminative canonical pattern matching (Multi-DCPM) algorithm was proposed to decode the user's fixation point.Main results.We found the visual stimulation landmark elicited different spatial event-related potential patterns for different fixation points. Multi-DCPM could achieve an average accuracy of 66.2% with a standard deviation of 15.8% for the classification of the sixteen fixation points, which was significantly higher than traditional algorithms (p⩽0.001). Experimental results of this study demonstrate the feasibility of using a small visual stimulus as a landmark to track the relative position of the fixation point.Significance.The proposed new paradigm provides a potential approach to alleviate the problem of irritating stimuli in v-BCIs, which can broaden the applications of BCIs.",
-    "abstract_source": "pubmed_verified",
+    "abstract_en": "Objective. The speed of visual brain–computer interfaces (v-BCIs) has been greatly improved in recent years. However, the traditional v-BCI paradigms require users to directly gaze at the intensive flickering items, which would cause severe problems such as visual fatigue and excessive visual resource consumption in practical applications. Therefore, it is imperative to develop a user-friendly v-BCI. Approach. According to the retina-cortical relationship, this study developed a novel BCI paradigm to detect the fixation point of eyes using a small visual stimulus that subtended only 0.6° in visual angle and was out of the central visual field. Specifically, the visual stimulus was treated as a landmark to judge the eccentricity and polar angle of the fixation point. Sixteen different fixation points were selected around the visual landmark, i.e. different combinations of two eccentricities (2° and 4°) and eight polar angles ( 0 , π 4 , π 2 , 3 π 4 , π , 5 π 4 , 3 π 2 and 7 π 4 ). Twelve subjects participated in this study, and they were asked to gaze at one out of the 16 points for each trial. A multi-class discriminative canonical pattern matching (Multi-DCPM) algorithm was proposed to decode the user’s fixation point. Main results. We found the visual stimulation landmark elicited different spatial event-related potential patterns for different fixation points. Multi-DCPM could achieve an average accuracy of 66.2% with a standard deviation of 15.8% for the classification of the sixteen fixation points, which was significantly higher than traditional algorithms ( p ⩽ 0.001 ). Experimental results of this study demonstrate the feasibility of using a small visual stimulus as a landmark to track the relative position of the fixation point. Significance. The proposed new paradigm provides a potential approach to alleviate the problem of irritating stimuli in v-BCIs, which can broaden the applications of BCIs.",
+    "abstract_source": "openalex_verified",
     "pdf_url": "https://iopscience.iop.org/article/10.1088/1741-2552/ac0b51/pdf",
     "abstract_zh": "目的：近年来，视觉脑机接口（v-BCIs）的速度得到了很大的提高。然而，传统的v-BCI范式要求用户直接注视密集闪烁的项目，这在实际应用中会导致视觉疲劳和视觉资源过度消耗等严重问题。因此，开发一种用户友好的v-BCI方法势在必行。根据视网膜-皮质关系，本研究开发了一种新颖的BCI范式，利用视角仅0.6°且位于中心视野之外的小视觉刺激来检测眼睛的注视点。具体来说，视觉刺激被视为判断偏心率和极地的标志......"
   },
@@ -39829,7 +40317,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 15,
     "publication_types": "",
     "candidate_source": false,
     "source_kind": "CSA authors bibliography / Tianjin University identity",
@@ -39853,11 +40341,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "minpeng_xu",
-      "ming_dong"
+      "ming_dong",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "许敏鹏",
-      "明东"
+      "明东",
+      "钟子平"
     ],
     "source_record_ids": [
       "minpeng_xu_546f1faec1da"
@@ -39891,12 +40381,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑电基础大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "e4bafb281a7fbe65",
     "primary_categories_by_scholar": [
       "许敏鹏：情感脑电与多模态生理信号",
-      "明东：脑电基准、数据与评测"
+      "明东：脑电基准、数据与评测",
+      "钟子平：生理情感数据库、基准与综述"
     ],
     "dblp_key": "conf/embc/XuMMXJM21",
     "abstract_en": "Recently, transfer learning and deep learning have been introduced to solve intra- and inter-subject variability problems in Brain-Computer Interfaces. However, the generalization ability of these BCIs is still to be further verified in a cross-dataset scenario. This study compared the transfer performance of manifold embedded knowledge transfer and pre-trained EEGNet with three preprocessing strategies. This study also introduced AdaBN for target domain adaptation. The results showed that EEGNet with Riemannian alignment and AdaBN could achieve the best transfer accuracy about 65.6% on the target dataset. This study may provide new insights into the design of transfer neural networks for BCIs by separating source and target batch normalization layers in the domain adaptation process.",
@@ -40452,7 +40958,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 20,
     "publication_types": "",
     "candidate_source": true,
     "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
@@ -40475,10 +40981,12 @@
     "work_title_group": "844ee23e4c43",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "ming_dong"
+      "ming_dong",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
-      "明东"
+      "明东",
+      "钟子平"
     ],
     "source_record_ids": [
       "ming_dong_9b9f95239d3b"
@@ -40497,11 +41005,26 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "情感脑机接口",
+          "脑机医疗器械与神经调控",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "2b2cb35efaafd035",
     "primary_categories_by_scholar": [
-      "明东：情感脑电与多模态生理信号"
+      "明东：情感脑电与多模态生理信号",
+      "钟子平：脑电情感识别与多模态生理计算"
     ],
     "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7811967/",
     "abstract_en": "The brain function of prediction is fundamental for human beings to shape perceptions efficiently and successively. Through decades of effort, a valuable brain activation map has been obtained for prediction. However, much less is known about how the brain manages the prediction process over time using traditional neuropsychological paradigms. Here, we implemented an innovative paradigm for timing prediction to precisely study the temporal dynamics of neural oscillations. In the experiment recruiting 45 participants, expectation suppression was found for the overall electroencephalographic activity, consistent with previous hemodynamic studies. Notably, we found that N1 was positively associated with predictability while N2 showed a reversed relation to predictability. Furthermore, the matching prediction had a similar profile with no timing prediction, both showing an almost saturated N1 and an absence of N2. The results indicate that the N1 process showed a 'sharpening' effect for predictable inputs, while the N2 process showed a 'dampening' effect. Therefore, these two paradoxical neural effects of prediction, which have provoked wide confusion in accounting for expectation suppression, actually co-exist in the procedure of timing prediction but work in separate time windows. These findings strongly support a recently-proposed opposing process theory.",
@@ -41571,12 +42094,14 @@
     "scholar_ids": [
       "minpeng_xu",
       "ming_dong",
-      "wang_yijun"
+      "wang_yijun",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "许敏鹏",
       "明东",
-      "王毅军"
+      "王毅军",
+      "钟子平"
     ],
     "source_record_ids": [
       "minpeng_xu_ccd86dcb839c"
@@ -41625,13 +42150,29 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "6e90393d26fc7338",
     "primary_categories_by_scholar": [
       "许敏鹏：情感脑电与多模态生理信号",
       "明东：脑电基础模型与通用解码",
-      "王毅军：脑电基础模型与通用解码"
+      "王毅军：脑电基础模型与通用解码",
+      "钟子平：脑电情感识别与多模态生理计算"
     ],
     "dblp_key": "conf/embc/YueXXCWJM20",
     "abstract_en": "Steady State Visual Evoked Potentials (SSVEPs) have been widely used in Brain-Computer Interfaces (BCIs). SSVEP-BCIs have advantages of high classification accuracy, high information transfer rate, and strong anti-interference ability. Traditional studies mostly used low/medium frequency SSVEPs as system control signals. However, visual flickers with low/medium frequencies are uncomfortable, and even cause visual fatigue and epilepsy seizure. High-frequency SSVEP is a promising approach to solve these problems, but its miniature amplitude and low signal-to-noise ratio (SNR) would pose great challenges for target recognition. This study developed an innovative BCI paradigm to enhance the SNR of high-frequency SSVEP, which is named Steady-State asymmetrically Visual Evoked Potential (SSaVEP). Ten characters were encoded by ten couples of asymmetric flickers whose durations only lasted one second and frequencies ranged from 31 to 40 Hz with a step of 1 Hz. Discriminative canonical pattern matching (DCPM) was used to decode the high-frequency SSaVEP signals. Four subjects participated in the offline experiment. As a result, the accuracy achieved an average of 87.5% with a peak of 97.1%. The simulated online information transfer rate reached 87.2 bits/min on average and 111.2 bits/min for maximum. The results of this study demonstrate the high-frequency SSaVEP paradigm is a promising approach to alleviate the discomfort caused by visual stimuli and thereby can broaden the applications of BCIs.",
@@ -41767,11 +42308,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "minpeng_xu",
-      "ming_dong"
+      "ming_dong",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "许敏鹏",
-      "明东"
+      "明东",
+      "钟子平"
     ],
     "source_record_ids": [
       "minpeng_xu_04e61f8a5eab"
@@ -41805,12 +42348,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "4bc18bf3b95ffb84",
     "primary_categories_by_scholar": [
       "许敏鹏：情感脑电与多模态生理信号",
-      "明东：脑电基础模型与通用解码"
+      "明东：脑电基础模型与通用解码",
+      "钟子平：脑电情感识别与多模态生理计算"
     ],
     "dblp_key": "journals/access/TangXLQLCJM20",
     "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/09149877.pdf",
@@ -42861,12 +43420,14 @@
     "scholar_ids": [
       "minpeng_xu",
       "ming_dong",
-      "wang_yijun"
+      "wang_yijun",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "许敏鹏",
       "明东",
-      "王毅军"
+      "王毅军",
+      "钟子平"
     ],
     "source_record_ids": [
       "minpeng_xu_53b2bfb35926"
@@ -42915,13 +43476,29 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "9f9ba9b1f3e8f28f",
     "primary_categories_by_scholar": [
       "许敏鹏：情感脑电与多模态生理信号",
       "明东：脑电基础模型与通用解码",
-      "王毅军：脑电基础模型与通用解码"
+      "王毅军：脑电基础模型与通用解码",
+      "钟子平：脑电情感识别与多模态生理计算"
     ],
     "dblp_key": "conf/embc/HanXWTLAJM20",
     "abstract_en": "Visual brain-computer interface (BCI) systems have made tremendous process in recent years. It has been demonstrated to perform well in spelling words. However, different from spelling English words in one-dimension sequences, Chinese characters are often written in a two-dimensional structure. Previous studies had never investigated how to use BCI to 'write' but not 'spell' Chinese characters. This study developed an innovative BCI-controlled robot for writing Chinese characters. The BCI system contained 108 commands displayed in a 9*12 array. A pixel-based writing method was proposed to map the starting point and ending point of each stroke of Chinese characters to the array. Connecting the starting and ending points for each stroke can make up any Chinese character. The large command set was encoded by the hybrid P300 and SSVEP features efficiently, in which each output needed only 1s of EEG data. The task-related component analysis was used to decode the combined features. Five subjects participated in this study and achieved an average accuracy of 87.23% and a maximal accuracy of 100%. The corresponding information transfer rate was 56.85 bits/min and 71.10 bits/min, respectively. The BCI-controlled robotic arm could write a Chinese character '' with 16 strokes within 5.7 seconds for the best subject. The demo video can be found at https://www.youtube.com/watch?v=A1w-e2dBGl0. The study results demonstrated that the proposed BCI-controlled robot is efficient for writing ideogram (e.g. Chinese characters) and phonogram (e.g. English letter), leading to broad prospects for real-world applications of BCIs.",
@@ -43079,12 +43656,14 @@
     "scholar_ids": [
       "minpeng_xu",
       "ming_dong",
-      "wang_yijun"
+      "wang_yijun",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "许敏鹏",
       "明东",
-      "王毅军"
+      "王毅军",
+      "钟子平"
     ],
     "source_record_ids": [
       "minpeng_xu_beeab57378b5"
@@ -43133,13 +43712,29 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "b89286c253552526",
     "primary_categories_by_scholar": [
       "许敏鹏：情感脑电与多模态生理信号",
       "明东：脑电基础模型与通用解码",
-      "王毅军：脑电基础模型与通用解码"
+      "王毅军：脑电基础模型与通用解码",
+      "钟子平：脑电情感识别与多模态生理计算"
     ],
     "dblp_key": "conf/embc/MeiXWKWJM20",
     "abstract_en": "Brain-computer interfaces (BCIs) allow for translating electroencephalogram (EEG) into control commands, e.g., to control a quadcopter. This study, we developed a practical BCI based on steady-state visually evoked potential (SSVEP) for continuous control of a quadcopter from the first-person perspective. Users watched with the video stream from a camera on the quadcopter. An innovative user interface was developed by embedding 12 SSVEP flickers into the video stream, which corresponded to the flight commands of 'take-off,' 'land,' 'hover,' 'keep-going,' 'clockwise,' 'counter-clockwise' and rectilinear motions in six directions, respectively. The command was updated every 400ms by decoding the collected EEG data using a combined classification algorithm based on task-related component analysis (TRCA) and linear discriminant analysis (LDA). The quadcopter flew in the 3-D space according to the control vector that was determined by the latest four commands. Three novices participated in this study. They were asked to control the quadcopter by either the brain or hands to fly through a circle and land on the target zone. As a result, the time consumption ratio of brain-control to hand-control was as low as 1.34, which means the BCI performance was close to hands. The information transfer rate reached a peak of 401.79 bits/min in the simulated online experiment. These results demonstrate the proposed SSVEP-BCI system is efficient for controlling the quadcopter.",
@@ -43199,12 +43794,14 @@
     "scholar_ids": [
       "wang_yijun",
       "ming_dong",
-      "minpeng_xu"
+      "minpeng_xu",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "王毅军",
       "明东",
-      "许敏鹏"
+      "许敏鹏",
+      "钟子平"
     ],
     "source_record_ids": [
       "wang_yijun_37feafbec85e"
@@ -43244,13 +43841,26 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "14449f349b4ac234",
     "primary_categories_by_scholar": [
       "王毅军：情感脑电与多模态生理信号",
       "明东：脑电基础模型与通用解码",
-      "许敏鹏：脑电基础模型与通用解码"
+      "许敏鹏：脑电基础模型与通用解码",
+      "钟子平：脑电情感识别与多模态生理计算"
     ],
     "dblp_key": "journals/tbe/XuHWJM20",
     "pdf_url": "https://doi.org/10.1109/tbme.2020.2975614",
@@ -43695,12 +44305,14 @@
     "scholar_ids": [
       "minpeng_xu",
       "ming_dong",
-      "wang_yijun"
+      "wang_yijun",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "许敏鹏",
       "明东",
-      "王毅军"
+      "王毅军",
+      "钟子平"
     ],
     "source_record_ids": [
       "minpeng_xu_82ff4d95d2d0"
@@ -43749,13 +44361,29 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "7708ead1c1d5a373",
     "primary_categories_by_scholar": [
       "许敏鹏：情感脑电与多模态生理信号",
       "明东：脑电基准、数据与评测",
-      "王毅军：脑电基准、数据与评测"
+      "王毅军：脑电基准、数据与评测",
+      "钟子平：生理情感数据库、基准与综述"
     ],
     "dblp_key": "conf/embc/WangXMHWJM20",
     "abstract_en": "Steady-State Visual Evoked Potentials (SSVEPs) have become one of the most used neural signals for brain- computer interfaces (BCIs) due to their stability and high signal- to-noise rate. However, the performance of SSVEP-based BCIs would degrade with a few training samples. This study was proposed to enhance the detection of SSVEP by combining the supervised learning information from training samples and the unsupervised learning information from the trial to be tested. A new method, i.e. cyclic shift trials (CST), was proposed to generate new calibration samples from the test data, which were furtherly used to create the templates and spatial filters of task- related component analysis (TRCA). The test-trial templates and spatial filters were combined with training-sample templates and spatial filters to recognize SSVEP. The proposed algorithm was tested on a benchmark dataset. As a result, it reached significantly higher classification accuracy than traditional TRCA when only two training samples were used. Speciflcally, the accuracy was improved by 9.5% for 0.7s data. Therefore, this study demonstrates CST is effective to improve the performance of SSVEP-BCI.",
@@ -45370,12 +45998,16 @@
     "scholar_ids": [
       "wang_yijun",
       "ming_dong",
-      "minpeng_xu"
+      "minpeng_xu",
+      "tzyy_ping_jung",
+      "jing_jin_ecust"
     ],
     "scholar_names": [
       "王毅军",
       "明东",
-      "许敏鹏"
+      "许敏鹏",
+      "钟子平",
+      "金晶"
     ],
     "source_record_ids": [
       "wang_yijun_9ecc4f83c520"
@@ -45415,13 +46047,39 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "jing_jin_ecust": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "金晶",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "022abea1473cf658",
     "primary_categories_by_scholar": [
       "王毅军：情感脑电与多模态生理信号",
       "明东：脑电基准、数据与评测",
-      "许敏鹏：脑电基准、数据与评测"
+      "许敏鹏：脑电基准、数据与评测",
+      "钟子平：生理情感数据库、基准与综述",
+      "金晶：生理情感数据库、基准与综述"
     ],
     "dblp_key": "journals/tbe/XiaoX0WJM20",
     "pdf_url": "https://ieeexplore.ieee.org/ielx7/10/9142461/08930304.pdf",
@@ -46052,12 +46710,14 @@
     "scholar_ids": [
       "minpeng_xu",
       "ming_dong",
-      "wang_yijun"
+      "wang_yijun",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "许敏鹏",
       "明东",
-      "王毅军"
+      "王毅军",
+      "钟子平"
     ],
     "source_record_ids": [
       "minpeng_xu_8ae0b651c52b"
@@ -46106,13 +46766,29 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "24738dbab6263855",
     "primary_categories_by_scholar": [
       "许敏鹏：情感脑电与多模态生理信号",
       "明东：脑电基础模型与通用解码",
-      "王毅军：脑电基础模型与通用解码"
+      "王毅军：脑电基础模型与通用解码",
+      "钟子平：脑电情感识别与多模态生理计算"
     ],
     "dblp_key": "conf/embc/XuZXWJM19",
     "abstract_en": "The speed of visual brain-computer interfaces (BCIs) has been greatly improved in recent years. However, traditional visual BCI paradigm requires users to directly gaze at the intensive flickering items, which would cause severe problems in practical applications, such as visual fatigue and excessive visual resources consumption. A promising solution is to use small visual stimuli outside the central visual area to encode instructions, which had been demonstrated to be effective in our previous study. This study aims to further investigate the effects of stimulus position on the classification of miniature asymmetric visual evoked potentials (aVEPs). Small peripheral visual stimuli were designed with different eccentricities (1° and 2°) and directions (0°, 45°, 90°, 135°, 180°, -135°, -90°, and -45°) to induce different kinds of miniature aVEPs. Five subjects participated in this experiment. Discriminative canonical pattern matching (DCPM) was used to classify all possible pairs of miniature aVEPs. Study results showed that visual stimuli with less eccentricity could induce more distinct miniature aVEPs. The highest single-trial accuracy achieved was about 83% for the binary classifications of miniature aVEPs pairs corresponding to (1°, -135°) Vs (1°, 0°), (1°, -45°) Vs (1°, -135°) and (1°, -45°) Vs (1°, 180°). This finding is very important for the design and development of the miniature aVEPs-based BCIs.",
@@ -47199,7 +47875,8 @@
     "abstract_source": "openalex_doi",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 18/1277）",
     "status": "已索引出版/会议记录",
@@ -48197,12 +48874,14 @@
     "scholar_ids": [
       "minpeng_xu",
       "ming_dong",
-      "wang_yijun"
+      "wang_yijun",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "许敏鹏",
       "明东",
-      "王毅军"
+      "王毅军",
+      "钟子平"
     ],
     "source_record_ids": [
       "minpeng_xu_b66edb959575"
@@ -48251,13 +48930,29 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "5d3bd6e6cd9cb68a",
     "primary_categories_by_scholar": [
       "许敏鹏：情感脑电与多模态生理信号",
       "明东：脑电基础模型与通用解码",
-      "王毅军：脑电基础模型与通用解码"
+      "王毅军：脑电基础模型与通用解码",
+      "钟子平：脑电情感识别与多模态生理计算"
     ],
     "dblp_key": "conf/embc/XiaoXWJM19",
     "abstract_en": "P300s are one of the most popular and robust control signals for brain-computer interfaces (BCIs). Fast classifying P300s is vital for the good performance of P300-based BCIs. However, due to noisy background electroencephalography (EEG) environments, current P300-based BCI systems need to collect multiple trials for a reliable output, which is inefficient. This study compared a recently developed algorithm, i.e. discriminative canonical pattern matching (DCPM), with five traditional classification methods,i.e. linear discriminant analysis (LDA), stepwise LDA, Bayesian LDA, shrinkage LDA and spatial-temporal discriminant analysis (STDA), for the detection of single-trial P300s. Eight subjects participated in the classical P300-speller experiments. Study results showed that the DCPM significantly outperformed the other traditional methods in single-trial P300 classification even with small training samples, suggesting the DCPM is a promising classification algorithm for the P300-based BCI.",
@@ -50527,7 +51222,8 @@
     "abstract_source": "",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 18/1277）",
     "status": "已索引出版/会议记录",
@@ -50717,12 +51413,14 @@
     "scholar_ids": [
       "wang_yijun",
       "minpeng_xu",
-      "ming_dong"
+      "ming_dong",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "王毅军",
       "许敏鹏",
-      "明东"
+      "明东",
+      "钟子平"
     ],
     "source_record_ids": [
       "wang_yijun_49e9dfeff088",
@@ -50765,13 +51463,26 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "cbbaac0b8a6e9024",
     "primary_categories_by_scholar": [
       "王毅军：情感脑电与多模态生理信号",
       "许敏鹏：情感脑电与多模态生理信号",
-      "明东：脑电基础模型与通用解码"
+      "明东：脑电基础模型与通用解码",
+      "钟子平：脑电情感识别与多模态生理计算"
     ],
     "dblp_key": "journals/tbe/XuXWQJM18",
     "abstract_en": "GOAL: Traditional visual brain-computer interfaces (BCIs) preferred to use large-size stimuli to attract the user's attention and elicit distinct electroencephalography (EEG) features. However, the visual stimuli are of no interest to the users as they just serve as the hidden codes behind the characters. Furthermore, using stronger visual stimuli could cause visual fatigue and other adverse symptoms to users. Therefore, it's imperative for visual BCIs to use small and inconspicuous visual stimuli to code characters. METHODS: This study developed a new BCI speller based on miniature asymmetric visual evoked potentials (aVEPs), which encodes 32 characters with a space-code division multiple access scheme and decodes EEG features with a discriminative canonical pattern matching algorithm. Notably, the visual stimulus used in this study only subtended 0.5° of visual angle and was placed outside the fovea vision on the lateral side, which could only induce a miniature potential about 0.5 μV in amplitude and about 16.5 dB in signal-to-noise rate. A total of 12 subjects were recruited to use the miniature aVEP speller in both offline and online tests. RESULTS: Information transfer rates up to 63.33 b/min could be achieved from online tests (online demo URL: https://www.youtube.com/edit?o=U&video_id=kC7btB3mvGY ). CONCLUSION: Experimental results demonstrate the feasibility of using very small and inconspicuous visual stimuli to implement an efficient BCI system, even though the elicited EEG features are very weak. SIGNIFICANCE: The proposed innovative technique can broaden the category of BCIs and strengthen the brain-computer communication.",
@@ -50979,7 +51690,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -52532,7 +53244,8 @@
     "abstract_source": "openalex_doi",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 18/1277）",
     "status": "已索引出版/会议记录",
@@ -52981,7 +53694,8 @@
     "abstract_source": "openalex_doi",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 18/1277）",
     "status": "已索引出版/会议记录",
@@ -54778,12 +55492,14 @@
     "scholar_ids": [
       "wang_yijun",
       "ming_dong",
-      "minpeng_xu"
+      "minpeng_xu",
+      "tzyy_ping_jung"
     ],
     "scholar_names": [
       "王毅军",
       "明东",
-      "许敏鹏"
+      "许敏鹏",
+      "钟子平"
     ],
     "source_record_ids": [
       "wang_yijun_3592ec3cf48a"
@@ -54823,13 +55539,26 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tzyy_ping_jung": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "钟子平",
+        "secondary_tags": [
+          "脑电解码与脑机接口",
+          "脑电情感计算",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "e3db6f6ba4d654ab",
     "primary_categories_by_scholar": [
       "王毅军：情感脑电与多模态生理信号",
       "明东：脑电基础模型与通用解码",
-      "许敏鹏：脑电基础模型与通用解码"
+      "许敏鹏：脑电基础模型与通用解码",
+      "钟子平：脑电情感识别与多模态生理计算"
     ],
     "abstract_en": "OBJECTIVE: Detecting the shift of covert visuospatial attention (CVSA) is vital for gaze-independent brain-computer interfaces (BCIs), which might be the only communication approach for severely disabled patients who cannot move their eyes. Although previous studies had demonstrated that it is feasible to use CVSA-related electroencephalography (EEG) features to control a BCI system, the communication speed remains very low. This study aims to improve the speed and accuracy of CVSA detection by fusing EEG features of N2pc and steady-state visual evoked potential (SSVEP). APPROACH: A new paradigm was designed to code the left and right CVSA with the N2pc and SSVEP features, which were then decoded by a classification strategy based on canonical correlation analysis. Eleven subjects were recruited to perform an offline experiment in this study. Temporal waves, amplitudes, and topographies for brain responses related to N2pc and SSVEP were analyzed. The classification accuracy derived from the hybrid EEG features (SSVEP and N2pc) was compared with those using the single EEG features (SSVEP or N2pc). MAIN RESULTS: The N2pc could be significantly enhanced under certain conditions of SSVEP modulations. The hybrid EEG features achieved significantly higher accuracy than the single features. It obtained an average accuracy of 72.9% by using a data length of 400 ms after the attention shift. Moreover, the average accuracy reached ∼80% (peak values above 90%) when using 2 s long data. SIGNIFICANCE: The results indicate that the combination of N2pc and SSVEP is effective for fast detection of CVSA. The proposed method could be a promising approach for implementing a gaze-independent BCI.",
     "abstract_source": "pubmed_verified",
@@ -55206,7 +55935,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；已核验：官方机构/个人主页与论文页；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -55795,7 +56525,8 @@
     "abstract_source": "openalex_doi",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 18/1277）",
     "status": "已索引出版/会议记录",
@@ -56076,7 +56807,8 @@
     "abstract_source": "openalex_doi",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 18/1277）",
     "status": "已索引出版/会议记录",
@@ -56350,7 +57082,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",

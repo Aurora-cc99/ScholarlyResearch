@@ -1775,11 +1775,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "zheng_lian",
-      "karim_jerbi"
+      "karim_jerbi",
+      "zebang_cheng"
     ],
     "scholar_names": [
       "连政",
-      "卡里姆·杰尔比"
+      "卡里姆·杰尔比",
+      "程泽邦"
     ],
     "source_record_ids": [
       "zheng_lian_3307550782d9",
@@ -1817,12 +1819,28 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "zebang_cheng": {
+        "category_id": "affective_llm_mllm",
+        "label": "情感大模型、多模态指令微调与共情生成",
+        "scholar_name": "程泽邦",
+        "secondary_tags": [
+          "情感智能评测",
+          "多模态情感理解",
+          "情感计算与LLM",
+          "多模态情感识别",
+          "情感理解",
+          "情感大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "e1002f974354b382",
     "primary_categories_by_scholar": [
       "连政：脑电基准、数据与评测",
-      "卡里姆·杰尔比：脑电基础模型与通用解码"
+      "卡里姆·杰尔比：脑电基础模型与通用解码",
+      "程泽邦：情感大模型、多模态指令微调与共情生成"
     ],
     "pdf_url": "https://doi.org/10.1145/3767308.3842142",
     "abstract_en": "Multimedia intelligence primarily models observable content and behavior, yet many human-centered tasks depend on neural and bodily dynamics. Multimodal neurophysiological intelligence addresses this gap by relating EEG, fNIRS, ECG, EMG, and other biosignals to synchronized multimedia and contextual information. We synthesize 13 NeuroMM 2026 Workshop and Grand Challenge papers across four directions: neuroclinical analysis; context, behavior, and well-being; personalized generation; and brain--computer interfaces. The interictal epileptiform discharge (IED) Grand Challenge grounds this agenda in a clinical case combining physiological evidence with observable context. Across these directions, we identify three priorities: explicit modality roles, validation across time, people, devices, and recording conditions, and evaluation aligned with intended use and deployment-time data access. NeuroMM thus extends human-aware multimedia toward task-grounded integration of behavior, context, and physiology.",
@@ -3346,7 +3364,8 @@
       "脑电基础模型",
       "认知神经科学",
       "神经AI",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-论文团队；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -3864,7 +3883,8 @@
       "脑电基础大模型",
       "脑机接口与神经解码",
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-论文团队",
     "status": "候选条目/需按作者主页继续核验",
@@ -4347,11 +4367,13 @@
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
       "karim_jerbi",
-      "dezhong_yao"
+      "dezhong_yao",
+      "tiago_falk"
     ],
     "scholar_names": [
       "卡里姆·杰尔比",
-      "尧德中"
+      "尧德中",
+      "Tiago H. Falk"
     ],
     "source_record_ids": [
       "karim_jerbi_6ddb2c76145a"
@@ -4380,12 +4402,25 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tiago_falk": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "Tiago H. Falk",
+        "secondary_tags": [
+          "脑电基础模型",
+          "认知神经科学",
+          "神经AI"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "be289d6f72586c45",
     "primary_categories_by_scholar": [
       "卡里姆·杰尔比：脑电基础模型与通用解码",
-      "尧德中：脑电基础模型与通用解码"
+      "尧德中：脑电基础模型与通用解码",
+      "Tiago H. Falk：脑电情感识别与多模态生理计算"
     ],
     "pdf_url": "https://biblio.ugent.be/publication/01J9XJ5XWA7AXYC019B5GYB8BN/file/01J9XJECCKZWFXM03ANT1FV0VG.pdf"
   },

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "res_gh_109232ead02f",
+    "name": "rattlesnakey/SPS",
+    "name_zh": "rattlesnakey/SPS — 通过带有进度指导的状态条件潜在转向进行高效推理探索",
+    "type": "code",
+    "url": "https://github.com/rattlesnakey/SPS",
+    "download_url": "https://github.com/rattlesnakey/SPS",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "kailai_yang",
+    "scholar_name": "杨凯莱",
+    "matched_paper_ids": [
+      "af00b4d6bfab6999"
+    ],
+    "related_paper_titles": [
+      "Efficient Reasoning Exploration via State-Conditioned Latent Steering with Progress Guidance"
+    ],
+    "related_paper_titles_zh": [
+      "通过带有进度指导的状态条件潜在转向进行高效推理探索"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.48550/ARXIV.2609.24066"
+    ],
+    "description": "论文《通过带有进度指导的状态条件潜在转向进行高效推理探索》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "kailai_yang::llm_benchmark_data"
+    ],
+    "primary_categories": [
+      "杨凯莱：情感与大模型评测基准、数据集及综述"
+    ]
+  },
+  {
+    "id": "res_gh_f2dad5acee0b",
+    "name": "MentaLLaMA & IMHI Benchmark",
+    "name_zh": "MentaLLaMA 可解释社交媒体心理健康分析大模型与 IMHI 数据集",
+    "type": "code",
+    "url": "https://github.com/SteveKGYang/MentalLLaMA",
+    "download_url": "https://github.com/SteveKGYang/MentalLLaMA",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "kailai_yang",
+    "scholar_name": "杨凯莱",
+    "matched_paper_ids": [
+      "2104d2c2c8562f47"
+    ],
+    "related_paper_titles": [
+      "MentaLLaMA: Interpretable Mental Health Analysis on Social Media with Large Language Models"
+    ],
+    "related_paper_titles_zh": [
+      "MentaLLaMA：使用大型语言模型对社交媒体进行可解释的心理健康分析"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.1145/3589334.3648137"
+    ],
+    "description": "WWW 2024 曼彻斯特大学 NaCTeM 可解释心理健康分析大模型与 IMHI 多任务评测集。",
+    "verification": "代表作与官方项目仓库人工交叉核验",
+    "is_dataset_benchmark": true,
+    "dataset_title": "MentaLLaMA & IMHI Benchmark",
+    "scholar_category_ids": [
+      "sophia_ananiadou::affective_llm_mllm",
+      "kailai_yang::affective_llm_mllm"
+    ],
+    "primary_categories": [
+      "Sophia Ananiadou：情感大模型、多模态指令微调与共情生成",
+      "杨凯莱：情感大模型、多模态指令微调与共情生成"
+    ]
+  }
+]

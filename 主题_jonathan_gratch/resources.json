@@ -1,0 +1,66 @@
+[
+  {
+    "id": "res_gh_05ac2007eeaf",
+    "name": "DSincerity/SysEval-",
+    "name_zh": "DSincerity/SysEval- — 大语言模型是有效的谈判者吗？大语言模型在谈判对话中的多方面能力的系统评估",
+    "type": "code",
+    "url": "https://github.com/DSincerity/SysEval-",
+    "download_url": "https://github.com/DSincerity/SysEval-",
+    "access": "GitHub 公开仓库",
+    "scholar_id": "jonathan_gratch",
+    "scholar_name": "Jonathan Gratch",
+    "matched_paper_ids": [
+      "783f2dfab05ba6a3"
+    ],
+    "related_paper_titles": [
+      "Are LLMs Effective Negotiators? Systematic Evaluation of the Multifaceted Capabilities of LLMs in Negotiation Dialogues"
+    ],
+    "related_paper_titles_zh": [
+      "大语言模型是有效的谈判者吗？大语言模型在谈判对话中的多方面能力的系统评估"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.18653/V1/2024.FINDINGS-EMNLP.310"
+    ],
+    "description": "论文《大语言模型是有效的谈判者吗？大语言模型在谈判对话中的多方面能力的系统评估》官方开源代码仓库。",
+    "verification": "论文摘要/arXiv元数据显式开源链接核验",
+    "scholar_category_ids": [
+      "jonathan_gratch::general_nlp_ai"
+    ],
+    "primary_categories": [
+      "Jonathan Gratch：自然语言处理、多模态学习与通用方法"
+    ]
+  },
+  {
+    "id": "res_ds_3ceb7fe04d75",
+    "name": "DAIC-WOZ Distress Analysis Interview Corpus",
+    "name_zh": "DAIC-WOZ 临床抑郁与心理困扰虚拟人访谈语料库（USC ICT）",
+    "type": "dataset",
+    "url": "https://dcapswoz.ict.usc.edu/",
+    "download_url": "https://dcapswoz.ict.usc.edu/",
+    "access": "官方资源主页/申请下载",
+    "scholar_id": "jonathan_gratch",
+    "scholar_name": "Jonathan Gratch",
+    "matched_paper_ids": [
+      "28ccf3e90a335d5d"
+    ],
+    "related_paper_titles": [
+      "The Distress Analysis Interview Corpus of human and computer interviews"
+    ],
+    "related_paper_titles_zh": [
+      "人类和计算机访谈的痛苦分析访谈语料库"
+    ],
+    "evidence_urls": [
+      "https://doi.org/10.63317/3o7bccg9xequ"
+    ],
+    "description": "多模态抑郁检测与心理评估核心临床访谈基准数据集。",
+    "verification": "代表作与官方项目仓库人工交叉核验",
+    "scholar_category_ids": [
+      "louis_philippe_morency::general_vision_ai",
+      "jonathan_gratch::general_nlp_ai"
+    ],
+    "primary_categories": [
+      "Louis-Philippe Morency：视觉感知、语音信号与通用人工智能",
+      "Jonathan Gratch：自然语言处理、多模态学习与通用方法"
+    ]
+  }
+]
