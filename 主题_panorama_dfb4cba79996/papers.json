@@ -2760,7 +2760,10 @@
     ],
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://image-net.org/",
+      "https://www.cs.toronto.edu/~kriz/cifar.html"
+    ],
     "model_urls": [],
     "scholar_categories": {
       "panorama_dfb4cba79996": {
@@ -7653,7 +7656,9 @@
     ],
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://www.humanconnectome.org/study/hcp-young-adult"
+    ],
     "model_urls": [],
     "scholar_categories": {
       "panorama_dfb4cba79996": {

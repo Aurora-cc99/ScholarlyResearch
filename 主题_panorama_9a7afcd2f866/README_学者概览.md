@@ -5,7 +5,7 @@
 - **身份/单位**：哈尔滨工业大学（深圳）智能科学与工程学院
 - **英文姓名**：Zhiguo Zhang · **ORCID**：[0000-0001-7992-7965](https://orcid.org/0000-0001-7992-7965) · **DBLP**：[21/1302](https://dblp.org/pid/21/1302.html)
 - **外部身份依据**：[身份源1](local://中国985_211高校情感计算与脑电方向学者全景名单.md) · [身份源2](https://www.slai.edu.cn/zh-hans/teacher/151) · [身份源3](https://homepage.hit.edu.cn/ZhiguoZhang) · [身份源4](https://orcid.org/0000-0001-7992-7965) · [身份源5](https://www.slai.edu.cn/en/teacher/151) · [身份源6](https://zhangzg78.github.io/) · [身份源7](https://dblp.org/pid/21/1302.html) · [身份源8](https://openalex.org/A5100363345) · [身份源9](https://openalex.org/A5135116855)
-- **本轮核验书目记录**：**273** 条（其中含中英文摘要 **208** 条）；**开源资源入口**：**11** 条；**已关联资源的论文**：**22** 篇。
+- **本轮核验书目记录**：**273** 条（其中含中英文摘要 **208** 条）；**开源资源入口**：**11** 条；**已关联资源的论文**：**26** 篇。
 
 [论文分类目录](论文分类目录.md) · [按年份查看全部论文](全部论文.md) · [论文CSV](papers.csv) · [BibTeX](papers.bib) · [代码与项目](代码与项目.md) · [数据集与模型](数据集与模型.md) · [资源CSV](resources.csv) · [核验与缺口](核验与缺口.md) · [返回总导航](../README_总导航.md)
 

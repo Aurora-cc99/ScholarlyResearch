@@ -206,8 +206,8 @@
   },
   {
     "id": "panorama_59d1207a515b__auto_dataset_b5c42bb280",
-    "name": "LiveBrowseComp: Are Search Agents Searching, or Just Verifying What They Already Know? — 开源数据集 (Forival/LiveBrowseComp)",
-    "name_zh": "LiveBrowseComp: Are Search Agents Searching, or Just Verifying What They Already Know? — 开源数据集",
+    "name": "LiveBrowseComp (Forival/LiveBrowseComp)",
+    "name_zh": "LiveBrowseComp (Forival/LiveBrowseComp)",
     "type": "dataset",
     "url": "https://huggingface.co/datasets/Forival/LiveBrowseComp",
     "download_url": "https://huggingface.co/datasets/Forival/LiveBrowseComp",
@@ -501,7 +501,9 @@
     ],
     "primary_categories": [
       "秦兵：情感脑电与多模态生理信号"
-    ]
+    ],
+    "is_dataset_benchmark": true,
+    "dataset_title": "Beyond Snapshots: A Multimodal User-Level Dataset for Depression Detection "
   },
   {
     "id": "panorama_59d1207a515b__auto_code_6ed4377a80",
@@ -568,7 +570,9 @@
     ],
     "primary_categories": [
       "秦兵：脑电基准、数据与评测"
-    ]
+    ],
+    "is_dataset_benchmark": true,
+    "dataset_title": "Com2 — A Causal-Guided Benchmark for Exploring Complex Commonsense Reaso"
   },
   {
     "id": "panorama_59d1207a515b__auto_code_37dd1e191f",
