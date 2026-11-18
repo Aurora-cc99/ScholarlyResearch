@@ -4083,8 +4083,8 @@
     "authors": [
       "徐桂芝"
     ],
-    "doi": "",
-    "paper_url": "",
+    "doi": "10.1007/s11571-023-10030-8",
+    "paper_url": "https://doi.org/10.1007/s11571-023-10030-8",
     "source_url": "",
     "topics": [
       "脑电情感计算与脑机接口",
@@ -4102,7 +4102,7 @@
     "openalex_author_id": "",
     "semantic_scholar_id": "",
     "semantic_scholar_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 5,
     "publication_types": "",
     "candidate_source": true,
     "source_kind": "中国985/211高校情感计算与脑电方向全景名单（2026-11-15）",
@@ -4123,10 +4123,12 @@
     "work_title_group": "21ed7563a6ac",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "panorama_cdc6c9790170"
+      "panorama_cdc6c9790170",
+      "jing_jin_ecust"
     ],
     "scholar_names": [
-      "徐桂芝"
+      "徐桂芝",
+      "金晶"
     ],
     "source_record_ids": [
       "panorama_cdc6c9790170_d2197e76f9fc"
@@ -4143,12 +4145,27 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "jing_jin_ecust": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "金晶",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "脑机接口与神经解码"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "747e7278f5f41694",
     "primary_categories_by_scholar": [
-      "徐桂芝：情感脑电与多模态生理信号"
-    ]
+      "徐桂芝：情感脑电与多模态生理信号",
+      "金晶：脑电情感识别与多模态生理计算"
+    ],
+    "pdf_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11297855"
   },
   {
     "title": "Personalized motor imagery prediction model based on individual difference of ERP",
@@ -6391,7 +6408,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -7009,7 +7027,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",

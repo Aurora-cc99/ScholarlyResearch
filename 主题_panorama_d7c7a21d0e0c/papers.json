@@ -800,7 +800,8 @@
     "abstract_source": "",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
     "status": "已索引出版/会议记录",
@@ -996,7 +997,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
     "status": "已索引出版/会议记录",
@@ -1052,7 +1054,8 @@
     "source_url": "",
     "topics": [
       "情感理解与情感智能",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1928,7 +1931,8 @@
     "abstract_zh": "本文采用MobileNet和SSD相结合的方法来识别面部表情，然后将其应用到Nao机器人上。 MobileNet 是一种适用于移动设备的轻量级深度网络模型。标准卷积通过深度可分离卷积进行分解，分解计算，减少计算量。 SSD模型由VGG16模型演变而来，尽管参数数量急剧减少，但仍保持出色的目标检测性能。本文将MobileNet V2与SSD结合进行表情识别，既满足实时性要求，又保持较高的识别准确率。由于机器人的处理器性能有限，而深度神经网络可以自动提取...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5044641390）",
     "status": "已索引出版/会议记录",

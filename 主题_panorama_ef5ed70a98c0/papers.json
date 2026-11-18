@@ -944,7 +944,8 @@
     "abstract_source": "openalex_doi",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 59/8491-1）",
     "status": "已索引出版/会议记录",
@@ -1004,7 +1005,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -2218,7 +2220,7 @@
     "source_url": "https://dblp.org/rec/journals/pami/LiSCSS25.html",
     "openalex_id": "https://openalex.org/W4407949534",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 22,
     "abstract_en": "The fairness of face recognition (FR) is a challenging issue to numerous FR algorithms in the modern pluralistic and egalitarian society. In this work, we propose an instance-consistent fair face recognition (IC-FFR) method by fulfilling complete instance fairness on false positive rate (FPR) and true positive rate (TPR). In view of the misalignment of testing and training metrics, not yet considered by the current fair FR algorithms, in theory, we inspect the correlation between the testing metrics (FPR and TPR) and the label classification loss, and we derive a high-probability consistency of unfairness penalties from FPR and TPR to the softmax loss. According to the theoretical analysis, we further develop an instance-consistent fairness solution by introducing customized instance margins, which well preserve consistent FPR and TPR of all instances during the label classification in training. To encourage more fine-grained fairness evaluation, we contribute a dataset called national faces in the world (NFW) to measure the fairness of individuals and countries. Extensive experiments on our NFW as well as the RFW and BFW benchmarks demonstrate the effectiveness and superiority of our method compared to those state-of-the-art fair FR methods.",
     "abstract_zh": "在现代多元化和平等主义的社会中，人脸识别（FR）的公平性对于众多FR算法来说是一个具有挑战性的问题。在这项工作中，我们提出了一种实例一致的公平人脸识别（IC-FFR）方法，通过在假阳性率（FPR）和真阳性率（TPR）上实现完全实例公平性。鉴于当前公平FR算法尚未考虑到测试和训练指标的错位，理论上，我们检查测试指标（FPR和TPR）与标签分类损失之间的相关性，并推导出从FPR和TPR到softmax损失的不公平惩罚的高概率一致性。根据理论分析，我们进一步开发了一种实例一致的公平性......",
     "abstract_source": "openalex_doi",
@@ -2232,10 +2234,12 @@
     "scholar_id": "panorama_ef5ed70a98c0",
     "scholar_name": "崔振",
     "scholar_ids": [
-      "panorama_ef5ed70a98c0"
+      "panorama_ef5ed70a98c0",
+      "shiguang_shan"
     ],
     "scholar_names": [
-      "崔振"
+      "崔振",
+      "山世光"
     ],
     "source_record_ids": [
       "panorama_ef5ed70a98c0_b41697db20290156"
@@ -2252,10 +2256,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "shiguang_shan": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "山世光",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "崔振：脑电基准、数据与评测"
+      "崔振：脑电基准、数据与评测",
+      "山世光：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -2668,13 +2681,17 @@
       "wenming_zheng",
       "yi_ding",
       "panorama_6ea6272c5bf0",
-      "panorama_ef5ed70a98c0"
+      "panorama_ef5ed70a98c0",
+      "cuntai_guan",
+      "shiguang_shan"
     ],
     "scholar_names": [
       "郑文明",
       "Yi Ding",
       "宗源",
-      "崔振"
+      "崔振",
+      "关存太",
+      "山世光"
     ],
     "source_record_ids": [
       "wenming_zheng_d5f33f8371ed"
@@ -2741,6 +2758,36 @@
         ],
         "confidence": "low",
         "note": ""
+      },
+      "cuntai_guan": {
+        "category_id": "eeg_foundation",
+        "label": "脑电基础大模型与自监督预训练",
+        "scholar_name": "关存太",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "shiguang_shan": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "山世光",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "c2f544176674b9d7",
@@ -2748,12 +2795,14 @@
       "郑文明：情感脑电与多模态生理信号",
       "Yi Ding：脑电基础模型与通用解码",
       "宗源：脑电基础模型与通用解码",
-      "崔振：脑电基础模型与通用解码"
+      "崔振：脑电基础模型与通用解码",
+      "关存太：脑电基础大模型与自监督预训练",
+      "山世光：视觉感知、语音信号与通用人工智能"
     ],
     "dblp_key": "journals/corr/abs-2503-08977",
     "pdf_url": "https://arxiv.org/pdf/2503.08977",
-    "abstract_en": "Despite the impressive performance of current vision-based facial action unit (AU) detection approaches, they are heavily susceptible to the variations across different domains and the cross-domain AU detection methods are under-explored. In response to this challenge, we propose a decoupled doubly contrastive adaptation (D2CA) approach to learn a purified AU representation that is semantically aligned for the source and target domains. Specifically, we decompose latent representations into AU-relevant and AU-irrelevant components, with the objective of exclusively facilitating adaptation within the AU-relevant subspace. To achieve the feature decoupling, D2CA is trained to disentangle AU and domain factors by assessing the quality of synthesized faces in cross-domain scenarios when either AU or domain attributes are modified. To further strengthen feature decoupling, particularly in scenarios with limited AU data diversity, D2CA employs a doubly contrastive learning mechanism comprising image and feature-level contrastive learning to ensure the quality of synthesized faces and mitigate feature ambiguities. This new framework leads to an automatically learned, dedicated separation of AU-relevant and domain-relevant factors, and it enables intuitive, scale-specific control of the cross-domain facial image synthesis. Extensive experiments demonstrate the efficacy of D2CA in successfully decoupling AU and domain factors, yielding visually pleasing cross-domain synthesized facial images. Meanwhile, D2CA consistently outperforms state-of-the-art cross-domain AU detection approaches, achieving an average F1 score improvement of 6%-14% across various cross-domain scenarios.",
-    "abstract_source": "openalex_verified",
+    "abstract_en": "Despite the impressive performance of current vision-based facial action unit (AU) detection approaches, they are heavily susceptible to the variations across different domains and the cross-domain AU detection methods are under-explored. In response to this challenge, we propose a decoupled doubly contrastive adaptation (D$^2$CA) approach to learn a purified AU representation that is semantically aligned for the source and target domains. Specifically, we decompose latent representations into AU-relevant and AU-irrelevant components, with the objective of exclusively facilitating adaptation within the AU-relevant subspace. To achieve the feature decoupling, D$^2$CA is trained to disentangle AU and domain factors by assessing the quality of synthesized faces in cross-domain scenarios when either AU or domain attributes are modified. To further strengthen feature decoupling, particularly in scenarios with limited AU data diversity, D$^2$CA employs a doubly contrastive learning mechanism comprising image and feature-level contrastive learning to ensure the quality of synthesized faces and mitigate feature ambiguities. This new framework leads to an automatically learned, dedicated separation of AU-relevant and domain-relevant factors, and it enables intuitive, scale-specific control of the cross-domain facial image synthesis. Extensive experiments demonstrate the efficacy of D$^2$CA in successfully decoupling AU and domain factors, yielding visually pleasing cross-domain synthesized facial images. Meanwhile, D$^2$CA consistently outperforms state-of-the-art cross-domain AU detection approaches, achieving an average F1 score improvement of 6\\%-14\\% across various cross-domain scenarios.",
+    "abstract_source": "arxiv_api",
     "abstract_zh": "尽管当前基于视觉的面部动作单元（AU）检测方法具有令人印象深刻的性能，但它们很容易受到不同领域之间的变化的影响，并且跨领域的 AU 检测方法尚未得到充分探索。为了应对这一挑战，我们提出了一种解耦双重对比适应（D2CA）方法来学习源域和目标域在语义上对齐的纯化 AU 表示。具体来说，我们将潜在表示分解为 AU 相关和 AU 不相关的组件，目的是专门促进 AU 相关子空间内的适应。为了实现特征解耦，D2CA 被训练来解开 AU 和..."
   },
   {
@@ -3559,7 +3608,9 @@
     "abstract_zh": "摘要 微表情是自发的、快速的、微妙的、难以抑制或捏造的面部动作。微表情识别（MER）是情感计算中最具挑战性的课题之一。它的目的是识别人类在转瞬即逝的时间内很难察觉的微妙的面部动作。最近，许多基于深度学习的 MER 方法被开发出来。然而，如何有效捕获细微的时间变化以获得稳健的 MER 仍然困扰着我们。我们提出了一种反事实判别微表情识别（CoDER）方法来有效学习基于视频的 MER 的轻微时间变化。为了明确地捕捉隐藏在微表达式中的时间动态的因果关系......",
     "abstract_source": "openalex_doi",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 59/8491-1）",
     "status": "已索引出版/会议记录",
@@ -4792,11 +4843,16 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；纳入候选-重点",
     "status": "候选条目/需按作者主页继续核验",
-    "resource_ids": [],
+    "resource_ids": [
+      "lu_baoliang__LU_DATA_DREAMER",
+      "pan_gang__pan_data_mped"
+    ],
     "code_urls": [],
     "data_urls": [
       "https://bcmi.sjtu.edu.cn/home/seed/",
@@ -4832,18 +4888,20 @@
     "scholar_id": "wenming_zheng",
     "scholar_name": "郑文明",
     "work_title_group": "380cfdcfdc90",
-    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
       "wenming_zheng",
       "wei_long_zheng",
       "panorama_6ea6272c5bf0",
-      "panorama_ef5ed70a98c0"
+      "panorama_ef5ed70a98c0",
+      "tengfei_song"
     ],
     "scholar_names": [
       "郑文明",
       "郑伟龙",
       "宗源",
-      "崔振"
+      "崔振",
+      "宋腾飞"
     ],
     "source_record_ids": [
       "wenming_zheng_896047bdc2c3",
@@ -4911,6 +4969,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tengfei_song": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "20aeb341bbd42bbd",
@@ -4918,7 +4991,8 @@
       "郑文明：情感脑电与多模态生理信号",
       "郑伟龙：情感脑电与多模态生理信号",
       "宗源：情感脑电与多模态生理信号",
-      "崔振：情感脑电与多模态生理信号"
+      "崔振：情感脑电与多模态生理信号",
+      "宋腾飞：生理情感数据库、基准与综述"
     ],
     "dblp_key": "journals/taffco/SongLZZCLZ23",
     "abstract_en": "The individual differences and the dynamic uncertain relationships among different electroencephalogram (EEG) regions are essential factors that limit EEG emotion recognition. To address these issues, in this article, we propose a variational instance-adaptive graph method (V-IAG) that simultaneously captures the individual dependencies among different EEG electrodes and estimates the underlying uncertain information. Specifically, we employ two branches, i.e., instance-adaptive branch and variational branch, to construct the graph. Inspired by the attention mechanism, the instance-adaptive branch generates the graph based on the input so as to characterize the individual dependencies among EEG channels. The variational branch generates the probabilistic graph, which quantifies the uncertainties. We combine these two types of graphs to extract more discriminative features. To present more precise graph representation, we propose a new operation named the multi-level and multi-graph convolution operation, which aggregates the features of EEG channels from different frequencies with different graphs. Furthermore, we design the graph coarsening and employ the sparse constraint to obtain more robust features. We conduct extensive experiments on three widely-used EEG emotion recognition databases, i.e., SJTU emotion EEG dataset (SEED), multi-modal physiological emotion recognition dataset (MPED) and DREAMER. The results demonstrate that the proposed model achieves the-state-of-the-art performance.",
@@ -5012,7 +5086,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -5177,7 +5252,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5101571225）",
     "status": "已索引出版/会议记录",
@@ -5908,7 +5984,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -5986,7 +6063,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -6495,7 +6573,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -6844,7 +6924,9 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；纳入候选-重点",
     "status": "候选条目/需按作者主页继续核验",
@@ -6995,11 +7077,13 @@
     "source_url": "https://dblp.org/rec/journals/tip/LiLCSY22.html",
     "openalex_id": "https://openalex.org/W3181883364",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 30,
     "abstract_en": "Cartoon face recognition is challenging as they typically have smooth color regions and emphasized edges, the key to recognizing cartoon faces is to precisely perceive their sparse and critical shape patterns. However, it is quite difficult to learn a shape-oriented representation for cartoon face recognition with convolutional neural networks (CNNs). To mitigate this issue, we propose the GraphJigsaw that constructs jigsaw puzzles at various stages in the classification network and solves the puzzles with the graph convolutional network (GCN) in a progressive manner. Solving the puzzles requires the model to spot the shape patterns of the cartoon faces as the texture information is quite limited. The key idea of GraphJigsaw is constructing a jigsaw puzzle by randomly shuffling the intermediate convolutional feature maps in the spatial dimension and exploiting the GCN to reason and recover the correct layout of the jigsaw fragments in a self-supervised manner. The proposed GraphJigsaw avoids training the classification model with the deconstructed images that would introduce noisy patterns and are harmful for the final classification. Specially, GraphJigsaw can be incorporated at various stages in a top-down manner within the classification model, which facilitates propagating the learned shape patterns gradually. GraphJigsaw does not rely on any extra manual annotation during the training process and incorporates no extra computation burden at inference time. Both quantitative and qualitative experimental results have verified the feasibility of our proposed GraphJigsaw, which consistently outperforms other face recognition or jigsaw-based methods on two popular cartoon face datasets with considerable improvements.",
     "abstract_zh": "卡通人脸识别具有挑战性，因为它们通常具有平滑的颜色区域和强调的边缘，识别卡通人脸的关键是精确感知其稀疏和关键的形状模式。然而，用卷积神经网络（CNN）学习卡通人脸识别的面向形状的表示是相当困难的。为了缓解这个问题，我们提出了 GraphJigsaw，它在分类网络的各个阶段构造拼图，并以渐进的方式使用图卷积网络（GCN）解决拼图。由于纹理信息非常有限，解决难题需要模型识别卡通面孔的形状图案。 GraphJigsaw 的关键思想是构建......",
     "abstract_source": "openalex_doi",
-    "topics": [],
+    "topics": [
+      "脑电基础大模型"
+    ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 59/8491-1）",
     "status": "已索引出版/会议记录",
     "source_kind": "dblp_sparql",
@@ -7009,10 +7093,12 @@
     "scholar_id": "panorama_ef5ed70a98c0",
     "scholar_name": "崔振",
     "scholar_ids": [
-      "panorama_ef5ed70a98c0"
+      "panorama_ef5ed70a98c0",
+      "shiguang_shan"
     ],
     "scholar_names": [
-      "崔振"
+      "崔振",
+      "山世光"
     ],
     "source_record_ids": [
       "panorama_ef5ed70a98c0_5da387c953f6936d"
@@ -7029,10 +7115,21 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "shiguang_shan": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "山世光",
+        "secondary_tags": [
+          "脑电基础大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "崔振：脑电基准、数据与评测"
+      "崔振：脑电基准、数据与评测",
+      "山世光：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -7061,7 +7158,8 @@
       "情感视觉与微表情",
       "多模态情感分析",
       "视觉情感大模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -7214,7 +7312,7 @@
     "source_url": "https://dblp.org/rec/journals/chinaf/YinCCMS22.html",
     "openalex_id": "https://openalex.org/W4283743826",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 2,
     "abstract_en": "",
     "abstract_zh": "",
     "abstract_source": "",
@@ -7228,10 +7326,12 @@
     "scholar_id": "panorama_ef5ed70a98c0",
     "scholar_name": "崔振",
     "scholar_ids": [
-      "panorama_ef5ed70a98c0"
+      "panorama_ef5ed70a98c0",
+      "shiguang_shan"
     ],
     "scholar_names": [
-      "崔振"
+      "崔振",
+      "山世光"
     ],
     "source_record_ids": [
       "panorama_ef5ed70a98c0_13425861a3ee0096"
@@ -7248,10 +7348,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "shiguang_shan": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "山世光",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "崔振：脑电基础模型与通用解码"
+      "崔振：脑电基础模型与通用解码",
+      "山世光：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -7283,7 +7392,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 59/8491-1）",
     "status": "已索引出版/会议记录",
@@ -7424,7 +7534,8 @@
     "abstract_zh": "微表情（ME）是不自觉的、难以察觉的面部动作，反映了潜在的情绪和内心活动。近年来，ME识别技术已广泛应用于医疗等多个领域。由于视频序列之间的细微变化和有限的训练数据，ME 识别任务仍然是一个具有挑战性的问题。现有方法倾向于从两个方面解决 ME 识别问题：（1）数据增强和（2）表达信号放大。很少有作品认识到隐藏在 ME 序列中的时间变化的重要性。基于上述观察，我们提出了一种图对比学习（GCL）框架来有效感知机器人的微妙时间变化......",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 59/8491-1）",
     "status": "已索引出版/会议记录",
@@ -7482,7 +7593,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -7695,11 +7807,15 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
-    "resource_ids": [],
+    "resource_ids": [
+      "lu_baoliang__LU_DATA_DREAMER"
+    ],
     "code_urls": [],
     "data_urls": [
       "https://bcmi.sjtu.edu.cn/home/seed/",
@@ -7735,16 +7851,18 @@
     "scholar_id": "wenming_zheng",
     "scholar_name": "郑文明",
     "work_title_group": "444c5a03fe5a",
-    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
       "wenming_zheng",
       "panorama_6ea6272c5bf0",
-      "panorama_ef5ed70a98c0"
+      "panorama_ef5ed70a98c0",
+      "tengfei_song"
     ],
     "scholar_names": [
       "郑文明",
       "宗源",
-      "崔振"
+      "崔振",
+      "宋腾飞"
     ],
     "source_record_ids": [
       "wenming_zheng_1610aa94cfef"
@@ -7796,13 +7914,29 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tengfei_song": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "551a9128f7a9da7c",
     "primary_categories_by_scholar": [
       "郑文明：情感脑电与多模态生理信号",
       "宗源：情感脑电与多模态生理信号",
-      "崔振：情感脑电与多模态生理信号"
+      "崔振：情感脑电与多模态生理信号",
+      "宋腾飞：生理情感数据库、基准与综述"
     ],
     "dblp_key": "journals/tetc/SongZLZCL22",
     "abstract_en": "Emotion recognition from electroencephalograph (EEG) signals has long been essential for affective computing. In this article, we evaluate EEG emotion recognition by converting EEG signals from multiple channels into images such that richer spatial information can be considered and the question of EEG-based emotion recognition can be converted into image recognition. To this end, we propose a novel method to generate continuous images from discrete EEG signals by introducing offset variables following a Gaussian distribution for each EEG channel to alleviate the biased electrode coordinates during image generation. In addition, a novel graph-embedded convolutional neural network (GECNN) method is proposed to combine the local convolutional neural network (CNN) features with global functional features to provide complementary emotion information. In GECNN, the attention mechanism is applied to extract more discriminative local features. Simultaneously, dynamical graph filtering explores the intrinsic relationships between different EEG regions. The local and global functional features are finally fused for emotion recognition. Extensive experiments in subject-dependent and subject-independent protocols are conducted to evaluate the performance of the proposed GECNN model on four datasets, i.e., SEED, SDEA, DREAMER, and MPED.",
@@ -8658,7 +8792,7 @@
     "source_url": "https://dblp.org/rec/journals/corr/abs-2108-04983.html",
     "openalex_id": "",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 14,
     "abstract_en": "Face recognition (FR) has made extraordinary progress owing to the advancement of deep convolutional neural networks. However, demographic bias among different racial cohorts still challenges the practical face recognition system. The race factor has been proven to be a dilemma for fair FR (FFR) as the subject-related specific attributes induce the classification bias whilst carrying some useful cues for FR. To mitigate racial bias and meantime preserve robust FR, we abstract face identity-related representation as a signal denoising problem and propose a progressive cross transformer (PCT) method for fair face recognition. Originating from the signal decomposition theory, we attempt to decouple face representation into i) identity-related components and ii) noisy/identity-unrelated components induced by race. As an extension of signal subspace decomposition, we formulate face decoupling as a generalized functional expression model to cross-predict face identity and race information. The face expression model is further concretized by designing dual cross-transformers to distill identity-related components and suppress racial noises. In order to refine face representation, we take a progressive face decoupling way to learn identity/race-specific transformations, so that identity-unrelated components induced by race could be better disentangled. We evaluate the proposed PCT on the public fair face recognition benchmarks (BFW, RFW) and verify that PCT is capable of mitigating bias in face recognition while achieving state-of-the-art FR performance. Besides, visualization results also show that the attention maps in PCT can well reveal the race-related/biased facial regions.",
     "abstract_zh": "由于深度卷积神经网络的进步，人脸识别（FR）取得了非凡的进步。然而，不同种族群体之间的人口统计学偏见仍然挑战着实际的人脸识别系统。种族因素已被证明是公平 FR (FFR) 的一个困境，因为与主题相关的特定属性会导致分类偏差，同时为 FR 带来一些有用的线索。为了减轻种族偏见并同时保持稳健的 FR，我们将人脸身份相关表示抽象为信号去噪问题，并提出了一种用于公平人脸识别的渐进式交叉变换器（PCT）方法。源于信号分解理论，我们尝试将人脸表示解耦为 i) 身份相关......",
     "abstract_source": "arxiv_api",
@@ -8672,10 +8806,12 @@
     "scholar_id": "panorama_ef5ed70a98c0",
     "scholar_name": "崔振",
     "scholar_ids": [
-      "panorama_ef5ed70a98c0"
+      "panorama_ef5ed70a98c0",
+      "shiguang_shan"
     ],
     "scholar_names": [
-      "崔振"
+      "崔振",
+      "山世光"
     ],
     "source_record_ids": [
       "panorama_ef5ed70a98c0_b65c87e794b0a452"
@@ -8692,10 +8828,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "shiguang_shan": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "山世光",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "崔振：脑电基准、数据与评测"
+      "崔振：脑电基准、数据与评测",
+      "山世光：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -9083,7 +9228,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -9124,13 +9270,15 @@
       "wenming_zheng",
       "panorama_6ea6272c5bf0",
       "panorama_ef5ed70a98c0",
-      "panorama_f7d2a628e3df"
+      "panorama_f7d2a628e3df",
+      "tengfei_song"
     ],
     "scholar_names": [
       "郑文明",
       "宗源",
       "崔振",
-      "张桐"
+      "张桐",
+      "宋腾飞"
     ],
     "source_record_ids": [
       "wenming_zheng_1a30647dc5de"
@@ -9197,6 +9345,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tengfei_song": {
+        "category_id": "eeg_affect_rec",
+        "label": "脑电情感识别与多模态生理计算",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "a7307bd45324cba2",
@@ -9204,7 +9367,8 @@
       "郑文明：情感脑电与多模态生理信号",
       "宗源：情感脑电与多模态生理信号",
       "崔振：情感脑电与多模态生理信号",
-      "张桐：情感脑电与多模态生理信号"
+      "张桐：情感脑电与多模态生理信号",
+      "宋腾飞：脑电情感识别与多模态生理计算"
     ],
     "dblp_key": "journals/tamd/LiWZZQCZS21",
     "pdf_url": "https://arxiv.org/pdf/1906.01704",
@@ -9743,7 +9907,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点",
     "status": "候选条目/需按作者主页继续核验",
@@ -10469,7 +10634,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电基础大模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点",
     "status": "候选条目/需按作者主页继续核验",
@@ -10624,7 +10790,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点",
     "status": "候选条目/需按作者主页继续核验",
@@ -10665,13 +10832,15 @@
       "wenming_zheng",
       "wei_long_zheng",
       "panorama_6ea6272c5bf0",
-      "panorama_ef5ed70a98c0"
+      "panorama_ef5ed70a98c0",
+      "tengfei_song"
     ],
     "scholar_names": [
       "郑文明",
       "郑伟龙",
       "宗源",
-      "崔振"
+      "崔振",
+      "宋腾飞"
     ],
     "source_record_ids": [
       "wenming_zheng_e3889da3959b",
@@ -10739,6 +10908,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tengfei_song": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "5ffbb0884f7487e4",
@@ -10746,7 +10930,8 @@
       "郑文明：情感脑电与多模态生理信号",
       "郑伟龙：情感脑电与多模态生理信号",
       "宗源：情感脑电与多模态生理信号",
-      "崔振：情感脑电与多模态生理信号"
+      "崔振：情感脑电与多模态生理信号",
+      "宋腾飞：生理情感数据库、基准与综述"
     ],
     "dblp_key": "conf/aaai/SongLZZC20",
     "pdf_url": "https://doi.org/10.1609/aaai.v34i03.5656",
@@ -10774,7 +10959,8 @@
       "情感视觉与微表情",
       "多模态情感分析",
       "视觉情感大模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -10936,11 +11122,15 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；纳入候选-重点",
     "status": "候选条目/需按作者主页继续核验",
-    "resource_ids": [],
+    "resource_ids": [
+      "lu_baoliang__LU_DATA_DREAMER"
+    ],
     "code_urls": [],
     "data_urls": [
       "https://bcmi.sjtu.edu.cn/home/seed/",
@@ -10975,16 +11165,18 @@
     "scholar_id": "wenming_zheng",
     "scholar_name": "郑文明",
     "work_title_group": "ccf8e173ec4b",
-    "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
       "wenming_zheng",
       "wei_long_zheng",
-      "panorama_ef5ed70a98c0"
+      "panorama_ef5ed70a98c0",
+      "tengfei_song"
     ],
     "scholar_names": [
       "郑文明",
       "郑伟龙",
-      "崔振"
+      "崔振",
+      "宋腾飞"
     ],
     "source_record_ids": [
       "wenming_zheng_cb5791afd8d3",
@@ -11037,13 +11229,29 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tengfei_song": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "d25d9ef98a69e243",
     "primary_categories_by_scholar": [
       "郑文明：情感脑电与多模态生理信号",
       "郑伟龙：情感脑电与多模态生理信号",
-      "崔振：情感脑电与多模态生理信号"
+      "崔振：情感脑电与多模态生理信号",
+      "宋腾飞：生理情感数据库、基准与综述"
     ],
     "dblp_key": "journals/taffco/SongZSC20",
     "abstract_en": "In this paper, a multichannel EEG emotion recognition method based on a novel dynamical graph convolutional neural networks (DGCNN) is proposed. The basic idea of the proposed EEG emotion recognition method is to use a graph to model the multichannel EEG features and then perform EEG emotion classification based on this model. Different from the traditional graph convolutional neural networks (GCNN) methods, the proposed DGCNN method can dynamically learn the intrinsic relationship between different electroencephalogram (EEG) channels, represented by an adjacency matrix, via training a neural network so as to benefit for more discriminative EEG feature extraction. Then, the learned adjacency matrix is used to learn more discriminative features for improving the EEG emotion recognition. We conduct extensive experiments on the SJTU emotion EEG dataset (SEED) and DREAMER dataset. The experimental results demonstrate that the proposed method achieves better recognition performance than the state-of-the-art methods, in which the average recognition accuracy of 90.4 percent is achieved for subject dependent experiment while 79.95 percent for subject independent cross-validation one on the SEED database, and the average accuracies of 86.23, 84.54 and 85.02 percent are respectively obtained for valence, arousal and dominance classifications on the DREAMER database.",
@@ -12135,7 +12343,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -12826,7 +13035,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -13053,7 +13263,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -13095,12 +13306,14 @@
     "scholar_ids": [
       "wenming_zheng",
       "panorama_6ea6272c5bf0",
-      "panorama_ef5ed70a98c0"
+      "panorama_ef5ed70a98c0",
+      "tengfei_song"
     ],
     "scholar_names": [
       "郑文明",
       "宗源",
-      "崔振"
+      "崔振",
+      "宋腾飞"
     ],
     "source_record_ids": [
       "wenming_zheng_558360a25d4a"
@@ -13152,13 +13365,29 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "tengfei_song": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "宋腾飞",
+        "secondary_tags": [
+          "情感计算",
+          "脑电情感识别",
+          "EEG-fNIRS双模态",
+          "人工智能与模式识别",
+          "脑机接口",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "f07dee2372831f07",
     "primary_categories_by_scholar": [
       "郑文明：情感脑电与多模态生理信号",
       "宗源：情感脑电与多模态生理信号",
-      "崔振：情感脑电与多模态生理信号"
+      "崔振：情感脑电与多模态生理信号",
+      "宋腾飞：生理情感数据库、基准与综述"
     ],
     "dblp_key": "journals/access/SongZLZZC19",
     "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/8600701/08606087.pdf",
@@ -13424,7 +13653,8 @@
       "情感视觉与微表情",
       "多模态情感分析",
       "视觉情感大模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与发表目录已核验；公开目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -14073,7 +14303,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；官方身份与论文/项目来源已核验；目录范围见审计；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -14220,7 +14451,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "预印本记录",
@@ -14339,10 +14571,12 @@
     "scholar_id": "panorama_ef5ed70a98c0",
     "scholar_name": "崔振",
     "scholar_ids": [
-      "panorama_ef5ed70a98c0"
+      "panorama_ef5ed70a98c0",
+      "shiguang_shan"
     ],
     "scholar_names": [
-      "崔振"
+      "崔振",
+      "山世光"
     ],
     "source_record_ids": [
       "panorama_ef5ed70a98c0_902c3828392d6cdc"
@@ -14359,10 +14593,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "shiguang_shan": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "山世光",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "崔振：脑电基础模型与通用解码"
+      "崔振：脑电基础模型与通用解码",
+      "山世光：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -14394,7 +14637,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -14636,7 +14880,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -14786,7 +15031,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -15092,7 +15338,8 @@
     "abstract_zh": "面部表情是由位于不同面部区域的面部肌肉的活动产生的。不同空间面部区域的空间依赖性值得探索，可以提高面部表情识别的性能。在这封信中，我们提出了一种联合卷积双向长短期记忆（JCBLSTM）框架来联合建模不同区域之间的有区别的面部纹理和空间关系。我们将 CNN 输出的特征图的每一行或每一列视为单独的有序序列，并使用 LSTM 对其内的空间依赖性进行建模。此外，为联合功能引入了卷积特征图的快捷连接...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "已索引出版/会议记录",
@@ -15291,7 +15538,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -15596,7 +15844,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100378800）",
     "status": "已索引出版/会议记录",
@@ -15758,7 +16007,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -15992,7 +16242,7 @@
     "source_url": "https://dblp.org/rec/journals/tip/Li0CSC16.html",
     "openalex_id": "https://openalex.org/W2530717046",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 16,
     "abstract_en": "We address the problem of face video retrieval in TV-series, which searches video clips based on the presence of specific character, given one face track of his/her. This is tremendously challenging because on one hand, faces in TV-series are captured in largely uncontrolled conditions with complex appearance variations, and on the other hand, retrieval task typically needs efficient representation with low time and space complexity. To handle this problem, we propose a compact and discriminative representation for the huge body of video data, named compact video code (CVC). Our method first models the face track by its sample (i.e., frame) covariance matrix to capture the video data variations in a statistical manner. To incorporate discriminative information and obtain more compact video signature suitable for retrieval, the high-dimensional covariance representation is further encoded as a much lower dimensional binary vector, which finally yields the proposed CVC. Specifically, each bit of the code, i.e., each dimension of the binary vector, is produced via supervised learning in a max margin framework, which aims to make a balance between the discriminability and stability of the code. Besides, we further extend the descriptive granularity of covariance matrix from traditional pixel-level to more general patch-level, and proceed to propose a novel hierarchical video representation named spatial pyramid covariance along with a fast calculation method. Face retrieval experiments on two challenging TV-series video databases, i.e., the Big Bang Theory and Prison Break, demonstrate the competitiveness of the proposed CVC over the state-of-the-art retrieval methods. In addition, as a general video matching algorithm, CVC is also evaluated in traditional video face recognition task on a standard Internet database, i.e., YouTube Celebrities, showing its quite promising performance by using an extremely compact code with only 128 bits.",
     "abstract_zh": "我们解决了电视剧中的人脸视频检索问题，即根据特定角色的存在，给定他/她的一张脸部轨迹来搜索视频剪辑。这是极具挑战性的，因为一方面，电视剧中的面孔是在很大程度上不受控制的条件下捕获的，具有复杂的外观变化，另一方面，检索任务通常需要低时间和空间复杂度的有效表示。为了解决这个问题，我们提出了一种针对大量视频数据的紧凑且有区别的表示，称为紧凑视频代码（CVC）。我们的方法首先通过样本（即帧）协方差矩阵对面部轨迹进行建模，以统计方式捕获视频数据变化。为了纳入歧视...",
     "abstract_source": "openalex_doi",
@@ -16006,10 +16256,12 @@
     "scholar_id": "panorama_ef5ed70a98c0",
     "scholar_name": "崔振",
     "scholar_ids": [
-      "panorama_ef5ed70a98c0"
+      "panorama_ef5ed70a98c0",
+      "shiguang_shan"
     ],
     "scholar_names": [
-      "崔振"
+      "崔振",
+      "山世光"
     ],
     "source_record_ids": [
       "panorama_ef5ed70a98c0_77c5ded9d774c952"
@@ -16026,10 +16278,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "shiguang_shan": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "山世光",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "崔振：脑电基准、数据与评测"
+      "崔振：脑电基准、数据与评测",
+      "山世光：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -16125,7 +16386,8 @@
     "abstract_source": "",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "已索引出版/会议记录",
@@ -16280,7 +16542,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "已索引出版/会议记录",
@@ -16372,7 +16635,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "已索引出版/会议记录",
@@ -16466,7 +16730,8 @@
     "abstract_zh": "本文提出了一种新颖的深度神经网络（DNN）驱动的特征学习方法，并将其应用于多视图面部表情识别（FER）。在该方法中，首先从每个面部图像中提取与一组标志点相对应的尺度不变特征变换（SIFT）特征。然后，由提取的 SIFT 特征向量组成的特征矩阵被用作输入数据，并发送到精心设计的 DNN 模型，以学习表情分类的最佳判别特征。所提出的 DNN 模型采用多个层来表征 SIFT 特征向量与其相应的高级语义信息之间的对应关系。经过...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 64/2253）",
     "status": "已索引出版/会议记录",
@@ -16629,7 +16894,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "智能芯片与计算系统"
+      "智能芯片与计算系统",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入候选-重点；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -16781,7 +17047,8 @@
     "abstract_zh": "提出了一种具有基于金字塔结构的特征提取方案的双稀疏学习（DSL）模型来处理语音情感识别（SER）问题。该方法的关键新颖之处在于，所提出的 DSL 模型能够考虑基于金字塔结构的特征的两个尺度，以选择对 SER 有较大贡献的特征。在 eENTERFACE 和 AFEW 情感数据库上进行了大量实验来评估该方法。实验结果表明，与最近的一些竞争方法相比，基于金字塔结构的特征提取方案的 DSL 在处理 SER 任务方面具有更有前景的性能。",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5029771864）",
     "status": "已索引出版/会议记录",
@@ -16945,10 +17212,12 @@
     "scholar_id": "panorama_ef5ed70a98c0",
     "scholar_name": "崔振",
     "scholar_ids": [
-      "panorama_ef5ed70a98c0"
+      "panorama_ef5ed70a98c0",
+      "shiguang_shan"
     ],
     "scholar_names": [
-      "崔振"
+      "崔振",
+      "山世光"
     ],
     "source_record_ids": [
       "panorama_ef5ed70a98c0_11ff314cee793ce9"
@@ -16965,10 +17234,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "shiguang_shan": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "山世光",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "崔振：脑电基础模型与通用解码"
+      "崔振：脑电基础模型与通用解码",
+      "山世光：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -16994,7 +17272,7 @@
     "source_url": "https://dblp.org/rec/journals/ijon/CuiSWZC15.html",
     "openalex_id": "https://openalex.org/W2102651325",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 6,
     "abstract_en": "",
     "abstract_zh": "",
     "abstract_source": "",
@@ -17008,10 +17286,12 @@
     "scholar_id": "panorama_ef5ed70a98c0",
     "scholar_name": "崔振",
     "scholar_ids": [
-      "panorama_ef5ed70a98c0"
+      "panorama_ef5ed70a98c0",
+      "shiguang_shan"
     ],
     "scholar_names": [
-      "崔振"
+      "崔振",
+      "山世光"
     ],
     "source_record_ids": [
       "panorama_ef5ed70a98c0_4f79756c76f458b7"
@@ -17028,10 +17308,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "shiguang_shan": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "山世光",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "崔振：脑电基础模型与通用解码"
+      "崔振：脑电基础模型与通用解码",
+      "山世光：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -17153,10 +17442,12 @@
     "scholar_id": "panorama_ef5ed70a98c0",
     "scholar_name": "崔振",
     "scholar_ids": [
-      "panorama_ef5ed70a98c0"
+      "panorama_ef5ed70a98c0",
+      "shiguang_shan"
     ],
     "scholar_names": [
-      "崔振"
+      "崔振",
+      "山世光"
     ],
     "source_record_ids": [
       "panorama_ef5ed70a98c0_282d48b29d66203c"
@@ -17173,10 +17464,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "shiguang_shan": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "山世光",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "崔振：脑电基础模型与通用解码"
+      "崔振：脑电基础模型与通用解码",
+      "山世光：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -17202,7 +17502,7 @@
     "source_url": "https://dblp.org/rec/journals/ijon/CuiCSMC14.html",
     "openalex_id": "https://openalex.org/W2138820335",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 58,
     "abstract_en": "",
     "abstract_zh": "",
     "abstract_source": "",
@@ -17216,10 +17516,12 @@
     "scholar_id": "panorama_ef5ed70a98c0",
     "scholar_name": "崔振",
     "scholar_ids": [
-      "panorama_ef5ed70a98c0"
+      "panorama_ef5ed70a98c0",
+      "shiguang_shan"
     ],
     "scholar_names": [
-      "崔振"
+      "崔振",
+      "山世光"
     ],
     "source_record_ids": [
       "panorama_ef5ed70a98c0_00f6b2f80cf6ce44"
@@ -17236,10 +17538,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "shiguang_shan": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "山世光",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "崔振：脑电基础模型与通用解码"
+      "崔振：脑电基础模型与通用解码",
+      "山世光：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -17258,17 +17569,17 @@
       "Shiguang Shan",
       "Xilin Chen"
     ],
-    "doi": "",
+    "doi": "10.5244/c.28.93",
     "dblp_key": "conf/bmvc/LiWCSC14",
     "paper_url": "https://bmva-archive.org.uk/bmvc/2014/papers/paper084/index.html",
     "pdf_url": "",
     "source_url": "https://dblp.org/rec/conf/bmvc/LiWCSC14.html",
     "openalex_id": "",
     "openalex_author_id": "",
-    "cited_by_count": 0,
-    "abstract_en": "",
-    "abstract_zh": "",
-    "abstract_source": "",
+    "cited_by_count": 19,
+    "abstract_en": "We address the problem of video face retrieval in TV-Series which searches video clips based on the presence of specific character, given one video clip of his/hers. This is tremendously challenging because on one hand, faces in TV-Series are captured in largely uncontrolled conditions with complex appearance variations, and on the other hand retrieval task typically needs efficient representation with low time and space complexity. To handle this problem, we propose a compact and discriminative representation for the huge body of video data, named Compact Video Code (CVC). Our method first models the video clip by its sample (i.e., frame) covariance matrix to capture the video data variations in a statistical manner. To incorporate discriminative information and obtain more compact video signature, the high-dimensional covariance matrix is further encoded as a much lower-dimensional binary vector, which finally yields the proposed CVC. Specifically, each bit of the code, i.e., each dimension of the binary vector, is produced via supervised learning in a max margin framework, which aims to make a balance between the discriminability and stability of the code. Face retrieval experiments on two challenging TV-Series video databases demonstrate the competitiveness of the proposed CVC over state-of-the-art retrieval methods. In addition, as a general video matching algorithm, CVC is also evaluated in traditional video face recognition task on a standard Internet database, i.e., YouTube Celebrities, showing its quite promising performance by using an extremely compact code with only 128 bits.",
+    "abstract_zh": "我们解决了电视剧中的视频人脸检索问题，该问题根据特定角色的存在来搜索视频剪辑，给定他/她的一个视频剪辑。这是极具挑战性的，因为一方面，电视剧中的面孔是在很大程度上不受控制的条件下捕获的，具有复杂的外观变化，另一方面，检索任务通常需要低时间和空间复杂度的有效表示。为了解决这个问题，我们提出了一种针对大量视频数据的紧凑且有区别的表示，称为紧凑视频代码（CVC）。我们的方法首先通过样本（即帧）协方差矩阵对视频剪辑进行建模，以统计方式捕获视频数据变化。为了纳入歧视...",
+    "abstract_source": "openalex_verified",
     "topics": [],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 59/8491-1）",
     "status": "已索引出版/会议记录",
@@ -17279,10 +17590,12 @@
     "scholar_id": "panorama_ef5ed70a98c0",
     "scholar_name": "崔振",
     "scholar_ids": [
-      "panorama_ef5ed70a98c0"
+      "panorama_ef5ed70a98c0",
+      "shiguang_shan"
     ],
     "scholar_names": [
-      "崔振"
+      "崔振",
+      "山世光"
     ],
     "source_record_ids": [
       "panorama_ef5ed70a98c0_7cbf760468f4714f"
@@ -17299,10 +17612,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "shiguang_shan": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "山世光",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "崔振：脑电基础模型与通用解码"
+      "崔振：脑电基础模型与通用解码",
+      "山世光：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -17329,7 +17651,7 @@
     "source_url": "https://dblp.org/rec/journals/tcyb/CuiLXSCL14.html",
     "openalex_id": "https://openalex.org/W1971221757",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 74,
     "abstract_en": "Domain adaptation has shown promising results in computer vision applications. In this paper, we propose a new unsupervised domain adaptation method called domain adaptation by shifting covariance (DASC) for object recognition without requiring any labeled samples from the target domain. By characterizing samples from each domain as one covariance matrix, the source and target domain are represented into two distinct points residing on a Riemannian manifold. Along the geodesic constructed from the two points, we then interpolate some intermediate points (i.e., covariance matrices), which are used to bridge the two domains. By utilizing the principal components of each covariance matrix, samples from each domain are further projected into intermediate feature spaces, which finally leads to domain-invariant features after the concatenation of these features from intermediate points. In the multiple source domain adaptation task, we also need to effectively integrate different types of features between each pair of source and target domains. We additionally propose an SVM based method to simultaneously learn the optimal target classifier as well as the optimal weights for different source domains. Extensive experiments demonstrate the effectiveness of our method for both single source and multiple source domain adaptation tasks.",
     "abstract_zh": "域适应在计算机视觉应用中显示出了有希望的结果。在本文中，我们提出了一种新的无监督域适应方法，称为平移协方差域适应（DASC），用于对象识别，而不需要来自目标域的任何标记样本。通过将每个域的样本表征为一个协方差矩阵，源域和目标域被表示为驻留在黎曼流形上的两个不同点。然后，沿着由这两个点构建的测地线，我们插入一些中间点（即协方差矩阵），这些中间点用于桥接两个域。通过利用每个协方差矩阵的主成分，来自每个域的样本进一步投影到......",
     "abstract_source": "openalex_doi",
@@ -17343,10 +17665,12 @@
     "scholar_id": "panorama_ef5ed70a98c0",
     "scholar_name": "崔振",
     "scholar_ids": [
-      "panorama_ef5ed70a98c0"
+      "panorama_ef5ed70a98c0",
+      "shiguang_shan"
     ],
     "scholar_names": [
-      "崔振"
+      "崔振",
+      "山世光"
     ],
     "source_record_ids": [
       "panorama_ef5ed70a98c0_62624f74adc5c56b"
@@ -17363,10 +17687,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "shiguang_shan": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "山世光",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "崔振：脑电基础模型与通用解码"
+      "崔振：脑电基础模型与通用解码",
+      "山世光：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -17537,10 +17870,12 @@
     "scholar_id": "panorama_ef5ed70a98c0",
     "scholar_name": "崔振",
     "scholar_ids": [
-      "panorama_ef5ed70a98c0"
+      "panorama_ef5ed70a98c0",
+      "shiguang_shan"
     ],
     "scholar_names": [
-      "崔振"
+      "崔振",
+      "山世光"
     ],
     "source_record_ids": [
       "panorama_ef5ed70a98c0_918716bdb428f785"
@@ -17557,10 +17892,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "shiguang_shan": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "山世光",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "崔振：脑电基础模型与通用解码"
+      "崔振：脑电基础模型与通用解码",
+      "山世光：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -17658,7 +18002,7 @@
     "source_url": "https://dblp.org/rec/conf/eccv/CuiCSZC14.html",
     "openalex_id": "https://openalex.org/W135113724",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 279,
     "abstract_en": "",
     "abstract_zh": "",
     "abstract_source": "",
@@ -17672,10 +18016,12 @@
     "scholar_id": "panorama_ef5ed70a98c0",
     "scholar_name": "崔振",
     "scholar_ids": [
-      "panorama_ef5ed70a98c0"
+      "panorama_ef5ed70a98c0",
+      "shiguang_shan"
     ],
     "scholar_names": [
-      "崔振"
+      "崔振",
+      "山世光"
     ],
     "source_record_ids": [
       "panorama_ef5ed70a98c0_814f93f40d5afffc"
@@ -17692,10 +18038,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "shiguang_shan": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "山世光",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "崔振：脑电基础模型与通用解码"
+      "崔振：脑电基础模型与通用解码",
+      "山世光：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -17721,7 +18076,7 @@
     "source_url": "https://dblp.org/rec/conf/cvpr/CuiLXSC13.html",
     "openalex_id": "https://openalex.org/W1963589611",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 208,
     "abstract_en": "In many real-world face recognition scenarios, face images can hardly be aligned accurately due to complex appearance variations or low-quality images. To address this issue, we propose a new approach to extract robust face region descriptors. Specifically, we divide each image (resp. video) into several spatial blocks (resp. spatial-temporal volumes) and then represent each block (resp. volume) by sum-pooling the nonnegative sparse codes of position-free patches sampled within the block (resp. volume). Whitened Principal Component Analysis (WPCA) is further utilized to reduce the feature dimension, which leads to our Spatial Face Region Descriptor (SFRD) (resp. Spatial-Temporal Face Region Descriptor, STFRD) for images (resp. videos). Moreover, we develop a new distance metric learning method for face verification called Pairwise-constrained Multiple Metric Learning (PMML) to effectively integrate the face region descriptors of all blocks (resp. volumes) from an image (resp. a video). Our work achieves the state-of-the-art performances on two real-world datasets LFW and YouTube Faces (YTF) according to the restricted protocol.",
     "abstract_zh": "在许多现实世界的人脸识别场景中，由于复杂的外观变化或低质量的图像，人脸图像很难准确对齐。为了解决这个问题，我们提出了一种提取鲁棒面部区域描述符的新方法。具体来说，我们将每个图像（分别是视频）划分为几个空间块（分别是时空体积），然后通过对块（分别是体积）内采样的无位置补丁的非负稀疏码进行求和池来表示每个块（分别是体积）。进一步利用白化主成分分析 (WPCA) 来减少特征维度，从而产生图像（或视频）的空间人脸区域描述符（SFRD）（或时空人脸区域描述符，STFRD）。更多...",
     "abstract_source": "openalex_doi",
@@ -17735,10 +18090,12 @@
     "scholar_id": "panorama_ef5ed70a98c0",
     "scholar_name": "崔振",
     "scholar_ids": [
-      "panorama_ef5ed70a98c0"
+      "panorama_ef5ed70a98c0",
+      "shiguang_shan"
     ],
     "scholar_names": [
-      "崔振"
+      "崔振",
+      "山世光"
     ],
     "source_record_ids": [
       "panorama_ef5ed70a98c0_2a67c7b85c0b9fea"
@@ -17755,10 +18112,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "shiguang_shan": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "山世光",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "崔振：脑电基准、数据与评测"
+      "崔振：脑电基准、数据与评测",
+      "山世光：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -17847,7 +18213,7 @@
     "source_url": "https://dblp.org/rec/conf/cvpr/CuiSZLC12.html",
     "openalex_id": "https://openalex.org/W2157092301",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 91,
     "abstract_en": "Video-based Face Recognition (VFR) can be converted to the matching of two image sets containing face images captured from each video. For this purpose, we propose to bridge the two sets with a reference image set that is well-defined and pre-structured to a number of local models offline. In other words, given two image sets, as long as each of them is aligned to the reference set, they are mutually aligned and well structured. Therefore, the similarity between them can be computed by comparing only the corresponded local models rather than considering all the pairs. To align an image set with the reference set, we further formulate the problem as a quadratic programming. It integrates three constrains to guarantee robust alignment, including appearance matching cost term exploiting principal angles, geometric structure consistency using affine invariant reconstruction weights, smoothness constraint preserving local neighborhood relationship. Extensive experimental evaluations are performed on three databases: Honda, MoBo and YouTube. Compared with competing methods, our approach can consistently achieve better results.",
     "abstract_zh": "基于视频的人脸识别 (VFR) 可以转换为包含从每个视频捕获的人脸图像的两个图像集的匹配。为此，我们建议使用一个参考图像集来桥接这两个集合，该参考图像集经过明确定义并预先构造为多个离线本地模型。换句话说，给定两个图像集，只要它们中的每一个都与参考集对齐，它们就相互对齐并且结构良好。因此，可以通过仅比较相应的局部模型而不是考虑所有对来计算它们之间的相似度。为了将图像集与参考集对齐，我们进一步将问题表述为二次规划。它集成了三个约束来保证稳健的对齐，包括...",
     "abstract_source": "openalex_doi",
@@ -17861,10 +18227,12 @@
     "scholar_id": "panorama_ef5ed70a98c0",
     "scholar_name": "崔振",
     "scholar_ids": [
-      "panorama_ef5ed70a98c0"
+      "panorama_ef5ed70a98c0",
+      "shiguang_shan"
     ],
     "scholar_names": [
-      "崔振"
+      "崔振",
+      "山世光"
     ],
     "source_record_ids": [
       "panorama_ef5ed70a98c0_9666b9a3924f2dd1"
@@ -17881,10 +18249,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "shiguang_shan": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "山世光",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "崔振：脑电基础模型与通用解码"
+      "崔振：脑电基础模型与通用解码",
+      "山世光：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -17910,8 +18287,8 @@
     "source_url": "https://dblp.org/rec/conf/icip/CuiSZLC12.html",
     "openalex_id": "https://openalex.org/W3006441391",
     "openalex_author_id": "https://openalex.org/A5101571225",
-    "cited_by_count": 3,
-    "abstract_en": "在监督场景下线性判别分析(linear discriminant analysis, LDA)是一种非常有效的特征提取方法.然而，LDA在小样本情况下通常会出现过拟合现象，并且学习的投影变换难以给出人类认知上的解释.针对这些问题，特别是可解释性结构的发现，借助于LDA的线性回归模型和结构化稀疏L\\-{2,1}范数，提出了结构化稀疏线性判别分析(structured sparse LDA, SSLDA)方法.进一步，为了去除线性变换间的相关性，提出了正交化的SSLDA(orthogonalized SSLDA, OSSLDA)，它能更加有效地学习到细致的结构信息.为了求解这2个模型，引入了一个半二次的优化算法,它在投影变换和新引入的辅助变量之间采用交替优化的思想.为了验证所提出的方法，在AR、扩展的YaleB和MultiPIE 3个人脸数据库上对比了LDA及其变种方法，实验表明了所提出方法的有效性以及可解释性.",
+    "cited_by_count": 12,
+    "abstract_en": "Linear Discriminant Analysis (LDA) is an efficient image feature extraction technique by supervised dimensionality reduction. In this paper, we extend LDA to Structured Sparse LDA (SSLDA), where the projecting vectors are not only constrained to sparsity but also structured with a pre-specified set of shapes. While the sparse priors deal with small sample size problem, the proposed structure regularization can also encode higher-order information with better interpretability. We also propose a simple and efficient optimization algorithm to solve the proposed optimization problem. Experiments on face images show the benefits of the proposed structured sparse LDA on both classification accuracy and interpretability.",
     "abstract_zh": "在场景下线性判别分析（线性判别分析，LDA）是一种非常有效的特征提取方法。然而，LDA在小样本情况下通常会出现过现象，并且学习的投影变换难以给出人类认知上的解释。针对这些问题，特别是可解释性结构的发现，LDA的线性回归和模型格式化L\\-{2,1}范数，提出了结构化稀疏线性判别分析（结构化稀疏LDA， SSLDA)方法。进一步，为了提升线性变换间的相关性，提出了正交化的SSLDA(orthogonalized SSLDA, OSSLDA)，它能更有效地学习到坐标的结构信息。为了仿真这2个模型，引入了一个半二次的优化算法，它在投影变换和新引入的辅助变量之间采用交替优化的思想。为了验证所提出的方法，在AR、扩展的YaleB和MultiPIE 3个人脸数据库上对比了LDA及其变种方法，实验表明了所提出方法的有效性以及可解释性。",
     "abstract_source": "openalex_verified",
     "topics": [],
@@ -17924,10 +18301,12 @@
     "scholar_id": "panorama_ef5ed70a98c0",
     "scholar_name": "崔振",
     "scholar_ids": [
-      "panorama_ef5ed70a98c0"
+      "panorama_ef5ed70a98c0",
+      "shiguang_shan"
     ],
     "scholar_names": [
-      "崔振"
+      "崔振",
+      "山世光"
     ],
     "source_record_ids": [
       "panorama_ef5ed70a98c0_ef9f63463002f357"
@@ -17944,10 +18323,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "shiguang_shan": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "山世光",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "崔振：脑电基础模型与通用解码"
+      "崔振：脑电基础模型与通用解码",
+      "山世光：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -17986,10 +18374,12 @@
     "scholar_id": "panorama_ef5ed70a98c0",
     "scholar_name": "崔振",
     "scholar_ids": [
-      "panorama_ef5ed70a98c0"
+      "panorama_ef5ed70a98c0",
+      "shiguang_shan"
     ],
     "scholar_names": [
-      "崔振"
+      "崔振",
+      "山世光"
     ],
     "source_record_ids": [
       "panorama_ef5ed70a98c0_d3d3a9843e5bc2e6"
@@ -18006,10 +18396,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "shiguang_shan": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "山世光",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "崔振：脑电基准、数据与评测"
+      "崔振：脑电基准、数据与评测",
+      "山世光：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",

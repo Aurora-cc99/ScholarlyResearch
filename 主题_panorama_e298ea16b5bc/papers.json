@@ -91,7 +91,10 @@
     "topics": [
       "情感计算与情绪理解",
       "多模态与大语言模型",
-      "强化学习与决策优化"
+      "强化学习与决策优化",
+      "情感大模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 42/469-8）",
     "status": "预印本记录",
@@ -158,7 +161,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 42/469-8）",
     "status": "已索引出版/会议记录",
@@ -369,10 +373,12 @@
     "scholar_id": "panorama_e298ea16b5bc",
     "scholar_name": "刘瑞",
     "scholar_ids": [
-      "panorama_e298ea16b5bc"
+      "panorama_e298ea16b5bc",
+      "bjorn_schuller"
     ],
     "scholar_names": [
-      "刘瑞"
+      "刘瑞",
+      "Björn W. Schuller"
     ],
     "source_record_ids": [
       "panorama_e298ea16b5bc_5e3ed2b7ff2a06f1"
@@ -389,10 +395,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "bjorn_schuller": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [],
+        "confidence": "low",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "刘瑞：情感理解与多模态推理"
+      "刘瑞：情感理解与多模态推理",
+      "Björn W. Schuller：自然语言处理、多模态学习与通用方法"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "emotion_understanding",
@@ -564,7 +579,8 @@
       "arXiv exact match",
       "情感计算与情绪理解",
       "多模态与大语言模型",
-      "强化学习与决策优化"
+      "强化学习与决策优化",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入",
     "status": "候选条目/需按作者主页继续核验",
@@ -604,16 +620,20 @@
     "scholar_id": "jianhua_tao",
     "scholar_name": "陶建华",
     "work_title_group": "643c4f6f1b08",
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
       "jianhua_tao",
       "zheng_lian",
-      "panorama_e298ea16b5bc"
+      "panorama_e298ea16b5bc",
+      "xiaobai_li",
+      "xiaojiang_peng"
     ],
     "scholar_names": [
       "陶建华",
       "连政",
-      "刘瑞"
+      "刘瑞",
+      "李晓白",
+      "彭小江"
     ],
     "source_record_ids": [
       "jianhua_tao_014c0124ad2d"
@@ -665,13 +685,45 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "xiaobai_li": {
+        "category_id": "multimodal_emotion",
+        "label": "多模态情感理解、面部表情与语音情绪",
+        "scholar_name": "李晓白",
+        "secondary_tags": [
+          "情感计算",
+          "语音与对话",
+          "多模态情感理解",
+          "人机交互",
+          "情感智能",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "xiaojiang_peng": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "彭小江",
+        "secondary_tags": [
+          "情感计算",
+          "语音与对话",
+          "多模态情感理解",
+          "人机交互",
+          "情感智能",
+          "脑电情感计算与脑机接口"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "3fa8bee3175e6927",
     "primary_categories_by_scholar": [
       "陶建华：情感脑电与多模态生理信号",
       "连政：情感脑电与多模态生理信号",
-      "刘瑞：情感理解与多模态推理"
+      "刘瑞：情感理解与多模态推理",
+      "李晓白：多模态情感理解、面部表情与语音情绪",
+      "彭小江：情感与大模型评测基准、数据集及综述"
     ],
     "dblp_key": "journals/corr/abs-2605-06126",
     "pdf_url": "https://arxiv.org/pdf/2605.06126",
@@ -705,7 +757,8 @@
     "abstract_source": "arxiv_api",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 42/469-8）",
     "status": "预印本记录",
@@ -1365,7 +1418,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 42/469-8）",
     "status": "已索引出版/会议记录",
@@ -1502,7 +1556,8 @@
     "abstract_zh": "目的：失眠是一种常见的睡眠障碍，影响生活质量，并且在不同人群中存在显着差异。在中国，城乡差异明显，但不同人群之间失眠患病率及影响因素的差异仍不清楚。本研究以佛山为案例研究，旨在找出这些差异，以制定有针对性的干预措施来改善睡眠质量。方法：数据来自2022年佛山市居民心理健康调查，调查对象为9,044名成人（其中城市居民4,546人，农村居民4,498人）。使用失眠严重程度指数来评估失眠，得分≥8的参与者被归类为失眠组。卡方检验和逻辑回归分析...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5082746577）",
     "status": "已索引出版/会议记录",
@@ -1565,7 +1620,7 @@
     "source_url": "https://dblp.org/rec/journals/corr/abs-2505-20341.html",
     "openalex_id": "",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 1,
     "abstract_en": "Text-based speech editing (TSE) modifies speech using only text, eliminating re-recording. However, existing TSE methods, mainly focus on the content accuracy and acoustic consistency of synthetic speech segments, and often overlook the emotional shifts or inconsistency issues introduced by text changes. To address this issue, we propose EmoCorrector, a novel post-correction scheme for TSE. EmoCorrector leverages Retrieval-Augmented Generation (RAG) by extracting the edited text's emotional features, retrieving speech samples with matching emotions, and synthesizing speech that aligns with the desired emotion while preserving the speaker's identity and quality. To support the training and evaluation of emotional consistency modeling in TSE, we pioneer the benchmarking Emotion Correction Dataset for TSE (ECD-TSE). The prominent aspect of ECD-TSE is its inclusion of $<$text, speech$>$ paired data featuring diverse text variations and a range of emotional expressions. Subjective and objective experiments and comprehensive analysis on ECD-TSE confirm that EmoCorrector significantly enhances the expression of intended emotion while addressing emotion inconsistency limitations in current TSE methods. Code and audio examples are available at https://github.com/AI-S2-Lab/EmoCorrector.",
     "abstract_zh": "基于文本的语音编辑 (TSE) 仅使用文本修改语音，无需重新录制。然而，现有的 TSE 方法主要关注合成语音片段的内容准确性和声学一致性，而往往忽视文本变化带来的情感变化或不一致问题。为了解决这个问题，我们提出了 EmoCorrector，一种新颖的 TSE 后校正方案。 EmoCorrector 利用检索增强生成 (RAG)，提取编辑文本的情感特征、检索具有匹配情感的语音样本，并合成与所需情感一致的语音，同时保留说话者的身份和质量。为了支持 TSE 中情绪一致性模型的训练和评估，...",
     "abstract_source": "arxiv_api",
@@ -1581,10 +1636,12 @@
     "scholar_id": "panorama_e298ea16b5bc",
     "scholar_name": "刘瑞",
     "scholar_ids": [
-      "panorama_e298ea16b5bc"
+      "panorama_e298ea16b5bc",
+      "carlos_busso"
     ],
     "scholar_names": [
-      "刘瑞"
+      "刘瑞",
+      "Carlos Busso"
     ],
     "source_record_ids": [
       "panorama_e298ea16b5bc_95556a902113fc0f"
@@ -1595,7 +1652,9 @@
     "code_urls": [
       "https://github.com/AI-S2-Lab/EmoCorrector"
     ],
-    "data_urls": [],
+    "data_urls": [
+      "https://github.com/AI-S2-Lab/EmoCorrector"
+    ],
     "model_urls": [],
     "scholar_categories": {
       "panorama_e298ea16b5bc": {
@@ -1607,12 +1666,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "carlos_busso": {
+        "category_id": "sentiment_nlp",
+        "label": "文本情感分析、情绪原因与认知语义",
+        "scholar_name": "Carlos Busso",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "刘瑞：情感数据集、基准与评测"
+      "刘瑞：情感数据集、基准与评测",
+      "Carlos Busso：文本情感分析、情绪原因与认知语义"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "emotion_benchmark",
     "primary_category": "情感数据集、基准与评测"
   },
@@ -1913,7 +1983,8 @@
     "abstract_zh": "会话语音合成（CSS）旨在以当前对话（CD）历史为参考，合成符合会话风格的表达性语音。与 CD 不同，存储对话 (SD) 包含用户与代理交互早期阶段保留的对话片段，其中包括与 CD 中类似场景相关的风格表达知识。请注意，这些知识在使代理能够合成产生同理心反馈的表达性对话语音方面发挥着重要作用。然而，先前的研究忽略了这一方面。为了解决这个问题，我们提出了一种新颖的用于表达 CSS 的检索增强对话知识聚合方案，称为 RADKA-CSS，其中包括三个主要...",
     "abstract_source": "arxiv_api",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 42/469-8）",
     "status": "已索引出版/会议记录",
@@ -2125,7 +2196,7 @@
     "source_url": "https://dblp.org/rec/journals/corr/abs-2502-18924.html",
     "openalex_id": "",
     "openalex_author_id": "",
-    "cited_by_count": 0,
+    "cited_by_count": 81,
     "abstract_en": "While recent zero-shot text-to-speech (TTS) models have significantly improved speech quality and expressiveness, mainstream systems still suffer from issues related to speech-text alignment modeling: 1) models without explicit speech-text alignment modeling exhibit less robustness, especially for hard sentences in practical applications; 2) predefined alignment-based models suffer from naturalness constraints of forced alignments. This paper introduces \\textit{MegaTTS 3}, a TTS system featuring an innovative sparse alignment algorithm that guides the latent diffusion transformer (DiT). Specifically, we provide sparse alignment boundaries to MegaTTS 3 to reduce the difficulty of alignment without limiting the search space, thereby achieving high naturalness. Moreover, we employ a multi-condition classifier-free guidance strategy for accent intensity adjustment and adopt the piecewise rectified flow technique to accelerate the generation process. Experiments demonstrate that MegaTTS 3 achieves state-of-the-art zero-shot TTS speech quality and supports highly flexible control over accent intensity. Notably, our system can generate high-quality one-minute speech with only 8 sampling steps. Audio samples are available at https://sditdemo.github.io/sditdemo/.",
     "abstract_zh": "虽然最近的零样本文本到语音（TTS）模型显着提高了语音质量和表达能力，但主流系统仍然面临与语音文本对齐建模相关的问题：1）没有显式语音文本对齐建模的模型表现出较低的鲁棒性，特别是对于实际应用中的硬句子； 2）预定义的基于对齐的模型受到强制对齐的自然性约束。本文介绍了 \\textit{MegaTTS 3}，这是一种 TTS 系统，采用创新的稀疏对齐算法来引导潜在扩散变换器 (DiT)。具体来说，我们为MegaTTS 3提供稀疏对齐边界，以在不限制搜索空间的情况下降低对齐难度，从而实现......",
     "abstract_source": "arxiv_api",
@@ -2139,10 +2210,12 @@
     "scholar_id": "panorama_e298ea16b5bc",
     "scholar_name": "刘瑞",
     "scholar_ids": [
-      "panorama_e298ea16b5bc"
+      "panorama_e298ea16b5bc",
+      "zhou_zhao"
     ],
     "scholar_names": [
-      "刘瑞"
+      "刘瑞",
+      "赵洲"
     ],
     "source_record_ids": [
       "panorama_e298ea16b5bc_6036de6d8637e59f"
@@ -2159,10 +2232,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "zhou_zhao": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "赵洲",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "刘瑞：情感理解与多模态推理"
+      "刘瑞：情感理解与多模态推理",
+      "赵洲：通用预训练大模型、视听生成与基础方法"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "emotion_understanding",
@@ -2395,7 +2477,8 @@
     "abstract_zh": "背景：心理健康素养（MHL）对于增强心理健康和应对心理健康挑战至关重要。在中国，MHL水平仍然较低，关于MHL性别差异的研究也很有限。本研究旨在探讨佛山市居民MHL的性别差异及其影响因素，为有针对性的心理健康干预提供理论依据。方法： - 使用测试来分析 MHL 的性别差异。此外，还进行了多因素逻辑回归分析，以确定影响不同性别 MHL 的因素。结果：总体MHL达标率为8.46%。男性居民的达标率显着较低，为 6.65%，而男性居民的达标率为 10.14%……",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5082746577）",
     "status": "已索引出版/会议记录",
@@ -2466,7 +2549,9 @@
       "自监督学习",
       "多模态大模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感大模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入（情感视觉与多模态基础模型）",
     "status": "候选条目/需按作者主页继续核验",
@@ -2476,7 +2561,9 @@
     "code_urls": [
       "https://github.com/zeroQiaoba/AffectGPT"
     ],
-    "data_urls": [],
+    "data_urls": [
+      "https://github.com/zeroQiaoba/AffectGPT"
+    ],
     "model_urls": [],
     "openalex_id": "https://openalex.org/W4406950238",
     "openalex_author_id": "https://openalex.org/A5027572653",
@@ -2502,18 +2589,24 @@
     "scholar_id": "licai_sun",
     "scholar_name": "孙立才",
     "work_title_group": "66550cd4dd96",
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
       "jianhua_tao",
-      "panorama_e298ea16b5bc"
+      "panorama_e298ea16b5bc",
+      "bin_liu_casia",
+      "xiaojiang_peng",
+      "zebang_cheng"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
       "陶建华",
-      "刘瑞"
+      "刘瑞",
+      "刘斌",
+      "彭小江",
+      "程泽邦"
     ],
     "source_record_ids": [
       "licai_sun_9d098495a468",
@@ -2585,6 +2678,51 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bin_liu_casia": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "xiaojiang_peng": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "彭小江",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zebang_cheng": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "程泽邦",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "4a5f4b88e0ba692c",
@@ -2592,7 +2730,10 @@
       "孙立才：情感数据集、基准与评测",
       "连政：脑电基准、数据与评测",
       "陶建华：脑电基准、数据与评测",
-      "刘瑞：情感数据集、基准与评测"
+      "刘瑞：情感数据集、基准与评测",
+      "刘斌：通用预训练大模型、视听生成与基础方法",
+      "彭小江：通用预训练大模型、视听生成与基础方法",
+      "程泽邦：通用预训练大模型、视听生成与基础方法"
     ],
     "dblp_key": "journals/corr/abs-2501-16566",
     "pdf_url": "https://arxiv.org/pdf/2501.16566",
@@ -2626,7 +2767,9 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感大模型",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 42/469-8）",
     "status": "已索引出版/会议记录",
@@ -2742,16 +2885,18 @@
     "scholar_id": "zheng_lian",
     "scholar_name": "连政",
     "work_title_group": "351e922d152d",
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
       "zheng_lian",
       "panorama_e298ea16b5bc",
-      "panorama_xiaofen_xing"
+      "panorama_xiaofen_xing",
+      "bjorn_schuller"
     ],
     "scholar_names": [
       "连政",
       "刘瑞",
-      "邢晓芬"
+      "邢晓芬",
+      "Björn W. Schuller"
     ],
     "source_record_ids": [
       "zheng_lian_aa890a9b1ecd"
@@ -2806,13 +2951,29 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bjorn_schuller": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "情感智能评测",
+          "多模态情感理解",
+          "情感计算与LLM",
+          "多模态情感识别",
+          "情感理解",
+          "情感大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "2c52f28a6d591421",
     "primary_categories_by_scholar": [
       "连政：脑电基准、数据与评测",
       "刘瑞：情感理解与多模态推理",
-      "邢晓芬：情感脑电与多模态生理信号"
+      "邢晓芬：情感脑电与多模态生理信号",
+      "Björn W. Schuller：自然语言处理、多模态学习与通用方法"
     ],
     "dblp_key": "conf/icassp/0008XL0SZ25",
     "abstract_en": "Multimodal Emotion and Intent Joint Understanding (MEIJU) aims to decode the semantic information expressed in the multimodal dialogues while inferring the emotions and intents, providing users with a more humanized human-machine interaction experience. However, challenges such as difficulties in data acquisition and imbalance annotations have made it difficult for current methods to meet the demands of practical applications. Therefore, we have organized two tracks focusing on the key themes of semi-supervised learning and class imbalance. Additionally, we have prepared data in two different languages (English and Mandarin) for each track, treating each language as a sub-track, to encourage participants to explore solutions in more diverse linguistic environments. Our code can be found at https://github.com/AI-S2-Lab/MEIJU2025-baseline.",
@@ -2861,7 +3022,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感智能"
     ],
     "verification": "主题筛选候选；核心纳入（情感智能评测与情感计算）",
     "status": "候选条目/需按作者主页继续核验",
@@ -2909,14 +3071,19 @@
     "scholar_id": "zheng_lian",
     "scholar_name": "连政",
     "work_title_group": "64c7e9339475",
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
       "zheng_lian",
       "jianhua_tao",
       "guoying_zhao",
       "xin_liu",
       "panorama_ya_li",
-      "panorama_e298ea16b5bc"
+      "panorama_e298ea16b5bc",
+      "bjorn_schuller",
+      "erik_cambria",
+      "bin_liu_casia",
+      "xiaojiang_peng",
+      "zebang_cheng"
     ],
     "scholar_names": [
       "连政",
@@ -2924,7 +3091,12 @@
       "赵国英",
       "刘鑫",
       "李雅",
-      "刘瑞"
+      "刘瑞",
+      "Björn W. Schuller",
+      "Erik Cambria",
+      "刘斌",
+      "彭小江",
+      "程泽邦"
     ],
     "source_record_ids": [
       "zheng_lian_83373cb06f4d",
@@ -3025,6 +3197,81 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bjorn_schuller": {
+        "category_id": "affect_int_llm",
+        "label": "情感大模型、知识推理与评测基准",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "情感智能评测",
+          "多模态情感理解",
+          "情感计算与LLM",
+          "多模态情感识别",
+          "情感理解",
+          "情感大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "erik_cambria": {
+        "category_id": "affect_int_llm",
+        "label": "情感大模型、知识推理与评测基准",
+        "scholar_name": "Erik Cambria",
+        "secondary_tags": [
+          "情感智能评测",
+          "多模态情感理解",
+          "情感计算与LLM",
+          "多模态情感识别",
+          "情感理解",
+          "情感大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "bin_liu_casia": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感智能评测",
+          "多模态情感理解",
+          "情感计算与LLM",
+          "多模态情感识别",
+          "情感理解",
+          "情感大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "xiaojiang_peng": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "彭小江",
+        "secondary_tags": [
+          "情感智能评测",
+          "多模态情感理解",
+          "情感计算与LLM",
+          "多模态情感识别",
+          "情感理解",
+          "情感大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "zebang_cheng": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "程泽邦",
+        "secondary_tags": [
+          "情感智能评测",
+          "多模态情感理解",
+          "情感计算与LLM",
+          "多模态情感识别",
+          "情感理解",
+          "情感大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "ecfe66c6cbdfb069",
@@ -3034,7 +3281,12 @@
       "赵国英：情感理解与多模态推理",
       "刘鑫：情感数据集、基准与评测",
       "李雅：脑电基准、数据与评测",
-      "刘瑞：情感数据集、基准与评测"
+      "刘瑞：情感数据集、基准与评测",
+      "Björn W. Schuller：情感大模型、知识推理与评测基准",
+      "Erik Cambria：情感大模型、知识推理与评测基准",
+      "刘斌：通用预训练大模型、视听生成与基础方法",
+      "彭小江：通用预训练大模型、视听生成与基础方法",
+      "程泽邦：通用预训练大模型、视听生成与基础方法"
     ],
     "dblp_key": "journals/corr/abs-2504-19423",
     "pdf_url": "https://doi.org/10.1145/3746027.3762007",
@@ -3332,7 +3584,9 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 42/469-8）",
     "status": "已索引出版/会议记录",
@@ -3593,16 +3847,18 @@
     "scholar_id": "zheng_lian",
     "scholar_name": "连政",
     "work_title_group": "c6ecf6042061",
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
       "zheng_lian",
       "panorama_e298ea16b5bc",
-      "panorama_xiaofen_xing"
+      "panorama_xiaofen_xing",
+      "bjorn_schuller"
     ],
     "scholar_names": [
       "连政",
       "刘瑞",
-      "邢晓芬"
+      "邢晓芬",
+      "Björn W. Schuller"
     ],
     "source_record_ids": [
       "zheng_lian_0ffda2a3303d"
@@ -3657,13 +3913,29 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bjorn_schuller": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "情感智能评测",
+          "多模态情感理解",
+          "情感计算与LLM",
+          "多模态情感识别",
+          "情感理解",
+          "情感大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "83719a36eb4c010a",
     "primary_categories_by_scholar": [
       "连政：脑电基准、数据与评测",
       "刘瑞：情感数据集、基准与评测",
-      "邢晓芬：情感脑电与多模态生理信号"
+      "邢晓芬：情感脑电与多模态生理信号",
+      "Björn W. Schuller：自然语言处理、多模态学习与通用方法"
     ],
     "dblp_key": "journals/corr/abs-2407-02751",
     "pdf_url": "https://arxiv.org/pdf/2407.02751",
@@ -3826,7 +4098,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感智能"
     ],
     "verification": "主题筛选候选；核心纳入（情感智能评测与情感计算）",
     "status": "候选条目/需按作者主页继续核验",
@@ -3869,14 +4142,16 @@
     "scholar_id": "zheng_lian",
     "scholar_name": "连政",
     "work_title_group": "485a606a11dd",
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
       "zheng_lian",
-      "panorama_e298ea16b5bc"
+      "panorama_e298ea16b5bc",
+      "bjorn_schuller"
     ],
     "scholar_names": [
       "连政",
-      "刘瑞"
+      "刘瑞",
+      "Björn W. Schuller"
     ],
     "source_record_ids": [
       "zheng_lian_df51000baf6c"
@@ -3916,12 +4191,28 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bjorn_schuller": {
+        "category_id": "affect_int_llm",
+        "label": "情感大模型、知识推理与评测基准",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "情感智能评测",
+          "多模态情感理解",
+          "情感计算与LLM",
+          "多模态情感识别",
+          "情感理解",
+          "情感大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "57bebcd9f65d5b47",
     "primary_categories_by_scholar": [
       "连政：脑电基准、数据与评测",
-      "刘瑞：情感数据集、基准与评测"
+      "刘瑞：情感数据集、基准与评测",
+      "Björn W. Schuller：情感大模型、知识推理与评测基准"
     ],
     "dblp_key": "journals/taffco/LiuZLSL24",
     "abstract_en": "Multimodal emotion recognition (MER) aims to understand the way that humans express their emotions by exploring complementary information across modalities. However, it is hard to guarantee that full-modality data is always available in real-world scenarios. To deal with missing modalities, researchers focused on meaningful joint multimodal representation learning during cross-modal missing modality imagination. However, the cross-modal imagination mechanism is highly susceptible to errors due to the “modality gap” issue, which affects the imagination accuracy, thus, the final recognition performance. To this end, we introduce the concept of a modality-invariant feature into the missing modality imagination network, which contains two key modules: 1) a novel contrastive learning-based module to extract modality-invariant features under full modalities; 2) a robust imagination module based on imagined invariant features to reconstruct missing information under missing conditions. Finally, we incorporate imagined and available modalities for emotion recognition. Experimental results on benchmark datasets demonstrate that our proposed method outperforms existing state-of-the-art strategies. Compared with our previous work, our extended version is more effective on multimodal emotion recognition with missing modalities. The code is released athttps://github.com/ZhuoYulang/CIF-MMIN.",
@@ -4357,7 +4648,8 @@
     "abstract_source": "arxiv_api",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 42/469-8）",
     "status": "预印本记录",
@@ -4564,7 +4856,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感大模型"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 42/469-8）",
     "status": "已索引出版/会议记录",
@@ -4845,7 +5138,8 @@
     "abstract_zh": "金融情绪分析（FSA）旨在推断新闻文章和评论等金融文本（FT）中包含的情绪，使投资者能够对市场趋势形成更准确的评估。对于金融科技公司和投资者来说，准确识别金融文本中的情绪是积极的还是消极的，对于他们的投资选择具有重要意义。然而，现有的 FSA 模型仅以文本本身为中心，并遇到了一个关键挑战：忽视外部知识。也就是说，他们没有考虑到与金融文本相关的外部信息，例如背景上下文和情感描述。在处理情感场景时，这种疏忽会导致性能不佳......",
     "abstract_source": "openalex_doi",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 42/469-8）",
     "status": "已索引出版/会议记录",
@@ -4916,7 +5210,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感智能"
     ],
     "verification": "主题筛选候选；核心纳入（情感智能评测与情感计算）",
     "status": "候选条目/需按作者主页继续核验",
@@ -5956,7 +6251,9 @@
       "自监督学习",
       "多模态大模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "主题筛选候选；纳入（情感视觉与多模态基础模型）",
     "status": "候选条目/需按作者主页继续核验",
@@ -5992,20 +6289,26 @@
     "scholar_id": "licai_sun",
     "scholar_name": "孙立才",
     "work_title_group": "e8f40ab0ba51",
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
       "jianhua_tao",
       "guoying_zhao",
-      "panorama_e298ea16b5bc"
+      "panorama_e298ea16b5bc",
+      "bjorn_schuller",
+      "erik_cambria",
+      "bin_liu_casia"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
       "陶建华",
       "赵国英",
-      "刘瑞"
+      "刘瑞",
+      "Björn W. Schuller",
+      "Erik Cambria",
+      "刘斌"
     ],
     "source_record_ids": [
       "licai_sun_58677b9a0e82",
@@ -6090,6 +6393,51 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bjorn_schuller": {
+        "category_id": "affect_int_llm",
+        "label": "情感大模型、知识推理与评测基准",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "erik_cambria": {
+        "category_id": "affect_int_llm",
+        "label": "情感大模型、知识推理与评测基准",
+        "scholar_name": "Erik Cambria",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "bin_liu_casia": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "a3f1cbb3df31d82b",
@@ -6098,7 +6446,10 @@
       "连政：脑电基准、数据与评测",
       "陶建华：情感脑电与多模态生理信号",
       "赵国英：情感理解与多模态推理",
-      "刘瑞：情感数据集、基准与评测"
+      "刘瑞：情感数据集、基准与评测",
+      "Björn W. Schuller：情感大模型、知识推理与评测基准",
+      "Erik Cambria：情感大模型、知识推理与评测基准",
+      "刘斌：情感与大模型评测基准、数据集及综述"
     ],
     "dblp_key": "conf/mrac/LianSSWZCGZMCYL24",
     "pdf_url": "https://doi.org/10.1145/3689092.3689959",
@@ -6138,7 +6489,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感智能"
     ],
     "verification": "主题筛选候选；核心纳入（情感智能评测与情感计算）",
     "status": "候选条目/需按作者主页继续核验",
@@ -6182,13 +6534,19 @@
       "zheng_lian",
       "guoying_zhao",
       "jianhua_tao",
-      "panorama_e298ea16b5bc"
+      "panorama_e298ea16b5bc",
+      "bjorn_schuller",
+      "erik_cambria",
+      "bin_liu_casia"
     ],
     "scholar_names": [
       "连政",
       "赵国英",
       "陶建华",
-      "刘瑞"
+      "刘瑞",
+      "Björn W. Schuller",
+      "Erik Cambria",
+      "刘斌"
     ],
     "source_record_ids": [
       "zheng_lian_1a9fcfd1e260",
@@ -6256,6 +6614,51 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bjorn_schuller": {
+        "category_id": "affect_int_llm",
+        "label": "情感大模型、知识推理与评测基准",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "情感智能评测",
+          "多模态情感理解",
+          "情感计算与LLM",
+          "多模态情感识别",
+          "情感理解",
+          "情感大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "erik_cambria": {
+        "category_id": "affect_int_llm",
+        "label": "情感大模型、知识推理与评测基准",
+        "scholar_name": "Erik Cambria",
+        "secondary_tags": [
+          "情感智能评测",
+          "多模态情感理解",
+          "情感计算与LLM",
+          "多模态情感识别",
+          "情感理解",
+          "情感大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
+      },
+      "bin_liu_casia": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感智能评测",
+          "多模态情感理解",
+          "情感计算与LLM",
+          "多模态情感识别",
+          "情感理解",
+          "情感大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "fec426b6db97760f",
@@ -6263,7 +6666,10 @@
       "连政：脑电基准、数据与评测",
       "赵国英：情感理解与多模态推理",
       "陶建华：情感脑电与多模态生理信号",
-      "刘瑞：情感理解与多模态推理"
+      "刘瑞：情感理解与多模态推理",
+      "Björn W. Schuller：情感大模型、知识推理与评测基准",
+      "Erik Cambria：情感大模型、知识推理与评测基准",
+      "刘斌：情感与大模型评测基准、数据集及综述"
     ],
     "dblp_key": "conf/mrac/LianLLXC0S024",
     "pdf_url": "https://doi.org/10.1145/3689092.3696103",
@@ -6435,7 +6841,8 @@
       "自监督学习",
       "多模态大模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "主题筛选候选；纳入（情感视觉与多模态基础模型）",
     "status": "候选条目/需按作者主页继续核验",
@@ -6471,20 +6878,22 @@
     "scholar_id": "licai_sun",
     "scholar_name": "孙立才",
     "work_title_group": "1697b0732ec9",
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
       "licai_sun",
       "zheng_lian",
       "jianhua_tao",
       "panorama_ya_li",
-      "panorama_e298ea16b5bc"
+      "panorama_e298ea16b5bc",
+      "bin_liu_casia"
     ],
     "scholar_names": [
       "孙立才",
       "连政",
       "陶建华",
       "李雅",
-      "刘瑞"
+      "刘瑞",
+      "刘斌"
     ],
     "source_record_ids": [
       "licai_sun_bb800715a844",
@@ -6572,6 +6981,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bin_liu_casia": {
+        "category_id": "llm_benchmark_data",
+        "label": "情感与大模型评测基准、数据集及综述",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感视觉",
+          "多模态学习",
+          "自监督学习",
+          "多模态大模型",
+          "情感计算与情绪理解",
+          "多模态与大语言模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "02f8bf3e5293f7bd",
@@ -6580,7 +7004,8 @@
       "连政：脑电基准、数据与评测",
       "陶建华：情感脑电与多模态生理信号",
       "李雅：情感脑电与多模态生理信号",
-      "刘瑞：情感数据集、基准与评测"
+      "刘瑞：情感数据集、基准与评测",
+      "刘斌：情感与大模型评测基准、数据集及综述"
     ],
     "dblp_key": "conf/icml/00040S0CG0CZY0025",
     "pdf_url": "https://arxiv.org/pdf/2410.01495",
@@ -6758,7 +7183,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 42/469-8）",
     "status": "已索引出版/会议记录",
@@ -7236,7 +7662,8 @@
     "abstract_source": "arxiv_api",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 213/7387-4）",
     "status": "预印本记录",
@@ -7334,10 +7761,12 @@
     "scholar_id": "panorama_e298ea16b5bc",
     "scholar_name": "刘瑞",
     "scholar_ids": [
-      "panorama_e298ea16b5bc"
+      "panorama_e298ea16b5bc",
+      "bin_liu_casia"
     ],
     "scholar_names": [
-      "刘瑞"
+      "刘瑞",
+      "刘斌"
     ],
     "source_record_ids": [
       "panorama_e298ea16b5bc_88191394e9a1ff6b"
@@ -7362,12 +7791,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bin_liu_casia": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘斌",
+        "secondary_tags": [
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "刘瑞：情感数据集、基准与评测"
+      "刘瑞：情感数据集、基准与评测",
+      "刘斌：通用预训练大模型、视听生成与基础方法"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "emotion_benchmark",
     "primary_category": "情感数据集、基准与评测"
   },
@@ -7681,10 +8121,12 @@
     "scholar_id": "panorama_e298ea16b5bc",
     "scholar_name": "刘瑞",
     "scholar_ids": [
-      "panorama_e298ea16b5bc"
+      "panorama_e298ea16b5bc",
+      "bin_liu_casia"
     ],
     "scholar_names": [
-      "刘瑞"
+      "刘瑞",
+      "刘斌"
     ],
     "source_record_ids": [
       "panorama_e298ea16b5bc_032d23ed85918dc0"
@@ -7695,7 +8137,9 @@
     "code_urls": [
       "https://github.com/ssmlkl/MnTTS2"
     ],
-    "data_urls": [],
+    "data_urls": [
+      "https://github.com/ssmlkl/MnTTS2"
+    ],
     "model_urls": [],
     "scholar_categories": {
       "panorama_e298ea16b5bc": {
@@ -7705,12 +8149,21 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "bin_liu_casia": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "刘斌",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "刘瑞：情感数据集、基准与评测"
+      "刘瑞：情感数据集、基准与评测",
+      "刘斌：通用预训练大模型、视听生成与基础方法"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "emotion_benchmark",
     "primary_category": "情感数据集、基准与评测"
   },
@@ -7748,10 +8201,12 @@
     "scholar_id": "panorama_e298ea16b5bc",
     "scholar_name": "刘瑞",
     "scholar_ids": [
-      "panorama_e298ea16b5bc"
+      "panorama_e298ea16b5bc",
+      "zhen_hua_ling"
     ],
     "scholar_names": [
-      "刘瑞"
+      "刘瑞",
+      "凌震华"
     ],
     "source_record_ids": [
       "panorama_e298ea16b5bc_f6bf1448137b5d81"
@@ -7768,10 +8223,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "zhen_hua_ling": {
+        "category_id": "sentiment_nlp",
+        "label": "文本情感分析、情绪原因与认知语义",
+        "scholar_name": "凌震华",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "刘瑞：情感理解与多模态推理"
+      "刘瑞：情感理解与多模态推理",
+      "凌震华：文本情感分析、情绪原因与认知语义"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "emotion_understanding",
@@ -8138,10 +8602,12 @@
     "scholar_id": "panorama_e298ea16b5bc",
     "scholar_name": "刘瑞",
     "scholar_ids": [
-      "panorama_e298ea16b5bc"
+      "panorama_e298ea16b5bc",
+      "bjorn_schuller"
     ],
     "scholar_names": [
-      "刘瑞"
+      "刘瑞",
+      "Björn W. Schuller"
     ],
     "source_record_ids": [
       "panorama_e298ea16b5bc_b7912f7e4f59fb89"
@@ -8165,12 +8631,24 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "bjorn_schuller": {
+        "category_id": "general_nlp_ai",
+        "label": "自然语言处理、多模态学习与通用方法",
+        "scholar_name": "Björn W. Schuller",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "智能芯片与计算系统"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "刘瑞：情感数据集、基准与评测"
+      "刘瑞：情感数据集、基准与评测",
+      "Björn W. Schuller：自然语言处理、多模态学习与通用方法"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "emotion_benchmark",
     "primary_category": "情感数据集、基准与评测"
   },
@@ -9627,7 +10105,8 @@
     "abstract_zh": "随着人工智能的发展，人们对虚拟现实体验中的情感交互的需求越来越高。传统的情感识别方法应用于虚拟现实情感识别时，存在佩戴繁琐、图像清晰度要求高、运动中情感识别不准确等问题。因此，我们提出了一种基于注意力的堆叠LSTM网络（AS-LSTM），用于VR环境中全身运动的情感识别。通过在传统LSTM网络的基础上添加注意力机制，根据重要程度，对人体运动帧序列中各关节点的特征序列数据设置不同的注意力值，...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5082746577）",
     "status": "已索引出版/会议记录",
@@ -9758,7 +10237,8 @@
     "abstract_zh": "情感语音转换旨在改变语音中的情感韵律，同时保留语言内容和说话者身份。先前的研究表明，可以使用以离散表示为条件的编码器-解码器网络来解开情感韵律，例如单热情感标签。这样的网络学会记住一组固定的情感风格。在本文中，我们提出了一种基于变分自动编码 Wasserstein 生成对抗网络（VAW-GAN）的新颖框架，该框架利用预训练的语音情感识别（SER）模型在训练和运行时推理期间转移情感风格。通过这种方式，网络能够将可见和不可见的情感风格转移到新的话语中......",
     "abstract_source": "openalex_doi",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 42/469-8）",
     "status": "已索引出版/会议记录",
@@ -9950,7 +10430,8 @@
     "abstract_source": "arxiv_api",
     "topics": [
       "情感计算与情绪理解",
-      "强化学习与决策优化"
+      "强化学习与决策优化",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 42/469-8）",
     "status": "预印本记录",

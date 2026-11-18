@@ -87,7 +87,8 @@
     "source_url": "https://doi.org/10.1109/jiot.2026.3667276",
     "topics": [
       "情感计算与脑电方向",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "Crossref exact/near-exact title and publication-year match; DOI URL preserved",
     "status": "已核验作品（Crossref DOI）",
@@ -118,10 +119,12 @@
     "work_title_group": "207a897831b5",
     "resource_status": "本轮未关联到独立资源；不等于作者未开源，未逐篇全文穷尽检索",
     "scholar_ids": [
-      "panorama_946642b6ca0e"
+      "panorama_946642b6ca0e",
+      "xianye_ben"
     ],
     "scholar_names": [
-      "黄天欢"
+      "黄天欢",
+      "贲晛烨"
     ],
     "source_record_ids": [
       "panorama_946642b6ca0e_a0a7a140e265"
@@ -136,15 +139,29 @@
         ],
         "confidence": "candidate",
         "note": "主题候选层；身份和完整书目需后续核验。"
+      },
+      "xianye_ben": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "贲晛烨",
+        "secondary_tags": [
+          "情感计算与脑电方向",
+          "情感计算与情绪理解",
+          "情感智能"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "8f3df7f1c48bcd4c",
     "primary_categories_by_scholar": [
-      "黄天欢：情感脑电与多模态生理信号"
+      "黄天欢：情感脑电与多模态生理信号",
+      "贲晛烨：视觉感知、语音信号与通用人工智能"
     ],
     "abstract_en": "Automatic depression detection from facial videos is promising for IoT deployment but has long suffered from the black-box nature of deep models, which overlook how depression manifests on the face. This lack of interpretability leads to redundant feature learning, overly complex architectures, and consequently a trade-off between accuracy and deployability. We introduce a lightweight, interpretable system that explicitly models static–dynamic facial patterns, color channels, and regional textures. At its core is a Hybrid Static–Dynamic Model (HSDM) with detachable modules and identity decoupling, supported by two task-driven preprocessing steps (blue-channel suppression and 90° Gabor filtering). On AVEC2013/2014, our approach reduces mean absolute error by 10.1% on AVEC2014 while maintaining competitive results on AVEC2013. From a systems perspective, it achieves real-time inference on Jetson Nano (0.071M parameters, 0.21 GFLOPs, 17.69 ms latency, 56.54 samples/s throughput), outperforming larger SOTA models under identical conditions. The design facilitates on-device deployment and offers transparent decision paths through interpretable static–dynamic fusion, color synergy, and region-level analysis.",
     "abstract_source": "openalex_verified",
-    "abstract_zh": "从面部视频中自动检测抑郁症对于物联网部署来说很有希望，但长期以来一直受到深度模型的黑箱性质的影响，这些模型忽视了抑郁症在面部的表现。这种可解释性的缺乏会导致冗余的特征学习、过于复杂的架构，从而导致准确性和可部署性之间的权衡。我们引入了一个轻量级、可解释的系统，可以显式地模拟静态-动态面部图案、颜色通道和区域纹理。其核心是具有可拆卸模块和身份解耦的混合静态-动态模型 (HSDM)，并由两个任务驱动的预处理步骤（蓝色通道抑制和 90° Gabor 滤波器）支持......"
+    "abstract_zh": "从面部视频中自动检测抑郁症对于物联网部署来说很有希望，但长期以来一直受到深度模型的黑箱性质的影响，这些模型忽视了抑郁症在面部的表现。这种可解释性的缺乏会导致冗余的特征学习、过于复杂的架构，从而导致准确性和可部署性之间的权衡。我们引入了一个轻量级、可解释的系统，可以显式地模拟静态-动态面部图案、颜色通道和区域纹理。其核心是具有可拆卸模块和身份解耦的混合静态-动态模型 (HSDM)，并由两个任务驱动的预处理步骤（蓝色通道抑制和 90° Gabor 滤波器）支持......",
+    "dblp_key": "journals/iotj/ZhangZHZXB26"
   },
   {
     "title": "Cross-scale gated embedding graph model for skeleton-based anomaly detection",
@@ -160,7 +177,7 @@
       "Lei Chen"
     ],
     "doi": "10.1007/s00530-026-02566-6",
-    "dblp_key": "",
+    "dblp_key": "journals/mms/HeZHBC26",
     "paper_url": "https://doi.org/10.1007/s00530-026-02566-6",
     "pdf_url": "",
     "source_url": "https://openalex.org/W7171300958",
@@ -180,10 +197,12 @@
     "scholar_id": "panorama_946642b6ca0e",
     "scholar_name": "黄天欢",
     "scholar_ids": [
-      "panorama_946642b6ca0e"
+      "panorama_946642b6ca0e",
+      "xianye_ben"
     ],
     "scholar_names": [
-      "黄天欢"
+      "黄天欢",
+      "贲晛烨"
     ],
     "source_record_ids": [
       "panorama_946642b6ca0e_e27b23d88eccb2db"
@@ -200,10 +219,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "xianye_ben": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "贲晛烨",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "黄天欢：脑电基础模型与通用解码"
+      "黄天欢：脑电基础模型与通用解码",
+      "贲晛烨：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -293,7 +321,7 @@
       "Lei Chen"
     ],
     "doi": "10.1016/j.displa.2025.103207",
-    "dblp_key": "",
+    "dblp_key": "journals/displays/ZhaoZXHBC26",
     "paper_url": "https://doi.org/10.1016/j.displa.2025.103207",
     "pdf_url": "",
     "source_url": "https://openalex.org/W4414077905",
@@ -313,10 +341,12 @@
     "scholar_id": "panorama_946642b6ca0e",
     "scholar_name": "黄天欢",
     "scholar_ids": [
-      "panorama_946642b6ca0e"
+      "panorama_946642b6ca0e",
+      "xianye_ben"
     ],
     "scholar_names": [
-      "黄天欢"
+      "黄天欢",
+      "贲晛烨"
     ],
     "source_record_ids": [
       "panorama_946642b6ca0e_8527b7609392d582"
@@ -333,10 +363,19 @@
         "secondary_tags": [],
         "confidence": "low",
         "note": ""
+      },
+      "xianye_ben": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "贲晛烨",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "黄天欢：脑电基础模型与通用解码"
+      "黄天欢：脑电基础模型与通用解码",
+      "贲晛烨：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -367,7 +406,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5102822348）",
     "status": "已索引出版/会议记录",
@@ -378,10 +418,12 @@
     "scholar_id": "panorama_946642b6ca0e",
     "scholar_name": "黄天欢",
     "scholar_ids": [
-      "panorama_946642b6ca0e"
+      "panorama_946642b6ca0e",
+      "xianye_ben"
     ],
     "scholar_names": [
-      "黄天欢"
+      "黄天欢",
+      "贲晛烨"
     ],
     "source_record_ids": [
       "panorama_946642b6ca0e_9bd996e309f54c91"
@@ -400,10 +442,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "xianye_ben": {
+        "category_id": "multimodal_emotion",
+        "label": "多模态情感理解、面部表情与语音情绪",
+        "scholar_name": "贲晛烨",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "黄天欢：情感脑电与多模态生理信号"
+      "黄天欢：情感脑电与多模态生理信号",
+      "贲晛烨：多模态情感理解、面部表情与语音情绪"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -423,7 +477,8 @@
     "source_url": "",
     "topics": [
       "情感计算与脑电方向",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -493,7 +548,7 @@
       "Xianye Ben"
     ],
     "doi": "10.1007/s00530-025-01960-w",
-    "dblp_key": "",
+    "dblp_key": "journals/mms/ZhouCHLB25",
     "paper_url": "https://doi.org/10.1007/s00530-025-01960-w",
     "pdf_url": "",
     "source_url": "https://openalex.org/W4413399018",
@@ -504,7 +559,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5102822348）",
     "status": "已索引出版/会议记录",
@@ -515,10 +571,12 @@
     "scholar_id": "panorama_946642b6ca0e",
     "scholar_name": "黄天欢",
     "scholar_ids": [
-      "panorama_946642b6ca0e"
+      "panorama_946642b6ca0e",
+      "xianye_ben"
     ],
     "scholar_names": [
-      "黄天欢"
+      "黄天欢",
+      "贲晛烨"
     ],
     "source_record_ids": [
       "panorama_946642b6ca0e_fb0450bcd7cc7de7"
@@ -537,10 +595,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "xianye_ben": {
+        "category_id": "multimodal_emotion",
+        "label": "多模态情感理解、面部表情与语音情绪",
+        "scholar_name": "贲晛烨",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "黄天欢：脑电基础模型与通用解码"
+      "黄天欢：脑电基础模型与通用解码",
+      "贲晛烨：多模态情感理解、面部表情与语音情绪"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -560,7 +630,8 @@
     "source_url": "",
     "topics": [
       "情感计算与脑电方向",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -631,7 +702,7 @@
       "Hongchao Zhou"
     ],
     "doi": "10.1109/tcsvt.2024.3384308",
-    "dblp_key": "",
+    "dblp_key": "journals/tcsv/HuangBGXWZ24",
     "paper_url": "https://doi.org/10.1109/tcsvt.2024.3384308",
     "pdf_url": "",
     "source_url": "https://openalex.org/W4393863172",
@@ -651,10 +722,12 @@
     "scholar_id": "panorama_946642b6ca0e",
     "scholar_name": "黄天欢",
     "scholar_ids": [
-      "panorama_946642b6ca0e"
+      "panorama_946642b6ca0e",
+      "xianye_ben"
     ],
     "scholar_names": [
-      "黄天欢"
+      "黄天欢",
+      "贲晛烨"
     ],
     "source_record_ids": [
       "panorama_946642b6ca0e_f8f562be6e2bc4de"
@@ -671,10 +744,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "xianye_ben": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "贲晛烨",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "黄天欢：脑电基准、数据与评测"
+      "黄天欢：脑电基准、数据与评测",
+      "贲晛烨：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -783,10 +865,12 @@
     "scholar_id": "panorama_946642b6ca0e",
     "scholar_name": "黄天欢",
     "scholar_ids": [
-      "panorama_946642b6ca0e"
+      "panorama_946642b6ca0e",
+      "xianye_ben"
     ],
     "scholar_names": [
-      "黄天欢"
+      "黄天欢",
+      "贲晛烨"
     ],
     "source_record_ids": [
       "panorama_946642b6ca0e_847d7bfd24403346"
@@ -803,10 +887,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "xianye_ben": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "贲晛烨",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "黄天欢：脑电基准、数据与评测"
+      "黄天欢：脑电基准、数据与评测",
+      "贲晛烨：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -826,7 +919,8 @@
     "source_url": "",
     "topics": [
       "情感计算与脑电方向",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -897,7 +991,7 @@
       "Yujun Li"
     ],
     "doi": "10.1109/tmm.2022.3192727",
-    "dblp_key": "",
+    "dblp_key": "journals/tmm/BenGHLYL23",
     "paper_url": "https://doi.org/10.1109/tmm.2022.3192727",
     "pdf_url": "",
     "source_url": "https://openalex.org/W4286365562",
@@ -909,7 +1003,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5102822348）",
     "status": "已索引出版/会议记录",
@@ -920,10 +1015,12 @@
     "scholar_id": "panorama_946642b6ca0e",
     "scholar_name": "黄天欢",
     "scholar_ids": [
-      "panorama_946642b6ca0e"
+      "panorama_946642b6ca0e",
+      "xianye_ben"
     ],
     "scholar_names": [
-      "黄天欢"
+      "黄天欢",
+      "贲晛烨"
     ],
     "source_record_ids": [
       "panorama_946642b6ca0e_34ebf566e6207e13"
@@ -946,10 +1043,23 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "xianye_ben": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "贲晛烨",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "医学影像与脑疾病诊断",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "黄天欢：情感脑电与多模态生理信号"
+      "黄天欢：情感脑电与多模态生理信号",
+      "贲晛烨：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -970,7 +1080,7 @@
       "Qiang Wu"
     ],
     "doi": "10.1109/tcsvt.2022.3175959",
-    "dblp_key": "",
+    "dblp_key": "journals/tcsv/HuangBGZYW22",
     "paper_url": "https://doi.org/10.1109/tcsvt.2022.3175959",
     "pdf_url": "",
     "source_url": "https://openalex.org/W4285219686",
@@ -990,10 +1100,12 @@
     "scholar_id": "panorama_946642b6ca0e",
     "scholar_name": "黄天欢",
     "scholar_ids": [
-      "panorama_946642b6ca0e"
+      "panorama_946642b6ca0e",
+      "xianye_ben"
     ],
     "scholar_names": [
-      "黄天欢"
+      "黄天欢",
+      "贲晛烨"
     ],
     "source_record_ids": [
       "panorama_946642b6ca0e_a49a571add0f2f5e"
@@ -1010,10 +1122,19 @@
         "secondary_tags": [],
         "confidence": "medium",
         "note": ""
+      },
+      "xianye_ben": {
+        "category_id": "general_vision_ai",
+        "label": "视觉感知、语音信号与通用人工智能",
+        "scholar_name": "贲晛烨",
+        "secondary_tags": [],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "黄天欢：脑电基准、数据与评测"
+      "黄天欢：脑电基准、数据与评测",
+      "贲晛烨：视觉感知、语音信号与通用人工智能"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_benchmark",
@@ -1167,7 +1288,7 @@
       "Tianle Xue"
     ],
     "doi": "10.1109/access.2019.2932784",
-    "dblp_key": "",
+    "dblp_key": "journals/access/HuangCFBXX19",
     "paper_url": "https://doi.org/10.1109/access.2019.2932784",
     "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/8600701/08786092.pdf",
     "source_url": "https://openalex.org/W2966654977",
@@ -1178,7 +1299,8 @@
     "abstract_zh": "多视图表示由于其在机器学习问题上的良好性能而变得重要。本文提出了一种基于迁移学习的多视图表示框架，用于微表情识别。该框架以宏表情为辅助域，微表情为目标域，通过传递从辅助域提取的丰富信息来辅助微表情识别，有效解决了微表情识别的小样本问题。所提出的算法主要由三部分组成。首先，将两个领域的特征投影到公共空间中，并分别研究每个领域的词典。然后迪克...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5102822348）",
     "status": "已索引出版/会议记录",
@@ -1189,10 +1311,12 @@
     "scholar_id": "panorama_946642b6ca0e",
     "scholar_name": "黄天欢",
     "scholar_ids": [
-      "panorama_946642b6ca0e"
+      "panorama_946642b6ca0e",
+      "xianye_ben"
     ],
     "scholar_names": [
-      "黄天欢"
+      "黄天欢",
+      "贲晛烨"
     ],
     "source_record_ids": [
       "panorama_946642b6ca0e_aff9eb7455d76f32"
@@ -1211,10 +1335,22 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "xianye_ben": {
+        "category_id": "multimodal_emotion",
+        "label": "多模态情感理解、面部表情与语音情绪",
+        "scholar_name": "贲晛烨",
+        "secondary_tags": [
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "黄天欢：情感脑电与多模态生理信号"
+      "黄天欢：情感脑电与多模态生理信号",
+      "贲晛烨：多模态情感理解、面部表情与语音情绪"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_affect",
@@ -1234,7 +1370,8 @@
     "source_url": "",
     "topics": [
       "情感计算与脑电方向",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",

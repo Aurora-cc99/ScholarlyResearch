@@ -161,7 +161,8 @@
       "脑电情感识别",
       "情感计算与情绪理解",
       "多模态与大语言模型",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感理解"
     ],
     "verification": "ORCID 0000-0001-7992-7965 作品记录；精确题名/DOI保留",
     "status": "已核验作品（Crossref/ORCID）",
@@ -289,11 +290,13 @@
     "resource_status": "本轮未关联独立资源；不等于作者未开源",
     "scholar_ids": [
       "panorama_9a7afcd2f866",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "张治国",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_9a7afcd2f866_orcid_123e3e927519f790"
@@ -323,12 +326,26 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑电情感计算与脑机接口",
+          "情感理解与情感智能",
+          "情感大模型与多模态基础模型",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "123e3e927519f790",
     "primary_categories_by_scholar": [
       "张治国：情感脑电与多模态生理信号",
-      "徐鹏：情感脑电与多模态生理信号"
+      "徐鹏：情感脑电与多模态生理信号",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "dblp_key": "journals/tcss/ShenWLLZXZNW26",
     "abstract_en": "Effective regulation of social decision-making is crucial for achieving equitable outcomes in human interactions. This study explores the impact of endogenous regulation on social decision-making and associated neural changes through a neurofeedback (NF) training framework. Given the relationship between social decision making, emotions, and frontal alpha asymmetry (FAA), this NF training enables individuals to self-regulate their FAA, thereby influencing their decision-making behavior. Eighty-one participants were randomly divided into the up-FAA group aiming at up-regulating FAA, the down-FAA group aiming at down-regulating FAA, and the sham-NF group. First, our results validated the specific NF training effect on selfregulating FAA. Notably, not all participants in the up-FAA and down-FAA groups successfully learned to regulate their FAA, leading to further subdivision into up-learner, down-learner, up-nonlearner, and down-nonlearner categories based on learning efficacy. Participants who effectively learned to reduce their FAA (down-learners) showed significant changes in decision behavior under moderately unfair conditions, characterized by increased rejection rates during the ultimatum game (UG) task. They also exhibited larger N200 amplitudes while balancing the decisionmaking period. In contrast, up learners demonstrated minimal behavioral changes despite increases in FAA. We conclude that decreases in FAA have a more pronounced impact on social decision-making than increases during NF training. This study highlights the effects of FAA self-regulation on fairness-related decision-making, revealing the neurobiological factors that shape decisions influenced by fairness perceptions. These findings offer valuable insights for enhancing social cooperation and justice.",
@@ -496,7 +513,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100363345）",
     "status": "已索引出版/会议记录",
@@ -1074,7 +1092,8 @@
     "abstract_source": "arxiv_api",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 21/1302）",
     "status": "预印本记录",
@@ -1359,7 +1378,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "ORCID 0000-0001-7992-7965 作品记录；精确题名/DOI保留",
     "status": "已核验作品（ORCID/DOI）",
@@ -2310,7 +2330,8 @@
       "情感理解与情感智能",
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感智能"
     ],
     "verification": "ORCID 0000-0001-7992-7965 作品记录；精确题名/DOI保留",
     "status": "已核验作品（ORCID/DOI）",
@@ -2667,7 +2688,8 @@
       "情感智能",
       "脑电/脑机接口",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -2736,12 +2758,14 @@
     "scholar_ids": [
       "liang_zhen",
       "panorama_9a7afcd2f866",
-      "panorama_peng_xu"
+      "panorama_peng_xu",
+      "fali_li"
     ],
     "scholar_names": [
       "梁臻",
       "张治国",
-      "徐鹏"
+      "徐鹏",
+      "李发礼"
     ],
     "source_record_ids": [
       "liang_zhen_4adf3db66071",
@@ -2785,13 +2809,29 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "EEG/脑机接口",
+          "情感智能",
+          "脑电/脑机接口",
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "情感理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "163ee8b079e93eca",
     "primary_categories_by_scholar": [
       "梁臻：情感识别、连续情绪与跨域建模",
       "张治国：情感脑电与多模态生理信号",
-      "徐鹏：情感脑电与多模态生理信号"
+      "徐鹏：情感脑电与多模态生理信号",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "candidate_source": false,
     "source_kind": "；ORCID 0000-0001-7992-7965 works",
@@ -3113,7 +3153,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "脑电大模型与通用解码",
-      "脑机接口与神经解码"
+      "脑机接口与神经解码",
+      "脑电基础大模型"
     ],
     "verification": "DBLP record lists Zhiguo Zhang 0001; DOI/arXiv URL independently checked in Crossref",
     "status": "已核验作品（DBLP/ORCID）",
@@ -3225,7 +3266,8 @@
       "情感智能",
       "脑电/脑机接口",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -3518,7 +3560,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 21/1302）",
     "status": "预印本记录",
@@ -4153,7 +4196,8 @@
       "脑电情感识别",
       "脑机接口与神经解码",
       "情感计算与情绪理解",
-      "强化学习与决策优化"
+      "强化学习与决策优化",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -4424,7 +4468,8 @@
       "情感理解与情感智能",
       "脑电大模型与通用解码",
       "情感计算与情绪理解",
-      "多模态与大语言模型"
+      "多模态与大语言模型",
+      "情感理解"
     ],
     "verification": "DBLP record lists Zhiguo Zhang 0001; DOI/arXiv URL independently checked in Crossref",
     "status": "已核验作品（DBLP/ORCID）",
@@ -4728,7 +4773,8 @@
     "abstract_zh": "基于参与者访谈的音频和文本表示的自动抑郁症检测引起了广泛的关注。然而，以往的研究大多仅使用一种单一模态的一种特征来进行抑郁症检测，因此访谈中音频和文本的丰富信息并未得到充分利用。此外，仍然缺乏一种有效的多模态融合方法来利用音频和文本表示之间的独立性。为了解决这些问题，我们提出了一种基于多级音频特征和文本句子嵌入交互的多模态融合抑郁检测模型。具体来说，我们首先提取低级描述符 (LLD)、mel 频谱图特征和 wav2vec fe...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 21/1302）",
     "status": "已索引出版/会议记录",
@@ -4749,7 +4795,9 @@
     ],
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://dcapswoz.ict.usc.edu/"
+    ],
     "model_urls": [],
     "scholar_categories": {
       "panorama_9a7afcd2f866": {
@@ -4909,10 +4957,12 @@
     "scholar_id": "panorama_9a7afcd2f866",
     "scholar_name": "张治国",
     "scholar_ids": [
-      "panorama_9a7afcd2f866"
+      "panorama_9a7afcd2f866",
+      "xipeng_qiu"
     ],
     "scholar_names": [
-      "张治国"
+      "张治国",
+      "邱锡鹏"
     ],
     "source_record_ids": [
       "panorama_9a7afcd2f866_d98dca634d950ac5"
@@ -4931,10 +4981,21 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "xipeng_qiu": {
+        "category_id": "general_foundation",
+        "label": "通用预训练大模型、视听生成与基础方法",
+        "scholar_name": "邱锡鹏",
+        "secondary_tags": [
+          "脑电基础大模型"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "张治国：脑电基础模型与通用解码"
+      "张治国：脑电基础模型与通用解码",
+      "邱锡鹏：通用预训练大模型、视听生成与基础方法"
     ],
     "resource_status": "本轮未关联到独立资源；不等于作者未开源",
     "category_id": "eeg_foundation",
@@ -6035,7 +6096,8 @@
       "脑电/脑机接口",
       "情感智能",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -6303,7 +6365,8 @@
     "abstract_zh": "抑郁症是全球普遍存在的心理健康问题，带来了重大的社会和经济挑战。早期检测和治疗对于减少这些影响和改善患者治疗效果至关重要。传统的诊断方法很大程度上依赖于精神科医生的主观评估，这凸显了开发自动化和客观诊断工具的重要性。本文介绍了 IntervoxNet，这是一种专门用于分析采访音频的新型计算机辅助检测系统。 IntervoxNet 采用双模式方法，利用音频梅尔频谱变换器 (AMST) 进行音频处理，以及将变换器的双向编码器表示与卷积相结合的混合模型...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100363345）",
     "status": "已索引出版/会议记录",
@@ -6324,7 +6387,9 @@
     ],
     "resource_ids": [],
     "code_urls": [],
-    "data_urls": [],
+    "data_urls": [
+      "https://dcapswoz.ict.usc.edu/"
+    ],
     "model_urls": [],
     "scholar_categories": {
       "panorama_9a7afcd2f866": {
@@ -6396,7 +6461,8 @@
       "脑电/脑机接口",
       "脑电情感识别",
       "脑机接口与神经解码",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -6462,14 +6528,16 @@
       "https://bcmi.sjtu.edu.cn/home/seed/"
     ],
     "model_urls": [],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "scholar_ids": [
       "liang_zhen",
-      "panorama_9a7afcd2f866"
+      "panorama_9a7afcd2f866",
+      "fali_li"
     ],
     "scholar_names": [
       "梁臻",
-      "张治国"
+      "张治国",
+      "李发礼"
     ],
     "source_record_ids": [
       "liang_zhen_dbe4a40db98d",
@@ -6497,12 +6565,28 @@
         ],
         "confidence": "verified",
         "note": "ORCID DOI作品记录已核验"
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "EEG/脑机接口",
+          "情感智能",
+          "脑电/脑机接口",
+          "脑电情感识别",
+          "脑机接口与神经解码",
+          "情感计算与情绪理解"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "global_record_id": "6c22b69e6e073a46",
     "primary_categories_by_scholar": [
       "梁臻：情感识别、连续情绪与跨域建模",
-      "张治国：情感脑电与多模态生理信号"
+      "张治国：情感脑电与多模态生理信号",
+      "李发礼：生理情感数据库、基准与综述"
     ],
     "candidate_source": false,
     "source_kind": "ORCID public works API + 机构主页",
@@ -6532,7 +6616,8 @@
       "情感大模型与多模态基础模型",
       "情感计算与情绪理解",
       "强化学习与决策优化",
-      "医学影像与脑疾病诊断"
+      "医学影像与脑疾病诊断",
+      "情感智能"
     ],
     "verification": "ORCID 0000-0001-7992-7965 作品记录；精确题名/DOI保留",
     "status": "已核验作品（ORCID/DOI）",
@@ -7522,7 +7607,8 @@
       "情感智能",
       "脑电/脑机接口",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -7965,7 +8051,8 @@
       "情感智能",
       "脑电/脑机接口",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -8086,7 +8173,8 @@
     "abstract_zh": "背景 政府的 COVID-19 大流行应对封锁策略对个人的心理和身体产生了负面影响，因此需要特别关注孕妇的心理健康。迄今为止，还没有针对中国孕妇感知压力与失眠症状之间潜在关系的大规模研究。在 COVID-19 大流行期间，我们想了解感知压力与失眠症状之间是否存在关联，以及恢复力对中国孕妇的调节影响。方法 这项横断面研究采用多阶段抽样方法对来自中国中西部的 2115 名孕妇进行了调查。使用系统调查问卷收集...",
     "abstract_source": "openalex_verified",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感智能"
     ],
     "verification": "OpenAlex作者ID与机构/合作网络交叉核验记录（https://openalex.org/A5100363345）",
     "status": "已索引出版/会议记录",
@@ -9505,7 +9593,9 @@
     "abstract_source": "arxiv_api",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解",
+      "情感智能"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 21/1302）",
     "status": "预印本记录",
@@ -9516,10 +9606,12 @@
     "scholar_id": "panorama_9a7afcd2f866",
     "scholar_name": "张治国",
     "scholar_ids": [
-      "panorama_9a7afcd2f866"
+      "panorama_9a7afcd2f866",
+      "fali_li"
     ],
     "scholar_names": [
-      "张治国"
+      "张治国",
+      "李发礼"
     ],
     "source_record_ids": [
       "panorama_9a7afcd2f866_b5968660a9b70802"
@@ -9543,12 +9635,26 @@
         ],
         "confidence": "medium",
         "note": ""
+      },
+      "fali_li": {
+        "category_id": "eeg_affect_bench",
+        "label": "生理情感数据库、基准与综述",
+        "scholar_name": "李发礼",
+        "secondary_tags": [
+          "脑电情感识别",
+          "情感计算与情绪理解",
+          "情感理解",
+          "情感智能"
+        ],
+        "confidence": "medium",
+        "note": ""
       }
     },
     "primary_categories_by_scholar": [
-      "张治国：情感脑电与多模态生理信号"
+      "张治国：情感脑电与多模态生理信号",
+      "李发礼：生理情感数据库、基准与综述"
     ],
-    "resource_status": "已关联公开代码/数据/模型资源",
+    "resource_status": "已关联公开资源入口",
     "category_id": "eeg_affect",
     "primary_category": "情感脑电与多模态生理信号"
   },
@@ -12172,7 +12278,8 @@
       "情感智能",
       "脑电/脑机接口",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "topic_basis": "基于标题关键词初筛；未视为全文分类",
     "resource_ids": [
@@ -12282,7 +12389,8 @@
       "EEG/BCI",
       "emotion/affective",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "resource_ids": [
       "liang_zhen__LIANG_CODE_EEGFuseNet",
@@ -13023,7 +13131,8 @@
       "EEG/BCI",
       "emotion/affective",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "resource_ids": [
       "liang_zhen__LIANG_EXT_SEED",

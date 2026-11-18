@@ -414,7 +414,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -942,7 +943,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 47/3464-3）",
     "status": "已索引出版/会议记录",
@@ -1032,7 +1034,8 @@
       "脑电情感计算与脑机接口",
       "情感理解与情感智能",
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "主题筛选候选；中国985/211高校全景名单导入；论文条目待逐篇来源核验；批量作者作品扩展记录",
     "status": "候选条目/需按作者主页继续核验",
@@ -1114,7 +1117,8 @@
     "abstract_source": "openalex_verified",
     "topics": [
       "脑电情感识别",
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 47/3464-3）",
     "status": "已索引出版/会议记录",
@@ -2103,7 +2107,9 @@
     "abstract_en": "Graph neural networks (GNNs) have achieved success in social recommender systems due to its capacity of capturing high-order collaborative filtering effects. However, some issues, such as vector scale distortion and over-smoothing, are obstacles to improving the performance of GNN-based models. This paper investigates these two issues and proposes an enhanced self-supervised graph learning (ESGL) algorithm based on GNN for social recommendation. By introducing a scale regulation module, ESGL can solve the issue of vector scale distortion. The scale regulation module takes the output of GNN as its input and generates the scaling matrix that limits the scale of embeddings. In addition, ESGL adopts two kinds of self-supervised learning schemes to enhance the recommendation performance. One scheme is to learn the similarity between users, while the other scheme is the embedding-level contrastive learning. The latter regards the initial normalized embedding of a user node and its average normalized embedding generated in the rest layers as positive samples. Experimental results have shown that our model is effective in improving recommendations.",
     "abstract_zh": "图神经网络（GNN）由于其捕获高阶协同过滤效果的能力而在社交推荐系统中取得了成功。然而，向量尺度失真和过度平滑等一些问题是提高基于 GNN 的模型性能的障碍。本文研究了这两个问题，并提出了一种基于 GNN 的增强型自监督图学习（ESGL）算法，用于社交推荐。 ESGL通过引入尺度调节模块，可以解决矢量尺度失真的问题。尺度调节模块将 GNN 的输出作为输入，生成限制嵌入尺度的尺度矩阵。此外，ESGL采用两种自监督学习方案……",
     "abstract_source": "openalex_doi",
-    "topics": [],
+    "topics": [
+      "脑电基础大模型"
+    ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 89/5992-4）",
     "status": "已索引出版/会议记录",
     "source_kind": "dblp_sparql",
@@ -4097,7 +4103,8 @@
     "abstract_zh": "文本数据的高维性和稀疏性是情感分析的主要障碍。这些障碍可以通过使用一些技术（例如特征选择）来消除。在本文中，我们提出了一种用于情感分析的过滤特征选择方法，称为判别方差标准（DVC）。 DVC 利用特征和类方差来选择判别特征。从统计上讲，特征的特征方差是其总分散度。除此之外，DVC还通过引入数据的类别信息来考虑每个类别中特征的类别方差，即类别分散度。因此，DVC 选择总分散度较高和类分散度较低的项作为最佳特征子集。有效性和...",
     "abstract_source": "openalex_doi",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 89/5992-4）",
     "status": "已索引出版/会议记录",
@@ -7652,7 +7659,8 @@
     "abstract_zh": "",
     "abstract_source": "",
     "topics": [
-      "情感计算与情绪理解"
+      "情感计算与情绪理解",
+      "情感理解"
     ],
     "verification": "DBLP官方SPARQL作者身份核验记录（PID: 89/5992-4）",
     "status": "已索引出版/会议记录",
